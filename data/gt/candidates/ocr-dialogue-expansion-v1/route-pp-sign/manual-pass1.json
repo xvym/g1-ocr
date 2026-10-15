@@ -1,0 +1,943 @@
+{
+  "source": "data/frames/video-03/dialogue-route-context-v1",
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+  "name": "路牌PP与休息说明五页",
+  "status": "first_raw_read_complete_not_frozen",
+  "viewed": "Every selected source frame viewed in indoor-first000-009, centre-npc-first000-010, route-sign-first000-010 or nurse-first000-015; nurse menu additionally all40 raw crops1884-1923 and full1892/1920/1921/2145. Pixel changes only navigate, no tested outputs.",
+  "notes": [
+    "Direct current agent raw-frame read, no tested OCR or production translation output read",
+    "First-read record retained; independent source re-decode/second visual read still required"
+  ],
+  "frozen": false,
+  "mediaId": "video-03",
+  "range": [
+    6682,
+    6852
+  ],
+  "states": [
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "textbox_empty",
+      "startFrame": 6684,
+      "fields": [],
+      "endFrameExclusive": 6692
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6692,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "…… おと"
+        }
+      ],
+      "endFrameExclusive": 6694
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6694,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "…… おとくな"
+        }
+      ],
+      "endFrameExclusive": 6695
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6695,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "…… おとくな けいじ"
+        }
+      ],
+      "endFrameExclusive": 6696
+    },
+    {
+      "pageOpportunityId": "route-pp-sign-1",
+      "completePage": true,
+      "menuCursors": [],
+      "kind": "message_complete",
+      "startFrame": 6696,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "…… おとくな けいじばん！"
+        }
+      ],
+      "endFrameExclusive": 6697
+    },
+    {
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "…… おとくな けいじばん！"
+        }
+      ],
+      "startFrame": 6697,
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "endFrameExclusive": 6717,
+      "completePage": true,
+      "pageOpportunityId": "route-pp-sign-1",
+      "kind": "message_complete",
+      "menuCursors": []
+    },
+    {
+      "pageOpportunityId": "route-pp-sign-1",
+      "completePage": true,
+      "menuCursors": [],
+      "kind": "message_complete",
+      "startFrame": 6717,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "…… おとくな けいじばん！"
+        }
+      ],
+      "endFrameExclusive": 6719
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "textbox_empty",
+      "startFrame": 6719,
+      "fields": [],
+      "endFrameExclusive": 6728
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6728,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "ポケモ"
+        }
+      ],
+      "endFrameExclusive": 6729
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6729,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "ポケモンには"
+        }
+      ],
+      "endFrameExclusive": 6730
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6730,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "ポケモンには たい"
+        }
+      ],
+      "endFrameExclusive": 6731
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6731,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "ポケモンには たいりょく"
+        }
+      ],
+      "endFrameExclusive": 6732
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6732,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "ポケモンには たいりょくの ほ"
+        }
+      ],
+      "endFrameExclusive": 6734
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6734,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "ポケモンには たいりょくの ほか"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "わざ"
+        }
+      ],
+      "endFrameExclusive": 6735
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6735,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "ポケモンには たいりょくの ほか"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "わざを く"
+        }
+      ],
+      "endFrameExclusive": 6736
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6736,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "ポケモンには たいりょくの ほか"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "わざを くりだす"
+        }
+      ],
+      "endFrameExclusive": 6737
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6737,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "ポケモンには たいりょくの ほか"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "わざを くりだす げん"
+        }
+      ],
+      "endFrameExclusive": 6738
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6738,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "ポケモンには たいりょくの ほか"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "わざを くりだす げんきの"
+        }
+      ],
+      "endFrameExclusive": 6740
+    },
+    {
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "ポケモンには たいりょくの ほか"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "わざを くりだす げんきの もと"
+        }
+      ],
+      "startFrame": 6740,
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "endFrameExclusive": 6753,
+      "completePage": true,
+      "pageOpportunityId": "route-pp-sign-2",
+      "kind": "message_complete",
+      "menuCursors": []
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "scrolling",
+      "startFrame": 6753,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 13,
+          "col": 1,
+          "id": "message-top",
+          "text": "ホケモンには たいりょくの ほか"
+        },
+        {
+          "role": "dialogue",
+          "row": 15,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "わざを くりだす げんきの もと"
+        }
+      ],
+      "renderNote": "Current8-pixel upward scroll, upper diacritics clipped by textbox; only visible bases transcribed",
+      "endFrameExclusive": 6754
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6754,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざを くりだす げんきの もと"
+        }
+      ],
+      "endFrameExclusive": 6756
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6756,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざを くりだす げんきの もと"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "パワ"
+        }
+      ],
+      "endFrameExclusive": 6758
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6758,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざを くりだす げんきの もと"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "パワーポイ"
+        }
+      ],
+      "endFrameExclusive": 6759
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6759,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざを くりだす げんきの もと"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "パワーポイントが"
+        }
+      ],
+      "endFrameExclusive": 6760
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6760,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざを くりだす げんきの もと"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "パワーポイントが あり"
+        }
+      ],
+      "endFrameExclusive": 6761
+    },
+    {
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざを くりだす げんきの もと"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "パワーポイントが あります"
+        }
+      ],
+      "startFrame": 6761,
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "endFrameExclusive": 6782,
+      "completePage": true,
+      "pageOpportunityId": "route-pp-sign-3",
+      "kind": "message_complete",
+      "menuCursors": []
+    },
+    {
+      "pageOpportunityId": "route-pp-sign-3",
+      "completePage": true,
+      "menuCursors": [],
+      "kind": "message_complete",
+      "startFrame": 6782,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざを くりだす げんきの もと"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "パワーポイントが あります"
+        }
+      ],
+      "endFrameExclusive": 6783
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "textbox_empty",
+      "startFrame": 6783,
+      "fields": [],
+      "endFrameExclusive": 6791
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6791,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざ"
+        }
+      ],
+      "endFrameExclusive": 6792
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6792,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざ ごとの"
+        }
+      ],
+      "endFrameExclusive": 6794
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6794,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざ ごとの パワ"
+        }
+      ],
+      "endFrameExclusive": 6795
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6795,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざ ごとの パワーポイ"
+        }
+      ],
+      "endFrameExclusive": 6796
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6796,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざ ごとの パワーポイントが"
+        }
+      ],
+      "endFrameExclusive": 6797
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6797,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざ ごとの パワーポイントが"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "なくな"
+        }
+      ],
+      "endFrameExclusive": 6798
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6798,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざ ごとの パワーポイントが"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "なくなった"
+        }
+      ],
+      "endFrameExclusive": 6800
+    },
+    {
+      "pageOpportunityId": "route-pp-sign-4",
+      "completePage": true,
+      "menuCursors": [],
+      "kind": "message_complete",
+      "startFrame": 6800,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざ ごとの パワーポイントが"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "なくなった ときも"
+        }
+      ],
+      "endFrameExclusive": 6801
+    },
+    {
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "わざ ごとの パワーポイントが"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "なくなった ときも"
+        }
+      ],
+      "startFrame": 6801,
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "endFrameExclusive": 6814,
+      "completePage": true,
+      "pageOpportunityId": "route-pp-sign-4",
+      "kind": "message_complete",
+      "menuCursors": []
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "scrolling",
+      "startFrame": 6814,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 13,
+          "col": 1,
+          "id": "message-top",
+          "text": "わさ ことの ハワーホイントか"
+        },
+        {
+          "role": "dialogue",
+          "row": 15,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "なくなった ときも"
+        }
+      ],
+      "renderNote": "Current8-pixel upward scroll, upper diacritics clipped by textbox; only visible bases transcribed",
+      "endFrameExclusive": 6816
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6816,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "なくなった ときも"
+        }
+      ],
+      "endFrameExclusive": 6819
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6819,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "なくなった ときも"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケモ"
+        }
+      ],
+      "endFrameExclusive": 6820
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6820,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "なくなった ときも"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケモンセン"
+        }
+      ],
+      "endFrameExclusive": 6821
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6821,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "なくなった ときも"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケモンセンターで"
+        }
+      ],
+      "endFrameExclusive": 6822
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6822,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "なくなった ときも"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケモンセンターで やす"
+        }
+      ],
+      "endFrameExclusive": 6824
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 6824,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "なくなった ときも"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケモンセンターで やすませて"
+        }
+      ],
+      "endFrameExclusive": 6825
+    },
+    {
+      "pageOpportunityId": "route-pp-sign-5",
+      "completePage": true,
+      "menuCursors": [],
+      "kind": "message_complete",
+      "startFrame": 6825,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "なくなった ときも"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケモンセンターで やすませて！"
+        }
+      ],
+      "endFrameExclusive": 6845
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "empty_target",
+      "startFrame": 6845,
+      "fields": [],
+      "endFrameExclusive": 6849
+    }
+  ],
+  "scoredRange": [
+    6684,
+    6849
+  ],
+  "humanPerFrameVerification": "not claimed"
+}

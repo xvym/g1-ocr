@@ -1,0 +1,429 @@
+{
+  "status": "first_raw_read_complete_not_frozen",
+  "states": [
+    {
+      "completePage": false,
+      "startFrame": 6171,
+      "kind": "textbox_empty",
+      "endFrameExclusive": 6173,
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "completePage": false,
+      "startFrame": 6173,
+      "kind": "message_loading",
+      "endFrameExclusive": 6175,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたし",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6175,
+      "kind": "message_loading",
+      "endFrameExclusive": 6176,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしの な",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6176,
+      "kind": "message_loading",
+      "endFrameExclusive": 6178,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしの なまえは",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6178,
+      "kind": "message_loading",
+      "endFrameExclusive": 6179,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしの なまえは オー",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6179,
+      "kind": "message_loading",
+      "endFrameExclusive": 6180,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしの なまえは オーキド",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6180,
+      "kind": "message_loading",
+      "endFrameExclusive": 6181,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしの なまえは オーキド",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "み",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6181,
+      "kind": "message_loading",
+      "endFrameExclusive": 6183,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしの なまえは オーキド",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "みんなか",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6183,
+      "kind": "message_loading",
+      "endFrameExclusive": 6184,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしの なまえは オーキド",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "みんなからは",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6184,
+      "kind": "message_loading",
+      "endFrameExclusive": 6185,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしの なまえは オーキド",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "みんなからは ポケモ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6185,
+      "kind": "message_loading",
+      "endFrameExclusive": 6187,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしの なまえは オーキド",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "みんなからは ポケモン は",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": true,
+      "startFrame": 6187,
+      "endFrameExclusive": 6200,
+      "kind": "message_complete",
+      "fields": [
+        {
+          "text": "わたしの なまえは オーキド",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "みんなからは ポケモン はかせと",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "pageOpportunityId": "intro-oak-1",
+      "menuCursors": [],
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      }
+    },
+    {
+      "completePage": false,
+      "startFrame": 6200,
+      "kind": "scrolling",
+      "renderNote": "Upward scroll: current upper-row base glyphs retained, clipped upper diacritics are not restored from earlier or later frames",
+      "endFrameExclusive": 6202,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしの なまえは オーキト",
+          "row": 13,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "みんなからは ポケモン はかせと",
+          "row": 15,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6202,
+      "kind": "message_loading",
+      "endFrameExclusive": 6203,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "みんなからは ポケモン はかせと",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "した",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6203,
+      "kind": "message_loading",
+      "endFrameExclusive": 6205,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "みんなからは ポケモン はかせと",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "したわれて",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6205,
+      "kind": "message_loading",
+      "endFrameExclusive": 6206,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "みんなからは ポケモン はかせと",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "したわれて おる",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": true,
+      "startFrame": 6206,
+      "endFrameExclusive": 6210,
+      "kind": "message_complete",
+      "fields": [
+        {
+          "text": "みんなからは ポケモン はかせと",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "したわれて おるよ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "pageOpportunityId": "intro-oak-2",
+      "menuCursors": [],
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      }
+    },
+    {
+      "completePage": true,
+      "startFrame": 6210,
+      "endFrameExclusive": 6218,
+      "kind": "message_fading",
+      "fields": [
+        {
+          "text": "みんなからは ポケモン はかせと",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "したわれて おるよ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "pageOpportunityId": "intro-oak-2",
+      "menuCursors": [],
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      }
+    },
+    {
+      "completePage": false,
+      "startFrame": 6218,
+      "kind": "empty_target",
+      "endFrameExclusive": 6221,
+      "menuCursors": [],
+      "fields": []
+    }
+  ],
+  "viewed": "Every original frame6054-6479 in ordered original-pixel text crops sheets000-010, full-game navigation000-001; punctuation6374-6378 at nearest-neighbour3x",
+  "name": "博士自我介绍与淡出",
+  "humanPerFrameVerification": "not claimed",
+  "range": [
+    6169,
+    6223
+  ],
+  "frozen": false,
+  "source": "data/frames/video-01/expansion-context-f6000-f6660-v1",
+  "notes": [
+    "No tested OCR or translation read; direct current agent raw read",
+    "Each centred dot in these opening texts occupies its own8-pixel canonical cell: U+30FB, not replacement of a one-cell three-dot U+2026 glyph",
+    "Text remains visible during fade; do not clear GT before6218/6476",
+    "Scroll bases use はしめ/オーキト/ホ when upper marks clipped; no historical completion"
+  ],
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "scoredRange": [
+    6171,
+    6221
+  ],
+  "mediaId": "video-01"
+}

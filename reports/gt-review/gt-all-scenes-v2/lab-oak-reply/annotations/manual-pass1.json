@@ -1,0 +1,400 @@
+{
+  "source": "data/frames/video-01/dialogue-lab-context-v1",
+  "viewed": "All selected original-frame text crops directly read in corresponding *-first ordered sheets; full-game navigation read for context. Question yes/no region read separately in every frame; later independent re-decode will resolve timing and flashes.",
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "frozen": false,
+  "states": [
+    {
+      "kind": "empty_target",
+      "startFrame": 13431,
+      "endFrameExclusive": 13433,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "textbox_empty",
+      "startFrame": 13433,
+      "endFrameExclusive": 13435,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13435,
+      "endFrameExclusive": 13436,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "オー",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13436,
+      "endFrameExclusive": 13438,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "オーキド『",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13438,
+      "endFrameExclusive": 13439,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "オーキド『まー",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13439,
+      "endFrameExclusive": 13441,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "オーキド『まー！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "あわて",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13441,
+      "endFrameExclusive": 13442,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "オーキド『まー！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "あわてるな",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13442,
+      "endFrameExclusive": 13444,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "オーキド『まー！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "あわてるな グリー",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_complete",
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "オーキド『まー！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "あわてるな グリーン！",
+          "row": 16
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      },
+      "endFrameExclusive": 13468,
+      "startFrame": 13444,
+      "pageOpportunityId": "lab-oak-reply-1",
+      "completePage": true,
+      "menuCursors": []
+    },
+    {
+      "kind": "scrolling",
+      "startFrame": 13468,
+      "endFrameExclusive": 13470,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "オーキト『まー！",
+          "row": 13
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "あわてるな グリーン！",
+          "row": 15
+        }
+      ],
+      "completePage": false,
+      "renderNote": "Current8-pixel upward scroll, upper diacritics clipped by textbox; only visible bases transcribed",
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13470,
+      "endFrameExclusive": 13471,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "あわてるな グリーン！",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13471,
+      "endFrameExclusive": 13473,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "あわてるな グリーン！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "お",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13473,
+      "endFrameExclusive": 13475,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "あわてるな グリーン！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "おまえも",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13475,
+      "endFrameExclusive": 13476,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "あわてるな グリーン！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "おまえも すき",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13476,
+      "endFrameExclusive": 13477,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "あわてるな グリーン！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "おまえも すきなもの",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13477,
+      "endFrameExclusive": 13478,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "あわてるな グリーン！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "おまえも すきなものを",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13478,
+      "endFrameExclusive": 13479,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "あわてるな グリーン！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "おまえも すきなものを と",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_complete",
+      "startFrame": 13479,
+      "pageOpportunityId": "lab-oak-reply-2",
+      "endFrameExclusive": 13506,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "あわてるな グリーン！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "おまえも すきなものを とれ！",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "menuCursors": []
+    },
+    {
+      "kind": "empty_target",
+      "startFrame": 13506,
+      "endFrameExclusive": 13510,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    }
+  ],
+  "status": "first_raw_read_complete_not_frozen",
+  "name": "研究所博士回复与滚动",
+  "scoredRange": [
+    13431,
+    13510
+  ],
+  "notes": [
+    "Direct current agent raw-frame read, no tested OCR or production translation output read",
+    "First-read record retained; independent source re-decode/second visual read still required"
+  ],
+  "range": [
+    13429,
+    13512
+  ],
+  "mediaId": "video-01",
+  "humanPerFrameVerification": "not claimed"
+}

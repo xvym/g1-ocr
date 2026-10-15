@@ -1,0 +1,66 @@
+{
+  "unresolvedScoreDifferences": 0,
+  "status": "agent_double_raw_read_differences_resolved_not_approved",
+  "second": "manual-pass2.json",
+  "basis": "Direct raw second frame read and adjacent-frame/arrow/pixel navigation; no tested output",
+  "replacedFirstBoundaries": [
+    6337,
+    6364,
+    6366,
+    6370,
+    6373
+  ],
+  "frozen": false,
+  "first": "manual-pass1.json",
+  "corrections": [
+    [
+      6336,
+      "その ポケモン という いき",
+      "",
+      ""
+    ],
+    [
+      6344,
+      "その ポケモン という いきものを",
+      "ひとは ペットに したり",
+      "C1"
+    ],
+    [
+      6345,
+      "その ポケモン という いきものを",
+      "ひとは ペットに したり",
+      "C1A"
+    ],
+    [
+      6365,
+      "その ホケモン という いきものを",
+      "ひとは ペットに したり",
+      "S"
+    ],
+    [
+      6368,
+      "ひとは ペットに したり",
+      "",
+      ""
+    ],
+    [
+      6371,
+      "ひとは ペットに したり",
+      "しょう",
+      ""
+    ],
+    [
+      6372,
+      "ひとは ペットに したり",
+      "しょうぶに",
+      ""
+    ],
+    [
+      6374,
+      "ひとは ペットに したり",
+      "しょうぶに つかっ",
+      ""
+    ]
+  ],
+  "humanPerFrameVerification": "not claimed"
+}

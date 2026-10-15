@@ -1,0 +1,35 @@
+{
+  "eventType": "complete two-page status display including entry clear/redraw/exit clear",
+  "frozen": false,
+  "scoredRange": [
+    462,
+    564
+  ],
+  "set": "development",
+  "scopeLimits": [
+    "Party-list selection/opening not claimed by this clip; full source context preserved",
+    "Alternate raster/status list still requires own coverage check",
+    "Version/session independence unverified"
+  ],
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "boundaryStatus": "agent_double_read_complete_candidate_not_frozen",
+  "gt": "data/gt/candidates/ocr-all-scenes-v1/status-pages/ocr-candidate-v1.jsonl",
+  "startFrame": 460,
+  "mediaId": "video-02",
+  "scoreKind": "text_and_state",
+  "warmup": [
+    460,
+    462
+  ],
+  "timeBase": "1/12288",
+  "postContext": [
+    564,
+    568
+  ],
+  "id": "c83de914352e-f460-f568-status-pages",
+  "independentSession": "unverified",
+  "schemaVersion": 2,
+  "pageOpportunityPolicy": "explicit_id",
+  "endFrameExclusive": 568,
+  "selectionReason": "Before any tested OCR, select status-display lifecycle; pre-action submenu warmup, all entry and exit text transitions scored, returned list post-context"
+}

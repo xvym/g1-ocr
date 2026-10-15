@@ -1,0 +1,34 @@
+{
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "pageOpportunityPolicy": "explicit_id",
+  "scoreKind": "text_and_state",
+  "scopeLimits": [
+    "Not all source01 exploration or introduction scenes",
+    "Other conversations and source console overlays outside this selected event remain unverified"
+  ],
+  "boundaryStatus": "agent_double_read_complete_candidate_not_frozen",
+  "eventType": "complete outdoor NPC two-page conversation",
+  "schemaVersion": 2,
+  "startFrame": 9836,
+  "warmup": [
+    9836,
+    9838
+  ],
+  "id": "f53c237ad19a-f9836-f9930-exploration-npc",
+  "scoredRange": [
+    9838,
+    9926
+  ],
+  "mediaId": "video-01",
+  "selectionReason": "Source navigation frame9900 shows outdoor conversation; new context9600-10200 registered before extraction. Score begins before textbox opening9840, includes all loading/full/clear and four empty afterframes after9922",
+  "frozen": false,
+  "postContext": [
+    9926,
+    9930
+  ],
+  "timeBase": "1/30",
+  "independentSession": "unverified",
+  "set": "development",
+  "endFrameExclusive": 9930,
+  "gt": "data/gt/candidates/ocr-all-scenes-v1/exploration-npc/ocr-candidate-v1.jsonl"
+}

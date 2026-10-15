@@ -1,0 +1,37 @@
+{
+  "status":"first_raw_read_pending_exact_symbol_boundaries_and_second_read",
+  "source":"data/frames/video-04/expansion-context-f5100-f5650-v1",
+  "viewedOrderedFullFrames":[5200,5380],
+  "directFullFrames":[5190,5204,5205,5235,5241,5250,5251,5260,5265,5301,5304,5305,5306,5314,5359],
+  "humanPerFrameVerification":"not claimed",
+  "testedOcrOrTranslationOutput":"none exists or viewed",
+  "geometry":{"sourceOrigin":[150,0],"sourceGameRect":[150,0,750,544],"canonicalSize":[160,144],"sourceScaleXNumerator":15,"sourceScaleXDenominator":4,"sourceScaleYNumerator":34,"sourceScaleYDenominator":9,"itemCol":6,"itemRows":[4,6,8,10],"itemCursorCol":5,"parentCol":14,"parentRows":[2,4,6,8,10,12,14],"detachedMarkGridRect":[14,1,15,2],"downArrowGridRect":[18,11,19,12],"rectConvention":"floor left/top, ceil right/bottom"},
+  "parentVisibleWords":["ずかん","ポケモン","どうぐ","グリーン","レポート","せってい","とじる"],
+  "listPages":{
+    "A":["じてんしゃ","ポケモンのふえ","いいつりざお","ボロのつりざお"],
+    "B":["ポケモンのふえ","いいつりざお","ボロのつりざお","ピーピーエイダー × 1"],
+    "C":["いいつりざお","ボロのつりざお","ピーピーエイダー × 1","やめる"],
+    "D":["ボロのつりざお","ピーピーエイダー × 1","やめる"]
+  },
+  "textTransitions":[
+    [5200,5204,"parent all seven words; cursorcol13row6"],
+    [5204,5205,"parent first five words plus とじる; せってい erased; parent cursorcol13row6"],
+    [5205,5241,"A; visible parent とじる plus orphan dakuten only"],
+    [5241,5251,"B"],
+    [5251,5260,"C"],
+    [5260,5301,"D"],
+    [5301,5302,"ボロのつりざお / ボロのつりざお / ピーピーエイダー × 1 / やめる"],
+    [5302,5304,"C"],
+    [5304,5305,"いいつりざお / いいつりざお / ボロのつりざお / ピーピーエイダー × 1"],
+    [5305,5306,"B"],
+    [5306,5307,"ポケモンのふえ / ポケモンのふえ / いいつりざお / ボロのつりざお"],
+    [5307,5345,"A"],
+    [5345,5347,"B"],
+    [5347,5349,"C"],
+    [5349,5359,"D"],
+    [5359,5360,"menu wipe leaves ピーピーエイダー × 1 at row6 and やめる at row8 partly overlapped by player sprite; root first2/last2 words visible"],
+    [5360,5366,"parent seven words restored; cursorcol13row6"]
+  ],
+  "candidateIntent":"Backpack visible list/cursor/scroll operations; preserve all navigation redraw and duplicate rows. Opening/closing assessed separately; not frozen or review ready.",
+  "unresolved":[{"frame":5359,"region":"last glyph of やめる","reason":"player sprite overlaps visible base glyph during menu wipe; cannot reliably claim entire character from this frame; keep raw evidence and second independent read, do not restore from prior frame"},{"frames":[5205,5359],"region":"parent first label base fully masked","reason":"Only two dakuten strokes are visible above overlay. Record detached mark as symbol, never restore ずかん or an invisible base glyph; data contract/validator extension required before freezing."}]
+}

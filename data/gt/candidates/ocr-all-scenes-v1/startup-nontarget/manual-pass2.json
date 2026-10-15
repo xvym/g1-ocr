@@ -1,0 +1,84 @@
+{
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "mediaId": "video-01",
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "source": "data/frames/video-01/all-scenes-startup-pass2-v1",
+  "secondRead": "All 300 ordered independent source re-decodes, sheets000-014; no annotations or tested OCR visible",
+  "humanPerFrameVerification": "not claimed",
+  "fieldSets": {},
+  "states": [
+    {
+      "menuCursors": [],
+      "completePage": false,
+      "kind": "non_target",
+      "renderNote": "HOME launch/fade; console UI and tile outside target gameplay text",
+      "fields": [],
+      "startFrame": 90,
+      "endFrameExclusive": 102
+    },
+    {
+      "menuCursors": [],
+      "completePage": false,
+      "kind": "black_frame",
+      "renderNote": "Exact RGB zero; 8 frames",
+      "fields": [],
+      "startFrame": 102,
+      "endFrameExclusive": 110
+    },
+    {
+      "menuCursors": [],
+      "completePage": false,
+      "kind": "non_target",
+      "renderNote": "Nintendo3DS logo animation",
+      "fields": [],
+      "startFrame": 110,
+      "endFrameExclusive": 178
+    },
+    {
+      "menuCursors": [],
+      "completePage": false,
+      "kind": "black_frame",
+      "renderNote": "Exact RGB zero; 47 frames",
+      "fields": [],
+      "startFrame": 178,
+      "endFrameExclusive": 225
+    },
+    {
+      "menuCursors": [],
+      "completePage": false,
+      "kind": "non_target",
+      "renderNote": "Blank green gameplay raster; no target text",
+      "fields": [],
+      "startFrame": 225,
+      "endFrameExclusive": 262
+    },
+    {
+      "menuCursors": [],
+      "completePage": false,
+      "kind": "non_target",
+      "renderNote": "English copyright raster; outside gameplay UI text",
+      "fields": [],
+      "startFrame": 262,
+      "endFrameExclusive": 348
+    },
+    {
+      "menuCursors": [],
+      "completePage": false,
+      "kind": "non_target",
+      "renderNote": "HOME suspension animation and overlay",
+      "fields": [],
+      "startFrame": 348,
+      "endFrameExclusive": 366
+    },
+    {
+      "menuCursors": [],
+      "completePage": false,
+      "kind": "non_target",
+      "renderNote": "Suspended HOME after-state; console UI outside target",
+      "fields": [],
+      "startFrame": 366,
+      "endFrameExclusive": 390
+    }
+  ],
+  "scope": "Complete HOME launch and return to suspended HOME; all 300 original frames, zero target gameplay text; console labels/logos/copyright excluded by target scope, not unreadable text"
+}

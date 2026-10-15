@@ -1,0 +1,517 @@
+{
+  "firstRead": "All selected5174-5207 raw source directly viewed ordered sheets003-005 and original5181/5182/5194/5204/5205/5206",
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "states": [
+    {
+      "kind": "empty_target",
+      "endFrameExclusive": 5176,
+      "completePage": false,
+      "menuCursors": [],
+      "startFrame": 5174,
+      "fields": []
+    },
+    {
+      "kind": "menu_empty",
+      "endFrameExclusive": 5181,
+      "completePage": false,
+      "menuCursors": [],
+      "startFrame": 5176,
+      "fields": []
+    },
+    {
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            5,
+            15,
+            6
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only upper mark for not-yet-drawn row6 base visible"
+        },
+        {
+          "gridRect": [
+            16,
+            5,
+            17,
+            6
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only upper mark for not-yet-drawn row6 base visible"
+        }
+      ],
+      "kind": "menu_partial_redraw",
+      "endFrameExclusive": 5182,
+      "completePage": false,
+      "menuCursors": [
+        {
+          "gridRect": [
+            13,
+            2,
+            14,
+            3
+          ],
+          "style": "filled_right"
+        }
+      ],
+      "startFrame": 5181,
+      "fields": [
+        {
+          "text": "ずかん",
+          "col": 14,
+          "row": 2,
+          "id": "parent-0",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "ポケモン",
+          "col": 14,
+          "row": 4,
+          "id": "parent-1",
+          "role": "main_menu_label"
+        }
+      ]
+    },
+    {
+      "kind": "menu_complete",
+      "endFrameExclusive": 5189,
+      "completePage": true,
+      "menuCursors": [
+        {
+          "gridRect": [
+            13,
+            2,
+            14,
+            3
+          ],
+          "style": "filled_right"
+        }
+      ],
+      "startFrame": 5182,
+      "pageOpportunityId": "bag-main-first",
+      "fields": [
+        {
+          "text": "ずかん",
+          "col": 14,
+          "row": 2,
+          "id": "parent-0",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "ポケモン",
+          "col": 14,
+          "row": 4,
+          "id": "parent-1",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "どうぐ",
+          "col": 14,
+          "row": 6,
+          "id": "parent-2",
+          "role": "main_menu_label"
+        },
+        {
+          "row": 8,
+          "role": "main_menu_label",
+          "id": "parent-3",
+          "col": 14,
+          "variable": {
+            "type": "string",
+            "role": "player_name",
+            "displayValue": "グリーン"
+          },
+          "text": "グリーン"
+        },
+        {
+          "text": "レポート",
+          "col": 14,
+          "row": 10,
+          "id": "parent-4",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "せってい",
+          "col": 14,
+          "row": 12,
+          "id": "parent-5",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "とじる",
+          "col": 14,
+          "row": 14,
+          "id": "parent-6",
+          "role": "main_menu_label"
+        }
+      ]
+    },
+    {
+      "kind": "menu_complete",
+      "endFrameExclusive": 5194,
+      "completePage": true,
+      "menuCursors": [
+        {
+          "gridRect": [
+            13,
+            4,
+            14,
+            5
+          ],
+          "style": "filled_right"
+        }
+      ],
+      "startFrame": 5189,
+      "pageOpportunityId": "bag-main-second",
+      "fields": [
+        {
+          "text": "ずかん",
+          "col": 14,
+          "row": 2,
+          "id": "parent-0",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "ポケモン",
+          "col": 14,
+          "row": 4,
+          "id": "parent-1",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "どうぐ",
+          "col": 14,
+          "row": 6,
+          "id": "parent-2",
+          "role": "main_menu_label"
+        },
+        {
+          "row": 8,
+          "role": "main_menu_label",
+          "id": "parent-3",
+          "col": 14,
+          "variable": {
+            "type": "string",
+            "role": "player_name",
+            "displayValue": "グリーン"
+          },
+          "text": "グリーン"
+        },
+        {
+          "text": "レポート",
+          "col": 14,
+          "row": 10,
+          "id": "parent-4",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "せってい",
+          "col": 14,
+          "row": 12,
+          "id": "parent-5",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "とじる",
+          "col": 14,
+          "row": 14,
+          "id": "parent-6",
+          "role": "main_menu_label"
+        }
+      ]
+    },
+    {
+      "kind": "menu_complete",
+      "endFrameExclusive": 5204,
+      "completePage": true,
+      "menuCursors": [
+        {
+          "gridRect": [
+            13,
+            6,
+            14,
+            7
+          ],
+          "style": "filled_right"
+        }
+      ],
+      "startFrame": 5194,
+      "pageOpportunityId": "bag-main-items",
+      "fields": [
+        {
+          "text": "ずかん",
+          "col": 14,
+          "row": 2,
+          "id": "parent-0",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "ポケモン",
+          "col": 14,
+          "row": 4,
+          "id": "parent-1",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "どうぐ",
+          "col": 14,
+          "row": 6,
+          "id": "parent-2",
+          "role": "main_menu_label"
+        },
+        {
+          "row": 8,
+          "role": "main_menu_label",
+          "id": "parent-3",
+          "col": 14,
+          "variable": {
+            "type": "string",
+            "role": "player_name",
+            "displayValue": "グリーン"
+          },
+          "text": "グリーン"
+        },
+        {
+          "text": "レポート",
+          "col": 14,
+          "row": 10,
+          "id": "parent-4",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "せってい",
+          "col": 14,
+          "row": 12,
+          "id": "parent-5",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "とじる",
+          "col": 14,
+          "row": 14,
+          "id": "parent-6",
+          "role": "main_menu_label"
+        }
+      ]
+    },
+    {
+      "kind": "submenu_partial_redraw",
+      "endFrameExclusive": 5205,
+      "completePage": false,
+      "menuCursors": [
+        {
+          "gridRect": [
+            13,
+            6,
+            14,
+            7
+          ],
+          "style": "filled_right"
+        }
+      ],
+      "startFrame": 5204,
+      "fields": [
+        {
+          "text": "ずかん",
+          "col": 14,
+          "row": 2,
+          "id": "parent-0",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "ポケモン",
+          "col": 14,
+          "row": 4,
+          "id": "parent-1",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "どうぐ",
+          "col": 14,
+          "row": 6,
+          "id": "parent-2",
+          "role": "main_menu_label"
+        },
+        {
+          "row": 8,
+          "role": "main_menu_label",
+          "id": "parent-3",
+          "col": 14,
+          "variable": {
+            "type": "string",
+            "role": "player_name",
+            "displayValue": "グリーン"
+          },
+          "text": "グリーン"
+        },
+        {
+          "text": "レポート",
+          "col": 14,
+          "row": 10,
+          "id": "parent-4",
+          "role": "main_menu_label"
+        },
+        {
+          "text": "とじる",
+          "col": 14,
+          "row": 14,
+          "id": "parent-6",
+          "role": "main_menu_label"
+        }
+      ]
+    },
+    {
+      "startFrame": 5205,
+      "endFrameExclusive": 5206,
+      "downArrow": {
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ],
+        "style": "filled_down"
+      },
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "menuCursors": [],
+      "fields": [
+        {
+          "id": "list-row-0",
+          "role": "backpack_item_or_cancel",
+          "text": "じてんしゃ",
+          "col": 6,
+          "row": 4
+        },
+        {
+          "id": "list-row-1",
+          "role": "backpack_item_or_cancel",
+          "text": "ポケモンのふえ",
+          "col": 6,
+          "row": 6
+        },
+        {
+          "id": "list-row-2",
+          "role": "backpack_item_or_cancel",
+          "text": "いいつりざお",
+          "col": 6,
+          "row": 8
+        },
+        {
+          "id": "list-row-3",
+          "role": "backpack_item_or_cancel",
+          "text": "ボロのつりざお",
+          "col": 6,
+          "row": 10
+        },
+        {
+          "role": "parent_menu_visible_choice",
+          "id": "visible-parent-close",
+          "row": 14,
+          "col": 14,
+          "text": "とじる"
+        }
+      ],
+      "completePage": false,
+      "kind": "submenu_cursor_loading"
+    },
+    {
+      "startFrame": 5206,
+      "endFrameExclusive": 5208,
+      "downArrow": {
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ],
+        "style": "filled_down"
+      },
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "menuCursors": [
+        {
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ],
+          "style": "filled_right"
+        }
+      ],
+      "fields": [
+        {
+          "id": "list-row-0",
+          "role": "backpack_item_or_cancel",
+          "text": "じてんしゃ",
+          "col": 6,
+          "row": 4
+        },
+        {
+          "id": "list-row-1",
+          "role": "backpack_item_or_cancel",
+          "text": "ポケモンのふえ",
+          "col": 6,
+          "row": 6
+        },
+        {
+          "id": "list-row-2",
+          "role": "backpack_item_or_cancel",
+          "text": "いいつりざお",
+          "col": 6,
+          "row": 8
+        },
+        {
+          "id": "list-row-3",
+          "role": "backpack_item_or_cancel",
+          "text": "ボロのつりざお",
+          "col": 6,
+          "row": 10
+        },
+        {
+          "role": "parent_menu_visible_choice",
+          "id": "visible-parent-close",
+          "row": 14,
+          "col": 14,
+          "text": "とじる"
+        }
+      ],
+      "pageOpportunityId": "bag-first-item",
+      "completePage": true,
+      "kind": "menu_complete"
+    }
+  ],
+  "frozen": false,
+  "mediaSha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+  "notes": [
+    "5181 only first two labels and two detached marks for not-yet-drawn third row; no futureどうぐ restored",
+    "5204 child bottom border hides entireせってい base, other visible parent labels retained;5205 full child list/no cursor;5206 cursor appears",
+    "Two score frames5206-5207 and same complete first-item page overlap backpack navigation; count once in global frame/page union"
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "mediaId": "video-04",
+  "source": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1",
+  "secondRead": "All38 independently redecoded original frames5172-5209 raw-only viewed ordered sheets000-001; parent partial draw5181, detached marks,5204 hiddenせってい,5205 no cursor and5206 selection agree"
+}

@@ -1,0 +1,28 @@
+{
+  "pass1Sha256": "43938f47ec2fd1211108225586aa8f8171a9df3a0df1f594a45b27fc652a74a9",
+  "pass2Sha256": "383310c6d863252d5ff036dc8397c44e9b78342e936eeab38219cc21c6f2a3a2",
+  "statesCompared": 14,
+  "boundaryDifferences": 0,
+  "statesWithTextDifferences": 1,
+  "differences": [
+    {
+      "evidence": "reports/m2-trial-pass2-inspection-v1/frame-005296-nearest3.png",
+      "stateId": "c83de914352e-f5296-f5298",
+      "resolution": "Accept current-frame raw base ホ/シ and remove hidden mark cells; original nearest-neighbour crop proves clipping. No OCR or semantic correction used.",
+      "pass2": [
+        "セキチク ホケモン シム",
+        "キョウ にんてい トレーナー！"
+      ],
+      "pass1": [
+        "セキチク ポケモン ジム",
+        "キョウ にんてい トレーナー！"
+      ],
+      "frames": [
+        5296,
+        5298
+      ]
+    }
+  ],
+  "unresolvedScoredStates": [],
+  "reviewer": "same coding agent, two raw-image reads; no human frame-verification claim"
+}

@@ -1,0 +1,35 @@
+{
+  "humanPerFrameVerification": "not claimed",
+  "status": "first_raw_read_complete_not_frozen",
+  "scope": "Complete outdoor NPC conversation two pages from before textbox opening9840 through clear9922 and stable after-state",
+  "source": "data/frames/video-01/all-scenes-exploration-context-f9600-f10200-v1",
+  "frozen": false,
+  "boundaries": [
+    "9838-9840 no target",
+    "9840 box empty,9850 first text",
+    "9857 first page full with arrow",
+    "9877 clear,9888 new text",
+    "9898 second page full, no arrow",
+    "9922 text clears, score retains4 blank afterframes"
+  ],
+  "context": [
+    9836,
+    9930
+  ],
+  "geometry": "Source800x480, game origin240,96 scale2 canonical160x144, base rows14/16; borders/console text outside scope",
+  "literals": [
+    [
+      "わたしも",
+      "ポケモンを そだててるの！"
+    ],
+    [
+      "つよく なれば",
+      "ガードマンの かわりに なるしね"
+    ]
+  ],
+  "proposedScore": [
+    9838,
+    9926
+  ],
+  "viewedOriginalFrames": "Ordered sheets011-016 cover all selected score frames; original two-times source game crop; no tested output"
+}

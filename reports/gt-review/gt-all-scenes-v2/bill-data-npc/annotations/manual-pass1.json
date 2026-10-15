@@ -1,0 +1,489 @@
+{
+  "source": "data/frames/video-02/dialogue-town-context-v1",
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "name": "室内NPC正辉与PC数据三页",
+  "status": "first_raw_read_complete_not_frozen",
+  "viewed": "Every selected source frame viewed in indoor-first000-009, centre-npc-first000-010, route-sign-first000-010 or nurse-first000-015; nurse menu additionally all40 raw crops1884-1923 and full1892/1920/1921/2145. Pixel changes only navigate, no tested outputs.",
+  "notes": [
+    "Direct current agent raw-frame read, no tested OCR or production translation output read",
+    "First-read record retained; independent source re-decode/second visual read still required"
+  ],
+  "frozen": false,
+  "mediaId": "video-02",
+  "range": [
+    4549,
+    4654
+  ],
+  "states": [
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "empty_target",
+      "startFrame": 4551,
+      "fields": [],
+      "endFrameExclusive": 4553
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "textbox_empty",
+      "startFrame": 4553,
+      "fields": [],
+      "endFrameExclusive": 4560
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4560,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "マサ"
+        }
+      ],
+      "endFrameExclusive": 4562
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4562,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "マサキ に"
+        }
+      ],
+      "endFrameExclusive": 4563
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4563,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "マサキ にいちゃ"
+        }
+      ],
+      "endFrameExclusive": 4564
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4564,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "マサキ にいちゃん"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "じぶ"
+        }
+      ],
+      "endFrameExclusive": 4565
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4565,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "マサキ にいちゃん"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "じぶんで"
+        }
+      ],
+      "endFrameExclusive": 4566
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4566,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "マサキ にいちゃん"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "じぶんで あつめ"
+        }
+      ],
+      "endFrameExclusive": 4568
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4568,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "マサキ にいちゃん"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "じぶんで あつめた ポ"
+        }
+      ],
+      "endFrameExclusive": 4569
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4569,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "マサキ にいちゃん"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "じぶんで あつめた ポケモン"
+        }
+      ],
+      "endFrameExclusive": 4570
+    },
+    {
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "マサキ にいちゃん"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "じぶんで あつめた ポケモンも"
+        }
+      ],
+      "startFrame": 4570,
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "endFrameExclusive": 4587,
+      "completePage": true,
+      "pageOpportunityId": "bill-data-npc-1",
+      "kind": "message_complete",
+      "menuCursors": []
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "scrolling",
+      "startFrame": 4587,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 13,
+          "col": 1,
+          "id": "message-top",
+          "text": "マサキ にいちゃん"
+        },
+        {
+          "role": "dialogue",
+          "row": 15,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "じぶんで あつめた ポケモンも"
+        }
+      ],
+      "renderNote": "Current8-pixel upward scroll, upper diacritics clipped by textbox; only visible bases transcribed",
+      "endFrameExclusive": 4589
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4589,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "じぶんで あつめた ポケモンも"
+        }
+      ],
+      "endFrameExclusive": 4592
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4592,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "じぶんで あつめた ポケモンも"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "パソコ"
+        }
+      ],
+      "endFrameExclusive": 4593
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4593,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "じぶんで あつめた ポケモンも"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "パソコンの"
+        }
+      ],
+      "endFrameExclusive": 4594
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4594,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "じぶんで あつめた ポケモンも"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "パソコンの データ"
+        }
+      ],
+      "endFrameExclusive": 4596
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4596,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "じぶんで あつめた ポケモンも"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "パソコンの データに し"
+        }
+      ],
+      "endFrameExclusive": 4597
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4597,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "じぶんで あつめた ポケモンも"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "パソコンの データに してるよ"
+        }
+      ],
+      "endFrameExclusive": 4598
+    },
+    {
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "じぶんで あつめた ポケモンも"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "パソコンの データに してるよ！"
+        }
+      ],
+      "startFrame": 4598,
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "endFrameExclusive": 4616,
+      "completePage": true,
+      "pageOpportunityId": "bill-data-npc-2",
+      "kind": "message_complete",
+      "menuCursors": []
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "textbox_empty",
+      "startFrame": 4616,
+      "fields": [],
+      "endFrameExclusive": 4624
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4624,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "みせて"
+        }
+      ],
+      "endFrameExclusive": 4626
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4626,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "みせて もら"
+        }
+      ],
+      "endFrameExclusive": 4627
+    },
+    {
+      "pageOpportunityId": "bill-data-npc-3",
+      "completePage": true,
+      "menuCursors": [],
+      "kind": "message_complete",
+      "startFrame": 4627,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "みせて もらった?"
+        }
+      ],
+      "endFrameExclusive": 4648
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "empty_target",
+      "startFrame": 4648,
+      "fields": [],
+      "endFrameExclusive": 4652
+    }
+  ],
+  "scoredRange": [
+    4551,
+    4652
+  ],
+  "humanPerFrameVerification": "not claimed"
+}

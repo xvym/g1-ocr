@@ -1,0 +1,172 @@
+{
+  "source": "data/frames/video-03/dialogue-centre-context-v1",
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+  "name": "护士接收提示与完整等待",
+  "status": "first_raw_read_complete_not_frozen",
+  "viewed": "Every selected source frame viewed in indoor-first000-009, centre-npc-first000-010, route-sign-first000-010 or nurse-first000-015; nurse menu additionally all40 raw crops1884-1923 and full1892/1920/1921/2145. Pixel changes only navigate, no tested outputs.",
+  "notes": [
+    "Direct current agent raw-frame read, no tested OCR or production translation output read",
+    "First-read record retained; independent source re-decode/second visual read still required"
+  ],
+  "frozen": false,
+  "mediaId": "video-03",
+  "range": [
+    1920,
+    2091
+  ],
+  "states": [
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "textbox_empty",
+      "startFrame": 1922,
+      "fields": [],
+      "endFrameExclusive": 1923
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 1923,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "それで"
+        }
+      ],
+      "endFrameExclusive": 1924
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 1924,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "それでは"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "あず"
+        }
+      ],
+      "endFrameExclusive": 1925
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 1925,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "それでは"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "あずからせ"
+        }
+      ],
+      "endFrameExclusive": 1926
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 1926,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "それでは"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "あずからせて い"
+        }
+      ],
+      "endFrameExclusive": 1928
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 1928,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "それでは"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "あずからせて いただき"
+        }
+      ],
+      "endFrameExclusive": 1929
+    },
+    {
+      "pageOpportunityId": "nurse-intake-1",
+      "completePage": true,
+      "menuCursors": [],
+      "kind": "message_complete",
+      "startFrame": 1929,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "それでは"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "あずからせて いただきます！"
+        }
+      ],
+      "endFrameExclusive": 2088
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "textbox_empty",
+      "startFrame": 2088,
+      "fields": [],
+      "endFrameExclusive": 2089
+    }
+  ],
+  "scoredRange": [
+    1922,
+    2089
+  ],
+  "humanPerFrameVerification": "not claimed"
+}

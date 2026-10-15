@@ -1,0 +1,33 @@
+{
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+  "startFrame": 1042,
+  "id": "9c8aee036f72-f1042-f1104-shop-sell-entry",
+  "postContext": [
+    1102,
+    1104
+  ],
+  "timeBase": "1/12288",
+  "scoreKind": "text_and_state",
+  "eventType": "complete sale-list entry and selection operation",
+  "mediaId": "video-03",
+  "gt": "data/gt/candidates/ocr-all-scenes-v1/shop-sell-entry/ocr-candidate-v1.jsonl",
+  "scopeLimits": [
+    "Not all shop input covered or independent acceptance; selected navigation commits no transaction"
+  ],
+  "scoredRange": [
+    1044,
+    1102
+  ],
+  "endFrameExclusive": 1104,
+  "pageOpportunityPolicy": "explicit_id",
+  "selectionReason": "Before1048 parent cursor change, full prompt replacement,1068 partial list/1069 full list,1070 cursor and1092 selection move through stable second item; no completed sale",
+  "warmup": [
+    1042,
+    1044
+  ],
+  "frozen": false,
+  "set": "development",
+  "independentSession": "unverified",
+  "schemaVersion": 2,
+  "boundaryStatus": "first_raw_read_complete_second_pending"
+}

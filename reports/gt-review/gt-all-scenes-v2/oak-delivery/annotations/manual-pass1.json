@@ -1,0 +1,277 @@
+{
+  "source": "data/frames/video-01/dialogue-oak-context-v1",
+  "viewed": "All selected original-frame text crops directly read in corresponding *-first ordered sheets; full-game navigation read for context. Question yes/no region read separately in every frame; later independent re-decode will resolve timing and flashes.",
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "frozen": false,
+  "states": [
+    {
+      "kind": "textbox_empty",
+      "startFrame": 24213,
+      "endFrameExclusive": 24215,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 24215,
+      "endFrameExclusive": 24217,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "レッド",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 24217,
+      "endFrameExclusive": 24218,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "レッドは オ",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 24218,
+      "endFrameExclusive": 24220,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "レッドは オーキド",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 24220,
+      "endFrameExclusive": 24221,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "レッドは オーキド はか",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 24221,
+      "endFrameExclusive": 24223,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "レッドは オーキド はかせに",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "と",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 24223,
+      "endFrameExclusive": 24224,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "レッドは オーキド はかせに",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "とどけもの",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 24224,
+      "endFrameExclusive": 24226,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "レッドは オーキド はかせに",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "とどけものを",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 24226,
+      "endFrameExclusive": 24227,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "レッドは オーキド はかせに",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "とどけものを わたし",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_complete",
+      "startFrame": 24227,
+      "pageOpportunityId": "oak-delivery-1",
+      "endFrameExclusive": 24289,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "レッドは オーキド はかせに",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "とどけものを わたした！",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_complete",
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "レッドは オーキド はかせに",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "とどけものを わたした！",
+          "row": 16
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      },
+      "endFrameExclusive": 24311,
+      "startFrame": 24289,
+      "pageOpportunityId": "oak-delivery-1",
+      "completePage": true,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_complete",
+      "startFrame": 24311,
+      "pageOpportunityId": "oak-delivery-1",
+      "endFrameExclusive": 24317,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "レッドは オーキド はかせに",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "とどけものを わたした！",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "menuCursors": []
+    },
+    {
+      "kind": "textbox_empty",
+      "startFrame": 24317,
+      "endFrameExclusive": 24321,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    }
+  ],
+  "status": "first_raw_read_complete_not_frozen",
+  "name": "研究所交付包裹提示与箭头闪烁",
+  "scoredRange": [
+    24213,
+    24321
+  ],
+  "notes": [
+    "Direct current agent raw-frame read, no tested OCR or production translation output read",
+    "First-read record retained; independent source re-decode/second visual read still required"
+  ],
+  "range": [
+    24211,
+    24325
+  ],
+  "mediaId": "video-01",
+  "humanPerFrameVerification": "not claimed"
+}

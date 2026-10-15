@@ -1,0 +1,10 @@
+{
+  "humanPerFrameVerification": "not claimed",
+  "evidence": "Both annotations project same outlined triangle to sourceRect[210,90,240,121], directly raw-read; spelling difference is metadata, not changed image/GT text",
+  "descriptors": {
+    "outlined_right": "outline_right"
+  },
+  "deduplication": "Compare literal characters, mark cells, source/grid rectangles and visible symbols; omit annotation IDs/field-label naming from shared source-image denominator. No literal normalization or OCR-output-dependent change.",
+  "status": "annotation_descriptor_equivalence_for_overlap_deduplication_only",
+  "sourceFrame": "video-03:1439"
+}

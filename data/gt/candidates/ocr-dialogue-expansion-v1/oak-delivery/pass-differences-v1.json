@@ -1,0 +1,22 @@
+{
+  "removedFirstSnapshots": [
+    24311,
+    24317
+  ],
+  "frozen": false,
+  "unresolvedScoreDifferences": 0,
+  "first": "manual-pass1.json",
+  "second": "manual-pass2.json",
+  "status": "agent_double_raw_read_resolved_not_approved",
+  "agreement": "Same full-page literals; corrected transient timing/character visibility from new raw read",
+  "secondRawEvidence": "delivery-second sheets000-003: every123 original frames, arrow appears24289 and remains through24315, clears24316; next speaker24326 context only",
+  "replacementRawSnapshots": [
+    [
+      24316,
+      "",
+      "",
+      "textbox_empty"
+    ]
+  ],
+  "humanPerFrameVerification": "not claimed"
+}

@@ -1,0 +1,448 @@
+{
+  "source": "data/frames/video-02/dialogue-town-context-v1",
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "name": "室内NPC园长与假牙两页",
+  "status": "first_raw_read_complete_not_frozen",
+  "viewed": "Every selected source frame viewed in indoor-first000-009, centre-npc-first000-010, route-sign-first000-010 or nurse-first000-015; nurse menu additionally all40 raw crops1884-1923 and full1892/1920/1921/2145. Pixel changes only navigate, no tested outputs.",
+  "notes": [
+    "Direct current agent raw-frame read, no tested OCR or production translation output read",
+    "First-read record retained; independent source re-decode/second visual read still required"
+  ],
+  "frozen": false,
+  "mediaId": "video-02",
+  "range": [
+    4445,
+    4528
+  ],
+  "states": [
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "empty_target",
+      "startFrame": 4447,
+      "fields": [],
+      "endFrameExclusive": 4449
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "textbox_empty",
+      "startFrame": 4449,
+      "fields": [],
+      "endFrameExclusive": 4456
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4456,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "サファ"
+        }
+      ],
+      "endFrameExclusive": 4458
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4458,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "サファリ ゾ"
+        }
+      ],
+      "endFrameExclusive": 4459
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4459,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "サファリ ゾーンの"
+        }
+      ],
+      "endFrameExclusive": 4460
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4460,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "サファリ ゾーンの えん"
+        }
+      ],
+      "endFrameExclusive": 4461
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4461,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "サファリ ゾーンの えんちょう"
+        }
+      ],
+      "endFrameExclusive": 4463
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4463,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "サファリ ゾーンの えんちょう"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "おとし"
+        }
+      ],
+      "endFrameExclusive": 4464
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4464,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "サファリ ゾーンの えんちょう"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "おとし なの"
+        }
+      ],
+      "endFrameExclusive": 4465
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4465,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "サファリ ゾーンの えんちょう"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "おとし なのに す"
+        }
+      ],
+      "endFrameExclusive": 4466
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4466,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "サファリ ゾーンの えんちょう"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "おとし なのに すごく"
+        }
+      ],
+      "endFrameExclusive": 4468
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4468,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "サファリ ゾーンの えんちょう"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "おとし なのに すごく げんき"
+        }
+      ],
+      "endFrameExclusive": 4469
+    },
+    {
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "サファリ ゾーンの えんちょう"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "おとし なのに すごく げんきよ"
+        }
+      ],
+      "startFrame": 4469,
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "endFrameExclusive": 4487,
+      "completePage": true,
+      "pageOpportunityId": "safari-warden-npc-1",
+      "kind": "message_complete",
+      "menuCursors": []
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "textbox_empty",
+      "startFrame": 4487,
+      "fields": [],
+      "endFrameExclusive": 4494
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4494,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "で"
+        }
+      ],
+      "endFrameExclusive": 4495
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4495,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "でも……"
+        }
+      ],
+      "endFrameExclusive": 4496
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4496,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "でも…… 「は」"
+        }
+      ],
+      "endFrameExclusive": 4498
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4498,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "でも…… 「は」は"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ぜん"
+        }
+      ],
+      "endFrameExclusive": 4499
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4499,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "でも…… 「は」は"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ぜんぶ い"
+        }
+      ],
+      "endFrameExclusive": 4500
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4500,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "でも…… 「は」は"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ぜんぶ いれば"
+        }
+      ],
+      "endFrameExclusive": 4501
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "startFrame": 4501,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "でも…… 「は」は"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ぜんぶ いれば らしい"
+        }
+      ],
+      "endFrameExclusive": 4502
+    },
+    {
+      "pageOpportunityId": "safari-warden-npc-2",
+      "completePage": true,
+      "menuCursors": [],
+      "kind": "message_complete",
+      "startFrame": 4502,
+      "fields": [
+        {
+          "role": "dialogue",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "text": "でも…… 「は」は"
+        },
+        {
+          "role": "dialogue",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ぜんぶ いれば らしい けど"
+        }
+      ],
+      "endFrameExclusive": 4522
+    },
+    {
+      "completePage": false,
+      "menuCursors": [],
+      "kind": "empty_target",
+      "startFrame": 4522,
+      "fields": [],
+      "endFrameExclusive": 4526
+    }
+  ],
+  "scoredRange": [
+    4447,
+    4526
+  ],
+  "humanPerFrameVerification": "not claimed"
+}

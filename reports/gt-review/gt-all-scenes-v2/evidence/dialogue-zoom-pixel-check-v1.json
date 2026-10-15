@@ -1,0 +1,258 @@
+{
+  "status": "all21_expansion_profiles_first_complete_frame_zoom_exact_nearest_neighbor_pixels",
+  "checks": [
+    {
+      "crop": [
+        300,
+        108,
+        660,
+        432
+      ],
+      "differentPixels": 0,
+      "zoomScale": 3,
+      "item": "bill-data-npc",
+      "frame": 4570
+    },
+    {
+      "crop": [
+        300,
+        108,
+        660,
+        432
+      ],
+      "differentPixels": 0,
+      "zoomScale": 3,
+      "item": "bill-grandfather",
+      "frame": 4726
+    },
+    {
+      "crop": [
+        300,
+        108,
+        660,
+        432
+      ],
+      "differentPixels": 0,
+      "zoomScale": 3,
+      "item": "gym-sign-continuation",
+      "frame": 5303
+    },
+    {
+      "crop": [
+        240,
+        96,
+        560,
+        384
+      ],
+      "differentPixels": 0,
+      "zoomScale": 3,
+      "item": "intro-creatures",
+      "frame": 6264
+    },
+    {
+      "crop": [
+        240,
+        96,
+        560,
+        384
+      ],
+      "differentPixels": 0,
+      "zoomScale": 3,
+      "item": "intro-greeting",
+      "frame": 6072
+    },
+    {
+      "crop": [
+        240,
+        96,
+        560,
+        384
+      ],
+      "differentPixels": 0,
+      "zoomScale": 3,
+      "item": "intro-oak",
+      "frame": 6187
+    },
+    {
+      "crop": [
+        240,
+        96,
+        560,
+        384
+      ],
+      "differentPixels": 0,
+      "zoomScale": 3,
+      "item": "intro-pets",
+      "frame": 6344
+    },
+    {
+      "crop": [
+        240,
+        96,
+        560,
+        384
+      ],
+      "differentPixels": 0,
+      "zoomScale": 3,
+      "item": "intro-research",
+      "frame": 6410
+    },
+    {
+      "crop": [
+        240,
+        96,
+        560,
+        384
+      ],
+      "differentPixels": 0,
+      "zoomScale": 3,
+      "item": "lab-oak-reply",
+      "frame": 13444
+    },
+    {
+      "crop": [
+        240,
+        96,
+        560,
+        384
+      ],
+      "differentPixels": 0,
+      "zoomScale": 3,
+      "item": "lab-rival-demand",
+      "frame": 13393
+    },
+    {
+      "crop": [
+        180,
+        0,
+        780,
+        544
+      ],
+      "differentPixels": 0,
+      "zoomScale": 2,
+      "item": "league-centre-npc",
+      "frame": 1610
+    },
+    {
+      "crop": [
+        180,
+        0,
+        780,
+        544
+      ],
+      "differentPixels": 0,
+      "zoomScale": 2,
+      "item": "mart-child",
+      "frame": 596
+    },
+    {
+      "crop": [
+        300,
+        108,
+        660,
+        432
+      ],
+      "differentPixels": 0,
+      "zoomScale": 3,
+      "item": "museum-fee",
+      "frame": 3811
+    },
+    {
+      "crop": [
+        300,
+        108,
+        660,
+        432
+      ],
+      "differentPixels": 0,
+      "zoomScale": 3,
+      "item": "museum-question",
+      "frame": 3541
+    },
+    {
+      "crop": [
+        180,
+        0,
+        780,
+        544
+      ],
+      "differentPixels": 0,
+      "zoomScale": 2,
+      "item": "nurse-greeting",
+      "frame": 1841
+    },
+    {
+      "crop": [
+        180,
+        0,
+        780,
+        544
+      ],
+      "differentPixels": 0,
+      "zoomScale": 2,
+      "item": "nurse-intake",
+      "frame": 1929
+    },
+    {
+      "crop": [
+        180,
+        0,
+        780,
+        544
+      ],
+      "differentPixels": 0,
+      "zoomScale": 2,
+      "item": "nurse-return",
+      "frame": 2098
+    },
+    {
+      "crop": [
+        240,
+        96,
+        560,
+        384
+      ],
+      "differentPixels": 0,
+      "zoomScale": 3,
+      "item": "oak-delivery",
+      "frame": 24227
+    },
+    {
+      "crop": [
+        180,
+        0,
+        780,
+        544
+      ],
+      "differentPixels": 0,
+      "zoomScale": 2,
+      "item": "route-ledge-npc",
+      "frame": 6442
+    },
+    {
+      "crop": [
+        180,
+        0,
+        780,
+        544
+      ],
+      "differentPixels": 0,
+      "zoomScale": 2,
+      "item": "route-pp-sign",
+      "frame": 6696
+    },
+    {
+      "crop": [
+        300,
+        108,
+        660,
+        432
+      ],
+      "differentPixels": 0,
+      "zoomScale": 3,
+      "item": "safari-warden-npc",
+      "frame": 4469
+    }
+  ],
+  "limitations": "Deterministic pixel comparison of generated zooms, not new image detail or OCR acceptance"
+}

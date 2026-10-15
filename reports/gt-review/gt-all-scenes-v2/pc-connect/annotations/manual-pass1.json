@@ -1,0 +1,32 @@
+{
+  "status":"agent_first_raw_read_complete_not_frozen",
+  "source":"data/frames/video-02/expansion-context-f1320-f2520-v1",
+  "viewedOrderedOriginalGameCrops":[1340,1440],
+  "viewedFullOriginal":[1386,1387,1410,1411],
+  "noTestedProgramOutputExists":true,
+  "humanPerFrameVerification":"not claimed",
+  "fields":[
+    {"id":"pc-bill","role":"pc_menu_choice","text":"マサキの パソコン","col":2,"row":2},
+    {"id":"pc-player","role":"pc_menu_choice","text":"グリーンの パソコン","col":2,"row":4,"variable":{"role":"player_name","type":"string","displayValue":"グリーン"}},
+    {"id":"pc-professor","role":"pc_menu_choice","text":"オーキドの パソコン","col":2,"row":6},
+    {"id":"pc-league","role":"pc_menu_choice","text":"ポケモン リーグ","col":2,"row":8},
+    {"id":"pc-off","role":"pc_menu_choice","text":"スイッチを きる","col":2,"row":10}
+  ],
+  "states":[
+    [1379,1387,"menu_complete","",1,2,false,true],
+    [1387,1404,"menu_complete","",1,4,false,true],
+    [1404,1405,"textbox_empty","",1,4,false,false],
+    [1405,1406,"loading","じぶん",1,4,false,false],
+    [1406,1407,"loading","じぶんの パ",1,4,false,false],
+    [1407,1408,"loading","じぶんの パソコン",1,4,false,false],
+    [1408,1410,"loading","じぶんの パソコンと つ",1,4,false,false],
+    [1410,1411,"loading","じぶんの パソコンと つないだ",1,4,false,false],
+    [1411,1422,"complete_waiting","じぶんの パソコンと つないだ！",1,4,true,true],
+    [1422,1426,"textbox_empty","",1,4,false,false]
+  ],
+  "geometry":{"origin":[300,108],"raster":[360,324],"logical":[160,144],"scale":[9,4],"bodyCol":1,"bodyRow":14,"cursorStyle":"filled_right","downArrowGridRect":[18,16,19,17]},
+  "proposedClip":[1379,1430],
+  "proposedScore":[1379,1426],
+  "boundaryReason":"Complete main-menu cursor operation from row2 to row4, followed by complete connection confirmation loading/display/clear. Begins before cursor move with all fields readable; ends after prompt clears, before next prompt starts1430. Earlier window opening1353 has partly masked glyphs and remains pending; subsequent item-management message and actions not claimed.",
+  "scopeLimits":["PC cursor/connection confirmation only; no storage transaction certified","Earlier masked opening and later prompts/items remain pending","Game version and session isolation unverified"]
+}

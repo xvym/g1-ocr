@@ -1,0 +1,2013 @@
+{
+  "source": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1",
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+  "states": [
+    {
+      "kind": "menu_complete",
+      "pageOpportunityId": "shop-HM05-before",
+      "startFrame": 1408,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "id": "item-0",
+          "row": 4,
+          "text": "ひでんマシン05",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン05",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-1",
+          "row": 6,
+          "text": "ひでんマシン01",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン01",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-2",
+          "row": 8,
+          "text": "ひでんマシン03",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン03",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-3",
+          "row": 10,
+          "text": "ひでんマシン04",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン04",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "text": "どれを うっていただけますか？",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "shop_message"
+        }
+      ],
+      "completePage": true,
+      "endFrameExclusive": 1413,
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "startFrame": 1413,
+      "endFrameExclusive": 1414,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "id": "item-0",
+          "row": 4,
+          "text": "ひでんマシン05",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン05",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-1",
+          "row": 6,
+          "text": "ひでんマシン01",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン01",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-2",
+          "row": 8,
+          "text": "ひでんマシン03",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン03",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-3",
+          "row": 10,
+          "text": "ひでんマシン04",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン04",
+            "role": "item_name",
+            "type": "string"
+          }
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "kind": "message_clear_menu_remains",
+      "completePage": false
+    },
+    {
+      "startFrame": 1414,
+      "endFrameExclusive": 1415,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "outline_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "id": "item-0",
+          "row": 4,
+          "text": "ひでんマシン05",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン05",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-1",
+          "row": 6,
+          "text": "ひでんマシン01",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン01",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-2",
+          "row": 8,
+          "text": "ひでんマシン03",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン03",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-3",
+          "row": 10,
+          "text": "ひでんマシン04",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン04",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "text": "…",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "shop_message"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "kind": "message_loading",
+      "completePage": false
+    },
+    {
+      "startFrame": 1415,
+      "endFrameExclusive": 1417,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "outline_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "id": "item-0",
+          "row": 4,
+          "text": "ひでんマシン05",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン05",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-1",
+          "row": 6,
+          "text": "ひでんマシン01",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン01",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-2",
+          "row": 8,
+          "text": "ひでんマシン03",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン03",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-3",
+          "row": 10,
+          "text": "ひでんマシン04",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン04",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "text": "……その",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "shop_message"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "kind": "message_loading",
+      "completePage": false
+    },
+    {
+      "startFrame": 1417,
+      "endFrameExclusive": 1418,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "outline_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "id": "item-0",
+          "row": 4,
+          "text": "ひでんマシン05",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン05",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-1",
+          "row": 6,
+          "text": "ひでんマシン01",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン01",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-2",
+          "row": 8,
+          "text": "ひでんマシン03",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン03",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-3",
+          "row": 10,
+          "text": "ひでんマシン04",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン04",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "text": "……そのしなも",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "shop_message"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "kind": "message_loading",
+      "completePage": false
+    },
+    {
+      "startFrame": 1418,
+      "endFrameExclusive": 1419,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "outline_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "id": "item-0",
+          "row": 4,
+          "text": "ひでんマシン05",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン05",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-1",
+          "row": 6,
+          "text": "ひでんマシン01",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン01",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-2",
+          "row": 8,
+          "text": "ひでんマシン03",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン03",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-3",
+          "row": 10,
+          "text": "ひでんマシン04",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン04",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "text": "……そのしなものに",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "shop_message"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "kind": "message_loading",
+      "completePage": false
+    },
+    {
+      "startFrame": 1419,
+      "endFrameExclusive": 1420,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "outline_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "id": "item-0",
+          "row": 4,
+          "text": "ひでんマシン05",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン05",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-1",
+          "row": 6,
+          "text": "ひでんマシン01",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン01",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-2",
+          "row": 8,
+          "text": "ひでんマシン03",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン03",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-3",
+          "row": 10,
+          "text": "ひでんマシン04",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン04",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "text": "……そのしなものに おねだ",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "shop_message"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "kind": "message_loading",
+      "completePage": false
+    },
+    {
+      "startFrame": 1420,
+      "endFrameExclusive": 1422,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "outline_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "id": "item-0",
+          "row": 4,
+          "text": "ひでんマシン05",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン05",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-1",
+          "row": 6,
+          "text": "ひでんマシン01",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン01",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-2",
+          "row": 8,
+          "text": "ひでんマシン03",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン03",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-3",
+          "row": 10,
+          "text": "ひでんマシン04",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン04",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "text": "……そのしなものに おねだんを",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "shop_message"
+        },
+        {
+          "text": "お",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "shop_message"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "kind": "message_loading",
+      "completePage": false
+    },
+    {
+      "startFrame": 1422,
+      "endFrameExclusive": 1424,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "outline_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "id": "item-0",
+          "row": 4,
+          "text": "ひでんマシン05",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン05",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-1",
+          "row": 6,
+          "text": "ひでんマシン01",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン01",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-2",
+          "row": 8,
+          "text": "ひでんマシン03",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン03",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-3",
+          "row": 10,
+          "text": "ひでんマシン04",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン04",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "text": "……そのしなものに おねだんを",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "shop_message"
+        },
+        {
+          "text": "おつけするわけ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "shop_message"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "kind": "message_loading",
+      "completePage": false
+    },
+    {
+      "startFrame": 1424,
+      "endFrameExclusive": 1425,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "outline_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "id": "item-0",
+          "row": 4,
+          "text": "ひでんマシン05",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン05",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-1",
+          "row": 6,
+          "text": "ひでんマシン01",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン01",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-2",
+          "row": 8,
+          "text": "ひでんマシン03",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン03",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-3",
+          "row": 10,
+          "text": "ひでんマシン04",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン04",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "text": "……そのしなものに おねだんを",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "shop_message"
+        },
+        {
+          "text": "おつけするわけには",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "shop_message"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "kind": "message_loading",
+      "completePage": false
+    },
+    {
+      "startFrame": 1425,
+      "endFrameExclusive": 1426,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "outline_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "id": "item-0",
+          "row": 4,
+          "text": "ひでんマシン05",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン05",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-1",
+          "row": 6,
+          "text": "ひでんマシン01",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン01",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-2",
+          "row": 8,
+          "text": "ひでんマシン03",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン03",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-3",
+          "row": 10,
+          "text": "ひでんマシン04",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン04",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "text": "……そのしなものに おねだんを",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "shop_message"
+        },
+        {
+          "text": "おつけするわけには まいり",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "shop_message"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "kind": "message_loading",
+      "completePage": false
+    },
+    {
+      "kind": "message_complete",
+      "pageOpportunityId": "shop-rejection-message",
+      "startFrame": 1426,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "outline_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "id": "item-0",
+          "row": 4,
+          "text": "ひでんマシン05",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン05",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-1",
+          "row": 6,
+          "text": "ひでんマシン01",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン01",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-2",
+          "row": 8,
+          "text": "ひでんマシン03",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン03",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-3",
+          "row": 10,
+          "text": "ひでんマシン04",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン04",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "text": "……そのしなものに おねだんを",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "shop_message"
+        },
+        {
+          "text": "おつけするわけには まいりません",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "shop_message"
+        }
+      ],
+      "completePage": true,
+      "endFrameExclusive": 1428,
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "kind": "message_complete",
+      "pageOpportunityId": "shop-rejection-message",
+      "startFrame": 1428,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "outline_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "id": "item-0",
+          "row": 4,
+          "text": "ひでんマシン05",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン05",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-1",
+          "row": 6,
+          "text": "ひでんマシン01",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン01",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-2",
+          "row": 8,
+          "text": "ひでんマシン03",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン03",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-3",
+          "row": 10,
+          "text": "ひでんマシン04",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン04",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "text": "……そのしなものに おねだんを",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "shop_message"
+        },
+        {
+          "text": "おつけするわけには まいりません",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "shop_message"
+        }
+      ],
+      "completePage": true,
+      "endFrameExclusive": 1438,
+      "additionalDownArrows": [
+        {
+          "style": "filled_down",
+          "gridRect": [
+            18,
+            11,
+            19,
+            12
+          ],
+          "renderNote": "Original source retains list arrow while separate message wait arrow is visible"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      }
+    },
+    {
+      "startFrame": 1438,
+      "endFrameExclusive": 1439,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "outline_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "id": "item-0",
+          "row": 4,
+          "text": "ひでんマシン05",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン05",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-1",
+          "row": 6,
+          "text": "ひでんマシン01",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン01",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-2",
+          "row": 8,
+          "text": "ひでんマシン03",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン03",
+            "role": "item_name",
+            "type": "string"
+          }
+        },
+        {
+          "id": "item-3",
+          "row": 10,
+          "text": "ひでんマシン04",
+          "role": "item_name",
+          "col": 6,
+          "variable": {
+            "displayValue": "ひでんマシン04",
+            "role": "item_name",
+            "type": "string"
+          }
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "kind": "message_clear_menu_remains",
+      "completePage": false
+    },
+    {
+      "startFrame": 1439,
+      "endFrameExclusive": 1440,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うりに きた",
+          "col": 2,
+          "id": "sell",
+          "role": "menu_label"
+        },
+        {
+          "row": 5,
+          "text": "べつに いいです",
+          "col": 2,
+          "id": "leave",
+          "role": "menu_label"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        }
+      ],
+      "kind": "list_removed_parent_remains",
+      "completePage": false
+    }
+  ],
+  "frozen": false,
+  "firstRead": "All1408-1439 score frames raw-only viewed ordered sheets030-031 and full original key loading frames",
+  "humanPerFrameVerification": "not claimed",
+  "mediaId": "video-03",
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "notes": [
+    "Ellipsis glyph occupies one full8x8 cell with three dots;1414 is one U+2026, later two U+2026, not six ordinary fullwidth periods",
+    "Both list arrow and message arrow1428-1437 independently visible and both encoded",
+    "Money22526円 unchanged, selected HM05 transaction refused; no successful sale or balance change claimed",
+    "One scoring frame1439 overlaps existing shop-exit; global source frame union deduplicates"
+  ],
+  "secondRead": "All36 independently redecoded original frames1406-1441 raw-only viewed ordered sheets000-001; ellipsis occupancy, exact negation, two simultaneous arrows and1438/1439 clear confirmed"
+}

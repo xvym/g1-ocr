@@ -1,0 +1,32 @@
+{
+  "humanPerFrameVerification": "not claimed",
+  "viewedOriginalFrames": "Ordered sheets021-024 include all scored frames; whole context initially scanned for battle before any OCR",
+  "frozen": false,
+  "scope": "Complete faint/experience message display sequence from previous-message clear6916, all loads/pages/removal, all-HUD/text clear6958 and six empty after-frames; preceding attack and enemy HUD removal not claimed as this event",
+  "status": "first_raw_read_complete_not_frozen",
+  "source": "data/frames/video-02/expansion-context-f6480-f7240-v1",
+  "boundaryObservations": [
+    "6916 message clear while own HUD remains",
+    "6917-6923 faint text loads; arrow appears6923;6929 clear",
+    "6932-6940 experience text loads;6941 arrow;6950 arrow hides",
+    "6958 all target text/HUD disappears, no target text through6964; world fade starts6965 outside scoring"
+  ],
+  "context": [
+    6913,
+    6968
+  ],
+  "proposedScore": [
+    6916,
+    6964
+  ],
+  "literals": [
+    "ラプラス",
+    ":L",
+    "50",
+    "HP:",
+    "200/206",
+    "てきの ポニータは たおれた！",
+    "ラプラスは おおめに",
+    "976 けいけんちを もらった！"
+  ]
+}

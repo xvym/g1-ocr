@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "freezeVersion": "ocr-trial-v2",
+  "frozenAt": "2026-10-14T22:39:17.0016743+08:00",
+  "status": "frozen_approved_trial_only",
+  "authority": "This immutable envelope records approved freeze status; payload review/candidate fields remain byte-identical for traceability.",
+  "approvedReview": "gt-trial-v2",
+  "approvedBundleSha256": "7a1699a7c2cc298ed37f81958f9c6057f880bb4ad239eda3f6fffa33754c5bb4",
+  "approval": {
+    "message": "批准。你是需要我审核完一个gt再接着采集下一个gt吗？",
+    "date": "2026-10-14",
+    "basis": "Direct human reply to the preceding explicit request for gt-trial-v2, video-02 scored [5264,5299). Approval does not cover later expansion.",
+    "humanPerFrameVerification": "not claimed",
+    "timezone": "Asia/Shanghai"
+  },
+  "source": {
+    "mediaId": "video-02",
+    "sha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+    "frameLedgerSha256": "227125110fb04a576288c5a33b71ebb56083c815f96707f5366acf9fb968e555"
+  },
+  "scope": {
+    "unknownScoredStates": 0,
+    "frames": 35,
+    "frameExpectedCharacters": 488,
+    "postContext": [
+      5299,
+      5301
+    ],
+    "completePageOpportunities": 1,
+    "states": 14,
+    "independentSession": "unverified",
+    "clip": [
+      5262,
+      5301
+    ],
+    "scored": [
+      5264,
+      5299
+    ],
+    "equalStateExpectedCharacters": 194,
+    "warmup": [
+      5262,
+      5264
+    ],
+    "set": "development"
+  },
+  "payloads": [
+    {
+      "file": "ocr-candidate-v2.jsonl",
+      "approvedSource": "data/gt/candidates/ocr-trial-v1/ocr-candidate-v2.jsonl",
+      "sha256": "30d240232e03eaca07eeebe9502a56689e41bf223faa59c665c4e638a154de25",
+      "bytes": 18532
+    },
+    {
+      "file": "clip-trial-v2.json",
+      "approvedSource": "data/meta/clip-trial-v2.json",
+      "sha256": "a44fa579bf3699bca4b8edd654c2e1300507cd15002cc74bc34e7f8e314bd912",
+      "bytes": 1490
+    },
+    {
+      "file": "layout-v2.json",
+      "approvedSource": "data/gt/candidates/ocr-trial-v1/layout-v2.json",
+      "sha256": "f004f9fdb59681ef99f116593ad5a82b716380125487b7cf66b639ddfb00adf0",
+      "bytes": 998
+    },
+    {
+      "file": "ocr-scoring-contract-v1.json",
+      "approvedSource": "data/meta/ocr-scoring-contract-v1.json",
+      "sha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c",
+      "bytes": 3718
+    }
+  ],
+  "identityCheck": {
+    "path": "reports/gt-approval-trial-v2-identity.json",
+    "sha256": "bfb416a4099e480b468df126b2d36baecc96b14ae1118b7b141518b899e670a0"
+  },
+  "integrityCheck": {
+    "path": "reports/gt-approval-trial-v2-integrity.json",
+    "sha256": "627f7d810a2cd070e62b5ae156c41212b900f89fe306bda32cfa355d17fc8bbd"
+  },
+  "limitations": [
+    "Only this trial is frozen, not M2 completion",
+    "No OCR/translation executed or independently accepted",
+    "Other footage, sessions, versions/scenes and real capture remain unverified",
+    "Expand in combined review batches; never overwrite this version"
+  ]
+}

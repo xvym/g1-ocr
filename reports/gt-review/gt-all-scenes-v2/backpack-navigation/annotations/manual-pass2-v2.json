@@ -1,0 +1,1817 @@
+{
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "mediaId": "video-04",
+  "mediaSha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+  "source": "data/frames/video-04/all-scenes-backpack-pass2-v1",
+  "firstRead": "manual-pass1.json; full ordered originals5200-5379 and direct originals",
+  "secondRead": "all166 independently re-decoded game crops5200-5365; all152 scoring-frame cursor/arrow strips at original pixels; no GT or tested output overlays",
+  "humanPerFrameVerification": "not claimed",
+  "fieldSets": {
+    "D": [
+      {
+        "id": "list-row-0",
+        "role": "backpack_item_or_cancel",
+        "text": "ボロのつりざお",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "id": "list-row-1",
+        "role": "backpack_item_or_cancel",
+        "text": "ピーピーエイダー × 1",
+        "col": 6,
+        "row": 6,
+        "variable": {
+          "gridColumn": 17,
+          "numericValue": 1,
+          "indicator": "×",
+          "gridRow": 6,
+          "displayValue": "1",
+          "role": "item_quantity",
+          "type": "integer"
+        }
+      },
+      {
+        "id": "list-row-2",
+        "role": "backpack_item_or_cancel",
+        "text": "やめる",
+        "col": 6,
+        "row": 8
+      },
+      {
+        "role": "parent_menu_visible_choice",
+        "id": "visible-parent-close",
+        "row": 14,
+        "col": 14,
+        "text": "とじる"
+      }
+    ],
+    "E": [
+      {
+        "id": "list-row-0",
+        "role": "backpack_item_or_cancel",
+        "text": "ボロのつりざお",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "id": "list-row-1",
+        "role": "backpack_item_or_cancel",
+        "text": "ボロのつりざお",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "id": "list-row-2",
+        "role": "backpack_item_or_cancel",
+        "text": "ピーピーエイダー × 1",
+        "col": 6,
+        "row": 8,
+        "variable": {
+          "gridColumn": 17,
+          "numericValue": 1,
+          "indicator": "×",
+          "gridRow": 8,
+          "displayValue": "1",
+          "role": "item_quantity",
+          "type": "integer"
+        }
+      },
+      {
+        "id": "list-row-3",
+        "role": "backpack_item_or_cancel",
+        "text": "やめる",
+        "col": 6,
+        "row": 10
+      },
+      {
+        "role": "parent_menu_visible_choice",
+        "id": "visible-parent-close",
+        "row": 14,
+        "col": 14,
+        "text": "とじる"
+      }
+    ],
+    "C": [
+      {
+        "id": "list-row-0",
+        "role": "backpack_item_or_cancel",
+        "text": "いいつりざお",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "id": "list-row-1",
+        "role": "backpack_item_or_cancel",
+        "text": "ボロのつりざお",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "id": "list-row-2",
+        "role": "backpack_item_or_cancel",
+        "text": "ピーピーエイダー × 1",
+        "col": 6,
+        "row": 8,
+        "variable": {
+          "gridColumn": 17,
+          "numericValue": 1,
+          "indicator": "×",
+          "gridRow": 8,
+          "displayValue": "1",
+          "role": "item_quantity",
+          "type": "integer"
+        }
+      },
+      {
+        "id": "list-row-3",
+        "role": "backpack_item_or_cancel",
+        "text": "やめる",
+        "col": 6,
+        "row": 10
+      },
+      {
+        "role": "parent_menu_visible_choice",
+        "id": "visible-parent-close",
+        "row": 14,
+        "col": 14,
+        "text": "とじる"
+      }
+    ],
+    "F": [
+      {
+        "id": "list-row-0",
+        "role": "backpack_item_or_cancel",
+        "text": "いいつりざお",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "id": "list-row-1",
+        "role": "backpack_item_or_cancel",
+        "text": "いいつりざお",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "id": "list-row-2",
+        "role": "backpack_item_or_cancel",
+        "text": "ボロのつりざお",
+        "col": 6,
+        "row": 8
+      },
+      {
+        "id": "list-row-3",
+        "role": "backpack_item_or_cancel",
+        "text": "ピーピーエイダー × 1",
+        "col": 6,
+        "row": 10,
+        "variable": {
+          "gridColumn": 17,
+          "numericValue": 1,
+          "indicator": "×",
+          "gridRow": 10,
+          "displayValue": "1",
+          "role": "item_quantity",
+          "type": "integer"
+        }
+      },
+      {
+        "role": "parent_menu_visible_choice",
+        "id": "visible-parent-close",
+        "row": 14,
+        "col": 14,
+        "text": "とじる"
+      }
+    ],
+    "A": [
+      {
+        "id": "list-row-0",
+        "role": "backpack_item_or_cancel",
+        "text": "じてんしゃ",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "id": "list-row-1",
+        "role": "backpack_item_or_cancel",
+        "text": "ポケモンのふえ",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "id": "list-row-2",
+        "role": "backpack_item_or_cancel",
+        "text": "いいつりざお",
+        "col": 6,
+        "row": 8
+      },
+      {
+        "id": "list-row-3",
+        "role": "backpack_item_or_cancel",
+        "text": "ボロのつりざお",
+        "col": 6,
+        "row": 10
+      },
+      {
+        "role": "parent_menu_visible_choice",
+        "id": "visible-parent-close",
+        "row": 14,
+        "col": 14,
+        "text": "とじる"
+      }
+    ],
+    "G": [
+      {
+        "id": "list-row-0",
+        "role": "backpack_item_or_cancel",
+        "text": "ポケモンのふえ",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "id": "list-row-1",
+        "role": "backpack_item_or_cancel",
+        "text": "ポケモンのふえ",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "id": "list-row-2",
+        "role": "backpack_item_or_cancel",
+        "text": "いいつりざお",
+        "col": 6,
+        "row": 8
+      },
+      {
+        "id": "list-row-3",
+        "role": "backpack_item_or_cancel",
+        "text": "ボロのつりざお",
+        "col": 6,
+        "row": 10
+      },
+      {
+        "role": "parent_menu_visible_choice",
+        "id": "visible-parent-close",
+        "row": 14,
+        "col": 14,
+        "text": "とじる"
+      }
+    ],
+    "B": [
+      {
+        "id": "list-row-0",
+        "role": "backpack_item_or_cancel",
+        "text": "ポケモンのふえ",
+        "col": 6,
+        "row": 4
+      },
+      {
+        "id": "list-row-1",
+        "role": "backpack_item_or_cancel",
+        "text": "いいつりざお",
+        "col": 6,
+        "row": 6
+      },
+      {
+        "id": "list-row-2",
+        "role": "backpack_item_or_cancel",
+        "text": "ボロのつりざお",
+        "col": 6,
+        "row": 8
+      },
+      {
+        "id": "list-row-3",
+        "role": "backpack_item_or_cancel",
+        "text": "ピーピーエイダー × 1",
+        "col": 6,
+        "row": 10,
+        "variable": {
+          "gridColumn": 17,
+          "numericValue": 1,
+          "indicator": "×",
+          "gridRow": 10,
+          "displayValue": "1",
+          "role": "item_quantity",
+          "type": "integer"
+        }
+      },
+      {
+        "role": "parent_menu_visible_choice",
+        "id": "visible-parent-close",
+        "row": 14,
+        "col": 14,
+        "text": "とじる"
+      }
+    ]
+  },
+  "states": [
+    {
+      "startFrame": 5206,
+      "endFrameExclusive": 5216,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-0"
+    },
+    {
+      "startFrame": 5216,
+      "endFrameExclusive": 5223,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-0"
+    },
+    {
+      "startFrame": 5223,
+      "endFrameExclusive": 5226,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            6,
+            6,
+            7
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-1"
+    },
+    {
+      "startFrame": 5226,
+      "endFrameExclusive": 5232,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            6,
+            6,
+            7
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-1"
+    },
+    {
+      "startFrame": 5232,
+      "endFrameExclusive": 5236,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-2"
+    },
+    {
+      "startFrame": 5236,
+      "endFrameExclusive": 5241,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-2"
+    },
+    {
+      "startFrame": 5241,
+      "endFrameExclusive": 5242,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "B",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "startFrame": 5242,
+      "endFrameExclusive": 5251,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "B",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-3"
+    },
+    {
+      "startFrame": 5251,
+      "endFrameExclusive": 5252,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "C",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ]
+    },
+    {
+      "startFrame": 5252,
+      "endFrameExclusive": 5260,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "C",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-4"
+    },
+    {
+      "startFrame": 5260,
+      "endFrameExclusive": 5261,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "D",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ]
+    },
+    {
+      "startFrame": 5261,
+      "endFrameExclusive": 5270,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "D",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-5"
+    },
+    {
+      "startFrame": 5270,
+      "endFrameExclusive": 5271,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "D",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ]
+    },
+    {
+      "startFrame": 5271,
+      "endFrameExclusive": 5282,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "D",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-5"
+    },
+    {
+      "startFrame": 5282,
+      "endFrameExclusive": 5283,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "D",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ]
+    },
+    {
+      "startFrame": 5283,
+      "endFrameExclusive": 5291,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "D",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-5"
+    },
+    {
+      "startFrame": 5291,
+      "endFrameExclusive": 5300,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "D",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            6,
+            6,
+            7
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-6"
+    },
+    {
+      "startFrame": 5300,
+      "endFrameExclusive": 5301,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "D",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-7"
+    },
+    {
+      "startFrame": 5301,
+      "endFrameExclusive": 5302,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "E",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ]
+    },
+    {
+      "startFrame": 5302,
+      "endFrameExclusive": 5303,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "C",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ]
+    },
+    {
+      "startFrame": 5303,
+      "endFrameExclusive": 5304,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "C",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-8"
+    },
+    {
+      "startFrame": 5304,
+      "endFrameExclusive": 5305,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "F",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "startFrame": 5305,
+      "endFrameExclusive": 5306,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "B",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-9"
+    },
+    {
+      "startFrame": 5306,
+      "endFrameExclusive": 5307,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "G",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "startFrame": 5307,
+      "endFrameExclusive": 5308,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "A",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "startFrame": 5308,
+      "endFrameExclusive": 5309,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-10"
+    },
+    {
+      "startFrame": 5309,
+      "endFrameExclusive": 5310,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "A",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "startFrame": 5310,
+      "endFrameExclusive": 5311,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-10"
+    },
+    {
+      "startFrame": 5311,
+      "endFrameExclusive": 5312,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "A",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "startFrame": 5312,
+      "endFrameExclusive": 5313,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-10"
+    },
+    {
+      "startFrame": 5313,
+      "endFrameExclusive": 5314,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "A",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "startFrame": 5314,
+      "endFrameExclusive": 5316,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-10"
+    },
+    {
+      "startFrame": 5316,
+      "endFrameExclusive": 5317,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "A",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "startFrame": 5317,
+      "endFrameExclusive": 5326,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-10"
+    },
+    {
+      "startFrame": 5326,
+      "endFrameExclusive": 5330,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-10"
+    },
+    {
+      "startFrame": 5330,
+      "endFrameExclusive": 5331,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            6,
+            6,
+            7
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ]
+    },
+    {
+      "startFrame": 5331,
+      "endFrameExclusive": 5335,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            6,
+            6,
+            7
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-11"
+    },
+    {
+      "startFrame": 5335,
+      "endFrameExclusive": 5338,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-12"
+    },
+    {
+      "startFrame": 5338,
+      "endFrameExclusive": 5345,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "A",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-12"
+    },
+    {
+      "startFrame": 5345,
+      "endFrameExclusive": 5346,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "B",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "startFrame": 5346,
+      "endFrameExclusive": 5347,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "B",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-13"
+    },
+    {
+      "startFrame": 5347,
+      "endFrameExclusive": 5348,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "C",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ]
+    },
+    {
+      "startFrame": 5348,
+      "endFrameExclusive": 5349,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "C",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-14"
+    },
+    {
+      "startFrame": 5349,
+      "endFrameExclusive": 5350,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "D",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ]
+    },
+    {
+      "startFrame": 5350,
+      "endFrameExclusive": 5351,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "D",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-15"
+    },
+    {
+      "startFrame": 5351,
+      "endFrameExclusive": 5352,
+      "kind": "menu_redraw_or_cursor_transition",
+      "completePage": false,
+      "fieldSet": "D",
+      "menuCursors": [],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ]
+    },
+    {
+      "startFrame": 5352,
+      "endFrameExclusive": 5358,
+      "kind": "menu_complete",
+      "completePage": true,
+      "fieldSet": "D",
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "detachedMarks": [
+        {
+          "gridRect": [
+            14,
+            1,
+            15,
+            2
+          ],
+          "kind": "dakuten",
+          "renderNote": "Only two upper strokes visible; base fully hidden by item window, no invisible kana or parent word restored"
+        }
+      ],
+      "pageOpportunityId": "4a2fec5930e9-bag-navigation-page-15"
+    }
+  ],
+  "candidateScope": "Complete list navigation operation only: before first move5223, both downward/upward scroll traversals, end after final cancel selection5350 and stable after-state. Opening/closing assessed separately and not claimed passed.",
+  "pendingOutsideScore": [
+    {
+      "role": "real history warmup, not claimed as scored menu-opening event",
+      "range": [
+        5200,
+        5206
+      ]
+    },
+    {
+      "role": "after-navigation context including next closing action; not scoring/claiming close",
+      "reason": "part of やめる base overlaps player sprite; preserve full larger opening/closing candidate as pending, no text restored",
+      "unresolvedFrame": 5359,
+      "range": [
+        5358,
+        5366
+      ]
+    }
+  ],
+  "literalUnits": "UTF-8 NFC; one U+0020 per blank cell; U+00D7 cross quantity indicator; parent bare marks separately registered",
+  "opportunityDefinition": "16 pre-OCR complete-page identities; down-arrow flash/temporary cursor absence does not multiply an otherwise continuing same selected text page. Every phase remains separately scored. Duplicate-line, cursor-missing and dual-cursor redraw states are transitions, not complete pages. One-frame complete pages retained5300,5303,5305,5346,5348."
+}

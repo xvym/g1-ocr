@@ -1,0 +1,46 @@
+{
+  "observedAt": "2026-10-14T21:03:24.8568302+08:00",
+  "baseCommit": "284b0715fcd9ed1973cb4b775e9caa990c0e6ace",
+  "jdk": {
+    "path": "D:\\Code\\Tool\\jdk1.8.0_192",
+    "javafxJar": "D:\\Code\\Tool\\jdk1.8.0_192\\jre\\lib\\ext\\jfxrt.jar",
+    "javafxSha256": "cd2186fa43a4eef726a918af1a8ce9cef281738c46176002ffcffd91c7730b13",
+    "vendor": "Oracle Corporation",
+    "license": "Local JDK LICENSE / THIRDPARTYLICENSEREADME-JAVAFX.txt; not redistributed",
+    "version": "1.8.0_192-b12",
+    "javaSha256": "f22716ce78ceb3341786e5665c73a4cf65a7aff9b73ec8dd1c81fa97b638343f"
+  },
+  "maven": {
+    "home": "D:\\Code\\Tool\\maven\\apache-maven-3.9.16",
+    "version": "3.9.16",
+    "license": "Apache-2.0 plus bundled third-party notices"
+  },
+  "os": {
+    "apiVersion": "Microsoft Windows NT 10.0.22000.0",
+    "reportedByMaven": "Windows 10; exact target Windows 10 compatibility unverified",
+    "arch": "AMD64"
+  },
+  "cpu": {
+    "logicalCount": "8",
+    "identifier": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel"
+  },
+  "gpu": "unverified: CIM queries denied",
+  "capture": {
+    "windowSize": "unverified",
+    "scaling": "unverified",
+    "targetWindow": "unverified",
+    "minimized": "unverified",
+    "captureRate": "unverified",
+    "foreground": "unverified",
+    "sourceUpdateRate": "unverified",
+    "background": "unverified",
+    "targetSoftware": "unverified",
+    "dpi": "unverified",
+    "occluded": "unverified"
+  },
+  "uiObservation": {
+    "status": "unverified",
+    "reason": "No actual UI presentation observation/time alignment established"
+  },
+  "python": "Windows Store alias unavailable; verifier uses Java 8 instead"
+}

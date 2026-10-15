@@ -1,0 +1,52 @@
+{
+  "frames": "data/frames/video-01/expansion-context-f6000-f6660-v1",
+  "purpose": "Deterministic original-pixel navigation/display only; no text inference, no GT assignment, no approval",
+  "step": 1,
+  "count": 5,
+  "crop": [
+    240,
+    304,
+    560,
+    384
+  ],
+  "inputVerificationSha256": "388dce771115958a704c77c7196b5b44b2d56736427131d0973e6d9a24b3497b",
+  "allFramesShown": true,
+  "entries": [
+    {
+      "original": "data\\frames\\video-01\\expansion-context-f6000-f6660-v1\\frame-006374.png",
+      "sheet": 0,
+      "frameIndex": 6374,
+      "pts": 6374,
+      "rgbSha256": "a0abfc16975a83f7451486604cea739a95c609abadfbd98eef029ec7a8e1553b"
+    },
+    {
+      "original": "data\\frames\\video-01\\expansion-context-f6000-f6660-v1\\frame-006375.png",
+      "sheet": 0,
+      "frameIndex": 6375,
+      "pts": 6375,
+      "rgbSha256": "638f2ad74311bcf1f121d2ab54197229c7afa934bd7635efcdef71e2692dc478"
+    },
+    {
+      "original": "data\\frames\\video-01\\expansion-context-f6000-f6660-v1\\frame-006376.png",
+      "sheet": 0,
+      "frameIndex": 6376,
+      "pts": 6376,
+      "rgbSha256": "dd03cc60279043198d2026e643a4048c703c1bfbaf9dab9e8f4f644692b76f6c"
+    },
+    {
+      "original": "data\\frames\\video-01\\expansion-context-f6000-f6660-v1\\frame-006377.png",
+      "sheet": 0,
+      "frameIndex": 6377,
+      "pts": 6377,
+      "rgbSha256": "f97c891f4b0cd6eab4e75196ecdd0cb2d0c128428fb153a3746467723a53ba2b"
+    },
+    {
+      "original": "data\\frames\\video-01\\expansion-context-f6000-f6660-v1\\frame-006378.png",
+      "sheet": 0,
+      "frameIndex": 6378,
+      "pts": 6378,
+      "rgbSha256": "3480afa07689626df45194e883078958cb6fce219fbfca56343070c0100db144"
+    }
+  ],
+  "displayWidth": 960
+}

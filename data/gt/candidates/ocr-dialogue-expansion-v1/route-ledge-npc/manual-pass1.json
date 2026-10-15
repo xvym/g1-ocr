@@ -1,0 +1,539 @@
+{
+  "source": "data/frames/video-03/dialogue-route-context-v1",
+  "viewed": "All selected original-frame text crops directly read in corresponding *-first ordered sheets; full-game navigation read for context. Question yes/no region read separately in every frame; later independent re-decode will resolve timing and flashes.",
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+  "frozen": false,
+  "states": [
+    {
+      "kind": "empty_target",
+      "startFrame": 6427,
+      "endFrameExclusive": 6429,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "textbox_empty",
+      "startFrame": 6429,
+      "endFrameExclusive": 6436,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6436,
+      "endFrameExclusive": 6437,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "み",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6437,
+      "endFrameExclusive": 6438,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "みちに",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6438,
+      "endFrameExclusive": 6440,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "みちに だんさ",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6440,
+      "endFrameExclusive": 6441,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "みちに だんさが あ",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6441,
+      "endFrameExclusive": 6442,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "みちに だんさが あるだろ",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_complete",
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "みちに だんさが あるだろ！",
+          "row": 14
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      },
+      "endFrameExclusive": 6458,
+      "startFrame": 6442,
+      "pageOpportunityId": "route-ledge-npc-1",
+      "completePage": true,
+      "menuCursors": []
+    },
+    {
+      "kind": "textbox_empty",
+      "startFrame": 6458,
+      "endFrameExclusive": 6465,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6465,
+      "endFrameExclusive": 6466,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "と",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6466,
+      "endFrameExclusive": 6467,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "とび お",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6467,
+      "endFrameExclusive": 6468,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "とび おりるの",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6468,
+      "endFrameExclusive": 6470,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "とび おりるのは",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "ちょ",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6470,
+      "endFrameExclusive": 6471,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "とび おりるのは",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "ちょっと",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6471,
+      "endFrameExclusive": 6472,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "とび おりるのは",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "ちょっと こわい",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6472,
+      "endFrameExclusive": 6473,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "とび おりるのは",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "ちょっと こわいけど…",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_complete",
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "とび おりるのは",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "ちょっと こわいけど……",
+          "row": 16
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      },
+      "endFrameExclusive": 6485,
+      "startFrame": 6473,
+      "pageOpportunityId": "route-ledge-npc-2",
+      "completePage": true,
+      "menuCursors": []
+    },
+    {
+      "kind": "textbox_empty",
+      "startFrame": 6485,
+      "endFrameExclusive": 6494,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6494,
+      "endFrameExclusive": 6495,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "マサラ",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6495,
+      "endFrameExclusive": 6496,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "マサラ タウ",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6496,
+      "endFrameExclusive": 6497,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "マサラ タウンに",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6497,
+      "endFrameExclusive": 6498,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "マサラ タウンに かえる",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6498,
+      "endFrameExclusive": 6500,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "マサラ タウンに かえる とき",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6500,
+      "endFrameExclusive": 6501,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "マサラ タウンに かえる ときは",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "はや",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6501,
+      "endFrameExclusive": 6502,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "マサラ タウンに かえる ときは",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "はやく か",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6502,
+      "endFrameExclusive": 6503,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "マサラ タウンに かえる ときは",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "はやく かえれて",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 6503,
+      "endFrameExclusive": 6504,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "マサラ タウンに かえる ときは",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "はやく かえれて いい",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_complete",
+      "startFrame": 6504,
+      "pageOpportunityId": "route-ledge-npc-3",
+      "endFrameExclusive": 6519,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "マサラ タウンに かえる ときは",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "はやく かえれて いいよ",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "menuCursors": []
+    },
+    {
+      "kind": "empty_target",
+      "startFrame": 6519,
+      "endFrameExclusive": 6523,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    }
+  ],
+  "status": "first_raw_read_complete_not_frozen",
+  "name": "路边NPC三页跳台提示",
+  "scoredRange": [
+    6427,
+    6523
+  ],
+  "notes": [
+    "Direct current agent raw-frame read, no tested OCR or production translation output read",
+    "First-read record retained; independent source re-decode/second visual read still required"
+  ],
+  "range": [
+    6425,
+    6525
+  ],
+  "mediaId": "video-03",
+  "humanPerFrameVerification": "not claimed"
+}

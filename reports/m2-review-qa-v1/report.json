@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-14T21:48:56.8619177+08:00",
+  "reviewId": "gt-trial-v2",
+  "bundleFiles": 95,
+  "badHashes": [],
+  "originalFrames": 39,
+  "scoredFrames": 35,
+  "inlineScriptSyntax": "Node vm.Script compile checked; not a browser presentation check",
+  "imagePaths": "All 39 original + 39 zoom paths exist",
+  "browserVisualCheck": "unverified: CUA browser URL policy rejects file protocol; no workaround attempted",
+  "bundleManifestSha256": "7a1699a7c2cc298ed37f81958f9c6057f880bb4ad239eda3f6fffa33754c5bb4",
+  "indexHtmlSha256": "2c2d5d9116baa48bc959d274a401250b61d802c81a04eb1be0dcf4ff92ca5126",
+  "candidateSha256": "30d240232e03eaca07eeebe9502a56689e41bf223faa59c665c4e638a154de25"
+}

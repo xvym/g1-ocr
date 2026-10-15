@@ -1,0 +1,34 @@
+{
+  "gt": "data/gt/candidates/ocr-all-scenes-v1/backpack-opening/ocr-candidate-v1.jsonl",
+  "frozen": false,
+  "mediaSha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+  "endFrameExclusive": 5210,
+  "scopeLimits": [
+    "Backpack exit5359 occluded remains pending separately",
+    "Overlap5206-5207 and same first-item page counted once with navigation"
+  ],
+  "pageOpportunityPolicy": "explicit_id",
+  "postContext": [
+    5208,
+    5210
+  ],
+  "id": "4a2fec5930e9-f5172-f5210-backpack-opening",
+  "warmup": [
+    5172,
+    5174
+  ],
+  "set": "development",
+  "scoreKind": "text_and_state",
+  "selectionReason": "Predetermined backpack context; before5176 menu box,5181/5182 labels draw, cursor steps then5204/5205 child opens and5206 initial selection complete",
+  "mediaId": "video-04",
+  "timeBase": "1/19456",
+  "startFrame": 5172,
+  "schemaVersion": 2,
+  "eventType": "complete main menu opening and backpack entry",
+  "independentSession": "unverified",
+  "boundaryStatus": "first_raw_read_complete_second_pending",
+  "scoredRange": [
+    5174,
+    5208
+  ]
+}

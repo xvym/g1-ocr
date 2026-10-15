@@ -1,0 +1,476 @@
+{
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+  "notes": [
+    "Fresh source-from-start independent decode, selected raw frames directly reread by current agent; no tested OCR/translation outputs",
+    "Literal text, spaces, visible clipped bases, timing and indicators agree with first raw read",
+    "Nurse blocks share one natural interaction; overlap1922/2088 is an empty textbox, not another independent sample",
+    "No claim of human per-frame verification or independent acceptance"
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "name": "护士欢迎、恢复说明和寄存选择",
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "source": "data/frames/video-03/dialogue-centre-pass2-v1",
+  "secondRead": "nurse-second sheets000-005, every original frame including all menu/cursor frames1886-1920; menu closes1921 before text clears1922; raw1905 additionally reopened",
+  "frozen": false,
+  "scoredRange": [
+    1825,
+    1923
+  ],
+  "states": [
+    {
+      "startFrame": 1825,
+      "kind": "empty_target",
+      "completePage": false,
+      "endFrameExclusive": 1827,
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "startFrame": 1827,
+      "kind": "textbox_empty",
+      "completePage": false,
+      "endFrameExclusive": 1835,
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "startFrame": 1835,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1836,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "よ"
+        }
+      ]
+    },
+    {
+      "startFrame": 1836,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1837,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ようこそ"
+        }
+      ]
+    },
+    {
+      "startFrame": 1837,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1838,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ようこそ！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ポケ"
+        }
+      ]
+    },
+    {
+      "startFrame": 1838,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1840,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ようこそ！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ポケモンセ"
+        }
+      ]
+    },
+    {
+      "startFrame": 1840,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1841,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ようこそ！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ポケモンセンター"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ようこそ！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ポケモンセンターへ"
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 1852,
+      "startFrame": 1841,
+      "pageOpportunityId": "nurse-greeting-1",
+      "menuCursors": [],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      }
+    },
+    {
+      "startFrame": 1852,
+      "kind": "textbox_empty",
+      "completePage": false,
+      "endFrameExclusive": 1859,
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "startFrame": 1859,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1860,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "こ"
+        }
+      ]
+    },
+    {
+      "startFrame": 1860,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1862,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ここでは"
+        }
+      ]
+    },
+    {
+      "startFrame": 1862,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1863,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ここでは ポケ"
+        }
+      ]
+    },
+    {
+      "startFrame": 1863,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1864,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ここでは ポケモンの"
+        }
+      ]
+    },
+    {
+      "startFrame": 1864,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1865,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ここでは ポケモンの"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "たいり"
+        }
+      ]
+    },
+    {
+      "startFrame": 1865,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1866,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ここでは ポケモンの"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "たいりょく"
+        }
+      ]
+    },
+    {
+      "startFrame": 1866,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1868,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ここでは ポケモンの"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "たいりょく かいふ"
+        }
+      ]
+    },
+    {
+      "startFrame": 1868,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1869,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ここでは ポケモンの"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "たいりょく かいふくを"
+        }
+      ]
+    },
+    {
+      "startFrame": 1869,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1870,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ここでは ポケモンの"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "たいりょく かいふくを いたし"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ここでは ポケモンの"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "たいりょく かいふくを いたします"
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 1886,
+      "startFrame": 1870,
+      "pageOpportunityId": "nurse-greeting-2",
+      "menuCursors": [],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      }
+    },
+    {
+      "startFrame": 1886,
+      "kind": "message_complete",
+      "pageOpportunityId": "nurse-greeting-3",
+      "completePage": true,
+      "endFrameExclusive": 1921,
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            14,
+            8,
+            15,
+            9
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "role": "menu_option",
+          "row": 8,
+          "col": 15,
+          "id": "deposit",
+          "text": "あずける"
+        },
+        {
+          "role": "menu_option",
+          "row": 10,
+          "col": 15,
+          "id": "cancel",
+          "text": "やめる"
+        },
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ここでは ポケモンの"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "たいりょく かいふくを いたします"
+        }
+      ]
+    },
+    {
+      "startFrame": 1921,
+      "kind": "message_complete",
+      "pageOpportunityId": "nurse-greeting-4",
+      "completePage": true,
+      "endFrameExclusive": 1922,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ここでは ポケモンの"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "たいりょく かいふくを いたします"
+        }
+      ]
+    },
+    {
+      "startFrame": 1922,
+      "kind": "textbox_empty",
+      "completePage": false,
+      "endFrameExclusive": 1923,
+      "menuCursors": [],
+      "fields": []
+    }
+  ],
+  "range": [
+    1823,
+    1925
+  ],
+  "mediaId": "video-03"
+}

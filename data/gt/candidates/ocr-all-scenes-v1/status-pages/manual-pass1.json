@@ -1,0 +1,65 @@
+{
+  "frozen": false,
+  "proposedScore": [
+    462,
+    564
+  ],
+  "viewedOriginalFrames": "ordered sheets005-010 show all score frames, direct461/469/480/526/527/564",
+  "boundaries": [
+    "462-468 no text",
+    "469 full first-page text appears, sprite absent until490",
+    "526 top becomes experience panel and bottom first move row, old remaining stats still visible",
+    "527 full second page",
+    "553-563 no text;564 party list returned"
+  ],
+  "status": "first_raw_read_complete_not_frozen",
+  "humanPerFrameVerification": "not claimed",
+  "geometryPending": "No./IDNo/ packed labels inspected as raw enlarged crops next, exact fixed-width spaces/positions checked in second pass",
+  "source": "data/frames/video-02/expansion-context-f360-f680-v1",
+  "scope": "Complete status-display event from entry clear462 through first page, second page, exit clear and returned party list564 in post-context; before-action submenu460-461 warmup",
+  "literalObservations": {
+    "first": [
+      "ラプラス",
+      ":L",
+      "50",
+      "HP:",
+      "200/206",
+      "じょうたい/ふつう",
+      "No.",
+      "131",
+      "こうげき",
+      "122",
+      "ぼうぎょ",
+      "123",
+      "すばやさ",
+      "103",
+      "とくしゅ",
+      "139",
+      "タイプ1/みず",
+      "タイプ2/こおり",
+      "IDNo/",
+      "16785",
+      "おや/ レッド"
+    ],
+    "second": [
+      "けいけんち/",
+      "157734",
+      "あと",
+      "8079で",
+      ":L",
+      "51",
+      "れいとうビーム",
+      "PP",
+      "9/10",
+      "のしかかり",
+      "PP",
+      "14/15",
+      "あやしいひかり",
+      "PP",
+      "10/10",
+      "ハイドロポンプ",
+      "PP",
+      "5/ 5"
+    ]
+  }
+}

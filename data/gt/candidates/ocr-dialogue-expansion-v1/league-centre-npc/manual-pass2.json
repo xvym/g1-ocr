@@ -1,0 +1,686 @@
+{
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+  "notes": [
+    "Fresh source-from-start independent decode, selected raw frames directly reread by current agent; no tested OCR/translation outputs",
+    "Literal text, spaces, visible clipped bases, timing and indicators agree with first raw read",
+    "Nurse blocks share one natural interaction; overlap1922/2088 is an empty textbox, not another independent sample",
+    "No claim of human per-frame verification or independent acceptance"
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "name": "联盟中心NPC四页连续滚动",
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "source": "data/frames/video-03/dialogue-centre-pass2-v1",
+  "secondRead": "centre-npc-second sheets000-004, every146 original frames1590-1735; clipped marks in both upper scroll rows",
+  "frozen": false,
+  "scoredRange": [
+    1592,
+    1734
+  ],
+  "states": [
+    {
+      "startFrame": 1592,
+      "kind": "empty_target",
+      "completePage": false,
+      "endFrameExclusive": 1594,
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "startFrame": 1594,
+      "kind": "textbox_empty",
+      "completePage": false,
+      "endFrameExclusive": 1600,
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "startFrame": 1600,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1602,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "こ"
+        }
+      ]
+    },
+    {
+      "startFrame": 1602,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1603,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "このさき"
+        }
+      ]
+    },
+    {
+      "startFrame": 1603,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1604,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "このさきは し"
+        }
+      ]
+    },
+    {
+      "startFrame": 1604,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1605,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "このさきは してんの"
+        }
+      ]
+    },
+    {
+      "startFrame": 1605,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1606,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "このさきは してんのうと"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ひ"
+        }
+      ]
+    },
+    {
+      "startFrame": 1606,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1608,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "このさきは してんのうと"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ひとりず"
+        }
+      ]
+    },
+    {
+      "startFrame": 1608,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1609,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "このさきは してんのうと"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ひとりずつ た"
+        }
+      ]
+    },
+    {
+      "startFrame": 1609,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1610,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "このさきは してんのうと"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ひとりずつ たたかう"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "このさきは してんのうと"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ひとりずつ たたかうの！"
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 1630,
+      "startFrame": 1610,
+      "pageOpportunityId": "league-centre-npc-1",
+      "menuCursors": [],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      }
+    },
+    {
+      "startFrame": 1630,
+      "renderNote": "Current8-pixel upward scroll, upper diacritics clipped by textbox; only visible bases transcribed",
+      "kind": "scrolling",
+      "completePage": false,
+      "endFrameExclusive": 1633,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 13,
+          "text": "このさきは してんのうと"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 15,
+          "text": "ひとりずつ たたかうの！"
+        }
+      ]
+    },
+    {
+      "startFrame": 1633,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1635,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ひとりずつ たたかうの！"
+        }
+      ]
+    },
+    {
+      "startFrame": 1635,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1636,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ひとりずつ たたかうの！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "もし"
+        }
+      ]
+    },
+    {
+      "startFrame": 1636,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1638,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ひとりずつ たたかうの！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "もし かて"
+        }
+      ]
+    },
+    {
+      "startFrame": 1638,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1639,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ひとりずつ たたかうの！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "もし かてたら"
+        }
+      ]
+    },
+    {
+      "startFrame": 1639,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1640,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ひとりずつ たたかうの！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "もし かてたら ドアが"
+        }
+      ]
+    },
+    {
+      "startFrame": 1640,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1641,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ひとりずつ たたかうの！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "もし かてたら ドアが ひら"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ひとりずつ たたかうの！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "もし かてたら ドアが ひらいて"
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 1662,
+      "startFrame": 1641,
+      "pageOpportunityId": "league-centre-npc-2",
+      "menuCursors": [],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      }
+    },
+    {
+      "startFrame": 1662,
+      "renderNote": "Current8-pixel upward scroll, upper diacritics clipped by textbox; only visible bases transcribed",
+      "kind": "scrolling",
+      "completePage": false,
+      "endFrameExclusive": 1664,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 13,
+          "text": "ひとりすつ たたかうの！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 15,
+          "text": "もし かてたら ドアが ひらいて"
+        }
+      ]
+    },
+    {
+      "startFrame": 1664,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1666,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "もし かてたら ドアが ひらいて"
+        }
+      ]
+    },
+    {
+      "startFrame": 1666,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1668,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "もし かてたら ドアが ひらいて"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "おくの"
+        }
+      ]
+    },
+    {
+      "startFrame": 1668,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1669,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "もし かてたら ドアが ひらいて"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "おくの へや"
+        }
+      ]
+    },
+    {
+      "startFrame": 1669,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1670,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "もし かてたら ドアが ひらいて"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "おくの へやに す"
+        }
+      ]
+    },
+    {
+      "startFrame": 1670,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1671,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "もし かてたら ドアが ひらいて"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "おくの へやに すすめる"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "もし かてたら ドアが ひらいて"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "おくの へやに すすめるわ！"
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 1692,
+      "startFrame": 1671,
+      "pageOpportunityId": "league-centre-npc-3",
+      "menuCursors": [],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      }
+    },
+    {
+      "startFrame": 1692,
+      "renderNote": "Current8-pixel upward scroll, upper diacritics clipped by textbox; only visible bases transcribed",
+      "kind": "scrolling",
+      "completePage": false,
+      "endFrameExclusive": 1696,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 13,
+          "text": "もし かてたら トアか ひらいて"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 15,
+          "text": "おくの へやに すすめるわ！"
+        }
+      ]
+    },
+    {
+      "startFrame": 1696,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1698,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おくの へやに すすめるわ！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "が"
+        }
+      ]
+    },
+    {
+      "startFrame": 1698,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1699,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おくの へやに すすめるわ！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "がんばっ"
+        }
+      ]
+    },
+    {
+      "startFrame": 1699,
+      "kind": "message_complete",
+      "pageOpportunityId": "league-centre-npc-4",
+      "completePage": true,
+      "endFrameExclusive": 1730,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おくの へやに すすめるわ！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "がんばって！"
+        }
+      ]
+    },
+    {
+      "startFrame": 1730,
+      "kind": "empty_target",
+      "completePage": false,
+      "endFrameExclusive": 1734,
+      "menuCursors": [],
+      "fields": []
+    }
+  ],
+  "range": [
+    1590,
+    1736
+  ],
+  "mediaId": "video-03"
+}

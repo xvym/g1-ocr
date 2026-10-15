@@ -1,0 +1,39 @@
+{
+  "unresolvedScoreDifferences": 0,
+  "status": "agent_double_raw_read_differences_resolved_not_approved",
+  "second": "manual-pass2.json",
+  "basis": "Direct raw second frame read and adjacent-frame/arrow/pixel navigation; no tested output",
+  "replacedFirstBoundaries": [
+    6428,
+    6468
+  ],
+  "frozen": false,
+  "first": "manual-pass1.json",
+  "corrections": [
+    [
+      6408,
+      "そして・",
+      "",
+      ""
+    ],
+    [
+      6429,
+      "",
+      "",
+      "textbox_empty"
+    ],
+    [
+      6466,
+      "わたしは この ポケモンの",
+      "けんきゅうを してる というわけだ",
+      "C2AF"
+    ],
+    [
+      6469,
+      "わたしは この ポケモンの",
+      "けんきゅうを してる というわけだ",
+      "C2F"
+    ]
+  ],
+  "humanPerFrameVerification": "not claimed"
+}

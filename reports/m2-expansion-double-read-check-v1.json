@@ -1,0 +1,76 @@
+{
+  "methods": "Agent direct raw image reading for semantics; hashes and explicit fields for identity/structure. No OCR or external model.",
+  "status": "double_read_evidence_and_decode_identity_checked_not_approved",
+  "checkedAt": "2026-10-15T00:33:27.0238772+08:00",
+  "humanPerFrameVerification": "not claimed",
+  "items": [
+    {
+      "states": 19,
+      "id": "shop-exit",
+      "completeOpportunities": [
+        {
+          "durationMs": 41.666666666666664,
+          "range": [
+            1450,
+            1451
+          ]
+        },
+        {
+          "durationMs": 458.3333333333333,
+          "range": [
+            1451,
+            1462
+          ]
+        },
+        {
+          "durationMs": 583.3333333333334,
+          "range": [
+            1468,
+            1482
+          ]
+        }
+      ],
+      "originalFramesRetained": 49,
+      "identicalOriginalPngFramesAcrossDecodes": 49,
+      "unknownOrConflict": 0,
+      "firstAndSecondNotes": "annotations/manual-pass1.json and manual-pass2.json",
+      "equalStateExpectedCharacters": 715,
+      "frameWeightedCharacters": 1868,
+      "candidateScoreFrames": 47
+    },
+    {
+      "states": 10,
+      "id": "pc-connect",
+      "completeOpportunities": [
+        {
+          "durationMs": 333.3333333333333,
+          "range": [
+            1379,
+            1387
+          ]
+        },
+        {
+          "durationMs": 708.3333333333334,
+          "range": [
+            1387,
+            1404
+          ]
+        },
+        {
+          "durationMs": 458.3333333333333,
+          "range": [
+            1411,
+            1422
+          ]
+        }
+      ],
+      "originalFramesRetained": 51,
+      "identicalOriginalPngFramesAcrossDecodes": 51,
+      "unknownOrConflict": 0,
+      "firstAndSecondNotes": "annotations/manual-pass1.json and manual-pass2.json",
+      "equalStateExpectedCharacters": 511,
+      "frameWeightedCharacters": 2348,
+      "candidateScoreFrames": 47
+    }
+  ]
+}

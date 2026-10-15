@@ -1,0 +1,7538 @@
+{
+  "humanPerFrameVerification": "not claimed",
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "fieldSets": {
+    "message-17537": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "てきの ジュゴンの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      }
+    ],
+    "message-17535": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "てきの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      }
+    ],
+    "message-17539": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "てきの ジュゴンの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "とっしん！",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "message-17491": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "ラプラスの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "のしかかり こ",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "message-17556": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "しかし てきの ジュゴンの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "こうげきは はず",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "message-17534": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "て",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      }
+    ],
+    "message-17490": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "ラプラスの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "のしかか",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "skillsB": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 2,
+        "text": "れいとうビーム",
+        "id": "move-0",
+        "row": 10,
+        "role": "move_name",
+        "variable": {
+          "displayValue": "れいとうビーム",
+          "role": "move_name",
+          "type": "string"
+        }
+      },
+      {
+        "col": 2,
+        "text": "のしかかり",
+        "id": "move-1",
+        "row": 12,
+        "role": "move_name",
+        "variable": {
+          "displayValue": "のしかかり",
+          "role": "move_name",
+          "type": "string"
+        }
+      },
+      {
+        "col": 2,
+        "text": "あやしいひかり",
+        "id": "move-2",
+        "row": 14,
+        "role": "move_name",
+        "variable": {
+          "displayValue": "あやしいひかり",
+          "role": "move_name",
+          "type": "string"
+        }
+      },
+      {
+        "col": 2,
+        "text": "ハイドロポンプ",
+        "id": "move-3",
+        "row": 16,
+        "role": "move_name",
+        "variable": {
+          "displayValue": "ハイドロポンプ",
+          "role": "move_name",
+          "type": "string"
+        }
+      },
+      {
+        "text": "14/15",
+        "col": 14,
+        "role": "pp_current_max",
+        "variable": {
+          "maximum": 15,
+          "type": "integer_pair",
+          "current": 14,
+          "role": "move_pp",
+          "displayValue": "14/15"
+        },
+        "row": 13,
+        "id": "pp-value"
+      },
+      {
+        "col": 10,
+        "text": "わざタイプ",
+        "id": "move-type-label",
+        "row": 15,
+        "role": "move_type_label"
+      },
+      {
+        "col": 14,
+        "text": "/ノーマル",
+        "id": "move-type",
+        "row": 16,
+        "role": "move_type"
+      }
+    ],
+    "message-17536": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "てきの ジュゴ",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      }
+    ],
+    "message-17492": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "ラプラスの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "のしかかり こうげき",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "message-17538": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "てきの ジュゴンの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "とっし",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "message-17487": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "ラ",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      }
+    ],
+    "message-17509": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "ラプラスの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "のしかかり こうげき！",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "message-17554": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "しかし てきの ジュゴンの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "こう",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "message-17555": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "しかし てきの ジュゴンの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "こうげきは",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "message-17550": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "しかし",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      }
+    ],
+    "message-17558": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "しかし てきの ジュゴンの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "こうげきは はずれた！",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "message-17553": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "しかし てきの ジュゴン",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      }
+    ],
+    "message-17488": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "ラプラス",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      }
+    ],
+    "message-17557": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "しかし てきの ジュゴンの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "こうげきは はずれた！",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "message-17552": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "しかし てきの ジ",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      }
+    ],
+    "command": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 11,
+        "text": "たたかう",
+        "id": "fight",
+        "row": 14,
+        "role": "battle_command"
+      },
+      {
+        "col": 16,
+        "text": "どうぐ",
+        "id": "bag",
+        "row": 14,
+        "role": "battle_command"
+      },
+      {
+        "col": 11,
+        "text": "ポケモン",
+        "id": "pokemon",
+        "row": 16,
+        "role": "battle_command"
+      },
+      {
+        "col": 16,
+        "text": "にげる",
+        "id": "run",
+        "row": 16,
+        "role": "battle_command"
+      }
+    ],
+    "hud": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      }
+    ],
+    "message-17489": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "ラプラスの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "の",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "skillsA": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 2,
+        "text": "れいとうビーム",
+        "id": "move-0",
+        "row": 10,
+        "role": "move_name",
+        "variable": {
+          "displayValue": "れいとうビーム",
+          "role": "move_name",
+          "type": "string"
+        }
+      },
+      {
+        "col": 2,
+        "text": "のしかかり",
+        "id": "move-1",
+        "row": 12,
+        "role": "move_name",
+        "variable": {
+          "displayValue": "のしかかり",
+          "role": "move_name",
+          "type": "string"
+        }
+      },
+      {
+        "col": 2,
+        "text": "あやしいひかり",
+        "id": "move-2",
+        "row": 14,
+        "role": "move_name",
+        "variable": {
+          "displayValue": "あやしいひかり",
+          "role": "move_name",
+          "type": "string"
+        }
+      },
+      {
+        "col": 2,
+        "text": "ハイドロポンプ",
+        "id": "move-3",
+        "row": 16,
+        "role": "move_name",
+        "variable": {
+          "displayValue": "ハイドロポンプ",
+          "role": "move_name",
+          "type": "string"
+        }
+      },
+      {
+        "text": "9/10",
+        "col": 15,
+        "role": "pp_current_max",
+        "variable": {
+          "maximum": 10,
+          "type": "integer_pair",
+          "current": 9,
+          "role": "move_pp",
+          "displayValue": "9/10"
+        },
+        "row": 13,
+        "id": "pp-value"
+      },
+      {
+        "col": 10,
+        "text": "わざタイプ",
+        "id": "move-type-label",
+        "row": 15,
+        "role": "move_type_label"
+      },
+      {
+        "col": 14,
+        "text": "/こおり",
+        "id": "move-type",
+        "row": 16,
+        "role": "move_type"
+      }
+    ],
+    "message-17508": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "ラプラスの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "のしかかり こうげき！",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "message-17505": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "ラプラスの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "のしかかり こうげき！",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "message-17493": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "ラプラスの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "のしかかり こうげき！",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "message-17503": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "ラプラスの",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      },
+      {
+        "col": 1,
+        "text": "のしかかり こうげき！",
+        "id": "message-bottom",
+        "row": 16,
+        "role": "battle_message"
+      }
+    ],
+    "message-17551": [
+      {
+        "col": 3,
+        "text": "ジュゴン",
+        "id": "enemy-name",
+        "row": 1,
+        "role": "enemy_pokemon_name",
+        "variable": {
+          "displayValue": "ジュゴン",
+          "role": "enemy_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          56,
+          8,
+          64,
+          16
+        ],
+        "gridRect": [
+          7.0,
+          1.0,
+          8.0,
+          2.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              56,
+              8,
+              64,
+              16
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "54",
+        "col": 8,
+        "role": "enemy_level",
+        "variable": {
+          "displayValue": "54",
+          "type": "integer",
+          "numericValue": 54,
+          "role": "enemy_level"
+        },
+        "row": 1,
+        "id": "enemy-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          16,
+          20,
+          28,
+          24
+        ],
+        "gridRect": [
+          2.0,
+          2.5,
+          3.5,
+          3.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              16,
+              20,
+              24,
+              24
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              24,
+              20,
+              28,
+              24
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "enemy-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "Literal visible symbol. HP uses compressed HP pair + colon; :L occupies one8x8 tile, not two tiles.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct original frame17470 source crops reports/m2-all-scenes-skills-packed-labels-v1.png; independently redecoded originals17458-17569; no tested output"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "col": 1,
+        "text": "しかし てき",
+        "id": "message-top",
+        "row": 14,
+        "role": "battle_message"
+      }
+    ]
+  },
+  "mediaId": "video-04",
+  "renderNotes": [
+    "HP: compressed pair and colon12x4 logicalpixels; :L compound prefix8x8, literal2characters; exact source crops retained",
+    "Main battle textbox base rows14 and16, unlike prior exploration box rows13/15",
+    "17481 PP and type change one frame before cursor moves; retained incomplete transition",
+    "Whole raster offset logical+2 at17503/17504,+1 at17508; all other selected frames0; deterministic patch scan nav only and direct raw images confirm",
+    "No enemy numeric HP displayed. HP bar graphic is not invented as numeric value. Full source frames retained including HP-bar drain and attack sprites"
+  ],
+  "states": [
+    {
+      "endFrameExclusive": 17471,
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            10,
+            14,
+            11,
+            15
+          ]
+        }
+      ],
+      "fieldSet": "command",
+      "completePage": true,
+      "pageOpportunityId": "skills-turn-command-before",
+      "kind": "menu_complete",
+      "startFrame": 17462,
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17472,
+      "fieldSet": "skillsA",
+      "startFrame": 17471,
+      "kind": "menu_cursor_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "endFrameExclusive": 17481,
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            1,
+            10,
+            2,
+            11
+          ]
+        }
+      ],
+      "fieldSet": "skillsA",
+      "completePage": true,
+      "pageOpportunityId": "skills-turn-ice-selection",
+      "kind": "menu_complete",
+      "startFrame": 17472,
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    {
+      "endFrameExclusive": 17482,
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            1,
+            10,
+            2,
+            11
+          ]
+        }
+      ],
+      "fieldSet": "skillsB",
+      "completePage": false,
+      "kind": "menu_detail_before_cursor_transition",
+      "startFrame": 17481,
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    {
+      "endFrameExclusive": 17486,
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            1,
+            12,
+            2,
+            13
+          ]
+        }
+      ],
+      "fieldSet": "skillsB",
+      "completePage": true,
+      "pageOpportunityId": "skills-turn-normal-selection",
+      "kind": "menu_complete",
+      "startFrame": 17482,
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17487,
+      "fieldSet": "hud",
+      "startFrame": 17486,
+      "kind": "message_clear_hud_remains",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17488,
+      "fieldSet": "message-17487",
+      "startFrame": 17487,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17489,
+      "fieldSet": "message-17488",
+      "startFrame": 17488,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17490,
+      "fieldSet": "message-17489",
+      "startFrame": 17489,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17491,
+      "fieldSet": "message-17490",
+      "startFrame": 17490,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17492,
+      "fieldSet": "message-17491",
+      "startFrame": 17491,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17493,
+      "fieldSet": "message-17492",
+      "startFrame": 17492,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "endFrameExclusive": 17503,
+      "menuCursors": [],
+      "fieldSet": "message-17493",
+      "completePage": true,
+      "pageOpportunityId": "skills-turn-own-move",
+      "kind": "message_complete",
+      "startFrame": 17493,
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    {
+      "endFrameExclusive": 17505,
+      "menuCursors": [],
+      "fieldSet": "message-17503",
+      "completePage": true,
+      "pageOpportunityId": "skills-turn-own-move",
+      "kind": "message_complete",
+      "startFrame": 17503,
+      "renderOffsetLogicalPixels": [
+        2,
+        0
+      ]
+    },
+    {
+      "endFrameExclusive": 17508,
+      "menuCursors": [],
+      "fieldSet": "message-17505",
+      "completePage": true,
+      "pageOpportunityId": "skills-turn-own-move",
+      "kind": "message_complete",
+      "startFrame": 17505,
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    {
+      "endFrameExclusive": 17509,
+      "menuCursors": [],
+      "fieldSet": "message-17508",
+      "completePage": true,
+      "pageOpportunityId": "skills-turn-own-move",
+      "kind": "message_complete",
+      "startFrame": 17508,
+      "renderOffsetLogicalPixels": [
+        1,
+        0
+      ]
+    },
+    {
+      "endFrameExclusive": 17533,
+      "menuCursors": [],
+      "fieldSet": "message-17509",
+      "completePage": true,
+      "pageOpportunityId": "skills-turn-own-move",
+      "kind": "message_complete",
+      "startFrame": 17509,
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17534,
+      "fieldSet": "hud",
+      "startFrame": 17533,
+      "kind": "message_clear_hud_remains",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17535,
+      "fieldSet": "message-17534",
+      "startFrame": 17534,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17536,
+      "fieldSet": "message-17535",
+      "startFrame": 17535,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17537,
+      "fieldSet": "message-17536",
+      "startFrame": 17536,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17538,
+      "fieldSet": "message-17537",
+      "startFrame": 17537,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17539,
+      "fieldSet": "message-17538",
+      "startFrame": 17538,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "endFrameExclusive": 17549,
+      "menuCursors": [],
+      "fieldSet": "message-17539",
+      "completePage": true,
+      "pageOpportunityId": "skills-turn-enemy-move",
+      "kind": "message_complete",
+      "startFrame": 17539,
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17550,
+      "fieldSet": "hud",
+      "startFrame": 17549,
+      "kind": "message_clear_hud_remains",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17551,
+      "fieldSet": "message-17550",
+      "startFrame": 17550,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17552,
+      "fieldSet": "message-17551",
+      "startFrame": 17551,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17553,
+      "fieldSet": "message-17552",
+      "startFrame": 17552,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17554,
+      "fieldSet": "message-17553",
+      "startFrame": 17553,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17555,
+      "fieldSet": "message-17554",
+      "startFrame": 17554,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17556,
+      "fieldSet": "message-17555",
+      "startFrame": 17555,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17557,
+      "fieldSet": "message-17556",
+      "startFrame": 17556,
+      "kind": "message_loading",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "endFrameExclusive": 17558,
+      "menuCursors": [],
+      "fieldSet": "message-17557",
+      "completePage": true,
+      "pageOpportunityId": "skills-turn-enemy-miss",
+      "kind": "message_complete",
+      "startFrame": 17557,
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    {
+      "endFrameExclusive": 17561,
+      "menuCursors": [],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      },
+      "fieldSet": "message-17558",
+      "completePage": true,
+      "pageOpportunityId": "skills-turn-enemy-miss",
+      "kind": "message_complete",
+      "startFrame": 17558,
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    {
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ],
+      "endFrameExclusive": 17562,
+      "fieldSet": "hud",
+      "startFrame": 17561,
+      "kind": "message_clear_hud_remains",
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "endFrameExclusive": 17566,
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            10,
+            14,
+            11,
+            15
+          ]
+        }
+      ],
+      "fieldSet": "command",
+      "completePage": true,
+      "pageOpportunityId": "skills-turn-command-after",
+      "kind": "menu_complete",
+      "startFrame": 17562,
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    }
+  ],
+  "frozen": false,
+  "source": "data/frames/video-04/all-scenes-skills-turn-pass2-v1",
+  "secondRead": "All112 independently redecoded frames17458-17569, ordered raw-only sheets000-005; no GT overlays or tested OCR",
+  "mediaSha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+  "metadataRevision": "v2 adds explicit string types/display values for visible pokemon and move names; literal text, positions, states and all frames unchanged; based on same double raw read"
+}

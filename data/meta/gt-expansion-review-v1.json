@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "reviewId": "gt-expansion-v1",
+  "status": "prepared_for_combined_review_not_approved_not_frozen",
+  "preparedAt": "2026-10-15T00:31:21.4337585+08:00",
+  "totalOriginalMediaSeconds": 2779.397368,
+  "fullIndexedFrames": 66770,
+  "candidateClipFrames": 100,
+  "candidateClipSeconds": 4.166666666666667,
+  "candidateScoreFrames": 94,
+  "candidateScoreSeconds": 3.9166666666666665,
+  "candidateStates": 29,
+  "candidateCompleteOpportunities": 6,
+  "expectedFrameWeightedCharacters": 4216,
+  "priorApprovedFrozen": {
+    "completeOpportunities": 1,
+    "approvalAppliesToThisBatch": false,
+    "freeze": "data/gt/frozen/ocr-trial-v2/freeze.json",
+    "id": "ocr-trial-v2",
+    "scoreFrames": 35
+  },
+  "noTestedOcrRun": true,
+  "humanPerFrameVerification": "not claimed",
+  "items": [
+    {
+      "id": "shop-exit",
+      "mediaId": "video-03",
+      "keyFrames": [
+        1439,
+        1441,
+        1450,
+        1451,
+        1462,
+        1463,
+        1464,
+        1468,
+        1482
+      ],
+      "layout": "data/gt/candidates/ocr-expansion-v1/shop-exit/layout-v2.json",
+      "description": "47评分帧/19状态/3完整状态机会；提示加载、金额22526円、光标、短页和清屏全部保留。完整提示在旧光标位置只有1帧。商店交易与遮挡列表未验证。",
+      "candidate": "data/gt/candidates/ocr-expansion-v1/shop-exit/ocr-candidate-v2.jsonl",
+      "score": [
+        1439,
+        1486
+      ],
+      "frames": "data/frames/video-03/expansion-shop-exit-pass2-v1",
+      "name": "商店提示、光标变化与退出",
+      "integrity": "reports/m2-expansion-shop-integrity-v2.json",
+      "completeRange": [
+        1439,
+        1488
+      ],
+      "clip": "data/meta/expansion-shop-clip-v2.json"
+    },
+    {
+      "id": "pc-connect",
+      "mediaId": "video-02",
+      "keyFrames": [
+        1379,
+        1387,
+        1404,
+        1405,
+        1410,
+        1411,
+        1422
+      ],
+      "layout": "data/gt/candidates/ocr-expansion-v1/pc-connect/layout-v1.json",
+      "description": "47评分帧/10状态/3完整状态机会；菜单字段、光标移动、连接确认逐字加载与清屏全部保留。PC存取交易及更早菜单遮挡未验证。",
+      "candidate": "data/gt/candidates/ocr-expansion-v1/pc-connect/ocr-candidate-v1.jsonl",
+      "score": [
+        1379,
+        1426
+      ],
+      "frames": "data/frames/video-02/expansion-pc-connect-pass2-v1",
+      "name": "PC 光标移动与连接提示",
+      "integrity": "reports/m2-expansion-pc-integrity-v1.json",
+      "completeRange": [
+        1379,
+        1430
+      ],
+      "clip": "data/meta/expansion-pc-clip-v1.json"
+    }
+  ],
+  "sourceIdentityReport": "reports/m2-expansion-source-identity-v1.json",
+  "sourceCoverage": [
+    {
+      "navigation": [
+        "data/frames/video-01/navigation-early-v1",
+        "data/frames/video-01/navigation-rest-v1"
+      ],
+      "unverifiedRanges": [
+        0,
+        29346
+      ],
+      "session": {
+        "basis": "Boot/restart and new-play context do not alone prove recording/session isolation",
+        "status": "independence unverified"
+      },
+      "mediaId": "video-01",
+      "gameVersion": {
+        "basis": "3DS HOME tile visibly says ポケットモンスター 赤; subsequent game play and new-save contexts visible in same source; does not certify every segment",
+        "status": "red launch observed; other launches/segments unverified",
+        "evidenceFrames": [
+          0,
+          60,
+          1800,
+          2700
+        ]
+      }
+    },
+    {
+      "gameVersion": {
+        "basis": "GB border and Japanese gameplay are visible; no version-exclusive screen confirmed",
+        "status": "unverified"
+      },
+      "unverifiedRanges": [
+        [
+          0,
+          5264
+        ],
+        [
+          5299,
+          7964
+        ]
+      ],
+      "candidateScoredRange": [
+        5264,
+        5299
+      ],
+      "session": {
+        "basis": "Source begins on copyright; no trusted provenance connects or isolates the recordings",
+        "status": "independence unverified"
+      },
+      "mediaId": "video-02",
+      "navigation": [
+        "data/frames/video-02/navigation-v1"
+      ]
+    },
+    {
+      "navigation": [
+        "data/frames/video-03/navigation-v1"
+      ],
+      "unverifiedRanges": [
+        0,
+        7402
+      ],
+      "session": {
+        "basis": "Source starts at copyright and has high-progress save; shared-looking Lapras/PC contexts cannot establish isolated sessions",
+        "status": "independence unverified"
+      },
+      "mediaId": "video-03",
+      "gameVersion": {
+        "basis": "Continue screen player name グリーン is not game-version proof",
+        "status": "unverified"
+      }
+    },
+    {
+      "navigation": [
+        "data/frames/video-04/navigation-v1"
+      ],
+      "unverifiedRanges": [
+        0,
+        22058
+      ],
+      "session": {
+        "basis": "Source begins in gameplay/PC room; possible continuity with other sources not resolved",
+        "status": "independence unverified"
+      },
+      "mediaId": "video-04",
+      "gameVersion": {
+        "basis": "Existing Japanese gameplay, no confirmed version screen",
+        "status": "unverified"
+      }
+    }
+  ],
+  "remainingCoverage": [
+    "状态页小型HP/No.组合字形及实际占位需核清",
+    "背包、战斗、技能选择、探索对话、非目标启动场景待双遍",
+    "商店/PC列表遮挡、滚动及交易待验证",
+    "四版本覆盖、独立会话、真实窗口采集/UI/延迟/稳定性待验证"
+  ],
+  "outsideProposedAndPriorScore": [
+    {
+      "id": "video-01",
+      "ranges": [
+        0,
+        29346
+      ]
+    },
+    {
+      "id": "video-02",
+      "ranges": [
+        [
+          0,
+          1379
+        ],
+        [
+          1426,
+          5264
+        ],
+        [
+          5299,
+          7964
+        ]
+      ]
+    },
+    {
+      "id": "video-03",
+      "ranges": [
+        [
+          0,
+          1439
+        ],
+        [
+          1486,
+          7402
+        ]
+      ]
+    },
+    {
+      "id": "video-04",
+      "ranges": [
+        0,
+        22058
+      ]
+    }
+  ],
+  "acceptance": "All clips development; session isolation remains unverified. Approval of these bytes does not establish OCR or whole-product acceptance.",
+  "nextAfterApproval": "Rehash submitted bundle/GT/clip/layout/contract/originals, rerun integrity, freeze exact approved bytes only; continue remaining M1/M2 coverage, not M3 yet"
+}

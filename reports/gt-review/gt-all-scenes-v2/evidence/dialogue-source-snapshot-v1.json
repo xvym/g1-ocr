@@ -1,0 +1,198 @@
+{
+  "javaChangedInDialogueExpansion": false,
+  "files": [
+    {
+      "sha256": "45713b1ce25f1b0b80cc9afb573ff1687881ecba8af45ad9ab8f7d8b1ec77a53",
+      "path": "spec.md"
+    },
+    {
+      "sha256": "7535ddbad7e2546872f2c3f4727b07573aab3932f329324290a2808878a396c5",
+      "path": ".agent\\PLANS.md"
+    },
+    {
+      "sha256": "1b26de3b77c6e53be8414d7b714dbb46acfbb0637e1582f53e113558ad7015cf",
+      "path": "tools\\all-scenes-review-template.html"
+    },
+    {
+      "sha256": "c9c058809fed665937e16d5734915ea47fce7d7202b371afcf734ed248feeb93",
+      "path": "tools\\build-all-scenes-review.ps1"
+    },
+    {
+      "sha256": "75232ddb3243c10f1efa407d01ae393502b0090f88c44e52d6ea220dfc084726",
+      "path": "tools\\build-gt-batch-review.ps1"
+    },
+    {
+      "sha256": "e8d7018438469bd373df06a5347a6dc5077b0eb2c5ab857e4187458b84ee663a",
+      "path": "tools\\build-gt-review.ps1"
+    },
+    {
+      "sha256": "c2526a43fca5e100979072c6a47b0cfb3257fa491f2420688ddb983dadb0b916",
+      "path": "tools\\check-all-scenes-review.cjs"
+    },
+    {
+      "sha256": "e42d87a2cfdce560ca83d856f0d17cfa7ebbecbdd61b40d11d2fc6450b145d72",
+      "path": "tools\\check-all-scenes-zoom.ps1"
+    },
+    {
+      "sha256": "52c2c55da35d71f969a49c012c82c849e677ac14dddfea1f4ed65051c0da12cb",
+      "path": "tools\\check-dialogue-independent-v1.ps1"
+    },
+    {
+      "sha256": "d67e33882477fa96215a1f9ece8c044ec68b82db8c64d325a7dc8695e6907aee",
+      "path": "tools\\check-dialogue-source-v1.ps1"
+    },
+    {
+      "sha256": "c79ed969527ab9f2b24edf4c0fd18535ee240f5a11262f0f736834196c8a1c70",
+      "path": "tools\\check-gt-review.cjs"
+    },
+    {
+      "sha256": "ab00f5d2469c83257d3eaed6fd4c21b9d8d15b7a6e271ae2127d43f7f318031c",
+      "path": "tools\\dialogue-frame-sheets.ps1"
+    },
+    {
+      "sha256": "e745c8e2ce7a12526833e7801ded806a7147c8edf673fe6b0e2a7a54894e4c6d",
+      "path": "tools\\dialogue-notes-lib.ps1"
+    },
+    {
+      "sha256": "46d5d737833cc70e605fa361842b7047ee87c242a86f9e844045e655083cd984",
+      "path": "tools\\encode-manual-gt.ps1"
+    },
+    {
+      "sha256": "0e156937e2bce5febf74657cd786a2fccdd08735ca50e1130e4eae36762b66e3",
+      "path": "tools\\encode-visible-gt.ps1"
+    },
+    {
+      "sha256": "59927c3d99f4de436849c48ce0c7a8b1bf3a6ed84b5290c60ec847e15b8e65c9",
+      "path": "tools\\prepare-all-scenes-review-v1.ps1"
+    },
+    {
+      "sha256": "f3315e8803bf8ba986668985129a87711d17b67420192400d5219c1a600db726",
+      "path": "tools\\prepare-dialogue-event.ps1"
+    },
+    {
+      "sha256": "f434ac48050edbdc7e4c552744ecf7377570fb6b274836d99d3a722e581de214",
+      "path": "tools\\prepare-dialogue-review-v2.ps1"
+    },
+    {
+      "sha256": "509011cc7d0981be950d91a5113d144a1c4ff1436d75df08f9c000f8f68248a9",
+      "path": "tools\\record-backpack-opening-first-v1.ps1"
+    },
+    {
+      "sha256": "61eff1b38c19f23ff08c8f1efa3141c02bd61d30e5cf426a54292d4036b2469e",
+      "path": "tools\\record-dialogue-final-first-v1.ps1"
+    },
+    {
+      "sha256": "269c03b1133a9a550ff6f32fb307469494522d1c840ac34c3208b4d587aebcd8",
+      "path": "tools\\record-dialogue-final-second-v1.ps1"
+    },
+    {
+      "sha256": "f389b6ceab28433e4f3eae4325c67c9871cd9f05d7e99a48e893db0c23533aca",
+      "path": "tools\\record-dialogue-intro-first-v1.ps1"
+    },
+    {
+      "sha256": "c3e8325215e9e1c4539a2d54edfe5c11857257980d6aca9564eedca0f5a5ffa2",
+      "path": "tools\\record-dialogue-intro-second-v1.ps1"
+    },
+    {
+      "sha256": "c245c93c83afae4e140ff46a2cbbf65aba703887e2d1246aa7cb8534b67dc390",
+      "path": "tools\\record-dialogue-more-first-v1.ps1"
+    },
+    {
+      "sha256": "0956f594f5614315ddcef650ab755801366cd3feb5da3a2e72d5432893433070",
+      "path": "tools\\record-dialogue-more-second-v1.ps1"
+    },
+    {
+      "sha256": "8fb8e7b1ef3f158f4a5c7fd11360f71a2e8467dad1d1358bf5dd2aa2a760c353",
+      "path": "tools\\record-exploration-npc-v1.ps1"
+    },
+    {
+      "sha256": "e264e3b995ec5f69cd1503bafe0201589a4b6c4684ce9880e16e6bf747345f36",
+      "path": "tools\\record-party-first-v1.ps1"
+    },
+    {
+      "sha256": "8c0b92dd654e954541fd804028a9075b98e0974bf57463d6881d6b8ce7957e6f",
+      "path": "tools\\record-pc-deposit-first-v1.ps1"
+    },
+    {
+      "sha256": "41d58227253b400c30afbdbb44438842746d4fd2138d063e26e1ad6a698e869f",
+      "path": "tools\\record-shop-first-v1.ps1"
+    },
+    {
+      "sha256": "e7a73d1cdd7a335d1e2e6ab607d67666a2d68a23aeb393d3200f1568bb0e119c",
+      "path": "tools\\record-shop-rejection-first-v1.ps1"
+    },
+    {
+      "sha256": "62a7aa8f6aee9a181630bc0da29258663cc7c18436a15a90694ad6316f058a80",
+      "path": "tools\\scan-dialogue-pixels.ps1"
+    },
+    {
+      "sha256": "e64d7b37a85e8358191d6f4c960232e6d4c0c3efde5160f175df25b1a94daea5",
+      "path": "tools\\slice-verified-frames.ps1"
+    },
+    {
+      "sha256": "b8fc9aedcc405046e9417b72cf3a302c32d72a962f58b9f6139507a04cb5cec0",
+      "path": "tools\\validate.ps1"
+    },
+    {
+      "sha256": "2abcd13d05dc07d4d5411479769435d346dc38527a9bdb57f0535fbcb8bf9739",
+      "path": "app\\src\\main\\java\\io\\github\\g1ocr\\BootstrapWindow.java"
+    },
+    {
+      "sha256": "570035247cf5073bb18c876c984133e2722b822fec66acccf33a15f045b91699",
+      "path": "app\\src\\main\\java\\io\\github\\g1ocr\\Main.java"
+    },
+    {
+      "sha256": "4fc95ad0eb997fe4164d9ebeb039f7336ee4b574b1b77fa126e35603a624065e",
+      "path": "app\\src\\main\\java\\io\\github\\g1ocr\\capture\\SourceFrame.java"
+    },
+    {
+      "sha256": "1c6920def1606f71c9000fc6f5d463b19c30cebd7d3b140b1e105b2362481f16",
+      "path": "app\\src\\test\\java\\io\\github\\g1ocr\\capture\\SourceFrameTest.java"
+    },
+    {
+      "sha256": "a68d73519810cedb78b312788582bf52c75e837a7486f7d72f2701f6a1fb7d82",
+      "path": "verification\\src\\main\\java\\io\\github\\g1ocr\\verification\\FrameInspection.java"
+    },
+    {
+      "sha256": "e35241e3df7bd7aaa706b2a2f45d3062f0a98e14d7cfdc19e0dd9eb12f36edbe",
+      "path": "verification\\src\\main\\java\\io\\github\\g1ocr\\verification\\GridProjection.java"
+    },
+    {
+      "sha256": "31d04930e147f68b18ffb2e3978793e04cc86bdb1bdaf88262316e6b4a869bd2",
+      "path": "verification\\src\\main\\java\\io\\github\\g1ocr\\verification\\GtGeometry.java"
+    },
+    {
+      "sha256": "0b17d8a0c0c261d2bf2d437ab0690166fcb1595ddc20879211438d4a7ee37694",
+      "path": "verification\\src\\main\\java\\io\\github\\g1ocr\\verification\\GtIntegrity.java"
+    },
+    {
+      "sha256": "c6ad289c5c0085af15f463631ded28c1d7c25ca2bb6006004f5d2aeba8f987c1",
+      "path": "verification\\src\\main\\java\\io\\github\\g1ocr\\verification\\Ledger.java"
+    },
+    {
+      "sha256": "792daa2ba6ffd0f0af6f1bfcbf9cb2955c599c507c353aefbd70e2d2b7c749ac",
+      "path": "verification\\src\\main\\java\\io\\github\\g1ocr\\verification\\PageOpportunities.java"
+    },
+    {
+      "sha256": "9b6881c0925ccb7dbeb48f03b14ce91790b0f7d52c0fb76bc59caaee919fabf9",
+      "path": "verification\\src\\main\\java\\io\\github\\g1ocr\\verification\\VideoTool.java"
+    },
+    {
+      "sha256": "2064c031d608770ff7af2006221632463ff283f856f8ab0e325bcd885f3c86f3",
+      "path": "verification\\src\\test\\java\\io\\github\\g1ocr\\verification\\GridProjectionTest.java"
+    },
+    {
+      "sha256": "51c454798df721a3d5e4180a976a1f49a9605fd4fbc85dd2066a08bddb2107e5",
+      "path": "verification\\src\\test\\java\\io\\github\\g1ocr\\verification\\GtGeometryTest.java"
+    },
+    {
+      "sha256": "6f36d3b071b6ac37b1523ca512b47d793f765abf12b711d721f9f350b426df44",
+      "path": "verification\\src\\test\\java\\io\\github\\g1ocr\\verification\\LedgerTest.java"
+    },
+    {
+      "sha256": "0b6ac143bd41dbf3681d78f953eb33809a6ade91b6c7334041c1ff6bd6c46862",
+      "path": "verification\\src\\test\\java\\io\\github\\g1ocr\\verification\\PageOpportunitiesTest.java"
+    }
+  ],
+  "status": "source_version_snapshot_not_new_build"
+}

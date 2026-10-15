@@ -1,0 +1,591 @@
+{
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+  "notes": [
+    "Fresh source-from-start independent decode, selected raw frames directly reread by current agent; no tested OCR/translation outputs",
+    "Literal text, spaces, visible clipped bases, timing and indicators agree with first raw read",
+    "Nurse blocks share one natural interaction; overlap1922/2088 is an empty textbox, not another independent sample",
+    "No claim of human per-frame verification or independent acceptance"
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "name": "护士返还、恢复完成与结束语",
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "source": "data/frames/video-03/dialogue-centre-pass2-v1",
+  "secondRead": "nurse-second sheets014-020, every original frame; scroll2114-2116, arrow off2145, close2187",
+  "frozen": false,
+  "scoredRange": [
+    2088,
+    2191
+  ],
+  "states": [
+    {
+      "startFrame": 2088,
+      "kind": "textbox_empty",
+      "completePage": false,
+      "endFrameExclusive": 2089,
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "startFrame": 2089,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2090,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おまち"
+        }
+      ]
+    },
+    {
+      "startFrame": 2090,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2092,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おまちどうさ"
+        }
+      ]
+    },
+    {
+      "startFrame": 2092,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2093,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おまちどうさまでし"
+        }
+      ]
+    },
+    {
+      "startFrame": 2093,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2094,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おまちどうさまでした！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "お"
+        }
+      ]
+    },
+    {
+      "startFrame": 2094,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2095,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おまちどうさまでした！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "おあずか"
+        }
+      ]
+    },
+    {
+      "startFrame": 2095,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2096,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おまちどうさまでした！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "おあずかりした"
+        }
+      ]
+    },
+    {
+      "startFrame": 2096,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2098,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おまちどうさまでした！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "おあずかりした ポケ"
+        }
+      ]
+    },
+    {
+      "startFrame": 2098,
+      "kind": "message_complete",
+      "pageOpportunityId": "nurse-return-1",
+      "completePage": true,
+      "endFrameExclusive": 2099,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おまちどうさまでした！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "おあずかりした ポケモンは"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おまちどうさまでした！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "おあずかりした ポケモンは"
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 2114,
+      "startFrame": 2099,
+      "pageOpportunityId": "nurse-return-1",
+      "menuCursors": [],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      }
+    },
+    {
+      "startFrame": 2114,
+      "renderNote": "Current8-pixel upward scroll, upper diacritics clipped by textbox; only visible bases transcribed",
+      "kind": "scrolling",
+      "completePage": false,
+      "endFrameExclusive": 2116,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 13,
+          "text": "おまちとうさまてした！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 15,
+          "text": "おあずかりした ポケモンは"
+        }
+      ]
+    },
+    {
+      "startFrame": 2116,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2118,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おあずかりした ポケモンは"
+        }
+      ]
+    },
+    {
+      "startFrame": 2118,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2119,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おあずかりした ポケモンは"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "みん"
+        }
+      ]
+    },
+    {
+      "startFrame": 2119,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2120,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おあずかりした ポケモンは"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "みんな げ"
+        }
+      ]
+    },
+    {
+      "startFrame": 2120,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2122,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おあずかりした ポケモンは"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "みんな げんきに"
+        }
+      ]
+    },
+    {
+      "startFrame": 2122,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2123,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おあずかりした ポケモンは"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "みんな げんきに なり"
+        }
+      ]
+    },
+    {
+      "startFrame": 2123,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2124,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おあずかりした ポケモンは"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "みんな げんきに なりました"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おあずかりした ポケモンは"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "みんな げんきに なりましたよ！"
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 2145,
+      "startFrame": 2124,
+      "pageOpportunityId": "nurse-return-2",
+      "menuCursors": [],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      }
+    },
+    {
+      "startFrame": 2145,
+      "kind": "message_complete",
+      "pageOpportunityId": "nurse-return-2",
+      "completePage": true,
+      "endFrameExclusive": 2153,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おあずかりした ポケモンは"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "みんな げんきに なりましたよ！"
+        }
+      ]
+    },
+    {
+      "startFrame": 2153,
+      "kind": "textbox_empty",
+      "completePage": false,
+      "endFrameExclusive": 2166,
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "startFrame": 2166,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2168,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "また"
+        }
+      ]
+    },
+    {
+      "startFrame": 2168,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2169,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "またの"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ごり"
+        }
+      ]
+    },
+    {
+      "startFrame": 2169,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2170,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "またの"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ごりようを"
+        }
+      ]
+    },
+    {
+      "startFrame": 2170,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2171,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "またの"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ごりようを おま"
+        }
+      ]
+    },
+    {
+      "startFrame": 2171,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 2172,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "またの"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ごりようを おまちして"
+        }
+      ]
+    },
+    {
+      "startFrame": 2172,
+      "kind": "message_complete",
+      "pageOpportunityId": "nurse-return-3",
+      "completePage": true,
+      "endFrameExclusive": 2187,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "またの"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ごりようを おまちしてます！"
+        }
+      ]
+    },
+    {
+      "startFrame": 2187,
+      "kind": "empty_target",
+      "completePage": false,
+      "endFrameExclusive": 2191,
+      "menuCursors": [],
+      "fields": []
+    }
+  ],
+  "range": [
+    2086,
+    2193
+  ],
+  "mediaId": "video-03"
+}

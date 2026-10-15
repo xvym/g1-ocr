@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "canonicalSize": [
+    160,
+    144
+  ],
+  "sourceFrameSize": [
+    960,
+    544
+  ],
+  "sourceOrigin": [
+    180,
+    0
+  ],
+  "sourceGameRect": [
+    180,
+    0,
+    780,
+    544
+  ],
+  "sourceScaleXNumerator": 15,
+  "sourceScaleXDenominator": 4,
+  "sourceScaleYNumerator": 34,
+  "sourceScaleYDenominator": 9,
+  "rectConvention": "[left,top,right,bottom); floor each projected logical boundary",
+  "sar": "136:135; recorded as source metadata only, never applied again to decoded RGB",
+  "characterEncoding": "UTF-8 NFC precomposed kana; one U+0020 per visible blank cell; U+FF1F question glyph",
+  "scope": "shop after stacked item list closes; decorative map signs/sprites are non-target; all visible menu/money/dialogue fields included",
+  "evidence": "Original pixels 1439,1450,1461; 600 by 544 game raster, regular 30 source-pixel horizontal glyph cells, vertical 8*34/9 progression; not OCR-derived",
+  "status": "pass1_geometry_pending_second_read"
+}

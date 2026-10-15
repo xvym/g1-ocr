@@ -1,0 +1,13 @@
+{
+  "second": "manual-pass2.json",
+  "first": "manual-pass1.json",
+  "evidence": "reports/m2-all-scenes-pc-deposit-navigation-pass2-inspection-v1; reports/m2-all-scenes-pc-deposit-arrows-pass2-v1.png; reports/m2-all-scenes-pc1749-crop-v1.png",
+  "differences": [
+    "First transcription prematurely included final question mark1654-1658; second raw confirms it appears1659; corrected these frames to visible literal endingか",
+    "Arrow absent1673-1688 confirmed in complete original arrow strip; first provisional transcription carried it forward; corrected symbol states without changing page IDs",
+    "Full literal items/quantity/prefixes and event boundaries agree. Detached third-line marks1749 directly magnified."
+  ],
+  "frozen": false,
+  "status": "agent_double_raw_read_differences_resolved_not_approved",
+  "humanPerFrameVerification": "not claimed"
+}

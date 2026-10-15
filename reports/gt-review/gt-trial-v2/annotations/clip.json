@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "c83de914352e-f5262-f5301",
+  "sourceCandidate": "data/meta/clips-candidates-v1.json",
+  "mediaId": "video-02",
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "startFrame": 5262,
+  "endFrameExclusive": 5301,
+  "warmup": [
+    5262,
+    5264
+  ],
+  "scoredRange": [
+    5264,
+    5299
+  ],
+  "postContext": [
+    5299,
+    5301
+  ],
+  "timeBase": "1/12288",
+  "set": "development",
+  "sessionGrouping": "video-02 source context only; independence unverified; no acceptance allocation",
+  "eventType": "one visible dialogue page followed by its scroll/replacement",
+  "boundaryStatus": "complete_agent_double_read",
+  "selectionReason": "First complete page of gym plaque: pre-textbox scene, empty textbox, all character loading, complete first page with arrow, two scrolling frames and settled replacement. The next page text loading at 5300 is post-context only; not claimed as a second complete event.",
+  "keyFrames": {
+    "pre": 5267,
+    "textbox": 5268,
+    "complete": 5286,
+    "replacementSettled": 5298,
+    "nextPageLoadingContext": 5300,
+    "scrollStart": 5296,
+    "firstText": 5275
+  },
+  "version": "trial-ocr-v2",
+  "gt": "data/gt/candidates/ocr-trial-v1/ocr-candidate-v2.jsonl",
+  "frozen": false,
+  "unresolved": "No unresolved scored text/position/time states. Version identity, session independence and other events remain unverified outside this trial."
+}

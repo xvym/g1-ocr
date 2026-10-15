@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "canonicalSize": [
+    160,
+    144
+  ],
+  "sourceGameRect": [
+    300,
+    108,
+    660,
+    432
+  ],
+  "gridCellSize": [
+    8,
+    8
+  ],
+  "sourceScaleNumerator": 9,
+  "sourceScaleDenominator": 4,
+  "sourceOrigin": [
+    300,
+    108
+  ],
+  "sourceFrameSize": [
+    960,
+    544
+  ],
+  "rectConvention": "[left,top,right,bottom)",
+  "coordinateMeaning": "logical base glyph cells; source region envelope also includes separately listed dakuten/handakuten cells above base cells",
+  "characterEncoding": "UTF-8; NFC precomposed Japanese characters; Unicode scalar counting; U+0020 one blank cell; U+FF01 exclamation glyph",
+  "evidence": "full original frames 5262,5264,5286,5296,5298,5299; base cells 18 source pixels apart; geometry to recheck during pass2",
+  "status": "pass1_candidate_not_frozen"
+}

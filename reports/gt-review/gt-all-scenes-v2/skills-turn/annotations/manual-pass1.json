@@ -1,0 +1,73 @@
+{
+  "humanPerFrameVerification": "not claimed",
+  "boundaries": [
+    "17462-17470 command",
+    "17471 cursor missing and9/10;17472 first cursor",
+    "17481 PP/type update while first cursor persists;17482 second cursor",
+    "17486 message empty HUD remains",
+    "17487-17493 own text loads;17533 clear",
+    "17534-17539 enemy text loads;17549 clear",
+    "17550-17557 miss loads;17558 arrow appears;17561 clear;17562 main menu returns"
+  ],
+  "literalObservations": {
+    "own": [
+      "ラプラス",
+      ":L",
+      "50",
+      "HP:",
+      "200/206"
+    ],
+    "messages": [
+      [
+        "ラプラスの",
+        "のしかかり こうげき！"
+      ],
+      [
+        "てきの ジュゴンの",
+        "とっしん！"
+      ],
+      [
+        "しかし てきの ジュゴンの",
+        "こうげきは はずれた！"
+      ]
+    ],
+    "detailAfter": [
+      "14/15",
+      "わざタイプ",
+      "/ノーマル"
+    ],
+    "detailBefore": [
+      "9/10",
+      "わざタイプ",
+      "/こおり"
+    ],
+    "enemy": [
+      "ジュゴン",
+      ":L",
+      "54",
+      "HP:"
+    ],
+    "skills": [
+      "れいとうビーム",
+      "のしかかり",
+      "あやしいひかり",
+      "ハイドロポンプ"
+    ],
+    "commands": [
+      "たたかう",
+      "どうぐ",
+      "ポケモン",
+      "にげる"
+    ]
+  },
+  "range": [
+    17462,
+    17566
+  ],
+  "selectionBeforeAnyTestedOcr": "Main battle menu before first move selection -> skill list cursor and PP/type change -> own move execution -> opposing move/miss -> returned stable command menu",
+  "viewedOrderedOriginalFrames": "sheets015-020 cover all selected frames; direct17464/17470/17471/17481/17486/17562",
+  "status": "first_raw_read_complete_not_frozen",
+  "frozen": false,
+  "geometryPending": "HP: 12x4 logical-pixel label and :L 8x8 compound symbol need raw geometry confirmation, do not allocate one full cell per Unicode character",
+  "source": "data/frames/video-04/expansion-context-f17150-f17650-v1"
+}

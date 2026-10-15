@@ -1,0 +1,90 @@
+[
+  {
+    "path": "app/pom.xml",
+    "sha256": "12f084ffe49df8b03f36b368d85a0c7e8e621042ad0fd974eb2cb52bb4460b90"
+  },
+  {
+    "path": "app/src\\main\\java\\io\\github\\g1ocr\\BootstrapWindow.java",
+    "sha256": "2abcd13d05dc07d4d5411479769435d346dc38527a9bdb57f0535fbcb8bf9739"
+  },
+  {
+    "path": "app/src\\main\\java\\io\\github\\g1ocr\\capture\\SourceFrame.java",
+    "sha256": "4fc95ad0eb997fe4164d9ebeb039f7336ee4b574b1b77fa126e35603a624065e"
+  },
+  {
+    "path": "app/src\\main\\java\\io\\github\\g1ocr\\Main.java",
+    "sha256": "570035247cf5073bb18c876c984133e2722b822fec66acccf33a15f045b91699"
+  },
+  {
+    "path": "app/src\\test\\java\\io\\github\\g1ocr\\capture\\SourceFrameTest.java",
+    "sha256": "1c6920def1606f71c9000fc6f5d463b19c30cebd7d3b140b1e105b2362481f16"
+  },
+  {
+    "path": "config\\input-videos.json",
+    "sha256": "6372348c50dfae02e283911c422373a79ee43f1ac59bff4c08211f99bdebd179"
+  },
+  {
+    "path": "config\\maven-settings.xml",
+    "sha256": "c806d99e448a1303d7adee891246f663d0c6912a191994205f3a7d231c0ac1bd"
+  },
+  {
+    "path": "config\\video-tools.json",
+    "sha256": "677adf7200d2ad4b80470687c570a484016dc68e7ef142d5d040ae91cc347251"
+  },
+  {
+    "path": "pom.xml",
+    "sha256": "3040082b583b959facddd04e955e9e83aaa42a26fbcf6d2c37f2208cca8c2ff7"
+  },
+  {
+    "path": "resources\\dependencies.json",
+    "sha256": "f43bad27cf18ec37901a728608b49de334ffd4339ba91dc7433c16601ff2ebec"
+  },
+  {
+    "path": "tools\\build-gt-batch-review.ps1",
+    "sha256": "b182794df723cdff8e4580ea4c6793f0347158a8a57c9205314db158276b0989"
+  },
+  {
+    "path": "tools\\build-gt-review.ps1",
+    "sha256": "e8d7018438469bd373df06a5347a6dc5077b0eb2c5ab857e4187458b84ee663a"
+  },
+  {
+    "path": "tools\\encode-manual-gt.ps1",
+    "sha256": "46d5d737833cc70e605fa361842b7047ee87c242a86f9e844045e655083cd984"
+  },
+  {
+    "path": "tools\\validate.ps1",
+    "sha256": "b8fc9aedcc405046e9417b72cf3a302c32d72a962f58b9f6139507a04cb5cec0"
+  },
+  {
+    "path": "verification/pom.xml",
+    "sha256": "ca32f0e3639fdca38582fda020f9dbfe92d81cbafd19fbcd379500e58f684998"
+  },
+  {
+    "path": "verification/src\\main\\java\\io\\github\\g1ocr\\verification\\FrameInspection.java",
+    "sha256": "a68d73519810cedb78b312788582bf52c75e837a7486f7d72f2701f6a1fb7d82"
+  },
+  {
+    "path": "verification/src\\main\\java\\io\\github\\g1ocr\\verification\\GridProjection.java",
+    "sha256": "a607750295a7246033096fdca064970c33b87bb647ad7f3b1627d8fd719fb48d"
+  },
+  {
+    "path": "verification/src\\main\\java\\io\\github\\g1ocr\\verification\\GtIntegrity.java",
+    "sha256": "98f2bbea1be5d5711de065c62e1448558d2a3f79c9dfd3ad8ec2af21d7328083"
+  },
+  {
+    "path": "verification/src\\main\\java\\io\\github\\g1ocr\\verification\\Ledger.java",
+    "sha256": "c6ad289c5c0085af15f463631ded28c1d7c25ca2bb6006004f5d2aeba8f987c1"
+  },
+  {
+    "path": "verification/src\\main\\java\\io\\github\\g1ocr\\verification\\VideoTool.java",
+    "sha256": "9b6881c0925ccb7dbeb48f03b14ce91790b0f7d52c0fb76bc59caaee919fabf9"
+  },
+  {
+    "path": "verification/src\\test\\java\\io\\github\\g1ocr\\verification\\GridProjectionTest.java",
+    "sha256": "1217db08b48c6f9e9eae711f2c874cde43c8b338b28cb4a5ea8fc1154f4cc423"
+  },
+  {
+    "path": "verification/src\\test\\java\\io\\github\\g1ocr\\verification\\LedgerTest.java",
+    "sha256": "6f36d3b071b6ac37b1523ca512b47d793f765abf12b711d721f9f350b426df44"
+  }
+]

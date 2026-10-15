@@ -1,0 +1,62 @@
+[
+  {
+    "sha256": "b8fc9aedcc405046e9417b72cf3a302c32d72a962f58b9f6139507a04cb5cec0",
+    "path": "tools/validate.ps1"
+  },
+  {
+    "sha256": "6372348c50dfae02e283911c422373a79ee43f1ac59bff4c08211f99bdebd179",
+    "path": "config/input-videos.json"
+  },
+  {
+    "sha256": "12f084ffe49df8b03f36b368d85a0c7e8e621042ad0fd974eb2cb52bb4460b90",
+    "path": "app/pom.xml"
+  },
+  {
+    "sha256": "677adf7200d2ad4b80470687c570a484016dc68e7ef142d5d040ae91cc347251",
+    "path": "config/video-tools.json"
+  },
+  {
+    "sha256": "c806d99e448a1303d7adee891246f663d0c6912a191994205f3a7d231c0ac1bd",
+    "path": "config/maven-settings.xml"
+  },
+  {
+    "sha256": "1c6920def1606f71c9000fc6f5d463b19c30cebd7d3b140b1e105b2362481f16",
+    "path": "app/src/test/java/io/github/g1ocr/capture/SourceFrameTest.java"
+  },
+  {
+    "sha256": "6f36d3b071b6ac37b1523ca512b47d793f765abf12b711d721f9f350b426df44",
+    "path": "verification/src/test/java/io/github/g1ocr/verification/LedgerTest.java"
+  },
+  {
+    "sha256": "2abcd13d05dc07d4d5411479769435d346dc38527a9bdb57f0535fbcb8bf9739",
+    "path": "app/src/main/java/io/github/g1ocr/BootstrapWindow.java"
+  },
+  {
+    "sha256": "ca32f0e3639fdca38582fda020f9dbfe92d81cbafd19fbcd379500e58f684998",
+    "path": "verification/pom.xml"
+  },
+  {
+    "sha256": "570035247cf5073bb18c876c984133e2722b822fec66acccf33a15f045b91699",
+    "path": "app/src/main/java/io/github/g1ocr/Main.java"
+  },
+  {
+    "sha256": "4fc95ad0eb997fe4164d9ebeb039f7336ee4b574b1b77fa126e35603a624065e",
+    "path": "app/src/main/java/io/github/g1ocr/capture/SourceFrame.java"
+  },
+  {
+    "sha256": "6b1fd66aedb70fc53ac0ebac1609a0d91808895babbf16d169928a82dfe45ed5",
+    "path": "verification/src/main/java/io/github/g1ocr/verification/VideoTool.java"
+  },
+  {
+    "sha256": "c6ad289c5c0085af15f463631ded28c1d7c25ca2bb6006004f5d2aeba8f987c1",
+    "path": "verification/src/main/java/io/github/g1ocr/verification/Ledger.java"
+  },
+  {
+    "sha256": "3040082b583b959facddd04e955e9e83aaa42a26fbcf6d2c37f2208cca8c2ff7",
+    "path": "pom.xml"
+  },
+  {
+    "sha256": "be9d46579577e27f7b9873aa57c8335cbff337c7f416a381242315009a31d419",
+    "path": ".gitignore"
+  }
+]

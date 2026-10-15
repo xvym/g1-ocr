@@ -1,0 +1,18 @@
+{
+  "schemaVersion":1,
+  "status":"boundary_navigation_candidate_not_frozen",
+  "selectedBeforeOcr":true,
+  "clips":[{
+    "id":"c83de914352e-f5100-f5400-candidate",
+    "mediaId":"video-02",
+    "mediaSha256":"c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+    "startFrame":5100,"endFrameExclusive":5400,
+    "set":"development",
+    "eventType":"dialogue_page",
+    "selectionReason":"原帧导航 5040 为室外移动，5280 为室内文本框正在加载，5520 为空白过渡；为首个主文本框试标向两侧连续追溯，以核实页面加载与移除/替换。范围先作候选，必须逐帧确认并必要时扩展，不能视为完整事件。没有 OCR 实现或输出。",
+    "boundaryStatus":"boundary_unknown",
+    "warmup":null,"scoredRange":null,"postContext":null,
+    "navigationEvidence":["data/frames/video-02/navigation-v1/frame-005040.png","data/frames/video-02/navigation-v1/frame-005280.png","data/frames/video-02/navigation-v1/frame-005520.png"],
+    "unverified":["event boundaries","visible text states","session independence","game version"]
+  }]
+}

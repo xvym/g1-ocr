@@ -1,0 +1,1034 @@
+{
+  "states": [
+    {
+      "startFrame": 3534,
+      "completePage": false,
+      "kind": "empty_target",
+      "endFrameExclusive": 3541,
+      "fields": [],
+      "renderNote": "All7 entry empty frames retained",
+      "menuCursors": []
+    },
+    {
+      "fieldSet": "first",
+      "completePage": true,
+      "pageOpportunityId": "alt-status-first-page",
+      "endFrameExclusive": 3612,
+      "renderNote": "Text fully visible from3541; sprite-only reveal3562/3563 retained in original frames without inventing text changes",
+      "startFrame": 3541,
+      "kind": "status_page_complete",
+      "menuCursors": []
+    },
+    {
+      "startFrame": 3612,
+      "completePage": false,
+      "kind": "status_page_redraw",
+      "endFrameExclusive": 3613,
+      "fieldSet": "mixed",
+      "renderNote": "New top experience panel; old attack144/type1 grass first bottom row; new moves2-4 below. All visible fields explicitly retained",
+      "menuCursors": []
+    },
+    {
+      "startFrame": 3613,
+      "completePage": true,
+      "pageOpportunityId": "alt-status-second-page",
+      "kind": "status_page_complete",
+      "endFrameExclusive": 3652,
+      "fieldSet": "second",
+      "menuCursors": []
+    },
+    {
+      "startFrame": 3652,
+      "completePage": false,
+      "kind": "empty_target",
+      "endFrameExclusive": 3663,
+      "fields": [],
+      "renderNote": "All11 exit empty frames retained; returned party list3663 is post-context",
+      "menuCursors": []
+    }
+  ],
+  "mediaId": "video-03",
+  "secondRead": "All135 independent original redecodes3532-3666 directly viewed raw-only ordered sheets000-006; no tested output or GT overlays",
+  "annotationMethod": "Same independently built field-format template; every literal label/value in this source read directly twice, changed source values manually transcribed. Never inherited legacy-project GT or inferred from another source.",
+  "humanPerFrameVerification": "not claimed",
+  "frozen": false,
+  "source": "data/frames/video-03/all-scenes-status-alt-pages-pass2-v1",
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+  "fieldSets": {
+    "first": [
+      {
+        "id": "name",
+        "role": "pokemon_name",
+        "row": 1,
+        "variable": {
+          "role": "pokemon_display_name",
+          "displayValue": "ウツボット",
+          "type": "string"
+        },
+        "col": 11,
+        "text": "ウツボット"
+      },
+      {
+        "renderEvidence": "Direct original video-03 frames3600/3613 and all135 independently redecoded originals3532-3666; full raw sheets and source PNG retained",
+        "renderNote": "Visible compound label read in this source; same logical nominal tile geometry with independent X/Y scaling",
+        "id": "level-label",
+        "logicalRect": [
+          128,
+          8,
+          136,
+          16
+        ],
+        "gridRect": [
+          16.0,
+          1.0,
+          17.0,
+          2.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": ":L",
+            "kind": "compound_label",
+            "logicalRect": [
+              128,
+              8,
+              136,
+              16
+            ]
+          }
+        ],
+        "col": 0,
+        "text": ":L"
+      },
+      {
+        "id": "level",
+        "role": "pokemon_level",
+        "row": 1,
+        "variable": {
+          "role": "pokemon_level",
+          "numericValue": 50,
+          "displayValue": "50",
+          "type": "integer"
+        },
+        "col": 17,
+        "text": "50"
+      },
+      {
+        "renderEvidence": "Direct original video-03 frames3600/3613 and all135 independently redecoded originals3532-3666; full raw sheets and source PNG retained",
+        "renderNote": "Visible compound label read in this source; same logical nominal tile geometry with independent X/Y scaling",
+        "id": "no-label",
+        "logicalRect": [
+          8,
+          56,
+          24,
+          64
+        ],
+        "gridRect": [
+          1.0,
+          7.0,
+          3.0,
+          8.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": "No.",
+            "kind": "compound_label",
+            "logicalRect": [
+              8,
+              56,
+              24,
+              64
+            ]
+          }
+        ],
+        "col": 0,
+        "text": "No."
+      },
+      {
+        "id": "no-value",
+        "role": "pokedex_number",
+        "row": 7,
+        "variable": {
+          "role": "pokedex_number",
+          "numericValue": 71,
+          "format": "3 digits, leading zero retained",
+          "displayValue": "071",
+          "type": "integer"
+        },
+        "col": 3,
+        "text": "071"
+      },
+      {
+        "renderEvidence": "Direct original video-03 frames3600/3613 and all135 independently redecoded originals3532-3666; full raw sheets and source PNG retained",
+        "renderNote": "Visible compound label read in this source; same logical nominal tile geometry with independent X/Y scaling",
+        "id": "hp-label",
+        "logicalRect": [
+          88,
+          28,
+          100,
+          32
+        ],
+        "gridRect": [
+          11.0,
+          3.5,
+          12.5,
+          4.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": "HP:",
+            "kind": "compound_label",
+            "logicalRect": [
+              88,
+              28,
+              100,
+              32
+            ]
+          }
+        ],
+        "col": 0,
+        "text": "HP:"
+      },
+      {
+        "id": "hp-value",
+        "role": "hp_current_max",
+        "row": 4,
+        "variable": {
+          "role": "hp_current_max",
+          "current": 160,
+          "maximum": 160,
+          "displayValue": "160/160",
+          "type": "integer_pair"
+        },
+        "col": 12,
+        "text": "160/160"
+      },
+      {
+        "id": "status",
+        "role": "pokemon_condition",
+        "row": 6,
+        "variable": {
+          "role": "pokemon_condition",
+          "format": "label/slash/value",
+          "displayValue": "じょうたい/ふつう",
+          "type": "string"
+        },
+        "col": 10,
+        "text": "じょうたい/ふつう"
+      },
+      {
+        "id": "attack-label",
+        "role": "stat_label",
+        "text": "こうげき",
+        "row": 10,
+        "col": 1
+      },
+      {
+        "id": "attack-value",
+        "role": "attack",
+        "row": 10,
+        "variable": {
+          "role": "attack",
+          "numericValue": 144,
+          "displayValue": "144",
+          "type": "integer"
+        },
+        "col": 6,
+        "text": "144"
+      },
+      {
+        "id": "defense-label",
+        "role": "stat_label",
+        "text": "ぼうぎょ",
+        "row": 12,
+        "col": 1
+      },
+      {
+        "id": "defense-value",
+        "role": "defense",
+        "row": 12,
+        "variable": {
+          "role": "defense",
+          "numericValue": 105,
+          "displayValue": "105",
+          "type": "integer"
+        },
+        "col": 6,
+        "text": "105"
+      },
+      {
+        "id": "speed-label",
+        "role": "stat_label",
+        "text": "すばやさ",
+        "row": 14,
+        "col": 1
+      },
+      {
+        "id": "speed-value",
+        "role": "speed",
+        "row": 14,
+        "variable": {
+          "role": "speed",
+          "numericValue": 110,
+          "displayValue": "110",
+          "type": "integer"
+        },
+        "col": 6,
+        "text": "110"
+      },
+      {
+        "id": "special-label",
+        "role": "stat_label",
+        "text": "とくしゅ",
+        "row": 16,
+        "col": 1
+      },
+      {
+        "id": "special-value",
+        "role": "special",
+        "row": 16,
+        "variable": {
+          "role": "special",
+          "numericValue": 133,
+          "displayValue": "133",
+          "type": "integer"
+        },
+        "col": 6,
+        "text": "133"
+      },
+      {
+        "id": "type1",
+        "role": "pokemon_type",
+        "text": "タイプ1/くさ",
+        "row": 10,
+        "col": 10
+      },
+      {
+        "id": "type2",
+        "role": "pokemon_type",
+        "text": "タイプ2/どく",
+        "row": 12,
+        "col": 10
+      },
+      {
+        "renderEvidence": "Direct original video-03 frames3600/3613 and all135 independently redecoded originals3532-3666; full raw sheets and source PNG retained",
+        "renderNote": "Visible compound label read in this source; same logical nominal tile geometry with independent X/Y scaling",
+        "id": "trainer-id-label",
+        "logicalRect": [
+          80,
+          112,
+          104,
+          120
+        ],
+        "gridRect": [
+          10.0,
+          14.0,
+          13.0,
+          15.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": "IDNo/",
+            "kind": "compound_label",
+            "logicalRect": [
+              80,
+              112,
+              104,
+              120
+            ]
+          }
+        ],
+        "col": 0,
+        "text": "IDNo/"
+      },
+      {
+        "id": "trainer-id",
+        "role": "trainer_id",
+        "row": 14,
+        "variable": {
+          "role": "trainer_id",
+          "numericValue": 44837,
+          "format": "5 digits",
+          "displayValue": "44837",
+          "type": "integer"
+        },
+        "col": 14,
+        "text": "44837"
+      },
+      {
+        "id": "owner",
+        "role": "trainer_name",
+        "row": 16,
+        "variable": {
+          "role": "original_trainer_name",
+          "format": "label/slash/space/name",
+          "displayValue": "グリーン",
+          "type": "string"
+        },
+        "col": 10,
+        "text": "おや/ グリーン"
+      }
+    ],
+    "second": [
+      {
+        "id": "name",
+        "role": "pokemon_name",
+        "row": 1,
+        "variable": {
+          "role": "pokemon_display_name",
+          "displayValue": "ウツボット",
+          "type": "string"
+        },
+        "col": 11,
+        "text": "ウツボット"
+      },
+      {
+        "renderEvidence": "Direct original video-03 frames3600/3613 and all135 independently redecoded originals3532-3666; full raw sheets and source PNG retained",
+        "renderNote": "Visible compound label read in this source; same logical nominal tile geometry with independent X/Y scaling",
+        "id": "level-label",
+        "logicalRect": [
+          128,
+          8,
+          136,
+          16
+        ],
+        "gridRect": [
+          16.0,
+          1.0,
+          17.0,
+          2.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": ":L",
+            "kind": "compound_label",
+            "logicalRect": [
+              128,
+              8,
+              136,
+              16
+            ]
+          }
+        ],
+        "col": 0,
+        "text": ":L"
+      },
+      {
+        "id": "level",
+        "role": "pokemon_level",
+        "row": 1,
+        "variable": {
+          "role": "pokemon_level",
+          "numericValue": 50,
+          "displayValue": "50",
+          "type": "integer"
+        },
+        "col": 17,
+        "text": "50"
+      },
+      {
+        "renderEvidence": "Direct original video-03 frames3600/3613 and all135 independently redecoded originals3532-3666; full raw sheets and source PNG retained",
+        "renderNote": "Visible compound label read in this source; same logical nominal tile geometry with independent X/Y scaling",
+        "id": "no-label",
+        "logicalRect": [
+          8,
+          56,
+          24,
+          64
+        ],
+        "gridRect": [
+          1.0,
+          7.0,
+          3.0,
+          8.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": "No.",
+            "kind": "compound_label",
+            "logicalRect": [
+              8,
+              56,
+              24,
+              64
+            ]
+          }
+        ],
+        "col": 0,
+        "text": "No."
+      },
+      {
+        "id": "no-value",
+        "role": "pokedex_number",
+        "row": 7,
+        "variable": {
+          "role": "pokedex_number",
+          "numericValue": 71,
+          "format": "3 digits, leading zero retained",
+          "displayValue": "071",
+          "type": "integer"
+        },
+        "col": 3,
+        "text": "071"
+      },
+      {
+        "id": "exp-label",
+        "role": "experience_label",
+        "text": "けいけんち/",
+        "row": 3,
+        "col": 9
+      },
+      {
+        "id": "exp",
+        "role": "experience",
+        "row": 4,
+        "variable": {
+          "role": "experience",
+          "numericValue": 117997,
+          "displayValue": "117997",
+          "type": "integer"
+        },
+        "col": 13,
+        "text": "117997"
+      },
+      {
+        "id": "next-label",
+        "role": "next_level_label",
+        "text": "あと",
+        "row": 5,
+        "col": 9
+      },
+      {
+        "id": "next-exp",
+        "role": "experience_remaining",
+        "row": 6,
+        "variable": {
+          "role": "experience_remaining",
+          "numericValue": 7129,
+          "format": "digits followed by literalで",
+          "displayValue": "7129",
+          "type": "integer"
+        },
+        "col": 10,
+        "text": "7129で"
+      },
+      {
+        "renderEvidence": "Direct original video-03 frames3600/3613 and all135 independently redecoded originals3532-3666; full raw sheets and source PNG retained",
+        "renderNote": "Visible compound label read in this source; same logical nominal tile geometry with independent X/Y scaling",
+        "id": "next-level-label",
+        "logicalRect": [
+          128,
+          48,
+          136,
+          56
+        ],
+        "gridRect": [
+          16.0,
+          6.0,
+          17.0,
+          7.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": ":L",
+            "kind": "compound_label",
+            "logicalRect": [
+              128,
+              48,
+              136,
+              56
+            ]
+          }
+        ],
+        "col": 0,
+        "text": ":L"
+      },
+      {
+        "id": "next-level",
+        "role": "next_level",
+        "row": 6,
+        "variable": {
+          "role": "next_level",
+          "numericValue": 51,
+          "displayValue": "51",
+          "type": "integer"
+        },
+        "col": 17,
+        "text": "51"
+      },
+      {
+        "id": "move-0",
+        "role": "move_name",
+        "row": 10,
+        "variable": {
+          "role": "move_name",
+          "displayValue": "はっぱカッター",
+          "type": "string"
+        },
+        "col": 2,
+        "text": "はっぱカッター"
+      },
+      {
+        "id": "pp-label-0",
+        "role": "pp_label",
+        "text": "PP",
+        "row": 10,
+        "col": 11
+      },
+      {
+        "id": "pp-value-0",
+        "role": "move_pp",
+        "row": 10,
+        "variable": {
+          "displayValue": "25/25",
+          "maximum": 25,
+          "format": "fixed width digits/slash; preserve literal padding",
+          "role": "move_pp",
+          "current": 25,
+          "type": "integer_pair"
+        },
+        "col": 14,
+        "text": "25/25"
+      },
+      {
+        "id": "move-1",
+        "role": "move_name",
+        "row": 12,
+        "variable": {
+          "role": "move_name",
+          "displayValue": "ねむりごな",
+          "type": "string"
+        },
+        "col": 2,
+        "text": "ねむりごな"
+      },
+      {
+        "id": "pp-label-1",
+        "role": "pp_label",
+        "text": "PP",
+        "row": 12,
+        "col": 11
+      },
+      {
+        "id": "pp-value-1",
+        "role": "move_pp",
+        "row": 12,
+        "variable": {
+          "displayValue": "15/15",
+          "maximum": 15,
+          "format": "fixed width digits/slash; preserve literal padding",
+          "role": "move_pp",
+          "current": 15,
+          "type": "integer_pair"
+        },
+        "col": 14,
+        "text": "15/15"
+      },
+      {
+        "id": "move-2",
+        "role": "move_name",
+        "row": 14,
+        "variable": {
+          "role": "move_name",
+          "displayValue": "つるぎのまい",
+          "type": "string"
+        },
+        "col": 2,
+        "text": "つるぎのまい"
+      },
+      {
+        "id": "pp-label-2",
+        "role": "pp_label",
+        "text": "PP",
+        "row": 14,
+        "col": 11
+      },
+      {
+        "id": "pp-value-2",
+        "role": "move_pp",
+        "row": 14,
+        "variable": {
+          "displayValue": "30/30",
+          "maximum": 30,
+          "format": "fixed width digits/slash; preserve literal padding",
+          "role": "move_pp",
+          "current": 30,
+          "type": "integer_pair"
+        },
+        "col": 14,
+        "text": "30/30"
+      },
+      {
+        "id": "move-3",
+        "role": "move_name",
+        "row": 16,
+        "variable": {
+          "role": "move_name",
+          "displayValue": "すてみタックル",
+          "type": "string"
+        },
+        "col": 2,
+        "text": "すてみタックル"
+      },
+      {
+        "id": "pp-label-3",
+        "role": "pp_label",
+        "text": "PP",
+        "row": 16,
+        "col": 11
+      },
+      {
+        "id": "pp-value-3",
+        "role": "move_pp",
+        "row": 16,
+        "variable": {
+          "displayValue": "15/15",
+          "maximum": 15,
+          "format": "fixed width digits/slash; preserve literal padding",
+          "role": "move_pp",
+          "current": 15,
+          "type": "integer_pair"
+        },
+        "col": 14,
+        "text": "15/15"
+      }
+    ],
+    "mixed": [
+      {
+        "id": "name",
+        "role": "pokemon_name",
+        "row": 1,
+        "variable": {
+          "role": "pokemon_display_name",
+          "displayValue": "ウツボット",
+          "type": "string"
+        },
+        "col": 11,
+        "text": "ウツボット"
+      },
+      {
+        "renderEvidence": "Direct original video-03 frames3600/3613 and all135 independently redecoded originals3532-3666; full raw sheets and source PNG retained",
+        "renderNote": "Visible compound label read in this source; same logical nominal tile geometry with independent X/Y scaling",
+        "id": "level-label",
+        "logicalRect": [
+          128,
+          8,
+          136,
+          16
+        ],
+        "gridRect": [
+          16.0,
+          1.0,
+          17.0,
+          2.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": ":L",
+            "kind": "compound_label",
+            "logicalRect": [
+              128,
+              8,
+              136,
+              16
+            ]
+          }
+        ],
+        "col": 0,
+        "text": ":L"
+      },
+      {
+        "id": "level",
+        "role": "pokemon_level",
+        "row": 1,
+        "variable": {
+          "role": "pokemon_level",
+          "numericValue": 50,
+          "displayValue": "50",
+          "type": "integer"
+        },
+        "col": 17,
+        "text": "50"
+      },
+      {
+        "renderEvidence": "Direct original video-03 frames3600/3613 and all135 independently redecoded originals3532-3666; full raw sheets and source PNG retained",
+        "renderNote": "Visible compound label read in this source; same logical nominal tile geometry with independent X/Y scaling",
+        "id": "no-label",
+        "logicalRect": [
+          8,
+          56,
+          24,
+          64
+        ],
+        "gridRect": [
+          1.0,
+          7.0,
+          3.0,
+          8.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": "No.",
+            "kind": "compound_label",
+            "logicalRect": [
+              8,
+              56,
+              24,
+              64
+            ]
+          }
+        ],
+        "col": 0,
+        "text": "No."
+      },
+      {
+        "id": "no-value",
+        "role": "pokedex_number",
+        "row": 7,
+        "variable": {
+          "role": "pokedex_number",
+          "numericValue": 71,
+          "format": "3 digits, leading zero retained",
+          "displayValue": "071",
+          "type": "integer"
+        },
+        "col": 3,
+        "text": "071"
+      },
+      {
+        "id": "exp-label",
+        "role": "experience_label",
+        "text": "けいけんち/",
+        "row": 3,
+        "col": 9
+      },
+      {
+        "id": "exp",
+        "role": "experience",
+        "row": 4,
+        "variable": {
+          "role": "experience",
+          "numericValue": 117997,
+          "displayValue": "117997",
+          "type": "integer"
+        },
+        "col": 13,
+        "text": "117997"
+      },
+      {
+        "id": "next-label",
+        "role": "next_level_label",
+        "text": "あと",
+        "row": 5,
+        "col": 9
+      },
+      {
+        "id": "next-exp",
+        "role": "experience_remaining",
+        "row": 6,
+        "variable": {
+          "role": "experience_remaining",
+          "numericValue": 7129,
+          "format": "digits followed by literalで",
+          "displayValue": "7129",
+          "type": "integer"
+        },
+        "col": 10,
+        "text": "7129で"
+      },
+      {
+        "renderEvidence": "Direct original video-03 frames3600/3613 and all135 independently redecoded originals3532-3666; full raw sheets and source PNG retained",
+        "renderNote": "Visible compound label read in this source; same logical nominal tile geometry with independent X/Y scaling",
+        "id": "next-level-label",
+        "logicalRect": [
+          128,
+          48,
+          136,
+          56
+        ],
+        "gridRect": [
+          16.0,
+          6.0,
+          17.0,
+          7.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": ":L",
+            "kind": "compound_label",
+            "logicalRect": [
+              128,
+              48,
+              136,
+              56
+            ]
+          }
+        ],
+        "col": 0,
+        "text": ":L"
+      },
+      {
+        "id": "next-level",
+        "role": "next_level",
+        "row": 6,
+        "variable": {
+          "role": "next_level",
+          "numericValue": 51,
+          "displayValue": "51",
+          "type": "integer"
+        },
+        "col": 17,
+        "text": "51"
+      },
+      {
+        "id": "move-1",
+        "role": "move_name",
+        "row": 12,
+        "variable": {
+          "role": "move_name",
+          "displayValue": "ねむりごな",
+          "type": "string"
+        },
+        "col": 2,
+        "text": "ねむりごな"
+      },
+      {
+        "id": "pp-label-1",
+        "role": "pp_label",
+        "text": "PP",
+        "row": 12,
+        "col": 11
+      },
+      {
+        "id": "pp-value-1",
+        "role": "move_pp",
+        "row": 12,
+        "variable": {
+          "displayValue": "15/15",
+          "maximum": 15,
+          "format": "fixed width digits/slash; preserve literal padding",
+          "role": "move_pp",
+          "current": 15,
+          "type": "integer_pair"
+        },
+        "col": 14,
+        "text": "15/15"
+      },
+      {
+        "id": "move-2",
+        "role": "move_name",
+        "row": 14,
+        "variable": {
+          "role": "move_name",
+          "displayValue": "つるぎのまい",
+          "type": "string"
+        },
+        "col": 2,
+        "text": "つるぎのまい"
+      },
+      {
+        "id": "pp-label-2",
+        "role": "pp_label",
+        "text": "PP",
+        "row": 14,
+        "col": 11
+      },
+      {
+        "id": "pp-value-2",
+        "role": "move_pp",
+        "row": 14,
+        "variable": {
+          "displayValue": "30/30",
+          "maximum": 30,
+          "format": "fixed width digits/slash; preserve literal padding",
+          "role": "move_pp",
+          "current": 30,
+          "type": "integer_pair"
+        },
+        "col": 14,
+        "text": "30/30"
+      },
+      {
+        "id": "move-3",
+        "role": "move_name",
+        "row": 16,
+        "variable": {
+          "role": "move_name",
+          "displayValue": "すてみタックル",
+          "type": "string"
+        },
+        "col": 2,
+        "text": "すてみタックル"
+      },
+      {
+        "id": "pp-label-3",
+        "role": "pp_label",
+        "text": "PP",
+        "row": 16,
+        "col": 11
+      },
+      {
+        "id": "pp-value-3",
+        "role": "move_pp",
+        "row": 16,
+        "variable": {
+          "displayValue": "15/15",
+          "maximum": 15,
+          "format": "fixed width digits/slash; preserve literal padding",
+          "role": "move_pp",
+          "current": 15,
+          "type": "integer_pair"
+        },
+        "col": 14,
+        "text": "15/15"
+      },
+      {
+        "id": "attack-label",
+        "role": "stat_label",
+        "text": "こうげき",
+        "row": 10,
+        "col": 1
+      },
+      {
+        "id": "attack-value",
+        "role": "attack",
+        "row": 10,
+        "variable": {
+          "role": "attack",
+          "numericValue": 144,
+          "displayValue": "144",
+          "type": "integer"
+        },
+        "col": 6,
+        "text": "144"
+      },
+      {
+        "id": "type1",
+        "role": "pokemon_type",
+        "text": "タイプ1/くさ",
+        "row": 10,
+        "col": 10
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "notes": [
+    "Fresh source-from-start independent decode, selected raw frames directly reread by current agent; no tested OCR/translation outputs",
+    "Literal text, spaces, visible clipped bases, timing and indicators agree with first raw read",
+    "Nurse blocks share one natural interaction; overlap1922/2088 is an empty textbox, not another independent sample",
+    "No claim of human per-frame verification or independent acceptance"
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "name": "原道馆路牌后续姓名页补全（同一事件）",
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "source": "data/frames/video-02/dialogue-sign-completion-pass2-v1",
+  "secondRead": "gym-sign-second sheets000-001, every66 frames5262-5327; old approved35-frame reference preserved, only following page scored",
+  "frozen": false,
+  "scoredRange": [
+    5299,
+    5324
+  ],
+  "states": [
+    {
+      "startFrame": 5299,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 5300,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "キョウ にんてい トレーナー！"
+        }
+      ]
+    },
+    {
+      "startFrame": 5300,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 5302,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "キョウ にんてい トレーナー！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "レッド"
+        }
+      ]
+    },
+    {
+      "startFrame": 5302,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 5303,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "キョウ にんてい トレーナー！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "レッド グリ"
+        }
+      ]
+    },
+    {
+      "startFrame": 5303,
+      "kind": "message_complete",
+      "pageOpportunityId": "gym-sign-continuation-1",
+      "completePage": true,
+      "endFrameExclusive": 5320,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "キョウ にんてい トレーナー！"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "レッド グリーン"
+        }
+      ]
+    },
+    {
+      "startFrame": 5320,
+      "kind": "empty_target",
+      "completePage": false,
+      "endFrameExclusive": 5324,
+      "menuCursors": [],
+      "fields": []
+    }
+  ],
+  "range": [
+    5262,
+    5328
+  ],
+  "mediaId": "video-02"
+}

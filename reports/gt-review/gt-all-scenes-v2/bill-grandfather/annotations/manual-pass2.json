@@ -1,0 +1,688 @@
+{
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "notes": [
+    "Fresh source-from-start independent decode, selected raw frames directly reread by current agent; no tested OCR/translation outputs",
+    "Literal text, spaces, visible clipped bases, timing and indicators agree with first raw read",
+    "Nurse blocks share one natural interaction; overlap1922/2088 is an empty textbox, not another independent sample",
+    "No claim of human per-frame verification or independent acceptance"
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "name": "室内祖父四页与两次滚动",
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "source": "data/frames/video-02/dialogue-indoor-pass2-v1",
+  "secondRead": "indoor-second sheets006-009, all selected frames; four pages and scroll4800-4802",
+  "frozen": false,
+  "scoredRange": [
+    4706,
+    4832
+  ],
+  "states": [
+    {
+      "startFrame": 4706,
+      "kind": "empty_target",
+      "completePage": false,
+      "endFrameExclusive": 4708,
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "startFrame": 4708,
+      "kind": "textbox_empty",
+      "completePage": false,
+      "endFrameExclusive": 4716,
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "startFrame": 4716,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4717,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おや"
+        }
+      ]
+    },
+    {
+      "startFrame": 4717,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4718,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おや? あ"
+        }
+      ]
+    },
+    {
+      "startFrame": 4718,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4719,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おや? あんた"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "マ"
+        }
+      ]
+    },
+    {
+      "startFrame": 4719,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4721,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おや? あんた"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "マサキの"
+        }
+      ]
+    },
+    {
+      "startFrame": 4721,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4722,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おや? あんた"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "マサキの こと"
+        }
+      ]
+    },
+    {
+      "startFrame": 4722,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4723,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おや? あんた"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "マサキの ことを し"
+        }
+      ]
+    },
+    {
+      "startFrame": 4723,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4724,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おや? あんた"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "マサキの ことを しっとる"
+        }
+      ]
+    },
+    {
+      "startFrame": 4724,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4726,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おや? あんた"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "マサキの ことを しっとるのかね"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "おや? あんた"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "マサキの ことを しっとるのかね?"
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 4740,
+      "startFrame": 4726,
+      "pageOpportunityId": "bill-grandfather-1",
+      "menuCursors": [],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      }
+    },
+    {
+      "startFrame": 4740,
+      "kind": "textbox_empty",
+      "completePage": false,
+      "endFrameExclusive": 4748,
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "startFrame": 4748,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4750,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "マサキ"
+        }
+      ]
+    },
+    {
+      "startFrame": 4750,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4751,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "マサキは わ"
+        }
+      ]
+    },
+    {
+      "startFrame": 4751,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4752,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "マサキは わしの"
+        }
+      ]
+    },
+    {
+      "startFrame": 4752,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4753,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "マサキは わしの まごじ"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "マサキは わしの まごじゃ！"
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 4771,
+      "startFrame": 4753,
+      "pageOpportunityId": "bill-grandfather-2",
+      "menuCursors": [],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      }
+    },
+    {
+      "startFrame": 4771,
+      "kind": "textbox_empty",
+      "completePage": false,
+      "endFrameExclusive": 4778,
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "startFrame": 4778,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4780,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ち"
+        }
+      ]
+    },
+    {
+      "startFrame": 4780,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4781,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ちいさい"
+        }
+      ]
+    },
+    {
+      "startFrame": 4781,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4782,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ちいさい ころ"
+        }
+      ]
+    },
+    {
+      "startFrame": 4782,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4783,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ちいさい ころから"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "も"
+        }
+      ]
+    },
+    {
+      "startFrame": 4783,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4784,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ちいさい ころから"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ものを"
+        }
+      ]
+    },
+    {
+      "startFrame": 4784,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4786,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ちいさい ころから"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ものを あつめ"
+        }
+      ]
+    },
+    {
+      "startFrame": 4786,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4787,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ちいさい ころから"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ものを あつめるのが"
+        }
+      ]
+    },
+    {
+      "startFrame": 4787,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4788,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ちいさい ころから"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ものを あつめるのが すき"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ちいさい ころから"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "ものを あつめるのが すきな"
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 4800,
+      "startFrame": 4788,
+      "pageOpportunityId": "bill-grandfather-3",
+      "menuCursors": [],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      }
+    },
+    {
+      "startFrame": 4800,
+      "renderNote": "Current8-pixel upward scroll, upper diacritics clipped by textbox; only visible bases transcribed",
+      "kind": "scrolling",
+      "completePage": false,
+      "endFrameExclusive": 4802,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 13,
+          "text": "ちいさい ころから"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 15,
+          "text": "ものを あつめるのが すきな"
+        }
+      ]
+    },
+    {
+      "startFrame": 4802,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4804,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ものを あつめるのが すきな"
+        }
+      ]
+    },
+    {
+      "startFrame": 4804,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4805,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ものを あつめるのが すきな"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "こ"
+        }
+      ]
+    },
+    {
+      "startFrame": 4805,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4806,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ものを あつめるのが すきな"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "こども"
+        }
+      ]
+    },
+    {
+      "startFrame": 4806,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 4807,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ものを あつめるのが すきな"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "こども じゃっ"
+        }
+      ]
+    },
+    {
+      "startFrame": 4807,
+      "kind": "message_complete",
+      "pageOpportunityId": "bill-grandfather-4",
+      "completePage": true,
+      "endFrameExclusive": 4828,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "ものを あつめるのが すきな"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "こども じゃった！"
+        }
+      ]
+    },
+    {
+      "startFrame": 4828,
+      "kind": "empty_target",
+      "completePage": false,
+      "endFrameExclusive": 4832,
+      "menuCursors": [],
+      "fields": []
+    }
+  ],
+  "range": [
+    4704,
+    4834
+  ],
+  "mediaId": "video-02"
+}

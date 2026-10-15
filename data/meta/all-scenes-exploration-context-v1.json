@@ -1,0 +1,15 @@
+{
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "mediaId": "video-01",
+  "status": "pre-ocr-context-selection-not-complete-event-or-GT",
+  "contextRange": [
+    9600,
+    10200
+  ],
+  "schemaVersion": 1,
+  "frozen": false,
+  "scoredRange": null,
+  "selectionEvidence": "reports/m0-20261014/navigation-01-rest.png, frame9900 original source",
+  "selectionIndependentOfOcr": "No tested OCR or translation exists",
+  "reason": "Original source navigation frame9900 visibly shows outdoor NPC dialogue. Earlier predetermined6000-6660 context is introduction, not overworld exploration; retain original context unmodified and inspect new complete boundary."
+}

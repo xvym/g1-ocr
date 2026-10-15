@@ -1,0 +1,254 @@
+{
+  "frozen": false,
+  "range": [
+    24211,
+    24325
+  ],
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "humanPerFrameVerification": "not claimed",
+  "name": "研究所交付包裹提示与箭头闪烁",
+  "source": "data/frames/video-01/dialogue-oak-delivery-pass2-v1",
+  "mediaId": "video-01",
+  "secondRead": "delivery-second sheets000-003: every123 original frames, arrow appears24289 and remains through24315, clears24316; next speaker24326 context only",
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "states": [
+    {
+      "completePage": false,
+      "endFrameExclusive": 24215,
+      "startFrame": 24213,
+      "menuCursors": [],
+      "kind": "textbox_empty",
+      "fields": []
+    },
+    {
+      "completePage": false,
+      "endFrameExclusive": 24217,
+      "startFrame": 24215,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "fields": [
+        {
+          "role": "dialogue",
+          "text": "レッド",
+          "id": "message-top",
+          "row": 14,
+          "col": 1
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "endFrameExclusive": 24218,
+      "startFrame": 24217,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "fields": [
+        {
+          "role": "dialogue",
+          "text": "レッドは オ",
+          "id": "message-top",
+          "row": 14,
+          "col": 1
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "endFrameExclusive": 24220,
+      "startFrame": 24218,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "fields": [
+        {
+          "role": "dialogue",
+          "text": "レッドは オーキド",
+          "id": "message-top",
+          "row": 14,
+          "col": 1
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "endFrameExclusive": 24221,
+      "startFrame": 24220,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "fields": [
+        {
+          "role": "dialogue",
+          "text": "レッドは オーキド はか",
+          "id": "message-top",
+          "row": 14,
+          "col": 1
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "endFrameExclusive": 24223,
+      "startFrame": 24221,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "fields": [
+        {
+          "role": "dialogue",
+          "text": "レッドは オーキド はかせに",
+          "id": "message-top",
+          "row": 14,
+          "col": 1
+        },
+        {
+          "role": "dialogue",
+          "text": "と",
+          "id": "message-bottom",
+          "row": 16,
+          "col": 1
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "endFrameExclusive": 24224,
+      "startFrame": 24223,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "fields": [
+        {
+          "role": "dialogue",
+          "text": "レッドは オーキド はかせに",
+          "id": "message-top",
+          "row": 14,
+          "col": 1
+        },
+        {
+          "role": "dialogue",
+          "text": "とどけもの",
+          "id": "message-bottom",
+          "row": 16,
+          "col": 1
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "endFrameExclusive": 24226,
+      "startFrame": 24224,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "fields": [
+        {
+          "role": "dialogue",
+          "text": "レッドは オーキド はかせに",
+          "id": "message-top",
+          "row": 14,
+          "col": 1
+        },
+        {
+          "role": "dialogue",
+          "text": "とどけものを",
+          "id": "message-bottom",
+          "row": 16,
+          "col": 1
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "endFrameExclusive": 24227,
+      "startFrame": 24226,
+      "menuCursors": [],
+      "kind": "message_loading",
+      "fields": [
+        {
+          "role": "dialogue",
+          "text": "レッドは オーキド はかせに",
+          "id": "message-top",
+          "row": 14,
+          "col": 1
+        },
+        {
+          "role": "dialogue",
+          "text": "とどけものを わたし",
+          "id": "message-bottom",
+          "row": 16,
+          "col": 1
+        }
+      ]
+    },
+    {
+      "completePage": true,
+      "pageOpportunityId": "oak-delivery-1",
+      "endFrameExclusive": 24289,
+      "startFrame": 24227,
+      "menuCursors": [],
+      "kind": "message_complete",
+      "fields": [
+        {
+          "role": "dialogue",
+          "text": "レッドは オーキド はかせに",
+          "id": "message-top",
+          "row": 14,
+          "col": 1
+        },
+        {
+          "role": "dialogue",
+          "text": "とどけものを わたした！",
+          "id": "message-bottom",
+          "row": 16,
+          "col": 1
+        }
+      ]
+    },
+    {
+      "endFrameExclusive": 24316,
+      "completePage": true,
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      },
+      "pageOpportunityId": "oak-delivery-1",
+      "fields": [
+        {
+          "role": "dialogue",
+          "text": "レッドは オーキド はかせに",
+          "id": "message-top",
+          "row": 14,
+          "col": 1
+        },
+        {
+          "role": "dialogue",
+          "text": "とどけものを わたした！",
+          "id": "message-bottom",
+          "row": 16,
+          "col": 1
+        }
+      ],
+      "kind": "message_complete",
+      "startFrame": 24289,
+      "menuCursors": []
+    },
+    {
+      "completePage": false,
+      "endFrameExclusive": 24321,
+      "startFrame": 24316,
+      "menuCursors": [],
+      "kind": "textbox_empty",
+      "fields": []
+    }
+  ],
+  "notes": [
+    "Fresh independent source-from-start re-decode; every selected raw frame directly reread; no tested OCR/production translation exists",
+    "Literal snapshots manually confirmed from current images, not generated by mask scanner; threshold changes only navigate",
+    "Source differences and corrected timing retained in pass-differences, originals never overwritten"
+  ],
+  "scoredRange": [
+    24213,
+    24321
+  ]
+}

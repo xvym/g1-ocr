@@ -1,0 +1,344 @@
+{
+  "secondRead": "All94 independently redecoded source frames9836-9929 raw-only viewed ordered sheets000-004; first context ordered sheets011-016 separately read",
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "notes": [
+    "Initial predetermined6000-6660 context is introduction rather than outdoor exploration; new context9600-10200 registered from source navigation before scoring",
+    "No tested OCR or production translation exists. Source controls/console UI outside game not target",
+    "All17 states include27 empty target frames. First-page arrow remains visible; second page has no arrow. No historical or future text restored"
+  ],
+  "states": [
+    {
+      "kind": "empty_target",
+      "startFrame": 9838,
+      "endFrameExclusive": 9840,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": []
+    },
+    {
+      "kind": "textbox_empty",
+      "startFrame": 9840,
+      "endFrameExclusive": 9850,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 9850,
+      "endFrameExclusive": 9851,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "わたし",
+          "row": 14,
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 9851,
+      "endFrameExclusive": 9853,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "わたしも",
+          "row": 14,
+          "role": "dialogue"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケ",
+          "row": 16,
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 9853,
+      "endFrameExclusive": 9854,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "わたしも",
+          "row": 14,
+          "role": "dialogue"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケモンを",
+          "row": 16,
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 9854,
+      "endFrameExclusive": 9856,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "わたしも",
+          "row": 14,
+          "role": "dialogue"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケモンを そだ",
+          "row": 16,
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 9856,
+      "endFrameExclusive": 9857,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "わたしも",
+          "row": 14,
+          "role": "dialogue"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケモンを そだててる",
+          "row": 16,
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "kind": "message_complete",
+      "endFrameExclusive": 9877,
+      "completePage": true,
+      "pageOpportunityId": "outdoor-npc-first",
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      },
+      "menuCursors": [],
+      "startFrame": 9857,
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "わたしも",
+          "row": 14,
+          "role": "dialogue"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケモンを そだててるの！",
+          "row": 16,
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "kind": "textbox_empty",
+      "startFrame": 9877,
+      "endFrameExclusive": 9888,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 9888,
+      "endFrameExclusive": 9890,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "つよ",
+          "row": 14,
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 9890,
+      "endFrameExclusive": 9892,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "つよく なれば",
+          "row": 14,
+          "role": "dialogue"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ガ",
+          "row": 16,
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 9892,
+      "endFrameExclusive": 9894,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "つよく なれば",
+          "row": 14,
+          "role": "dialogue"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ガードマ",
+          "row": 16,
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 9894,
+      "endFrameExclusive": 9895,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "つよく なれば",
+          "row": 14,
+          "role": "dialogue"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ガードマンの",
+          "row": 16,
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 9895,
+      "endFrameExclusive": 9897,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "つよく なれば",
+          "row": 14,
+          "role": "dialogue"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ガードマンの かわり",
+          "row": 16,
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 9897,
+      "endFrameExclusive": 9898,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "つよく なれば",
+          "row": 14,
+          "role": "dialogue"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ガードマンの かわりに な",
+          "row": 16,
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "kind": "message_complete",
+      "startFrame": 9898,
+      "endFrameExclusive": 9922,
+      "menuCursors": [],
+      "completePage": true,
+      "pageOpportunityId": "outdoor-npc-second",
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "つよく なれば",
+          "row": 14,
+          "role": "dialogue"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ガードマンの かわりに なるしね",
+          "row": 16,
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "kind": "empty_target",
+      "startFrame": 9922,
+      "endFrameExclusive": 9926,
+      "menuCursors": [],
+      "completePage": false,
+      "fields": []
+    }
+  ],
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "frozen": false,
+  "mediaId": "video-01",
+  "source": "data/frames/video-01/all-scenes-exploration-npc-pass2-v1",
+  "humanPerFrameVerification": "not claimed"
+}

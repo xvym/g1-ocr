@@ -1,0 +1,34 @@
+{
+  "startFrame": 5262,
+  "gt": "data/gt/candidates/ocr-dialogue-expansion-v1/gym-sign-continuation/ocr-candidate-v1.jsonl",
+  "id": "c83de914352e-f5262-f5328-gym-sign-continuation",
+  "schemaVersion": 2,
+  "timeBase": "1/12288",
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "scoredRange": [
+    5299,
+    5324
+  ],
+  "frozen": false,
+  "independentSession": "unverified",
+  "postContext": [
+    5324,
+    5328
+  ],
+  "scoreKind": "text_and_state",
+  "selectionReason": "Original-source navigation selected this naturally bounded speech block before OCR exists. All original pre-loading, visible loading/complete/scroll/clear and ending after-state frames retained; details and corrected boundaries in both manual reads and differences.",
+  "scopeLimits": [
+    "Other dialogue and unselected source intervals remain unverified",
+    "Not independent acceptance; candidate GT only, no approval or OCR pass"
+  ],
+  "endFrameExclusive": 5328,
+  "warmup": [
+    5262,
+    5299
+  ],
+  "eventType": "原道馆路牌后续姓名页补全（同一事件）",
+  "pageOpportunityPolicy": "explicit_id",
+  "boundaryStatus": "agent_double_read_complete_candidate_not_frozen",
+  "mediaId": "video-02",
+  "set": "development"
+}

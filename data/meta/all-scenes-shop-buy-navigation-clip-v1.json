@@ -1,0 +1,33 @@
+{
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+  "startFrame": 818,
+  "id": "9c8aee036f72-f818-f866-shop-buy-navigation",
+  "postContext": [
+    864,
+    866
+  ],
+  "timeBase": "1/12288",
+  "scoreKind": "text_and_state",
+  "eventType": "complete buy-list cursor and scroll operation",
+  "mediaId": "video-03",
+  "gt": "data/gt/candidates/ocr-all-scenes-v1/shop-buy-navigation/ocr-candidate-v1.jsonl",
+  "scopeLimits": [
+    "Not all shop input covered or independent acceptance; selected navigation commits no transaction"
+  ],
+  "scoredRange": [
+    820,
+    864
+  ],
+  "endFrameExclusive": 866,
+  "pageOpportunityPolicy": "explicit_id",
+  "selectionReason": "Predetermined shop context; before826 selection movement through859 list scroll/860 cursor return, stable after state; no completed purchase",
+  "warmup": [
+    818,
+    820
+  ],
+  "frozen": false,
+  "set": "development",
+  "independentSession": "unverified",
+  "schemaVersion": 2,
+  "boundaryStatus": "first_raw_read_complete_second_pending"
+}

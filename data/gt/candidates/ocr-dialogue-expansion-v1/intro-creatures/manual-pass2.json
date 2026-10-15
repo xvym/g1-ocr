@@ -1,0 +1,451 @@
+{
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "range": [
+    6246,
+    6324
+  ],
+  "notes": [
+    "Second read corrects first snapshot timing and arrow omissions; original pass1 retained",
+    "Two passes refer to original frames and no tested OCR/production translation exists",
+    "Five natural spoken blocks,10 complete page opportunities; all source frames incl empty/loading/scroll/fade retained",
+    "Centred dots each occupy one canonical cell; U+30FB; not one-cell ellipsis. No future text filled into loading frames"
+  ],
+  "name": "宝可梦与生物说明两页",
+  "frozen": false,
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "scoredRange": [
+    6248,
+    6322
+  ],
+  "states": [
+    {
+      "completePage": false,
+      "startFrame": 6248,
+      "kind": "empty_target",
+      "menuCursors": [],
+      "fields": [],
+      "endFrameExclusive": 6250
+    },
+    {
+      "completePage": false,
+      "startFrame": 6250,
+      "kind": "textbox_empty",
+      "menuCursors": [],
+      "fields": [],
+      "endFrameExclusive": 6252
+    },
+    {
+      "completePage": false,
+      "startFrame": 6252,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "こ",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6253
+    },
+    {
+      "completePage": false,
+      "startFrame": 6253,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "この せ",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6255
+    },
+    {
+      "completePage": false,
+      "startFrame": 6255,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "この せかいに",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6256
+    },
+    {
+      "completePage": false,
+      "startFrame": 6256,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "この せかいには",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ポケ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6258
+    },
+    {
+      "completePage": false,
+      "startFrame": 6258,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "この せかいには",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ポケット モ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6259
+    },
+    {
+      "completePage": false,
+      "startFrame": 6259,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "この せかいには",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ポケット モンス",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6261
+    },
+    {
+      "completePage": false,
+      "startFrame": 6261,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "この せかいには",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ポケット モンスターと",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6262
+    },
+    {
+      "completePage": false,
+      "startFrame": 6262,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "この せかいには",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ポケット モンスターと よば",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6264
+    },
+    {
+      "completePage": true,
+      "startFrame": 6264,
+      "kind": "message_complete",
+      "fields": [
+        {
+          "text": "この せかいには",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ポケット モンスターと よばれる",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "pageOpportunityId": "intro-creatures-1",
+      "menuCursors": [],
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "endFrameExclusive": 6279
+    },
+    {
+      "completePage": false,
+      "startFrame": 6279,
+      "kind": "textbox_empty",
+      "menuCursors": [],
+      "fields": [],
+      "endFrameExclusive": 6288
+    },
+    {
+      "completePage": false,
+      "startFrame": 6288,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "い",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6289
+    },
+    {
+      "completePage": false,
+      "startFrame": 6289,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "いきもの",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6291
+    },
+    {
+      "completePage": false,
+      "startFrame": 6291,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "いきもの たちが",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6293
+    },
+    {
+      "menuCursors": [],
+      "startFrame": 6293,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "いきもの たちが",
+          "role": "dialogue",
+          "row": 14
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "いたる",
+          "role": "dialogue",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "endFrameExclusive": 6294
+    },
+    {
+      "completePage": false,
+      "startFrame": 6294,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "いきもの たちが",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "いたるとこ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6296
+    },
+    {
+      "completePage": false,
+      "startFrame": 6296,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "いきもの たちが",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "いたるところに",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6297
+    },
+    {
+      "completePage": false,
+      "startFrame": 6297,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "いきもの たちが",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "いたるところに すんで",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6299
+    },
+    {
+      "completePage": true,
+      "startFrame": 6299,
+      "kind": "message_complete",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "いきもの たちが",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "いたるところに すんでいる！",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "pageOpportunityId": "intro-creatures-2",
+      "endFrameExclusive": 6318
+    },
+    {
+      "startFrame": 6318,
+      "menuCursors": [],
+      "pageOpportunityId": "intro-creatures-2",
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "いきもの たちが",
+          "role": "dialogue",
+          "row": 14
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "いたるところに すんでいる！",
+          "role": "dialogue",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 6320
+    },
+    {
+      "completePage": false,
+      "startFrame": 6320,
+      "kind": "textbox_empty",
+      "menuCursors": [],
+      "fields": [],
+      "endFrameExclusive": 6322
+    }
+  ],
+  "source": "data/frames/video-01/dialogue-intro-pass2-v1",
+  "humanPerFrameVerification": "not claimed",
+  "mediaId": "video-01",
+  "secondRead": "Fresh source-from-start re-decode6056-6482; all426 original frames viewed in ordered sheets000-010, raw scroll6137-6143 zoom and fade6215-6219 zoom; thresholded pixel scan navigation used to find missed boundaries, never generates text"
+}

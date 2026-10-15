@@ -1,0 +1,55 @@
+{
+  "targetText": [],
+  "sourcePool": "only original video-01",
+  "range": [
+    90,
+    390
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "viewedAll300OrderedOriginalFrames": true,
+  "phaseObservations": [
+    [
+      90,
+      102,
+      "HOME launch and fade; tiny game tile is not a gameplay target region"
+    ],
+    [
+      102,
+      110,
+      "black candidate; exact RGB zero-boundary check pending"
+    ],
+    [
+      110,
+      178,
+      "Nintendo3DS launch logo animation, non-target"
+    ],
+    [
+      178,
+      225,
+      "black candidate; exact RGB zero-boundary check pending"
+    ],
+    [
+      225,
+      262,
+      "blank game raster; non-target"
+    ],
+    [
+      262,
+      348,
+      "copyright screen, no target UI message/field"
+    ],
+    [
+      348,
+      366,
+      "HOME suspension animation and overlay"
+    ],
+    [
+      366,
+      390,
+      "suspended HOME; non-target; final state continues"
+    ]
+  ],
+  "proposedScope": "HOME launch through return to suspended HOME, includes all source frames and logo/copyright; empty target-text GT rather than unreadable Japanese",
+  "status": "first_raw_read_complete_not_frozen",
+  "source": "data/frames/video-01/expansion-context-f90-f390-v1"
+}

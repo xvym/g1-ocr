@@ -1,0 +1,31 @@
+{
+  "issues": [
+    {
+      "root": "Drawing implementation interface assembly not included",
+      "cumulativeAttempts": 2,
+      "verification": "Pixel scan runs generated for all requested frames; navigation only",
+      "fix": "Collect actual Bitmap interface assembly locations",
+      "limit": 3,
+      "evidence": "Initial scan failed C# Bitmap IImage interface reference",
+      "id": "drawing-interface-reference"
+    },
+    {
+      "root": "PowerShell flattened a single nested row into scalars",
+      "fix": "Use unary-comma to retain one row array; fail-fast row-shape check",
+      "attempts": 1,
+      "verification": "Delivery second pass and108-frame integrity report passed; earlier six reports retained",
+      "evidence": "Only oak-delivery second-note encoding failed, missing row flags",
+      "id": "single-row-powershell-array"
+    },
+    {
+      "root": "Int32 hash table keys were queried with JSON Int64 loop value",
+      "minimalReproduction": "Hashtable key [int]4549 differs from key [long]4549; both raw verification records are identical",
+      "fix": "Declare loop variable [int]",
+      "attempts": 1,
+      "verification": "All21 items every selected original PNG/RGB/PTS now match; dialogue-independent-extraction-v1.json",
+      "evidence": "First identity check stopped at bill-data-npc4549, generated no success report",
+      "id": "independent-check-key-type"
+    }
+  ],
+  "status": "offline_tool_failures_resolved_not_ocr_repairs"
+}

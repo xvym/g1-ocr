@@ -1,0 +1,47 @@
+{
+  "framesLedgerSha256": "70e8af7485369a91531d13543d6e6dd4675d8edae3a3b5399a47f1b37c2ea75e",
+  "oldReviewFilesChecked": 3151,
+  "oldReviewUnchanged": true,
+  "frozenEnvelopeSha256": "6fec19a0b95ed402e1b35f79eed837d802009ad874501e85adf2c9fbb965cd54",
+  "method": "Read-only SHA256 recheck, no OCR or semantic verification",
+  "oldReviewManifestSha256": "f999098f9ec4401a55fb10641ad2a1a342d24447af4ce40267e5bb60669f3246",
+  "sources": [
+    {
+      "sha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+      "durationSeconds": "978.200000",
+      "timeBase": "1/30",
+      "matches": true,
+      "mediaId": "video-01",
+      "path": "testpic/video/2026-10-11 22-34-17.mp4",
+      "frameCount": 29346
+    },
+    {
+      "sha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+      "durationSeconds": "331.833333",
+      "timeBase": "1/12288",
+      "matches": true,
+      "mediaId": "video-02",
+      "path": "testpic/video/4a6e01eb2ea34cdbfdba41e9b4db6a88.mp4",
+      "frameCount": 7964
+    },
+    {
+      "sha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+      "durationSeconds": "308.416667",
+      "timeBase": "1/12288",
+      "matches": true,
+      "mediaId": "video-03",
+      "path": "testpic/video/5b34074da5f0cd90a956a4178d77b637.mp4",
+      "frameCount": 7402
+    },
+    {
+      "sha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+      "durationSeconds": "1160.947368",
+      "timeBase": "1/19456",
+      "matches": true,
+      "mediaId": "video-04",
+      "path": "testpic/video/cd87cd5a156ef5cf5d64a43a1e6600fd.mp4",
+      "frameCount": 22058
+    }
+  ],
+  "status": "identities_match_not_gt_approval"
+}

@@ -1,0 +1,34 @@
+{
+  "issue": "Non-integral projection excluded final raster row when end boundary used floor",
+  "input": "data/frames/video-03/expansion-context-f800-f1540-v1/frame-001450.png",
+  "inputRgbSha256": "d1849a194f2d3a2337d001c087a64c901501e30d561dabdcbe034b7481b2c1e7",
+  "measurement": "reports/m2-expansion-shop-grid-measurement-v1.json",
+  "oldDialogueRect": [
+    210,
+    392,
+    600,
+    453
+  ],
+  "correctDialogueRect": [
+    210,
+    392,
+    600,
+    454
+  ],
+  "oldCursorRect": [
+    210,
+    90,
+    240,
+    120
+  ],
+  "correctCursorRect": [
+    210,
+    90,
+    240,
+    121
+  ],
+  "rawEvidence": "Dark glyph pixels reach source row453; dark cursor pixels reach120. Both end-exclusive old bounds omitted these rows.",
+  "fixAttempt": 1,
+  "limit": 3,
+  "status": "candidate geometry repair; no approved GT changed"
+}

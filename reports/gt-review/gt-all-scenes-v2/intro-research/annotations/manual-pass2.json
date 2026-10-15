@@ -1,0 +1,393 @@
+{
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "range": [
+    6402,
+    6482
+  ],
+  "notes": [
+    "Second read corrects first snapshot timing and arrow omissions; original pass1 retained",
+    "Two passes refer to original frames and no tested OCR/production translation exists",
+    "Five natural spoken blocks,10 complete page opportunities; all source frames incl empty/loading/scroll/fade retained",
+    "Centred dots each occupy one canonical cell; U+30FB; not one-cell ellipsis. No future text filled into loading frames"
+  ],
+  "name": "研究说明与淡出",
+  "frozen": false,
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "scoredRange": [
+    6404,
+    6480
+  ],
+  "states": [
+    {
+      "completePage": false,
+      "startFrame": 6404,
+      "kind": "textbox_empty",
+      "menuCursors": [],
+      "fields": [],
+      "endFrameExclusive": 6407
+    },
+    {
+      "completePage": false,
+      "startFrame": 6407,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "そし",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6408
+    },
+    {
+      "menuCursors": [],
+      "startFrame": 6408,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "そして・",
+          "role": "dialogue",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "endFrameExclusive": 6410
+    },
+    {
+      "completePage": true,
+      "startFrame": 6410,
+      "kind": "message_complete",
+      "fields": [
+        {
+          "text": "そして・・・",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "pageOpportunityId": "intro-research-1",
+      "menuCursors": [],
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "endFrameExclusive": 6429
+    },
+    {
+      "menuCursors": [],
+      "startFrame": 6429,
+      "kind": "textbox_empty",
+      "fields": [],
+      "completePage": false,
+      "endFrameExclusive": 6438
+    },
+    {
+      "completePage": false,
+      "startFrame": 6438,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わ",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6440
+    },
+    {
+      "completePage": false,
+      "startFrame": 6440,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしは",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6441
+    },
+    {
+      "completePage": false,
+      "startFrame": 6441,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしは この",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6443
+    },
+    {
+      "completePage": false,
+      "startFrame": 6443,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしは この ポケ",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6444
+    },
+    {
+      "completePage": false,
+      "startFrame": 6444,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしは この ポケモンの",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6446
+    },
+    {
+      "completePage": false,
+      "startFrame": 6446,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしは この ポケモンの",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "けんき",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6447
+    },
+    {
+      "completePage": false,
+      "startFrame": 6447,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしは この ポケモンの",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "けんきゅうを",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6449
+    },
+    {
+      "completePage": false,
+      "startFrame": 6449,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしは この ポケモンの",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "けんきゅうを して",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6450
+    },
+    {
+      "completePage": false,
+      "startFrame": 6450,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしは この ポケモンの",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "けんきゅうを してる と",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6452
+    },
+    {
+      "completePage": false,
+      "startFrame": 6452,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "わたしは この ポケモンの",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "けんきゅうを してる というわ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6453
+    },
+    {
+      "completePage": true,
+      "startFrame": 6453,
+      "kind": "message_complete",
+      "fields": [
+        {
+          "text": "わたしは この ポケモンの",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "けんきゅうを してる というわけだ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "pageOpportunityId": "intro-research-2",
+      "menuCursors": [],
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "endFrameExclusive": 6466
+    },
+    {
+      "startFrame": 6466,
+      "menuCursors": [],
+      "pageOpportunityId": "intro-research-2",
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "わたしは この ポケモンの",
+          "role": "dialogue",
+          "row": 14
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "けんきゅうを してる というわけだ",
+          "role": "dialogue",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "kind": "message_fading",
+      "endFrameExclusive": 6469
+    },
+    {
+      "startFrame": 6469,
+      "menuCursors": [],
+      "pageOpportunityId": "intro-research-2",
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "わたしは この ポケモンの",
+          "role": "dialogue",
+          "row": 14
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "けんきゅうを してる というわけだ",
+          "role": "dialogue",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "kind": "message_fading",
+      "endFrameExclusive": 6476
+    },
+    {
+      "completePage": false,
+      "startFrame": 6476,
+      "kind": "empty_target",
+      "menuCursors": [],
+      "fields": [],
+      "endFrameExclusive": 6480
+    }
+  ],
+  "source": "data/frames/video-01/dialogue-intro-pass2-v1",
+  "humanPerFrameVerification": "not claimed",
+  "mediaId": "video-01",
+  "secondRead": "Fresh source-from-start re-decode6056-6482; all426 original frames viewed in ordered sheets000-010, raw scroll6137-6143 zoom and fade6215-6219 zoom; thresholded pixel scan navigation used to find missed boundaries, never generates text"
+}

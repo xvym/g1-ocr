@@ -1,0 +1,20 @@
+[
+  {
+    "log": "unknown-direct.log",
+    "case": "unknown",
+    "falseReport": false,
+    "exitCode": 3
+  },
+  {
+    "log": "gap-direct.log",
+    "case": "gap",
+    "falseReport": false,
+    "exitCode": 3
+  },
+  {
+    "log": "wrong-source-direct.log",
+    "case": "wrong-source",
+    "falseReport": false,
+    "exitCode": 3
+  }
+]

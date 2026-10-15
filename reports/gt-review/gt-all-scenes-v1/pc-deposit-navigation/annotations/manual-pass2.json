@@ -1,0 +1,3131 @@
+{
+  "humanPerFrameVerification": "not claimed",
+  "frozen": false,
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "states": [
+    {
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            1,
+            2,
+            2,
+            3
+          ]
+        }
+      ],
+      "startFrame": 1634,
+      "completePage": true,
+      "endFrameExclusive": 1638,
+      "kind": "menu_complete",
+      "pageOpportunityId": "pc-parent-before",
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを ひきだす"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを あずける"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを すてる"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを しますか？"
+        }
+      ]
+    },
+    {
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "startFrame": 1638,
+      "completePage": true,
+      "endFrameExclusive": 1649,
+      "kind": "menu_complete",
+      "pageOpportunityId": "pc-parent-deposit",
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを ひきだす"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを あずける"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを すてる"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを しますか？"
+        }
+      ]
+    },
+    {
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "startFrame": 1649,
+      "completePage": false,
+      "endFrameExclusive": 1650,
+      "kind": "message_clear_menu_remains",
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを ひきだす"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを あずける"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを すてる"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        }
+      ]
+    },
+    {
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "startFrame": 1650,
+      "completePage": false,
+      "endFrameExclusive": 1651,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを ひきだす"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを あずける"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを すてる"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "な"
+        }
+      ]
+    },
+    {
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "startFrame": 1651,
+      "completePage": false,
+      "endFrameExclusive": 1652,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを ひきだす"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを あずける"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを すてる"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを"
+        }
+      ]
+    },
+    {
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "startFrame": 1652,
+      "completePage": false,
+      "endFrameExclusive": 1654,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを ひきだす"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを あずける"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを すてる"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけ"
+        }
+      ]
+    },
+    {
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "startFrame": 1654,
+      "completePage": false,
+      "endFrameExclusive": 1659,
+      "kind": "submenu_opening",
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを ひきだす"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを あずける"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを すてる"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか"
+        }
+      ]
+    },
+    {
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "startFrame": 1659,
+      "completePage": false,
+      "endFrameExclusive": 1660,
+      "kind": "submenu_partial_redraw",
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを ひきだす"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを あずける"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "ポケモンのふえ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ポケモンのふえ"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "text": "いいつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "いいつりざお"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ]
+    },
+    {
+      "kind": "submenu_cursor_loading",
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "startFrame": 1660,
+      "completePage": false,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "endFrameExclusive": 1661,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "じてんしゃ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "じてんしゃ"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "text": "ポケモンのふえ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ポケモンのふえ"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "text": "いいつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "いいつりざお"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "kind": "menu_complete",
+      "pageOpportunityId": "pc-list-A-first",
+      "startFrame": 1661,
+      "completePage": true,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "endFrameExclusive": 1673,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "じてんしゃ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "じてんしゃ"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "text": "ポケモンのふえ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ポケモンのふえ"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "text": "いいつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "いいつりざお"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ],
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "kind": "cursor_transition",
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "startFrame": 1673,
+      "completePage": false,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "endFrameExclusive": 1674,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "じてんしゃ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "じてんしゃ"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "text": "ポケモンのふえ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ポケモンのふえ"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "text": "いいつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "いいつりざお"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ]
+    },
+    {
+      "kind": "menu_complete",
+      "pageOpportunityId": "pc-list-A-second",
+      "startFrame": 1674,
+      "completePage": true,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            6,
+            6,
+            7
+          ]
+        }
+      ],
+      "endFrameExclusive": 1688,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "じてんしゃ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "じてんしゃ"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "text": "ポケモンのふえ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ポケモンのふえ"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "text": "いいつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "いいつりざお"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ],
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "dual_cursor_transition",
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "startFrame": 1688,
+      "completePage": false,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            6,
+            6,
+            7
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "endFrameExclusive": 1689,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "じてんしゃ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "じてんしゃ"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "text": "ポケモンのふえ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ポケモンのふえ"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "text": "いいつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "いいつりざお"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ]
+    },
+    {
+      "kind": "menu_complete",
+      "pageOpportunityId": "pc-list-A-third",
+      "startFrame": 1689,
+      "completePage": true,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "endFrameExclusive": 1697,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "じてんしゃ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "じてんしゃ"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "text": "ポケモンのふえ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ポケモンのふえ"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "text": "いいつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "いいつりざお"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ],
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "kind": "scroll_partial_redraw",
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "startFrame": 1697,
+      "completePage": false,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "endFrameExclusive": 1698,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "じてんしゃ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "じてんしゃ"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "text": "いいつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "いいつりざお"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "text": "ピーピーエイダー",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ピーピーエイダー"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 10,
+          "id": "multiply-3",
+          "col": 15,
+          "role": "quantity_label",
+          "text": "×"
+        },
+        {
+          "text": "1",
+          "variable": {
+            "type": "integer",
+            "role": "item_quantity",
+            "numericValue": 1,
+            "displayValue": "1"
+          },
+          "role": "item_quantity",
+          "row": 10,
+          "col": 17,
+          "id": "quantity-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "kind": "menu_complete",
+      "pageOpportunityId": "pc-list-B-third",
+      "startFrame": 1698,
+      "completePage": true,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "endFrameExclusive": 1706,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "ポケモンのふえ",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ポケモンのふえ"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "text": "いいつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "いいつりざお"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "text": "ピーピーエイダー",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ピーピーエイダー"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 10,
+          "id": "multiply-3",
+          "col": 15,
+          "role": "quantity_label",
+          "text": "×"
+        },
+        {
+          "text": "1",
+          "variable": {
+            "type": "integer",
+            "role": "item_quantity",
+            "numericValue": 1,
+            "displayValue": "1"
+          },
+          "role": "item_quantity",
+          "row": 10,
+          "col": 17,
+          "id": "quantity-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ],
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "kind": "scroll_duplicate_row",
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "startFrame": 1706,
+      "completePage": false,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "endFrameExclusive": 1707,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "いいつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "いいつりざお"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "text": "いいつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "いいつりざお"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "text": "ピーピーエイダー",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ピーピーエイダー"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 10,
+          "id": "multiply-3",
+          "col": 15,
+          "role": "quantity_label",
+          "text": "×"
+        },
+        {
+          "text": "1",
+          "variable": {
+            "type": "integer",
+            "role": "item_quantity",
+            "numericValue": 1,
+            "displayValue": "1"
+          },
+          "role": "item_quantity",
+          "row": 10,
+          "col": 17,
+          "id": "quantity-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "kind": "cursor_transition",
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "startFrame": 1707,
+      "completePage": false,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "endFrameExclusive": 1708,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "いいつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "いいつりざお"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "text": "ピーピーエイダー",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ピーピーエイダー"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "row": 8,
+          "id": "multiply-2",
+          "col": 15,
+          "role": "quantity_label",
+          "text": "×"
+        },
+        {
+          "text": "1",
+          "variable": {
+            "type": "integer",
+            "role": "item_quantity",
+            "numericValue": 1,
+            "displayValue": "1"
+          },
+          "role": "item_quantity",
+          "row": 8,
+          "col": 17,
+          "id": "quantity-2"
+        },
+        {
+          "text": "ひでんマシン02",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ひでんマシン02"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "kind": "menu_complete",
+      "pageOpportunityId": "pc-list-C-third",
+      "startFrame": 1708,
+      "completePage": true,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "endFrameExclusive": 1714,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "いいつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "いいつりざお"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "text": "ピーピーエイダー",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ピーピーエイダー"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "row": 8,
+          "id": "multiply-2",
+          "col": 15,
+          "role": "quantity_label",
+          "text": "×"
+        },
+        {
+          "text": "1",
+          "variable": {
+            "type": "integer",
+            "role": "item_quantity",
+            "numericValue": 1,
+            "displayValue": "1"
+          },
+          "role": "item_quantity",
+          "row": 8,
+          "col": 17,
+          "id": "quantity-2"
+        },
+        {
+          "text": "ひでんマシン02",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ひでんマシン02"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ],
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "kind": "cursor_transition",
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "startFrame": 1714,
+      "completePage": false,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "endFrameExclusive": 1716,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "text": "ピーピーエイダー",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ピーピーエイダー"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "row": 6,
+          "id": "multiply-1",
+          "col": 15,
+          "role": "quantity_label",
+          "text": "×"
+        },
+        {
+          "text": "1",
+          "variable": {
+            "type": "integer",
+            "role": "item_quantity",
+            "numericValue": 1,
+            "displayValue": "1"
+          },
+          "role": "item_quantity",
+          "row": 6,
+          "col": 17,
+          "id": "quantity-1"
+        },
+        {
+          "text": "ひでんマシン02",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ひでんマシン02"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "text": "ひでんマシン05",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ひでんマシン05"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "kind": "menu_complete",
+      "pageOpportunityId": "pc-list-D-third",
+      "startFrame": 1716,
+      "completePage": true,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "endFrameExclusive": 1724,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "text": "ピーピーエイダー",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ピーピーエイダー"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "row": 6,
+          "id": "multiply-1",
+          "col": 15,
+          "role": "quantity_label",
+          "text": "×"
+        },
+        {
+          "text": "1",
+          "variable": {
+            "type": "integer",
+            "role": "item_quantity",
+            "numericValue": 1,
+            "displayValue": "1"
+          },
+          "role": "item_quantity",
+          "row": 6,
+          "col": 17,
+          "id": "quantity-1"
+        },
+        {
+          "text": "ひでんマシン02",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ひでんマシン02"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "text": "ひでんマシン05",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ひでんマシン05"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ],
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "kind": "scroll_partial_redraw",
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "startFrame": 1724,
+      "completePage": false,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "endFrameExclusive": 1725,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "ボロのつりざお",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ボロのつりざお"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "text": "ひでんマシン02",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ひでんマシン02"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "text": "ひでんマシン05",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ひでんマシン05"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "text": "ひでんマシン01",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ひでんマシン01"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "kind": "menu_complete",
+      "pageOpportunityId": "pc-list-E-third",
+      "startFrame": 1725,
+      "completePage": true,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "endFrameExclusive": 1731,
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ"
+        },
+        {
+          "text": "ピーピーエイダー",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ピーピーエイダー"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "row": 4,
+          "id": "multiply-0",
+          "col": 15,
+          "role": "quantity_label",
+          "text": "×"
+        },
+        {
+          "text": "1",
+          "variable": {
+            "type": "integer",
+            "role": "item_quantity",
+            "numericValue": 1,
+            "displayValue": "1"
+          },
+          "role": "item_quantity",
+          "row": 4,
+          "col": 17,
+          "id": "quantity-0"
+        },
+        {
+          "text": "ひでんマシン02",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ひでんマシン02"
+          },
+          "role": "item_name",
+          "row": 6,
+          "col": 6,
+          "id": "item-1"
+        },
+        {
+          "text": "ひでんマシン05",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ひでんマシン05"
+          },
+          "role": "item_name",
+          "row": 8,
+          "col": 6,
+          "id": "item-2"
+        },
+        {
+          "text": "ひでんマシン01",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ひでんマシン01"
+          },
+          "role": "item_name",
+          "row": 10,
+          "col": 6,
+          "id": "item-3"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ],
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      }
+    },
+    {
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "startFrame": 1731,
+      "completePage": false,
+      "endFrameExclusive": 1732,
+      "kind": "submenu_partial_closing",
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを すてる"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        },
+        {
+          "text": "ピーピーエイダー",
+          "variable": {
+            "type": "string",
+            "role": "item_name",
+            "displayValue": "ピーピーエイダー"
+          },
+          "role": "item_name",
+          "row": 4,
+          "col": 6,
+          "id": "item-0"
+        },
+        {
+          "row": 4,
+          "id": "multiply-0",
+          "col": 15,
+          "role": "quantity_label",
+          "text": "×"
+        },
+        {
+          "text": "1",
+          "variable": {
+            "type": "integer",
+            "role": "item_quantity",
+            "numericValue": 1,
+            "displayValue": "1"
+          },
+          "role": "item_quantity",
+          "row": 4,
+          "col": 17,
+          "id": "quantity-0"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを あずけますか？"
+        }
+      ]
+    },
+    {
+      "menuCursors": [],
+      "startFrame": 1732,
+      "completePage": false,
+      "endFrameExclusive": 1733,
+      "kind": "message_clear_menu_remains",
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを ひきだす"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを あずける"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを すてる"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        }
+      ]
+    },
+    {
+      "menuCursors": [],
+      "startFrame": 1733,
+      "completePage": false,
+      "endFrameExclusive": 1734,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを ひきだす"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを あずける"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを すてる"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "な"
+        }
+      ]
+    },
+    {
+      "menuCursors": [],
+      "startFrame": 1734,
+      "completePage": false,
+      "endFrameExclusive": 1736,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを ひきだす"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを あずける"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを すてる"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを"
+        }
+      ]
+    },
+    {
+      "menuCursors": [],
+      "startFrame": 1736,
+      "completePage": false,
+      "endFrameExclusive": 1737,
+      "kind": "cursor_transition",
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを ひきだす"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを あずける"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを すてる"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを しますか？"
+        }
+      ]
+    },
+    {
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            1,
+            4,
+            2,
+            5
+          ]
+        }
+      ],
+      "startFrame": 1737,
+      "completePage": true,
+      "endFrameExclusive": 1747,
+      "kind": "menu_complete",
+      "pageOpportunityId": "pc-parent-after",
+      "fields": [
+        {
+          "row": 2,
+          "id": "p1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを ひきだす"
+        },
+        {
+          "row": 4,
+          "id": "p2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを あずける"
+        },
+        {
+          "row": 6,
+          "id": "p3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "どうぐを すてる"
+        },
+        {
+          "row": 8,
+          "id": "p4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        },
+        {
+          "row": 14,
+          "id": "prompt",
+          "col": 1,
+          "role": "pc_prompt",
+          "text": "なにを しますか？"
+        }
+      ]
+    },
+    {
+      "menuCursors": [],
+      "startFrame": 1747,
+      "completePage": false,
+      "endFrameExclusive": 1749,
+      "kind": "empty_target",
+      "fields": []
+    },
+    {
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            1,
+            2,
+            2,
+            3
+          ]
+        }
+      ],
+      "startFrame": 1749,
+      "completePage": false,
+      "endFrameExclusive": 1750,
+      "kind": "parent_partial_redraw",
+      "detachedMarks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            5,
+            5,
+            6,
+            6
+          ]
+        },
+        {
+          "kind": "handakuten",
+          "gridRect": [
+            8,
+            5,
+            9,
+            6
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "row": 2,
+          "id": "main1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "マサキの パソコン"
+        },
+        {
+          "row": 4,
+          "id": "main2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "グリーンの パソコン"
+        }
+      ]
+    },
+    {
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            1,
+            2,
+            2,
+            3
+          ]
+        }
+      ],
+      "startFrame": 1750,
+      "completePage": true,
+      "endFrameExclusive": 1754,
+      "kind": "menu_complete",
+      "pageOpportunityId": "pc-main-after",
+      "fields": [
+        {
+          "row": 2,
+          "id": "main1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "マサキの パソコン"
+        },
+        {
+          "row": 4,
+          "id": "main2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "グリーンの パソコン"
+        },
+        {
+          "row": 6,
+          "id": "main3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "オーキドの パソコン"
+        },
+        {
+          "row": 8,
+          "id": "main4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "ポケモン リーグ"
+        },
+        {
+          "row": 10,
+          "id": "main5",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        }
+      ]
+    }
+  ],
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "mediaId": "video-02",
+  "firstRead": "All score frames1634-1753 viewed ordered raw-only sheets015-021, direct1659/1660/1661/1697/1698/1706/1707/1714/1715/1724/1725/1731/1749",
+  "notes": [
+    "Occluded parent bases reduced to actual visible two-character prefixes; detached upper dakuten remain separately",
+    "Quantity1/PPエイダー/HM02,05,01 direct source reads. No transaction committed in selected operation",
+    "1659 partially drawn list leaves top two parent lines fully visible;1731 partial close leaves top item/quantity and lower parent lines;1749 main rows1-2 and detached marks only"
+  ],
+  "source": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1",
+  "scope": "Complete deposit submenu operation, parent cursor change, prompt loading, list opening/navigation/scrolling/closing, return main PC hierarchy",
+  "secondRead": "All124 independently redecoded source frames viewed raw-only ordered sheets000-006; all arrow cells separately viewed in source-indexed strip"
+}

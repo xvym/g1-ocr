@@ -1,0 +1,4 @@
+java.lang.IllegalArgumentException: Unknown, conflict or unreviewed state rejected
+	at io.github.g1ocr.verification.GtIntegrity.require(GtIntegrity.java:66)
+	at io.github.g1ocr.verification.GtIntegrity.check(GtIntegrity.java:38)
+	at io.github.g1ocr.verification.VideoTool.main(VideoTool.java:30)

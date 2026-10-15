@@ -1,0 +1,74 @@
+{
+  "frozen": false,
+  "mediaId": "video-02",
+  "status": "first_raw_read_complete_not_frozen",
+  "firstRead": "All2248-2257 source frames directly viewed ordered sheet046, mainmenu2252→empty2253",
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "states": [
+    {
+      "fields": [
+        {
+          "row": 2,
+          "id": "main1",
+          "col": 2,
+          "role": "menu_label",
+          "text": "マサキの パソコン"
+        },
+        {
+          "row": 4,
+          "id": "main2",
+          "col": 2,
+          "role": "menu_label",
+          "text": "グリーンの パソコン"
+        },
+        {
+          "row": 6,
+          "id": "main3",
+          "col": 2,
+          "role": "menu_label",
+          "text": "オーキドの パソコン"
+        },
+        {
+          "row": 8,
+          "id": "main4",
+          "col": 2,
+          "role": "menu_label",
+          "text": "ポケモン リーグ"
+        },
+        {
+          "row": 10,
+          "id": "main5",
+          "col": 2,
+          "role": "menu_label",
+          "text": "スイッチを きる"
+        }
+      ],
+      "startFrame": 2248,
+      "pageOpportunityId": "pc-main-before-exit",
+      "endFrameExclusive": 2253,
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            1,
+            2,
+            2,
+            3
+          ]
+        }
+      ],
+      "kind": "menu_complete",
+      "completePage": true
+    },
+    {
+      "fields": [],
+      "startFrame": 2253,
+      "menuCursors": [],
+      "endFrameExclusive": 2258,
+      "kind": "empty_target",
+      "completePage": false
+    }
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "source": "data/frames/video-02/expansion-context-f1320-f2520-v1"
+}

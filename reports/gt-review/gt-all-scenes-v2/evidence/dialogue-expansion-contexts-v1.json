@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "status": "navigation_envelopes_not_gt_not_frozen",
+  "selectionBasis": "Agent viewed hash-checked navigation from all four original recordings, before any tested OCR exists. Broaden dialogue content beyond the original single outdoor NPC. Bounds are context envelopes, not complete-event claims; refine and extend against all original frames.",
+  "humanPerFrameVerification": "not claimed",
+  "testedOutputRead": false,
+  "contexts": [
+    {"id":"v02-town-interiors","mediaId":"video-02","range":[3400,4950],"reason":"Navigation3600/3840 outdoor speech,4560/4800 indoor NPC; include intervening sign/interior dialogue rather than only navigation samples"},
+    {"id":"v02-gym-sign","mediaId":"video-02","range":[5100,5400],"existingFrames":"data/frames/video-02/trial-context-v1","reason":"Complete second sign page and closure not covered by approved first-page reference; retain old35-frame overlap identity"},
+    {"id":"v03-mart-npc","mediaId":"video-03","range":[380,620],"reason":"Navigation480 shows mart NPC speech"},
+    {"id":"v03-centre-conversations","mediaId":"video-03","range":[1540,2300],"reason":"Navigation1680 and1920 centre NPC and nurse; preserve page changes, healing and departure if bounded"},
+    {"id":"v03-route-town-dialogue","mediaId":"video-03","range":[6360,6890],"reason":"Navigation6480 outdoor NPC and6720 sign; no battle range selected from OCR performance"},
+    {"id":"v01-lab-dialogue","mediaId":"video-01","range":[12800,13900],"reason":"Navigation13500 rival speech; inspect lab interaction and all accompanying pages"},
+    {"id":"v01-oak-return","mediaId":"video-01","range":[23900,25450],"reason":"Navigation24300 delivery and25200 NPC speech; inspect before/after and interleaved story pages"},
+    {"id":"v01-introduction","mediaId":"video-01","range":[6000,6660],"existingFrames":"data/frames/video-01/expansion-context-f6000-f6660-v1","reason":"Previously correctly reclassified introduction; dialogue-rich existing frames will be inspected rather than treated as absent"},
+    {"id":"v04-dialogue-availability","mediaId":"video-04","range":[0,22058],"reason":"Full-source sparse navigation shows PC/menu/battle, no standalone NPC dialogue confirmed; navigation availability only, unsampled time remains unverified"}
+  ],
+  "set":"development",
+  "independentAcceptance":"unverified_empty",
+  "requiresNewRecording":false
+}

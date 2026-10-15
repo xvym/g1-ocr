@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-14T22:37:40.1948349+08:00",
+  "approvedReview": "gt-trial-v2",
+  "bundleSha256": "7a1699a7c2cc298ed37f81958f9c6057f880bb4ad239eda3f6fffa33754c5bb4",
+  "bundleFilesChecked": 95,
+  "changedBundleFiles": [],
+  "approvedArtifacts": {
+    "data/gt/candidates/ocr-trial-v1/ocr-candidate-v2.jsonl": "30d240232e03eaca07eeebe9502a56689e41bf223faa59c665c4e638a154de25",
+    "data/meta/m1-v1/frames.jsonl": "70e8af7485369a91531d13543d6e6dd4675d8edae3a3b5399a47f1b37c2ea75e",
+    "data/meta/m1-v1/media.jsonl": "2458c4b931241d3fd6cea9617873e97f48b6ce94114c3db5b95eb4eb1b2d2798",
+    "data/meta/ocr-scoring-contract-v1.json": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c",
+    "data/gt/candidates/ocr-trial-v1/layout-v2.json": "f004f9fdb59681ef99f116593ad5a82b716380125487b7cf66b639ddfb00adf0",
+    "data/meta/clip-trial-v2.json": "a44fa579bf3699bca4b8edd654c2e1300507cd15002cc74bc34e7f8e314bd912"
+  },
+  "allFourOriginalMediaUnchanged": true,
+  "humanMessage": "批准。你是需要我审核完一个gt再接着采集下一个gt吗？",
+  "approvalInterpretation": "Explicit approval in response to the immediately preceding request naming gt-trial-v2 and video-02 scored [5264,5299). No approval of future batches.",
+  "scope": "Agent double-read trial only; no claim of human per-frame verification or OCR acceptance"
+}

@@ -1,0 +1,66 @@
+{
+  "frozen": false,
+  "events": [
+    {
+      "scoredRange": [
+        6058,
+        6165
+      ],
+      "name": "开场欢迎语与滚动",
+      "id": "intro-greeting",
+      "clipRange": [
+        6056,
+        6167
+      ]
+    },
+    {
+      "scoredRange": [
+        6171,
+        6221
+      ],
+      "name": "博士自我介绍与淡出",
+      "id": "intro-oak",
+      "clipRange": [
+        6169,
+        6223
+      ]
+    },
+    {
+      "scoredRange": [
+        6248,
+        6322
+      ],
+      "name": "宝可梦与生物说明两页",
+      "id": "intro-creatures",
+      "clipRange": [
+        6246,
+        6324
+      ]
+    },
+    {
+      "scoredRange": [
+        6328,
+        6398
+      ],
+      "name": "宠物与战斗说明滚动",
+      "id": "intro-pets",
+      "clipRange": [
+        6326,
+        6400
+      ]
+    },
+    {
+      "scoredRange": [
+        6404,
+        6480
+      ],
+      "name": "研究说明与淡出",
+      "id": "intro-research",
+      "clipRange": [
+        6402,
+        6482
+      ]
+    }
+  ],
+  "basis": "Five naturally separated spoken blocks; every selected event includes pre-loading state, every change and disappearance after-state, not independent sessions"
+}

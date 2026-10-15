@@ -1,0 +1,405 @@
+{
+  "status": "first_raw_read_complete_not_frozen",
+  "states": [
+    {
+      "completePage": false,
+      "startFrame": 6328,
+      "kind": "textbox_empty",
+      "endFrameExclusive": 6330,
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "completePage": false,
+      "startFrame": 6330,
+      "kind": "message_loading",
+      "endFrameExclusive": 6332,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "その",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6332,
+      "kind": "message_loading",
+      "endFrameExclusive": 6333,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "その ポケ",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6333,
+      "kind": "message_loading",
+      "endFrameExclusive": 6335,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "その ポケモン",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6335,
+      "kind": "message_loading",
+      "endFrameExclusive": 6337,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "その ポケモン という",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6337,
+      "kind": "message_loading",
+      "endFrameExclusive": 6338,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "その ポケモン という いき",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6338,
+      "kind": "message_loading",
+      "endFrameExclusive": 6339,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "その ポケモン という いきものを",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6339,
+      "kind": "message_loading",
+      "endFrameExclusive": 6341,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "その ポケモン という いきものを",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ひとは",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6341,
+      "kind": "message_loading",
+      "endFrameExclusive": 6342,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "その ポケモン という いきものを",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ひとは ペッ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6342,
+      "kind": "message_loading",
+      "endFrameExclusive": 6344,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "その ポケモン という いきものを",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ひとは ペットに",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": true,
+      "startFrame": 6344,
+      "endFrameExclusive": 6364,
+      "kind": "message_complete",
+      "fields": [
+        {
+          "text": "その ポケモン という いきものを",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ひとは ペットに したり",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "pageOpportunityId": "intro-pets-1",
+      "menuCursors": [],
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      }
+    },
+    {
+      "completePage": false,
+      "startFrame": 6364,
+      "kind": "scrolling",
+      "renderNote": "Upward scroll: current upper-row base glyphs retained, clipped upper diacritics are not restored from earlier or later frames",
+      "endFrameExclusive": 6366,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "その ホケモン という いきものを",
+          "row": 13,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ひとは ペットに したり",
+          "row": 15,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6366,
+      "kind": "message_loading",
+      "endFrameExclusive": 6370,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "ひとは ペットに したり",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6370,
+      "kind": "message_loading",
+      "endFrameExclusive": 6372,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "ひとは ペットに したり",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "しょうぶ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6372,
+      "kind": "message_loading",
+      "endFrameExclusive": 6373,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "ひとは ペットに したり",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "しょうぶに つ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6373,
+      "kind": "message_loading",
+      "endFrameExclusive": 6375,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "ひとは ペットに したり",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "しょうぶに つかっ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": false,
+      "startFrame": 6375,
+      "kind": "message_loading",
+      "endFrameExclusive": 6377,
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "ひとは ペットに したり",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "しょうぶに つかったり・",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ]
+    },
+    {
+      "completePage": true,
+      "startFrame": 6377,
+      "endFrameExclusive": 6396,
+      "kind": "message_complete",
+      "fields": [
+        {
+          "text": "ひとは ペットに したり",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "しょうぶに つかったり・・・",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "pageOpportunityId": "intro-pets-2",
+      "menuCursors": [],
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      }
+    },
+    {
+      "completePage": false,
+      "startFrame": 6396,
+      "kind": "textbox_empty",
+      "endFrameExclusive": 6398,
+      "menuCursors": [],
+      "fields": []
+    }
+  ],
+  "viewed": "Every original frame6054-6479 in ordered original-pixel text crops sheets000-010, full-game navigation000-001; punctuation6374-6378 at nearest-neighbour3x",
+  "name": "宠物与战斗说明滚动",
+  "humanPerFrameVerification": "not claimed",
+  "range": [
+    6326,
+    6400
+  ],
+  "frozen": false,
+  "source": "data/frames/video-01/expansion-context-f6000-f6660-v1",
+  "notes": [
+    "No tested OCR or translation read; direct current agent raw read",
+    "Each centred dot in these opening texts occupies its own8-pixel canonical cell: U+30FB, not replacement of a one-cell three-dot U+2026 glyph",
+    "Text remains visible during fade; do not clear GT before6218/6476",
+    "Scroll bases use はしめ/オーキト/ホ when upper marks clipped; no historical completion"
+  ],
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "scoredRange": [
+    6328,
+    6398
+  ],
+  "mediaId": "video-01"
+}

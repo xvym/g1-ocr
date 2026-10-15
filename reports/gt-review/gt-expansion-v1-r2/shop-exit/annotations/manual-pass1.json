@@ -1,0 +1,1077 @@
+[
+  {
+    "startFrame": 1439,
+    "endFrameExclusive": 1441,
+    "kind": "textbox_empty",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      }
+    ],
+    "cursor": {
+      "row": 3,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1441,
+    "endFrameExclusive": 1442,
+    "kind": "loading",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "そのほ",
+        "col": 1,
+        "id": "dialogue-0"
+      }
+    ],
+    "cursor": {
+      "row": 3,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1442,
+    "endFrameExclusive": 1443,
+    "kind": "loading",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "そのほかに",
+        "col": 1,
+        "id": "dialogue-0"
+      }
+    ],
+    "cursor": {
+      "row": 3,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1443,
+    "endFrameExclusive": 1444,
+    "kind": "loading",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "そのほかに わたく",
+        "col": 1,
+        "id": "dialogue-0"
+      }
+    ],
+    "cursor": {
+      "row": 3,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1444,
+    "endFrameExclusive": 1446,
+    "kind": "loading",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "そのほかに わたくしども",
+        "col": 1,
+        "id": "dialogue-0"
+      }
+    ],
+    "cursor": {
+      "row": 3,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1446,
+    "endFrameExclusive": 1447,
+    "kind": "loading",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "そのほかに わたくしどもで",
+        "col": 1,
+        "id": "dialogue-0"
+      },
+      {
+        "row": 16,
+        "role": "dialogue_line",
+        "text": "おち",
+        "col": 1,
+        "id": "dialogue-1"
+      }
+    ],
+    "cursor": {
+      "row": 3,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1447,
+    "endFrameExclusive": 1448,
+    "kind": "loading",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "そのほかに わたくしどもで",
+        "col": 1,
+        "id": "dialogue-0"
+      },
+      {
+        "row": 16,
+        "role": "dialogue_line",
+        "text": "おちからに",
+        "col": 1,
+        "id": "dialogue-1"
+      }
+    ],
+    "cursor": {
+      "row": 3,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1448,
+    "endFrameExclusive": 1449,
+    "kind": "loading",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "そのほかに わたくしどもで",
+        "col": 1,
+        "id": "dialogue-0"
+      },
+      {
+        "row": 16,
+        "role": "dialogue_line",
+        "text": "おちからに なれ",
+        "col": 1,
+        "id": "dialogue-1"
+      }
+    ],
+    "cursor": {
+      "row": 3,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1449,
+    "endFrameExclusive": 1450,
+    "kind": "loading",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "そのほかに わたくしどもで",
+        "col": 1,
+        "id": "dialogue-0"
+      },
+      {
+        "row": 16,
+        "role": "dialogue_line",
+        "text": "おちからに なれること",
+        "col": 1,
+        "id": "dialogue-1"
+      }
+    ],
+    "cursor": {
+      "row": 3,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1450,
+    "endFrameExclusive": 1451,
+    "kind": "complete_waiting",
+    "completePage": true,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "そのほかに わたくしどもで",
+        "col": 1,
+        "id": "dialogue-0"
+      },
+      {
+        "row": 16,
+        "role": "dialogue_line",
+        "text": "おちからに なれることは？",
+        "col": 1,
+        "id": "dialogue-1"
+      }
+    ],
+    "cursor": {
+      "row": 3,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1451,
+    "endFrameExclusive": 1462,
+    "kind": "complete_waiting",
+    "completePage": true,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "そのほかに わたくしどもで",
+        "col": 1,
+        "id": "dialogue-0"
+      },
+      {
+        "row": 16,
+        "role": "dialogue_line",
+        "text": "おちからに なれることは？",
+        "col": 1,
+        "id": "dialogue-1"
+      }
+    ],
+    "cursor": {
+      "row": 1,
+      "visible": true,
+      "style": "filled_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1462,
+    "endFrameExclusive": 1463,
+    "kind": "textbox_empty",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      }
+    ],
+    "cursor": {
+      "row": 1,
+      "visible": true,
+      "style": "filled_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1463,
+    "endFrameExclusive": 1464,
+    "kind": "textbox_empty",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      }
+    ],
+    "cursor": {
+      "row": 1,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1464,
+    "endFrameExclusive": 1465,
+    "kind": "loading",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "あ",
+        "col": 1,
+        "id": "dialogue-0"
+      }
+    ],
+    "cursor": {
+      "row": 1,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1465,
+    "endFrameExclusive": 1466,
+    "kind": "loading",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "ありがと",
+        "col": 1,
+        "id": "dialogue-0"
+      }
+    ],
+    "cursor": {
+      "row": 1,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1466,
+    "endFrameExclusive": 1467,
+    "kind": "loading",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "ありがとう ご",
+        "col": 1,
+        "id": "dialogue-0"
+      }
+    ],
+    "cursor": {
+      "row": 1,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1467,
+    "endFrameExclusive": 1468,
+    "kind": "loading",
+    "completePage": false,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "ありがとう ございま",
+        "col": 1,
+        "id": "dialogue-0"
+      }
+    ],
+    "cursor": {
+      "row": 1,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1468,
+    "endFrameExclusive": 1482,
+    "kind": "complete_waiting",
+    "completePage": true,
+    "manualFields": [
+      {
+        "row": 0,
+        "role": "shop_money_label",
+        "text": "おかね",
+        "col": 14,
+        "id": "money-label"
+      },
+      {
+        "row": 1,
+        "role": "shop_menu_choice",
+        "text": "かいに きた",
+        "col": 2,
+        "id": "buy-choice"
+      },
+      {
+        "currency": "円",
+        "text": "22526円",
+        "numericValue": 22526,
+        "col": 13,
+        "role": "money_amount",
+        "id": "money-value",
+        "row": 1
+      },
+      {
+        "row": 3,
+        "role": "shop_menu_choice",
+        "text": "うりに きた",
+        "col": 2,
+        "id": "sell-choice"
+      },
+      {
+        "row": 5,
+        "role": "shop_menu_choice",
+        "text": "べつに いいです",
+        "col": 2,
+        "id": "leave-choice"
+      },
+      {
+        "row": 14,
+        "role": "dialogue_line",
+        "text": "ありがとう ございました",
+        "col": 1,
+        "id": "dialogue-0"
+      }
+    ],
+    "cursor": {
+      "row": 1,
+      "visible": true,
+      "style": "outlined_right",
+      "col": 1
+    }
+  },
+  {
+    "startFrame": 1482,
+    "endFrameExclusive": 1486,
+    "kind": "no_textbox",
+    "completePage": false,
+    "manualFields": [],
+    "cursor": {
+      "visible": false
+    }
+  }
+]

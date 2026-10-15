@@ -1,0 +1,27 @@
+{
+  "wrapperDiagnostic": "Outer PowerShell invocation returned1 while stderr showed expected GT rejection; direct Java CLI verified real code3 without generating reports. Original logs retained.",
+  "inputCopies": "reports/m2-validator-negative-v1",
+  "directCliExit3All": true,
+  "cases": [
+    {
+      "log": "unknown-direct.log",
+      "case": "unknown",
+      "falseReport": false,
+      "exitCode": 3
+    },
+    {
+      "log": "gap-direct.log",
+      "case": "gap",
+      "falseReport": false,
+      "exitCode": 3
+    },
+    {
+      "log": "wrong-source-direct.log",
+      "case": "wrong-source",
+      "falseReport": false,
+      "exitCode": 3
+    }
+  ],
+  "falseSuccessReports": 0,
+  "status": "negative_structural_regression_passed"
+}

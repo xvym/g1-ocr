@@ -1,0 +1,52 @@
+{
+  "inputVerificationSha256": "2c166db2cf0bac2c2f294364a6dfc415535250c4d7d7d817cbc5be77de23c43a",
+  "entries": [
+    {
+      "original": "data\\frames\\video-01\\dialogue-intro-pass2-v1\\frame-006215.png",
+      "sheet": 0,
+      "rgbSha256": "6970387d72ac710e9e4ac154e686ff4fac2f5fe7033f946c6040a135d99c14c6",
+      "pts": 6215,
+      "frameIndex": 6215
+    },
+    {
+      "original": "data\\frames\\video-01\\dialogue-intro-pass2-v1\\frame-006216.png",
+      "sheet": 0,
+      "rgbSha256": "a1a27b397591451a31d34ae39ed725e82302ccad84230ce045d8b4ee19e3cc04",
+      "pts": 6216,
+      "frameIndex": 6216
+    },
+    {
+      "original": "data\\frames\\video-01\\dialogue-intro-pass2-v1\\frame-006217.png",
+      "sheet": 0,
+      "rgbSha256": "fec378594caf4d27e4c27fabb2ef7a8b887d70e2bdb231bc299088310236ac23",
+      "pts": 6217,
+      "frameIndex": 6217
+    },
+    {
+      "original": "data\\frames\\video-01\\dialogue-intro-pass2-v1\\frame-006218.png",
+      "sheet": 0,
+      "rgbSha256": "4e59b1ed7007006bc55b9e077707d814b9244a8b3842598aeff418cab5661dae",
+      "pts": 6218,
+      "frameIndex": 6218
+    },
+    {
+      "original": "data\\frames\\video-01\\dialogue-intro-pass2-v1\\frame-006219.png",
+      "sheet": 0,
+      "rgbSha256": "fec378594caf4d27e4c27fabb2ef7a8b887d70e2bdb231bc299088310236ac23",
+      "pts": 6219,
+      "frameIndex": 6219
+    }
+  ],
+  "displayWidth": 800,
+  "allFramesShown": true,
+  "frames": "data/frames/video-01/dialogue-intro-pass2-v1",
+  "purpose": "Deterministic original-pixel navigation/display only; no text inference, no GT assignment, no approval",
+  "count": 5,
+  "step": 1,
+  "crop": [
+    240,
+    304,
+    560,
+    384
+  ]
+}

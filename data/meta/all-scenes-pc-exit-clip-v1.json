@@ -1,0 +1,33 @@
+{
+  "startFrame": 2246,
+  "set": "development",
+  "gt": "data/gt/candidates/ocr-all-scenes-v1/pc-exit/ocr-candidate-v1.jsonl",
+  "scoreKind": "text_and_state",
+  "postContext": [
+    2258,
+    2260
+  ],
+  "pageOpportunityPolicy": "explicit_id",
+  "selectionReason": "Existing predetermined PC context shows PC menu disappearing2253 and stable room before walking begins2268; retain five empty afterframes",
+  "id": "c83de914352e-f2246-f2260-pc-exit",
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "eventType": "complete PC main menu exit",
+  "frozen": false,
+  "boundaryStatus": "first_raw_read_complete_second_pending",
+  "warmup": [
+    2246,
+    2248
+  ],
+  "timeBase": "1/12288",
+  "independentSession": "unverified",
+  "mediaId": "video-02",
+  "schemaVersion": 2,
+  "endFrameExclusive": 2260,
+  "scopeLimits": [
+    "Other PC operations not claimed"
+  ],
+  "scoredRange": [
+    2248,
+    2258
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "source": "data/frames/video-01/dialogue-lab-context-v1",
+  "viewed": "All selected original-frame text crops directly read in corresponding *-first ordered sheets; full-game navigation read for context. Question yes/no region read separately in every frame; later independent re-decode will resolve timing and flashes.",
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "frozen": false,
+  "states": [
+    {
+      "kind": "empty_target",
+      "startFrame": 13376,
+      "endFrameExclusive": 13378,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "textbox_empty",
+      "startFrame": 13378,
+      "endFrameExclusive": 13379,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13379,
+      "endFrameExclusive": 13381,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "グリ",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13381,
+      "endFrameExclusive": 13382,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "グリーン『",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13382,
+      "endFrameExclusive": 13384,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "グリーン『あっ！",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13384,
+      "endFrameExclusive": 13385,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "グリーン『あっ！ ずる",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13385,
+      "endFrameExclusive": 13387,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "グリーン『あっ！ ずるい！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "じ",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13387,
+      "endFrameExclusive": 13388,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "グリーン『あっ！ ずるい！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "じいさん",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13388,
+      "endFrameExclusive": 13389,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "グリーン『あっ！ ずるい！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "じいさん！",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13389,
+      "endFrameExclusive": 13390,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "グリーン『あっ！ ずるい！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "じいさん！ お",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13390,
+      "endFrameExclusive": 13391,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "グリーン『あっ！ ずるい！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "じいさん！ おれにも",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 13391,
+      "endFrameExclusive": 13393,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "グリーン『あっ！ ずるい！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "じいさん！ おれにも くれ",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_complete",
+      "startFrame": 13393,
+      "pageOpportunityId": "lab-rival-demand-1",
+      "endFrameExclusive": 13414,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "グリーン『あっ！ ずるい！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "じいさん！ おれにも くれよお！",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "menuCursors": []
+    },
+    {
+      "kind": "empty_target",
+      "startFrame": 13414,
+      "endFrameExclusive": 13418,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    }
+  ],
+  "status": "first_raw_read_complete_not_frozen",
+  "name": "研究所劲敌索要宝可梦",
+  "scoredRange": [
+    13376,
+    13418
+  ],
+  "notes": [
+    "Direct current agent raw-frame read, no tested OCR or production translation output read",
+    "First-read record retained; independent source re-decode/second visual read still required"
+  ],
+  "range": [
+    13374,
+    13420
+  ],
+  "mediaId": "video-01",
+  "humanPerFrameVerification": "not claimed"
+}

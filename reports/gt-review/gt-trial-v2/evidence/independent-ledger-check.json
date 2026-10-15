@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-14T21:16:03.9835138+08:00",
+  "method": "Independent PowerShell JSONL read: sequential indices, exact integer duration continuity and explicit error arrays; no OCR/GT",
+  "groups": [
+    {
+      "endPtsExclusive": 29346,
+      "mediaId": "video-01",
+      "frames": 29346,
+      "timeContiguous": true,
+      "indexContiguous": true,
+      "firstPts": 0,
+      "timeBase": "1/30",
+      "recordedFrameErrors": 0
+    },
+    {
+      "endPtsExclusive": 4077568,
+      "mediaId": "video-02",
+      "frames": 7964,
+      "timeContiguous": true,
+      "indexContiguous": true,
+      "firstPts": 0,
+      "timeBase": "1/12288",
+      "recordedFrameErrors": 0
+    },
+    {
+      "endPtsExclusive": 3789824,
+      "mediaId": "video-03",
+      "frames": 7402,
+      "timeContiguous": true,
+      "indexContiguous": true,
+      "firstPts": 0,
+      "timeBase": "1/12288",
+      "recordedFrameErrors": 0
+    },
+    {
+      "endPtsExclusive": 22587392,
+      "mediaId": "video-04",
+      "frames": 22058,
+      "timeContiguous": true,
+      "indexContiguous": true,
+      "firstPts": 0,
+      "timeBase": "1/19456",
+      "recordedFrameErrors": 0
+    }
+  ],
+  "totalFrames": 66770,
+  "sourceLedgerSha256": "70e8af7485369a91531d13543d6e6dd4675d8edae3a3b5399a47f1b37c2ea75e"
+}

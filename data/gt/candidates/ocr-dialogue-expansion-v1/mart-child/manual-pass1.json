@@ -1,0 +1,228 @@
+{
+  "source": "data/frames/video-03/dialogue-centre-context-v1",
+  "viewed": "All selected original-frame text crops directly read in corresponding *-first ordered sheets; full-game navigation read for context. Question yes/no region read separately in every frame; later independent re-decode will resolve timing and flashes.",
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+  "frozen": false,
+  "states": [
+    {
+      "kind": "empty_target",
+      "startFrame": 578,
+      "endFrameExclusive": 580,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "textbox_empty",
+      "startFrame": 580,
+      "endFrameExclusive": 586,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 586,
+      "endFrameExclusive": 588,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "わ",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 588,
+      "endFrameExclusive": 589,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "わあ！",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 589,
+      "endFrameExclusive": 590,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "わあ！ ポケモ",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 590,
+      "endFrameExclusive": 591,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "わあ！ ポケモングッ",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 591,
+      "endFrameExclusive": 592,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "わあ！ ポケモングッズが",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "た",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 592,
+      "endFrameExclusive": 594,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "わあ！ ポケモングッズが",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "たくさん",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 594,
+      "endFrameExclusive": 595,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "わあ！ ポケモングッズが",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "たくさん そろ",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 595,
+      "endFrameExclusive": 596,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "わあ！ ポケモングッズが",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "たくさん そろってる",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_complete",
+      "startFrame": 596,
+      "pageOpportunityId": "mart-child-1",
+      "endFrameExclusive": 631,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "わあ！ ポケモングッズが",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "たくさん そろってるぞ！",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "menuCursors": []
+    },
+    {
+      "kind": "empty_target",
+      "startFrame": 631,
+      "endFrameExclusive": 634,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    }
+  ],
+  "status": "first_raw_read_complete_not_frozen",
+  "name": "商店NPC宝可梦商品招呼",
+  "scoredRange": [
+    578,
+    634
+  ],
+  "notes": [
+    "Direct current agent raw-frame read, no tested OCR or production translation output read",
+    "First-read record retained; independent source re-decode/second visual read still required"
+  ],
+  "range": [
+    576,
+    636
+  ],
+  "mediaId": "video-03",
+  "humanPerFrameVerification": "not claimed"
+}

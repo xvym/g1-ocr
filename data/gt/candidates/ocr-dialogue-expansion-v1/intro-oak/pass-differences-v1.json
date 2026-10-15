@@ -1,0 +1,72 @@
+{
+  "unresolvedScoreDifferences": 0,
+  "status": "agent_double_raw_read_differences_resolved_not_approved",
+  "second": "manual-pass2.json",
+  "basis": "Direct raw second frame read and adjacent-frame/arrow/pixel navigation; no tested output",
+  "replacedFirstBoundaries": [
+    6180,
+    6183,
+    6200,
+    6210,
+    6218
+  ],
+  "frozen": false,
+  "first": "manual-pass1.json",
+  "corrections": [
+    [
+      6179,
+      "わたしの なまえは オーキド",
+      "み",
+      ""
+    ],
+    [
+      6182,
+      "わたしの なまえは オーキド",
+      "みんなからは",
+      ""
+    ],
+    [
+      6187,
+      "わたしの なまえは オーキド",
+      "みんなからは ポケモン はかせと",
+      "C1"
+    ],
+    [
+      6188,
+      "わたしの なまえは オーキド",
+      "みんなからは ポケモン はかせと",
+      "C1A"
+    ],
+    [
+      6197,
+      "わたしの なまえは オーキト",
+      "みんなからは ポケモン はかせと",
+      "S"
+    ],
+    [
+      6199,
+      "みんなからは ポケモン はかせと",
+      "",
+      ""
+    ],
+    [
+      6208,
+      "みんなからは ポケモン はかせと",
+      "したわれて おるよ",
+      "C2AF"
+    ],
+    [
+      6211,
+      "みんなからは ポケモン はかせと",
+      "したわれて おるよ",
+      "C2F"
+    ],
+    [
+      6217,
+      "",
+      "",
+      "empty_target"
+    ]
+  ],
+  "humanPerFrameVerification": "not claimed"
+}

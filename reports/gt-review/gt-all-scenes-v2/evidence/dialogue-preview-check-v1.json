@@ -1,0 +1,19 @@
+{
+  "observations": "Some repeated large contact-sheet previews appeared black, truncated or horizontally repeated. Original PNGs and view_image return data matched, raw originals reopened normally. Exact internal display cause not diagnosed. No source/GT changed; affected previews retried individually.",
+  "notProductTest": true,
+  "frame2043": {
+    "canvasDifferentPixels": 0,
+    "canvasCellComparedPixels": 88800,
+    "rawReopened": true
+  },
+  "status": "raw_artifacts_match_preview_discrepancy_diagnosed_to_display_path",
+  "frame1905": {
+    "bothPngAndRgbMatch": true,
+    "second": "data/frames/video-03/dialogue-centre-pass2-v1/frame-001905.png",
+    "viewImageReturnedIdenticalDataUrl": true,
+    "pngSha256": "5fd9e91ff3759199c855e03e97bbe42d5d11e60b17a69267ffd5f5df407603c4",
+    "dataUrlLength": 297993,
+    "rawReopened": true,
+    "first": "data/frames/video-03/dialogue-centre-context-v1/frame-001905.png"
+  }
+}

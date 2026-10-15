@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "id": "4a2fec5930e9-f5200-f5366-navigation",
+  "mediaId": "video-04",
+  "mediaSha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+  "startFrame": 5200,
+  "endFrameExclusive": 5366,
+  "warmup": [
+    5200,
+    5206
+  ],
+  "scoredRange": [
+    5206,
+    5358
+  ],
+  "postContext": [
+    5358,
+    5366
+  ],
+  "timeBase": "1/19456",
+  "scoreKind": "text_and_state",
+  "set": "development",
+  "independentSession": "unverified",
+  "eventType": "backpack list cursor/scroll navigation complete operations",
+  "boundaryStatus": "agent_double_read_complete_candidate_not_frozen",
+  "selectionReason": "Complete list navigation operation only: before first move5223, both downward/upward scroll traversals, end after final cancel selection5350 and stable after-state. Opening/closing assessed separately and not claimed passed.",
+  "gt": "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/ocr-candidate-v2.jsonl",
+  "frozen": false,
+  "pendingFullOpeningClosingCandidate": "manual-pass1.json; frame5359 unresolved and retained",
+  "scopeLimits": [
+    "No item use, complete bag-opening or complete bag-closing acceptance claimed",
+    "Closing action5359 remains pending, not silently discarded",
+    "Version/session independence unverified"
+  ],
+  "pageOpportunityPolicy": "explicit_id"
+}

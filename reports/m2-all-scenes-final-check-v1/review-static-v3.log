@@ -1,0 +1,17 @@
+evalmachine.<anonymous>:18
+function show(){const it=current(),f=it.frames[position],s=f.stateIndex<0?null:it.states[f.stateIndex];el('slider').value=position;const [n,d]=f.timeBase.split('/').map(Number);el('frameInfo').textContent=`${it.clip.mediaId} 原帧 ${f.index} · ${f.role} · PTS ${f.pts} × ${f.timeBase} = ${(f.pts*n/d).toFixed(6)} 秒 · ${position+1}/${it.frames.length}`;el('stateInfo').textContent=s?`${s.kind} · [${s.startFrame},${s.endFrameExclusive}) · ${s.completePage?'完整页面机会':'变化或空状态'}`:'上下文不作为下一事件评分';el('text').textContent=s?(s.regions.map(r=>r.text).join('\n')||'目标文字为空'):'上下文：未赋评分 GT';el('symbolInfo').textContent=s?`光标 ${s.cursor.menuCursors.length||0}；向下箭头 ${(s.cursor.downArrowVisible?1:0)+(s.cursor.additionalDownArrows?.length||0)}；孤立上方标记 ${s.detachedMarks?.length||0}`:'';el('full').src=f.file;el('zoom').src=f.zoom;el('originalLink').href=f.file;el('zoomLabel').textContent=`原区域 [${it.crop.join(',')}) · 最近邻 ${it.zoomScale} 倍；未增加细节`;el('frameJson').textContent=JSON.stringify({frame:f,state:s},null,2);el('statePick').value=f.stateIndex;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+
+TypeError: Cannot read properties of undefined (reading 'length')
+    at show (evalmachine.<anonymous>:18:633)
+    at evalmachine.<anonymous>:1:12
+    at Script.runInContext (node:vm:149:12)
+    at Object.runInContext (node:vm:301:6)
+    at Object.<anonymous> (D:\Code\Workspace\g1-ocr\tools\check-all-scenes-review.cjs:36:228)
+    at Module._compile (node:internal/modules/cjs/loader:1872:14)
+    at Object..js (node:internal/modules/cjs/loader:2003:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+
+Node.js v24.19.0

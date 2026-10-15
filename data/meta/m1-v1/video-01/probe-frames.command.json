@@ -1,0 +1,1 @@
+["D:/Code/Workspace/g1ocr/tools/ffmpeg/bin/ffprobe.exe","-v","warning","-err_detect","explode","-threads","1","-select_streams","v:0","-show_frames","-show_entries","frame=pts,duration,pkt_duration,width,height,decode_error_flags","-of","json","D:\\Code\\Workspace\\g1-ocr\\testpic\\video\\2026-10-11 22-34-17.mp4"]

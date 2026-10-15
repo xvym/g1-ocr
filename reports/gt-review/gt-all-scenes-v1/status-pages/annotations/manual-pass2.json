@@ -1,0 +1,1071 @@
+{
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "fieldSets": {
+    "mixed": [
+      {
+        "id": "name",
+        "role": "pokemon_name",
+        "row": 1,
+        "variable": {
+          "role": "pokemon_display_name",
+          "displayValue": "ラプラス",
+          "type": "string"
+        },
+        "col": 11,
+        "text": "ラプラス"
+      },
+      {
+        "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+        "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented",
+        "id": "level-label",
+        "logicalRect": [
+          128,
+          8,
+          136,
+          16
+        ],
+        "gridRect": [
+          16.0,
+          1.0,
+          17.0,
+          2.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": ":L",
+            "kind": "compound_label",
+            "logicalRect": [
+              128,
+              8,
+              136,
+              16
+            ]
+          }
+        ],
+        "col": 0,
+        "text": ":L"
+      },
+      {
+        "id": "level",
+        "role": "pokemon_level",
+        "row": 1,
+        "variable": {
+          "role": "pokemon_level",
+          "numericValue": 50,
+          "displayValue": "50",
+          "type": "integer"
+        },
+        "col": 17,
+        "text": "50"
+      },
+      {
+        "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+        "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented",
+        "id": "no-label",
+        "logicalRect": [
+          8,
+          56,
+          24,
+          64
+        ],
+        "gridRect": [
+          1.0,
+          7.0,
+          3.0,
+          8.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": "No.",
+            "kind": "compound_label",
+            "logicalRect": [
+              8,
+              56,
+              24,
+              64
+            ]
+          }
+        ],
+        "col": 0,
+        "text": "No."
+      },
+      {
+        "id": "no-value",
+        "role": "pokedex_number",
+        "row": 7,
+        "variable": {
+          "role": "pokedex_number",
+          "numericValue": 131,
+          "format": "3 digits",
+          "displayValue": "131",
+          "type": "integer"
+        },
+        "col": 3,
+        "text": "131"
+      },
+      {
+        "id": "exp-label",
+        "role": "experience_label",
+        "text": "けいけんち/",
+        "row": 3,
+        "col": 9
+      },
+      {
+        "id": "exp",
+        "role": "experience",
+        "row": 4,
+        "variable": {
+          "role": "experience",
+          "numericValue": 157734,
+          "displayValue": "157734",
+          "type": "integer"
+        },
+        "col": 13,
+        "text": "157734"
+      },
+      {
+        "id": "next-label",
+        "role": "next_level_label",
+        "text": "あと",
+        "row": 5,
+        "col": 9
+      },
+      {
+        "id": "next-exp",
+        "role": "experience_remaining",
+        "row": 6,
+        "variable": {
+          "role": "experience_remaining",
+          "numericValue": 8079,
+          "format": "digits followed by literalで",
+          "displayValue": "8079",
+          "type": "integer"
+        },
+        "col": 10,
+        "text": "8079で"
+      },
+      {
+        "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+        "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented",
+        "id": "next-level-label",
+        "logicalRect": [
+          128,
+          48,
+          136,
+          56
+        ],
+        "gridRect": [
+          16.0,
+          6.0,
+          17.0,
+          7.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": ":L",
+            "kind": "compound_label",
+            "logicalRect": [
+              128,
+              48,
+              136,
+              56
+            ]
+          }
+        ],
+        "col": 0,
+        "text": ":L"
+      },
+      {
+        "id": "next-level",
+        "role": "next_level",
+        "row": 6,
+        "variable": {
+          "role": "next_level",
+          "numericValue": 51,
+          "displayValue": "51",
+          "type": "integer"
+        },
+        "col": 17,
+        "text": "51"
+      },
+      {
+        "id": "move-0",
+        "role": "move_name",
+        "row": 10,
+        "variable": {
+          "role": "move_name",
+          "displayValue": "れいとうビーム",
+          "type": "string"
+        },
+        "col": 2,
+        "text": "れいとうビーム"
+      },
+      {
+        "id": "pp-label-0",
+        "role": "pp_label",
+        "text": "PP",
+        "row": 10,
+        "col": 11
+      },
+      {
+        "id": "pp-value-0",
+        "role": "move_pp",
+        "row": 10,
+        "variable": {
+          "displayValue": "9/10",
+          "maximum": 10,
+          "format": "fixed width digits/slash; preserve literal padding",
+          "role": "move_pp",
+          "current": 9,
+          "type": "integer_pair"
+        },
+        "col": 15,
+        "text": "9/10"
+      },
+      {
+        "id": "defense-label",
+        "role": "stat_label",
+        "text": "ぼうぎょ",
+        "row": 12,
+        "col": 1
+      },
+      {
+        "id": "defense-value",
+        "role": "defense",
+        "row": 12,
+        "variable": {
+          "role": "defense",
+          "numericValue": 123,
+          "displayValue": "123",
+          "type": "integer"
+        },
+        "col": 6,
+        "text": "123"
+      },
+      {
+        "id": "speed-label",
+        "role": "stat_label",
+        "text": "すばやさ",
+        "row": 14,
+        "col": 1
+      },
+      {
+        "id": "speed-value",
+        "role": "speed",
+        "row": 14,
+        "variable": {
+          "role": "speed",
+          "numericValue": 103,
+          "displayValue": "103",
+          "type": "integer"
+        },
+        "col": 6,
+        "text": "103"
+      },
+      {
+        "id": "special-label",
+        "role": "stat_label",
+        "text": "とくしゅ",
+        "row": 16,
+        "col": 1
+      },
+      {
+        "id": "special-value",
+        "role": "special",
+        "row": 16,
+        "variable": {
+          "role": "special",
+          "numericValue": 139,
+          "displayValue": "139",
+          "type": "integer"
+        },
+        "col": 6,
+        "text": "139"
+      },
+      {
+        "id": "type2",
+        "role": "pokemon_type",
+        "text": "タイプ2/こおり",
+        "row": 12,
+        "col": 10
+      },
+      {
+        "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+        "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented",
+        "id": "trainer-id-label",
+        "logicalRect": [
+          80,
+          112,
+          104,
+          120
+        ],
+        "gridRect": [
+          10.0,
+          14.0,
+          13.0,
+          15.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": "IDNo/",
+            "kind": "compound_label",
+            "logicalRect": [
+              80,
+              112,
+              104,
+              120
+            ]
+          }
+        ],
+        "col": 0,
+        "text": "IDNo/"
+      },
+      {
+        "id": "trainer-id",
+        "role": "trainer_id",
+        "row": 14,
+        "variable": {
+          "role": "trainer_id",
+          "numericValue": 16785,
+          "format": "5 digits",
+          "displayValue": "16785",
+          "type": "integer"
+        },
+        "col": 14,
+        "text": "16785"
+      },
+      {
+        "id": "owner",
+        "role": "trainer_name",
+        "row": 16,
+        "variable": {
+          "role": "original_trainer_name",
+          "format": "label/slash/space/name",
+          "displayValue": "レッド",
+          "type": "string"
+        },
+        "col": 10,
+        "text": "おや/ レッド"
+      }
+    ],
+    "first": [
+      {
+        "id": "name",
+        "role": "pokemon_name",
+        "row": 1,
+        "variable": {
+          "role": "pokemon_display_name",
+          "displayValue": "ラプラス",
+          "type": "string"
+        },
+        "col": 11,
+        "text": "ラプラス"
+      },
+      {
+        "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+        "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented",
+        "id": "level-label",
+        "logicalRect": [
+          128,
+          8,
+          136,
+          16
+        ],
+        "gridRect": [
+          16.0,
+          1.0,
+          17.0,
+          2.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": ":L",
+            "kind": "compound_label",
+            "logicalRect": [
+              128,
+              8,
+              136,
+              16
+            ]
+          }
+        ],
+        "col": 0,
+        "text": ":L"
+      },
+      {
+        "id": "level",
+        "role": "pokemon_level",
+        "row": 1,
+        "variable": {
+          "role": "pokemon_level",
+          "numericValue": 50,
+          "displayValue": "50",
+          "type": "integer"
+        },
+        "col": 17,
+        "text": "50"
+      },
+      {
+        "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+        "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented",
+        "id": "no-label",
+        "logicalRect": [
+          8,
+          56,
+          24,
+          64
+        ],
+        "gridRect": [
+          1.0,
+          7.0,
+          3.0,
+          8.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": "No.",
+            "kind": "compound_label",
+            "logicalRect": [
+              8,
+              56,
+              24,
+              64
+            ]
+          }
+        ],
+        "col": 0,
+        "text": "No."
+      },
+      {
+        "id": "no-value",
+        "role": "pokedex_number",
+        "row": 7,
+        "variable": {
+          "role": "pokedex_number",
+          "numericValue": 131,
+          "format": "3 digits",
+          "displayValue": "131",
+          "type": "integer"
+        },
+        "col": 3,
+        "text": "131"
+      },
+      {
+        "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+        "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented",
+        "id": "hp-label",
+        "logicalRect": [
+          88,
+          28,
+          100,
+          32
+        ],
+        "gridRect": [
+          11.0,
+          3.5,
+          12.5,
+          4.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": "HP:",
+            "kind": "compound_label",
+            "logicalRect": [
+              88,
+              28,
+              100,
+              32
+            ]
+          }
+        ],
+        "col": 0,
+        "text": "HP:"
+      },
+      {
+        "id": "hp-value",
+        "role": "hp_current_max",
+        "row": 4,
+        "variable": {
+          "role": "hp_current_max",
+          "current": 200,
+          "maximum": 206,
+          "displayValue": "200/206",
+          "type": "integer_pair"
+        },
+        "col": 12,
+        "text": "200/206"
+      },
+      {
+        "id": "status",
+        "role": "pokemon_condition",
+        "row": 6,
+        "variable": {
+          "role": "pokemon_condition",
+          "format": "label/slash/value",
+          "displayValue": "ふつう",
+          "type": "string"
+        },
+        "col": 10,
+        "text": "じょうたい/ふつう"
+      },
+      {
+        "id": "attack-label",
+        "role": "stat_label",
+        "text": "こうげき",
+        "row": 10,
+        "col": 1
+      },
+      {
+        "id": "attack-value",
+        "role": "attack",
+        "row": 10,
+        "variable": {
+          "role": "attack",
+          "numericValue": 122,
+          "displayValue": "122",
+          "type": "integer"
+        },
+        "col": 6,
+        "text": "122"
+      },
+      {
+        "id": "defense-label",
+        "role": "stat_label",
+        "text": "ぼうぎょ",
+        "row": 12,
+        "col": 1
+      },
+      {
+        "id": "defense-value",
+        "role": "defense",
+        "row": 12,
+        "variable": {
+          "role": "defense",
+          "numericValue": 123,
+          "displayValue": "123",
+          "type": "integer"
+        },
+        "col": 6,
+        "text": "123"
+      },
+      {
+        "id": "speed-label",
+        "role": "stat_label",
+        "text": "すばやさ",
+        "row": 14,
+        "col": 1
+      },
+      {
+        "id": "speed-value",
+        "role": "speed",
+        "row": 14,
+        "variable": {
+          "role": "speed",
+          "numericValue": 103,
+          "displayValue": "103",
+          "type": "integer"
+        },
+        "col": 6,
+        "text": "103"
+      },
+      {
+        "id": "special-label",
+        "role": "stat_label",
+        "text": "とくしゅ",
+        "row": 16,
+        "col": 1
+      },
+      {
+        "id": "special-value",
+        "role": "special",
+        "row": 16,
+        "variable": {
+          "role": "special",
+          "numericValue": 139,
+          "displayValue": "139",
+          "type": "integer"
+        },
+        "col": 6,
+        "text": "139"
+      },
+      {
+        "id": "type1",
+        "role": "pokemon_type",
+        "text": "タイプ1/みず",
+        "row": 10,
+        "col": 10
+      },
+      {
+        "id": "type2",
+        "role": "pokemon_type",
+        "text": "タイプ2/こおり",
+        "row": 12,
+        "col": 10
+      },
+      {
+        "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+        "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented",
+        "id": "trainer-id-label",
+        "logicalRect": [
+          80,
+          112,
+          104,
+          120
+        ],
+        "gridRect": [
+          10.0,
+          14.0,
+          13.0,
+          15.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": "IDNo/",
+            "kind": "compound_label",
+            "logicalRect": [
+              80,
+              112,
+              104,
+              120
+            ]
+          }
+        ],
+        "col": 0,
+        "text": "IDNo/"
+      },
+      {
+        "id": "trainer-id",
+        "role": "trainer_id",
+        "row": 14,
+        "variable": {
+          "role": "trainer_id",
+          "numericValue": 16785,
+          "format": "5 digits",
+          "displayValue": "16785",
+          "type": "integer"
+        },
+        "col": 14,
+        "text": "16785"
+      },
+      {
+        "id": "owner",
+        "role": "trainer_name",
+        "row": 16,
+        "variable": {
+          "role": "original_trainer_name",
+          "format": "label/slash/space/name",
+          "displayValue": "レッド",
+          "type": "string"
+        },
+        "col": 10,
+        "text": "おや/ レッド"
+      }
+    ],
+    "second": [
+      {
+        "id": "name",
+        "role": "pokemon_name",
+        "row": 1,
+        "variable": {
+          "role": "pokemon_display_name",
+          "displayValue": "ラプラス",
+          "type": "string"
+        },
+        "col": 11,
+        "text": "ラプラス"
+      },
+      {
+        "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+        "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented",
+        "id": "level-label",
+        "logicalRect": [
+          128,
+          8,
+          136,
+          16
+        ],
+        "gridRect": [
+          16.0,
+          1.0,
+          17.0,
+          2.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": ":L",
+            "kind": "compound_label",
+            "logicalRect": [
+              128,
+              8,
+              136,
+              16
+            ]
+          }
+        ],
+        "col": 0,
+        "text": ":L"
+      },
+      {
+        "id": "level",
+        "role": "pokemon_level",
+        "row": 1,
+        "variable": {
+          "role": "pokemon_level",
+          "numericValue": 50,
+          "displayValue": "50",
+          "type": "integer"
+        },
+        "col": 17,
+        "text": "50"
+      },
+      {
+        "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+        "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented",
+        "id": "no-label",
+        "logicalRect": [
+          8,
+          56,
+          24,
+          64
+        ],
+        "gridRect": [
+          1.0,
+          7.0,
+          3.0,
+          8.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": "No.",
+            "kind": "compound_label",
+            "logicalRect": [
+              8,
+              56,
+              24,
+              64
+            ]
+          }
+        ],
+        "col": 0,
+        "text": "No."
+      },
+      {
+        "id": "no-value",
+        "role": "pokedex_number",
+        "row": 7,
+        "variable": {
+          "role": "pokedex_number",
+          "numericValue": 131,
+          "format": "3 digits",
+          "displayValue": "131",
+          "type": "integer"
+        },
+        "col": 3,
+        "text": "131"
+      },
+      {
+        "id": "exp-label",
+        "role": "experience_label",
+        "text": "けいけんち/",
+        "row": 3,
+        "col": 9
+      },
+      {
+        "id": "exp",
+        "role": "experience",
+        "row": 4,
+        "variable": {
+          "role": "experience",
+          "numericValue": 157734,
+          "displayValue": "157734",
+          "type": "integer"
+        },
+        "col": 13,
+        "text": "157734"
+      },
+      {
+        "id": "next-label",
+        "role": "next_level_label",
+        "text": "あと",
+        "row": 5,
+        "col": 9
+      },
+      {
+        "id": "next-exp",
+        "role": "experience_remaining",
+        "row": 6,
+        "variable": {
+          "role": "experience_remaining",
+          "numericValue": 8079,
+          "format": "digits followed by literalで",
+          "displayValue": "8079",
+          "type": "integer"
+        },
+        "col": 10,
+        "text": "8079で"
+      },
+      {
+        "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+        "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented",
+        "id": "next-level-label",
+        "logicalRect": [
+          128,
+          48,
+          136,
+          56
+        ],
+        "gridRect": [
+          16.0,
+          6.0,
+          17.0,
+          7.0
+        ],
+        "role": "compact_status_label",
+        "row": 0,
+        "renderUnits": [
+          {
+            "text": ":L",
+            "kind": "compound_label",
+            "logicalRect": [
+              128,
+              48,
+              136,
+              56
+            ]
+          }
+        ],
+        "col": 0,
+        "text": ":L"
+      },
+      {
+        "id": "next-level",
+        "role": "next_level",
+        "row": 6,
+        "variable": {
+          "role": "next_level",
+          "numericValue": 51,
+          "displayValue": "51",
+          "type": "integer"
+        },
+        "col": 17,
+        "text": "51"
+      },
+      {
+        "id": "move-0",
+        "role": "move_name",
+        "row": 10,
+        "variable": {
+          "role": "move_name",
+          "displayValue": "れいとうビーム",
+          "type": "string"
+        },
+        "col": 2,
+        "text": "れいとうビーム"
+      },
+      {
+        "id": "pp-label-0",
+        "role": "pp_label",
+        "text": "PP",
+        "row": 10,
+        "col": 11
+      },
+      {
+        "id": "pp-value-0",
+        "role": "move_pp",
+        "row": 10,
+        "variable": {
+          "displayValue": "9/10",
+          "maximum": 10,
+          "format": "fixed width digits/slash; preserve literal padding",
+          "role": "move_pp",
+          "current": 9,
+          "type": "integer_pair"
+        },
+        "col": 15,
+        "text": "9/10"
+      },
+      {
+        "id": "move-1",
+        "role": "move_name",
+        "row": 12,
+        "variable": {
+          "role": "move_name",
+          "displayValue": "のしかかり",
+          "type": "string"
+        },
+        "col": 2,
+        "text": "のしかかり"
+      },
+      {
+        "id": "pp-label-1",
+        "role": "pp_label",
+        "text": "PP",
+        "row": 12,
+        "col": 11
+      },
+      {
+        "id": "pp-value-1",
+        "role": "move_pp",
+        "row": 12,
+        "variable": {
+          "displayValue": "14/15",
+          "maximum": 15,
+          "format": "fixed width digits/slash; preserve literal padding",
+          "role": "move_pp",
+          "current": 14,
+          "type": "integer_pair"
+        },
+        "col": 14,
+        "text": "14/15"
+      },
+      {
+        "id": "move-2",
+        "role": "move_name",
+        "row": 14,
+        "variable": {
+          "role": "move_name",
+          "displayValue": "あやしいひかり",
+          "type": "string"
+        },
+        "col": 2,
+        "text": "あやしいひかり"
+      },
+      {
+        "id": "pp-label-2",
+        "role": "pp_label",
+        "text": "PP",
+        "row": 14,
+        "col": 11
+      },
+      {
+        "id": "pp-value-2",
+        "role": "move_pp",
+        "row": 14,
+        "variable": {
+          "displayValue": "10/10",
+          "maximum": 10,
+          "format": "fixed width digits/slash; preserve literal padding",
+          "role": "move_pp",
+          "current": 10,
+          "type": "integer_pair"
+        },
+        "col": 14,
+        "text": "10/10"
+      },
+      {
+        "id": "move-3",
+        "role": "move_name",
+        "row": 16,
+        "variable": {
+          "role": "move_name",
+          "displayValue": "ハイドロポンプ",
+          "type": "string"
+        },
+        "col": 2,
+        "text": "ハイドロポンプ"
+      },
+      {
+        "id": "pp-label-3",
+        "role": "pp_label",
+        "text": "PP",
+        "row": 16,
+        "col": 11
+      },
+      {
+        "id": "pp-value-3",
+        "role": "move_pp",
+        "row": 16,
+        "variable": {
+          "displayValue": "5/ 5",
+          "maximum": 5,
+          "format": "fixed width digits/slash; preserve literal padding",
+          "role": "move_pp",
+          "current": 5,
+          "type": "integer_pair"
+        },
+        "col": 15,
+        "text": "5/ 5"
+      }
+    ]
+  },
+  "literalGeometryNotes": [
+    "8x8 nominal cells; HP:12x4 logicalpixels; No.16x8, IDNo/24x8 and :L8x8 are compound labels",
+    "IDNo/ contains no period; No. label does have a period, directly read from raw crop",
+    "5/ 5 maximum PP includes one literal U+0020; do not compact it",
+    "First and second status pages complete before replacement, both enter/exit clears fully included. Pre-status submenu and returned party list only boundary context, not claimed party-list event GT"
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "states": [
+    {
+      "kind": "empty_target",
+      "startFrame": 462,
+      "completePage": false,
+      "endFrameExclusive": 469,
+      "renderNote": "All game UI text cleared on entry; blank background retained7frames",
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "kind": "status_page_complete",
+      "fieldSet": "first",
+      "menuCursors": [],
+      "completePage": true,
+      "renderNote": "All target text complete from469, creature sprite appears490; sprite-only animation does not change text geometry",
+      "pageOpportunityId": "status-first-page",
+      "endFrameExclusive": 526,
+      "startFrame": 469
+    },
+    {
+      "menuCursors": [],
+      "kind": "status_page_redraw",
+      "startFrame": 526,
+      "completePage": false,
+      "endFrameExclusive": 527,
+      "renderNote": "One source frame: new experience panel and first move row, old defense/speed/special/type2/id/owner still visible, retain all",
+      "fieldSet": "mixed"
+    },
+    {
+      "menuCursors": [],
+      "kind": "status_page_complete",
+      "startFrame": 527,
+      "completePage": true,
+      "pageOpportunityId": "status-second-page",
+      "endFrameExclusive": 553,
+      "fieldSet": "second"
+    },
+    {
+      "kind": "empty_target",
+      "startFrame": 553,
+      "completePage": false,
+      "endFrameExclusive": 564,
+      "renderNote": "All game UI text clears during exit; full11frames retained; party list returns564 in post-context",
+      "menuCursors": [],
+      "fields": []
+    }
+  ],
+  "mediaId": "video-02",
+  "frozen": false,
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "source": "data/frames/video-02/all-scenes-status-pages-pass2-v1",
+  "secondRead": "All108 independent source redecoded frames460-567 viewed on ordered raw-only sheets000-005"
+}

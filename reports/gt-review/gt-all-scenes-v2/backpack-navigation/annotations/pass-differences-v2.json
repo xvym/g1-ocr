@@ -1,0 +1,21 @@
+{
+  "humanPerFrameVerification": "not claimed",
+  "differences": [
+    "First reading recorded text transitions but symbol boundaries still provisional; second full raw read and original-size strips explicitly confirmed every cursor/arrow transition, including absent and dual cursors. No tested output used.",
+    "Formal v1 counted28 complete-state intervals; v2 groups cosmetic phases into16 raw-defined page opportunities without removing any scored frame/state."
+  ],
+  "unresolvedOutsideNavigationScore": {
+    "reason": "partially occluded やめる base; no character restored",
+    "frame": 5359,
+    "fullOpeningClosingEvent": "pending, not claimed passed"
+  },
+  "secondRead": "manual-pass2.json; manual-pass2-v2.json adds explicit opportunity identity only",
+  "imageReadEvidence": [
+    "reports/m2-all-scenes-backpack-inspection-v1",
+    "reports/m2-all-scenes-backpack-pass2-inspection-v1",
+    "reports/m2-all-scenes-backpack-pass2-symbols-v1"
+  ],
+  "status": "not_approved_not_frozen",
+  "firstRead": "manual-pass1.json",
+  "unknownWithinNavigationScore": 0
+}

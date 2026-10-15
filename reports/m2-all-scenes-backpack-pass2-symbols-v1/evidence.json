@@ -1,0 +1,23 @@
+{
+  "range": [
+    5206,
+    5358
+  ],
+  "scale": 1,
+  "crops": [
+    [
+      295,
+      115,
+      335,
+      335
+    ],
+    [
+      690,
+      332,
+      720,
+      363
+    ]
+  ],
+  "source": "data/frames/video-04/all-scenes-backpack-pass2-v1",
+  "purpose": "Manual second-read exact cursor/arrow boundaries; no GT or program overlays"
+}

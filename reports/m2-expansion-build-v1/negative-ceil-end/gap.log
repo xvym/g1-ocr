@@ -1,0 +1,4 @@
+java.lang.IllegalArgumentException: GT gap/overlap/invalid interval
+	at io.github.g1ocr.verification.GtIntegrity.require(GtIntegrity.java:71)
+	at io.github.g1ocr.verification.GtIntegrity.check(GtIntegrity.java:31)
+	at io.github.g1ocr.verification.VideoTool.main(VideoTool.java:30)

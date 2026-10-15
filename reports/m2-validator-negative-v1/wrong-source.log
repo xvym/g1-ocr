@@ -1,0 +1,4 @@
+java.lang.IllegalArgumentException: GT source mismatch
+	at io.github.g1ocr.verification.GtIntegrity.require(GtIntegrity.java:71)
+	at io.github.g1ocr.verification.GtIntegrity.check(GtIntegrity.java:33)
+	at io.github.g1ocr.verification.VideoTool.main(VideoTool.java:30)

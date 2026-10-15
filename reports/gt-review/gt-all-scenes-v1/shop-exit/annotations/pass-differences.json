@@ -1,0 +1,30 @@
+{
+  "textTimeCursor": "same text, time boundaries and cursor raw reading",
+  "evidence": [
+    "manual-pass1.json",
+    "manual-pass2.json",
+    "reports/m2-expansion-shop-grid-measurement-v1.json"
+  ],
+  "states": 19,
+  "status": "all_differences_resolved_from_original_pixels_not_frozen",
+  "differences": [
+    {
+      "effect": "one row formerly excluded on fractional Y boundaries",
+      "affectedScope": "new shop candidate only; frozen integer boundaries unchanged",
+      "field": "sourceRect bottom",
+      "status": "resolved",
+      "first": "floor all boundaries",
+      "basis": "Independent raw dark pixel measurements y120,453,513; outward enclosure",
+      "second": "ceil right/bottom"
+    },
+    {
+      "basis": "Both raw readings 22526円",
+      "field": "money typed value",
+      "second": "explicit integer22526 and currency円 from both notes",
+      "status": "resolved",
+      "first": "region literal only"
+    }
+  ],
+  "secondPassSha256": "cb90c6276d9905227add176e828943ffd5874c5c8d5e15f14e9cfafe73f4db7f",
+  "firstPassSha256": "466fe2d57b33d0ce3bc2f8c0d8b80d6181b067a4e52c8b7c128aa37edb58a261"
+}

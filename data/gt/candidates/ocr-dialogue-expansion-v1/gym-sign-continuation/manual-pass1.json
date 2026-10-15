@@ -1,0 +1,118 @@
+{
+  "name": "原道馆路牌后续姓名页补全（同一事件）",
+  "scoredRange": [
+    5299,
+    5324
+  ],
+  "notes": [
+    "Direct current agent raw-frame read, no tested OCR or production translation output read",
+    "First-read record retained; independent source re-decode/second visual read still required"
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "status": "first_raw_read_complete_not_frozen",
+  "source": "data/frames/video-02/trial-context-v1",
+  "viewed": "gym-sign-first sheet000, all31 raw frames5297-5327; old trial retained as warmup context, next page only scored",
+  "range": [
+    5262,
+    5328
+  ],
+  "frozen": false,
+  "mediaId": "video-02",
+  "states": [
+    {
+      "endFrameExclusive": 5300,
+      "startFrame": 5299,
+      "completePage": false,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "text": "キョウ にんてい トレーナー！",
+          "id": "message-top",
+          "row": 14,
+          "col": 1,
+          "role": "dialogue"
+        }
+      ],
+      "menuCursors": []
+    },
+    {
+      "endFrameExclusive": 5302,
+      "startFrame": 5300,
+      "completePage": false,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "text": "キョウ にんてい トレーナー！",
+          "id": "message-top",
+          "row": 14,
+          "col": 1,
+          "role": "dialogue"
+        },
+        {
+          "text": "レッド",
+          "id": "message-bottom",
+          "row": 16,
+          "col": 1,
+          "role": "dialogue"
+        }
+      ],
+      "menuCursors": []
+    },
+    {
+      "endFrameExclusive": 5303,
+      "startFrame": 5302,
+      "completePage": false,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "text": "キョウ にんてい トレーナー！",
+          "id": "message-top",
+          "row": 14,
+          "col": 1,
+          "role": "dialogue"
+        },
+        {
+          "text": "レッド グリ",
+          "id": "message-bottom",
+          "row": 16,
+          "col": 1,
+          "role": "dialogue"
+        }
+      ],
+      "menuCursors": []
+    },
+    {
+      "endFrameExclusive": 5320,
+      "pageOpportunityId": "gym-sign-continuation-1",
+      "startFrame": 5303,
+      "completePage": true,
+      "kind": "message_complete",
+      "fields": [
+        {
+          "text": "キョウ にんてい トレーナー！",
+          "id": "message-top",
+          "row": 14,
+          "col": 1,
+          "role": "dialogue"
+        },
+        {
+          "text": "レッド グリーン",
+          "id": "message-bottom",
+          "row": 16,
+          "col": 1,
+          "role": "dialogue"
+        }
+      ],
+      "menuCursors": []
+    },
+    {
+      "endFrameExclusive": 5324,
+      "startFrame": 5320,
+      "completePage": false,
+      "kind": "empty_target",
+      "fields": [],
+      "menuCursors": []
+    }
+  ],
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="io.github.g1ocr.capture.SourceFrameTest" time="0.062" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\Code\Workspace\g1-ocr\app\target\test-classes;D:\Code\Workspace\g1-ocr\app\target\classes;D:\Code\Workspace\g1-ocr\.cache\m2\junit\junit\4.13.2\junit-4.13.2.jar;D:\Code\Workspace\g1-ocr\.cache\m2\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Code\Tool\jdk1.8.0_192\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\xvym\AppData\Local\Temp\surefire9168935819955298250\surefirebooter-20261014205949671_3.jar C:\Users\xvym\AppData\Local\Temp\surefire9168935819955298250 2026-10-14T20-59-44_567-jvmRun1 surefire-20261014205949671_1tmp surefire_0-20261014205949671_2tmp"/>
+    <property name="surefire.test.class.path" value="D:\Code\Workspace\g1-ocr\app\target\test-classes;D:\Code\Workspace\g1-ocr\app\target\classes;D:\Code\Workspace\g1-ocr\.cache\m2\junit\junit\4.13.2\junit-4.13.2.jar;D:\Code\Workspace\g1-ocr\.cache\m2\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Code\Tool\jdk1.8.0_192\jre"/>
+    <property name="basedir" value="D:\Code\Workspace\g1-ocr\app"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\xvym\AppData\Local\Temp\surefire9168935819955298250\surefirebooter-20261014205949671_3.jar"/>
+    <property name="sun.boot.class.path" value="D:\Code\Tool\jdk1.8.0_192\jre\lib\resources.jar;D:\Code\Tool\jdk1.8.0_192\jre\lib\rt.jar;D:\Code\Tool\jdk1.8.0_192\jre\lib\sunrsasign.jar;D:\Code\Tool\jdk1.8.0_192\jre\lib\jsse.jar;D:\Code\Tool\jdk1.8.0_192\jre\lib\jce.jar;D:\Code\Tool\jdk1.8.0_192\jre\lib\charsets.jar;D:\Code\Tool\jdk1.8.0_192\jre\lib\jfr.jar;D:\Code\Tool\jdk1.8.0_192\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_192-b12"/>
+    <property name="user.name" value="xvym"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Code\Tool\jdk1.8.0_192\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\Code\Workspace\g1-ocr\.cache\m2"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\xvym\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_192"/>
+    <property name="user.dir" value="D:\Code\Workspace\g1-ocr\app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Code\Tool\jdk1.8.0_192\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\xvym\.codex\tmp\arg0\codex-arg0j0B1HJ;C:\Users\xvym\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin;C:\Users\xvym\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin;C:\Users\xvym\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin;C:\Users\xvym\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;C:\Windows\System32\HWAudioDriverLibs;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\xvym\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;D:\Code\Tool\Git\cmd;D:\Code\Tool\jdk1.8.0_192\bin;D:\Code\Tool\maven\apache-maven-3.9.16\bin;C:\Users\xvym\AppData\Local\Microsoft\WindowsApps;D:\Code\IDE\IntelliJ IDEA 2026.2.3\bin;D:\Code\IDE\Microsoft VS Code\bin;C:\Users\xvym\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\xvym\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin;C:\Users\xvym\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\xvym\AppData\Local\OpenAI\Codex\bin\77fbd4d52e601e0a;C:\Users\xvym\AppData\Local\OpenAI\Codex\bin\9614f1d9b40d9c4f;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.192-b12"/>
+    <property name="java.ext.dirs" value="D:\Code\Tool\jdk1.8.0_192\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value=".cache/m2"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="rejectsMissingPixels" classname="io.github.g1ocr.capture.SourceFrameTest" time="0.017"/>
+  <testcase name="timestampDoesNotOverflowOrAssumeFps" classname="io.github.g1ocr.capture.SourceFrameTest" time="0.0"/>
+  <testcase name="rejectsUnknownTimeBase" classname="io.github.g1ocr.capture.SourceFrameTest" time="0.0"/>
+  <testcase name="inputAndOutputBuffersCannotMutateFrame" classname="io.github.g1ocr.capture.SourceFrameTest" time="0.0"/>
+</testsuite>

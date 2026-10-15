@@ -1,0 +1,35 @@
+{
+  "independentSession": "unverified",
+  "schemaVersion": 2,
+  "scoredRange": [
+    17462,
+    17566
+  ],
+  "startFrame": 17458,
+  "frozen": false,
+  "scoreKind": "text_and_state",
+  "set": "development",
+  "mediaSha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+  "postContext": [
+    17566,
+    17570
+  ],
+  "timeBase": "1/19456",
+  "eventType": "complete move selection, own and enemy attack, miss and stable returned command menu",
+  "scopeLimits": [
+    "Not battle win/loss or all turns",
+    "Earlier trainer introduction and later paralysis prompt outside score, not claimed covered by this clip",
+    "Version/session independence unverified"
+  ],
+  "mediaId": "video-04",
+  "warmup": [
+    17458,
+    17462
+  ],
+  "boundaryStatus": "agent_double_read_complete_candidate_not_frozen",
+  "selectionReason": "Raw source predetermined skills context; operation before menu action until full turn end, all intermediate source frames retained; no tested OCR exists",
+  "pageOpportunityPolicy": "explicit_id",
+  "endFrameExclusive": 17570,
+  "id": "4a2fec5930e9-f17458-f17570-skills-turn",
+  "gt": "data/gt/candidates/ocr-all-scenes-v1/skills-turn/ocr-candidate-v1.jsonl"
+}

@@ -1,0 +1,73 @@
+{
+  "status": "first_raw_read_complete_not_frozen",
+  "boundaries": [
+    "3534-3540 blank",
+    "3541 first status text",
+    "3562 partial sprite /3563 sprite complete, no text changes",
+    "3612 top experience+old first stat/type1+new moves2-4",
+    "3613 full page2",
+    "3652-3662 blank",
+    "3663 party list returns"
+  ],
+  "scope": "Alternate raster complete status-display two pages, including entry/exit empty frames and mixed redraw",
+  "before": [
+    3532,
+    3534
+  ],
+  "source": "data/frames/video-03/expansion-context-f3240-f3900-v1",
+  "literals": {
+    "first": [
+      "HP:",
+      "160/160",
+      "じょうたい/ふつう",
+      "こうげき",
+      "144",
+      "ぼうぎょ",
+      "105",
+      "すばやさ",
+      "110",
+      "とくしゅ",
+      "133",
+      "タイプ1/くさ",
+      "タイプ2/どく",
+      "IDNo/",
+      "44837",
+      "おや/ グリーン"
+    ],
+    "identity": [
+      "ウツボット",
+      ":L",
+      "50",
+      "No.",
+      "071"
+    ],
+    "second": [
+      "けいけんち/",
+      "117997",
+      "あと",
+      "7129で",
+      ":L",
+      "51",
+      "はっぱカッター",
+      "25/25",
+      "ねむりごな",
+      "15/15",
+      "つるぎのまい",
+      "30/30",
+      "すてみタックル",
+      "15/15"
+    ]
+  },
+  "humanPerFrameVerification": "not claimed",
+  "viewedOriginalFrames": "Full ordered sheets014-021 cover every selected frame; direct3600",
+  "frozen": false,
+  "after": [
+    3663,
+    3667
+  ],
+  "proposedScore": [
+    3534,
+    3663
+  ],
+  "geometry": "Original source game[180,0,780,544], X15/4,Y34/9; scalar SAR not applied again; packed labels directly visible"
+}

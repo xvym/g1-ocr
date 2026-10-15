@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "canonicalSize": [
+    160,
+    144
+  ],
+  "sourceGameRect": [
+    300,
+    108,
+    660,
+    432
+  ],
+  "gridCellSize": [
+    8,
+    8
+  ],
+  "sourceScaleNumerator": 9,
+  "sourceScaleDenominator": 4,
+  "sourceOrigin": [
+    300,
+    108
+  ],
+  "sourceFrameSize": [
+    960,
+    544
+  ],
+  "rectConvention": "[left,top,right,bottom); outward projection; all these boundaries integral",
+  "characterEncoding": "UTF-8 NFC; U+0020 per blank base cell; U+FF01 exclamation",
+  "coordinateMeaning": "Base8x8 cells; visible dakuten/handakuten occupy separately listed upper cells; arrow is one symbol cell",
+  "evidence": "First raw full originals1386,1387,1410,1411 and full ordered crops; second original51frames1379-1429, complete full1411; source origin300108 and scale9/4; not OCR",
+  "status": "agent_double_read_complete_candidate_not_frozen"
+}

@@ -1,0 +1,52 @@
+{
+  "unresolvedScoreDifferences": 0,
+  "status": "agent_double_raw_read_differences_resolved_not_approved",
+  "second": "manual-pass2.json",
+  "basis": "Direct raw second frame read and adjacent-frame/arrow/pixel navigation; no tested output",
+  "replacedFirstBoundaries": [
+    6073,
+    6138,
+    6140
+  ],
+  "frozen": false,
+  "first": "manual-pass1.json",
+  "corrections": [
+    [
+      6072,
+      "はじめまして！",
+      "ポケット モンスターの せかいへ",
+      "C1A"
+    ],
+    [
+      6095,
+      "はじめまして！",
+      "ポケット モンスターの せかいへ",
+      "C1"
+    ],
+    [
+      6116,
+      "はじめまして！",
+      "ポケット モンスターの せかいへ",
+      "C1A"
+    ],
+    [
+      6137,
+      "はじめまして！",
+      "ポケット モンスターの せかいへ",
+      "C1"
+    ],
+    [
+      6139,
+      "はしめまして！",
+      "ポケット モンスターの せかいへ",
+      "S"
+    ],
+    [
+      6142,
+      "ポケット モンスターの せかいへ",
+      "",
+      ""
+    ]
+  ],
+  "humanPerFrameVerification": "not claimed"
+}

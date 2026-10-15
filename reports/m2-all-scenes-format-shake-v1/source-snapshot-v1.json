@@ -1,0 +1,182 @@
+[
+  {
+    "path": "app\\pom.xml",
+    "sha256": "12f084ffe49df8b03f36b368d85a0c7e8e621042ad0fd974eb2cb52bb4460b90"
+  },
+  {
+    "path": "app\\src\\main\\java\\io\\github\\g1ocr\\BootstrapWindow.java",
+    "sha256": "2abcd13d05dc07d4d5411479769435d346dc38527a9bdb57f0535fbcb8bf9739"
+  },
+  {
+    "path": "app\\src\\main\\java\\io\\github\\g1ocr\\capture\\SourceFrame.java",
+    "sha256": "4fc95ad0eb997fe4164d9ebeb039f7336ee4b574b1b77fa126e35603a624065e"
+  },
+  {
+    "path": "app\\src\\main\\java\\io\\github\\g1ocr\\Main.java",
+    "sha256": "570035247cf5073bb18c876c984133e2722b822fec66acccf33a15f045b91699"
+  },
+  {
+    "path": "app\\src\\test\\java\\io\\github\\g1ocr\\capture\\SourceFrameTest.java",
+    "sha256": "1c6920def1606f71c9000fc6f5d463b19c30cebd7d3b140b1e105b2362481f16"
+  },
+  {
+    "path": "config\\input-videos.json",
+    "sha256": "6372348c50dfae02e283911c422373a79ee43f1ac59bff4c08211f99bdebd179"
+  },
+  {
+    "path": "config\\maven-settings.xml",
+    "sha256": "c806d99e448a1303d7adee891246f663d0c6912a191994205f3a7d231c0ac1bd"
+  },
+  {
+    "path": "config\\video-tools.json",
+    "sha256": "677adf7200d2ad4b80470687c570a484016dc68e7ef142d5d040ae91cc347251"
+  },
+  {
+    "path": "data/meta\\all-scenes-backpack-navigation-clip-v1.json",
+    "sha256": "2cd44e79bdae35e439d56f8d7792e9026c9aa310a0701641e6055517ef36c14d"
+  },
+  {
+    "path": "data/meta\\all-scenes-backpack-navigation-clip-v2.json",
+    "sha256": "7d30d344d38606ceb97e39f16d730209636c5439f3f25ff439933b99f192bf0b"
+  },
+  {
+    "path": "data/meta\\all-scenes-skills-turn-clip-v1.json",
+    "sha256": "27454de76fde9f510d25f4934907d5f9489194308c5f277e7998d4fedad06cb4"
+  },
+  {
+    "path": "data/meta\\all-scenes-skills-turn-clip-v2.json",
+    "sha256": "8565e3402776794fd23ab302b1d9fc8113d0afc8c7a6cfa9aaa7aec7f30977a4"
+  },
+  {
+    "path": "data/meta\\all-scenes-status-pages-clip-v1.json",
+    "sha256": "d748ea18e108b4e1078cd91e75629ab236d20ee252fa9e777bf0eccd17fb6a50"
+  },
+  {
+    "path": "data/meta\\clip-trial-v1.json",
+    "sha256": "e63840112f84c30b8311b1d38be12394c02f3d9bd0709bc5912756b3b8b3547c"
+  },
+  {
+    "path": "data/meta\\clip-trial-v2.json",
+    "sha256": "a44fa579bf3699bca4b8edd654c2e1300507cd15002cc74bc34e7f8e314bd912"
+  },
+  {
+    "path": "data/meta\\clips-candidates-v1.json",
+    "sha256": "6d3c5136b1f3b3c852720f8fbf50e323129b93c64406893fc4678d38684e21b2"
+  },
+  {
+    "path": "data/meta\\coverage-observations-v1.json",
+    "sha256": "61f24584aa8e59234a81175ec8525833f036f8425015dd89ca95962fd24e3c12"
+  },
+  {
+    "path": "data/meta\\expansion-candidates-v1.json",
+    "sha256": "256b4f4da68155a1233357ad8dff1620d27daa94e8fab91b1c41492ce00a53ce"
+  },
+  {
+    "path": "data/meta\\expansion-pc-clip-v1.json",
+    "sha256": "0a6005006657f212aa5da50c202f7ee30305a36b141c7df095fbd4f816aaf863"
+  },
+  {
+    "path": "data/meta\\expansion-shop-clip-pass1.json",
+    "sha256": "6a53efadd35beac2b8abaf8931aeddf683fe5398c9c4bb2a4b846a3f116c88a9"
+  },
+  {
+    "path": "data/meta\\expansion-shop-clip-v2.json",
+    "sha256": "5760d76623aa7d698bc3acf77999445b7d2651b80b56e703707140b7dc00e0f3"
+  },
+  {
+    "path": "data/meta\\gt-expansion-review-v1.json",
+    "sha256": "f7abb6920c44b55fc382d8816081aec00f32c33e3a77422dc578d10ae8baef24"
+  },
+  {
+    "path": "data/meta\\ocr-scoring-contract-all-scenes-v2.json",
+    "sha256": "997bc700d7555feb45d7d3b00f81bfd872873e3ca6a2c5a99ad240aa8fcf058f"
+  },
+  {
+    "path": "data/meta\\ocr-scoring-contract-all-scenes-v3.json",
+    "sha256": "bf5d081084bdfbfb3f25e21e1d9bc6fe08045e417a3fdd90698c815836325cb6"
+  },
+  {
+    "path": "data/meta\\ocr-scoring-contract-all-scenes-v4.json",
+    "sha256": "98a322b87c209b4b623a4e92eac252054ad451824359ac9829fe3cde5da31cac"
+  },
+  {
+    "path": "data/meta\\ocr-scoring-contract-v1.json",
+    "sha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c"
+  },
+  {
+    "path": "pom.xml",
+    "sha256": "3040082b583b959facddd04e955e9e83aaa42a26fbcf6d2c37f2208cca8c2ff7"
+  },
+  {
+    "path": "tools\\build-gt-batch-review.ps1",
+    "sha256": "75232ddb3243c10f1efa407d01ae393502b0090f88c44e52d6ea220dfc084726"
+  },
+  {
+    "path": "tools\\build-gt-review.ps1",
+    "sha256": "e8d7018438469bd373df06a5347a6dc5077b0eb2c5ab857e4187458b84ee663a"
+  },
+  {
+    "path": "tools\\check-gt-review.cjs",
+    "sha256": "c79ed969527ab9f2b24edf4c0fd18535ee240f5a11262f0f736834196c8a1c70"
+  },
+  {
+    "path": "tools\\encode-manual-gt.ps1",
+    "sha256": "46d5d737833cc70e605fa361842b7047ee87c242a86f9e844045e655083cd984"
+  },
+  {
+    "path": "tools\\encode-visible-gt.ps1",
+    "sha256": "2ba7a713f0fc90b5649a7b7e25ec0d4e9c4fffa585f8fe4b9506cf8f9579eb97"
+  },
+  {
+    "path": "tools\\validate.ps1",
+    "sha256": "b8fc9aedcc405046e9417b72cf3a302c32d72a962f58b9f6139507a04cb5cec0"
+  },
+  {
+    "path": "verification\\pom.xml",
+    "sha256": "ca32f0e3639fdca38582fda020f9dbfe92d81cbafd19fbcd379500e58f684998"
+  },
+  {
+    "path": "verification\\src\\main\\java\\io\\github\\g1ocr\\verification\\FrameInspection.java",
+    "sha256": "a68d73519810cedb78b312788582bf52c75e837a7486f7d72f2701f6a1fb7d82"
+  },
+  {
+    "path": "verification\\src\\main\\java\\io\\github\\g1ocr\\verification\\GridProjection.java",
+    "sha256": "e35241e3df7bd7aaa706b2a2f45d3062f0a98e14d7cfdc19e0dd9eb12f36edbe"
+  },
+  {
+    "path": "verification\\src\\main\\java\\io\\github\\g1ocr\\verification\\GtGeometry.java",
+    "sha256": "63f601a9e833e71c52fdc133905ae0973ca761f44c691a7bae8de52f7e41f3a1"
+  },
+  {
+    "path": "verification\\src\\main\\java\\io\\github\\g1ocr\\verification\\GtIntegrity.java",
+    "sha256": "0b17d8a0c0c261d2bf2d437ab0690166fcb1595ddc20879211438d4a7ee37694"
+  },
+  {
+    "path": "verification\\src\\main\\java\\io\\github\\g1ocr\\verification\\Ledger.java",
+    "sha256": "c6ad289c5c0085af15f463631ded28c1d7c25ca2bb6006004f5d2aeba8f987c1"
+  },
+  {
+    "path": "verification\\src\\main\\java\\io\\github\\g1ocr\\verification\\PageOpportunities.java",
+    "sha256": "792daa2ba6ffd0f0af6f1bfcbf9cb2955c599c507c353aefbd70e2d2b7c749ac"
+  },
+  {
+    "path": "verification\\src\\main\\java\\io\\github\\g1ocr\\verification\\VideoTool.java",
+    "sha256": "9b6881c0925ccb7dbeb48f03b14ce91790b0f7d52c0fb76bc59caaee919fabf9"
+  },
+  {
+    "path": "verification\\src\\test\\java\\io\\github\\g1ocr\\verification\\GridProjectionTest.java",
+    "sha256": "2064c031d608770ff7af2006221632463ff283f856f8ab0e325bcd885f3c86f3"
+  },
+  {
+    "path": "verification\\src\\test\\java\\io\\github\\g1ocr\\verification\\GtGeometryTest.java",
+    "sha256": "4b54530082c88b1a90dbcdd9a77833b74c971880f64d4cceea4b69839674b3e3"
+  },
+  {
+    "path": "verification\\src\\test\\java\\io\\github\\g1ocr\\verification\\LedgerTest.java",
+    "sha256": "6f36d3b071b6ac37b1523ca512b47d793f765abf12b711d721f9f350b426df44"
+  },
+  {
+    "path": "verification\\src\\test\\java\\io\\github\\g1ocr\\verification\\PageOpportunitiesTest.java",
+    "sha256": "0b6ac143bd41dbf3681d78f953eb33809a6ade91b6c7334041c1ff6bd6c46862"
+  }
+]

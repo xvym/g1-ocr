@@ -1,0 +1,10 @@
+{
+  "firstPassSha256": "e5bef69e4c572e0cea944a2872d022ff0f6a20487657185597987988cdbfcaa0",
+  "comparison": "Explicit scalar/coordinate comparisons agree; JSON property order is immaterial. Both raw notes independently read from originals.",
+  "unresolved": 0,
+  "status": "raw_double_read_agrees_not_frozen",
+  "differences": [],
+  "comparisonDiagnostic": "Initial JSON string comparison falsely treated unordered mark-object key order as a region difference; explicit content check resolves it, no GT bytes changed.",
+  "secondPassSha256": "3b9da087f8807b7ad136942afd3e5d293d6f669ea828ecbe8a685669450df0eb",
+  "states": 10
+}

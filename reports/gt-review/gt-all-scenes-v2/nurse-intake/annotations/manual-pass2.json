@@ -1,0 +1,174 @@
+{
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+  "notes": [
+    "Fresh source-from-start independent decode, selected raw frames directly reread by current agent; no tested OCR/translation outputs",
+    "Literal text, spaces, visible clipped bases, timing and indicators agree with first raw read",
+    "Nurse blocks share one natural interaction; overlap1922/2088 is an empty textbox, not another independent sample",
+    "No claim of human per-frame verification or independent acceptance"
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "name": "护士接收提示与完整等待",
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "source": "data/frames/video-03/dialogue-centre-pass2-v1",
+  "secondRead": "nurse-second sheets005-014, every original frame including159-frame complete-page wait; raw2043 additionally reopened; preview diagnostic recorded separately",
+  "frozen": false,
+  "scoredRange": [
+    1922,
+    2089
+  ],
+  "states": [
+    {
+      "startFrame": 1922,
+      "kind": "textbox_empty",
+      "completePage": false,
+      "endFrameExclusive": 1923,
+      "menuCursors": [],
+      "fields": []
+    },
+    {
+      "startFrame": 1923,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1924,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "それで"
+        }
+      ]
+    },
+    {
+      "startFrame": 1924,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1925,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "それでは"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "あず"
+        }
+      ]
+    },
+    {
+      "startFrame": 1925,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1926,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "それでは"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "あずからせ"
+        }
+      ]
+    },
+    {
+      "startFrame": 1926,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1928,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "それでは"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "あずからせて い"
+        }
+      ]
+    },
+    {
+      "startFrame": 1928,
+      "kind": "message_loading",
+      "completePage": false,
+      "endFrameExclusive": 1929,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "それでは"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "あずからせて いただき"
+        }
+      ]
+    },
+    {
+      "startFrame": 1929,
+      "kind": "message_complete",
+      "pageOpportunityId": "nurse-intake-1",
+      "completePage": true,
+      "endFrameExclusive": 2088,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue",
+          "row": 14,
+          "text": "それでは"
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue",
+          "row": 16,
+          "text": "あずからせて いただきます！"
+        }
+      ]
+    },
+    {
+      "startFrame": 2088,
+      "kind": "textbox_empty",
+      "completePage": false,
+      "endFrameExclusive": 2089,
+      "menuCursors": [],
+      "fields": []
+    }
+  ],
+  "range": [
+    1920,
+    2091
+  ],
+  "mediaId": "video-03"
+}

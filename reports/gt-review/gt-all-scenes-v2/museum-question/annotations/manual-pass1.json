@@ -1,0 +1,535 @@
+{
+  "source": "data/frames/video-02/dialogue-town-context-v1",
+  "viewed": "All selected original-frame text crops directly read in corresponding *-first ordered sheets; full-game navigation read for context. Question yes/no region read separately in every frame; later independent re-decode will resolve timing and flashes.",
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "frozen": false,
+  "states": [
+    {
+      "kind": "empty_target",
+      "startFrame": 3523,
+      "endFrameExclusive": 3525,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "textbox_empty",
+      "startFrame": 3525,
+      "endFrameExclusive": 3534,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 3534,
+      "endFrameExclusive": 3535,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "きみは",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 3535,
+      "endFrameExclusive": 3536,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "きみは もう",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 3536,
+      "endFrameExclusive": 3538,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "きみは もう",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "はくぶ",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 3538,
+      "endFrameExclusive": 3539,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "きみは もう",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "はくぶつかん",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 3539,
+      "endFrameExclusive": 3540,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "きみは もう",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "はくぶつかん けん",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 3540,
+      "endFrameExclusive": 3541,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "きみは もう",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "はくぶつかん けんがくし",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_complete",
+      "startFrame": 3541,
+      "pageOpportunityId": "museum-question-1",
+      "endFrameExclusive": 3542,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "きみは もう",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "はくぶつかん けんがくした?",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_complete",
+      "startFrame": 3542,
+      "pageOpportunityId": "museum-question-2",
+      "endFrameExclusive": 3572,
+      "fields": [
+        {
+          "id": "answer-yes",
+          "col": 16,
+          "role": "menu_option",
+          "text": "はい",
+          "row": 8
+        },
+        {
+          "id": "answer-no",
+          "col": 16,
+          "role": "menu_option",
+          "text": "いいえ",
+          "row": 10
+        },
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "きみは もう",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "はくぶつかん けんがくした?",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            15,
+            8,
+            16,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "message_complete",
+      "startFrame": 3572,
+      "pageOpportunityId": "museum-question-3",
+      "endFrameExclusive": 3588,
+      "fields": [
+        {
+          "id": "answer-yes",
+          "col": 16,
+          "role": "menu_option",
+          "text": "はい",
+          "row": 8
+        },
+        {
+          "id": "answer-no",
+          "col": 16,
+          "role": "menu_option",
+          "text": "いいえ",
+          "row": 10
+        },
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "きみは もう",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "はくぶつかん けんがくした?",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            15,
+            10,
+            16,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "textbox_empty",
+      "startFrame": 3588,
+      "endFrameExclusive": 3590,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 3590,
+      "endFrameExclusive": 3592,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "え……！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "そ",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 3592,
+      "endFrameExclusive": 3593,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "え……！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "そりゃ",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 3593,
+      "endFrameExclusive": 3594,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "え……！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "そりゃ ぜった",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_complete",
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "え……！",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "そりゃ ぜったい",
+          "row": 16
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      },
+      "endFrameExclusive": 3604,
+      "startFrame": 3594,
+      "pageOpportunityId": "museum-question-4",
+      "completePage": true,
+      "menuCursors": []
+    },
+    {
+      "kind": "scrolling",
+      "startFrame": 3604,
+      "endFrameExclusive": 3606,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "え……！",
+          "row": 13
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "そりゃ ぜったい",
+          "row": 15
+        }
+      ],
+      "completePage": false,
+      "renderNote": "Current8-pixel upward scroll, upper diacritics clipped by textbox; only visible bases transcribed",
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 3606,
+      "endFrameExclusive": 3609,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "そりゃ ぜったい",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 3609,
+      "endFrameExclusive": 3610,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "そりゃ ぜったい",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "いった",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 3610,
+      "endFrameExclusive": 3611,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "そりゃ ぜったい",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "いった ほう",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 3611,
+      "endFrameExclusive": 3612,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "そりゃ ぜったい",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "いった ほうが い",
+          "row": 16
+        }
+      ],
+      "completePage": false,
+      "menuCursors": []
+    },
+    {
+      "kind": "message_complete",
+      "startFrame": 3612,
+      "pageOpportunityId": "museum-question-5",
+      "endFrameExclusive": 3628,
+      "fields": [
+        {
+          "id": "message-top",
+          "col": 1,
+          "role": "dialogue",
+          "text": "そりゃ ぜったい",
+          "row": 14
+        },
+        {
+          "id": "message-bottom",
+          "col": 1,
+          "role": "dialogue",
+          "text": "いった ほうが いい！",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "menuCursors": []
+    },
+    {
+      "kind": "empty_target",
+      "startFrame": 3628,
+      "endFrameExclusive": 3632,
+      "fields": [],
+      "completePage": false,
+      "menuCursors": []
+    }
+  ],
+  "status": "first_raw_read_complete_not_frozen",
+  "name": "博物馆提问、选择否与回答",
+  "scoredRange": [
+    3523,
+    3632
+  ],
+  "notes": [
+    "Direct current agent raw-frame read, no tested OCR or production translation output read",
+    "First-read record retained; independent source re-decode/second visual read still required"
+  ],
+  "range": [
+    3521,
+    3634
+  ],
+  "mediaId": "video-02",
+  "humanPerFrameVerification": "not claimed"
+}

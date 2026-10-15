@@ -1,0 +1,9 @@
+{
+  "baseCommit": "284b0715fcd9ed1973cb4b775e9caa990c0e6ace",
+  "sourceSnapshotSha256": "270d81a9a87fc2e529571d44f017de2881ac069da4536f79b1c945340bedd6e3",
+  "appJarSha256": "643edf3d853c92e1ccfd4c3d8ad409386d81c20a500583ed795d85afc026c4f3",
+  "verifierJarSha256": "b339003e3f154992047000a72cec31598490d338f73337dc7b9e89506f2104af",
+  "build": "mvn -o -s config/maven-settings.xml -Dmaven.repo.local=.cache/m2 package",
+  "log": "reports/m0-20261014/maven-package-final.log",
+  "scope": "Java 8 compile/package + 9 unit checks; 3 GT-integrity negative probes separate; no OCR/real capture/UI acceptance"
+}

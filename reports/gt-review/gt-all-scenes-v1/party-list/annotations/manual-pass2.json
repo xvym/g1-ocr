@@ -1,0 +1,1593 @@
+{
+  "frozen": false,
+  "states": [
+    {
+      "endFrameExclusive": 3663,
+      "startFrame": 3661,
+      "completePage": false,
+      "kind": "empty_target",
+      "fields": [],
+      "menuCursors": []
+    },
+    {
+      "endFrameExclusive": 3664,
+      "startFrame": 3663,
+      "completePage": false,
+      "kind": "menu_cursor_loading",
+      "fields": [
+        {
+          "variable": {
+            "displayValue": "ラプラス",
+            "role": "party_pokemon_name",
+            "type": "string"
+          },
+          "id": "name-0",
+          "col": 3,
+          "text": "ラプラス",
+          "row": 1,
+          "role": "party_pokemon_name"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": ":L",
+              "logicalRect": [
+                64,
+                8,
+                72,
+                16
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "level-label-0",
+          "col": 0,
+          "text": ":L",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            64,
+            8,
+            72,
+            16
+          ],
+          "row": 0,
+          "gridRect": [
+            8.0,
+            1.0,
+            9.0,
+            2.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "displayValue": "50",
+            "role": "level",
+            "type": "integer",
+            "numericValue": 50
+          },
+          "id": "level-0",
+          "col": 9,
+          "text": "50",
+          "row": 1,
+          "role": "level"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": "HP",
+              "logicalRect": [
+                88,
+                4,
+                96,
+                8
+              ]
+            },
+            {
+              "kind": "compound_label",
+              "text": ":",
+              "logicalRect": [
+                96,
+                4,
+                100,
+                8
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "hp-label-0",
+          "col": 0,
+          "text": "HP:",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            88,
+            4,
+            100,
+            8
+          ],
+          "row": 0,
+          "gridRect": [
+            11.0,
+            0.5,
+            12.5,
+            1.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "current": 206,
+            "role": "hp_current_max",
+            "displayValue": "206/206",
+            "type": "integer_pair",
+            "maximum": 206,
+            "format": "Right aligned; literal space in15/ 15 retained"
+          },
+          "id": "hp-0",
+          "col": 12,
+          "text": "206/206",
+          "row": 1,
+          "role": "hp_current_max"
+        },
+        {
+          "variable": {
+            "displayValue": "ウツボット",
+            "role": "party_pokemon_name",
+            "type": "string"
+          },
+          "id": "name-1",
+          "col": 3,
+          "text": "ウツボット",
+          "row": 3,
+          "role": "party_pokemon_name"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": ":L",
+              "logicalRect": [
+                64,
+                24,
+                72,
+                32
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "level-label-1",
+          "col": 0,
+          "text": ":L",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            64,
+            24,
+            72,
+            32
+          ],
+          "row": 0,
+          "gridRect": [
+            8.0,
+            3.0,
+            9.0,
+            4.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "displayValue": "50",
+            "role": "level",
+            "type": "integer",
+            "numericValue": 50
+          },
+          "id": "level-1",
+          "col": 9,
+          "text": "50",
+          "row": 3,
+          "role": "level"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": "HP",
+              "logicalRect": [
+                88,
+                20,
+                96,
+                24
+              ]
+            },
+            {
+              "kind": "compound_label",
+              "text": ":",
+              "logicalRect": [
+                96,
+                20,
+                100,
+                24
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "hp-label-1",
+          "col": 0,
+          "text": "HP:",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            88,
+            20,
+            100,
+            24
+          ],
+          "row": 0,
+          "gridRect": [
+            11.0,
+            2.5,
+            12.5,
+            3.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "current": 160,
+            "role": "hp_current_max",
+            "displayValue": "160/160",
+            "type": "integer_pair",
+            "maximum": 160,
+            "format": "Right aligned; literal space in15/ 15 retained"
+          },
+          "id": "hp-1",
+          "col": 12,
+          "text": "160/160",
+          "row": 3,
+          "role": "hp_current_max"
+        },
+        {
+          "variable": {
+            "displayValue": "ゴローニャ",
+            "role": "party_pokemon_name",
+            "type": "string"
+          },
+          "id": "name-2",
+          "col": 3,
+          "text": "ゴローニャ",
+          "row": 5,
+          "role": "party_pokemon_name"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": ":L",
+              "logicalRect": [
+                64,
+                40,
+                72,
+                48
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "level-label-2",
+          "col": 0,
+          "text": ":L",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            64,
+            40,
+            72,
+            48
+          ],
+          "row": 0,
+          "gridRect": [
+            8.0,
+            5.0,
+            9.0,
+            6.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "displayValue": "50",
+            "role": "level",
+            "type": "integer",
+            "numericValue": 50
+          },
+          "id": "level-2",
+          "col": 9,
+          "text": "50",
+          "row": 5,
+          "role": "level"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": "HP",
+              "logicalRect": [
+                88,
+                36,
+                96,
+                40
+              ]
+            },
+            {
+              "kind": "compound_label",
+              "text": ":",
+              "logicalRect": [
+                96,
+                36,
+                100,
+                40
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "hp-label-2",
+          "col": 0,
+          "text": "HP:",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            88,
+            36,
+            100,
+            40
+          ],
+          "row": 0,
+          "gridRect": [
+            11.0,
+            4.5,
+            12.5,
+            5.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "current": 162,
+            "role": "hp_current_max",
+            "displayValue": "162/162",
+            "type": "integer_pair",
+            "maximum": 162,
+            "format": "Right aligned; literal space in15/ 15 retained"
+          },
+          "id": "hp-2",
+          "col": 12,
+          "text": "162/162",
+          "row": 5,
+          "role": "hp_current_max"
+        },
+        {
+          "variable": {
+            "displayValue": "ライチュウ",
+            "role": "party_pokemon_name",
+            "type": "string"
+          },
+          "id": "name-3",
+          "col": 3,
+          "text": "ライチュウ",
+          "row": 7,
+          "role": "party_pokemon_name"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": ":L",
+              "logicalRect": [
+                64,
+                56,
+                72,
+                64
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "level-label-3",
+          "col": 0,
+          "text": ":L",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            64,
+            56,
+            72,
+            64
+          ],
+          "row": 0,
+          "gridRect": [
+            8.0,
+            7.0,
+            9.0,
+            8.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "displayValue": "50",
+            "role": "level",
+            "type": "integer",
+            "numericValue": 50
+          },
+          "id": "level-3",
+          "col": 9,
+          "text": "50",
+          "row": 7,
+          "role": "level"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": "HP",
+              "logicalRect": [
+                88,
+                52,
+                96,
+                56
+              ]
+            },
+            {
+              "kind": "compound_label",
+              "text": ":",
+              "logicalRect": [
+                96,
+                52,
+                100,
+                56
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "hp-label-3",
+          "col": 0,
+          "text": "HP:",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            88,
+            52,
+            100,
+            56
+          ],
+          "row": 0,
+          "gridRect": [
+            11.0,
+            6.5,
+            12.5,
+            7.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "current": 142,
+            "role": "hp_current_max",
+            "displayValue": "142/142",
+            "type": "integer_pair",
+            "maximum": 142,
+            "format": "Right aligned; literal space in15/ 15 retained"
+          },
+          "id": "hp-3",
+          "col": 12,
+          "text": "142/142",
+          "row": 7,
+          "role": "hp_current_max"
+        },
+        {
+          "variable": {
+            "displayValue": "リザードン",
+            "role": "party_pokemon_name",
+            "type": "string"
+          },
+          "id": "name-4",
+          "col": 3,
+          "text": "リザードン",
+          "row": 9,
+          "role": "party_pokemon_name"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": ":L",
+              "logicalRect": [
+                64,
+                72,
+                72,
+                80
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "level-label-4",
+          "col": 0,
+          "text": ":L",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            64,
+            72,
+            72,
+            80
+          ],
+          "row": 0,
+          "gridRect": [
+            8.0,
+            9.0,
+            9.0,
+            10.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "displayValue": "50",
+            "role": "level",
+            "type": "integer",
+            "numericValue": 50
+          },
+          "id": "level-4",
+          "col": 9,
+          "text": "50",
+          "row": 9,
+          "role": "level"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": "HP",
+              "logicalRect": [
+                88,
+                68,
+                96,
+                72
+              ]
+            },
+            {
+              "kind": "compound_label",
+              "text": ":",
+              "logicalRect": [
+                96,
+                68,
+                100,
+                72
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "hp-label-4",
+          "col": 0,
+          "text": "HP:",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            88,
+            68,
+            100,
+            72
+          ],
+          "row": 0,
+          "gridRect": [
+            11.0,
+            8.5,
+            12.5,
+            9.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "current": 166,
+            "role": "hp_current_max",
+            "displayValue": "166/166",
+            "type": "integer_pair",
+            "maximum": 166,
+            "format": "Right aligned; literal space in15/ 15 retained"
+          },
+          "id": "hp-4",
+          "col": 12,
+          "text": "166/166",
+          "row": 9,
+          "role": "hp_current_max"
+        },
+        {
+          "variable": {
+            "displayValue": "ポッポ",
+            "role": "party_pokemon_name",
+            "type": "string"
+          },
+          "id": "name-5",
+          "col": 3,
+          "text": "ポッポ",
+          "row": 11,
+          "role": "party_pokemon_name"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": ":L",
+              "logicalRect": [
+                64,
+                88,
+                72,
+                96
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "level-label-5",
+          "col": 0,
+          "text": ":L",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            64,
+            88,
+            72,
+            96
+          ],
+          "row": 0,
+          "gridRect": [
+            8.0,
+            11.0,
+            9.0,
+            12.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "displayValue": "3",
+            "role": "level",
+            "type": "integer",
+            "numericValue": 3
+          },
+          "id": "level-5",
+          "col": 9,
+          "text": "3",
+          "row": 11,
+          "role": "level"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": "HP",
+              "logicalRect": [
+                88,
+                84,
+                96,
+                88
+              ]
+            },
+            {
+              "kind": "compound_label",
+              "text": ":",
+              "logicalRect": [
+                96,
+                84,
+                100,
+                88
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "hp-label-5",
+          "col": 0,
+          "text": "HP:",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            88,
+            84,
+            100,
+            88
+          ],
+          "row": 0,
+          "gridRect": [
+            11.0,
+            10.5,
+            12.5,
+            11.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "current": 15,
+            "role": "hp_current_max",
+            "displayValue": "15/ 15",
+            "type": "integer_pair",
+            "maximum": 15,
+            "format": "Right aligned; literal space in15/ 15 retained"
+          },
+          "id": "hp-5",
+          "col": 13,
+          "text": "15/ 15",
+          "row": 11,
+          "role": "hp_current_max"
+        },
+        {
+          "role": "party_prompt",
+          "text": "ポケモンを えらんで ください",
+          "id": "prompt",
+          "col": 1,
+          "row": 14
+        }
+      ],
+      "menuCursors": []
+    },
+    {
+      "endFrameExclusive": 3682,
+      "startFrame": 3664,
+      "pageOpportunityId": "party-second-selected",
+      "completePage": true,
+      "kind": "menu_complete",
+      "fields": [
+        {
+          "variable": {
+            "displayValue": "ラプラス",
+            "role": "party_pokemon_name",
+            "type": "string"
+          },
+          "id": "name-0",
+          "col": 3,
+          "text": "ラプラス",
+          "row": 1,
+          "role": "party_pokemon_name"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": ":L",
+              "logicalRect": [
+                64,
+                8,
+                72,
+                16
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "level-label-0",
+          "col": 0,
+          "text": ":L",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            64,
+            8,
+            72,
+            16
+          ],
+          "row": 0,
+          "gridRect": [
+            8.0,
+            1.0,
+            9.0,
+            2.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "displayValue": "50",
+            "role": "level",
+            "type": "integer",
+            "numericValue": 50
+          },
+          "id": "level-0",
+          "col": 9,
+          "text": "50",
+          "row": 1,
+          "role": "level"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": "HP",
+              "logicalRect": [
+                88,
+                4,
+                96,
+                8
+              ]
+            },
+            {
+              "kind": "compound_label",
+              "text": ":",
+              "logicalRect": [
+                96,
+                4,
+                100,
+                8
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "hp-label-0",
+          "col": 0,
+          "text": "HP:",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            88,
+            4,
+            100,
+            8
+          ],
+          "row": 0,
+          "gridRect": [
+            11.0,
+            0.5,
+            12.5,
+            1.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "current": 206,
+            "role": "hp_current_max",
+            "displayValue": "206/206",
+            "type": "integer_pair",
+            "maximum": 206,
+            "format": "Right aligned; literal space in15/ 15 retained"
+          },
+          "id": "hp-0",
+          "col": 12,
+          "text": "206/206",
+          "row": 1,
+          "role": "hp_current_max"
+        },
+        {
+          "variable": {
+            "displayValue": "ウツボット",
+            "role": "party_pokemon_name",
+            "type": "string"
+          },
+          "id": "name-1",
+          "col": 3,
+          "text": "ウツボット",
+          "row": 3,
+          "role": "party_pokemon_name"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": ":L",
+              "logicalRect": [
+                64,
+                24,
+                72,
+                32
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "level-label-1",
+          "col": 0,
+          "text": ":L",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            64,
+            24,
+            72,
+            32
+          ],
+          "row": 0,
+          "gridRect": [
+            8.0,
+            3.0,
+            9.0,
+            4.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "displayValue": "50",
+            "role": "level",
+            "type": "integer",
+            "numericValue": 50
+          },
+          "id": "level-1",
+          "col": 9,
+          "text": "50",
+          "row": 3,
+          "role": "level"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": "HP",
+              "logicalRect": [
+                88,
+                20,
+                96,
+                24
+              ]
+            },
+            {
+              "kind": "compound_label",
+              "text": ":",
+              "logicalRect": [
+                96,
+                20,
+                100,
+                24
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "hp-label-1",
+          "col": 0,
+          "text": "HP:",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            88,
+            20,
+            100,
+            24
+          ],
+          "row": 0,
+          "gridRect": [
+            11.0,
+            2.5,
+            12.5,
+            3.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "current": 160,
+            "role": "hp_current_max",
+            "displayValue": "160/160",
+            "type": "integer_pair",
+            "maximum": 160,
+            "format": "Right aligned; literal space in15/ 15 retained"
+          },
+          "id": "hp-1",
+          "col": 12,
+          "text": "160/160",
+          "row": 3,
+          "role": "hp_current_max"
+        },
+        {
+          "variable": {
+            "displayValue": "ゴローニャ",
+            "role": "party_pokemon_name",
+            "type": "string"
+          },
+          "id": "name-2",
+          "col": 3,
+          "text": "ゴローニャ",
+          "row": 5,
+          "role": "party_pokemon_name"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": ":L",
+              "logicalRect": [
+                64,
+                40,
+                72,
+                48
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "level-label-2",
+          "col": 0,
+          "text": ":L",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            64,
+            40,
+            72,
+            48
+          ],
+          "row": 0,
+          "gridRect": [
+            8.0,
+            5.0,
+            9.0,
+            6.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "displayValue": "50",
+            "role": "level",
+            "type": "integer",
+            "numericValue": 50
+          },
+          "id": "level-2",
+          "col": 9,
+          "text": "50",
+          "row": 5,
+          "role": "level"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": "HP",
+              "logicalRect": [
+                88,
+                36,
+                96,
+                40
+              ]
+            },
+            {
+              "kind": "compound_label",
+              "text": ":",
+              "logicalRect": [
+                96,
+                36,
+                100,
+                40
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "hp-label-2",
+          "col": 0,
+          "text": "HP:",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            88,
+            36,
+            100,
+            40
+          ],
+          "row": 0,
+          "gridRect": [
+            11.0,
+            4.5,
+            12.5,
+            5.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "current": 162,
+            "role": "hp_current_max",
+            "displayValue": "162/162",
+            "type": "integer_pair",
+            "maximum": 162,
+            "format": "Right aligned; literal space in15/ 15 retained"
+          },
+          "id": "hp-2",
+          "col": 12,
+          "text": "162/162",
+          "row": 5,
+          "role": "hp_current_max"
+        },
+        {
+          "variable": {
+            "displayValue": "ライチュウ",
+            "role": "party_pokemon_name",
+            "type": "string"
+          },
+          "id": "name-3",
+          "col": 3,
+          "text": "ライチュウ",
+          "row": 7,
+          "role": "party_pokemon_name"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": ":L",
+              "logicalRect": [
+                64,
+                56,
+                72,
+                64
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "level-label-3",
+          "col": 0,
+          "text": ":L",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            64,
+            56,
+            72,
+            64
+          ],
+          "row": 0,
+          "gridRect": [
+            8.0,
+            7.0,
+            9.0,
+            8.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "displayValue": "50",
+            "role": "level",
+            "type": "integer",
+            "numericValue": 50
+          },
+          "id": "level-3",
+          "col": 9,
+          "text": "50",
+          "row": 7,
+          "role": "level"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": "HP",
+              "logicalRect": [
+                88,
+                52,
+                96,
+                56
+              ]
+            },
+            {
+              "kind": "compound_label",
+              "text": ":",
+              "logicalRect": [
+                96,
+                52,
+                100,
+                56
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "hp-label-3",
+          "col": 0,
+          "text": "HP:",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            88,
+            52,
+            100,
+            56
+          ],
+          "row": 0,
+          "gridRect": [
+            11.0,
+            6.5,
+            12.5,
+            7.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "current": 142,
+            "role": "hp_current_max",
+            "displayValue": "142/142",
+            "type": "integer_pair",
+            "maximum": 142,
+            "format": "Right aligned; literal space in15/ 15 retained"
+          },
+          "id": "hp-3",
+          "col": 12,
+          "text": "142/142",
+          "row": 7,
+          "role": "hp_current_max"
+        },
+        {
+          "variable": {
+            "displayValue": "リザードン",
+            "role": "party_pokemon_name",
+            "type": "string"
+          },
+          "id": "name-4",
+          "col": 3,
+          "text": "リザードン",
+          "row": 9,
+          "role": "party_pokemon_name"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": ":L",
+              "logicalRect": [
+                64,
+                72,
+                72,
+                80
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "level-label-4",
+          "col": 0,
+          "text": ":L",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            64,
+            72,
+            72,
+            80
+          ],
+          "row": 0,
+          "gridRect": [
+            8.0,
+            9.0,
+            9.0,
+            10.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "displayValue": "50",
+            "role": "level",
+            "type": "integer",
+            "numericValue": 50
+          },
+          "id": "level-4",
+          "col": 9,
+          "text": "50",
+          "row": 9,
+          "role": "level"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": "HP",
+              "logicalRect": [
+                88,
+                68,
+                96,
+                72
+              ]
+            },
+            {
+              "kind": "compound_label",
+              "text": ":",
+              "logicalRect": [
+                96,
+                68,
+                100,
+                72
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "hp-label-4",
+          "col": 0,
+          "text": "HP:",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            88,
+            68,
+            100,
+            72
+          ],
+          "row": 0,
+          "gridRect": [
+            11.0,
+            8.5,
+            12.5,
+            9.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "current": 166,
+            "role": "hp_current_max",
+            "displayValue": "166/166",
+            "type": "integer_pair",
+            "maximum": 166,
+            "format": "Right aligned; literal space in15/ 15 retained"
+          },
+          "id": "hp-4",
+          "col": 12,
+          "text": "166/166",
+          "row": 9,
+          "role": "hp_current_max"
+        },
+        {
+          "variable": {
+            "displayValue": "ポッポ",
+            "role": "party_pokemon_name",
+            "type": "string"
+          },
+          "id": "name-5",
+          "col": 3,
+          "text": "ポッポ",
+          "row": 11,
+          "role": "party_pokemon_name"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": ":L",
+              "logicalRect": [
+                64,
+                88,
+                72,
+                96
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "level-label-5",
+          "col": 0,
+          "text": ":L",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            64,
+            88,
+            72,
+            96
+          ],
+          "row": 0,
+          "gridRect": [
+            8.0,
+            11.0,
+            9.0,
+            12.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "displayValue": "3",
+            "role": "level",
+            "type": "integer",
+            "numericValue": 3
+          },
+          "id": "level-5",
+          "col": 9,
+          "text": "3",
+          "row": 11,
+          "role": "level"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": "HP",
+              "logicalRect": [
+                88,
+                84,
+                96,
+                88
+              ]
+            },
+            {
+              "kind": "compound_label",
+              "text": ":",
+              "logicalRect": [
+                96,
+                84,
+                100,
+                88
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "hp-label-5",
+          "col": 0,
+          "text": "HP:",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            88,
+            84,
+            100,
+            88
+          ],
+          "row": 0,
+          "gridRect": [
+            11.0,
+            10.5,
+            12.5,
+            11.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "current": 15,
+            "role": "hp_current_max",
+            "displayValue": "15/ 15",
+            "type": "integer_pair",
+            "maximum": 15,
+            "format": "Right aligned; literal space in15/ 15 retained"
+          },
+          "id": "hp-5",
+          "col": 13,
+          "text": "15/ 15",
+          "row": 11,
+          "role": "hp_current_max"
+        },
+        {
+          "role": "party_prompt",
+          "text": "ポケモンを えらんで ください",
+          "id": "prompt",
+          "col": 1,
+          "row": 14
+        }
+      ],
+      "menuCursors": [
+        {
+          "gridRect": [
+            0,
+            3,
+            1,
+            4
+          ],
+          "style": "filled_right"
+        }
+      ]
+    },
+    {
+      "endFrameExclusive": 3683,
+      "startFrame": 3682,
+      "completePage": false,
+      "kind": "menu_partial_clear",
+      "fields": [
+        {
+          "variable": {
+            "displayValue": "ラプラス",
+            "role": "party_pokemon_name",
+            "type": "string"
+          },
+          "id": "name-0",
+          "col": 3,
+          "text": "ラプラス",
+          "row": 1,
+          "role": "party_pokemon_name"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": ":L",
+              "logicalRect": [
+                64,
+                8,
+                72,
+                16
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "level-label-0",
+          "col": 0,
+          "text": ":L",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            64,
+            8,
+            72,
+            16
+          ],
+          "row": 0,
+          "gridRect": [
+            8.0,
+            1.0,
+            9.0,
+            2.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "displayValue": "50",
+            "role": "level",
+            "type": "integer",
+            "numericValue": 50
+          },
+          "id": "level-0",
+          "col": 9,
+          "text": "50",
+          "row": 1,
+          "role": "level"
+        },
+        {
+          "renderUnits": [
+            {
+              "kind": "compound_label",
+              "text": "HP",
+              "logicalRect": [
+                88,
+                4,
+                96,
+                8
+              ]
+            },
+            {
+              "kind": "compound_label",
+              "text": ":",
+              "logicalRect": [
+                96,
+                4,
+                100,
+                8
+              ]
+            }
+          ],
+          "renderEvidence": "Direct video03 raw source3663-3682, source game origin180,0 with independent rational axes; label pixels directly viewed",
+          "id": "hp-label-0",
+          "col": 0,
+          "text": "HP:",
+          "renderNote": "Text character count is separate from packed pixel occupancy",
+          "logicalRect": [
+            88,
+            4,
+            100,
+            8
+          ],
+          "row": 0,
+          "gridRect": [
+            11.0,
+            0.5,
+            12.5,
+            1.0
+          ],
+          "role": "compact_party_label"
+        },
+        {
+          "variable": {
+            "current": 206,
+            "role": "hp_current_max",
+            "displayValue": "206/206",
+            "type": "integer_pair",
+            "maximum": 206,
+            "format": "Right aligned; literal space in15/ 15 retained"
+          },
+          "id": "hp-0",
+          "col": 12,
+          "text": "206/206",
+          "row": 1,
+          "role": "hp_current_max"
+        }
+      ],
+      "menuCursors": []
+    },
+    {
+      "endFrameExclusive": 3687,
+      "startFrame": 3683,
+      "completePage": false,
+      "kind": "empty_target",
+      "fields": [],
+      "menuCursors": []
+    }
+  ],
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "firstRead": "All score3661-3686 directly viewed ordered sheets021-022 and full source3664",
+  "humanPerFrameVerification": "not claimed",
+  "notes": [
+    "Six-row party displayed after previous status clears; cursor appears3664 selecting second row, remains there; sprite animation does not change target text",
+    "3682 only first row labels/HP/name remain;3683 all target removed; four blank afterframes scored",
+    "Two empty score frames3661-3662 overlap preceding status candidate and must count once in global source-frame union; no complete-page duplicate"
+  ],
+  "mediaId": "video-03",
+  "source": "data/frames/video-03/all-scenes-party-list-pass2-v1",
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+  "secondRead": "All30 independently redecoded original frames3659-3688 viewed raw-only ordered sheets000-001; six names, levels, HP spacing, cursor absence/appearance and first-row-only clear confirmed"
+}

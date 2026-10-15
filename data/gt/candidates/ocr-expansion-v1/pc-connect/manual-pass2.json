@@ -1,0 +1,31 @@
+{
+  "status":"agent_second_raw_read_complete_not_frozen",
+  "source":"data/frames/video-02/expansion-pc-connect-pass2-v1",
+  "viewedAllOriginalGameCrops":[1379,1430],
+  "viewedFullOriginal":[1411],
+  "noTestedProgramOutputExists":true,
+  "humanPerFrameVerification":"not claimed",
+  "fields":[
+    {"id":"pc-bill","role":"pc_menu_choice","text":"マサキの パソコン","col":2,"row":2},
+    {"id":"pc-player","role":"pc_menu_choice","text":"グリーンの パソコン","col":2,"row":4,"variable":{"role":"player_name","type":"string","displayValue":"グリーン"}},
+    {"id":"pc-professor","role":"pc_menu_choice","text":"オーキドの パソコン","col":2,"row":6},
+    {"id":"pc-league","role":"pc_menu_choice","text":"ポケモン リーグ","col":2,"row":8},
+    {"id":"pc-off","role":"pc_menu_choice","text":"スイッチを きる","col":2,"row":10}
+  ],
+  "states":[
+    [1379,1387,"menu_complete","",1,2,false,true],
+    [1387,1404,"menu_complete","",1,4,false,true],
+    [1404,1405,"textbox_empty","",1,4,false,false],
+    [1405,1406,"loading","じぶん",1,4,false,false],
+    [1406,1407,"loading","じぶんの パ",1,4,false,false],
+    [1407,1408,"loading","じぶんの パソコン",1,4,false,false],
+    [1408,1410,"loading","じぶんの パソコンと つ",1,4,false,false],
+    [1410,1411,"loading","じぶんの パソコンと つないだ",1,4,false,false],
+    [1411,1422,"complete_waiting","じぶんの パソコンと つないだ！",1,4,true,true],
+    [1422,1426,"textbox_empty","",1,4,false,false]
+  ],
+  "geometry":{"origin":[300,108],"raster":[360,324],"logical":[160,144],"scale":[9,4],"bodyCol":1,"bodyRow":14,"cursorStyle":"filled_right","downArrowGridRect":[18,16,19,17]},
+  "boundaryReason":"Original complete menu before1387 cursor move; confirmation starts empty1404, characters load1405-1410, final punctuation/down arrow appear1411, prompt clears1422. Menu retained and blank body through1429. Score ends1426 with four clear frames;1426-1429 are after-context. Next text first appears1430, outside clip.",
+  "glyphNotes":"ポ and パ have handakuten above base cells; グ/ド/ブ marks explicitly above base. Fullwidth exclamation corresponds rendered punctuation at final cell. One U+0020 per blank grid cell.",
+  "scopeLimits":["PC cursor and first connection-confirmation page only","No menu-opening or item-storage transaction certified","Game version/session independence unverified"]
+}

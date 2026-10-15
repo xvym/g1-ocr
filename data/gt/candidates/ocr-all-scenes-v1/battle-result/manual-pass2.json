@@ -1,0 +1,2627 @@
+{
+  "fieldSets": {
+    "state-6938": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "ラプラスは おおめに"
+      },
+      {
+        "text": "976 けいけんちを",
+        "role": "battle_message",
+        "id": "message-bottom",
+        "col": 1,
+        "row": 16,
+        "variable": {
+          "type": "integer",
+          "role": "experience_gain",
+          "displayValue": "976",
+          "numericValue": 976,
+          "format": "3 leading digits, literal suffix retained"
+        }
+      }
+    ],
+    "state-6916": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      }
+    ],
+    "state-6939": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "ラプラスは おおめに"
+      },
+      {
+        "text": "976 けいけんちを もら",
+        "role": "battle_message",
+        "id": "message-bottom",
+        "col": 1,
+        "row": 16,
+        "variable": {
+          "type": "integer",
+          "role": "experience_gain",
+          "displayValue": "976",
+          "numericValue": 976,
+          "format": "3 leading digits, literal suffix retained"
+        }
+      }
+    ],
+    "state-6941": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "ラプラスは おおめに"
+      },
+      {
+        "text": "976 けいけんちを もらった！",
+        "role": "battle_message",
+        "id": "message-bottom",
+        "col": 1,
+        "row": 16,
+        "variable": {
+          "type": "integer",
+          "role": "experience_gain",
+          "displayValue": "976",
+          "numericValue": 976,
+          "format": "3 leading digits, literal suffix retained"
+        }
+      }
+    ],
+    "hud": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      }
+    ],
+    "state-6922": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "てきの ポニータは たおれた"
+      }
+    ],
+    "state-6920": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "てきの ポニータ"
+      }
+    ],
+    "state-6918": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "てきの ポ"
+      }
+    ],
+    "state-6950": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "ラプラスは おおめに"
+      },
+      {
+        "text": "976 けいけんちを もらった！",
+        "role": "battle_message",
+        "id": "message-bottom",
+        "col": 1,
+        "row": 16,
+        "variable": {
+          "type": "integer",
+          "role": "experience_gain",
+          "displayValue": "976",
+          "numericValue": 976,
+          "format": "3 leading digits, literal suffix retained"
+        }
+      }
+    ],
+    "state-6934": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "ラプラスは おお"
+      }
+    ],
+    "state-6940": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "ラプラスは おおめに"
+      },
+      {
+        "text": "976 けいけんちを もらった！",
+        "role": "battle_message",
+        "id": "message-bottom",
+        "col": 1,
+        "row": 16,
+        "variable": {
+          "type": "integer",
+          "role": "experience_gain",
+          "displayValue": "976",
+          "numericValue": 976,
+          "format": "3 leading digits, literal suffix retained"
+        }
+      }
+    ],
+    "state-6923": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "てきの ポニータは たおれた！"
+      }
+    ],
+    "state-6935": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "ラプラスは おおめに"
+      },
+      {
+        "text": "976",
+        "role": "battle_message",
+        "id": "message-bottom",
+        "col": 1,
+        "row": 16,
+        "variable": {
+          "type": "integer",
+          "role": "experience_gain",
+          "displayValue": "976",
+          "numericValue": 976,
+          "format": "3 leading digits, literal suffix retained"
+        }
+      }
+    ],
+    "state-6933": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "ラプラスは"
+      }
+    ],
+    "state-6929": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      }
+    ],
+    "state-6917": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "てき"
+      }
+    ],
+    "state-6932": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "ラプ"
+      }
+    ],
+    "state-6921": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "てきの ポニータは た"
+      }
+    ],
+    "state-6936": [
+      {
+        "col": 11,
+        "text": "ラプラス",
+        "id": "own-name",
+        "row": 8,
+        "role": "own_pokemon_name",
+        "variable": {
+          "displayValue": "ラプラス",
+          "role": "own_pokemon_name",
+          "type": "string"
+        }
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          120,
+          64,
+          128,
+          72
+        ],
+        "gridRect": [
+          15.0,
+          8.0,
+          16.0,
+          9.0
+        ],
+        "text": ":L",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              120,
+              64,
+              128,
+              72
+            ],
+            "text": ":L",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-level-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "50",
+        "col": 16,
+        "role": "own_level",
+        "variable": {
+          "displayValue": "50",
+          "type": "integer",
+          "numericValue": 50,
+          "role": "own_level"
+        },
+        "row": 8,
+        "id": "own-level"
+      },
+      {
+        "renderNote": "HP:12x4 logicalpx; :L8x8 compound label. Source projection9/4 differs from video04 template.",
+        "logicalRect": [
+          80,
+          76,
+          92,
+          80
+        ],
+        "gridRect": [
+          10.0,
+          9.5,
+          11.5,
+          10.0
+        ],
+        "text": "HP:",
+        "col": 0,
+        "renderUnits": [
+          {
+            "logicalRect": [
+              80,
+              76,
+              88,
+              80
+            ],
+            "text": "HP",
+            "kind": "compound_label"
+          },
+          {
+            "logicalRect": [
+              88,
+              76,
+              92,
+              80
+            ],
+            "text": ":",
+            "kind": "compound_label"
+          }
+        ],
+        "role": "compact_hud_label",
+        "row": 0,
+        "id": "own-hp-label",
+        "renderEvidence": "Direct video02 original frames6913-6967 independently redecoded and raw-only viewed; current own HUD labels"
+      },
+      {
+        "text": "200/206",
+        "col": 11,
+        "role": "hp_current_max",
+        "variable": {
+          "maximum": 206,
+          "type": "integer_pair",
+          "current": 200,
+          "displayValue": "200/206",
+          "role": "hp_current_max"
+        },
+        "row": 10,
+        "id": "own-hp-value"
+      },
+      {
+        "role": "battle_message",
+        "col": 1,
+        "id": "message-top",
+        "row": 14,
+        "text": "ラプラスは おおめに"
+      },
+      {
+        "text": "976 けいけ",
+        "role": "battle_message",
+        "id": "message-bottom",
+        "col": 1,
+        "row": 16,
+        "variable": {
+          "type": "integer",
+          "role": "experience_gain",
+          "displayValue": "976",
+          "numericValue": 976,
+          "format": "3 leading digits, literal suffix retained"
+        }
+      }
+    ],
+    "state-6958": null
+  },
+  "secondRead": "All55 independently redecoded original frames6913-6967 viewed raw-only ordered sheets000-002",
+  "notes": [
+    "Own HUD remains through message clears6916 and6929, not empty-output frames",
+    "All HUD/message text removed6958; six empty target frames remain scored",
+    "Faint page appears6923 with arrow, XP full6940 one frame before arrow; cosmetic arrow phases do not multiply page count",
+    "Enemy HUD disappeared6915 in warmup; this event is complete result text lifecycle, not full battle/KO animation acceptance"
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "mediaId": "video-02",
+  "frozen": false,
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "source": "data/frames/video-02/all-scenes-battle-result-pass2-v1",
+  "states": [
+    {
+      "completePage": false,
+      "kind": "message_clear_hud_remains",
+      "fieldSet": "state-6916",
+      "endFrameExclusive": 6917,
+      "menuCursors": [],
+      "startFrame": 6916
+    },
+    {
+      "completePage": false,
+      "kind": "message_loading",
+      "fieldSet": "state-6917",
+      "endFrameExclusive": 6918,
+      "menuCursors": [],
+      "startFrame": 6917
+    },
+    {
+      "completePage": false,
+      "kind": "message_loading",
+      "fieldSet": "state-6918",
+      "endFrameExclusive": 6920,
+      "menuCursors": [],
+      "startFrame": 6918
+    },
+    {
+      "completePage": false,
+      "kind": "message_loading",
+      "fieldSet": "state-6920",
+      "endFrameExclusive": 6921,
+      "menuCursors": [],
+      "startFrame": 6920
+    },
+    {
+      "completePage": false,
+      "kind": "message_loading",
+      "fieldSet": "state-6921",
+      "endFrameExclusive": 6922,
+      "menuCursors": [],
+      "startFrame": 6921
+    },
+    {
+      "completePage": false,
+      "kind": "message_loading",
+      "fieldSet": "state-6922",
+      "endFrameExclusive": 6923,
+      "menuCursors": [],
+      "startFrame": 6922
+    },
+    {
+      "menuCursors": [],
+      "endFrameExclusive": 6929,
+      "fieldSet": "state-6923",
+      "completePage": true,
+      "startFrame": 6923,
+      "pageOpportunityId": "battle-result-faint",
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      },
+      "kind": "message_complete"
+    },
+    {
+      "completePage": false,
+      "kind": "message_clear_hud_remains",
+      "fieldSet": "state-6929",
+      "endFrameExclusive": 6932,
+      "menuCursors": [],
+      "startFrame": 6929
+    },
+    {
+      "completePage": false,
+      "kind": "message_loading",
+      "fieldSet": "state-6932",
+      "endFrameExclusive": 6933,
+      "menuCursors": [],
+      "startFrame": 6932
+    },
+    {
+      "completePage": false,
+      "kind": "message_loading",
+      "fieldSet": "state-6933",
+      "endFrameExclusive": 6934,
+      "menuCursors": [],
+      "startFrame": 6933
+    },
+    {
+      "completePage": false,
+      "kind": "message_loading",
+      "fieldSet": "state-6934",
+      "endFrameExclusive": 6935,
+      "menuCursors": [],
+      "startFrame": 6934
+    },
+    {
+      "completePage": false,
+      "kind": "message_loading",
+      "fieldSet": "state-6935",
+      "endFrameExclusive": 6936,
+      "menuCursors": [],
+      "startFrame": 6935
+    },
+    {
+      "completePage": false,
+      "kind": "message_loading",
+      "fieldSet": "state-6936",
+      "endFrameExclusive": 6938,
+      "menuCursors": [],
+      "startFrame": 6936
+    },
+    {
+      "completePage": false,
+      "kind": "message_loading",
+      "fieldSet": "state-6938",
+      "endFrameExclusive": 6939,
+      "menuCursors": [],
+      "startFrame": 6938
+    },
+    {
+      "completePage": false,
+      "kind": "message_loading",
+      "fieldSet": "state-6939",
+      "endFrameExclusive": 6940,
+      "menuCursors": [],
+      "startFrame": 6939
+    },
+    {
+      "pageOpportunityId": "battle-result-experience",
+      "completePage": true,
+      "kind": "message_complete",
+      "fieldSet": "state-6940",
+      "endFrameExclusive": 6941,
+      "menuCursors": [],
+      "startFrame": 6940
+    },
+    {
+      "menuCursors": [],
+      "endFrameExclusive": 6950,
+      "fieldSet": "state-6941",
+      "completePage": true,
+      "startFrame": 6941,
+      "pageOpportunityId": "battle-result-experience",
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ]
+      },
+      "kind": "message_complete"
+    },
+    {
+      "pageOpportunityId": "battle-result-experience",
+      "completePage": true,
+      "kind": "message_complete",
+      "fieldSet": "state-6950",
+      "endFrameExclusive": 6958,
+      "menuCursors": [],
+      "startFrame": 6950
+    },
+    {
+      "completePage": false,
+      "kind": "empty_target",
+      "fieldSet": "state-6958",
+      "endFrameExclusive": 6964,
+      "menuCursors": [],
+      "startFrame": 6958
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "status": "agent_second_raw_read_complete_not_frozen",
+  "range": [
+    6056,
+    6167
+  ],
+  "notes": [
+    "Second read corrects first snapshot timing and arrow omissions; original pass1 retained",
+    "Two passes refer to original frames and no tested OCR/production translation exists",
+    "Five natural spoken blocks,10 complete page opportunities; all source frames incl empty/loading/scroll/fade retained",
+    "Centred dots each occupy one canonical cell; U+30FB; not one-cell ellipsis. No future text filled into loading frames"
+  ],
+  "name": "开场欢迎语与滚动",
+  "frozen": false,
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "scoredRange": [
+    6058,
+    6165
+  ],
+  "states": [
+    {
+      "completePage": false,
+      "startFrame": 6058,
+      "kind": "empty_target",
+      "menuCursors": [],
+      "fields": [],
+      "endFrameExclusive": 6060
+    },
+    {
+      "completePage": false,
+      "startFrame": 6060,
+      "kind": "textbox_empty",
+      "menuCursors": [],
+      "fields": [],
+      "endFrameExclusive": 6062
+    },
+    {
+      "completePage": false,
+      "startFrame": 6062,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "はじめ",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6063
+    },
+    {
+      "completePage": false,
+      "startFrame": 6063,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "はじめまして",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6065
+    },
+    {
+      "completePage": false,
+      "startFrame": 6065,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "はじめまして！",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ポケ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6066
+    },
+    {
+      "completePage": false,
+      "startFrame": 6066,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "はじめまして！",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ポケット",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6068
+    },
+    {
+      "completePage": false,
+      "startFrame": 6068,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "はじめまして！",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ポケット モンス",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6069
+    },
+    {
+      "completePage": false,
+      "startFrame": 6069,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "はじめまして！",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ポケット モンスターの",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6071
+    },
+    {
+      "completePage": false,
+      "startFrame": 6071,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "はじめまして！",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ポケット モンスターの せか",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6072
+    },
+    {
+      "startFrame": 6072,
+      "menuCursors": [],
+      "pageOpportunityId": "intro-greeting-1",
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "はじめまして！",
+          "role": "dialogue",
+          "row": 14
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケット モンスターの せかいへ",
+          "role": "dialogue",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 6095
+    },
+    {
+      "startFrame": 6095,
+      "menuCursors": [],
+      "pageOpportunityId": "intro-greeting-1",
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "はじめまして！",
+          "role": "dialogue",
+          "row": 14
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケット モンスターの せかいへ",
+          "role": "dialogue",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 6116
+    },
+    {
+      "startFrame": 6116,
+      "menuCursors": [],
+      "pageOpportunityId": "intro-greeting-1",
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "はじめまして！",
+          "role": "dialogue",
+          "row": 14
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケット モンスターの せかいへ",
+          "role": "dialogue",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 6137
+    },
+    {
+      "startFrame": 6137,
+      "menuCursors": [],
+      "pageOpportunityId": "intro-greeting-1",
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "はじめまして！",
+          "role": "dialogue",
+          "row": 14
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケット モンスターの せかいへ",
+          "role": "dialogue",
+          "row": 16
+        }
+      ],
+      "completePage": true,
+      "kind": "message_complete",
+      "endFrameExclusive": 6139
+    },
+    {
+      "startFrame": 6139,
+      "menuCursors": [],
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "はしめまして！",
+          "role": "dialogue",
+          "row": 13
+        },
+        {
+          "col": 1,
+          "id": "message-bottom",
+          "text": "ポケット モンスターの せかいへ",
+          "role": "dialogue",
+          "row": 15
+        }
+      ],
+      "completePage": false,
+      "kind": "scrolling",
+      "renderNote": "Direct second raw read confirms8-pixel upward base shift and clipped upper diacritics; never restore invisible marks",
+      "endFrameExclusive": 6142
+    },
+    {
+      "menuCursors": [],
+      "startFrame": 6142,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "col": 1,
+          "id": "message-top",
+          "text": "ポケット モンスターの せかいへ",
+          "role": "dialogue",
+          "row": 14
+        }
+      ],
+      "completePage": false,
+      "endFrameExclusive": 6143
+    },
+    {
+      "completePage": false,
+      "startFrame": 6143,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "ポケット モンスターの せかいへ",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "よ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6145
+    },
+    {
+      "completePage": false,
+      "startFrame": 6145,
+      "kind": "message_loading",
+      "menuCursors": [],
+      "fields": [
+        {
+          "text": "ポケット モンスターの せかいへ",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ようこそ",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "endFrameExclusive": 6146
+    },
+    {
+      "completePage": true,
+      "startFrame": 6146,
+      "kind": "message_complete",
+      "fields": [
+        {
+          "text": "ポケット モンスターの せかいへ",
+          "row": 14,
+          "col": 1,
+          "id": "message-top",
+          "role": "dialogue"
+        },
+        {
+          "text": "ようこそ！",
+          "row": 16,
+          "col": 1,
+          "id": "message-bottom",
+          "role": "dialogue"
+        }
+      ],
+      "pageOpportunityId": "intro-greeting-2",
+      "menuCursors": [],
+      "downArrow": {
+        "gridRect": [
+          18,
+          16,
+          19,
+          17
+        ],
+        "style": "filled_down"
+      },
+      "endFrameExclusive": 6163
+    },
+    {
+      "completePage": false,
+      "startFrame": 6163,
+      "kind": "textbox_empty",
+      "menuCursors": [],
+      "fields": [],
+      "endFrameExclusive": 6165
+    }
+  ],
+  "source": "data/frames/video-01/dialogue-intro-pass2-v1",
+  "humanPerFrameVerification": "not claimed",
+  "mediaId": "video-01",
+  "secondRead": "Fresh source-from-start re-decode6056-6482; all426 original frames viewed in ordered sheets000-010, raw scroll6137-6143 zoom and fade6215-6219 zoom; thresholded pixel scan navigation used to find missed boundaries, never generates text"
+}

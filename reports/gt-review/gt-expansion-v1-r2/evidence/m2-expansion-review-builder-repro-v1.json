@@ -1,0 +1,19 @@
+{
+  "failure": "System.Drawing.Bitmap two-argument constructor selected handle overload with Int64 arithmetic results, causing Parameter is not valid",
+  "failedBundle": "reports/gt-review/gt-expansion-v1",
+  "fixAttempts": 1,
+  "attemptLimit": 3,
+  "affected": "Review zoom builder only; no GT or original pixels revised",
+  "observedArgumentTypes": [
+    "System.Int64",
+    "System.Int64"
+  ],
+  "explicitInt32Construction": "passed",
+  "failedLog": "reports/gt-expansion-v1-build.log",
+  "status": "retained_minimal_repro",
+  "observedArguments": [
+    1200,
+    1088
+  ],
+  "fix": "Explicit Int32 dimensions select size overload"
+}

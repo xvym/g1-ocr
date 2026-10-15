@@ -1,0 +1,66 @@
+{
+  "displayWidth": 800,
+  "step": 1,
+  "entries": [
+    {
+      "rgbSha256": "cc52bde48214d77d7e483ad4dfe7807b42e621effae79f1f1f11bcc2c5a0f64b",
+      "original": "data\\frames\\video-01\\dialogue-intro-pass2-v1\\frame-006137.png",
+      "sheet": 0,
+      "frameIndex": 6137,
+      "pts": 6137
+    },
+    {
+      "rgbSha256": "9abbb74635be12439479f58c61e095a18c58a010aab0119834bac33762af63e7",
+      "original": "data\\frames\\video-01\\dialogue-intro-pass2-v1\\frame-006138.png",
+      "sheet": 0,
+      "frameIndex": 6138,
+      "pts": 6138
+    },
+    {
+      "rgbSha256": "9362dd9e3c60466cc31c0ffaf9499927cde581533b709620215acd7d29c96fbd",
+      "original": "data\\frames\\video-01\\dialogue-intro-pass2-v1\\frame-006139.png",
+      "sheet": 0,
+      "frameIndex": 6139,
+      "pts": 6139
+    },
+    {
+      "rgbSha256": "86ae8128c2e4352034df94ea02cd20bea6ac10356d66af8407ec9efd5428d378",
+      "original": "data\\frames\\video-01\\dialogue-intro-pass2-v1\\frame-006140.png",
+      "sheet": 0,
+      "frameIndex": 6140,
+      "pts": 6140
+    },
+    {
+      "rgbSha256": "9362dd9e3c60466cc31c0ffaf9499927cde581533b709620215acd7d29c96fbd",
+      "original": "data\\frames\\video-01\\dialogue-intro-pass2-v1\\frame-006141.png",
+      "sheet": 0,
+      "frameIndex": 6141,
+      "pts": 6141
+    },
+    {
+      "rgbSha256": "db3439aafd013018a377a23e0d75bbee3ec590fdb15e5a8253038c252c76eccb",
+      "original": "data\\frames\\video-01\\dialogue-intro-pass2-v1\\frame-006142.png",
+      "sheet": 0,
+      "frameIndex": 6142,
+      "pts": 6142
+    },
+    {
+      "rgbSha256": "bde4295f1f5f9cba4e747c67eae330d2c4d68e51aff70f362a5ae7e9a0049145",
+      "original": "data\\frames\\video-01\\dialogue-intro-pass2-v1\\frame-006143.png",
+      "sheet": 0,
+      "frameIndex": 6143,
+      "pts": 6143
+    }
+  ],
+  "purpose": "Deterministic original-pixel navigation/display only; no text inference, no GT assignment, no approval",
+  "crop": [
+    240,
+    304,
+    560,
+    384
+  ],
+  "inputVerificationSha256": "2c166db2cf0bac2c2f294364a6dfc415535250c4d7d7d817cbc5be77de23c43a",
+  "frames": "data/frames/video-01/dialogue-intro-pass2-v1",
+  "count": 7,
+  "allFramesShown": true
+}
