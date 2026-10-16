@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "message": "Unbounded archive read",
+  "stack": "AssertionError [ERR_ASSERTION]: Unbounded archive read\n    at Object.slice (D:\\Code\\Workspace\\g1-ocr\\tools\\check-mobile-review.cjs:67:101)\n    at ReviewZip.open (evalmachine.<anonymous>:55:46)\n    at MobileReviewAssets.open (evalmachine.<anonymous>:142:37)\n    at main (D:\\Code\\Workspace\\g1-ocr\\tools\\check-mobile-review.cjs:68:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)",
+  "checks": [
+    {
+      "name": "SHA-256 fallback and CRC-32 vectors",
+      "status": "pass"
+    },
+    {
+      "name": "Ordinary DEFLATE and stored ZIP / UTF-8 paths",
+      "status": "pass"
+    },
+    {
+      "name": "Reject truncated, corrupted, oversized, encrypted, traversal, duplicate and ZIP64 inputs",
+      "status": "pass"
+    },
+    {
+      "name": "Original payload / manifest unchanged; no relative-image reads before user selection",
+      "status": "pass"
+    }
+  ]
+}

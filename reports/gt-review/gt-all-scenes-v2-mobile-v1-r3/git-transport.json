@@ -1,0 +1,2180 @@
+{
+  "approved-trial/annotations/clip-trial-v2.json": {
+    "bytes": 1450,
+    "sha256": "8140556e403582df599f3b632bd49f3cf5de0ec84f81a78b7b92d44dbcba8c6a",
+    "gitBlobOid": "ede39d5af2ccc63ae1ee2fd4c7151f41f0e4b2f3",
+    "crlfOrdinals": "all"
+  },
+  "approved-trial/annotations/freeze.json": {
+    "bytes": 3014,
+    "sha256": "0eabeed0348ac310dd2ba23e72d8f447e41c7c26a6864a3ad92e8085a9d5a8cc",
+    "gitBlobOid": "f4e264763f8b4faacd78b846f05df639ccc9959e",
+    "crlfOrdinals": "all"
+  },
+  "approved-trial/annotations/layout-v2.json": {
+    "bytes": 966,
+    "sha256": "7796ab8b25a60e86a2b2126cce51b01eb09a5a7183511e49c5d26801a8e8dd92",
+    "gitBlobOid": "1c0fa6950f7bac41783a0651a8c71c1141e95e02",
+    "crlfOrdinals": "all"
+  },
+  "approved-trial/annotations/ocr-candidate-v2.jsonl": {
+    "bytes": 18518,
+    "sha256": "8a14797220610b96709f806079b30cbf407558be204210a3c1c2649ec84cffed",
+    "gitBlobOid": "742e98336b0323bcbcaafc501feedf1de7d22463",
+    "crlfOrdinals": "all"
+  },
+  "backpack-navigation/annotations/all-scenes-backpack-navigation-clip-v2.json": {
+    "bytes": 1342,
+    "sha256": "edd463ee255ef02da4ac6429e4d12a1eba07977fb42fcc082b9c880925f130e0",
+    "gitBlobOid": "cef46193a83b1abcdad6ec92cb5efbf6a1c215a1",
+    "crlfOrdinals": "all"
+  },
+  "backpack-navigation/annotations/layout-v1.json": {
+    "bytes": 867,
+    "sha256": "426190ab2481a864b10290547ab00b86865019ee042aba9e57110e5e9406311d",
+    "gitBlobOid": "94f93c1e6491074e1e9c01b81451dfaec75264ef",
+    "crlfOrdinals": "all"
+  },
+  "backpack-navigation/annotations/manual-pass2-v2.json": {
+    "bytes": 42417,
+    "sha256": "333b3f98f48d397154258528741e7dee57c90c0521d3b2a3929592e19020bbd5",
+    "gitBlobOid": "511e99b30d9775cfb5ee097dbda49a97897bb80a",
+    "crlfOrdinals": "all"
+  },
+  "backpack-navigation/annotations/manual-pass2.json": {
+    "bytes": 40212,
+    "sha256": "88865c47ea4af76bf1b695575bd8db5f13c55e0d16db9bbadb54ac735ed38df5",
+    "gitBlobOid": "ca09f98cb65dddb56908312e6fceda26746e2f55",
+    "crlfOrdinals": "all"
+  },
+  "backpack-navigation/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 105114,
+    "sha256": "2318a1105ad083de699d56d925fc387c2e947ad001d1ff34b696f5612334f9c3",
+    "gitBlobOid": "a918beca927a23c9673b9d04001ca86e620dd119",
+    "crlfOrdinals": "all"
+  },
+  "backpack-navigation/annotations/ocr-candidate-v2.jsonl": {
+    "bytes": 106864,
+    "sha256": "2533607d1fffecda9a6704ecd33a7271eeed1530f4d194920aff49b1a0c784fe",
+    "gitBlobOid": "9c2b56b8aa235af9ff06afba5adef3dff390decf",
+    "crlfOrdinals": "all"
+  },
+  "backpack-navigation/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "backpack-navigation/annotations/pass-differences-v2.json": {
+    "bytes": 1078,
+    "sha256": "1d33ce64f2facee6420b9d6b622a1d3bc19ded1e68199111cc7be8da06dba7e4",
+    "gitBlobOid": "bc97e73f646aa1053607ba7d18fa3386dd7d29cb",
+    "crlfOrdinals": "all"
+  },
+  "backpack-opening/annotations/all-scenes-backpack-opening-clip-v2.json": {
+    "bytes": 1101,
+    "sha256": "28d31b26278389ecfcf84dbfe00d4ee8e4068e2ec1bc9d4096471724ae462486",
+    "gitBlobOid": "ed381b63d44d1ae5008a1fd0fa39c6276f6b0e48",
+    "crlfOrdinals": "all"
+  },
+  "backpack-opening/annotations/layout-v1.json": {
+    "bytes": 866,
+    "sha256": "5e416c6b6c252ce0350d2078d56778f0e00b9a81a6a5fef7eab8346f2ccfa4be",
+    "gitBlobOid": "83638089496099298c04362ef4db416857ecd304",
+    "crlfOrdinals": "all"
+  },
+  "backpack-opening/annotations/manual-pass1.json": {
+    "bytes": 12011,
+    "sha256": "4229f3419a5cc5ae2777dc20212797cdbd5c1fd8ca4b8d6251f2448412319c3e",
+    "gitBlobOid": "e52ff638f503378a0e2753befb4cd9dfd21e87d5",
+    "crlfOrdinals": "all"
+  },
+  "backpack-opening/annotations/manual-pass2.json": {
+    "bytes": 12238,
+    "sha256": "5340402711a4bffec4c9166e21382bcf85b636d3b1a9100f0686fa7807b19b68",
+    "gitBlobOid": "99252fb875d79d41ffe7bb4da722406d59c5cd6f",
+    "crlfOrdinals": "all"
+  },
+  "backpack-opening/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 16657,
+    "sha256": "7a0a9d731624eb8c92e1ea0ab3d544206e34941c494871267d362db4136e99d5",
+    "gitBlobOid": "ae7320f840f3477bc4cff56abdc7a75990a9ce7f",
+    "crlfOrdinals": "all"
+  },
+  "backpack-opening/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "backpack-opening/annotations/pass-differences-v1.json": {
+    "bytes": 352,
+    "sha256": "67a6fbdf2d9722a058160c54ae7073bcd5449419b90c397d59973b7a3a1f4c79",
+    "gitBlobOid": "265c065bebe7ebdc4b699e8fb28575babe514806",
+    "crlfOrdinals": "all"
+  },
+  "batch.json": {
+    "bytes": 33351,
+    "sha256": "886602a482cc9777ccffdc9b5c41291ca23867c36ae7879e2754a005c172d780",
+    "gitBlobOid": "dfb1f247d12f4ca31c9365e13439dd50734abd80",
+    "crlfOrdinals": "all"
+  },
+  "battle-result/annotations/all-scenes-battle-result-clip-v1.json": {
+    "bytes": 1136,
+    "sha256": "19794314fac5d47103b63449cd02c9612ad21c73b3a3076eaf31f2ef9bd88ac4",
+    "gitBlobOid": "1d8706d90937ed61281589c7cd87ae0f393869ae",
+    "crlfOrdinals": "all"
+  },
+  "battle-result/annotations/layout-v1.json": {
+    "bytes": 386,
+    "sha256": "3548037d6e95a4d309c6f9e86c3791e0baf27b8c15fc8b72743668d32a5fbb21",
+    "gitBlobOid": "3aa2f5062a1936d02e434c6b944a2775d7b39cd6",
+    "crlfOrdinals": "all"
+  },
+  "battle-result/annotations/manual-pass1.json": {
+    "bytes": 1184,
+    "sha256": "0992978d288345dbf0f32e1897c198e5834a1dae3987f928ae59e26c8f06cf92",
+    "gitBlobOid": "22e3a6015339cbe1ed4775117f7d417231102e41",
+    "crlfOrdinals": "all"
+  },
+  "battle-result/annotations/manual-pass2.json": {
+    "bytes": 63233,
+    "sha256": "f519989b77d54f4b9e538d315a16a6a7be04b987c53b92fc33fc3559d93b4d07",
+    "gitBlobOid": "0deedce7df3170a308b7add4a999111a075a9954",
+    "crlfOrdinals": "all"
+  },
+  "battle-result/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 53518,
+    "sha256": "5e8847a82d5beb51ee10ae650e04932178337aa87a70e17e7db655f4c1adbb33",
+    "gitBlobOid": "7aaf2faf22db56c0b2d64d9224942b89cb619c02",
+    "crlfOrdinals": "all"
+  },
+  "battle-result/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "battle-result/annotations/pass-differences-v1.json": {
+    "bytes": 410,
+    "sha256": "86fb704836df491f4b48e9e703d74acde90921adf8c2bea89a28d139dc5d6399",
+    "gitBlobOid": "4bb6162f378acff5c16bf227f5fc3e31b0bf52ae",
+    "crlfOrdinals": "all"
+  },
+  "bill-data-npc/annotations/dialogue-bill-data-npc-clip-v1.json": {
+    "bytes": 1218,
+    "sha256": "899dd313481fc74055a8d864bd518025459088abaacc7955659bc2e8e7d01431",
+    "gitBlobOid": "502243c76ddd48073d028463b36f953cbc0028ed",
+    "crlfOrdinals": "all"
+  },
+  "bill-data-npc/annotations/first-snapshots.json": {
+    "bytes": 2447,
+    "sha256": "ec2459412dd9d1625377908b5dd64ada649661fb7bc606ac7fa6a22a81f578d8",
+    "gitBlobOid": "3cad215df54274734c0cb219b626c1f1975573f2",
+    "crlfOrdinals": "all"
+  },
+  "bill-data-npc/annotations/layout-v1.json": {
+    "bytes": 490,
+    "sha256": "62a0c9aba91f3ab7a2650ccf6d8683fcb7084bf5f59c9db398942f7775423551",
+    "gitBlobOid": "fe265a7c9ed1c18c9eecabf0a580560d507eca95",
+    "crlfOrdinals": "all"
+  },
+  "bill-data-npc/annotations/manual-pass1.json": {
+    "bytes": 11545,
+    "sha256": "7e2b77a4614005eb0f0ab4c7216c16201486dcd0f746d1545c56e28e1a2a1611",
+    "gitBlobOid": "49dbe8ff95a63f12cb38279fec0bcb748aa78935",
+    "crlfOrdinals": "all"
+  },
+  "bill-data-npc/annotations/manual-pass2.json": {
+    "bytes": 11629,
+    "sha256": "2c3e32de14cbb9fa555d5bb936b24bad518d4e8eebd78f66c9e075478dbd8876",
+    "gitBlobOid": "43d90a0b893b178679fd3618ba14b62fc11fbaca",
+    "crlfOrdinals": "all"
+  },
+  "bill-data-npc/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 26800,
+    "sha256": "e5057733c33e8923646eac709ae7465fe7878a2a270bb496c6825d2fa42c7692",
+    "gitBlobOid": "e59579b43cac2ddedabcb196201ea38c58612e14",
+    "crlfOrdinals": "all"
+  },
+  "bill-data-npc/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "bill-data-npc/annotations/pass-differences-v1.json": {
+    "bytes": 458,
+    "sha256": "0090327381c5dacc2d701556868f0de03c75c33439113441f6fcf82871dbb5d7",
+    "gitBlobOid": "3ceddc541e21e0cbfc056bf1d7e891b6323fae17",
+    "crlfOrdinals": "all"
+  },
+  "bill-data-npc/evidence/decode.command.json": {
+    "bytes": 1190,
+    "sha256": "e1aaa50e840d3e6bb29414156c9720b88499960d94ea0fe721044c0e77add0de",
+    "gitBlobOid": "4225358ed4ba1bf921c123c7b7e016234c62e55a",
+    "crlfOrdinals": "all"
+  },
+  "bill-data-npc/evidence/verification.json": {
+    "bytes": 48643,
+    "sha256": "b31bf0c9fdeeea4bcbbc6965535e75281a6fdefad5a26b13d5e20bebe3eac977",
+    "gitBlobOid": "fbb99f6818eace15d3aef01c748f78177ededb16",
+    "crlfOrdinals": "all"
+  },
+  "bill-grandfather/annotations/dialogue-bill-grandfather-clip-v1.json": {
+    "bytes": 1225,
+    "sha256": "64ce9b2246d267f64c13f11a4f9977cd22676751e38f5ff27f20da6231c4600c",
+    "gitBlobOid": "caf7d07f675da89a162a3c302629d1bfa69a8224",
+    "crlfOrdinals": "all"
+  },
+  "bill-grandfather/annotations/first-snapshots.json": {
+    "bytes": 3163,
+    "sha256": "1a7e975bc76cb922fdbff3bd7b4f89cdee66eaa5158a4d4cff02bfbf8aeab35c",
+    "gitBlobOid": "055a70274a685bebd20ad1657f0a8d91093a6d3b",
+    "crlfOrdinals": "all"
+  },
+  "bill-grandfather/annotations/layout-v1.json": {
+    "bytes": 490,
+    "sha256": "62a0c9aba91f3ab7a2650ccf6d8683fcb7084bf5f59c9db398942f7775423551",
+    "gitBlobOid": "fe265a7c9ed1c18c9eecabf0a580560d507eca95",
+    "crlfOrdinals": "all"
+  },
+  "bill-grandfather/annotations/manual-pass1.json": {
+    "bytes": 15772,
+    "sha256": "989df4e55ff312a0b88d64a57ea9f248775e0c84fe99ca3084c925562b187f22",
+    "gitBlobOid": "d10da6ddfef6eb571a6a079b4f2d6d69ff87cad9",
+    "crlfOrdinals": "all"
+  },
+  "bill-grandfather/annotations/manual-pass2.json": {
+    "bytes": 15846,
+    "sha256": "2fcbe7aa5b56193a28838c0347fb5ff5f651dde95c09e2929502eeadca5c4975",
+    "gitBlobOid": "e9538e654b634272e20ba6e1f4c4dfe53d882992",
+    "crlfOrdinals": "all"
+  },
+  "bill-grandfather/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 34502,
+    "sha256": "bb0f36e5cd9e10babad8de06664f57db9299d1c91529856ec1526e8cb43257b7",
+    "gitBlobOid": "68a133d964b013f28be5d98b1e4cd23239e8ff67",
+    "crlfOrdinals": "all"
+  },
+  "bill-grandfather/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "bill-grandfather/annotations/pass-differences-v1.json": {
+    "bytes": 448,
+    "sha256": "fc84d8d7b3f78d717140657e944750b85ae7d7ceda3be7ab91a97ec803a1f88f",
+    "gitBlobOid": "50786824b7a05911540f5c2fe37804335fdea17d",
+    "crlfOrdinals": "all"
+  },
+  "bill-grandfather/evidence/decode.command.json": {
+    "bytes": 1193,
+    "sha256": "e2e6cd10b75df6d8e1fb24d066fcc7dc954e3b580168bd2de4b1a5cdaa543676",
+    "gitBlobOid": "73ebcd6e65f920f7ff0c66db53333f9aaa29cd49",
+    "crlfOrdinals": "all"
+  },
+  "bill-grandfather/evidence/verification.json": {
+    "bytes": 60043,
+    "sha256": "fd090fdd18b4da1f8d97894215de9f03ef85251c597e225d24711c7468e6e6fd",
+    "gitBlobOid": "b0c27d5b401829a7225324acbd20fdf33250ecbd",
+    "crlfOrdinals": "all"
+  },
+  "evidence/all-scenes-exploration-context-v1.json": {
+    "bytes": 695,
+    "sha256": "9b2d041fabe9a1fe831ffb816b063b9ceeb349624b614dfa81dd1b29eb827cd8",
+    "gitBlobOid": "d3eb0fc32d241e8b728815b3659227871e5ed9b7",
+    "crlfOrdinals": "all"
+  },
+  "evidence/annotation-descriptor-equivalence-v1.json": {
+    "bytes": 638,
+    "sha256": "290496bf093fb9e82cb266116d9be4fd8f0a1c27a657a5663c87fb4509e5304b",
+    "gitBlobOid": "11697235ec74c3141e2683cd054144c63a398532",
+    "crlfOrdinals": "all"
+  },
+  "evidence/coverage-observations-v1.json": {
+    "bytes": 6913,
+    "sha256": "df53ac9442667569e4f3dbc6c6b1a74460788f22a1bc1795132d63f68abb86cd",
+    "gitBlobOid": "eca2ac1661903efe01444e01c658668360ce0d1d",
+    "crlfOrdinals": "all"
+  },
+  "evidence/dialogue-independent-extraction-v1.json": {
+    "bytes": 654943,
+    "sha256": "65a6d322657acbf58899eda4851314ee51d12b015a72ea60c08f12a51c520276",
+    "gitBlobOid": "06a35b0a07600ce69b54a53509d1242e7b847c51",
+    "crlfOrdinals": "all"
+  },
+  "evidence/dialogue-preview-check-v1.json": {
+    "bytes": 931,
+    "sha256": "fed63a712bc625783444b895e90045dd7463f70d78cd7ae22ae12562182d480d",
+    "gitBlobOid": "61f3bbd6b30b8fa2e2aa7e1af8fdd00678960b62",
+    "crlfOrdinals": "all"
+  },
+  "evidence/dialogue-source-snapshot-v1.json": {
+    "bytes": 7832,
+    "sha256": "00cf76586a6f07d11d87a982cf1ebe38c8975c630acf91756111e985e761164d",
+    "gitBlobOid": "9ee70a3b588a9576ce9084754957c03b46e072e2",
+    "crlfOrdinals": "all"
+  },
+  "evidence/dialogue-tool-recovery-v1.json": {
+    "bytes": 1476,
+    "sha256": "02faa6f63201a7c38d64f02fedd2c0043669b62a571815a6df0f9e2f102c67e7",
+    "gitBlobOid": "aebb290ca43108176a96ed9c048b4c5c2ff06c8c",
+    "crlfOrdinals": "all"
+  },
+  "evidence/dialogue-zoom-pixel-check-v1.json": {
+    "bytes": 4211,
+    "sha256": "4b44452404ad7850f65e5ba49868d772d166a44bd6f4b4cedac61d6f51395ec0",
+    "gitBlobOid": "24ab1efa32a3de68feb402aceb0782ba8d58a5cc",
+    "crlfOrdinals": "all"
+  },
+  "evidence/expansion-candidates-v1.json": {
+    "bytes": 11956,
+    "sha256": "04b424d99654d5d88bad34ee3535badef190457b578e1eecf3d0053964284417",
+    "gitBlobOid": "ddd41afe2b99f068b0214e2ca222a3a0d76a4dca",
+    "crlfOrdinals": "all"
+  },
+  "evidence/m2-all-scenes-independent-extraction-v1.json": {
+    "bytes": 374,
+    "sha256": "bf0175737ae4678ab29e8a0b8a07780923d78a96ca7d1bf2525473a9a4be2655",
+    "gitBlobOid": "27216f1f421b129b1c9a99204ab4912f0218858b",
+    "crlfOrdinals": "all"
+  },
+  "evidence/m2-all-scenes-independent-extraction-v2.json": {
+    "bytes": 371,
+    "sha256": "3a013b305927800aa777999a447350acc2b23a5bc82374217669c81063c37e9c",
+    "gitBlobOid": "e79c3e9dfa76a9b3b725b872ce20a3971b750cd7",
+    "crlfOrdinals": "all"
+  },
+  "evidence/m2-all-scenes-independent-extraction-v3.json": {
+    "bytes": 561,
+    "sha256": "bf27b294c7bda1ad677ff188610d41453139bb1b03d0daf41644d340b9d0abc0",
+    "gitBlobOid": "636e6a643434dd3b72c1066e3e36bd91005747ff",
+    "crlfOrdinals": "all"
+  },
+  "evidence/m2-all-scenes-independent-extraction-v4.json": {
+    "bytes": 1344,
+    "sha256": "9b9ad23dcc214e01ddff8fca76b260c013b37726feaa834cc44338ece556cd14",
+    "gitBlobOid": "7a32a5c6b510bc5830a1843243935f5599b8abff",
+    "crlfOrdinals": "all"
+  },
+  "evidence/m2-all-scenes-skills-raw-shift-navigation-v1.json": {
+    "bytes": 11764,
+    "sha256": "2877182b288ab76f3e23ffc711d9c24654d7ecc3502b0a6862313750e7464f7f",
+    "gitBlobOid": "7244f9b45f678d15f82fc9507d2f22093d3f9786",
+    "crlfOrdinals": "all"
+  },
+  "evidence/m2-all-scenes-startup-exact-black-v1.json": {
+    "bytes": 766,
+    "sha256": "d70e176d68008fa7271b5ca713e28eba09206d24a9bb8fc4b9f4d699b0601c8f",
+    "gitBlobOid": "bc9c087e22adb14cbf1b55414ad5e9bdab407439",
+    "crlfOrdinals": "all"
+  },
+  "evidence/maven-test-two-arrows-v1.log": {
+    "bytes": 5168,
+    "sha256": "a47704371431643e631a7c655ab4d2e30659ea5d9d0ae76beed8144031325967",
+    "gitBlobOid": "7e9556ea490b6ebefc0aa767e601ff3d711f1043",
+    "crlfOrdinals": "all"
+  },
+  "evidence/media.jsonl": {
+    "bytes": 3376,
+    "sha256": "97b2620565080a54dd64a2a136825fac1ec8c396b9201cf61f4dbd29aa097b55",
+    "gitBlobOid": "8dc99863f5edfa80622eacf27943eb1a5ab0790e",
+    "crlfOrdinals": "all"
+  },
+  "evidence/negative-report.json": {
+    "bytes": 231,
+    "sha256": "aa25e0ae53f0b84179fecfb4eb182b1e8f67794bd95b76c39d43febea6057f5d",
+    "gitBlobOid": "9e35ade97ee6ee05dd3b692397858ca1b9fee0bc",
+    "crlfOrdinals": "all"
+  },
+  "evidence/source-identity-v2.json": {
+    "bytes": 1715,
+    "sha256": "79320ac17cc929c13aeb7c4477768a788b569e72392496a3239cea037362a315",
+    "gitBlobOid": "fbb723d0cb296178bfa41cbb8948709a55a7e895",
+    "crlfOrdinals": "all"
+  },
+  "evidence/source-snapshot-v1.json": {
+    "bytes": 6552,
+    "sha256": "ed70012b173529454165cdbaf8407d80bd80c3064e78c02689ff1382a71e3768",
+    "gitBlobOid": "7d90a57f463fa9853e6f3a1af770f38f0b4d297f",
+    "crlfOrdinals": "all"
+  },
+  "evidence/source-snapshot-v2.json": {
+    "bytes": 6768,
+    "sha256": "93311344a5d44fc34259a363456a605f9266b192a783753578243002205dd878",
+    "gitBlobOid": "f0138ef0f7f450459c4c962ccd1ef504af45968b",
+    "crlfOrdinals": "all"
+  },
+  "evidence/zoom-pixel-check-v1.json": {
+    "bytes": 1500,
+    "sha256": "a0b4010cc29833e4091507add4931b3a06c03b7401018870f4ee03aabeb629b5",
+    "gitBlobOid": "8330486843af98b6686db14876a5e86a9438bc11",
+    "crlfOrdinals": "all"
+  },
+  "exploration-npc/annotations/all-scenes-exploration-npc-clip-v1.json": {
+    "bytes": 1183,
+    "sha256": "683ded9fa72dae6ac99ab9a223c5a13d874cbb5cf2570c36fd0efed893b155cd",
+    "gitBlobOid": "75032bd78ab75206b6774aff9c0ed05ad9312689",
+    "crlfOrdinals": "all"
+  },
+  "exploration-npc/annotations/layout-v1.json": {
+    "bytes": 388,
+    "sha256": "1e33811935546f3ac25a4c65cb073f4cc6c2b36a3b9ec2366c79128f4d7c30be",
+    "gitBlobOid": "592b4bc19e01e9fa5788f2f0870f7052e3579d76",
+    "crlfOrdinals": "all"
+  },
+  "exploration-npc/annotations/manual-pass1.json": {
+    "bytes": 1131,
+    "sha256": "6938bd5bbc8a7aff01e2d556469539b2b064b39bc0292ecc7e5f18838b533dbb",
+    "gitBlobOid": "31a9e2278f10f35c7831d4b73e34b8f813d99109",
+    "crlfOrdinals": "all"
+  },
+  "exploration-npc/annotations/manual-pass2.json": {
+    "bytes": 8194,
+    "sha256": "56893b8b15a6e51fd905f61b34fa60a2384ee053594f0e19fc8b42d5e4f81bcc",
+    "gitBlobOid": "9746c0962cc3973fd9031f78ff3e708795185632",
+    "crlfOrdinals": "all"
+  },
+  "exploration-npc/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 17756,
+    "sha256": "bf0115bd065ea26cdd87b12c12eaec3cbe583db661676ee80b699acd64e126a3",
+    "gitBlobOid": "75e0feed164d0fd9249f57f7bdda82e0822a3250",
+    "crlfOrdinals": "all"
+  },
+  "exploration-npc/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "exploration-npc/annotations/pass-differences-v1.json": {
+    "bytes": 468,
+    "sha256": "131d04edac0e1cccce4247b179bc031b949bcfb04c8ae97425f650c80d09b619",
+    "gitBlobOid": "fdc29d4572e5ff096fb49ecb445fda8b201a1f14",
+    "crlfOrdinals": "all"
+  },
+  "exploration-npc/evidence/decode.stderr": {
+    "bytes": 93,
+    "sha256": "10835b657601c0687be154474c173973010cf984cee0ad8120969ae2cd912f91",
+    "gitBlobOid": "a591882612c470094a55b8e2df35e90158027703",
+    "crlfOrdinals": "all"
+  },
+  "gym-sign-continuation/annotations/dialogue-gym-sign-continuation-clip-v1.json": {
+    "bytes": 1256,
+    "sha256": "a4228dffe9e79abf28fc48a324f9a9502382019857926080218bbd2ca0188794",
+    "gitBlobOid": "07a2b0d484002d1c7b1f500dd1ddfa72f5235d46",
+    "crlfOrdinals": "all"
+  },
+  "gym-sign-continuation/annotations/first-snapshots.json": {
+    "bytes": 711,
+    "sha256": "46f3c33f6e6a0726cec8a46b1e6561e5656db29dd1769b22d45c5813c73ac72b",
+    "gitBlobOid": "02d0d82d34996f3b800d0baf988b3cac1defd744",
+    "crlfOrdinals": "all"
+  },
+  "gym-sign-continuation/annotations/layout-v1.json": {
+    "bytes": 490,
+    "sha256": "62a0c9aba91f3ab7a2650ccf6d8683fcb7084bf5f59c9db398942f7775423551",
+    "gitBlobOid": "fe265a7c9ed1c18c9eecabf0a580560d507eca95",
+    "crlfOrdinals": "all"
+  },
+  "gym-sign-continuation/annotations/manual-pass1.json": {
+    "bytes": 2977,
+    "sha256": "fde12f3228ee7431915fea669d590aa8d30f619eb2a1e1d9e8cb12c968a93772",
+    "gitBlobOid": "142a3213ed0cb68edcc011782fe3840cf40c9cc1",
+    "crlfOrdinals": "all"
+  },
+  "gym-sign-continuation/annotations/manual-pass2.json": {
+    "bytes": 3257,
+    "sha256": "76dafdbdf8e67ec1316c215a88cbcf2ba0c4842818a97ffd2564117683f3d3f6",
+    "gitBlobOid": "13ebee51783730ba712e461684211bd40fc67c8d",
+    "crlfOrdinals": "all"
+  },
+  "gym-sign-continuation/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 5285,
+    "sha256": "1bba4ef8edf53a76cf4e324926e883a1dad45fce4e960b00716001e69373c117",
+    "gitBlobOid": "d322d231b8d919e7dc726011efa9810fe5b7fc51",
+    "crlfOrdinals": "all"
+  },
+  "gym-sign-continuation/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "gym-sign-continuation/annotations/pass-differences-v1.json": {
+    "bytes": 492,
+    "sha256": "539a373140a220c4e3536ada9203ebfe3763a96f8835a513af3baa95bcaac4da",
+    "gitBlobOid": "b3459f06729b69819c9a86d29b79f0dc8b341ee0",
+    "crlfOrdinals": "all"
+  },
+  "gym-sign-continuation/evidence/decode.command.json": {
+    "bytes": 1206,
+    "sha256": "fef47b7784fb331d8535ba568b0bbbfafefbcbf3958e8691a083db7a94394f9a",
+    "gitBlobOid": "3537eca0451c76d03c290de5f2d0e572b6c28a1e",
+    "crlfOrdinals": "all"
+  },
+  "gym-sign-continuation/evidence/verification.json": {
+    "bytes": 30867,
+    "sha256": "074359d2c256fdbf60393d5b49fec8d914d57a181feb63cc4b02fb3714f6ea1a",
+    "gitBlobOid": "e60af11a841e88d27af479e2d6bd36f5a68532d9",
+    "crlfOrdinals": "all"
+  },
+  "intro-creatures/annotations/dialogue-intro-creatures-clip-v1.json": {
+    "bytes": 1217,
+    "sha256": "8ba111ca947c40c8c03ac5a6e53723f17999f03048439e74330a59024fcbf83f",
+    "gitBlobOid": "be455a4f7db53a3ac5a0d64a9d9f1a06004a7965",
+    "crlfOrdinals": "all"
+  },
+  "intro-creatures/annotations/layout-v1.json": {
+    "bytes": 437,
+    "sha256": "728f4bc755c0c4713137f4da08bbdd411b3c6bcb353378753b96a400be2b5ca2",
+    "gitBlobOid": "3b0385afac576ea702eaadb93df95a71218036fc",
+    "crlfOrdinals": "all"
+  },
+  "intro-creatures/annotations/manual-pass1.json": {
+    "bytes": 9742,
+    "sha256": "7a4480f9e1c4298c80207c5042d76437fc607b2091b133614d112d13eaf0848c",
+    "gitBlobOid": "358c5bf2ee582f5345e790a7aefb2a2bdfd186ba",
+    "crlfOrdinals": "all"
+  },
+  "intro-creatures/annotations/manual-pass2.json": {
+    "bytes": 10602,
+    "sha256": "fbb7a12e38c35d53bb3a4758d9e45481d415475491b001ff15b10f2a841408bf",
+    "gitBlobOid": "7a4baca841bde29a9ad90574c2074ecea56bcf63",
+    "crlfOrdinals": "all"
+  },
+  "intro-creatures/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 22234,
+    "sha256": "1626df1c2765ee1abc706014369bf898b4dac18f9d099c75714a91d9e3f05e38",
+    "gitBlobOid": "99ed80a324accd221e91c8b9efab634e83951bfe",
+    "crlfOrdinals": "all"
+  },
+  "intro-creatures/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "intro-creatures/annotations/pass-differences-v1.json": {
+    "bytes": 613,
+    "sha256": "3e6b0388d011fb8eb582b038ff9bff9c7d2103fa9ad96afb1fc8056966ebd374",
+    "gitBlobOid": "7d93213a6ccf720b39f049d6afd2f609730b33ae",
+    "crlfOrdinals": "all"
+  },
+  "intro-creatures/evidence/decode.command.json": {
+    "bytes": 1178,
+    "sha256": "c991bbe85214218b82802663f12a271339b222c9fe54b3f640b7d090d634b354",
+    "gitBlobOid": "8d51a20d6979055c9551a65a4397b6880261279e",
+    "crlfOrdinals": "all"
+  },
+  "intro-creatures/evidence/decode.stderr": {
+    "bytes": 93,
+    "sha256": "de8de05185e5ce2af2fdcbf162960ae63431a6e07eab8a46a9cce8a186e97d81",
+    "gitBlobOid": "2083b7a0b04663226edd9ed15c4a99578db6ed07",
+    "crlfOrdinals": "all"
+  },
+  "intro-creatures/evidence/verification.json": {
+    "bytes": 35706,
+    "sha256": "905ada05bdab891a909c36ee3ff2b6c84a6df1c19abf19556ac8a6cc734c909e",
+    "gitBlobOid": "9ec4bdbfea7d56282656d7b5d5b8cb08c50832c5",
+    "crlfOrdinals": "all"
+  },
+  "intro-greeting/annotations/dialogue-intro-greeting-clip-v1.json": {
+    "bytes": 1209,
+    "sha256": "e82a043ca9bec53c9a0a3baf78b4f3cf5e50d2424bbeb68b0f36100db76a6bcd",
+    "gitBlobOid": "c91eac2fbf4f9d22c1c30d5b1e192d02ee1f8956",
+    "crlfOrdinals": "all"
+  },
+  "intro-greeting/annotations/layout-v1.json": {
+    "bytes": 437,
+    "sha256": "728f4bc755c0c4713137f4da08bbdd411b3c6bcb353378753b96a400be2b5ca2",
+    "gitBlobOid": "3b0385afac576ea702eaadb93df95a71218036fc",
+    "crlfOrdinals": "all"
+  },
+  "intro-greeting/annotations/manual-pass1.json": {
+    "bytes": 8387,
+    "sha256": "aafa7ab4a536f65229212e725ba3182d3f8d4187e31d6367ceb1dcee57bd43e8",
+    "gitBlobOid": "4c00cefb98334abf0100580d03fafc82eb83abca",
+    "crlfOrdinals": "all"
+  },
+  "intro-greeting/annotations/manual-pass2.json": {
+    "bytes": 10411,
+    "sha256": "b9bd528484d28fba0ab76970ed40e0d7f8e1fb125ae237e763a2e1e7c185464c",
+    "gitBlobOid": "3c743daaeb05821fbd335dcfce0a539e1c599e6f",
+    "crlfOrdinals": "all"
+  },
+  "intro-greeting/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 20617,
+    "sha256": "5fb9392e4a722ebc00c55b783f979f345663350dda2f5f15819b9e02f71536e1",
+    "gitBlobOid": "a8b5ffe03a0106f3bc79ad9363c00a4636a92df1",
+    "crlfOrdinals": "all"
+  },
+  "intro-greeting/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "intro-greeting/annotations/pass-differences-v1.json": {
+    "bytes": 1133,
+    "sha256": "ffc7bf475528e70ac11bbeadba0107e83091a69a0a172944f0504b7a0bb638f4",
+    "gitBlobOid": "35acd5bdaa8cfc1f3b4e632be8d8ad75933af055",
+    "crlfOrdinals": "all"
+  },
+  "intro-greeting/evidence/decode.command.json": {
+    "bytes": 1177,
+    "sha256": "e295544dff3f1bed97a0cb4a6d1a60877a3d2c24d9c0dc92ed8eba2024f624c0",
+    "gitBlobOid": "82740b60abfacbec7c3f0ea810b1e6582282901d",
+    "crlfOrdinals": "all"
+  },
+  "intro-greeting/evidence/decode.stderr": {
+    "bytes": 93,
+    "sha256": "de8de05185e5ce2af2fdcbf162960ae63431a6e07eab8a46a9cce8a186e97d81",
+    "gitBlobOid": "2083b7a0b04663226edd9ed15c4a99578db6ed07",
+    "crlfOrdinals": "all"
+  },
+  "intro-greeting/evidence/verification.json": {
+    "bytes": 50490,
+    "sha256": "227ae9ccb29e650e210c7e6249f3fd6389d9468dc8066a0eadc8b2952ca4f247",
+    "gitBlobOid": "72e7b7c6b8f4120e2bf58d226eee2017d87d8181",
+    "crlfOrdinals": "all"
+  },
+  "intro-oak/annotations/dialogue-intro-oak-clip-v1.json": {
+    "bytes": 1202,
+    "sha256": "fa9228f883126df8cf3c659980de0cd52fc08604dbf027cc19f277f74697899b",
+    "gitBlobOid": "b27fd84e52c39620341f9b243b255839df55e74e",
+    "crlfOrdinals": "all"
+  },
+  "intro-oak/annotations/layout-v1.json": {
+    "bytes": 437,
+    "sha256": "728f4bc755c0c4713137f4da08bbdd411b3c6bcb353378753b96a400be2b5ca2",
+    "gitBlobOid": "3b0385afac576ea702eaadb93df95a71218036fc",
+    "crlfOrdinals": "all"
+  },
+  "intro-oak/annotations/manual-pass1.json": {
+    "bytes": 10305,
+    "sha256": "cb7fd8f2c3abbafc8529c4d0d5bf12ddcffc4105a1e71be1fd404e0670913808",
+    "gitBlobOid": "1eb184a99c3007a94f73311abacb0d6fc0ca292a",
+    "crlfOrdinals": "all"
+  },
+  "intro-oak/annotations/manual-pass2.json": {
+    "bytes": 11608,
+    "sha256": "c1b3df0a133676fb47718f52e8442253817e4709d87ce8b02ff1bdaa3b453111",
+    "gitBlobOid": "8c73f7a220d50525a06b9dd3a8fc3c2aead2b1ba",
+    "crlfOrdinals": "all"
+  },
+  "intro-oak/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 22518,
+    "sha256": "d52449d74e27b978019cec111c2d67ba614fea62722d80ecade61e5686b6b68b",
+    "gitBlobOid": "e1c7c018f14b37b6c13989766f98682488a2d260",
+    "crlfOrdinals": "all"
+  },
+  "intro-oak/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "intro-oak/annotations/pass-differences-v1.json": {
+    "bytes": 1485,
+    "sha256": "6ceb546f54a25dbd4691358bcaf72bdc65dff2757d037ae7b3c3aa068c8cb212",
+    "gitBlobOid": "46d202176f94bb3703891ae5ae31879359fd2ef9",
+    "crlfOrdinals": "all"
+  },
+  "intro-oak/evidence/decode.command.json": {
+    "bytes": 1172,
+    "sha256": "f701017cb0d307e4212f66ae001a92f57214500f795a3209b8f23c4b06a8c140",
+    "gitBlobOid": "efb3c1aad48332d7d6b1d74a251b6daabcc7cec5",
+    "crlfOrdinals": "all"
+  },
+  "intro-oak/evidence/decode.stderr": {
+    "bytes": 93,
+    "sha256": "de8de05185e5ce2af2fdcbf162960ae63431a6e07eab8a46a9cce8a186e97d81",
+    "gitBlobOid": "2083b7a0b04663226edd9ed15c4a99578db6ed07",
+    "crlfOrdinals": "all"
+  },
+  "intro-oak/evidence/verification.json": {
+    "bytes": 24954,
+    "sha256": "7925447f987f3fa0c3d9a7991f769966f7f96dc2d9e9ad38e9c4943c53bd3c02",
+    "gitBlobOid": "058463f614c92c0f02fbfffdd8ab286757ed8e23",
+    "crlfOrdinals": "all"
+  },
+  "intro-pets/annotations/dialogue-intro-pets-clip-v1.json": {
+    "bytes": 1204,
+    "sha256": "d5e2e8e970642494ce4590d112209a04c020a689ee1fadb7f759d699d53a15df",
+    "gitBlobOid": "2c03dc79108ed4cb17f04204a8935ace12daa91a",
+    "crlfOrdinals": "all"
+  },
+  "intro-pets/annotations/layout-v1.json": {
+    "bytes": 437,
+    "sha256": "728f4bc755c0c4713137f4da08bbdd411b3c6bcb353378753b96a400be2b5ca2",
+    "gitBlobOid": "3b0385afac576ea702eaadb93df95a71218036fc",
+    "crlfOrdinals": "all"
+  },
+  "intro-pets/annotations/manual-pass1.json": {
+    "bytes": 9748,
+    "sha256": "8440f5ab5d5b99095b33c8425526cc9145204d4434575c02530a09fe187fde64",
+    "gitBlobOid": "1fedef3f263e2daf0d1d9db3903618a9c892a37d",
+    "crlfOrdinals": "all"
+  },
+  "intro-pets/annotations/manual-pass2.json": {
+    "bytes": 10450,
+    "sha256": "9746c80679f7137bd9a591e990274857c9fe7d432bdf99486a87f593c3b610c8",
+    "gitBlobOid": "027b674a120d5d06cde0583131b9757abb5b4b56",
+    "crlfOrdinals": "all"
+  },
+  "intro-pets/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 21229,
+    "sha256": "eb52362faf101b0bcdbf67d6584de95b4776a73c72a3b2714447031ed3c464fa",
+    "gitBlobOid": "43aa95498f74eafcf72d0d7c4ccc2d2837575198",
+    "crlfOrdinals": "all"
+  },
+  "intro-pets/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "intro-pets/annotations/pass-differences-v1.json": {
+    "bytes": 1331,
+    "sha256": "67f45cb845a3ac691528c1c176628d1bd09afdb556b90c3e9b6827d6e22e669d",
+    "gitBlobOid": "3d1bf52a5decc6f8c36a1f8b0fa2dc8fc16e0e53",
+    "crlfOrdinals": "all"
+  },
+  "intro-pets/evidence/decode.command.json": {
+    "bytes": 1173,
+    "sha256": "4d24f375bb355140d165bf1fc643f74907d886b91f1d8d1c5fba3aa82d2735de",
+    "gitBlobOid": "ff23c3ed99021e8461584dda211c6c474978c81a",
+    "crlfOrdinals": "all"
+  },
+  "intro-pets/evidence/decode.stderr": {
+    "bytes": 93,
+    "sha256": "de8de05185e5ce2af2fdcbf162960ae63431a6e07eab8a46a9cce8a186e97d81",
+    "gitBlobOid": "2083b7a0b04663226edd9ed15c4a99578db6ed07",
+    "crlfOrdinals": "all"
+  },
+  "intro-pets/evidence/verification.json": {
+    "bytes": 33914,
+    "sha256": "29c5d0958bfcb4b9f4ef3164000be1bd490e6247ebcad9756bf41be7d8113621",
+    "gitBlobOid": "00422fdaccc69572b3a8524d098c9b2624bfa408",
+    "crlfOrdinals": "all"
+  },
+  "intro-research/annotations/dialogue-intro-research-clip-v1.json": {
+    "bytes": 1206,
+    "sha256": "5701b3b0e84db19a333d4448eec0b875306e522d4b7366109af9154db51f1e87",
+    "gitBlobOid": "095efa1b9054e4a6239e07f4ae4d7509931eeba5",
+    "crlfOrdinals": "all"
+  },
+  "intro-research/annotations/layout-v1.json": {
+    "bytes": 437,
+    "sha256": "728f4bc755c0c4713137f4da08bbdd411b3c6bcb353378753b96a400be2b5ca2",
+    "gitBlobOid": "3b0385afac576ea702eaadb93df95a71218036fc",
+    "crlfOrdinals": "all"
+  },
+  "intro-research/annotations/manual-pass1.json": {
+    "bytes": 8671,
+    "sha256": "b25231fe78acf71a90a8014aa8cacc9c91f0fb14d82a7ded10f2ee61a879e833",
+    "gitBlobOid": "634aebeed851590260ef41c152bb98c1983b234e",
+    "crlfOrdinals": "all"
+  },
+  "intro-research/annotations/manual-pass2.json": {
+    "bytes": 9393,
+    "sha256": "e1133f96e001885a228bf4204ff635a31623fa8c7c4d890b5980592c9c8819ee",
+    "gitBlobOid": "481108c70196a8b0ae0335f27f2506023406bc46",
+    "crlfOrdinals": "all"
+  },
+  "intro-research/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 19107,
+    "sha256": "8365aa2103918239e31637cb163b74a417ec3841399b5dd00fa28733c6817b32",
+    "gitBlobOid": "caa48798c8dec13dae6383f2d60627964655994b",
+    "crlfOrdinals": "all"
+  },
+  "intro-research/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "intro-research/annotations/pass-differences-v1.json": {
+    "bytes": 831,
+    "sha256": "d5853c021d7517baa20475abb6feb85c1f5e08650592953a5d551bd475df80d1",
+    "gitBlobOid": "2b0dcc15e49e4a7acd0b76f0861bcbe13863b67c",
+    "crlfOrdinals": "all"
+  },
+  "intro-research/evidence/decode.command.json": {
+    "bytes": 1177,
+    "sha256": "b219f5fd45c45a3d94a93ab8e44f54cb775386d77008cdeaae981fbf4fe33f66",
+    "gitBlobOid": "44541c8dc01fcfe73113babfffe8ba5038cb6662",
+    "crlfOrdinals": "all"
+  },
+  "intro-research/evidence/decode.stderr": {
+    "bytes": 93,
+    "sha256": "de8de05185e5ce2af2fdcbf162960ae63431a6e07eab8a46a9cce8a186e97d81",
+    "gitBlobOid": "2083b7a0b04663226edd9ed15c4a99578db6ed07",
+    "crlfOrdinals": "all"
+  },
+  "intro-research/evidence/verification.json": {
+    "bytes": 36602,
+    "sha256": "c08c316caf116b7b297aa2aa6db2b82adf23f4381c03be137d680f1c479d6ed4",
+    "gitBlobOid": "b210cf004d3b0faa8cf874d8f211b65d10bf8be3",
+    "crlfOrdinals": "all"
+  },
+  "lab-oak-reply/annotations/dialogue-lab-oak-reply-clip-v1.json": {
+    "bytes": 1223,
+    "sha256": "25fea093b11576a72382ad485de98d054f20d2fce75bd4e891a6119ed532c840",
+    "gitBlobOid": "353b0b1a1a1431dcf93f91592ac112078f47ec8f",
+    "crlfOrdinals": "all"
+  },
+  "lab-oak-reply/annotations/first-snapshots.json": {
+    "bytes": 1966,
+    "sha256": "a781aef994fefdb358788c724556f0b8717fbbc62124fee53ffd811f4c44f7e3",
+    "gitBlobOid": "9a2f9779b953270b27e7bf680b966ae9a5b87ffe",
+    "crlfOrdinals": "all"
+  },
+  "lab-oak-reply/annotations/layout-v1.json": {
+    "bytes": 491,
+    "sha256": "c958546e8494047539665354dffbb7ce30ec130175912070f688f8f572244334",
+    "gitBlobOid": "6b0d8bc7eae26002eb78b053e2079dd2c5ceb88b",
+    "crlfOrdinals": "all"
+  },
+  "lab-oak-reply/annotations/manual-pass1.json": {
+    "bytes": 9530,
+    "sha256": "7375a9efb766db5ae02e53e9f54d76fcb9c7bf92f2100a0a9db5635744c6e990",
+    "gitBlobOid": "ad4128d5ad716daf44794b83391e1f78df79de8e",
+    "crlfOrdinals": "all"
+  },
+  "lab-oak-reply/annotations/manual-pass2.json": {
+    "bytes": 9050,
+    "sha256": "cceaf0fb89aae263379d7883a1ae3ad960d547b790d291afbc6ad7b1740727b7",
+    "gitBlobOid": "c30dbfb0116bf226000336e9a0122a2e850a27e0",
+    "crlfOrdinals": "all"
+  },
+  "lab-oak-reply/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 18707,
+    "sha256": "25cfbbbef18a419ee44f296e252af54150b5feb7ef4b27a5336f360415a303b8",
+    "gitBlobOid": "742ffbdaa9897447e162a61d6c51bf7b7d55810e",
+    "crlfOrdinals": "all"
+  },
+  "lab-oak-reply/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "lab-oak-reply/annotations/pass-differences-v1.json": {
+    "bytes": 924,
+    "sha256": "241e67c9d8e3a4a877e625d6c61ee6651a3a496e52cb141cc0d710c3a7a20bb6",
+    "gitBlobOid": "0ac110958489e49c7da62a2b1387304bc4643886",
+    "crlfOrdinals": "all"
+  },
+  "lab-oak-reply/evidence/decode.command.json": {
+    "bytes": 1185,
+    "sha256": "753ed9e61a583c1018aeed15fb38531806d24dc8aaa2e833f8396c95962426e0",
+    "gitBlobOid": "06dec100029c692c6180b9002ebfdad82bef5e3d",
+    "crlfOrdinals": "all"
+  },
+  "lab-oak-reply/evidence/decode.stderr": {
+    "bytes": 93,
+    "sha256": "a663c832c2833c9a3efe9a1ad5d3ee27c03ad7fc7dc30c1616b59f0f38dc0b28",
+    "gitBlobOid": "3fa38979329411fe5ccecbfb24c0296196f5b4d6",
+    "crlfOrdinals": "all"
+  },
+  "lab-oak-reply/evidence/verification.json": {
+    "bytes": 38201,
+    "sha256": "8e533e345dc7410038502a1b34ae61f033711c6747b43ee29c05ea59e132de99",
+    "gitBlobOid": "459e0582965b9273df07b9a18bada1a028557fc8",
+    "crlfOrdinals": "all"
+  },
+  "lab-rival-demand/annotations/dialogue-lab-rival-demand-clip-v1.json": {
+    "bytes": 1229,
+    "sha256": "fb9a7681b522b67a10ec0c24674d3f7202d7641cc52664f33acad95b3214b3ff",
+    "gitBlobOid": "81a9715252af4c081a755bc4495ac9f1296946bc",
+    "crlfOrdinals": "all"
+  },
+  "lab-rival-demand/annotations/first-snapshots.json": {
+    "bytes": 1491,
+    "sha256": "8b8a84bea610ad2193662abaf8fec09bf95ad3ee683ee039065ea0746e58f2a4",
+    "gitBlobOid": "5c642da654ba1368f612fcb022088bcf39f4a521",
+    "crlfOrdinals": "all"
+  },
+  "lab-rival-demand/annotations/layout-v1.json": {
+    "bytes": 491,
+    "sha256": "c958546e8494047539665354dffbb7ce30ec130175912070f688f8f572244334",
+    "gitBlobOid": "6b0d8bc7eae26002eb78b053e2079dd2c5ceb88b",
+    "crlfOrdinals": "all"
+  },
+  "lab-rival-demand/annotations/manual-pass1.json": {
+    "bytes": 6639,
+    "sha256": "f8d164f15fbc6825fd1fde569642d73b6385551ba457ae3d907017df671e916f",
+    "gitBlobOid": "ecd499b52ceea52c743811c7afb6ccfb403fc4cf",
+    "crlfOrdinals": "all"
+  },
+  "lab-rival-demand/annotations/manual-pass2.json": {
+    "bytes": 6159,
+    "sha256": "67326f3513bd221c7421ad0ce629c40aa3e1bd3903084860d8c5d4aae7056bd6",
+    "gitBlobOid": "2cd4474f613af79bca8476d0171aaa28896b339c",
+    "crlfOrdinals": "all"
+  },
+  "lab-rival-demand/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 13537,
+    "sha256": "fb9f3fecdd28d386fc95a72e6975560ee081e0750f5f00839259db73ebc31de2",
+    "gitBlobOid": "8c4ae3528126cd097c51f26321fee8c5879408cb",
+    "crlfOrdinals": "all"
+  },
+  "lab-rival-demand/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "lab-rival-demand/annotations/pass-differences-v1.json": {
+    "bytes": 542,
+    "sha256": "f76e65e77f7407f00f380beb99ddf0566d30c1f9c4685c557741938dba7f21b4",
+    "gitBlobOid": "d6f1e0a05d1214a0c66c79a755f11409d8293e6d",
+    "crlfOrdinals": "all"
+  },
+  "lab-rival-demand/evidence/decode.command.json": {
+    "bytes": 1188,
+    "sha256": "34a2edf31d66346bbd966609ddd171741086b7d0db9e580190fa130baeff8f00",
+    "gitBlobOid": "15156086f002a0ca8c981f79b104d22e660a32b0",
+    "crlfOrdinals": "all"
+  },
+  "lab-rival-demand/evidence/decode.stderr": {
+    "bytes": 93,
+    "sha256": "a663c832c2833c9a3efe9a1ad5d3ee27c03ad7fc7dc30c1616b59f0f38dc0b28",
+    "gitBlobOid": "3fa38979329411fe5ccecbfb24c0296196f5b4d6",
+    "crlfOrdinals": "all"
+  },
+  "lab-rival-demand/evidence/verification.json": {
+    "bytes": 21514,
+    "sha256": "9a6e2c1fcaec5ae5c420e27b4a7176d6c71b5f1f5a82c8840d68f89e681c3213",
+    "gitBlobOid": "8497fc85e2db3bea2256cd7ec8cd3541f5f7a9e5",
+    "crlfOrdinals": "all"
+  },
+  "league-centre-npc/annotations/dialogue-league-centre-npc-clip-v1.json": {
+    "bytes": 1227,
+    "sha256": "52f5ae9f9deb33429d8b738a8d37e2b774f00580ffae757e48c1e0499906bf07",
+    "gitBlobOid": "e6f9f719594bd59ec81da1b1aa8d9e2435109a68",
+    "crlfOrdinals": "all"
+  },
+  "league-centre-npc/annotations/first-snapshots.json": {
+    "bytes": 3378,
+    "sha256": "beb23f0b302849ef9c9c285af4f2d8db4708218ce789584bbacdd888e1ec6a45",
+    "gitBlobOid": "c560b5077169e23fbe4f38db8c06e0684b5a1e07",
+    "crlfOrdinals": "all"
+  },
+  "league-centre-npc/annotations/layout-v1.json": {
+    "bytes": 552,
+    "sha256": "75bb52c49c80b0591f5d47c4d7474c6fc66c6ec2b58502bf8c29946d6ece6ebf",
+    "gitBlobOid": "e2920381511f96d0fd706f5317a9a04f93059589",
+    "crlfOrdinals": "all"
+  },
+  "league-centre-npc/annotations/manual-pass1.json": {
+    "bytes": 16306,
+    "sha256": "c78bf625bed7d4cec5c877bd29f0f9cf9b84011c85e00e8b061c1bddb4e71e8d",
+    "gitBlobOid": "e5f10f4e0e053dbfa96c25a000ad424c4af0fcce",
+    "crlfOrdinals": "all"
+  },
+  "league-centre-npc/annotations/manual-pass2.json": {
+    "bytes": 16405,
+    "sha256": "82fc30dee90ccfb34ec834756f38b34cdc6692cfa5047856798354c5c1737efe",
+    "gitBlobOid": "0dc4f825c7f9cb8e48fb78504a59608944b9dd99",
+    "crlfOrdinals": "all"
+  },
+  "league-centre-npc/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 34128,
+    "sha256": "905e4857e1d546359968dd730fd08d02ea0587e7f2ac9092db4227c764a08aae",
+    "gitBlobOid": "55c4ffc81ecb92f252dced18ecac0c34a3504a21",
+    "crlfOrdinals": "all"
+  },
+  "league-centre-npc/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "league-centre-npc/annotations/pass-differences-v1.json": {
+    "bytes": 475,
+    "sha256": "5b77ae09f2c2b9277163d10fbab0def8a3c422c2c18c9f0596ed31becc940e90",
+    "gitBlobOid": "4ae79a1b68c5bf7bfa2193156b51f2fd242c7593",
+    "crlfOrdinals": "all"
+  },
+  "league-centre-npc/evidence/decode.command.json": {
+    "bytes": 1194,
+    "sha256": "3c1f6177c3a8d4e085eb0f72664463fe6e3305b3cad66a6e634c69a47f3c7415",
+    "gitBlobOid": "dfbd32807d2a1f931690f4fe6345c71fa26bed32",
+    "crlfOrdinals": "all"
+  },
+  "league-centre-npc/evidence/verification.json": {
+    "bytes": 67193,
+    "sha256": "e150a5ad2fa099fe55b8bc1f4e7e5e701d3a83cfb7779c8d5573e4b2e147cfb0",
+    "gitBlobOid": "781378a372b0a720a6178e7e701593770bc4821b",
+    "crlfOrdinals": "all"
+  },
+  "mart-child/annotations/dialogue-mart-child-clip-v1.json": {
+    "bytes": 1200,
+    "sha256": "5a83a86594c70c266372efeab73bfe9eace6bf56615ad3418027b56d9f3b54c3",
+    "gitBlobOid": "95f0f42edfe5a1e70853de530e1937fee6351fd8",
+    "crlfOrdinals": "all"
+  },
+  "mart-child/annotations/first-snapshots.json": {
+    "bytes": 1177,
+    "sha256": "39b14179e72490cb8e16d5be3dc94ee48afa5d96081ccb3a5166970143144496",
+    "gitBlobOid": "5748820aae324d9c6dd83b56e45fabf2e78380c1",
+    "crlfOrdinals": "all"
+  },
+  "mart-child/annotations/layout-v1.json": {
+    "bytes": 555,
+    "sha256": "863e75815f73556066c54d745d8562c5a6ea4ef43ec6497874c859c52d955073",
+    "gitBlobOid": "79759f68a52f8a0f6daec460deb34351cac1df36",
+    "crlfOrdinals": "all"
+  },
+  "mart-child/annotations/manual-pass1.json": {
+    "bytes": 5460,
+    "sha256": "f816d5dd598be64d7f8db1a2df203831e41e2ea362a6eaff5f396308cf2fdc8c",
+    "gitBlobOid": "c8cd302b80d2492314b6ef113564e5ac18bfedd5",
+    "crlfOrdinals": "all"
+  },
+  "mart-child/annotations/manual-pass2.json": {
+    "bytes": 5506,
+    "sha256": "7c06d6304295a34c88e3b4a5d29690afa01ca391b142930a6ce1afede28c11cb",
+    "gitBlobOid": "7c55c85fc663aebb0c003d7d511173766040ade3",
+    "crlfOrdinals": "all"
+  },
+  "mart-child/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 12372,
+    "sha256": "57302296167dddbc676bc51fdd6dfd7fc091fbda9915182ee9cd034d5fd28da3",
+    "gitBlobOid": "5ea40f070fd19f3d3d2d444864a8c380e4dc233e",
+    "crlfOrdinals": "all"
+  },
+  "mart-child/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "mart-child/annotations/pass-differences-v1.json": {
+    "bytes": 526,
+    "sha256": "67bfbd0ca0f954dd14c5368b90f34761e3672ae75ec4105f8d68e930d82b928c",
+    "gitBlobOid": "8c559c106bdbc9e09a7209738e3dbbf3fbfeefd3",
+    "crlfOrdinals": "all"
+  },
+  "mart-child/evidence/decode.command.json": {
+    "bytes": 1185,
+    "sha256": "91aad86d34d5d467588bd9f6b80b9d880cf7c629869673277ebb7fb2fbe8bbd5",
+    "gitBlobOid": "b167a85e94b431d7925839873cd0be5952aa47ac",
+    "crlfOrdinals": "all"
+  },
+  "mart-child/evidence/verification.json": {
+    "bytes": 27944,
+    "sha256": "0e6754f2e7764cf856d865bec8c2e2095000c608c8f2bd8b83dc32378e79758b",
+    "gitBlobOid": "1198e12beffc5b500318b0e40e9eda0522e07438",
+    "crlfOrdinals": "all"
+  },
+  "museum-fee/annotations/dialogue-museum-fee-clip-v1.json": {
+    "bytes": 1213,
+    "sha256": "25bbedeab673ca6e32ce8fdd5b0d2e6003dd3dc911f0cea199d14f6e3dca5cf5",
+    "gitBlobOid": "5ac8a4855383bb486a022bae6b5f88fa8c8c8b16",
+    "crlfOrdinals": "all"
+  },
+  "museum-fee/annotations/first-snapshots.json": {
+    "bytes": 2496,
+    "sha256": "ab7548092e1b63ad56337d4fb80ac237e0c42fb0e1622cce33ca82de196492b8",
+    "gitBlobOid": "29c62d06d7f115027a47418f61f5562ce6391e19",
+    "crlfOrdinals": "all"
+  },
+  "museum-fee/annotations/layout-v1.json": {
+    "bytes": 493,
+    "sha256": "5e0794671ae088bed7d473f3c230c35b9c77f6d07552d3c840fcc34ae1a0d2ce",
+    "gitBlobOid": "4e4db1aad33499f071001e5babbde3d3a1895e2a",
+    "crlfOrdinals": "all"
+  },
+  "museum-fee/annotations/manual-pass1.json": {
+    "bytes": 13527,
+    "sha256": "415509297592761800ca35cca8443de854b3452564f99d616db9e5d2551790fa",
+    "gitBlobOid": "c33f4a2025a2efffb440a5a03653eeebf56632ee",
+    "crlfOrdinals": "all"
+  },
+  "museum-fee/annotations/manual-pass2.json": {
+    "bytes": 13566,
+    "sha256": "57aaaa7884ab630ed250e554dd0dc1d7cf36944fe722814ca4e081b6b2060476",
+    "gitBlobOid": "a88d5cd75e2e284656c32ac5be5afd25c93dd3a2",
+    "crlfOrdinals": "all"
+  },
+  "museum-fee/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 29229,
+    "sha256": "33014ad37ded7bfa6d4b215eda7c04fe3e60c8ed09feac14af601239ba3d1351",
+    "gitBlobOid": "7cc440e69d7945af2c1f1cf80a6ae14f0865b47e",
+    "crlfOrdinals": "all"
+  },
+  "museum-fee/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "museum-fee/annotations/pass-differences-v1.json": {
+    "bytes": 515,
+    "sha256": "b7a500d22d6e8815a536f73e11d2598235f68105049a04a1432bc50694f42786",
+    "gitBlobOid": "852a94499448ad6acc195db633515bcf7e5664b0",
+    "crlfOrdinals": "all"
+  },
+  "museum-fee/evidence/decode.command.json": {
+    "bytes": 1193,
+    "sha256": "43fcaaea672374657259a2bfee29009b45bf090acc371442ce56861e6a1b3271",
+    "gitBlobOid": "7a59fd759e699097230c8ea55659a76a22d07dc5",
+    "crlfOrdinals": "all"
+  },
+  "museum-fee/evidence/verification.json": {
+    "bytes": 56857,
+    "sha256": "0e4816713d5fd330d0757034adfeadfcc639159ff41f92429f2f155bead946e8",
+    "gitBlobOid": "6a1f3cd637c162f14810ed022cec036b6c120f59",
+    "crlfOrdinals": "all"
+  },
+  "museum-question/annotations/dialogue-museum-question-clip-v1.json": {
+    "bytes": 1226,
+    "sha256": "160c2406955e0bb41787da1ab95b539e1a869b895a4ad1ba577b7845e4230f98",
+    "gitBlobOid": "614ce6d1dd1d1978e624e718a1d7c505098cc708",
+    "crlfOrdinals": "all"
+  },
+  "museum-question/annotations/first-snapshots.json": {
+    "bytes": 2202,
+    "sha256": "7a4eeea3e7c12d207733241c943a8a9a85314006811338491d0ffc52c5bf214a",
+    "gitBlobOid": "913af133df38f2e9aa9712ff13d9d3c1004ab34c",
+    "crlfOrdinals": "all"
+  },
+  "museum-question/annotations/layout-v1.json": {
+    "bytes": 493,
+    "sha256": "5e0794671ae088bed7d473f3c230c35b9c77f6d07552d3c840fcc34ae1a0d2ce",
+    "gitBlobOid": "4e4db1aad33499f071001e5babbde3d3a1895e2a",
+    "crlfOrdinals": "all"
+  },
+  "museum-question/annotations/manual-pass1.json": {
+    "bytes": 12294,
+    "sha256": "bf52bc2d2b08222bf5542ed0ff98ae3f57b11945d6630dfe4d99e6edcd3dd471",
+    "gitBlobOid": "f085a7e26312a02ad6406d6c4453ff110cb5626c",
+    "crlfOrdinals": "all"
+  },
+  "museum-question/annotations/manual-pass2.json": {
+    "bytes": 12349,
+    "sha256": "d1af1b1c9b61d82b4afe30c01c926604c86c84d16dd65ccbd6037791b4446e53",
+    "gitBlobOid": "67c9618a6ff50199faacb29c824719c8fbd66e13",
+    "crlfOrdinals": "all"
+  },
+  "museum-question/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 25000,
+    "sha256": "136efff3d1c62bb3c97d2245830c3b578f1c2ec91c82a84b4ca0f7848029b92f",
+    "gitBlobOid": "06a96d8d895137976be7a2271d85763336d9687b",
+    "crlfOrdinals": "all"
+  },
+  "museum-question/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "museum-question/annotations/pass-differences-v1.json": {
+    "bytes": 531,
+    "sha256": "de1d93d144f6cab7c3e0f3e032609685993767f9ab2947cff084227c81483063",
+    "gitBlobOid": "08ebd6d0e9ab053396689d0c3dc44520f8ec38f3",
+    "crlfOrdinals": "all"
+  },
+  "museum-question/evidence/decode.command.json": {
+    "bytes": 1198,
+    "sha256": "d4769d117ab927bea3f5dd1c357555cea39bdbbdb3e937ea2f62b02a17908f42",
+    "gitBlobOid": "0547babe68afb0bded3ba8316301c64a09ebe927",
+    "crlfOrdinals": "all"
+  },
+  "museum-question/evidence/verification.json": {
+    "bytes": 52297,
+    "sha256": "e863b07a31993e8f3e186f63f05c6d05268066c54a41dd011d9bde0f13a9ca3f",
+    "gitBlobOid": "c7178435321239f3b173b91469b57c1659169088",
+    "crlfOrdinals": "all"
+  },
+  "nurse-greeting/annotations/dialogue-nurse-greeting-clip-v1.json": {
+    "bytes": 1230,
+    "sha256": "fdf7beead036ae320afb3bde5b32700065eecfb1b864f8d5b9b0fd10ce2d3dd4",
+    "gitBlobOid": "f65c2352c494c9fb906d44c3b65fbf761fa61c66",
+    "crlfOrdinals": "all"
+  },
+  "nurse-greeting/annotations/first-snapshots.json": {
+    "bytes": 2556,
+    "sha256": "3c845fb4df9ee444c6a7ccb518e4dd7859b85c2b1f6921d82612cac7344f1f6e",
+    "gitBlobOid": "48a5ac9dae652e6834fe51b85c663fc607de15ff",
+    "crlfOrdinals": "all"
+  },
+  "nurse-greeting/annotations/layout-v1.json": {
+    "bytes": 552,
+    "sha256": "75bb52c49c80b0591f5d47c4d7474c6fc66c6ec2b58502bf8c29946d6ece6ebf",
+    "gitBlobOid": "e2920381511f96d0fd706f5317a9a04f93059589",
+    "crlfOrdinals": "all"
+  },
+  "nurse-greeting/annotations/manual-pass1.json": {
+    "bytes": 10945,
+    "sha256": "493d0754adfd5ada822aaf26b90d93f7b763a09c5640b7dea8945f82240cf4a4",
+    "gitBlobOid": "a49fc1caa533df9408fcee4b35888e0c7437cb34",
+    "crlfOrdinals": "all"
+  },
+  "nurse-greeting/annotations/manual-pass2.json": {
+    "bytes": 11098,
+    "sha256": "a1bc811a9ba0b17bb8a6a929cabe42d3bfa15cabf59f0c721c49020890c85eb7",
+    "gitBlobOid": "fa58f77246454319f44bf7959f38efea877c35aa",
+    "crlfOrdinals": "all"
+  },
+  "nurse-greeting/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 23246,
+    "sha256": "b774009a253707e30cf7ac47591299e19401afbceda5f48970b65c33516e134e",
+    "gitBlobOid": "40b59e1b50a620f651c8407bc04d125c078538a5",
+    "crlfOrdinals": "all"
+  },
+  "nurse-greeting/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "nurse-greeting/annotations/pass-differences-v1.json": {
+    "bytes": 529,
+    "sha256": "4bcd6aa4ebb856c4654ed579550c83d3a0f4fb1dd7522de5115d81629ce9848a",
+    "gitBlobOid": "2322e02bd5b8244d34fc3ac65950e9b72cddf63b",
+    "crlfOrdinals": "all"
+  },
+  "nurse-greeting/evidence/decode.command.json": {
+    "bytes": 1191,
+    "sha256": "a889ea80b460c47186d4389fc6f0bbe30227ab6481b66cdd2eade5a94bdfae84",
+    "gitBlobOid": "7d80608fb42957df905db8bc2ecb559c391db15f",
+    "crlfOrdinals": "all"
+  },
+  "nurse-greeting/evidence/verification.json": {
+    "bytes": 47173,
+    "sha256": "0d0e75a6b002ff3ae2e3f525f3b30cee3018d11c7cfd321ceec3358e3a0db9b6",
+    "gitBlobOid": "93deead8e21f782f121252c69fffc5ba15f03094",
+    "crlfOrdinals": "all"
+  },
+  "nurse-intake/annotations/dialogue-nurse-intake-clip-v1.json": {
+    "bytes": 1217,
+    "sha256": "1635c231b0003f7c5675a3fa95d49a8ee71583caa85b66377467226cfb5c1955",
+    "gitBlobOid": "7555395c60c3f60a6803ee5d008909f6d1343a42",
+    "crlfOrdinals": "all"
+  },
+  "nurse-intake/annotations/first-snapshots.json": {
+    "bytes": 829,
+    "sha256": "428a98672a5d5bb21d6cdf20646fbe95094205db0fea8cd4197ca10a10d48e41",
+    "gitBlobOid": "bc4a10c5be819a23367bce248a3723aed6340844",
+    "crlfOrdinals": "all"
+  },
+  "nurse-intake/annotations/layout-v1.json": {
+    "bytes": 552,
+    "sha256": "75bb52c49c80b0591f5d47c4d7474c6fc66c6ec2b58502bf8c29946d6ece6ebf",
+    "gitBlobOid": "e2920381511f96d0fd706f5317a9a04f93059589",
+    "crlfOrdinals": "all"
+  },
+  "nurse-intake/annotations/manual-pass1.json": {
+    "bytes": 4201,
+    "sha256": "d228d7305653752203561282bf88f93073a8c8a47c6546d0e05573469a768afb",
+    "gitBlobOid": "d020e3d0806021f2c606d3c0e533e1fa7e0ee378",
+    "crlfOrdinals": "all"
+  },
+  "nurse-intake/annotations/manual-pass2.json": {
+    "bytes": 4350,
+    "sha256": "507ad6f43fc937c87a8beb3c114474ce73403501885ecaaf8198aa8e6b90dc0d",
+    "gitBlobOid": "50491ccb72ba2b65c2fa4715128da379528ea147",
+    "crlfOrdinals": "all"
+  },
+  "nurse-intake/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 8309,
+    "sha256": "b3f93b04826c72fc8fc65f2a670578da50a1d1304783f732cf26ec2970bbeab8",
+    "gitBlobOid": "4079bb6bd906c83657bd0e15246cc8b5533e6bba",
+    "crlfOrdinals": "all"
+  },
+  "nurse-intake/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "nurse-intake/annotations/pass-differences-v1.json": {
+    "bytes": 525,
+    "sha256": "4fa29b235faffc54db3c7722bf824d296605de99e5707d89287aceed5e3224af",
+    "gitBlobOid": "f595ef13027b7af942a8fe8319763c7590c9b1ea",
+    "crlfOrdinals": "all"
+  },
+  "nurse-intake/evidence/decode.command.json": {
+    "bytes": 1189,
+    "sha256": "216359f8fbfb5ea27485f50e80306a4bceefef32cc06121ff2a8a729d401242b",
+    "gitBlobOid": "ebc9818a1aadf3cb56ca8c9d36b5591226093c59",
+    "crlfOrdinals": "all"
+  },
+  "nurse-intake/evidence/verification.json": {
+    "bytes": 78705,
+    "sha256": "b715e780c5718d588cdaa4d831377086fd1374099632e63334977a0d654e8eb1",
+    "gitBlobOid": "69c202b39898657abc2863773b704c01b77666f9",
+    "crlfOrdinals": "all"
+  },
+  "nurse-return/annotations/dialogue-nurse-return-clip-v1.json": {
+    "bytes": 1223,
+    "sha256": "117a1abbd993a29af69623ce73f0e3832d02a93992c6e651eb1bc19cc1a6d52d",
+    "gitBlobOid": "26176ba1107690b9a342852f8e7ea60d42c00579",
+    "crlfOrdinals": "all"
+  },
+  "nurse-return/annotations/first-snapshots.json": {
+    "bytes": 2818,
+    "sha256": "79ff970e0f405a680ac1bebb605b841964a36aeb4a04a0c38890187c90043c61",
+    "gitBlobOid": "0535503d85adef42caab243ede513b6273011b73",
+    "crlfOrdinals": "all"
+  },
+  "nurse-return/annotations/layout-v1.json": {
+    "bytes": 552,
+    "sha256": "75bb52c49c80b0591f5d47c4d7474c6fc66c6ec2b58502bf8c29946d6ece6ebf",
+    "gitBlobOid": "e2920381511f96d0fd706f5317a9a04f93059589",
+    "crlfOrdinals": "all"
+  },
+  "nurse-return/annotations/manual-pass1.json": {
+    "bytes": 13871,
+    "sha256": "17fd7e58d1208b3c81293f2e67470a8488be6e56b0740143630e7450cb7c2261",
+    "gitBlobOid": "98ae41322fe3f644d35e96c458670231eb974354",
+    "crlfOrdinals": "all"
+  },
+  "nurse-return/annotations/manual-pass2.json": {
+    "bytes": 13954,
+    "sha256": "35f8834cb62a0e95becf378b2d1ba9891d7879a842ae0775867e804575beb8c8",
+    "gitBlobOid": "6f5f9326dcdcbb8de0c94ab896f3b8bc39656f88",
+    "crlfOrdinals": "all"
+  },
+  "nurse-return/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 30172,
+    "sha256": "d3bfb1da3acb41c25104e2b07d48cf55bedc55af5fd7f43dc26d92a4b026f7e2",
+    "gitBlobOid": "912bfd2669a7e3db6295c4357096c97ef20a5348",
+    "crlfOrdinals": "all"
+  },
+  "nurse-return/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "nurse-return/annotations/pass-differences-v1.json": {
+    "bytes": 459,
+    "sha256": "668342c975d00ccda4721bc68d4146bbade0bf115f42cdb6b19ea1a6ad3efe4f",
+    "gitBlobOid": "64cfff099c3d142c6c6f882d75c2b77168c23414",
+    "crlfOrdinals": "all"
+  },
+  "nurse-return/evidence/decode.command.json": {
+    "bytes": 1189,
+    "sha256": "eda181f7440e2d48952e8de05ea76547539d3056e5eedcadfdfc1a467570d86c",
+    "gitBlobOid": "2b2768ed5e57f0dfc5d2fe0c20abeab2d8cc8251",
+    "crlfOrdinals": "all"
+  },
+  "nurse-return/evidence/verification.json": {
+    "bytes": 49555,
+    "sha256": "992fe53a4b2d0fcd53aa5fb905346f00055d4cd623300cc0ca6a87c628ad8100",
+    "gitBlobOid": "1ef7927144395b2e13611d7bc00d389e95de73c8",
+    "crlfOrdinals": "all"
+  },
+  "oak-delivery/annotations/dialogue-oak-delivery-clip-v1.json": {
+    "bytes": 1233,
+    "sha256": "aa395b46b18449aebdf11813ac697ce0a96a1f6e53a829f10599c28712586b47",
+    "gitBlobOid": "56cfa2cff2c0089c544fc380cb672319c3ec3489",
+    "crlfOrdinals": "all"
+  },
+  "oak-delivery/annotations/first-snapshots.json": {
+    "bytes": 1461,
+    "sha256": "2006e31b818f1d4cea4bff919b65cbcc7d0490642d8c562e96f1b5bfabae5de1",
+    "gitBlobOid": "d950ce88b89137dd155e761382cd589e8e0da6a6",
+    "crlfOrdinals": "all"
+  },
+  "oak-delivery/annotations/layout-v1.json": {
+    "bytes": 491,
+    "sha256": "e6d363b9c9340a061e5ad688b254aab95616f9493032e70cb9f5c94cba0f0ba8",
+    "gitBlobOid": "8fb1dfa3c092b6eaae8f440ca2fdb10004ececef",
+    "crlfOrdinals": "all"
+  },
+  "oak-delivery/annotations/manual-pass1.json": {
+    "bytes": 6733,
+    "sha256": "c322965021700c629933592f5152df0e5e2ace5a01533ee24e96dd0d7b06a3d4",
+    "gitBlobOid": "8c405d06685998e23296d5b62db920fb6114537d",
+    "crlfOrdinals": "all"
+  },
+  "oak-delivery/annotations/manual-pass2.json": {
+    "bytes": 6233,
+    "sha256": "b4c999b43cce08786c5bd075dc737256d69b12e2bd0a1fc67db2c5dc2f7dd9d6",
+    "gitBlobOid": "9265dd4fcea4f517f04c5c8a62f262d19215118a",
+    "crlfOrdinals": "all"
+  },
+  "oak-delivery/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 12896,
+    "sha256": "9f84c042864992d55282f718eb37c813ea0c9edd23d32e243d3032049cc8a97e",
+    "gitBlobOid": "3cb4aa539ea11d9b0a099b9b87254e7a3e776e84",
+    "crlfOrdinals": "all"
+  },
+  "oak-delivery/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "oak-delivery/annotations/pass-differences-v1.json": {
+    "bytes": 665,
+    "sha256": "1d3f4da9008a7b9667dc32cc6bfc123017c6efd4a8293384fd0da9df277935ee",
+    "gitBlobOid": "f2be5113c740b5cbd34c5a32b3cfb4ef364ac77e",
+    "crlfOrdinals": "all"
+  },
+  "oak-delivery/evidence/decode.command.json": {
+    "bytes": 1187,
+    "sha256": "dde91b963a43148527ad3a8fc43c431ddf5a14169bd4f2e6adacaedbe20e98b4",
+    "gitBlobOid": "9309a274a056e73f9157d9aabb0160e4177ba5b3",
+    "crlfOrdinals": "all"
+  },
+  "oak-delivery/evidence/decode.stderr": {
+    "bytes": 93,
+    "sha256": "a31d8b9d381e3d17eb7ea7a7922633d996630a91001a41ef10c340dba2621353",
+    "gitBlobOid": "891e20f0fb30dfeda790e9eb8838cd5f5a4e0ef9",
+    "crlfOrdinals": "all"
+  },
+  "oak-delivery/evidence/verification.json": {
+    "bytes": 52185,
+    "sha256": "b799e8f73c4e9414dce81b25e31e4d638e216c64d549bf713114688a5d6e898a",
+    "gitBlobOid": "3eee169f391a880287a9b8d6dfd6ffe80f4810f4",
+    "crlfOrdinals": "all"
+  },
+  "party-list/annotations/all-scenes-party-list-clip-v2.json": {
+    "bytes": 1125,
+    "sha256": "6925468f2a7adcee50f4ba7ca432b46efc86c241067e55cdf303fc293ca4134b",
+    "gitBlobOid": "6c158d9512ccbc947baeb08f8e873e9f6a2e55dc",
+    "crlfOrdinals": "all"
+  },
+  "party-list/annotations/layout-v1.json": {
+    "bytes": 468,
+    "sha256": "01424c0c6cf894c8e23a1ecc650d4819c4abeff94fd634c3e8ee8c62d1652eeb",
+    "gitBlobOid": "a1b8751166789a320a9089b74c4030e392bff877",
+    "crlfOrdinals": "all"
+  },
+  "party-list/annotations/manual-pass1.json": {
+    "bytes": 41301,
+    "sha256": "619aafeb1c84b780f0295614289196dffce166805ab2147b4e92f0847affae58",
+    "gitBlobOid": "a503df431394ea4808002cd2a7eaa895965a931d",
+    "crlfOrdinals": "all"
+  },
+  "party-list/annotations/manual-pass2.json": {
+    "bytes": 41511,
+    "sha256": "f2a4b994c9fa2729540a6acf32b1341e61253f375db4ebec90bcd825019a8f71",
+    "gitBlobOid": "135a68f4b6412669693e6ea3640b3f3603c9778d",
+    "crlfOrdinals": "all"
+  },
+  "party-list/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 28501,
+    "sha256": "de9ab1324511c1129acac1547dc56d0cde029c26ed01df14b9a8180ef19535b7",
+    "gitBlobOid": "27d74bdee575f6da379706e17248f97638ca9a6c",
+    "crlfOrdinals": "all"
+  },
+  "party-list/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "party-list/annotations/pass-differences-v1.json": {
+    "bytes": 367,
+    "sha256": "fd39d17b7935ab2a061c1724d5eaf9006a54f180d0eb82b8878f2c956c707257",
+    "gitBlobOid": "78f48d5baa1264df6d1c1919491445c71c2d8afc",
+    "crlfOrdinals": "all"
+  },
+  "pc-connect/annotations/expansion-pc-clip-v1.json": {
+    "bytes": 1561,
+    "sha256": "8812a1d62ca8812283a8c66e154c290ab7e9cc2ff4a990983be378497c50db90",
+    "gitBlobOid": "d9e2ce17c97f9b0b39939b43f83dc87dc9b7dd2f",
+    "crlfOrdinals": "all"
+  },
+  "pc-connect/annotations/layout-v1.json": {
+    "bytes": 871,
+    "sha256": "7ed62ed059cdef3283fdcdd70104eb826c43ba60b802e3e5abbbd04904102383",
+    "gitBlobOid": "7d8a3fb3e0d3c6f5056718f598b8f539220127f4",
+    "crlfOrdinals": "all"
+  },
+  "pc-connect/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 22300,
+    "sha256": "87a2bd60687cc3c2ff18ec1f360ed77a0b3ff6ea188ce7ea43f8f2b1cd0e28d3",
+    "gitBlobOid": "87c4ba0c533e8a7182674be8e77daf8c6308e60f",
+    "crlfOrdinals": "all"
+  },
+  "pc-connect/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "pc-connect/annotations/pass-differences.json": {
+    "bytes": 626,
+    "sha256": "492769a8ac96f795f13672d2325259f9d24a26fba359317d24edf792be5f65e0",
+    "gitBlobOid": "5ba3bf61ec1a4a1f16fd645fea5443cd500d1067",
+    "crlfOrdinals": "all"
+  },
+  "pc-connect/annotations/pass1.jsonl": {
+    "bytes": 22270,
+    "sha256": "10dfe992c0a6ab5a423e22e8056b033c1ff1575fa9735c8d80721d1ecd700ca5",
+    "gitBlobOid": "c9e3021df178a50a5b81d541d0e610e7274ea58e",
+    "crlfOrdinals": "all"
+  },
+  "pc-connect/annotations/pass2.jsonl": {
+    "bytes": 22300,
+    "sha256": "87a2bd60687cc3c2ff18ec1f360ed77a0b3ff6ea188ce7ea43f8f2b1cd0e28d3",
+    "gitBlobOid": "87c4ba0c533e8a7182674be8e77daf8c6308e60f",
+    "crlfOrdinals": "all"
+  },
+  "pc-deposit-navigation/annotations/all-scenes-pc-deposit-navigation-clip-v3.json": {
+    "bytes": 1198,
+    "sha256": "898b6690868c2b6d193bc44b46a1e00566a737cd032e7c6fd8b527f58981b8d4",
+    "gitBlobOid": "a1079f3f851d62a6e99a50bf2bb7e431567fe63b",
+    "crlfOrdinals": "all"
+  },
+  "pc-deposit-navigation/annotations/layout-v1.json": {
+    "bytes": 385,
+    "sha256": "8c9c022c7d740791c8fc0c232adcebc27d5a56a7ed7d585d4f288a3ccc3fc4ae",
+    "gitBlobOid": "7c8e6f4b9ee5d41d8dbe0d6ef1cca3402673ae42",
+    "crlfOrdinals": "all"
+  },
+  "pc-deposit-navigation/annotations/layout-v2.json": {
+    "bytes": 395,
+    "sha256": "eca3ac09d05bda9db73efb3ecaed41aa2468f9632bf6c5341acb7d42bc9e0c93",
+    "gitBlobOid": "1de3109ee9d1c7b48580f1a2b02f464886a9e75a",
+    "crlfOrdinals": "all"
+  },
+  "pc-deposit-navigation/annotations/manual-pass1.json": {
+    "bytes": 69394,
+    "sha256": "58dfe394d282a20834f7d4747a2d1fd786d5c0d09b83010f7a649f6937202e64",
+    "gitBlobOid": "16bd8c2756406ca8740a77f88f13536ae175ee5c",
+    "crlfOrdinals": "all"
+  },
+  "pc-deposit-navigation/annotations/manual-pass2-v2.json": {
+    "bytes": 73609,
+    "sha256": "cda3157c65c293ed41709c3070f792403322dd725d80e5f6e84f46d9f4d4f871",
+    "gitBlobOid": "71714a7fd9eb28d2023be98fd7a04de11095c9f8",
+    "crlfOrdinals": "all"
+  },
+  "pc-deposit-navigation/annotations/manual-pass2.json": {
+    "bytes": 69121,
+    "sha256": "879c6cc9a7e8e79556aef4bb4fbd77814d5bff1cdee7d964569461db159c74f3",
+    "gitBlobOid": "0e7d865b7ec88af435bc0390a8e967e7c8d55f5f",
+    "crlfOrdinals": "all"
+  },
+  "pc-deposit-navigation/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 85773,
+    "sha256": "ebaa9e029f6b88fdd32699e012db7c2ecfc78813a33c8bd99eb1193f2afa0570",
+    "gitBlobOid": "98906e74ee75c7812002e4459d3dfc9f8a81e8d5",
+    "crlfOrdinals": "all"
+  },
+  "pc-deposit-navigation/annotations/ocr-candidate-v2.jsonl": {
+    "bytes": 89949,
+    "sha256": "5e55296b2ce522ed85c8f360241b930d8d00a27408f45b7ea00e5594bb334a1f",
+    "gitBlobOid": "e0cd00a2f8ea98da754556279386ece8c3714e63",
+    "crlfOrdinals": "all"
+  },
+  "pc-deposit-navigation/annotations/ocr-candidate-v3.jsonl": {
+    "bytes": 89949,
+    "sha256": "23b6d433a6fef9b3e8232148b0810a4e0f976f33e3d522d722710b094f4bd3e4",
+    "gitBlobOid": "d4d1ad56e77743ce9eced739eea49179477a60fb",
+    "crlfOrdinals": "all"
+  },
+  "pc-deposit-navigation/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "pc-deposit-navigation/annotations/pass-differences-v1.json": {
+    "bytes": 866,
+    "sha256": "b07ee6e54f6b2edb49f89ed8a75249fc3fb60b55096e3607c981ba3b3bca1efc",
+    "gitBlobOid": "e5948567657718e59ddc433b37abcc7507232cc8",
+    "crlfOrdinals": "all"
+  },
+  "pc-exit/annotations/all-scenes-pc-exit-clip-v2.json": {
+    "bytes": 953,
+    "sha256": "45aa130af52f4a2176001ee23c2292b34d82770802e1eb0546147af478b5c3d3",
+    "gitBlobOid": "dd0a5557c647f3eb58594597c952c72d484172b0",
+    "crlfOrdinals": "all"
+  },
+  "pc-exit/annotations/layout-v1.json": {
+    "bytes": 415,
+    "sha256": "61e11fb1b734721bb6a516e69a3a9295a4e67ce0fab8200c7ec15b737f03b38d",
+    "gitBlobOid": "6e8a052256074edeedad57086db0af6e9bbd8227",
+    "crlfOrdinals": "all"
+  },
+  "pc-exit/annotations/manual-pass1.json": {
+    "bytes": 1802,
+    "sha256": "174bb388242ef0f399f706c10eb39c2232c45fe469ce0cd933ce41b64c324bd5",
+    "gitBlobOid": "cb5539a72576b7b0702ad34686afad6579f8a353",
+    "crlfOrdinals": "all"
+  },
+  "pc-exit/annotations/manual-pass2.json": {
+    "bytes": 1973,
+    "sha256": "b867f8bd8803d03cb4c04059c2e151f4f8af7eddc91bd6b926ab14facd82db14",
+    "gitBlobOid": "b2e541e6cac4c27f856ecdeab1ef13a6fbfa7785",
+    "crlfOrdinals": "all"
+  },
+  "pc-exit/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 2700,
+    "sha256": "71c2c33007d5a7bc8bd5660cd010ec704599ac9a5ed2846a8e89b62006750df2",
+    "gitBlobOid": "7462015db50c74585d89e3ae1c9d69d2b698b378",
+    "crlfOrdinals": "all"
+  },
+  "pc-exit/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "pc-exit/annotations/pass-differences-v1.json": {
+    "bytes": 272,
+    "sha256": "a06a7d4c2611c3d36830e5dac1860a7808dd09392839bcc1f729c2d3b9c0ddc8",
+    "gitBlobOid": "ee8b50a0b9fa4045c10652a264bab0cadeb4eb86",
+    "crlfOrdinals": "all"
+  },
+  "route-ledge-npc/annotations/dialogue-route-ledge-npc-clip-v1.json": {
+    "bytes": 1217,
+    "sha256": "de3a3d1c67644e3a3284862951c934304b0200d0d3c5604befd231eb1bfa6c02",
+    "gitBlobOid": "c844970e48a04ab1400fe1980697debde276e576",
+    "crlfOrdinals": "all"
+  },
+  "route-ledge-npc/annotations/first-snapshots.json": {
+    "bytes": 2627,
+    "sha256": "78bc610c7956255a0cda552e1d7b54046a119178ca2e5879ec989622ee5fff1d",
+    "gitBlobOid": "be234f32f84c69d0be0de3cf4b7cfdb7c30be2c4",
+    "crlfOrdinals": "all"
+  },
+  "route-ledge-npc/annotations/layout-v1.json": {
+    "bytes": 555,
+    "sha256": "863e75815f73556066c54d745d8562c5a6ea4ef43ec6497874c859c52d955073",
+    "gitBlobOid": "79759f68a52f8a0f6daec460deb34351cac1df36",
+    "crlfOrdinals": "all"
+  },
+  "route-ledge-npc/annotations/manual-pass1.json": {
+    "bytes": 12372,
+    "sha256": "5e9b660be028bb13f4163bcf9a288e82e0a1f0f6f6511b5bb4631143ed5baf92",
+    "gitBlobOid": "cbc5bfc9b58719a983f4d7b46abfb864b9af8551",
+    "crlfOrdinals": "all"
+  },
+  "route-ledge-npc/annotations/manual-pass2.json": {
+    "bytes": 12397,
+    "sha256": "755411232d1cb41b34d7a5d0572f36ab34be13738b1fda4d117b61d3000e2c6b",
+    "gitBlobOid": "81aa44675c76f5576331b770b1015fd0816fe176",
+    "crlfOrdinals": "all"
+  },
+  "route-ledge-npc/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 28497,
+    "sha256": "ba0ed8c8f1ac332e43fe3c25a3dc3ba7be5b9e838d1b0b729bd3533e528b1433",
+    "gitBlobOid": "91529d240cf7cfb9fe8e41a65ae4d96035220fcc",
+    "crlfOrdinals": "all"
+  },
+  "route-ledge-npc/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "route-ledge-npc/annotations/pass-differences-v1.json": {
+    "bytes": 505,
+    "sha256": "01c27a1e9b30b941bbc171c1084168382e9ed2466a7747fc81c4f7bf7c00fbd0",
+    "gitBlobOid": "af11a8b70e53ac40176dbec4d5a99d1bb555945f",
+    "crlfOrdinals": "all"
+  },
+  "route-ledge-npc/evidence/decode.command.json": {
+    "bytes": 1195,
+    "sha256": "4aecf0708e5f5d7e51c166363de78521cdba9c63cd94831cc57a50ddb64c50e3",
+    "gitBlobOid": "f98c1a6fa5d139a330c6b1e190838d2a6ede0ee1",
+    "crlfOrdinals": "all"
+  },
+  "route-ledge-npc/evidence/verification.json": {
+    "bytes": 46366,
+    "sha256": "fc1523b43a418a921f406c8b9a819c043009f0f3f1cab459449244bd6280c216",
+    "gitBlobOid": "8ae45c30dddd499e86e2239f800274647d44e2c3",
+    "crlfOrdinals": "all"
+  },
+  "route-pp-sign/annotations/dialogue-route-pp-sign-clip-v1.json": {
+    "bytes": 1215,
+    "sha256": "b2445212aa91c46881c2eb77ef9f0832ae8aac8be8510d7da7e7438c08ce09c1",
+    "gitBlobOid": "44e57382b2d960091a2e5c9c419576fb2152d86a",
+    "crlfOrdinals": "all"
+  },
+  "route-pp-sign/annotations/first-snapshots.json": {
+    "bytes": 4759,
+    "sha256": "ad271e7d966d41df533233711adc1fb8ca46b744a7e466e5a66adaa33429dd04",
+    "gitBlobOid": "b844b5bc5e9ae860a9a8b8a0ff2367d8d1983de2",
+    "crlfOrdinals": "all"
+  },
+  "route-pp-sign/annotations/layout-v1.json": {
+    "bytes": 552,
+    "sha256": "75bb52c49c80b0591f5d47c4d7474c6fc66c6ec2b58502bf8c29946d6ece6ebf",
+    "gitBlobOid": "e2920381511f96d0fd706f5317a9a04f93059589",
+    "crlfOrdinals": "all"
+  },
+  "route-pp-sign/annotations/manual-pass1.json": {
+    "bytes": 22177,
+    "sha256": "c64d7c25f3edaedce71adfb1e710fe2c23f011c219a002e1fbd2b9d40c804726",
+    "gitBlobOid": "2aeb66d422db2f1871eba348971bcd27e22f8450",
+    "crlfOrdinals": "all"
+  },
+  "route-pp-sign/annotations/manual-pass2.json": {
+    "bytes": 22292,
+    "sha256": "7c82853e776dcc22417a063f73043fe9ace50fc37a5e789f853fbb8ca5fe6697",
+    "gitBlobOid": "84e7c6be4c1fb3b26e73e3ccb7600b002faa75fd",
+    "crlfOrdinals": "all"
+  },
+  "route-pp-sign/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 52201,
+    "sha256": "71f56acdd70285a714605880247edd0f6d4d76e50faac61fb53c8de382edb3ab",
+    "gitBlobOid": "014870e28e009eae20db7c861e534adaa00140cb",
+    "crlfOrdinals": "all"
+  },
+  "route-pp-sign/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "route-pp-sign/annotations/pass-differences-v1.json": {
+    "bytes": 486,
+    "sha256": "e17cf13dfae118e14dc10b6f5ca25f021aa8a4be094a02a7c37cc838a516ec49",
+    "gitBlobOid": "6d265290ff8a14211f231218f988f5873d1fc153",
+    "crlfOrdinals": "all"
+  },
+  "route-pp-sign/evidence/decode.command.json": {
+    "bytes": 1194,
+    "sha256": "f743f2e0176c1da310298624f5e4635c128b106efe94a758f061cdf1325ddaab",
+    "gitBlobOid": "9cd6ceac912ead601b0cdfab3329f8e094ec1da5",
+    "crlfOrdinals": "all"
+  },
+  "route-pp-sign/evidence/verification.json": {
+    "bytes": 78287,
+    "sha256": "d37e4d54c972c1942a2baaa6d8e0e455a7942b365d34e73cf1cbd6b46761fde2",
+    "gitBlobOid": "f07d0e23098e6f58535473f4c7afa1e8942e3682",
+    "crlfOrdinals": "all"
+  },
+  "safari-warden-npc/annotations/dialogue-safari-warden-npc-clip-v1.json": {
+    "bytes": 1224,
+    "sha256": "e2b2683499a3123bc263e434e011a9708d4ede7ba1506052cbb173c192a6aa39",
+    "gitBlobOid": "9840ea5e64f1091a3eb315deb5b8ce0c8f993ca3",
+    "crlfOrdinals": "all"
+  },
+  "safari-warden-npc/annotations/first-snapshots.json": {
+    "bytes": 2277,
+    "sha256": "5cf9fee76005ca98d982d87a93f75ebdaf8c8502545f46732d33e08ef0274694",
+    "gitBlobOid": "625854e357a2b6f672bff7dc65cce2915fa854c1",
+    "crlfOrdinals": "all"
+  },
+  "safari-warden-npc/annotations/layout-v1.json": {
+    "bytes": 490,
+    "sha256": "62a0c9aba91f3ab7a2650ccf6d8683fcb7084bf5f59c9db398942f7775423551",
+    "gitBlobOid": "fe265a7c9ed1c18c9eecabf0a580560d507eca95",
+    "crlfOrdinals": "all"
+  },
+  "safari-warden-npc/annotations/manual-pass1.json": {
+    "bytes": 10505,
+    "sha256": "608c375dbe28654aa58339fe08784a5897428f4e9b6fb658e7134ed19bd2680b",
+    "gitBlobOid": "2b23dad98faa326344d680182efb23da2f1ad9a4",
+    "crlfOrdinals": "all"
+  },
+  "safari-warden-npc/annotations/manual-pass2.json": {
+    "bytes": 10586,
+    "sha256": "45413358fc8e647aabb34d52b9a2323316e8fb44d05a050b466d48e15138ee5d",
+    "gitBlobOid": "96be12e2a59b2afa301c6db5b1ea472c42755222",
+    "crlfOrdinals": "all"
+  },
+  "safari-warden-npc/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 24101,
+    "sha256": "6575060b9eef6a92d49a22d57614a4e12378519101b49646950a4e8f9a753b93",
+    "gitBlobOid": "c2b440fc5e3880cc5b661d2f346cd54f1aafb245",
+    "crlfOrdinals": "all"
+  },
+  "safari-warden-npc/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "safari-warden-npc/annotations/pass-differences-v1.json": {
+    "bytes": 455,
+    "sha256": "b646b0f845e433ce9901ef4a2673878edb07600c6b65827c92b11a18befb5540",
+    "gitBlobOid": "d3b6f7b4c0ab53d75af66e4e5b1ea61f8d1e1562",
+    "crlfOrdinals": "all"
+  },
+  "safari-warden-npc/evidence/decode.command.json": {
+    "bytes": 1194,
+    "sha256": "9a6bf35bdbaa7f00817494cf3e1d83d736fd597908f67343c5af1339415ade3d",
+    "gitBlobOid": "52ecda7576d6eeea495c893cbf2acba11ec585da",
+    "crlfOrdinals": "all"
+  },
+  "safari-warden-npc/evidence/verification.json": {
+    "bytes": 38611,
+    "sha256": "28a960483f758bebf67ed5972640b36e19aca093d5f0c4beb3386cd8a14c012f",
+    "gitBlobOid": "1d208e857afb9a008fda430adac7cbc5b59e7f5e",
+    "crlfOrdinals": "all"
+  },
+  "shop-buy-navigation/annotations/all-scenes-shop-buy-navigation-clip-v2.json": {
+    "bytes": 1054,
+    "sha256": "1d1d9457d1f5c8c4de7e6a80af938106d29d1cb257dfad06fb5550e50bbf90af",
+    "gitBlobOid": "983a7b43419f35f042c8059baf55fb56ab06bc41",
+    "crlfOrdinals": "all"
+  },
+  "shop-buy-navigation/annotations/layout-v1.json": {
+    "bytes": 432,
+    "sha256": "52ee90115a880f14823a3216590c8f26997dbba2f54d9bb74d2da756abd74bc8",
+    "gitBlobOid": "6c1b46deb8a488d6b244768810052fce4e2c9cc3",
+    "crlfOrdinals": "all"
+  },
+  "shop-buy-navigation/annotations/manual-pass1.json": {
+    "bytes": 23713,
+    "sha256": "235ec2c3b278e7557320960f3cc5bbcbd6d11b19cae8aac6c7069079d2626fa7",
+    "gitBlobOid": "78580285cd6227bbd8bf87e0a1a178998732722a",
+    "crlfOrdinals": "all"
+  },
+  "shop-buy-navigation/annotations/manual-pass2.json": {
+    "bytes": 23933,
+    "sha256": "9de8de1b99f45b9940ce16236f4254e6f78e4b1a71f39b2f5e34934a14dc51b7",
+    "gitBlobOid": "55a36c703f80dbf3b4b1264e70f1306b40f68963",
+    "crlfOrdinals": "all"
+  },
+  "shop-buy-navigation/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 21766,
+    "sha256": "bbf02378075a4f00106aa37dd94c9e8d99bc7bd8bf9aebaa693a9820cdbd763a",
+    "gitBlobOid": "2756c650fe3f99c96d766f0ff0f4b00082003cc8",
+    "crlfOrdinals": "all"
+  },
+  "shop-buy-navigation/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "shop-buy-navigation/annotations/pass-differences-v1.json": {
+    "bytes": 316,
+    "sha256": "7d78952b4722aae1d3d78c026337311833fe947cfe385d523358bd2aeac4b33e",
+    "gitBlobOid": "a6c25923eef425da3f440a69994d23abd09b065d",
+    "crlfOrdinals": "all"
+  },
+  "shop-exit/annotations/expansion-shop-clip-v2.json": {
+    "bytes": 1578,
+    "sha256": "cb9be9c44aa5a7469014fd9dcbe3c45fb5e37682b31cfc6158533db9cdcb6bfc",
+    "gitBlobOid": "b043a5209c8a0cceb3bd55943a019182799f4a1c",
+    "crlfOrdinals": "all"
+  },
+  "shop-exit/annotations/layout-pass1.json": {
+    "bytes": 986,
+    "sha256": "d66225217e3b83870939ccc449a997625f9192ef5a0e5dd06a1cd24903f5a06e",
+    "gitBlobOid": "38e1e51f62082c6509c8576df8518fd15c440af3",
+    "crlfOrdinals": "all"
+  },
+  "shop-exit/annotations/layout-v2.json": {
+    "bytes": 1098,
+    "sha256": "0dc9c5ee756b7e417b131209651ebe0feaaba5d705545ccba34ac1c2c60df271",
+    "gitBlobOid": "fb337c24213ecff8ede2b0e19be8bb0817e14c3e",
+    "crlfOrdinals": "all"
+  },
+  "shop-exit/annotations/manual-pass1.json": {
+    "bytes": 22724,
+    "sha256": "5f0d9a28a1a8347c2f0a0f981fe646d5f94c61807f8678f5159b166184473e81",
+    "gitBlobOid": "3673e85e0f1a4d9f7092e0c99a35a6e024990fee",
+    "crlfOrdinals": "all"
+  },
+  "shop-exit/annotations/ocr-candidate-v2.jsonl": {
+    "bytes": 36741,
+    "sha256": "a6b6240ccfc86e1c942004a8ab7efb48f583464467d2eb6b75855e7a597052c6",
+    "gitBlobOid": "17821152f52870fb45302c0692262625d3b967bb",
+    "crlfOrdinals": "all"
+  },
+  "shop-exit/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "shop-exit/annotations/pass-differences.json": {
+    "bytes": 1127,
+    "sha256": "954e3a090278901fd3afed08046eb55b52f33cd1da58648603df0ad4757e407b",
+    "gitBlobOid": "8972ac3fa5ebd6675d1812bef2e253b19ba7fd88",
+    "crlfOrdinals": "all"
+  },
+  "shop-exit/annotations/pass1.jsonl": {
+    "bytes": 36222,
+    "sha256": "fab6d0908941a79bd131a2d49e67d214a8f56e55cb290c766dea5a36c50c81ad",
+    "gitBlobOid": "c9ff5f62dbb2394c457a2f2d095a4dcaacfba3d8",
+    "crlfOrdinals": "all"
+  },
+  "shop-exit/annotations/pass2.jsonl": {
+    "bytes": 36741,
+    "sha256": "a6b6240ccfc86e1c942004a8ab7efb48f583464467d2eb6b75855e7a597052c6",
+    "gitBlobOid": "17821152f52870fb45302c0692262625d3b967bb",
+    "crlfOrdinals": "all"
+  },
+  "shop-rejection/annotations/all-scenes-shop-rejection-clip-v2.json": {
+    "bytes": 1087,
+    "sha256": "f34618c0d72f3b5338527cf722034d18dfeeaad45b40e8f30be16207d76df286",
+    "gitBlobOid": "a398203c2fc2365d7f000a1da475d8fdb1f10f6e",
+    "crlfOrdinals": "all"
+  },
+  "shop-rejection/annotations/layout-v1.json": {
+    "bytes": 432,
+    "sha256": "52ee90115a880f14823a3216590c8f26997dbba2f54d9bb74d2da756abd74bc8",
+    "gitBlobOid": "6c1b46deb8a488d6b244768810052fce4e2c9cc3",
+    "crlfOrdinals": "all"
+  },
+  "shop-rejection/annotations/manual-pass1.json": {
+    "bytes": 46552,
+    "sha256": "e846ba7b1f47c12a35b693f87fd80a96596c8a3940b50b000a29f9c2a8ff5a9b",
+    "gitBlobOid": "2348b8f9024dd508438fe7c16fb73197eac54a3b",
+    "crlfOrdinals": "all"
+  },
+  "shop-rejection/annotations/manual-pass2.json": {
+    "bytes": 46760,
+    "sha256": "f10ca882a0887e75b807e68c23cf27da2841177587bdf5525b8104f1cf4f6d7d",
+    "gitBlobOid": "9d030f1bcf2463b991bce46d8fe0b41212ebd32c",
+    "crlfOrdinals": "all"
+  },
+  "shop-rejection/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 47914,
+    "sha256": "f13baeb4493c99900fe819f3b12d9d94f70c91f969171f504121a9bb1fade003",
+    "gitBlobOid": "d540c49f0c8f1b9d99cb437695aaa767f809cf02",
+    "crlfOrdinals": "all"
+  },
+  "shop-rejection/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "shop-rejection/annotations/pass-differences-v1.json": {
+    "bytes": 348,
+    "sha256": "3ec38d4345aa50f5abf81c2cc55a6a57944fc2148471a3cde539362f758d5f7b",
+    "gitBlobOid": "3c1c2a9969d6e9036b90650e39fc0140385e268d",
+    "crlfOrdinals": "all"
+  },
+  "shop-sell-entry/annotations/all-scenes-shop-sell-entry-clip-v2.json": {
+    "bytes": 1089,
+    "sha256": "0fc2bb9bb78ffabf99a08afba553ba3a1b046a6106faf17a73cbbaa211b27edd",
+    "gitBlobOid": "b3cb7024b31adea25b129db9d7c296f038ea05b0",
+    "crlfOrdinals": "all"
+  },
+  "shop-sell-entry/annotations/layout-v1.json": {
+    "bytes": 432,
+    "sha256": "52ee90115a880f14823a3216590c8f26997dbba2f54d9bb74d2da756abd74bc8",
+    "gitBlobOid": "6c1b46deb8a488d6b244768810052fce4e2c9cc3",
+    "crlfOrdinals": "all"
+  },
+  "shop-sell-entry/annotations/manual-pass1.json": {
+    "bytes": 31920,
+    "sha256": "df1be2bd769f75fb17e47d233306cd49c87fb9e1aaaa338335b1132b73154a8d",
+    "gitBlobOid": "b26195b484d8c2ac3baa5edd6911d52e72678950",
+    "crlfOrdinals": "all"
+  },
+  "shop-sell-entry/annotations/manual-pass2.json": {
+    "bytes": 32142,
+    "sha256": "8dcf43c10744f4a598df2a9908410c06506c7e72c71aece14bb92ae299e21e6c",
+    "gitBlobOid": "07cd8541c432a6d0c03c139343216ff7b8fc4102",
+    "crlfOrdinals": "all"
+  },
+  "shop-sell-entry/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 37451,
+    "sha256": "513347172e8d94c2bd7631ecb554b5d5ed3223c8ae3a73823f7bac65fc7df8ff",
+    "gitBlobOid": "930d46e7f094551e1bf7acdb1b98605847bc6439",
+    "crlfOrdinals": "all"
+  },
+  "shop-sell-entry/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "shop-sell-entry/annotations/pass-differences-v1.json": {
+    "bytes": 354,
+    "sha256": "e80db920226dc56a02f7dd8f41eb9cc7212903f64498fcec7bfa0b2ea7756824",
+    "gitBlobOid": "264c745928d9cf5de77ae1f67fac072642650d47",
+    "crlfOrdinals": "all"
+  },
+  "skills-turn/annotations/all-scenes-skills-turn-clip-v2.json": {
+    "bytes": 1204,
+    "sha256": "da0f9716394a7d00199594ce1ef2ddcfd800a0809a42707a8b2d7bdb83cff77b",
+    "gitBlobOid": "7ffd70a95d80226cfa869d4bedb31b046a621dbd",
+    "crlfOrdinals": "all"
+  },
+  "skills-turn/annotations/layout-v1.json": {
+    "bytes": 543,
+    "sha256": "882e9bb05f97647c62fc83b090a38b539bd6e1a0356049749738f17097f6dd8d",
+    "gitBlobOid": "aa2cd76d7d5e8d257938873629d3799963e59102",
+    "crlfOrdinals": "all"
+  },
+  "skills-turn/annotations/manual-pass1.json": {
+    "bytes": 2032,
+    "sha256": "25d356caac321648a6160ec5f6e1d59c0af7d4b6aa7df859604012c0d79c115d",
+    "gitBlobOid": "f8e3e94db8d4c6952c5409ea6a1ba6405a66a193",
+    "crlfOrdinals": "all"
+  },
+  "skills-turn/annotations/manual-pass2-v2.json": {
+    "bytes": 185639,
+    "sha256": "a41358012e288a790e40f7c2c47ca4862f5df95ae1ade51849c769fa6018b14c",
+    "gitBlobOid": "9e6d0e9546f746576e7052cbf13fd138f162569a",
+    "crlfOrdinals": "all"
+  },
+  "skills-turn/annotations/manual-pass2.json": {
+    "bytes": 175861,
+    "sha256": "47d95a01458626ad933557f27b81875d8064c0e0060eb0b07229060886878c55",
+    "gitBlobOid": "24536543ebb435f9070c861548d2b07cdc065c08",
+    "crlfOrdinals": "all"
+  },
+  "skills-turn/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 171904,
+    "sha256": "6aa817ba46c12059ca5871ed459e9feaca9493ca27591d530346f263c1010e4d",
+    "gitBlobOid": "8dd2d2c2317366fd2eb20305b98e6cf3dcf500b3",
+    "crlfOrdinals": "all"
+  },
+  "skills-turn/annotations/ocr-candidate-v2.jsonl": {
+    "bytes": 179572,
+    "sha256": "b53829f530734ee4bd30d1fb24dae3d185309140e6c7c1f62de25955a8749009",
+    "gitBlobOid": "5e44b0b018a0c0626dc21f2ea341e94b4688558b",
+    "crlfOrdinals": "all"
+  },
+  "skills-turn/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "skills-turn/annotations/pass-differences-v1.json": {
+    "bytes": 779,
+    "sha256": "aa8a23caee60cfe86bed9105a61dc713a09a2dc0cf771ac8895a0220f8cd3d47",
+    "gitBlobOid": "4c2b05b8a41650f58192183dbe5004a7661b3b32",
+    "crlfOrdinals": "all"
+  },
+  "startup-nontarget/annotations/all-scenes-startup-nontarget-clip-v1.json": {
+    "bytes": 1030,
+    "sha256": "a8768b2a7a47460f2e72d928d19c0a6a6f6e0f30420cde4339e1488aa9e7a307",
+    "gitBlobOid": "846b475c820acc1f107f4ab352255eb016d05ae3",
+    "crlfOrdinals": "all"
+  },
+  "startup-nontarget/annotations/layout-v1.json": {
+    "bytes": 269,
+    "sha256": "3a11bd366b3bc9478100b62be38f3f70e2335b784b6cce323b9bfb4596d0cae0",
+    "gitBlobOid": "66f4e12dc4885cb6d406d9141097ad45fa77a0b3",
+    "crlfOrdinals": "all"
+  },
+  "startup-nontarget/annotations/manual-pass1.json": {
+    "bytes": 1234,
+    "sha256": "13688fc62ee44cae52e9d8571634e8edb0352e7510ce68e140b94e54f1d178bc",
+    "gitBlobOid": "bf17805094418508dd0eee1433a2e27f269f3792",
+    "crlfOrdinals": "all"
+  },
+  "startup-nontarget/annotations/manual-pass2.json": {
+    "bytes": 2514,
+    "sha256": "8f719898d59d65b46d2ef047fd5ba60aa3f738ec794591b3c9102cc8a65ccb8e",
+    "gitBlobOid": "c50050d772da7375a30aa90c792cee51017d681e",
+    "crlfOrdinals": "all"
+  },
+  "startup-nontarget/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 6299,
+    "sha256": "cc2c42bbea0bfdaaa46d9a94a793cefb487b765c1b003101356f672c16f2af60",
+    "gitBlobOid": "d4fb2b40cd933c1e34532ce666cab956bb891263",
+    "crlfOrdinals": "all"
+  },
+  "startup-nontarget/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "startup-nontarget/annotations/pass-differences-v1.json": {
+    "bytes": 474,
+    "sha256": "3d869b75fdf00f1059c237d38b33f85adc61ae1c3f46dca6eb62fe072fe0c838",
+    "gitBlobOid": "892c4bef1b55f303db47578d49f636675a923a93",
+    "crlfOrdinals": "all"
+  },
+  "startup-nontarget/evidence/decode.stderr": {
+    "bytes": 93,
+    "sha256": "6b169f67d87e926e1b38cbe6ee4556d37de440b84b6cf816ffb6ce75344cfe56",
+    "gitBlobOid": "3f04049972daaa0a3a8c375f54f0e5d3672f9716",
+    "crlfOrdinals": "all"
+  },
+  "status-alt-pages/annotations/all-scenes-status-alt-pages-clip-v1.json": {
+    "bytes": 1192,
+    "sha256": "9e3d79527d72a9c52c7ffda9502e6d8b895fd15e1504a3ec2c99e55c1e5782b5",
+    "gitBlobOid": "e2ad10f76d3d9915e8ce8cdb62932a524a627b31",
+    "crlfOrdinals": "all"
+  },
+  "status-alt-pages/annotations/layout-v1.json": {
+    "bytes": 469,
+    "sha256": "a9c1cac87b804d0c9f193f8e866be3d0e445cefa08b1939e47e6abb91c13d72a",
+    "gitBlobOid": "c69448a81e2651f97d38b5ee3727a8ba10b70248",
+    "crlfOrdinals": "all"
+  },
+  "status-alt-pages/annotations/manual-pass1.json": {
+    "bytes": 1681,
+    "sha256": "a4d9ecc57da75948c503a46d5b628c78b5716578113c486fa38d45fa240f9958",
+    "gitBlobOid": "46e4e838ab4c0594e428fac2265b50ab5d92e55e",
+    "crlfOrdinals": "all"
+  },
+  "status-alt-pages/annotations/manual-pass2.json": {
+    "bytes": 25780,
+    "sha256": "973c3c26efd96527818b8b3b0b335865194b8f8561f4c11ab53653905c0b5747",
+    "gitBlobOid": "e855d9d03f84b7ce9d5259f4f99374193bbf4fef",
+    "crlfOrdinals": "all"
+  },
+  "status-alt-pages/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 23236,
+    "sha256": "ace3f3212dcea0da8a2b8f175fd6ed90235db9ff84ac370adda70b32afb3b9aa",
+    "gitBlobOid": "dcd7477cae53eb0fb93909b031317ccc2cbe888e",
+    "crlfOrdinals": "all"
+  },
+  "status-alt-pages/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "status-alt-pages/annotations/pass-differences-v1.json": {
+    "bytes": 441,
+    "sha256": "3044ae9c41aebe835cfa7bf8385ca476e9da8b8fa4b4eb45fff84517012145aa",
+    "gitBlobOid": "0451ab4650d0e31736ff9a2047a1f218539bf3ec",
+    "crlfOrdinals": "all"
+  },
+  "status-pages/annotations/all-scenes-status-pages-clip-v1.json": {
+    "bytes": 1186,
+    "sha256": "f195d061f0ea0b27a4d9a27bd4cfdecb41b1975991c9db0b637b382b9bda7265",
+    "gitBlobOid": "4ae100cdc97f74485c5060befe2f19a1bee77043",
+    "crlfOrdinals": "all"
+  },
+  "status-pages/annotations/layout-v1.json": {
+    "bytes": 403,
+    "sha256": "6ede13d611254433aca79ab20faa1bf0ca0a3947d092f294c6dbc7fa22ee5773",
+    "gitBlobOid": "2931eece2b92d2fd621fd5a547119561e1e9c863",
+    "crlfOrdinals": "all"
+  },
+  "status-pages/annotations/manual-pass1.json": {
+    "bytes": 1737,
+    "sha256": "e42e3eec17e006a7f0d2570c9552963c0535fc9e38eee04c09a8f88f25ba9134",
+    "gitBlobOid": "e5be546069046d39433535afab09e71e002f845b",
+    "crlfOrdinals": "all"
+  },
+  "status-pages/annotations/manual-pass2.json": {
+    "bytes": 26478,
+    "sha256": "cecfd032d21886d0a0198853f105bd3dfe258a3ad19d7f7297df3c1e53e78959",
+    "gitBlobOid": "d7e192278b95b12e09bfde782978c9e05572bfd2",
+    "crlfOrdinals": "all"
+  },
+  "status-pages/annotations/ocr-candidate-v1.jsonl": {
+    "bytes": 23535,
+    "sha256": "3cbcda677e872a3a9bf3e6be8bed67d839b67d5aab4adcc7081ea553bd6d387a",
+    "gitBlobOid": "1834eb4a8fbc009bae667390cc93f06ac79b5941",
+    "crlfOrdinals": "all"
+  },
+  "status-pages/annotations/ocr-scoring-contract-all-scenes-v5.json": {
+    "bytes": 7610,
+    "sha256": "3b26593830a88814d2430260dfcc8834dfbfc911ec77f5eec9efc036576cb126",
+    "gitBlobOid": "a569959831a349b32f52da5f33e2005976287267",
+    "crlfOrdinals": "all"
+  },
+  "status-pages/annotations/pass-differences-v1.json": {
+    "bytes": 607,
+    "sha256": "1d4663357a64c9eb4eb14891bc86d1a4959a362d0446ae344509b480a0f464c9",
+    "gitBlobOid": "533d8743e9a9eb55242367f0908768a58104542c",
+    "crlfOrdinals": "all"
+  }
+}

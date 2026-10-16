@@ -2,6 +2,8 @@
 
 > **状态：2026-10-15 对话扩充已统一提交 `gt-all-scenes-v2`，等待用户明确批准该版本/范围，后续开发暂停。** 原17项保持，新增20个对话事件/自然语段及原道馆路牌续页，共38条目、3361去重评分原帧、717状态、117页面机会；7636文件清单SHA `e51b7d9ebccae9e784f0b60a4a73a352b164e0d9807bd068afb2aad7c54b2dd3`。旧3151文件和已批准35帧不变；本轮要求不是批准。新增冻结0帧，M3/OCR/M5未启动。末尾记录完整证据、缺口和唯一下一步。
 
+> **2026-10-16 审阅访问修订：** 根据安卓相对路径图片无法访问的反馈，另增 `reports/gt-review/gt-all-scenes-v2-mobile-v1-r3/index.html` 手机离线入口；在页面中选择已下载的原审阅目录/仓库 ZIP 后按需读取，不依赖相对文件访问。原包7636文件逐项SHA不变，候选范围/契约/批准状态不变；ZIP及控件逻辑检查通过，安卓真机呈现仍待验证。此项仅响应审阅反馈，不恢复后续开发。
+
 ## Purpose / Big Picture
 
 从零开发 Windows 10 x64 / Java 8 / JavaFX 8 本地程序：识别 3DS VC 日版《宝可梦 红、绿、蓝、皮卡丘》投屏画面中的当前日文，在独立窗口展示对应中文。研发顺序为**录像验证体系 → 日文 OCR → OCR 验收 → 中日关联 → 翻译/UI → 真实环境验收**。
@@ -296,6 +298,7 @@ python tools/validate.py compare --set acceptance --stage translation
 - [x] **全场景统一审阅文档调整（2026-10-15）**：按用户原话修改AGENTS/spec/PLANS/README和本计划；取消试标/部分场景的单独卡点，列出全场景收口条件和恢复清单；本轮仅文档核对，不新增GT、不冻结、不运行OCR。
 - [x] **M1/M2 全场景候选收口与统一提交（2026-10-15）**：17代表事件（16未批准+1既有批准参考），1336新增去重评分原帧，全部原图双遍及结构检查；5359退出等缺口附原图/原因，3151文件统一包`gt-all-scenes-v1`正式提交，哈希见最终记录。35工具测试、1461帧控件/263状态跳转及文件检查通过，只证明工具/材料。
 - [x] **M1/M2 对话扩充与新版统一提交（2026-10-15）**：用户反馈后完成20个新增对话事件/语段及原路牌续页，21项原图双遍/结构/独立重提2116帧引用身份检查；与旧17项合为38项统一包gt-all-scenes-v2，原包不覆盖，结果详见末尾。
+- [x] **审阅访问兼容修订（2026-10-16）**：新增可选择本地ZIP的手机离线入口；原包/GT/原帧/范围保持原SHA。真实1.382GB ZIP读取、38场景/3577帧控件/717状态跳转及损坏反例检查通过，仅为资料与逻辑检查；安卓实机显示待验证，未批准或冻结新增GT。
 - [ ] **全场景统一人工卡点：等待gt-all-scenes-v2明确批准**：新增冻结0帧，暂停开发；尚未取得本版/范围明确批准。获批后先复检7636文件清单/GT，再实现并验证批准封套/冻结步骤，继续M2回放/比较基础；冻结/回放接口尚未实现，不冒称已通过。
 - [ ] **M1**：四视频逐一核验、原始 PTS/RGB 索引、覆盖矩阵与连续 clip。
 - [ ] **M2**：代理双遍核读、用户审阅批准、GT 冻结、会话隔离、真实时间轴回放比较。
@@ -317,6 +320,8 @@ python tools/validate.py compare --set acceptance --stage translation
 - **2026-10-14**：目录枚举已确认上述 4 个 MP4 和 16 个 PNG 存在；未解码、计算媒体哈希或核读画面，会话、内容、帧数和版本待验证。不得照搬旧结果。
 
 ## Decision Log
+
+- **2026-10-16 安卓访问反馈**：用户反馈“安卓上的浏览器好像识别不了文件的相对路径”。当前入口确实直接引用相对图片/附件；尚无手机URI/浏览器日志，具体系统权限原因不能冒称已诊断。选择另建只读访问入口，通过用户主动选择ZIP取得文件内容，使用经原清单SHA核对的Blob显示图片/附件；不修改原包或降低浏览器文件权限，不新增网络请求，不将此反馈记作GT批准。允许范围限于本审阅材料相关修订及检查，M3–M7继续暂停。
 
 - **2026-10-15 用户明确调整卡点**：原话“请修改文档说明和执行计划，一次性生成所有场景的gt后再进行人工卡点”。据此覆盖过去按少量场景合批即暂停的流程：撤回gt-expansion-v1仅商店/PC的待审请求，保留全部材料身份与未批准状态，已批准35帧不变；后续M1/M2连续处理全部场景，按spec §3.4收口后一次性正式提交。全部场景不意味着凭空补齐缺失素材或四视频全文标注；不得以难度跳过已有可核验项。日文与后续中文保持阶段前置，各自全场景统一审阅；流程调整不是GT批准。本轮用户仅请求文档修改，故不执行新的采帧/核读/开发。
 
@@ -375,4 +380,15 @@ python tools/validate.py compare --set acceptance --stage translation
 - 最终包清单不含自身 **7636文件/1379046562字节**，`bundle-manifest.json` SHA **`e51b7d9ebccae9e784f0b60a4a73a352b164e0d9807bd068afb2aad7c54b2dd3`**。逐文件最终SHA、38份GT/clip/layout版本、当前源快照、四原件、旧3151文件和35冻结封套复检全部相同：`reports/m2-dialogue-expansion-v1/final-dialogue-bundle-recheck-v1.json`。Java源/构建文件与前次35测试构建快照逐个相同，本轮未重跑或冒称重跑Java测试；本轮实际跑的是上述资料检查。`git diff --check`通过（既有LF/CRLF提示）；没有运行被测OCR/生产中文映射。
 - 旧版gt-all-scenes-v1审阅请求由本版统一替代，旧包及SHA不改；新增候选冻结0帧。背包退出5359、未证实版本/独立会话、真实窗口/UI/时延/长时稳定性与所有未选时段继续待验证；不要求补录，不把用户批准当OCR通过。**正式提交本版后按spec §3.4暂停后续开发，等待用户对gt-all-scenes-v2/候选范围及评分契约v5明确批准；M2整体与M3–M7未通过。**
 
-**唯一下一步（等待批准）**：收到用户明确批准gt-all-scenes-v2对应范围后，先按`reports/gt-review/gt-all-scenes-v2/bundle-manifest.json`逐文件重算SHA，并对四原件、GT/clip/layout/契约及原35帧封套复检；全部与上述清单身份相符后才建立批准记录/冻结封套并继续M2基础。批准前停止后续开发，不冻结新增GT或运行被测OCR。
+**安卓离线访问修订与验证（2026-10-16，仅审阅反馈范围；r2为中间检查版，最终入口r3见后文）**：
+
+- 原仓库已由用户要求推送至GitHub `main`，本轮起点 `bcc3ca0278be994232f2196ad674fc95eeaa49a3`，起始工作区干净。用户随后报告安卓本地相对图片路径问题；原入口只能直接引用相对图片，不能据此承诺完整目录在安卓必然可用。未取得手机URI或实际浏览器日志，因此系统层根因保持未核实。
+- 另建访问入口 `reports/gt-review/gt-all-scenes-v2-mobile-v1-r2/index.html`（附README与source-identity.json）。用户在新页面选择本地完整审阅ZIP或含原包的仓库ZIP，无需解压或重新下载原资料；页面仅通过File/Blob读取所选文件，读取ZIP目录及当前所需文件，不整包载入内存。支持普通存储/DEFLATE ZIP，明确拒绝分卷、加密、ZIP64、损坏/越界记录；DEFLATE依赖浏览器DecompressionStream支持，缺失时给出更新浏览器/使用存储ZIP的提示。图片、附件按原包清单核SHA；无crypto.subtle的本地上下文使用经对照验证的SHA-256实现。快速换帧先隐藏旧图，过期异步结果丢弃，替换时回收Blob URL。
+- 实现来源 `tools/mobile-review-assets.js` SHA `be4dfcf07aeada2c16f33d12ad75f605db6fa56f6f854f3296ae3f304aaaaa9c`，构建器 `tools/build-mobile-review.cjs` SHA `658396acee7c9969d4497c13f2584b1e2cefbc5d719b8a7671e72d7fda5b2e61`；实际命令 `node tools/build-mobile-review.cjs reports/gt-review/gt-all-scenes-v2 reports/gt-review/gt-all-scenes-v2-mobile-v1-r2`。生成前复核原7636文件/1379046562字节及清单，源review-data SHA仍为 `f25b80f58df9eba218f5864150989108a8ec6a5f706e53d094cf47e754e800b4`；新HTML SHA `696821da5f12f4e0ae44ac03aeb6dfbd1b3f4973f9113dc7363a5e310e8bf9fe`。早期派生入口mobile-v1保留，最终r2增加明确hidden样式及使用说明；不覆盖原gt-all-scenes-v2。
+- 检查器 `tools/check-mobile-review.cjs` SHA `f5763a8bb8eb1c387b212137b929d428f6a2ad9cb34ad21dce63ddb7ca4fc7d7`，最终命令 `node tools/check-mobile-review.cjs reports/gt-review/gt-all-scenes-v2-mobile-v1-r2 reports/m2-mobile-review-v1-r3 .cache/mobile-review-v1 .cache/mobile-review-v1/repository-layout-stored.zip`。完整真实ZIP夹具由原7636文件加原清单构造，7637条目、1382256776字节、仓库式根前缀；夹具只在忽略的.cache下，不随Git提交。普通DEFLATE/存储、UTF-8文件名、SHA/CRC对照及截断/损坏/错误版本/等长度篡改/越界等拒绝检查通过；全部38场景、3577帧控件、717状态跳转与原数据相同，76个场景图片样本及GT/缺口附件按字节核对。最快切换先清旧图、Blob URL最多8个，记录的单次档案读取最大1332808字节。结束后原7636文件逐项SHA复查一致。证据 `reports/m2-mobile-review-v1-r3/check.json`，只读访问逻辑不属于OCR或产品验收。
+- 首跑失败保留 `reports/m2-mobile-review-v1/failure.json`：测试包装器将合法Blob.slice(start)的省略end误算为NaN并误报无界读取，生产读取实际只取ZIP末65557字节；测试包装器补end=file.size，修复 **1/3**。保持原ZIP不重建，受影响检查及完整同类/回归在r2报告通过；最终入口在r3报告再次通过。失败证据、早期派生HTML、原包均未删除或覆写。
+- 发布前核查Git暂存字节时发现：原包363个文本文件在Git索引中已被CRLF→LF转换，均以Git blob身份确认只存在换行差异；直接按原文件长度拒绝会使旧GitHub ZIP无法连接。这是离线访问兼容问题，修复 **1/3**：构建器仅对已证明匹配Git索引的换行副本登记长度/SHA/CRLF位置；入口先核对传输副本SHA，再精确还原原字节，最后按原审阅清单SHA核验后显示，不接受任意规范化文字或改GT。新增`.gitattributes`只对新mobile入口HTML设置-text，保留派生文件自身哈希，不改变原审阅文件。
+- **最终发布入口为 `reports/gt-review/gt-all-scenes-v2-mobile-v1-r3/index.html`**，SHA `f4b4ca1c7c680e94a6c1be8517a7919e5df12ed398443112db76379ef1749b9a`，附`git-transport.json`列出上述363个已证明的传输副本及恢复信息。当前构建器SHA `c323588fa343bd08403c8eaac803b6b13aa202e536550be525aea2586cadccfa`、runtime SHA `413d4e62ecac711fd6808e62edee8915f7f702ea12fc2edea5d88996973b3acf`、检查器SHA `a79554a151541952b9ecbb40649f1796a75fcc7804b16df634080951b9a139c4`。实际构建 `node tools/build-mobile-review.cjs reports/gt-review/gt-all-scenes-v2 reports/gt-review/gt-all-scenes-v2-mobile-v1-r3`；检查 `node tools/check-mobile-review.cjs reports/gt-review/gt-all-scenes-v2-mobile-v1-r3 reports/m2-mobile-review-v1-r4 .cache/mobile-review-v1 .cache/mobile-review-v1/repository-layout-stored.zip`。r4报告中完整重跑前述10类检查；另构造正常ZIP更新字节流，363项用Git中的LF副本及普通DEFLATE，其余使用原ZIP文件数据，全部363项精确恢复到原文件SHA/字节，其他范围/控件与原7636文件复检通过。中间r2入口/报告保留，不再作为用户入口。
+- 新入口是原审阅版本的访问附件，原GT/原帧/边界/会话/契约/缺口及批准对象不变，新增冻结0帧。没有运行Java构建、被测OCR、翻译或后续开发；没有绕过此前内置浏览器file协议拒绝。**实际浏览器及安卓真机呈现仍待验证**；不能将Node内的DOM桩控件检查称为安卓或真实UI通过。等待gt-all-scenes-v2明确批准的卡点保持。
+
+**唯一下一步（审阅访问反馈）**：在安卓浏览器打开`reports/gt-review/gt-all-scenes-v2-mobile-v1-r3/index.html`，点击“选择资料ZIP”并选择已下载且包含原gt-all-scenes-v2的ZIP，确认连接后能切换场景、原图/放大图和附件；有错误则按页面提示修订访问材料。无访问问题且用户明确批准gt-all-scenes-v2对应范围后，才按原清单/四原件/GT等执行批准复检与冻结；批准前后续开发仍暂停。

@@ -1,0 +1,58 @@
+{
+  "status": "zip_identity_and_control_logic_checks_pass",
+  "reviewId": "gt-all-scenes-v2",
+  "sourceManifestSha256": "e51b7d9ebccae9e784f0b60a4a73a352b164e0d9807bd068afb2aad7c54b2dd3",
+  "companionHtmlSha256": "5515b1e3ef741b1312be6c2e15af4d1fc338bdbd480c62142f444c15b52b04c4",
+  "runtimeSha256": "be4dfcf07aeada2c16f33d12ad75f605db6fa56f6f854f3296ae3f304aaaaa9c",
+  "checkerSha256": "f5763a8bb8eb1c387b212137b929d428f6a2ad9cb34ad21dce63ddb7ca4fc7d7",
+  "checks": [
+    {
+      "name": "SHA-256 fallback and CRC-32 vectors",
+      "status": "pass"
+    },
+    {
+      "name": "Ordinary DEFLATE and stored ZIP / UTF-8 paths",
+      "status": "pass"
+    },
+    {
+      "name": "Reject truncated, corrupted, oversized, encrypted, traversal, duplicate and ZIP64 inputs",
+      "status": "pass"
+    },
+    {
+      "name": "Original payload / manifest unchanged; no relative-image reads before user selection",
+      "status": "pass"
+    },
+    {
+      "name": "Real full-size ZIP with GitHub-style prefix and bounded reads",
+      "status": "pass",
+      "prefix": "g1-ocr-main/reports/gt-review/gt-all-scenes-v2/",
+      "bytes": 1382256776,
+      "entries": 7637,
+      "reusedReadOnlyFixture": true
+    },
+    {
+      "name": "All 38 scenes / 3577 frame controls / 717 state jumps; source bytes on scene samples",
+      "status": "pass",
+      "frames": 3577,
+      "states": 717,
+      "sceneImageSamples": 76
+    },
+    {
+      "name": "Attachments / gap images / stale image suppression / bounded object URLs",
+      "status": "pass",
+      "maximumLiveUrls": 8
+    },
+    {
+      "name": "Reject changed asset SHA-256 / wrong review ZIP; clear stale images on reselection",
+      "status": "pass"
+    },
+    {
+      "name": "All 7636 source files unchanged after checks",
+      "status": "pass"
+    }
+  ],
+  "largestArchiveRead": 1332808,
+  "actualBrowserRendering": "unverified",
+  "actualAndroidRendering": "unverified",
+  "limitations": "These are deterministic file, ZIP and DOM-stub logic checks; no real browser, Android device, OCR or product acceptance is claimed."
+}
