@@ -1,0 +1,752 @@
+{
+  "status": "current_output_aware_root_cause_diagnosis_not_new_GT",
+  "prior": {
+    "path": "reports/m3-grid-refinement-v1/submenu-closing-diagnosis-v1.json",
+    "sha256": "ae274b6fc642507f08a9cbc6808483f33d4b5d3fe7686713ed68b76eaea6623d"
+  },
+  "actual": {
+    "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v20/actual/pc-deposit-navigation.jsonl",
+    "sha256": "a5945de4953aa552f6f533f8b313762a6d9441ed35fb74cd613a7cf10aa59b13"
+  },
+  "originals": [
+    {
+      "path": "data/frames/video-02/pc-cursor-pass2-v1/frame-001730.png",
+      "sha256": "eb8cab45b3db6bf1dc1866a8d8cbf22d248ef19af5afd35a8bac8dafa00fa6ee"
+    },
+    {
+      "path": "data/frames/video-02/pc-cursor-pass2-v1/frame-001731.png",
+      "sha256": "266c1f7ae6c3c04033fcdaae223b5d4089ac827b8adc8707fcd18ed4c504cd38"
+    },
+    {
+      "path": "data/frames/video-02/pc-cursor-pass2-v1/frame-001732.png",
+      "sha256": "62a9de38e2d331ba247dc41f66209d9f4c07a4bda88d615dd0ed605618a9e702"
+    }
+  ],
+  "observations": [
+    {
+      "frame": 1729,
+      "kind": "menu_complete",
+      "boxes": [
+        {
+          "left": 4,
+          "top": 2,
+          "right": 20,
+          "bottom": 13
+        },
+        {
+          "left": 0,
+          "top": 12,
+          "right": 20,
+          "bottom": 18
+        }
+      ],
+      "regions": [
+        {
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう",
+          "gridRect": [
+            2,
+            2,
+            4,
+            3
+          ]
+        },
+        {
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう",
+          "gridRect": [
+            2,
+            4,
+            4,
+            5
+          ]
+        },
+        {
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう",
+          "gridRect": [
+            2,
+            6,
+            4,
+            7
+          ]
+        },
+        {
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ",
+          "gridRect": [
+            2,
+            8,
+            4,
+            9
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "ピーピーエイダー",
+          "gridRect": [
+            6,
+            4,
+            14,
+            5
+          ]
+        },
+        {
+          "role": "quantity_label",
+          "text": "×",
+          "gridRect": [
+            15,
+            4,
+            16,
+            5
+          ]
+        },
+        {
+          "role": "item_quantity",
+          "text": "1",
+          "gridRect": [
+            17,
+            4,
+            18,
+            5
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "ひでんマシン02",
+          "gridRect": [
+            6,
+            6,
+            14,
+            7
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "ひでんマシン05",
+          "gridRect": [
+            6,
+            8,
+            14,
+            9
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "ひでんマシン01",
+          "gridRect": [
+            6,
+            10,
+            14,
+            11
+          ]
+        },
+        {
+          "role": "pc_prompt",
+          "text": "なにを あずけますか?",
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ]
+        }
+      ],
+      "cursor": {
+        "menuCursors": [
+          {
+            "style": "outline_right",
+            "gridRect": [
+              1,
+              4,
+              2,
+              5
+            ],
+            "sourceRect": [
+              318,
+              181,
+              337,
+              200
+            ]
+          },
+          {
+            "style": "filled_right",
+            "gridRect": [
+              5,
+              8,
+              6,
+              9
+            ],
+            "sourceRect": [
+              390,
+              253,
+              409,
+              273
+            ]
+          }
+        ],
+        "additionalDownArrows": [],
+        "downArrowVisible": true,
+        "downArrow": {
+          "style": "filled_down",
+          "gridRect": [
+            18,
+            11,
+            19,
+            12
+          ],
+          "sourceRect": [
+            624,
+            308,
+            643,
+            327
+          ]
+        }
+      },
+      "marks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ],
+          "sourceRect": [
+            372,
+            126,
+            391,
+            146
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ],
+          "sourceRect": [
+            462,
+            126,
+            481,
+            146
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1730,
+      "kind": "menu_complete",
+      "boxes": [
+        {
+          "left": 4,
+          "top": 2,
+          "right": 20,
+          "bottom": 13
+        },
+        {
+          "left": 0,
+          "top": 12,
+          "right": 20,
+          "bottom": 18
+        }
+      ],
+      "regions": [
+        {
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう",
+          "gridRect": [
+            2,
+            2,
+            4,
+            3
+          ]
+        },
+        {
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう",
+          "gridRect": [
+            2,
+            4,
+            4,
+            5
+          ]
+        },
+        {
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう",
+          "gridRect": [
+            2,
+            6,
+            4,
+            7
+          ]
+        },
+        {
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ",
+          "gridRect": [
+            2,
+            8,
+            4,
+            9
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "ピーピーエイダー",
+          "gridRect": [
+            6,
+            4,
+            14,
+            5
+          ]
+        },
+        {
+          "role": "quantity_label",
+          "text": "×",
+          "gridRect": [
+            15,
+            4,
+            16,
+            5
+          ]
+        },
+        {
+          "role": "item_quantity",
+          "text": "1",
+          "gridRect": [
+            17,
+            4,
+            18,
+            5
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "ひでんマシン02",
+          "gridRect": [
+            6,
+            6,
+            14,
+            7
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "ひでんマシン05",
+          "gridRect": [
+            6,
+            8,
+            14,
+            9
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "ひでんマシン01",
+          "gridRect": [
+            6,
+            10,
+            14,
+            11
+          ]
+        },
+        {
+          "role": "pc_prompt",
+          "text": "なにを あずけますか?",
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ]
+        }
+      ],
+      "cursor": {
+        "menuCursors": [
+          {
+            "style": "outline_right",
+            "gridRect": [
+              1,
+              4,
+              2,
+              5
+            ],
+            "sourceRect": [
+              318,
+              181,
+              337,
+              200
+            ]
+          },
+          {
+            "style": "filled_right",
+            "gridRect": [
+              5,
+              8,
+              6,
+              9
+            ],
+            "sourceRect": [
+              390,
+              253,
+              409,
+              273
+            ]
+          }
+        ],
+        "additionalDownArrows": [],
+        "downArrowVisible": true,
+        "downArrow": {
+          "style": "filled_down",
+          "gridRect": [
+            18,
+            11,
+            19,
+            12
+          ],
+          "sourceRect": [
+            624,
+            308,
+            643,
+            327
+          ]
+        }
+      },
+      "marks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ],
+          "sourceRect": [
+            372,
+            126,
+            391,
+            146
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ],
+          "sourceRect": [
+            462,
+            126,
+            481,
+            146
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1731,
+      "kind": "menu_complete",
+      "boxes": [
+        {
+          "left": 0,
+          "top": 0,
+          "right": 12,
+          "bottom": 10
+        },
+        {
+          "left": 0,
+          "top": 12,
+          "right": 20,
+          "bottom": 18
+        }
+      ],
+      "regions": [
+        {
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう",
+          "gridRect": [
+            2,
+            2,
+            4,
+            3
+          ]
+        },
+        {
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう",
+          "gridRect": [
+            2,
+            4,
+            4,
+            5
+          ]
+        },
+        {
+          "role": "menu_label",
+          "text": "どうくを ずてる",
+          "gridRect": [
+            2,
+            6,
+            10,
+            7
+          ]
+        },
+        {
+          "role": "menu_label",
+          "text": "スイッチを きる",
+          "gridRect": [
+            2,
+            8,
+            10,
+            9
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "ピーピーエイダー",
+          "gridRect": [
+            6,
+            4,
+            14,
+            5
+          ]
+        },
+        {
+          "role": "quantity_label",
+          "text": "×",
+          "gridRect": [
+            15,
+            4,
+            16,
+            5
+          ]
+        },
+        {
+          "role": "item_quantity",
+          "text": "1",
+          "gridRect": [
+            17,
+            4,
+            18,
+            5
+          ]
+        },
+        {
+          "role": "pc_prompt",
+          "text": "なにを あずけますか?",
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ]
+        }
+      ],
+      "cursor": {
+        "menuCursors": [
+          {
+            "style": "outline_right",
+            "gridRect": [
+              1,
+              4,
+              2,
+              5
+            ],
+            "sourceRect": [
+              318,
+              181,
+              337,
+              200
+            ]
+          }
+        ],
+        "additionalDownArrows": [],
+        "downArrowVisible": false
+      },
+      "marks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            4,
+            1,
+            5,
+            2
+          ],
+          "sourceRect": [
+            372,
+            126,
+            391,
+            146
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            9,
+            1,
+            10,
+            2
+          ],
+          "sourceRect": [
+            462,
+            126,
+            481,
+            146
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1732,
+      "kind": "message_clear_menu_remains",
+      "boxes": [
+        {
+          "left": 0,
+          "top": 0,
+          "right": 12,
+          "bottom": 10
+        },
+        {
+          "left": 0,
+          "top": 12,
+          "right": 20,
+          "bottom": 18
+        }
+      ],
+      "regions": [
+        {
+          "role": "menu_label",
+          "text": "どうぐを ひきだす",
+          "gridRect": [
+            2,
+            2,
+            11,
+            3
+          ]
+        },
+        {
+          "role": "menu_label",
+          "text": "どうぐを あずける",
+          "gridRect": [
+            2,
+            4,
+            11,
+            5
+          ]
+        },
+        {
+          "role": "menu_label",
+          "text": "どうぐを すてる",
+          "gridRect": [
+            2,
+            6,
+            10,
+            7
+          ]
+        },
+        {
+          "role": "menu_label",
+          "text": "スイッチを きる",
+          "gridRect": [
+            2,
+            8,
+            10,
+            9
+          ]
+        }
+      ],
+      "cursor": {
+        "menuCursors": [],
+        "additionalDownArrows": [],
+        "downArrowVisible": false
+      },
+      "marks": []
+    },
+    {
+      "frame": 1733,
+      "kind": "message_loading",
+      "boxes": [
+        {
+          "left": 0,
+          "top": 0,
+          "right": 12,
+          "bottom": 10
+        },
+        {
+          "left": 0,
+          "top": 12,
+          "right": 20,
+          "bottom": 18
+        }
+      ],
+      "regions": [
+        {
+          "role": "menu_label",
+          "text": "どうぐを ひきだす",
+          "gridRect": [
+            2,
+            2,
+            11,
+            3
+          ]
+        },
+        {
+          "role": "menu_label",
+          "text": "どうぐを あずける",
+          "gridRect": [
+            2,
+            4,
+            11,
+            5
+          ]
+        },
+        {
+          "role": "menu_label",
+          "text": "どうぐを すてる",
+          "gridRect": [
+            2,
+            6,
+            10,
+            7
+          ]
+        },
+        {
+          "role": "menu_label",
+          "text": "スイッチを きる",
+          "gridRect": [
+            2,
+            8,
+            10,
+            9
+          ]
+        },
+        {
+          "role": "pc_prompt",
+          "text": "な",
+          "gridRect": [
+            1,
+            14,
+            2,
+            15
+          ]
+        }
+      ],
+      "cursor": {
+        "menuCursors": [],
+        "additionalDownArrows": [],
+        "downArrowVisible": false
+      },
+      "marks": []
+    }
+  ],
+  "rootCause": "Tracker discards all history as soon as the full child boundary disappears. The surviving upper child and restored closed parent then fall through to menu_complete. Retain bounded closing evidence only while current parent restoration and child upper outline persist.",
+  "expectedKind": "submenu_partial_closing",
+  "candidate": 1,
+  "gtChanged": false
+}

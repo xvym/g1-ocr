@@ -1,0 +1,134 @@
+[
+  {
+    "sourceFrameIndex": 5205,
+    "sourcePts": 5329920,
+    "stateId": "4a2fec5930e9-f5205-f5206",
+    "expectedCharacters": 28,
+    "errors": 28,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "backpack_item_or_cancel:4:6:0",
+        "expected": "じてんしゃ",
+        "actual": "",
+        "errors": 5
+      },
+      {
+        "kind": "missing_region",
+        "key": "backpack_item_or_cancel:6:6:1",
+        "expected": "ポケモンのふえ",
+        "actual": "",
+        "errors": 7
+      },
+      {
+        "kind": "missing_region",
+        "key": "backpack_item_or_cancel:8:6:2",
+        "expected": "いいつりざお",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "backpack_item_or_cancel:10:6:3",
+        "expected": "ボロのつりざお",
+        "actual": "",
+        "errors": 7
+      },
+      {
+        "kind": "missing_region",
+        "key": "parent_menu_visible_choice:14:14:4",
+        "expected": "とじる",
+        "actual": "",
+        "errors": 3
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5206,
+    "sourcePts": 5330944,
+    "stateId": "4a2fec5930e9-f5206-f5208",
+    "expectedCharacters": 28,
+    "errors": 28,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "backpack_item_or_cancel:4:6:0",
+        "expected": "じてんしゃ",
+        "actual": "",
+        "errors": 5
+      },
+      {
+        "kind": "missing_region",
+        "key": "backpack_item_or_cancel:6:6:1",
+        "expected": "ポケモンのふえ",
+        "actual": "",
+        "errors": 7
+      },
+      {
+        "kind": "missing_region",
+        "key": "backpack_item_or_cancel:8:6:2",
+        "expected": "いいつりざお",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "backpack_item_or_cancel:10:6:3",
+        "expected": "ボロのつりざお",
+        "actual": "",
+        "errors": 7
+      },
+      {
+        "kind": "missing_region",
+        "key": "parent_menu_visible_choice:14:14:4",
+        "expected": "とじる",
+        "actual": "",
+        "errors": 3
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5207,
+    "sourcePts": 5331968,
+    "stateId": "4a2fec5930e9-f5206-f5208",
+    "expectedCharacters": 28,
+    "errors": 28,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "backpack_item_or_cancel:4:6:0",
+        "expected": "じてんしゃ",
+        "actual": "",
+        "errors": 5
+      },
+      {
+        "kind": "missing_region",
+        "key": "backpack_item_or_cancel:6:6:1",
+        "expected": "ポケモンのふえ",
+        "actual": "",
+        "errors": 7
+      },
+      {
+        "kind": "missing_region",
+        "key": "backpack_item_or_cancel:8:6:2",
+        "expected": "いいつりざお",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "backpack_item_or_cancel:10:6:3",
+        "expected": "ボロのつりざお",
+        "actual": "",
+        "errors": 7
+      },
+      {
+        "kind": "missing_region",
+        "key": "parent_menu_visible_choice:14:14:4",
+        "expected": "とじる",
+        "actual": "",
+        "errors": 3
+      }
+    ]
+  }
+]

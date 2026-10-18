@@ -1,0 +1,177 @@
+{
+  "sourceSnapshotSha256": "8382b135c18888de4f9a6d8e67c730f49da129d8314dc7ee6624ac180d002aff",
+  "javaClasses": [
+    {
+      "path": "app/target/classes/io/github/g1ocr/BootstrapWindow.class",
+      "sha256": "1cf56137fe6b8a377083bcbaedf72a370c419d3995469714b34a073fcf20fbe0"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/Main.class",
+      "sha256": "20a8b76462752766da2a30098af667ed19044900575e36dc4cea5c46c3dbe86a"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/capture/SourceFrame.class",
+      "sha256": "010fbd12c4888e15a48030bf05613bef4d7d0a35af1b12cfe58d1a1efdbff01e"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ComparisonAggregate$Frame.class",
+      "sha256": "a493137943105b55c9dcd38ae206c4f1579a20a8c804b46bfd0538708c761371"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ComparisonAggregate$Union.class",
+      "sha256": "b08c2e27de8a3858ce6fffd0dc90048e4f4e7a0b2fd00b174384c4b077b2dfc1"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ComparisonAggregate.class",
+      "sha256": "5da4998c6af7251d3a6adbdbdb2cbd8e6ea4d1f55d9b5d497c1fd78234dcbfb3"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/FrameInspection.class",
+      "sha256": "46ad60d128f52cb9e69bdbaab6abb5212c4947eb841c893752dfdfea5090bf13"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/FrozenDataset$Clip.class",
+      "sha256": "cbc5b51f3871442a70329c4532ba985798a41c550c212e0f4f8c4334cf5aca4d"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/FrozenDataset.class",
+      "sha256": "524dd00f3a646b806270fc5bbc19f0e1ad2e9fc32aca556af83bb41354050a93"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GridProjection.class",
+      "sha256": "050659a3840e30d8c620a1a5124b9f5899429fca59472d9646d8256b24437f30"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GtGeometry.class",
+      "sha256": "53954d9673d04b1465ff6837c97e4cfc0127db89f36d64a5d35c3d5b875f9ce0"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GtIntegrity.class",
+      "sha256": "1a42a6c5ab09d30782d9be67009a8e09bf1569229ded51fea2c070144b3f65c9"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/Ledger.class",
+      "sha256": "ba29e44adb400f4804b6940e59207f3cf4f95129fb8c753312b7eba032d41383"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrComparison$1.class",
+      "sha256": "add09829472d6bb0911db7d10c1e36a6bfe588bbe4cec903749f04dad26954a5"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrComparison$Totals.class",
+      "sha256": "56c34d592ba795115a855e2ad51f38294d17f6b72ad31d6566c79f45393d556c"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrComparison.class",
+      "sha256": "aec5a05d44c89a693699866ff0b4b07ea1ff739a15265f32c70bd15472cccca1"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrScoring$Edit.class",
+      "sha256": "449626fcf92756da8f010ec1810f97d9606377df3ea7fabe8a467fe3ac64d7c8"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrScoring$FrameScore.class",
+      "sha256": "5c99e5f6f6c00111efaef887e187fa58bc9450d768245b76522eaf56aedadc01"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrScoring.class",
+      "sha256": "d80e6f0a4c31dec89046a1454eac66ec04efc11ab9c54d13617270ef3d3d997b"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/PageOpportunities.class",
+      "sha256": "cac571805b4c7f7b2729616611f705e4571a84d3a79f0bfe3a254acad55ee6bd"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline$1.class",
+      "sha256": "71e373889fba6cea00eba1468f34fe53e15d35f2a5b4c3e86fe6c1188ef8fb56"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline$2.class",
+      "sha256": "d4510f3a070cafeb246de2e979dd901ff0d12aa6cee2cd8c0151a011e88e038a"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline$Clock.class",
+      "sha256": "b8055462b5e8f0f7516599ade7379044a5a0d99f2cd7699001589580e0f5fb0a"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline$Consumer.class",
+      "sha256": "7cab379e40328925eb92a0e6ad6e36b5f76b0321cc14dd3009742bc9c6cba275"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline.class",
+      "sha256": "5d5c7f9a29d19031c11f6e166f7cd91f754f84a727b5f43b3bfaf8b6df0e6568"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/VideoTool.class",
+      "sha256": "36290e3f7fc6484d09c33f0944cbbf9df6201802fdac4daa20bfd5b46c0c504a"
+    }
+  ],
+  "tests": [
+    {
+      "module": "app",
+      "file": "TEST-io.github.g1ocr.capture.SourceFrameTest.xml",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "file": "TEST-io.github.g1ocr.verification.ComparisonAggregateTest.xml",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "file": "TEST-io.github.g1ocr.verification.GridProjectionTest.xml",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "file": "TEST-io.github.g1ocr.verification.GtGeometryTest.xml",
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "file": "TEST-io.github.g1ocr.verification.LedgerTest.xml",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "file": "TEST-io.github.g1ocr.verification.OcrScoringTest.xml",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "file": "TEST-io.github.g1ocr.verification.PageOpportunitiesTest.xml",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "file": "TEST-io.github.g1ocr.verification.ReplayTimelineTest.xml",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "command": "mvn -o -s config/maven-settings.xml '-Dmaven.repo.local=.cache/m2' test",
+  "log": "reports/gt-approval-all-scenes-v2/maven-test-m2-final-v1.log"
+}

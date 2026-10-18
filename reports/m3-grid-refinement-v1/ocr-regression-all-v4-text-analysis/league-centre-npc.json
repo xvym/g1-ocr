@@ -1,0 +1,113 @@
+[
+  {
+    "sourceFrameIndex": 1630,
+    "sourcePts": 834560,
+    "stateId": "9c8aee036f72-f1630-f1633",
+    "expectedCharacters": 24,
+    "errors": 48,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue:13:1:0",
+        "expected": "このさきは してんのうと",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue:15:1:1",
+        "expected": "ひとりずつ たたかうの！",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "このさきは してんのうと",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "ひとりずつ たたかうの！",
+        "errors": 12
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1631,
+    "sourcePts": 835072,
+    "stateId": "9c8aee036f72-f1630-f1633",
+    "expectedCharacters": 24,
+    "errors": 48,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue:13:1:0",
+        "expected": "このさきは してんのうと",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue:15:1:1",
+        "expected": "ひとりずつ たたかうの！",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "このさきは してんのうと",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "ひとりずつ たたかうの！",
+        "errors": 12
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1692,
+    "sourcePts": 866304,
+    "stateId": "9c8aee036f72-f1692-f1696",
+    "expectedCharacters": 30,
+    "errors": 60,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue:13:1:0",
+        "expected": "もし かてたら トアか ひらいて",
+        "actual": "",
+        "errors": 16
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue:15:1:1",
+        "expected": "おくの へやに すすめるわ！",
+        "actual": "",
+        "errors": 14
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "もし かてたら ドアが ひらいて",
+        "errors": 16
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "おくの へやに すすめるわ！",
+        "errors": 14
+      }
+    ]
+  }
+]

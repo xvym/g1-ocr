@@ -1,0 +1,968 @@
+{
+  "mediaId": "video-03",
+  "notes": [
+    "Money22526円 remains literal; sale-entry briefly clears numeric amount1063-1068, not inferred unchanged",
+    "Buy candidate is complete cursor/scroll operation already inside buy list; sell candidate is entry and selection operation, not a completed transaction",
+    "Obscured parent fields recorded only visible prefixes; no full hidden labels restored"
+  ],
+  "status": "first_raw_read_complete_not_frozen",
+  "firstRead": "All selected score frames directly viewed full original ordered sheets and key full frames; no tested OCR output",
+  "states": [
+    {
+      "kind": "menu_complete",
+      "startFrame": 820,
+      "endFrameExclusive": 826,
+      "completePage": true,
+      "pageOpportunityId": "buy-super",
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 4,
+          "id": "item-0",
+          "variable": {
+            "type": "string",
+            "displayValue": "ハイパーボール",
+            "role": "item_name"
+          },
+          "text": "ハイパーボール"
+        },
+        {
+          "col": 14,
+          "role": "item_price",
+          "row": 4,
+          "id": "price-0",
+          "variable": {
+            "type": "integer",
+            "numericValue": 1200,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "1200円",
+            "suffix": "円"
+          },
+          "text": "1200円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 6,
+          "id": "item-1",
+          "variable": {
+            "type": "string",
+            "displayValue": "スーパーボール",
+            "role": "item_name"
+          },
+          "text": "スーパーボール"
+        },
+        {
+          "col": 15,
+          "role": "item_price",
+          "row": 6,
+          "id": "price-1",
+          "variable": {
+            "type": "integer",
+            "numericValue": 600,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "600円",
+            "suffix": "円"
+          },
+          "text": "600円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 8,
+          "id": "item-2",
+          "variable": {
+            "type": "string",
+            "displayValue": "かいふくのくすり",
+            "role": "item_name"
+          },
+          "text": "かいふくのくすり"
+        },
+        {
+          "col": 14,
+          "role": "item_price",
+          "row": 8,
+          "id": "price-2",
+          "variable": {
+            "type": "integer",
+            "numericValue": 3000,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "3000円",
+            "suffix": "円"
+          },
+          "text": "3000円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 10,
+          "id": "item-3",
+          "variable": {
+            "type": "string",
+            "displayValue": "まんたんのくすり",
+            "role": "item_name"
+          },
+          "text": "まんたんのくすり"
+        },
+        {
+          "col": 14,
+          "role": "item_price",
+          "row": 10,
+          "id": "price-3",
+          "variable": {
+            "type": "integer",
+            "numericValue": 2500,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "2500円",
+            "suffix": "円"
+          },
+          "text": "2500円"
+        },
+        {
+          "row": 14,
+          "text": "ゆっくり ごらんになって ください",
+          "col": 1,
+          "id": "prompt",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            6,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "menu_complete",
+      "startFrame": 826,
+      "endFrameExclusive": 833,
+      "completePage": true,
+      "pageOpportunityId": "buy-fullrestore",
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 4,
+          "id": "item-0",
+          "variable": {
+            "type": "string",
+            "displayValue": "ハイパーボール",
+            "role": "item_name"
+          },
+          "text": "ハイパーボール"
+        },
+        {
+          "col": 14,
+          "role": "item_price",
+          "row": 4,
+          "id": "price-0",
+          "variable": {
+            "type": "integer",
+            "numericValue": 1200,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "1200円",
+            "suffix": "円"
+          },
+          "text": "1200円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 6,
+          "id": "item-1",
+          "variable": {
+            "type": "string",
+            "displayValue": "スーパーボール",
+            "role": "item_name"
+          },
+          "text": "スーパーボール"
+        },
+        {
+          "col": 15,
+          "role": "item_price",
+          "row": 6,
+          "id": "price-1",
+          "variable": {
+            "type": "integer",
+            "numericValue": 600,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "600円",
+            "suffix": "円"
+          },
+          "text": "600円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 8,
+          "id": "item-2",
+          "variable": {
+            "type": "string",
+            "displayValue": "かいふくのくすり",
+            "role": "item_name"
+          },
+          "text": "かいふくのくすり"
+        },
+        {
+          "col": 14,
+          "role": "item_price",
+          "row": 8,
+          "id": "price-2",
+          "variable": {
+            "type": "integer",
+            "numericValue": 3000,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "3000円",
+            "suffix": "円"
+          },
+          "text": "3000円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 10,
+          "id": "item-3",
+          "variable": {
+            "type": "string",
+            "displayValue": "まんたんのくすり",
+            "role": "item_name"
+          },
+          "text": "まんたんのくすり"
+        },
+        {
+          "col": 14,
+          "role": "item_price",
+          "row": 10,
+          "id": "price-3",
+          "variable": {
+            "type": "integer",
+            "numericValue": 2500,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "2500円",
+            "suffix": "円"
+          },
+          "text": "2500円"
+        },
+        {
+          "row": 14,
+          "text": "ゆっくり ごらんになって ください",
+          "col": 1,
+          "id": "prompt",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "endFrameExclusive": 859,
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 4,
+          "id": "item-0",
+          "variable": {
+            "type": "string",
+            "displayValue": "ハイパーボール",
+            "role": "item_name"
+          },
+          "text": "ハイパーボール"
+        },
+        {
+          "col": 14,
+          "role": "item_price",
+          "row": 4,
+          "id": "price-0",
+          "variable": {
+            "type": "integer",
+            "numericValue": 1200,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "1200円",
+            "suffix": "円"
+          },
+          "text": "1200円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 6,
+          "id": "item-1",
+          "variable": {
+            "type": "string",
+            "displayValue": "スーパーボール",
+            "role": "item_name"
+          },
+          "text": "スーパーボール"
+        },
+        {
+          "col": 15,
+          "role": "item_price",
+          "row": 6,
+          "id": "price-1",
+          "variable": {
+            "type": "integer",
+            "numericValue": 600,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "600円",
+            "suffix": "円"
+          },
+          "text": "600円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 8,
+          "id": "item-2",
+          "variable": {
+            "type": "string",
+            "displayValue": "かいふくのくすり",
+            "role": "item_name"
+          },
+          "text": "かいふくのくすり"
+        },
+        {
+          "col": 14,
+          "role": "item_price",
+          "row": 8,
+          "id": "price-2",
+          "variable": {
+            "type": "integer",
+            "numericValue": 3000,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "3000円",
+            "suffix": "円"
+          },
+          "text": "3000円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 10,
+          "id": "item-3",
+          "variable": {
+            "type": "string",
+            "displayValue": "まんたんのくすり",
+            "role": "item_name"
+          },
+          "text": "まんたんのくすり"
+        },
+        {
+          "col": 14,
+          "role": "item_price",
+          "row": 10,
+          "id": "price-3",
+          "variable": {
+            "type": "integer",
+            "numericValue": 2500,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "2500円",
+            "suffix": "円"
+          },
+          "text": "2500円"
+        },
+        {
+          "row": 14,
+          "text": "ゆっくり ごらんになって ください",
+          "col": 1,
+          "id": "prompt",
+          "role": "shop_prompt"
+        }
+      ],
+      "kind": "menu_complete",
+      "startFrame": 833,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "completePage": true,
+      "pageOpportunityId": "buy-fullrestore"
+    },
+    {
+      "kind": "scroll_cursor_transition",
+      "startFrame": 859,
+      "endFrameExclusive": 860,
+      "completePage": false,
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 4,
+          "id": "item-0",
+          "variable": {
+            "type": "string",
+            "displayValue": "スーパーボール",
+            "role": "item_name"
+          },
+          "text": "スーパーボール"
+        },
+        {
+          "col": 15,
+          "role": "item_price",
+          "row": 4,
+          "id": "price-0",
+          "variable": {
+            "type": "integer",
+            "numericValue": 600,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "600円",
+            "suffix": "円"
+          },
+          "text": "600円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 6,
+          "id": "item-1",
+          "variable": {
+            "type": "string",
+            "displayValue": "かいふくのくすり",
+            "role": "item_name"
+          },
+          "text": "かいふくのくすり"
+        },
+        {
+          "col": 14,
+          "role": "item_price",
+          "row": 6,
+          "id": "price-1",
+          "variable": {
+            "type": "integer",
+            "numericValue": 3000,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "3000円",
+            "suffix": "円"
+          },
+          "text": "3000円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 8,
+          "id": "item-2",
+          "variable": {
+            "type": "string",
+            "displayValue": "まんたんのくすり",
+            "role": "item_name"
+          },
+          "text": "まんたんのくすり"
+        },
+        {
+          "col": 14,
+          "role": "item_price",
+          "row": 8,
+          "id": "price-2",
+          "variable": {
+            "type": "integer",
+            "numericValue": 2500,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "2500円",
+            "suffix": "円"
+          },
+          "text": "2500円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 10,
+          "id": "item-3",
+          "variable": {
+            "type": "string",
+            "displayValue": "なんでもなおし",
+            "role": "item_name"
+          },
+          "text": "なんでもなおし"
+        },
+        {
+          "col": 15,
+          "role": "item_price",
+          "row": 10,
+          "id": "price-3",
+          "variable": {
+            "type": "integer",
+            "numericValue": 600,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "600円",
+            "suffix": "円"
+          },
+          "text": "600円"
+        },
+        {
+          "row": 14,
+          "text": "ゆっくり ごらんになって ください",
+          "col": 1,
+          "id": "prompt",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            1,
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "endFrameExclusive": 864,
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 4,
+          "id": "item-0",
+          "variable": {
+            "type": "string",
+            "displayValue": "スーパーボール",
+            "role": "item_name"
+          },
+          "text": "スーパーボール"
+        },
+        {
+          "col": 15,
+          "role": "item_price",
+          "row": 4,
+          "id": "price-0",
+          "variable": {
+            "type": "integer",
+            "numericValue": 600,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "600円",
+            "suffix": "円"
+          },
+          "text": "600円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 6,
+          "id": "item-1",
+          "variable": {
+            "type": "string",
+            "displayValue": "かいふくのくすり",
+            "role": "item_name"
+          },
+          "text": "かいふくのくすり"
+        },
+        {
+          "col": 14,
+          "role": "item_price",
+          "row": 6,
+          "id": "price-1",
+          "variable": {
+            "type": "integer",
+            "numericValue": 3000,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "3000円",
+            "suffix": "円"
+          },
+          "text": "3000円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 8,
+          "id": "item-2",
+          "variable": {
+            "type": "string",
+            "displayValue": "まんたんのくすり",
+            "role": "item_name"
+          },
+          "text": "まんたんのくすり"
+        },
+        {
+          "col": 14,
+          "role": "item_price",
+          "row": 8,
+          "id": "price-2",
+          "variable": {
+            "type": "integer",
+            "numericValue": 2500,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "2500円",
+            "suffix": "円"
+          },
+          "text": "2500円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 10,
+          "id": "item-3",
+          "variable": {
+            "type": "string",
+            "displayValue": "なんでもなおし",
+            "role": "item_name"
+          },
+          "text": "なんでもなおし"
+        },
+        {
+          "col": 15,
+          "role": "item_price",
+          "row": 10,
+          "id": "price-3",
+          "variable": {
+            "type": "integer",
+            "numericValue": 600,
+            "currency": "JPY",
+            "role": "item_price",
+            "displayValue": "600円",
+            "suffix": "円"
+          },
+          "text": "600円"
+        },
+        {
+          "row": 14,
+          "text": "ゆっくり ごらんになって ください",
+          "col": 1,
+          "id": "prompt",
+          "role": "shop_prompt"
+        }
+      ],
+      "kind": "menu_complete",
+      "startFrame": 860,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            8,
+            6,
+            9
+          ]
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "completePage": true,
+      "pageOpportunityId": "buy-maxpotion"
+    }
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "source": "data/frames/video-03/expansion-context-f800-f1540-v1",
+  "frozen": false,
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5"
+}

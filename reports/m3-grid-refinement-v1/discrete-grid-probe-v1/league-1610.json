@@ -1,0 +1,76 @@
+{
+  "status": "diagnostic_candidate_not_product_geometry",
+  "input": "data/frames/video-03/authorized-correction-league-centre-npc-pass2-v1/frame-001610.png",
+  "current": {
+    "located": true,
+    "method": "palette_and_phase",
+    "grid": {
+      "originX": 180.76988636414555,
+      "originY": -0.27817627840251047,
+      "scaleX": 3.7546875,
+      "scaleY": 3.7821180555555554
+    },
+    "hypotheses": {
+      "available": true,
+      "xCandidates": [
+        {
+          "origin": 180.76988636414555,
+          "scale": 3.7546875,
+          "concentration": 0.2785883628883421,
+          "phase": 180.76988636414555
+        },
+        {
+          "origin": 181.05667400835227,
+          "scale": 3.75,
+          "concentration": 0.25467483853736933,
+          "phase": 181.05667400835227
+        },
+        {
+          "origin": 180.44169484939445,
+          "scale": 3.76015625,
+          "concentration": 0.2449188107953481,
+          "phase": 180.44169484939445
+        }
+      ],
+      "yCandidates": [
+        {
+          "origin": -0.27817627840251047,
+          "scale": 3.7821180555555554,
+          "concentration": 0.33403080419747405,
+          "phase": -0.27817627840251047
+        },
+        {
+          "origin": -0.7598851716519839,
+          "scale": 3.787326388888889,
+          "concentration": 0.3202046722345371,
+          "phase": -0.7598851716519839
+        },
+        {
+          "origin": 0.28397968675143453,
+          "scale": 3.7760416666666665,
+          "concentration": 0.31229891575149993,
+          "phase": 0.28397968675143453
+        }
+      ]
+    },
+    "envelope": [
+      180,
+      0,
+      782,
+      544
+    ]
+  },
+  "discreteX": {
+    "origin": 180.23466796875,
+    "scale": 3.7546875,
+    "weightedSquaredEdgeDistance": 0.8102454585080227,
+    "equalMinima": 1
+  },
+  "discreteY": {
+    "origin": -0.2360568576388889,
+    "scale": 3.7769097222222223,
+    "weightedSquaredEdgeDistance": 0.7305201919493817,
+    "equalMinima": 1
+  },
+  "limitation": "Discrete ceil-edge model is a hypothesis. Compression, filtering and tied origins may invalidate exact projection. No product modification or acceptance claim."
+}

@@ -1,0 +1,21 @@
+{
+  "status": "second_original_image_pass_completed_not_effective_freeze",
+  "event": "status-pages",
+  "source": "video-02",
+  "inputVerification": "data/frames/video-02/authorized-correction-status-pages-pass2-v1/verification.json",
+  "displayVerification": "reports/m3-grid-refinement-v1/authorized-correction-status-pages-pass2-sheets-v1/report.json",
+  "viewedSheets": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],
+  "viewedOriginalFrames": [526],
+  "reviewer": "Current coding agent, not human per-frame verification",
+  "independence": "Fresh source decoding and all ordered original-image sheets; no tested actual or score differences opened for this reading. Earlier diagnostic awareness is disclosed, not claimed erased. This note is recorded before comparing the old annotation.",
+  "observations": [
+    {"range":[460,462],"scope":"context","visible":"Party and submenu with two cursors."},
+    {"range":[462,469],"text":[],"visible":"Empty game raster."},
+    {"range":[469,526],"header":["ラプラス",":L","50","No.","131","HP:","200/206","じょうたい/ふつう"],"fields":["こうげき","122","ぼうぎょ","123","すばやさ","103","とくしゅ","139","タイプ1/みず","タイプ2/こおり","IDNo/","16785","おや/ レッド"],"pictureAppears":490},
+    {"range":[526,527],"header":["ラプラス",":L","50","No.","131"],"experience":["けいけんち/","157734","あと","8079で",":L","51"],"newMove":["れいとうビーム","PP","9/10"],"oldFields":["ほうきょ","123","すばやさ","103","とくしゅ","139","タイフ2/こおり","IDNo/","16785","おや/ レッド"],"visible":"Old defence and type2 base glyphs remain but their above-row marks have been erased. Mixed redraw, no cursor or arrow."},
+    {"range":[527,553],"experience":["けいけんち/","157734","あと","8079で",":L","51"],"moves":[["れいとうビーム","PP","9/10"],["のしかかり","PP","14/15"],["あやしいひかり","PP","10/10"],["ハイドロポンプ","PP","5/ 5"]],"visible":"Complete stable second page; same name/level/number header."},
+    {"range":[553,564],"text":[],"visible":"All status text cleared."},
+    {"range":[564,568],"scope":"context","visible":"Party and prompt return, filled first-entry cursor."}
+  ],
+  "confidence": "High for erased marks on526; no inference from future frame text. All108 retained frames viewed. No change to range, scoring contract or approval claim."
+}

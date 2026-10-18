@@ -1,0 +1,129 @@
+{
+  "status": "candidate_only_not_effective_freeze",
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r8/freeze.json",
+    "sha256": "e1b7d53332b3d3e6bd4d667072273d8fb80510b3df9a8f56aa98785acf5211f8"
+  },
+  "input": {
+    "kind": "gt",
+    "path": "data/gt/frozen/ocr-all-scenes-v2/intro-research/ocr-candidate-v1.jsonl",
+    "sha256": "34b73d6417d53798504ca1bf4f0ab523a090f83aa5c44705dcc8618180b4d75e"
+  },
+  "candidate": {
+    "path": "data/gt/candidates/ocr-observation-corrections-v7/intro-research/ocr-candidate-punctuation-v1.jsonl",
+    "sha256": "6aacd78b33e72d1743f2bc59a3bdda083089fd2b1cce974f6d9477ddb730955b"
+  },
+  "helper": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\prepare-intro-punctuation-correction.cjs",
+    "sha256": "24c16f398c3157c033f31371fcf48a4b00294d2e8f5f4c5aee664b9693acc4f7"
+  },
+  "doubleRead": {
+    "path": "reports/m3-grid-refinement-v1/intro-punctuation-notes-v1/extraction-and-pass-check.json",
+    "sha256": "28369d2cf330fd0cad57f03455612f78aecd191d7d7ae0589cee3d540a1f7570"
+  },
+  "notesCorrection": {
+    "path": "reports/m3-grid-refinement-v1/intro-punctuation-notes-v1/notes-correction.json",
+    "sha256": "e45b85d02a5666156395b9945ce1f5cf5446330627ed62c53d391c9002cd014d"
+  },
+  "changes": [
+    {
+      "start": 6408,
+      "end": 6410,
+      "before": {
+        "schemaVersion": 2,
+        "stateId": "f53c237ad19a-f6408-f6410",
+        "mediaId": "video-01",
+        "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "startFrame": 6408,
+        "endFrameExclusive": 6410,
+        "startPts": 6408,
+        "endPtsExclusive": 6410,
+        "timeBase": "1/30",
+        "kind": "message_loading",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "そして・",
+            "gridRect": [
+              1,
+              14,
+              5,
+              15
+            ],
+            "sourceRect": [
+              256,
+              320,
+              320,
+              336
+            ],
+            "markCells": []
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-research/manual-pass2.json",
+          "humanPerFrameVerification": "not claimed",
+          "outputIndependence": "No tested OCR or production translation exists",
+          "originalFrames": "data/frames/video-01/dialogue-intro-pass2-v1"
+        }
+      },
+      "after": {
+        "schemaVersion": 2,
+        "stateId": "f53c237ad19a-f6408-f6410",
+        "mediaId": "video-01",
+        "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "startFrame": 6408,
+        "endFrameExclusive": 6410,
+        "startPts": 6408,
+        "endPtsExclusive": 6410,
+        "timeBase": "1/30",
+        "kind": "message_loading",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "そして・・",
+            "gridRect": [
+              1,
+              14,
+              6,
+              15
+            ],
+            "sourceRect": [
+              256,
+              320,
+              336,
+              336
+            ],
+            "markCells": []
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "reports/m3-grid-refinement-v1/intro-punctuation-notes-v1/pass2.json",
+          "humanPerFrameVerification": "not claimed",
+          "outputIndependence": "Original-frame rereads with GT/actual closed; prior diagnostic exposure disclosed. Not an unseen independent acceptance sample.",
+          "originalFrames": "data/frames/video-01/intro-punctuation-pass2-v1"
+        }
+      }
+    }
+  ],
+  "rationale": "Both original-frame passes show a second dot already visible in column 5 at frames 6408/6409; the third dot and arrow appear at 6410. Correct only the observed second dot and its necessary rectangle, never anticipating the third.",
+  "unchanged": "All retained/scored frames, timestamps, state boundaries, roles, reading order, page opportunities, cursor and scoring rules.",
+  "productAcceptance": false
+}

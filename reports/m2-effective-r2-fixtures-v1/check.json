@@ -1,0 +1,139 @@
+{
+  "status": "scorer_fixture_checks_passed_not_OCR_acceptance",
+  "freezeSha256": "748087f7049d657ada68e634fda8b21dc37674257769bc559e79fff684dbb246",
+  "knownFrozenMetadataConflicts": 0,
+  "aggregateStatus": "fixture_consistent",
+  "exactItems": 38,
+  "exactFrameReferences": 3368,
+  "checks": [
+    "38-item per-clip exact fixture",
+    "cross-clip conflict rejection when present",
+    "single-frame short-page omission",
+    "empty false positive",
+    "duplicate region rejection",
+    "wrong source time rejection",
+    "duplicate frame rejection",
+    "uncited correction rejection"
+  ],
+  "commands": [
+    {
+      "command": [
+        "java",
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "verification/target/classes;app/target/classes;.cache/m2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "compare-ocr",
+        "data/gt/frozen/ocr-all-scenes-v2-effective-r2",
+        "all",
+        ".cache\\m2-effective-r2-fixtures-v1\\exact-GT-copy-not-OCR",
+        "reports\\m2-effective-r2-fixtures-v1\\exact"
+      ],
+      "exitCode": 0,
+      "expectedExit": 0,
+      "log": "reports\\m2-effective-r2-fixtures-v1\\command-0.log"
+    },
+    {
+      "command": [
+        "java",
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "verification/target/classes;app/target/classes;.cache/m2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "compare-ocr",
+        "data/gt/frozen/ocr-all-scenes-v2-effective-r2",
+        "shop-exit",
+        ".cache\\m2-effective-r2-fixtures-v1\\missing-one-frame",
+        "reports\\m2-effective-r2-fixtures-v1\\missing"
+      ],
+      "exitCode": 0,
+      "expectedExit": 0,
+      "log": "reports\\m2-effective-r2-fixtures-v1\\command-1.log"
+    },
+    {
+      "command": [
+        "java",
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "verification/target/classes;app/target/classes;.cache/m2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "compare-ocr",
+        "data/gt/frozen/ocr-all-scenes-v2-effective-r2",
+        "startup-nontarget",
+        ".cache\\m2-effective-r2-fixtures-v1\\empty-false-positive",
+        "reports\\m2-effective-r2-fixtures-v1\\false-positive"
+      ],
+      "exitCode": 0,
+      "expectedExit": 0,
+      "log": "reports\\m2-effective-r2-fixtures-v1\\command-2.log"
+    },
+    {
+      "command": [
+        "java",
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "verification/target/classes;app/target/classes;.cache/m2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "compare-ocr",
+        "data/gt/frozen/ocr-all-scenes-v2-effective-r2",
+        "shop-exit",
+        ".cache\\m2-effective-r2-fixtures-v1\\duplicate-region",
+        "reports\\m2-effective-r2-fixtures-v1\\duplicate-rejected"
+      ],
+      "exitCode": 3,
+      "expectedExit": 3,
+      "log": "reports\\m2-effective-r2-fixtures-v1\\command-3.log"
+    },
+    {
+      "command": [
+        "java",
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "verification/target/classes;app/target/classes;.cache/m2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "compare-ocr",
+        "data/gt/frozen/ocr-all-scenes-v2-effective-r2",
+        "shop-exit",
+        ".cache\\m2-effective-r2-fixtures-v1\\wrong-source-time",
+        "reports\\m2-effective-r2-fixtures-v1\\time-rejected"
+      ],
+      "exitCode": 3,
+      "expectedExit": 3,
+      "log": "reports\\m2-effective-r2-fixtures-v1\\command-4.log"
+    },
+    {
+      "command": [
+        "java",
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "verification/target/classes;app/target/classes;.cache/m2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "compare-ocr",
+        "data/gt/frozen/ocr-all-scenes-v2-effective-r2",
+        "shop-exit",
+        ".cache\\m2-effective-r2-fixtures-v1\\duplicate-frame",
+        "reports\\m2-effective-r2-fixtures-v1\\frame-rejected"
+      ],
+      "exitCode": 3,
+      "expectedExit": 3,
+      "log": "reports\\m2-effective-r2-fixtures-v1\\command-5.log"
+    },
+    {
+      "command": [
+        "java",
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "verification/target/classes;app/target/classes;.cache/m2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "compare-ocr",
+        "data/gt/frozen/ocr-all-scenes-v2-effective-r2",
+        "shop-exit",
+        ".cache\\m2-effective-r2-fixtures-v1\\uncited-correction",
+        "reports\\m2-effective-r2-fixtures-v1\\correction-rejected"
+      ],
+      "exitCode": 3,
+      "expectedExit": 3,
+      "log": "reports\\m2-effective-r2-fixtures-v1\\command-6.log"
+    }
+  ]
+}

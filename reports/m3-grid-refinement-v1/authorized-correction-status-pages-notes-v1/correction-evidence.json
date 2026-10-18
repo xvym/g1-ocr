@@ -1,0 +1,1847 @@
+{
+  "status": "high_confidence_single_frame_correction_candidate_not_effective_freeze",
+  "authority": {
+    "userMessage": "如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论",
+    "scope": "Evidence-backed corrections only; not user per-frame verification or approval of unobserved claims."
+  },
+  "oldGt": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2/status-pages/ocr-candidate-v1.jsonl",
+    "sha256": "cdfc263ad361fb0db955c3f9275f9bbfdac232b18340fd0e71a075a7799d61c9"
+  },
+  "candidate": {
+    "path": "data/gt/candidates/ocr-observation-corrections-v1/status-pages/ocr-candidate-v2.jsonl",
+    "sha256": "7a1d6134b9a0c6c11c4ffe8e863107ac117da99f9c8db27920ae05e62930f7a4"
+  },
+  "observations": [
+    {
+      "path": "reports/m3-grid-refinement-v1/blind-recheck-notes-pass1-v1/status-pages.json",
+      "sha256": "22ffa8d8ed2127a2c31aa91492e43f2bd2cdd4464eb5f7d81ad1542ce3c6572c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/authorized-correction-status-pages-notes-v1/pass2.json",
+      "sha256": "2b474c2e5a890738c6790618afce41d61b7023f0bc29517fe56fcf859d3c86a1"
+    }
+  ],
+  "inputVerifications": [
+    {
+      "path": "data/frames/video-02/ocr-observation-recheck-status-pages-v1/verification.json",
+      "sha256": "5d07b4a83b575c03fbedf2e7ed6e47a313a5cdd13f1ef29bbc79dc61ef6ff6f5"
+    },
+    {
+      "path": "data/frames/video-02/authorized-correction-status-pages-pass2-v1/verification.json",
+      "sha256": "5d07b4a83b575c03fbedf2e7ed6e47a313a5cdd13f1ef29bbc79dc61ef6ff6f5"
+    }
+  ],
+  "independentPngPairs": [
+    {
+      "frame": 460,
+      "sha256": "d4dea5996fcbc8176d2e252b04df918b09f2889fd26a44d6954b4690613c60fb"
+    },
+    {
+      "frame": 461,
+      "sha256": "1cb460a3e16ac6b10a895d612fd9670f31f387b20cf357c41726735a8907caaf"
+    },
+    {
+      "frame": 462,
+      "sha256": "78a074f0e92ae43a04dd59ab0e8132b5b21a0dbfcb2ed5f15723038d5e37fcaf"
+    },
+    {
+      "frame": 463,
+      "sha256": "7a0cf7b8dccdf9ad8d13fec1839c7e2f832aac8691876116cfebd7dbde8fcca9"
+    },
+    {
+      "frame": 464,
+      "sha256": "85f7bba0303b2dfc1f5de7cf0c9ea7a3e3f2ceaab31696a0584872c72d1bbd5a"
+    },
+    {
+      "frame": 465,
+      "sha256": "5564a806095adfa26ab31cbeaf765016a0254fadf5865a89ad1d6592ba0a6201"
+    },
+    {
+      "frame": 466,
+      "sha256": "5144ac6b7571c49089258173c6990beb7d55fbd2b52855dd9135011d1b1a9925"
+    },
+    {
+      "frame": 467,
+      "sha256": "5144ac6b7571c49089258173c6990beb7d55fbd2b52855dd9135011d1b1a9925"
+    },
+    {
+      "frame": 468,
+      "sha256": "faaca30546c435a2c88b6945a3538e45928da0574066a9c2583d7f7501adadd0"
+    },
+    {
+      "frame": 469,
+      "sha256": "844728d0843065b7a7b721ed1429b7eca7afce74dd6ca636f1872a37054a5fbc"
+    },
+    {
+      "frame": 470,
+      "sha256": "e2b642d6c8caf503f21f0f16440b92dcc6001e77c63ec81fa071ea0599d5a121"
+    },
+    {
+      "frame": 471,
+      "sha256": "c5ede1e46e526fd5e4bf0fc4eb34ddc5fb58daa0353b4a011be161dc8377c68f"
+    },
+    {
+      "frame": 472,
+      "sha256": "f37be848c6390eeed626f66431a35ee53af1cae8bc9107b57dcddc2f01448605"
+    },
+    {
+      "frame": 473,
+      "sha256": "f976f28b4703413316fc3aaa1957f678604c0f2652cc573923703d6e5f56530d"
+    },
+    {
+      "frame": 474,
+      "sha256": "215a9a1bb045a90709a274fe6995cca1de6bde60af833f565d759a249caa98bd"
+    },
+    {
+      "frame": 475,
+      "sha256": "c8b4fb1b972c8e28dacb87c6b83073e5a8ae550980063f84bd1f7b74facb6032"
+    },
+    {
+      "frame": 476,
+      "sha256": "c3ea5560dab2a19e26ddc5c4d1e0b821f100faf66a8685e4eaf63801bff57898"
+    },
+    {
+      "frame": 477,
+      "sha256": "388b32bb2caa2328d0ba832c012b1bc2f99e6be5fde1457e907d9c97f9210f40"
+    },
+    {
+      "frame": 478,
+      "sha256": "46020554e6434a31206f6316320c6c308c6be4afd0ba6af41b648616d1bb3876"
+    },
+    {
+      "frame": 479,
+      "sha256": "adaf5192c6bed989731e945c7b624ecf2a620365a0d515af30093813278abb47"
+    },
+    {
+      "frame": 480,
+      "sha256": "adaf5192c6bed989731e945c7b624ecf2a620365a0d515af30093813278abb47"
+    },
+    {
+      "frame": 481,
+      "sha256": "0267135357bfd2b28355cfd422ba0868bd86cf8a76921cf525dc4bdbba16ac39"
+    },
+    {
+      "frame": 482,
+      "sha256": "ad9c82e5c07ebc6003a1edeee77e24be4b49dc211566e4ec60326cf6e42e11ff"
+    },
+    {
+      "frame": 483,
+      "sha256": "88236db520ca5b096b0c0ce33cf86befd8064da198c247469a35aa6113183f1f"
+    },
+    {
+      "frame": 484,
+      "sha256": "1146d6d1a7f26540741f9435b6adda3bd5499692269c75de9027f386d546bad3"
+    },
+    {
+      "frame": 485,
+      "sha256": "3f53be88f7f0729de54739ef37ed08e2d81a88c7274fff2a1f3272ff6a483dcf"
+    },
+    {
+      "frame": 486,
+      "sha256": "3f53be88f7f0729de54739ef37ed08e2d81a88c7274fff2a1f3272ff6a483dcf"
+    },
+    {
+      "frame": 487,
+      "sha256": "8975654dd7e1e67784d98eebc86bd781ef30c01d918637d21af6df3436f4d3dd"
+    },
+    {
+      "frame": 488,
+      "sha256": "48d34be5cf027ce48e2225ee5cff056a6338a0eb26d99165c2f5cd06137beda3"
+    },
+    {
+      "frame": 489,
+      "sha256": "85624a763d17eaa31d4335275bf1adbc573b3de2fa5e454d2c9f8541a30f1aed"
+    },
+    {
+      "frame": 490,
+      "sha256": "d5bc1f473fa6afa25edfb005cf422a7fba03ca16dea197c1b436655614da4e20"
+    },
+    {
+      "frame": 491,
+      "sha256": "ff8486ab5d0010769222dda7256b6c967ec700c65bd4fafdbc98ef0220667057"
+    },
+    {
+      "frame": 492,
+      "sha256": "699b5c5de1cc51389d2612c79c8d8929d056f0f3efa72b8fdaaaeba827c37723"
+    },
+    {
+      "frame": 493,
+      "sha256": "78e0e10e43a3d72881baadb551a3ce1d77b354cb8390a2246b804c23d33ce9ba"
+    },
+    {
+      "frame": 494,
+      "sha256": "9bdf2f4241a24ec5ecc68f182e42060c64c2af85ec36efa7e0c820736c7cc2e2"
+    },
+    {
+      "frame": 495,
+      "sha256": "83c95eb0b119717eeef2ba7fee64b6349a73e03e4c6a9a581bf0275c2bf8202f"
+    },
+    {
+      "frame": 496,
+      "sha256": "c0fb06a4d931763c73c63b399fa94a6fed0caaf35b90584e5d9b8778aa6f4b7e"
+    },
+    {
+      "frame": 497,
+      "sha256": "c0fb06a4d931763c73c63b399fa94a6fed0caaf35b90584e5d9b8778aa6f4b7e"
+    },
+    {
+      "frame": 498,
+      "sha256": "5855abc1fa859d5b7b24b02041f6fce6b3f710a539434268e53b9b0e6aa7b6cb"
+    },
+    {
+      "frame": 499,
+      "sha256": "54b22629a8048f22226994edeb042d15219cec8cedf55bb28439b9362d82b034"
+    },
+    {
+      "frame": 500,
+      "sha256": "bd859adc407f3df15cd20c4047c1f430342a4c59310b86411e0f528a16474f6b"
+    },
+    {
+      "frame": 501,
+      "sha256": "6d2baa1b6abebe37329faf7c38ea206902ad9f72b8ba8572944dbb983a63afe3"
+    },
+    {
+      "frame": 502,
+      "sha256": "75b7be6e7ba0de8b3e95b9698858009f962d08b81d65fbbe9c9adda2f3dcec50"
+    },
+    {
+      "frame": 503,
+      "sha256": "f28c211bb0c41224dbe07dd0186dcfd021f9439929d14101c4b585a88d7a633b"
+    },
+    {
+      "frame": 504,
+      "sha256": "f28c211bb0c41224dbe07dd0186dcfd021f9439929d14101c4b585a88d7a633b"
+    },
+    {
+      "frame": 505,
+      "sha256": "20a021bf36613f859d6627fe39b0a19d6d8f2fb7dec462f4bb780ac30841a408"
+    },
+    {
+      "frame": 506,
+      "sha256": "b1aef0a63290a2b72a883615cb7c6f4fd065d0c8ce89e591001ca92853cd8019"
+    },
+    {
+      "frame": 507,
+      "sha256": "53e04fb8de17c0178bb99c5b18b952580dbda928ae607bfb60f2e615a1852567"
+    },
+    {
+      "frame": 508,
+      "sha256": "26b111e3dd23c0eac09482cfd1c8f74906093f6711e6ffe2c482ef0b6b7e26c9"
+    },
+    {
+      "frame": 509,
+      "sha256": "26b111e3dd23c0eac09482cfd1c8f74906093f6711e6ffe2c482ef0b6b7e26c9"
+    },
+    {
+      "frame": 510,
+      "sha256": "26b111e3dd23c0eac09482cfd1c8f74906093f6711e6ffe2c482ef0b6b7e26c9"
+    },
+    {
+      "frame": 511,
+      "sha256": "1ba579d03b0e6687ad224f028decb2272c229ad8a000b04f2750f355f477f30c"
+    },
+    {
+      "frame": 512,
+      "sha256": "dd42276d08a450f2be693086145a2b2e1ae8d997878d29f4dc30e782f708aabb"
+    },
+    {
+      "frame": 513,
+      "sha256": "7f7111c5f840dcb67d1e1c87e2f105ea43303f1239dfaf0b00183d10b1584481"
+    },
+    {
+      "frame": 514,
+      "sha256": "c543815259272e6d1b3d548fe04a2fc05f6e34fc447370da56aef17d2d1091d2"
+    },
+    {
+      "frame": 515,
+      "sha256": "c543815259272e6d1b3d548fe04a2fc05f6e34fc447370da56aef17d2d1091d2"
+    },
+    {
+      "frame": 516,
+      "sha256": "c543815259272e6d1b3d548fe04a2fc05f6e34fc447370da56aef17d2d1091d2"
+    },
+    {
+      "frame": 517,
+      "sha256": "d6e4d41251ee08336f248722490b94be83b39524bcc4cb1d8f6ae46f67df32ec"
+    },
+    {
+      "frame": 518,
+      "sha256": "831a0db3fc2d58370041c64727c280ec561561b5047c202701d98bce452a6d2c"
+    },
+    {
+      "frame": 519,
+      "sha256": "2e06eb1002d2de40e314426d8cb5556b3aadc52935b30b024be89431b2cf9d4f"
+    },
+    {
+      "frame": 520,
+      "sha256": "39bf1df40cc7b49e178b97d0021563f88c8b551232ee3c9479ed8cfde6aeaa4e"
+    },
+    {
+      "frame": 521,
+      "sha256": "39bf1df40cc7b49e178b97d0021563f88c8b551232ee3c9479ed8cfde6aeaa4e"
+    },
+    {
+      "frame": 522,
+      "sha256": "39bf1df40cc7b49e178b97d0021563f88c8b551232ee3c9479ed8cfde6aeaa4e"
+    },
+    {
+      "frame": 523,
+      "sha256": "d3434e35e188fd05eab989cba403a1cf244d2afd95698356d8d2ab1984dcb865"
+    },
+    {
+      "frame": 524,
+      "sha256": "448aae05d59023438648317721dbe7e76b6114e1abf3fa534ae5a2e4ed5d9a9a"
+    },
+    {
+      "frame": 525,
+      "sha256": "08ff951acc0261d38e2e9671ad674057a566afa39324f6afbd18b0cbdf646362"
+    },
+    {
+      "frame": 526,
+      "sha256": "477ebee5a7e899739f8509591ca298dadb1d8c8e567bba722192609c47bce2cb"
+    },
+    {
+      "frame": 527,
+      "sha256": "2700d6b1ff9a4ce7074a1e8052554af35a1e66106682d74047c5a93371491237"
+    },
+    {
+      "frame": 528,
+      "sha256": "d5ba41617481f5d77e05d1b2f9af1f1ccd7a0d0e1984d9c3154ab357d42167c3"
+    },
+    {
+      "frame": 529,
+      "sha256": "9545bc106b0c0d6a22318e39e39444091be5313943111b6b067ffc02cfd4eb9b"
+    },
+    {
+      "frame": 530,
+      "sha256": "61efdea4370423857b06c87950a777258eb577fb58e50b2d462d1861fe681683"
+    },
+    {
+      "frame": 531,
+      "sha256": "a11ef9b828b9538322db546a4a7f5c8b78edce006c60cd7213cd49f314c52c04"
+    },
+    {
+      "frame": 532,
+      "sha256": "a11ef9b828b9538322db546a4a7f5c8b78edce006c60cd7213cd49f314c52c04"
+    },
+    {
+      "frame": 533,
+      "sha256": "a11ef9b828b9538322db546a4a7f5c8b78edce006c60cd7213cd49f314c52c04"
+    },
+    {
+      "frame": 534,
+      "sha256": "a11ef9b828b9538322db546a4a7f5c8b78edce006c60cd7213cd49f314c52c04"
+    },
+    {
+      "frame": 535,
+      "sha256": "405c453315676035e6becf41994a65c1d8211caa1cf6b2905dbd1b16201c323e"
+    },
+    {
+      "frame": 536,
+      "sha256": "1ee3426be61cccc88fa560c6cd5be7948c9044c505f37f6bad55ca89f1ae7c4d"
+    },
+    {
+      "frame": 537,
+      "sha256": "34cc221a6114c65798d7060461e03bd1772784c683c8041a413d8b452239249f"
+    },
+    {
+      "frame": 538,
+      "sha256": "34cc221a6114c65798d7060461e03bd1772784c683c8041a413d8b452239249f"
+    },
+    {
+      "frame": 539,
+      "sha256": "34cc221a6114c65798d7060461e03bd1772784c683c8041a413d8b452239249f"
+    },
+    {
+      "frame": 540,
+      "sha256": "34cc221a6114c65798d7060461e03bd1772784c683c8041a413d8b452239249f"
+    },
+    {
+      "frame": 541,
+      "sha256": "2f7cef0d172c87494196f54ceb739e88be271c7969a4328cf6e54aa6e009eba7"
+    },
+    {
+      "frame": 542,
+      "sha256": "2f7cef0d172c87494196f54ceb739e88be271c7969a4328cf6e54aa6e009eba7"
+    },
+    {
+      "frame": 543,
+      "sha256": "e3cba0ce01126dfcb8e15dd73a0fbaeca0b902723a14fa47455dbcb4824b06cc"
+    },
+    {
+      "frame": 544,
+      "sha256": "86b0a66144c1236715fa4da15db9b41f8d868b1eb54de588c983b9b798c9dd5e"
+    },
+    {
+      "frame": 545,
+      "sha256": "86b0a66144c1236715fa4da15db9b41f8d868b1eb54de588c983b9b798c9dd5e"
+    },
+    {
+      "frame": 546,
+      "sha256": "86b0a66144c1236715fa4da15db9b41f8d868b1eb54de588c983b9b798c9dd5e"
+    },
+    {
+      "frame": 547,
+      "sha256": "9b5862d7ee9be58b0d792da960e66fdec45b4a4667073b6ac2fe986d98125ca4"
+    },
+    {
+      "frame": 548,
+      "sha256": "5ad479757f944ab7cda212adbb983561517630579585d3ebdf325259c9974411"
+    },
+    {
+      "frame": 549,
+      "sha256": "eb5ec040e5a2dbe0c4f28ebcce67b77bb4d890c9988a4e24700fc6e280c52849"
+    },
+    {
+      "frame": 550,
+      "sha256": "642705d7daac893e6e2e2805b4a46b393c8b9281174e577985f25d3a6c2439d5"
+    },
+    {
+      "frame": 551,
+      "sha256": "642705d7daac893e6e2e2805b4a46b393c8b9281174e577985f25d3a6c2439d5"
+    },
+    {
+      "frame": 552,
+      "sha256": "680492ca1f3405ab4c12c2d63769fdb361c63c510cf0b6189fa8927a4a074a45"
+    },
+    {
+      "frame": 553,
+      "sha256": "bd71263db60d54780ee78cf5804a081305c6dd1a2c67bc649323ae5ffd8371b2"
+    },
+    {
+      "frame": 554,
+      "sha256": "84d6393214d6c50924d677619002bb3b1f26928ef274e68595512933b27c8521"
+    },
+    {
+      "frame": 555,
+      "sha256": "2d7601dde8f2f7876ee27bc0ddbb1a68635b68bee9eaac8b3d8ae97e6ebfa479"
+    },
+    {
+      "frame": 556,
+      "sha256": "2d7601dde8f2f7876ee27bc0ddbb1a68635b68bee9eaac8b3d8ae97e6ebfa479"
+    },
+    {
+      "frame": 557,
+      "sha256": "2d7601dde8f2f7876ee27bc0ddbb1a68635b68bee9eaac8b3d8ae97e6ebfa479"
+    },
+    {
+      "frame": 558,
+      "sha256": "2d7601dde8f2f7876ee27bc0ddbb1a68635b68bee9eaac8b3d8ae97e6ebfa479"
+    },
+    {
+      "frame": 559,
+      "sha256": "f97936d98d7138e6ba0552c2c605be9866b2f9625567d4e34e592c7df3b39f7e"
+    },
+    {
+      "frame": 560,
+      "sha256": "58a5d1ac0a48a59c734ee9e7d0cab3b317452a7ab7c28c43e061f9569a16e98f"
+    },
+    {
+      "frame": 561,
+      "sha256": "6c9a92c119f968c6eb685657bea80d2e481db9774da4ea91713ad4c3d9e28f97"
+    },
+    {
+      "frame": 562,
+      "sha256": "6c9a92c119f968c6eb685657bea80d2e481db9774da4ea91713ad4c3d9e28f97"
+    },
+    {
+      "frame": 563,
+      "sha256": "6c9a92c119f968c6eb685657bea80d2e481db9774da4ea91713ad4c3d9e28f97"
+    },
+    {
+      "frame": 564,
+      "sha256": "9cd0234cfb736b4accd397acc1ec554ac1a938239213f3d5950bbd1dd246bc83"
+    },
+    {
+      "frame": 565,
+      "sha256": "86168be9c186a8bde649ef7f3d055430635ebe5f3c5f627651ad6f504ba2084b"
+    },
+    {
+      "frame": 566,
+      "sha256": "f3dc4400cc7eafb79fdfd4c300b463da886097d91634c2bbf09966a118244179"
+    },
+    {
+      "frame": 567,
+      "sha256": "43537a49dfdd114c66c7fb7fe2b6570e6045a48abf988c770f281e516dc53d91"
+    }
+  ],
+  "changes": [
+    {
+      "startFrame": 526,
+      "endFrameExclusive": 527,
+      "before": {
+        "schemaVersion": 2,
+        "stateId": "c83de914352e-f526-f527",
+        "mediaId": "video-02",
+        "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+        "startFrame": 526,
+        "endFrameExclusive": 527,
+        "startPts": 269312,
+        "endPtsExclusive": 269824,
+        "timeBase": "1/12288",
+        "kind": "status_page_redraw",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "name",
+            "role": "pokemon_name",
+            "readingOrder": 0,
+            "text": "ラプラス",
+            "gridRect": [
+              11,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              498,
+              108,
+              570,
+              144
+            ],
+            "markCells": [
+              {
+                "gridRow": 0,
+                "kind": "handakuten",
+                "gridColumn": 12
+              }
+            ],
+            "variable": {
+              "role": "pokemon_display_name",
+              "displayValue": "ラプラス",
+              "type": "string"
+            }
+          },
+          {
+            "id": "level-label",
+            "role": "compact_status_label",
+            "readingOrder": 1,
+            "text": ":L",
+            "gridRect": [
+              16,
+              1,
+              17,
+              2
+            ],
+            "sourceRect": [
+              588,
+              126,
+              606,
+              144
+            ],
+            "markCells": [],
+            "logicalRect": [
+              128,
+              8,
+              136,
+              16
+            ],
+            "renderUnits": [
+              {
+                "text": ":L",
+                "kind": "compound_label",
+                "logicalRect": [
+                  128,
+                  8,
+                  136,
+                  16
+                ]
+              }
+            ],
+            "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+            "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented"
+          },
+          {
+            "id": "level",
+            "role": "pokemon_level",
+            "readingOrder": 2,
+            "text": "50",
+            "gridRect": [
+              17,
+              1,
+              19,
+              2
+            ],
+            "sourceRect": [
+              606,
+              126,
+              642,
+              144
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "pokemon_level",
+              "numericValue": 50,
+              "displayValue": "50",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "no-label",
+            "role": "compact_status_label",
+            "readingOrder": 3,
+            "text": "No.",
+            "gridRect": [
+              1,
+              7,
+              3,
+              8
+            ],
+            "sourceRect": [
+              318,
+              234,
+              354,
+              252
+            ],
+            "markCells": [],
+            "logicalRect": [
+              8,
+              56,
+              24,
+              64
+            ],
+            "renderUnits": [
+              {
+                "text": "No.",
+                "kind": "compound_label",
+                "logicalRect": [
+                  8,
+                  56,
+                  24,
+                  64
+                ]
+              }
+            ],
+            "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+            "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented"
+          },
+          {
+            "id": "no-value",
+            "role": "pokedex_number",
+            "readingOrder": 4,
+            "text": "131",
+            "gridRect": [
+              3,
+              7,
+              6,
+              8
+            ],
+            "sourceRect": [
+              354,
+              234,
+              408,
+              252
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "pokedex_number",
+              "numericValue": 131,
+              "format": "3 digits",
+              "displayValue": "131",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "exp-label",
+            "role": "experience_label",
+            "readingOrder": 5,
+            "text": "けいけんち/",
+            "gridRect": [
+              9,
+              3,
+              15,
+              4
+            ],
+            "sourceRect": [
+              462,
+              162,
+              570,
+              180
+            ],
+            "markCells": []
+          },
+          {
+            "id": "exp",
+            "role": "experience",
+            "readingOrder": 6,
+            "text": "157734",
+            "gridRect": [
+              13,
+              4,
+              19,
+              5
+            ],
+            "sourceRect": [
+              534,
+              180,
+              642,
+              198
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "experience",
+              "numericValue": 157734,
+              "displayValue": "157734",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "next-label",
+            "role": "next_level_label",
+            "readingOrder": 7,
+            "text": "あと",
+            "gridRect": [
+              9,
+              5,
+              11,
+              6
+            ],
+            "sourceRect": [
+              462,
+              198,
+              498,
+              216
+            ],
+            "markCells": []
+          },
+          {
+            "id": "next-exp",
+            "role": "experience_remaining",
+            "readingOrder": 8,
+            "text": "8079で",
+            "gridRect": [
+              10,
+              6,
+              15,
+              7
+            ],
+            "sourceRect": [
+              480,
+              198,
+              570,
+              234
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "kind": "dakuten",
+                "gridColumn": 14
+              }
+            ],
+            "variable": {
+              "role": "experience_remaining",
+              "numericValue": 8079,
+              "format": "digits followed by literalで",
+              "displayValue": "8079",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "next-level-label",
+            "role": "compact_status_label",
+            "readingOrder": 9,
+            "text": ":L",
+            "gridRect": [
+              16,
+              6,
+              17,
+              7
+            ],
+            "sourceRect": [
+              588,
+              216,
+              606,
+              234
+            ],
+            "markCells": [],
+            "logicalRect": [
+              128,
+              48,
+              136,
+              56
+            ],
+            "renderUnits": [
+              {
+                "text": ":L",
+                "kind": "compound_label",
+                "logicalRect": [
+                  128,
+                  48,
+                  136,
+                  56
+                ]
+              }
+            ],
+            "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+            "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented"
+          },
+          {
+            "id": "next-level",
+            "role": "next_level",
+            "readingOrder": 10,
+            "text": "51",
+            "gridRect": [
+              17,
+              6,
+              19,
+              7
+            ],
+            "sourceRect": [
+              606,
+              216,
+              642,
+              234
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "next_level",
+              "numericValue": 51,
+              "displayValue": "51",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "move-0",
+            "role": "move_name",
+            "readingOrder": 11,
+            "text": "れいとうビーム",
+            "gridRect": [
+              2,
+              10,
+              9,
+              11
+            ],
+            "sourceRect": [
+              336,
+              270,
+              462,
+              306
+            ],
+            "markCells": [
+              {
+                "gridRow": 9,
+                "kind": "dakuten",
+                "gridColumn": 6
+              }
+            ],
+            "variable": {
+              "role": "move_name",
+              "displayValue": "れいとうビーム",
+              "type": "string"
+            }
+          },
+          {
+            "id": "pp-label-0",
+            "role": "pp_label",
+            "readingOrder": 12,
+            "text": "PP",
+            "gridRect": [
+              11,
+              10,
+              13,
+              11
+            ],
+            "sourceRect": [
+              498,
+              288,
+              534,
+              306
+            ],
+            "markCells": []
+          },
+          {
+            "id": "pp-value-0",
+            "role": "move_pp",
+            "readingOrder": 13,
+            "text": "9/10",
+            "gridRect": [
+              15,
+              10,
+              19,
+              11
+            ],
+            "sourceRect": [
+              570,
+              288,
+              642,
+              306
+            ],
+            "markCells": [],
+            "variable": {
+              "displayValue": "9/10",
+              "maximum": 10,
+              "format": "fixed width digits/slash; preserve literal padding",
+              "role": "move_pp",
+              "current": 9,
+              "type": "integer_pair"
+            }
+          },
+          {
+            "id": "defense-label",
+            "role": "stat_label",
+            "readingOrder": 14,
+            "text": "ぼうぎょ",
+            "gridRect": [
+              1,
+              12,
+              5,
+              13
+            ],
+            "sourceRect": [
+              318,
+              306,
+              390,
+              342
+            ],
+            "markCells": [
+              {
+                "gridRow": 11,
+                "kind": "dakuten",
+                "gridColumn": 1
+              },
+              {
+                "gridRow": 11,
+                "kind": "dakuten",
+                "gridColumn": 3
+              }
+            ]
+          },
+          {
+            "id": "defense-value",
+            "role": "defense",
+            "readingOrder": 15,
+            "text": "123",
+            "gridRect": [
+              6,
+              12,
+              9,
+              13
+            ],
+            "sourceRect": [
+              408,
+              324,
+              462,
+              342
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "defense",
+              "numericValue": 123,
+              "displayValue": "123",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "speed-label",
+            "role": "stat_label",
+            "readingOrder": 16,
+            "text": "すばやさ",
+            "gridRect": [
+              1,
+              14,
+              5,
+              15
+            ],
+            "sourceRect": [
+              318,
+              342,
+              390,
+              378
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "kind": "dakuten",
+                "gridColumn": 2
+              }
+            ]
+          },
+          {
+            "id": "speed-value",
+            "role": "speed",
+            "readingOrder": 17,
+            "text": "103",
+            "gridRect": [
+              6,
+              14,
+              9,
+              15
+            ],
+            "sourceRect": [
+              408,
+              360,
+              462,
+              378
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "speed",
+              "numericValue": 103,
+              "displayValue": "103",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "special-label",
+            "role": "stat_label",
+            "readingOrder": 18,
+            "text": "とくしゅ",
+            "gridRect": [
+              1,
+              16,
+              5,
+              17
+            ],
+            "sourceRect": [
+              318,
+              396,
+              390,
+              414
+            ],
+            "markCells": []
+          },
+          {
+            "id": "special-value",
+            "role": "special",
+            "readingOrder": 19,
+            "text": "139",
+            "gridRect": [
+              6,
+              16,
+              9,
+              17
+            ],
+            "sourceRect": [
+              408,
+              396,
+              462,
+              414
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "special",
+              "numericValue": 139,
+              "displayValue": "139",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "type2",
+            "role": "pokemon_type",
+            "readingOrder": 20,
+            "text": "タイプ2/こおり",
+            "gridRect": [
+              10,
+              12,
+              18,
+              13
+            ],
+            "sourceRect": [
+              480,
+              306,
+              624,
+              342
+            ],
+            "markCells": [
+              {
+                "gridRow": 11,
+                "kind": "handakuten",
+                "gridColumn": 12
+              }
+            ]
+          },
+          {
+            "id": "trainer-id-label",
+            "role": "compact_status_label",
+            "readingOrder": 21,
+            "text": "IDNo/",
+            "gridRect": [
+              10,
+              14,
+              13,
+              15
+            ],
+            "sourceRect": [
+              480,
+              360,
+              534,
+              378
+            ],
+            "markCells": [],
+            "logicalRect": [
+              80,
+              112,
+              104,
+              120
+            ],
+            "renderUnits": [
+              {
+                "text": "IDNo/",
+                "kind": "compound_label",
+                "logicalRect": [
+                  80,
+                  112,
+                  104,
+                  120
+                ]
+              }
+            ],
+            "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+            "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented"
+          },
+          {
+            "id": "trainer-id",
+            "role": "trainer_id",
+            "readingOrder": 22,
+            "text": "16785",
+            "gridRect": [
+              14,
+              14,
+              19,
+              15
+            ],
+            "sourceRect": [
+              552,
+              360,
+              642,
+              378
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "trainer_id",
+              "numericValue": 16785,
+              "format": "5 digits",
+              "displayValue": "16785",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "owner",
+            "role": "trainer_name",
+            "readingOrder": 23,
+            "text": "おや/ レッド",
+            "gridRect": [
+              10,
+              16,
+              17,
+              17
+            ],
+            "sourceRect": [
+              480,
+              378,
+              606,
+              414
+            ],
+            "markCells": [
+              {
+                "gridRow": 15,
+                "kind": "dakuten",
+                "gridColumn": 16
+              }
+            ],
+            "variable": {
+              "role": "original_trainer_name",
+              "format": "label/slash/space/name",
+              "displayValue": "レッド",
+              "type": "string"
+            }
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "outputIndependence": "No tested OCR or production translation exists",
+          "manualNotes": "data/gt/candidates/ocr-all-scenes-v1/status-pages/manual-pass2.json",
+          "originalFrames": "data/frames/video-02/all-scenes-status-pages-pass2-v1",
+          "humanPerFrameVerification": "not claimed"
+        },
+        "renderNote": "One source frame: new experience panel and first move row, old defense/speed/special/type2/id/owner still visible, retain all"
+      },
+      "after": {
+        "schemaVersion": 2,
+        "stateId": "c83de914352e-f526-f527",
+        "mediaId": "video-02",
+        "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+        "startFrame": 526,
+        "endFrameExclusive": 527,
+        "startPts": 269312,
+        "endPtsExclusive": 269824,
+        "timeBase": "1/12288",
+        "kind": "status_page_redraw",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "name",
+            "role": "pokemon_name",
+            "readingOrder": 0,
+            "text": "ラプラス",
+            "gridRect": [
+              11,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              498,
+              108,
+              570,
+              144
+            ],
+            "markCells": [
+              {
+                "gridRow": 0,
+                "kind": "handakuten",
+                "gridColumn": 12
+              }
+            ],
+            "variable": {
+              "role": "pokemon_display_name",
+              "displayValue": "ラプラス",
+              "type": "string"
+            }
+          },
+          {
+            "id": "level-label",
+            "role": "compact_status_label",
+            "readingOrder": 1,
+            "text": ":L",
+            "gridRect": [
+              16,
+              1,
+              17,
+              2
+            ],
+            "sourceRect": [
+              588,
+              126,
+              606,
+              144
+            ],
+            "markCells": [],
+            "logicalRect": [
+              128,
+              8,
+              136,
+              16
+            ],
+            "renderUnits": [
+              {
+                "text": ":L",
+                "kind": "compound_label",
+                "logicalRect": [
+                  128,
+                  8,
+                  136,
+                  16
+                ]
+              }
+            ],
+            "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+            "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented"
+          },
+          {
+            "id": "level",
+            "role": "pokemon_level",
+            "readingOrder": 2,
+            "text": "50",
+            "gridRect": [
+              17,
+              1,
+              19,
+              2
+            ],
+            "sourceRect": [
+              606,
+              126,
+              642,
+              144
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "pokemon_level",
+              "numericValue": 50,
+              "displayValue": "50",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "no-label",
+            "role": "compact_status_label",
+            "readingOrder": 3,
+            "text": "No.",
+            "gridRect": [
+              1,
+              7,
+              3,
+              8
+            ],
+            "sourceRect": [
+              318,
+              234,
+              354,
+              252
+            ],
+            "markCells": [],
+            "logicalRect": [
+              8,
+              56,
+              24,
+              64
+            ],
+            "renderUnits": [
+              {
+                "text": "No.",
+                "kind": "compound_label",
+                "logicalRect": [
+                  8,
+                  56,
+                  24,
+                  64
+                ]
+              }
+            ],
+            "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+            "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented"
+          },
+          {
+            "id": "no-value",
+            "role": "pokedex_number",
+            "readingOrder": 4,
+            "text": "131",
+            "gridRect": [
+              3,
+              7,
+              6,
+              8
+            ],
+            "sourceRect": [
+              354,
+              234,
+              408,
+              252
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "pokedex_number",
+              "numericValue": 131,
+              "format": "3 digits",
+              "displayValue": "131",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "exp-label",
+            "role": "experience_label",
+            "readingOrder": 5,
+            "text": "けいけんち/",
+            "gridRect": [
+              9,
+              3,
+              15,
+              4
+            ],
+            "sourceRect": [
+              462,
+              162,
+              570,
+              180
+            ],
+            "markCells": []
+          },
+          {
+            "id": "exp",
+            "role": "experience",
+            "readingOrder": 6,
+            "text": "157734",
+            "gridRect": [
+              13,
+              4,
+              19,
+              5
+            ],
+            "sourceRect": [
+              534,
+              180,
+              642,
+              198
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "experience",
+              "numericValue": 157734,
+              "displayValue": "157734",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "next-label",
+            "role": "next_level_label",
+            "readingOrder": 7,
+            "text": "あと",
+            "gridRect": [
+              9,
+              5,
+              11,
+              6
+            ],
+            "sourceRect": [
+              462,
+              198,
+              498,
+              216
+            ],
+            "markCells": []
+          },
+          {
+            "id": "next-exp",
+            "role": "experience_remaining",
+            "readingOrder": 8,
+            "text": "8079で",
+            "gridRect": [
+              10,
+              6,
+              15,
+              7
+            ],
+            "sourceRect": [
+              480,
+              198,
+              570,
+              234
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "kind": "dakuten",
+                "gridColumn": 14
+              }
+            ],
+            "variable": {
+              "role": "experience_remaining",
+              "numericValue": 8079,
+              "format": "digits followed by literalで",
+              "displayValue": "8079",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "next-level-label",
+            "role": "compact_status_label",
+            "readingOrder": 9,
+            "text": ":L",
+            "gridRect": [
+              16,
+              6,
+              17,
+              7
+            ],
+            "sourceRect": [
+              588,
+              216,
+              606,
+              234
+            ],
+            "markCells": [],
+            "logicalRect": [
+              128,
+              48,
+              136,
+              56
+            ],
+            "renderUnits": [
+              {
+                "text": ":L",
+                "kind": "compound_label",
+                "logicalRect": [
+                  128,
+                  48,
+                  136,
+                  56
+                ]
+              }
+            ],
+            "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+            "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented"
+          },
+          {
+            "id": "next-level",
+            "role": "next_level",
+            "readingOrder": 10,
+            "text": "51",
+            "gridRect": [
+              17,
+              6,
+              19,
+              7
+            ],
+            "sourceRect": [
+              606,
+              216,
+              642,
+              234
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "next_level",
+              "numericValue": 51,
+              "displayValue": "51",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "move-0",
+            "role": "move_name",
+            "readingOrder": 11,
+            "text": "れいとうビーム",
+            "gridRect": [
+              2,
+              10,
+              9,
+              11
+            ],
+            "sourceRect": [
+              336,
+              270,
+              462,
+              306
+            ],
+            "markCells": [
+              {
+                "gridRow": 9,
+                "kind": "dakuten",
+                "gridColumn": 6
+              }
+            ],
+            "variable": {
+              "role": "move_name",
+              "displayValue": "れいとうビーム",
+              "type": "string"
+            }
+          },
+          {
+            "id": "pp-label-0",
+            "role": "pp_label",
+            "readingOrder": 12,
+            "text": "PP",
+            "gridRect": [
+              11,
+              10,
+              13,
+              11
+            ],
+            "sourceRect": [
+              498,
+              288,
+              534,
+              306
+            ],
+            "markCells": []
+          },
+          {
+            "id": "pp-value-0",
+            "role": "move_pp",
+            "readingOrder": 13,
+            "text": "9/10",
+            "gridRect": [
+              15,
+              10,
+              19,
+              11
+            ],
+            "sourceRect": [
+              570,
+              288,
+              642,
+              306
+            ],
+            "markCells": [],
+            "variable": {
+              "displayValue": "9/10",
+              "maximum": 10,
+              "format": "fixed width digits/slash; preserve literal padding",
+              "role": "move_pp",
+              "current": 9,
+              "type": "integer_pair"
+            }
+          },
+          {
+            "id": "defense-label",
+            "role": "stat_label",
+            "readingOrder": 14,
+            "text": "ほうきょ",
+            "gridRect": [
+              1,
+              12,
+              5,
+              13
+            ],
+            "sourceRect": [
+              318,
+              324,
+              390,
+              342
+            ],
+            "markCells": []
+          },
+          {
+            "id": "defense-value",
+            "role": "defense",
+            "readingOrder": 15,
+            "text": "123",
+            "gridRect": [
+              6,
+              12,
+              9,
+              13
+            ],
+            "sourceRect": [
+              408,
+              324,
+              462,
+              342
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "defense",
+              "numericValue": 123,
+              "displayValue": "123",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "speed-label",
+            "role": "stat_label",
+            "readingOrder": 16,
+            "text": "すばやさ",
+            "gridRect": [
+              1,
+              14,
+              5,
+              15
+            ],
+            "sourceRect": [
+              318,
+              342,
+              390,
+              378
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "kind": "dakuten",
+                "gridColumn": 2
+              }
+            ]
+          },
+          {
+            "id": "speed-value",
+            "role": "speed",
+            "readingOrder": 17,
+            "text": "103",
+            "gridRect": [
+              6,
+              14,
+              9,
+              15
+            ],
+            "sourceRect": [
+              408,
+              360,
+              462,
+              378
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "speed",
+              "numericValue": 103,
+              "displayValue": "103",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "special-label",
+            "role": "stat_label",
+            "readingOrder": 18,
+            "text": "とくしゅ",
+            "gridRect": [
+              1,
+              16,
+              5,
+              17
+            ],
+            "sourceRect": [
+              318,
+              396,
+              390,
+              414
+            ],
+            "markCells": []
+          },
+          {
+            "id": "special-value",
+            "role": "special",
+            "readingOrder": 19,
+            "text": "139",
+            "gridRect": [
+              6,
+              16,
+              9,
+              17
+            ],
+            "sourceRect": [
+              408,
+              396,
+              462,
+              414
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "special",
+              "numericValue": 139,
+              "displayValue": "139",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "type2",
+            "role": "pokemon_type",
+            "readingOrder": 20,
+            "text": "タイフ2/こおり",
+            "gridRect": [
+              10,
+              12,
+              18,
+              13
+            ],
+            "sourceRect": [
+              480,
+              324,
+              624,
+              342
+            ],
+            "markCells": []
+          },
+          {
+            "id": "trainer-id-label",
+            "role": "compact_status_label",
+            "readingOrder": 21,
+            "text": "IDNo/",
+            "gridRect": [
+              10,
+              14,
+              13,
+              15
+            ],
+            "sourceRect": [
+              480,
+              360,
+              534,
+              378
+            ],
+            "markCells": [],
+            "logicalRect": [
+              80,
+              112,
+              104,
+              120
+            ],
+            "renderUnits": [
+              {
+                "text": "IDNo/",
+                "kind": "compound_label",
+                "logicalRect": [
+                  80,
+                  112,
+                  104,
+                  120
+                ]
+              }
+            ],
+            "renderEvidence": "Direct raw frame480 packed labels in reports/m2-all-scenes-status-packed-labels-v1.png; second independent originals460-567",
+            "renderNote": "Literal No. / IDNo/ / :L / HP: with actual compound-label envelope, no extra base cells invented"
+          },
+          {
+            "id": "trainer-id",
+            "role": "trainer_id",
+            "readingOrder": 22,
+            "text": "16785",
+            "gridRect": [
+              14,
+              14,
+              19,
+              15
+            ],
+            "sourceRect": [
+              552,
+              360,
+              642,
+              378
+            ],
+            "markCells": [],
+            "variable": {
+              "role": "trainer_id",
+              "numericValue": 16785,
+              "format": "5 digits",
+              "displayValue": "16785",
+              "type": "integer"
+            }
+          },
+          {
+            "id": "owner",
+            "role": "trainer_name",
+            "readingOrder": 23,
+            "text": "おや/ レッド",
+            "gridRect": [
+              10,
+              16,
+              17,
+              17
+            ],
+            "sourceRect": [
+              480,
+              378,
+              606,
+              414
+            ],
+            "markCells": [
+              {
+                "gridRow": 15,
+                "kind": "dakuten",
+                "gridColumn": 16
+              }
+            ],
+            "variable": {
+              "role": "original_trainer_name",
+              "format": "label/slash/space/name",
+              "displayValue": "レッド",
+              "type": "string"
+            }
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "reports/m3-grid-refinement-v1/authorized-correction-status-pages-notes-v1/pass2.json",
+          "originalFrames": "data/frames/video-02/authorized-correction-status-pages-pass2-v1",
+          "humanPerFrameVerification": "not claimed",
+          "outputIndependence": "Two full-event original-image reviews; no tested output used as annotation input. Prior diagnostic awareness disclosed.",
+          "correctionReview": "reports/m3-grid-refinement-v1/authorized-correction-status-pages-notes-v1/correction-evidence.json"
+        },
+        "renderNote": "Original526: experience panel and first move row redrawn; old lower bases remain with defence/type2 marks erased. All visible fields retained."
+      }
+    }
+  ],
+  "expectedCharacterDelta": 0,
+  "unchanged": "All retained/scored frames, PTS boundaries, page opportunities, layout, scoring contract and all other state objects. Existing field roles/order retained except the removed absent panel and replacement visible HP fields.",
+  "limitations": [],
+  "noProductAcceptance": true
+}

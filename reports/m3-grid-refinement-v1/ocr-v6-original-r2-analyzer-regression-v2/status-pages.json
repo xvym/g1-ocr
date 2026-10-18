@@ -1,0 +1,25 @@
+[
+  {
+    "sourceFrameIndex": 526,
+    "sourcePts": 269312,
+    "stateId": "c83de914352e-f526-f527",
+    "expectedCharacters": 96,
+    "errors": 3,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "stat_label:12:1:14",
+        "expected": "ぼうぎょ",
+        "actual": "ほうきょ",
+        "errors": 2
+      },
+      {
+        "kind": "text",
+        "key": "pokemon_type:12:10:20",
+        "expected": "タイプ2/こおり",
+        "actual": "タイフ2/こおり",
+        "errors": 1
+      }
+    ]
+  }
+]

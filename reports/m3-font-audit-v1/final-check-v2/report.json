@@ -1,0 +1,145 @@
+{
+  "status": "approved_effective_GT_development_ready_M3_source_primitives_checked",
+  "collectionSha256": "748087f7049d657ada68e634fda8b21dc37674257769bc559e79fff684dbb246",
+  "baseFreeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2/freeze.json",
+    "sha256": "cf6cffeeefb4b94b5c519193effaa72db4dac3195e32ee9481bfd47541b36bc6",
+    "bytes": 82329
+  },
+  "amendmentFreeze": {
+    "path": "data/gt/frozen/ocr-shop-metadata-r2/freeze.json",
+    "sha256": "141777e5b8c357239135450bdedd2adf43d9dd5ca35f1914f956a9f23422f016",
+    "bytes": 13660
+  },
+  "media": [
+    {
+      "id": "video-01",
+      "path": "testpic/video/2026-10-11 22-34-17.mp4",
+      "sha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+      "frameCount": 29346
+    },
+    {
+      "id": "video-02",
+      "path": "testpic/video/4a6e01eb2ea34cdbfdba41e9b4db6a88.mp4",
+      "sha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+      "frameCount": 7964
+    },
+    {
+      "id": "video-03",
+      "path": "testpic/video/5b34074da5f0cd90a956a4178d77b637.mp4",
+      "sha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+      "frameCount": 7402
+    },
+    {
+      "id": "video-04",
+      "path": "testpic/video/cd87cd5a156ef5cf5d64a43a1e6600fd.mp4",
+      "sha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+      "frameCount": 22058
+    }
+  ],
+  "scope": {
+    "items": 38,
+    "scoreFrameReferences": 3368,
+    "uniqueScoredFrames": 3361,
+    "originalStateIntervals": 717,
+    "deduplicatedContinuousStates": 712,
+    "pageOpportunities": 117,
+    "selectedFrameReferences": 3577,
+    "uniqueSelectedFrames": 3507,
+    "scoredSeconds": 134.91622807017757,
+    "sourceSeconds": 2779.397368
+  },
+  "all7OverlapsConsistent": true,
+  "originalReplayIdentityDifferences": 0,
+  "scorerFixtureOnly": true,
+  "sourceAuditSha256": "7dbead23d979e368afde384493177d9d9c05fbbf9c39fcd82461ff5172f9c2a3",
+  "glyphDifferences": [
+    {
+      "sources": [
+        "red-green-jp",
+        "blue-jp"
+      ],
+      "differentDarkInkTemplates": [
+        {
+          "profile": "textbox-extra",
+          "tile": 121
+        },
+        {
+          "profile": "textbox-extra",
+          "tile": 123
+        },
+        {
+          "profile": "textbox-extra",
+          "tile": 125
+        },
+        {
+          "profile": "textbox-extra",
+          "tile": 126
+        },
+        {
+          "profile": "battle-extra",
+          "tile": 121
+        },
+        {
+          "profile": "battle-extra",
+          "tile": 123
+        },
+        {
+          "profile": "battle-extra",
+          "tile": 125
+        },
+        {
+          "profile": "battle-extra",
+          "tile": 126
+        }
+      ]
+    },
+    {
+      "sources": [
+        "red-green-jp",
+        "yellow-jp"
+      ],
+      "differentDarkInkTemplates": [
+        {
+          "profile": "textbox-extra",
+          "tile": 121
+        },
+        {
+          "profile": "textbox-extra",
+          "tile": 123
+        },
+        {
+          "profile": "textbox-extra",
+          "tile": 125
+        },
+        {
+          "profile": "textbox-extra",
+          "tile": 126
+        },
+        {
+          "profile": "battle-extra",
+          "tile": 121
+        },
+        {
+          "profile": "battle-extra",
+          "tile": 123
+        },
+        {
+          "profile": "battle-extra",
+          "tile": 125
+        },
+        {
+          "profile": "battle-extra",
+          "tile": 126
+        }
+      ]
+    }
+  ],
+  "javaTests": 69,
+  "buildIdentitySha256": "76f7022bc8defbb87eec6e42e87f41cb71dfc00ebbd13452e1ed743b43ff05a9",
+  "sourceSnapshotSha256": "9415993c1dae8083e1aa23e7d2a40fb99572456f4dff7c7b6297e61806b38f5e",
+  "M3": "Glyph source audit and candidate primitives only; viewport/field OCR and visible-state pipeline not implemented",
+  "independentAcceptance": "pending_no_proven_unused_independent_session",
+  "productionChineseMapping": "not_started",
+  "realCaptureUIAndStability": "pending"
+}

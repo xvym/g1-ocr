@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Read-only audit of all116 frozen v19 pages: separate source-boundary mismatch, actual visible content/mark/field mismatch, and scorer/spec contract defects. Preserve all original scores.",
+  "frozen": "data/gt/frozen/ocr-all-scenes-v2-observation-r14",
+  "run": "reports/m3-grid-refinement-v1/ocr-regression-all-v19",
+  "attribution": "reports/m3-grid-refinement-v1/page-attribution-v18-r14-v3",
+  "productEvidence": "reports/m3-grid-refinement-v1/completion-production-v19-v2",
+  "scope": {
+    "pages": 116,
+    "scoredReferences": 3368,
+    "uniqueScoredFrames": 3361,
+    "completeFrames": 2045,
+    "noncompleteFrames": 1316
+  },
+  "rules": [
+    "Use exact frozen role/grid-start/readingOrder keys, exact text and marks, no fuzzy pairing or question normalization.",
+    "Read-only reconstruct original per-frame scores and strict page conjunction for both raw and final.",
+    "A separate content/logical diagnostic removes only sourceRect from otherwise unchanged region/symbol equality. It is not a new accepted score or UI latency verdict.",
+    "Recompute frozen rational source projection and current reported-grid projection. Keep mark envelopes, compact logical/render units and raster offsets.",
+    "Classify deletion/insertion/substitution, missing/extra/wrong role/order/occupancy, mark omission/misplacement and unit structure separately. Do not call all source deltas harmless.",
+    "Deterministically inspect each original scored PNG and target support union for visible core omitted by actual reported bounds or another target core in newly added margin. Exact RGB hash must match the original ledger.",
+    "Pixel support probe is diagnostic. Contrast/threshold ambiguities and unsupported polarity stay unresolved; no inferred glyph or GT update.",
+    "Agent image inspection is output-aware diagnosis, never new blind GT, human per-frame verification or independent acceptance.",
+    "Do not modify production, frozen GT, existing scorer, old reports, videos or repair budgets."
+  ],
+  "pixelProbe": {
+    "luma": "(R+2G+B)/4 integer",
+    "threshold": "Otsu within frozen base/explicit-mark support; minority class as candidate glyph polarity",
+    "core": "deepest25% of observed contrast range of minority polarity",
+    "minimumContrast": 24,
+    "interpretation": "Omitted foreground is a report-envelope warning until inspected, not proof the OCR sampled those pixels or caused its text error."
+  },
+  "acceptance": [
+    "All116 page records and all3368 scored references represented; include all1316 transition original frames.",
+    "Every saved original score reconstructed unchanged; all media/GT/build/actual/original reports SHA unchanged before/after.",
+    "Every source delta retains expected/actual rectangles, logical key, text/mark/unit/state evidence and pixel-probe result.",
+    "No new pass or semantic qualification granted; any no-source comparison labelled diagnostic only.",
+    "Explicit scorer-vs-algorithm-vs-unresolved recommendations per page; preserve ambiguous/failed cases."
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 2,
+  "scope": "M3 Japanese glyph and rendering audit only. No Chinese corpus, production translation, ROM construction or GT changes.",
+  "sources": [
+    {
+      "id": "red-green-jp",
+      "versions": [
+        "red",
+        "green"
+      ],
+      "url": "https://github.com/Narishma-gb/pokegreen",
+      "commit": "953f41b34108621b2bf13c3b1e53abfc9c3e5aec",
+      "checkout": ".cache/reference-sources/pokegreen-v1"
+    },
+    {
+      "id": "blue-jp",
+      "versions": [
+        "blue"
+      ],
+      "url": "https://github.com/Narishma-gb/pokeblue",
+      "commit": "69cd1814203dd24533c46af383d7cff5591aea90",
+      "checkout": ".cache/reference-sources/pokeblue-v1"
+    },
+    {
+      "id": "yellow-jp",
+      "versions": [
+        "yellow"
+      ],
+      "url": "https://github.com/Narishma-gb/pokeyellow-jp",
+      "commit": "f282e72ae26232790fdb780aa5a5db7ec8ebf572",
+      "checkout": ".cache/reference-sources/pokeyellow-jp-v1"
+    }
+  ],
+  "files": [
+    "README.md",
+    "Makefile",
+    "constants/charmap.asm",
+    "constants/text_constants.asm",
+    "gfx/font.asm",
+    "gfx/font/font.png",
+    "gfx/font/font_extra.png",
+    "gfx/font/font_battle_extra.png",
+    "gfx/font/P.png",
+    "gfx/battle/battle_hud_1.png",
+    "gfx/battle/battle_hud_2.png",
+    "gfx/battle/battle_hud_3.png",
+    "home/load_font.asm",
+    "home/text.asm",
+    "home/print_text.asm",
+    "home/print_num.asm",
+    "home/print_bcd.asm",
+    "macros/scripts/text.asm",
+    "data/text/dakutens.asm",
+    "ram/vram.asm",
+    "engine/pokemon/status_screen.asm",
+    "home/joypad2.asm"
+  ],
+  "profiles": [
+    {
+      "id": "main",
+      "png": "gfx/font/font.png",
+      "firstTile": 128,
+      "mappingSection": "gfx/font/font.png",
+      "evidence": [
+        "gfx/font.asm:FontGraphics",
+        "home/load_font.asm:LoadFontTilePatterns",
+        "ram/vram.asm:vFont"
+      ]
+    },
+    {
+      "id": "textbox-extra",
+      "png": "gfx/font/font_extra.png",
+      "firstTile": 96,
+      "mappingSection": "gfx/font/font_extra.png",
+      "evidence": [
+        "gfx/font.asm:TextBoxGraphics",
+        "home/load_font.asm:LoadTextBoxTilePatterns"
+      ]
+    },
+    {
+      "id": "battle-extra",
+      "png": "gfx/font/font_battle_extra.png",
+      "firstTile": 98,
+      "mappingSection": "gfx/font/font_battle_extra.png",
+      "evidence": [
+        "gfx/font.asm:HpBarAndStatusGraphics",
+        "home/load_font.asm:LoadHpBarAndStatusTilePatterns"
+      ]
+    },
+    {
+      "id": "status-hud-1",
+      "png": "gfx/battle/battle_hud_1.png",
+      "firstTile": 109,
+      "mappingSection": null,
+      "evidence": [
+        "engine/pokemon/status_screen.asm:StatusScreen"
+      ]
+    },
+    {
+      "id": "status-hud-2",
+      "png": "gfx/battle/battle_hud_2.png",
+      "firstTile": 120,
+      "mappingSection": null,
+      "evidence": [
+        "engine/pokemon/status_screen.asm:StatusScreen"
+      ],
+      "loadedTiles": 1
+    },
+    {
+      "id": "status-hud-3",
+      "png": "gfx/battle/battle_hud_3.png",
+      "firstTile": 118,
+      "mappingSection": null,
+      "evidence": [
+        "engine/pokemon/status_screen.asm:StatusScreen"
+      ],
+      "loadedTiles": 2
+    },
+    {
+      "id": "status-P",
+      "png": "gfx/font/P.png",
+      "firstTile": 114,
+      "mappingSection": null,
+      "evidence": [
+        "engine/pokemon/status_screen.asm:PTile"
+      ]
+    }
+  ],
+  "outputRepresentation": "Source character literals and aliases are retained. Fullwidth digits/letters, source ellipsis/middle-dot characters, space cells and compact labels still need an explicit image-to-display representation layer respecting the already-frozen scoring contract; no string normalization or first-alias selection here.",
+  "redistribution": "No redistribution permission is inferred. Reference checkouts and derived glyph bitmaps remain in ignored .cache and are excluded from product artifacts. Repository license-file presence and notices are recorded by the audit.",
+  "auditExtent": "Each profile represents the source copy count at its declared call site. HUD2 copies only1 of3 image tiles; HUD3 only2 of3. Other source image tiles remain unassigned for these profiles."
+}

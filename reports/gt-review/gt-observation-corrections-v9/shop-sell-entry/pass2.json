@@ -1,0 +1,189 @@
+{
+  "pass": 2,
+  "range": [
+    1042,
+    1104
+  ],
+  "status": "complete_original_context_read_not_candidate",
+  "sourceVerification": {
+    "path": "data\\frames\\video-03\\shop-sell-contract-pass2-v1\\verification.json",
+    "sha256": "fbc61522683510bea3ad567466420800c1658de170845d47b1f262d7a496cb44"
+  },
+  "sheets": {
+    "path": "reports/m3-grid-refinement-v1/shop-sell-contract-pass2-sheets-v1/report.json",
+    "sha256": "045c0ff43903af304c0aa50c13ff4331bbe0772298fcc139d61c863697bf16ce"
+  },
+  "observations": [
+    {
+      "start": 1042,
+      "end": 1048,
+      "text": "そのほかに わたくしどもで|おちからに なれることは？",
+      "layer": "parent",
+      "money": "22526円",
+      "parentCursor": "filled:1",
+      "itemCursorRow": null,
+      "listDownArrow": false
+    },
+    {
+      "start": 1048,
+      "end": 1056,
+      "text": "そのほかに わたくしどもで|おちからに なれることは？",
+      "layer": "parent",
+      "money": "22526円",
+      "parentCursor": "filled:3",
+      "itemCursorRow": null,
+      "listDownArrow": false
+    },
+    {
+      "start": 1056,
+      "end": 1057,
+      "text": "そのほかに わたくしどもで|おちからに なれることは？",
+      "layer": "parent",
+      "money": "22526円",
+      "parentCursor": "outline:3",
+      "itemCursorRow": null,
+      "listDownArrow": false
+    },
+    {
+      "start": 1057,
+      "end": 1058,
+      "text": "",
+      "layer": "parent",
+      "money": "22526円",
+      "parentCursor": "outline:3",
+      "itemCursorRow": null,
+      "listDownArrow": false
+    },
+    {
+      "start": 1058,
+      "end": 1059,
+      "text": "どれを",
+      "layer": "parent",
+      "money": "22526円",
+      "parentCursor": "outline:3",
+      "itemCursorRow": null,
+      "listDownArrow": false
+    },
+    {
+      "start": 1059,
+      "end": 1060,
+      "text": "どれを うっ",
+      "layer": "parent",
+      "money": "22526円",
+      "parentCursor": "outline:3",
+      "itemCursorRow": null,
+      "listDownArrow": false
+    },
+    {
+      "start": 1060,
+      "end": 1062,
+      "text": "どれを うっていた",
+      "layer": "parent",
+      "money": "22526円",
+      "parentCursor": "outline:3",
+      "itemCursorRow": null,
+      "listDownArrow": false
+    },
+    {
+      "start": 1062,
+      "end": 1063,
+      "text": "どれを うっていただけま",
+      "layer": "parent",
+      "money": "22526円",
+      "parentCursor": "outline:3",
+      "itemCursorRow": null,
+      "listDownArrow": false
+    },
+    {
+      "start": 1063,
+      "end": 1068,
+      "text": "どれを うっていただけますか？",
+      "layer": "parent",
+      "money": "",
+      "parentCursor": "outline:3",
+      "itemCursorRow": null,
+      "listDownArrow": false
+    },
+    {
+      "start": 1068,
+      "end": 1069,
+      "text": "どれを うっていただけますか？",
+      "layer": "partial_list_lower_three_items",
+      "money": "",
+      "parentCursor": "outline:3",
+      "itemCursorRow": null,
+      "listDownArrow": true
+    },
+    {
+      "start": 1069,
+      "end": 1070,
+      "text": "どれを うっていただけますか？",
+      "layer": "list",
+      "money": "22526円",
+      "parentCursor": "outline:3",
+      "itemCursorRow": null,
+      "listDownArrow": true
+    },
+    {
+      "start": 1070,
+      "end": 1082,
+      "text": "どれを うっていただけますか？",
+      "layer": "list",
+      "money": "22526円",
+      "parentCursor": "outline:3",
+      "itemCursorRow": 4,
+      "listDownArrow": true
+    },
+    {
+      "start": 1082,
+      "end": 1092,
+      "text": "どれを うっていただけますか？",
+      "layer": "list",
+      "money": "22526円",
+      "parentCursor": "outline:3",
+      "itemCursorRow": 4,
+      "listDownArrow": false
+    },
+    {
+      "start": 1092,
+      "end": 1096,
+      "text": "どれを うっていただけますか？",
+      "layer": "list",
+      "money": "22526円",
+      "parentCursor": "outline:3",
+      "itemCursorRow": 6,
+      "listDownArrow": false
+    },
+    {
+      "start": 1096,
+      "end": 1104,
+      "text": "どれを うっていただけますか？",
+      "layer": "list",
+      "money": "22526円",
+      "parentCursor": "outline:3",
+      "itemCursorRow": 6,
+      "listDownArrow": true
+    }
+  ],
+  "fields": {
+    "parent": [
+      "かいに きた",
+      "うりに きた",
+      "べつに いいです"
+    ],
+    "moneyLabel": "おかね",
+    "items": [
+      "じてんしゃ",
+      "ポケモンのふえ",
+      "いいつりざお",
+      "ボロのつりざお"
+    ],
+    "occludedParent": [
+      "かいに きた",
+      "うり",
+      "べつ"
+    ]
+  },
+  "continuity": "The sell question stays visible without clearing or changing when the item list is drawn. At1068 the lower three item rows and bottom list border are drawn while the full parent labels remain; at1069 the top list layer obscures sell/leave suffixes. The list down arrow is distinct from a message wait arrow.",
+  "limitations": "Same coding agent. Historical approved annotations and role audit already exposed before this recheck; no tested output open during this read. Question glyph transcribed as fullwidth for readability, not a new encoding decision. Role strings/order are contracts, not visible pixels. No human per-frame or independent-session claim."
+}

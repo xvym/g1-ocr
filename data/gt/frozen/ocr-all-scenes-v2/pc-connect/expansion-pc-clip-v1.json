@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "c83de914352e-f1379-f1430",
+  "mediaId": "video-02",
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "startFrame": 1379,
+  "endFrameExclusive": 1430,
+  "warmup": [
+    1379,
+    1379
+  ],
+  "scoredRange": [
+    1379,
+    1426
+  ],
+  "postContext": [
+    1426,
+    1430
+  ],
+  "timeBase": "1/12288",
+  "set": "development",
+  "independentSession": "unverified",
+  "eventType": "PC cursor change and complete first connection-confirmation page",
+  "sourceCandidate": "c83de914352e-f1320-f2520-candidate",
+  "boundaryStatus": "agent_double_read_complete_candidate_not_frozen",
+  "selectionReason": "Raw navigation identified cursor action from first to second owner choice1387, before confirmation loading1405. Score includes complete old/new menu, all loading, completion1411, clear1422 and four cleared frames. Later prompt begins1430 outside clip; no partial later event claimed. Earlier menu wipe1353 and occluded nested fields retained pending.",
+  "keyFrames": {
+    "confirmationComplete": 1411,
+    "cursorMove": 1387,
+    "textboxOpensEmpty": 1404,
+    "nextUnscoredPrompt": 1430,
+    "confirmationClears": 1422,
+    "loadingStarts": 1405
+  },
+  "gt": "data/gt/candidates/ocr-expansion-v1/pc-connect/ocr-candidate-v1.jsonl",
+  "frozen": false,
+  "scopeLimits": [
+    "No PC item/Pokemon transaction certified",
+    "Earlier masked opening and later candidate frames retained pending",
+    "Version/session isolation unverified",
+    "No tested OCR/human per-frame verification"
+  ]
+}

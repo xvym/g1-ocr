@@ -1,0 +1,170 @@
+package io.github.g1ocr.ocr;
+
+import io.github.g1ocr.capture.SourceFrame;
+import java.text.Normalizer;
+import java.util.*;
+
+/** Raw 8x8 image glyphs. This class does not classify scenes, complete words or consult scripts. */
+public final class PixelGlyphReader {
+    public static final class Grid {
+        public final double originX,originY,scaleX,scaleY;
+        public Grid(double x,double y,double sx,double sy) {
+            if(!Double.isFinite(x)||!Double.isFinite(y)||!Double.isFinite(sx)||!Double.isFinite(sy)||sx<1||sy<1||sx>32||sy>32)
+                throw new IllegalArgumentException("Invalid sampling grid");
+            originX=x;originY=y;scaleX=sx;scaleY=sy;
+        }
+    }
+    public static final class Cell {
+        public final int column,row,contrast,distance,threshold;
+        public final boolean valid,blank;
+        public final long ink;
+        public final long knownPixelMask;
+        public final double sampleOffsetX,sampleOffsetY;
+        public final List<PhaseAlternative> phaseAlternatives;
+        private final int[] sourceRect;
+        public final List<String> candidates;
+        public final List<PixelGlyphMatcher.Candidate> sourceCandidates;
+        private Cell(int col,int row,int contrast,int distance,int threshold,boolean valid,boolean blank,long ink,long knownMask,int[] rect,List<String> chars,List<PixelGlyphMatcher.Candidate> sources) {
+            this(col,row,contrast,distance,threshold,valid,blank,ink,knownMask,rect,chars,sources,0,0);
+        }
+        private Cell(int col,int row,int contrast,int distance,int threshold,boolean valid,boolean blank,long ink,long knownMask,int[] rect,List<String> chars,List<PixelGlyphMatcher.Candidate> sources,double dx,double dy) {
+            this(col,row,contrast,distance,threshold,valid,blank,ink,knownMask,rect,chars,sources,dx,dy,Collections.emptyList());
+        }
+        private Cell(int col,int row,int contrast,int distance,int threshold,boolean valid,boolean blank,long ink,long knownMask,int[] rect,List<String> chars,List<PixelGlyphMatcher.Candidate> sources,double dx,double dy,List<PhaseAlternative> alternatives) {
+            column=col;this.row=row;this.contrast=contrast;this.distance=distance;this.threshold=threshold;this.valid=valid;this.blank=blank;this.ink=ink;
+            sourceRect=rect.clone();candidates=Collections.unmodifiableList(new ArrayList<>(chars));sourceCandidates=Collections.unmodifiableList(new ArrayList<>(sources));
+            knownPixelMask=knownMask;
+            sampleOffsetX=dx;sampleOffsetY=dy;
+            phaseAlternatives=Collections.unmodifiableList(new ArrayList<>(alternatives));
+        }
+        public int[] copySourceRect(){return sourceRect.clone();}
+    }
+    public static final class PhaseAlternative {
+        public final double offsetX,offsetY;public final int threshold;public final String observedInkHex;public final List<String> literals;
+        private PhaseAlternative(double dx,double dy,int threshold,long observed,List<String> aliases){offsetX=dx;offsetY=dy;this.threshold=threshold;observedInkHex=Long.toUnsignedString(observed,16);literals=Collections.unmodifiableList(new ArrayList<>(aliases));}
+    }
+    public static final class Frame {
+        public final long pts;
+        public final Grid grid;
+        private final List<Cell> cells;
+        private Frame(long pts,Grid grid,List<Cell> cells){this.pts=pts;this.grid=grid;this.cells=Collections.unmodifiableList(cells);}
+        public List<Cell> cells(){return cells;}
+        public Cell cell(int column,int row){if(column<0||column>=20||row<0||row>=18)throw new IllegalArgumentException("Cell outside grid");return cells.get(row*20+column);}
+        public KanaScriptResolver.Result contextualRow(int row) {
+            List<List<String>> observed=new ArrayList<>();int[] distance=new int[20];
+            for(int col=0;col<20;col++){observed.add(literals(col,row));distance[col]=cell(col,row).distance;}
+            return new KanaScriptResolver().resolve(observed,distance);
+        }
+        /** Diacritics are read from this frame's preceding row only. All ambiguous aliases remain. */
+        public List<String> literals(int column,int row) {
+            Cell base=cell(column,row);if(!base.valid)return Collections.emptyList();
+            if(row==0||base.blank)return base.candidates;
+            Cell above=cell(column,row-1);String mark=above.candidates.size()==1?above.candidates.get(0):"";
+            String combining="゛".equals(mark)?"\u3099":"゜".equals(mark)?"\u309a":"";
+            if(combining.isEmpty())return base.candidates;
+            LinkedHashSet<String> out=new LinkedHashSet<>();
+            for(String text:base.candidates) {
+                String combined=Normalizer.normalize(text+combining,Normalizer.Form.NFC);
+                // Only actual single-character kana compositions; no detached mark is invented or discarded.
+                out.add(combined.codePointCount(0,combined.length())==1?combined:text);
+            }
+            return Collections.unmodifiableList(new ArrayList<>(out));
+        }
+    }
+    private final PixelGlyphMatcher matcher;
+    private final int maxDistance,minContrast;
+    public PixelGlyphReader(List<GlyphTemplate> glyphs){this(glyphs,5,30);}
+    public PixelGlyphReader(List<GlyphTemplate> glyphs,int maxDistance,int minContrast) {
+        if(maxDistance<0||maxDistance>16||minContrast<1||minContrast>255)throw new IllegalArgumentException("Invalid glyph reader configuration");
+        matcher=new PixelGlyphMatcher(glyphs);this.maxDistance=maxDistance;this.minContrast=minContrast;
+    }
+    public Frame read(SourceFrame frame,Grid grid) {
+        Objects.requireNonNull(frame);Objects.requireNonNull(grid);byte[] rgb=frame.copyRgb();int w=frame.getWidth(),h=frame.getHeight();
+        List<Cell> cells=new ArrayList<>();
+        boolean topCaptureLine=captureTopLine(rgb,w,h,grid);
+        for(int row=0;row<18;row++)for(int col=0;col<20;col++) {
+            int[] rect={(int)Math.floor(grid.originX+col*8*grid.scaleX+1e-7),(int)Math.floor(grid.originY+row*8*grid.scaleY+1e-7),
+                    (int)Math.ceil(grid.originX+(col+1)*8*grid.scaleX-1e-7),(int)Math.ceil(grid.originY+(row+1)*8*grid.scaleY-1e-7)};
+            int[] values=new int[64],hist=new int[256];boolean valid=true;int lo=255,hi=0;
+            for(int y=0;y<8;y++)for(int x=0;x<8;x++) {
+                int sx=(int)Math.floor(grid.originX+(col*8+x+.5)*grid.scaleX),sy=(int)Math.floor(grid.originY+(row*8+y+.5)*grid.scaleY);
+                if(sx<0||sx>=w||sy<0||sy>=h){valid=false;continue;}
+                int at=(sy*w+sx)*3,v=((rgb[at]&255)+2*(rgb[at+1]&255)+(rgb[at+2]&255))/4;
+                values[y*8+x]=v;hist[v]++;lo=Math.min(lo,v);hi=Math.max(hi,v);
+            }
+            int contrast=hi-lo;
+            if(!valid){cells.add(new Cell(col,row,0,-1,0,false,false,0,0,rect,Collections.emptyList(),Collections.emptyList()));continue;}
+            if(contrast<minContrast){cells.add(new Cell(col,row,contrast,0,lo,true,true,0,-1L,rect,Collections.singletonList(" "),Collections.emptyList()));continue;}
+            int cut=otsu(hist);long ink=0;for(int p=0;p<64;p++)if(values[p]<=cut)ink|=1L<<p;
+            long knownMask=row==0&&topCaptureLine?~255L:-1L;
+            List<PixelGlyphMatcher.Candidate> ranked=matcher.rank(ink,knownMask,maxDistance),best=new ArrayList<>();LinkedHashSet<String> aliases=new LinkedHashSet<>();
+            int distance=ranked.isEmpty()?-1:ranked.get(0).getDistance();
+            for(PixelGlyphMatcher.Candidate c:ranked) {
+                if(c.getDistance()!=distance)break;best.add(c);for(String alias:c.getGlyph().getAliases())aliases.add(displayLiteral(alias));
+            }
+            cells.add(new Cell(col,row,contrast,distance,cut,true,false,ink,knownMask,rect,new ArrayList<>(aliases),best));
+        }
+        refineSparseMarks(rgb,w,h,grid,cells);
+        return new Frame(frame.getPts(),grid,cells);
+    }
+    /** Local current-image phase refinement for an unmatched sparse mark above an observed kana. */
+    private void refineSparseMarks(byte[] rgb,int w,int h,Grid grid,List<Cell> cells) {
+        for(int y=1;y<18;y++)for(int x=0;x<20;x++) {
+            Cell base=cells.get(y*20+x),above=cells.get((y-1)*20+x);
+            if(!base.valid||base.blank||!above.valid||above.blank||above.candidates.contains("゛")||above.candidates.contains("゜"))continue;
+            boolean kana=base.candidates.stream().anyMatch(s->s.codePointCount(0,s.length())==1&&s.codePointAt(0)>=0x3041&&s.codePointAt(0)<=0x30ff);
+            int observed=Long.bitCount(above.ink&above.knownPixelMask);if(!kana||observed<2||observed>16)continue;
+            LinkedHashSet<String> aliases=new LinkedHashSet<>();Cell best=null;double bestShift=Double.POSITIVE_INFINITY;List<PhaseAlternative> alternatives=new ArrayList<>();List<PixelGlyphMatcher.Candidate> allMatches=new ArrayList<>();Set<GlyphTemplate> matchedGlyphs=Collections.newSetFromMap(new IdentityHashMap<GlyphTemplate,Boolean>());
+            for(int iy=-2;iy<=2;iy++)for(int ix=-2;ix<=2;ix++) {
+                double dx=ix*.25,dy=iy*.25;int[] values=new int[64],hist=new int[256];boolean valid=true;int lo=255,hi=0;
+                for(int py=0;py<8;py++)for(int px=0;px<8;px++) {
+                    int sx=(int)Math.floor(grid.originX+(x*8+px+.5+dx)*grid.scaleX),sy=(int)Math.floor(grid.originY+((y-1)*8+py+.5+dy)*grid.scaleY);
+                    if(sx<0||sy<0||sx>=w||sy>=h){valid=false;continue;}int at=(sy*w+sx)*3,v=((rgb[at]&255)+2*(rgb[at+1]&255)+(rgb[at+2]&255))/4;
+                    values[py*8+px]=v;hist[v]++;lo=Math.min(lo,v);hi=Math.max(hi,v);
+                }
+                if(!valid||hi-lo<minContrast)continue;int cut=otsu(hist);long mask=0;for(int p=0;p<64;p++)if(values[p]<=cut)mask|=1L<<p;
+                List<PixelGlyphMatcher.Candidate> exact=matcher.rank(mask,above.knownPixelMask,0);LinkedHashSet<String> current=new LinkedHashSet<>();
+                for(PixelGlyphMatcher.Candidate c:exact)for(String alias:c.getGlyph().getAliases())current.add(displayLiteral(alias));
+                if(current.isEmpty()||!current.stream().allMatch(s->s.equals("゛")||s.equals("゜")))continue;
+                alternatives.add(new PhaseAlternative(dx,dy,cut,mask,new ArrayList<>(current)));
+                for(PixelGlyphMatcher.Candidate candidate:exact)if(matchedGlyphs.add(candidate.getGlyph()))allMatches.add(candidate);
+                aliases.addAll(current);double shift=dx*dx+dy*dy;
+                if(shift<bestShift){bestShift=shift;best=new Cell(x,y-1,hi-lo,0,cut,true,false,mask,above.knownPixelMask,above.sourceRect,new ArrayList<>(current),exact,dx,dy);}
+            }
+            if(best!=null)cells.set((y-1)*20+x,new Cell(x,y-1,best.contrast,0,best.threshold,true,false,best.ink,best.knownPixelMask,best.sourceRect,new ArrayList<>(aliases),allMatches,best.sampleOffsetX,best.sampleOffsetY,alternatives));
+        }
+    }
+    /** A uniform dark capture-edge line is not font ink. Its color may be lifted by a video fade. */
+    private static boolean captureTopLine(byte[] rgb,int w,int h,Grid grid) {
+        if(grid.originY<-2||grid.originY>2)return false;int y=(int)Math.floor(grid.originY+.5*grid.scaleY);
+        if(y<0||y>2||y+4>=h)return false;int valid=0;int[] edge=new int[158],inside=new int[158];
+        for(int x=1;x<159;x++){int sx=(int)Math.floor(grid.originX+(x+.5)*grid.scaleX);if(sx<0||sx>=w)continue;int p=(y*w+sx)*3,q=((y+4)*w+sx)*3;
+            edge[valid]=((rgb[p]&255)+2*(rgb[p+1]&255)+(rgb[p+2]&255))/4;inside[valid]=((rgb[q]&255)+2*(rgb[q+1]&255)+(rgb[q+2]&255))/4;valid++;}
+        if(valid<150)return false;Arrays.sort(edge,0,valid);Arrays.sort(inside,0,valid);
+        return edge[(int)(valid*.95)]-edge[(int)(valid*.05)]<=8&&inside[valid/2]-edge[valid/2]>=16;
+    }
+    static int otsu(int[] hist) {
+        long total=0,sum=0;for(int i=0;i<256;i++){total+=hist[i];sum+=(long)i*hist[i];}
+        long left=0,leftSum=0;double best=-1;int threshold=0;
+        for(int i=0;i<255;i++){left+=hist[i];leftSum+=(long)i*hist[i];if(left==0||left==total)continue;
+            double diff=leftSum/(double)left-(sum-leftSum)/(double)(total-left),score=left*(double)(total-left)*diff*diff;
+            if(score>best){best=score;threshold=i;}
+        }
+        return threshold;
+    }
+    /** Source encodes Latin/digits as fullwidth; the pre-frozen display contract uses ASCII for those glyphs. */
+    static String displayLiteral(String value) {
+        if("<LV>".equals(value))return ":L";
+        if("<ID>".equals(value))return "ID";
+        if("№".equals(value))return "No";
+        StringBuilder out=new StringBuilder();value.codePoints().forEach(c->{
+            if(c>=0xff10&&c<=0xff19||c>=0xff21&&c<=0xff3a||c>=0xff41&&c<=0xff5a)out.appendCodePoint(c-0xfee0);
+            else if(c==0xff0f)out.append('/');
+            else if(c==0xff1f)out.append('?');
+            else if(c==0x22ef)out.appendCodePoint(0x2026);
+            else if(c==0xb7)out.appendCodePoint(0x30fb);
+            else if(c==0xff0e)out.append('.');
+            else out.appendCodePoint(c==0x3000?' ':c);
+        });return out.toString();
+    }
+}

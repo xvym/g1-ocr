@@ -1,0 +1,13 @@
+{
+ "status":"double_read_reconciled_for_PC_main_menu_field_identity",
+ "firstRead":"pass1.json",
+ "secondRead":"pass2.json",
+ "differences":[
+  {"frame":1688,"first":"第二与第三行双实心光标","second":"第三行实心光标，第二行无实心光标","resolution":"第二遍完整原PNG直接回看确认仅第三行实心光标；首遍笔记保留。父层第二行空心光标仍在。此为笔记误读，不根据OCR或本次字段候选更改GT。"},
+  {"frame":1724,"first":"未单列上方旧标记细节","second":"第二行上方旧半浊点等残留可见","resolution":"补记观察，不在此次角色纠错中改任何文字或标记；既有完整性结论仍有限定。"}
+ ],
+ "agreed":"主菜单五行文字、前两行部分绘制1749、五行完整1750、退出清除2253、与道具操作子菜单的层级差别一致。",
+ "roleDecision":"沿用更早已冻结pc-connect同一五行主菜单专门角色pc_menu_choice。后续是否退出不改变当前字段含义。仅纠正pc-deposit-navigation1749–1753及pc-exit2248–2252的menu_label；子菜单/列表/遮挡前缀不更名。",
+ "questionEncoding":"待用户选择，不在本次修订中改变。",
+ "productAcceptance":false
+}

@@ -1,0 +1,22 @@
+{
+  "status": "second_original_image_pass_completed_with_one_unresolved_name_fragment",
+  "event": "status-alt-pages",
+  "source": "video-03",
+  "inputVerification": "data/frames/video-03/authorized-correction-status-alt-pages-pass2-v1/verification.json",
+  "displayVerification": "reports/m3-grid-refinement-v1/authorized-correction-status-alt-pages-pass2-sheets-v1/report.json",
+  "viewedSheets": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
+  "viewedOriginalFrames": [3612],
+  "reviewer": "Current coding agent, not human per-frame verification",
+  "independence": "Fresh source decoding and ordered original-image sheets, with full3612 separately viewed. No tested actual or score differences used in this pass. Earlier diagnostic awareness is disclosed. Final sheets018-022 were reopened after a truncated tool response; all135 retained frames are now viewed.",
+  "observations": [
+    {"range":[3532,3534],"scope":"context","visible":"Party and status submenu."},
+    {"range":[3534,3541],"text":[],"visible":"Empty raster."},
+    {"range":[3541,3542],"visible":"Name has a short incomplete upper dark stroke above the ホ base. This is not sufficient evidence to replace the frozen ボ with ホ.","resolution":"Unresolved fragment; no high-confidence change authorized by this observation. Retain old annotation and separately disclose validation uncertainty; do not exclude this frame or count it as passed."},
+    {"range":[3542,3612],"header":["ウツボット",":L","50","No.","071","HP:","160/160","じょうたい/ふつう"],"fields":["こうげき","144","ぼうぎょ","105","すばやさ","110","とくしゅ","133","タイプ1/くさ","タイプ2/どく","IDNo/","44837","おや/ グリーン"],"picturePartial":3562,"pictureComplete":3563},
+    {"range":[3612,3613],"header":["ウツボット",":L","50","No.","071","HP:","160/160","じょうたい/ふつう"],"oldLowerFields":["こうげき","144","タイプ1/くさ"],"moves":[["ねむりこな","PP","15/15"],["つるぎのまい","PP","30/30"],["すてみタックル","PP","15/15"]],"detachedMarks":[{"gridColumn":1,"gridRow":11,"kind":"dakuten"},{"gridColumn":3,"gridRow":11,"kind":"dakuten"},{"gridColumn":12,"gridRow":11,"kind":"handakuten"},{"gridColumn":15,"gridRow":11,"kind":"dakuten"}],"visible":"Upper HP and condition remain; no experience panel yet. Four old marks occupy different columns from new plainこ. Mixed page, no cursor or arrow."},
+    {"range":[3613,3652],"header":["ウツボット",":L","50","No.","071"],"experience":["けいけんち/","117997","あと","7129で",":L","51"],"moves":[["はっぱカッター","PP","25/25"],["ねむりごな","PP","15/15"],["つるぎのまい","PP","30/30"],["すてみタックル","PP","15/15"]]},
+    {"range":[3652,3663],"text":[],"visible":"All text cleared."},
+    {"range":[3663,3667],"scope":"context","visible":"Party and selection prompt. No cursor3663, filled second-entry cursor3664-3666."}
+  ],
+  "confidence": "High for3612 old upper panel/plainこ/old detached marks.3541 remains unresolved and cannot support a new full-integrity or product-pass claim."
+}

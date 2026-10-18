@@ -1,0 +1,5 @@
+Viewport: battle-result exact=0/48 missing=6 maxError=4
+java.lang.IllegalArgumentException: Viewport geometry mismatch; all outputs and failures retained in reports\m3-grid-refinement-v1\initial-battle-result
+	at io.github.g1ocr.verification.FrozenDataset.require(FrozenDataset.java:108)
+	at io.github.g1ocr.verification.ViewportCheck.check(ViewportCheck.java:106)
+	at io.github.g1ocr.verification.VideoTool.main(VideoTool.java:38)

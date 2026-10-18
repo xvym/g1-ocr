@@ -1,0 +1,54 @@
+{
+  "changes": [
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1063,
+      "before": "message_loading",
+      "after": "money_temporarily_cleared"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1064,
+      "before": "message_loading",
+      "after": "money_temporarily_cleared"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1065,
+      "before": "message_loading",
+      "after": "money_temporarily_cleared"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1066,
+      "before": "message_loading",
+      "after": "money_temporarily_cleared"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1067,
+      "before": "message_loading",
+      "after": "money_temporarily_cleared"
+    }
+  ],
+  "bindings": [
+    {
+      "clip": "shop-sell-entry",
+      "before": "f1d3ff98ffccc45e2461c396ee4c6fbb0a5510ae81a938e7a23a2e113429662c",
+      "after": "2b5b4ff4aadb7f27cc8bec43dc7b0080ee3dc175dc9d1d716d3f7a13283da677",
+      "frames": 62
+    },
+    {
+      "clip": "shop-buy-navigation",
+      "before": "e33b37aa02b9dfea86bef768bb464c1ec072ffc6ed2869666f0b56fb8b46cdec",
+      "after": "09f14df7b7cb378cb55cc14d1a20f33c3b48b6d17a91ccf6cc742747ff75e40d",
+      "frames": 48
+    },
+    {
+      "clip": "shop-rejection",
+      "before": "42ef40e4eecbd10159c83238b0abf09a27437c8a015d47d6a5adefd1b94fd9d6",
+      "after": "08ee22848d8f842638cb8c4d9d146cee811d3c47f3976094bb4968e692cb1a0b",
+      "frames": 36
+    }
+  ]
+}

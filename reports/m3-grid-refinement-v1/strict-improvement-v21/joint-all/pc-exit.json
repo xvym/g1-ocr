@@ -1,0 +1,1094 @@
+[
+  {
+    "input": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002246.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 300.0135889904881,
+        "originY": 108.88188813105744,
+        "scaleX": 2.25,
+        "scaleY": 2.267361111111111
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 300.0135889904881,
+            "scale": 2.25,
+            "concentration": 0.24627160611453563,
+            "phase": 295.5135889904881
+          },
+          {
+            "origin": 299.7595614596443,
+            "scale": 2.2546875,
+            "concentration": 0.21493696524102174,
+            "phase": 295.25018645964434
+          },
+          {
+            "origin": 300.2620544755339,
+            "scale": 2.2453125,
+            "concentration": 0.2067648569167734,
+            "phase": 295.77142947553386
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 108.88188813105744,
+            "scale": 2.267361111111111,
+            "concentration": 0.2037015467705496,
+            "phase": 102.07980479772411
+          },
+          {
+            "origin": 108.50024470102038,
+            "scale": 2.2725694444444446,
+            "concentration": 0.1722943814882867,
+            "phase": 103.95510581213149
+          },
+          {
+            "origin": 106.98123676481993,
+            "scale": 2.2621527777777777,
+            "concentration": 0.16664380549345728,
+            "phase": 102.45693120926437
+          }
+        ]
+      },
+      "envelope": [
+        295,
+        103,
+        666,
+        441
+      ]
+    },
+    "x": {
+      "origin": 299.93625406943397,
+      "scale": 2.250097507871612,
+      "rms": 0.07252518239019623,
+      "points": 319
+    },
+    "y": {
+      "origin": 108.79243040812281,
+      "scale": 2.2681179272654473,
+      "rms": 0.05844069157654785,
+      "points": 376
+    },
+    "historyFrames": 1,
+    "currentMatchedCells": 96,
+    "currentXPoints": 319,
+    "currentYPoints": 377
+  },
+  {
+    "input": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002247.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 300.0135889904881,
+        "originY": 108.88188813105744,
+        "scaleX": 2.25,
+        "scaleY": 2.267361111111111
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 300.0135889904881,
+            "scale": 2.25,
+            "concentration": 0.24627160611453563,
+            "phase": 295.5135889904881
+          },
+          {
+            "origin": 299.7595614596443,
+            "scale": 2.2546875,
+            "concentration": 0.21493696524102174,
+            "phase": 295.25018645964434
+          },
+          {
+            "origin": 300.2620544755339,
+            "scale": 2.2453125,
+            "concentration": 0.2067648569167734,
+            "phase": 295.77142947553386
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 108.88188813105744,
+            "scale": 2.267361111111111,
+            "concentration": 0.2037015467705496,
+            "phase": 102.07980479772411
+          },
+          {
+            "origin": 108.50024470102038,
+            "scale": 2.2725694444444446,
+            "concentration": 0.1722943814882867,
+            "phase": 103.95510581213149
+          },
+          {
+            "origin": 106.98123676481993,
+            "scale": 2.2621527777777777,
+            "concentration": 0.16664380549345728,
+            "phase": 102.45693120926437
+          }
+        ]
+      },
+      "envelope": [
+        295,
+        103,
+        666,
+        441
+      ]
+    },
+    "x": {
+      "origin": 299.9362540694391,
+      "scale": 2.250097507871546,
+      "rms": 0.07252518239018829,
+      "points": 638
+    },
+    "y": {
+      "origin": 108.79243040812236,
+      "scale": 2.268117927265454,
+      "rms": 0.058440691576549735,
+      "points": 752
+    },
+    "historyFrames": 2,
+    "currentMatchedCells": 96,
+    "currentXPoints": 319,
+    "currentYPoints": 377
+  },
+  {
+    "input": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002248.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 300.0135889904881,
+        "originY": 108.88188813105744,
+        "scaleX": 2.25,
+        "scaleY": 2.267361111111111
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 300.0135889904881,
+            "scale": 2.25,
+            "concentration": 0.24627160611453563,
+            "phase": 295.5135889904881
+          },
+          {
+            "origin": 299.7595614596443,
+            "scale": 2.2546875,
+            "concentration": 0.21493696524102174,
+            "phase": 295.25018645964434
+          },
+          {
+            "origin": 300.2620544755339,
+            "scale": 2.2453125,
+            "concentration": 0.2067648569167734,
+            "phase": 295.77142947553386
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 108.88188813105744,
+            "scale": 2.267361111111111,
+            "concentration": 0.2037015467705496,
+            "phase": 102.07980479772411
+          },
+          {
+            "origin": 108.50024470102038,
+            "scale": 2.2725694444444446,
+            "concentration": 0.1722943814882867,
+            "phase": 103.95510581213149
+          },
+          {
+            "origin": 106.98123676481993,
+            "scale": 2.2621527777777777,
+            "concentration": 0.16664380549345728,
+            "phase": 102.45693120926437
+          }
+        ]
+      },
+      "envelope": [
+        295,
+        103,
+        666,
+        441
+      ]
+    },
+    "x": {
+      "origin": 299.9362540694395,
+      "scale": 2.250097507871507,
+      "rms": 0.07252518239019207,
+      "points": 957
+    },
+    "y": {
+      "origin": 108.79243040812013,
+      "scale": 2.2681179272654743,
+      "rms": 0.05844069157654474,
+      "points": 1128
+    },
+    "historyFrames": 3,
+    "currentMatchedCells": 96,
+    "currentXPoints": 319,
+    "currentYPoints": 377
+  },
+  {
+    "input": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002249.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 300.01358768599744,
+        "originY": 108.88188060231225,
+        "scaleX": 2.25,
+        "scaleY": 2.267361111111111
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 300.01358768599744,
+            "scale": 2.25,
+            "concentration": 0.2462827824986278,
+            "phase": 295.51358768599744
+          },
+          {
+            "origin": 299.75956256255364,
+            "scale": 2.2546875,
+            "concentration": 0.21494854785503587,
+            "phase": 295.25018756255366
+          },
+          {
+            "origin": 300.2620506833935,
+            "scale": 2.2453125,
+            "concentration": 0.20677505332964236,
+            "phase": 295.7714256833935
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 108.88188060231225,
+            "scale": 2.267361111111111,
+            "concentration": 0.20370944208237324,
+            "phase": 102.07979726897892
+          },
+          {
+            "origin": 108.5002342855883,
+            "scale": 2.2725694444444446,
+            "concentration": 0.17229983580303157,
+            "phase": 103.95509539669942
+          },
+          {
+            "origin": 106.98123112403803,
+            "scale": 2.2621527777777777,
+            "concentration": 0.16665256043679313,
+            "phase": 102.45692556848248
+          }
+        ]
+      },
+      "envelope": [
+        295,
+        103,
+        666,
+        441
+      ]
+    },
+    "x": {
+      "origin": 299.9362540694407,
+      "scale": 2.250097507871478,
+      "rms": 0.07252518239019318,
+      "points": 1276
+    },
+    "y": {
+      "origin": 108.79243040812152,
+      "scale": 2.2681179272654446,
+      "rms": 0.0584406915765419,
+      "points": 1504
+    },
+    "historyFrames": 4,
+    "currentMatchedCells": 96,
+    "currentXPoints": 319,
+    "currentYPoints": 377
+  },
+  {
+    "input": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002250.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 300.0135889904881,
+        "originY": 108.88188813105744,
+        "scaleX": 2.25,
+        "scaleY": 2.267361111111111
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 300.0135889904881,
+            "scale": 2.25,
+            "concentration": 0.24627160611453563,
+            "phase": 295.5135889904881
+          },
+          {
+            "origin": 299.7595614596443,
+            "scale": 2.2546875,
+            "concentration": 0.21493696524102174,
+            "phase": 295.25018645964434
+          },
+          {
+            "origin": 300.2620544755339,
+            "scale": 2.2453125,
+            "concentration": 0.2067648569167734,
+            "phase": 295.77142947553386
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 108.88188813105744,
+            "scale": 2.267361111111111,
+            "concentration": 0.2037015467705496,
+            "phase": 102.07980479772411
+          },
+          {
+            "origin": 108.50024470102038,
+            "scale": 2.2725694444444446,
+            "concentration": 0.1722943814882867,
+            "phase": 103.95510581213149
+          },
+          {
+            "origin": 106.98123676481993,
+            "scale": 2.2621527777777777,
+            "concentration": 0.16664380549345728,
+            "phase": 102.45693120926437
+          }
+        ]
+      },
+      "envelope": [
+        295,
+        103,
+        666,
+        441
+      ]
+    },
+    "x": {
+      "origin": 299.9362540694393,
+      "scale": 2.250097507871491,
+      "rms": 0.07252518239018665,
+      "points": 1595
+    },
+    "y": {
+      "origin": 108.79243040812408,
+      "scale": 2.268117927265421,
+      "rms": 0.0584406915765422,
+      "points": 1880
+    },
+    "historyFrames": 5,
+    "currentMatchedCells": 96,
+    "currentXPoints": 319,
+    "currentYPoints": 377
+  },
+  {
+    "input": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002251.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 300.0135889904881,
+        "originY": 108.88188813105744,
+        "scaleX": 2.25,
+        "scaleY": 2.267361111111111
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 300.0135889904881,
+            "scale": 2.25,
+            "concentration": 0.24627160611453563,
+            "phase": 295.5135889904881
+          },
+          {
+            "origin": 299.7595614596443,
+            "scale": 2.2546875,
+            "concentration": 0.21493696524102174,
+            "phase": 295.25018645964434
+          },
+          {
+            "origin": 300.2620544755339,
+            "scale": 2.2453125,
+            "concentration": 0.2067648569167734,
+            "phase": 295.77142947553386
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 108.88188813105744,
+            "scale": 2.267361111111111,
+            "concentration": 0.2037015467705496,
+            "phase": 102.07980479772411
+          },
+          {
+            "origin": 108.50024470102038,
+            "scale": 2.2725694444444446,
+            "concentration": 0.1722943814882867,
+            "phase": 103.95510581213149
+          },
+          {
+            "origin": 106.98123676481993,
+            "scale": 2.2621527777777777,
+            "concentration": 0.16664380549345728,
+            "phase": 102.45693120926437
+          }
+        ]
+      },
+      "envelope": [
+        295,
+        103,
+        666,
+        441
+      ]
+    },
+    "x": {
+      "origin": 299.93625406943846,
+      "scale": 2.250097507871499,
+      "rms": 0.072525182390196,
+      "points": 1914
+    },
+    "y": {
+      "origin": 108.79243040812578,
+      "scale": 2.2681179272654055,
+      "rms": 0.05844069157654574,
+      "points": 2256
+    },
+    "historyFrames": 6,
+    "currentMatchedCells": 96,
+    "currentXPoints": 319,
+    "currentYPoints": 377
+  },
+  {
+    "input": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002252.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 300.01358768599744,
+        "originY": 108.88188060231225,
+        "scaleX": 2.25,
+        "scaleY": 2.267361111111111
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 300.01358768599744,
+            "scale": 2.25,
+            "concentration": 0.2462827824986278,
+            "phase": 295.51358768599744
+          },
+          {
+            "origin": 299.75956256255364,
+            "scale": 2.2546875,
+            "concentration": 0.21494854785503587,
+            "phase": 295.25018756255366
+          },
+          {
+            "origin": 300.2620506833935,
+            "scale": 2.2453125,
+            "concentration": 0.20677505332964236,
+            "phase": 295.7714256833935
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 108.88188060231225,
+            "scale": 2.267361111111111,
+            "concentration": 0.20370944208237324,
+            "phase": 102.07979726897892
+          },
+          {
+            "origin": 108.5002342855883,
+            "scale": 2.2725694444444446,
+            "concentration": 0.17229983580303157,
+            "phase": 103.95509539669942
+          },
+          {
+            "origin": 106.98123112403803,
+            "scale": 2.2621527777777777,
+            "concentration": 0.16665256043679313,
+            "phase": 102.45692556848248
+          }
+        ]
+      },
+      "envelope": [
+        295,
+        103,
+        666,
+        441
+      ]
+    },
+    "x": {
+      "origin": 299.93625406943704,
+      "scale": 2.250097507871519,
+      "rms": 0.07252518239019035,
+      "points": 2233
+    },
+    "y": {
+      "origin": 108.79243040812538,
+      "scale": 2.2681179272654197,
+      "rms": 0.05844069157655061,
+      "points": 2632
+    },
+    "historyFrames": 7,
+    "currentMatchedCells": 96,
+    "currentXPoints": 319,
+    "currentYPoints": 377
+  },
+  {
+    "input": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002253.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 299.9751526709748,
+        "originY": 108.8257178664957,
+        "scaleX": 2.25078125,
+        "scaleY": 2.2682291666666665
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 299.9751526709748,
+            "scale": 2.25078125,
+            "concentration": 0.24026515863083558,
+            "phase": 295.47359017097483
+          },
+          {
+            "origin": 300.178190029641,
+            "scale": 2.24609375,
+            "concentration": 0.2227107655079524,
+            "phase": 295.686002529641
+          },
+          {
+            "origin": 299.7261506773385,
+            "scale": 2.25625,
+            "concentration": 0.2183669342257798,
+            "phase": 295.21365067733853
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 108.8257178664957,
+            "scale": 2.2682291666666665,
+            "concentration": 0.23663053210641063,
+            "phase": 102.0210303664957
+          },
+          {
+            "origin": 108.49898142401508,
+            "scale": 2.2734375,
+            "concentration": 0.19291932092734268,
+            "phase": 103.95210642401508
+          },
+          {
+            "origin": 106.93277312472196,
+            "scale": 2.2621527777777777,
+            "concentration": 0.16987940166262314,
+            "phase": 102.4084675691664
+          }
+        ]
+      },
+      "envelope": [
+        295,
+        103,
+        666,
+        441
+      ]
+    },
+    "x": {
+      "origin": 299.93625406943704,
+      "scale": 2.250097507871519,
+      "rms": 0.07252518239019035,
+      "points": 2233
+    },
+    "y": {
+      "origin": 108.79243040812538,
+      "scale": 2.2681179272654197,
+      "rms": 0.05844069157655061,
+      "points": 2632
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 0,
+    "currentXPoints": 0,
+    "currentYPoints": 0
+  },
+  {
+    "input": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002254.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 299.9401342959098,
+        "originY": 108.82599166067466,
+        "scaleX": 2.2515625,
+        "scaleY": 2.2682291666666665
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 299.9401342959098,
+            "scale": 2.2515625,
+            "concentration": 0.2344575494314545,
+            "phase": 293.1854467959098
+          },
+          {
+            "origin": 300.1778849210506,
+            "scale": 2.24609375,
+            "concentration": 0.21778250411635905,
+            "phase": 293.4396036710506
+          },
+          {
+            "origin": 299.72607224776505,
+            "scale": 2.25625,
+            "concentration": 0.21472755998401327,
+            "phase": 292.95732224776503
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 108.82599166067466,
+            "scale": 2.2682291666666665,
+            "concentration": 0.23606354043169947,
+            "phase": 104.28953332734133
+          },
+          {
+            "origin": 108.50153787400558,
+            "scale": 2.2734375,
+            "concentration": 0.1923676572334691,
+            "phase": 103.95466287400558
+          },
+          {
+            "origin": 109.19206012017712,
+            "scale": 2.2621527777777777,
+            "concentration": 0.16854988077453184,
+            "phase": 104.66775456462156
+          }
+        ]
+      },
+      "envelope": [
+        294,
+        104,
+        666,
+        441
+      ]
+    },
+    "x": {
+      "origin": 299.93625406943846,
+      "scale": 2.250097507871499,
+      "rms": 0.072525182390196,
+      "points": 1914
+    },
+    "y": {
+      "origin": 108.79243040812578,
+      "scale": 2.2681179272654055,
+      "rms": 0.05844069157654574,
+      "points": 2256
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 0,
+    "currentXPoints": 0,
+    "currentYPoints": 0
+  },
+  {
+    "input": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002255.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 299.9407284878775,
+        "originY": 108.8255732834564,
+        "scaleX": 2.2515625,
+        "scaleY": 2.2682291666666665
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 299.9407284878775,
+            "scale": 2.2515625,
+            "concentration": 0.2337341225755633,
+            "phase": 293.1860409878775
+          },
+          {
+            "origin": 300.1770103884163,
+            "scale": 2.24609375,
+            "concentration": 0.21754970843587493,
+            "phase": 293.4387291384163
+          },
+          {
+            "origin": 299.72765110425223,
+            "scale": 2.25625,
+            "concentration": 0.2150022398743201,
+            "phase": 292.9589011042522
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 108.8255732834564,
+            "scale": 2.2682291666666665,
+            "concentration": 0.2366392650618771,
+            "phase": 102.0208857834564
+          },
+          {
+            "origin": 108.50164788768228,
+            "scale": 2.2734375,
+            "concentration": 0.19280346938638268,
+            "phase": 103.95477288768228
+          },
+          {
+            "origin": 106.92842593788917,
+            "scale": 2.2621527777777777,
+            "concentration": 0.16895829958929848,
+            "phase": 102.40412038233362
+          }
+        ]
+      },
+      "envelope": [
+        294,
+        103,
+        666,
+        441
+      ]
+    },
+    "x": {
+      "origin": 299.9362540694393,
+      "scale": 2.250097507871491,
+      "rms": 0.07252518239018665,
+      "points": 1595
+    },
+    "y": {
+      "origin": 108.79243040812408,
+      "scale": 2.268117927265421,
+      "rms": 0.0584406915765422,
+      "points": 1880
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 0,
+    "currentXPoints": 0,
+    "currentYPoints": 0
+  },
+  {
+    "input": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002256.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 299.94085265949485,
+        "originY": 108.82561788758315,
+        "scaleX": 2.2515625,
+        "scaleY": 2.2682291666666665
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 299.94085265949485,
+            "scale": 2.2515625,
+            "concentration": 0.23394356079622974,
+            "phase": 293.18616515949486
+          },
+          {
+            "origin": 300.17733341906785,
+            "scale": 2.24609375,
+            "concentration": 0.21783753923372107,
+            "phase": 293.43905216906785
+          },
+          {
+            "origin": 299.72788154560146,
+            "scale": 2.25625,
+            "concentration": 0.21497523345442016,
+            "phase": 292.95913154560145
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 108.82561788758315,
+            "scale": 2.2682291666666665,
+            "concentration": 0.23674479364505194,
+            "phase": 102.02093038758315
+          },
+          {
+            "origin": 108.50158869712568,
+            "scale": 2.2734375,
+            "concentration": 0.19288216944288777,
+            "phase": 103.95471369712568
+          },
+          {
+            "origin": 106.9286020787098,
+            "scale": 2.2621527777777777,
+            "concentration": 0.16905083162063866,
+            "phase": 102.40429652315424
+          }
+        ]
+      },
+      "envelope": [
+        294,
+        103,
+        666,
+        441
+      ]
+    },
+    "x": {
+      "origin": 299.9362540694407,
+      "scale": 2.250097507871478,
+      "rms": 0.07252518239019318,
+      "points": 1276
+    },
+    "y": {
+      "origin": 108.79243040812152,
+      "scale": 2.2681179272654446,
+      "rms": 0.0584406915765419,
+      "points": 1504
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 0,
+    "currentXPoints": 0,
+    "currentYPoints": 0
+  },
+  {
+    "input": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002257.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 299.94070377329354,
+        "originY": 108.82553720750451,
+        "scaleX": 2.2515625,
+        "scaleY": 2.2682291666666665
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 299.94070377329354,
+            "scale": 2.2515625,
+            "concentration": 0.2340791866529252,
+            "phase": 293.18601627329355
+          },
+          {
+            "origin": 300.1773155380104,
+            "scale": 2.24609375,
+            "concentration": 0.21799741101874426,
+            "phase": 293.4390342880104
+          },
+          {
+            "origin": 299.72763549538365,
+            "scale": 2.25625,
+            "concentration": 0.21504942026384272,
+            "phase": 292.95888549538364
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 108.82553720750451,
+            "scale": 2.2682291666666665,
+            "concentration": 0.23673161209109717,
+            "phase": 102.02084970750451
+          },
+          {
+            "origin": 108.50147091770874,
+            "scale": 2.2734375,
+            "concentration": 0.19291714943423402,
+            "phase": 103.95459591770874
+          },
+          {
+            "origin": 106.92861871135267,
+            "scale": 2.2621527777777777,
+            "concentration": 0.16901524576655977,
+            "phase": 102.40431315579711
+          }
+        ]
+      },
+      "envelope": [
+        294,
+        103,
+        666,
+        441
+      ]
+    },
+    "x": {
+      "origin": 299.9362540694395,
+      "scale": 2.250097507871507,
+      "rms": 0.07252518239019207,
+      "points": 957
+    },
+    "y": {
+      "origin": 108.79243040812013,
+      "scale": 2.2681179272654743,
+      "rms": 0.05844069157654474,
+      "points": 1128
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 0,
+    "currentXPoints": 0,
+    "currentYPoints": 0
+  },
+  {
+    "input": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002258.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 299.9406421588661,
+        "originY": 108.82572735825084,
+        "scaleX": 2.2515625,
+        "scaleY": 2.2682291666666665
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 299.9406421588661,
+            "scale": 2.2515625,
+            "concentration": 0.23388900542161392,
+            "phase": 293.18595465886614
+          },
+          {
+            "origin": 300.1773527783991,
+            "scale": 2.24609375,
+            "concentration": 0.2178113213065726,
+            "phase": 293.4390715283991
+          },
+          {
+            "origin": 299.72747853945384,
+            "scale": 2.25625,
+            "concentration": 0.21489288628496406,
+            "phase": 292.95872853945383
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 108.82572735825084,
+            "scale": 2.2682291666666665,
+            "concentration": 0.2366367167688353,
+            "phase": 102.02103985825084
+          },
+          {
+            "origin": 108.50161281604771,
+            "scale": 2.2734375,
+            "concentration": 0.19276588586958185,
+            "phase": 103.95473781604771
+          },
+          {
+            "origin": 106.92883157519871,
+            "scale": 2.2621527777777777,
+            "concentration": 0.16903484060784366,
+            "phase": 102.40452601964316
+          }
+        ]
+      },
+      "envelope": [
+        294,
+        103,
+        666,
+        441
+      ]
+    },
+    "x": {
+      "origin": 299.9362540694391,
+      "scale": 2.250097507871546,
+      "rms": 0.07252518239018829,
+      "points": 638
+    },
+    "y": {
+      "origin": 108.79243040812236,
+      "scale": 2.268117927265454,
+      "rms": 0.058440691576549735,
+      "points": 752
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 0,
+    "currentXPoints": 0,
+    "currentYPoints": 0
+  },
+  {
+    "input": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002259.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 299.94108091939967,
+        "originY": 108.82404264852381,
+        "scaleX": 2.2515625,
+        "scaleY": 2.2682291666666665
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 299.94108091939967,
+            "scale": 2.2515625,
+            "concentration": 0.23167301705877563,
+            "phase": 293.1863934193997
+          },
+          {
+            "origin": 300.1783063733635,
+            "scale": 2.24609375,
+            "concentration": 0.2161173302517991,
+            "phase": 293.4400251233635
+          },
+          {
+            "origin": 299.7281499404965,
+            "scale": 2.25625,
+            "concentration": 0.21392105521704266,
+            "phase": 292.9593999404965
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 108.82404264852381,
+            "scale": 2.2682291666666665,
+            "concentration": 0.2335256091857252,
+            "phase": 102.01935514852381
+          },
+          {
+            "origin": 108.50669209908341,
+            "scale": 2.2734375,
+            "concentration": 0.19059475831436284,
+            "phase": 103.95981709908341
+          },
+          {
+            "origin": 106.91792577878437,
+            "scale": 2.2621527777777777,
+            "concentration": 0.167362091193968,
+            "phase": 102.39362022322881
+          }
+        ]
+      },
+      "envelope": [
+        294,
+        103,
+        666,
+        441
+      ]
+    },
+    "x": {
+      "origin": 299.93625406943397,
+      "scale": 2.250097507871612,
+      "rms": 0.07252518239019623,
+      "points": 319
+    },
+    "y": {
+      "origin": 108.79243040812281,
+      "scale": 2.2681179272654473,
+      "rms": 0.05844069157654785,
+      "points": 376
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 0,
+    "currentXPoints": 0,
+    "currentYPoints": 0
+  }
+]

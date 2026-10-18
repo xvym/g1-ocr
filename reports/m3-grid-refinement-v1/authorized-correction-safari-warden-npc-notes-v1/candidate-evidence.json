@@ -1,0 +1,359 @@
+{
+  "status": "high_confidence_original_spacing_correction_candidate_not_effective_freeze",
+  "authority": "如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论",
+  "oldGt": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2/safari-warden-npc/ocr-candidate-v1.jsonl",
+    "sha256": "a2c35ef8d6192ac3a067f7ca2105218960235e6aeb1352d6d5f8165f251bdc88"
+  },
+  "candidate": {
+    "path": "data/gt/candidates/ocr-observation-corrections-v4/safari-warden-npc/ocr-candidate-v2.jsonl",
+    "sha256": "28e541e118f35e9467037d4c5f662ef0f33a4478019f53f8c6350cd4a6cf6aae"
+  },
+  "changes": [
+    {
+      "start": 4496,
+      "end": 4498,
+      "before": {
+        "id": "message-top",
+        "role": "dialogue",
+        "readingOrder": 0,
+        "text": "でも…… 「は」",
+        "gridRect": [
+          1,
+          14,
+          9,
+          15
+        ],
+        "sourceRect": [
+          318,
+          342,
+          462,
+          378
+        ],
+        "markCells": [
+          {
+            "kind": "dakuten",
+            "gridColumn": 1,
+            "gridRow": 13
+          }
+        ]
+      },
+      "after": {
+        "id": "message-top",
+        "role": "dialogue",
+        "readingOrder": 0,
+        "text": "でも……「は」",
+        "gridRect": [
+          1,
+          14,
+          8,
+          15
+        ],
+        "sourceRect": [
+          318,
+          342,
+          444,
+          378
+        ],
+        "markCells": [
+          {
+            "kind": "dakuten",
+            "gridColumn": 1,
+            "gridRow": 13
+          }
+        ]
+      }
+    },
+    {
+      "start": 4498,
+      "end": 4499,
+      "before": {
+        "id": "message-top",
+        "role": "dialogue",
+        "readingOrder": 0,
+        "text": "でも…… 「は」は",
+        "gridRect": [
+          1,
+          14,
+          10,
+          15
+        ],
+        "sourceRect": [
+          318,
+          342,
+          480,
+          378
+        ],
+        "markCells": [
+          {
+            "kind": "dakuten",
+            "gridColumn": 1,
+            "gridRow": 13
+          }
+        ]
+      },
+      "after": {
+        "id": "message-top",
+        "role": "dialogue",
+        "readingOrder": 0,
+        "text": "でも……「は」は",
+        "gridRect": [
+          1,
+          14,
+          9,
+          15
+        ],
+        "sourceRect": [
+          318,
+          342,
+          462,
+          378
+        ],
+        "markCells": [
+          {
+            "kind": "dakuten",
+            "gridColumn": 1,
+            "gridRow": 13
+          }
+        ]
+      }
+    },
+    {
+      "start": 4499,
+      "end": 4500,
+      "before": {
+        "id": "message-top",
+        "role": "dialogue",
+        "readingOrder": 0,
+        "text": "でも…… 「は」は",
+        "gridRect": [
+          1,
+          14,
+          10,
+          15
+        ],
+        "sourceRect": [
+          318,
+          342,
+          480,
+          378
+        ],
+        "markCells": [
+          {
+            "kind": "dakuten",
+            "gridColumn": 1,
+            "gridRow": 13
+          }
+        ]
+      },
+      "after": {
+        "id": "message-top",
+        "role": "dialogue",
+        "readingOrder": 0,
+        "text": "でも……「は」は",
+        "gridRect": [
+          1,
+          14,
+          9,
+          15
+        ],
+        "sourceRect": [
+          318,
+          342,
+          462,
+          378
+        ],
+        "markCells": [
+          {
+            "kind": "dakuten",
+            "gridColumn": 1,
+            "gridRow": 13
+          }
+        ]
+      }
+    },
+    {
+      "start": 4500,
+      "end": 4501,
+      "before": {
+        "id": "message-top",
+        "role": "dialogue",
+        "readingOrder": 0,
+        "text": "でも…… 「は」は",
+        "gridRect": [
+          1,
+          14,
+          10,
+          15
+        ],
+        "sourceRect": [
+          318,
+          342,
+          480,
+          378
+        ],
+        "markCells": [
+          {
+            "kind": "dakuten",
+            "gridColumn": 1,
+            "gridRow": 13
+          }
+        ]
+      },
+      "after": {
+        "id": "message-top",
+        "role": "dialogue",
+        "readingOrder": 0,
+        "text": "でも……「は」は",
+        "gridRect": [
+          1,
+          14,
+          9,
+          15
+        ],
+        "sourceRect": [
+          318,
+          342,
+          462,
+          378
+        ],
+        "markCells": [
+          {
+            "kind": "dakuten",
+            "gridColumn": 1,
+            "gridRow": 13
+          }
+        ]
+      }
+    },
+    {
+      "start": 4501,
+      "end": 4502,
+      "before": {
+        "id": "message-top",
+        "role": "dialogue",
+        "readingOrder": 0,
+        "text": "でも…… 「は」は",
+        "gridRect": [
+          1,
+          14,
+          10,
+          15
+        ],
+        "sourceRect": [
+          318,
+          342,
+          480,
+          378
+        ],
+        "markCells": [
+          {
+            "kind": "dakuten",
+            "gridColumn": 1,
+            "gridRow": 13
+          }
+        ]
+      },
+      "after": {
+        "id": "message-top",
+        "role": "dialogue",
+        "readingOrder": 0,
+        "text": "でも……「は」は",
+        "gridRect": [
+          1,
+          14,
+          9,
+          15
+        ],
+        "sourceRect": [
+          318,
+          342,
+          462,
+          378
+        ],
+        "markCells": [
+          {
+            "kind": "dakuten",
+            "gridColumn": 1,
+            "gridRow": 13
+          }
+        ]
+      }
+    },
+    {
+      "start": 4502,
+      "end": 4522,
+      "before": {
+        "id": "message-top",
+        "role": "dialogue",
+        "readingOrder": 0,
+        "text": "でも…… 「は」は",
+        "gridRect": [
+          1,
+          14,
+          10,
+          15
+        ],
+        "sourceRect": [
+          318,
+          342,
+          480,
+          378
+        ],
+        "markCells": [
+          {
+            "kind": "dakuten",
+            "gridColumn": 1,
+            "gridRow": 13
+          }
+        ]
+      },
+      "after": {
+        "id": "message-top",
+        "role": "dialogue",
+        "readingOrder": 0,
+        "text": "でも……「は」は",
+        "gridRect": [
+          1,
+          14,
+          9,
+          15
+        ],
+        "sourceRect": [
+          318,
+          342,
+          462,
+          378
+        ],
+        "markCells": [
+          {
+            "kind": "dakuten",
+            "gridColumn": 1,
+            "gridRow": 13
+          }
+        ]
+      }
+    }
+  ],
+  "weightedCharacterDelta": -26,
+  "unchanged": "All original frames, time intervals, page opportunities, states, other text, roles, marks and cursors. Only remove an erroneously transcribed blank before quote; corresponding upper-region right edge moves left one observed cell. No scoring threshold changes. Prior versions retained.",
+  "evidence": [
+    {
+      "path": "reports/m3-grid-refinement-v1/authorized-correction-safari-warden-npc-notes-v1/pass1.json",
+      "sha256": "9fabaab3a4806cbddb4f566aef60f72fb9f4216077f938821fc085c90c98b214"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/authorized-correction-safari-warden-npc-notes-v1/pass2.json",
+      "sha256": "97931f8e5d8482e8b2dc92dca4c6fa6f1ed2cf70b5f13115d966e32318dfd06d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/authorized-correction-safari-warden-npc-notes-v1/space-cell-evidence.json",
+      "sha256": "751413700d4063ecda7e5a637847a8ea7b61be1664495febaf699aa14df0db7f"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/authorized-correction-safari-warden-npc-notes-v1/4496-row-original-nearest6.png",
+      "sha256": "841a7ddf9bd22fa54abeca0d4bf024f266d6da7822206eb66a9de7e4216f19f6"
+    }
+  ],
+  "productAcceptance": false
+}

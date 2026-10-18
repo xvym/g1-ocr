@@ -1,0 +1,91 @@
+{
+  "status": "pc_closing_candidate2_all38_equivalence_passed_not_product_acceptance",
+  "retained": 3577,
+  "scored": 3368,
+  "pages": 116,
+  "changes": [
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1731,
+      "before": "menu_complete",
+      "after": "submenu_partial_closing",
+      "beforeReadiness": {
+        "ready": false,
+        "fire": false,
+        "invalidate": true,
+        "menuReady": true,
+        "messageReady": false,
+        "hasMessage": true,
+        "mainArrow": false,
+        "parentHollow": true,
+        "activeChild": false,
+        "onlyHollow": true,
+        "suspendedPc": true,
+        "messageConfirmed": true,
+        "reason": "suspended_parent_without_active_child",
+        "stableSincePts": "883200",
+        "samples": 7,
+        "stableAgeMs": 250
+      },
+      "afterReadiness": {
+        "ready": false,
+        "fire": false,
+        "invalidate": true,
+        "menuReady": true,
+        "messageReady": false,
+        "hasMessage": true,
+        "mainArrow": false,
+        "parentHollow": true,
+        "activeChild": false,
+        "onlyHollow": true,
+        "suspendedPc": true,
+        "messageConfirmed": true,
+        "reason": "suspended_parent_without_active_child",
+        "stableSincePts": "883200",
+        "samples": 7,
+        "stableAgeMs": 250
+      }
+    }
+  ],
+  "aggregate": {
+    "frameReferences": 3368,
+    "uniqueSourceFrames": 3361,
+    "duplicateReferences": 7,
+    "overlapRule": "One original frame counted once. Max edit errors and conjunction of exact geometry/state/symbol correctness across every replay of overlapping ranges; never select a successful replay to hide a failure.",
+    "raw": {
+      "characters": 86569,
+      "editErrors": 188,
+      "failedFrames": 2584,
+      "emptyFrames": 692,
+      "emptyFalsePositiveFrames": 0,
+      "uniqueContinuousStates": 715,
+      "equalStateErrors": 43.014084507042256,
+      "equalStateCharacters": 15491,
+      "pageOpportunities": 116,
+      "contentExactPages": 7,
+      "frameCharacterAccuracy": 0.9978283219166214,
+      "equalStateCharacterAccuracy": 0.9972232854878935
+    },
+    "final": {
+      "characters": 86569,
+      "editErrors": 177,
+      "failedFrames": 2584,
+      "emptyFrames": 692,
+      "emptyFalsePositiveFrames": 0,
+      "uniqueContinuousStates": 715,
+      "equalStateErrors": 42.014084507042256,
+      "equalStateCharacters": 15491,
+      "pageOpportunities": 116,
+      "contentExactPages": 7,
+      "frameCharacterAccuracy": 0.9979553881874574,
+      "equalStateCharacterAccuracy": 0.997287839099668
+    }
+  },
+  "readiness": "All ready/fire/invalidate/messageConfirmed values unchanged. Only derived menuReady/clock metadata at1731 change.",
+  "attempts": {
+    "candidate1": "Target unchanged; original child bottom edge survives partial closing. Preserved source/class,target-pc,pc-cells measurements.",
+    "candidate2": "Removed false requirement for missing bottom corner. Require current restored closed parent, upper child, no lower child sides/selection plus real preceding selection history."
+  },
+  "testFixture": "First synthetic fixture failed because restored parent border had not been erased under the upper child. Failure XML/source/log preserved. Production unchanged for that fixture correction.",
+  "productAcceptance": false
+}

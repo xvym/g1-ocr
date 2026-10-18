@@ -1,0 +1,180 @@
+{
+  "status": "second_original_read_complete_not_GT",
+  "source": "data/frames/video-03/shop-dialogue-role-pass2-v1",
+  "sheets": "reports/m3-grid-refinement-v1/shop-dialogue-role-pass2-sheets-v1",
+  "range": [
+    1439,
+    1488
+  ],
+  "frames": 49,
+  "directlyViewedSheets": [
+    0,
+    8
+  ],
+  "disclosure": "Same coding agent, prior context awareness; all 9 sheets newly extracted from source directly viewed without opening GT/actual/pass1 during second read. Not independent-session or human certification.",
+  "messageSpans": [
+    [
+      1439,
+      1441,
+      []
+    ],
+    [
+      1441,
+      1442,
+      [
+        "そのほ"
+      ]
+    ],
+    [
+      1442,
+      1443,
+      [
+        "そのほかに"
+      ]
+    ],
+    [
+      1443,
+      1444,
+      [
+        "そのほかに わたく"
+      ]
+    ],
+    [
+      1444,
+      1446,
+      [
+        "そのほかに わたくしども"
+      ]
+    ],
+    [
+      1446,
+      1447,
+      [
+        "そのほかに わたくしどもで",
+        "おち"
+      ]
+    ],
+    [
+      1447,
+      1448,
+      [
+        "そのほかに わたくしどもで",
+        "おちからに"
+      ]
+    ],
+    [
+      1448,
+      1449,
+      [
+        "そのほかに わたくしどもで",
+        "おちからに なれ"
+      ]
+    ],
+    [
+      1449,
+      1450,
+      [
+        "そのほかに わたくしどもで",
+        "おちからに なれること"
+      ]
+    ],
+    [
+      1450,
+      1462,
+      [
+        "そのほかに わたくしどもで",
+        "おちからに なれることは？"
+      ]
+    ],
+    [
+      1462,
+      1464,
+      []
+    ],
+    [
+      1464,
+      1465,
+      [
+        "あ"
+      ]
+    ],
+    [
+      1465,
+      1466,
+      [
+        "ありがと"
+      ]
+    ],
+    [
+      1466,
+      1467,
+      [
+        "ありがとう ご"
+      ]
+    ],
+    [
+      1467,
+      1468,
+      [
+        "ありがとう ございま"
+      ]
+    ],
+    [
+      1468,
+      1482,
+      [
+        "ありがとう ございました"
+      ]
+    ],
+    [
+      1482,
+      1488,
+      []
+    ]
+  ],
+  "constantFields": {
+    "range": [
+      1439,
+      1482
+    ],
+    "menu": [
+      "かいに きた",
+      "うりに きた",
+      "べつに いいです"
+    ],
+    "moneyLabel": "おかね",
+    "money": "22526円"
+  },
+  "cursor": [
+    {
+      "range": [
+        1439,
+        1451
+      ],
+      "row": 3,
+      "shape": "outline_right"
+    },
+    {
+      "range": [
+        1451,
+        1463
+      ],
+      "row": 1,
+      "shape": "solid_right"
+    },
+    {
+      "range": [
+        1463,
+        1482
+      ],
+      "row": 1,
+      "shape": "outline_right"
+    }
+  ],
+  "notes": [
+    "No down arrow;1450 completed prompt with row3 cursor before1451 cursor moves row1.",
+    "1462 bottom cleared,1464 new message begins,1468 full thanks,1482 all fields disappear.",
+    "Same parent menu/money across prompt and thanks; no visual role change inferred from future exit.",
+    "Question mark transcription not a choice of Unicode contract."
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "status": "cross_clip_scoring_metadata_consistent",
+  "batch": "reports/gt-review/gt-observation-corrections-v11/batch.json",
+  "batchSha256": "d25ce6494b30559eb773ea5591555d379ed6c2d45998515a1399f9a8796f6db9",
+  "frameReferences": 3368,
+  "uniqueScoredFrames": 3361,
+  "overlappingReferences": 7,
+  "conflicts": [],
+  "overlaps": [
+    {
+      "key": "video-03:3661",
+      "items": [
+        "status-alt-pages",
+        "party-list"
+      ],
+      "consistent": true
+    },
+    {
+      "key": "video-03:3662",
+      "items": [
+        "status-alt-pages",
+        "party-list"
+      ],
+      "consistent": true
+    },
+    {
+      "key": "video-04:5206",
+      "items": [
+        "backpack-opening",
+        "backpack-navigation"
+      ],
+      "consistent": true
+    },
+    {
+      "key": "video-04:5207",
+      "items": [
+        "backpack-opening",
+        "backpack-navigation"
+      ],
+      "consistent": true
+    },
+    {
+      "key": "video-03:1439",
+      "items": [
+        "shop-rejection",
+        "shop-exit"
+      ],
+      "consistent": true
+    },
+    {
+      "key": "video-03:1922",
+      "items": [
+        "nurse-greeting",
+        "nurse-intake"
+      ],
+      "consistent": true
+    },
+    {
+      "key": "video-03:2088",
+      "items": [
+        "nurse-intake",
+        "nurse-return"
+      ],
+      "consistent": true
+    }
+  ],
+  "inputs": [
+    {
+      "id": "startup-nontarget",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/startup-nontarget/ocr-candidate-v1.jsonl",
+      "sha256": "96c6896c8aadd805ee8041a49c29908addd2075ea860e5cfa0a372f5e9aa26f4"
+    },
+    {
+      "id": "exploration-npc",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/exploration-npc/ocr-candidate-v1.jsonl",
+      "sha256": "d4f28d7c291633e2018531ed2b04d6bc0db9cd6dbbb15d6907fda80d2903cd56"
+    },
+    {
+      "id": "battle-result",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/battle-result/ocr-candidate-v1.jsonl",
+      "sha256": "8d2c1d32849df442e3c38294a3a93cd3e8d87fbbf1be1fcfc2514415b5020157"
+    },
+    {
+      "id": "status-pages",
+      "path": "data/gt/candidates/ocr-observation-corrections-v1/status-pages/ocr-candidate-v2.jsonl",
+      "sha256": "7a1d6134b9a0c6c11c4ffe8e863107ac117da99f9c8db27920ae05e62930f7a4"
+    },
+    {
+      "id": "pc-deposit-navigation",
+      "path": "data/gt/candidates/ocr-observation-corrections-v5/pc-deposit-navigation/ocr-candidate-role-v1.jsonl",
+      "sha256": "bebe6893906bdae28249ab61ced31c69249bbcef7da626184867d43a3ff867c5"
+    },
+    {
+      "id": "pc-exit",
+      "path": "data/gt/candidates/ocr-observation-corrections-v5/pc-exit/ocr-candidate-role-v1.jsonl",
+      "sha256": "b4c2cf523651bfcc590cce9f48319a7a4f3bf651dd71262b3593223b74c4d665"
+    },
+    {
+      "id": "status-alt-pages",
+      "path": "data/gt/candidates/ocr-observation-corrections-v1/status-alt-pages/ocr-candidate-v2.jsonl",
+      "sha256": "880f326ff0ae317b2d812eca981521915f9f69d84c4d9569c52eaf908f3404cf"
+    },
+    {
+      "id": "party-list",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/party-list/ocr-candidate-v1.jsonl",
+      "sha256": "1fd0f395a594414645c548c6c5f7a2bb416fd350ac131df8fc7a81ac8474c897"
+    },
+    {
+      "id": "shop-buy-navigation",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/shop-buy-navigation/ocr-candidate-v1.jsonl",
+      "sha256": "bceb6945558436080011f08f61928bf170c35294ed9d4615243a2b70f19a4256"
+    },
+    {
+      "id": "shop-sell-entry",
+      "path": "data/gt/candidates/ocr-observation-corrections-v9/shop-sell-entry/ocr-candidate-parent-role-v1.jsonl",
+      "sha256": "553c62dc97c6e2a0925d8b1625b5c6f67792e92c66337db60206a5b3befa975b"
+    },
+    {
+      "id": "shop-rejection",
+      "path": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/ocr-candidate-v2.jsonl",
+      "sha256": "2c44d8e75b2df9b2f10400a05ade9ed596e0f11202fa2fe7632b821d235e05b8"
+    },
+    {
+      "id": "backpack-opening",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/ocr-candidate-v1.jsonl",
+      "sha256": "80ab4a399b972b09955215636ef01793124767b29c2b1eb16b723ecdfc9c72e5"
+    },
+    {
+      "id": "backpack-navigation",
+      "path": "data/gt/candidates/ocr-observation-corrections-v10/backpack-navigation/ocr-candidate-scroll-v1.jsonl",
+      "sha256": "09399b146b0ab8cee1e07f566be4051032e8c307dd791e7cc012d1c864c2e50a"
+    },
+    {
+      "id": "skills-turn",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/skills-turn/ocr-candidate-v2.jsonl",
+      "sha256": "20d92c8959a41aa5e67ca59e094da0e3300ae3283fd1fdf698815a4e16728d5c"
+    },
+    {
+      "id": "shop-exit",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/ocr-candidate-v2.jsonl",
+      "sha256": "cb90c6276d9905227add176e828943ffd5874c5c8d5e15f14e9cfafe73f4db7f"
+    },
+    {
+      "id": "pc-connect",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/ocr-candidate-v1.jsonl",
+      "sha256": "3b9da087f8807b7ad136942afd3e5d293d6f669ea828ecbe8a685669450df0eb"
+    },
+    {
+      "id": "approved-trial",
+      "path": "data/gt/candidates/ocr-observation-corrections-v6/approved-trial/ocr-candidate-role-v1.jsonl",
+      "sha256": "bcea58f995d75002d1421be6f92d7db331f52ff4eba5b4e231583ff968a91e79"
+    },
+    {
+      "id": "bill-data-npc",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/ocr-candidate-v1.jsonl",
+      "sha256": "bf7c51523e8cb289cda981028fe23631d4aae6c2457714fbe51867111dee607e"
+    },
+    {
+      "id": "bill-grandfather",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-candidate-v1.jsonl",
+      "sha256": "5362eadf83cc85226ea42d979154c7456bcbd45594c18a4b905d2928bc74b0a5"
+    },
+    {
+      "id": "gym-sign-continuation",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/ocr-candidate-v1.jsonl",
+      "sha256": "e24d2223b62f398e7a579a2aa63bcfb43c93ca12a9d8c0d2dbc77be535898bfd"
+    },
+    {
+      "id": "intro-creatures",
+      "path": "data/gt/candidates/ocr-observation-corrections-v1/intro-creatures/ocr-candidate-v2.jsonl",
+      "sha256": "7cc5f3cc68e320b98afb3e87f717197073f2b20521a6c053fe3f7e8d6e61c9af"
+    },
+    {
+      "id": "intro-greeting",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-greeting/ocr-candidate-v1.jsonl",
+      "sha256": "5d408e825e3d5f3d67669ce715016c7600551f7aaa9ac275754e303ab23b4eba"
+    },
+    {
+      "id": "intro-oak",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-oak/ocr-candidate-v1.jsonl",
+      "sha256": "c7f2ece52b0fbb50f5444dd449f78a488766b808be24c1259ba3f84f10fe3ea7"
+    },
+    {
+      "id": "intro-pets",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-pets/ocr-candidate-v1.jsonl",
+      "sha256": "8b753eb1023522ab7ff4c34642873a58122b79de453f4d840d6803dba97a6e50"
+    },
+    {
+      "id": "intro-research",
+      "path": "data/gt/candidates/ocr-observation-corrections-v7/intro-research/ocr-candidate-punctuation-v1.jsonl",
+      "sha256": "6aacd78b33e72d1743f2bc59a3bdda083089fd2b1cce974f6d9477ddb730955b"
+    },
+    {
+      "id": "lab-oak-reply",
+      "path": "data/gt/candidates/ocr-observation-corrections-v8/lab-oak-reply/ocr-candidate-boundary-v1.jsonl",
+      "sha256": "59f91be59d9dc900d96c527c15e038a9d4c79f3a3914df259d8d03b201053efb"
+    },
+    {
+      "id": "lab-rival-demand",
+      "path": "data/gt/candidates/ocr-observation-corrections-v3/lab-rival-demand/ocr-candidate-v2.jsonl",
+      "sha256": "84ac0c0130dce455c9171bfa6ce525bf2a40b0ba7b4092b81582852a4a4e04cb"
+    },
+    {
+      "id": "league-centre-npc",
+      "path": "data/gt/candidates/ocr-observation-corrections-v2/league-centre-npc/ocr-candidate-v2.jsonl",
+      "sha256": "05bb1f63e45c4efeb2ecea8fe7b03ac039aac593db613bb33036d7e78495c542"
+    },
+    {
+      "id": "mart-child",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/mart-child/ocr-candidate-v1.jsonl",
+      "sha256": "577cb8c7d48dc6c230833564d2a148362c1d550dafb5df23d5eec48fd89a061b"
+    },
+    {
+      "id": "museum-fee",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/museum-fee/ocr-candidate-v1.jsonl",
+      "sha256": "3dd74ee46b73f0cf5a6fa8a203ff67f53020754a79be34ac9741dfe9609041fb"
+    },
+    {
+      "id": "museum-question",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/museum-question/ocr-candidate-v1.jsonl",
+      "sha256": "b6d476e2cdadefd8a035fff77889875d4dca5c975e82db7f523ed1575c8da433"
+    },
+    {
+      "id": "nurse-greeting",
+      "path": "data/gt/candidates/ocr-observation-corrections-v11/nurse-greeting/ocr-candidate-clearing-v1.jsonl",
+      "sha256": "84c6855eedd478398e36ee8673bcecd65ab027fcc0f0ca6d55e85bed6325a41e"
+    },
+    {
+      "id": "nurse-intake",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-intake/ocr-candidate-v1.jsonl",
+      "sha256": "a85f23d226af9aaa9fb5c587b8998d37860659cd519deef6f213a63604a9555f"
+    },
+    {
+      "id": "nurse-return",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-return/ocr-candidate-v1.jsonl",
+      "sha256": "892dcc4c566e8e697c6e520a4453446c0d49d2dde532e445c37d9869e80f475d"
+    },
+    {
+      "id": "oak-delivery",
+      "path": "data/gt/candidates/ocr-observation-corrections-v8/oak-delivery/ocr-candidate-boundary-v1.jsonl",
+      "sha256": "bfce42c4eb6818fdfd15a4c49709713966e7a0436220fa888a024fea5581fd6a"
+    },
+    {
+      "id": "route-ledge-npc",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/route-ledge-npc/ocr-candidate-v1.jsonl",
+      "sha256": "da50c331568bddf738647428ce6ac883dbf5c4340155fc758382a2c824ca4b4e"
+    },
+    {
+      "id": "route-pp-sign",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/route-pp-sign/ocr-candidate-v1.jsonl",
+      "sha256": "74e42243eeae34c195f7993e262311cc8a4257c650a6b6cfb7deb3c733649e79"
+    },
+    {
+      "id": "safari-warden-npc",
+      "path": "data/gt/candidates/ocr-observation-corrections-v4/safari-warden-npc/ocr-candidate-v2.jsonl",
+      "sha256": "28e541e118f35e9467037d4c5f662ef0f33a4478019f53f8c6350cd4a6cf6aae"
+    }
+  ],
+  "scope": "Exact frozen field role, readingOrder, kind, complete-page flag, literal text and visible geometry; only the already-approved triangle descriptor spelling alias is applied. No OCR outputs consumed."
+}

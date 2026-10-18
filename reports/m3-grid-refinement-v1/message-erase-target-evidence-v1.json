@@ -1,0 +1,106 @@
+{
+  "status": "target_state_change_verified_not_page_acceptance",
+  "problemAttempt": 1,
+  "baseline": {
+    "path": "reports/m3-grid-refinement-v1/ocr-regression-r13-v10/actual/nurse-greeting.jsonl",
+    "sha256": "dd9a5796843117c4e46fd6ecbf7d947d0af25e86dd1d663df1205c38aa94c9b7"
+  },
+  "current": {
+    "path": "reports/m3-grid-refinement-v1/ocr-message-erase-v1-nurse-greeting/actual/nurse-greeting.jsonl",
+    "sha256": "f758ff9db190f4cfe3ef7e1ef201f4cffcea9b3344fcee524c112797925599be"
+  },
+  "changes": [
+    {
+      "frame": 1920,
+      "original": {
+        "path": "data/frames/video-03/nurse-mark-pass2-v1/frame-001920.png",
+        "sha256": "f1c82b07390c75e33c738c8ad3ac7c3c7f000703814b75ba7dc815223c4fd662"
+      },
+      "before": {
+        "kind": "message_loading",
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                14,
+                8,
+                15,
+                9
+              ],
+              "sourceRect": [
+                601,
+                241,
+                632,
+                273
+              ]
+            }
+          ],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      },
+      "after": {
+        "kind": "message_clearing",
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                14,
+                8,
+                15,
+                9
+              ],
+              "sourceRect": [
+                601,
+                241,
+                632,
+                273
+              ]
+            }
+          ],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      }
+    },
+    {
+      "frame": 1921,
+      "original": {
+        "path": "data/frames/video-03/nurse-mark-pass2-v1/frame-001921.png",
+        "sha256": "64d2fc7cf9c18d254cf5948ba4216442245f67fe7f9c14657f58ef669834da1f"
+      },
+      "before": {
+        "kind": "message_loading",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      },
+      "after": {
+        "kind": "message_clearing",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      }
+    }
+  ],
+  "retainedFrames": 102,
+  "scoredFrames": 98,
+  "comparisonSha256": "9dacf9d6b07a650588c982d484917beb9a8884e89803eaf8c1fca2dd0d86b5f5",
+  "tests": {
+    "passed": 147,
+    "log": "reports/m3-grid-refinement-v1/message-erase-tests-v2.log",
+    "sha256": "b1c772116ab7a64056d7dd6031d885089a74e9e31697ce178a6bae5dc80cc100"
+  },
+  "initialTestFailure": "v1 pipeline fixture changed time base1/1 to1/30, correctly resetting tracker; fixed fixture time unit, product unchanged",
+  "productAcceptance": false
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "canonicalSize": [
+    160,
+    144
+  ],
+  "gridCellSize": [
+    8,
+    8
+  ],
+  "sourceOrigin": [
+    150,
+    0
+  ],
+  "sourceGameRect": [
+    150,
+    0,
+    750,
+    544
+  ],
+  "sourceFrameSize": [
+    960,
+    544
+  ],
+  "sourceScaleXNumerator": 15,
+  "sourceScaleXDenominator": 4,
+  "sourceScaleYNumerator": 34,
+  "sourceScaleYDenominator": 9,
+  "rectConvention": "[left,top,right,bottom); floor start, ceil end",
+  "status": "agent_double_read_complete_candidate_not_frozen",
+  "evidence": "Independent raw frames5200-5365; first ordered full frames5200-5379 plus direct originals; second complete game crops every frame and original cursor/arrow strips; source04 origin150 differs from source03 origin180",
+  "detachedMarkMeaning": "two visible dakuten strokes in col14,row1; associated base fully occluded; no kana/word restored"
+}

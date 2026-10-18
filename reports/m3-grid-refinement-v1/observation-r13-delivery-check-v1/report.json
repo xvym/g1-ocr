@@ -1,0 +1,241 @@
+{
+  "status": "nurse_partial_erase_correction_and_same_actual_rescoring_verified",
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r13/freeze.json",
+    "sha256": "83f59aad5b1af0d5b295bf70740309599ec5af065eb45367c6254af9e78f1ab2"
+  },
+  "comparison": {
+    "path": "reports/m3-grid-refinement-v1/ocr-v10-observation-r13-comparison/report.json",
+    "sha256": "4118107e52cb20836d2ae42d4ae00c97da72675eea6695698ed0943d0bda780e"
+  },
+  "changes": [
+    "nurse-greeting:1920",
+    "nurse-greeting:1921"
+  ],
+  "scoreChanges": [
+    "nurse-greeting:1920",
+    "nurse-greeting:1921"
+  ],
+  "unchangedActuals": [
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/startup-nontarget.jsonl",
+      "sha256": "f65430385bb4f2aabf3e95c7d647ff5d6aa1a3bdeba07ad00e514375aba3ee36"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/exploration-npc.jsonl",
+      "sha256": "03222384d5372536b21e3087c440ccf6baaec1968ce692795977a7703c9d65b0"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/battle-result.jsonl",
+      "sha256": "8c5c388bfe18d6eb37e677ff1a9b6411a1c420be3cb2202d36be28e2f65e8a7f"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/status-pages.jsonl",
+      "sha256": "b4e1e3a0251ded6a82a4bef9c4dbd2bf12f028cc6c9f73e544189602dc726d5f"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/pc-deposit-navigation.jsonl",
+      "sha256": "a0cafb2d6541c73f0208e0103eb8c5e486494237096f65780c882016298d5424"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/pc-exit.jsonl",
+      "sha256": "1709d9f8d2b0f7fb8344363ef82c234260d6b04b659a1269774cf15bf7709e16"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/status-alt-pages.jsonl",
+      "sha256": "6dcb2229b3d51d05b7a867be774ba6ae6eeaf8f8bc811674cf409a7f5580cebd"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/party-list.jsonl",
+      "sha256": "779fd666a0b66c49dbb05ca509c099122aa972a16ef43045cf54228d08c29a56"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/shop-buy-navigation.jsonl",
+      "sha256": "6acaeaf6cbd5daf93fcffacf734e12eba25171ce2bed0208ba2fcb0183d5ce1c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/shop-sell-entry.jsonl",
+      "sha256": "063310e152f1f4d6f2aec3af5343c3e88249db80da5c91bf1af31cd990a87cc8"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/shop-rejection.jsonl",
+      "sha256": "e858f2eca22b0a695218a837d78b685e60ec0763fc528365c531609091c3b369"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/backpack-opening.jsonl",
+      "sha256": "48b71545fc2f2bbfd113e96510501f6ed93ef1c821d3767177569552fa7c704c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/backpack-navigation.jsonl",
+      "sha256": "91afc89bc07261d98fd11154c2683cf42c672fce642a5e393eaf639cfdd88b84"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/skills-turn.jsonl",
+      "sha256": "ab68654a6e5b848881481736477787127613fa8499f13c6aebac2b1ac92e8da3"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/shop-exit.jsonl",
+      "sha256": "d36f1069793572b10108dc5607ff6b13db6b6fd8c56f4878fbdf4aa3d05a4242"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/pc-connect.jsonl",
+      "sha256": "a983861a7703a43f8327d11f184fb25a620073fc62937fc2bffec0f7ae66d2eb"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/approved-trial.jsonl",
+      "sha256": "8517e26367a2d6e384a4802003d44576f8de316bf49712551e0e877a70e12c90"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/bill-data-npc.jsonl",
+      "sha256": "dfc07354d2c55bc000a41b1cc91d3700a961cf87b662df2ff90751abe7bcc67a"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/bill-grandfather.jsonl",
+      "sha256": "53b57299c16d6054707871f0593b66884c6bc673e38da17fb84f14008bd099da"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/gym-sign-continuation.jsonl",
+      "sha256": "1e5a678e1d4269b8f269e8435b763ed023965a5e0c155100213cf2fe637fdcef"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/intro-creatures.jsonl",
+      "sha256": "cd14e7d4a5922d39428879a33adda5266fb3343fd340feddbadb93d109838523"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/intro-greeting.jsonl",
+      "sha256": "c6a47bce82f3560d647b2b712ea7acbad57965859dbe5e06c2e92d88c629c3eb"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/intro-oak.jsonl",
+      "sha256": "197414a7904016b2f4bb270360d9d93ce73738beb2d479f4709e58449ac522e4"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/intro-pets.jsonl",
+      "sha256": "3252fca0bc6b0284f6d246212e90c8a5af22baa7a256aee46ad676dff436da9f"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/intro-research.jsonl",
+      "sha256": "013a70acee938ccef1135e497c8da073bb4c5ae23fb80dd0e43f86f7ce6dd4ff"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/lab-oak-reply.jsonl",
+      "sha256": "3fdd0039ddda7f2baa661cff1d3f3a041eeb9e7f6a2f5fa1043414ad49a0a110"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/lab-rival-demand.jsonl",
+      "sha256": "b077e024067192e935c85eb91285014e1c412ae7ae637e9340f08aa166903f06"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/league-centre-npc.jsonl",
+      "sha256": "7febd5608a57ae478ed17060e654f25390cd1797a97df8089a41b01d7429c6c5"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/mart-child.jsonl",
+      "sha256": "b5be8bd10ef6f0f64f23a881962fb4adc315944ec2ba15cb2a04cfd00d4b9fce"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/museum-fee.jsonl",
+      "sha256": "3a98dcdc3c0b8155e29e5546f55a628cd06d27891a12ecc286fd6ed248777852"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/museum-question.jsonl",
+      "sha256": "f918c7b3827499435f0126460f20bf776657713d2a7d1d0b9f0563dea1a87b5b"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/nurse-greeting.jsonl",
+      "sha256": "222a71fbe86fb3a001f26a7d664f9bf100054cb62a4078f60aa6c3aa8e194e96"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/nurse-intake.jsonl",
+      "sha256": "6577c7506b0f18bfa79825eaecc79a76695d7d8cfc018429b3ee848b42437d91"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/nurse-return.jsonl",
+      "sha256": "c1a99c7d564b165c12971d7c38cf5ffa601cf6176e4d839a73a6ed32c4f00e80"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/oak-delivery.jsonl",
+      "sha256": "f36ba6c63ebd392a78bb6833c6b32f6f85eb5580aeca5ba2218e8102d40563d5"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/route-ledge-npc.jsonl",
+      "sha256": "98d13bab55454aa46ff7b2610b2b372d837aa8381662ad4e0181db31e834ef1c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/route-pp-sign.jsonl",
+      "sha256": "8ffa139425e30c175bb11ab1100797c79bb7c00719c7e01a95df590d80fec23f"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v10/actual/safari-warden-npc.jsonl",
+      "sha256": "b8abe2a26cbeb77f5abf33e85d14e243a224365b970557f3fd2560f79041cfd3"
+    }
+  ],
+  "oldRaw": {
+    "characters": 86569,
+    "editErrors": 192,
+    "failedFrames": 2601,
+    "emptyFrames": 692,
+    "emptyFalsePositiveFrames": 0,
+    "uniqueContinuousStates": 714,
+    "equalStateErrors": 45.07122736418511,
+    "equalStateCharacters": 15457,
+    "pageOpportunities": 117,
+    "contentExactPages": 7,
+    "frameCharacterAccuracy": 0.9977821159999538,
+    "equalStateCharacterAccuracy": 0.9970840895798547
+  },
+  "newRaw": {
+    "characters": 86569,
+    "editErrors": 188,
+    "failedFrames": 2601,
+    "emptyFrames": 692,
+    "emptyFalsePositiveFrames": 0,
+    "uniqueContinuousStates": 715,
+    "equalStateErrors": 43.014084507042256,
+    "equalStateCharacters": 15491,
+    "pageOpportunities": 116,
+    "contentExactPages": 7,
+    "frameCharacterAccuracy": 0.9978283219166214,
+    "equalStateCharacterAccuracy": 0.9972232854878935
+  },
+  "oldFinal": {
+    "characters": 86569,
+    "editErrors": 181,
+    "failedFrames": 2601,
+    "emptyFrames": 692,
+    "emptyFalsePositiveFrames": 0,
+    "uniqueContinuousStates": 714,
+    "equalStateErrors": 44.07122736418511,
+    "equalStateCharacters": 15457,
+    "pageOpportunities": 117,
+    "contentExactPages": 7,
+    "frameCharacterAccuracy": 0.9979091822707897,
+    "equalStateCharacterAccuracy": 0.997148785187023
+  },
+  "newFinal": {
+    "characters": 86569,
+    "editErrors": 177,
+    "failedFrames": 2601,
+    "emptyFrames": 692,
+    "emptyFalsePositiveFrames": 0,
+    "uniqueContinuousStates": 715,
+    "equalStateErrors": 42.014084507042256,
+    "equalStateCharacters": 15491,
+    "pageOpportunities": 116,
+    "contentExactPages": 7,
+    "frameCharacterAccuracy": 0.9979553881874574,
+    "equalStateCharacterAccuracy": 0.997287839099668
+  },
+  "withdrawnPage": {
+    "id": "nurse-greeting-4",
+    "range": [
+      1921,
+      1922
+    ],
+    "reason": "Only frame of historical opportunity is partially erased old message after menu disappearance. Original102-frame double read establishes continuing erase through1922; not a new complete page. Keep every frame scored and retain old opportunity record here; do not count as a passed page."
+  },
+  "allSemanticIntegrityPassed": false,
+  "productAcceptance": false,
+  "uiRendering": "pending",
+  "independentSessions": "pending"
+}

@@ -1,0 +1,34 @@
+{
+  "independentSession": "unverified",
+  "endFrameExclusive": 6968,
+  "timeBase": "1/12288",
+  "gt": "data/gt/candidates/ocr-all-scenes-v1/battle-result/ocr-candidate-v1.jsonl",
+  "selectionReason": "Raw predetermined wild battle context before any tested OCR; score previous text clear, all result loading/complete/clear, HUD removal and six empty afterframes",
+  "id": "c83de914352e-f6913-f6968-battle-result",
+  "set": "development",
+  "scoreKind": "text_and_state",
+  "scoredRange": [
+    6916,
+    6964
+  ],
+  "warmup": [
+    6913,
+    6916
+  ],
+  "startFrame": 6913,
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "eventType": "complete faint and experience text display lifecycle",
+  "mediaId": "video-02",
+  "pageOpportunityPolicy": "explicit_id",
+  "boundaryStatus": "agent_double_read_complete_candidate_not_frozen",
+  "postContext": [
+    6964,
+    6968
+  ],
+  "frozen": false,
+  "schemaVersion": 2,
+  "scopeLimits": [
+    "Preceding attack/KO sprite and enemy HUD disappearance outside score, not claimed by this event",
+    "Not full battle or independent acceptance session"
+  ]
+}

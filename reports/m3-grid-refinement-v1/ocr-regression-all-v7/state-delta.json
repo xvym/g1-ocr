@@ -1,0 +1,317 @@
+{
+  "status": "all_current_text_geometry_and_registration_unchanged_state_differences_listed",
+  "frames": 3577,
+  "inputs": [
+    {
+      "clip": "startup-nontarget",
+      "oldSha256": "8dbd3b86b5905fad305f22d961efce654625803308f4ebf83ceee515a1a4ca32",
+      "newSha256": "0ec8feeef4b4dae8e6ce07571247ec37569fb55762368230886c0404337a1332"
+    },
+    {
+      "clip": "intro-greeting",
+      "oldSha256": "cfd82f89a4d9b08e47ba9469aeb83fbcd682447ba65636cb2ee000bdd87e3e4c",
+      "newSha256": "d541f46c0d3564ae8a11a2b483cfd49d36aed961e6af7ab882d4647c88df044e"
+    },
+    {
+      "clip": "intro-oak",
+      "oldSha256": "a6ba75c79cdf9247aacb546b46bca2e7a1ab0a4c42c6595567088b426eaeb385",
+      "newSha256": "31ab7e756eef2e1631b6be915726f092be1809c5dc2de93c33dad819c654d043"
+    },
+    {
+      "clip": "intro-creatures",
+      "oldSha256": "4c4dd564af08878afc9497da3ab2f6f4d46f27791d695b1472cf1885964bcb10",
+      "newSha256": "226fb804216f988b27617016ddb87414cdfd7e8fe74b1fd0c90e4b3c7152ada9"
+    },
+    {
+      "clip": "intro-pets",
+      "oldSha256": "17c5bf5a00a027ea40bce17f1396ea128d04c2f0f2bd2ab9eef83ca2f162d634",
+      "newSha256": "41c7d5d027ca81b6b6883481407d3859c13b8027010771f9e0f5d414861984d9"
+    },
+    {
+      "clip": "intro-research",
+      "oldSha256": "14164299480c1a7b2081e80dacd1e087ffce60976a182dd0884a16ae2e145814",
+      "newSha256": "bf8affcf12daed95f9a352e2dd14f28eabc97de01b2ac882a82e0e62cbf3d1d2"
+    },
+    {
+      "clip": "exploration-npc",
+      "oldSha256": "9bee7b7fab712f89110591518150d8e5af7ded889c76f2811eb6230e409d5c44",
+      "newSha256": "78c90b49ea6f459dd5569a845d5f62c45c48ec8b06b475f4cc1933856e749959"
+    },
+    {
+      "clip": "lab-rival-demand",
+      "oldSha256": "08d319ef00dc6bfc7f4ee96bbe0109f51ba496876348ab43b83d6be398267aed",
+      "newSha256": "74a0db8d9a2a63cfed979f5bd10f95572e2f2d1c15954a806ed67d3c233f25d4"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "oldSha256": "9ea35c75babe2261ec679e1bd63e2828baae5c5794acc3b35a13e1b4a86ab33e",
+      "newSha256": "00a3f3af98c66acb506a94509b30c5ef2e8e0f56d7c6d9116ee989787b8a5047"
+    },
+    {
+      "clip": "oak-delivery",
+      "oldSha256": "23eea3dd8caf134b2626ff223b0a0572173c402e53219c0b0a5ec9c27033fbcc",
+      "newSha256": "b59c96e12f036b0c5266400541c38a041ed48a2c692c004288fd3ddd1f907a91"
+    },
+    {
+      "clip": "status-pages",
+      "oldSha256": "8226c992679e1945deb2b9b843e0de6c7fa6fe2d29efadfd4f45c87074fcd883",
+      "newSha256": "bc18c576d49d225ccc53767e132def1395d2691a473d49c459d02e320dfcce75"
+    },
+    {
+      "clip": "pc-connect",
+      "oldSha256": "44861629487401feb136a7eab342cf4c3c3b3705382f6f8c4273de1a5ad3aa1c",
+      "newSha256": "9032d4b7afe50ec6ac7d390d6585ed4e67958907d0272d76a4a9add494449e79"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "oldSha256": "fdff75aea73f2e0d2f341d32b0b015a5e33b512aa90c855b5b56b0818728f213",
+      "newSha256": "6d6b1dd5b53cf8e891e5aadcdf6e0d88f3dcacfa1deb63b32d9f1c675a6dad66"
+    },
+    {
+      "clip": "pc-exit",
+      "oldSha256": "824ff950ff742d17f0914e99e773fe97dc64b4379c85344d4063e8195706302c",
+      "newSha256": "6ac18df50f1e6d784f4592f18d91199c222e6c185a0085211549b4b4f553068c"
+    },
+    {
+      "clip": "museum-question",
+      "oldSha256": "6581df906af4375deb1c01ded0387451bfe0c10456448076d15e2f58a3d29a8f",
+      "newSha256": "b7387ba41dc5238199e042e1e5c60e448f0a9a6f0e44fa5e292882267d20fcdf"
+    },
+    {
+      "clip": "museum-fee",
+      "oldSha256": "7779dbca497b90f246b1c2a2cd7afbb96f3dccba63c8eb4603d6052a27597f9e",
+      "newSha256": "1b4f64510b712c4b8b182bcb47d419cffce18a4cb7156e19f2cc07b7b748aac4"
+    },
+    {
+      "clip": "safari-warden-npc",
+      "oldSha256": "32f24641c775531a58c75289e4cbd4cb6a4c74e221a0549999358c77c489b03b",
+      "newSha256": "d4fa3e266bd39fb4c32235b0c0eb6126b0967926aed68a865b480b45f5dbaa83"
+    },
+    {
+      "clip": "bill-data-npc",
+      "oldSha256": "ee7437f66177daa09131c8a8dc35c342dd8b5a047b4263b48dad709e99a8da56",
+      "newSha256": "cae51dd12bbe8684aad12f9cdb0bd2ffb20b71e322eef0bcf94055760f869ad4"
+    },
+    {
+      "clip": "bill-grandfather",
+      "oldSha256": "849f453dc6bc95651b9950dab5202309bc825b82942bda27aa278d2628f65de2",
+      "newSha256": "ac61e5667eba36c7a4ef5947a877105469400add1a135bfa2774446c140e9680"
+    },
+    {
+      "clip": "approved-trial",
+      "oldSha256": "60aa81ecd60257a35c231aa82ed539888f28106367f97a88acf418f7d65ce1cf",
+      "newSha256": "7281e98009cf980173d2deaf7552b0c01b606fee0b574975c41ae2504aa0509a"
+    },
+    {
+      "clip": "gym-sign-continuation",
+      "oldSha256": "2365019b1fb25d279c88c29acbab7337b4b4b653e6e571d5c2e9c920296f7507",
+      "newSha256": "d4b1d1253b5b507a49f3512cde94148c7866ecccfd577caaa2e2ab4f756d25f3"
+    },
+    {
+      "clip": "battle-result",
+      "oldSha256": "c0ac8ed6c6469f74e9f2ebc90df9d1f9e703f633c1da1ecfd56b9768fd6bed0f",
+      "newSha256": "36b7c16a28ad790b07fae8c39cd9cb25fbc0251f450d25aa1e33add540385b5c"
+    },
+    {
+      "clip": "mart-child",
+      "oldSha256": "eacf8bfa78770965e06183f63648ea3ae56cea04a5b5d38267c11e4fe8966dcf",
+      "newSha256": "a5bdffc15cb423356d9ca671f70eb6f34037e1b70f4573f99950d63c9f783398"
+    },
+    {
+      "clip": "shop-buy-navigation",
+      "oldSha256": "3ef74e6475ede4e7a5980d21f1ad7785ace1e591891d8643296253c1c4bee921",
+      "newSha256": "286c73f45de6c0af062a9274cf111634b307e7a76e07e7b998450a433fc079f2"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "oldSha256": "d79af571fb38d9920f00a38625d4157d73e7c767edbaf12f7367d613e3350d59",
+      "newSha256": "87e507d58a4b70ae07a12b9baacd064ea4adbe345af7eec82baa92a59f00bdce"
+    },
+    {
+      "clip": "shop-rejection",
+      "oldSha256": "f6ab6f9eda8e8031a0d9fea66fd90057f1732002bb7ef794c456e9ca97171cfa",
+      "newSha256": "565e0eac6ec37a156bc88215dc01ad7832b516e1e2a89dc3e269b5ee1fd58fa9"
+    },
+    {
+      "clip": "shop-exit",
+      "oldSha256": "79aa15a26654934a4d3bf98bb7a96ec188500e9949ad43394cff3fdc212a5444",
+      "newSha256": "abd26823bc0e41d5ff6474d21389993b40d7e335dc5d5b05041f71bdfb031ecf"
+    },
+    {
+      "clip": "league-centre-npc",
+      "oldSha256": "d2ce4b4157f09b405a54943e9c386cea88d3afeb313cf72ebfb16132b5869970",
+      "newSha256": "96408c6abffbc55763ccda76e35e203a66794e905c40913b29350b0862010ecc"
+    },
+    {
+      "clip": "nurse-greeting",
+      "oldSha256": "6f7b733a9957473b34a622746c81e09242a3d263d7538360564d731b3457e79b",
+      "newSha256": "d08a5f35e95610b139c8417a23f3c7c48e503fa2b69ad277f970af2725d36c17"
+    },
+    {
+      "clip": "nurse-intake",
+      "oldSha256": "93aaf71ea969b4dcec57748c271b5883cee943f029c9a7a27418085902bdfcf4",
+      "newSha256": "4a5aac0fd9be02ee50bd3423f4fe9119f5f13460cd402c0c870fc15715e1ac1a"
+    },
+    {
+      "clip": "nurse-return",
+      "oldSha256": "bf93e73fba3012570ff4fd3f90d821b4e49b09a118e5043c0e44296248c5fc50",
+      "newSha256": "0e5443bacf53875a459ff7c83f6682b5848a5e9ca5331d9be94c6edc7e70a797"
+    },
+    {
+      "clip": "status-alt-pages",
+      "oldSha256": "518818fb74897236ed049eaa0db7c9dc0b6aeea6c48afdbb77c2aa01c8c82846",
+      "newSha256": "4ba7672192ec95f247c43aaefad8210f91ac278f0e3522c9302a954536c79fb8"
+    },
+    {
+      "clip": "party-list",
+      "oldSha256": "6049e1f5b33e7d4dda7322ad67959b71cb47aabe6f8e7698b90e1fea07f86fb8",
+      "newSha256": "62606d8b10661fe611c23219e0758cb67f74a62fcf0b47017a34a15d9977b52b"
+    },
+    {
+      "clip": "route-ledge-npc",
+      "oldSha256": "56f0f0920d3be5ad30bf52d2d8db06ab2c9618e2cc8cd9b1c40b6cf60ac19217",
+      "newSha256": "c556baada13675771fe3b25fbc1fb4d25da213d92b495ccb23512c67c17de62e"
+    },
+    {
+      "clip": "route-pp-sign",
+      "oldSha256": "47f437f832d01babd381c2f93cb63356a78d2b5e1a1b6556ff04b510b84d75e6",
+      "newSha256": "2d2767af9f302f893908570ebf7a4e739cecf79a2d05563a1a9b12dc1191885c"
+    },
+    {
+      "clip": "backpack-opening",
+      "oldSha256": "19d8f29dc7b3701daa7f2b4e2367b5077fb0928284df5a51a78db82c94dd57b1",
+      "newSha256": "a08e7f2590ac9eea749a0224617c1c82041ca4a41ada2678b98f6d88018888d1"
+    },
+    {
+      "clip": "backpack-navigation",
+      "oldSha256": "312d56f040121a1f31a93d3fe42ee0b599f881ca40a8153dc5cfe0a324f0aea4",
+      "newSha256": "9e63a2ee5defcb28a0efae5ebf0fd556eda29cede93cdbadaf6cb78004509a70"
+    },
+    {
+      "clip": "skills-turn",
+      "oldSha256": "c6f7a0e9529bef86cf8c3270814b9721f4e1211b5903c35eeb291acb4c481eaf",
+      "newSha256": "fd666394f22ed853a9bd555efa6ac9b1b67dd9a310c68fc81f35f4d3189f5491"
+    }
+  ],
+  "changes": [
+    {
+      "clip": "backpack-opening",
+      "frame": 5176,
+      "before": {
+        "kind": "no_textbox",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      },
+      "after": {
+        "kind": "menu_empty",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      }
+    },
+    {
+      "clip": "backpack-opening",
+      "frame": 5177,
+      "before": {
+        "kind": "no_textbox",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      },
+      "after": {
+        "kind": "menu_empty",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      }
+    },
+    {
+      "clip": "backpack-opening",
+      "frame": 5178,
+      "before": {
+        "kind": "no_textbox",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      },
+      "after": {
+        "kind": "menu_empty",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      }
+    },
+    {
+      "clip": "backpack-opening",
+      "frame": 5179,
+      "before": {
+        "kind": "no_textbox",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      },
+      "after": {
+        "kind": "menu_empty",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      }
+    },
+    {
+      "clip": "backpack-opening",
+      "frame": 5180,
+      "before": {
+        "kind": "no_textbox",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      },
+      "after": {
+        "kind": "menu_empty",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      }
+    }
+  ],
+  "comparison": {
+    "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v7/comparison/report.json",
+    "sha256": "bed5c5090a45eb718be5ed3113cb7d509458a75ee7d9a75f21a081dd029b02a3"
+  },
+  "checker": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\check-empty-start-regression.cjs",
+    "sha256": "c43ad28854a5ac2beaa64144e164e89bfdedf5893f30bcedf56ab0d93049f08c"
+  },
+  "acceptance": false
+}

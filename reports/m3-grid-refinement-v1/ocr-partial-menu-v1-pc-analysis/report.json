@@ -1,0 +1,95 @@
+{
+  "status": "independent_raw_edit_counts_agree_not_OCR_acceptance",
+  "inputReport": {
+    "path": "reports/m3-grid-refinement-v1/ocr-partial-menu-v1-pc-deposit-navigation/comparison/report.json",
+    "sha256": "5369976d459e3ea5d4edc95399b78e7d33d723432c1a091ad66325c62b5d1cd0"
+  },
+  "frameReferences": 120,
+  "uniqueSourceFrames": 120,
+  "characters": 5315,
+  "errors": 485,
+  "frameCharacterAccuracy": 0.9087488240827846,
+  "clips": [
+    {
+      "clipId": "pc-deposit-navigation",
+      "characters": 5315,
+      "errors": 485,
+      "framesWithTextErrors": 104
+    }
+  ],
+  "frequentDifferences": [
+    {
+      "difference": "text|pc_prompt:14:1:8|なにを あずけますか？|なにを あずけますか?",
+      "frames": 38
+    },
+    {
+      "difference": "text|pc_prompt:14:1:10|なにを あずけますか？|なにを あずけますか?",
+      "frames": 33
+    },
+    {
+      "difference": "text|pc_prompt:14:1:4|なにを しますか？|なにを しますか?",
+      "frames": 26
+    },
+    {
+      "difference": "missing_region|menu_label:2:2:0|マサキの パソコン|",
+      "frames": 5
+    },
+    {
+      "difference": "missing_region|menu_label:4:2:1|グリーンの パソコン|",
+      "frames": 5
+    },
+    {
+      "difference": "missing_region|menu_label:6:2:2|オーキドの パソコン|",
+      "frames": 4
+    },
+    {
+      "difference": "missing_region|menu_label:8:2:3|ポケモン リーグ|",
+      "frames": 4
+    },
+    {
+      "difference": "missing_region|menu_label:10:2:4|スイッチを きる|",
+      "frames": 4
+    },
+    {
+      "difference": "extra_region|pc_menu_choice:2:2:0||マサキの パソコン",
+      "frames": 4
+    },
+    {
+      "difference": "extra_region|pc_menu_choice:4:2:1||グリーンの パソコン",
+      "frames": 4
+    },
+    {
+      "difference": "extra_region|pc_menu_choice:6:2:2||オーキドの パソコン",
+      "frames": 4
+    },
+    {
+      "difference": "extra_region|pc_menu_choice:8:2:3||ポケモン リーグ",
+      "frames": 4
+    },
+    {
+      "difference": "extra_region|pc_menu_choice:10:2:4||スイッチを きる",
+      "frames": 4
+    },
+    {
+      "difference": "text|pc_prompt:14:1:7|なにを あずけますか？|なにを あずけますか?",
+      "frames": 2
+    },
+    {
+      "difference": "text|item_name:6:6:5|いいつりざお|いいつりさお",
+      "frames": 2
+    },
+    {
+      "difference": "text|item_name:6:6:4|ポケモンのふえ|ホケモンのふえ",
+      "frames": 1
+    },
+    {
+      "difference": "text|item_name:6:6:5|ひでんマシン02|ぴてんマシン02",
+      "frames": 1
+    },
+    {
+      "difference": "text|menu_label:6:2:2|どうぐを すてる|どうくを ずてる",
+      "frames": 1
+    }
+  ],
+  "scope": "Independent source-frame association and Unicode scalar edit counts; strict region keys unchanged. Geometry, state, page/UI and independent-session gates remain separate."
+}

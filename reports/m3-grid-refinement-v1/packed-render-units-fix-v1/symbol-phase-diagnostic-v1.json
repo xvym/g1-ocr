@@ -1,0 +1,138 @@
+{
+  "status": "output_aware_annotation_question_not_GT_revision",
+  "method": "Current agent viewed the three original full-frame PNGs after seeing the diagnostic output. This is not blind GT, human per-frame verification or a basis for changing production/GT to match each other.",
+  "action": "Keep all three failures, freeze bytes unchanged and audit full affected event histories before any symbol algorithm or annotation revision.",
+  "cases": [
+    {
+      "sourceKey": "video-02:6950",
+      "originalFrame": "data/frames/video-02/all-scenes-battle-result-pass2-v1/frame-006950.png",
+      "pngSha256": "9e93bef57022136a375b756d79a7c6e88596d673f2e66488e7ee4afc747d2c23",
+      "expected": {
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false,
+          "additionalDownArrows": []
+        },
+        "detachedMarks": []
+      },
+      "actual": {
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              16,
+              19,
+              17
+            ]
+          },
+          "additionalDownArrows": []
+        },
+        "detachedMarks": []
+      },
+      "observation": "Original image visibly contains a dark down triangle at the message lower right, agreeing with current output but conflicting with frozen hidden-arrow descriptor."
+    },
+    {
+      "sourceKey": "video-03:846",
+      "originalFrame": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000846.png",
+      "pngSha256": "79c256f4cfd40c0b01af18333faccfc99aa8e3587c93cfc4c33a2d65975ea7af",
+      "expected": {
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "outline_right",
+              "gridRect": [
+                1,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                8,
+                6,
+                9
+              ]
+            }
+          ],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ]
+          },
+          "additionalDownArrows": []
+        },
+        "detachedMarks": []
+      },
+      "actual": {
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "outline_right",
+              "gridRect": [
+                1,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                8,
+                6,
+                9
+              ]
+            }
+          ],
+          "downArrowVisible": false,
+          "additionalDownArrows": []
+        },
+        "detachedMarks": []
+      },
+      "observation": "Original list lower-right area appears blank where the frozen down arrow is specified; current output also says hidden. Adjacent original frames must be independently re-read."
+    },
+    {
+      "sourceKey": "video-04:17560",
+      "originalFrame": "data/frames/video-04/all-scenes-skills-turn-pass2-v1/frame-017560.png",
+      "pngSha256": "03559e43a89d8ceb7e763be583ad35058662221506a61fd538313b1d1f4af6a4",
+      "expected": {
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              16,
+              19,
+              17
+            ]
+          },
+          "additionalDownArrows": []
+        },
+        "detachedMarks": []
+      },
+      "actual": {
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false,
+          "additionalDownArrows": []
+        },
+        "detachedMarks": []
+      },
+      "observation": "Original message lower-right arrow area appears blank while frozen descriptor says visible and current output says hidden. Preserve as a phase-boundary annotation question."
+    }
+  ]
+}

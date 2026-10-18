@@ -1,0 +1,47 @@
+package io.github.g1ocr.verification;
+
+import com.google.gson.*;
+import io.github.g1ocr.ocr.JapaneseSourceAliasResolver;
+import io.github.g1ocr.ocr.JapanesePageBoundaryResolver;
+import java.nio.file.*;
+import java.nio.charset.StandardCharsets;
+import java.util.*;
+
+/** Explicit external source configuration, separate from frozen data and diagnostics. */
+final class SourceAliasConfiguration {
+    final JapaneseSourceAliasResolver resolver;
+    final JapanesePageBoundaryResolver boundaries;
+    final String sha256;
+    SourceAliasConfiguration(Path path,String expectedSha)throws Exception {
+        sha256=VideoTool.sha(path);FrozenDataset.require(sha256.equals(expectedSha),"Source catalog hash mismatch");
+        JsonObject config=JsonParser.parseString(new String(Files.readAllBytes(path),StandardCharsets.UTF_8)).getAsJsonObject();
+        FrozenDataset.require("japanese-source-aliases-v1".equals(config.get("schema").getAsString()),"Source catalog schema");
+        List<JapaneseSourceAliasResolver.Entry> entries=new ArrayList<>();
+        for(JsonElement value:config.getAsJsonArray("catalog")) {
+            JsonObject e=value.getAsJsonObject();entries.add(new JapaneseSourceAliasResolver.Entry(e.get("literal").getAsString(),e.get("source").getAsString(),e.get("commit").getAsString(),e.get("path").getAsString(),e.get("line").getAsInt(),e.get("sha256").getAsString()));
+        }
+        resolver=new JapaneseSourceAliasResolver(entries);
+        List<JapanesePageBoundaryResolver.Entry> pages=new ArrayList<>();
+        if(config.has("pageBoundaries")){
+            FrozenDataset.require(config.has("pageBoundarySchema")&&"literal-page-boundaries-v1".equals(config.get("pageBoundarySchema").getAsString()),"Page boundary schema");
+            for(JsonElement value:config.getAsJsonArray("pageBoundaries")){JsonObject e=value.getAsJsonObject();pages.add(new JapanesePageBoundaryResolver.Entry(e.get("upper").getAsString(),e.get("lower").getAsString(),e.get("control").getAsString(),e.get("source").getAsString(),e.get("commit").getAsString(),e.get("path").getAsString(),e.get("line").getAsInt(),e.get("boundaryLine").getAsInt(),e.get("sha256").getAsString()));}
+        }
+        boundaries=pages.isEmpty()?null:new JapanesePageBoundaryResolver(pages);
+    }
+    void annotate(JsonObject row) {
+        JsonArray corrected=row.getAsJsonArray("rawRegions").deepCopy(),evidence=new JsonArray();
+        for(JsonElement value:corrected) {
+            JsonObject region=value.getAsJsonObject();List<List<String>> candidates=new ArrayList<>();
+            for(JsonElement cell:region.getAsJsonArray("glyphCandidates")){List<String> chars=new ArrayList<>();for(JsonElement c:cell.getAsJsonArray())chars.add(c.getAsString());candidates.add(chars);}
+            JapaneseSourceAliasResolver.Resolution resolution=resolver.resolve(region.get("text").getAsString(),candidates);
+            if(resolution==null)continue;
+            JsonObject proof=new Gson().toJsonTree(resolution).getAsJsonObject();proof.add("regionId",region.get("id"));proof.addProperty("catalogSha256",sha256);evidence.add(proof);region.addProperty("text",resolution.text);
+        }
+        if(evidence.size()>0){row.add("correctedRegions",corrected);row.add("correctionEvidence",evidence);}
+        if(boundaries==null)return;
+        JsonObject visible=row.getAsJsonObject("visibleState");List<JapanesePageBoundaryResolver.Line> lines=new ArrayList<>();
+        for(JsonElement value:row.getAsJsonArray("rawRegions")){JsonObject r=value.getAsJsonObject();JsonArray rect=r.getAsJsonArray("gridRect");lines.add(new JapanesePageBoundaryResolver.Line(r.get("role").getAsString(),r.get("text").getAsString(),rect.get(0).getAsDouble(),rect.get(1).getAsDouble(),r.get("readingOrder").getAsInt()));}
+        JapanesePageBoundaryResolver.Resolution resolution=boundaries.resolve(visible.get("kind").getAsString(),lines,visible.getAsJsonObject("cursor").getAsJsonArray("menuCursors").size()>0);
+        if(resolution!=null){JsonObject finalState=visible.deepCopy();finalState.addProperty("kind",resolution.kind);JsonObject proof=new Gson().toJsonTree(resolution).getAsJsonObject();proof.addProperty("catalogSha256",sha256);row.add("correctedVisibleState",finalState);row.add("stateCorrectionEvidence",proof);}
+    }
+}

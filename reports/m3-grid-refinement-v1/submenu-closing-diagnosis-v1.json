@@ -1,0 +1,1843 @@
+{
+  "status": "implementation_diagnosis_from_existing_complete_double_read",
+  "actual": {
+    "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/pc-deposit-navigation.jsonl",
+    "sha256": "b2849eab12c971e311dece0bdfe465e4904f7c826116651539395e41180cf8ca"
+  },
+  "notes": {
+    "path": "reports/m3-grid-refinement-v1/pc-cursor-notes-v1/pass2.json",
+    "sha256": "109baf47588636cc5f130799e735cd60d97997eb1372e18fd154559800251591"
+  },
+  "originals": [
+    {
+      "path": "data/frames/video-02/pc-cursor-pass2-v1/frame-001730.png",
+      "sha256": "eb8cab45b3db6bf1dc1866a8d8cbf22d248ef19af5afd35a8bac8dafa00fa6ee"
+    },
+    {
+      "path": "data/frames/video-02/pc-cursor-pass2-v1/frame-001731.png",
+      "sha256": "266c1f7ae6c3c04033fcdaae223b5d4089ac827b8adc8707fcd18ed4c504cd38"
+    },
+    {
+      "path": "data/frames/video-02/pc-cursor-pass2-v1/frame-001732.png",
+      "sha256": "62a9de38e2d331ba247dc41f66209d9f4c07a4bda88d615dd0ed605618a9e702"
+    }
+  ],
+  "frames": [
+    {
+      "frame": 1730,
+      "state": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "outline_right",
+              "gridRect": [
+                1,
+                4,
+                2,
+                5
+              ],
+              "sourceRect": [
+                318,
+                181,
+                337,
+                200
+              ]
+            },
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                8,
+                6,
+                9
+              ],
+              "sourceRect": [
+                390,
+                253,
+                409,
+                273
+              ]
+            }
+          ],
+          "additionalDownArrows": [],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ],
+            "sourceRect": [
+              624,
+              308,
+              643,
+              327
+            ]
+          }
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              4,
+              1,
+              5,
+              2
+            ],
+            "sourceRect": [
+              372,
+              126,
+              391,
+              146
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              9,
+              1,
+              10,
+              2
+            ],
+            "sourceRect": [
+              462,
+              126,
+              481,
+              146
+            ]
+          }
+        ]
+      },
+      "regions": [
+        {
+          "id": "occluded_menu_visible_prefix-2-2",
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう",
+          "pixelCandidateText": "どう",
+          "readingOrder": 0,
+          "gridRect": [
+            2,
+            2,
+            4,
+            3
+          ],
+          "sourceRect": [
+            336,
+            126,
+            373,
+            164
+          ],
+          "markCells": [
+            {
+              "gridColumn": 2,
+              "gridRow": 1,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "ど"
+            ],
+            [
+              "う"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "occluded_menu_visible_prefix-2-4",
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう",
+          "pixelCandidateText": "どう",
+          "readingOrder": 1,
+          "gridRect": [
+            2,
+            4,
+            4,
+            5
+          ],
+          "sourceRect": [
+            336,
+            163,
+            373,
+            200
+          ],
+          "markCells": [
+            {
+              "gridColumn": 2,
+              "gridRow": 3,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "ど"
+            ],
+            [
+              "う"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "occluded_menu_visible_prefix-2-6",
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう",
+          "pixelCandidateText": "どう",
+          "readingOrder": 2,
+          "gridRect": [
+            2,
+            6,
+            4,
+            7
+          ],
+          "sourceRect": [
+            336,
+            199,
+            373,
+            236
+          ],
+          "markCells": [
+            {
+              "gridColumn": 2,
+              "gridRow": 5,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "ど"
+            ],
+            [
+              "う"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "occluded_menu_visible_prefix-2-8",
+          "role": "occluded_menu_visible_prefix",
+          "text": "スイ",
+          "pixelCandidateText": "スイ",
+          "readingOrder": 3,
+          "gridRect": [
+            2,
+            8,
+            4,
+            9
+          ],
+          "sourceRect": [
+            336,
+            253,
+            373,
+            273
+          ],
+          "markCells": [],
+          "glyphCandidates": [
+            [
+              "ス"
+            ],
+            [
+              "イ"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "item_name-6-4",
+          "role": "item_name",
+          "text": "ピーピーエイダー",
+          "pixelCandidateText": "ピーピーエイダー",
+          "readingOrder": 4,
+          "gridRect": [
+            6,
+            4,
+            14,
+            5
+          ],
+          "sourceRect": [
+            408,
+            163,
+            553,
+            200
+          ],
+          "markCells": [
+            {
+              "gridColumn": 6,
+              "gridRow": 3,
+              "kind": "handakuten"
+            },
+            {
+              "gridColumn": 8,
+              "gridRow": 3,
+              "kind": "handakuten"
+            },
+            {
+              "gridColumn": 12,
+              "gridRow": 3,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "ピ"
+            ],
+            [
+              "ー"
+            ],
+            [
+              "ピ"
+            ],
+            [
+              "ー"
+            ],
+            [
+              "エ"
+            ],
+            [
+              "イ"
+            ],
+            [
+              "ダ"
+            ],
+            [
+              "ー"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "quantity_label-15-4",
+          "role": "quantity_label",
+          "text": "×",
+          "pixelCandidateText": "×",
+          "readingOrder": 5,
+          "gridRect": [
+            15,
+            4,
+            16,
+            5
+          ],
+          "sourceRect": [
+            570,
+            181,
+            589,
+            200
+          ],
+          "markCells": [],
+          "glyphCandidates": [
+            [
+              "×"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "item_quantity-17-4",
+          "role": "item_quantity",
+          "text": "1",
+          "pixelCandidateText": "1",
+          "readingOrder": 6,
+          "gridRect": [
+            17,
+            4,
+            18,
+            5
+          ],
+          "sourceRect": [
+            606,
+            181,
+            625,
+            200
+          ],
+          "markCells": [],
+          "glyphCandidates": [
+            [
+              "1"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "item_name-6-6",
+          "role": "item_name",
+          "text": "ひでんマシン02",
+          "pixelCandidateText": "ひでんマシン02",
+          "readingOrder": 7,
+          "gridRect": [
+            6,
+            6,
+            14,
+            7
+          ],
+          "sourceRect": [
+            408,
+            199,
+            553,
+            236
+          ],
+          "markCells": [
+            {
+              "gridColumn": 7,
+              "gridRow": 5,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "ひ"
+            ],
+            [
+              "で"
+            ],
+            [
+              "ん"
+            ],
+            [
+              "マ"
+            ],
+            [
+              "シ"
+            ],
+            [
+              "ン"
+            ],
+            [
+              "0"
+            ],
+            [
+              "2"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "item_name-6-8",
+          "role": "item_name",
+          "text": "ひでんマシン05",
+          "pixelCandidateText": "ひでんマシン05",
+          "readingOrder": 8,
+          "gridRect": [
+            6,
+            8,
+            14,
+            9
+          ],
+          "sourceRect": [
+            408,
+            235,
+            553,
+            273
+          ],
+          "markCells": [
+            {
+              "gridColumn": 7,
+              "gridRow": 7,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "ひ"
+            ],
+            [
+              "で"
+            ],
+            [
+              "ん"
+            ],
+            [
+              "マ"
+            ],
+            [
+              "シ"
+            ],
+            [
+              "ン"
+            ],
+            [
+              "0"
+            ],
+            [
+              "5"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "item_name-6-10",
+          "role": "item_name",
+          "text": "ひでんマシン01",
+          "pixelCandidateText": "ひでんマシン01",
+          "readingOrder": 9,
+          "gridRect": [
+            6,
+            10,
+            14,
+            11
+          ],
+          "sourceRect": [
+            408,
+            272,
+            553,
+            309
+          ],
+          "markCells": [
+            {
+              "gridColumn": 7,
+              "gridRow": 9,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "ひ"
+            ],
+            [
+              "で"
+            ],
+            [
+              "ん"
+            ],
+            [
+              "マ"
+            ],
+            [
+              "シ"
+            ],
+            [
+              "ン"
+            ],
+            [
+              "0"
+            ],
+            [
+              "1"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "pc_prompt-1-14",
+          "role": "pc_prompt",
+          "text": "なにを あずけますか?",
+          "pixelCandidateText": "なにを あずけますか?",
+          "readingOrder": 10,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "sourceRect": [
+            318,
+            344,
+            517,
+            381
+          ],
+          "markCells": [
+            {
+              "gridColumn": 6,
+              "gridRow": 13,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "な"
+            ],
+            [
+              "に"
+            ],
+            [
+              "を"
+            ],
+            [
+              " "
+            ],
+            [
+              "あ"
+            ],
+            [
+              "ず"
+            ],
+            [
+              "け"
+            ],
+            [
+              "ま"
+            ],
+            [
+              "す"
+            ],
+            [
+              "か"
+            ],
+            [
+              "?"
+            ]
+          ],
+          "candidateResolutions": []
+        }
+      ],
+      "boxes": [
+        {
+          "left": 4,
+          "top": 2,
+          "right": 20,
+          "bottom": 13,
+          "lines": [
+            {
+              "left": 6,
+              "top": 4,
+              "right": 18,
+              "rawText": "ピーピーエイダー × 1",
+              "pixelCandidateText": "ピーピーエイダー × 1",
+              "candidates": [
+                [
+                  "ピ"
+                ],
+                [
+                  "ー"
+                ],
+                [
+                  "ピ"
+                ],
+                [
+                  "ー"
+                ],
+                [
+                  "エ"
+                ],
+                [
+                  "イ"
+                ],
+                [
+                  "ダ"
+                ],
+                [
+                  "ー"
+                ],
+                [
+                  " "
+                ],
+                [
+                  "×"
+                ],
+                [
+                  " "
+                ],
+                [
+                  "1"
+                ]
+              ],
+              "candidateResolutions": []
+            },
+            {
+              "left": 6,
+              "top": 6,
+              "right": 14,
+              "rawText": "ひでんマシン02",
+              "pixelCandidateText": "ひでんマシン02",
+              "candidates": [
+                [
+                  "ひ"
+                ],
+                [
+                  "で"
+                ],
+                [
+                  "ん"
+                ],
+                [
+                  "マ"
+                ],
+                [
+                  "シ"
+                ],
+                [
+                  "ン"
+                ],
+                [
+                  "0"
+                ],
+                [
+                  "2"
+                ]
+              ],
+              "candidateResolutions": []
+            },
+            {
+              "left": 6,
+              "top": 8,
+              "right": 14,
+              "rawText": "ひでんマシン05",
+              "pixelCandidateText": "ひでんマシン05",
+              "candidates": [
+                [
+                  "ひ"
+                ],
+                [
+                  "で"
+                ],
+                [
+                  "ん"
+                ],
+                [
+                  "マ"
+                ],
+                [
+                  "シ"
+                ],
+                [
+                  "ン"
+                ],
+                [
+                  "0"
+                ],
+                [
+                  "5"
+                ]
+              ],
+              "candidateResolutions": []
+            },
+            {
+              "left": 6,
+              "top": 10,
+              "right": 14,
+              "rawText": "ひでんマシン01",
+              "pixelCandidateText": "ひでんマシン01",
+              "candidates": [
+                [
+                  "ひ"
+                ],
+                [
+                  "で"
+                ],
+                [
+                  "ん"
+                ],
+                [
+                  "マ"
+                ],
+                [
+                  "シ"
+                ],
+                [
+                  "ン"
+                ],
+                [
+                  "0"
+                ],
+                [
+                  "1"
+                ]
+              ],
+              "candidateResolutions": []
+            }
+          ],
+          "symbols": [
+            {
+              "column": 5,
+              "row": 8,
+              "kind": "filled_right"
+            },
+            {
+              "column": 18,
+              "row": 11,
+              "kind": "down_arrow"
+            }
+          ],
+          "unclassifiedFragments": []
+        },
+        {
+          "left": 0,
+          "top": 12,
+          "right": 20,
+          "bottom": 18,
+          "lines": [
+            {
+              "left": 1,
+              "top": 14,
+              "right": 12,
+              "rawText": "なにを あずけますか?",
+              "pixelCandidateText": "なにを あずけますか?",
+              "candidates": [
+                [
+                  "な"
+                ],
+                [
+                  "に"
+                ],
+                [
+                  "を"
+                ],
+                [
+                  " "
+                ],
+                [
+                  "あ"
+                ],
+                [
+                  "ず"
+                ],
+                [
+                  "け"
+                ],
+                [
+                  "ま"
+                ],
+                [
+                  "す"
+                ],
+                [
+                  "か"
+                ],
+                [
+                  "?"
+                ]
+              ],
+              "candidateResolutions": []
+            }
+          ],
+          "symbols": [],
+          "unclassifiedFragments": []
+        }
+      ]
+    },
+    {
+      "frame": 1731,
+      "state": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "outline_right",
+              "gridRect": [
+                1,
+                4,
+                2,
+                5
+              ],
+              "sourceRect": [
+                318,
+                181,
+                337,
+                200
+              ]
+            }
+          ],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              4,
+              1,
+              5,
+              2
+            ],
+            "sourceRect": [
+              372,
+              126,
+              391,
+              146
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              9,
+              1,
+              10,
+              2
+            ],
+            "sourceRect": [
+              462,
+              126,
+              481,
+              146
+            ]
+          }
+        ]
+      },
+      "regions": [
+        {
+          "id": "occluded_menu_visible_prefix-2-2",
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう",
+          "pixelCandidateText": "どう",
+          "readingOrder": 0,
+          "gridRect": [
+            2,
+            2,
+            4,
+            3
+          ],
+          "sourceRect": [
+            336,
+            126,
+            373,
+            164
+          ],
+          "markCells": [
+            {
+              "gridColumn": 2,
+              "gridRow": 1,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "ど"
+            ],
+            [
+              "う"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "occluded_menu_visible_prefix-2-4",
+          "role": "occluded_menu_visible_prefix",
+          "text": "どう",
+          "pixelCandidateText": "どう",
+          "readingOrder": 1,
+          "gridRect": [
+            2,
+            4,
+            4,
+            5
+          ],
+          "sourceRect": [
+            336,
+            163,
+            373,
+            200
+          ],
+          "markCells": [
+            {
+              "gridColumn": 2,
+              "gridRow": 3,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "ど"
+            ],
+            [
+              "う"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "menu_label-2-6",
+          "role": "menu_label",
+          "text": "どうくを ずてる",
+          "pixelCandidateText": "どうくを ずてる",
+          "readingOrder": 2,
+          "gridRect": [
+            2,
+            6,
+            10,
+            7
+          ],
+          "sourceRect": [
+            336,
+            199,
+            481,
+            236
+          ],
+          "markCells": [
+            {
+              "gridColumn": 2,
+              "gridRow": 5,
+              "kind": "dakuten"
+            },
+            {
+              "gridColumn": 7,
+              "gridRow": 5,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "ど"
+            ],
+            [
+              "う"
+            ],
+            [
+              "く"
+            ],
+            [
+              "を"
+            ],
+            [
+              " "
+            ],
+            [
+              "ず"
+            ],
+            [
+              "て"
+            ],
+            [
+              "る"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "menu_label-2-8",
+          "role": "menu_label",
+          "text": "スイッチを きる",
+          "pixelCandidateText": "スイッチを きる",
+          "readingOrder": 3,
+          "gridRect": [
+            2,
+            8,
+            10,
+            9
+          ],
+          "sourceRect": [
+            336,
+            253,
+            481,
+            273
+          ],
+          "markCells": [],
+          "glyphCandidates": [
+            [
+              "ス"
+            ],
+            [
+              "イ"
+            ],
+            [
+              "ッ"
+            ],
+            [
+              "チ"
+            ],
+            [
+              "を"
+            ],
+            [
+              " "
+            ],
+            [
+              "き"
+            ],
+            [
+              "る"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "item_name-6-4",
+          "role": "item_name",
+          "text": "ピーピーエイダー",
+          "pixelCandidateText": "ピーピーエイダー",
+          "readingOrder": 4,
+          "gridRect": [
+            6,
+            4,
+            14,
+            5
+          ],
+          "sourceRect": [
+            408,
+            163,
+            553,
+            200
+          ],
+          "markCells": [
+            {
+              "gridColumn": 6,
+              "gridRow": 3,
+              "kind": "handakuten"
+            },
+            {
+              "gridColumn": 8,
+              "gridRow": 3,
+              "kind": "handakuten"
+            },
+            {
+              "gridColumn": 12,
+              "gridRow": 3,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "ピ"
+            ],
+            [
+              "ー"
+            ],
+            [
+              "ピ"
+            ],
+            [
+              "ー"
+            ],
+            [
+              "エ"
+            ],
+            [
+              "イ"
+            ],
+            [
+              "ダ"
+            ],
+            [
+              "ー"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "quantity_label-15-4",
+          "role": "quantity_label",
+          "text": "×",
+          "pixelCandidateText": "×",
+          "readingOrder": 5,
+          "gridRect": [
+            15,
+            4,
+            16,
+            5
+          ],
+          "sourceRect": [
+            570,
+            181,
+            589,
+            200
+          ],
+          "markCells": [],
+          "glyphCandidates": [
+            [
+              "×"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "item_quantity-17-4",
+          "role": "item_quantity",
+          "text": "1",
+          "pixelCandidateText": "1",
+          "readingOrder": 6,
+          "gridRect": [
+            17,
+            4,
+            18,
+            5
+          ],
+          "sourceRect": [
+            606,
+            181,
+            625,
+            200
+          ],
+          "markCells": [],
+          "glyphCandidates": [
+            [
+              "1"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "pc_prompt-1-14",
+          "role": "pc_prompt",
+          "text": "なにを あずけますか?",
+          "pixelCandidateText": "なにを あずけますか?",
+          "readingOrder": 7,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "sourceRect": [
+            318,
+            344,
+            517,
+            381
+          ],
+          "markCells": [
+            {
+              "gridColumn": 6,
+              "gridRow": 13,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "な"
+            ],
+            [
+              "に"
+            ],
+            [
+              "を"
+            ],
+            [
+              " "
+            ],
+            [
+              "あ"
+            ],
+            [
+              "ず"
+            ],
+            [
+              "け"
+            ],
+            [
+              "ま"
+            ],
+            [
+              "す"
+            ],
+            [
+              "か"
+            ],
+            [
+              "?"
+            ]
+          ],
+          "candidateResolutions": []
+        }
+      ],
+      "boxes": [
+        {
+          "left": 0,
+          "top": 0,
+          "right": 12,
+          "bottom": 10,
+          "lines": [
+            {
+              "left": 2,
+              "top": 2,
+              "right": 4,
+              "rawText": "どう",
+              "pixelCandidateText": "どう",
+              "candidates": [
+                [
+                  "ど"
+                ],
+                [
+                  "う"
+                ]
+              ],
+              "candidateResolutions": []
+            },
+            {
+              "left": 2,
+              "top": 4,
+              "right": 11,
+              "rawText": "どう  ピーピーエ",
+              "pixelCandidateText": "どう│ ピーピーエ",
+              "candidates": [
+                [
+                  "ど"
+                ],
+                [
+                  "う"
+                ],
+                [
+                  "│"
+                ],
+                [
+                  " "
+                ],
+                [
+                  "ピ"
+                ],
+                [
+                  "ー"
+                ],
+                [
+                  "ピ"
+                ],
+                [
+                  "ー"
+                ],
+                [
+                  "エ"
+                ]
+              ],
+              "candidateResolutions": []
+            },
+            {
+              "left": 2,
+              "top": 6,
+              "right": 10,
+              "rawText": "どうくを ずてる",
+              "pixelCandidateText": "どうくを ずてる",
+              "candidates": [
+                [
+                  "ど"
+                ],
+                [
+                  "う"
+                ],
+                [
+                  "く"
+                ],
+                [
+                  "を"
+                ],
+                [
+                  " "
+                ],
+                [
+                  "ず"
+                ],
+                [
+                  "て"
+                ],
+                [
+                  "る"
+                ]
+              ],
+              "candidateResolutions": []
+            },
+            {
+              "left": 2,
+              "top": 8,
+              "right": 10,
+              "rawText": "スイッチを きる",
+              "pixelCandidateText": "スイッチを きる",
+              "candidates": [
+                [
+                  "ス"
+                ],
+                [
+                  "イ"
+                ],
+                [
+                  "ッ"
+                ],
+                [
+                  "チ"
+                ],
+                [
+                  "を"
+                ],
+                [
+                  " "
+                ],
+                [
+                  "き"
+                ],
+                [
+                  "る"
+                ]
+              ],
+              "candidateResolutions": []
+            }
+          ],
+          "symbols": [
+            {
+              "column": 4,
+              "row": 1,
+              "kind": "dakuten"
+            },
+            {
+              "column": 9,
+              "row": 1,
+              "kind": "dakuten"
+            },
+            {
+              "column": 1,
+              "row": 4,
+              "kind": "outline_right"
+            }
+          ],
+          "unclassifiedFragments": []
+        },
+        {
+          "left": 0,
+          "top": 12,
+          "right": 20,
+          "bottom": 18,
+          "lines": [
+            {
+              "left": 1,
+              "top": 14,
+              "right": 12,
+              "rawText": "なにを あずけますか?",
+              "pixelCandidateText": "なにを あずけますか?",
+              "candidates": [
+                [
+                  "な"
+                ],
+                [
+                  "に"
+                ],
+                [
+                  "を"
+                ],
+                [
+                  " "
+                ],
+                [
+                  "あ"
+                ],
+                [
+                  "ず"
+                ],
+                [
+                  "け"
+                ],
+                [
+                  "ま"
+                ],
+                [
+                  "す"
+                ],
+                [
+                  "か"
+                ],
+                [
+                  "?"
+                ]
+              ],
+              "candidateResolutions": []
+            }
+          ],
+          "symbols": [],
+          "unclassifiedFragments": []
+        }
+      ]
+    },
+    {
+      "frame": 1732,
+      "state": {
+        "kind": "message_clear_menu_remains",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      },
+      "regions": [
+        {
+          "id": "menu_label-2-2",
+          "role": "menu_label",
+          "text": "どうぐを ひきだす",
+          "pixelCandidateText": "どうぐを ひきだす",
+          "readingOrder": 0,
+          "gridRect": [
+            2,
+            2,
+            11,
+            3
+          ],
+          "sourceRect": [
+            336,
+            126,
+            499,
+            164
+          ],
+          "markCells": [
+            {
+              "gridColumn": 2,
+              "gridRow": 1,
+              "kind": "dakuten"
+            },
+            {
+              "gridColumn": 4,
+              "gridRow": 1,
+              "kind": "dakuten"
+            },
+            {
+              "gridColumn": 9,
+              "gridRow": 1,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "ど"
+            ],
+            [
+              "う"
+            ],
+            [
+              "ぐ"
+            ],
+            [
+              "を"
+            ],
+            [
+              " "
+            ],
+            [
+              "ひ"
+            ],
+            [
+              "き"
+            ],
+            [
+              "だ"
+            ],
+            [
+              "す"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "menu_label-2-4",
+          "role": "menu_label",
+          "text": "どうぐを あずける",
+          "pixelCandidateText": "どうぐを あずける",
+          "readingOrder": 1,
+          "gridRect": [
+            2,
+            4,
+            11,
+            5
+          ],
+          "sourceRect": [
+            336,
+            163,
+            499,
+            200
+          ],
+          "markCells": [
+            {
+              "gridColumn": 2,
+              "gridRow": 3,
+              "kind": "dakuten"
+            },
+            {
+              "gridColumn": 4,
+              "gridRow": 3,
+              "kind": "dakuten"
+            },
+            {
+              "gridColumn": 8,
+              "gridRow": 3,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "ど"
+            ],
+            [
+              "う"
+            ],
+            [
+              "ぐ"
+            ],
+            [
+              "を"
+            ],
+            [
+              " "
+            ],
+            [
+              "あ"
+            ],
+            [
+              "ず"
+            ],
+            [
+              "け"
+            ],
+            [
+              "る"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "menu_label-2-6",
+          "role": "menu_label",
+          "text": "どうぐを すてる",
+          "pixelCandidateText": "どうぐを すてる",
+          "readingOrder": 2,
+          "gridRect": [
+            2,
+            6,
+            10,
+            7
+          ],
+          "sourceRect": [
+            336,
+            199,
+            481,
+            236
+          ],
+          "markCells": [
+            {
+              "gridColumn": 2,
+              "gridRow": 5,
+              "kind": "dakuten"
+            },
+            {
+              "gridColumn": 4,
+              "gridRow": 5,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "ど"
+            ],
+            [
+              "う"
+            ],
+            [
+              "ぐ"
+            ],
+            [
+              "を"
+            ],
+            [
+              " "
+            ],
+            [
+              "す"
+            ],
+            [
+              "て"
+            ],
+            [
+              "る"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "menu_label-2-8",
+          "role": "menu_label",
+          "text": "スイッチを きる",
+          "pixelCandidateText": "スイッチを きる",
+          "readingOrder": 3,
+          "gridRect": [
+            2,
+            8,
+            10,
+            9
+          ],
+          "sourceRect": [
+            336,
+            253,
+            481,
+            273
+          ],
+          "markCells": [],
+          "glyphCandidates": [
+            [
+              "ス"
+            ],
+            [
+              "イ"
+            ],
+            [
+              "ッ"
+            ],
+            [
+              "チ"
+            ],
+            [
+              "を"
+            ],
+            [
+              " "
+            ],
+            [
+              "き"
+            ],
+            [
+              "る"
+            ]
+          ],
+          "candidateResolutions": []
+        }
+      ],
+      "boxes": [
+        {
+          "left": 0,
+          "top": 0,
+          "right": 12,
+          "bottom": 10,
+          "lines": [
+            {
+              "left": 2,
+              "top": 2,
+              "right": 11,
+              "rawText": "どうぐを ひきだす",
+              "pixelCandidateText": "どうぐを ひきだす",
+              "candidates": [
+                [
+                  "ど"
+                ],
+                [
+                  "う"
+                ],
+                [
+                  "ぐ"
+                ],
+                [
+                  "を"
+                ],
+                [
+                  " "
+                ],
+                [
+                  "ひ"
+                ],
+                [
+                  "き"
+                ],
+                [
+                  "だ"
+                ],
+                [
+                  "す"
+                ]
+              ],
+              "candidateResolutions": []
+            },
+            {
+              "left": 2,
+              "top": 4,
+              "right": 11,
+              "rawText": "どうぐを あずける",
+              "pixelCandidateText": "どうぐを あずける",
+              "candidates": [
+                [
+                  "ど"
+                ],
+                [
+                  "う"
+                ],
+                [
+                  "ぐ"
+                ],
+                [
+                  "を"
+                ],
+                [
+                  " "
+                ],
+                [
+                  "あ"
+                ],
+                [
+                  "ず"
+                ],
+                [
+                  "け"
+                ],
+                [
+                  "る"
+                ]
+              ],
+              "candidateResolutions": []
+            },
+            {
+              "left": 2,
+              "top": 6,
+              "right": 10,
+              "rawText": "どうぐを すてる",
+              "pixelCandidateText": "どうぐを すてる",
+              "candidates": [
+                [
+                  "ど"
+                ],
+                [
+                  "う"
+                ],
+                [
+                  "ぐ"
+                ],
+                [
+                  "を"
+                ],
+                [
+                  " "
+                ],
+                [
+                  "す"
+                ],
+                [
+                  "て"
+                ],
+                [
+                  "る"
+                ]
+              ],
+              "candidateResolutions": []
+            },
+            {
+              "left": 2,
+              "top": 8,
+              "right": 10,
+              "rawText": "スイッチを きる",
+              "pixelCandidateText": "スイッチを きる",
+              "candidates": [
+                [
+                  "ス"
+                ],
+                [
+                  "イ"
+                ],
+                [
+                  "ッ"
+                ],
+                [
+                  "チ"
+                ],
+                [
+                  "を"
+                ],
+                [
+                  " "
+                ],
+                [
+                  "き"
+                ],
+                [
+                  "る"
+                ]
+              ],
+              "candidateResolutions": []
+            }
+          ],
+          "symbols": [],
+          "unclassifiedFragments": []
+        },
+        {
+          "left": 0,
+          "top": 12,
+          "right": 20,
+          "bottom": 18,
+          "lines": [],
+          "symbols": [],
+          "unclassifiedFragments": []
+        }
+      ]
+    }
+  ],
+  "observation": "1730 complete child list.1731 only upper child border and first item remain, lower parent labels reappear; child cursor and arrow gone.1732 child gone, full parent labels and empty prompt. Need preceding complete child plus current partial top/sides to distinguish closing from opening; no fixed frame or item text.",
+  "productAcceptance": false
+}

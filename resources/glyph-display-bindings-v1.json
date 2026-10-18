@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "scope": "Rendered Unicode identities for audited source glyphs, not messages or GT answers",
+  "sourceManifest": "resources/japanese-font-sources-v2.json",
+  "bindings": [
+    {
+      "profile": "status-P",
+      "tile": 114,
+      "displayAliases": ["P"],
+      "evidence": "engine/pokemon/status_screen.asm: PTile copies bold P to tile 0x72; StatusScreen_PrintPP writes that glyph twice. All three pinned source PNGs were audited."
+    }
+  ],
+  "unicodeDisplayConventions": {
+    "U+FF0F": "U+002F one visible solidus glyph, used by numeric fractions and labels",
+    "U+FF1F": "U+003F one visible question glyph",
+    "U+22EF": "U+2026 one three-dot glyph, as defined before OCR in scoring contract v5",
+    "U+00B7": "U+30FB one Japanese middle-dot glyph",
+    "unchanged": "U+FF01 exclamation, kana size, diacritics, names, digits and spaces are not removed"
+  }
+}

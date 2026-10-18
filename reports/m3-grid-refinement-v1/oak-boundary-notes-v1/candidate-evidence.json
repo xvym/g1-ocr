@@ -1,0 +1,311 @@
+{
+  "status": "candidate_only_not_effective_freeze",
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+    "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66"
+  },
+  "doubleRead": {
+    "path": "reports/m3-grid-refinement-v1/oak-boundary-notes-v1/extraction-and-pass-check.json",
+    "sha256": "0d91a52f0867489ae4165857e59046a00ca956f9d82ce2b3831fc7507d76238c"
+  },
+  "changes": [
+    {
+      "id": "lab-oak-reply",
+      "frame": 13438,
+      "input": {
+        "kind": "gt",
+        "path": "data/gt/frozen/ocr-all-scenes-v2/lab-oak-reply/ocr-candidate-v1.jsonl",
+        "sha256": "b5c4f4f3f73724c47052ad93320414503d3126de7e329929dea1f592d43c4a5f"
+      },
+      "candidate": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v8/lab-oak-reply/ocr-candidate-boundary-v1.jsonl",
+        "sha256": "59f91be59d9dc900d96c527c15e038a9d4c79f3a3914df259d8d03b201053efb"
+      },
+      "before": {
+        "schemaVersion": 2,
+        "stateId": "f53c237ad19a-f13438-f13439",
+        "mediaId": "video-01",
+        "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "startFrame": 13438,
+        "endFrameExclusive": 13439,
+        "startPts": 13438,
+        "endPtsExclusive": 13439,
+        "timeBase": "1/30",
+        "kind": "message_loading",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "オーキド『まー",
+            "gridRect": [
+              1,
+              14,
+              8,
+              15
+            ],
+            "sourceRect": [
+              256,
+              304,
+              368,
+              336
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "kind": "dakuten",
+                "gridColumn": 4
+              }
+            ]
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "outputIndependence": "No tested OCR or production translation exists",
+          "originalFrames": "data/frames/video-01/dialogue-lab-rival-pass2-v1",
+          "humanPerFrameVerification": "not claimed",
+          "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/lab-oak-reply/manual-pass2.json"
+        }
+      },
+      "after": {
+        "schemaVersion": 2,
+        "stateId": "f53c237ad19a-f13438-f13439",
+        "mediaId": "video-01",
+        "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "startFrame": 13438,
+        "endFrameExclusive": 13439,
+        "startPts": 13438,
+        "endPtsExclusive": 13439,
+        "timeBase": "1/30",
+        "kind": "message_loading",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "オーキド『まー！",
+            "gridRect": [
+              1,
+              14,
+              9,
+              15
+            ],
+            "sourceRect": [
+              256,
+              304,
+              384,
+              336
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "kind": "dakuten",
+                "gridColumn": 4
+              }
+            ]
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "reports/m3-grid-refinement-v1/oak-boundary-notes-v1/lab-oak-reply-pass2.json",
+          "originalFrames": "data\\frames\\video-01\\oak-reply-boundary-pass2-v1",
+          "humanPerFrameVerification": "not claimed",
+          "outputIndependence": "Full original-frame double reread with GT/actual closed; prior diagnostic exposure disclosed; same agent, not independent acceptance."
+        }
+      },
+      "characterDelta": 1
+    },
+    {
+      "id": "oak-delivery",
+      "frame": 24223,
+      "input": {
+        "kind": "gt",
+        "path": "data/gt/frozen/ocr-all-scenes-v2/oak-delivery/ocr-candidate-v1.jsonl",
+        "sha256": "21fb90a17c18338d2e56b1951f99c56cd105f3d1aa675c0a8b07ca35482f0952"
+      },
+      "candidate": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v8/oak-delivery/ocr-candidate-boundary-v1.jsonl",
+        "sha256": "bfce42c4eb6818fdfd15a4c49709713966e7a0436220fa888a024fea5581fd6a"
+      },
+      "before": {
+        "schemaVersion": 2,
+        "stateId": "f53c237ad19a-f24223-f24224",
+        "mediaId": "video-01",
+        "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "startFrame": 24223,
+        "endFrameExclusive": 24224,
+        "startPts": 24223,
+        "endPtsExclusive": 24224,
+        "timeBase": "1/30",
+        "kind": "message_loading",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "レッドは オーキド はかせに",
+            "gridRect": [
+              1,
+              14,
+              15,
+              15
+            ],
+            "sourceRect": [
+              256,
+              304,
+              480,
+              336
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 3,
+                "gridRow": 13
+              },
+              {
+                "kind": "dakuten",
+                "gridColumn": 9,
+                "gridRow": 13
+              }
+            ]
+          },
+          {
+            "id": "message-bottom",
+            "role": "dialogue",
+            "readingOrder": 1,
+            "text": "とどけもの",
+            "gridRect": [
+              1,
+              16,
+              6,
+              17
+            ],
+            "sourceRect": [
+              256,
+              336,
+              336,
+              368
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 2,
+                "gridRow": 15
+              }
+            ]
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/oak-delivery/manual-pass2.json",
+          "outputIndependence": "No tested OCR or production translation exists",
+          "originalFrames": "data/frames/video-01/dialogue-oak-delivery-pass2-v1",
+          "humanPerFrameVerification": "not claimed"
+        }
+      },
+      "after": {
+        "schemaVersion": 2,
+        "stateId": "f53c237ad19a-f24223-f24224",
+        "mediaId": "video-01",
+        "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "startFrame": 24223,
+        "endFrameExclusive": 24224,
+        "startPts": 24223,
+        "endPtsExclusive": 24224,
+        "timeBase": "1/30",
+        "kind": "message_loading",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "レッドは オーキド はかせに",
+            "gridRect": [
+              1,
+              14,
+              15,
+              15
+            ],
+            "sourceRect": [
+              256,
+              304,
+              480,
+              336
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 3,
+                "gridRow": 13
+              },
+              {
+                "kind": "dakuten",
+                "gridColumn": 9,
+                "gridRow": 13
+              }
+            ]
+          },
+          {
+            "id": "message-bottom",
+            "role": "dialogue",
+            "readingOrder": 1,
+            "text": "とどけも",
+            "gridRect": [
+              1,
+              16,
+              5,
+              17
+            ],
+            "sourceRect": [
+              256,
+              336,
+              320,
+              368
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 2,
+                "gridRow": 15
+              }
+            ]
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "reports/m3-grid-refinement-v1/oak-boundary-notes-v1/oak-delivery-pass2.json",
+          "originalFrames": "data\\frames\\video-01\\oak-delivery-boundary-pass2-v1",
+          "humanPerFrameVerification": "not claimed",
+          "outputIndependence": "Full original-frame double reread with GT/actual closed; prior diagnostic exposure disclosed; same agent, not independent acceptance."
+        }
+      },
+      "characterDelta": -1
+    }
+  ],
+  "rationale": "13438 already contains the exclamation mark; 24223 has only とどけも and the next cell is blank. Full affected events were reread twice. Preserve all other states, roles, timing and page opportunities.",
+  "productAcceptance": false
+}

@@ -1,0 +1,3130 @@
+{
+  "status": "diagnostic_inventory_no_GT_or_program_changes",
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r4/freeze.json",
+    "sha256": "650b69280c331809c901f2c587e00774762173ece7d330ac597a3b40380729c9"
+  },
+  "roles": {
+    "dialogue": [
+      {
+        "clip": "exploration-npc",
+        "firstFrame": 9850,
+        "text": "わたし",
+        "gridRect": [
+          1,
+          14,
+          4,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "bill-data-npc",
+        "firstFrame": 4560,
+        "text": "マサ",
+        "gridRect": [
+          1,
+          14,
+          3,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "bill-grandfather",
+        "firstFrame": 4716,
+        "text": "おや",
+        "gridRect": [
+          1,
+          14,
+          3,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "gym-sign-continuation",
+        "firstFrame": 5299,
+        "text": "キョウ にんてい トレーナー！",
+        "gridRect": [
+          1,
+          14,
+          16,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "intro-creatures",
+        "firstFrame": 6252,
+        "text": "こ",
+        "gridRect": [
+          1,
+          14,
+          2,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "intro-greeting",
+        "firstFrame": 6062,
+        "text": "はじめ",
+        "gridRect": [
+          1,
+          14,
+          4,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "intro-oak",
+        "firstFrame": 6173,
+        "text": "わたし",
+        "gridRect": [
+          1,
+          14,
+          4,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "intro-pets",
+        "firstFrame": 6330,
+        "text": "その",
+        "gridRect": [
+          1,
+          14,
+          3,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "intro-research",
+        "firstFrame": 6407,
+        "text": "そし",
+        "gridRect": [
+          1,
+          14,
+          3,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "lab-oak-reply",
+        "firstFrame": 13435,
+        "text": "オー",
+        "gridRect": [
+          1,
+          14,
+          3,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "lab-rival-demand",
+        "firstFrame": 13379,
+        "text": "グリ",
+        "gridRect": [
+          1,
+          14,
+          3,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "league-centre-npc",
+        "firstFrame": 1600,
+        "text": "こ",
+        "gridRect": [
+          1,
+          14,
+          2,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "mart-child",
+        "firstFrame": 586,
+        "text": "わ",
+        "gridRect": [
+          1,
+          14,
+          2,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "museum-fee",
+        "firstFrame": 3807,
+        "text": "ここ",
+        "gridRect": [
+          1,
+          14,
+          3,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "museum-question",
+        "firstFrame": 3534,
+        "text": "きみは",
+        "gridRect": [
+          1,
+          14,
+          4,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "nurse-greeting",
+        "firstFrame": 1835,
+        "text": "よ",
+        "gridRect": [
+          1,
+          14,
+          2,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "nurse-intake",
+        "firstFrame": 1923,
+        "text": "それで",
+        "gridRect": [
+          1,
+          14,
+          4,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "nurse-return",
+        "firstFrame": 2089,
+        "text": "おまち",
+        "gridRect": [
+          1,
+          14,
+          4,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "oak-delivery",
+        "firstFrame": 24215,
+        "text": "レッド",
+        "gridRect": [
+          1,
+          14,
+          4,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "route-ledge-npc",
+        "firstFrame": 6436,
+        "text": "み",
+        "gridRect": [
+          1,
+          14,
+          2,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "route-pp-sign",
+        "firstFrame": 6692,
+        "text": "…… おと",
+        "gridRect": [
+          1,
+          14,
+          6,
+          15
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "safari-warden-npc",
+        "firstFrame": 4456,
+        "text": "サファ",
+        "gridRect": [
+          1,
+          14,
+          4,
+          15
+        ],
+        "readingOrder": 0
+      }
+    ],
+    "own_pokemon_name": [
+      {
+        "clip": "battle-result",
+        "firstFrame": 6916,
+        "text": "ラプラス",
+        "gridRect": [
+          11,
+          8,
+          15,
+          9
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "skills-turn",
+        "firstFrame": 17462,
+        "text": "ラプラス",
+        "gridRect": [
+          11,
+          8,
+          15,
+          9
+        ],
+        "readingOrder": 4
+      }
+    ],
+    "compact_hud_label": [
+      {
+        "clip": "battle-result",
+        "firstFrame": 6916,
+        "text": ":L",
+        "gridRect": [
+          15,
+          8,
+          16,
+          9
+        ],
+        "readingOrder": 1
+      },
+      {
+        "clip": "skills-turn",
+        "firstFrame": 17462,
+        "text": ":L",
+        "gridRect": [
+          7,
+          1,
+          8,
+          2
+        ],
+        "readingOrder": 1
+      }
+    ],
+    "own_level": [
+      {
+        "clip": "battle-result",
+        "firstFrame": 6916,
+        "text": "50",
+        "gridRect": [
+          16,
+          8,
+          18,
+          9
+        ],
+        "readingOrder": 2
+      },
+      {
+        "clip": "skills-turn",
+        "firstFrame": 17462,
+        "text": "50",
+        "gridRect": [
+          16,
+          8,
+          18,
+          9
+        ],
+        "readingOrder": 6
+      }
+    ],
+    "hp_current_max": [
+      {
+        "clip": "battle-result",
+        "firstFrame": 6916,
+        "text": "200/206",
+        "gridRect": [
+          11,
+          10,
+          18,
+          11
+        ],
+        "readingOrder": 4
+      },
+      {
+        "clip": "status-pages",
+        "firstFrame": 469,
+        "text": "200/206",
+        "gridRect": [
+          12,
+          4,
+          19,
+          5
+        ],
+        "readingOrder": 6
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3541,
+        "text": "160/160",
+        "gridRect": [
+          12,
+          4,
+          19,
+          5
+        ],
+        "readingOrder": 6
+      },
+      {
+        "clip": "party-list",
+        "firstFrame": 3663,
+        "text": "206/206",
+        "gridRect": [
+          12,
+          1,
+          19,
+          2
+        ],
+        "readingOrder": 4
+      },
+      {
+        "clip": "skills-turn",
+        "firstFrame": 17462,
+        "text": "200/206",
+        "gridRect": [
+          11,
+          10,
+          18,
+          11
+        ],
+        "readingOrder": 8
+      }
+    ],
+    "battle_message": [
+      {
+        "clip": "battle-result",
+        "firstFrame": 6917,
+        "text": "てき",
+        "gridRect": [
+          1,
+          14,
+          3,
+          15
+        ],
+        "readingOrder": 5
+      },
+      {
+        "clip": "skills-turn",
+        "firstFrame": 17487,
+        "text": "ラ",
+        "gridRect": [
+          1,
+          14,
+          2,
+          15
+        ],
+        "readingOrder": 9
+      }
+    ],
+    "pokemon_name": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 469,
+        "text": "ラプラス",
+        "gridRect": [
+          11,
+          1,
+          15,
+          2
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3541,
+        "text": "ウツボット",
+        "gridRect": [
+          11,
+          1,
+          16,
+          2
+        ],
+        "readingOrder": 0
+      }
+    ],
+    "compact_status_label": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 469,
+        "text": ":L",
+        "gridRect": [
+          16,
+          1,
+          17,
+          2
+        ],
+        "readingOrder": 1
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3541,
+        "text": ":L",
+        "gridRect": [
+          16,
+          1,
+          17,
+          2
+        ],
+        "readingOrder": 1
+      }
+    ],
+    "pokemon_level": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 469,
+        "text": "50",
+        "gridRect": [
+          17,
+          1,
+          19,
+          2
+        ],
+        "readingOrder": 2
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3541,
+        "text": "50",
+        "gridRect": [
+          17,
+          1,
+          19,
+          2
+        ],
+        "readingOrder": 2
+      }
+    ],
+    "pokedex_number": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 469,
+        "text": "131",
+        "gridRect": [
+          3,
+          7,
+          6,
+          8
+        ],
+        "readingOrder": 4
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3541,
+        "text": "071",
+        "gridRect": [
+          3,
+          7,
+          6,
+          8
+        ],
+        "readingOrder": 4
+      }
+    ],
+    "pokemon_condition": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 469,
+        "text": "じょうたい/ふつう",
+        "gridRect": [
+          10,
+          6,
+          19,
+          7
+        ],
+        "readingOrder": 7
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3541,
+        "text": "じょうたい/ふつう",
+        "gridRect": [
+          10,
+          6,
+          19,
+          7
+        ],
+        "readingOrder": 7
+      }
+    ],
+    "stat_label": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 469,
+        "text": "こうげき",
+        "gridRect": [
+          1,
+          10,
+          5,
+          11
+        ],
+        "readingOrder": 8
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3541,
+        "text": "こうげき",
+        "gridRect": [
+          1,
+          10,
+          5,
+          11
+        ],
+        "readingOrder": 8
+      }
+    ],
+    "attack": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 469,
+        "text": "122",
+        "gridRect": [
+          6,
+          10,
+          9,
+          11
+        ],
+        "readingOrder": 9
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3541,
+        "text": "144",
+        "gridRect": [
+          6,
+          10,
+          9,
+          11
+        ],
+        "readingOrder": 9
+      }
+    ],
+    "defense": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 469,
+        "text": "123",
+        "gridRect": [
+          6,
+          12,
+          9,
+          13
+        ],
+        "readingOrder": 11
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3541,
+        "text": "105",
+        "gridRect": [
+          6,
+          12,
+          9,
+          13
+        ],
+        "readingOrder": 11
+      }
+    ],
+    "speed": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 469,
+        "text": "103",
+        "gridRect": [
+          6,
+          14,
+          9,
+          15
+        ],
+        "readingOrder": 13
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3541,
+        "text": "110",
+        "gridRect": [
+          6,
+          14,
+          9,
+          15
+        ],
+        "readingOrder": 13
+      }
+    ],
+    "special": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 469,
+        "text": "139",
+        "gridRect": [
+          6,
+          16,
+          9,
+          17
+        ],
+        "readingOrder": 15
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3541,
+        "text": "133",
+        "gridRect": [
+          6,
+          16,
+          9,
+          17
+        ],
+        "readingOrder": 15
+      }
+    ],
+    "pokemon_type": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 469,
+        "text": "タイプ1/みず",
+        "gridRect": [
+          10,
+          10,
+          17,
+          11
+        ],
+        "readingOrder": 16
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3541,
+        "text": "タイプ1/くさ",
+        "gridRect": [
+          10,
+          10,
+          17,
+          11
+        ],
+        "readingOrder": 16
+      }
+    ],
+    "trainer_id": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 469,
+        "text": "16785",
+        "gridRect": [
+          14,
+          14,
+          19,
+          15
+        ],
+        "readingOrder": 19
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3541,
+        "text": "44837",
+        "gridRect": [
+          14,
+          14,
+          19,
+          15
+        ],
+        "readingOrder": 19
+      }
+    ],
+    "trainer_name": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 469,
+        "text": "おや/ レッド",
+        "gridRect": [
+          10,
+          16,
+          17,
+          17
+        ],
+        "readingOrder": 20
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3541,
+        "text": "おや/ グリーン",
+        "gridRect": [
+          10,
+          16,
+          18,
+          17
+        ],
+        "readingOrder": 20
+      }
+    ],
+    "experience_label": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 526,
+        "text": "けいけんち/",
+        "gridRect": [
+          9,
+          3,
+          15,
+          4
+        ],
+        "readingOrder": 5
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3613,
+        "text": "けいけんち/",
+        "gridRect": [
+          9,
+          3,
+          15,
+          4
+        ],
+        "readingOrder": 5
+      }
+    ],
+    "experience": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 526,
+        "text": "157734",
+        "gridRect": [
+          13,
+          4,
+          19,
+          5
+        ],
+        "readingOrder": 6
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3613,
+        "text": "117997",
+        "gridRect": [
+          13,
+          4,
+          19,
+          5
+        ],
+        "readingOrder": 6
+      }
+    ],
+    "next_level_label": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 526,
+        "text": "あと",
+        "gridRect": [
+          9,
+          5,
+          11,
+          6
+        ],
+        "readingOrder": 7
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3613,
+        "text": "あと",
+        "gridRect": [
+          9,
+          5,
+          11,
+          6
+        ],
+        "readingOrder": 7
+      }
+    ],
+    "experience_remaining": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 526,
+        "text": "8079で",
+        "gridRect": [
+          10,
+          6,
+          15,
+          7
+        ],
+        "readingOrder": 8
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3613,
+        "text": "7129で",
+        "gridRect": [
+          10,
+          6,
+          15,
+          7
+        ],
+        "readingOrder": 8
+      }
+    ],
+    "next_level": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 526,
+        "text": "51",
+        "gridRect": [
+          17,
+          6,
+          19,
+          7
+        ],
+        "readingOrder": 10
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3613,
+        "text": "51",
+        "gridRect": [
+          17,
+          6,
+          19,
+          7
+        ],
+        "readingOrder": 10
+      }
+    ],
+    "move_name": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 526,
+        "text": "れいとうビーム",
+        "gridRect": [
+          2,
+          10,
+          9,
+          11
+        ],
+        "readingOrder": 11
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3612,
+        "text": "ねむりこな",
+        "gridRect": [
+          2,
+          12,
+          7,
+          13
+        ],
+        "readingOrder": 8
+      },
+      {
+        "clip": "skills-turn",
+        "firstFrame": 17471,
+        "text": "れいとうビーム",
+        "gridRect": [
+          2,
+          10,
+          9,
+          11
+        ],
+        "readingOrder": 9
+      }
+    ],
+    "pp_label": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 526,
+        "text": "PP",
+        "gridRect": [
+          11,
+          10,
+          13,
+          11
+        ],
+        "readingOrder": 12
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3612,
+        "text": "PP",
+        "gridRect": [
+          11,
+          12,
+          13,
+          13
+        ],
+        "readingOrder": 9
+      }
+    ],
+    "move_pp": [
+      {
+        "clip": "status-pages",
+        "firstFrame": 526,
+        "text": "9/10",
+        "gridRect": [
+          15,
+          10,
+          19,
+          11
+        ],
+        "readingOrder": 13
+      },
+      {
+        "clip": "status-alt-pages",
+        "firstFrame": 3612,
+        "text": "15/15",
+        "gridRect": [
+          14,
+          12,
+          19,
+          13
+        ],
+        "readingOrder": 10
+      }
+    ],
+    "menu_label": [
+      {
+        "clip": "pc-deposit-navigation",
+        "firstFrame": 1634,
+        "text": "どうぐを ひきだす",
+        "gridRect": [
+          2,
+          2,
+          11,
+          3
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "pc-exit",
+        "firstFrame": 2248,
+        "text": "マサキの パソコン",
+        "gridRect": [
+          2,
+          2,
+          11,
+          3
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "shop-buy-navigation",
+        "firstFrame": 820,
+        "text": "かいに きた",
+        "gridRect": [
+          2,
+          1,
+          8,
+          2
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "shop-sell-entry",
+        "firstFrame": 1044,
+        "text": "かいに きた",
+        "gridRect": [
+          2,
+          1,
+          8,
+          2
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "shop-rejection",
+        "firstFrame": 1408,
+        "text": "かいに きた",
+        "gridRect": [
+          2,
+          1,
+          8,
+          2
+        ],
+        "readingOrder": 0
+      }
+    ],
+    "pc_prompt": [
+      {
+        "clip": "pc-deposit-navigation",
+        "firstFrame": 1634,
+        "text": "なにを しますか？",
+        "gridRect": [
+          1,
+          14,
+          10,
+          15
+        ],
+        "readingOrder": 4
+      }
+    ],
+    "occluded_menu_visible_prefix": [
+      {
+        "clip": "pc-deposit-navigation",
+        "firstFrame": 1659,
+        "text": "どう",
+        "gridRect": [
+          2,
+          6,
+          4,
+          7
+        ],
+        "readingOrder": 2
+      },
+      {
+        "clip": "shop-buy-navigation",
+        "firstFrame": 820,
+        "text": "うり",
+        "gridRect": [
+          2,
+          3,
+          4,
+          4
+        ],
+        "readingOrder": 1
+      },
+      {
+        "clip": "shop-sell-entry",
+        "firstFrame": 1069,
+        "text": "うり",
+        "gridRect": [
+          2,
+          3,
+          4,
+          4
+        ],
+        "readingOrder": 1
+      },
+      {
+        "clip": "shop-rejection",
+        "firstFrame": 1408,
+        "text": "うり",
+        "gridRect": [
+          2,
+          3,
+          4,
+          4
+        ],
+        "readingOrder": 1
+      }
+    ],
+    "item_name": [
+      {
+        "clip": "pc-deposit-navigation",
+        "firstFrame": 1659,
+        "text": "ポケモンのふえ",
+        "gridRect": [
+          6,
+          6,
+          13,
+          7
+        ],
+        "readingOrder": 4
+      },
+      {
+        "clip": "shop-buy-navigation",
+        "firstFrame": 820,
+        "text": "ハイパーボール",
+        "gridRect": [
+          6,
+          4,
+          13,
+          5
+        ],
+        "readingOrder": 5
+      },
+      {
+        "clip": "shop-sell-entry",
+        "firstFrame": 1068,
+        "text": "ポケモンのふえ",
+        "gridRect": [
+          6,
+          6,
+          13,
+          7
+        ],
+        "readingOrder": 4
+      },
+      {
+        "clip": "shop-rejection",
+        "firstFrame": 1408,
+        "text": "ひでんマシン05",
+        "gridRect": [
+          6,
+          4,
+          14,
+          5
+        ],
+        "readingOrder": 5
+      }
+    ],
+    "quantity_label": [
+      {
+        "clip": "pc-deposit-navigation",
+        "firstFrame": 1697,
+        "text": "×",
+        "gridRect": [
+          15,
+          10,
+          16,
+          11
+        ],
+        "readingOrder": 8
+      }
+    ],
+    "item_quantity": [
+      {
+        "clip": "pc-deposit-navigation",
+        "firstFrame": 1697,
+        "text": "1",
+        "gridRect": [
+          17,
+          10,
+          18,
+          11
+        ],
+        "readingOrder": 9
+      }
+    ],
+    "party_pokemon_name": [
+      {
+        "clip": "party-list",
+        "firstFrame": 3663,
+        "text": "ラプラス",
+        "gridRect": [
+          3,
+          1,
+          7,
+          2
+        ],
+        "readingOrder": 0
+      }
+    ],
+    "compact_party_label": [
+      {
+        "clip": "party-list",
+        "firstFrame": 3663,
+        "text": ":L",
+        "gridRect": [
+          8,
+          1,
+          9,
+          2
+        ],
+        "readingOrder": 1
+      }
+    ],
+    "level": [
+      {
+        "clip": "party-list",
+        "firstFrame": 3663,
+        "text": "50",
+        "gridRect": [
+          9,
+          1,
+          11,
+          2
+        ],
+        "readingOrder": 2
+      }
+    ],
+    "party_prompt": [
+      {
+        "clip": "party-list",
+        "firstFrame": 3663,
+        "text": "ポケモンを えらんで ください",
+        "gridRect": [
+          1,
+          14,
+          16,
+          15
+        ],
+        "readingOrder": 30
+      }
+    ],
+    "money_label": [
+      {
+        "clip": "shop-buy-navigation",
+        "firstFrame": 820,
+        "text": "おかね",
+        "gridRect": [
+          14,
+          0,
+          17,
+          1
+        ],
+        "readingOrder": 3
+      },
+      {
+        "clip": "shop-sell-entry",
+        "firstFrame": 1044,
+        "text": "おかね",
+        "gridRect": [
+          14,
+          0,
+          17,
+          1
+        ],
+        "readingOrder": 3
+      },
+      {
+        "clip": "shop-rejection",
+        "firstFrame": 1408,
+        "text": "おかね",
+        "gridRect": [
+          14,
+          0,
+          17,
+          1
+        ],
+        "readingOrder": 3
+      }
+    ],
+    "money": [
+      {
+        "clip": "shop-buy-navigation",
+        "firstFrame": 820,
+        "text": "22526円",
+        "gridRect": [
+          13,
+          1,
+          19,
+          2
+        ],
+        "readingOrder": 4
+      },
+      {
+        "clip": "shop-sell-entry",
+        "firstFrame": 1044,
+        "text": "22526円",
+        "gridRect": [
+          13,
+          1,
+          19,
+          2
+        ],
+        "readingOrder": 4
+      },
+      {
+        "clip": "shop-rejection",
+        "firstFrame": 1408,
+        "text": "22526円",
+        "gridRect": [
+          13,
+          1,
+          19,
+          2
+        ],
+        "readingOrder": 4
+      }
+    ],
+    "item_price": [
+      {
+        "clip": "shop-buy-navigation",
+        "firstFrame": 820,
+        "text": "1200円",
+        "gridRect": [
+          14,
+          4,
+          19,
+          5
+        ],
+        "readingOrder": 6
+      }
+    ],
+    "shop_prompt": [
+      {
+        "clip": "shop-buy-navigation",
+        "firstFrame": 820,
+        "text": "ゆっくり ごらんになって ください",
+        "gridRect": [
+          1,
+          14,
+          18,
+          15
+        ],
+        "readingOrder": 13
+      },
+      {
+        "clip": "shop-sell-entry",
+        "firstFrame": 1044,
+        "text": "そのほかに わたくしどもで",
+        "gridRect": [
+          1,
+          14,
+          14,
+          15
+        ],
+        "readingOrder": 5
+      }
+    ],
+    "shop_message": [
+      {
+        "clip": "shop-rejection",
+        "firstFrame": 1408,
+        "text": "どれを うっていただけますか？",
+        "gridRect": [
+          1,
+          14,
+          16,
+          15
+        ],
+        "readingOrder": 9
+      }
+    ],
+    "shop_money_label": [
+      {
+        "clip": "shop-rejection",
+        "firstFrame": 1439,
+        "text": "おかね",
+        "gridRect": [
+          14,
+          0,
+          17,
+          1
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "shop-exit",
+        "firstFrame": 1439,
+        "text": "おかね",
+        "gridRect": [
+          14,
+          0,
+          17,
+          1
+        ],
+        "readingOrder": 0
+      }
+    ],
+    "shop_menu_choice": [
+      {
+        "clip": "shop-rejection",
+        "firstFrame": 1439,
+        "text": "かいに きた",
+        "gridRect": [
+          2,
+          1,
+          8,
+          2
+        ],
+        "readingOrder": 1
+      },
+      {
+        "clip": "shop-exit",
+        "firstFrame": 1439,
+        "text": "かいに きた",
+        "gridRect": [
+          2,
+          1,
+          8,
+          2
+        ],
+        "readingOrder": 1
+      }
+    ],
+    "money_amount": [
+      {
+        "clip": "shop-rejection",
+        "firstFrame": 1439,
+        "text": "22526円",
+        "gridRect": [
+          13,
+          1,
+          19,
+          2
+        ],
+        "readingOrder": 2
+      },
+      {
+        "clip": "shop-exit",
+        "firstFrame": 1439,
+        "text": "22526円",
+        "gridRect": [
+          13,
+          1,
+          19,
+          2
+        ],
+        "readingOrder": 2
+      }
+    ],
+    "main_menu_label": [
+      {
+        "clip": "backpack-opening",
+        "firstFrame": 5181,
+        "text": "ずかん",
+        "gridRect": [
+          14,
+          2,
+          17,
+          3
+        ],
+        "readingOrder": 0
+      }
+    ],
+    "backpack_item_or_cancel": [
+      {
+        "clip": "backpack-opening",
+        "firstFrame": 5205,
+        "text": "じてんしゃ",
+        "gridRect": [
+          6,
+          4,
+          11,
+          5
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "backpack-navigation",
+        "firstFrame": 5206,
+        "text": "じてんしゃ",
+        "gridRect": [
+          6,
+          4,
+          11,
+          5
+        ],
+        "readingOrder": 0
+      }
+    ],
+    "parent_menu_visible_choice": [
+      {
+        "clip": "backpack-opening",
+        "firstFrame": 5205,
+        "text": "とじる",
+        "gridRect": [
+          14,
+          14,
+          17,
+          15
+        ],
+        "readingOrder": 4
+      },
+      {
+        "clip": "backpack-navigation",
+        "firstFrame": 5206,
+        "text": "とじる",
+        "gridRect": [
+          14,
+          14,
+          17,
+          15
+        ],
+        "readingOrder": 4
+      }
+    ],
+    "enemy_pokemon_name": [
+      {
+        "clip": "skills-turn",
+        "firstFrame": 17462,
+        "text": "ジュゴン",
+        "gridRect": [
+          3,
+          1,
+          7,
+          2
+        ],
+        "readingOrder": 0
+      }
+    ],
+    "enemy_level": [
+      {
+        "clip": "skills-turn",
+        "firstFrame": 17462,
+        "text": "54",
+        "gridRect": [
+          8,
+          1,
+          10,
+          2
+        ],
+        "readingOrder": 2
+      }
+    ],
+    "battle_command": [
+      {
+        "clip": "skills-turn",
+        "firstFrame": 17462,
+        "text": "たたかう",
+        "gridRect": [
+          11,
+          14,
+          15,
+          15
+        ],
+        "readingOrder": 9
+      }
+    ],
+    "pp_current_max": [
+      {
+        "clip": "skills-turn",
+        "firstFrame": 17471,
+        "text": "9/10",
+        "gridRect": [
+          15,
+          13,
+          19,
+          14
+        ],
+        "readingOrder": 13
+      }
+    ],
+    "move_type_label": [
+      {
+        "clip": "skills-turn",
+        "firstFrame": 17471,
+        "text": "わざタイプ",
+        "gridRect": [
+          10,
+          15,
+          15,
+          16
+        ],
+        "readingOrder": 14
+      }
+    ],
+    "move_type": [
+      {
+        "clip": "skills-turn",
+        "firstFrame": 17471,
+        "text": "/こおり",
+        "gridRect": [
+          14,
+          16,
+          18,
+          17
+        ],
+        "readingOrder": 15
+      }
+    ],
+    "dialogue_line": [
+      {
+        "clip": "shop-exit",
+        "firstFrame": 1441,
+        "text": "そのほ",
+        "gridRect": [
+          1,
+          14,
+          4,
+          15
+        ],
+        "readingOrder": 5
+      },
+      {
+        "clip": "pc-connect",
+        "firstFrame": 1405,
+        "text": "じぶん",
+        "gridRect": [
+          1,
+          14,
+          4,
+          15
+        ],
+        "readingOrder": 5
+      },
+      {
+        "clip": "approved-trial",
+        "firstFrame": 5275,
+        "text": "セキ",
+        "gridRect": [
+          1,
+          14,
+          3,
+          15
+        ],
+        "readingOrder": 0
+      }
+    ],
+    "pc_menu_choice": [
+      {
+        "clip": "pc-connect",
+        "firstFrame": 1379,
+        "text": "マサキの パソコン",
+        "gridRect": [
+          2,
+          2,
+          11,
+          3
+        ],
+        "readingOrder": 0
+      }
+    ],
+    "menu_option": [
+      {
+        "clip": "museum-question",
+        "firstFrame": 3542,
+        "text": "はい",
+        "gridRect": [
+          16,
+          8,
+          18,
+          9
+        ],
+        "readingOrder": 0
+      },
+      {
+        "clip": "nurse-greeting",
+        "firstFrame": 1886,
+        "text": "あずける",
+        "gridRect": [
+          15,
+          8,
+          19,
+          9
+        ],
+        "readingOrder": 0
+      }
+    ]
+  },
+  "punctuation": [
+    {
+      "clip": "exploration-npc",
+      "start": 9857,
+      "end": 9877,
+      "role": "dialogue",
+      "text": "ポケモンを そだててるの！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "battle-result",
+      "start": 6923,
+      "end": 6929,
+      "role": "battle_message",
+      "text": "てきの ポニータは たおれた！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "battle-result",
+      "start": 6940,
+      "end": 6941,
+      "role": "battle_message",
+      "text": "976 けいけんちを もらった！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "battle-result",
+      "start": 6941,
+      "end": 6950,
+      "role": "battle_message",
+      "text": "976 けいけんちを もらった！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "battle-result",
+      "start": 6950,
+      "end": 6958,
+      "role": "battle_message",
+      "text": "976 けいけんちを もらった！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1634,
+      "end": 1638,
+      "role": "pc_prompt",
+      "text": "なにを しますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1638,
+      "end": 1649,
+      "role": "pc_prompt",
+      "text": "なにを しますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1659,
+      "end": 1660,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1660,
+      "end": 1661,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1661,
+      "end": 1673,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1673,
+      "end": 1674,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1674,
+      "end": 1688,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1688,
+      "end": 1689,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1689,
+      "end": 1697,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1697,
+      "end": 1698,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1698,
+      "end": 1706,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1706,
+      "end": 1707,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1707,
+      "end": 1708,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1708,
+      "end": 1714,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1714,
+      "end": 1716,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1716,
+      "end": 1724,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1724,
+      "end": 1725,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1725,
+      "end": 1731,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1731,
+      "end": 1732,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1736,
+      "end": 1737,
+      "role": "pc_prompt",
+      "text": "なにを しますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1737,
+      "end": 1747,
+      "role": "pc_prompt",
+      "text": "なにを しますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "start": 1044,
+      "end": 1048,
+      "role": "shop_prompt",
+      "text": "おちからに なれることは？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "start": 1048,
+      "end": 1056,
+      "role": "shop_prompt",
+      "text": "おちからに なれることは？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "start": 1056,
+      "end": 1057,
+      "role": "shop_prompt",
+      "text": "おちからに なれることは？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "start": 1063,
+      "end": 1068,
+      "role": "shop_prompt",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "start": 1068,
+      "end": 1069,
+      "role": "shop_prompt",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "start": 1069,
+      "end": 1070,
+      "role": "shop_prompt",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "start": 1070,
+      "end": 1082,
+      "role": "shop_prompt",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "start": 1082,
+      "end": 1092,
+      "role": "shop_prompt",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "start": 1092,
+      "end": 1096,
+      "role": "shop_prompt",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "start": 1096,
+      "end": 1102,
+      "role": "shop_prompt",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "shop-rejection",
+      "start": 1408,
+      "end": 1413,
+      "role": "shop_message",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "skills-turn",
+      "start": 17493,
+      "end": 17503,
+      "role": "battle_message",
+      "text": "のしかかり こうげき！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "skills-turn",
+      "start": 17503,
+      "end": 17505,
+      "role": "battle_message",
+      "text": "のしかかり こうげき！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "skills-turn",
+      "start": 17505,
+      "end": 17508,
+      "role": "battle_message",
+      "text": "のしかかり こうげき！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "skills-turn",
+      "start": 17508,
+      "end": 17509,
+      "role": "battle_message",
+      "text": "のしかかり こうげき！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "skills-turn",
+      "start": 17509,
+      "end": 17533,
+      "role": "battle_message",
+      "text": "のしかかり こうげき！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "skills-turn",
+      "start": 17539,
+      "end": 17549,
+      "role": "battle_message",
+      "text": "とっしん！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "skills-turn",
+      "start": 17557,
+      "end": 17558,
+      "role": "battle_message",
+      "text": "こうげきは はずれた！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "skills-turn",
+      "start": 17558,
+      "end": 17561,
+      "role": "battle_message",
+      "text": "こうげきは はずれた！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1450,
+      "end": 1451,
+      "role": "dialogue_line",
+      "text": "おちからに なれることは？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1451,
+      "end": 1462,
+      "role": "dialogue_line",
+      "text": "おちからに なれることは？",
+      "codepoint": "U+FF1F"
+    },
+    {
+      "clip": "pc-connect",
+      "start": 1411,
+      "end": 1422,
+      "role": "dialogue_line",
+      "text": "じぶんの パソコンと つないだ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5286,
+      "end": 5296,
+      "role": "dialogue_line",
+      "text": "キョウ にんてい トレーナー！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5296,
+      "end": 5298,
+      "role": "dialogue_line",
+      "text": "キョウ にんてい トレーナー！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5298,
+      "end": 5299,
+      "role": "dialogue_line",
+      "text": "キョウ にんてい トレーナー！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "bill-data-npc",
+      "start": 4598,
+      "end": 4616,
+      "role": "dialogue",
+      "text": "パソコンの データに してるよ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "bill-data-npc",
+      "start": 4627,
+      "end": 4648,
+      "role": "dialogue",
+      "text": "みせて もらった?",
+      "codepoint": "U+3F"
+    },
+    {
+      "clip": "bill-grandfather",
+      "start": 4717,
+      "end": 4718,
+      "role": "dialogue",
+      "text": "おや? あ",
+      "codepoint": "U+3F"
+    },
+    {
+      "clip": "bill-grandfather",
+      "start": 4718,
+      "end": 4719,
+      "role": "dialogue",
+      "text": "おや? あんた",
+      "codepoint": "U+3F"
+    },
+    {
+      "clip": "bill-grandfather",
+      "start": 4719,
+      "end": 4721,
+      "role": "dialogue",
+      "text": "おや? あんた",
+      "codepoint": "U+3F"
+    },
+    {
+      "clip": "bill-grandfather",
+      "start": 4721,
+      "end": 4722,
+      "role": "dialogue",
+      "text": "おや? あんた",
+      "codepoint": "U+3F"
+    },
+    {
+      "clip": "bill-grandfather",
+      "start": 4722,
+      "end": 4723,
+      "role": "dialogue",
+      "text": "おや? あんた",
+      "codepoint": "U+3F"
+    },
+    {
+      "clip": "bill-grandfather",
+      "start": 4723,
+      "end": 4724,
+      "role": "dialogue",
+      "text": "おや? あんた",
+      "codepoint": "U+3F"
+    },
+    {
+      "clip": "bill-grandfather",
+      "start": 4724,
+      "end": 4726,
+      "role": "dialogue",
+      "text": "おや? あんた",
+      "codepoint": "U+3F"
+    },
+    {
+      "clip": "bill-grandfather",
+      "start": 4726,
+      "end": 4740,
+      "role": "dialogue",
+      "text": "おや? あんた",
+      "codepoint": "U+3F"
+    },
+    {
+      "clip": "bill-grandfather",
+      "start": 4726,
+      "end": 4740,
+      "role": "dialogue",
+      "text": "マサキの ことを しっとるのかね?",
+      "codepoint": "U+3F"
+    },
+    {
+      "clip": "bill-grandfather",
+      "start": 4753,
+      "end": 4771,
+      "role": "dialogue",
+      "text": "マサキは わしの まごじゃ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "bill-grandfather",
+      "start": 4807,
+      "end": 4828,
+      "role": "dialogue",
+      "text": "こども じゃった！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "gym-sign-continuation",
+      "start": 5299,
+      "end": 5300,
+      "role": "dialogue",
+      "text": "キョウ にんてい トレーナー！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "gym-sign-continuation",
+      "start": 5300,
+      "end": 5302,
+      "role": "dialogue",
+      "text": "キョウ にんてい トレーナー！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "gym-sign-continuation",
+      "start": 5302,
+      "end": 5303,
+      "role": "dialogue",
+      "text": "キョウ にんてい トレーナー！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "gym-sign-continuation",
+      "start": 5303,
+      "end": 5320,
+      "role": "dialogue",
+      "text": "キョウ にんてい トレーナー！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "intro-creatures",
+      "start": 6299,
+      "end": 6318,
+      "role": "dialogue",
+      "text": "いたるところに すんでいる！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "intro-creatures",
+      "start": 6318,
+      "end": 6320,
+      "role": "dialogue",
+      "text": "いたるところに すんでいる！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "intro-greeting",
+      "start": 6065,
+      "end": 6066,
+      "role": "dialogue",
+      "text": "はじめまして！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "intro-greeting",
+      "start": 6066,
+      "end": 6068,
+      "role": "dialogue",
+      "text": "はじめまして！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "intro-greeting",
+      "start": 6068,
+      "end": 6069,
+      "role": "dialogue",
+      "text": "はじめまして！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "intro-greeting",
+      "start": 6069,
+      "end": 6071,
+      "role": "dialogue",
+      "text": "はじめまして！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "intro-greeting",
+      "start": 6071,
+      "end": 6072,
+      "role": "dialogue",
+      "text": "はじめまして！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "intro-greeting",
+      "start": 6072,
+      "end": 6095,
+      "role": "dialogue",
+      "text": "はじめまして！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "intro-greeting",
+      "start": 6095,
+      "end": 6116,
+      "role": "dialogue",
+      "text": "はじめまして！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "intro-greeting",
+      "start": 6116,
+      "end": 6137,
+      "role": "dialogue",
+      "text": "はじめまして！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "intro-greeting",
+      "start": 6137,
+      "end": 6139,
+      "role": "dialogue",
+      "text": "はじめまして！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "intro-greeting",
+      "start": 6139,
+      "end": 6142,
+      "role": "dialogue",
+      "text": "はしめまして！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "intro-greeting",
+      "start": 6146,
+      "end": 6163,
+      "role": "dialogue",
+      "text": "ようこそ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13439,
+      "end": 13441,
+      "role": "dialogue",
+      "text": "オーキド『まー！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13441,
+      "end": 13442,
+      "role": "dialogue",
+      "text": "オーキド『まー！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13442,
+      "end": 13444,
+      "role": "dialogue",
+      "text": "オーキド『まー！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13444,
+      "end": 13467,
+      "role": "dialogue",
+      "text": "オーキド『まー！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13444,
+      "end": 13467,
+      "role": "dialogue",
+      "text": "あわてるな グリーン！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13467,
+      "end": 13470,
+      "role": "dialogue",
+      "text": "オーキト『まー！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13467,
+      "end": 13470,
+      "role": "dialogue",
+      "text": "あわてるな グリーン！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13470,
+      "end": 13471,
+      "role": "dialogue",
+      "text": "あわてるな グリーン！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13471,
+      "end": 13473,
+      "role": "dialogue",
+      "text": "あわてるな グリーン！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13473,
+      "end": 13474,
+      "role": "dialogue",
+      "text": "あわてるな グリーン！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13474,
+      "end": 13476,
+      "role": "dialogue",
+      "text": "あわてるな グリーン！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13476,
+      "end": 13477,
+      "role": "dialogue",
+      "text": "あわてるな グリーン！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13477,
+      "end": 13479,
+      "role": "dialogue",
+      "text": "あわてるな グリーン！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13479,
+      "end": 13506,
+      "role": "dialogue",
+      "text": "あわてるな グリーン！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-oak-reply",
+      "start": 13479,
+      "end": 13506,
+      "role": "dialogue",
+      "text": "おまえも すきなものを とれ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-rival-demand",
+      "start": 13382,
+      "end": 13384,
+      "role": "dialogue",
+      "text": "グリーン『あっ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-rival-demand",
+      "start": 13384,
+      "end": 13385,
+      "role": "dialogue",
+      "text": "グリーン『あっ！ ずる",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-rival-demand",
+      "start": 13385,
+      "end": 13387,
+      "role": "dialogue",
+      "text": "グリーン『あっ！ ずるい！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-rival-demand",
+      "start": 13387,
+      "end": 13389,
+      "role": "dialogue",
+      "text": "グリーン『あっ！ ずるい！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-rival-demand",
+      "start": 13389,
+      "end": 13390,
+      "role": "dialogue",
+      "text": "グリーン『あっ！ ずるい！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-rival-demand",
+      "start": 13389,
+      "end": 13390,
+      "role": "dialogue",
+      "text": "じいさん！ お",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-rival-demand",
+      "start": 13390,
+      "end": 13391,
+      "role": "dialogue",
+      "text": "グリーン『あっ！ ずるい！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-rival-demand",
+      "start": 13390,
+      "end": 13391,
+      "role": "dialogue",
+      "text": "じいさん！ おれにも",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-rival-demand",
+      "start": 13391,
+      "end": 13393,
+      "role": "dialogue",
+      "text": "グリーン『あっ！ ずるい！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-rival-demand",
+      "start": 13391,
+      "end": 13393,
+      "role": "dialogue",
+      "text": "じいさん！ おれにも くれ",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-rival-demand",
+      "start": 13393,
+      "end": 13414,
+      "role": "dialogue",
+      "text": "グリーン『あっ！ ずるい！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "lab-rival-demand",
+      "start": 13393,
+      "end": 13414,
+      "role": "dialogue",
+      "text": "じいさん！ おれにも くれよお！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1610,
+      "end": 1630,
+      "role": "dialogue",
+      "text": "ひとりずつ たたかうの！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1630,
+      "end": 1632,
+      "role": "dialogue",
+      "text": "ひとりずつ たたかうの！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1632,
+      "end": 1633,
+      "role": "dialogue",
+      "text": "ひとりずつ たたかうの！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1633,
+      "end": 1635,
+      "role": "dialogue",
+      "text": "ひとりずつ たたかうの！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1635,
+      "end": 1636,
+      "role": "dialogue",
+      "text": "ひとりずつ たたかうの！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1636,
+      "end": 1638,
+      "role": "dialogue",
+      "text": "ひとりずつ たたかうの！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1638,
+      "end": 1639,
+      "role": "dialogue",
+      "text": "ひとりずつ たたかうの！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1639,
+      "end": 1640,
+      "role": "dialogue",
+      "text": "ひとりずつ たたかうの！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1640,
+      "end": 1641,
+      "role": "dialogue",
+      "text": "ひとりずつ たたかうの！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1641,
+      "end": 1662,
+      "role": "dialogue",
+      "text": "ひとりずつ たたかうの！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1662,
+      "end": 1664,
+      "role": "dialogue",
+      "text": "ひとりすつ たたかうの！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1671,
+      "end": 1692,
+      "role": "dialogue",
+      "text": "おくの へやに すすめるわ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1692,
+      "end": 1693,
+      "role": "dialogue",
+      "text": "おくの へやに すすめるわ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1693,
+      "end": 1696,
+      "role": "dialogue",
+      "text": "おくの へやに すすめるわ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1696,
+      "end": 1698,
+      "role": "dialogue",
+      "text": "おくの へやに すすめるわ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1698,
+      "end": 1699,
+      "role": "dialogue",
+      "text": "おくの へやに すすめるわ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1699,
+      "end": 1730,
+      "role": "dialogue",
+      "text": "おくの へやに すすめるわ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "league-centre-npc",
+      "start": 1699,
+      "end": 1730,
+      "role": "dialogue",
+      "text": "がんばって！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "mart-child",
+      "start": 588,
+      "end": 589,
+      "role": "dialogue",
+      "text": "わあ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "mart-child",
+      "start": 589,
+      "end": 590,
+      "role": "dialogue",
+      "text": "わあ！ ポケモ",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "mart-child",
+      "start": 590,
+      "end": 591,
+      "role": "dialogue",
+      "text": "わあ！ ポケモングッ",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "mart-child",
+      "start": 591,
+      "end": 592,
+      "role": "dialogue",
+      "text": "わあ！ ポケモングッズが",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "mart-child",
+      "start": 592,
+      "end": 594,
+      "role": "dialogue",
+      "text": "わあ！ ポケモングッズが",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "mart-child",
+      "start": 594,
+      "end": 595,
+      "role": "dialogue",
+      "text": "わあ！ ポケモングッズが",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "mart-child",
+      "start": 595,
+      "end": 596,
+      "role": "dialogue",
+      "text": "わあ！ ポケモングッズが",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "mart-child",
+      "start": 596,
+      "end": 631,
+      "role": "dialogue",
+      "text": "わあ！ ポケモングッズが",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "mart-child",
+      "start": 596,
+      "end": 631,
+      "role": "dialogue",
+      "text": "たくさん そろってるぞ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-fee",
+      "start": 3808,
+      "end": 3810,
+      "role": "dialogue",
+      "text": "ここだよ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-fee",
+      "start": 3810,
+      "end": 3811,
+      "role": "dialogue",
+      "text": "ここだよ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-fee",
+      "start": 3811,
+      "end": 3812,
+      "role": "dialogue",
+      "text": "ここだよ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-fee",
+      "start": 3812,
+      "end": 3825,
+      "role": "dialogue",
+      "text": "ここだよ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-fee",
+      "start": 3825,
+      "end": 3828,
+      "role": "dialogue",
+      "text": "ここたよ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-fee",
+      "start": 3859,
+      "end": 3879,
+      "role": "dialogue",
+      "text": "じゃ……！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-fee",
+      "start": 3879,
+      "end": 3882,
+      "role": "dialogue",
+      "text": "じゃ……！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-fee",
+      "start": 3882,
+      "end": 3884,
+      "role": "dialogue",
+      "text": "じゃ……！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-fee",
+      "start": 3884,
+      "end": 3886,
+      "role": "dialogue",
+      "text": "じゃ……！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-fee",
+      "start": 3886,
+      "end": 3888,
+      "role": "dialogue",
+      "text": "じゃ……！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-fee",
+      "start": 3888,
+      "end": 3889,
+      "role": "dialogue",
+      "text": "じゃ……！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-fee",
+      "start": 3889,
+      "end": 3913,
+      "role": "dialogue",
+      "text": "じゃ……！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-fee",
+      "start": 3889,
+      "end": 3913,
+      "role": "dialogue",
+      "text": "ぼくは ここで！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-question",
+      "start": 3541,
+      "end": 3542,
+      "role": "dialogue",
+      "text": "はくぶつかん けんがくした?",
+      "codepoint": "U+3F"
+    },
+    {
+      "clip": "museum-question",
+      "start": 3542,
+      "end": 3572,
+      "role": "dialogue",
+      "text": "はくぶつかん けんがくした?",
+      "codepoint": "U+3F"
+    },
+    {
+      "clip": "museum-question",
+      "start": 3572,
+      "end": 3588,
+      "role": "dialogue",
+      "text": "はくぶつかん けんがくした?",
+      "codepoint": "U+3F"
+    },
+    {
+      "clip": "museum-question",
+      "start": 3590,
+      "end": 3592,
+      "role": "dialogue",
+      "text": "え……！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-question",
+      "start": 3592,
+      "end": 3593,
+      "role": "dialogue",
+      "text": "え……！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-question",
+      "start": 3593,
+      "end": 3594,
+      "role": "dialogue",
+      "text": "え……！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-question",
+      "start": 3594,
+      "end": 3604,
+      "role": "dialogue",
+      "text": "え……！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-question",
+      "start": 3604,
+      "end": 3606,
+      "role": "dialogue",
+      "text": "え……！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "museum-question",
+      "start": 3612,
+      "end": 3628,
+      "role": "dialogue",
+      "text": "いった ほうが いい！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-greeting",
+      "start": 1837,
+      "end": 1838,
+      "role": "dialogue",
+      "text": "ようこそ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-greeting",
+      "start": 1838,
+      "end": 1840,
+      "role": "dialogue",
+      "text": "ようこそ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-greeting",
+      "start": 1840,
+      "end": 1841,
+      "role": "dialogue",
+      "text": "ようこそ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-greeting",
+      "start": 1841,
+      "end": 1852,
+      "role": "dialogue",
+      "text": "ようこそ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-intake",
+      "start": 1929,
+      "end": 2088,
+      "role": "dialogue",
+      "text": "あずからせて いただきます！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-return",
+      "start": 2093,
+      "end": 2094,
+      "role": "dialogue",
+      "text": "おまちどうさまでした！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-return",
+      "start": 2094,
+      "end": 2095,
+      "role": "dialogue",
+      "text": "おまちどうさまでした！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-return",
+      "start": 2095,
+      "end": 2096,
+      "role": "dialogue",
+      "text": "おまちどうさまでした！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-return",
+      "start": 2096,
+      "end": 2098,
+      "role": "dialogue",
+      "text": "おまちどうさまでした！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-return",
+      "start": 2098,
+      "end": 2099,
+      "role": "dialogue",
+      "text": "おまちどうさまでした！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-return",
+      "start": 2099,
+      "end": 2114,
+      "role": "dialogue",
+      "text": "おまちどうさまでした！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-return",
+      "start": 2114,
+      "end": 2116,
+      "role": "dialogue",
+      "text": "おまちとうさまてした！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-return",
+      "start": 2124,
+      "end": 2145,
+      "role": "dialogue",
+      "text": "みんな げんきに なりましたよ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-return",
+      "start": 2145,
+      "end": 2153,
+      "role": "dialogue",
+      "text": "みんな げんきに なりましたよ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "nurse-return",
+      "start": 2172,
+      "end": 2187,
+      "role": "dialogue",
+      "text": "ごりようを おまちしてます！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "oak-delivery",
+      "start": 24227,
+      "end": 24289,
+      "role": "dialogue",
+      "text": "とどけものを わたした！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "oak-delivery",
+      "start": 24289,
+      "end": 24316,
+      "role": "dialogue",
+      "text": "とどけものを わたした！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "route-ledge-npc",
+      "start": 6442,
+      "end": 6458,
+      "role": "dialogue",
+      "text": "みちに だんさが あるだろ！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "route-pp-sign",
+      "start": 6696,
+      "end": 6697,
+      "role": "dialogue",
+      "text": "…… おとくな けいじばん！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "route-pp-sign",
+      "start": 6697,
+      "end": 6717,
+      "role": "dialogue",
+      "text": "…… おとくな けいじばん！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "route-pp-sign",
+      "start": 6717,
+      "end": 6719,
+      "role": "dialogue",
+      "text": "…… おとくな けいじばん！",
+      "codepoint": "U+FF01"
+    },
+    {
+      "clip": "route-pp-sign",
+      "start": 6825,
+      "end": 6845,
+      "role": "dialogue",
+      "text": "ポケモンセンターで やすませて！",
+      "codepoint": "U+FF01"
+    }
+  ],
+  "limitation": "Vocabulary variation alone is not proof of a GT error. Resolve from original images, renderer semantics and fixed contract before any correction."
+}

@@ -1,0 +1,18 @@
+'use strict';
+const fs=require('fs'),path=require('path'),crypto=require('crypto'),assert=require('assert/strict');
+const out=process.argv[2];assert(out&&!fs.existsSync(out));
+const json=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+function sha(p){const h=crypto.createHash('sha256'),fd=fs.openSync(p,'r'),buf=Buffer.alloc(1048576);try{let n;while((n=fs.readSync(fd,buf,0,buf.length,null)))h.update(buf.subarray(0,n));}finally{fs.closeSync(fd);}return h.digest('hex');}
+const before='reports/m3-grid-refinement-v1/packed-render-units-fix-v1/delivery',r=json(before+'/report.json'),inputs=new Map(r.inputs.map(f=>[f.path,f.sha256]));
+for(const f of json(before+'/manifest.json').files)inputs.set(before+'/'+f.file,f.sha256);inputs.set(before+'/manifest.json',sha(before+'/manifest.json'));
+for(const[p,h]of inputs)assert.equal(sha(p),h,p);
+fs.mkdirSync(out,{recursive:true});
+const walk=p=>fs.readdirSync(p,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(p,e.name)):[path.join(p,e.name)]);
+const paths=[...walk('app/src'),...walk('verification/src'),...walk('app/target/classes'),...walk('verification/target/classes'),...walk('app/target/surefire-reports'),...walk('verification/target/surefire-reports'),'app/target/g1-ocr-app-0.1.0-SNAPSHOT.jar','verification/target/g1-ocr-verification-0.1.0-SNAPSHOT.jar'];
+const copies=[];for(let p of paths){p=p.replaceAll('\\','/');const saved=out+'/baseline/'+p;fs.mkdirSync(path.dirname(saved),{recursive:true});fs.copyFileSync(p,saved,fs.constants.COPYFILE_EXCL);assert.equal(sha(p),sha(saved));copies.push({path:p,saved,sha256:sha(p)});}
+const protocol={beforeRun:'reports/m3-grid-refinement-v1/ocr-regression-all-v20',beforeDimensions:before,frozen:'data/gt/frozen/ocr-all-scenes-v2-observation-r14',originalStrictPages:7,pages:116,allRetainedReferences:3577,scoredReferences:3368,uniqueScoredOriginals:3361,completeOriginals:2045,transitionOriginals:1316,
+  pcClosing:{candidate:1,budget:3,positive:'Previously fully enclosed child with a selected item; now surviving upper child outline/row and restored closed parent below, no active child selection.',negative:['cold start or opening','unchanged complete child','missing boundary without restored parent','fully gone child','reset/reversed clock/timebase/size/layout changes'],allowed:'State kind only plus directly derived readiness; preserve all fields/candidates/marks/symbols/geometry and source timeline.',targets:['pc-deposit-navigation'],similar:['backpack-navigation','backpack-opening','shop-buy-navigation','shop-sell-entry','pc-connect','pc-exit'],regression:'all38 clips, all116 pages and1316 transition originals'},
+  geometry:{status:'existing route budget3/3; additional joint-frame experiment awaiting explicit user authorization',priorFailuresPreserved:true},
+  invariants:['No GT, legacy scorer, original media, selected-frame or threshold changes','No fixed messages, frame indexes, source identity or future frames enter runtime','Retain residual triggers0, other transition triggers<=2, original20 gains and short-page behavior','Significant original strict improvement must come from actual new output, never relabel diagnostic dimensions as strict','Preserve old source/class/JAR/test XML bytes before build']};
+fs.writeFileSync(out+'/preparation.json',JSON.stringify({protocol,inputs:[...inputs].map(([path,sha256])=>({path,sha256})),copies,plan:{path:'.agent/EXECPLAN.md',sha256:sha('.agent/EXECPLAN.md')},tool:{path:__filename,sha256:sha(__filename)}},null,2)+'\n',{flag:'wx'});
+console.log(JSON.stringify({out,verified:inputs.size,archived:copies.length,liveTestXmlArchived:copies.filter(c=>c.path.endsWith('.xml')).length}));

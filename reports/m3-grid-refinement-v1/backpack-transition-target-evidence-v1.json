@@ -1,0 +1,127 @@
+{
+  "evidence": [
+    {
+      "clip": "backpack-opening",
+      "frames": 38,
+      "oldSha256": "863f8ad4a9fdf9c3d58672d9825cdcedb7db7dc4d5719bf660b41ff448e15412",
+      "currentSha256": "123caedeb1eac9eff7bc56d705707b09c552e70967ba65524a45de86db539e0a",
+      "changes": [
+        {
+          "frame": 5205,
+          "old": "menu_complete",
+          "current": "submenu_cursor_loading"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frames": 166,
+      "oldSha256": "eda79148a04a2e5d5bdd8cadd75f9a6f16fe2ac237e40384dadb6f0e28c53c54",
+      "currentSha256": "0862badc9e2452b6f59ca11ae90c9d7ff905c82a69b610a30887e29a4007df32",
+      "changes": [
+        {
+          "frame": 5205,
+          "old": "menu_complete",
+          "current": "submenu_cursor_loading"
+        },
+        {
+          "frame": 5241,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5251,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5260,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5270,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5282,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5301,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5302,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5304,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5306,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5307,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5309,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5311,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5313,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5316,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5330,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5345,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5347,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5349,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        },
+        {
+          "frame": 5351,
+          "old": "menu_complete",
+          "current": "menu_redraw_or_cursor_transition"
+        }
+      ]
+    }
+  ],
+  "testLogSha256": "768a4e55e695a0a843c0f0b82df063ab44b9f05d3ee22b9d699ae21d9150e7ef",
+  "notIndependentAcceptance": true
+}

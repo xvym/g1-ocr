@@ -1,0 +1,34 @@
+{
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "mediaId": "video-01",
+  "pageOpportunityPolicy": "explicit_id",
+  "selectionReason": "Original-source navigation selected this naturally bounded speech block before OCR exists. All original pre-loading, visible loading/complete/scroll/clear and ending after-state frames retained; details and corrected boundaries in both manual reads and differences.",
+  "set": "development",
+  "gt": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-creatures/ocr-candidate-v1.jsonl",
+  "postContext": [
+    6322,
+    6324
+  ],
+  "scoredRange": [
+    6248,
+    6322
+  ],
+  "startFrame": 6246,
+  "endFrameExclusive": 6324,
+  "timeBase": "1/30",
+  "scoreKind": "text_and_state",
+  "eventType": "宝可梦与生物说明两页",
+  "scopeLimits": [
+    "Other dialogue and unselected source intervals remain unverified",
+    "Not independent acceptance; candidate GT only, no approval or OCR pass"
+  ],
+  "id": "f53c237ad19a-f6246-f6324-intro-creatures",
+  "frozen": false,
+  "independentSession": "unverified",
+  "warmup": [
+    6246,
+    6248
+  ],
+  "schemaVersion": 2,
+  "boundaryStatus": "agent_double_read_complete_candidate_not_frozen"
+}

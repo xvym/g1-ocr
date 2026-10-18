@@ -1,0 +1,157 @@
+{
+  "status": "original_review_supported_PC_role_correction_candidate_not_effective_freeze",
+  "authority": "如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论",
+  "results": [
+    {
+      "id": "pc-deposit-navigation",
+      "oldGt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/ocr-candidate-v3.jsonl",
+        "sha256": "9c47b795bbcc581f24875e46618328999f3316aa5f0ea59a53bca1b15d58e356"
+      },
+      "candidate": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v5/pc-deposit-navigation/ocr-candidate-role-v1.jsonl",
+        "sha256": "bebe6893906bdae28249ab61ced31c69249bbcef7da626184867d43a3ff867c5"
+      },
+      "changes": [
+        {
+          "start": 1749,
+          "end": 1750,
+          "region": "main1",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 1749,
+          "end": 1750,
+          "region": "main2",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 1750,
+          "end": 1754,
+          "region": "main1",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 1750,
+          "end": 1754,
+          "region": "main2",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 1750,
+          "end": 1754,
+          "region": "main3",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 1750,
+          "end": 1754,
+          "region": "main4",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 1750,
+          "end": 1754,
+          "region": "main5",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        }
+      ]
+    },
+    {
+      "id": "pc-exit",
+      "oldGt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/ocr-candidate-v1.jsonl",
+        "sha256": "2971936b34856a36608135879a00b10eb11bb0f46ceaabbd0f93e0f659b77c37"
+      },
+      "candidate": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v5/pc-exit/ocr-candidate-role-v1.jsonl",
+        "sha256": "b4c2cf523651bfcc590cce9f48319a7a4f3bf651dd71262b3593223b74c4d665"
+      },
+      "changes": [
+        {
+          "start": 2248,
+          "end": 2253,
+          "region": "main1",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 2248,
+          "end": 2253,
+          "region": "main2",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 2248,
+          "end": 2253,
+          "region": "main3",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 2248,
+          "end": 2253,
+          "region": "main4",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 2248,
+          "end": 2253,
+          "region": "main5",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        }
+      ]
+    }
+  ],
+  "affectedFrames": [
+    "pc-deposit-navigation:1749",
+    "pc-deposit-navigation:1750",
+    "pc-deposit-navigation:1751",
+    "pc-deposit-navigation:1752",
+    "pc-deposit-navigation:1753",
+    "pc-exit:2248",
+    "pc-exit:2249",
+    "pc-exit:2250",
+    "pc-exit:2251",
+    "pc-exit:2252"
+  ],
+  "reference": {
+    "clip": "pc-connect",
+    "state": "c83de914352e-f1379-f1387",
+    "reason": "Earlier source-time occurrence of the same five visible fields; this is a vocabulary reference, not proof from program output."
+  },
+  "unchanged": "All text, Unicode, positions, reading order, marks, cursors, kinds, page opportunities, boundaries and scoring rules. Only 12 region roles across 10 original frames change. Prior GT preserved.",
+  "evidence": [
+    {
+      "path": "reports/m3-grid-refinement-v1/pc-role-recheck-notes-v1/pass1.json",
+      "sha256": "bd36f1712b7d9da9934eddb307e11ad2c9122b608387eacebc907bd3699d2a37"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/pc-role-recheck-notes-v1/pass2.json",
+      "sha256": "6cc6e748b7a4b4802e37fc8a46bdc454db3d378aaabfd0643844a64093ee78ed"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/pc-role-recheck-notes-v1/pass-differences.json",
+      "sha256": "468bea3fb750399c2709e455454d9439ec001676a67338a4a799a0d1d0ce7d9d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/pc-role-recheck-notes-v1/extraction-check.json",
+      "sha256": "e2ce5078c58cb8a8d6215157e11b23c6c7b071e0a06bfd4cc2fa53e5e33931a2"
+    }
+  ],
+  "audit": {
+    "path": "reports/m3-grid-refinement-v1/pc-role-contract-r6-v1.json",
+    "sha256": "47301343c2a9ed31effcb36c062d36e3033d038720aae837ce5127cbe7e539ad"
+  },
+  "productAcceptance": false
+}

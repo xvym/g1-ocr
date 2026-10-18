@@ -1,0 +1,23 @@
+{
+  "schemaVersion":1,
+  "status":"candidate_contract_before_any_tested_ocr; freeze only with approved M2 materials",
+  "gtFields":["stateId","mediaId","mediaSha256","startFrame","endFrameExclusive","startPts","endPtsExclusive","timeBase","kind","completePage","regions","cursor","layoutRef","evidence","verificationStatus"],
+  "regionFields":["id","role","readingOrder","text","gridRect","sourceRect","markCells"],
+  "actualDriverFields":["sourceFrameIndex","sourcePts","timeBase","resultReceivedAt","rawRegions","correctedRegions","correctionEvidence","visibleState","uiObservedAt","uiObservationEvidence"],
+  "consumerInput":"RGB24, width, height, integer source PTS and positive rational time base only. Driver keeps source frame association outside app input; no GT, clip/split labels or answers in consumer.",
+  "textUnit":"UTF-8 NFC precomposed Japanese Unicode scalar values; U+0020 represents one blank glyph cell; U+FF01 exclamation. Keep small kana, numbers, punctuation and all spaces. No automatic normalization during scoring.",
+  "partiallyHiddenGlyphs":"Score current visible base glyph when its diacritic is clipped, with explicit renderNote and changed markCells/coordinates; do not restore marks from earlier/later frames. Trial frames 5296-5297 are ホ/シ, not ポ/ジ.",
+  "rectangles":"[left,top,right,bottom); gridRect is logical base-cell occupancy, sourceRect includes actually visible diacritic envelope. layoutRef freezes source-to-game mapping before OCR. Pixel border offsets are reported separately.",
+  "regionMatching":"Match by frozen field role, base grid starting row/column and reading order. Reject duplicate keys; do not choose by text similarity. Unmatched GT is deletion; unmatched actual is insertion. Wrong occupancy, role or visible marks makes position/page incorrect, even if text agrees.",
+  "characterErrors":"Per matched region use Levenshtein substitutions+deletions+insertions on Unicode scalars. Missing output is deletion, extra output is insertion. Frame accuracy=max(0,1-sum(errors)/sum(expectedCharacters)); all scored frames included.",
+  "equalStateAccuracy":"For each frozen continuous state divide accumulated frame errors and expected characters separately by its original frame count; sum these per-state averages then apply the same accuracy formula. Repeated occurrences remain separate states.",
+  "emptyFrames":"All empty/non-target frames are scored; extra text is explicit false-positive error and cannot disappear into a zero denominator. Unknown/conflict/unreviewed GT prevents freezing and is not accepted as empty.",
+  "pages":"An opportunity begins at first complete frame and ends at first replacement/removal frame; count opportunities equally, never weight by dwell time. Exact text, fields, positions, state and timely actual UI presentation required for page success. Loading/cursor/scroll/clear transitions are reported separately.",
+  "latency":"Use independent original frame time for onset and independently observed actual UI presentation/removal for endpoint. Require <=200ms and output while page still valid; sub-200ms pages remain opportunities. No observed UI evidence means pending, not zero latency. Report P50/P95/P99/max/timeouts/misses.",
+  "examplesNotProductAcceptance":[
+    {"expected":"キョ","actual":"キヨ","substitutions":1,"expectedCharacters":2,"reason":"small kana must not normalize"},
+    {"expected":"ポケモン","actual":"ホケモン","substitutions":1,"expectedCharacters":4,"reason":"visible handakuten must not disappear"},
+    {"expected":"206/206","actual":"206/20","deletions":1,"expectedCharacters":7},
+    {"expected":"","actual":"あ","falsePositiveInsertions":1,"emptyFrameFailure":true}
+  ]
+}

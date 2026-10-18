@@ -1,0 +1,1420 @@
+{
+  "status": "candidate_not_effective_freeze",
+  "helper": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\prepare-pc-cursor-correction.cjs",
+    "sha256": "b37a73a06f77d0a42fa9273710a44bfc469527e4028fe759a9506877b623cd7b"
+  },
+  "audit": {
+    "path": "reports/m3-grid-refinement-v1/pc-cursor-notes-v1/frozen-comparison.json",
+    "sha256": "f11fb6d727520458199f4cb667c147e8d63ac3ef14d0f2362ca26a051533979d"
+  },
+  "input": {
+    "kind": "gt",
+    "path": "data/gt/candidates/ocr-observation-corrections-v5/pc-deposit-navigation/ocr-candidate-role-v1.jsonl",
+    "sha256": "bebe6893906bdae28249ab61ced31c69249bbcef7da626184867d43a3ff867c5",
+    "expectedSha256": "bebe6893906bdae28249ab61ced31c69249bbcef7da626184867d43a3ff867c5"
+  },
+  "candidate": {
+    "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+    "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+  },
+  "changes": [
+    {
+      "frame": 1673,
+      "before": {
+        "schemaVersion": 2,
+        "stateId": "c83de914352e-f1673-f1674",
+        "mediaId": "video-02",
+        "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+        "startFrame": 1673,
+        "endFrameExclusive": 1674,
+        "startPts": 856576,
+        "endPtsExclusive": 857088,
+        "timeBase": "1/12288",
+        "kind": "cursor_transition",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "p1",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 0,
+            "text": "どう",
+            "gridRect": [
+              2,
+              2,
+              4,
+              3
+            ],
+            "sourceRect": [
+              336,
+              126,
+              372,
+              162
+            ],
+            "markCells": [
+              {
+                "gridRow": 1,
+                "gridColumn": 2,
+                "kind": "dakuten"
+              }
+            ]
+          },
+          {
+            "id": "p2",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 1,
+            "text": "どう",
+            "gridRect": [
+              2,
+              4,
+              4,
+              5
+            ],
+            "sourceRect": [
+              336,
+              162,
+              372,
+              198
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 2,
+                "kind": "dakuten"
+              }
+            ]
+          },
+          {
+            "id": "p3",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 2,
+            "text": "どう",
+            "gridRect": [
+              2,
+              6,
+              4,
+              7
+            ],
+            "sourceRect": [
+              336,
+              198,
+              372,
+              234
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 2,
+                "kind": "dakuten"
+              }
+            ]
+          },
+          {
+            "id": "p4",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 3,
+            "text": "スイ",
+            "gridRect": [
+              2,
+              8,
+              4,
+              9
+            ],
+            "sourceRect": [
+              336,
+              252,
+              372,
+              270
+            ],
+            "markCells": []
+          },
+          {
+            "id": "item-0",
+            "role": "item_name",
+            "readingOrder": 4,
+            "text": "じてんしゃ",
+            "gridRect": [
+              6,
+              4,
+              11,
+              5
+            ],
+            "sourceRect": [
+              408,
+              162,
+              498,
+              198
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "じてんしゃ"
+            }
+          },
+          {
+            "id": "item-1",
+            "role": "item_name",
+            "readingOrder": 5,
+            "text": "ポケモンのふえ",
+            "gridRect": [
+              6,
+              6,
+              13,
+              7
+            ],
+            "sourceRect": [
+              408,
+              198,
+              534,
+              234
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "ポケモンのふえ"
+            }
+          },
+          {
+            "id": "item-2",
+            "role": "item_name",
+            "readingOrder": 6,
+            "text": "いいつりざお",
+            "gridRect": [
+              6,
+              8,
+              12,
+              9
+            ],
+            "sourceRect": [
+              408,
+              234,
+              516,
+              270
+            ],
+            "markCells": [
+              {
+                "gridRow": 7,
+                "gridColumn": 10,
+                "kind": "dakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "いいつりざお"
+            }
+          },
+          {
+            "id": "item-3",
+            "role": "item_name",
+            "readingOrder": 7,
+            "text": "ボロのつりざお",
+            "gridRect": [
+              6,
+              10,
+              13,
+              11
+            ],
+            "sourceRect": [
+              408,
+              270,
+              534,
+              306
+            ],
+            "markCells": [
+              {
+                "gridRow": 9,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              },
+              {
+                "gridRow": 9,
+                "gridColumn": 11,
+                "kind": "dakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "ボロのつりざお"
+            }
+          },
+          {
+            "id": "prompt",
+            "role": "pc_prompt",
+            "readingOrder": 8,
+            "text": "なにを あずけますか？",
+            "gridRect": [
+              1,
+              14,
+              12,
+              15
+            ],
+            "sourceRect": [
+              318,
+              342,
+              516,
+              378
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              }
+            ]
+          }
+        ],
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "outline_right",
+              "gridRect": [
+                1,
+                4,
+                2,
+                5
+              ],
+              "sourceRect": [
+                318,
+                180,
+                336,
+                198
+              ]
+            }
+          ],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v2.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "data/gt/candidates/ocr-all-scenes-v1/pc-deposit-navigation/manual-pass2-v2.json",
+          "originalFrames": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1",
+          "outputIndependence": "No tested OCR or production translation exists",
+          "humanPerFrameVerification": "not claimed"
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              4,
+              1,
+              5,
+              2
+            ],
+            "renderNote": "Only upper mark cell remains above child redraw boundary; base fully hidden, no historical kana restored",
+            "sourceRect": [
+              372,
+              126,
+              390,
+              144
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              9,
+              1,
+              10,
+              2
+            ],
+            "renderNote": "Only upper mark cell remains above child redraw boundary; base fully hidden, no historical kana restored",
+            "sourceRect": [
+              462,
+              126,
+              480,
+              144
+            ]
+          }
+        ]
+      },
+      "after": {
+        "schemaVersion": 2,
+        "stateId": "c83de914352e-f1673-f1674",
+        "mediaId": "video-02",
+        "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+        "startFrame": 1673,
+        "endFrameExclusive": 1674,
+        "startPts": 856576,
+        "endPtsExclusive": 857088,
+        "timeBase": "1/12288",
+        "kind": "menu_complete",
+        "completePage": true,
+        "regions": [
+          {
+            "id": "p1",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 0,
+            "text": "どう",
+            "gridRect": [
+              2,
+              2,
+              4,
+              3
+            ],
+            "sourceRect": [
+              336,
+              126,
+              372,
+              162
+            ],
+            "markCells": [
+              {
+                "gridRow": 1,
+                "gridColumn": 2,
+                "kind": "dakuten"
+              }
+            ]
+          },
+          {
+            "id": "p2",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 1,
+            "text": "どう",
+            "gridRect": [
+              2,
+              4,
+              4,
+              5
+            ],
+            "sourceRect": [
+              336,
+              162,
+              372,
+              198
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 2,
+                "kind": "dakuten"
+              }
+            ]
+          },
+          {
+            "id": "p3",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 2,
+            "text": "どう",
+            "gridRect": [
+              2,
+              6,
+              4,
+              7
+            ],
+            "sourceRect": [
+              336,
+              198,
+              372,
+              234
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 2,
+                "kind": "dakuten"
+              }
+            ]
+          },
+          {
+            "id": "p4",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 3,
+            "text": "スイ",
+            "gridRect": [
+              2,
+              8,
+              4,
+              9
+            ],
+            "sourceRect": [
+              336,
+              252,
+              372,
+              270
+            ],
+            "markCells": []
+          },
+          {
+            "id": "item-0",
+            "role": "item_name",
+            "readingOrder": 4,
+            "text": "じてんしゃ",
+            "gridRect": [
+              6,
+              4,
+              11,
+              5
+            ],
+            "sourceRect": [
+              408,
+              162,
+              498,
+              198
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "じてんしゃ"
+            }
+          },
+          {
+            "id": "item-1",
+            "role": "item_name",
+            "readingOrder": 5,
+            "text": "ポケモンのふえ",
+            "gridRect": [
+              6,
+              6,
+              13,
+              7
+            ],
+            "sourceRect": [
+              408,
+              198,
+              534,
+              234
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "ポケモンのふえ"
+            }
+          },
+          {
+            "id": "item-2",
+            "role": "item_name",
+            "readingOrder": 6,
+            "text": "いいつりざお",
+            "gridRect": [
+              6,
+              8,
+              12,
+              9
+            ],
+            "sourceRect": [
+              408,
+              234,
+              516,
+              270
+            ],
+            "markCells": [
+              {
+                "gridRow": 7,
+                "gridColumn": 10,
+                "kind": "dakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "いいつりざお"
+            }
+          },
+          {
+            "id": "item-3",
+            "role": "item_name",
+            "readingOrder": 7,
+            "text": "ボロのつりざお",
+            "gridRect": [
+              6,
+              10,
+              13,
+              11
+            ],
+            "sourceRect": [
+              408,
+              270,
+              534,
+              306
+            ],
+            "markCells": [
+              {
+                "gridRow": 9,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              },
+              {
+                "gridRow": 9,
+                "gridColumn": 11,
+                "kind": "dakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "ボロのつりざお"
+            }
+          },
+          {
+            "id": "prompt",
+            "role": "pc_prompt",
+            "readingOrder": 8,
+            "text": "なにを あずけますか？",
+            "gridRect": [
+              1,
+              14,
+              12,
+              15
+            ],
+            "sourceRect": [
+              318,
+              342,
+              516,
+              378
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              }
+            ]
+          }
+        ],
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "outline_right",
+              "gridRect": [
+                1,
+                4,
+                2,
+                5
+              ],
+              "sourceRect": [
+                318,
+                180,
+                336,
+                198
+              ]
+            },
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                4,
+                6,
+                5
+              ],
+              "sourceRect": [
+                390,
+                180,
+                408,
+                198
+              ]
+            }
+          ],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v2.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "reports/m3-grid-refinement-v1/pc-cursor-notes-v1/pass2.json",
+          "originalFrames": "data/frames/video-02/pc-cursor-pass2-v1",
+          "humanPerFrameVerification": "not claimed",
+          "outputIndependence": "Full124-frame double read with GT/actual closed; prior diagnostic and same-agent memory exposure disclosed. Not independent acceptance."
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              4,
+              1,
+              5,
+              2
+            ],
+            "renderNote": "Only upper mark cell remains above child redraw boundary; base fully hidden, no historical kana restored",
+            "sourceRect": [
+              372,
+              126,
+              390,
+              144
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              9,
+              1,
+              10,
+              2
+            ],
+            "renderNote": "Only upper mark cell remains above child redraw boundary; base fully hidden, no historical kana restored",
+            "sourceRect": [
+              462,
+              126,
+              480,
+              144
+            ]
+          }
+        ],
+        "pageOpportunityId": "pc-list-A-first",
+        "renderNote": "First child selection remains; only the down arrow becomes invisible. Continue the existing first-selection page."
+      }
+    },
+    {
+      "frame": 1688,
+      "before": {
+        "schemaVersion": 2,
+        "stateId": "c83de914352e-f1688-f1689",
+        "mediaId": "video-02",
+        "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+        "startFrame": 1688,
+        "endFrameExclusive": 1689,
+        "startPts": 864256,
+        "endPtsExclusive": 864768,
+        "timeBase": "1/12288",
+        "kind": "dual_cursor_transition",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "p1",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 0,
+            "text": "どう",
+            "gridRect": [
+              2,
+              2,
+              4,
+              3
+            ],
+            "sourceRect": [
+              336,
+              126,
+              372,
+              162
+            ],
+            "markCells": [
+              {
+                "gridRow": 1,
+                "gridColumn": 2,
+                "kind": "dakuten"
+              }
+            ]
+          },
+          {
+            "id": "p2",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 1,
+            "text": "どう",
+            "gridRect": [
+              2,
+              4,
+              4,
+              5
+            ],
+            "sourceRect": [
+              336,
+              162,
+              372,
+              198
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 2,
+                "kind": "dakuten"
+              }
+            ]
+          },
+          {
+            "id": "p3",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 2,
+            "text": "どう",
+            "gridRect": [
+              2,
+              6,
+              4,
+              7
+            ],
+            "sourceRect": [
+              336,
+              198,
+              372,
+              234
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 2,
+                "kind": "dakuten"
+              }
+            ]
+          },
+          {
+            "id": "p4",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 3,
+            "text": "スイ",
+            "gridRect": [
+              2,
+              8,
+              4,
+              9
+            ],
+            "sourceRect": [
+              336,
+              252,
+              372,
+              270
+            ],
+            "markCells": []
+          },
+          {
+            "id": "item-0",
+            "role": "item_name",
+            "readingOrder": 4,
+            "text": "じてんしゃ",
+            "gridRect": [
+              6,
+              4,
+              11,
+              5
+            ],
+            "sourceRect": [
+              408,
+              162,
+              498,
+              198
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "じてんしゃ"
+            }
+          },
+          {
+            "id": "item-1",
+            "role": "item_name",
+            "readingOrder": 5,
+            "text": "ポケモンのふえ",
+            "gridRect": [
+              6,
+              6,
+              13,
+              7
+            ],
+            "sourceRect": [
+              408,
+              198,
+              534,
+              234
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "ポケモンのふえ"
+            }
+          },
+          {
+            "id": "item-2",
+            "role": "item_name",
+            "readingOrder": 6,
+            "text": "いいつりざお",
+            "gridRect": [
+              6,
+              8,
+              12,
+              9
+            ],
+            "sourceRect": [
+              408,
+              234,
+              516,
+              270
+            ],
+            "markCells": [
+              {
+                "gridRow": 7,
+                "gridColumn": 10,
+                "kind": "dakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "いいつりざお"
+            }
+          },
+          {
+            "id": "item-3",
+            "role": "item_name",
+            "readingOrder": 7,
+            "text": "ボロのつりざお",
+            "gridRect": [
+              6,
+              10,
+              13,
+              11
+            ],
+            "sourceRect": [
+              408,
+              270,
+              534,
+              306
+            ],
+            "markCells": [
+              {
+                "gridRow": 9,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              },
+              {
+                "gridRow": 9,
+                "gridColumn": 11,
+                "kind": "dakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "ボロのつりざお"
+            }
+          },
+          {
+            "id": "prompt",
+            "role": "pc_prompt",
+            "readingOrder": 8,
+            "text": "なにを あずけますか？",
+            "gridRect": [
+              1,
+              14,
+              12,
+              15
+            ],
+            "sourceRect": [
+              318,
+              342,
+              516,
+              378
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              }
+            ]
+          }
+        ],
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "outline_right",
+              "gridRect": [
+                1,
+                4,
+                2,
+                5
+              ],
+              "sourceRect": [
+                318,
+                180,
+                336,
+                198
+              ]
+            },
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                6,
+                6,
+                7
+              ],
+              "sourceRect": [
+                390,
+                216,
+                408,
+                234
+              ]
+            },
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                8,
+                6,
+                9
+              ],
+              "sourceRect": [
+                390,
+                252,
+                408,
+                270
+              ]
+            }
+          ],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v2.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "data/gt/candidates/ocr-all-scenes-v1/pc-deposit-navigation/manual-pass2-v2.json",
+          "originalFrames": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1",
+          "outputIndependence": "No tested OCR or production translation exists",
+          "humanPerFrameVerification": "not claimed"
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              4,
+              1,
+              5,
+              2
+            ],
+            "renderNote": "Only upper mark cell remains above child redraw boundary; base fully hidden, no historical kana restored",
+            "sourceRect": [
+              372,
+              126,
+              390,
+              144
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              9,
+              1,
+              10,
+              2
+            ],
+            "renderNote": "Only upper mark cell remains above child redraw boundary; base fully hidden, no historical kana restored",
+            "sourceRect": [
+              462,
+              126,
+              480,
+              144
+            ]
+          }
+        ]
+      },
+      "after": {
+        "schemaVersion": 2,
+        "stateId": "c83de914352e-f1688-f1689",
+        "mediaId": "video-02",
+        "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+        "startFrame": 1688,
+        "endFrameExclusive": 1689,
+        "startPts": 864256,
+        "endPtsExclusive": 864768,
+        "timeBase": "1/12288",
+        "kind": "menu_complete",
+        "completePage": true,
+        "regions": [
+          {
+            "id": "p1",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 0,
+            "text": "どう",
+            "gridRect": [
+              2,
+              2,
+              4,
+              3
+            ],
+            "sourceRect": [
+              336,
+              126,
+              372,
+              162
+            ],
+            "markCells": [
+              {
+                "gridRow": 1,
+                "gridColumn": 2,
+                "kind": "dakuten"
+              }
+            ]
+          },
+          {
+            "id": "p2",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 1,
+            "text": "どう",
+            "gridRect": [
+              2,
+              4,
+              4,
+              5
+            ],
+            "sourceRect": [
+              336,
+              162,
+              372,
+              198
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 2,
+                "kind": "dakuten"
+              }
+            ]
+          },
+          {
+            "id": "p3",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 2,
+            "text": "どう",
+            "gridRect": [
+              2,
+              6,
+              4,
+              7
+            ],
+            "sourceRect": [
+              336,
+              198,
+              372,
+              234
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 2,
+                "kind": "dakuten"
+              }
+            ]
+          },
+          {
+            "id": "p4",
+            "role": "occluded_menu_visible_prefix",
+            "readingOrder": 3,
+            "text": "スイ",
+            "gridRect": [
+              2,
+              8,
+              4,
+              9
+            ],
+            "sourceRect": [
+              336,
+              252,
+              372,
+              270
+            ],
+            "markCells": []
+          },
+          {
+            "id": "item-0",
+            "role": "item_name",
+            "readingOrder": 4,
+            "text": "じてんしゃ",
+            "gridRect": [
+              6,
+              4,
+              11,
+              5
+            ],
+            "sourceRect": [
+              408,
+              162,
+              498,
+              198
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "じてんしゃ"
+            }
+          },
+          {
+            "id": "item-1",
+            "role": "item_name",
+            "readingOrder": 5,
+            "text": "ポケモンのふえ",
+            "gridRect": [
+              6,
+              6,
+              13,
+              7
+            ],
+            "sourceRect": [
+              408,
+              198,
+              534,
+              234
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "ポケモンのふえ"
+            }
+          },
+          {
+            "id": "item-2",
+            "role": "item_name",
+            "readingOrder": 6,
+            "text": "いいつりざお",
+            "gridRect": [
+              6,
+              8,
+              12,
+              9
+            ],
+            "sourceRect": [
+              408,
+              234,
+              516,
+              270
+            ],
+            "markCells": [
+              {
+                "gridRow": 7,
+                "gridColumn": 10,
+                "kind": "dakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "いいつりざお"
+            }
+          },
+          {
+            "id": "item-3",
+            "role": "item_name",
+            "readingOrder": 7,
+            "text": "ボロのつりざお",
+            "gridRect": [
+              6,
+              10,
+              13,
+              11
+            ],
+            "sourceRect": [
+              408,
+              270,
+              534,
+              306
+            ],
+            "markCells": [
+              {
+                "gridRow": 9,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              },
+              {
+                "gridRow": 9,
+                "gridColumn": 11,
+                "kind": "dakuten"
+              }
+            ],
+            "variable": {
+              "type": "string",
+              "role": "item_name",
+              "displayValue": "ボロのつりざお"
+            }
+          },
+          {
+            "id": "prompt",
+            "role": "pc_prompt",
+            "readingOrder": 8,
+            "text": "なにを あずけますか？",
+            "gridRect": [
+              1,
+              14,
+              12,
+              15
+            ],
+            "sourceRect": [
+              318,
+              342,
+              516,
+              378
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              }
+            ]
+          }
+        ],
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "outline_right",
+              "gridRect": [
+                1,
+                4,
+                2,
+                5
+              ],
+              "sourceRect": [
+                318,
+                180,
+                336,
+                198
+              ]
+            },
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                8,
+                6,
+                9
+              ],
+              "sourceRect": [
+                390,
+                252,
+                408,
+                270
+              ]
+            }
+          ],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v2.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "reports/m3-grid-refinement-v1/pc-cursor-notes-v1/pass2.json",
+          "originalFrames": "data/frames/video-02/pc-cursor-pass2-v1",
+          "humanPerFrameVerification": "not claimed",
+          "outputIndependence": "Full124-frame double read with GT/actual closed; prior diagnostic and same-agent memory exposure disclosed. Not independent acceptance."
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              4,
+              1,
+              5,
+              2
+            ],
+            "renderNote": "Only upper mark cell remains above child redraw boundary; base fully hidden, no historical kana restored",
+            "sourceRect": [
+              372,
+              126,
+              390,
+              144
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              9,
+              1,
+              10,
+              2
+            ],
+            "renderNote": "Only upper mark cell remains above child redraw boundary; base fully hidden, no historical kana restored",
+            "sourceRect": [
+              462,
+              126,
+              480,
+              144
+            ]
+          }
+        ],
+        "pageOpportunityId": "pc-list-A-third",
+        "renderNote": "Only third child selection is visible; previous second cursor is absent. Begin the existing third-selection page one frame earlier; down arrow returns next frame."
+      }
+    }
+  ],
+  "characterDelta": 0,
+  "oldStates": 32,
+  "newStates": 32,
+  "oldPageIds": [
+    "pc-parent-before",
+    "pc-parent-deposit",
+    "pc-list-A-first",
+    "pc-list-A-second",
+    "pc-list-A-third",
+    "pc-list-B-third",
+    "pc-list-C-third",
+    "pc-list-D-third",
+    "pc-list-E-third",
+    "pc-parent-after",
+    "pc-main-after"
+  ],
+  "newPageIds": [
+    "pc-parent-before",
+    "pc-parent-deposit",
+    "pc-list-A-first",
+    "pc-list-A-second",
+    "pc-list-A-third",
+    "pc-list-B-third",
+    "pc-list-C-third",
+    "pc-list-D-third",
+    "pc-list-E-third",
+    "pc-parent-after",
+    "pc-main-after"
+  ],
+  "pageBoundaryChanges": [
+    {
+      "id": "pc-list-A-first",
+      "oldEnd": 1673,
+      "newEnd": 1674
+    },
+    {
+      "id": "pc-list-A-third",
+      "oldStart": 1689,
+      "newStart": 1688
+    }
+  ],
+  "rationale": "Full original-event double read confirms two cursor transcription errors. Preserve all120 scoring frames, text, geometry and existing page opportunities; neither add a new opportunity nor remove a failing one. Contract/review bundle/integrity checks still required before freezing.",
+  "productAcceptance": false
+}

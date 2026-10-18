@@ -1,0 +1,5 @@
+Viewport: skills-turn exact=0/104 missing=0 maxError=7
+java.lang.IllegalArgumentException: Viewport geometry mismatch; all outputs and failures retained in reports\m3-grid-refinement-v1\initial-skills-turn
+	at io.github.g1ocr.verification.FrozenDataset.require(FrozenDataset.java:108)
+	at io.github.g1ocr.verification.ViewportCheck.check(ViewportCheck.java:106)
+	at io.github.g1ocr.verification.VideoTool.main(VideoTool.java:38)

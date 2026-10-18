@@ -1,0 +1,515 @@
+{
+  "status": "high_confidence_old_text_refuted_corrected_candidate_not_yet_effective_freeze",
+  "authority": {
+    "date": "2026-10-16 Asia/Shanghai",
+    "userMessage": "如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论",
+    "meaning": "Conditional authorization for evidence-backed corrections; not a claim that the user reviewed these frames or a new version."
+  },
+  "oldGt": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2/intro-creatures/ocr-candidate-v1.jsonl",
+    "sha256": "34c2ba7dd81354736156368f36ed6a4934b951300e8bb97219ac526a8e15729b"
+  },
+  "candidate": {
+    "path": "data/gt/candidates/ocr-observation-corrections-v1/intro-creatures/ocr-candidate-v2.jsonl",
+    "sha256": "7cc5f3cc68e320b98afb3e87f717197073f2b20521a6c053fe3f7e8d6e61c9af"
+  },
+  "observations": [
+    {
+      "path": "reports/m3-grid-refinement-v1/authorized-correction-intro-creatures-notes-v1/pass1.json",
+      "sha256": "5b99fbd9b738afe866261628963ad3fa8784c7f1bfed5a32ba13427b6fb1c9e9"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/authorized-correction-intro-creatures-notes-v1/pass2.json",
+      "sha256": "66610b292d4a04a1bba9a1441aae5055ac490c151d27f4e93d36e5f244350cc7"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/authorized-correction-intro-creatures-notes-v1/absent-cell-pixel-checks-v2.json",
+      "sha256": "ad0cec43588f93e60e3cde94a64243bb74c67c9d7084f269f702307811245a1c"
+    }
+  ],
+  "inputVerifications": [
+    {
+      "path": "data/frames/video-01/authorized-correction-intro-creatures-pass1-v1/verification.json",
+      "sha256": "dd2ef3244357554e88cec77f1652a85c1d241a0bc7673b3d2e1dff4a31f06387"
+    },
+    {
+      "path": "data/frames/video-01/authorized-correction-intro-creatures-pass2-v1/verification.json",
+      "sha256": "dd2ef3244357554e88cec77f1652a85c1d241a0bc7673b3d2e1dff4a31f06387"
+    }
+  ],
+  "independentPngPairs": [
+    {
+      "frame": 6246,
+      "sha256": "4dbd695286785e9665df42b06196ef1080af1c5eea1315be828d8e1d7e0dba45"
+    },
+    {
+      "frame": 6247,
+      "sha256": "09086f1c00f1a67779492716dc5e3181e461453b4659ff2ef24fe21eb3516ce0"
+    },
+    {
+      "frame": 6248,
+      "sha256": "74849c201c076e66adacefc2ce703161894b57061d0e3cbcad28a2e0b695d323"
+    },
+    {
+      "frame": 6249,
+      "sha256": "994c941c6f01399c36f622687db64b5bf224d0569d0500b47b200b2ca736412e"
+    },
+    {
+      "frame": 6250,
+      "sha256": "9e011623024c24de6585c00c0e65f2f2ce577635e071b8a8118e862e5af13d39"
+    },
+    {
+      "frame": 6251,
+      "sha256": "e9bc12c794a1e4b092c65ff174fae616f0d4683483ce3bc8e1945e8659bf5675"
+    },
+    {
+      "frame": 6252,
+      "sha256": "d9758d520d971309f605fa30c2e63f414da3603d1167c9a4ac5e75912a56a29b"
+    },
+    {
+      "frame": 6253,
+      "sha256": "5cec043692c5d842cd86ddbb8e1be8dafc607867c8edfb46ad98e94423ebc8ec"
+    },
+    {
+      "frame": 6254,
+      "sha256": "2ca84814a7115d4b105db84d183770d9a45491d5c0f2a95d39e71f3803a1d64e"
+    },
+    {
+      "frame": 6255,
+      "sha256": "f7897aa4c1b08e935f08f763cb7bca50e7d4a2888a7d942b134e18f5afdcd8d0"
+    },
+    {
+      "frame": 6256,
+      "sha256": "4b52e06f8b7ec32921135cfc75f013d5eaacd578acac066bf0f6e9211c35860f"
+    },
+    {
+      "frame": 6257,
+      "sha256": "3d171f39b46ced721fa9ecc55392a4b4971201af5441f7c60d77b0ad365a093f"
+    },
+    {
+      "frame": 6258,
+      "sha256": "2974955cef00ab8ac51106f3cfacd57fa7cfbfcc83b024ec51d4bb28733bf961"
+    },
+    {
+      "frame": 6259,
+      "sha256": "ec4de10a79d1aa4665c61b6b2aa023f8606423b88937b347d70bf380a78dcc51"
+    },
+    {
+      "frame": 6260,
+      "sha256": "10bd1ddfb05dc0982d9043a03d24c58ca3c38f46a67a047f8e4ff740a185edd6"
+    },
+    {
+      "frame": 6261,
+      "sha256": "71f9d327c8d59bd171eb3474aaf7b4e541a02328bf8c05f95db630f348e83cd4"
+    },
+    {
+      "frame": 6262,
+      "sha256": "88b8272e6446f097a116c28d81807cf517412cd5a0f2dbea151f96d274ac267e"
+    },
+    {
+      "frame": 6263,
+      "sha256": "5cab4042707a64edd1828a831156a35890868e311bb76bdb283991c9457db0b2"
+    },
+    {
+      "frame": 6264,
+      "sha256": "77d48e995b7076c1ccf4e5d53ab21b9f6669c325a8e6406797fb6371f5f904f5"
+    },
+    {
+      "frame": 6265,
+      "sha256": "d0441f4fda68b483407a85e3b74518bfacb3f836f8c18abb07352aa78d19c375"
+    },
+    {
+      "frame": 6266,
+      "sha256": "5d6e45f80360d6032ca14311350ed0f3d9cdd58d35d1218440d828b629c6c0ec"
+    },
+    {
+      "frame": 6267,
+      "sha256": "e68223e73aadd6834fcaed986fe7c3248c32a96a0a2ca880baa6b5727f014967"
+    },
+    {
+      "frame": 6268,
+      "sha256": "59960e9b92a19bdc00e7da47f7050b993f5f10711205c70eced157b54a4e86bc"
+    },
+    {
+      "frame": 6269,
+      "sha256": "e68223e73aadd6834fcaed986fe7c3248c32a96a0a2ca880baa6b5727f014967"
+    },
+    {
+      "frame": 6270,
+      "sha256": "6c8aba433ff362eadd547a95da66a5825c532ffb72726d566fd30fb7b5626524"
+    },
+    {
+      "frame": 6271,
+      "sha256": "ad6bd06cf80c1db972e63407a2c1daa486dcca464cc8119aae4c31b33fb552dc"
+    },
+    {
+      "frame": 6272,
+      "sha256": "5f7a814376e2056dd78d1cd604d3451152f7bd5b0a090202c91229b7ddc88f6a"
+    },
+    {
+      "frame": 6273,
+      "sha256": "ad6bd06cf80c1db972e63407a2c1daa486dcca464cc8119aae4c31b33fb552dc"
+    },
+    {
+      "frame": 6274,
+      "sha256": "6c8aba433ff362eadd547a95da66a5825c532ffb72726d566fd30fb7b5626524"
+    },
+    {
+      "frame": 6275,
+      "sha256": "ad6bd06cf80c1db972e63407a2c1daa486dcca464cc8119aae4c31b33fb552dc"
+    },
+    {
+      "frame": 6276,
+      "sha256": "5f7a814376e2056dd78d1cd604d3451152f7bd5b0a090202c91229b7ddc88f6a"
+    },
+    {
+      "frame": 6277,
+      "sha256": "ad6bd06cf80c1db972e63407a2c1daa486dcca464cc8119aae4c31b33fb552dc"
+    },
+    {
+      "frame": 6278,
+      "sha256": "6c8aba433ff362eadd547a95da66a5825c532ffb72726d566fd30fb7b5626524"
+    },
+    {
+      "frame": 6279,
+      "sha256": "f57976bd8eb20a676a4797c7309e3715004601eafc7856530529da327d196fdd"
+    },
+    {
+      "frame": 6280,
+      "sha256": "549b7bdf1239874bb4f22af4214d59d60def7ad5065b934c6756aa94ad6e7b2d"
+    },
+    {
+      "frame": 6281,
+      "sha256": "f57976bd8eb20a676a4797c7309e3715004601eafc7856530529da327d196fdd"
+    },
+    {
+      "frame": 6282,
+      "sha256": "18ef0d1fb7bbc5a246c926c72418fd91cd406c7643e17b43da3a0c35356e93eb"
+    },
+    {
+      "frame": 6283,
+      "sha256": "f57976bd8eb20a676a4797c7309e3715004601eafc7856530529da327d196fdd"
+    },
+    {
+      "frame": 6284,
+      "sha256": "549b7bdf1239874bb4f22af4214d59d60def7ad5065b934c6756aa94ad6e7b2d"
+    },
+    {
+      "frame": 6285,
+      "sha256": "f57976bd8eb20a676a4797c7309e3715004601eafc7856530529da327d196fdd"
+    },
+    {
+      "frame": 6286,
+      "sha256": "18ef0d1fb7bbc5a246c926c72418fd91cd406c7643e17b43da3a0c35356e93eb"
+    },
+    {
+      "frame": 6287,
+      "sha256": "f57976bd8eb20a676a4797c7309e3715004601eafc7856530529da327d196fdd"
+    },
+    {
+      "frame": 6288,
+      "sha256": "eb3f497eb46b209dca022c463d74a416ff8e29640f7fb80631673060f86a7301"
+    },
+    {
+      "frame": 6289,
+      "sha256": "2488a7bc599f48e8e1036e541c59dbd2dbce7bfab43e0058568bfb2c5abefb4d"
+    },
+    {
+      "frame": 6290,
+      "sha256": "7ad345ebf4b614b3ef0707fe7780d07dc2e76a64872b12b790d3f964dc02ea7b"
+    },
+    {
+      "frame": 6291,
+      "sha256": "887f979f8ed672fa6efa2aad72a3eb208c73771e8fbcf2ae466606950001117f"
+    },
+    {
+      "frame": 6292,
+      "sha256": "3a46a2436e564740b577453fe2f72ccd9a03fe10b9e40904280ef467d5c10005"
+    },
+    {
+      "frame": 6293,
+      "sha256": "20a4789c3b474bc31571f1c99dab15b7e3f1793ff7d9cf13fcd35de054cfc808"
+    },
+    {
+      "frame": 6294,
+      "sha256": "458e5d994f438a20bb5004f5bba794afc4d638ec313f0dca3878c74e83c29a76"
+    },
+    {
+      "frame": 6295,
+      "sha256": "f551566d68a7747d15cad5f856f084dd050649c2fc68f3d147ad6ed7e2adecdd"
+    },
+    {
+      "frame": 6296,
+      "sha256": "c37aaa75a235a5bf4e6b8f50257ef692e8c3acc8cab62648e49753e40d7267a5"
+    },
+    {
+      "frame": 6297,
+      "sha256": "b6bdbb7eb86c78da424a258bba7909bd27209a8c13871219b5b506f726adbf9e"
+    },
+    {
+      "frame": 6298,
+      "sha256": "a0e6d653b3ad2257f111aaf3fdf1378818743387d2d493b7c7545fbfb017a77f"
+    },
+    {
+      "frame": 6299,
+      "sha256": "d9a2fb38fa3448fb8548f6e8904527a7a3c61a84d3226766c7a779154555c890"
+    },
+    {
+      "frame": 6300,
+      "sha256": "424c2d9f981f94e196fd4511c3e6eaa05c6a8822ef232683fc9e24fe3eea072b"
+    },
+    {
+      "frame": 6301,
+      "sha256": "9ed8626ccdccdb2e5e856eaa0d03f1ce6dc1b8a18658154fd2c05c789992ceaa"
+    },
+    {
+      "frame": 6302,
+      "sha256": "f0dc01500e1518968b2e4c20e55973038ba4ed20c0301c448b0cc0169b6d7c78"
+    },
+    {
+      "frame": 6303,
+      "sha256": "a2c1a6a4330d8b6f7e1d1fa51ac7db5639c9285bbf0c7b18096ff90769234889"
+    },
+    {
+      "frame": 6304,
+      "sha256": "12f5053dc408d79e467e6b6fce4044e9b0e534255e8b2e93cf63c4c312c03a1c"
+    },
+    {
+      "frame": 6305,
+      "sha256": "a2c1a6a4330d8b6f7e1d1fa51ac7db5639c9285bbf0c7b18096ff90769234889"
+    },
+    {
+      "frame": 6306,
+      "sha256": "f10effb2988717d82febbe50acb69d22549b65ae7f72e0d277050e51a8d2fbbe"
+    },
+    {
+      "frame": 6307,
+      "sha256": "5d6f83623f974a2523c472fe22c0488bff70f5c3d9e894a9fc32376777e13c77"
+    },
+    {
+      "frame": 6308,
+      "sha256": "84b80fea5ba00191899af1d0a942725822720c8ad3fab18b1c2f294e5bd152bb"
+    },
+    {
+      "frame": 6309,
+      "sha256": "5d6f83623f974a2523c472fe22c0488bff70f5c3d9e894a9fc32376777e13c77"
+    },
+    {
+      "frame": 6310,
+      "sha256": "f10effb2988717d82febbe50acb69d22549b65ae7f72e0d277050e51a8d2fbbe"
+    },
+    {
+      "frame": 6311,
+      "sha256": "5d6f83623f974a2523c472fe22c0488bff70f5c3d9e894a9fc32376777e13c77"
+    },
+    {
+      "frame": 6312,
+      "sha256": "84b80fea5ba00191899af1d0a942725822720c8ad3fab18b1c2f294e5bd152bb"
+    },
+    {
+      "frame": 6313,
+      "sha256": "5d6f83623f974a2523c472fe22c0488bff70f5c3d9e894a9fc32376777e13c77"
+    },
+    {
+      "frame": 6314,
+      "sha256": "f10effb2988717d82febbe50acb69d22549b65ae7f72e0d277050e51a8d2fbbe"
+    },
+    {
+      "frame": 6315,
+      "sha256": "5d6f83623f974a2523c472fe22c0488bff70f5c3d9e894a9fc32376777e13c77"
+    },
+    {
+      "frame": 6316,
+      "sha256": "84b80fea5ba00191899af1d0a942725822720c8ad3fab18b1c2f294e5bd152bb"
+    },
+    {
+      "frame": 6317,
+      "sha256": "5d6f83623f974a2523c472fe22c0488bff70f5c3d9e894a9fc32376777e13c77"
+    },
+    {
+      "frame": 6318,
+      "sha256": "ffdca95dcffbea33ab358306d4f8a83861314e8e1044372104abd1625474ecb4"
+    },
+    {
+      "frame": 6319,
+      "sha256": "12b020b1d0ce7e29d6f303c85d854719ca554bdd65ec86f588c3044e8c5bad92"
+    },
+    {
+      "frame": 6320,
+      "sha256": "549b7bdf1239874bb4f22af4214d59d60def7ad5065b934c6756aa94ad6e7b2d"
+    },
+    {
+      "frame": 6321,
+      "sha256": "f57976bd8eb20a676a4797c7309e3715004601eafc7856530529da327d196fdd"
+    },
+    {
+      "frame": 6322,
+      "sha256": "18ef0d1fb7bbc5a246c926c72418fd91cd406c7643e17b43da3a0c35356e93eb"
+    },
+    {
+      "frame": 6323,
+      "sha256": "f57976bd8eb20a676a4797c7309e3715004601eafc7856530529da327d196fdd"
+    }
+  ],
+  "changes": [
+    {
+      "startFrame": 6258,
+      "endFrameExclusive": 6259,
+      "before": {
+        "id": "message-bottom",
+        "role": "dialogue",
+        "readingOrder": 1,
+        "text": "ポケット モ",
+        "gridRect": [
+          1,
+          16,
+          7,
+          17
+        ],
+        "sourceRect": [
+          256,
+          336,
+          352,
+          368
+        ],
+        "markCells": [
+          {
+            "gridColumn": 1,
+            "kind": "handakuten",
+            "gridRow": 15
+          }
+        ]
+      },
+      "after": {
+        "id": "message-bottom",
+        "role": "dialogue",
+        "readingOrder": 1,
+        "text": "ポケット",
+        "gridRect": [
+          1,
+          16,
+          5,
+          17
+        ],
+        "sourceRect": [
+          256,
+          336,
+          320,
+          368
+        ],
+        "markCells": [
+          {
+            "gridColumn": 1,
+            "kind": "handakuten",
+            "gridRow": 15
+          }
+        ]
+      },
+      "reason": "Both full-scene original-image reads and constant-luminance original cells show that the old suffix has not appeared yet."
+    },
+    {
+      "startFrame": 6291,
+      "endFrameExclusive": 6293,
+      "before": {
+        "id": "message-top",
+        "role": "dialogue",
+        "readingOrder": 0,
+        "text": "いきもの たちが",
+        "gridRect": [
+          1,
+          14,
+          9,
+          15
+        ],
+        "sourceRect": [
+          256,
+          304,
+          384,
+          336
+        ],
+        "markCells": [
+          {
+            "gridColumn": 8,
+            "kind": "dakuten",
+            "gridRow": 13
+          }
+        ]
+      },
+      "after": {
+        "id": "message-top",
+        "role": "dialogue",
+        "readingOrder": 0,
+        "text": "いきもの たち",
+        "gridRect": [
+          1,
+          14,
+          8,
+          15
+        ],
+        "sourceRect": [
+          256,
+          320,
+          368,
+          336
+        ],
+        "markCells": []
+      },
+      "reason": "Both full-scene original-image reads and constant-luminance original cells show that the old suffix has not appeared yet."
+    },
+    {
+      "startFrame": 6293,
+      "endFrameExclusive": 6294,
+      "before": {
+        "id": "message-bottom",
+        "role": "dialogue",
+        "readingOrder": 1,
+        "text": "いたる",
+        "gridRect": [
+          1,
+          16,
+          4,
+          17
+        ],
+        "sourceRect": [
+          256,
+          352,
+          304,
+          368
+        ],
+        "markCells": []
+      },
+      "after": {
+        "id": "message-bottom",
+        "role": "dialogue",
+        "readingOrder": 1,
+        "text": "いた",
+        "gridRect": [
+          1,
+          16,
+          3,
+          17
+        ],
+        "sourceRect": [
+          256,
+          352,
+          288,
+          368
+        ],
+        "markCells": []
+      },
+      "reason": "Both full-scene original-image reads and constant-luminance original cells show that the old suffix has not appeared yet."
+    }
+  ],
+  "changedOriginalFrames": [
+    6258,
+    6291,
+    6292,
+    6293
+  ],
+  "expectedCharacterDelta": -5,
+  "retainedFrames": 78,
+  "scoredFrames": 74,
+  "pageOpportunities": 2,
+  "unchanged": "All frame/PTS boundaries, scene range, page opportunities, field roles/read order, contract and layout. No scoring outputs used or modified.",
+  "next": "Include this complete affected scene in the unified affected-scope correction collection. Existing frozen files and historical scores remain intact; this candidate is not silently substituted into them."
+}

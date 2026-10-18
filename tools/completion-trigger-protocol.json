@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Predeclared offline comparison using saved v18 observations, never a new OCR or UI acceptance run",
+  "primaryStableMs": 100,
+  "stableWindowsMs": [0, 33, 50, 67, 100, 133, 167, 200, 250],
+  "observationClock": "Original integer PTS; decisions occur only on an observed frame, no timer guessed between frames",
+  "minimumStableObservations": 2,
+  "baseline": "Keep v18 complete/menu/status/fading readiness; message completion is its existing arrow and unchanged-content latch. This is not a literal down-arrow-only rule for menus.",
+  "extension": "Only message_loading gets the text-stability fallback; all other v18 readiness and transition rules are shared",
+  "signature": "All raw text with role, readingOrder, gridRect, markCells, logicalRect, renderUnits, selection cursors and detached marks; exclude drifting sourceRect and blinking down arrows",
+  "invalidation": "Invalidate pending/display candidate when signature changes or input leaves eligible states; no delayed flush at clip end and no history across gaps",
+  "residualFalseTrigger": "A new nonempty candidate emitted on a frozen loading/message_loading frame (GT completePage false); keep separate from OCR text errors",
+  "otherUnsafeTrigger": "A new candidate on any other frozen noncomplete transition; report all kinds separately",
+  "pageDetection": "At least one ready decision on the page's frozen complete source frames; all duplicate observations must be ready. Text-correct detection additionally requires the existing strict-key text score to have zero edits.",
+  "shortPage": "Sum of frozen complete-frame original durations strictly below 200 ms; report page span separately",
+  "delay": "First ready or first text-correct ready source PTS minus first complete source PTS; report P50/P95/P99/max and >200 ms, misses separately. Excludes OCR computation, queue, translation and actual UI presentation.",
+  "thresholdSelection": "Primary 100 ms is fixed before evaluation; other windows are an exploratory development sensitivity sweep, not independently validated tuning",
+  "standards": "Do not alter GT, original v18 outputs, strict scorer, geometry budgets or acceptance thresholds"
+}

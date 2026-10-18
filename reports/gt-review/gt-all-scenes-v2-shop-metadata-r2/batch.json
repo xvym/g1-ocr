@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 3,
+  "items": [
+    {
+      "name": "商店买入列表、价格与滚动",
+      "frames": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1",
+      "integrity": "reports/m2-all-scenes-final-check-v1/shop-buy-navigation.json",
+      "contract": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/meta/all-scenes-shop-buy-navigation-clip-v2.json",
+      "approval": "already_approved_frozen_reference_only",
+      "id": "shop-buy-navigation",
+      "layout": "data/gt/candidates/ocr-all-scenes-v1/shop-buy-navigation/layout-v1.json",
+      "candidate": "data/gt/candidates/ocr-all-scenes-v1/shop-buy-navigation/ocr-candidate-v1.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "商店卖出列表开启与金额清空",
+      "frames": "data/frames/video-03/all-scenes-shop-sell-entry-pass2-v1",
+      "integrity": "reports/m2-all-scenes-final-check-v1/shop-sell-entry.json",
+      "contract": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/meta/all-scenes-shop-sell-entry-clip-v2.json",
+      "approval": "already_approved_frozen_reference_only",
+      "id": "shop-sell-entry",
+      "layout": "data/gt/candidates/ocr-all-scenes-v1/shop-sell-entry/layout-v1.json",
+      "candidate": "data/gt/candidates/ocr-all-scenes-v1/shop-sell-entry/ocr-candidate-v1.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "商店拒绝出售的完整否定提示",
+      "frames": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1",
+      "integrity": "reports/m2-shop-metadata-amendment-v1/shop-rejection-integrity.json",
+      "contract": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/meta/shop-metadata-rejection-clip-v1.json",
+      "approval": "candidate_unapproved_not_frozen",
+      "id": "shop-rejection",
+      "layout": "data/gt/candidates/ocr-shop-metadata-v1/shop-rejection/layout-v1.json",
+      "candidate": "data/gt/candidates/ocr-shop-metadata-v1/shop-rejection/ocr-candidate-v2.jsonl"
+    },
+    {
+      "name": "商店提问、短页与退出",
+      "frames": "data/frames/video-03/expansion-shop-exit-pass2-v1",
+      "integrity": "reports/m2-all-scenes-final-check-v1/shop-exit.json",
+      "contract": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/meta/expansion-shop-clip-v2.json",
+      "approval": "already_approved_frozen_reference_only",
+      "id": "shop-exit",
+      "layout": "data/gt/candidates/ocr-expansion-v1/shop-exit/layout-v2.json",
+      "candidate": "data/gt/candidates/ocr-expansion-v1/shop-exit/ocr-candidate-v2.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    }
+  ],
+  "reviewId": "gt-all-scenes-v2-shop-metadata-r2",
+  "approvalScope": "Only shop-rejection candidate-v2 / scored[1408,1440)32frames; one source frame1439 has revised field metadata. All four merchant events are included; the other three are unchanged approved references. Contract-v5 unchanged and already approved. Other34 original entries retain prior approval. No new or removed scored frames.",
+  "sourceIdentityReport": "reports/gt-approval-all-scenes-v2/recheck-v1/identity.json",
+  "outputIndependence": "No tested OCR or production translation exists",
+  "gaps": [
+    {
+      "mediaId": "video-04",
+      "impact": "整个背包退出事件不冻结/不宣称通过；该原帧保留，不能计作空文字成功",
+      "uncertainFrames": [
+        5359
+      ],
+      "checks": [
+        "首遍原上下文逐帧及直接放大",
+        "第二次原视频重解码及原像素光标条带",
+        "再次查看5358-5362独立原图，仍不能可靠区分被遮基础字形"
+      ],
+      "source": "data/frames/video-04/all-scenes-backpack-pass2-v1",
+      "layout": "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/layout-v1.json",
+      "id": "backpack-exit-occluded",
+      "status": "pending_not_proposed_for_freeze",
+      "range": [
+        5358,
+        5363
+      ],
+      "reason": "5359退出重绘时玩家精灵遮住やめる末字基础字形，残余道具行也被背景/菜单改写；仅凭5358前帧和5360后帧不能恢复当帧答案"
+    },
+    {
+      "id": "versions-and-sessions",
+      "status": "pending",
+      "reason": "只有video01 HOME红版图标有版本证据；其余版本/来源关系与独立会话无法证实，全部候选development，独立acceptance集合为空；M4继续待验证，不要求补录"
+    },
+    {
+      "id": "unselected-source",
+      "status": "unverified",
+      "reason": "未选原帧范围按四录像总账本补集逐段列出；候选通过不等于整个录像、版本或游戏通过"
+    },
+    {
+      "id": "real-window-and-ui",
+      "status": "pending",
+      "reason": "真实投屏前台/后台/遮挡/最小化/无效帧、Windows10兼容、实际UI延迟和长时稳定性尚无实测证据"
+    },
+    {
+      "id": "review-browser-render",
+      "status": "pending",
+      "reason": "内置浏览器曾明确拒绝file协议且禁止绕过；本包仅做静态/控件检查，实际浏览器呈现未验证，请直接在本机打开入口文件"
+    }
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "status": "affected_scene_metadata_amendment_pending_explicit_approval",
+  "totalSourceFrames": 66770,
+  "coverage": [
+    {
+      "handledBy": [
+        "shop-buy-navigation",
+        "shop-sell-entry",
+        "shop-rejection",
+        "shop-exit"
+      ],
+      "result": "买/卖列表、价格/金额/数量、菜单开启/遮挡、拒售否定/清屏/退出；选定操作没有成功交易，不宣称余额变化验收",
+      "scene": "商店"
+    }
+  ],
+  "totalSourceSeconds": 2779.397368,
+  "sessionPartition": "development only; independence unverified; acceptance empty",
+  "mediaLedger": "data/meta/m1-v1/media.jsonl",
+  "additionalEvidence": [
+    "reports/m2-shop-metadata-amendment-v1/change.json",
+    "reports/m2-shop-metadata-amendment-v1/effective-overlap-check.json",
+    "reports/gt-approval-all-scenes-v2/strict-overlap-metadata-v1.json",
+    "reports/gt-approval-all-scenes-v2/shop-metadata-pass1.json",
+    "reports/gt-approval-all-scenes-v2/shop-metadata-pass2.json",
+    "reports/gt-approval-all-scenes-v2/shop-metadata-independent-extraction.json",
+    "reports/gt-approval-all-scenes-v2/explicit-confirmation.json",
+    "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+  ],
+  "priorApprovedReview": {
+    "id": "gt-all-scenes-v2",
+    "bundleManifestSha256": "e51b7d9ebccae9e784f0b60a4a73a352b164e0d9807bd068afb2aad7c54b2dd3",
+    "freezeSha256": "cf6cffeeefb4b94b5c519193effaa72db4dac3195e32ee9481bfd47541b36bc6"
+  },
+  "metadataAmendment": {
+    "changedFrames": [
+      "video-03:1439"
+    ],
+    "fields": [
+      "kind",
+      "role",
+      "readingOrder",
+      "cursor descriptor structure",
+      "region metadata representation"
+    ],
+    "literalGeometryTimeUnchanged": true
+  }
+}

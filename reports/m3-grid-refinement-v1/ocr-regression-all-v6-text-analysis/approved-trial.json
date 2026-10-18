@@ -1,0 +1,806 @@
+[
+  {
+    "sourceFrameIndex": 5275,
+    "sourcePts": 2700800,
+    "stateId": "c83de914352e-f5275-f5276",
+    "expectedCharacters": 2,
+    "errors": 4,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキ",
+        "errors": 2
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5276,
+    "sourcePts": 2701312,
+    "stateId": "c83de914352e-f5276-f5278",
+    "expectedCharacters": 4,
+    "errors": 8,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク",
+        "actual": "",
+        "errors": 4
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク",
+        "errors": 4
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5277,
+    "sourcePts": 2701824,
+    "stateId": "c83de914352e-f5276-f5278",
+    "expectedCharacters": 4,
+    "errors": 8,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク",
+        "actual": "",
+        "errors": 4
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク",
+        "errors": 4
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5278,
+    "sourcePts": 2702336,
+    "stateId": "c83de914352e-f5278-f5279",
+    "expectedCharacters": 8,
+    "errors": 16,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモ",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモ",
+        "errors": 8
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5279,
+    "sourcePts": 2702848,
+    "stateId": "c83de914352e-f5279-f5280",
+    "expectedCharacters": 11,
+    "errors": 22,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジ",
+        "actual": "",
+        "errors": 11
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジ",
+        "errors": 11
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5280,
+    "sourcePts": 2703360,
+    "stateId": "c83de914352e-f5280-f5281",
+    "expectedCharacters": 14,
+    "errors": 28,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョ",
+        "errors": 2
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5281,
+    "sourcePts": 2703872,
+    "stateId": "c83de914352e-f5281-f5282",
+    "expectedCharacters": 17,
+    "errors": 34,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ に",
+        "actual": "",
+        "errors": 5
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ に",
+        "errors": 5
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5282,
+    "sourcePts": 2704384,
+    "stateId": "c83de914352e-f5282-f5284",
+    "expectedCharacters": 20,
+    "errors": 40,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ にんてい",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい",
+        "errors": 8
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5283,
+    "sourcePts": 2704896,
+    "stateId": "c83de914352e-f5282-f5284",
+    "expectedCharacters": 20,
+    "errors": 40,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ にんてい",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい",
+        "errors": 8
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5284,
+    "sourcePts": 2705408,
+    "stateId": "c83de914352e-f5284-f5285",
+    "expectedCharacters": 23,
+    "errors": 46,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ にんてい トレ",
+        "actual": "",
+        "errors": 11
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい トレ",
+        "errors": 11
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5285,
+    "sourcePts": 2705920,
+    "stateId": "c83de914352e-f5285-f5286",
+    "expectedCharacters": 26,
+    "errors": 52,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ にんてい トレーナー",
+        "actual": "",
+        "errors": 14
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい トレーナー",
+        "errors": 14
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5286,
+    "sourcePts": 2706432,
+    "stateId": "c83de914352e-f5286-f5296",
+    "expectedCharacters": 27,
+    "errors": 54,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ にんてい トレーナー！",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい トレーナー！",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5287,
+    "sourcePts": 2706944,
+    "stateId": "c83de914352e-f5286-f5296",
+    "expectedCharacters": 27,
+    "errors": 54,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ にんてい トレーナー！",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい トレーナー！",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5288,
+    "sourcePts": 2707456,
+    "stateId": "c83de914352e-f5286-f5296",
+    "expectedCharacters": 27,
+    "errors": 54,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ にんてい トレーナー！",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい トレーナー！",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5289,
+    "sourcePts": 2707968,
+    "stateId": "c83de914352e-f5286-f5296",
+    "expectedCharacters": 27,
+    "errors": 54,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ にんてい トレーナー！",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい トレーナー！",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5290,
+    "sourcePts": 2708480,
+    "stateId": "c83de914352e-f5286-f5296",
+    "expectedCharacters": 27,
+    "errors": 54,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ にんてい トレーナー！",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい トレーナー！",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5291,
+    "sourcePts": 2708992,
+    "stateId": "c83de914352e-f5286-f5296",
+    "expectedCharacters": 27,
+    "errors": 54,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ にんてい トレーナー！",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい トレーナー！",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5292,
+    "sourcePts": 2709504,
+    "stateId": "c83de914352e-f5286-f5296",
+    "expectedCharacters": 27,
+    "errors": 54,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ にんてい トレーナー！",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい トレーナー！",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5293,
+    "sourcePts": 2710016,
+    "stateId": "c83de914352e-f5286-f5296",
+    "expectedCharacters": 27,
+    "errors": 54,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ にんてい トレーナー！",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい トレーナー！",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5294,
+    "sourcePts": 2710528,
+    "stateId": "c83de914352e-f5286-f5296",
+    "expectedCharacters": 27,
+    "errors": 54,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ にんてい トレーナー！",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい トレーナー！",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5295,
+    "sourcePts": 2711040,
+    "stateId": "c83de914352e-f5286-f5296",
+    "expectedCharacters": 27,
+    "errors": 54,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "セキチク ポケモン ジム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:1",
+        "expected": "キョウ にんてい トレーナー！",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "セキチク ポケモン ジム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:16:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい トレーナー！",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5296,
+    "sourcePts": 2711552,
+    "stateId": "c83de914352e-f5296-f5298",
+    "expectedCharacters": 27,
+    "errors": 54,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:13:1:0",
+        "expected": "セキチク ホケモン シム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:15:1:1",
+        "expected": "キョウ にんてい トレーナー！",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:13:1:0",
+        "expected": "",
+        "actual": "セキチク ホケモン シム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:15:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい トレーナー！",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5297,
+    "sourcePts": 2712064,
+    "stateId": "c83de914352e-f5296-f5298",
+    "expectedCharacters": 27,
+    "errors": 54,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:13:1:0",
+        "expected": "セキチク ホケモン シム",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:15:1:1",
+        "expected": "キョウ にんてい トレーナー！",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:13:1:0",
+        "expected": "",
+        "actual": "セキチク ホケモン シム",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:15:1:1",
+        "expected": "",
+        "actual": "キョウ にんてい トレーナー！",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5298,
+    "sourcePts": 2712576,
+    "stateId": "c83de914352e-f5298-f5299",
+    "expectedCharacters": 15,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:0",
+        "expected": "キョウ にんてい トレーナー！",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:1:0",
+        "expected": "",
+        "actual": "キョウ にんてい トレーナー！",
+        "errors": 15
+      }
+    ]
+  }
+]

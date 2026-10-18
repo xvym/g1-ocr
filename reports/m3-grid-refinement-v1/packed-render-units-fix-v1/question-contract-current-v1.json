@@ -1,0 +1,629 @@
+{
+  "status": "current_frozen_question_encoding_conflict_retained_no_GT_or_algorithm_change",
+  "frozen": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r14/freeze.json",
+    "sha256": "eac7f15d33ed07d8df6d27cb9133da42582716ec48f77b29dee0172cf5b01dfe"
+  },
+  "stateRegionOccurrences": {
+    "U+FF1F": 34,
+    "U+3F": 13
+  },
+  "consequence": "BothUnicode spellings occur in current frozen annotations for the same source glyph. A global output replacement or score-time normalization cannot be claimed as an image-derived repair with unchangedGT. Preserve failures until an explicit consistent representation contract is established.",
+  "displayBinding": {
+    "path": "resources/glyph-display-bindings-v1.json",
+    "sha256": "03f8802b6daec5a562f3a1e0c250177091aa20b4fc1ff3495c76568ad98f6657"
+  },
+  "occurrences": [
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1634-f1638",
+      "start": 1634,
+      "end": 1638,
+      "role": "pc_prompt",
+      "text": "なにを しますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1638-f1649",
+      "start": 1638,
+      "end": 1649,
+      "role": "pc_prompt",
+      "text": "なにを しますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1659-f1660",
+      "start": 1659,
+      "end": 1660,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1660-f1661",
+      "start": 1660,
+      "end": 1661,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1661-f1673",
+      "start": 1661,
+      "end": 1673,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1673-f1674",
+      "start": 1673,
+      "end": 1674,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1674-f1688",
+      "start": 1674,
+      "end": 1688,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1688-f1689",
+      "start": 1688,
+      "end": 1689,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1689-f1697",
+      "start": 1689,
+      "end": 1697,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1697-f1698",
+      "start": 1697,
+      "end": 1698,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1698-f1706",
+      "start": 1698,
+      "end": 1706,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1706-f1707",
+      "start": 1706,
+      "end": 1707,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1707-f1708",
+      "start": 1707,
+      "end": 1708,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1708-f1714",
+      "start": 1708,
+      "end": 1714,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1714-f1716",
+      "start": 1714,
+      "end": 1716,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1716-f1724",
+      "start": 1716,
+      "end": 1724,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1724-f1725",
+      "start": 1724,
+      "end": 1725,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1725-f1731",
+      "start": 1725,
+      "end": 1731,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1731-f1732",
+      "start": 1731,
+      "end": 1732,
+      "role": "pc_prompt",
+      "text": "なにを あずけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1736-f1737",
+      "start": 1736,
+      "end": 1737,
+      "role": "pc_prompt",
+      "text": "なにを しますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "stateId": "c83de914352e-f1737-f1747",
+      "start": 1737,
+      "end": 1747,
+      "role": "pc_prompt",
+      "text": "なにを しますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+        "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+      }
+    },
+    {
+      "clip": "shop-sell-entry",
+      "stateId": "9c8aee036f72-f1044-f1048",
+      "start": 1044,
+      "end": 1048,
+      "role": "dialogue_line",
+      "text": "おちからに なれることは？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v9/shop-sell-entry/ocr-candidate-parent-role-v1.jsonl",
+        "sha256": "553c62dc97c6e2a0925d8b1625b5c6f67792e92c66337db60206a5b3befa975b"
+      }
+    },
+    {
+      "clip": "shop-sell-entry",
+      "stateId": "9c8aee036f72-f1048-f1056",
+      "start": 1048,
+      "end": 1056,
+      "role": "dialogue_line",
+      "text": "おちからに なれることは？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v9/shop-sell-entry/ocr-candidate-parent-role-v1.jsonl",
+        "sha256": "553c62dc97c6e2a0925d8b1625b5c6f67792e92c66337db60206a5b3befa975b"
+      }
+    },
+    {
+      "clip": "shop-sell-entry",
+      "stateId": "9c8aee036f72-f1056-f1057",
+      "start": 1056,
+      "end": 1057,
+      "role": "dialogue_line",
+      "text": "おちからに なれることは？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v9/shop-sell-entry/ocr-candidate-parent-role-v1.jsonl",
+        "sha256": "553c62dc97c6e2a0925d8b1625b5c6f67792e92c66337db60206a5b3befa975b"
+      }
+    },
+    {
+      "clip": "shop-sell-entry",
+      "stateId": "9c8aee036f72-f1063-f1068",
+      "start": 1063,
+      "end": 1068,
+      "role": "dialogue_line",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v9/shop-sell-entry/ocr-candidate-parent-role-v1.jsonl",
+        "sha256": "553c62dc97c6e2a0925d8b1625b5c6f67792e92c66337db60206a5b3befa975b"
+      }
+    },
+    {
+      "clip": "shop-sell-entry",
+      "stateId": "9c8aee036f72-f1068-f1069",
+      "start": 1068,
+      "end": 1069,
+      "role": "dialogue_line",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v9/shop-sell-entry/ocr-candidate-parent-role-v1.jsonl",
+        "sha256": "553c62dc97c6e2a0925d8b1625b5c6f67792e92c66337db60206a5b3befa975b"
+      }
+    },
+    {
+      "clip": "shop-sell-entry",
+      "stateId": "9c8aee036f72-f1069-f1070",
+      "start": 1069,
+      "end": 1070,
+      "role": "dialogue_line",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v9/shop-sell-entry/ocr-candidate-parent-role-v1.jsonl",
+        "sha256": "553c62dc97c6e2a0925d8b1625b5c6f67792e92c66337db60206a5b3befa975b"
+      }
+    },
+    {
+      "clip": "shop-sell-entry",
+      "stateId": "9c8aee036f72-f1070-f1082",
+      "start": 1070,
+      "end": 1082,
+      "role": "dialogue_line",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v9/shop-sell-entry/ocr-candidate-parent-role-v1.jsonl",
+        "sha256": "553c62dc97c6e2a0925d8b1625b5c6f67792e92c66337db60206a5b3befa975b"
+      }
+    },
+    {
+      "clip": "shop-sell-entry",
+      "stateId": "9c8aee036f72-f1082-f1092",
+      "start": 1082,
+      "end": 1092,
+      "role": "dialogue_line",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v9/shop-sell-entry/ocr-candidate-parent-role-v1.jsonl",
+        "sha256": "553c62dc97c6e2a0925d8b1625b5c6f67792e92c66337db60206a5b3befa975b"
+      }
+    },
+    {
+      "clip": "shop-sell-entry",
+      "stateId": "9c8aee036f72-f1092-f1096",
+      "start": 1092,
+      "end": 1096,
+      "role": "dialogue_line",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v9/shop-sell-entry/ocr-candidate-parent-role-v1.jsonl",
+        "sha256": "553c62dc97c6e2a0925d8b1625b5c6f67792e92c66337db60206a5b3befa975b"
+      }
+    },
+    {
+      "clip": "shop-sell-entry",
+      "stateId": "9c8aee036f72-f1096-f1102",
+      "start": 1096,
+      "end": 1102,
+      "role": "dialogue_line",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v9/shop-sell-entry/ocr-candidate-parent-role-v1.jsonl",
+        "sha256": "553c62dc97c6e2a0925d8b1625b5c6f67792e92c66337db60206a5b3befa975b"
+      }
+    },
+    {
+      "clip": "shop-rejection",
+      "stateId": "9c8aee036f72-f1408-f1413",
+      "start": 1408,
+      "end": 1413,
+      "role": "shop_message",
+      "text": "どれを うっていただけますか？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/ocr-candidate-v2.jsonl",
+        "sha256": "2c44d8e75b2df9b2f10400a05ade9ed596e0f11202fa2fe7632b821d235e05b8"
+      }
+    },
+    {
+      "clip": "shop-exit",
+      "stateId": "9c8aee036f72-f1450-f1451",
+      "start": 1450,
+      "end": 1451,
+      "role": "dialogue_line",
+      "text": "おちからに なれることは？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/ocr-candidate-v2.jsonl",
+        "sha256": "cb90c6276d9905227add176e828943ffd5874c5c8d5e15f14e9cfafe73f4db7f"
+      }
+    },
+    {
+      "clip": "shop-exit",
+      "stateId": "9c8aee036f72-f1451-f1462",
+      "start": 1451,
+      "end": 1462,
+      "role": "dialogue_line",
+      "text": "おちからに なれることは？",
+      "codepoint": "U+FF1F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/ocr-candidate-v2.jsonl",
+        "sha256": "cb90c6276d9905227add176e828943ffd5874c5c8d5e15f14e9cfafe73f4db7f"
+      }
+    },
+    {
+      "clip": "bill-data-npc",
+      "stateId": "c83de914352e-f4627-f4648",
+      "start": 4627,
+      "end": 4648,
+      "role": "dialogue",
+      "text": "みせて もらった?",
+      "codepoint": "U+3F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/ocr-candidate-v1.jsonl",
+        "sha256": "bf7c51523e8cb289cda981028fe23631d4aae6c2457714fbe51867111dee607e"
+      }
+    },
+    {
+      "clip": "bill-grandfather",
+      "stateId": "c83de914352e-f4717-f4718",
+      "start": 4717,
+      "end": 4718,
+      "role": "dialogue",
+      "text": "おや? あ",
+      "codepoint": "U+3F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-candidate-v1.jsonl",
+        "sha256": "5362eadf83cc85226ea42d979154c7456bcbd45594c18a4b905d2928bc74b0a5"
+      }
+    },
+    {
+      "clip": "bill-grandfather",
+      "stateId": "c83de914352e-f4718-f4719",
+      "start": 4718,
+      "end": 4719,
+      "role": "dialogue",
+      "text": "おや? あんた",
+      "codepoint": "U+3F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-candidate-v1.jsonl",
+        "sha256": "5362eadf83cc85226ea42d979154c7456bcbd45594c18a4b905d2928bc74b0a5"
+      }
+    },
+    {
+      "clip": "bill-grandfather",
+      "stateId": "c83de914352e-f4719-f4721",
+      "start": 4719,
+      "end": 4721,
+      "role": "dialogue",
+      "text": "おや? あんた",
+      "codepoint": "U+3F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-candidate-v1.jsonl",
+        "sha256": "5362eadf83cc85226ea42d979154c7456bcbd45594c18a4b905d2928bc74b0a5"
+      }
+    },
+    {
+      "clip": "bill-grandfather",
+      "stateId": "c83de914352e-f4721-f4722",
+      "start": 4721,
+      "end": 4722,
+      "role": "dialogue",
+      "text": "おや? あんた",
+      "codepoint": "U+3F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-candidate-v1.jsonl",
+        "sha256": "5362eadf83cc85226ea42d979154c7456bcbd45594c18a4b905d2928bc74b0a5"
+      }
+    },
+    {
+      "clip": "bill-grandfather",
+      "stateId": "c83de914352e-f4722-f4723",
+      "start": 4722,
+      "end": 4723,
+      "role": "dialogue",
+      "text": "おや? あんた",
+      "codepoint": "U+3F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-candidate-v1.jsonl",
+        "sha256": "5362eadf83cc85226ea42d979154c7456bcbd45594c18a4b905d2928bc74b0a5"
+      }
+    },
+    {
+      "clip": "bill-grandfather",
+      "stateId": "c83de914352e-f4723-f4724",
+      "start": 4723,
+      "end": 4724,
+      "role": "dialogue",
+      "text": "おや? あんた",
+      "codepoint": "U+3F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-candidate-v1.jsonl",
+        "sha256": "5362eadf83cc85226ea42d979154c7456bcbd45594c18a4b905d2928bc74b0a5"
+      }
+    },
+    {
+      "clip": "bill-grandfather",
+      "stateId": "c83de914352e-f4724-f4726",
+      "start": 4724,
+      "end": 4726,
+      "role": "dialogue",
+      "text": "おや? あんた",
+      "codepoint": "U+3F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-candidate-v1.jsonl",
+        "sha256": "5362eadf83cc85226ea42d979154c7456bcbd45594c18a4b905d2928bc74b0a5"
+      }
+    },
+    {
+      "clip": "bill-grandfather",
+      "stateId": "c83de914352e-f4726-f4740",
+      "start": 4726,
+      "end": 4740,
+      "role": "dialogue",
+      "text": "おや? あんた",
+      "codepoint": "U+3F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-candidate-v1.jsonl",
+        "sha256": "5362eadf83cc85226ea42d979154c7456bcbd45594c18a4b905d2928bc74b0a5"
+      }
+    },
+    {
+      "clip": "bill-grandfather",
+      "stateId": "c83de914352e-f4726-f4740",
+      "start": 4726,
+      "end": 4740,
+      "role": "dialogue",
+      "text": "マサキの ことを しっとるのかね?",
+      "codepoint": "U+3F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-candidate-v1.jsonl",
+        "sha256": "5362eadf83cc85226ea42d979154c7456bcbd45594c18a4b905d2928bc74b0a5"
+      }
+    },
+    {
+      "clip": "museum-question",
+      "stateId": "c83de914352e-f3541-f3542",
+      "start": 3541,
+      "end": 3542,
+      "role": "dialogue",
+      "text": "はくぶつかん けんがくした?",
+      "codepoint": "U+3F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/museum-question/ocr-candidate-v1.jsonl",
+        "sha256": "b6d476e2cdadefd8a035fff77889875d4dca5c975e82db7f523ed1575c8da433"
+      }
+    },
+    {
+      "clip": "museum-question",
+      "stateId": "c83de914352e-f3542-f3572",
+      "start": 3542,
+      "end": 3572,
+      "role": "dialogue",
+      "text": "はくぶつかん けんがくした?",
+      "codepoint": "U+3F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/museum-question/ocr-candidate-v1.jsonl",
+        "sha256": "b6d476e2cdadefd8a035fff77889875d4dca5c975e82db7f523ed1575c8da433"
+      }
+    },
+    {
+      "clip": "museum-question",
+      "stateId": "c83de914352e-f3572-f3588",
+      "start": 3572,
+      "end": 3588,
+      "role": "dialogue",
+      "text": "はくぶつかん けんがくした?",
+      "codepoint": "U+3F",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/museum-question/ocr-candidate-v1.jsonl",
+        "sha256": "b6d476e2cdadefd8a035fff77889875d4dca5c975e82db7f523ed1575c8da433"
+      }
+    }
+  ]
+}

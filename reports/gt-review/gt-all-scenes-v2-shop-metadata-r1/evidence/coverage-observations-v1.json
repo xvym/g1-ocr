@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-14T21:36:21.9864228+08:00",
+  "method": "Agent browsed hash-checked original-frame navigation from all four videos; sampled navigation is availability evidence only, not continuous GT or acceptance",
+  "totalMediaSeconds": 2779.397368,
+  "fullIndexedFrames": 66770,
+  "selectedClipSeconds": 1.625,
+  "scoredSeconds": 1.4583333333333333,
+  "scoredFrames": 35,
+  "scoredClips": 1,
+  "completePageOpportunities": 1,
+  "gtFrozen": false,
+  "sources": [
+    {
+      "navigation": [
+        "data/frames/video-01/navigation-early-v1",
+        "data/frames/video-01/navigation-rest-v1"
+      ],
+      "unverifiedRanges": [
+        0,
+        29346
+      ],
+      "session": {
+        "basis": "Boot/restart and new-play context do not alone prove recording/session isolation",
+        "status": "independence unverified"
+      },
+      "mediaId": "video-01",
+      "gameVersion": {
+        "basis": "3DS HOME tile visibly says ポケットモンスター 赤; subsequent game play and new-save contexts visible in same source; does not certify every segment",
+        "status": "red launch observed; other launches/segments unverified",
+        "evidenceFrames": [
+          0,
+          60,
+          1800,
+          2700
+        ]
+      }
+    },
+    {
+      "gameVersion": {
+        "basis": "GB border and Japanese gameplay are visible; no version-exclusive screen confirmed",
+        "status": "unverified"
+      },
+      "unverifiedRanges": [
+        [
+          0,
+          5264
+        ],
+        [
+          5299,
+          7964
+        ]
+      ],
+      "candidateScoredRange": [
+        5264,
+        5299
+      ],
+      "session": {
+        "basis": "Source begins on copyright; no trusted provenance connects or isolates the recordings",
+        "status": "independence unverified"
+      },
+      "mediaId": "video-02",
+      "navigation": [
+        "data/frames/video-02/navigation-v1"
+      ]
+    },
+    {
+      "navigation": [
+        "data/frames/video-03/navigation-v1"
+      ],
+      "unverifiedRanges": [
+        0,
+        7402
+      ],
+      "session": {
+        "basis": "Source starts at copyright and has high-progress save; shared-looking Lapras/PC contexts cannot establish isolated sessions",
+        "status": "independence unverified"
+      },
+      "mediaId": "video-03",
+      "gameVersion": {
+        "basis": "Continue screen player name グリーン is not game-version proof",
+        "status": "unverified"
+      }
+    },
+    {
+      "navigation": [
+        "data/frames/video-04/navigation-v1"
+      ],
+      "unverifiedRanges": [
+        0,
+        22058
+      ],
+      "session": {
+        "basis": "Source begins in gameplay/PC room; possible continuity with other sources not resolved",
+        "status": "independence unverified"
+      },
+      "mediaId": "video-04",
+      "gameVersion": {
+        "basis": "Existing Japanese gameplay, no confirmed version screen",
+        "status": "unverified"
+      }
+    }
+  ],
+  "availability": [
+    {
+      "coverage": "Only video-02 first plaque page has double-read candidate GT; remainder unverified",
+      "evidence": {
+        "video-02": [
+          3660,
+          3840,
+          5280
+        ],
+        "video-01": [
+          6300,
+          9900,
+          13500,
+          24300
+        ],
+        "video-03": [
+          480,
+          1680,
+          6480
+        ]
+      },
+      "scene": "dialogue/exploration/main textbox"
+    },
+    {
+      "coverage": "unverified continuous events",
+      "evidence": {
+        "video-02": [
+          6720,
+          7440
+        ],
+        "video-01": [
+          15300,
+          16200,
+          17100
+        ],
+        "video-03": [
+          5280,
+          5520,
+          6240
+        ],
+        "video-04": [
+          14440,
+          15200,
+          18240,
+          21280
+        ]
+      },
+      "scene": "battle messages"
+    },
+    {
+      "coverage": "visible navigation candidate; boundaries/GT unverified",
+      "evidence": {
+        "video-04": [
+          17480
+        ]
+      },
+      "scene": "skill selection/PP"
+    },
+    {
+      "coverage": "visible navigation candidate; boundaries/GT unverified",
+      "evidence": {
+        "video-03": [
+          1200
+        ],
+        "video-04": [
+          5320,
+          15960
+        ]
+      },
+      "scene": "backpack/items"
+    },
+    {
+      "coverage": "visible navigation candidate; all fields unverified",
+      "evidence": {
+        "video-03": [
+          3360,
+          3600
+        ],
+        "video-02": [
+          480
+        ]
+      },
+      "scene": "Pokemon status"
+    },
+    {
+      "coverage": "visible navigation candidate; transitions/GT unverified",
+      "evidence": {
+        "video-02": [
+          1440,
+          1680,
+          1920
+        ],
+        "video-03": [
+          2640,
+          2880,
+          3120
+        ],
+        "video-04": [
+          6840,
+          9120,
+          10640
+        ]
+      },
+      "scene": "PC"
+    },
+    {
+      "coverage": "visible navigation candidate; amounts/fields/GT unverified",
+      "evidence": {
+        "video-03": [
+          960,
+          1200,
+          1440
+        ]
+      },
+      "scene": "shop"
+    }
+  ],
+  "transformations": {
+    "scale": "trial source-to-game scale 9/4; other scale ranges unverified",
+    "scroll": "trial includes 5296 and 5297 with clipped marks",
+    "shadow": "raster appearance observed, independent shadow coverage unverified",
+    "pageReplacement": "trial includes settled 5298; following page loading 5300 is post-context only",
+    "cursor": "trial down arrow onset 5286; other menu movements unverified",
+    "namesAndNumbers": "visible in navigation but not in trial GT",
+    "clearOrExit": "observed 5320 outside trial; not scored/frozen",
+    "blackOrInvalid": "video-01 HOME/black navigation at 0/180; no continuous frozen GT",
+    "loading": "trial includes all original loading frames",
+    "shortPages": "no sub-200ms complete page confirmed in frozen scope"
+  },
+  "groupPolicy": {
+    "regression": "no frozen set yet",
+    "acceptance": "none: independently sourced, untuned session not proven",
+    "requiresNewRecording": false,
+    "development": "trial video-02 only"
+  },
+  "truncatedOrUnknownCandidates": [
+    {
+      "reason": "Recording starts mid-game; no pre-event history established; not selected as complete event",
+      "status": "boundary_unknown",
+      "id": "video-04-source-start",
+      "evidenceFrame": 0
+    },
+    {
+      "reason": "300 raw frames retained; only independently bounded first page is trial scoring; adjacent events remain unverified",
+      "status": "navigation envelope only; complete first-page sub-event selected before OCR",
+      "id": "c83de914352e-f5100-f5400-candidate"
+    }
+  ],
+  "sourcesManifestSha256": "2458c4b931241d3fd6cea9617873e97f48b6ce94114c3db5b95eb4eb1b2d2798"
+}

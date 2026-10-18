@@ -1,0 +1,162 @@
+{
+  "status": "rejected_for_product_use",
+  "model": "area_integral",
+  "source": {
+    "path": "reports/m3-grid-refinement-v1/border-projection-area-v1/BorderProjectionProbe.java",
+    "sha256": "bb85b955781d14afda78d90d7b8ed95294fda4329f4a590e720c6a28fde46691"
+  },
+  "checker": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\check-border-projection-probe.cjs",
+    "sha256": "78a58e35405ea7e863c2fa2935905b13032c50de826d79980a873b0d295019d1"
+  },
+  "banks": [
+    {
+      "path": ".cache/m3-japanese-glyph-banks-v2/red-green-jp-glyphs.json",
+      "sha256": "1259845b81e38d7139d7f660754fc992093423ed05742cbcecd711c377cbf54c"
+    },
+    {
+      "path": ".cache/m3-japanese-glyph-banks-v2/blue-jp-glyphs.json",
+      "sha256": "39387c6782a97f09faa5d3c9daaa56b17cf903a771872457125ced46ca357897"
+    },
+    {
+      "path": ".cache/m3-japanese-glyph-banks-v2/yellow-jp-glyphs.json",
+      "sha256": "a6fd0cc34a36b32929e3d1ebcd3119cfb2b971f8a10b6fb86188c3c1ec27ea3d"
+    }
+  ],
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r4/freeze.json",
+    "sha256": "650b69280c331809c901f2c587e00774762173ece7d330ac597a3b40380729c9"
+  },
+  "results": [
+    {
+      "id": "league-centre-npc",
+      "frame": 1610,
+      "input": {
+        "path": "data/frames/video-03/authorized-correction-league-centre-npc-pass2-v1/frame-001610.png",
+        "sha256": "e2826d0d4455daddd2e33673496f90e3444d2778965b4fef0d3facdb28e5c201",
+        "rgbSha256": "834ace3c32a5f9727e6e25226ce3c08704c3d76a6a057fe96e93c40cb7d459cd",
+        "pts": 824320,
+        "timeBase": "1/12288"
+      },
+      "probe": {
+        "path": "reports/m3-grid-refinement-v1/border-projection-area-v1/league-1610.json",
+        "sha256": "f954d622376b2e439559aae351c634e574aae7618eb88b92ee9cb09996254519"
+      },
+      "expected": {
+        "originX": 180,
+        "originY": 0,
+        "scaleX": 3.75,
+        "scaleY": 3.7777777777777777
+      },
+      "current": {
+        "mismatches": 356,
+        "maxSourcePixelError": 2
+      },
+      "fitted": {
+        "mismatches": 439,
+        "maxSourcePixelError": 2
+      },
+      "initialResidual": 207.72873408682028,
+      "bestResidual": 172.73427407701297
+    },
+    {
+      "id": "league-centre-npc",
+      "frame": 1611,
+      "input": {
+        "path": "data/frames/video-03/authorized-correction-league-centre-npc-pass2-v1/frame-001611.png",
+        "sha256": "9051eba0a4573cdffe446fc29d879c09554ea02266e3e1b423027a493635cfa0",
+        "rgbSha256": "2309071b89d4183b7e6020b3e2472fa2dafe3c64d1a9fcc85519656e16a0c61d",
+        "pts": 824832,
+        "timeBase": "1/12288"
+      },
+      "probe": {
+        "path": "reports/m3-grid-refinement-v1/border-projection-area-v1/league-1611.json",
+        "sha256": "8f3cb351be44ad40233181d3d17f4ebbb66ca2f5e8170c928d0c0e5c6231169a"
+      },
+      "expected": {
+        "originX": 180,
+        "originY": 0,
+        "scaleX": 3.75,
+        "scaleY": 3.7777777777777777
+      },
+      "current": {
+        "mismatches": 356,
+        "maxSourcePixelError": 2
+      },
+      "fitted": {
+        "mismatches": 439,
+        "maxSourcePixelError": 2
+      },
+      "initialResidual": 207.7395139120815,
+      "bestResidual": 172.7311038084943
+    },
+    {
+      "id": "pc-connect",
+      "frame": 1410,
+      "input": {
+        "path": "data/frames/video-02/expansion-pc-connect-pass2-v1/frame-001410.png",
+        "sha256": "735be0e57d9005d6a65f757fa299a5d1838c4500e2bb41eb57db8f9839170dc0",
+        "rgbSha256": "c88e6cac192afc02a1a47775dcde083a919e0ca61c856ef50f3be8a9b8565d41",
+        "pts": 721920,
+        "timeBase": "1/12288"
+      },
+      "probe": {
+        "path": "reports/m3-grid-refinement-v1/border-projection-area-v1/pc-1410.json",
+        "sha256": "fba36f2a65314167d378d1e234005b17097f300f381dff196cb49211d5f0e09d"
+      },
+      "expected": {
+        "originX": 300,
+        "originY": 108,
+        "scaleX": 2.25,
+        "scaleY": 2.25
+      },
+      "current": {
+        "mismatches": 329,
+        "maxSourcePixelError": 4
+      },
+      "fitted": {
+        "mismatches": 331,
+        "maxSourcePixelError": 4
+      },
+      "initialResidual": 158.900287571097,
+      "bestResidual": 91.8717628499777
+    },
+    {
+      "id": "exploration-npc",
+      "frame": 9870,
+      "input": {
+        "path": "data/frames/video-01/all-scenes-exploration-npc-pass2-v1/frame-009870.png",
+        "sha256": "1be0d2371cf775bf854086ccd9eb6a5f2af60919fb2f1ec8a438120438c76763",
+        "rgbSha256": "b2cdec0789baeced9a67aa96497881b9ce507f6aa24fcddd6cabd363f743d45d",
+        "pts": 9870,
+        "timeBase": "1/30"
+      },
+      "probe": {
+        "path": "reports/m3-grid-refinement-v1/border-projection-area-v1/exploration-9870.json",
+        "sha256": "7cd164543acd6102eb663a6ab4c680ced0b9d0402bb28b3a572a9f77c05625fb"
+      },
+      "expected": {
+        "originX": 240,
+        "originY": 96,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      "current": {
+        "mismatches": 0,
+        "maxSourcePixelError": 0
+      },
+      "fitted": {
+        "mismatches": 306,
+        "maxSourcePixelError": 1
+      },
+      "initialResidual": 4.923555556611973,
+      "bestResidual": 3.9401246078899326
+    }
+  ],
+  "limitations": [
+    "Lower image residual does not certify geometry; exact integer control regresses.",
+    "Fixed every-two-pixel sampling can alias phase; identifiability not proven.",
+    "No production or GT change. No acceptance claim."
+  ],
+  "next": "Stop this geometry model sequence after three unsuccessful diagnostic attempts; investigate independent state classification."
+}

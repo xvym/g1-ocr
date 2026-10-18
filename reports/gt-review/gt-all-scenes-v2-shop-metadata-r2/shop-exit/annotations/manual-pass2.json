@@ -1,0 +1,45 @@
+{
+  "status":"agent_second_raw_read_complete_not_frozen",
+  "source":"data/frames/video-03/expansion-shop-exit-pass2-v1",
+  "viewedAllOriginalGameCrops":[1439,1488],
+  "viewedFullOriginal":[1450],
+  "noTestedProgramOutputExists":true,
+  "humanPerFrameVerification":"not claimed",
+  "fields":[
+    {"id":"money-label","role":"shop_money_label","text":"おかね","col":14,"row":0},
+    {"id":"buy-choice","role":"shop_menu_choice","text":"かいに きた","col":2,"row":1},
+    {"id":"money-value","role":"money_amount","text":"22526円","col":13,"row":1,"numericValue":22526,"currency":"円"},
+    {"id":"sell-choice","role":"shop_menu_choice","text":"うりに きた","col":2,"row":3},
+    {"id":"leave-choice","role":"shop_menu_choice","text":"べつに いいです","col":2,"row":5}
+  ],
+  "cursor":[
+    {"range":[1439,1451],"col":1,"row":3,"style":"outlined_right"},
+    {"range":[1451,1463],"col":1,"row":1,"style":"filled_right"},
+    {"range":[1463,1482],"col":1,"row":1,"style":"outlined_right"},
+    {"range":[1482,1488],"style":"absent"}
+  ],
+  "body":[
+    [1439,1441,"",""],
+    [1441,1442,"そのほ",""],
+    [1442,1443,"そのほかに",""],
+    [1443,1444,"そのほかに わたく",""],
+    [1444,1446,"そのほかに わたくしども",""],
+    [1446,1447,"そのほかに わたくしどもで","おち"],
+    [1447,1448,"そのほかに わたくしどもで","おちからに"],
+    [1448,1449,"そのほかに わたくしどもで","おちからに なれ"],
+    [1449,1450,"そのほかに わたくしどもで","おちからに なれること"],
+    [1450,1462,"そのほかに わたくしどもで","おちからに なれることは？"],
+    [1462,1464,"",""],
+    [1464,1465,"あ",""],
+    [1465,1466,"ありがと",""],
+    [1466,1467,"ありがとう ご",""],
+    [1467,1468,"ありがとう ございま",""],
+    [1468,1482,"ありがとう ございました",""],
+    [1482,1488,"",""]
+  ],
+  "geometry":{"origin":[180,0],"raster":[600,544],"logical":[160,144],"scaleX":[15,4],"scaleY":[34,9],"cell8":true,"sourceRectConvention":"floor left/top, ceil right/bottom","bodyRows":[14,16],"dakutenAboveBase":true},
+  "shortCompleteOpportunity":[1450,1451],
+  "completeBodyStarts":[1450,1468],
+  "reason":"Text complete at old selected row for one frame, then selected row changes; preserve both contexts. All shop windows close at1482, decorative map sprites are non-target.",
+  "nonTargetAfter":1482
+}

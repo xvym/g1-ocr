@@ -1,0 +1,5822 @@
+[
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006402.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 102
+    },
+    "y": {
+      "origin": 95.99861690192988,
+      "scale": 1.9998466156966033,
+      "rms": 0.03508946427096186,
+      "points": 439
+    },
+    "historyFrames": 1,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006403.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 204
+    },
+    "y": {
+      "origin": 95.99861690183862,
+      "scale": 1.9998466156973629,
+      "rms": 0.03508946427095595,
+      "points": 878
+    },
+    "historyFrames": 2,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006404.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 306
+    },
+    "y": {
+      "origin": 95.99861690178058,
+      "scale": 1.9998466156978447,
+      "rms": 0.03508946427095957,
+      "points": 1317
+    },
+    "historyFrames": 3,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006405.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 408
+    },
+    "y": {
+      "origin": 95.99861690182698,
+      "scale": 1.9998466156974684,
+      "rms": 0.03508946427097257,
+      "points": 1756
+    },
+    "historyFrames": 4,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006406.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 510
+    },
+    "y": {
+      "origin": 95.9986169019748,
+      "scale": 1.9998466156962633,
+      "rms": 0.03508946427096215,
+      "points": 2195
+    },
+    "historyFrames": 5,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006407.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67555711963223,
+            "scale": 2.0046875,
+            "concentration": 0.7481396409454587,
+            "phase": 235.66618211963223
+          },
+          {
+            "origin": 240.37309120352361,
+            "scale": 1.99453125,
+            "concentration": 0.6675485751563325,
+            "phase": 236.38402870352363
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44772046828339,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8925329047985662,
+            "phase": 91.43730380161672
+          },
+          {
+            "origin": 96.64484159612087,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8540607103080975,
+            "phase": 92.65699437389864
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 617
+    },
+    "y": {
+      "origin": 95.99856864659816,
+      "scale": 1.9998468417480173,
+      "rms": 0.035099635284564876,
+      "points": 2635
+    },
+    "historyFrames": 6,
+    "currentMatchedCells": 50,
+    "currentXPoints": 107,
+    "currentYPoints": 440
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006408.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6814108696306,
+            "scale": 2.0046875,
+            "concentration": 0.7510305868992618,
+            "phase": 235.6720358696306
+          },
+          {
+            "origin": 240.36578218818613,
+            "scale": 1.99453125,
+            "concentration": 0.6714821059532219,
+            "phase": 236.37671968818614
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44671145222273,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8942551233773657,
+            "phase": 91.43629478555606
+          },
+          {
+            "origin": 96.64605787587396,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8564010235722439,
+            "phase": 92.65821065365174
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 724
+    },
+    "y": {
+      "origin": 95.99842943965481,
+      "scale": 1.9998475734472927,
+      "rms": 0.03512455191752983,
+      "points": 3077
+    },
+    "historyFrames": 7,
+    "currentMatchedCells": 51,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006409.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6814108696306,
+            "scale": 2.0046875,
+            "concentration": 0.7510305868992618,
+            "phase": 235.6720358696306
+          },
+          {
+            "origin": 240.36578218818613,
+            "scale": 1.99453125,
+            "concentration": 0.6714821059532219,
+            "phase": 236.37671968818614
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44671124385431,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8942556511624512,
+            "phase": 91.43629457718764
+          },
+          {
+            "origin": 96.64605812611973,
+            "scale": 1.9939236111111112,
+            "concentration": 0.856401740896838,
+            "phase": 92.6582109038975
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 831
+    },
+    "y": {
+      "origin": 95.99832521619687,
+      "scale": 1.999848121266285,
+      "rms": 0.0351431442059107,
+      "points": 3519
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 51,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006410.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548084568851,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8946863279437408,
+            "phase": 91.43506417902184
+          },
+          {
+            "origin": 96.64753672503387,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569861142395765,
+            "phase": 92.65968950281164
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 836
+    },
+    "y": {
+      "origin": 95.99819782328748,
+      "scale": 1.9998487874295126,
+      "rms": 0.03516598310765087,
+      "points": 3522
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006411.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548058614775,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8946868292804827,
+            "phase": 91.43506391948108
+          },
+          {
+            "origin": 96.64753703715876,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569867957414293,
+            "phase": 92.65968981493653
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 841
+    },
+    "y": {
+      "origin": 95.99807066445638,
+      "scale": 1.9998494523679797,
+      "rms": 0.03518869908390657,
+      "points": 3525
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006412.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548058614775,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8946868292804827,
+            "phase": 91.43506391948108
+          },
+          {
+            "origin": 96.64753703715876,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569867957414293,
+            "phase": 92.65968981493653
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 846
+    },
+    "y": {
+      "origin": 95.99794373907102,
+      "scale": 1.999850116084962,
+      "rms": 0.0352112928384536,
+      "points": 3528
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006413.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548058614775,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8946868292804827,
+            "phase": 91.43506391948108
+          },
+          {
+            "origin": 96.64753703715876,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569867957414293,
+            "phase": 92.65968981493653
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 851
+    },
+    "y": {
+      "origin": 95.99781704648198,
+      "scale": 1.9998507785838806,
+      "rms": 0.035233765069770266,
+      "points": 3531
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006414.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.99769058606033,
+      "scale": 1.9998514398679952,
+      "rms": 0.03525611647093946,
+      "points": 3534
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006415.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.9975999874462,
+      "scale": 1.9998519331968885,
+      "rms": 0.03527103855815978,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006416.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.9975999874462,
+      "scale": 1.9998519331968885,
+      "rms": 0.03527103855815978,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006417.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.9975999874462,
+      "scale": 1.9998519331968885,
+      "rms": 0.03527103855815978,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006418.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.9975999874462,
+      "scale": 1.9998519331968885,
+      "rms": 0.03527103855815978,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006419.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.9975999874462,
+      "scale": 1.9998519331968885,
+      "rms": 0.03527103855815978,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006420.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.9975999874462,
+      "scale": 1.9998519331968885,
+      "rms": 0.03527103855815978,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006421.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.9975999874462,
+      "scale": 1.9998519331968885,
+      "rms": 0.03527103855815978,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006422.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.9975999874462,
+      "scale": 1.9998519331968885,
+      "rms": 0.03527103855815978,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006423.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.9975999874462,
+      "scale": 1.9998519331968885,
+      "rms": 0.03527103855815978,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006424.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.9975999874462,
+      "scale": 1.9998519331968885,
+      "rms": 0.03527103855815978,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006425.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.9975999874462,
+      "scale": 1.9998519331968885,
+      "rms": 0.03527103855815978,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006426.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.9975999874462,
+      "scale": 1.9998519331968885,
+      "rms": 0.03527103855815978,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006427.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.9975999874462,
+      "scale": 1.9998519331968885,
+      "rms": 0.03527103855815978,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006428.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67715264802723,
+            "scale": 2.0046875,
+            "concentration": 0.7478235768569368,
+            "phase": 235.66777764802723
+          },
+          {
+            "origin": 240.3708451336485,
+            "scale": 1.99453125,
+            "concentration": 0.6670715328434185,
+            "phase": 236.3817826336485
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44548078511728,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894686306963983,
+            "phase": 91.43506411845061
+          },
+          {
+            "origin": 96.64753679861693,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8569860857617664,
+            "phase": 92.6596895763947
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 856
+    },
+    "y": {
+      "origin": 95.9975999874462,
+      "scale": 1.9998519331968885,
+      "rms": 0.03527103855815978,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 107,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006429.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 851
+    },
+    "y": {
+      "origin": 95.99772628626862,
+      "scale": 1.9998512727761202,
+      "rms": 0.03524876793171328,
+      "points": 3533
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006430.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 846
+    },
+    "y": {
+      "origin": 95.9978528168069,
+      "scale": 1.9998506111429775,
+      "rms": 0.035226376937871104,
+      "points": 3530
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006431.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 841
+    },
+    "y": {
+      "origin": 95.9979795797068,
+      "scale": 1.9998499482940548,
+      "rms": 0.0352038648870727,
+      "points": 3527
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006432.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 836
+    },
+    "y": {
+      "origin": 95.99810657560681,
+      "scale": 1.9998492842260176,
+      "rms": 0.03518123108442972,
+      "points": 3524
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006433.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 831
+    },
+    "y": {
+      "origin": 95.99823380514646,
+      "scale": 1.9998486189355285,
+      "rms": 0.03515847482977983,
+      "points": 3521
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006434.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 826
+    },
+    "y": {
+      "origin": 95.99836126897394,
+      "scale": 1.9998479524191846,
+      "rms": 0.03513559541756423,
+      "points": 3518
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006435.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 821
+    },
+    "y": {
+      "origin": 95.99848896773253,
+      "scale": 1.9998472846736324,
+      "rms": 0.03511259213677576,
+      "points": 3515
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006436.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 816
+    },
+    "y": {
+      "origin": 95.99861690207555,
+      "scale": 1.9998466156954426,
+      "rms": 0.035089464270951824,
+      "points": 3512
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006437.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 816
+    },
+    "y": {
+      "origin": 95.99861690207555,
+      "scale": 1.9998466156954426,
+      "rms": 0.035089464270951824,
+      "points": 3512
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006438.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67466822527754,
+            "scale": 2.0046875,
+            "concentration": 0.7467948633120993,
+            "phase": 235.66529322527754
+          },
+          {
+            "origin": 240.3742593918088,
+            "scale": 1.99453125,
+            "concentration": 0.6657763180118002,
+            "phase": 236.38519689180882
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44847056578678,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8913566540098468,
+            "phase": 91.4380538991201
+          },
+          {
+            "origin": 96.64393612914111,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8524627491303562,
+            "phase": 92.65608890691888
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999997,
+      "scale": 2.0000000000000004,
+      "rms": 4.4492405119632754E-14,
+      "points": 818
+    },
+    "y": {
+      "origin": 95.99861690207555,
+      "scale": 1.9998466156954426,
+      "rms": 0.035089464270951824,
+      "points": 3512
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 49,
+    "currentXPoints": 104,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006439.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67466822527754,
+            "scale": 2.0046875,
+            "concentration": 0.7467948633120993,
+            "phase": 235.66529322527754
+          },
+          {
+            "origin": 240.3742593918088,
+            "scale": 1.99453125,
+            "concentration": 0.6657763180118002,
+            "phase": 236.38519689180882
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44847056578678,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8913566540098468,
+            "phase": 91.4380538991201
+          },
+          {
+            "origin": 96.64393612914111,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8524627491303562,
+            "phase": 92.65608890691888
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 820
+    },
+    "y": {
+      "origin": 95.99861690207555,
+      "scale": 1.9998466156954426,
+      "rms": 0.035089464270951824,
+      "points": 3512
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 49,
+    "currentXPoints": 104,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006440.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6957152463483,
+            "scale": 2.0046875,
+            "concentration": 0.7544760964684526,
+            "phase": 235.6863402463483
+          },
+          {
+            "origin": 240.34808046538805,
+            "scale": 1.99453125,
+            "concentration": 0.6763954127815527,
+            "phase": 236.35901796538806
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44625177430002,
+            "scale": 2.0052083333333335,
+            "concentration": 0.894593769888728,
+            "phase": 91.43583510763335
+          },
+          {
+            "origin": 96.64661312046312,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8568610712588512,
+            "phase": 92.65876589824089
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.426770349303685E-14,
+      "points": 828
+    },
+    "y": {
+      "origin": 95.99856233063782,
+      "scale": 1.9998468277057242,
+      "rms": 0.03510584862334686,
+      "points": 3515
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 52,
+    "currentXPoints": 110,
+    "currentYPoints": 442
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006441.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69771542506885,
+            "scale": 2.0046875,
+            "concentration": 0.7659597438737842,
+            "phase": 235.68834042506884
+          },
+          {
+            "origin": 240.34597607395213,
+            "scale": 1.99453125,
+            "concentration": 0.6916198599530123,
+            "phase": 236.35691357395214
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44473603425439,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8969027991165035,
+            "phase": 91.43431936758772
+          },
+          {
+            "origin": 96.64843672294607,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8599995691271513,
+            "phase": 92.66058950072384
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999997,
+      "scale": 2.0000000000000004,
+      "rms": 4.3956336832897614E-14,
+      "points": 841
+    },
+    "y": {
+      "origin": 95.9984064780113,
+      "scale": 1.9998475912971172,
+      "rms": 0.03514996582484309,
+      "points": 3521
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 54,
+    "currentXPoints": 115,
+    "currentYPoints": 445
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006442.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69771542506885,
+            "scale": 2.0046875,
+            "concentration": 0.7659597438737842,
+            "phase": 235.68834042506884
+          },
+          {
+            "origin": 240.34597607395213,
+            "scale": 1.99453125,
+            "concentration": 0.6916198599530123,
+            "phase": 236.35691357395214
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44473603425439,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8969027991165035,
+            "phase": 91.43431936758772
+          },
+          {
+            "origin": 96.64843672294607,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8599995691271513,
+            "phase": 92.66058950072384
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.365232922681586E-14,
+      "points": 854
+    },
+    "y": {
+      "origin": 95.99825121386611,
+      "scale": 1.9998483519151704,
+      "rms": 0.03519375411597961,
+      "points": 3527
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 54,
+    "currentXPoints": 115,
+    "currentYPoints": 445
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006443.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6925943758378,
+            "scale": 2.0046875,
+            "concentration": 0.7790691575724144,
+            "phase": 235.6832193758378
+          },
+          {
+            "origin": 240.35308532418142,
+            "scale": 1.99453125,
+            "concentration": 0.7085411975051096,
+            "phase": 236.36402282418143
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44341363509315,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8993703987259144,
+            "phase": 91.43299696842648
+          },
+          {
+            "origin": 96.65002204294393,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8633542507515692,
+            "phase": 92.6621748207217
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 873
+    },
+    "y": {
+      "origin": 95.99807262424598,
+      "scale": 1.9998492317302066,
+      "rms": 0.03524555137512681,
+      "points": 3536
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 57,
+    "currentXPoints": 121,
+    "currentYPoints": 448
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006444.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67930574948772,
+            "scale": 2.0046875,
+            "concentration": 0.7843751957663131,
+            "phase": 235.66993074948772
+          },
+          {
+            "origin": 240.37014869951517,
+            "scale": 1.99453125,
+            "concentration": 0.7146237322972412,
+            "phase": 236.38108619951518
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44132607673104,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9026451296306854,
+            "phase": 91.43090941006437
+          },
+          {
+            "origin": 96.65252203702977,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8678076095983536,
+            "phase": 92.66467481480754
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999997,
+      "scale": 2.0000000000000004,
+      "rms": 4.266832300191872E-14,
+      "points": 900
+    },
+    "y": {
+      "origin": 95.99780376213768,
+      "scale": 1.999850522062527,
+      "rms": 0.035315247526906984,
+      "points": 3549
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 60,
+    "currentXPoints": 129,
+    "currentYPoints": 452
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006445.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67930574948772,
+            "scale": 2.0046875,
+            "concentration": 0.7843751957663131,
+            "phase": 235.66993074948772
+          },
+          {
+            "origin": 240.37014869951517,
+            "scale": 1.99453125,
+            "concentration": 0.7146237322972412,
+            "phase": 236.38108619951518
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44132607673104,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9026451296306854,
+            "phase": 91.43090941006437
+          },
+          {
+            "origin": 96.65252203702977,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8678076095983536,
+            "phase": 92.66467481480754
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.215554557612624E-14,
+      "points": 927
+    },
+    "y": {
+      "origin": 95.99753711430102,
+      "scale": 1.9998518012660336,
+      "rms": 0.03538391525809848,
+      "points": 3562
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 60,
+    "currentXPoints": 129,
+    "currentYPoints": 452
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006446.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69613083060355,
+            "scale": 2.0046875,
+            "concentration": 0.7823598883912168,
+            "phase": 235.68675583060354
+          },
+          {
+            "origin": 240.34960323392752,
+            "scale": 1.99453125,
+            "concentration": 0.7121693786806798,
+            "phase": 236.36054073392754
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.4365407541812,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9032253077447352,
+            "phase": 91.42612408751452
+          },
+          {
+            "origin": 96.65823863904515,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8686032376754316,
+            "phase": 92.67039141682292
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.1666008715477025E-14,
+      "points": 954
+    },
+    "y": {
+      "origin": 95.9972290438296,
+      "scale": 1.9998535875077008,
+      "rms": 0.03544240301746598,
+      "points": 3578
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 63,
+    "currentXPoints": 131,
+    "currentYPoints": 455
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006447.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.70246562574627,
+            "scale": 2.0046875,
+            "concentration": 0.7908547036327429,
+            "phase": 235.69309062574627
+          },
+          {
+            "origin": 240.34191386304252,
+            "scale": 1.99453125,
+            "concentration": 0.7235592864037621,
+            "phase": 236.35285136304253
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.43237225535835,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9039519106380038,
+            "phase": 91.42195558869167
+          },
+          {
+            "origin": 96.66321602639,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8696015237624136,
+            "phase": 92.67536880416777
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.117958884567203E-14,
+      "points": 982
+    },
+    "y": {
+      "origin": 95.99695981519484,
+      "scale": 1.9998549201609064,
+      "rms": 0.035508546077779604,
+      "points": 3595
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 66,
+    "currentXPoints": 132,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006448.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.70246562574627,
+            "scale": 2.0046875,
+            "concentration": 0.7908547036327429,
+            "phase": 235.69309062574627
+          },
+          {
+            "origin": 240.34191386304252,
+            "scale": 1.99453125,
+            "concentration": 0.7235592864037621,
+            "phase": 236.35285136304253
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.43237225535835,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9039519106380038,
+            "phase": 91.42195558869167
+          },
+          {
+            "origin": 96.66321602639,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8696015237624136,
+            "phase": 92.67536880416777
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999997,
+      "scale": 2.0000000000000004,
+      "rms": 4.081841955555958E-14,
+      "points": 1004
+    },
+    "y": {
+      "origin": 95.99674373005764,
+      "scale": 1.9998560493705861,
+      "rms": 0.03555885245128741,
+      "points": 3609
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 66,
+    "currentXPoints": 132,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006449.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.70134734407907,
+            "scale": 2.0046875,
+            "concentration": 0.7965526604666991,
+            "phase": 235.69197234407906
+          },
+          {
+            "origin": 240.34353202861024,
+            "scale": 1.99453125,
+            "concentration": 0.7310253951466886,
+            "phase": 236.35446952861025
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.43026064589017,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9043459880626767,
+            "phase": 91.4198439792235
+          },
+          {
+            "origin": 96.66573551305935,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8701442705716568,
+            "phase": 92.67788829083712
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999997,
+      "scale": 2.0000000000000004,
+      "rms": 4.046972026692672E-14,
+      "points": 1026
+    },
+    "y": {
+      "origin": 95.99668433327219,
+      "scale": 1.9998559114554406,
+      "rms": 0.0355948963902291,
+      "points": 3622
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 137,
+    "currentYPoints": 458
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006450.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6963250456997,
+            "scale": 2.0046875,
+            "concentration": 0.8007742485834526,
+            "phase": 235.6869500456997
+          },
+          {
+            "origin": 240.35002687259598,
+            "scale": 1.99453125,
+            "concentration": 0.7362831067952704,
+            "phase": 236.360964372596
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.4265379054579,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9050865811147436,
+            "phase": 91.41612123879123
+          },
+          {
+            "origin": 96.67017461108003,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8711658914017616,
+            "phase": 92.6823273888578
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 1050
+    },
+    "y": {
+      "origin": 95.99662508820514,
+      "scale": 1.9998557768265859,
+      "rms": 0.0356304862673199,
+      "points": 3635
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 70,
+    "currentXPoints": 139,
+    "currentYPoints": 458
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006451.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6963250456997,
+            "scale": 2.0046875,
+            "concentration": 0.8007742485834526,
+            "phase": 235.6869500456997
+          },
+          {
+            "origin": 240.35002687259598,
+            "scale": 1.99453125,
+            "concentration": 0.7362831067952704,
+            "phase": 236.360964372596
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42653746830389,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9050868074802625,
+            "phase": 91.41612080163722
+          },
+          {
+            "origin": 96.67017513281364,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8711662009935052,
+            "phase": 92.68232791059141
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 3.986332842249223E-14,
+      "points": 1068
+    },
+    "y": {
+      "origin": 95.99658781628355,
+      "scale": 1.999855533009706,
+      "rms": 0.035658178258450635,
+      "points": 3645
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 70,
+    "currentXPoints": 139,
+    "currentYPoints": 458
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006452.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.68102710719214,
+            "scale": 2.0046875,
+            "concentration": 0.7973822574028869,
+            "phase": 235.67165210719213
+          },
+          {
+            "origin": 240.36894894540401,
+            "scale": 1.99453125,
+            "concentration": 0.7309204797309319,
+            "phase": 236.37988644540403
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42341658730484,
+            "scale": 2.0052083333333335,
+            "concentration": 0.905917295707843,
+            "phase": 91.41299992063817
+          },
+          {
+            "origin": 96.67389460902398,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8723098091812033,
+            "phase": 92.68604738680175
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 1083
+    },
+    "y": {
+      "origin": 95.99667533640812,
+      "scale": 1.9998544469007575,
+      "rms": 0.03567726490673813,
+      "points": 3652
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 144,
+    "currentYPoints": 459
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006453.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66403064875874,
+            "scale": 2.0046875,
+            "concentration": 0.7850658965813851,
+            "phase": 235.65465564875873
+          },
+          {
+            "origin": 240.38932275241663,
+            "scale": 1.99453125,
+            "concentration": 0.7140762415616732,
+            "phase": 236.40026025241664
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42012694137813,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070207806222157,
+            "phase": 91.40971027471146
+          },
+          {
+            "origin": 96.67781196582258,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8738274558514738,
+            "phase": 92.68996474360036
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 1101
+    },
+    "y": {
+      "origin": 95.99671204722506,
+      "scale": 1.9998539410456992,
+      "rms": 0.0356874209927302,
+      "points": 3662
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006454.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66403064875874,
+            "scale": 2.0046875,
+            "concentration": 0.7850658965813851,
+            "phase": 235.65465564875873
+          },
+          {
+            "origin": 240.38932275241663,
+            "scale": 1.99453125,
+            "concentration": 0.7140762415616732,
+            "phase": 236.40026025241664
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42012694137813,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070207806222157,
+            "phase": 91.40971027471146
+          },
+          {
+            "origin": 96.67781196582258,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8738274558514738,
+            "phase": 92.68996474360036
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 1117
+    },
+    "y": {
+      "origin": 95.99679261041881,
+      "scale": 1.9998529174379938,
+      "rms": 0.035706326925382524,
+      "points": 3669
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006455.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66403064875874,
+            "scale": 2.0046875,
+            "concentration": 0.7850658965813851,
+            "phase": 235.65465564875873
+          },
+          {
+            "origin": 240.38932275241663,
+            "scale": 1.99453125,
+            "concentration": 0.7140762415616732,
+            "phase": 236.40026025241664
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42012694137813,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070207806222157,
+            "phase": 91.40971027471146
+          },
+          {
+            "origin": 96.67781196582258,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8738274558514738,
+            "phase": 92.68996474360036
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000006,
+      "scale": 1.9999999999999993,
+      "rms": 4.943285101983792E-14,
+      "points": 1132
+    },
+    "y": {
+      "origin": 95.99683616894164,
+      "scale": 1.9998523364990917,
+      "rms": 0.03571704976443516,
+      "points": 3675
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006456.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66403064875874,
+            "scale": 2.0046875,
+            "concentration": 0.7850658965813851,
+            "phase": 235.65465564875873
+          },
+          {
+            "origin": 240.38932275241663,
+            "scale": 1.99453125,
+            "concentration": 0.7140762415616732,
+            "phase": 236.40026025241664
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42012694137813,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070207806222157,
+            "phase": 91.40971027471146
+          },
+          {
+            "origin": 96.67781196582258,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8738274558514738,
+            "phase": 92.68996474360036
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.9999999999999,
+      "scale": 2.000000000000001,
+      "rms": 7.404341873177884E-14,
+      "points": 1147
+    },
+    "y": {
+      "origin": 95.99687947181908,
+      "scale": 1.999851758576055,
+      "rms": 0.03572771192668477,
+      "points": 3681
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006457.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66403064875874,
+            "scale": 2.0046875,
+            "concentration": 0.7850658965813851,
+            "phase": 235.65465564875873
+          },
+          {
+            "origin": 240.38932275241663,
+            "scale": 1.99453125,
+            "concentration": 0.7140762415616732,
+            "phase": 236.40026025241664
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42012694137813,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070207806222157,
+            "phase": 91.40971027471146
+          },
+          {
+            "origin": 96.67781196582258,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8738274558514738,
+            "phase": 92.68996474360036
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000006,
+      "scale": 1.9999999999999993,
+      "rms": 4.91380134701756E-14,
+      "points": 1157
+    },
+    "y": {
+      "origin": 95.99686567126356,
+      "scale": 1.9998518959371903,
+      "rms": 0.03572702781969768,
+      "points": 3685
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006458.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66403064875874,
+            "scale": 2.0046875,
+            "concentration": 0.7850658965813851,
+            "phase": 235.65465564875873
+          },
+          {
+            "origin": 240.38932275241663,
+            "scale": 1.99453125,
+            "concentration": 0.7140762415616732,
+            "phase": 236.40026025241664
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42012694137813,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070207806222157,
+            "phase": 91.40971027471146
+          },
+          {
+            "origin": 96.67781196582258,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8738274558514738,
+            "phase": 92.68996474360036
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.9999999999999,
+      "scale": 2.000000000000001,
+      "rms": 7.349749062279175E-14,
+      "points": 1165
+    },
+    "y": {
+      "origin": 95.99685189494893,
+      "scale": 1.999852033018976,
+      "rms": 0.03572634478232593,
+      "points": 3689
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006459.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66403064875874,
+            "scale": 2.0046875,
+            "concentration": 0.7850658965813851,
+            "phase": 235.65465564875873
+          },
+          {
+            "origin": 240.38932275241663,
+            "scale": 1.99453125,
+            "concentration": 0.7140762415616732,
+            "phase": 236.40026025241664
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42012694137813,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070207806222157,
+            "phase": 91.40971027471146
+          },
+          {
+            "origin": 96.67781196582258,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8738274558514738,
+            "phase": 92.68996474360036
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.9931894811194024E-14,
+      "points": 1173
+    },
+    "y": {
+      "origin": 95.99683814277154,
+      "scale": 1.9998521698226168,
+      "rms": 0.03572566281274055,
+      "points": 3693
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006460.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66403064875874,
+            "scale": 2.0046875,
+            "concentration": 0.7850658965813851,
+            "phase": 235.65465564875873
+          },
+          {
+            "origin": 240.38932275241663,
+            "scale": 1.99453125,
+            "concentration": 0.7140762415616732,
+            "phase": 236.40026025241664
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42012694137813,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070207806222157,
+            "phase": 91.40971027471146
+          },
+          {
+            "origin": 96.67781196582258,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8738274558514738,
+            "phase": 92.68996474360036
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 95.99678820011867,
+      "scale": 1.9998527397524124,
+      "rms": 0.035716984802058975,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006461.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66403064875874,
+            "scale": 2.0046875,
+            "concentration": 0.7850658965813851,
+            "phase": 235.65465564875873
+          },
+          {
+            "origin": 240.38932275241663,
+            "scale": 1.99453125,
+            "concentration": 0.7140762415616732,
+            "phase": 236.40026025241664
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42012694137813,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070207806222157,
+            "phase": 91.40971027471146
+          },
+          {
+            "origin": 96.67781196582258,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8738274558514738,
+            "phase": 92.68996474360036
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 95.99678820011867,
+      "scale": 1.9998527397524124,
+      "rms": 0.035716984802058975,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006462.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66403064875874,
+            "scale": 2.0046875,
+            "concentration": 0.7850658965813851,
+            "phase": 235.65465564875873
+          },
+          {
+            "origin": 240.38932275241663,
+            "scale": 1.99453125,
+            "concentration": 0.7140762415616732,
+            "phase": 236.40026025241664
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42012694137813,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070207806222157,
+            "phase": 91.40971027471146
+          },
+          {
+            "origin": 96.67781196582258,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8738274558514738,
+            "phase": 92.68996474360036
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 95.99678820011867,
+      "scale": 1.9998527397524124,
+      "rms": 0.035716984802058975,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006463.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66403064875874,
+            "scale": 2.0046875,
+            "concentration": 0.7850658965813851,
+            "phase": 235.65465564875873
+          },
+          {
+            "origin": 240.38932275241663,
+            "scale": 1.99453125,
+            "concentration": 0.7140762415616732,
+            "phase": 236.40026025241664
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42012694137813,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070207806222157,
+            "phase": 91.40971027471146
+          },
+          {
+            "origin": 96.67781196582258,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8738274558514738,
+            "phase": 92.68996474360036
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 95.99678820011867,
+      "scale": 1.9998527397524124,
+      "rms": 0.035716984802058975,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006464.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66403064875874,
+            "scale": 2.0046875,
+            "concentration": 0.7850658965813851,
+            "phase": 235.65465564875873
+          },
+          {
+            "origin": 240.38932275241663,
+            "scale": 1.99453125,
+            "concentration": 0.7140762415616732,
+            "phase": 236.40026025241664
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42012694137813,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070207806222157,
+            "phase": 91.40971027471146
+          },
+          {
+            "origin": 96.67781196582258,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8738274558514738,
+            "phase": 92.68996474360036
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 95.99678820011867,
+      "scale": 1.9998527397524124,
+      "rms": 0.035716984802058975,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006465.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66403064875874,
+            "scale": 2.0046875,
+            "concentration": 0.7850658965813851,
+            "phase": 235.65465564875873
+          },
+          {
+            "origin": 240.38932275241663,
+            "scale": 1.99453125,
+            "concentration": 0.7140762415616732,
+            "phase": 236.40026025241664
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42012694137813,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070207806222157,
+            "phase": 91.40971027471146
+          },
+          {
+            "origin": 96.67781196582258,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8738274558514738,
+            "phase": 92.68996474360036
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 95.99678820011867,
+      "scale": 1.9998527397524124,
+      "rms": 0.035716984802058975,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006466.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66403064875874,
+            "scale": 2.0046875,
+            "concentration": 0.7850658965813851,
+            "phase": 235.65465564875873
+          },
+          {
+            "origin": 240.38932275241663,
+            "scale": 1.99453125,
+            "concentration": 0.7140762415616732,
+            "phase": 236.40026025241664
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42012694137813,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070207806222157,
+            "phase": 91.40971027471146
+          },
+          {
+            "origin": 96.67781196582258,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8738274558514738,
+            "phase": 92.68996474360036
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 95.99678820011867,
+      "scale": 1.9998527397524124,
+      "rms": 0.035716984802058975,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006467.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6643405885158,
+            "scale": 2.0046875,
+            "concentration": 0.7876336630010724,
+            "phase": 235.6549655885158
+          },
+          {
+            "origin": 240.38899160750466,
+            "scale": 1.99453125,
+            "concentration": 0.7174760315110751,
+            "phase": 236.39992910750468
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42120296249136,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9072708626364457,
+            "phase": 91.41078629582469
+          },
+          {
+            "origin": 96.67650891904562,
+            "scale": 1.9939236111111112,
+            "concentration": 0.874135681346195,
+            "phase": 92.68866169682339
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 95.9971868924307,
+      "scale": 1.9998711471455812,
+      "rms": 0.034127582077398154,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006468.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6643586380776,
+            "scale": 2.0046875,
+            "concentration": 0.7876375300769236,
+            "phase": 235.6549836380776
+          },
+          {
+            "origin": 240.38896938609074,
+            "scale": 1.99453125,
+            "concentration": 0.7174811564568039,
+            "phase": 236.39990688609075
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42121080738622,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9072676718423315,
+            "phase": 91.41079414071955
+          },
+          {
+            "origin": 96.67649952485321,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8741311435727114,
+            "phase": 92.68865230263098
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 95.99758558460412,
+      "scale": 1.9998895545398794,
+      "rms": 0.03224657990695233,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 77,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006469.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66697734623997,
+            "scale": 2.0046875,
+            "concentration": 0.7901949008976348,
+            "phase": 235.65760234623997
+          },
+          {
+            "origin": 240.38589322986087,
+            "scale": 1.99453125,
+            "concentration": 0.7209015933123912,
+            "phase": 236.39683072986088
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42186747126806,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070181296410493,
+            "phase": 91.41145080460139
+          },
+          {
+            "origin": 96.67571739430925,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8737886313864149,
+            "phase": 92.68787017208702
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 95.99798923536302,
+      "scale": 1.9999079360316485,
+      "rms": 0.03001977695021201,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 76,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006470.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66700681924272,
+            "scale": 2.0046875,
+            "concentration": 0.7901781065613445,
+            "phase": 235.6576318192427
+          },
+          {
+            "origin": 240.38585740864625,
+            "scale": 1.99453125,
+            "concentration": 0.7208795615074755,
+            "phase": 236.39679490864626
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.4218792696153,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070139196753132,
+            "phase": 91.41146260294863
+          },
+          {
+            "origin": 96.6757034210426,
+            "scale": 1.9939236111111112,
+            "concentration": 0.87378280862914,
+            "phase": 92.68785619882037
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 95.99839288612708,
+      "scale": 1.9999263175233757,
+      "rms": 0.02736192092421318,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 76,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006471.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66699929520857,
+            "scale": 2.0046875,
+            "concentration": 0.7901891292627558,
+            "phase": 235.65762429520856
+          },
+          {
+            "origin": 240.38586629303933,
+            "scale": 1.99453125,
+            "concentration": 0.720894090309461,
+            "phase": 236.39680379303934
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42186978250726,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9070178335925712,
+            "phase": 91.41145311584059
+          },
+          {
+            "origin": 96.67571466893492,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8737882000399779,
+            "phase": 92.68786744671269
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 95.998796536945,
+      "scale": 1.9999446990146634,
+      "rms": 0.024130997519018604,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 76,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006472.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66686300572928,
+            "scale": 2.0046875,
+            "concentration": 0.7881530444519027,
+            "phase": 235.65748800572928
+          },
+          {
+            "origin": 240.386004586067,
+            "scale": 1.99453125,
+            "concentration": 0.7182007374838378,
+            "phase": 236.396942086067
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42137872087751,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9065381439305966,
+            "phase": 91.41096205421084
+          },
+          {
+            "origin": 96.676330355106,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8731583180702146,
+            "phase": 92.68848313288377
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 95.99919801197944,
+      "scale": 1.999963106545208,
+      "rms": 0.020052064785554727,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 76,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006473.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6668719388194,
+            "scale": 2.0046875,
+            "concentration": 0.7881900484645132,
+            "phase": 235.6574969388194
+          },
+          {
+            "origin": 240.38599500410035,
+            "scale": 1.99453125,
+            "concentration": 0.7182490788767102,
+            "phase": 236.39693250410036
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42137850400162,
+            "scale": 2.0052083333333335,
+            "concentration": 0.906538539009112,
+            "phase": 91.41096183733495
+          },
+          {
+            "origin": 96.67633066145137,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8731588482062655,
+            "phase": 92.68848343922915
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 95.99959948699868,
+      "scale": 1.999981514075878,
+      "rms": 0.014422120931025583,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 76,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006474.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6668791855045,
+            "scale": 2.0046875,
+            "concentration": 0.7881889340010494,
+            "phase": 235.6575041855045
+          },
+          {
+            "origin": 240.38598576190475,
+            "scale": 1.99453125,
+            "concentration": 0.7182478641174476,
+            "phase": 236.39692326190476
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42138208143471,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9065339658190416,
+            "phase": 91.41096541476804
+          },
+          {
+            "origin": 96.6763266142814,
+            "scale": 1.9939236111111112,
+            "concentration": 0.873152648575956,
+            "phase": 92.68847939205916
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 96.00000096200034,
+      "scale": 1.9999999216066944,
+      "rms": 2.0457570279636578E-4,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 76,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006475.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6668791855045,
+            "scale": 2.0046875,
+            "concentration": 0.7881889340010494,
+            "phase": 235.6575041855045
+          },
+          {
+            "origin": 240.38598576190475,
+            "scale": 1.99453125,
+            "concentration": 0.7182478641174476,
+            "phase": 236.39692326190476
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42138208143471,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9065339658190416,
+            "phase": 91.41096541476804
+          },
+          {
+            "origin": 96.6763266142814,
+            "scale": 1.9939236111111112,
+            "concentration": 0.873152648575956,
+            "phase": 92.68847939205916
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999991,
+      "scale": 2.000000000000001,
+      "rms": 5.2910513698224897E-14,
+      "points": 1176
+    },
+    "y": {
+      "origin": 96.00000374475648,
+      "scale": 1.9999999217437983,
+      "rms": 1.60903398205196E-4,
+      "points": 3696
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 76,
+    "currentXPoints": 147,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006476.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006477.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006478.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006479.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006480.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006481.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  }
+]

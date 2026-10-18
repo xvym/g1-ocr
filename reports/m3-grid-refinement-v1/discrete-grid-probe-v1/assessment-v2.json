@@ -1,0 +1,147 @@
+{
+  "status": "discrete_edge_model_rejected_for_product_use",
+  "tool": {
+    "path": "tools/GridEdgeProbe.java",
+    "sha256": "93ee58a5afc86fa6e4e21d7dea884abe15b9940c39c39308a00e3fccc338f847"
+  },
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r4/freeze.json",
+    "sha256": "650b69280c331809c901f2c587e00774762173ece7d330ac597a3b40380729c9"
+  },
+  "results": [
+    {
+      "id": "league-centre-npc",
+      "frame": 1610,
+      "input": {
+        "path": "data/frames/video-03/authorized-correction-league-centre-npc-pass2-v1/frame-001610.png",
+        "sha256": "e2826d0d4455daddd2e33673496f90e3444d2778965b4fef0d3facdb28e5c201",
+        "rgbSha256": "834ace3c32a5f9727e6e25226ce3c08704c3d76a6a057fe96e93c40cb7d459cd",
+        "pts": 824320,
+        "timeBase": "1/12288"
+      },
+      "probe": {
+        "path": "reports/m3-grid-refinement-v1/discrete-grid-probe-v1/league-1610.json",
+        "sha256": "283ce7982d8d211f66d8f793d0c5609a2d1c54d6d3ba594cd1277be2d408df30"
+      },
+      "expected": {
+        "originX": 180,
+        "originY": 0,
+        "scaleX": 3.75,
+        "scaleY": 3.7777777777777777
+      },
+      "current": {
+        "mismatches": 356,
+        "maxSourcePixelError": 2
+      },
+      "discrete": {
+        "mismatches": 284,
+        "maxSourcePixelError": 1
+      },
+      "equalMinima": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "league-centre-npc",
+      "frame": 1611,
+      "input": {
+        "path": "data/frames/video-03/authorized-correction-league-centre-npc-pass2-v1/frame-001611.png",
+        "sha256": "9051eba0a4573cdffe446fc29d879c09554ea02266e3e1b423027a493635cfa0",
+        "rgbSha256": "2309071b89d4183b7e6020b3e2472fa2dafe3c64d1a9fcc85519656e16a0c61d",
+        "pts": 824832,
+        "timeBase": "1/12288"
+      },
+      "probe": {
+        "path": "reports/m3-grid-refinement-v1/discrete-grid-probe-v1/league-1611.json",
+        "sha256": "2f7de25477d0565f477242b6b94e8c5d14ebdef98e95f3c40ed469bbdffbf9b8"
+      },
+      "expected": {
+        "originX": 180,
+        "originY": 0,
+        "scaleX": 3.75,
+        "scaleY": 3.7777777777777777
+      },
+      "current": {
+        "mismatches": 356,
+        "maxSourcePixelError": 2
+      },
+      "discrete": {
+        "mismatches": 284,
+        "maxSourcePixelError": 1
+      },
+      "equalMinima": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "pc-connect",
+      "frame": 1410,
+      "input": {
+        "path": "data/frames/video-02/expansion-pc-connect-pass2-v1/frame-001410.png",
+        "sha256": "735be0e57d9005d6a65f757fa299a5d1838c4500e2bb41eb57db8f9839170dc0",
+        "rgbSha256": "c88e6cac192afc02a1a47775dcde083a919e0ca61c856ef50f3be8a9b8565d41",
+        "pts": 721920,
+        "timeBase": "1/12288"
+      },
+      "probe": {
+        "path": "reports/m3-grid-refinement-v1/discrete-grid-probe-v1/pc-1410.json",
+        "sha256": "db2f782bc815a20d3f697c5efb15d57be60f0a4b3f80050981b8e3a2cc754951"
+      },
+      "expected": {
+        "originX": 300,
+        "originY": 108,
+        "scaleX": 2.25,
+        "scaleY": 2.25
+      },
+      "current": {
+        "mismatches": 329,
+        "maxSourcePixelError": 4
+      },
+      "discrete": {
+        "mismatches": 612,
+        "maxSourcePixelError": 6
+      },
+      "equalMinima": [
+        9,
+        1
+      ]
+    },
+    {
+      "id": "exploration-npc",
+      "frame": 9870,
+      "input": {
+        "path": "data/frames/video-01/all-scenes-exploration-npc-pass2-v1/frame-009870.png",
+        "sha256": "1be0d2371cf775bf854086ccd9eb6a5f2af60919fb2f1ec8a438120438c76763",
+        "rgbSha256": "b2cdec0789baeced9a67aa96497881b9ce507f6aa24fcddd6cabd363f743d45d",
+        "pts": 9870,
+        "timeBase": "1/30"
+      },
+      "probe": {
+        "path": "reports/m3-grid-refinement-v1/discrete-grid-probe-v1/exploration-9870.json",
+        "sha256": "613c3b4668246ab873089a9237e107819d3ef97fcfe48e4abed4b2d6fa3d4e63"
+      },
+      "expected": {
+        "originX": 240,
+        "originY": 96,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      "current": {
+        "mismatches": 0,
+        "maxSourcePixelError": 0
+      },
+      "discrete": {
+        "mismatches": 612,
+        "maxSourcePixelError": 5
+      },
+      "equalMinima": [
+        152,
+        151
+      ]
+    }
+  ],
+  "reason": "Pixel-period fits leave integer-lattice origin ambiguity; envelope anchor includes capture border. Ceil quantization also creates many equivalent minima even on an exact integer raster. No score-based snapping, no implementation change, no GT changes.",
+  "next": "Fit non-periodic structural anchors such as confirmed textbox corners, model source sampling explicitly, and preserve ties as uncertainty. Do not select a discrete minimum merely because it has zero edge cost."
+}

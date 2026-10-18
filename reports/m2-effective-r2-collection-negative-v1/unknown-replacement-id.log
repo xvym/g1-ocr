@@ -1,0 +1,7 @@
+java.lang.IllegalArgumentException: Unknown frozen clip: not-an-approved-entry
+	at io.github.g1ocr.verification.FrozenDataset.require(FrozenDataset.java:108)
+	at io.github.g1ocr.verification.FrozenDataset.selected(FrozenDataset.java:94)
+	at io.github.g1ocr.verification.FrozenDataset.<init>(FrozenDataset.java:23)
+	at io.github.g1ocr.verification.FrozenDataset.<init>(FrozenDataset.java:14)
+	at io.github.g1ocr.verification.ReplayTimeline.audit(ReplayTimeline.java:80)
+	at io.github.g1ocr.verification.VideoTool.main(VideoTool.java:33)

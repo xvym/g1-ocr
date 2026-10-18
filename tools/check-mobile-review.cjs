@@ -2,15 +2,17 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),zlib=require('node:zlib'),vm=require('node:vm'),assert=require('node:assert/strict');
 const {ReviewZip,MobileReviewAssets,crc32,sha256Fallback}=require('./mobile-review-assets.js');
-const source=path.resolve('reports/gt-review/gt-all-scenes-v2');
 const companion=path.resolve(process.argv[2]||'reports/gt-review/gt-all-scenes-v2-mobile-v1');
+const identity=JSON.parse(fs.readFileSync(path.join(companion,'source-identity.json')));
+const source=path.resolve(identity.sourceDirectory);
+const archivePrefix='g1-ocr-main/'+identity.sourceDirectory+'/';
 const reportDirectory=path.resolve(process.argv[3]||'reports/m2-mobile-review-v1');
 const fixtureDirectory=path.resolve(process.argv[4]||'.cache/mobile-review-v1');
 const existingFixture=process.argv[5]&&path.resolve(process.argv[5]);
 const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
 const manifestBytes=fs.readFileSync(path.join(source,'bundle-manifest.json')),manifest=JSON.parse(manifestBytes),manifestHash=hash(manifestBytes);
-const identity=JSON.parse(fs.readFileSync(path.join(companion,'source-identity.json')));
-assert.equal(manifestHash,'e51b7d9ebccae9e784f0b60a4a73a352b164e0d9807bd068afb2aad7c54b2dd3');
+const summary=JSON.parse(fs.readFileSync(path.join(source,'summary.json')));
+if(manifest.reviewId==='gt-all-scenes-v2')assert.equal(manifestHash,'e51b7d9ebccae9e784f0b60a4a73a352b164e0d9807bd068afb2aad7c54b2dd3');
 assert.equal(identity.sourceManifestSha256,manifestHash);
 assert(!fs.existsSync(reportDirectory),'Refusing to overwrite check evidence');
 if(!existingFixture)assert(!fs.existsSync(fixtureDirectory),'Refusing to overwrite ZIP fixture');
@@ -26,7 +28,7 @@ function header(entry,offset){
 function endRecord(count,directorySize,offset){const b=Buffer.alloc(22);b.writeUInt32LE(0x06054b50);b.writeUInt16LE(count,8);b.writeUInt16LE(count,10);b.writeUInt32LE(directorySize,12);b.writeUInt32LE(offset,16);return b;}
 function smallZip(entries){const parts=[],directory=[];let offset=0;for(const entry of entries){const h=header(entry,offset);parts.push(h.local,h.packed);directory.push(h.central);offset+=h.local.length+h.packed.length;}const table=Buffer.concat(directory);return Buffer.concat([...parts,table,endRecord(entries.length,table.length,offset)]);}
 function makeFullStoredZip(target){
- const prefix='g1-ocr-main/reports/gt-review/gt-all-scenes-v2/',fd=fs.openSync(target,'wx'),directory=[];let offset=0;
+ const prefix=archivePrefix,fd=fs.openSync(target,'wx'),directory=[];let offset=0;
  function write(bytes){let position=0;while(position<bytes.length)position+=fs.writeSync(fd,bytes,position,bytes.length-position);}
  try{for(const name of [...manifest.files.map(f=>f.path),'bundle-manifest.json']){const bytes=fs.readFileSync(path.join(source,name)),h=header({name:prefix+name,bytes},offset);write(h.local);write(h.packed);directory.push(h.central);offset+=h.local.length+h.packed.length;}const table=Buffer.concat(directory);write(table);write(endRecord(directory.length,table.length,offset));}
  finally{fs.closeSync(fd);}
@@ -75,9 +77,9 @@ async function main(){
  const context=vm.createContext({document,window:{addEventListener(){}},console,URL:urlApi,Blob,TextEncoder,TextDecoder,DataView,Uint8Array,Uint32Array,DecompressionStream});
  new vm.Script(scripts[2][2]).runInContext(context);new vm.Script(scripts[3][2]).runInContext(context,{timeout:15000});
  const assets=vm.runInContext('mobileAssets',context);assert.equal(elements.get('full').src,undefined);assert.equal(elements.get('full').hidden,true);assert.equal(urls.size,0);assert(anchors.every(a=>a.href==='#assetDetail'));pass('Original payload / manifest unchanged; no relative-image reads before user selection');
- const archivePath=existingFixture||path.join(fixtureDirectory,'repository-layout-stored.zip');const archiveIdentity=existingFixture?{prefix:'g1-ocr-main/reports/gt-review/gt-all-scenes-v2/',bytes:fs.statSync(archivePath).size,entries:7637,reusedReadOnlyFixture:true}:makeFullStoredZip(archivePath);const archiveFile=await fs.openAsBlob(archivePath);
+ const archivePath=existingFixture||path.join(fixtureDirectory,'repository-layout-stored.zip');const archiveIdentity=existingFixture?{prefix:archivePrefix,bytes:fs.statSync(archivePath).size,entries:manifest.files.length+1,reusedReadOnlyFixture:true}:makeFullStoredZip(archivePath);const archiveFile=await fs.openAsBlob(archivePath);
  const ranges=[];const limitedFile={size:archiveFile.size,slice(start,end=archiveFile.size){ranges.push([start,end]);assert(end-start<=32*1024*1024,'Unbounded archive read');return archiveFile.slice(start,end);}};
- await assets.open(limitedFile);await assets.queue;assert(assets.archive);assert(elements.get('full').src.startsWith('blob:'));assert.equal(assets.prefix,archiveIdentity.prefix);assert.equal(assets.expected.size,7637);pass('Real full-size ZIP with GitHub-style prefix and bounded reads',archiveIdentity);
+ await assets.open(limitedFile);await assets.queue;assert(assets.archive);assert(elements.get('full').src.startsWith('blob:'));assert.equal(assets.prefix,archiveIdentity.prefix);assert.equal(assets.expected.size,manifest.files.length+1);pass('Real full-size ZIP with GitHub-style prefix and bounded reads',archiveIdentity);
  const parsed=assets.archive;for(const f of manifest.files){assert.equal(parsed.entries.get(assets.prefix+f.path).bytes,f.bytes);}
  let frames=0,states=0;
  for(let i=0;i<data.items.length;i++){
@@ -91,11 +93,11 @@ async function main(){
   for(const id of ['full','zoom']){const element=elements.get(id),expected=assets.expected.get(assets.bindings.get(element));assert.equal(hash(Buffer.from(await urls.get(element.src).arrayBuffer())),expected.sha256);}
   vm.runInContext('position=0;show()',context);elements.get('prev').onclick();assert.equal(Number(elements.get('slider').value),0);vm.runInContext('position=current().frames.length-1;show()',context);elements.get('next').onclick();assert.equal(Number(elements.get('slider').value),data.items[i].frames.length-1);elements.get('boxes').checked=true;elements.get('boxes').onchange();await assets.queue;
  }
- const stats=vm.runInContext('collectStats()',context);assert.equal(stats.frames,3361);assert.equal(stats.newFrames,3326);assert.equal(stats.pages,117);assert.equal(frames,3577);assert.equal(states,717);pass('All 38 scenes / 3577 frame controls / 717 state jumps; source bytes on scene samples',{frames,states,sceneImageSamples:76});
+ const stats=vm.runInContext('collectStats()',context);assert.equal(stats.frames,summary.uniqueScoredOriginalFrames);assert.equal(stats.newFrames,summary.uniqueCandidateOriginalFrames);assert.equal(stats.pages,summary.uniquePageOpportunities);assert.equal(frames,summary.selectedClipFrameReferences);assert.equal(states,summary.continuousStateIntervals);pass('All scenes, frame controls and state jumps; source bytes on scene samples',{frames,states,sceneImageSamples:data.items.length*2});
  const gt=data.items[0].links.gt;await assets.view(gt);assert.equal(elements.get('assetText').textContent,fs.readFileSync(path.join(source,gt),'utf8'));assert.equal(elements.get('assetDetail').hidden,false);
  const gap=data.gapFrames[0].frames[0].file;await assets.view(gap);assert.equal(hash(Buffer.from(await urls.get(elements.get('assetImage').src).arrayBuffer())),assets.expected.get(gap).sha256);assert(maximumLiveUrls<=8);pass('Attachments / gap images / stale image suppression / bounded object URLs',{maximumLiveUrls});
  const transportNames=Object.keys(assets.transportVariants);
- assert.equal(transportNames.length,363);
+ assert.equal(transportNames.length,identity.gitNewlineVariants);
  const transportFile=gitTransportZip(archiveFile,assets.archive,assets.transportVariants,assets.prefix);
  await assets.open(transportFile);await assets.queue;
  for(const name of transportNames){const restored=await assets.read(name);assert.equal(hash(restored),assets.expected.get(name).sha256);assert(Buffer.from(restored).equals(fs.readFileSync(path.join(source,name))));}
@@ -106,8 +108,8 @@ async function main(){
  await assert.rejects(()=>assets.open(new Blob([tiny])),/没有找到/);assert.equal(assets.archive,null);assert.equal(urls.size,0);assert.equal(elements.get('full').hidden,true);pass('Reject changed asset SHA-256 / wrong review ZIP; clear stale images on reselection');
  assets.dispose();
  const postManifest=fs.readFileSync(path.join(source,'bundle-manifest.json'));assert.equal(hash(postManifest),manifestHash);for(const f of manifest.files){const bytes=fs.readFileSync(path.join(source,f.path));assert.equal(bytes.length,f.bytes);assert.equal(hash(bytes),f.sha256);}
- pass('All 7636 source files unchanged after checks');
- const report={status:'zip_identity_and_control_logic_checks_pass',reviewId:'gt-all-scenes-v2',sourceManifestSha256:manifestHash,companionHtmlSha256:hash(Buffer.from(html)),runtimeSha256:hash(fs.readFileSync('tools/mobile-review-assets.js')),checkerSha256:hash(fs.readFileSync(__filename)),checks,largestArchiveRead:Math.max(...ranges.map(r=>r[1]-r[0])),actualBrowserRendering:'unverified',actualAndroidRendering:'unverified',limitations:'These are deterministic file, ZIP and DOM-stub logic checks; no real browser, Android device, OCR or product acceptance is claimed.'};
+ pass('All source files unchanged after checks',{files:manifest.files.length});
+ const report={status:'zip_identity_and_control_logic_checks_pass',reviewId:manifest.reviewId,sourceManifestSha256:manifestHash,companionHtmlSha256:hash(Buffer.from(html)),runtimeSha256:hash(fs.readFileSync('tools/mobile-review-assets.js')),checkerSha256:hash(fs.readFileSync(__filename)),checks,largestArchiveRead:Math.max(...ranges.map(r=>r[1]-r[0])),actualBrowserRendering:'unverified',actualAndroidRendering:'unverified',limitations:'These are deterministic file, ZIP and DOM-stub logic checks; no real browser, Android device, OCR or product acceptance is claimed.'};
  fs.writeFileSync(path.join(reportDirectory,'check.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));
 }
 main().catch(error=>{fs.writeFileSync(path.join(reportDirectory,'failure.json'),JSON.stringify({status:'failed',message:error.message,stack:error.stack,checks},null,2)+'\n');console.error(error);process.exitCode=1;});

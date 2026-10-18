@@ -1,0 +1,445 @@
+{
+  "gitHead": "c9c51484e9c2fcf33e10c710eae22ae78e258709",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "fd85728326da8a29eba32b271463bcacb669a0b87800f2b7afefa036f83ddb2e",
+      "bytes": 828
+    },
+    {
+      "path": "app/pom.xml",
+      "sha256": "12f084ffe49df8b03f36b368d85a0c7e8e621042ad0fd974eb2cb52bb4460b90",
+      "bytes": 825
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/BootstrapWindow.java",
+      "sha256": "2abcd13d05dc07d4d5411479769435d346dc38527a9bdb57f0535fbcb8bf9739",
+      "bytes": 510
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/Main.java",
+      "sha256": "570035247cf5073bb18c876c984133e2722b822fec66acccf33a15f045b91699",
+      "bytes": 769
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/capture/SourceFrame.java",
+      "sha256": "4fc95ad0eb997fe4164d9ebeb039f7336ee4b574b1b77fa126e35603a624065e",
+      "bytes": 1471
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/GameViewportLocator.java",
+      "sha256": "77b2462cf57c9e21770fecbb3116c17e25400550e8c1f04b44f593cb80957db4",
+      "bytes": 11846
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/GlyphTemplate.java",
+      "sha256": "580562113ea6e4f5dd356bf6d179a474d007e56fb478f649243362d718078642",
+      "bytes": 1342
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/PixelGlyphMatcher.java",
+      "sha256": "779fad4d01bcf6511559608fe8a8b5707cc5759b9bec0d3185df31aed179a3c9",
+      "bytes": 1486
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/capture/SourceFrameTest.java",
+      "sha256": "1c6920def1606f71c9000fc6f5d463b19c30cebd7d3b140b1e105b2362481f16",
+      "bytes": 1186
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/GameViewportLocatorTest.java",
+      "sha256": "2cdca27ebd82893a46e837860d9e035aa2d75e0c71b028ebd1ede258d2924555",
+      "bytes": 3496
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/PixelGlyphMatcherTest.java",
+      "sha256": "e6a7c1d10dcc82b79a34684fafc8c0e3e63263f6ec218e50791449f76570b1e0",
+      "bytes": 1658
+    },
+    {
+      "path": "config/input-videos.json",
+      "sha256": "6372348c50dfae02e283911c422373a79ee43f1ac59bff4c08211f99bdebd179",
+      "bytes": 381
+    },
+    {
+      "path": "config/maven-settings.xml",
+      "sha256": "c806d99e448a1303d7adee891246f663d0c6912a191994205f3a7d231c0ac1bd",
+      "bytes": 401
+    },
+    {
+      "path": "config/video-tools.json",
+      "sha256": "677adf7200d2ad4b80470687c570a484016dc68e7ef142d5d040ae91cc347251",
+      "bytes": 270
+    },
+    {
+      "path": "pom.xml",
+      "sha256": "3040082b583b959facddd04e955e9e83aaa42a26fbcf6d2c37f2208cca8c2ff7",
+      "bytes": 1700
+    },
+    {
+      "path": "resources/dependencies.json",
+      "sha256": "cd06f1418ea032fc9cc4aff9df13429f460d16fc93056c2224feaf322afcecd4",
+      "bytes": 2367
+    },
+    {
+      "path": "resources/japanese-font-sources-v1.json",
+      "sha256": "302cad8c4f2f9d8c759277502dcfafdde0bfd1201ffac27f130a487f53ea8537",
+      "bytes": 3181
+    },
+    {
+      "path": "resources/japanese-font-sources-v2.json",
+      "sha256": "39e42b896e44dbd13819391c7a829db87a5b2cbb7172c321e5c29c2124db9da3",
+      "bytes": 4195
+    },
+    {
+      "path": "tools/all-scenes-review-template.html",
+      "sha256": "1b26de3b77c6e53be8414d7b714dbb46acfbb0637e1582f53e113558ad7015cf",
+      "bytes": 13382
+    },
+    {
+      "path": "tools/build-all-scenes-review.ps1",
+      "sha256": "ca1b06244522947f7feab1e3c4adda1ffbb6ff9db8bbb864e75a0c9840ae74c8",
+      "bytes": 7876
+    },
+    {
+      "path": "tools/build-gt-batch-review.ps1",
+      "sha256": "75232ddb3243c10f1efa407d01ae393502b0090f88c44e52d6ea220dfc084726",
+      "bytes": 15162
+    },
+    {
+      "path": "tools/build-gt-review.ps1",
+      "sha256": "e8d7018438469bd373df06a5347a6dc5077b0eb2c5ab857e4187458b84ee663a",
+      "bytes": 18781
+    },
+    {
+      "path": "tools/build-mobile-review.cjs",
+      "sha256": "74ec6c93d91c21b290c4ba566c6792d477fb68fbeac280989aac930427f22711",
+      "bytes": 8244
+    },
+    {
+      "path": "tools/build-shop-metadata-overview.cjs",
+      "sha256": "7d26bfb4b6219e2b203a5e841b15c7a46a47d17d951c92be1c8ecb64f81a0ca6",
+      "bytes": 3760
+    },
+    {
+      "path": "tools/check-all-scenes-review.cjs",
+      "sha256": "ed49c531957660dfd31757cbe4505e45a64cf27e2df6565a9f763beb1b5001fc",
+      "bytes": 10020
+    },
+    {
+      "path": "tools/check-all-scenes-zoom.ps1",
+      "sha256": "e42d87a2cfdce560ca83d856f0d17cfa7ebbecbdd61b40d11d2fc6450b145d72",
+      "bytes": 2020
+    },
+    {
+      "path": "tools/check-collection-rejections.cjs",
+      "sha256": "12b9a05a53e72c5938212d5d6e115443da4a0bc4a44a68db751c25d95c1cd711",
+      "bytes": 2708
+    },
+    {
+      "path": "tools/check-dialogue-independent-v1.ps1",
+      "sha256": "52c2c55da35d71f969a49c012c82c849e677ac14dddfea1f4ed65051c0da12cb",
+      "bytes": 2960
+    },
+    {
+      "path": "tools/check-dialogue-source-v1.ps1",
+      "sha256": "d67e33882477fa96215a1f9ece8c044ec68b82db8c64d325a7dc8695e6907aee",
+      "bytes": 1747
+    },
+    {
+      "path": "tools/check-effective-gt.cjs",
+      "sha256": "11f47f9889f069a560a1b47742371cc795d378442767394f5d5c2899640ad999",
+      "bytes": 2370
+    },
+    {
+      "path": "tools/check-effective-stage-delivery.cjs",
+      "sha256": "973a760d9d5277a32337d794c7f67f57e47509a1032f6efbafd20117f80f6cf8",
+      "bytes": 7185
+    },
+    {
+      "path": "tools/check-gt-overlaps.cjs",
+      "sha256": "1bf632e64a1d714ad4082b55e661cab91e198c2df0fed189ad819aa8121753b9",
+      "bytes": 3017
+    },
+    {
+      "path": "tools/check-gt-review.cjs",
+      "sha256": "c79ed969527ab9f2b24edf4c0fd18535ee240f5a11262f0f736834196c8a1c70",
+      "bytes": 3907
+    },
+    {
+      "path": "tools/check-m2-delivery.cjs",
+      "sha256": "64551004ff601a27e2c8a50bb6cda443c91f4169e28b21dc4defda34d1c1f60b",
+      "bytes": 6119
+    },
+    {
+      "path": "tools/check-m2-foundation.cjs",
+      "sha256": "b4138f02fc11442d311037197eab7ebce49d30a05c86c8c605b0fec2cb40fee1",
+      "bytes": 6593
+    },
+    {
+      "path": "tools/check-mobile-review.cjs",
+      "sha256": "d0066f8288d125e2aee2666c85deb570a38b0f027197567b7fe609f2bbba14a3",
+      "bytes": 16123
+    },
+    {
+      "path": "tools/check-viewport-delivery.cjs",
+      "sha256": "484aaabe670955ebe3f022a0ced1abcf07fc82c047ec49982968c7bdc554cea2",
+      "bytes": 9273
+    },
+    {
+      "path": "tools/compose-approved-gt.cjs",
+      "sha256": "ab311ac316ac025ba729e8e792867fb3d561545dc3ec07669eb9f0524fdb7c1b",
+      "bytes": 6309
+    },
+    {
+      "path": "tools/dialogue-frame-sheets.ps1",
+      "sha256": "ab00f5d2469c83257d3eaed6fd4c21b9d8d15b7a6e271ae2127d43f7f318031c",
+      "bytes": 3119
+    },
+    {
+      "path": "tools/dialogue-notes-lib.ps1",
+      "sha256": "e745c8e2ce7a12526833e7801ded806a7147c8edf673fe6b0e2a7a54894e4c6d",
+      "bytes": 2817
+    },
+    {
+      "path": "tools/encode-manual-gt.ps1",
+      "sha256": "46d5d737833cc70e605fa361842b7047ee87c242a86f9e844045e655083cd984",
+      "bytes": 3264
+    },
+    {
+      "path": "tools/encode-visible-gt.ps1",
+      "sha256": "0e156937e2bce5febf74657cd786a2fccdd08735ca50e1130e4eae36762b66e3",
+      "bytes": 4802
+    },
+    {
+      "path": "tools/freeze-reviewed-gt.cjs",
+      "sha256": "9e1f060ac71dab53e000710658864981a74583c24bfcc5e5ae84a3cfffe57bc9",
+      "bytes": 7677
+    },
+    {
+      "path": "tools/mobile-review-assets.js",
+      "sha256": "413d4e62ecac711fd6808e62edee8915f7f702ea12fc2edea5d88996973b3acf",
+      "bytes": 15240
+    },
+    {
+      "path": "tools/prepare-all-scenes-review-v1.ps1",
+      "sha256": "59927c3d99f4de436849c48ce0c7a8b1bf3a6ed84b5290c60ec847e15b8e65c9",
+      "bytes": 8685
+    },
+    {
+      "path": "tools/prepare-dialogue-event.ps1",
+      "sha256": "f3315e8803bf8ba986668985129a87711d17b67420192400d5219c1a600db726",
+      "bytes": 2128
+    },
+    {
+      "path": "tools/prepare-dialogue-review-v2.ps1",
+      "sha256": "f434ac48050edbdc7e4c552744ecf7377570fb6b274836d99d3a722e581de214",
+      "bytes": 3812
+    },
+    {
+      "path": "tools/prepare-shop-metadata-amendment.cjs",
+      "sha256": "133b70be2a3bdc69462d929f427e02cdd64a253d9d4c0eee9eba5a5e7a7dd87e",
+      "bytes": 6187
+    },
+    {
+      "path": "tools/record-backpack-opening-first-v1.ps1",
+      "sha256": "509011cc7d0981be950d91a5113d144a1c4ff1436d75df08f9c000f8f68248a9",
+      "bytes": 4154
+    },
+    {
+      "path": "tools/record-dialogue-final-first-v1.ps1",
+      "sha256": "61eff1b38c19f23ff08c8f1efa3141c02bd61d30e5cf426a54292d4036b2469e",
+      "bytes": 14259
+    },
+    {
+      "path": "tools/record-dialogue-final-second-v1.ps1",
+      "sha256": "269c03b1133a9a550ff6f32fb307469494522d1c840ac34c3208b4d587aebcd8",
+      "bytes": 4114
+    },
+    {
+      "path": "tools/record-dialogue-intro-first-v1.ps1",
+      "sha256": "f389b6ceab28433e4f3eae4325c67c9871cd9f05d7e99a48e893db0c23533aca",
+      "bytes": 8802
+    },
+    {
+      "path": "tools/record-dialogue-intro-second-v1.ps1",
+      "sha256": "c3e8325215e9e1c4539a2d54edfe5c11857257980d6aca9564eedca0f5a5ffa2",
+      "bytes": 6219
+    },
+    {
+      "path": "tools/record-dialogue-more-first-v1.ps1",
+      "sha256": "c245c93c83afae4e140ff46a2cbbf65aba703887e2d1246aa7cb8534b67dc390",
+      "bytes": 8826
+    },
+    {
+      "path": "tools/record-dialogue-more-second-v1.ps1",
+      "sha256": "0956f594f5614315ddcef650ab755801366cd3feb5da3a2e72d5432893433070",
+      "bytes": 4624
+    },
+    {
+      "path": "tools/record-exploration-npc-v1.ps1",
+      "sha256": "8fb8e7b1ef3f158f4a5c7fd11360f71a2e8467dad1d1358bf5dd2aa2a760c353",
+      "bytes": 4829
+    },
+    {
+      "path": "tools/record-party-first-v1.ps1",
+      "sha256": "e264e3b995ec5f69cd1503bafe0201589a4b6c4684ce9880e16e6bf747345f36",
+      "bytes": 4675
+    },
+    {
+      "path": "tools/record-pc-deposit-first-v1.ps1",
+      "sha256": "8c0b92dd654e954541fd804028a9075b98e0974bf57463d6881d6b8ce7957e6f",
+      "bytes": 8745
+    },
+    {
+      "path": "tools/record-shop-first-v1.ps1",
+      "sha256": "41d58227253b400c30afbdbb44438842746d4fd2138d063e26e1ad6a698e869f",
+      "bytes": 7359
+    },
+    {
+      "path": "tools/record-shop-rejection-first-v1.ps1",
+      "sha256": "e7a73d1cdd7a335d1e2e6ab607d67666a2d68a23aeb393d3200f1568bb0e119c",
+      "bytes": 5034
+    },
+    {
+      "path": "tools/scan-dialogue-pixels.ps1",
+      "sha256": "62a7aa8f6aee9a181630bc0da29258663cc7c18436a15a90694ad6316f058a80",
+      "bytes": 3155
+    },
+    {
+      "path": "tools/slice-verified-frames.ps1",
+      "sha256": "e64d7b37a85e8358191d6f4c960232e6d4c0c3efde5160f175df25b1a94daea5",
+      "bytes": 2344
+    },
+    {
+      "path": "tools/validate.ps1",
+      "sha256": "37503ae9ab7c6e717c4bb34ab6ad309590b708042c894f6dc142ac15a6382f36",
+      "bytes": 844
+    },
+    {
+      "path": "verification/pom.xml",
+      "sha256": "c1728f8fab652689407328492d3e942c2b682392c37c9f6dc2ecef8a96bf4760",
+      "bytes": 824
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/ComparisonAggregate.java",
+      "sha256": "bc03995c4372439d8e61e8856ab42cfe2616d7a493e7262456f617a93cb3ecf4",
+      "bytes": 6249
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/FontReferenceAudit.java",
+      "sha256": "a89c5d3932d6870a7cb1cbd0a3cbb3e5bb46b53f0bd6ddee329ba8b8d5b5e7f1",
+      "bytes": 12227
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/FrameInspection.java",
+      "sha256": "a68d73519810cedb78b312788582bf52c75e837a7486f7d72f2701f6a1fb7d82",
+      "bytes": 4840
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/FrozenDataset.java",
+      "sha256": "df7a0def8b28281450b5201b843004f4792226d778d99a382cb571cdb07fca8c",
+      "bytes": 10784
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/GridProjection.java",
+      "sha256": "e35241e3df7bd7aaa706b2a2f45d3062f0a98e14d7cfdc19e0dd9eb12f36edbe",
+      "bytes": 3677
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/GtGeometry.java",
+      "sha256": "31d04930e147f68b18ffb2e3978793e04cc86bdb1bdaf88262316e6b4a869bd2",
+      "bytes": 7116
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/GtIntegrity.java",
+      "sha256": "0b17d8a0c0c261d2bf2d437ab0690166fcb1595ddc20879211438d4a7ee37694",
+      "bytes": 7675
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/Ledger.java",
+      "sha256": "c6ad289c5c0085af15f463631ded28c1d7c25ca2bb6006004f5d2aeba8f987c1",
+      "bytes": 1203
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/OcrComparison.java",
+      "sha256": "59ea098bfa11dc6afa2943fccfa98320cd146b54765469a63dc68280fbe57404",
+      "bytes": 8228
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/OcrScoring.java",
+      "sha256": "8c29327af605a82694df287dfa14a34334fb741a448e4395e3ebb7515352bdb4",
+      "bytes": 6382
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/PageOpportunities.java",
+      "sha256": "792daa2ba6ffd0f0af6f1bfcbf9cb2955c599c507c353aefbd70e2d2b7c749ac",
+      "bytes": 2165
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/ReplayTimeline.java",
+      "sha256": "436ed7015ccdddcb473c104164835161ac13d40021b0741d0a2abd9b999c3c1e",
+      "bytes": 7763
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/VideoTool.java",
+      "sha256": "00f399d9b277c133599a46833e3184b602e1acff894c2ff22652410f5f251a47",
+      "bytes": 21719
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/ViewportCheck.java",
+      "sha256": "b0c721ffb15afbe7acc2b6c1b69fc83a5d455fcb8939295bada3b6fb29a607b5",
+      "bytes": 10954
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/ComparisonAggregateTest.java",
+      "sha256": "e34baff23d4cfed29f60c008959ab211a2e20b78214fcafbc9617d36b8fe5f97",
+      "bytes": 1051
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/FontReferenceAuditTest.java",
+      "sha256": "6815dde057053c217ac173da739853f991332c76e55b6974d270c917d566d16f",
+      "bytes": 1932
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/FrozenCollectionTest.java",
+      "sha256": "f2012168f08247720bcd30502d1e7e4154a9b045bf8b30a91f5d38278b16be7f",
+      "bytes": 1334
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/GridProjectionTest.java",
+      "sha256": "2064c031d608770ff7af2006221632463ff283f856f8ab0e325bcd885f3c86f3",
+      "bytes": 3154
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/GtGeometryTest.java",
+      "sha256": "51c454798df721a3d5e4180a976a1f49a9605fd4fbc85dd2066a08bddb2107e5",
+      "bytes": 4454
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/LedgerTest.java",
+      "sha256": "6f36d3b071b6ac37b1523ca512b47d793f765abf12b711d721f9f350b426df44",
+      "bytes": 1449
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/OcrScoringTest.java",
+      "sha256": "ee58b606c4f38ccfab782c4d2a3c6eb0fd682dde4a2a391404cbebe8d671dabf",
+      "bytes": 4285
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/PageOpportunitiesTest.java",
+      "sha256": "0b6ac143bd41dbf3681d78f953eb33809a6ade91b6c7334041c1ff6bd6c46862",
+      "bytes": 2227
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/ReplayTimelineTest.java",
+      "sha256": "c4779f910d3ff31c10df3f845333cf26c7c1f9d1e639f1072150e61311b517f6",
+      "bytes": 1756
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/ViewportCheckTest.java",
+      "sha256": "b710a4637b28eee984d2cefdc9c86b3a7222f711a00499ee948f350941143414",
+      "bytes": 1060
+    }
+  ]
+}

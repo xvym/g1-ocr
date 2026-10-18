@@ -1,0 +1,62 @@
+[
+  {
+    "sourceFrameIndex": 4587,
+    "sourcePts": 2348544,
+    "stateId": "c83de914352e-f4587-f4589",
+    "expectedCharacters": 24,
+    "errors": 31,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue:15:1:1",
+        "expected": "じぶんで あつめた ポケモンも",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:5:1",
+        "expected": "",
+        "actual": "�",
+        "errors": 1
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:15:1:2",
+        "expected": "",
+        "actual": "じぶんで あつめた ポケモンも",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 4588,
+    "sourcePts": 2349056,
+    "stateId": "c83de914352e-f4587-f4589",
+    "expectedCharacters": 24,
+    "errors": 31,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue:15:1:1",
+        "expected": "じぶんで あつめた ポケモンも",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:5:1",
+        "expected": "",
+        "actual": "�",
+        "errors": 1
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:15:1:2",
+        "expected": "",
+        "actual": "じぶんで あつめた ポケモンも",
+        "errors": 15
+      }
+    ]
+  }
+]

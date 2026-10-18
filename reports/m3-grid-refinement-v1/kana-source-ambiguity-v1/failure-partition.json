@@ -1,0 +1,397 @@
+{
+  "status": "failure_partition_not_GT_verification",
+  "auditSha256": "6d0b140b157ca032c29381250c4ac399b0669278e5907cb218dbca89067efe0a",
+  "analysisSha256": "2293a992a45b397a7c74ae9f274460b9710c60b90d3742190054dbad85bc9db8",
+  "actualSha256": "9173ea6903aa85174bd0836c58a264afed15ba4950693fb2410d910d52a0fb96",
+  "sameGlyphKanaErrors": 11,
+  "otherCharacterErrors": 4,
+  "other": [
+    {
+      "scoreDifference": {
+        "sourceFrameIndex": 1920,
+        "sourcePts": 983040,
+        "stateId": "9c8aee036f72-f1886-f1921",
+        "expectedCharacters": 34,
+        "errors": 2,
+        "differences": [
+          {
+            "kind": "text",
+            "key": "dialogue:14:1:2",
+            "expected": "ここでは ポケモンの",
+            "actual": "ここては ホケモンの",
+            "errors": 2
+          }
+        ]
+      },
+      "regions": [
+        {
+          "id": "menu_option-15-8",
+          "role": "menu_option",
+          "text": "あずける",
+          "pixelCandidateText": "あずける",
+          "readingOrder": 0,
+          "gridRect": [
+            15,
+            8,
+            19,
+            9
+          ],
+          "sourceRect": [
+            631,
+            211,
+            752,
+            273
+          ],
+          "markCells": [
+            {
+              "gridColumn": 16,
+              "gridRow": 7,
+              "kind": "dakuten"
+            }
+          ],
+          "glyphCandidates": [
+            [
+              "あ"
+            ],
+            [
+              "ず"
+            ],
+            [
+              "け"
+            ],
+            [
+              "る"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "menu_option-15-10",
+          "role": "menu_option",
+          "text": "やめる",
+          "pixelCandidateText": "やめる",
+          "readingOrder": 1,
+          "gridRect": [
+            15,
+            10,
+            18,
+            11
+          ],
+          "sourceRect": [
+            631,
+            302,
+            722,
+            333
+          ],
+          "markCells": [],
+          "glyphCandidates": [
+            [
+              "や"
+            ],
+            [
+              "め"
+            ],
+            [
+              "る"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "dialogue-1-14",
+          "role": "dialogue",
+          "text": "ここては ホケモンの",
+          "pixelCandidateText": "ここては ホケモンの",
+          "readingOrder": 2,
+          "gridRect": [
+            1,
+            14,
+            11,
+            15
+          ],
+          "sourceRect": [
+            210,
+            423,
+            512,
+            454
+          ],
+          "markCells": [],
+          "glyphCandidates": [
+            [
+              "こ"
+            ],
+            [
+              "こ"
+            ],
+            [
+              "て"
+            ],
+            [
+              "は"
+            ],
+            [
+              " "
+            ],
+            [
+              "ホ"
+            ],
+            [
+              "ケ"
+            ],
+            [
+              "モ"
+            ],
+            [
+              "ン"
+            ],
+            [
+              "の"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "dialogue-1-16",
+          "role": "dialogue",
+          "text": "たいりょく かいふくを いたします",
+          "pixelCandidateText": "たい�ょく かいふくを いたします",
+          "readingOrder": 3,
+          "gridRect": [
+            1,
+            16,
+            18,
+            17
+          ],
+          "sourceRect": [
+            210,
+            483,
+            722,
+            515
+          ],
+          "markCells": [],
+          "glyphCandidates": [
+            [
+              "た"
+            ],
+            [
+              "い"
+            ],
+            [
+              "り",
+              "リ"
+            ],
+            [
+              "ょ"
+            ],
+            [
+              "く"
+            ],
+            [
+              " "
+            ],
+            [
+              "か"
+            ],
+            [
+              "い"
+            ],
+            [
+              "ふ"
+            ],
+            [
+              "く"
+            ],
+            [
+              "を"
+            ],
+            [
+              " "
+            ],
+            [
+              "い"
+            ],
+            [
+              "た"
+            ],
+            [
+              "し"
+            ],
+            [
+              "ま"
+            ],
+            [
+              "す"
+            ]
+          ],
+          "candidateResolutions": [
+            {
+              "cell": 3,
+              "anchor": 2,
+              "selected": "り",
+              "reason": "nearest_unambiguous_current_frame_kana_script"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scoreDifference": {
+        "sourceFrameIndex": 1921,
+        "sourcePts": 983552,
+        "stateId": "9c8aee036f72-f1921-f1922",
+        "expectedCharacters": 27,
+        "errors": 2,
+        "differences": [
+          {
+            "kind": "text",
+            "key": "dialogue:14:1:0",
+            "expected": "ここでは ポケモンの",
+            "actual": "ここては ホケモンの",
+            "errors": 2
+          }
+        ]
+      },
+      "regions": [
+        {
+          "id": "dialogue-1-14",
+          "role": "dialogue",
+          "text": "ここては ホケモンの",
+          "pixelCandidateText": "ここては ホケモンの",
+          "readingOrder": 0,
+          "gridRect": [
+            1,
+            14,
+            11,
+            15
+          ],
+          "sourceRect": [
+            210,
+            423,
+            512,
+            454
+          ],
+          "markCells": [],
+          "glyphCandidates": [
+            [
+              "こ"
+            ],
+            [
+              "こ"
+            ],
+            [
+              "て"
+            ],
+            [
+              "は"
+            ],
+            [
+              " "
+            ],
+            [
+              "ホ"
+            ],
+            [
+              "ケ"
+            ],
+            [
+              "モ"
+            ],
+            [
+              "ン"
+            ],
+            [
+              "の"
+            ]
+          ],
+          "candidateResolutions": []
+        },
+        {
+          "id": "dialogue-1-16",
+          "role": "dialogue",
+          "text": "たいりょく かいふくを いたします",
+          "pixelCandidateText": "たい�ょく かいふくを いたします",
+          "readingOrder": 1,
+          "gridRect": [
+            1,
+            16,
+            18,
+            17
+          ],
+          "sourceRect": [
+            210,
+            483,
+            722,
+            515
+          ],
+          "markCells": [],
+          "glyphCandidates": [
+            [
+              "た"
+            ],
+            [
+              "い"
+            ],
+            [
+              "り",
+              "リ"
+            ],
+            [
+              "ょ"
+            ],
+            [
+              "く"
+            ],
+            [
+              " "
+            ],
+            [
+              "か"
+            ],
+            [
+              "い"
+            ],
+            [
+              "ふ"
+            ],
+            [
+              "く"
+            ],
+            [
+              "を"
+            ],
+            [
+              " "
+            ],
+            [
+              "い"
+            ],
+            [
+              "た"
+            ],
+            [
+              "し"
+            ],
+            [
+              "ま"
+            ],
+            [
+              "す"
+            ]
+          ],
+          "candidateResolutions": [
+            {
+              "cell": 3,
+              "anchor": 2,
+              "selected": "り",
+              "reason": "nearest_unambiguous_current_frame_kana_script"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Previous plan described all 15 nurse errors as he-script ambiguity; full current evidence disproves that summary. Only 11 are he/he. Four are missing diacritics on de/po in frames 1920/1921, not source-safe alias corrections. Do not fill them from text. No new original-frame visual review performed here.",
+  "rawAccuracyUnchanged": true,
+  "GTUnchanged": true,
+  "productAcceptance": false
+}

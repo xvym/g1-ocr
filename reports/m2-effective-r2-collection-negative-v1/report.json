@@ -1,0 +1,75 @@
+{
+  "status": "approved_collection_negative_checks_passed",
+  "sourceFreezeSha256": "748087f7049d657ada68e634fda8b21dc37674257769bc559e79fff684dbb246",
+  "checks": [
+    {
+      "name": "wrong-base-hash",
+      "status": "rejected_before_frame_consumer",
+      "command": [
+        "java",
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "verification/target/classes;app/target/classes;.cache/m2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "replay-audit",
+        ".cache\\gt-collection-negative-v1\\wrong-base-hash",
+        "shop-exit",
+        "reports\\m2-effective-r2-collection-negative-v1\\wrong-base-hash",
+        "unpaced"
+      ],
+      "exitCode": 3
+    },
+    {
+      "name": "unknown-replacement-id",
+      "status": "rejected_before_frame_consumer",
+      "command": [
+        "java",
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "verification/target/classes;app/target/classes;.cache/m2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "replay-audit",
+        ".cache\\gt-collection-negative-v1\\unknown-replacement-id",
+        "shop-exit",
+        "reports\\m2-effective-r2-collection-negative-v1\\unknown-replacement-id",
+        "unpaced"
+      ],
+      "exitCode": 3
+    },
+    {
+      "name": "missing-original-item",
+      "status": "rejected_before_frame_consumer",
+      "command": [
+        "java",
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "verification/target/classes;app/target/classes;.cache/m2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "replay-audit",
+        ".cache\\gt-collection-negative-v1\\missing-original-item",
+        "shop-exit",
+        "reports\\m2-effective-r2-collection-negative-v1\\missing-original-item",
+        "unpaced"
+      ],
+      "exitCode": 3
+    },
+    {
+      "name": "wrong-payload-provenance",
+      "status": "rejected_before_frame_consumer",
+      "command": [
+        "java",
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "verification/target/classes;app/target/classes;.cache/m2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "replay-audit",
+        ".cache\\gt-collection-negative-v1\\wrong-payload-provenance",
+        "shop-exit",
+        "reports\\m2-effective-r2-collection-negative-v1\\wrong-payload-provenance",
+        "unpaced"
+      ],
+      "exitCode": 3
+    }
+  ],
+  "scope": "Deliberately corrupted metadata copies only. No approved files, original media or GT changed."
+}

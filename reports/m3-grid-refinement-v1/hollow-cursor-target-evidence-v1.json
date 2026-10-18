@@ -1,0 +1,307 @@
+{
+  "status": "only_kind_changes_with_hollow_cursors_other_outputs_identical",
+  "bindings": [
+    {
+      "clip": "pc-deposit-navigation",
+      "before": "f31ff44e32c81eb41c5b6e38bd9cbfeedde18c63fbec4c1afcd732755af2b06a",
+      "after": "7a5f4f6aa92cfc77fee4bdff7b9890f892403f0fdb7b78fecf2f27acd989c26e",
+      "frames": 124
+    },
+    {
+      "clip": "shop-sell-entry",
+      "before": "74b364f547a41db085e9e801315adceaecfaf7cfea079d6c1c8ffac2313141da",
+      "after": "f85675bbad57538931b8d372777ecf52758f3af47c7622e01e03bd17d36b6dd6",
+      "frames": 62
+    },
+    {
+      "clip": "shop-rejection",
+      "before": "d9f09b8d7f29bcff80612771ffb8a0ea428a723046cf089c4313c655615aef3f",
+      "after": "35afc0987a8f4697a3a1824d4481bfd3ec27825c09eb22ceb4c811f75626e573",
+      "frames": 36
+    },
+    {
+      "clip": "backpack-navigation",
+      "before": "db5b62da543154986f3898ccfbb9770e80920d029de710a2d3e092aee3e7b237",
+      "after": "6e4551e183fb4d601ac4ab7caff78f46610a3caf1324bee582c37835668f7f6d",
+      "frames": 166
+    }
+  ],
+  "changes": [
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1650,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1651,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1652,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1653,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1654,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1655,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1656,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1657,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1658,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1731,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1056,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1058,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1059,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1060,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1061,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1062,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1063,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1064,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1065,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1066,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1067,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1414,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1415,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1416,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1417,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1418,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1419,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1420,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1421,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1422,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1423,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1424,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1425,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1426,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1427,
+      "before": "menu_complete",
+      "after": "message_loading"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1428,
+      "before": "menu_complete",
+      "after": "message_complete"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1429,
+      "before": "menu_complete",
+      "after": "message_complete"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1430,
+      "before": "menu_complete",
+      "after": "message_complete"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1431,
+      "before": "menu_complete",
+      "after": "message_complete"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1432,
+      "before": "menu_complete",
+      "after": "message_complete"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1433,
+      "before": "menu_complete",
+      "after": "message_complete"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1434,
+      "before": "menu_complete",
+      "after": "message_complete"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1435,
+      "before": "menu_complete",
+      "after": "message_complete"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1436,
+      "before": "menu_complete",
+      "after": "message_complete"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1437,
+      "before": "menu_complete",
+      "after": "message_complete"
+    },
+    {
+      "clip": "shop-rejection",
+      "frame": 1441,
+      "before": "menu_complete",
+      "after": "message_loading"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "clip": "startup-nontarget",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/startup-nontarget.json",
+    "retained": 300
+  },
+  {
+    "clip": "exploration-npc",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/exploration-npc.json",
+    "retained": 94
+  },
+  {
+    "clip": "battle-result",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/battle-result.json",
+    "retained": 55
+  },
+  {
+    "clip": "status-pages",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/status-pages.json",
+    "retained": 108
+  },
+  {
+    "clip": "pc-deposit-navigation",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/pc-deposit-navigation.json",
+    "retained": 124
+  },
+  {
+    "clip": "pc-exit",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/pc-exit.json",
+    "retained": 14
+  },
+  {
+    "clip": "status-alt-pages",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/status-alt-pages.json",
+    "retained": 135
+  },
+  {
+    "clip": "party-list",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/party-list.json",
+    "retained": 30
+  },
+  {
+    "clip": "shop-buy-navigation",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/shop-buy-navigation.json",
+    "retained": 48
+  },
+  {
+    "clip": "shop-sell-entry",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/shop-sell-entry.json",
+    "retained": 62
+  },
+  {
+    "clip": "shop-rejection",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/shop-rejection.json",
+    "retained": 36
+  },
+  {
+    "clip": "backpack-opening",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/backpack-opening.json",
+    "retained": 38
+  },
+  {
+    "clip": "backpack-navigation",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/backpack-navigation.json",
+    "retained": 166
+  },
+  {
+    "clip": "skills-turn",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/skills-turn.json",
+    "retained": 112
+  },
+  {
+    "clip": "shop-exit",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/shop-exit.json",
+    "retained": 49
+  },
+  {
+    "clip": "pc-connect",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/pc-connect.json",
+    "retained": 51
+  },
+  {
+    "clip": "approved-trial",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/approved-trial.json",
+    "retained": 39
+  },
+  {
+    "clip": "bill-data-npc",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/bill-data-npc.json",
+    "retained": 105
+  },
+  {
+    "clip": "bill-grandfather",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/bill-grandfather.json",
+    "retained": 130
+  },
+  {
+    "clip": "gym-sign-continuation",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/gym-sign-continuation.json",
+    "retained": 66
+  },
+  {
+    "clip": "intro-creatures",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/intro-creatures.json",
+    "retained": 78
+  },
+  {
+    "clip": "intro-greeting",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/intro-greeting.json",
+    "retained": 111
+  },
+  {
+    "clip": "intro-oak",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/intro-oak.json",
+    "retained": 54
+  },
+  {
+    "clip": "intro-pets",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/intro-pets.json",
+    "retained": 74
+  },
+  {
+    "clip": "intro-research",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/intro-research.json",
+    "retained": 80
+  },
+  {
+    "clip": "lab-oak-reply",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/lab-oak-reply.json",
+    "retained": 83
+  },
+  {
+    "clip": "lab-rival-demand",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/lab-rival-demand.json",
+    "retained": 46
+  },
+  {
+    "clip": "league-centre-npc",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/league-centre-npc.json",
+    "retained": 146
+  },
+  {
+    "clip": "mart-child",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/mart-child.json",
+    "retained": 60
+  },
+  {
+    "clip": "museum-fee",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/museum-fee.json",
+    "retained": 123
+  },
+  {
+    "clip": "museum-question",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/museum-question.json",
+    "retained": 113
+  },
+  {
+    "clip": "nurse-greeting",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/nurse-greeting.json",
+    "retained": 102
+  },
+  {
+    "clip": "nurse-intake",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/nurse-intake.json",
+    "retained": 171
+  },
+  {
+    "clip": "nurse-return",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/nurse-return.json",
+    "retained": 107
+  },
+  {
+    "clip": "oak-delivery",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/oak-delivery.json",
+    "retained": 114
+  },
+  {
+    "clip": "route-ledge-npc",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/route-ledge-npc.json",
+    "retained": 100
+  },
+  {
+    "clip": "route-pp-sign",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/route-pp-sign.json",
+    "retained": 170
+  },
+  {
+    "clip": "safari-warden-npc",
+    "input": "reports/m3-grid-refinement-v1/strict-improvement-v21/joint-all-inputs/safari-warden-npc.json",
+    "retained": 83
+  }
+]

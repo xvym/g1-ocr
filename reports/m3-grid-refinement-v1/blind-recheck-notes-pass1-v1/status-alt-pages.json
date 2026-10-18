@@ -1,0 +1,69 @@
+{
+  "status": "agent_first_original_image_recheck_only_not_new_GT_not_approved",
+  "event": "status-alt-pages",
+  "source": "video-03",
+  "inputVerification": "data/frames/video-03/ocr-observation-recheck-status-alt-pages-v1/verification.json",
+  "displayVerification": "reports/m3-grid-refinement-v1/blind-recheck-sheets-pass1-v1/status-alt-pages/report.json",
+  "viewedSheets": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
+  "viewedOriginalFrames": [3532,3667],
+  "reviewer": "Current coding agent, not human per-frame verification",
+  "inputIndependence": "This pass viewed freshly decoded original pixels, exact nearest-neighbor sheets and raw detail crops. Tested OCR/actual/scoring outputs were not opened during this pass. Earlier OCR differences prompted the audit but are not replacement annotations.",
+  "evidenceBoundary": "Complete first pass of this retained event only. Second pass and all other affected events remain outstanding; no approval request or GT change.",
+  "observations": [
+    {
+      "range": [3532,3534],
+      "scope": "before-context",
+      "visible": "Party list with status/swap/cancel submenu; transition to status screen follows."
+    },
+    {
+      "range": [3534,3541],
+      "visibleTargetText": [],
+      "visible": "Uniform game raster. No target letters, cursor or page."
+    },
+    {
+      "range": [3541,3542],
+      "visible": "First status text appears before the creature picture. Above the ホ-shaped name base there is a short incomplete dark stroke; the next frame has a clearly formed voiced mark.",
+      "nameInterpretation": "Needs independent second-pass original/glyph review; do not replace the old reading with ホ merely because a program missed the mark.",
+      "detail": "reports/m3-grid-refinement-v1/blind-recheck-detail-pass1-v1/status-alt-3541-name.png"
+    },
+    {
+      "range": [3542,3612],
+      "header": ["ウツボット",":L","50","No.","071","HP:","160/160","じょうたい/ふつう"],
+      "stats": [["こうげき","144"],["ぼうぎょ","105"],["すばやさ","110"],["とくしゅ","133"]],
+      "otherFields": ["タイプ1/くさ","タイプ2/どく","IDNo/","44837","おや/ グリーン"],
+      "visible": "Text stable throughout. Creature begins appearing at3562 and is complete at3563; picture-only changes do not alter the text. No cursor or down arrow."
+    },
+    {
+      "range": [3612,3613],
+      "header": ["ウツボット",":L","50","No.","071","HP:","160/160","じょうたい/ふつう"],
+      "oldLowerFieldsStillVisible": ["こうげき","144","タイプ1/くさ"],
+      "newLowerRows": [["ねむりこな","PP","15/15"],["つるぎのまい","PP","30/30"],["すてみタックル","PP","15/15"]],
+      "unconsumedMarks": [
+        {"gridColumn":1,"gridRow":11,"kind":"dakuten"},
+        {"gridColumn":3,"gridRow":11,"kind":"dakuten"},
+        {"gridColumn":12,"gridRow":11,"kind":"handakuten"},
+        {"gridColumn":15,"gridRow":11,"kind":"dakuten"}
+      ],
+      "visible": "Upper HP/condition panel remains old. Only the lower three move rows have been redrawn. The new second move has a plain こ base; the four remaining old marks are at other cells and are not its voiced mark. No new experience panel yet. This is a mixed redraw, not a complete page.",
+      "detail": "reports/m3-grid-refinement-v1/blind-recheck-detail-pass1-v1/status-alt-3612-row11.png"
+    },
+    {
+      "range": [3613,3652],
+      "header": ["ウツボット",":L","50","No.","071"],
+      "experience": ["けいけんち/","117997","あと","7129で",":L","51"],
+      "moves": [["はっぱカッター","PP","25/25"],["ねむりごな","PP","15/15"],["つるぎのまい","PP","30/30"],["すてみタックル","PP","15/15"]],
+      "visible": "Second page complete and stable. Old status fields and stray row11 marks have been cleared. No cursor or down arrow."
+    },
+    {
+      "range": [3652,3663],
+      "visibleTargetText": [],
+      "visible": "All status text cleared; uniform raster."
+    },
+    {
+      "range": [3663,3667],
+      "scope": "after-context",
+      "visible": "Party list reappears with ポケモンを えらんで ください. Cursor absent in3663, then filled right at the second party entry from3664."
+    }
+  ],
+  "remaining": ["Independent second pass on originals including3541 mark fragment", "All affected-event rechecks", "Only then compare old annotation and prepare any unified review candidate"]
+}

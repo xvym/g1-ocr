@@ -1,0 +1,1317 @@
+{
+  "status": "diagnosis_not_acceptance",
+  "actualSha256": "eda79148a04a2e5d5bdd8cadd75f9a6f16fe2ac237e40384dadb6f0e28c53c54",
+  "priorFullEventDoubleRead": "reports/m3-grid-refinement-v1/backpack-scroll-notes-v1",
+  "evidence": [
+    {
+      "clip": "backpack-navigation",
+      "frame": 5241,
+      "pts": 5366784,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 35,
+      "actualCharacters": 35,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ],
+            "sourceRect": [
+              691,
+              332,
+              722,
+              363
+            ]
+          }
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5240,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005240.png",
+          "sha256": "bc40bc9a33368160e655a3ea5bcdc7f5e89cda8469de708ae5a083a7afa1d365"
+        },
+        {
+          "frame": 5241,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005241.png",
+          "sha256": "7c6b42e236b0df1082454372af4d8b0e8e1a31b5b3f9d1a8c1768061b6cbd649"
+        },
+        {
+          "frame": 5242,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005242.png",
+          "sha256": "fd087d24de50ca6e0cbfc7ec18f310d22e88bb790d9ec4f79d238418d551a41e"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5251,
+      "pts": 5377024,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 31,
+      "actualCharacters": 31,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5250,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005250.png",
+          "sha256": "433f78c1d98efffb4f5bfea4b33f834880fa69479e93ea97416ad7021444e14c"
+        },
+        {
+          "frame": 5251,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005251.png",
+          "sha256": "abd8b516ae498a90fb01448fbce8a3ba7e39908537f2798e9d0c46bf76d538b3"
+        },
+        {
+          "frame": 5252,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005252.png",
+          "sha256": "030218382e640b042b623d2014ac0e325409dd7e3cada46c41c433d26f4aa426"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5260,
+      "pts": 5386240,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 25,
+      "actualCharacters": 25,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5259,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005259.png",
+          "sha256": "41707c2f597dcfb8e43a9653bec30182f083ff95948cbf1a4f602b1f6910f5c3"
+        },
+        {
+          "frame": 5260,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005260.png",
+          "sha256": "6a398d73e498a3a48e29ee96299dfe2d9a32713ce46a7347f9b5f08e89d85394"
+        },
+        {
+          "frame": 5261,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005261.png",
+          "sha256": "092d6ef4e4679bd85ce6f28bd5bcac72cd1527d654e017899e30fffa1f01813f"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5270,
+      "pts": 5396480,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 25,
+      "actualCharacters": 25,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5269,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005269.png",
+          "sha256": "8c013896294b590da2a0fec9e697c3a51ee0bcb8364b5eed0484b5fb4ce6edd2"
+        },
+        {
+          "frame": 5270,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005270.png",
+          "sha256": "cf25b848f92c6a86d16ee03b32b31b0648afd3d7c526dd99ededadd9b53b0bef"
+        },
+        {
+          "frame": 5271,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005271.png",
+          "sha256": "66f951d0f56f43c5ecd3435a0484bd99fdd3359a788f29b389dcc6c58ec3d6fb"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5282,
+      "pts": 5408768,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 25,
+      "actualCharacters": 25,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5281,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005281.png",
+          "sha256": "a5e4f5e574db5c741f7ee6f7626723ae1f91277f7779aec8d26937d343c5febc"
+        },
+        {
+          "frame": 5282,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005282.png",
+          "sha256": "bde96b1c6b8d1b9fcc01d65ee89b68e9876f29a01d0e7bfdc7c99426c5bcfc88"
+        },
+        {
+          "frame": 5283,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005283.png",
+          "sha256": "64de774f0a3bafd9b79a2002ff341674e876bd9911a98c14a6e5af07654b7d37"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5301,
+      "pts": 5428224,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 32,
+      "actualCharacters": 32,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                4,
+                6,
+                5
+              ],
+              "sourceRect": [
+                301,
+                121,
+                332,
+                152
+              ]
+            }
+          ],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          },
+          {
+            "kind": "handakuten",
+            "gridRect": [
+              8,
+              5,
+              9,
+              6
+            ],
+            "sourceRect": [
+              391,
+              151,
+              422,
+              182
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              12,
+              5,
+              13,
+              6
+            ],
+            "sourceRect": [
+              511,
+              151,
+              542,
+              182
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5300,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005300.png",
+          "sha256": "e5f369c16bb0f22843a8d48102d1e74c311b60ae3b42b9db10304dca93d57669"
+        },
+        {
+          "frame": 5301,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005301.png",
+          "sha256": "0f1e9e2971f0da1efc8cddccf453487cffb16d9736b11f178cfc8d01a73e8bb8"
+        },
+        {
+          "frame": 5302,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005302.png",
+          "sha256": "018ad9c0981b3c5c85abb9ad261adb7ddf0111babf27009508ad2573b725f92a"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5302,
+      "pts": 5429248,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 31,
+      "actualCharacters": 31,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5301,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005301.png",
+          "sha256": "0f1e9e2971f0da1efc8cddccf453487cffb16d9736b11f178cfc8d01a73e8bb8"
+        },
+        {
+          "frame": 5302,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005302.png",
+          "sha256": "018ad9c0981b3c5c85abb9ad261adb7ddf0111babf27009508ad2573b725f92a"
+        },
+        {
+          "frame": 5303,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005303.png",
+          "sha256": "c481dcc00f854f61e41e67594655fa9f5228115169a8c894523c2462b4366039"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5304,
+      "pts": 5431296,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 34,
+      "actualCharacters": 34,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                4,
+                6,
+                5
+              ],
+              "sourceRect": [
+                301,
+                121,
+                332,
+                152
+              ]
+            }
+          ],
+          "additionalDownArrows": [],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ],
+            "sourceRect": [
+              691,
+              332,
+              722,
+              363
+            ]
+          }
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              6,
+              5,
+              7,
+              6
+            ],
+            "sourceRect": [
+              331,
+              151,
+              362,
+              182
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              11,
+              5,
+              12,
+              6
+            ],
+            "sourceRect": [
+              481,
+              151,
+              512,
+              182
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5303,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005303.png",
+          "sha256": "c481dcc00f854f61e41e67594655fa9f5228115169a8c894523c2462b4366039"
+        },
+        {
+          "frame": 5304,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005304.png",
+          "sha256": "8dcd56c794e4d1bc96ca64df41081ffa7472e3a2bd66c0f3d56224e7d7305394"
+        },
+        {
+          "frame": 5305,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005305.png",
+          "sha256": "d74d7f6837a7e4d97b297c2eb7ac4e50782cf01b23f013390d89a09aa07bcede"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5306,
+      "pts": 5433344,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 30,
+      "actualCharacters": 30,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                4,
+                6,
+                5
+              ],
+              "sourceRect": [
+                300,
+                121,
+                332,
+                152
+              ]
+            }
+          ],
+          "additionalDownArrows": [],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ],
+            "sourceRect": [
+              691,
+              332,
+              722,
+              363
+            ]
+          }
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              10,
+              5,
+              11,
+              6
+            ],
+            "sourceRect": [
+              451,
+              151,
+              482,
+              182
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5305,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005305.png",
+          "sha256": "d74d7f6837a7e4d97b297c2eb7ac4e50782cf01b23f013390d89a09aa07bcede"
+        },
+        {
+          "frame": 5306,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005306.png",
+          "sha256": "191257e2fc18b0663b75b04be2d8c08f509f76331ef0a49a08141d932dbc4760"
+        },
+        {
+          "frame": 5307,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005307.png",
+          "sha256": "cb781adb3cb1f9a1072c6e466aa2707eb27679fb279e873a2b55e6996861eaaf"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5307,
+      "pts": 5434368,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 28,
+      "actualCharacters": 28,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ],
+            "sourceRect": [
+              691,
+              332,
+              722,
+              363
+            ]
+          }
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5306,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005306.png",
+          "sha256": "191257e2fc18b0663b75b04be2d8c08f509f76331ef0a49a08141d932dbc4760"
+        },
+        {
+          "frame": 5307,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005307.png",
+          "sha256": "cb781adb3cb1f9a1072c6e466aa2707eb27679fb279e873a2b55e6996861eaaf"
+        },
+        {
+          "frame": 5308,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005308.png",
+          "sha256": "483b1a5d8d1908d595f0e2745d8ee3c022f39d682576b2aa47b43fe225f781ff"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5309,
+      "pts": 5436416,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 28,
+      "actualCharacters": 28,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ],
+            "sourceRect": [
+              691,
+              332,
+              722,
+              363
+            ]
+          }
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5308,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005308.png",
+          "sha256": "483b1a5d8d1908d595f0e2745d8ee3c022f39d682576b2aa47b43fe225f781ff"
+        },
+        {
+          "frame": 5309,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005309.png",
+          "sha256": "5f7969c88c5be91f11216424971db0200f5e196c0cea1ccfb42a2cb589662544"
+        },
+        {
+          "frame": 5310,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005310.png",
+          "sha256": "d79610358fe6c36bd1f453b3fcc87d2c6e7ab121785f3ca3f8ff407db905b29b"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5311,
+      "pts": 5438464,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 28,
+      "actualCharacters": 28,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ],
+            "sourceRect": [
+              691,
+              332,
+              722,
+              363
+            ]
+          }
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5310,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005310.png",
+          "sha256": "d79610358fe6c36bd1f453b3fcc87d2c6e7ab121785f3ca3f8ff407db905b29b"
+        },
+        {
+          "frame": 5311,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005311.png",
+          "sha256": "eaeae1e81c0dd1f2d6ecb2b8b2738a1b8f9c139701dfc6b3e75e8b61c4e1979e"
+        },
+        {
+          "frame": 5312,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005312.png",
+          "sha256": "0fb625370d4e42c687dca3f4778fb7b5dec431131c376dd96138726200abefd1"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5313,
+      "pts": 5440512,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 28,
+      "actualCharacters": 28,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ],
+            "sourceRect": [
+              691,
+              332,
+              722,
+              363
+            ]
+          }
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5312,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005312.png",
+          "sha256": "0fb625370d4e42c687dca3f4778fb7b5dec431131c376dd96138726200abefd1"
+        },
+        {
+          "frame": 5313,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005313.png",
+          "sha256": "06dff9c8fd194a59e701024d7c250c2e90efeadfdb78cdfc3d0528e471b609e0"
+        },
+        {
+          "frame": 5314,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005314.png",
+          "sha256": "a64943d8fb0b301a67508d4f03a26929d130b1da32da536d4f203480085dbc95"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5316,
+      "pts": 5443584,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 28,
+      "actualCharacters": 28,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ],
+            "sourceRect": [
+              691,
+              332,
+              722,
+              363
+            ]
+          }
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5315,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005315.png",
+          "sha256": "a305aeb42e212dfd98e30e8ba1af6a969b63a0b5f2e5a143a1d2342094201bfe"
+        },
+        {
+          "frame": 5316,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005316.png",
+          "sha256": "d35d7e1c18cd7bd984c86fc46398c6278b45d7240d131b99bf035c76b2563b63"
+        },
+        {
+          "frame": 5317,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005317.png",
+          "sha256": "f15a6d97be79e0ef5dff6f04c66bff4bff1cd332529094ca9b64ae21d249f53e"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5330,
+      "pts": 5457920,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 28,
+      "actualCharacters": 28,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                4,
+                6,
+                5
+              ],
+              "sourceRect": [
+                301,
+                121,
+                332,
+                152
+              ]
+            },
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                6,
+                6,
+                7
+              ],
+              "sourceRect": [
+                301,
+                181,
+                332,
+                212
+              ]
+            }
+          ],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5329,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005329.png",
+          "sha256": "b4e285c90d360db649bd93266ed38409dfeb16c027cbbde3ac29ebe5a7f6ca03"
+        },
+        {
+          "frame": 5330,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005330.png",
+          "sha256": "3c010c0992ceb51a209a8d313957bffd2b974f4f6508fe9cf7e890729f78fa3c"
+        },
+        {
+          "frame": 5331,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005331.png",
+          "sha256": "dd5549d9e26efe1adc560309687297b53da9931a0c50fa11f4e1c84a93af0b8f"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5345,
+      "pts": 5473280,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 35,
+      "actualCharacters": 35,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ],
+            "sourceRect": [
+              691,
+              332,
+              722,
+              363
+            ]
+          }
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5344,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005344.png",
+          "sha256": "de1aef186415a0dff8cd565ccc4ca8d4a815355f392ff13f62f278d0e29fddf9"
+        },
+        {
+          "frame": 5345,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005345.png",
+          "sha256": "291cc5381a545aaef7e9aba1ad66c5cfd7ee537dc8e89d5b583c2e9f4f357e11"
+        },
+        {
+          "frame": 5346,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005346.png",
+          "sha256": "7ecf460747681ef9a87e43ac316ffdaf19b698f1a23bae48696d0ba7506c504f"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5347,
+      "pts": 5475328,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 32,
+      "actualCharacters": 32,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              10,
+              5,
+              11,
+              6
+            ],
+            "sourceRect": [
+              451,
+              151,
+              482,
+              182
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5346,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005346.png",
+          "sha256": "7ecf460747681ef9a87e43ac316ffdaf19b698f1a23bae48696d0ba7506c504f"
+        },
+        {
+          "frame": 5347,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005347.png",
+          "sha256": "4c9d2c221f648b80dd0419a8dee9499f2bdb1f2c29976cdb8ad14cad509be934"
+        },
+        {
+          "frame": 5348,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005348.png",
+          "sha256": "cd04dde8d8ad5d398a1a68a83ebb5b617a3fa157e3228c28f90bf2717e1542c1"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5349,
+      "pts": 5477376,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 24,
+      "actualCharacters": 24,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              11,
+              5,
+              12,
+              6
+            ],
+            "sourceRect": [
+              481,
+              151,
+              512,
+              182
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5348,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005348.png",
+          "sha256": "cd04dde8d8ad5d398a1a68a83ebb5b617a3fa157e3228c28f90bf2717e1542c1"
+        },
+        {
+          "frame": 5349,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005349.png",
+          "sha256": "24635961a104dcbf76c746acc2f9ddc27da3171954b0d698b541b8dd14d428cd"
+        },
+        {
+          "frame": 5350,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005350.png",
+          "sha256": "60a36e5a8388683aaa82ba6dc5d345a33e4b7a0de0ea9bfaf0ccc96575e0a59e"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-navigation",
+      "frame": 5351,
+      "pts": 5479424,
+      "expected": "menu_redraw_or_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 25,
+      "actualCharacters": 25,
+      "visibleState": {
+        "kind": "menu_complete",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              571,
+              30,
+              602,
+              61
+            ]
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frame": 5350,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005350.png",
+          "sha256": "60a36e5a8388683aaa82ba6dc5d345a33e4b7a0de0ea9bfaf0ccc96575e0a59e"
+        },
+        {
+          "frame": 5351,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005351.png",
+          "sha256": "c976acab5cf06d810c5c2682078de300ac1ba0ed58f5a73f26320c580822a6f3"
+        },
+        {
+          "frame": 5352,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005352.png",
+          "sha256": "be93aa6b1ca3e3d791a7bc081f01d24122834da6505f4368adda8439fa564761"
+        }
+      ]
+    }
+  ],
+  "rule": "Use only currently enclosed backpack list; initial absent cursor differs from absence after selection. Multiple current cursors or detached marks inside list denote transition. Parent mark and duplicate text alone do not.",
+  "gtChanged": false,
+  "attempt": 1
+}

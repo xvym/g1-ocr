@@ -1,0 +1,42 @@
+{
+  "status": "cross_clip_scoring_metadata_consistent",
+  "batch": "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-review\\gt-all-scenes-v2-shop-metadata-r2\\batch.json",
+  "batchSha256": "343824036c707496c37a86e7cca937c33b935add0efb775c2377175d51de1bd5",
+  "frameReferences": 181,
+  "uniqueScoredFrames": 180,
+  "overlappingReferences": 1,
+  "conflicts": [],
+  "overlaps": [
+    {
+      "key": "video-03:1439",
+      "items": [
+        "shop-rejection",
+        "shop-exit"
+      ],
+      "consistent": true
+    }
+  ],
+  "inputs": [
+    {
+      "id": "shop-buy-navigation",
+      "path": "data/gt/candidates/ocr-all-scenes-v1/shop-buy-navigation/ocr-candidate-v1.jsonl",
+      "sha256": "bceb6945558436080011f08f61928bf170c35294ed9d4615243a2b70f19a4256"
+    },
+    {
+      "id": "shop-sell-entry",
+      "path": "data/gt/candidates/ocr-all-scenes-v1/shop-sell-entry/ocr-candidate-v1.jsonl",
+      "sha256": "16fec5d23dd48b57daa2899e94733121e592feebd3930a5dcaa7513f4cdcadc7"
+    },
+    {
+      "id": "shop-rejection",
+      "path": "data/gt/candidates/ocr-shop-metadata-v1/shop-rejection/ocr-candidate-v2.jsonl",
+      "sha256": "2c44d8e75b2df9b2f10400a05ade9ed596e0f11202fa2fe7632b821d235e05b8"
+    },
+    {
+      "id": "shop-exit",
+      "path": "data/gt/candidates/ocr-expansion-v1/shop-exit/ocr-candidate-v2.jsonl",
+      "sha256": "cb90c6276d9905227add176e828943ffd5874c5c8d5e15f14e9cfafe73f4db7f"
+    }
+  ],
+  "scope": "Exact frozen field role, readingOrder, kind, complete-page flag, literal text and visible geometry; only the already-approved triangle descriptor spelling alias is applied. No OCR outputs consumed."
+}

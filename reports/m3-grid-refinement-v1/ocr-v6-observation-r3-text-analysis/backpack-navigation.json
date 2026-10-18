@@ -1,0 +1,96 @@
+[
+  {
+    "sourceFrameIndex": 5301,
+    "sourcePts": 5428224,
+    "stateId": "4a2fec5930e9-f5301-f5302",
+    "expectedCharacters": 32,
+    "errors": 2,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "backpack_item_or_cancel:6:6:1",
+        "expected": "ボロのつりざお",
+        "actual": "ポロのつりさお",
+        "errors": 2
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5304,
+    "sourcePts": 5431296,
+    "stateId": "4a2fec5930e9-f5304-f5305",
+    "expectedCharacters": 34,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "backpack_item_or_cancel:6:6:1",
+        "expected": "いいつりざお",
+        "actual": "いいつりさお",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5306,
+    "sourcePts": 5433344,
+    "stateId": "4a2fec5930e9-f5306-f5307",
+    "expectedCharacters": 30,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "backpack_item_or_cancel:6:6:1",
+        "expected": "ポケモンのふえ",
+        "actual": "ホケモンのふえ",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5347,
+    "sourcePts": 5475328,
+    "stateId": "4a2fec5930e9-f5347-f5348",
+    "expectedCharacters": 31,
+    "errors": 9,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "backpack_item_or_cancel:4:6:0",
+        "expected": "いいつりざお",
+        "actual": "ポケモンのふえ",
+        "errors": 7
+      },
+      {
+        "kind": "text",
+        "key": "backpack_item_or_cancel:6:6:1",
+        "expected": "ボロのつりざお",
+        "actual": "ホロのつりさお",
+        "errors": 2
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 5349,
+    "sourcePts": 5477376,
+    "stateId": "4a2fec5930e9-f5349-f5350",
+    "expectedCharacters": 25,
+    "errors": 6,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "backpack_item_or_cancel:4:6:0",
+        "expected": "ボロのつりざお",
+        "actual": "いいつりざお",
+        "errors": 3
+      },
+      {
+        "kind": "text",
+        "key": "backpack_item_or_cancel:6:6:1",
+        "expected": "ピーピーエイダー × 1",
+        "actual": "ビーヒーエイター × 1",
+        "errors": 3
+      }
+    ]
+  }
+]

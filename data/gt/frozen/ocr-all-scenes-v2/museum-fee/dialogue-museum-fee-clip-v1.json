@@ -1,0 +1,34 @@
+{
+  "frozen": false,
+  "scoreKind": "text_and_state",
+  "schemaVersion": 2,
+  "gt": "data/gt/candidates/ocr-dialogue-expansion-v1/museum-fee/ocr-candidate-v1.jsonl",
+  "timeBase": "1/12288",
+  "selectionReason": "Original-source navigation selected this naturally bounded speech block before OCR exists. All original pre-loading, visible loading/complete/scroll/clear and ending after-state frames retained; details and corrected boundaries in both manual reads and differences.",
+  "endFrameExclusive": 3919,
+  "startFrame": 3796,
+  "boundaryStatus": "agent_double_read_complete_candidate_not_frozen",
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "scoredRange": [
+    3798,
+    3917
+  ],
+  "mediaId": "video-02",
+  "postContext": [
+    3917,
+    3919
+  ],
+  "set": "development",
+  "eventType": "博物馆入场费与留在门口",
+  "scopeLimits": [
+    "Other dialogue and unselected source intervals remain unverified",
+    "Not independent acceptance; candidate GT only, no approval or OCR pass"
+  ],
+  "independentSession": "unverified",
+  "pageOpportunityPolicy": "explicit_id",
+  "id": "c83de914352e-f3796-f3919-museum-fee",
+  "warmup": [
+    3796,
+    3798
+  ]
+}

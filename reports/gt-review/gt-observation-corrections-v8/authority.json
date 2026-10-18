@@ -1,0 +1,361 @@
+{
+  "reviewId": "gt-observation-corrections-v8",
+  "message": "如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论",
+  "basis": "13438 already contains the exclamation mark; 24223 has only とどけも and the next cell is blank. Full affected events were reread twice. Preserve all other states, roles, timing and page opportunities.",
+  "changes": [
+    {
+      "id": "lab-oak-reply",
+      "frame": 13438,
+      "input": {
+        "kind": "gt",
+        "path": "data/gt/frozen/ocr-all-scenes-v2/lab-oak-reply/ocr-candidate-v1.jsonl",
+        "sha256": "b5c4f4f3f73724c47052ad93320414503d3126de7e329929dea1f592d43c4a5f"
+      },
+      "candidate": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v8/lab-oak-reply/ocr-candidate-boundary-v1.jsonl",
+        "sha256": "59f91be59d9dc900d96c527c15e038a9d4c79f3a3914df259d8d03b201053efb"
+      },
+      "before": {
+        "schemaVersion": 2,
+        "stateId": "f53c237ad19a-f13438-f13439",
+        "mediaId": "video-01",
+        "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "startFrame": 13438,
+        "endFrameExclusive": 13439,
+        "startPts": 13438,
+        "endPtsExclusive": 13439,
+        "timeBase": "1/30",
+        "kind": "message_loading",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "オーキド『まー",
+            "gridRect": [
+              1,
+              14,
+              8,
+              15
+            ],
+            "sourceRect": [
+              256,
+              304,
+              368,
+              336
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "kind": "dakuten",
+                "gridColumn": 4
+              }
+            ]
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "outputIndependence": "No tested OCR or production translation exists",
+          "originalFrames": "data/frames/video-01/dialogue-lab-rival-pass2-v1",
+          "humanPerFrameVerification": "not claimed",
+          "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/lab-oak-reply/manual-pass2.json"
+        }
+      },
+      "after": {
+        "schemaVersion": 2,
+        "stateId": "f53c237ad19a-f13438-f13439",
+        "mediaId": "video-01",
+        "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "startFrame": 13438,
+        "endFrameExclusive": 13439,
+        "startPts": 13438,
+        "endPtsExclusive": 13439,
+        "timeBase": "1/30",
+        "kind": "message_loading",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "オーキド『まー！",
+            "gridRect": [
+              1,
+              14,
+              9,
+              15
+            ],
+            "sourceRect": [
+              256,
+              304,
+              384,
+              336
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "kind": "dakuten",
+                "gridColumn": 4
+              }
+            ]
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "reports/m3-grid-refinement-v1/oak-boundary-notes-v1/lab-oak-reply-pass2.json",
+          "originalFrames": "data\\frames\\video-01\\oak-reply-boundary-pass2-v1",
+          "humanPerFrameVerification": "not claimed",
+          "outputIndependence": "Full original-frame double reread with GT/actual closed; prior diagnostic exposure disclosed; same agent, not independent acceptance."
+        }
+      },
+      "characterDelta": 1
+    },
+    {
+      "id": "oak-delivery",
+      "frame": 24223,
+      "input": {
+        "kind": "gt",
+        "path": "data/gt/frozen/ocr-all-scenes-v2/oak-delivery/ocr-candidate-v1.jsonl",
+        "sha256": "21fb90a17c18338d2e56b1951f99c56cd105f3d1aa675c0a8b07ca35482f0952"
+      },
+      "candidate": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v8/oak-delivery/ocr-candidate-boundary-v1.jsonl",
+        "sha256": "bfce42c4eb6818fdfd15a4c49709713966e7a0436220fa888a024fea5581fd6a"
+      },
+      "before": {
+        "schemaVersion": 2,
+        "stateId": "f53c237ad19a-f24223-f24224",
+        "mediaId": "video-01",
+        "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "startFrame": 24223,
+        "endFrameExclusive": 24224,
+        "startPts": 24223,
+        "endPtsExclusive": 24224,
+        "timeBase": "1/30",
+        "kind": "message_loading",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "レッドは オーキド はかせに",
+            "gridRect": [
+              1,
+              14,
+              15,
+              15
+            ],
+            "sourceRect": [
+              256,
+              304,
+              480,
+              336
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 3,
+                "gridRow": 13
+              },
+              {
+                "kind": "dakuten",
+                "gridColumn": 9,
+                "gridRow": 13
+              }
+            ]
+          },
+          {
+            "id": "message-bottom",
+            "role": "dialogue",
+            "readingOrder": 1,
+            "text": "とどけもの",
+            "gridRect": [
+              1,
+              16,
+              6,
+              17
+            ],
+            "sourceRect": [
+              256,
+              336,
+              336,
+              368
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 2,
+                "gridRow": 15
+              }
+            ]
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/oak-delivery/manual-pass2.json",
+          "outputIndependence": "No tested OCR or production translation exists",
+          "originalFrames": "data/frames/video-01/dialogue-oak-delivery-pass2-v1",
+          "humanPerFrameVerification": "not claimed"
+        }
+      },
+      "after": {
+        "schemaVersion": 2,
+        "stateId": "f53c237ad19a-f24223-f24224",
+        "mediaId": "video-01",
+        "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "startFrame": 24223,
+        "endFrameExclusive": 24224,
+        "startPts": 24223,
+        "endPtsExclusive": 24224,
+        "timeBase": "1/30",
+        "kind": "message_loading",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "レッドは オーキド はかせに",
+            "gridRect": [
+              1,
+              14,
+              15,
+              15
+            ],
+            "sourceRect": [
+              256,
+              304,
+              480,
+              336
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 3,
+                "gridRow": 13
+              },
+              {
+                "kind": "dakuten",
+                "gridColumn": 9,
+                "gridRow": 13
+              }
+            ]
+          },
+          {
+            "id": "message-bottom",
+            "role": "dialogue",
+            "readingOrder": 1,
+            "text": "とどけも",
+            "gridRect": [
+              1,
+              16,
+              5,
+              17
+            ],
+            "sourceRect": [
+              256,
+              336,
+              320,
+              368
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 2,
+                "gridRow": 15
+              }
+            ]
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "reports/m3-grid-refinement-v1/oak-boundary-notes-v1/oak-delivery-pass2.json",
+          "originalFrames": "data\\frames\\video-01\\oak-delivery-boundary-pass2-v1",
+          "humanPerFrameVerification": "not claimed",
+          "outputIndependence": "Full original-frame double reread with GT/actual closed; prior diagnostic exposure disclosed; same agent, not independent acceptance."
+        }
+      },
+      "characterDelta": -1
+    }
+  ],
+  "limitations": [
+    {
+      "mediaId": "video-04",
+      "impact": "整个背包退出事件不冻结/不宣称通过；该原帧保留，不能计作空文字成功",
+      "uncertainFrames": [
+        5359
+      ],
+      "checks": [
+        "首遍原上下文逐帧及直接放大",
+        "第二次原视频重解码及原像素光标条带",
+        "再次查看5358-5362独立原图，仍不能可靠区分被遮基础字形"
+      ],
+      "source": "data/frames/video-04/all-scenes-backpack-pass2-v1",
+      "layout": "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/layout-v1.json",
+      "id": "backpack-exit-occluded",
+      "status": "pending_not_proposed_for_freeze",
+      "range": [
+        5358,
+        5363
+      ],
+      "reason": "5359退出重绘时玩家精灵遮住やめる末字基础字形，残余道具行也被背景/菜单改写；仅凭5358前帧和5360后帧不能恢复当帧答案"
+    },
+    {
+      "id": "versions-and-sessions",
+      "status": "pending",
+      "reason": "只有video01 HOME红版图标有版本证据；其余版本/来源关系与独立会话无法证实，全部候选development，独立acceptance集合为空；M4继续待验证，不要求补录"
+    },
+    {
+      "id": "unselected-source",
+      "status": "unverified",
+      "reason": "未选原帧范围按四录像总账本补集逐段列出；候选通过不等于整个录像、版本或游戏通过"
+    },
+    {
+      "id": "real-window-and-ui",
+      "status": "pending",
+      "reason": "真实投屏前台/后台/遮挡/最小化/无效帧、Windows10兼容、实际UI延迟和长时稳定性尚无实测证据"
+    },
+    {
+      "id": "review-browser-render",
+      "status": "pending",
+      "reason": "内置浏览器曾明确拒绝file协议且禁止绕过；本包仅做静态/控件检查，实际浏览器呈现未验证，请直接在本机打开入口文件"
+    },
+    {
+      "id": "status-alt-3541-mark",
+      "status": "pending_semantic_confirmation",
+      "mediaId": "video-03",
+      "frames": [
+        3541
+      ],
+      "reason": "Incomplete upper mark remains unresolved after both new original-image readings. Existing historical annotation remains in the denominator. No newly frozen conclusion or pass is granted for this frame."
+    },
+    {
+      "id": "remaining-annotation-audit",
+      "status": "pending",
+      "reason": "Other previously recorded field-role/order/Unicode and raw-image doubts are unchanged, not resolved by these six corrections. Complete dataset semantic integrity and OCR gates remain unpassed."
+    }
+  ],
+  "sameAgentNotIndependentSession": true
+}

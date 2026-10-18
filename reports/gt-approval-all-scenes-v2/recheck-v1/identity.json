@@ -1,0 +1,2398 @@
+{
+  "status": "approved_version_identity_and_integrity_rechecked",
+  "approval": {
+    "path": "reports/gt-approval-all-scenes-v2/approval.json",
+    "sha256": "6d4a9fe36eb33edbb67e77c58e64fd2116f2cb54307aa649d9b38e3a5820dc42",
+    "bytes": 824
+  },
+  "bundle": {
+    "path": "reports/gt-review/gt-all-scenes-v2/bundle-manifest.json",
+    "sha256": "e51b7d9ebccae9e784f0b60a4a73a352b164e0d9807bd068afb2aad7c54b2dd3",
+    "bytes": 1332808
+  },
+  "filesChecked": 7636,
+  "media": [
+    {
+      "id": "video-01",
+      "path": "testpic/video/2026-10-11 22-34-17.mp4",
+      "sha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+      "bytes": 751818349,
+      "timeBase": "1/30",
+      "frameCount": 29346,
+      "durationSeconds": "978.200000",
+      "anomalousFrames": 0,
+      "gameVersion": "unverified",
+      "session": "unverified",
+      "decoder": {
+        "ffmpegSha256": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e",
+        "ffprobeSha256": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07",
+        "rgbFormat": "rgb24; row-major; top-to-bottom; R,G,B; untransformed orientation",
+        "filter": "scale=in_color_matrix=bt709:in_range=tv:out_range=full:flags=bilinear+accurate_rnd+bitexact,format=rgb24"
+      },
+      "framesSha256": "2b3429e2dc53f20924bc2f2f5a6b1a6be1e5f31e4ea6fe89725b17a46ebd77f6",
+      "probeSha256": "342dfbe47e815e7fac081320b1b2e57f5458fa92b92b3940ce967216f38dfb92"
+    },
+    {
+      "id": "video-02",
+      "path": "testpic/video/4a6e01eb2ea34cdbfdba41e9b4db6a88.mp4",
+      "sha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+      "bytes": 16579532,
+      "timeBase": "1/12288",
+      "frameCount": 7964,
+      "durationSeconds": "331.833333",
+      "anomalousFrames": 0,
+      "gameVersion": "unverified",
+      "session": "unverified",
+      "decoder": {
+        "ffmpegSha256": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e",
+        "ffprobeSha256": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07",
+        "rgbFormat": "rgb24; row-major; top-to-bottom; R,G,B; untransformed orientation",
+        "filter": "scale=in_color_matrix=bt709:in_range=tv:out_range=full:flags=bilinear+accurate_rnd+bitexact,format=rgb24"
+      },
+      "framesSha256": "227125110fb04a576288c5a33b71ebb56083c815f96707f5366acf9fb968e555",
+      "probeSha256": "9cbc5ee3dcbffb0b7b71f91ac96e5d4f6f2faa51052af76520843af1df355847"
+    },
+    {
+      "id": "video-03",
+      "path": "testpic/video/5b34074da5f0cd90a956a4178d77b637.mp4",
+      "sha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+      "bytes": 16812110,
+      "timeBase": "1/12288",
+      "frameCount": 7402,
+      "durationSeconds": "308.416667",
+      "anomalousFrames": 0,
+      "gameVersion": "unverified",
+      "session": "unverified",
+      "decoder": {
+        "ffmpegSha256": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e",
+        "ffprobeSha256": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07",
+        "rgbFormat": "rgb24; row-major; top-to-bottom; R,G,B; untransformed orientation",
+        "filter": "scale=in_color_matrix=bt709:in_range=tv:out_range=full:flags=bilinear+accurate_rnd+bitexact,format=rgb24"
+      },
+      "framesSha256": "e1152ec7214ccd1fab0eeb73a041b36a0b113128ead765f2eac4035c18dc33e9",
+      "probeSha256": "b6a821f7fcebd6b7b475df828c9ee6a11d6ca41ffdc7e163ef3f4fc48f2d267a"
+    },
+    {
+      "id": "video-04",
+      "path": "testpic/video/cd87cd5a156ef5cf5d64a43a1e6600fd.mp4",
+      "sha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+      "bytes": 40239837,
+      "timeBase": "1/19456",
+      "frameCount": 22058,
+      "durationSeconds": "1160.947368",
+      "anomalousFrames": 0,
+      "gameVersion": "unverified",
+      "session": "unverified",
+      "decoder": {
+        "ffmpegSha256": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e",
+        "ffprobeSha256": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07",
+        "rgbFormat": "rgb24; row-major; top-to-bottom; R,G,B; untransformed orientation",
+        "filter": "scale=in_color_matrix=bt709:in_range=tv:out_range=full:flags=bilinear+accurate_rnd+bitexact,format=rgb24"
+      },
+      "framesSha256": "8fc167297316537ec5641f4edde9bcae8edcbf7565fdf33bb6c6bbf3e95fa54e",
+      "probeSha256": "194eebac2d1d56736b25208d32ee916fc61da85238654137558906c7e8563e7a"
+    }
+  ],
+  "items": [
+    {
+      "id": "startup-nontarget",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/startup-nontarget/ocr-candidate-v1.jsonl",
+          "bundleFile": "startup-nontarget/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "96c6896c8aadd805ee8041a49c29908addd2075ea860e5cfa0a372f5e9aa26f4",
+          "bytes": 6307
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-startup-nontarget-clip-v1.json",
+          "bundleFile": "startup-nontarget/annotations/all-scenes-startup-nontarget-clip-v1.json",
+          "sha256": "b26183d40cf2a69d4a666089afef0d6554afe05033be66a677f9ecd36a69d677",
+          "bytes": 1064
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/startup-nontarget/layout-v1.json",
+          "bundleFile": "startup-nontarget/annotations/layout-v1.json",
+          "sha256": "6168dc8bcaf42a8ca2a95582d83812222a710b829979af35ae83e5eead966339",
+          "bytes": 287
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "startup-nontarget/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/startup-nontarget-integrity.json",
+        "sha256": "7a9f8a7e2b0314485f175566e3a5655cbe3bf522708525dac1f77a231365b9fe",
+        "bytes": 1054
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-startup-nontarget-clip-v1.json",
+        "data/gt/candidates/ocr-all-scenes-v1/startup-nontarget/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/startup-nontarget/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\startup-nontarget-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "exploration-npc",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/exploration-npc/ocr-candidate-v1.jsonl",
+          "bundleFile": "exploration-npc/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "d4f28d7c291633e2018531ed2b04d6bc0db9cd6dbbb15d6907fda80d2903cd56",
+          "bytes": 17773
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-exploration-npc-clip-v1.json",
+          "bundleFile": "exploration-npc/annotations/all-scenes-exploration-npc-clip-v1.json",
+          "sha256": "3e88333c58ffc7fc8f692d877c3a9c215d05f2099074aaee02cf5aef9c4e486f",
+          "bytes": 1216
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/exploration-npc/layout-v1.json",
+          "bundleFile": "exploration-npc/annotations/layout-v1.json",
+          "sha256": "2c3d01e5af49c34cbcac4ff2d9115dacfba12959b794bb6ad975c131b8f5117a",
+          "bytes": 415
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "exploration-npc/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/exploration-npc-integrity.json",
+        "sha256": "ddf8a0d59dd302d31e346e91e1672e6b025f7b43e44854b0dbba78dfb7912be2",
+        "bytes": 1316
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-exploration-npc-clip-v1.json",
+        "data/gt/candidates/ocr-all-scenes-v1/exploration-npc/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/exploration-npc/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\exploration-npc-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "battle-result",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/battle-result/ocr-candidate-v1.jsonl",
+          "bundleFile": "battle-result/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "8d2c1d32849df442e3c38294a3a93cd3e8d87fbbf1be1fcfc2514415b5020157",
+          "bytes": 53537
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-battle-result-clip-v1.json",
+          "bundleFile": "battle-result/annotations/all-scenes-battle-result-clip-v1.json",
+          "sha256": "85eb2ad872d11e3fb7037dea800147b3ff2fba425cca9ca274f906fb5dec4aca",
+          "bytes": 1170
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/battle-result/layout-v1.json",
+          "bundleFile": "battle-result/annotations/layout-v1.json",
+          "sha256": "5c87608dfd5f564fffbab7cd16d29f35698eecfc8281cd39ff8c2ed8ae292c68",
+          "bytes": 414
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "battle-result/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/battle-result-integrity.json",
+        "sha256": "874c195ceb65034b623b1dabb90d26ced95cea84ccfa4bc4d1f9c34734a6d2dc",
+        "bytes": 1370
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-battle-result-clip-v1.json",
+        "data/gt/candidates/ocr-all-scenes-v1/battle-result/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/battle-result/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\battle-result-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "status-pages",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/status-pages/ocr-candidate-v1.jsonl",
+          "bundleFile": "status-pages/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "cdfc263ad361fb0db955c3f9275f9bbfdac232b18340fd0e71a075a7799d61c9",
+          "bytes": 23540
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-status-pages-clip-v1.json",
+          "bundleFile": "status-pages/annotations/all-scenes-status-pages-clip-v1.json",
+          "sha256": "d748ea18e108b4e1078cd91e75629ab236d20ee252fa9e777bf0eccd17fb6a50",
+          "bytes": 1221
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/status-pages/layout-v1.json",
+          "bundleFile": "status-pages/annotations/layout-v1.json",
+          "sha256": "539e10e32a15ce2b115047bcd86adea3949aad559781807ab18ef812c25fe1d7",
+          "bytes": 431
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "status-pages/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/status-pages-integrity.json",
+        "sha256": "dd547ea41165687651e0731a16b4bb76361bd7d999015968a193d88d824c4fbc",
+        "bytes": 982
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-status-pages-clip-v1.json",
+        "data/gt/candidates/ocr-all-scenes-v1/status-pages/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/status-pages/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\status-pages-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "pc-deposit-navigation",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/pc-deposit-navigation/ocr-candidate-v3.jsonl",
+          "bundleFile": "pc-deposit-navigation/annotations/ocr-candidate-v3.jsonl",
+          "sha256": "9c47b795bbcc581f24875e46618328999f3316aa5f0ea59a53bca1b15d58e356",
+          "bytes": 89981
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-pc-deposit-navigation-clip-v3.json",
+          "bundleFile": "pc-deposit-navigation/annotations/all-scenes-pc-deposit-navigation-clip-v3.json",
+          "sha256": "ac724207d567d698305f526c45ef60ab397611235e408977b98aea61c5c40aa0",
+          "bytes": 1231
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/pc-deposit-navigation/layout-v2.json",
+          "bundleFile": "pc-deposit-navigation/annotations/layout-v2.json",
+          "sha256": "ddbc5611922b831203d036345237316a8b6b67b3f0a07dc8dfcbad21b7588fa4",
+          "bytes": 422
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "pc-deposit-navigation/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/pc-deposit-navigation-integrity.json",
+        "sha256": "467f5a1a88cf0e31f9fded60049975f5a0c65dc80b32bbc7302cd8a5c9062802",
+        "bytes": 1726
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-pc-deposit-navigation-clip-v3.json",
+        "data/gt/candidates/ocr-all-scenes-v1/pc-deposit-navigation/ocr-candidate-v3.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/pc-deposit-navigation/layout-v2.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\pc-deposit-navigation-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "pc-exit",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/pc-exit/ocr-candidate-v1.jsonl",
+          "bundleFile": "pc-exit/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "2971936b34856a36608135879a00b10eb11bb0f46ceaabbd0f93e0f659b77c37",
+          "bytes": 2702
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-pc-exit-clip-v2.json",
+          "bundleFile": "pc-exit/annotations/all-scenes-pc-exit-clip-v2.json",
+          "sha256": "dfeb5c9a32dc9ec3ab54209c1c61b76f594d72677cb2059580286bb3aa7762a6",
+          "bytes": 985
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/pc-exit/layout-v1.json",
+          "bundleFile": "pc-exit/annotations/layout-v1.json",
+          "sha256": "52540d5a4b4b3ac38a40dbaf5ab837c3db77c5913fb86399c3d821a49994a30d",
+          "bytes": 442
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "pc-exit/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/pc-exit-integrity.json",
+        "sha256": "bf37ccdcaddbe98d83ec631bc6b70fd2fd33f33022eef0c24349c04c660828fb",
+        "bytes": 909
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-pc-exit-clip-v2.json",
+        "data/gt/candidates/ocr-all-scenes-v1/pc-exit/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/pc-exit/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\pc-exit-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "status-alt-pages",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/status-alt-pages/ocr-candidate-v1.jsonl",
+          "bundleFile": "status-alt-pages/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "021fd43307990be1c54539071b9dd4f93761fb35929d14009bc194170e798f4e",
+          "bytes": 23241
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-status-alt-pages-clip-v1.json",
+          "bundleFile": "status-alt-pages/annotations/all-scenes-status-alt-pages-clip-v1.json",
+          "sha256": "c2583b1029c6e103c137d641a57edfdd620771f59e6034a3f0c9a10defcbb00a",
+          "bytes": 1227
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/status-alt-pages/layout-v1.json",
+          "bundleFile": "status-alt-pages/annotations/layout-v1.json",
+          "sha256": "39edcba44ba47f389895cdd096238547aa4dfa744988a1464c10230326f5080c",
+          "bytes": 499
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "status-alt-pages/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/status-alt-pages-integrity.json",
+        "sha256": "1dfeb78c6bf3769dbd5a6b6b528f216aa97b88c5d1fd542d52e65fb6a02a3a93",
+        "bytes": 993
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-status-alt-pages-clip-v1.json",
+        "data/gt/candidates/ocr-all-scenes-v1/status-alt-pages/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/status-alt-pages/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\status-alt-pages-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "party-list",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/party-list/ocr-candidate-v1.jsonl",
+          "bundleFile": "party-list/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "1fd0f395a594414645c548c6c5f7a2bb416fd350ac131df8fc7a81ac8474c897",
+          "bytes": 28506
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-party-list-clip-v2.json",
+          "bundleFile": "party-list/annotations/all-scenes-party-list-clip-v2.json",
+          "sha256": "a8566df2115c30c8833c2edd5f80cdc838af2af770f61945fb647789112ad531",
+          "bytes": 1158
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/party-list/layout-v1.json",
+          "bundleFile": "party-list/annotations/layout-v1.json",
+          "sha256": "61fc0ecdca44ae062bea433528a6e5472b20cc380e57def01419a85d53d01641",
+          "bytes": 497
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "party-list/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/party-list-integrity.json",
+        "sha256": "21114c6a775bcd00ea924e423cd5b09e503e84388d2980ac4429025921a15355",
+        "bytes": 991
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-party-list-clip-v2.json",
+        "data/gt/candidates/ocr-all-scenes-v1/party-list/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/party-list/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\party-list-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "shop-buy-navigation",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/shop-buy-navigation/ocr-candidate-v1.jsonl",
+          "bundleFile": "shop-buy-navigation/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "bceb6945558436080011f08f61928bf170c35294ed9d4615243a2b70f19a4256",
+          "bytes": 21771
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-shop-buy-navigation-clip-v2.json",
+          "bundleFile": "shop-buy-navigation/annotations/all-scenes-shop-buy-navigation-clip-v2.json",
+          "sha256": "09c9960058e013d33ec839a2dd5930a7d2108f060900cd0f11f93fdc2d791ab1",
+          "bytes": 1086
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/shop-buy-navigation/layout-v1.json",
+          "bundleFile": "shop-buy-navigation/annotations/layout-v1.json",
+          "sha256": "8dbe2bbfc6bf1d47995256ff4b1ea8a7e4f8d47088c02a9dd2c83bb82e686099",
+          "bytes": 461
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "shop-buy-navigation/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/shop-buy-navigation-integrity.json",
+        "sha256": "f7d402e71d25b839171db71bcd892f5412fa792ecad5dc8dd7091f0957fe6c85",
+        "bytes": 981
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-shop-buy-navigation-clip-v2.json",
+        "data/gt/candidates/ocr-all-scenes-v1/shop-buy-navigation/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/shop-buy-navigation/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\shop-buy-navigation-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "shop-sell-entry",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/shop-sell-entry/ocr-candidate-v1.jsonl",
+          "bundleFile": "shop-sell-entry/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "16fec5d23dd48b57daa2899e94733121e592feebd3930a5dcaa7513f4cdcadc7",
+          "bytes": 37466
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-shop-sell-entry-clip-v2.json",
+          "bundleFile": "shop-sell-entry/annotations/all-scenes-shop-sell-entry-clip-v2.json",
+          "sha256": "431953bfbe62656db4f3941603150bb21874b7fcca08ca9392b4a36a3c4adf52",
+          "bytes": 1121
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/shop-sell-entry/layout-v1.json",
+          "bundleFile": "shop-sell-entry/annotations/layout-v1.json",
+          "sha256": "8dbe2bbfc6bf1d47995256ff4b1ea8a7e4f8d47088c02a9dd2c83bb82e686099",
+          "bytes": 461
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "shop-sell-entry/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/shop-sell-entry-integrity.json",
+        "sha256": "a939f7d21453a15641f961ea13ed7a95a670a4d9f4ad8972686002897c457986",
+        "bytes": 1262
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-shop-sell-entry-clip-v2.json",
+        "data/gt/candidates/ocr-all-scenes-v1/shop-sell-entry/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/shop-sell-entry/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\shop-sell-entry-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "shop-rejection",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/shop-rejection/ocr-candidate-v1.jsonl",
+          "bundleFile": "shop-rejection/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "8227d847d2dfa1966fafc9a8b1a3199bee094dd4f5a1c9ad26ee62863bd903f7",
+          "bytes": 47929
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-shop-rejection-clip-v2.json",
+          "bundleFile": "shop-rejection/annotations/all-scenes-shop-rejection-clip-v2.json",
+          "sha256": "f279c5ba141851e88e46f9016e7a99ae39c669437132ff84ad258b5c4ce50d5a",
+          "bytes": 1120
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/shop-rejection/layout-v1.json",
+          "bundleFile": "shop-rejection/annotations/layout-v1.json",
+          "sha256": "8dbe2bbfc6bf1d47995256ff4b1ea8a7e4f8d47088c02a9dd2c83bb82e686099",
+          "bytes": 461
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "shop-rejection/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/shop-rejection-integrity.json",
+        "sha256": "23dae0840ff23fa7a8607173824e939411af85d9d9f71ea7b408a16c884c311d",
+        "bytes": 1262
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-shop-rejection-clip-v2.json",
+        "data/gt/candidates/ocr-all-scenes-v1/shop-rejection/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/shop-rejection/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\shop-rejection-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "backpack-opening",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/backpack-opening/ocr-candidate-v1.jsonl",
+          "bundleFile": "backpack-opening/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "80ab4a399b972b09955215636ef01793124767b29c2b1eb16b723ecdfc9c72e5",
+          "bytes": 16666
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-backpack-opening-clip-v2.json",
+          "bundleFile": "backpack-opening/annotations/all-scenes-backpack-opening-clip-v2.json",
+          "sha256": "ff8f144ebd1f130afb3ef1fd0e6c97fb5745d0ca9114e5441b4e6ae4a5f801ed",
+          "bytes": 1134
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/backpack-opening/layout-v1.json",
+          "bundleFile": "backpack-opening/annotations/layout-v1.json",
+          "sha256": "77652ae818669c79dd49a7c4504299fceaf21e9981faebd120a3676ee8a3eee6",
+          "bytes": 898
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "backpack-opening/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/backpack-opening-integrity.json",
+        "sha256": "5a6c20118eac32f90e0c33ee2f1979d5f1a7cb7d33baf6537e86c3991246ba7b",
+        "bytes": 1098
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-backpack-opening-clip-v2.json",
+        "data/gt/candidates/ocr-all-scenes-v1/backpack-opening/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/backpack-opening/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\backpack-opening-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "backpack-navigation",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/ocr-candidate-v2.jsonl",
+          "bundleFile": "backpack-navigation/annotations/ocr-candidate-v2.jsonl",
+          "sha256": "34ef0bd2d6220db5c454155b574ec7541d8ca692a1807d2ed91e0c173721334c",
+          "bytes": 106911
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-backpack-navigation-clip-v2.json",
+          "bundleFile": "backpack-navigation/annotations/all-scenes-backpack-navigation-clip-v2.json",
+          "sha256": "7d30d344d38606ceb97e39f16d730209636c5439f3f25ff439933b99f192bf0b",
+          "bytes": 1378
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/layout-v1.json",
+          "bundleFile": "backpack-navigation/annotations/layout-v1.json",
+          "sha256": "5edb74be55314433d00ff9d5279bbabd02f0631c175fe7a626c8e6c3d4a3440f",
+          "bytes": 900
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "backpack-navigation/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/backpack-navigation-integrity.json",
+        "sha256": "b358f19991406026d25d3919a360c602807ec8d876474a0cdd301a1d8444c5d4",
+        "bytes": 2131
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-backpack-navigation-clip-v2.json",
+        "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/ocr-candidate-v2.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\backpack-navigation-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "skills-turn",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/skills-turn/ocr-candidate-v2.jsonl",
+          "bundleFile": "skills-turn/annotations/ocr-candidate-v2.jsonl",
+          "sha256": "20d92c8959a41aa5e67ca59e094da0e3300ae3283fd1fdf698815a4e16728d5c",
+          "bytes": 179608
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-skills-turn-clip-v2.json",
+          "bundleFile": "skills-turn/annotations/all-scenes-skills-turn-clip-v2.json",
+          "sha256": "8565e3402776794fd23ab302b1d9fc8113d0afc8c7a6cfa9aaa7aec7f30977a4",
+          "bytes": 1239
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/skills-turn/layout-v1.json",
+          "bundleFile": "skills-turn/annotations/layout-v1.json",
+          "sha256": "8c30181bc8808098a54c569734c8b1008bb71158b8fb87c7b74dd4b3e0827515",
+          "bytes": 574
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "skills-turn/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/skills-turn-integrity.json",
+        "sha256": "708787ff0f88419d47cc82044429b32dfabe9225c224d0a305121811ffefb394",
+        "bytes": 1903
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-skills-turn-clip-v2.json",
+        "data/gt/candidates/ocr-all-scenes-v1/skills-turn/ocr-candidate-v2.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/skills-turn/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\skills-turn-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "shop-exit",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-expansion-v1/shop-exit/ocr-candidate-v2.jsonl",
+          "bundleFile": "shop-exit/annotations/ocr-candidate-v2.jsonl",
+          "sha256": "cb90c6276d9905227add176e828943ffd5874c5c8d5e15f14e9cfafe73f4db7f",
+          "bytes": 36760
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/expansion-shop-clip-v2.json",
+          "bundleFile": "shop-exit/annotations/expansion-shop-clip-v2.json",
+          "sha256": "5760d76623aa7d698bc3acf77999445b7d2651b80b56e703707140b7dc00e0f3",
+          "bytes": 1623
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-expansion-v1/shop-exit/layout-v2.json",
+          "bundleFile": "shop-exit/annotations/layout-v2.json",
+          "sha256": "aee32f21b67e47541a03c43ad863a12b4c79b05e871d27f7ce682f681826c366",
+          "bytes": 1129
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "shop-exit/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/shop-exit-integrity.json",
+        "sha256": "36968fa733666eff433dc89ad6b08753efc2898f1f39b3af6914fd8f6a2f34f4",
+        "bytes": 1380
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/expansion-shop-clip-v2.json",
+        "data/gt/candidates/ocr-expansion-v1/shop-exit/ocr-candidate-v2.jsonl",
+        "data/gt/candidates/ocr-expansion-v1/shop-exit/layout-v2.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\shop-exit-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "pc-connect",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-expansion-v1/pc-connect/ocr-candidate-v1.jsonl",
+          "bundleFile": "pc-connect/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "3b9da087f8807b7ad136942afd3e5d293d6f669ea828ecbe8a685669450df0eb",
+          "bytes": 22310
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/expansion-pc-clip-v1.json",
+          "bundleFile": "pc-connect/annotations/expansion-pc-clip-v1.json",
+          "sha256": "0a6005006657f212aa5da50c202f7ee30305a36b141c7df095fbd4f816aaf863",
+          "bytes": 1604
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-expansion-v1/pc-connect/layout-v1.json",
+          "bundleFile": "pc-connect/annotations/layout-v1.json",
+          "sha256": "0e36b60bf215eb24584920fab5f12a0f5a252de991c27423259330935311a8db",
+          "bytes": 903
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "pc-connect/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/pc-connect-integrity.json",
+        "sha256": "cc8d826a3102f1ea53fa6c77432df3a82ebd22d13d2b4e4d1e17812c7c24de7e",
+        "bytes": 1137
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/expansion-pc-clip-v1.json",
+        "data/gt/candidates/ocr-expansion-v1/pc-connect/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-expansion-v1/pc-connect/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\pc-connect-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "approved-trial",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-trial-v2/ocr-candidate-v2.jsonl",
+          "bundleFile": "approved-trial/annotations/ocr-candidate-v2.jsonl",
+          "sha256": "30d240232e03eaca07eeebe9502a56689e41bf223faa59c665c4e638a154de25",
+          "bytes": 18532
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-trial-v2/clip-trial-v2.json",
+          "bundleFile": "approved-trial/annotations/clip-trial-v2.json",
+          "sha256": "a44fa579bf3699bca4b8edd654c2e1300507cd15002cc74bc34e7f8e314bd912",
+          "bytes": 1490
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-trial-v2/layout-v2.json",
+          "bundleFile": "approved-trial/annotations/layout-v2.json",
+          "sha256": "f004f9fdb59681ef99f116593ad5a82b716380125487b7cf66b639ddfb00adf0",
+          "bytes": 998
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-trial-v2/ocr-scoring-contract-v1.json",
+          "bundleFile": "approved-trial/annotations/ocr-scoring-contract-v1.json",
+          "sha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c",
+          "bytes": 3718
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/approved-trial-integrity.json",
+        "sha256": "b966caa4d80bc9e291d3574ad1935477523393f5b067b3641b5d64d96a4108ae",
+        "bytes": 1244
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/gt/frozen/ocr-trial-v2/clip-trial-v2.json",
+        "data/gt/frozen/ocr-trial-v2/ocr-candidate-v2.jsonl",
+        "data/gt/frozen/ocr-trial-v2/layout-v2.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\approved-trial-integrity.json"
+      ],
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-trial-v2/freeze.json",
+        "sha256": "6fec19a0b95ed402e1b35f79eed837d802009ad874501e85adf2c9fbb965cd54",
+        "bytes": 3101
+      }
+    },
+    {
+      "id": "bill-data-npc",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/bill-data-npc/ocr-candidate-v1.jsonl",
+          "bundleFile": "bill-data-npc/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "bf7c51523e8cb289cda981028fe23631d4aae6c2457714fbe51867111dee607e",
+          "bytes": 26824
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-bill-data-npc-clip-v1.json",
+          "bundleFile": "bill-data-npc/annotations/dialogue-bill-data-npc-clip-v1.json",
+          "sha256": "3801ff86a21be84c4751d2223a3fbd9bc2786907fb238f680bbcc5747b8390a9",
+          "bytes": 1251
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/bill-data-npc/layout-v1.json",
+          "bundleFile": "bill-data-npc/annotations/layout-v1.json",
+          "sha256": "9f84c917f7c975617bce4a989a68d38c9187fede681db5524a84fe878bfa1244",
+          "bytes": 517
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "bill-data-npc/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/bill-data-npc-integrity.json",
+        "sha256": "ae3fbebc684466f141aab203cd81756595ba95086b5091e69730e4cbe74cfd56",
+        "bytes": 1506
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-bill-data-npc-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/bill-data-npc/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/bill-data-npc/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\bill-data-npc-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "bill-grandfather",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/bill-grandfather/ocr-candidate-v1.jsonl",
+          "bundleFile": "bill-grandfather/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "5362eadf83cc85226ea42d979154c7456bcbd45594c18a4b905d2928bc74b0a5",
+          "bytes": 34536
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-bill-grandfather-clip-v1.json",
+          "bundleFile": "bill-grandfather/annotations/dialogue-bill-grandfather-clip-v1.json",
+          "sha256": "d309c276dfb10e07a11877ac56c1b85430143f7739ffa05037c83de84d5ff9d6",
+          "bytes": 1258
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/bill-grandfather/layout-v1.json",
+          "bundleFile": "bill-grandfather/annotations/layout-v1.json",
+          "sha256": "9f84c917f7c975617bce4a989a68d38c9187fede681db5524a84fe878bfa1244",
+          "bytes": 517
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "bill-grandfather/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/bill-grandfather-integrity.json",
+        "sha256": "7b65776834b421cab4d7471c0bdceed8e3743302477404ae08274e221348259a",
+        "bytes": 1776
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-bill-grandfather-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/bill-grandfather/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/bill-grandfather/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\bill-grandfather-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "gym-sign-continuation",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/gym-sign-continuation/ocr-candidate-v1.jsonl",
+          "bundleFile": "gym-sign-continuation/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "e24d2223b62f398e7a579a2aa63bcfb43c93ca12a9d8c0d2dbc77be535898bfd",
+          "bytes": 5290
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-gym-sign-continuation-clip-v1.json",
+          "bundleFile": "gym-sign-continuation/annotations/dialogue-gym-sign-continuation-clip-v1.json",
+          "sha256": "b010a13b169ea4fb8c89b3f69f6195e99e958b6bf40ea4bd9ca8edacdcbfa361",
+          "bytes": 1289
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/gym-sign-continuation/layout-v1.json",
+          "bundleFile": "gym-sign-continuation/annotations/layout-v1.json",
+          "sha256": "9f84c917f7c975617bce4a989a68d38c9187fede681db5524a84fe878bfa1244",
+          "bytes": 517
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "gym-sign-continuation/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/gym-sign-continuation-integrity.json",
+        "sha256": "cb9b8eec85d45d884a75d44ad54923f046740e2d350acd5660af48821e2d1bd6",
+        "bytes": 990
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-gym-sign-continuation-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/gym-sign-continuation/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/gym-sign-continuation/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\gym-sign-continuation-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "intro-creatures",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-creatures/ocr-candidate-v1.jsonl",
+          "bundleFile": "intro-creatures/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "34c2ba7dd81354736156368f36ed6a4934b951300e8bb97219ac526a8e15729b",
+          "bytes": 22256
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-intro-creatures-clip-v1.json",
+          "bundleFile": "intro-creatures/annotations/dialogue-intro-creatures-clip-v1.json",
+          "sha256": "c30de703b35a77ff9726d7b37cbaa51be944f17023875431e65e7d3f9b87e406",
+          "bytes": 1250
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-creatures/layout-v1.json",
+          "bundleFile": "intro-creatures/annotations/layout-v1.json",
+          "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858",
+          "bytes": 464
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "intro-creatures/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/intro-creatures-integrity.json",
+        "sha256": "0f0907a5429799eb82d4b2060a0498be8777c9ae45d44d3e2777b833ef5b599f",
+        "bytes": 1451
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-intro-creatures-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/intro-creatures/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/intro-creatures/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\intro-creatures-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "intro-greeting",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-greeting/ocr-candidate-v1.jsonl",
+          "bundleFile": "intro-greeting/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "5d408e825e3d5f3d67669ce715016c7600551f7aaa9ac275754e303ab23b4eba",
+          "bytes": 20636
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-intro-greeting-clip-v1.json",
+          "bundleFile": "intro-greeting/annotations/dialogue-intro-greeting-clip-v1.json",
+          "sha256": "6a7ffb655ff484bb287a2e02ab01fb4e534088bd3e7d9677b42e88d02b48ee0a",
+          "bytes": 1242
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-greeting/layout-v1.json",
+          "bundleFile": "intro-greeting/annotations/layout-v1.json",
+          "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858",
+          "bytes": 464
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "intro-greeting/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/intro-greeting-integrity.json",
+        "sha256": "45e8f22c01928fd3a15894cdce0dca0d8273dd871640f3428f4aed0ef5a3e40c",
+        "bytes": 1371
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-intro-greeting-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/intro-greeting/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/intro-greeting/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\intro-greeting-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "intro-oak",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-oak/ocr-candidate-v1.jsonl",
+          "bundleFile": "intro-oak/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "c7f2ece52b0fbb50f5444dd449f78a488766b808be24c1259ba3f84f10fe3ea7",
+          "bytes": 22539
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-intro-oak-clip-v1.json",
+          "bundleFile": "intro-oak/annotations/dialogue-intro-oak-clip-v1.json",
+          "sha256": "78db1e9d9851768aed130cadb699cc3b7ee7efef10e182fc045949bf3ca27da8",
+          "bytes": 1235
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-oak/layout-v1.json",
+          "bundleFile": "intro-oak/annotations/layout-v1.json",
+          "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858",
+          "bytes": 464
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "intro-oak/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/intro-oak-integrity.json",
+        "sha256": "8ef8721584db3d21485c7e759d76218a3c3d89307039f87354713d50049e745d",
+        "bytes": 1423
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-intro-oak-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/intro-oak/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/intro-oak/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\intro-oak-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "intro-pets",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-pets/ocr-candidate-v1.jsonl",
+          "bundleFile": "intro-pets/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "8b753eb1023522ab7ff4c34642873a58122b79de453f4d840d6803dba97a6e50",
+          "bytes": 21249
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-intro-pets-clip-v1.json",
+          "bundleFile": "intro-pets/annotations/dialogue-intro-pets-clip-v1.json",
+          "sha256": "baafe94468161862c0a2bb7e8eebe2211ddc77dc92b7b68b14a9f058551f9131",
+          "bytes": 1237
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-pets/layout-v1.json",
+          "bundleFile": "intro-pets/annotations/layout-v1.json",
+          "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858",
+          "bytes": 464
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "intro-pets/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/intro-pets-integrity.json",
+        "sha256": "d6a00ffc454c4280e3ff6b16b6c4011453ceeae07e19f667992f89ef6fe0b357",
+        "bytes": 1397
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-intro-pets-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/intro-pets/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/intro-pets/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\intro-pets-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "intro-research",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-research/ocr-candidate-v1.jsonl",
+          "bundleFile": "intro-research/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "34b73d6417d53798504ca1bf4f0ab523a090f83aa5c44705dcc8618180b4d75e",
+          "bytes": 19126
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-intro-research-clip-v1.json",
+          "bundleFile": "intro-research/annotations/dialogue-intro-research-clip-v1.json",
+          "sha256": "4eedbe9a3979d53e5279fe447e0ed21d8eef919a9fdd79023e5cc3596938535f",
+          "bytes": 1239
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-research/layout-v1.json",
+          "bundleFile": "intro-research/annotations/layout-v1.json",
+          "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858",
+          "bytes": 464
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "intro-research/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/intro-research-integrity.json",
+        "sha256": "b2963e3c94eda752816a2e6efd07b2f68ad9565253042a5b1b8e0d590d1413f4",
+        "bytes": 1370
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-intro-research-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/intro-research/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/intro-research/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\intro-research-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "lab-oak-reply",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/lab-oak-reply/ocr-candidate-v1.jsonl",
+          "bundleFile": "lab-oak-reply/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "b5c4f4f3f73724c47052ad93320414503d3126de7e329929dea1f592d43c4a5f",
+          "bytes": 18725
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-lab-oak-reply-clip-v1.json",
+          "bundleFile": "lab-oak-reply/annotations/dialogue-lab-oak-reply-clip-v1.json",
+          "sha256": "d218e477980dab3be55ea8d40805192e32f71c5c5c84af8050e55c4ebbfe7b42",
+          "bytes": 1256
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/lab-oak-reply/layout-v1.json",
+          "bundleFile": "lab-oak-reply/annotations/layout-v1.json",
+          "sha256": "42e9356b95e3fdb2a18e373280354041383a0e4e2264d990cee1813f50bcadaa",
+          "bytes": 518
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "lab-oak-reply/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/lab-oak-reply-integrity.json",
+        "sha256": "9074d4c2f21cfcc00875eb1286d6969b5d96130efa4527853dc99ebfdc8c8f24",
+        "bytes": 1379
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-lab-oak-reply-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/lab-oak-reply/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/lab-oak-reply/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\lab-oak-reply-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "lab-rival-demand",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/lab-rival-demand/ocr-candidate-v1.jsonl",
+          "bundleFile": "lab-rival-demand/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "e9c6db05f6e2bc4dab57acd812b965225cc05961d110b45154f9a1a5d5e02d51",
+          "bytes": 13550
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-lab-rival-demand-clip-v1.json",
+          "bundleFile": "lab-rival-demand/annotations/dialogue-lab-rival-demand-clip-v1.json",
+          "sha256": "e325da354939037ecf4e1f763d7b7a8e0461a4ae6b0e3490504e00a50d9d192f",
+          "bytes": 1262
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/lab-rival-demand/layout-v1.json",
+          "bundleFile": "lab-rival-demand/annotations/layout-v1.json",
+          "sha256": "42e9356b95e3fdb2a18e373280354041383a0e4e2264d990cee1813f50bcadaa",
+          "bytes": 518
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "lab-rival-demand/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/lab-rival-demand-integrity.json",
+        "sha256": "37e5815a0b79f887b6a0d704c2e114b508f40d0da70c94c7228a948b13945920",
+        "bytes": 1233
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-lab-rival-demand-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/lab-rival-demand/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/lab-rival-demand/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\lab-rival-demand-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "league-centre-npc",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/league-centre-npc/ocr-candidate-v1.jsonl",
+          "bundleFile": "league-centre-npc/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "78a4a387496fc7eae9f74432290d9d69169f1bcd86d5995828cce44658cb6b2d",
+          "bytes": 34159
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-league-centre-npc-clip-v1.json",
+          "bundleFile": "league-centre-npc/annotations/dialogue-league-centre-npc-clip-v1.json",
+          "sha256": "0295739f20d48ea0b1c006cc43d9880e54ee4c0638e02139c44a7e9d2f88f3c1",
+          "bytes": 1260
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/league-centre-npc/layout-v1.json",
+          "bundleFile": "league-centre-npc/annotations/layout-v1.json",
+          "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076",
+          "bytes": 581
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "league-centre-npc/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/league-centre-npc-integrity.json",
+        "sha256": "35e7ff92ce5149897567d64fb580d71370a2dc6ab0a760d8cdc212199f9df230",
+        "bytes": 1695
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-league-centre-npc-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/league-centre-npc/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/league-centre-npc/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\league-centre-npc-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "mart-child",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/mart-child/ocr-candidate-v1.jsonl",
+          "bundleFile": "mart-child/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "577cb8c7d48dc6c230833564d2a148362c1d550dafb5df23d5eec48fd89a061b",
+          "bytes": 12384
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-mart-child-clip-v1.json",
+          "bundleFile": "mart-child/annotations/dialogue-mart-child-clip-v1.json",
+          "sha256": "d814171da846c3994e8992ad16113976bc7c13c2f57ff821a607e75f30aa06c0",
+          "bytes": 1233
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/mart-child/layout-v1.json",
+          "bundleFile": "mart-child/annotations/layout-v1.json",
+          "sha256": "5f3fa2183b73a7b01ee8bf2fd7428f26b28921f5a5f64e8b03ff23092ae7890e",
+          "bytes": 584
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "mart-child/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/mart-child-integrity.json",
+        "sha256": "28fd5dbe5b5000493e3392475260b17466ba4f9a8523fe63f1f103f9a7f9b5ae",
+        "bytes": 1156
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-mart-child-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/mart-child/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/mart-child/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\mart-child-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "museum-fee",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/museum-fee/ocr-candidate-v1.jsonl",
+          "bundleFile": "museum-fee/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "3dd74ee46b73f0cf5a6fa8a203ff67f53020754a79be34ac9741dfe9609041fb",
+          "bytes": 29255
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-museum-fee-clip-v1.json",
+          "bundleFile": "museum-fee/annotations/dialogue-museum-fee-clip-v1.json",
+          "sha256": "ff789bbfabcae1a24063bf3b69f2d2e430ec5704e07031ff1b7f02079ebae087",
+          "bytes": 1246
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/museum-fee/layout-v1.json",
+          "bundleFile": "museum-fee/annotations/layout-v1.json",
+          "sha256": "992b75c740dbf05fd1ff54a943e5c3aa3edd092ffc59c13143267f5d54aa9588",
+          "bytes": 520
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "museum-fee/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/museum-fee-integrity.json",
+        "sha256": "d4a03723a12a66edbbfbf8d5d80aa43fc0498586f60e27a169f1edaf9752d382",
+        "bytes": 1560
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-museum-fee-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/museum-fee/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/museum-fee/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\museum-fee-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "museum-question",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/museum-question/ocr-candidate-v1.jsonl",
+          "bundleFile": "museum-question/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "b6d476e2cdadefd8a035fff77889875d4dca5c975e82db7f523ed1575c8da433",
+          "bytes": 25023
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-museum-question-clip-v1.json",
+          "bundleFile": "museum-question/annotations/dialogue-museum-question-clip-v1.json",
+          "sha256": "947f8ee67288bb415c9500cfa2cb71257133e78cccc24d9e0180b23af2a24c70",
+          "bytes": 1259
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/museum-question/layout-v1.json",
+          "bundleFile": "museum-question/annotations/layout-v1.json",
+          "sha256": "992b75c740dbf05fd1ff54a943e5c3aa3edd092ffc59c13143267f5d54aa9588",
+          "bytes": 520
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "museum-question/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/museum-question-integrity.json",
+        "sha256": "39b1800af8e0c82049f87d75827cc9f6106e6f5dcc8b91320e0fb10e1c867b42",
+        "bytes": 1479
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-museum-question-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/museum-question/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/museum-question/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\museum-question-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "nurse-greeting",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/nurse-greeting/ocr-candidate-v1.jsonl",
+          "bundleFile": "nurse-greeting/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "9d69ff1b1255f20d9850696b9c967b000a4a624386947d2dcde56550a08de848",
+          "bytes": 23268
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-nurse-greeting-clip-v1.json",
+          "bundleFile": "nurse-greeting/annotations/dialogue-nurse-greeting-clip-v1.json",
+          "sha256": "f64c2e8146184ec22d955edb26b8ac29d8271e8233c3ff3eb5b150d095da2b8f",
+          "bytes": 1263
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/nurse-greeting/layout-v1.json",
+          "bundleFile": "nurse-greeting/annotations/layout-v1.json",
+          "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076",
+          "bytes": 581
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "nurse-greeting/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/nurse-greeting-integrity.json",
+        "sha256": "3f944dc10121eec59f9ce36298e69c9d663aa121fe31a706d4bbabc8ac5bcd04",
+        "bytes": 1451
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-nurse-greeting-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/nurse-greeting/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/nurse-greeting/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\nurse-greeting-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "nurse-intake",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/nurse-intake/ocr-candidate-v1.jsonl",
+          "bundleFile": "nurse-intake/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "a85f23d226af9aaa9fb5c587b8998d37860659cd519deef6f213a63604a9555f",
+          "bytes": 8317
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-nurse-intake-clip-v1.json",
+          "bundleFile": "nurse-intake/annotations/dialogue-nurse-intake-clip-v1.json",
+          "sha256": "9a0c7e312ecbaf424ba78f1ee6d3d906c979eb5bc6c969fdfff1766d0be3c512",
+          "bytes": 1250
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/nurse-intake/layout-v1.json",
+          "bundleFile": "nurse-intake/annotations/layout-v1.json",
+          "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076",
+          "bytes": 581
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "nurse-intake/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/nurse-intake-integrity.json",
+        "sha256": "d767de691b0d4272a037992c82535abc5cd7f5a2624ef57750feb0b91428cebc",
+        "bytes": 1073
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-nurse-intake-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/nurse-intake/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/nurse-intake/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\nurse-intake-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "nurse-return",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/nurse-return/ocr-candidate-v1.jsonl",
+          "bundleFile": "nurse-return/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "892dcc4c566e8e697c6e520a4453446c0d49d2dde532e445c37d9869e80f475d",
+          "bytes": 30199
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-nurse-return-clip-v1.json",
+          "bundleFile": "nurse-return/annotations/dialogue-nurse-return-clip-v1.json",
+          "sha256": "4a19c3f2ce580fd88c3bdc9f8681c6af69c22bdf5acb66bf663166f182483187",
+          "bytes": 1256
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/nurse-return/layout-v1.json",
+          "bundleFile": "nurse-return/annotations/layout-v1.json",
+          "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076",
+          "bytes": 581
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "nurse-return/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/nurse-return-integrity.json",
+        "sha256": "14023812dd698a1cd6b358c6a09e714d7054ba0705b0d9137b466d6cf31e9e8f",
+        "bytes": 1587
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-nurse-return-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/nurse-return/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/nurse-return/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\nurse-return-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "oak-delivery",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/oak-delivery/ocr-candidate-v1.jsonl",
+          "bundleFile": "oak-delivery/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "21fb90a17c18338d2e56b1951f99c56cd105f3d1aa675c0a8b07ca35482f0952",
+          "bytes": 12908
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-oak-delivery-clip-v1.json",
+          "bundleFile": "oak-delivery/annotations/dialogue-oak-delivery-clip-v1.json",
+          "sha256": "e7c9b5a07877fbba485aad936381a6f3fd18cb54224578b83fd5ae12784ef29b",
+          "bytes": 1266
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/oak-delivery/layout-v1.json",
+          "bundleFile": "oak-delivery/annotations/layout-v1.json",
+          "sha256": "d955586151318a59f975d32e3a20195e29aa5b4388e51420a5e6987757a396ce",
+          "bytes": 518
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "oak-delivery/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/oak-delivery-integrity.json",
+        "sha256": "4b978f50b0be8452965f9a738ad13680b5512bcc68e0afe376947ff2ce1e58db",
+        "bytes": 1206
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-oak-delivery-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/oak-delivery/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/oak-delivery/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\oak-delivery-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "route-ledge-npc",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/route-ledge-npc/ocr-candidate-v1.jsonl",
+          "bundleFile": "route-ledge-npc/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "da50c331568bddf738647428ce6ac883dbf5c4340155fc758382a2c824ca4b4e",
+          "bytes": 28526
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-route-ledge-npc-clip-v1.json",
+          "bundleFile": "route-ledge-npc/annotations/dialogue-route-ledge-npc-clip-v1.json",
+          "sha256": "18b9067680eb66be8cc5d1a26d0d0749b56edd413efc9d968569f19b4ba83d1e",
+          "bytes": 1250
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/route-ledge-npc/layout-v1.json",
+          "bundleFile": "route-ledge-npc/annotations/layout-v1.json",
+          "sha256": "5f3fa2183b73a7b01ee8bf2fd7428f26b28921f5a5f64e8b03ff23092ae7890e",
+          "bytes": 584
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "route-ledge-npc/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/route-ledge-npc-integrity.json",
+        "sha256": "fcb1af71c0d17106496978d10a76420bde838035d7cf9f92886e9e9551a95325",
+        "bytes": 1640
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-route-ledge-npc-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/route-ledge-npc/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/route-ledge-npc/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\route-ledge-npc-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "route-pp-sign",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/route-pp-sign/ocr-candidate-v1.jsonl",
+          "bundleFile": "route-pp-sign/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "74e42243eeae34c195f7993e262311cc8a4257c650a6b6cfb7deb3c733649e79",
+          "bytes": 52247
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-route-pp-sign-clip-v1.json",
+          "bundleFile": "route-pp-sign/annotations/dialogue-route-pp-sign-clip-v1.json",
+          "sha256": "50a15b2c0c0ca5e2fbfb9a6be1e4936d493e391dc3deb045aa29a46ca73f7d01",
+          "bytes": 1248
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/route-pp-sign/layout-v1.json",
+          "bundleFile": "route-pp-sign/annotations/layout-v1.json",
+          "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076",
+          "bytes": 581
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "route-pp-sign/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/route-pp-sign-integrity.json",
+        "sha256": "ed00ff8bb99384d1a0ae3ba4f59e61c162da112807c5e822527448468dc67d40",
+        "bytes": 2100
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-route-pp-sign-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/route-pp-sign/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/route-pp-sign/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\route-pp-sign-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "safari-warden-npc",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/safari-warden-npc/ocr-candidate-v1.jsonl",
+          "bundleFile": "safari-warden-npc/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "a2c35ef8d6192ac3a067f7ca2105218960235e6aeb1352d6d5f8165f251bdc88",
+          "bytes": 24124
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/dialogue-safari-warden-npc-clip-v1.json",
+          "bundleFile": "safari-warden-npc/annotations/dialogue-safari-warden-npc-clip-v1.json",
+          "sha256": "d1ffa5b581ae2ec15b08e9b62619ec0f95b697cd75962ee17d2b933550aa75ff",
+          "bytes": 1257
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-dialogue-expansion-v1/safari-warden-npc/layout-v1.json",
+          "bundleFile": "safari-warden-npc/annotations/layout-v1.json",
+          "sha256": "9f84c917f7c975617bce4a989a68d38c9187fede681db5524a84fe878bfa1244",
+          "bytes": 517
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "safari-warden-npc/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-all-scenes-v2/recheck-v1/safari-warden-npc-integrity.json",
+        "sha256": "e0410f45e300145f3f79e25bd457dd873b3d10c08dcebca92ec3df9faf5be9be",
+        "bytes": 1478
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/dialogue-safari-warden-npc-clip-v1.json",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/safari-warden-npc/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-dialogue-expansion-v1/safari-warden-npc/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-all-scenes-v2\\recheck-v1\\safari-warden-npc-integrity.json"
+      ],
+      "priorFreeze": null
+    }
+  ],
+  "summary": {
+    "reviewId": "gt-all-scenes-v2",
+    "status": "all_scene_candidates_structurally_checked_not_approved_not_frozen",
+    "clipCount": 38,
+    "candidateClipCount": 37,
+    "scoreFrameSum": 3368,
+    "uniqueScoredOriginalFrames": 3361,
+    "uniqueCandidateOriginalFrames": 3326,
+    "alreadyApprovedReferenceFrames": 35,
+    "duplicateScoreFrameReferences": 7,
+    "continuousStateIntervals": 717,
+    "completeStateIntervals": 160,
+    "pageOpportunitiesBeforeOverlapDeduplication": 118,
+    "uniquePageOpportunities": 117,
+    "selectedClipFrameReferences": 3577,
+    "uniqueSelectedClipFrames": 3507,
+    "scoredSeconds": 134.91622807017757,
+    "selectedClipSeconds": 140.86359649122872,
+    "totalSourceFrames": 66770,
+    "totalSourceSeconds": 2779.397368,
+    "outputIndependence": "No tested OCR or production translation exists",
+    "sessionPartition": "development only; independence unverified; acceptance empty",
+    "notProductAcceptance": true,
+    "sources": [
+      {
+        "mediaId": "video-01",
+        "sha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "sourceFrames": 29346,
+        "notScoredRanges": [
+          [
+            0,
+            90
+          ],
+          [
+            390,
+            6058
+          ],
+          [
+            6165,
+            6171
+          ],
+          [
+            6221,
+            6248
+          ],
+          [
+            6322,
+            6328
+          ],
+          [
+            6398,
+            6404
+          ],
+          [
+            6480,
+            9838
+          ],
+          [
+            9926,
+            13376
+          ],
+          [
+            13418,
+            13431
+          ],
+          [
+            13510,
+            24213
+          ],
+          [
+            24321,
+            29346
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            90
+          ],
+          [
+            390,
+            6056
+          ],
+          [
+            6167,
+            6169
+          ],
+          [
+            6223,
+            6246
+          ],
+          [
+            6324,
+            6326
+          ],
+          [
+            6400,
+            6402
+          ],
+          [
+            6482,
+            9836
+          ],
+          [
+            9930,
+            13374
+          ],
+          [
+            13420,
+            13429
+          ],
+          [
+            13512,
+            24211
+          ],
+          [
+            24325,
+            29346
+          ]
+        ],
+        "sourceTimeBase": "1/30",
+        "sourceDurationSeconds": "978.200000"
+      },
+      {
+        "mediaId": "video-02",
+        "sha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+        "sourceFrames": 7964,
+        "notScoredRanges": [
+          [
+            0,
+            462
+          ],
+          [
+            564,
+            1379
+          ],
+          [
+            1426,
+            1634
+          ],
+          [
+            1754,
+            2248
+          ],
+          [
+            2258,
+            3523
+          ],
+          [
+            3632,
+            3798
+          ],
+          [
+            3917,
+            4447
+          ],
+          [
+            4526,
+            4551
+          ],
+          [
+            4652,
+            4706
+          ],
+          [
+            4832,
+            5264
+          ],
+          [
+            5324,
+            6916
+          ],
+          [
+            6964,
+            7964
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            460
+          ],
+          [
+            568,
+            1379
+          ],
+          [
+            1430,
+            1632
+          ],
+          [
+            1756,
+            2246
+          ],
+          [
+            2260,
+            3521
+          ],
+          [
+            3634,
+            3796
+          ],
+          [
+            3919,
+            4445
+          ],
+          [
+            4528,
+            4549
+          ],
+          [
+            4654,
+            4704
+          ],
+          [
+            4834,
+            5262
+          ],
+          [
+            5328,
+            6913
+          ],
+          [
+            6968,
+            7964
+          ]
+        ],
+        "sourceTimeBase": "1/12288",
+        "sourceDurationSeconds": "331.833333"
+      },
+      {
+        "mediaId": "video-03",
+        "sha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+        "sourceFrames": 7402,
+        "notScoredRanges": [
+          [
+            0,
+            578
+          ],
+          [
+            634,
+            820
+          ],
+          [
+            864,
+            1044
+          ],
+          [
+            1102,
+            1408
+          ],
+          [
+            1486,
+            1592
+          ],
+          [
+            1734,
+            1825
+          ],
+          [
+            2191,
+            3534
+          ],
+          [
+            3687,
+            6427
+          ],
+          [
+            6523,
+            6684
+          ],
+          [
+            6849,
+            7402
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            576
+          ],
+          [
+            636,
+            818
+          ],
+          [
+            866,
+            1042
+          ],
+          [
+            1104,
+            1406
+          ],
+          [
+            1488,
+            1590
+          ],
+          [
+            1736,
+            1823
+          ],
+          [
+            2193,
+            3532
+          ],
+          [
+            3689,
+            6425
+          ],
+          [
+            6525,
+            6682
+          ],
+          [
+            6852,
+            7402
+          ]
+        ],
+        "sourceTimeBase": "1/12288",
+        "sourceDurationSeconds": "308.416667"
+      },
+      {
+        "mediaId": "video-04",
+        "sha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+        "sourceFrames": 22058,
+        "notScoredRanges": [
+          [
+            0,
+            5174
+          ],
+          [
+            5358,
+            17462
+          ],
+          [
+            17566,
+            22058
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            5172
+          ],
+          [
+            5366,
+            17458
+          ],
+          [
+            17570,
+            22058
+          ]
+        ],
+        "sourceTimeBase": "1/19456",
+        "sourceDurationSeconds": "1160.947368"
+      }
+    ]
+  }
+}

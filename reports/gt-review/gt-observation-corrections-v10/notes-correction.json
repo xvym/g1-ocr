@@ -1,0 +1,122 @@
+{
+  "status": "manual_notes_corrected_after_full_original_png_recheck",
+  "notes": [
+    {
+      "path": "reports/m3-grid-refinement-v1/backpack-scroll-notes-v1/pass1.json",
+      "sha256": "8768763dde0a439de709cf237ba599bcabb6ebdf9737b4051359642ddeb8cf89"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/backpack-scroll-notes-v1/pass2.json",
+      "sha256": "f7aa1df8f051264243f2f58e35fa3878fcf36fcb5e8d1f10586b9caa343993ea"
+    }
+  ],
+  "originals": [
+    {
+      "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005214.png",
+      "sha256": "d20d936634417e671c0a04077c5d0040b58c66be405129f12743a80de52649e9"
+    },
+    {
+      "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005215.png",
+      "sha256": "d20d936634417e671c0a04077c5d0040b58c66be405129f12743a80de52649e9"
+    },
+    {
+      "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005216.png",
+      "sha256": "050d1e0b017ced0a5bfc759a9eb71bd2f9c2d874b7ab159b029baaee5709bdac"
+    },
+    {
+      "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005235.png",
+      "sha256": "efffed980a10ba5b6bd5dcfaf4013148341b3ff4f60ef243c03af9ab43578aa4"
+    },
+    {
+      "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005236.png",
+      "sha256": "c390a67d5d9126a93d8e67f1d73cbce84f98d4a7ccff25a56d35cfb9559e082d"
+    },
+    {
+      "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005237.png",
+      "sha256": "c390a67d5d9126a93d8e67f1d73cbce84f98d4a7ccff25a56d35cfb9559e082d"
+    },
+    {
+      "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005323.png",
+      "sha256": "db6c4b72a22c7b3bf46f20152947aa2f6485ecd7c181f9242c3f318435a5fcfb"
+    },
+    {
+      "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005326.png",
+      "sha256": "fe4bdfabcd5ab52877cf0f2f6177abd6417ca61119d7517d9322451e2274d497"
+    },
+    {
+      "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005301.png",
+      "sha256": "0f1e9e2971f0da1efc8cddccf453487cffb16d9736b11f178cfc8d01a73e8bb8"
+    },
+    {
+      "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005349.png",
+      "sha256": "24635961a104dcbf76c746acc2f9ddc27da3171954b0d698b541b8dd14d428cd"
+    }
+  ],
+  "corrections": [
+    {
+      "field": "downArrowVisibleRanges",
+      "before": [
+        [
+          5205,
+          5215
+        ],
+        [
+          5226,
+          5237
+        ],
+        [
+          5241,
+          5251
+        ],
+        [
+          5304,
+          5323
+        ],
+        [
+          5324,
+          5326
+        ],
+        [
+          5338,
+          5347
+        ]
+      ],
+      "after": [
+        [
+          5205,
+          5216
+        ],
+        [
+          5226,
+          5236
+        ],
+        [
+          5241,
+          5251
+        ],
+        [
+          5304,
+          5326
+        ],
+        [
+          5338,
+          5347
+        ]
+      ],
+      "reason": "Direct full PNG reread confirms 5215 and 5323 arrow present, 5236 absent. Original notes retained."
+    },
+    {
+      "field": "quantity columns",
+      "before": [
+        16,
+        18
+      ],
+      "after": [
+        15,
+        17
+      ],
+      "reason": "Counting from base column6 across 8 item characters, blank column14, multiplication column15, blank16, digit17; full PNG directly reread. Text and original frozen width already correct."
+    }
+  ],
+  "exposure": "Frozen annotations already inspected during discrepancy resolution; no actual OCR read. Same-agent evidence, not independent acceptance."
+}

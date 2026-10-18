@@ -1,0 +1,563 @@
+{
+  "status": "source_context_and_current_fields_diagnosis_only",
+  "actual": {
+    "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v17/actual/shop-sell-entry.jsonl",
+    "sha256": "f1d3ff98ffccc45e2461c396ee4c6fbb0a5510ae81a938e7a23a2e113429662c"
+  },
+  "originalSheets": [
+    {
+      "path": "reports/m3-grid-refinement-v1/shop-sell-contract-pass2-sheets-v1/sheet-002.png",
+      "sha256": "e51c4ac351f987f157847ce78e659fd9b3506e0a41846211b20e7c2f89b6fc78"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/shop-sell-contract-pass2-sheets-v1/sheet-003.png",
+      "sha256": "babdf75cca705fedd34e4e44afee2f6e9b2ff9a20acd8f1aa3ada421cbd3a68d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/shop-sell-contract-pass2-sheets-v1/sheet-004.png",
+      "sha256": "319b1c25350e6afdb043e8b431afe3b35405dcd01b5f6e3549b78144ab1a3f4d"
+    }
+  ],
+  "frames": [
+    {
+      "frame": 1062,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "role": "shop_money_label",
+          "text": "おかね",
+          "gridRect": [
+            14,
+            0,
+            17,
+            1
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "かいに きた",
+          "gridRect": [
+            2,
+            1,
+            8,
+            2
+          ]
+        },
+        {
+          "role": "money_amount",
+          "text": "22526円",
+          "gridRect": [
+            13,
+            1,
+            19,
+            2
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "うりに きた",
+          "gridRect": [
+            2,
+            3,
+            8,
+            4
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "べつに いいです",
+          "gridRect": [
+            2,
+            5,
+            10,
+            6
+          ]
+        },
+        {
+          "role": "dialogue_line",
+          "text": "どれを うっていただけま",
+          "gridRect": [
+            1,
+            14,
+            13,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1063,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "role": "shop_money_label",
+          "text": "おかね",
+          "gridRect": [
+            14,
+            0,
+            17,
+            1
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "かいに きた",
+          "gridRect": [
+            2,
+            1,
+            8,
+            2
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "うりに きた",
+          "gridRect": [
+            2,
+            3,
+            8,
+            4
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "べつに いいです",
+          "gridRect": [
+            2,
+            5,
+            10,
+            6
+          ]
+        },
+        {
+          "role": "dialogue_line",
+          "text": "どれを うっていただけますか?",
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1064,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "role": "shop_money_label",
+          "text": "おかね",
+          "gridRect": [
+            14,
+            0,
+            17,
+            1
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "かいに きた",
+          "gridRect": [
+            2,
+            1,
+            8,
+            2
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "うりに きた",
+          "gridRect": [
+            2,
+            3,
+            8,
+            4
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "べつに いいです",
+          "gridRect": [
+            2,
+            5,
+            10,
+            6
+          ]
+        },
+        {
+          "role": "dialogue_line",
+          "text": "どれを うっていただけますか?",
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1065,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "role": "shop_money_label",
+          "text": "おかね",
+          "gridRect": [
+            14,
+            0,
+            17,
+            1
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "かいに きた",
+          "gridRect": [
+            2,
+            1,
+            8,
+            2
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "うりに きた",
+          "gridRect": [
+            2,
+            3,
+            8,
+            4
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "べつに いいです",
+          "gridRect": [
+            2,
+            5,
+            10,
+            6
+          ]
+        },
+        {
+          "role": "dialogue_line",
+          "text": "どれを うっていただけますか?",
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1066,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "role": "shop_money_label",
+          "text": "おかね",
+          "gridRect": [
+            14,
+            0,
+            17,
+            1
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "かいに きた",
+          "gridRect": [
+            2,
+            1,
+            8,
+            2
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "うりに きた",
+          "gridRect": [
+            2,
+            3,
+            8,
+            4
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "べつに いいです",
+          "gridRect": [
+            2,
+            5,
+            10,
+            6
+          ]
+        },
+        {
+          "role": "dialogue_line",
+          "text": "どれを うっていただけますか?",
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1067,
+      "kind": "message_loading",
+      "fields": [
+        {
+          "role": "shop_money_label",
+          "text": "おかね",
+          "gridRect": [
+            14,
+            0,
+            17,
+            1
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "かいに きた",
+          "gridRect": [
+            2,
+            1,
+            8,
+            2
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "うりに きた",
+          "gridRect": [
+            2,
+            3,
+            8,
+            4
+          ]
+        },
+        {
+          "role": "shop_menu_choice",
+          "text": "べつに いいです",
+          "gridRect": [
+            2,
+            5,
+            10,
+            6
+          ]
+        },
+        {
+          "role": "dialogue_line",
+          "text": "どれを うっていただけますか?",
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1068,
+      "kind": "submenu_partial_redraw",
+      "fields": [
+        {
+          "role": "menu_label",
+          "text": "かいに きた",
+          "gridRect": [
+            2,
+            1,
+            8,
+            2
+          ]
+        },
+        {
+          "role": "menu_label",
+          "text": "うりに きた",
+          "gridRect": [
+            2,
+            3,
+            8,
+            4
+          ]
+        },
+        {
+          "role": "menu_label",
+          "text": "べつに いいです",
+          "gridRect": [
+            2,
+            5,
+            10,
+            6
+          ]
+        },
+        {
+          "role": "money_label",
+          "text": "おかね",
+          "gridRect": [
+            14,
+            0,
+            17,
+            1
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "ホケモンのふえ",
+          "gridRect": [
+            6,
+            6,
+            13,
+            7
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "いいつりざお",
+          "gridRect": [
+            6,
+            8,
+            12,
+            9
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "ボロのつりざお",
+          "gridRect": [
+            6,
+            10,
+            13,
+            11
+          ]
+        },
+        {
+          "role": "dialogue_line",
+          "text": "どれを うっていただけますか?",
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1069,
+      "kind": "submenu_cursor_loading",
+      "fields": [
+        {
+          "role": "menu_label",
+          "text": "かいに きた",
+          "gridRect": [
+            2,
+            1,
+            8,
+            2
+          ]
+        },
+        {
+          "role": "occluded_menu_visible_prefix",
+          "text": "うり",
+          "gridRect": [
+            2,
+            3,
+            4,
+            4
+          ]
+        },
+        {
+          "role": "occluded_menu_visible_prefix",
+          "text": "べつ",
+          "gridRect": [
+            2,
+            5,
+            4,
+            6
+          ]
+        },
+        {
+          "role": "money_label",
+          "text": "おかね",
+          "gridRect": [
+            14,
+            0,
+            17,
+            1
+          ]
+        },
+        {
+          "role": "money",
+          "text": "22526円",
+          "gridRect": [
+            13,
+            1,
+            19,
+            2
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "じてんしゃ",
+          "gridRect": [
+            6,
+            4,
+            11,
+            5
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "ポケモンのふえ",
+          "gridRect": [
+            6,
+            6,
+            13,
+            7
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "いいつりざお",
+          "gridRect": [
+            6,
+            8,
+            12,
+            9
+          ]
+        },
+        {
+          "role": "item_name",
+          "text": "ボロのつりざお",
+          "gridRect": [
+            6,
+            10,
+            13,
+            11
+          ]
+        },
+        {
+          "role": "dialogue_line",
+          "text": "どれを うっていただけますか?",
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ]
+        }
+      ]
+    }
+  ],
+  "observations": "Amount present1062, absent1063-1068 while money label and panel remain.1068 partial child-list draw;1069 amount restored with full child box but before child cursor. Must give child redraw/loading precedence; no inferred amount or fixed value.",
+  "productAcceptance": false
+}

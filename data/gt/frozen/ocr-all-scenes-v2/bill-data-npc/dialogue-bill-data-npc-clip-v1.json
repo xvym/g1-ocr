@@ -1,0 +1,34 @@
+{
+  "startFrame": 4549,
+  "gt": "data/gt/candidates/ocr-dialogue-expansion-v1/bill-data-npc/ocr-candidate-v1.jsonl",
+  "id": "c83de914352e-f4549-f4654-bill-data-npc",
+  "schemaVersion": 2,
+  "timeBase": "1/12288",
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "scoredRange": [
+    4551,
+    4652
+  ],
+  "frozen": false,
+  "independentSession": "unverified",
+  "postContext": [
+    4652,
+    4654
+  ],
+  "scoreKind": "text_and_state",
+  "selectionReason": "Original-source navigation selected this naturally bounded speech block before OCR exists. All original pre-loading, visible loading/complete/scroll/clear and ending after-state frames retained; details and corrected boundaries in both manual reads and differences.",
+  "scopeLimits": [
+    "Other dialogue and unselected source intervals remain unverified",
+    "Not independent acceptance; candidate GT only, no approval or OCR pass"
+  ],
+  "endFrameExclusive": 4654,
+  "warmup": [
+    4549,
+    4551
+  ],
+  "eventType": "室内NPC正辉与PC数据三页",
+  "pageOpportunityPolicy": "explicit_id",
+  "boundaryStatus": "agent_double_read_complete_candidate_not_frozen",
+  "mediaId": "video-02",
+  "set": "development"
+}

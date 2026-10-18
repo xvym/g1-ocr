@@ -1,0 +1,279 @@
+{
+  "status": "error_cause_diagnostic_not_a_score_or_acceptance",
+  "inputReport": {
+    "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v4/comparison/report.json",
+    "sha256": "74cd6e753defc8d2bbbe8b605e5e3d06576765fcf4ff1ad28f0005ce3e4d1087"
+  },
+  "formalRawEditErrors": 7100,
+  "diagnosticFixedOccupancyDifferences": 1005,
+  "diagnosticDifference": 6095,
+  "clips": [
+    {
+      "clipId": "startup-nontarget",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "intro-greeting",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "intro-oak",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "intro-creatures",
+      "formalRawEditErrors": 5,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 45,
+      "framesWhereDiagnosticIsWorse": 4
+    },
+    {
+      "clipId": "intro-pets",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "intro-research",
+      "formalRawEditErrors": 2,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 18,
+      "framesWhereDiagnosticIsWorse": 2
+    },
+    {
+      "clipId": "exploration-npc",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "lab-rival-demand",
+      "formalRawEditErrors": 32,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 32,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "lab-oak-reply",
+      "formalRawEditErrors": 1,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 15,
+      "framesWhereDiagnosticIsWorse": 1
+    },
+    {
+      "clipId": "oak-delivery",
+      "formalRawEditErrors": 1,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 9,
+      "framesWhereDiagnosticIsWorse": 1
+    },
+    {
+      "clipId": "status-pages",
+      "formalRawEditErrors": 3,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 3,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "pc-connect",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "pc-deposit-navigation",
+      "formalRawEditErrors": 485,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 360,
+      "remainingFixedOccupancyDifferences": 125,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "pc-exit",
+      "formalRawEditErrors": 450,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 450,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "museum-question",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "museum-fee",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "safari-warden-npc",
+      "formalRawEditErrors": 26,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 438,
+      "framesWhereDiagnosticIsWorse": 26
+    },
+    {
+      "clipId": "bill-data-npc",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "bill-grandfather",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "approved-trial",
+      "formalRawEditErrors": 976,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 976,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "gym-sign-continuation",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "battle-result",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "mart-child",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "shop-buy-navigation",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "shop-sell-entry",
+      "formalRawEditErrors": 1039,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 986,
+      "remainingFixedOccupancyDifferences": 53,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "shop-rejection",
+      "formalRawEditErrors": 63,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 58,
+      "remainingFixedOccupancyDifferences": 5,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "shop-exit",
+      "formalRawEditErrors": 3736,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 3724,
+      "remainingFixedOccupancyDifferences": 12,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "league-centre-npc",
+      "formalRawEditErrors": 156,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 156,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "nurse-greeting",
+      "formalRawEditErrors": 15,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 15,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "nurse-intake",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "nurse-return",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "status-alt-pages",
+      "formalRawEditErrors": 149,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 105,
+      "remainingFixedOccupancyDifferences": 44,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "party-list",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "route-ledge-npc",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "route-pp-sign",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "backpack-opening",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    },
+    {
+      "clipId": "backpack-navigation",
+      "formalRawEditErrors": 19,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 35,
+      "framesWhereDiagnosticIsWorse": 2
+    },
+    {
+      "clipId": "skills-turn",
+      "formalRawEditErrors": 0,
+      "diagnosticErrorReductionWhenRoleAndOrderAreIgnored": 0,
+      "remainingFixedOccupancyDifferences": 0,
+      "framesWhereDiagnosticIsWorse": 0
+    }
+  ],
+  "method": "Original formal score is unchanged. Diagnostic pairing uses exact gridRect only, never text similarity, and deliberately ignores role/read-order solely to locate causes. It does not establish correct fields, source coordinates, marks, states or recognition acceptance. No GT or actual is changed."
+}

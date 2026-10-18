@@ -1,0 +1,65 @@
+{
+  "status": "zip_identity_and_control_logic_checks_pass",
+  "reviewId": "gt-all-scenes-v2-shop-metadata-r2",
+  "sourceManifestSha256": "3f800da7ce58e00a3b0ca5e4d443beeb0629d3d87f40118f43c22100f452241e",
+  "companionHtmlSha256": "70bb13330555b0a71d0ac3ae9d48ab101d090b784c17cae30f529a0193dfab4d",
+  "runtimeSha256": "413d4e62ecac711fd6808e62edee8915f7f702ea12fc2edea5d88996973b3acf",
+  "checkerSha256": "d0066f8288d125e2aee2666c85deb570a38b0f027197567b7fe609f2bbba14a3",
+  "checks": [
+    {
+      "name": "SHA-256 fallback and CRC-32 vectors",
+      "status": "pass"
+    },
+    {
+      "name": "Ordinary DEFLATE and stored ZIP / UTF-8 paths",
+      "status": "pass"
+    },
+    {
+      "name": "Reject truncated, corrupted, oversized, encrypted, traversal, duplicate and ZIP64 inputs",
+      "status": "pass"
+    },
+    {
+      "name": "Original payload / manifest unchanged; no relative-image reads before user selection",
+      "status": "pass"
+    },
+    {
+      "name": "Real full-size ZIP with GitHub-style prefix and bounded reads",
+      "status": "pass",
+      "prefix": "g1-ocr-main/reports/gt-review/gt-all-scenes-v2-shop-metadata-r2/",
+      "bytes": 81643161,
+      "entries": 476,
+      "reusedReadOnlyFixture": true
+    },
+    {
+      "name": "All scenes, frame controls and state jumps; source bytes on scene samples",
+      "status": "pass",
+      "frames": 195,
+      "states": 54,
+      "sceneImageSamples": 8
+    },
+    {
+      "name": "Attachments / gap images / stale image suppression / bounded object URLs",
+      "status": "pass",
+      "maximumLiveUrls": 8
+    },
+    {
+      "name": "Git-normalized ZIP texts / ordinary DEFLATE / exact original-byte restoration",
+      "status": "pass",
+      "normalizedFiles": 0,
+      "allOriginalHashesRestored": true
+    },
+    {
+      "name": "Reject changed asset SHA-256 / wrong review ZIP; clear stale images on reselection",
+      "status": "pass"
+    },
+    {
+      "name": "All source files unchanged after checks",
+      "status": "pass",
+      "files": 475
+    }
+  ],
+  "largestArchiveRead": 406722,
+  "actualBrowserRendering": "unverified",
+  "actualAndroidRendering": "unverified",
+  "limitations": "These are deterministic file, ZIP and DOM-stub logic checks; no real browser, Android device, OCR or product acceptance is claimed."
+}

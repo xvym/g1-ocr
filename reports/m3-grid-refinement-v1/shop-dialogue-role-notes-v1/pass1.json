@@ -1,0 +1,181 @@
+{
+  "status": "first_original_read_complete_not_GT",
+  "source": "data/frames/video-03/expansion-shop-exit-pass2-v1",
+  "sheets": "reports/m3-grid-refinement-v1/shop-dialogue-role-pass1-sheets-v2",
+  "directlyViewedSheets": [
+    0,
+    8
+  ],
+  "range": [
+    1439,
+    1488
+  ],
+  "frames": 49,
+  "disclosure": "Same coding agent; prior diagnosis and metadata awareness. During this read no actual OCR or GT opened. Question mark written fullwidth for observation only, encoding contract not decided.",
+  "messageSpans": [
+    [
+      1439,
+      1441,
+      []
+    ],
+    [
+      1441,
+      1442,
+      [
+        "そのほ"
+      ]
+    ],
+    [
+      1442,
+      1443,
+      [
+        "そのほかに"
+      ]
+    ],
+    [
+      1443,
+      1444,
+      [
+        "そのほかに わたく"
+      ]
+    ],
+    [
+      1444,
+      1446,
+      [
+        "そのほかに わたくしども"
+      ]
+    ],
+    [
+      1446,
+      1447,
+      [
+        "そのほかに わたくしどもで",
+        "おち"
+      ]
+    ],
+    [
+      1447,
+      1448,
+      [
+        "そのほかに わたくしどもで",
+        "おちからに"
+      ]
+    ],
+    [
+      1448,
+      1449,
+      [
+        "そのほかに わたくしどもで",
+        "おちからに なれ"
+      ]
+    ],
+    [
+      1449,
+      1450,
+      [
+        "そのほかに わたくしどもで",
+        "おちからに なれること"
+      ]
+    ],
+    [
+      1450,
+      1462,
+      [
+        "そのほかに わたくしどもで",
+        "おちからに なれることは？"
+      ]
+    ],
+    [
+      1462,
+      1464,
+      []
+    ],
+    [
+      1464,
+      1465,
+      [
+        "あ"
+      ]
+    ],
+    [
+      1465,
+      1466,
+      [
+        "ありがと"
+      ]
+    ],
+    [
+      1466,
+      1467,
+      [
+        "ありがとう ご"
+      ]
+    ],
+    [
+      1467,
+      1468,
+      [
+        "ありがとう ございま"
+      ]
+    ],
+    [
+      1468,
+      1482,
+      [
+        "ありがとう ございました"
+      ]
+    ],
+    [
+      1482,
+      1488,
+      []
+    ]
+  ],
+  "constantFields": {
+    "range": [
+      1439,
+      1482
+    ],
+    "menu": [
+      "かいに きた",
+      "うりに きた",
+      "べつに いいです"
+    ],
+    "moneyLabel": "おかね",
+    "money": "22526円"
+  },
+  "cursor": [
+    {
+      "range": [
+        1439,
+        1451
+      ],
+      "row": 3,
+      "shape": "outline_right"
+    },
+    {
+      "range": [
+        1451,
+        1463
+      ],
+      "row": 1,
+      "shape": "solid_right"
+    },
+    {
+      "range": [
+        1463,
+        1482
+      ],
+      "row": 1,
+      "shape": "outline_right"
+    }
+  ],
+  "notes": [
+    "Bottom complete box empty1439/40; visible message from1441.",
+    "1450 only complete prompt frame with old cursor;1451 top choice cursor.",
+    "1462/63 bottom empty;1464 thanks loads,1468 complete visible; no downward message arrow throughout.",
+    "1482 all UI fields and box vanish;1483 player faces downward,1485 upward,1487 left.",
+    "Parent shop menu and money remain during both prompt and thank-you message. A field name cannot be chosen from future event exit."
+  ]
+}

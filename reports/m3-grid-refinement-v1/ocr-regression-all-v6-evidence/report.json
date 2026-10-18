@@ -1,0 +1,339 @@
+{
+  "status": "input_output_build_evidence_verified_OCR_gates_not_passed",
+  "command": [
+    "D:\\Code\\Workspace\\g1-ocr\\tools\\check-ocr-evidence.cjs",
+    "reports/m3-grid-refinement-v1/ocr-regression-all-v6",
+    "reports/m3-grid-refinement-v1/build-evidence-v6",
+    "reports/m3-grid-refinement-v1/ocr-regression-all-v6-evidence"
+  ],
+  "freezeSha256": "748087f7049d657ada68e634fda8b21dc37674257769bc559e79fff684dbb246",
+  "comparison": {
+    "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/comparison/report.json",
+    "sha256": "bb4f6f9d19377cb94ef526355f0303f30e78a2c9d1c8f45cf2da5ec08cea3cf7"
+  },
+  "media": [
+    {
+      "id": "video-01",
+      "path": "testpic/video/2026-10-11 22-34-17.mp4",
+      "sha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+      "bytes": 751818349,
+      "timeBase": "1/30",
+      "frameCount": 29346,
+      "durationSeconds": "978.200000",
+      "anomalousFrames": 0,
+      "gameVersion": "unverified",
+      "session": "unverified",
+      "decoder": {
+        "ffmpegSha256": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e",
+        "ffprobeSha256": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07",
+        "rgbFormat": "rgb24; row-major; top-to-bottom; R,G,B; untransformed orientation",
+        "filter": "scale=in_color_matrix=bt709:in_range=tv:out_range=full:flags=bilinear+accurate_rnd+bitexact,format=rgb24"
+      },
+      "framesSha256": "2b3429e2dc53f20924bc2f2f5a6b1a6be1e5f31e4ea6fe89725b17a46ebd77f6",
+      "probeSha256": "342dfbe47e815e7fac081320b1b2e57f5458fa92b92b3940ce967216f38dfb92"
+    },
+    {
+      "id": "video-02",
+      "path": "testpic/video/4a6e01eb2ea34cdbfdba41e9b4db6a88.mp4",
+      "sha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+      "bytes": 16579532,
+      "timeBase": "1/12288",
+      "frameCount": 7964,
+      "durationSeconds": "331.833333",
+      "anomalousFrames": 0,
+      "gameVersion": "unverified",
+      "session": "unverified",
+      "decoder": {
+        "ffmpegSha256": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e",
+        "ffprobeSha256": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07",
+        "rgbFormat": "rgb24; row-major; top-to-bottom; R,G,B; untransformed orientation",
+        "filter": "scale=in_color_matrix=bt709:in_range=tv:out_range=full:flags=bilinear+accurate_rnd+bitexact,format=rgb24"
+      },
+      "framesSha256": "227125110fb04a576288c5a33b71ebb56083c815f96707f5366acf9fb968e555",
+      "probeSha256": "9cbc5ee3dcbffb0b7b71f91ac96e5d4f6f2faa51052af76520843af1df355847"
+    },
+    {
+      "id": "video-03",
+      "path": "testpic/video/5b34074da5f0cd90a956a4178d77b637.mp4",
+      "sha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+      "bytes": 16812110,
+      "timeBase": "1/12288",
+      "frameCount": 7402,
+      "durationSeconds": "308.416667",
+      "anomalousFrames": 0,
+      "gameVersion": "unverified",
+      "session": "unverified",
+      "decoder": {
+        "ffmpegSha256": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e",
+        "ffprobeSha256": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07",
+        "rgbFormat": "rgb24; row-major; top-to-bottom; R,G,B; untransformed orientation",
+        "filter": "scale=in_color_matrix=bt709:in_range=tv:out_range=full:flags=bilinear+accurate_rnd+bitexact,format=rgb24"
+      },
+      "framesSha256": "e1152ec7214ccd1fab0eeb73a041b36a0b113128ead765f2eac4035c18dc33e9",
+      "probeSha256": "b6a821f7fcebd6b7b475df828c9ee6a11d6ca41ffdc7e163ef3f4fc48f2d267a"
+    },
+    {
+      "id": "video-04",
+      "path": "testpic/video/cd87cd5a156ef5cf5d64a43a1e6600fd.mp4",
+      "sha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+      "bytes": 40239837,
+      "timeBase": "1/19456",
+      "frameCount": 22058,
+      "durationSeconds": "1160.947368",
+      "anomalousFrames": 0,
+      "gameVersion": "unverified",
+      "session": "unverified",
+      "decoder": {
+        "ffmpegSha256": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e",
+        "ffprobeSha256": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07",
+        "rgbFormat": "rgb24; row-major; top-to-bottom; R,G,B; untransformed orientation",
+        "filter": "scale=in_color_matrix=bt709:in_range=tv:out_range=full:flags=bilinear+accurate_rnd+bitexact,format=rgb24"
+      },
+      "framesSha256": "8fc167297316537ec5641f4edde9bcae8edcbf7565fdf33bb6c6bbf3e95fa54e",
+      "probeSha256": "194eebac2d1d56736b25208d32ee916fc61da85238654137558906c7e8563e7a"
+    }
+  ],
+  "retainedFrameReferences": 3577,
+  "uniqueRetainedFrames": 3507,
+  "scoredFrameReferences": 3368,
+  "uniqueScoredFrames": 3361,
+  "raw": {
+    "characters": 86602,
+    "editErrors": 7119,
+    "failedFrames": 2625,
+    "emptyFrames": 692,
+    "emptyFalsePositiveFrames": 0,
+    "uniqueContinuousStates": 712,
+    "equalStateErrors": 2491.0712273641852,
+    "equalStateCharacters": 15416,
+    "pageOpportunities": 117,
+    "contentExactPages": 7,
+    "frameCharacterAccuracy": 0.9177963557423616,
+    "equalStateCharacterAccuracy": 0.8384100137931898
+  },
+  "final": {
+    "characters": 86602,
+    "editErrors": 7119,
+    "failedFrames": 2625,
+    "emptyFrames": 692,
+    "emptyFalsePositiveFrames": 0,
+    "uniqueContinuousStates": 712,
+    "equalStateErrors": 2491.0712273641852,
+    "equalStateCharacters": 15416,
+    "pageOpportunities": 117,
+    "contentExactPages": 7,
+    "frameCharacterAccuracy": 0.9177963557423616,
+    "equalStateCharacterAccuracy": 0.8384100137931898
+  },
+  "sourceSnapshot": {
+    "path": "reports/m3-grid-refinement-v1/build-evidence-v6/source-snapshot.json",
+    "sha256": "48a1186e33592241b03c856d443151b4307d53fd06adccf957bee1a446ad4bff"
+  },
+  "classIdentity": {
+    "path": "reports/m3-grid-refinement-v1/build-evidence-v6/class-identity.json",
+    "sha256": "1b6a3303bcd6629d4859a596b324c48390b15b90330fdb255aa4c3c23d911ce3"
+  },
+  "productJar": {
+    "path": "app/target/g1-ocr-app-0.1.0-SNAPSHOT.jar",
+    "sha256": "d7cff184e78fe0632d413bb17e56b17440e4e83e0b502403a3ec83f4efa077a5",
+    "forbiddenDataAbsent": true
+  },
+  "javaTests": 128,
+  "testReports": [
+    {
+      "module": "app",
+      "name": "TEST-io.github.g1ocr.capture.SourceFrameTest.xml",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "app",
+      "name": "TEST-io.github.g1ocr.ocr.BoxTextDetectorTest.xml",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "app",
+      "name": "TEST-io.github.g1ocr.ocr.FrameGeometryEstimatorTest.xml",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "app",
+      "name": "TEST-io.github.g1ocr.ocr.GameViewportLocatorTest.xml",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "app",
+      "name": "TEST-io.github.g1ocr.ocr.JapaneseOcrEngineTest.xml",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "app",
+      "name": "TEST-io.github.g1ocr.ocr.KanaScriptResolverTest.xml",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "app",
+      "name": "TEST-io.github.g1ocr.ocr.MenuFieldReaderTest.xml",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "app",
+      "name": "TEST-io.github.g1ocr.ocr.PixelGlyphMatcherTest.xml",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "app",
+      "name": "TEST-io.github.g1ocr.ocr.PixelGlyphReaderTest.xml",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "app",
+      "name": "TEST-io.github.g1ocr.ocr.RasterGridRefinerTest.xml",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "app",
+      "name": "TEST-io.github.g1ocr.ocr.RasterMotionTrackerTest.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "app",
+      "name": "TEST-io.github.g1ocr.ocr.SceneFieldReaderTest.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "name": "TEST-io.github.g1ocr.verification.ComparisonAggregateTest.xml",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "name": "TEST-io.github.g1ocr.verification.FontReferenceAuditTest.xml",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "name": "TEST-io.github.g1ocr.verification.FrozenCollectionTest.xml",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "name": "TEST-io.github.g1ocr.verification.GlyphReadAuditTest.xml",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "name": "TEST-io.github.g1ocr.verification.GridProjectionTest.xml",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "name": "TEST-io.github.g1ocr.verification.GtGeometryTest.xml",
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "name": "TEST-io.github.g1ocr.verification.LedgerTest.xml",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "name": "TEST-io.github.g1ocr.verification.OcrScoringTest.xml",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "name": "TEST-io.github.g1ocr.verification.PageOpportunitiesTest.xml",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "name": "TEST-io.github.g1ocr.verification.ReplayTimelineTest.xml",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "verification",
+      "name": "TEST-io.github.g1ocr.verification.ViewportCheckTest.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "processingNanos": {
+    "p50": 50355000,
+    "p95": 72681700,
+    "p99": 84105100,
+    "maximum": 258416300,
+    "meaning": "Algorithm elapsed time only. Not actual UI presentation or latency acceptance."
+  },
+  "independentAcceptance": "pending_no_proven_unused_session",
+  "uiAndRealEnvironment": "pending",
+  "productionChinese": "not_started",
+  "interpretation": "Evidence integrity success does not mean OCR accuracy or independent product acceptance. Old historical candidate/status wording inside frozen payloads remains unchanged; current approval authority is the effective freeze envelope."
+}

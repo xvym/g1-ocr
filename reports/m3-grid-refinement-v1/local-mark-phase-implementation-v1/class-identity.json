@@ -1,0 +1,426 @@
+{
+  "sourceSnapshotSha256": "30422e87c8e4b152023cb39411dc49d117d1eae9e8fcd1b6d2b940fe394d7fc8",
+  "classes": [
+    {
+      "path": "app/target/classes/io/github/g1ocr/BootstrapWindow.class",
+      "sha256": "1cf56137fe6b8a377083bcbaedf72a370c419d3995469714b34a073fcf20fbe0",
+      "bytes": 952
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/Main.class",
+      "sha256": "20a8b76462752766da2a30098af667ed19044900575e36dc4cea5c46c3dbe86a",
+      "bytes": 1414
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/capture/SourceFrame.class",
+      "sha256": "010fbd12c4888e15a48030bf05613bef4d7d0a35af1b12cfe58d1a1efdbff01e",
+      "bytes": 1780
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/BoxTextDetector$1.class",
+      "sha256": "cc38549920f83fbe5fe418ab72b185195cd967f76c066c9ead0578e10386335e",
+      "bytes": 233
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/BoxTextDetector$Box.class",
+      "sha256": "51b30a3af0253bcadc9f0c518619b06d5f61158cd77ff5f330a6de640aaa644a",
+      "bytes": 1659
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/BoxTextDetector$Line.class",
+      "sha256": "7d20955b3e12c7a1ff2e341d932fa9477cca98e22b44c435cf8e02e7d854b98a",
+      "bytes": 1901
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/BoxTextDetector$Symbol.class",
+      "sha256": "4720d7edb2f5cc9bc21c1294f751b64121c35afd56bfe8486f5486d81ccb8c97",
+      "bytes": 877
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/BoxTextDetector.class",
+      "sha256": "07a5e25d848860ad44e101409dcc75d9c094f413f6a6a5682bb75bf11efecd50",
+      "bytes": 9720
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/FrameGeometryEstimator$1.class",
+      "sha256": "11b1002665bc6cae9cd1423ef92eb7ef083b7a4dd4160186788a1addffba825b",
+      "bytes": 254
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/FrameGeometryEstimator$Estimate.class",
+      "sha256": "741b3401c9a950108ed0375a15ab4fc739ebaa8978cf7f2837ec1f0b6e78964e",
+      "bytes": 2201
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/FrameGeometryEstimator.class",
+      "sha256": "29257662c5debd588b45abe17c31713421c5475a5c5267e07cdf228848b0ddf2",
+      "bytes": 4252
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GameViewportLocator$1.class",
+      "sha256": "d62de6ba35dfd46f67e48892ba7572f42caddda38f3148ca957a2351f12438fe",
+      "bytes": 245
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GameViewportLocator$Axis.class",
+      "sha256": "d52dd1a2a5235e2d48aaf37fefdcff1b095a7356322ef0c84b6925109a63e5cc",
+      "bytes": 568
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GameViewportLocator$Box.class",
+      "sha256": "f095ef58a097c1913f2493cfdf9481280c0ca5b1d3461b96847b97e5c5137fdc",
+      "bytes": 1112
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GameViewportLocator$Config.class",
+      "sha256": "c610d2e66fc1bd9bdb03e3c5b1e7327aa3bbfeb225469fe94b0b391bd31071a4",
+      "bytes": 1004
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GameViewportLocator$Result.class",
+      "sha256": "90023562c29395b873511e7b2a3390566a44ce2f361c64beeb08449257671e4b",
+      "bytes": 2544
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GameViewportLocator$Status.class",
+      "sha256": "32871e6b2ec01b602fe40ec786db4d9bef5293b1137af32626a520d3f8066a2f",
+      "bytes": 1288
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GameViewportLocator.class",
+      "sha256": "d0c67f17099c6c5038a6d138b9656977ffb8f50a6d45fd3787d9f12c85fa794a",
+      "bytes": 10712
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GlyphTemplate.class",
+      "sha256": "6c14519f593aac447d5f89fb1ad80a5b45be34c54af96f5a70f17d20c3b07357",
+      "bytes": 2596
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$1.class",
+      "sha256": "21f9c42a452f45aad29cf146a39b3cf28abce9fdf03228ad17ba19ac6ec0b3aa",
+      "bytes": 239
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$Cursor.class",
+      "sha256": "89120fac289be2208eaf2fa255537ff38e8ea256d68361ac98741f925f212654",
+      "bytes": 819
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$Mark.class",
+      "sha256": "34f777c10597d51ada08b3005b4f455da7b67243195ddf42822fef341dbc5493",
+      "bytes": 595
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$Region.class",
+      "sha256": "1488921879beb5989bfd58e29f3d5bb042671c594bbbbedc6a52425870138aa4",
+      "bytes": 7083
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$RenderUnit.class",
+      "sha256": "88ea3156017305f3f6c8617e7a7c0c35b6ddfa1ef1679dc29907cd903c33fac8",
+      "bytes": 707
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$Result.class",
+      "sha256": "13b889bf5dd9b4d1dbec5dc7ec892579b5b9813909dd311a7aa6a4d3ff8c6815",
+      "bytes": 3445
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$Shape.class",
+      "sha256": "e9e15f78319612e8f7c3b2d498e6401402dbf498e6e5ea7b58930d2b54672f82",
+      "bytes": 1385
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$VisibleState.class",
+      "sha256": "79a1459c38f89e479c1f51002800b9e6f6659276699faba281cf3e12d441b1c7",
+      "bytes": 879
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine.class",
+      "sha256": "1f48a66e518d17addda48bda5e147c72df04ddcda51cc1b14d095dc0ae0896ff",
+      "bytes": 15216
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/KanaScriptResolver$1.class",
+      "sha256": "69db14c52fb976568deeff42e633e4134fcb261129205f7a0b3a179f4820694c",
+      "bytes": 242
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/KanaScriptResolver$Resolution.class",
+      "sha256": "2346f9ee1e7aa32a26073922d285bec82c5c7dcdb9187f125ed9613facd91e33",
+      "bytes": 991
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/KanaScriptResolver$Result.class",
+      "sha256": "08043341cb665a8acf934c1923e4808bd37b8b041bcc9b51c1c59c819762f084",
+      "bytes": 1392
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/KanaScriptResolver.class",
+      "sha256": "c38a4840d2bb6092e867f63fac2cdb5a5ce541d4cb98da54bdc0d12f57d72f0d",
+      "bytes": 4020
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/MenuFieldReader$1.class",
+      "sha256": "5c18a4bd374ee8551293211ad16beefc360ae3c355a3b7dd5eb32e28145f8d11",
+      "bytes": 950
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/MenuFieldReader$Layout.class",
+      "sha256": "bfc68ede5f08b95d369756df754f645713be33253538f308bb16436cd56857ae",
+      "bytes": 1517
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/MenuFieldReader.class",
+      "sha256": "501beb77de40ce6cbb7dbe0557e48b1e61556e7a68d916a94e40a79f0f5feaf3",
+      "bytes": 7301
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PackedGlyphReader.class",
+      "sha256": "cb59df8d9ea80fbde1c982c2b4a81de1251fd3a5d7e5524ec6eccf4579db040f",
+      "bytes": 4714
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphMatcher$1.class",
+      "sha256": "2f547e4a0128aa45e6d337ac24cdb1642b5937dbf8125d40e588d8f66bac6264",
+      "bytes": 239
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphMatcher$Candidate.class",
+      "sha256": "20443822e19e10eb19ab847a0bea32ff3cf1998a6cbed7bed084a18d35c3a229",
+      "bytes": 1245
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphMatcher.class",
+      "sha256": "d81d38b64524baee4220cb4520f457de408d740cbcda3ef7c184893d8fe9b2a6",
+      "bytes": 4105
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphReader$1.class",
+      "sha256": "04f47698c28ed9384dacce90cad8ae46f3aa82a5836e77021659696e8326e562",
+      "bytes": 236
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphReader$Cell.class",
+      "sha256": "b5a0ae045ea89e8b0bb15c53bfad5521d9e3858462eb1a7abad5404405092d12",
+      "bytes": 3329
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphReader$Frame.class",
+      "sha256": "f8a3d35be16789018686346624c6dd21558b521414362d1f37294475a2edf068",
+      "bytes": 4407
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphReader$Grid.class",
+      "sha256": "e7ad959077ddae4ca3ebffe119cedde5cbafcd82ebdd67d1b5c3d2f1fbd37fb1",
+      "bytes": 897
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphReader.class",
+      "sha256": "8239ad70028eb1abd054db1a36276c6c0b1a7bbd1c358a7d128d3e4b48b87394",
+      "bytes": 11400
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/RasterGridRefiner$1.class",
+      "sha256": "64dfc29d32e89a950e0871c24872646abef379231e68eb275eb5db8f873c9852",
+      "bytes": 239
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/RasterGridRefiner$Axis.class",
+      "sha256": "b3c67113854833fefe7d8b4817e8b5d5175d9be2f52939a24245601cf93d0390",
+      "bytes": 915
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/RasterGridRefiner$Result.class",
+      "sha256": "d4b4041312375c0ff3e9544246c34e7932be5fb976226b36e37ef336209a3460",
+      "bytes": 1619
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/RasterGridRefiner.class",
+      "sha256": "c78e6bf19f8fba758321dc4a35a8b4a6346531f75327cacf190b26c5f831614d",
+      "bytes": 4975
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/RasterMotionTracker$1.class",
+      "sha256": "e6b64206aacbbf658fbc40b47f2aaa8c6e05c61763765c793e307b4c50985c72",
+      "bytes": 245
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/RasterMotionTracker$Alignment.class",
+      "sha256": "68610ffb81e61ee62a7d1b0baabc818fb63295b86b1ebb288e1fcf0c1ca2bab7",
+      "bytes": 2218
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/RasterMotionTracker.class",
+      "sha256": "24e14b5aa461712bcda8e2cec4c946c244e516d0e89811a30d8ee4778f6be950",
+      "bytes": 5327
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/SceneFieldReader$Scene.class",
+      "sha256": "59a6254ef8940d3fbfe880bacb12b735b879e5cbe569fd5f9203cb0b4a651f3d",
+      "bytes": 1302
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/SceneFieldReader.class",
+      "sha256": "b2d091bc472a6211b245d7de5d65e88ee47f270539080ef78ea78df17875b0c3",
+      "bytes": 6380
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ComparisonAggregate$Frame.class",
+      "sha256": "a493137943105b55c9dcd38ae206c4f1579a20a8c804b46bfd0538708c761371",
+      "bytes": 828
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ComparisonAggregate$Union.class",
+      "sha256": "b08c2e27de8a3858ce6fffd0dc90048e4f4e7a0b2fd00b174384c4b077b2dfc1",
+      "bytes": 1239
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ComparisonAggregate.class",
+      "sha256": "5da4998c6af7251d3a6adbdbdb2cbd8e6ea4d1f55d9b5d497c1fd78234dcbfb3",
+      "bytes": 10356
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/FontReferenceAudit.class",
+      "sha256": "a287a77eeb8ee36f85f1a39c8fd5ac18d8bd250a8f22da8f3cd5c076e7a3181f",
+      "bytes": 18466
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/FrameInspection.class",
+      "sha256": "46ad60d128f52cb9e69bdbaab6abb5212c4947eb841c893752dfdfea5090bf13",
+      "bytes": 7881
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/FrozenDataset$Clip.class",
+      "sha256": "47085119da5ba45b851b88b40bd8709fb78d5b76701eb0e818a9cc96d08fe0e0",
+      "bytes": 2425
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/FrozenDataset.class",
+      "sha256": "8df976f560ff23b1227acfc68fb3fec374da9c2693b78624b656ff530d99f674",
+      "bytes": 13879
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GlyphReadAudit$1.class",
+      "sha256": "caaca0fcd35412a824942269bd6fe393d24f3cb5eec3d2566f9153c8ab5920b7",
+      "bytes": 8300
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GlyphReadAudit$Totals.class",
+      "sha256": "4b2e43ff9ebbf4a954d906159f5654bd43baae32256c3750c9731203965f9c16",
+      "bytes": 2045
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GlyphReadAudit.class",
+      "sha256": "0411241656f5310c86382259cf809e3f93cfe768f023d1d1e61474f7e00ce13a",
+      "bytes": 16807
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GridProjection.class",
+      "sha256": "050659a3840e30d8c620a1a5124b9f5899429fca59472d9646d8256b24437f30",
+      "bytes": 3761
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GtGeometry.class",
+      "sha256": "53954d9673d04b1465ff6837c97e4cfc0127db89f36d64a5d35c3d5b875f9ce0",
+      "bytes": 7907
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GtIntegrity.class",
+      "sha256": "1a42a6c5ab09d30782d9be67009a8e09bf1569229ded51fea2c070144b3f65c9",
+      "bytes": 10143
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/Ledger.class",
+      "sha256": "ba29e44adb400f4804b6940e59207f3cf4f95129fb8c753312b7eba032d41383",
+      "bytes": 2044
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrComparison$1.class",
+      "sha256": "add09829472d6bb0911db7d10c1e36a6bfe588bbe4cec903749f04dad26954a5",
+      "bytes": 245
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrComparison$Totals.class",
+      "sha256": "56c34d592ba795115a855e2ad51f38294d17f6b72ad31d6566c79f45393d556c",
+      "bytes": 4259
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrComparison.class",
+      "sha256": "aec5a05d44c89a693699866ff0b4b07ea1ff739a15265f32c70bd15472cccca1",
+      "bytes": 11159
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrReplay$1.class",
+      "sha256": "5392afe74d1c697ab99179fcdcd4e7a837b1cec4df49e44fc3fad809299e354a",
+      "bytes": 2309
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrReplay.class",
+      "sha256": "c86ece419f4c0f2ad7fa3dcf0177aba408f2831800f0e5ca6a6e265a7fdd5f68",
+      "bytes": 5764
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrScoring$Edit.class",
+      "sha256": "449626fcf92756da8f010ec1810f97d9606377df3ea7fabe8a467fe3ac64d7c8",
+      "bytes": 591
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrScoring$FrameScore.class",
+      "sha256": "5c99e5f6f6c00111efaef887e187fa58bc9450d768245b76522eaf56aedadc01",
+      "bytes": 1095
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrScoring.class",
+      "sha256": "d80e6f0a4c31dec89046a1454eac66ec04efc11ab9c54d13617270ef3d3d997b",
+      "bytes": 8821
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/PageOpportunities.class",
+      "sha256": "cac571805b4c7f7b2729616611f705e4571a84d3a79f0bfe3a254acad55ee6bd",
+      "bytes": 3279
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline$1.class",
+      "sha256": "71e373889fba6cea00eba1468f34fe53e15d35f2a5b4c3e86fe6c1188ef8fb56",
+      "bytes": 1060
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline$2.class",
+      "sha256": "d4510f3a070cafeb246de2e979dd901ff0d12aa6cee2cd8c0151a011e88e038a",
+      "bytes": 894
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline$Clock.class",
+      "sha256": "b8055462b5e8f0f7516599ade7379044a5a0d99f2cd7699001589580e0f5fb0a",
+      "bytes": 334
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline$Consumer.class",
+      "sha256": "7cab379e40328925eb92a0e6ad6e36b5f76b0321cc14dd3009742bc9c6cba275",
+      "bytes": 368
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline.class",
+      "sha256": "5d5c7f9a29d19031c11f6e166f7cd91f754f84a727b5f43b3bfaf8b6df0e6568",
+      "bytes": 10900
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/VideoTool.class",
+      "sha256": "ace400305acb775b3eb62ed5e3996c890b87408e8a9b8bc45fdcecfb45083b46",
+      "bytes": 28973
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ViewportCheck$1.class",
+      "sha256": "dbb8f78ebc921806367945a4d9eba64cb8300704bae332361d6becfe1b6e8b69",
+      "bytes": 3878
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ViewportCheck.class",
+      "sha256": "e7ba6377fffc2a7225f0cfc61ec5f2aef2c4d48fc819040169bf985dcdd2311e",
+      "bytes": 14725
+    }
+  ],
+  "meaning": "Compiled class identity only. Package and video accuracy are separate checks."
+}

@@ -1,0 +1,160 @@
+{
+  "status": "candidate_only_not_effective_freeze",
+  "authority": "如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论",
+  "input": {
+    "kind": "gt",
+    "path": "data/gt/frozen/ocr-trial-v2/ocr-candidate-v2.jsonl",
+    "sha256": "30d240232e03eaca07eeebe9502a56689e41bf223faa59c665c4e638a154de25"
+  },
+  "candidate": {
+    "path": "data/gt/candidates/ocr-observation-corrections-v6/approved-trial/ocr-candidate-role-v1.jsonl",
+    "sha256": "bcea58f995d75002d1421be6f92d7db331f52ff4eba5b4e231583ff968a91e79"
+  },
+  "changes": [
+    {
+      "start": 5275,
+      "end": 5276,
+      "region": "line-0",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5276,
+      "end": 5278,
+      "region": "line-0",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5278,
+      "end": 5279,
+      "region": "line-0",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5279,
+      "end": 5280,
+      "region": "line-0",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5280,
+      "end": 5281,
+      "region": "line-0",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5280,
+      "end": 5281,
+      "region": "line-1",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5281,
+      "end": 5282,
+      "region": "line-0",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5281,
+      "end": 5282,
+      "region": "line-1",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5282,
+      "end": 5284,
+      "region": "line-0",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5282,
+      "end": 5284,
+      "region": "line-1",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5284,
+      "end": 5285,
+      "region": "line-0",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5284,
+      "end": 5285,
+      "region": "line-1",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5285,
+      "end": 5286,
+      "region": "line-0",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5285,
+      "end": 5286,
+      "region": "line-1",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5286,
+      "end": 5296,
+      "region": "line-0",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5286,
+      "end": 5296,
+      "region": "line-1",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5296,
+      "end": 5298,
+      "region": "line-0",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5296,
+      "end": 5298,
+      "region": "line-1",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    },
+    {
+      "start": 5298,
+      "end": 5299,
+      "region": "line-0",
+      "before": "dialogue_line",
+      "after": "dialogue"
+    }
+  ],
+  "audit": {
+    "path": "reports/m3-grid-refinement-v1/gym-dialogue-contract-r7-v2.json",
+    "sha256": "3766781bcc353fad647abb5f4252994886f503aa05084203a17aed110829077e"
+  },
+  "doubleRead": {
+    "path": "reports/m3-grid-refinement-v1/gym-dialogue-role-notes-v1/extraction-and-pass-check.json",
+    "sha256": "6a7fc3975973beaff19d74d56c1db1e61d1d32434be5232e4188e4737906f7bd"
+  },
+  "rationale": "The ordinary sign dialogue continues across 5298/5299 with the same physical field. Adopt the existing ordinary-dialogue role used by the continuation; no observable scene or field transition explains a role change at this annotation boundary.",
+  "scopeDecision": "Only ordinary gym sign dialogue. PC main-menu connection and shop parent-menu messages have different scene contexts; their dialogue_line labels are not globally rewritten. Shop parent metadata needs a separate consistent scene review, including prior approved overlap amendment.",
+  "unchanged": "All text, Unicode, source/grid rectangles, reading order, state kinds, symbols, boundaries, page IDs and scoring rules.",
+  "productAcceptance": false
+}

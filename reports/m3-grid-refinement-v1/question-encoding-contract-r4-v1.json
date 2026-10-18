@@ -1,0 +1,946 @@
+{
+  "status": "encoding_contract_ambiguity_confirmed_not_an_observed_glyph_correction",
+  "sourceManifest": {
+    "path": "resources/japanese-font-sources-v2.json",
+    "sha256": "39e42b896e44dbd13819391c7a829db87a5b2cbb7172c321e5c29c2124db9da3"
+  },
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r4/freeze.json",
+    "sha256": "650b69280c331809c901f2c587e00774762173ece7d330ac597a3b40380729c9"
+  },
+  "sources": [
+    {
+      "id": "red-green-jp",
+      "commit": "953f41b34108621b2bf13c3b1e53abfc9c3e5aec",
+      "charmap": {
+        "path": ".cache/reference-sources/pokegreen-v1/constants/charmap.asm",
+        "sha256": "0b4adbe558c2d8de8e88563fa302dea41021dd62c4b257f833426ee97b8213b7"
+      },
+      "hits": [
+        {
+          "line": 266,
+          "text": "\tcharmap \"？\", $e6"
+        }
+      ],
+      "bank": {
+        "path": ".cache/m3-japanese-glyph-banks-v2/red-green-jp-glyphs.json",
+        "sha256": "1259845b81e38d7139d7f660754fc992093423ed05742cbcecd711c377cbf54c"
+      },
+      "templates": [
+        {
+          "sourceId": "red-green-jp",
+          "profile": "main",
+          "tile": 230,
+          "darkInkHex": "1818001873e77e00",
+          "aliases": [
+            "？"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blue-jp",
+      "commit": "69cd1814203dd24533c46af383d7cff5591aea90",
+      "charmap": {
+        "path": ".cache/reference-sources/pokeblue-v1/constants/charmap.asm",
+        "sha256": "9d0f9afc987ede2e1b3725866163f82bf70afb2cea4d4cd03c03d5844e777bac"
+      },
+      "hits": [
+        {
+          "line": 268,
+          "text": "\tcharmap \"？\", $e6"
+        }
+      ],
+      "bank": {
+        "path": ".cache/m3-japanese-glyph-banks-v2/blue-jp-glyphs.json",
+        "sha256": "39387c6782a97f09faa5d3c9daaa56b17cf903a771872457125ced46ca357897"
+      },
+      "templates": [
+        {
+          "sourceId": "blue-jp",
+          "profile": "main",
+          "tile": 230,
+          "darkInkHex": "1818001873e77e00",
+          "aliases": [
+            "？"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yellow-jp",
+      "commit": "f282e72ae26232790fdb780aa5a5db7ec8ebf572",
+      "charmap": {
+        "path": ".cache/reference-sources/pokeyellow-jp-v1/constants/charmap.asm",
+        "sha256": "b20cc1b61f8d5cf0b3556bb3414d13b44cf205e552680039c93f3171fa9fa247"
+      },
+      "hits": [
+        {
+          "line": 268,
+          "text": "\tcharmap \"？\", $e6"
+        }
+      ],
+      "bank": {
+        "path": ".cache/m3-japanese-glyph-banks-v2/yellow-jp-glyphs.json",
+        "sha256": "a6fd0cc34a36b32929e3d1ebcd3119cfb2b971f8a10b6fb86188c3c1ec27ea3d"
+      },
+      "templates": [
+        {
+          "sourceId": "yellow-jp",
+          "profile": "main",
+          "tile": 230,
+          "darkInkHex": "1818001873e77e00",
+          "aliases": [
+            "？"
+          ]
+        }
+      ]
+    }
+  ],
+  "contracts": [
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/safari-warden-npc/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+      "textUnit": "UTF-8 NFC precomposed Japanese Unicode scalar values; U+0020 represents one blank glyph cell; U+FF01 exclamation. Keep small kana, numbers, punctuation and all spaces. No automatic normalization during scoring."
+    },
+    {
+      "path": "data/gt/frozen/ocr-trial-v2/ocr-scoring-contract-v1.json",
+      "sha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c",
+      "textUnit": "UTF-8 NFC precomposed Japanese Unicode scalar values; U+0020 represents one blank glyph cell; U+FF01 exclamation. Keep small kana, numbers, punctuation and all spaces. No automatic normalization during scoring."
+    }
+  ],
+  "displayBindings": {
+    "path": "resources/glyph-display-bindings-v1.json",
+    "sha256": "03f8802b6daec5a562f3a1e0c250177091aa20b4fc1ff3495c76568ad98f6657",
+    "convention": "U+003F one visible question glyph"
+  },
+  "affected": [
+    {
+      "id": "pc-deposit-navigation",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/ocr-candidate-v3.jsonl",
+        "sha256": "9c47b795bbcc581f24875e46618328999f3316aa5f0ea59a53bca1b15d58e356"
+      },
+      "occurrences": [
+        {
+          "start": 1634,
+          "end": 1638,
+          "kind": "menu_complete",
+          "role": "pc_prompt",
+          "readingOrder": 4,
+          "gridRect": [
+            1,
+            14,
+            10,
+            15
+          ],
+          "text": "なにを しますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1638,
+          "end": 1649,
+          "kind": "menu_complete",
+          "role": "pc_prompt",
+          "readingOrder": 4,
+          "gridRect": [
+            1,
+            14,
+            10,
+            15
+          ],
+          "text": "なにを しますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1659,
+          "end": 1660,
+          "kind": "submenu_partial_redraw",
+          "role": "pc_prompt",
+          "readingOrder": 7,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1660,
+          "end": 1661,
+          "kind": "submenu_cursor_loading",
+          "role": "pc_prompt",
+          "readingOrder": 8,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1661,
+          "end": 1673,
+          "kind": "menu_complete",
+          "role": "pc_prompt",
+          "readingOrder": 8,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1673,
+          "end": 1674,
+          "kind": "cursor_transition",
+          "role": "pc_prompt",
+          "readingOrder": 8,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1674,
+          "end": 1688,
+          "kind": "menu_complete",
+          "role": "pc_prompt",
+          "readingOrder": 8,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1688,
+          "end": 1689,
+          "kind": "dual_cursor_transition",
+          "role": "pc_prompt",
+          "readingOrder": 8,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1689,
+          "end": 1697,
+          "kind": "menu_complete",
+          "role": "pc_prompt",
+          "readingOrder": 8,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1697,
+          "end": 1698,
+          "kind": "scroll_partial_redraw",
+          "role": "pc_prompt",
+          "readingOrder": 10,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1698,
+          "end": 1706,
+          "kind": "menu_complete",
+          "role": "pc_prompt",
+          "readingOrder": 10,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1706,
+          "end": 1707,
+          "kind": "scroll_duplicate_row",
+          "role": "pc_prompt",
+          "readingOrder": 10,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1707,
+          "end": 1708,
+          "kind": "cursor_transition",
+          "role": "pc_prompt",
+          "readingOrder": 10,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1708,
+          "end": 1714,
+          "kind": "menu_complete",
+          "role": "pc_prompt",
+          "readingOrder": 10,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1714,
+          "end": 1716,
+          "kind": "cursor_transition",
+          "role": "pc_prompt",
+          "readingOrder": 10,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1716,
+          "end": 1724,
+          "kind": "menu_complete",
+          "role": "pc_prompt",
+          "readingOrder": 10,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1724,
+          "end": 1725,
+          "kind": "scroll_partial_redraw",
+          "role": "pc_prompt",
+          "readingOrder": 8,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1725,
+          "end": 1731,
+          "kind": "menu_complete",
+          "role": "pc_prompt",
+          "readingOrder": 10,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1731,
+          "end": 1732,
+          "kind": "submenu_partial_closing",
+          "role": "pc_prompt",
+          "readingOrder": 7,
+          "gridRect": [
+            1,
+            14,
+            12,
+            15
+          ],
+          "text": "なにを あずけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1736,
+          "end": 1737,
+          "kind": "cursor_transition",
+          "role": "pc_prompt",
+          "readingOrder": 4,
+          "gridRect": [
+            1,
+            14,
+            10,
+            15
+          ],
+          "text": "なにを しますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1737,
+          "end": 1747,
+          "kind": "menu_complete",
+          "role": "pc_prompt",
+          "readingOrder": 4,
+          "gridRect": [
+            1,
+            14,
+            10,
+            15
+          ],
+          "text": "なにを しますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "shop-sell-entry",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/shop-sell-entry/ocr-candidate-v1.jsonl",
+        "sha256": "16fec5d23dd48b57daa2899e94733121e592feebd3930a5dcaa7513f4cdcadc7"
+      },
+      "occurrences": [
+        {
+          "start": 1044,
+          "end": 1048,
+          "kind": "menu_complete",
+          "role": "shop_prompt",
+          "readingOrder": 6,
+          "gridRect": [
+            1,
+            16,
+            14,
+            17
+          ],
+          "text": "おちからに なれることは？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1048,
+          "end": 1056,
+          "kind": "menu_complete",
+          "role": "shop_prompt",
+          "readingOrder": 6,
+          "gridRect": [
+            1,
+            16,
+            14,
+            17
+          ],
+          "text": "おちからに なれることは？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1056,
+          "end": 1057,
+          "kind": "submenu_opening",
+          "role": "shop_prompt",
+          "readingOrder": 6,
+          "gridRect": [
+            1,
+            16,
+            14,
+            17
+          ],
+          "text": "おちからに なれることは？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1063,
+          "end": 1068,
+          "kind": "money_temporarily_cleared",
+          "role": "shop_prompt",
+          "readingOrder": 4,
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ],
+          "text": "どれを うっていただけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1068,
+          "end": 1069,
+          "kind": "submenu_partial_redraw",
+          "role": "shop_prompt",
+          "readingOrder": 7,
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ],
+          "text": "どれを うっていただけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1069,
+          "end": 1070,
+          "kind": "submenu_cursor_loading",
+          "role": "shop_prompt",
+          "readingOrder": 9,
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ],
+          "text": "どれを うっていただけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1070,
+          "end": 1082,
+          "kind": "menu_complete",
+          "role": "shop_prompt",
+          "readingOrder": 9,
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ],
+          "text": "どれを うっていただけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1082,
+          "end": 1092,
+          "kind": "menu_complete",
+          "role": "shop_prompt",
+          "readingOrder": 9,
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ],
+          "text": "どれを うっていただけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1092,
+          "end": 1096,
+          "kind": "menu_complete",
+          "role": "shop_prompt",
+          "readingOrder": 9,
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ],
+          "text": "どれを うっていただけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1096,
+          "end": 1102,
+          "kind": "menu_complete",
+          "role": "shop_prompt",
+          "readingOrder": 9,
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ],
+          "text": "どれを うっていただけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "shop-rejection",
+      "gt": {
+        "path": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/ocr-candidate-v2.jsonl",
+        "sha256": "2c44d8e75b2df9b2f10400a05ade9ed596e0f11202fa2fe7632b821d235e05b8"
+      },
+      "occurrences": [
+        {
+          "start": 1408,
+          "end": 1413,
+          "kind": "menu_complete",
+          "role": "shop_message",
+          "readingOrder": 9,
+          "gridRect": [
+            1,
+            14,
+            16,
+            15
+          ],
+          "text": "どれを うっていただけますか？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "shop-exit",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/ocr-candidate-v2.jsonl",
+        "sha256": "cb90c6276d9905227add176e828943ffd5874c5c8d5e15f14e9cfafe73f4db7f"
+      },
+      "occurrences": [
+        {
+          "start": 1450,
+          "end": 1451,
+          "kind": "complete_waiting",
+          "role": "dialogue_line",
+          "readingOrder": 6,
+          "gridRect": [
+            1,
+            16,
+            14,
+            17
+          ],
+          "text": "おちからに なれることは？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        },
+        {
+          "start": 1451,
+          "end": 1462,
+          "kind": "complete_waiting",
+          "role": "dialogue_line",
+          "readingOrder": 6,
+          "gridRect": [
+            1,
+            16,
+            14,
+            17
+          ],
+          "text": "おちからに なれることは？",
+          "codepoint": "U+FF1F",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "bill-data-npc",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/ocr-candidate-v1.jsonl",
+        "sha256": "bf7c51523e8cb289cda981028fe23631d4aae6c2457714fbe51867111dee607e"
+      },
+      "occurrences": [
+        {
+          "start": 4627,
+          "end": 4648,
+          "kind": "message_complete",
+          "role": "dialogue",
+          "readingOrder": 0,
+          "gridRect": [
+            1,
+            14,
+            10,
+            15
+          ],
+          "text": "みせて もらった?",
+          "codepoint": "U+3F",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "bill-grandfather",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-candidate-v1.jsonl",
+        "sha256": "5362eadf83cc85226ea42d979154c7456bcbd45594c18a4b905d2928bc74b0a5"
+      },
+      "occurrences": [
+        {
+          "start": 4717,
+          "end": 4718,
+          "kind": "message_loading",
+          "role": "dialogue",
+          "readingOrder": 0,
+          "gridRect": [
+            1,
+            14,
+            6,
+            15
+          ],
+          "text": "おや? あ",
+          "codepoint": "U+3F",
+          "count": 1
+        },
+        {
+          "start": 4718,
+          "end": 4719,
+          "kind": "message_loading",
+          "role": "dialogue",
+          "readingOrder": 0,
+          "gridRect": [
+            1,
+            14,
+            8,
+            15
+          ],
+          "text": "おや? あんた",
+          "codepoint": "U+3F",
+          "count": 1
+        },
+        {
+          "start": 4719,
+          "end": 4721,
+          "kind": "message_loading",
+          "role": "dialogue",
+          "readingOrder": 0,
+          "gridRect": [
+            1,
+            14,
+            8,
+            15
+          ],
+          "text": "おや? あんた",
+          "codepoint": "U+3F",
+          "count": 1
+        },
+        {
+          "start": 4721,
+          "end": 4722,
+          "kind": "message_loading",
+          "role": "dialogue",
+          "readingOrder": 0,
+          "gridRect": [
+            1,
+            14,
+            8,
+            15
+          ],
+          "text": "おや? あんた",
+          "codepoint": "U+3F",
+          "count": 1
+        },
+        {
+          "start": 4722,
+          "end": 4723,
+          "kind": "message_loading",
+          "role": "dialogue",
+          "readingOrder": 0,
+          "gridRect": [
+            1,
+            14,
+            8,
+            15
+          ],
+          "text": "おや? あんた",
+          "codepoint": "U+3F",
+          "count": 1
+        },
+        {
+          "start": 4723,
+          "end": 4724,
+          "kind": "message_loading",
+          "role": "dialogue",
+          "readingOrder": 0,
+          "gridRect": [
+            1,
+            14,
+            8,
+            15
+          ],
+          "text": "おや? あんた",
+          "codepoint": "U+3F",
+          "count": 1
+        },
+        {
+          "start": 4724,
+          "end": 4726,
+          "kind": "message_loading",
+          "role": "dialogue",
+          "readingOrder": 0,
+          "gridRect": [
+            1,
+            14,
+            8,
+            15
+          ],
+          "text": "おや? あんた",
+          "codepoint": "U+3F",
+          "count": 1
+        },
+        {
+          "start": 4726,
+          "end": 4740,
+          "kind": "message_complete",
+          "role": "dialogue",
+          "readingOrder": 0,
+          "gridRect": [
+            1,
+            14,
+            8,
+            15
+          ],
+          "text": "おや? あんた",
+          "codepoint": "U+3F",
+          "count": 1
+        },
+        {
+          "start": 4726,
+          "end": 4740,
+          "kind": "message_complete",
+          "role": "dialogue",
+          "readingOrder": 1,
+          "gridRect": [
+            1,
+            16,
+            18,
+            17
+          ],
+          "text": "マサキの ことを しっとるのかね?",
+          "codepoint": "U+3F",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "museum-question",
+      "gt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/museum-question/ocr-candidate-v1.jsonl",
+        "sha256": "b6d476e2cdadefd8a035fff77889875d4dca5c975e82db7f523ed1575c8da433"
+      },
+      "occurrences": [
+        {
+          "start": 3541,
+          "end": 3542,
+          "kind": "message_complete",
+          "role": "dialogue",
+          "readingOrder": 1,
+          "gridRect": [
+            1,
+            16,
+            15,
+            17
+          ],
+          "text": "はくぶつかん けんがくした?",
+          "codepoint": "U+3F",
+          "count": 1
+        },
+        {
+          "start": 3542,
+          "end": 3572,
+          "kind": "message_complete",
+          "role": "dialogue",
+          "readingOrder": 3,
+          "gridRect": [
+            1,
+            16,
+            15,
+            17
+          ],
+          "text": "はくぶつかん けんがくした?",
+          "codepoint": "U+3F",
+          "count": 1
+        },
+        {
+          "start": 3572,
+          "end": 3588,
+          "kind": "message_complete",
+          "role": "dialogue",
+          "readingOrder": 3,
+          "gridRect": [
+            1,
+            16,
+            15,
+            17
+          ],
+          "text": "はくぶつかん けんがくした?",
+          "codepoint": "U+3F",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "findings": [
+    "All pinned Japanese charmaps encode the question glyph as U+FF1F at tile E6.",
+    "The current display binding converts that tile to U+003F globally.",
+    "Frozen annotations contain both codepoints; their textUnit contract explicitly specifies space and exclamation but not question width.",
+    "Source Unicode spelling and display Unicode convention are distinct evidence. A pixel glyph alone does not prove which Unicode convention a prior annotator intended.",
+    "No basis to choose a different convention per clip or alter the comparator. No automatic GT rewrite or claim of high-confidence glyph correction."
+  ],
+  "next": "Preserve question-codepoint failures pending a consistent explicit contract decision; continue an independent original-pixel discrepancy.",
+  "checker": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\audit-question-encoding.cjs",
+    "sha256": "0303f9db4e434c0d1124d8543cc438fc2fc659b51682ca04a2e3ec009eebecd3"
+  }
+}

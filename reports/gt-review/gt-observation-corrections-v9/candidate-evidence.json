@@ -1,0 +1,858 @@
+{
+  "status": "candidate_only_not_effective",
+  "authority": "如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论",
+  "base": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r10/freeze.json",
+    "sha256": "fd098d60c720dfad568475d6ee16ba71e5338e9faa22982c80cf5b6590b6ace2"
+  },
+  "priorExplicitApproval": {
+    "path": "data/gt/frozen/ocr-shop-metadata-r2/freeze.json",
+    "sha256": "141777e5b8c357239135450bdedd2adf43d9dd5ca35f1914f956a9f23422f016"
+  },
+  "reference": {
+    "gt": {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/ocr-candidate-v2.jsonl",
+      "sha256": "cb90c6276d9905227add176e828943ffd5874c5c8d5e15f14e9cfafe73f4db7f"
+    },
+    "frame": 1450
+  },
+  "oldGt": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2/shop-sell-entry/ocr-candidate-v1.jsonl",
+    "sha256": "16fec5d23dd48b57daa2899e94733121e592feebd3930a5dcaa7513f4cdcadc7"
+  },
+  "candidate": {
+    "path": "data/gt/candidates/ocr-observation-corrections-v9/shop-sell-entry/ocr-candidate-parent-role-v1.jsonl",
+    "sha256": "553c62dc97c6e2a0925d8b1625b5c6f67792e92c66337db60206a5b3befa975b"
+  },
+  "changes": [
+    {
+      "start": 1044,
+      "end": 1048,
+      "id": "money-label",
+      "before": {
+        "role": "money_label",
+        "readingOrder": 3
+      },
+      "after": {
+        "role": "shop_money_label",
+        "readingOrder": 0
+      }
+    },
+    {
+      "start": 1044,
+      "end": 1048,
+      "id": "buy",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 0
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 1
+      }
+    },
+    {
+      "start": 1044,
+      "end": 1048,
+      "id": "money-value",
+      "before": {
+        "role": "money",
+        "readingOrder": 4
+      },
+      "after": {
+        "role": "money_amount",
+        "readingOrder": 2
+      }
+    },
+    {
+      "start": 1044,
+      "end": 1048,
+      "id": "sell",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 1
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 3
+      }
+    },
+    {
+      "start": 1044,
+      "end": 1048,
+      "id": "leave",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 2
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 4
+      }
+    },
+    {
+      "start": 1044,
+      "end": 1048,
+      "id": "prompt-0",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 5
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 5
+      }
+    },
+    {
+      "start": 1044,
+      "end": 1048,
+      "id": "prompt-1",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 6
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 6
+      }
+    },
+    {
+      "start": 1048,
+      "end": 1056,
+      "id": "money-label",
+      "before": {
+        "role": "money_label",
+        "readingOrder": 3
+      },
+      "after": {
+        "role": "shop_money_label",
+        "readingOrder": 0
+      }
+    },
+    {
+      "start": 1048,
+      "end": 1056,
+      "id": "buy",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 0
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 1
+      }
+    },
+    {
+      "start": 1048,
+      "end": 1056,
+      "id": "money-value",
+      "before": {
+        "role": "money",
+        "readingOrder": 4
+      },
+      "after": {
+        "role": "money_amount",
+        "readingOrder": 2
+      }
+    },
+    {
+      "start": 1048,
+      "end": 1056,
+      "id": "sell",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 1
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 3
+      }
+    },
+    {
+      "start": 1048,
+      "end": 1056,
+      "id": "leave",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 2
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 4
+      }
+    },
+    {
+      "start": 1048,
+      "end": 1056,
+      "id": "prompt-0",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 5
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 5
+      }
+    },
+    {
+      "start": 1048,
+      "end": 1056,
+      "id": "prompt-1",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 6
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 6
+      }
+    },
+    {
+      "start": 1056,
+      "end": 1057,
+      "id": "money-label",
+      "before": {
+        "role": "money_label",
+        "readingOrder": 3
+      },
+      "after": {
+        "role": "shop_money_label",
+        "readingOrder": 0
+      }
+    },
+    {
+      "start": 1056,
+      "end": 1057,
+      "id": "buy",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 0
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 1
+      }
+    },
+    {
+      "start": 1056,
+      "end": 1057,
+      "id": "money-value",
+      "before": {
+        "role": "money",
+        "readingOrder": 4
+      },
+      "after": {
+        "role": "money_amount",
+        "readingOrder": 2
+      }
+    },
+    {
+      "start": 1056,
+      "end": 1057,
+      "id": "sell",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 1
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 3
+      }
+    },
+    {
+      "start": 1056,
+      "end": 1057,
+      "id": "leave",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 2
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 4
+      }
+    },
+    {
+      "start": 1056,
+      "end": 1057,
+      "id": "prompt-0",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 5
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 5
+      }
+    },
+    {
+      "start": 1056,
+      "end": 1057,
+      "id": "prompt-1",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 6
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 6
+      }
+    },
+    {
+      "start": 1057,
+      "end": 1058,
+      "id": "money-label",
+      "before": {
+        "role": "money_label",
+        "readingOrder": 3
+      },
+      "after": {
+        "role": "shop_money_label",
+        "readingOrder": 0
+      }
+    },
+    {
+      "start": 1057,
+      "end": 1058,
+      "id": "buy",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 0
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 1
+      }
+    },
+    {
+      "start": 1057,
+      "end": 1058,
+      "id": "money-value",
+      "before": {
+        "role": "money",
+        "readingOrder": 4
+      },
+      "after": {
+        "role": "money_amount",
+        "readingOrder": 2
+      }
+    },
+    {
+      "start": 1057,
+      "end": 1058,
+      "id": "sell",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 1
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 3
+      }
+    },
+    {
+      "start": 1057,
+      "end": 1058,
+      "id": "leave",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 2
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 4
+      }
+    },
+    {
+      "start": 1058,
+      "end": 1059,
+      "id": "money-label",
+      "before": {
+        "role": "money_label",
+        "readingOrder": 3
+      },
+      "after": {
+        "role": "shop_money_label",
+        "readingOrder": 0
+      }
+    },
+    {
+      "start": 1058,
+      "end": 1059,
+      "id": "buy",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 0
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 1
+      }
+    },
+    {
+      "start": 1058,
+      "end": 1059,
+      "id": "money-value",
+      "before": {
+        "role": "money",
+        "readingOrder": 4
+      },
+      "after": {
+        "role": "money_amount",
+        "readingOrder": 2
+      }
+    },
+    {
+      "start": 1058,
+      "end": 1059,
+      "id": "sell",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 1
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 3
+      }
+    },
+    {
+      "start": 1058,
+      "end": 1059,
+      "id": "leave",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 2
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 4
+      }
+    },
+    {
+      "start": 1058,
+      "end": 1059,
+      "id": "prompt-0",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 5
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 5
+      }
+    },
+    {
+      "start": 1059,
+      "end": 1060,
+      "id": "money-label",
+      "before": {
+        "role": "money_label",
+        "readingOrder": 3
+      },
+      "after": {
+        "role": "shop_money_label",
+        "readingOrder": 0
+      }
+    },
+    {
+      "start": 1059,
+      "end": 1060,
+      "id": "buy",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 0
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 1
+      }
+    },
+    {
+      "start": 1059,
+      "end": 1060,
+      "id": "money-value",
+      "before": {
+        "role": "money",
+        "readingOrder": 4
+      },
+      "after": {
+        "role": "money_amount",
+        "readingOrder": 2
+      }
+    },
+    {
+      "start": 1059,
+      "end": 1060,
+      "id": "sell",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 1
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 3
+      }
+    },
+    {
+      "start": 1059,
+      "end": 1060,
+      "id": "leave",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 2
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 4
+      }
+    },
+    {
+      "start": 1059,
+      "end": 1060,
+      "id": "prompt-0",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 5
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 5
+      }
+    },
+    {
+      "start": 1060,
+      "end": 1062,
+      "id": "money-label",
+      "before": {
+        "role": "money_label",
+        "readingOrder": 3
+      },
+      "after": {
+        "role": "shop_money_label",
+        "readingOrder": 0
+      }
+    },
+    {
+      "start": 1060,
+      "end": 1062,
+      "id": "buy",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 0
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 1
+      }
+    },
+    {
+      "start": 1060,
+      "end": 1062,
+      "id": "money-value",
+      "before": {
+        "role": "money",
+        "readingOrder": 4
+      },
+      "after": {
+        "role": "money_amount",
+        "readingOrder": 2
+      }
+    },
+    {
+      "start": 1060,
+      "end": 1062,
+      "id": "sell",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 1
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 3
+      }
+    },
+    {
+      "start": 1060,
+      "end": 1062,
+      "id": "leave",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 2
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 4
+      }
+    },
+    {
+      "start": 1060,
+      "end": 1062,
+      "id": "prompt-0",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 5
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 5
+      }
+    },
+    {
+      "start": 1062,
+      "end": 1063,
+      "id": "money-label",
+      "before": {
+        "role": "money_label",
+        "readingOrder": 3
+      },
+      "after": {
+        "role": "shop_money_label",
+        "readingOrder": 0
+      }
+    },
+    {
+      "start": 1062,
+      "end": 1063,
+      "id": "buy",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 0
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 1
+      }
+    },
+    {
+      "start": 1062,
+      "end": 1063,
+      "id": "money-value",
+      "before": {
+        "role": "money",
+        "readingOrder": 4
+      },
+      "after": {
+        "role": "money_amount",
+        "readingOrder": 2
+      }
+    },
+    {
+      "start": 1062,
+      "end": 1063,
+      "id": "sell",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 1
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 3
+      }
+    },
+    {
+      "start": 1062,
+      "end": 1063,
+      "id": "leave",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 2
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 4
+      }
+    },
+    {
+      "start": 1062,
+      "end": 1063,
+      "id": "prompt-0",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 5
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 5
+      }
+    },
+    {
+      "start": 1063,
+      "end": 1068,
+      "id": "money-label",
+      "before": {
+        "role": "money_label",
+        "readingOrder": 3
+      },
+      "after": {
+        "role": "shop_money_label",
+        "readingOrder": 0
+      }
+    },
+    {
+      "start": 1063,
+      "end": 1068,
+      "id": "buy",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 0
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 1
+      }
+    },
+    {
+      "start": 1063,
+      "end": 1068,
+      "id": "sell",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 1
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 2
+      }
+    },
+    {
+      "start": 1063,
+      "end": 1068,
+      "id": "leave",
+      "before": {
+        "role": "menu_label",
+        "readingOrder": 2
+      },
+      "after": {
+        "role": "shop_menu_choice",
+        "readingOrder": 3
+      }
+    },
+    {
+      "start": 1063,
+      "end": 1068,
+      "id": "prompt-0",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 4
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 4
+      }
+    },
+    {
+      "start": 1068,
+      "end": 1069,
+      "id": "prompt-0",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 7
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 7
+      }
+    },
+    {
+      "start": 1069,
+      "end": 1070,
+      "id": "prompt-0",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 9
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 9
+      }
+    },
+    {
+      "start": 1070,
+      "end": 1082,
+      "id": "prompt-0",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 9
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 9
+      }
+    },
+    {
+      "start": 1082,
+      "end": 1092,
+      "id": "prompt-0",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 9
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 9
+      }
+    },
+    {
+      "start": 1092,
+      "end": 1096,
+      "id": "prompt-0",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 9
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 9
+      }
+    },
+    {
+      "start": 1096,
+      "end": 1102,
+      "id": "prompt-0",
+      "before": {
+        "role": "shop_prompt",
+        "readingOrder": 9
+      },
+      "after": {
+        "role": "dialogue_line",
+        "readingOrder": 9
+      }
+    }
+  ],
+  "affectedFrames": 58,
+  "parentFrames": 24,
+  "continuousMessageOnlyAfter": 1068,
+  "evidence": [
+    {
+      "path": "reports/m3-grid-refinement-v1/shop-sell-contract-notes-v1/pass1.json",
+      "sha256": "17a8db673f3d5440ca2cc248fe5c7131a9c4bf172987c29e6dfdb502edf18ab9"
+    },
+    {
+      "path": "data\\frames\\video-03\\all-scenes-shop-sell-entry-pass2-v1\\verification.json",
+      "sha256": "fbc61522683510bea3ad567466420800c1658de170845d47b1f262d7a496cb44"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/shop-sell-contract-pass1-sheets-v1/report.json",
+      "sha256": "b66c1603791a453f1a42192479b893a7dcfd1c1bd9e2694ce105566fac95bc79"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/shop-sell-contract-notes-v1/pass2.json",
+      "sha256": "b8a2ac43357d088a8141086f91ee821b78b1ce2f47929f790c6654f44bc144af"
+    },
+    {
+      "path": "data\\frames\\video-03\\shop-sell-contract-pass2-v1\\verification.json",
+      "sha256": "fbc61522683510bea3ad567466420800c1658de170845d47b1f262d7a496cb44"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/shop-sell-contract-pass2-sheets-v1/report.json",
+      "sha256": "045c0ff43903af304c0aa50c13ff4331bbe0772298fcc139d61c863697bf16ce"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/shop-dialogue-role-notes-v1/extraction-and-pass-check.json",
+      "sha256": "276877a17df7cc501d660c167e013ae69441215bdd6e5a5e06b2c97984894ec0"
+    }
+  ],
+  "rationale": "Same physical full parent fields use the explicitly approved legacy shop convention. The unchanged sell question retains that role across an overlay, as established by complete original-frame double reading. English role names are a canonical contract choice anchored in prior approval, not a glyph fact. Partial and complete list fields are separate layout contracts. No actual output or score selected this convention.",
+  "unchanged": "All text/Unicode, variable metadata, rectangles, marks, cursors, kinds, page opportunities, frame/PTS boundaries and scoring keys/rules. Other37 entries unchanged. No question-encoding change.",
+  "productAcceptance": false
+}

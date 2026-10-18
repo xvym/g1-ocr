@@ -1,0 +1,41 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] g1-ocr                                                             [pom]
+[INFO] g1-ocr-app                                                         [jar]
+[INFO] g1-ocr-verification                                                [jar]
+[INFO] 
+[INFO] -----------------------< io.github.g1ocr:g1-ocr >-----------------------
+[INFO] Building g1-ocr 0.1.0-SNAPSHOT                                     [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] ---------------------< io.github.g1ocr:g1-ocr-app >---------------------
+[INFO] Building g1-ocr-app 0.1.0-SNAPSHOT                                 [2/3]
+[INFO]   from app\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Artifact org.apache.maven.plugins:maven-resources-plugin:pom:3.3.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyun (https://maven.aliyun.com/repository/public, default, releases)]
+[WARNING] The POM for org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1 is missing, no dependency information available
+[INFO] Artifact org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [aliyun (https://maven.aliyun.com/repository/public, default, releases)]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for g1-ocr 0.1.0-SNAPSHOT:
+[INFO] 
+[INFO] g1-ocr ............................................. SUCCESS [  0.003 s]
+[INFO] g1-ocr-app ......................................... FAILURE [  0.032 s]
+[INFO] g1-ocr-verification ................................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.168 s
+[INFO] Finished at: 2026-10-17T01:36:41+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Plugin org.apache.maven.plugins:maven-resources-plugin:3.3.1 or one of its dependencies could not be resolved:
+[ERROR] 	Cannot access aliyun (https://maven.aliyun.com/repository/public) in offline mode and the artifact org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1 has not been downloaded from it before.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException

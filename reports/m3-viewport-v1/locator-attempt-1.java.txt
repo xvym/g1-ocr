@@ -1,0 +1,165 @@
+package io.github.g1ocr.ocr;
+
+import io.github.g1ocr.capture.SourceFrame;
+import java.util.*;
+
+/** Pixel-only, bounded monochrome viewport proposal. No text, file or corpus access. */
+public final class GameViewportLocator {
+    public static final int LOGICAL_WIDTH = 160, LOGICAL_HEIGHT = 144;
+    public enum Status { LOCATED, NO_SIGNAL, NO_GRID, AMBIGUOUS }
+
+    /** Normal user settings, independent of any recording or scoring set. */
+    public static final class Config {
+        public final int colorTolerance;
+        public final double minimumScale, maximumScale;
+        public Config(int colorTolerance, double minimumScale, double maximumScale) {
+            if (colorTolerance < 1 || colorTolerance > 48 || minimumScale < 1
+                    || maximumScale < minimumScale || maximumScale > 32)
+                throw new IllegalArgumentException("Invalid viewport configuration");
+            this.colorTolerance=colorTolerance; this.minimumScale=minimumScale; this.maximumScale=maximumScale;
+        }
+        public static Config defaults() { return new Config(22, 1, 16); }
+    }
+
+    public static final class Result {
+        public final Status status;
+        public final long pts;
+        public final double originX, originY, scaleX, scaleY, gridStrengthX, gridStrengthY;
+        private final int[] envelope;
+        private Result(Status status,long pts,int[] envelope,double ox,double oy,double sx,double sy,double gx,double gy) {
+            this.status=status;this.pts=pts;this.envelope=envelope.clone();originX=ox;originY=oy;
+            scaleX=sx;scaleY=sy;gridStrengthX=gx;gridStrengthY=gy;
+        }
+        public int[] copyEnvelope() { return envelope.clone(); }
+        public int[] sourceRectangle() {
+            if(status!=Status.LOCATED)throw new IllegalStateException("No located grid");
+            return project(0,0,LOGICAL_WIDTH,LOGICAL_HEIGHT);
+        }
+        /** Half-open coverage, floor at starts and ceil at ends. */
+        public int[] project(int left,int top,int right,int bottom) {
+            if(status!=Status.LOCATED || left<0 || top<0 || right<=left || bottom<=top || right>160 || bottom>144)
+                throw new IllegalArgumentException("Invalid or unavailable logical rectangle");
+            return new int[]{floor(originX+left*scaleX),floor(originY+top*scaleY),
+                    ceil(originX+right*scaleX),ceil(originY+bottom*scaleY)};
+        }
+        private static int floor(double x){return (int)Math.floor(x+1e-7);}
+        private static int ceil(double x){return (int)Math.ceil(x-1e-7);}
+    }
+
+    private final Config config;
+    public GameViewportLocator(){this(Config.defaults());}
+    public GameViewportLocator(Config config){this.config=Objects.requireNonNull(config);}
+
+    public Result locate(SourceFrame frame) {
+        Objects.requireNonNull(frame);
+        int w=frame.getWidth(),h=frame.getHeight(),n=w*h;
+        // A processing bound, not an image resample. Reject instead of exhausting memory.
+        if(n>4096*2160)throw new IllegalArgumentException("Frame exceeds locator pixel limit");
+        byte[] rgb=frame.copyRgb();int[] hist=new int[32768];int signal=0;
+        int[] luma=new int[n];
+        for(int i=0;i<n;i++) {
+            int r=rgb[i*3]&255,g=rgb[i*3+1]&255,b=rgb[i*3+2]&255;
+            luma[i]=(r+2*g+b)/4;
+            if(luma[i]>32)signal++;
+            if(luma[i]>=48 && Math.max(r,Math.max(g,b))-Math.min(r,Math.min(g,b))<80)
+                hist[(r>>3)<<10|(g>>3)<<5|(b>>3)]++;
+        }
+        if(signal<n/1000+1)return absent(Status.NO_SIGNAL,frame.getPts());
+        List<Box> boxes=new ArrayList<>();
+        boolean[] visited=new boolean[n];int[] queue=new int[n];
+        for(int trial=0;trial<6;trial++) {
+            int bin=0;for(int i=1;i<hist.length;i++)if(hist[i]>hist[bin])bin=i;
+            if(hist[bin]<n/100)break;
+            int cr=((bin>>10)&31)*8+4,cg=((bin>>5)&31)*8+4,cb=(bin&31)*8+4;
+            // Nearby bins describe the same broad background, not independent candidates.
+            for(int i=0;i<hist.length;i++)if(Math.abs(((i>>10)&31)*8+4-cr)<=config.colorTolerance
+                    && Math.abs(((i>>5)&31)*8+4-cg)<=config.colorTolerance
+                    && Math.abs((i&31)*8+4-cb)<=config.colorTolerance)hist[i]=0;
+            Arrays.fill(visited,false);
+            // Text strokes can split the background into disconnected islands.
+            // Column/row support supplies an additional envelope without filling dark glyphs.
+            int[] columns=new int[w];
+            for(int at=0;at<n;at++)if(near(rgb,at,cr,cg,cb,config.colorTolerance))columns[at%w]++;
+            for(int begin=0;begin<w;) {
+                while(begin<w && columns[begin]<144*config.minimumScale*.2)begin++;
+                int finish=begin;while(finish<w && columns[finish]>=144*config.minimumScale*.2)finish++;
+                if(finish-begin>=160*config.minimumScale) {
+                    int top=-1,bottom=-1;
+                    for(int y=0;y<h;y++) {
+                        int count=0;for(int x=begin;x<finish;x++)if(near(rgb,y*w+x,cr,cg,cb,config.colorTolerance))count++;
+                        if(count>(finish-begin)*.3){if(top<0)top=y;bottom=y+1;}
+                    }
+                    if(top>=0)addBox(boxes,new Box(begin,top,finish,bottom,0));
+                }
+                begin=Math.max(finish,begin+1);
+            }
+            for(int i=0;i<n;i++) {
+                if(visited[i] || !near(rgb,i,cr,cg,cb,config.colorTolerance))continue;
+                int head=0,tail=1;queue[0]=i;visited[i]=true;
+                int left=w,top=h,right=0,bottom=0;
+                while(head<tail) {
+                    int at=queue[head++],x=at%w,y=at/w;
+                    left=Math.min(left,x);right=Math.max(right,x+1);top=Math.min(top,y);bottom=Math.max(bottom,y+1);
+                    if(x>0)tail=offer(at-1,rgb,cr,cg,cb,visited,queue,tail);
+                    if(x+1<w)tail=offer(at+1,rgb,cr,cg,cb,visited,queue,tail);
+                    if(y>0)tail=offer(at-w,rgb,cr,cg,cb,visited,queue,tail);
+                    if(y+1<h)tail=offer(at+w,rgb,cr,cg,cb,visited,queue,tail);
+                }
+                int bw=right-left,bh=bottom-top;
+                if(bw<160*config.minimumScale || bh<144*config.minimumScale || bw>168*config.maximumScale
+                        || bh>152*config.maximumScale || bw/(double)bh<.98 || bw/(double)bh>1.25
+                        || tail/(double)(bw*bh)<.24)continue;
+                Box box=new Box(left,top,right,bottom,tail);
+                addBox(boxes,box);
+            }
+        }
+        if(boxes.isEmpty())return absent(Status.NO_GRID,frame.getPts());
+        boxes.sort((a,b)->Integer.compare(b.area(),a.area()));Box box=boxes.get(0);
+        if(boxes.size()>1 && boxes.get(1).area()>box.area()*.65 && box.overlap(boxes.get(1))<.5)
+            return absent(Status.AMBIGUOUS,frame.getPts());
+        double[] xe=new double[w],ye=new double[h];int edges=0;
+        // Gradients inside the palette envelope, excluding its decorative boundary.
+        for(int y=box.t+3;y<box.b-3;y++)for(int x=box.l+3;x<box.r-3;x++) {
+            int p=y*w+x,dx=Math.abs(luma[p]-luma[p-1]),dy=Math.abs(luma[p]-luma[p-w]);
+            if(dx>=12){xe[x]+=dx-11;edges++;}if(dy>=12){ye[y]+=dy-11;edges++;}
+        }
+        if(edges<100)return new Result(Status.NO_GRID,frame.getPts(),box.rect(),0,0,0,0,0,0);
+        Axis x=fit(xe,box.l,box.r,160),y=fit(ye,box.t,box.b,144);
+        Status status=x.strength>=.12 && y.strength>=.12?Status.LOCATED:Status.NO_GRID;
+        return new Result(status,frame.getPts(),box.rect(),x.origin,y.origin,x.scale,y.scale,x.strength,y.strength);
+    }
+    private int offer(int at,byte[] rgb,int r,int g,int b,boolean[] seen,int[] queue,int tail) {
+        if(!seen[at] && near(rgb,at,r,g,b,config.colorTolerance)){seen[at]=true;queue[tail++]=at;}return tail;
+    }
+    private static boolean near(byte[] rgb,int at,int r,int g,int b,int t){return Math.abs((rgb[at*3]&255)-r)<=t
+            && Math.abs((rgb[at*3+1]&255)-g)<=t && Math.abs((rgb[at*3+2]&255)-b)<=t;}
+    private static Result absent(Status status,long pts){return new Result(status,pts,new int[0],0,0,0,0,0,0);}
+    private void addBox(List<Box> boxes,Box box) {
+        int bw=box.r-box.l,bh=box.b-box.t;
+        if(bw<160*config.minimumScale || bh<144*config.minimumScale || bw>168*config.maximumScale || bh>152*config.maximumScale
+                || bw/(double)bh<.98 || bw/(double)bh>1.25)return;
+        for(Box other:boxes)if(box.overlap(other)>.9)return;boxes.add(box);
+    }
+    private static Axis fit(double[] edge,int start,int end,int logical) {
+        double sum=0;for(int i=start+3;i<end-3;i++)sum+=edge[i];
+        if(sum==0)return new Axis(0,0,0);
+        double best=-1,bestScale=0;
+        // Search raster spans in 1/8-source-pixel steps; pad is at most eight logical pixels.
+        for(double span=(end-start)*logical/(logical+8.0);span<=(end-start)*1.01;span+=.125) {
+            double scale=span/logical,real=0,imag=0,step=2*Math.PI/scale,cs=Math.cos(step),sn=Math.sin(step);
+            double c=Math.cos(3*step),s=Math.sin(3*step);
+            for(int i=start+3;i<end-3;i++){real+=edge[i]*c;imag+=edge[i]*s;double next=c*cs-s*sn;s=s*cs+c*sn;c=next;}
+            double strength=Math.hypot(real,imag)/sum;
+            if(strength>best){best=strength;bestScale=scale;}
+        }
+        // Raster extent is integer; retain independent X/Y scaling, including anamorphic input.
+        double span=Math.rint(bestScale*logical),scale=span/logical;
+        return new Axis(Math.rint((start+end-span)/2),scale,best);
+    }
+    private static final class Axis {final double origin,scale,strength;Axis(double o,double s,double g){origin=o;scale=s;strength=g;}}
+    private static final class Box {
+        final int l,t,r,b,pixels;Box(int l,int t,int r,int b,int p){this.l=l;this.t=t;this.r=r;this.b=b;pixels=p;}
+        int area(){return(r-l)*(b-t);}int[] rect(){return new int[]{l,t,r,b};}
+        double overlap(Box o){int intersection=Math.max(0,Math.min(r,o.r)-Math.max(l,o.l))*Math.max(0,Math.min(b,o.b)-Math.max(t,o.t));return intersection/(double)(area()+o.area()-intersection);}
+    }
+}

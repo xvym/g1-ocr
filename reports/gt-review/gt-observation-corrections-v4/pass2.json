@@ -1,0 +1,199 @@
+{
+  "status": "agent_original_image_read_not_human_certification",
+  "images": "reports/m3-grid-refinement-v1/authorized-correction-safari-warden-npc-pass2-sheets-v1",
+  "readSheets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "range": [
+    4445,
+    4528
+  ],
+  "disclosure": "Second complete ordered original-image reading of all 83 frames, sheets 000-013, after separate original-video export. Prior first-pass observations and diagnostic discrepancy known; actual and GT not opened during this reading. Same agent, not independent acceptance. Observed transitions and text agree with first pass; copied span representation after completing visual reading.",
+  "spans": [
+    [
+      4445,
+      4449,
+      [],
+      null
+    ],
+    [
+      4449,
+      4456,
+      [],
+      "empty textbox"
+    ],
+    [
+      4456,
+      4458,
+      [
+        "サファ"
+      ]
+    ],
+    [
+      4458,
+      4459,
+      [
+        "サファリ ゾ"
+      ]
+    ],
+    [
+      4459,
+      4460,
+      [
+        "サファリ ゾーンの"
+      ]
+    ],
+    [
+      4460,
+      4461,
+      [
+        "サファリ ゾーンの えん"
+      ]
+    ],
+    [
+      4461,
+      4463,
+      [
+        "サファリ ゾーンの えんちょう"
+      ]
+    ],
+    [
+      4463,
+      4464,
+      [
+        "サファリ ゾーンの えんちょう",
+        "おとし"
+      ]
+    ],
+    [
+      4464,
+      4465,
+      [
+        "サファリ ゾーンの えんちょう",
+        "おとし なの"
+      ]
+    ],
+    [
+      4465,
+      4466,
+      [
+        "サファリ ゾーンの えんちょう",
+        "おとし なのに す"
+      ]
+    ],
+    [
+      4466,
+      4468,
+      [
+        "サファリ ゾーンの えんちょう",
+        "おとし なのに すごく"
+      ]
+    ],
+    [
+      4468,
+      4469,
+      [
+        "サファリ ゾーンの えんちょう",
+        "おとし なのに すごく げんき"
+      ]
+    ],
+    [
+      4469,
+      4487,
+      [
+        "サファリ ゾーンの えんちょう",
+        "おとし なのに すごく げんきよ"
+      ],
+      "down arrow"
+    ],
+    [
+      4487,
+      4494,
+      [],
+      "clear textbox"
+    ],
+    [
+      4494,
+      4495,
+      [
+        "で"
+      ]
+    ],
+    [
+      4495,
+      4496,
+      [
+        "でも……"
+      ]
+    ],
+    [
+      4496,
+      4498,
+      [
+        "でも……「は」"
+      ]
+    ],
+    [
+      4498,
+      4499,
+      [
+        "でも……「は」は",
+        "ぜん"
+      ]
+    ],
+    [
+      4499,
+      4500,
+      [
+        "でも……「は」は",
+        "ぜんぶ い"
+      ]
+    ],
+    [
+      4500,
+      4501,
+      [
+        "でも……「は」は",
+        "ぜんぶ いれば"
+      ]
+    ],
+    [
+      4501,
+      4502,
+      [
+        "でも……「は」は",
+        "ぜんぶ いれば らしい"
+      ]
+    ],
+    [
+      4502,
+      4522,
+      [
+        "でも……「は」は",
+        "ぜんぶ いれば らしい けど"
+      ],
+      "no arrow"
+    ],
+    [
+      4522,
+      4528,
+      [],
+      "textbox removed"
+    ]
+  ],
+  "spacingObservation": "Second reading agrees: opening quote appears adjacent at the next glyph cell after two ellipsis cells; visible bearing alone is not proof of a full blank. Fixed-grid pixel check still required.",
+  "limitations": "No GT change; no assumption that a typographic-looking gap is an entire blank glyph cell."
+}

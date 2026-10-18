@@ -1,0 +1,91 @@
+{
+  "status": "all120_scoring_frames_compared_after_all124_frame_double_read",
+  "helper": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\prepare-pc-cursor-correction.cjs",
+    "sha256": "b37a73a06f77d0a42fa9273710a44bfc469527e4028fe759a9506877b623cd7b"
+  },
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r13/freeze.json",
+    "sha256": "83f59aad5b1af0d5b295bf70740309599ec5af065eb45367c6254af9e78f1ab2"
+  },
+  "payloads": [
+    {
+      "kind": "gt",
+      "path": "data/gt/candidates/ocr-observation-corrections-v5/pc-deposit-navigation/ocr-candidate-role-v1.jsonl",
+      "sha256": "bebe6893906bdae28249ab61ced31c69249bbcef7da626184867d43a3ff867c5",
+      "expectedSha256": "bebe6893906bdae28249ab61ced31c69249bbcef7da626184867d43a3ff867c5"
+    },
+    {
+      "kind": "clip",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/all-scenes-pc-deposit-navigation-clip-v3.json",
+      "sha256": "ac724207d567d698305f526c45ef60ab397611235e408977b98aea61c5c40aa0",
+      "expectedSha256": "ac724207d567d698305f526c45ef60ab397611235e408977b98aea61c5c40aa0"
+    },
+    {
+      "kind": "layout",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/layout-v2.json",
+      "sha256": "ddbc5611922b831203d036345237316a8b6b67b3f0a07dc8dfcbad21b7588fa4",
+      "expectedSha256": "ddbc5611922b831203d036345237316a8b6b67b3f0a07dc8dfcbad21b7588fa4"
+    },
+    {
+      "kind": "contract",
+      "path": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+      "expectedSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    }
+  ],
+  "notes": [
+    {
+      "path": "reports/m3-grid-refinement-v1/pc-cursor-notes-v1/pass1.json",
+      "sha256": "6334cceeeae46a50a480005580185becd0f75b745195a1fbb7d3ff0cc72d6f19"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/pc-cursor-notes-v1/pass2.json",
+      "sha256": "109baf47588636cc5f130799e735cd60d97997eb1372e18fd154559800251591"
+    }
+  ],
+  "integrity": {
+    "path": "reports/m3-grid-refinement-v1/pc-cursor-notes-v1/extraction-check.json",
+    "sha256": "a9f73277cf4b0eb341a78e5417093bd224cb2c7722196c38a08f5077093b8d5d"
+  },
+  "differences": [
+    {
+      "frame": 1673,
+      "frozen": [
+        "outline:1,4",
+        [],
+        false
+      ],
+      "observed": [
+        "outline:1,4",
+        [
+          "filled:5,4"
+        ],
+        false
+      ],
+      "stateId": "c83de914352e-f1673-f1674"
+    },
+    {
+      "frame": 1688,
+      "frozen": [
+        "outline:1,4",
+        [
+          "filled:5,6",
+          "filled:5,8"
+        ],
+        false
+      ],
+      "observed": [
+        "outline:1,4",
+        [
+          "filled:5,8"
+        ],
+        false
+      ],
+      "stateId": "c83de914352e-f1688-f1689"
+    }
+  ],
+  "unchangedScoringFrames": 118,
+  "scope": "All parent/child cursors and down arrows; transition observations checked against all32 GT intervals. No OCR output used.",
+  "productAcceptance": false
+}

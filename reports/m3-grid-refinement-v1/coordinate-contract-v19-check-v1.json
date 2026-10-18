@@ -1,0 +1,39 @@
+{
+  "status": "independent_audit_reconstruction_passed_not_new_acceptance",
+  "report": {
+    "path": "reports/m3-grid-refinement-v1/coordinate-contract-v19-v1/report.json",
+    "sha256": "312a1256c60c8480f5beb3a8bd796d8392faf5b265055a2d0d093dbeae070125"
+  },
+  "checker": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\check-coordinate-contract-audit.cjs",
+    "sha256": "67d21f40eb61014445a4294b31494656973d0c05eda44ac9232a722e35c7099b"
+  },
+  "frames": 3368,
+  "uniqueFrames": 3361,
+  "pages": 116,
+  "stageFrameChecks": 6736,
+  "pixelFrames": 3361,
+  "targetEnvelopeReferences": 15532,
+  "originalInputs": 4211,
+  "helpers": 10,
+  "categories": {
+    "strict_exact": 7,
+    "other_without_source": 9,
+    "only_source_border": 53,
+    "source_plus_other": 47
+  },
+  "sourceOnlyRisk": {
+    "clear": 14,
+    "risk": 39
+  },
+  "originalStrict": 7,
+  "diagnosticRaw": 59,
+  "diagnosticFinal": 60,
+  "literalAndMarkFrames": 7,
+  "legacyArrowRepresentationPages": 1,
+  "localLinks": 2190,
+  "filters": "all/border/risk/algorithm/scorer/no-match passed in DOM stub",
+  "actualBrowserRendering": "not verified",
+  "allOriginalScoresPreserved": true,
+  "productAcceptance": false
+}

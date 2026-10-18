@@ -1,0 +1,45 @@
+'use strict';
+// Adversarial scorer checks only; these fabricated states are not video GT/acceptance.
+const fs=require('fs'),assert=require('assert/strict'),crypto=require('crypto');
+const {score,TRIAL}=require('./score-contract-dimensions-v1.cjs');
+const out=process.argv[2];assert(out&&!fs.existsSync(out));
+const clone=x=>structuredClone(x),modern='619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d';
+const region={role:'dialogue',readingOrder:0,text:'ポケ',gridRect:[1,2,3,3],sourceRect:[8,8,24,24],markCells:[{gridColumn:1,gridRow:1,kind:'handakuten'}]};
+const cursor={downArrowVisible:true,downArrow:{style:'filled_down',gridRect:[18,16,19,17],sourceRect:[144,128,152,136]},menuCursors:[],additionalDownArrows:[]};
+const base={gt:{schemaVersion:2,kind:'message_complete',completePage:true,regions:[region],cursor,detachedMarks:[]},regions:[region],visible:{kind:'message_complete',cursor,detachedMarks:[]},context:{contractSha256:modern}};
+const fixtures=[];
+function add(name,change,expected){const x={gt:clone(base.gt),regions:clone(base.regions),visible:clone(base.visible),context:clone(base.context)};change(x);const result=score(x.gt,x.regions,x.visible,x.context),flags={legacyStrict:result.legacyStrict.exact,text:result.text.correct,fieldPosition:result.fieldPosition.correct,symbols:result.symbols.correct,state:result.state.correct,pixelBorder:result.pixelBorder.correct,logicalAgreement:result.logicalAgreement,errors:result.text.errors,arrowCompatibility:result.symbols.compatibility.length,stateCompatibility:result.state.compatibility.length};for(const[k,v]of Object.entries(expected))assert.equal(flags[k],v,name+':'+k);fixtures.push({name,kind:'fabricated_adversarial_comparison_not_GT',input:x,expected,flags});}
+function old(x){x.context.contractSha256=TRIAL;x.gt.schemaVersion=1;x.gt.kind='complete_waiting';x.gt.cursor={downArrowVisible:true,gridRect:[18,16,19,17],sourceRect:[144,128,152,136]};}
+add('exact_modern',()=>{},{legacyStrict:true,text:true,fieldPosition:true,symbols:true,state:true,pixelBorder:true,logicalAgreement:true});
+add('only_pixel_border',x=>x.regions[0].sourceRect=[9,8,25,24],{legacyStrict:false,text:true,fieldPosition:true,pixelBorder:false,logicalAgreement:true});
+add('whole_character_deleted',x=>x.regions[0].text='ポ',{text:false,errors:1,logicalAgreement:false});
+add('whole_character_inserted',x=>x.regions[0].text='ポケモ',{text:false,errors:1,logicalAgreement:false});
+add('visible_mark_lost_in_literal',x=>{x.regions[0].text='ホケ';x.regions[0].markCells=[];},{text:false,fieldPosition:false,logicalAgreement:false});
+add('mark_missing_text_identical',x=>x.regions[0].markCells=[],{text:true,fieldPosition:false,logicalAgreement:false});
+add('mark_attached_wrong_cell_text_identical',x=>x.regions[0].markCells[0].gridColumn=2,{text:true,fieldPosition:false,logicalAgreement:false});
+add('missing_field',x=>x.regions=[],{text:false,fieldPosition:false,pixelBorder:false,logicalAgreement:false});
+add('wrong_role_same_text',x=>x.regions[0].role='item_name',{text:false,fieldPosition:false,pixelBorder:false,logicalAgreement:false});
+add('wrong_reading_order_same_text',x=>x.regions[0].readingOrder=1,{text:false,fieldPosition:false,logicalAgreement:false});
+add('wrong_grid_start_same_text',x=>x.regions[0].gridRect=[2,2,4,3],{text:false,fieldPosition:false,logicalAgreement:false});
+add('wrong_grid_occupancy_same_start',x=>x.regions[0].gridRect=[1,2,4,3],{text:true,fieldPosition:false,logicalAgreement:false});
+add('wrong_logical_envelope',x=>x.regions[0].logicalRect=[8,16,24,24],{text:true,fieldPosition:false,logicalAgreement:false});
+add('render_unit_merge',x=>{x.gt.regions[0].renderUnits=[{text:'ポ',logicalRect:[8,16,16,24]},{text:'ケ',logicalRect:[16,16,24,24]}];x.regions[0].renderUnits=[{text:'ポケ',logicalRect:[8,16,24,24]}];},{text:true,fieldPosition:false,logicalAgreement:false});
+add('question_encoding_not_normalized',x=>{x.gt.regions[0].text='？';x.regions[0].text='?';},{text:false,errors:1,logicalAgreement:false});
+add('small_kana_not_normalized',x=>{x.gt.regions[0].text='キョ';x.regions[0].text='キヨ';},{text:false,errors:1});
+add('spaces_not_deleted',x=>{x.gt.regions[0].text='ポ ケ';x.regions[0].text='ポケ';},{text:false,errors:1});
+add('empty_false_positive',x=>{x.gt.regions=[];x.gt.completePage=false;},{text:false,fieldPosition:false,errors:2});
+add('modern_arrow_missing',x=>x.visible.cursor.downArrowVisible=false,{symbols:false,logicalAgreement:false,pixelBorder:false});
+add('modern_arrow_wrong_position',x=>x.visible.cursor.downArrow.gridRect=[17,16,18,17],{symbols:false,logicalAgreement:false});
+add('old_flat_arrow_and_label',old,{legacyStrict:false,text:true,fieldPosition:true,symbols:true,state:true,logicalAgreement:true,arrowCompatibility:1,stateCompatibility:1});
+add('flat_structure_other_contract',x=>{old(x);x.context.contractSha256=modern;},{symbols:false,state:false,arrowCompatibility:0,stateCompatibility:0});
+add('flat_structure_new_schema',x=>{old(x);x.gt.schemaVersion=2;},{symbols:false,state:false,arrowCompatibility:0});
+add('nested_arrow_no_style_legacy_hash',x=>{old(x);x.gt.cursor={downArrowVisible:true,downArrow:{gridRect:[18,16,19,17],sourceRect:[144,128,152,136]}};},{symbols:false,state:false,arrowCompatibility:0});
+add('legacy_actual_wrong_arrow_style',x=>{old(x);x.visible.cursor.downArrow.style='outline_down';},{symbols:false,logicalAgreement:false});
+add('legacy_actual_arrow_missing',x=>{old(x);x.visible.cursor.downArrowVisible=false;},{symbols:false,state:false,logicalAgreement:false});
+add('legacy_actual_extra_menu_symbol',x=>{old(x);x.visible.cursor.menuCursors=[{style:'filled_right',gridRect:[1,1,2,2],sourceRect:[8,8,16,16]}];},{symbols:false,logicalAgreement:false});
+add('legacy_actual_loading_state',x=>{old(x);x.visible.kind='message_loading';},{state:false,logicalAgreement:false,stateCompatibility:0});
+add('legacy_wrong_field_not_excused',x=>{old(x);x.regions[0].role='item_name';},{fieldPosition:false,text:false,logicalAgreement:false});
+add('legacy_wrong_mark_not_excused',x=>{old(x);x.regions[0].markCells=[];},{fieldPosition:false,logicalAgreement:false});
+add('legacy_extra_detached_mark_not_excused',x=>{old(x);x.visible.detachedMarks=[{kind:'dakuten',gridRect:[2,1,3,2],sourceRect:[16,8,24,16]}];},{symbols:false,logicalAgreement:false});
+add('boundary_change_not_excuse_text',x=>{x.regions[0].sourceRect=[8,16,24,24];x.regions[0].text='ホケ';},{text:false,pixelBorder:false,logicalAgreement:false});
+const result={status:'adversarial_dimension_properties_passed_not_product_acceptance',scorerSha256:crypto.createHash('sha256').update(fs.readFileSync(require.resolve('./score-contract-dimensions-v1.cjs'))).digest('hex'),cases:fixtures.length,failures:0,fixtures};fs.writeFileSync(out,JSON.stringify(result,null,2)+'\n',{flag:'wx'});console.log(JSON.stringify({cases:fixtures.length,failures:0,out}));

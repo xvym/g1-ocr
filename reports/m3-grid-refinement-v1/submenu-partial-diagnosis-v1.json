@@ -1,0 +1,76 @@
+{
+  "status": "original_frame_diagnosis_not_new_blind_read",
+  "evidence": [
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1659,
+      "actualSha256": "c56c3961496ddec8c507ae97272411812085809ae02da345c16b33c80a0c0ea1",
+      "originals": [
+        {
+          "frame": 1658,
+          "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001658.png",
+          "sha256": "6cdec9d480a76d28097fc511192ff117ff6682c610418e39d162c370dbb36290"
+        },
+        {
+          "frame": 1659,
+          "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001659.png",
+          "sha256": "bbe1f1663a616926335b85b1ef7a9f2c9e6060e1cb3960aa01506e784a801ad7"
+        },
+        {
+          "frame": 1660,
+          "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001660.png",
+          "sha256": "627b9c4cea903a1a94865d109ae4bacafb1d5fe25186a705e7e650242a1cc313"
+        }
+      ],
+      "observation": "Child lower border and lower three item rows are present; upper border and first row are absent."
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1068,
+      "actualSha256": "4d6d6e1d706310e8d7dad7d6cf365a1acccf5213cd9ad299fa48f5107ae3b307",
+      "originals": [
+        {
+          "frame": 1067,
+          "path": "data/frames/video-03/shop-sell-contract-pass2-v1/frame-001067.png",
+          "sha256": "b834ced124c5216a1d710415dfb662d71f63fb188e2f66fd87ba442030b159fd"
+        },
+        {
+          "frame": 1068,
+          "path": "data/frames/video-03/shop-sell-contract-pass2-v1/frame-001068.png",
+          "sha256": "ab1019c31fb7ae9ba42993c0b2a7ef02ecb41251671495d28558551515af4b75"
+        },
+        {
+          "frame": 1069,
+          "path": "data/frames/video-03/shop-sell-contract-pass2-v1/frame-001069.png",
+          "sha256": "523ed535aad32ddd5e77d8fa896243fa76d02c01ab2a432af3bc4fa7b85c9f22"
+        }
+      ],
+      "observation": "Child lower border and lower three item rows are present; upper border and first row are absent."
+    },
+    {
+      "clip": "backpack-opening",
+      "frame": 5204,
+      "actualSha256": "afdcf8e418fbdc895600f98a3474b8d3613b19263b34ebdbf1c238c863c240b7",
+      "originals": [
+        {
+          "frame": 5203,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005203.png",
+          "sha256": "0b2dd7fc2b2b4309b70b8110834da92961811d42d8e530a622a54cac1ab65c41"
+        },
+        {
+          "frame": 5204,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005204.png",
+          "sha256": "27c4f4f0f445e77a88d377fc89e733229abcd904d34f5871fad2b4c32ffc7c98"
+        },
+        {
+          "frame": 5205,
+          "path": "data/frames/video-04/backpack-scroll-pass2-v1/frame-005205.png",
+          "sha256": "2bb615ab9b1122d139de5286671eba4ebcf3cb5be60a92f57ebbdc1b1ebbbc29"
+        }
+      ],
+      "observation": "Only child lower border is present; prior parent text above remains visible."
+    }
+  ],
+  "rule": "Existing recognized parent/list context plus complete lower edge at list geometry without both top corners. Preserve all current text.",
+  "gtChanged": false
+}

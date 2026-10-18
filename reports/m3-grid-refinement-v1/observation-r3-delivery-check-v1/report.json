@@ -1,0 +1,281 @@
+{
+  "status": "six_frame_correction_identity_and_rescoring_verified_not_product_acceptance",
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r3/freeze.json",
+    "sha256": "dd6aa72aca1ddecfe2c6c0143a1def2458f7de5a8767cbf3ca04e9407b7f5141"
+  },
+  "bundle": {
+    "path": "reports/gt-review/gt-observation-corrections-v1/bundle-manifest.json",
+    "sha256": "515dbf84a7eeac1c0049df8bbc5057da0cd83a867ab0a2373511da94f581424f"
+  },
+  "comparison": {
+    "path": "reports/m3-grid-refinement-v1/ocr-v6-observation-r3-comparison/report.json",
+    "sha256": "e2de0e201b7eb7c2e54c8ea917c03f51766dc09792c61905bc9bb027e3a5eeaf"
+  },
+  "priorComparison": {
+    "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/comparison/report.json",
+    "sha256": "bb4f6f9d19377cb94ef526355f0303f30e78a2c9d1c8f45cf2da5ec08cea3cf7"
+  },
+  "changedGt": [
+    "status-pages:526",
+    "status-alt-pages:3612",
+    "intro-creatures:6258",
+    "intro-creatures:6291",
+    "intro-creatures:6292",
+    "intro-creatures:6293"
+  ],
+  "changedScores": [
+    "status-pages:526",
+    "status-alt-pages:3612",
+    "intro-creatures:6258",
+    "intro-creatures:6291",
+    "intro-creatures:6292",
+    "intro-creatures:6293"
+  ],
+  "characterDelta": -9,
+  "oldRaw": {
+    "characters": 86602,
+    "editErrors": 7119,
+    "failedFrames": 2625,
+    "emptyFrames": 692,
+    "emptyFalsePositiveFrames": 0,
+    "uniqueContinuousStates": 712,
+    "equalStateErrors": 2491.0712273641852,
+    "equalStateCharacters": 15416,
+    "pageOpportunities": 117,
+    "contentExactPages": 7,
+    "frameCharacterAccuracy": 0.9177963557423616,
+    "equalStateCharacterAccuracy": 0.8384100137931898
+  },
+  "newRaw": {
+    "characters": 86593,
+    "editErrors": 6963,
+    "failedFrames": 2621,
+    "emptyFrames": 692,
+    "emptyFalsePositiveFrames": 0,
+    "uniqueContinuousStates": 712,
+    "equalStateErrors": 2336.0712273641852,
+    "equalStateCharacters": 15408,
+    "pageOpportunities": 117,
+    "contentExactPages": 7,
+    "frameCharacterAccuracy": 0.9195893432494544,
+    "equalStateCharacterAccuracy": 0.8483858237691988
+  },
+  "actualsUnchanged": [
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/startup-nontarget.jsonl",
+      "sha256": "8dbd3b86b5905fad305f22d961efce654625803308f4ebf83ceee515a1a4ca32"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/exploration-npc.jsonl",
+      "sha256": "9bee7b7fab712f89110591518150d8e5af7ded889c76f2811eb6230e409d5c44"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/battle-result.jsonl",
+      "sha256": "c0ac8ed6c6469f74e9f2ebc90df9d1f9e703f633c1da1ecfd56b9768fd6bed0f"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/status-pages.jsonl",
+      "sha256": "8226c992679e1945deb2b9b843e0de6c7fa6fe2d29efadfd4f45c87074fcd883"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/pc-deposit-navigation.jsonl",
+      "sha256": "fdff75aea73f2e0d2f341d32b0b015a5e33b512aa90c855b5b56b0818728f213"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/pc-exit.jsonl",
+      "sha256": "824ff950ff742d17f0914e99e773fe97dc64b4379c85344d4063e8195706302c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/status-alt-pages.jsonl",
+      "sha256": "518818fb74897236ed049eaa0db7c9dc0b6aeea6c48afdbb77c2aa01c8c82846"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/party-list.jsonl",
+      "sha256": "6049e1f5b33e7d4dda7322ad67959b71cb47aabe6f8e7698b90e1fea07f86fb8"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/shop-buy-navigation.jsonl",
+      "sha256": "3ef74e6475ede4e7a5980d21f1ad7785ace1e591891d8643296253c1c4bee921"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/shop-sell-entry.jsonl",
+      "sha256": "d79af571fb38d9920f00a38625d4157d73e7c767edbaf12f7367d613e3350d59"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/shop-rejection.jsonl",
+      "sha256": "f6ab6f9eda8e8031a0d9fea66fd90057f1732002bb7ef794c456e9ca97171cfa"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/backpack-opening.jsonl",
+      "sha256": "19d8f29dc7b3701daa7f2b4e2367b5077fb0928284df5a51a78db82c94dd57b1"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/backpack-navigation.jsonl",
+      "sha256": "312d56f040121a1f31a93d3fe42ee0b599f881ca40a8153dc5cfe0a324f0aea4"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/skills-turn.jsonl",
+      "sha256": "c6f7a0e9529bef86cf8c3270814b9721f4e1211b5903c35eeb291acb4c481eaf"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/shop-exit.jsonl",
+      "sha256": "79aa15a26654934a4d3bf98bb7a96ec188500e9949ad43394cff3fdc212a5444"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/pc-connect.jsonl",
+      "sha256": "44861629487401feb136a7eab342cf4c3c3b3705382f6f8c4273de1a5ad3aa1c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/approved-trial.jsonl",
+      "sha256": "60aa81ecd60257a35c231aa82ed539888f28106367f97a88acf418f7d65ce1cf"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/bill-data-npc.jsonl",
+      "sha256": "ee7437f66177daa09131c8a8dc35c342dd8b5a047b4263b48dad709e99a8da56"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/bill-grandfather.jsonl",
+      "sha256": "849f453dc6bc95651b9950dab5202309bc825b82942bda27aa278d2628f65de2"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/gym-sign-continuation.jsonl",
+      "sha256": "2365019b1fb25d279c88c29acbab7337b4b4b653e6e571d5c2e9c920296f7507"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/intro-creatures.jsonl",
+      "sha256": "4c4dd564af08878afc9497da3ab2f6f4d46f27791d695b1472cf1885964bcb10"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/intro-greeting.jsonl",
+      "sha256": "cfd82f89a4d9b08e47ba9469aeb83fbcd682447ba65636cb2ee000bdd87e3e4c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/intro-oak.jsonl",
+      "sha256": "a6ba75c79cdf9247aacb546b46bca2e7a1ab0a4c42c6595567088b426eaeb385"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/intro-pets.jsonl",
+      "sha256": "17c5bf5a00a027ea40bce17f1396ea128d04c2f0f2bd2ab9eef83ca2f162d634"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/intro-research.jsonl",
+      "sha256": "14164299480c1a7b2081e80dacd1e087ffce60976a182dd0884a16ae2e145814"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/lab-oak-reply.jsonl",
+      "sha256": "9ea35c75babe2261ec679e1bd63e2828baae5c5794acc3b35a13e1b4a86ab33e"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/lab-rival-demand.jsonl",
+      "sha256": "08d319ef00dc6bfc7f4ee96bbe0109f51ba496876348ab43b83d6be398267aed"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/league-centre-npc.jsonl",
+      "sha256": "d2ce4b4157f09b405a54943e9c386cea88d3afeb313cf72ebfb16132b5869970"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/mart-child.jsonl",
+      "sha256": "eacf8bfa78770965e06183f63648ea3ae56cea04a5b5d38267c11e4fe8966dcf"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/museum-fee.jsonl",
+      "sha256": "7779dbca497b90f246b1c2a2cd7afbb96f3dccba63c8eb4603d6052a27597f9e"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/museum-question.jsonl",
+      "sha256": "6581df906af4375deb1c01ded0387451bfe0c10456448076d15e2f58a3d29a8f"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/nurse-greeting.jsonl",
+      "sha256": "6f7b733a9957473b34a622746c81e09242a3d263d7538360564d731b3457e79b"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/nurse-intake.jsonl",
+      "sha256": "93aaf71ea969b4dcec57748c271b5883cee943f029c9a7a27418085902bdfcf4"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/nurse-return.jsonl",
+      "sha256": "bf93e73fba3012570ff4fd3f90d821b4e49b09a118e5043c0e44296248c5fc50"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/oak-delivery.jsonl",
+      "sha256": "23eea3dd8caf134b2626ff223b0a0572173c402e53219c0b0a5ec9c27033fbcc"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/route-ledge-npc.jsonl",
+      "sha256": "56f0f0920d3be5ad30bf52d2d8db06ab2c9618e2cc8cd9b1c40b6cf60ac19217"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/route-pp-sign.jsonl",
+      "sha256": "47f437f832d01babd381c2f93cb63356a78d2b5e1a1b6556ff04b510b84d75e6"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/safari-warden-npc.jsonl",
+      "sha256": "32f24641c775531a58c75289e4cbd4cb6a4c74e221a0549999358c77c489b03b"
+    }
+  ],
+  "retainedReviewFrames": 321,
+  "qualifiedSemanticIntegrity": false,
+  "limitations": [
+    {
+      "mediaId": "video-04",
+      "impact": "整个背包退出事件不冻结/不宣称通过；该原帧保留，不能计作空文字成功",
+      "uncertainFrames": [
+        5359
+      ],
+      "checks": [
+        "首遍原上下文逐帧及直接放大",
+        "第二次原视频重解码及原像素光标条带",
+        "再次查看5358-5362独立原图，仍不能可靠区分被遮基础字形"
+      ],
+      "source": "data/frames/video-04/all-scenes-backpack-pass2-v1",
+      "layout": "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/layout-v1.json",
+      "id": "backpack-exit-occluded",
+      "status": "pending_not_proposed_for_freeze",
+      "range": [
+        5358,
+        5363
+      ],
+      "reason": "5359退出重绘时玩家精灵遮住やめる末字基础字形，残余道具行也被背景/菜单改写；仅凭5358前帧和5360后帧不能恢复当帧答案"
+    },
+    {
+      "id": "versions-and-sessions",
+      "status": "pending",
+      "reason": "只有video01 HOME红版图标有版本证据；其余版本/来源关系与独立会话无法证实，全部候选development，独立acceptance集合为空；M4继续待验证，不要求补录"
+    },
+    {
+      "id": "unselected-source",
+      "status": "unverified",
+      "reason": "未选原帧范围按四录像总账本补集逐段列出；候选通过不等于整个录像、版本或游戏通过"
+    },
+    {
+      "id": "real-window-and-ui",
+      "status": "pending",
+      "reason": "真实投屏前台/后台/遮挡/最小化/无效帧、Windows10兼容、实际UI延迟和长时稳定性尚无实测证据"
+    },
+    {
+      "id": "review-browser-render",
+      "status": "pending",
+      "reason": "内置浏览器曾明确拒绝file协议且禁止绕过；本包仅做静态/控件检查，实际浏览器呈现未验证，请直接在本机打开入口文件"
+    },
+    {
+      "id": "status-alt-3541-mark",
+      "status": "pending_semantic_confirmation",
+      "mediaId": "video-03",
+      "frames": [
+        3541
+      ],
+      "reason": "Incomplete upper mark remains unresolved after both new original-image readings. Existing historical annotation remains in the denominator. No newly frozen conclusion or pass is granted for this frame."
+    },
+    {
+      "id": "remaining-annotation-audit",
+      "status": "pending",
+      "reason": "Other previously recorded field-role/order/Unicode and raw-image doubts are unchanged, not resolved by these six corrections. Complete dataset semantic integrity and OCR gates remain unpassed."
+    }
+  ],
+  "javaImplementation": "Unchanged v6 engine/build,128 tests previously passed; no new Java test run claimed.",
+  "uiRendering": "pending",
+  "independentAcceptance": "pending",
+  "productionChinese": "not_started"
+}

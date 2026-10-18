@@ -1,0 +1,148 @@
+{
+  "status": "original_pixel_observation_not_new_GT_not_approval_request",
+  "date": "2026-10-16 Asia/Shanghai",
+  "originalSource": "testpic/video/2026-10-11 22-34-17.mp4",
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "frozenGt": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2/intro-creatures/ocr-candidate-v1.jsonl",
+    "state": {
+      "schemaVersion": 2,
+      "stateId": "f53c237ad19a-f6258-f6259",
+      "mediaId": "video-01",
+      "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+      "startFrame": 6258,
+      "endFrameExclusive": 6259,
+      "startPts": 6258,
+      "endPtsExclusive": 6259,
+      "timeBase": "1/30",
+      "kind": "message_loading",
+      "completePage": false,
+      "regions": [
+        {
+          "id": "message-top",
+          "role": "dialogue",
+          "readingOrder": 0,
+          "text": "この せかいには",
+          "gridRect": [
+            1,
+            14,
+            9,
+            15
+          ],
+          "sourceRect": [
+            256,
+            320,
+            384,
+            336
+          ],
+          "markCells": []
+        },
+        {
+          "id": "message-bottom",
+          "role": "dialogue",
+          "readingOrder": 1,
+          "text": "ポケット モ",
+          "gridRect": [
+            1,
+            16,
+            7,
+            17
+          ],
+          "sourceRect": [
+            256,
+            336,
+            352,
+            368
+          ],
+          "markCells": [
+            {
+              "gridColumn": 1,
+              "kind": "handakuten",
+              "gridRow": 15
+            }
+          ]
+        }
+      ],
+      "cursor": {
+        "menuCursors": [],
+        "downArrowVisible": false
+      },
+      "layoutRef": "layout-v1.json",
+      "verificationStatus": "agent_double_read_complete_candidate",
+      "evidence": {
+        "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-creatures/manual-pass2.json",
+        "humanPerFrameVerification": "not claimed",
+        "outputIndependence": "No tested OCR or production translation exists",
+        "originalFrames": "data/frames/video-01/dialogue-intro-pass2-v1"
+      }
+    },
+    "sha256": "34c2ba7dd81354736156368f36ed6a4934b951300e8bb97219ac526a8e15729b"
+  },
+  "extractions": [
+    {
+      "sha256": "7dae222693ec0ffba5ba14c7526f65b43828f2a48a6fe768b75dcd0a9e423dc3",
+      "verification": "data/frames/video-01/fixed-gt-observation-6258-pass1-v1/verification.json"
+    },
+    {
+      "sha256": "7dae222693ec0ffba5ba14c7526f65b43828f2a48a6fe768b75dcd0a9e423dc3",
+      "verification": "data/frames/video-01/fixed-gt-observation-6258-pass2-v1/verification.json"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex": 6256,
+      "pass1": "data\\frames\\video-01\\fixed-gt-observation-6258-pass1-v1\\frame-006256.png",
+      "pass2": "data\\frames\\video-01\\fixed-gt-observation-6258-pass2-v1\\frame-006256.png",
+      "pngSha256": "4b52e06f8b7ec32921135cfc75f013d5eaacd578acac066bf0f6e9211c35860f"
+    },
+    {
+      "frameIndex": 6257,
+      "pass1": "data\\frames\\video-01\\fixed-gt-observation-6258-pass1-v1\\frame-006257.png",
+      "pass2": "data\\frames\\video-01\\fixed-gt-observation-6258-pass2-v1\\frame-006257.png",
+      "pngSha256": "3d171f39b46ced721fa9ecc55392a4b4971201af5441f7c60d77b0ad365a093f"
+    },
+    {
+      "frameIndex": 6258,
+      "pass1": "data\\frames\\video-01\\fixed-gt-observation-6258-pass1-v1\\frame-006258.png",
+      "pass2": "data\\frames\\video-01\\fixed-gt-observation-6258-pass2-v1\\frame-006258.png",
+      "pngSha256": "2974955cef00ab8ac51106f3cfacd57fa7cfbfcc83b024ec51d4bb28733bf961"
+    },
+    {
+      "frameIndex": 6259,
+      "pass1": "data\\frames\\video-01\\fixed-gt-observation-6258-pass1-v1\\frame-006259.png",
+      "pass2": "data\\frames\\video-01\\fixed-gt-observation-6258-pass2-v1\\frame-006259.png",
+      "pngSha256": "ec4de10a79d1aa4665c61b6b2aa023f8606423b88937b347d70bf380a78dcc51"
+    },
+    {
+      "frameIndex": 6260,
+      "pass1": "data\\frames\\video-01\\fixed-gt-observation-6258-pass1-v1\\frame-006260.png",
+      "pass2": "data\\frames\\video-01\\fixed-gt-observation-6258-pass2-v1\\frame-006260.png",
+      "pngSha256": "10bd1ddfb05dc0982d9043a03d24c58ca3c38f46a67a047f8e4ff740a185edd6"
+    },
+    {
+      "frameIndex": 6261,
+      "pass1": "data\\frames\\video-01\\fixed-gt-observation-6258-pass1-v1\\frame-006261.png",
+      "pass2": "data\\frames\\video-01\\fixed-gt-observation-6258-pass2-v1\\frame-006261.png",
+      "pngSha256": "71f9d327c8d59bd171eb3474aaf7b4e541a02328bf8c05f95db630f348e83cd4"
+    }
+  ],
+  "viewedOriginalFrame": 6258,
+  "reviewer": "Current coding agent; not human per-frame verification",
+  "observation": "Both freshly decoded original6258 images show bottom ポケット; the following space and モ-position cell have no letter ink. Each extraction preserves the surrounding6256–6261 frames. No tested output viewed during the two direct original6258 inspections; earlier error analysis prompted observation, not replacement annotations.",
+  "deterministicPixelCheck": {
+    "pixelCount": 256,
+    "sourceRect": [
+      336,
+      352,
+      352,
+      368
+    ],
+    "source": "System.Drawing.GetPixel on independently decoded pass2 PNG",
+    "max": 140,
+    "luminanceDefinition": "(R+2G+B)/4",
+    "min": 140,
+    "mean": 140
+  },
+  "scope": "Only this source frame observation; not a new double-read annotation of the full scene. No GT, contract, frame or score changes. All formal errors remain counted.",
+  "consequence": "Final text100% cannot be honestly established while a required frozen character is absent in the current frame. Do not borrow later frames or output that character to satisfy the test."
+}

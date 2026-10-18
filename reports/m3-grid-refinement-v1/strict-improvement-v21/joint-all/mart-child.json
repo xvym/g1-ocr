@@ -1,0 +1,4052 @@
+[
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000576.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000577.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000578.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000579.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000580.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7727121025249,
+        "originY": 0.040839105289663516,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7727121025249,
+            "scale": 3.7546875,
+            "concentration": 0.30167852686193936,
+            "phase": 180.7727121025249
+          },
+          {
+            "origin": 181.140991350586,
+            "scale": 3.75,
+            "concentration": 0.27893454826897557,
+            "phase": 181.140991350586
+          },
+          {
+            "origin": 180.33646859975798,
+            "scale": 3.76015625,
+            "concentration": 0.2616249454656239,
+            "phase": 180.33646859975798
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.040839105289663516,
+            "scale": 3.779513888888889,
+            "concentration": 0.32801657435647047,
+            "phase": 0.040839105289663516
+          },
+          {
+            "origin": 0.43674682234670575,
+            "scale": 3.7743055555555554,
+            "concentration": 0.30559228151328555,
+            "phase": 0.43674682234670575
+          },
+          {
+            "origin": -0.35980090738558584,
+            "scale": 3.7847222222222223,
+            "concentration": 0.30375791993146056,
+            "phase": -0.35980090738558584
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.99048544676396,
+      "scale": 3.7537908580620267,
+      "rms": 0.22936301083647487,
+      "points": 102
+    },
+    "y": {
+      "origin": 1.644461215467205,
+      "scale": 3.7667270070975074,
+      "rms": 0.03557836924732933,
+      "points": 331
+    },
+    "historyFrames": 1,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000581.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8355640257129,
+        "originY": 0.0411687596411548,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8355640257129,
+            "scale": 3.75390625,
+            "concentration": 0.3029028308248255,
+            "phase": 180.8355640257129
+          },
+          {
+            "origin": 180.46197904961738,
+            "scale": 3.75859375,
+            "concentration": 0.280494979249507,
+            "phase": 180.46197904961738
+          },
+          {
+            "origin": 181.20256539378911,
+            "scale": 3.74921875,
+            "concentration": 0.27175584725072915,
+            "phase": 181.20256539378911
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.0411687596411548,
+            "scale": 3.779513888888889,
+            "concentration": 0.32827913104026457,
+            "phase": 0.0411687596411548
+          },
+          {
+            "origin": 0.43703677019390336,
+            "scale": 3.7743055555555554,
+            "concentration": 0.30571234129843233,
+            "phase": 0.43703677019390336
+          },
+          {
+            "origin": -0.359572044477591,
+            "scale": 3.7847222222222223,
+            "concentration": 0.30410751962149957,
+            "phase": -0.359572044477591
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9888310593029,
+      "scale": 3.7537999646308795,
+      "rms": 0.23481196784312314,
+      "points": 204
+    },
+    "y": {
+      "origin": 1.6428533167991712,
+      "scale": 3.766739359756999,
+      "rms": 0.035336477642836144,
+      "points": 662
+    },
+    "historyFrames": 2,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000582.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.83582090332416,
+        "originY": 0.06129473681469699,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.83582090332416,
+            "scale": 3.75390625,
+            "concentration": 0.30250460952718855,
+            "phase": 180.83582090332416
+          },
+          {
+            "origin": 180.4620625573948,
+            "scale": 3.75859375,
+            "concentration": 0.28002458616537684,
+            "phase": 180.4620625573948
+          },
+          {
+            "origin": 181.2029122731855,
+            "scale": 3.74921875,
+            "concentration": 0.27134837649795357,
+            "phase": 181.2029122731855
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.06129473681469699,
+            "scale": 3.779513888888889,
+            "concentration": 0.32230690934107303,
+            "phase": 3.840808625703586
+          },
+          {
+            "origin": 0.47102892015513165,
+            "scale": 3.7743055555555554,
+            "concentration": 0.3038255085245867,
+            "phase": 0.47102892015513165
+          },
+          {
+            "origin": -0.3589347624734627,
+            "scale": 3.7847222222222223,
+            "concentration": 0.29868241978420945,
+            "phase": 3.4257874597487596
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.98827959681836,
+      "scale": 3.7538030001538094,
+      "rms": 0.23659913794699106,
+      "points": 306
+    },
+    "y": {
+      "origin": 1.6376001244476055,
+      "scale": 3.7667903128742086,
+      "rms": 0.033968862281478746,
+      "points": 993
+    },
+    "historyFrames": 3,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000583.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.83582090332416,
+        "originY": 0.06129473681469699,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.83582090332416,
+            "scale": 3.75390625,
+            "concentration": 0.30250460952718855,
+            "phase": 180.83582090332416
+          },
+          {
+            "origin": 180.4620625573948,
+            "scale": 3.75859375,
+            "concentration": 0.28002458616537684,
+            "phase": 180.4620625573948
+          },
+          {
+            "origin": 181.2029122731855,
+            "scale": 3.74921875,
+            "concentration": 0.27134837649795357,
+            "phase": 181.2029122731855
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.06129473681469699,
+            "scale": 3.779513888888889,
+            "concentration": 0.32230690934107303,
+            "phase": 3.840808625703586
+          },
+          {
+            "origin": 0.47102892015513165,
+            "scale": 3.7743055555555554,
+            "concentration": 0.3038255085245867,
+            "phase": 0.47102892015513165
+          },
+          {
+            "origin": -0.3589347624734627,
+            "scale": 3.7847222222222223,
+            "concentration": 0.29868241978420945,
+            "phase": 3.4257874597487596
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.98800386557514,
+      "scale": 3.753804517915297,
+      "rms": 0.23748744360460095,
+      "points": 408
+    },
+    "y": {
+      "origin": 1.6349735281024314,
+      "scale": 3.7668157894341285,
+      "rms": 0.03323757891011979,
+      "points": 1324
+    },
+    "historyFrames": 4,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000584.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8360313712892,
+        "originY": 0.04938250205047825,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8360313712892,
+            "scale": 3.75390625,
+            "concentration": 0.30274924025485256,
+            "phase": 180.8360313712892
+          },
+          {
+            "origin": 180.46232252822193,
+            "scale": 3.75859375,
+            "concentration": 0.28030519889834193,
+            "phase": 180.46232252822193
+          },
+          {
+            "origin": 181.2030894374949,
+            "scale": 3.74921875,
+            "concentration": 0.27167531770144043,
+            "phase": 181.2030894374949
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.04938250205047825,
+            "scale": 3.779513888888889,
+            "concentration": 0.32855738592722966,
+            "phase": 0.04938250205047825
+          },
+          {
+            "origin": -0.35252491292865606,
+            "scale": 3.7847222222222223,
+            "concentration": 0.30662993693197316,
+            "phase": -0.35252491292865606
+          },
+          {
+            "origin": 0.4449608973838892,
+            "scale": 3.7743055555555554,
+            "concentration": 0.3037206568757644,
+            "phase": 0.4449608973838892
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9878384268292,
+      "scale": 3.75380542857219,
+      "rms": 0.23801876032247452,
+      "points": 510
+    },
+    "y": {
+      "origin": 1.6333975703115757,
+      "scale": 3.7668310753699505,
+      "rms": 0.032782415145149395,
+      "points": 1655
+    },
+    "historyFrames": 5,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000585.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8360313712892,
+        "originY": 0.04938250205047825,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8360313712892,
+            "scale": 3.75390625,
+            "concentration": 0.30274924025485256,
+            "phase": 180.8360313712892
+          },
+          {
+            "origin": 180.46232252822193,
+            "scale": 3.75859375,
+            "concentration": 0.28030519889834193,
+            "phase": 180.46232252822193
+          },
+          {
+            "origin": 181.2030894374949,
+            "scale": 3.74921875,
+            "concentration": 0.27167531770144043,
+            "phase": 181.2030894374949
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.04938250205047825,
+            "scale": 3.779513888888889,
+            "concentration": 0.32855738592722966,
+            "phase": 0.04938250205047825
+          },
+          {
+            "origin": -0.35252491292865606,
+            "scale": 3.7847222222222223,
+            "concentration": 0.30662993693197316,
+            "phase": -0.35252491292865606
+          },
+          {
+            "origin": 0.4449608973838892,
+            "scale": 3.7743055555555554,
+            "concentration": 0.3037206568757644,
+            "phase": 0.4449608973838892
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9877281343325,
+      "scale": 3.753806035676769,
+      "rms": 0.23837228218175013,
+      "points": 612
+    },
+    "y": {
+      "origin": 1.632346931786742,
+      "scale": 3.766841265993813,
+      "rms": 0.032471824907496616,
+      "points": 1986
+    },
+    "historyFrames": 6,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000586.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7717919936677,
+        "originY": 0.06141204402981115,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7717919936677,
+            "scale": 3.7546875,
+            "concentration": 0.29706291174675137,
+            "phase": 180.7717919936677
+          },
+          {
+            "origin": 181.13574749730031,
+            "scale": 3.75,
+            "concentration": 0.2742647306875145,
+            "phase": 181.13574749730031
+          },
+          {
+            "origin": 180.34096798339965,
+            "scale": 3.76015625,
+            "concentration": 0.2570923042851791,
+            "phase": 180.34096798339965
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.06141204402981115,
+            "scale": 3.779513888888889,
+            "concentration": 0.3216461510210779,
+            "phase": 3.8409259329187
+          },
+          {
+            "origin": 0.47129675087979583,
+            "scale": 3.7743055555555554,
+            "concentration": 0.3031256273403963,
+            "phase": 0.47129675087979583
+          },
+          {
+            "origin": -0.3589848808368217,
+            "scale": 3.7847222222222223,
+            "concentration": 0.29810158706521833,
+            "phase": 3.4257373413854006
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 181.30101712205519,
+      "scale": 3.7518060725969717,
+      "rms": 0.05098463756361545,
+      "points": 546
+    },
+    "y": {
+      "origin": 1.631460696032647,
+      "scale": 3.766849397079955,
+      "rms": 0.032214400358030235,
+      "points": 2317
+    },
+    "historyFrames": 7,
+    "currentMatchedCells": 49,
+    "currentXPoints": 104,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000587.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.77202010715655,
+        "originY": 0.061187204776929516,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.77202010715655,
+            "scale": 3.7546875,
+            "concentration": 0.29762147513572185,
+            "phase": 180.77202010715655
+          },
+          {
+            "origin": 181.13540531298204,
+            "scale": 3.75,
+            "concentration": 0.27481692229508914,
+            "phase": 181.13540531298204
+          },
+          {
+            "origin": 180.34186022120923,
+            "scale": 3.76015625,
+            "concentration": 0.2574843652803992,
+            "phase": 180.34186022120923
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.061187204776929516,
+            "scale": 3.779513888888889,
+            "concentration": 0.32177435091252926,
+            "phase": 3.8407010936658184
+          },
+          {
+            "origin": 0.4711615561091407,
+            "scale": 3.7743055555555554,
+            "concentration": 0.3032872619886032,
+            "phase": 0.4711615561091407
+          },
+          {
+            "origin": -0.3593011300459743,
+            "scale": 3.7847222222222223,
+            "concentration": 0.29818535462244994,
+            "phase": 3.425421092176248
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 181.29857421615338,
+      "scale": 3.751821404610476,
+      "rms": 0.05205270736125353,
+      "points": 625
+    },
+    "y": {
+      "origin": 1.6307960190790742,
+      "scale": 3.7668554953956557,
+      "rms": 0.03201906978928581,
+      "points": 2648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 49,
+    "currentXPoints": 104,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000588.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.77205907293876,
+        "originY": 0.04863496084540679,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.77205907293876,
+            "scale": 3.7546875,
+            "concentration": 0.295660223422334,
+            "phase": 180.77205907293876
+          },
+          {
+            "origin": 181.1269194845166,
+            "scale": 3.75,
+            "concentration": 0.27291542004318164,
+            "phase": 181.1269194845166
+          },
+          {
+            "origin": 180.35268603952736,
+            "scale": 3.76015625,
+            "concentration": 0.25588726615836693,
+            "phase": 180.35268603952736
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.04863496084540679,
+            "scale": 3.779513888888889,
+            "concentration": 0.3269195362806243,
+            "phase": 0.04863496084540679
+          },
+          {
+            "origin": -0.35523857927926633,
+            "scale": 3.7847222222222223,
+            "concentration": 0.30450491591648116,
+            "phase": -0.35523857927926633
+          },
+          {
+            "origin": 0.44587912603357693,
+            "scale": 3.7743055555555554,
+            "concentration": 0.30279215457078046,
+            "phase": 0.44587912603357693
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 181.29723794455356,
+      "scale": 3.751829356356029,
+      "rms": 0.05302700831660257,
+      "points": 627
+    },
+    "y": {
+      "origin": 1.6280643375962551,
+      "scale": 3.7668800537038134,
+      "rms": 0.031357526667210894,
+      "points": 2648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 51,
+    "currentXPoints": 105,
+    "currentYPoints": 440
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000589.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.77497908725005,
+        "originY": 0.04729802767936013,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.77497908725005,
+            "scale": 3.7546875,
+            "concentration": 0.285957404272026,
+            "phase": 180.77497908725005
+          },
+          {
+            "origin": 181.12526360490867,
+            "scale": 3.75,
+            "concentration": 0.2647288912442805,
+            "phase": 181.12526360490867
+          },
+          {
+            "origin": 180.3622063364656,
+            "scale": 3.76015625,
+            "concentration": 0.24832228489083324,
+            "phase": 180.3622063364656
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.04729802767936013,
+            "scale": 3.779513888888889,
+            "concentration": 0.3256260590257803,
+            "phase": 0.04729802767936013
+          },
+          {
+            "origin": -0.3607286593783111,
+            "scale": 3.7847222222222223,
+            "concentration": 0.30319417190659387,
+            "phase": -0.3607286593783111
+          },
+          {
+            "origin": 0.44878085751158353,
+            "scale": 3.7743055555555554,
+            "concentration": 0.3019314940255195,
+            "phase": 0.44878085751158353
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 181.29351937277167,
+      "scale": 3.7518512730824005,
+      "rms": 0.05490235414277773,
+      "points": 631
+    },
+    "y": {
+      "origin": 1.6252471790873666,
+      "scale": 3.7669045691785157,
+      "rms": 0.030965250515990275,
+      "points": 2653
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 55,
+    "currentXPoints": 111,
+    "currentYPoints": 446
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000590.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.777291793979,
+        "originY": 0.1250390249948481,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7786458333333335
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.777291793979,
+            "scale": 3.7546875,
+            "concentration": 0.2850672294245968,
+            "phase": 180.777291793979
+          },
+          {
+            "origin": 181.12811794616283,
+            "scale": 3.75,
+            "concentration": 0.2645680123759546,
+            "phase": 181.12811794616283
+          },
+          {
+            "origin": 180.36465792280976,
+            "scale": 3.76015625,
+            "concentration": 0.24929474046389935,
+            "phase": 180.36465792280976
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.1250390249948481,
+            "scale": 3.7786458333333335,
+            "concentration": 0.31844664661178756,
+            "phase": 0.1250390249948481
+          },
+          {
+            "origin": 0.5412062433866196,
+            "scale": 3.7734375,
+            "concentration": 0.29441318964901486,
+            "phase": 0.5412062433866196
+          },
+          {
+            "origin": -0.37390614035816006,
+            "scale": 3.7847222222222223,
+            "concentration": 0.294264577262806,
+            "phase": 3.4108160818640623
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 181.2777433927907,
+      "scale": 3.751935430866815,
+      "rms": 0.06250237551889938,
+      "points": 641
+    },
+    "y": {
+      "origin": 1.6239212201912607,
+      "scale": 3.766913263871999,
+      "rms": 0.031258687757410177,
+      "points": 2660
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 59,
+    "currentXPoints": 117,
+    "currentYPoints": 448
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000591.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.77898832436702,
+        "originY": 0.1255563699147022,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7786458333333335
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.77898832436702,
+            "scale": 3.7546875,
+            "concentration": 0.28416843291693034,
+            "phase": 180.77898832436702
+          },
+          {
+            "origin": 181.1318071727998,
+            "scale": 3.75,
+            "concentration": 0.2635398164102784,
+            "phase": 181.1318071727998
+          },
+          {
+            "origin": 180.36477426951683,
+            "scale": 3.76015625,
+            "concentration": 0.250439936363234,
+            "phase": 180.36477426951683
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.1255563699147022,
+            "scale": 3.7786458333333335,
+            "concentration": 0.3182629818944193,
+            "phase": 0.1255563699147022
+          },
+          {
+            "origin": -0.37885929855096645,
+            "scale": 3.7847222222222223,
+            "concentration": 0.29424641718635675,
+            "phase": 3.405862923671256
+          },
+          {
+            "origin": 0.5465589574477083,
+            "scale": 3.7734375,
+            "concentration": 0.29411993479787657,
+            "phase": 0.5465589574477083
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 181.05606835884362,
+      "scale": 3.753358757721601,
+      "rms": 0.14803123796093887,
+      "points": 660
+    },
+    "y": {
+      "origin": 0.6680377642535946,
+      "scale": 3.7736858969286056,
+      "rms": 0.2161980777047447,
+      "points": 3540
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 64,
+    "currentXPoints": 120,
+    "currentYPoints": 454
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000592.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.77661386925337,
+        "originY": 0.043842123515720983,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.77661386925337,
+            "scale": 3.7546875,
+            "concentration": 0.2849632264615496,
+            "phase": 180.77661386925337
+          },
+          {
+            "origin": 181.1205604365374,
+            "scale": 3.75,
+            "concentration": 0.26388191803230054,
+            "phase": 181.1205604365374
+          },
+          {
+            "origin": 180.37320504016617,
+            "scale": 3.76015625,
+            "concentration": 0.2518932182681796,
+            "phase": 180.37320504016617
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.043842123515720983,
+            "scale": 3.779513888888889,
+            "concentration": 0.3259591267582298,
+            "phase": 0.043842123515720983
+          },
+          {
+            "origin": 0.45983666947053753,
+            "scale": 3.7743055555555554,
+            "concentration": 0.30262478852511343,
+            "phase": 0.45983666947053753
+          },
+          {
+            "origin": -0.37846981938750296,
+            "scale": 3.7847222222222223,
+            "concentration": 0.3026023826698005,
+            "phase": -0.37846981938750296
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.98241868491382,
+      "scale": 3.7538155074600175,
+      "rms": 0.1852070931791644,
+      "points": 676
+    },
+    "y": {
+      "origin": 0.672059261721375,
+      "scale": 3.7736490035575327,
+      "rms": 0.21623859331634107,
+      "points": 3556
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 67,
+    "currentXPoints": 120,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000593.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.77639022175885,
+        "originY": 0.04378148531765469,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.77639022175885,
+            "scale": 3.7546875,
+            "concentration": 0.2847104504837018,
+            "phase": 180.77639022175885
+          },
+          {
+            "origin": 181.12065501023255,
+            "scale": 3.75,
+            "concentration": 0.2636675068118453,
+            "phase": 181.12065501023255
+          },
+          {
+            "origin": 180.37255153501042,
+            "scale": 3.76015625,
+            "concentration": 0.25162515676746644,
+            "phase": 180.37255153501042
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.04378148531765469,
+            "scale": 3.779513888888889,
+            "concentration": 0.32651541777823656,
+            "phase": 0.04378148531765469
+          },
+          {
+            "origin": -0.3789779992094248,
+            "scale": 3.7847222222222223,
+            "concentration": 0.3031935661440074,
+            "phase": -0.3789779992094248
+          },
+          {
+            "origin": 0.4602079204350112,
+            "scale": 3.7743055555555554,
+            "concentration": 0.30301044130756916,
+            "phase": 0.4602079204350112
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9811836487368,
+      "scale": 3.7538148525518276,
+      "rms": 0.18511170291106666,
+      "points": 691
+    },
+    "y": {
+      "origin": 0.6760104236780031,
+      "scale": 3.7736128341786923,
+      "rms": 0.21627291000568147,
+      "points": 3572
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 67,
+    "currentXPoints": 120,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000594.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.77342002303988,
+        "originY": 0.1263725510287812,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7786458333333335
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.77342002303988,
+            "scale": 3.7546875,
+            "concentration": 0.28355129064925727,
+            "phase": 180.77342002303988
+          },
+          {
+            "origin": 181.11556758076256,
+            "scale": 3.75,
+            "concentration": 0.2625464750371995,
+            "phase": 181.11556758076256
+          },
+          {
+            "origin": 180.3716261223827,
+            "scale": 3.76015625,
+            "concentration": 0.2513159929413838,
+            "phase": 180.3716261223827
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.1263725510287812,
+            "scale": 3.7786458333333335,
+            "concentration": 0.3180535258919881,
+            "phase": 0.1263725510287812
+          },
+          {
+            "origin": -0.38863731803197155,
+            "scale": 3.7847222222222223,
+            "concentration": 0.29410797414621787,
+            "phase": 3.3960849041902508
+          },
+          {
+            "origin": 0.556705482406459,
+            "scale": 3.7734375,
+            "concentration": 0.29337978785940894,
+            "phase": 0.556705482406459
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9715906901977,
+      "scale": 3.753861411482393,
+      "rms": 0.23213367577312907,
+      "points": 901
+    },
+    "y": {
+      "origin": 0.6767523413443329,
+      "scale": 3.7736087073142124,
+      "rms": 0.21628969213286098,
+      "points": 3589
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 69,
+    "currentXPoints": 121,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000595.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7707711061725,
+        "originY": 0.12541219396998704,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7786458333333335
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7707711061725,
+            "scale": 3.7546875,
+            "concentration": 0.28387922159642287,
+            "phase": 180.7707711061725
+          },
+          {
+            "origin": 181.1133452767997,
+            "scale": 3.75,
+            "concentration": 0.26338834357283936,
+            "phase": 181.1133452767997
+          },
+          {
+            "origin": 180.36796745341053,
+            "scale": 3.76015625,
+            "concentration": 0.252412191802984,
+            "phase": 180.36796745341053
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.12541219396998704,
+            "scale": 3.7786458333333335,
+            "concentration": 0.3182178352791703,
+            "phase": 0.12541219396998704
+          },
+          {
+            "origin": -0.39533445204091233,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2938854041059246,
+            "phase": 3.38938777018131
+          },
+          {
+            "origin": 0.5608841294309705,
+            "scale": 3.7734375,
+            "concentration": 0.2936349952039199,
+            "phase": 0.5608841294309705
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.96981729090447,
+      "scale": 3.7538629028813135,
+      "rms": 0.23165056821996602,
+      "points": 916
+    },
+    "y": {
+      "origin": 0.677308585708948,
+      "scale": 3.773606581750494,
+      "rms": 0.21623580257909356,
+      "points": 3610
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 72,
+    "currentXPoints": 122,
+    "currentYPoints": 461
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000596.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76792708897003,
+        "originY": 0.03969934027863876,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76792708897003,
+            "scale": 3.7546875,
+            "concentration": 0.2821688060444255,
+            "phase": 180.76792708897003
+          },
+          {
+            "origin": 181.11249718933942,
+            "scale": 3.75,
+            "concentration": 0.2623113804659549,
+            "phase": 181.11249718933942
+          },
+          {
+            "origin": 180.36227203152276,
+            "scale": 3.76015625,
+            "concentration": 0.25118311545603256,
+            "phase": 180.36227203152276
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03969934027863876,
+            "scale": 3.779513888888889,
+            "concentration": 0.3229120858056214,
+            "phase": 0.03969934027863876
+          },
+          {
+            "origin": -0.39377396723184577,
+            "scale": 3.7847222222222223,
+            "concentration": 0.30000025635448524,
+            "phase": -0.39377396723184577
+          },
+          {
+            "origin": 0.46733290422812857,
+            "scale": 3.7743055555555554,
+            "concentration": 0.29941742093200496,
+            "phase": 0.46733290422812857
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.96756004748872,
+      "scale": 3.753867097013201,
+      "rms": 0.2293741097302544,
+      "points": 924
+    },
+    "y": {
+      "origin": 0.677906137332692,
+      "scale": 3.773604895084971,
+      "rms": 0.21621465856620845,
+      "points": 3632
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000597.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76742450310647,
+        "originY": 0.03934265222617024,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76742450310647,
+            "scale": 3.7546875,
+            "concentration": 0.2822557565609989,
+            "phase": 180.76742450310647
+          },
+          {
+            "origin": 181.11186085638695,
+            "scale": 3.75,
+            "concentration": 0.262423228619701,
+            "phase": 181.11186085638695
+          },
+          {
+            "origin": 180.36183220559346,
+            "scale": 3.76015625,
+            "concentration": 0.2512345178595699,
+            "phase": 180.36183220559346
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03934265222617024,
+            "scale": 3.779513888888889,
+            "concentration": 0.3232329468112738,
+            "phase": 0.03934265222617024
+          },
+          {
+            "origin": -0.39444651920199825,
+            "scale": 3.7847222222222223,
+            "concentration": 0.30022272069755945,
+            "phase": -0.39444651920199825
+          },
+          {
+            "origin": 0.4672846717046998,
+            "scale": 3.7743055555555554,
+            "concentration": 0.29976732186310856,
+            "phase": 0.4672846717046998
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 181.21325075383115,
+      "scale": 3.7522210572751082,
+      "rms": 0.09876548321259651,
+      "points": 719
+    },
+    "y": {
+      "origin": 0.6782654528583966,
+      "scale": 3.7736044273954024,
+      "rms": 0.21625078603441522,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000598.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76755859185693,
+        "originY": 0.12423947511950484,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7786458333333335
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76755859185693,
+            "scale": 3.7546875,
+            "concentration": 0.28193369959218284,
+            "phase": 180.76755859185693
+          },
+          {
+            "origin": 181.11192943358762,
+            "scale": 3.75,
+            "concentration": 0.2620737320697442,
+            "phase": 181.11192943358762
+          },
+          {
+            "origin": 180.3620407297515,
+            "scale": 3.76015625,
+            "concentration": 0.2508807420642803,
+            "phase": 180.3620407297515
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.12423947511950484,
+            "scale": 3.7786458333333335,
+            "concentration": 0.31811329775524133,
+            "phase": 0.12423947511950484
+          },
+          {
+            "origin": 0.5637819335532104,
+            "scale": 3.7734375,
+            "concentration": 0.2937185296553562,
+            "phase": 0.5637819335532104
+          },
+          {
+            "origin": -0.40103922512641477,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2935955578279705,
+            "phase": 3.3836829970958076
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 181.20997139594203,
+      "scale": 3.752234062999363,
+      "rms": 0.10029110289036401,
+      "points": 724
+    },
+    "y": {
+      "origin": 0.6784116601210813,
+      "scale": 3.773604967506457,
+      "rms": 0.21634053401444717,
+      "points": 3662
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000599.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76755859185693,
+        "originY": 0.12423947511950484,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7786458333333335
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76755859185693,
+            "scale": 3.7546875,
+            "concentration": 0.28193369959218284,
+            "phase": 180.76755859185693
+          },
+          {
+            "origin": 181.11192943358762,
+            "scale": 3.75,
+            "concentration": 0.2620737320697442,
+            "phase": 181.11192943358762
+          },
+          {
+            "origin": 180.3620407297515,
+            "scale": 3.76015625,
+            "concentration": 0.2508807420642803,
+            "phase": 180.3620407297515
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.12423947511950484,
+            "scale": 3.7786458333333335,
+            "concentration": 0.31811329775524133,
+            "phase": 0.12423947511950484
+          },
+          {
+            "origin": 0.5637819335532104,
+            "scale": 3.7734375,
+            "concentration": 0.2937185296553562,
+            "phase": 0.5637819335532104
+          },
+          {
+            "origin": -0.40103922512641477,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2935955578279705,
+            "phase": 3.3836829970958076
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 181.20897905885784,
+      "scale": 3.7522369542672642,
+      "rms": 0.10078897292085102,
+      "points": 727
+    },
+    "y": {
+      "origin": 0.6778811803249368,
+      "scale": 3.773611107014147,
+      "rms": 0.2163520482628346,
+      "points": 3670
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000600.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.69767863325262,
+        "originY": 0.027447954746793856,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.69767863325262,
+            "scale": 3.75546875,
+            "concentration": 0.28837869547844797,
+            "phase": 180.69767863325262
+          },
+          {
+            "origin": 180.3571426147319,
+            "scale": 3.76015625,
+            "concentration": 0.2644192417559416,
+            "phase": 180.3571426147319
+          },
+          {
+            "origin": 181.08952520121593,
+            "scale": 3.75,
+            "concentration": 0.25997531039564187,
+            "phase": 181.08952520121593
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.027447954746793856,
+            "scale": 3.779513888888889,
+            "concentration": 0.30671656867942865,
+            "phase": 0.027447954746793856
+          },
+          {
+            "origin": -0.39316783704477487,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2869964021475797,
+            "phase": -0.39316783704477487
+          },
+          {
+            "origin": 0.43770109361884246,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28322155562263573,
+            "phase": 0.43770109361884246
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 181.1906257872398,
+      "scale": 3.752367675089272,
+      "rms": 0.10494384957904557,
+      "points": 730
+    },
+    "y": {
+      "origin": 0.6817463505818707,
+      "scale": 3.7735845869588927,
+      "rms": 0.21693310003646635,
+      "points": 3676
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000601.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.6995280672741,
+        "originY": 0.028272759298768102,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.6995280672741,
+            "scale": 3.75546875,
+            "concentration": 0.2886757180456079,
+            "phase": 180.6995280672741
+          },
+          {
+            "origin": 180.3588029083474,
+            "scale": 3.76015625,
+            "concentration": 0.2644066622927976,
+            "phase": 180.3588029083474
+          },
+          {
+            "origin": 181.09168409293565,
+            "scale": 3.75,
+            "concentration": 0.26053772540869163,
+            "phase": 181.09168409293565
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.028272759298768102,
+            "scale": 3.779513888888889,
+            "concentration": 0.30517117209574074,
+            "phase": 0.028272759298768102
+          },
+          {
+            "origin": -0.3920119804239238,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2854557587899604,
+            "phase": -0.3920119804239238
+          },
+          {
+            "origin": 0.4381628596525476,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2817299065140814,
+            "phase": 0.4381628596525476
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 181.24250031219404,
+      "scale": 3.752064392556286,
+      "rms": 0.09852969305743814,
+      "points": 727
+    },
+    "y": {
+      "origin": 0.6842808886495024,
+      "scale": 3.7735675034191902,
+      "rms": 0.21728018466848367,
+      "points": 3682
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000602.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.69943696603227,
+        "originY": 0.036241472367213756,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.69943696603227,
+            "scale": 3.75546875,
+            "concentration": 0.2884941274116707,
+            "phase": 180.69943696603227
+          },
+          {
+            "origin": 180.3586685773712,
+            "scale": 3.76015625,
+            "concentration": 0.2642305570970686,
+            "phase": 180.3586685773712
+          },
+          {
+            "origin": 181.09158816005862,
+            "scale": 3.75,
+            "concentration": 0.2602649936041509,
+            "phase": 181.09158816005862
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.036241472367213756,
+            "scale": 3.779513888888889,
+            "concentration": 0.2989662302664637,
+            "phase": 3.8157553612561026
+          },
+          {
+            "origin": 0.460100460754822,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28018263520141734,
+            "phase": 0.460100460754822
+          },
+          {
+            "origin": -0.40118116314024554,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2791123616150323,
+            "phase": 3.3835410590819768
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 181.24493235640313,
+      "scale": 3.752055496572885,
+      "rms": 0.09780936015745875,
+      "points": 726
+    },
+    "y": {
+      "origin": 0.6899517023291035,
+      "scale": 3.7735191848188676,
+      "rms": 0.21768725645623388,
+      "points": 3687
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000603.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7013465793865,
+        "originY": 0.038470502872582024,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7013465793865,
+            "scale": 3.75546875,
+            "concentration": 0.28854556562053063,
+            "phase": 180.7013465793865
+          },
+          {
+            "origin": 180.3607149727897,
+            "scale": 3.76015625,
+            "concentration": 0.26390637163795894,
+            "phase": 180.3607149727897
+          },
+          {
+            "origin": 181.09348717474452,
+            "scale": 3.75,
+            "concentration": 0.2606632284235764,
+            "phase": 181.09348717474452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.038470502872582024,
+            "scale": 3.779513888888889,
+            "concentration": 0.29843833825285876,
+            "phase": 3.817984391761471
+          },
+          {
+            "origin": 0.4623363052230083,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28010601258024626,
+            "phase": 0.4623363052230083
+          },
+          {
+            "origin": -0.399359428814829,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2781914341242226,
+            "phase": 3.3853627934073933
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9648605166903,
+      "scale": 3.7539123178799305,
+      "rms": 0.2370008741451773,
+      "points": 960
+    },
+    "y": {
+      "origin": 0.6935679172707364,
+      "scale": 3.7734850935013386,
+      "rms": 0.21777992949932604,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000604.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70167525889372,
+        "originY": 0.028453796569465298,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70167525889372,
+            "scale": 3.75546875,
+            "concentration": 0.2886865487631985,
+            "phase": 180.70167525889372
+          },
+          {
+            "origin": 180.36107363824524,
+            "scale": 3.76015625,
+            "concentration": 0.2640256746211464,
+            "phase": 180.36107363824524
+          },
+          {
+            "origin": 181.09386245466715,
+            "scale": 3.75,
+            "concentration": 0.26091075697970934,
+            "phase": 181.09386245466715
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.028453796569465298,
+            "scale": 3.779513888888889,
+            "concentration": 0.30452910859159965,
+            "phase": 0.028453796569465298
+          },
+          {
+            "origin": -0.39166074344556684,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2851301844228174,
+            "phase": -0.39166074344556684
+          },
+          {
+            "origin": 0.4384287977334656,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28085186984391475,
+            "phase": 0.4384287977334656
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.96493213157973,
+      "scale": 3.7539232966400338,
+      "rms": 0.2390692577952758,
+      "points": 960
+    },
+    "y": {
+      "origin": 0.6974084143500463,
+      "scale": 3.7734486296403893,
+      "rms": 0.21788311205947525,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000605.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7014768507359,
+        "originY": 0.027913770869312477,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7014768507359,
+            "scale": 3.75546875,
+            "concentration": 0.2886655226663663,
+            "phase": 180.7014768507359
+          },
+          {
+            "origin": 180.36085690778685,
+            "scale": 3.76015625,
+            "concentration": 0.2639798400405709,
+            "phase": 180.36085690778685
+          },
+          {
+            "origin": 181.0936690772043,
+            "scale": 3.75,
+            "concentration": 0.2609245322069641,
+            "phase": 181.0936690772043
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.027913770869312477,
+            "scale": 3.779513888888889,
+            "concentration": 0.304788550638999,
+            "phase": 0.027913770869312477
+          },
+          {
+            "origin": -0.3917297470167793,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2854979463115098,
+            "phase": -0.3917297470167793
+          },
+          {
+            "origin": 0.43756521599079623,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2808994356853576,
+            "phase": 0.43756521599079623
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.96498142863595,
+      "scale": 3.753934251820987,
+      "rms": 0.24111122869014465,
+      "points": 960
+    },
+    "y": {
+      "origin": 0.7012841132883115,
+      "scale": 3.773411856129191,
+      "rms": 0.217991788436797,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000606.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7015720990512,
+        "originY": 0.03761533926034355,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7015720990512,
+            "scale": 3.75546875,
+            "concentration": 0.28865160304657345,
+            "phase": 180.7015720990512
+          },
+          {
+            "origin": 180.36089454003596,
+            "scale": 3.76015625,
+            "concentration": 0.26394466374949965,
+            "phase": 180.36089454003596
+          },
+          {
+            "origin": 181.09382353762928,
+            "scale": 3.75,
+            "concentration": 0.2608343931555238,
+            "phase": 181.09382353762928
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03761533926034355,
+            "scale": 3.779513888888889,
+            "concentration": 0.29894175702224257,
+            "phase": 3.8171292281492324
+          },
+          {
+            "origin": 0.46099346968082666,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28031529693062535,
+            "phase": 0.46099346968082666
+          },
+          {
+            "origin": -0.3994832373204824,
+            "scale": 3.7847222222222223,
+            "concentration": 0.27882184929974074,
+            "phase": 3.38523898490174
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.96503072569345,
+      "scale": 3.753945207001932,
+      "rms": 0.24313029882963488,
+      "points": 960
+    },
+    "y": {
+      "origin": 0.7051329022511934,
+      "scale": 3.7733753937572545,
+      "rms": 0.2181057858802993,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000607.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7016429647906,
+        "originY": 0.03760705649905027,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7016429647906,
+            "scale": 3.75546875,
+            "concentration": 0.28857752788142965,
+            "phase": 180.7016429647906
+          },
+          {
+            "origin": 180.3609589383375,
+            "scale": 3.76015625,
+            "concentration": 0.26386903548392826,
+            "phase": 180.3609589383375
+          },
+          {
+            "origin": 181.09391585472343,
+            "scale": 3.75,
+            "concentration": 0.26076070443471244,
+            "phase": 181.09391585472343
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03760705649905027,
+            "scale": 3.779513888888889,
+            "concentration": 0.29894036956868497,
+            "phase": 3.817120945387939
+          },
+          {
+            "origin": 0.46098922263893605,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28031254606443945,
+            "phase": 0.46098922263893605
+          },
+          {
+            "origin": -0.39949573362388513,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2788221365654705,
+            "phase": 3.385226488598337
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.95517680996457,
+      "scale": 3.7539785264553944,
+      "rms": 0.25129971871461737,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7089816912058049,
+      "scale": 3.7733389313853802,
+      "rms": 0.21821610729284144,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000608.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70162630955502,
+        "originY": 0.028163927625704938,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70162630955502,
+            "scale": 3.75546875,
+            "concentration": 0.2886262170343613,
+            "phase": 180.70162630955502
+          },
+          {
+            "origin": 180.36096630641626,
+            "scale": 3.76015625,
+            "concentration": 0.26392640571405973,
+            "phase": 180.36096630641626
+          },
+          {
+            "origin": 181.0938888531089,
+            "scale": 3.75,
+            "concentration": 0.2608878648421641,
+            "phase": 181.0938888531089
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.028163927625704938,
+            "scale": 3.779513888888889,
+            "concentration": 0.30488240545322665,
+            "phase": 0.028163927625704938
+          },
+          {
+            "origin": -0.3914101935328737,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2854894950412433,
+            "phase": -0.3914101935328737
+          },
+          {
+            "origin": 0.4376610424724405,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28105400867293107,
+            "phase": 0.4376610424724405
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.95516228101005,
+      "scale": 3.753978619666625,
+      "rms": 0.25131522878095003,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7054132780684168,
+      "scale": 3.77336468889365,
+      "rms": 0.21761827244847104,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000609.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70162630955502,
+        "originY": 0.028163927625704938,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70162630955502,
+            "scale": 3.75546875,
+            "concentration": 0.2886262170343613,
+            "phase": 180.70162630955502
+          },
+          {
+            "origin": 180.36096630641626,
+            "scale": 3.76015625,
+            "concentration": 0.26392640571405973,
+            "phase": 180.36096630641626
+          },
+          {
+            "origin": 181.0938888531089,
+            "scale": 3.75,
+            "concentration": 0.2608878648421641,
+            "phase": 181.0938888531089
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.028163927625704938,
+            "scale": 3.779513888888889,
+            "concentration": 0.30488240545322665,
+            "phase": 0.028163927625704938
+          },
+          {
+            "origin": -0.3914101935328737,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2854894950412433,
+            "phase": -0.3914101935328737
+          },
+          {
+            "origin": 0.4376610424724405,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28105400867293107,
+            "phase": 0.4376610424724405
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.95514775205567,
+      "scale": 3.753978712877854,
+      "rms": 0.25133073749751245,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7032454542162522,
+      "scale": 3.773380311016084,
+      "rms": 0.21724614646801435,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000610.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70154484603023,
+        "originY": 0.03760821695222338,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70154484603023,
+            "scale": 3.75546875,
+            "concentration": 0.2886017955989718,
+            "phase": 180.70154484603023
+          },
+          {
+            "origin": 180.36084849633377,
+            "scale": 3.76015625,
+            "concentration": 0.2639056459502945,
+            "phase": 180.36084849633377
+          },
+          {
+            "origin": 181.09382414827365,
+            "scale": 3.75,
+            "concentration": 0.2607654348091882,
+            "phase": 181.09382414827365
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03760821695222338,
+            "scale": 3.779513888888889,
+            "concentration": 0.2989376577718422,
+            "phase": 3.8171221058411122
+          },
+          {
+            "origin": 0.4609928383647073,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28031061386614375,
+            "phase": 0.4609928383647073
+          },
+          {
+            "origin": -0.39949745850395146,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2788195430088806,
+            "phase": 3.385224763718271
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010454033836551,
+      "scale": 3.7733962223052795,
+      "rms": 0.21686991153081547,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000611.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70154484603023,
+        "originY": 0.03760821695222338,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70154484603023,
+            "scale": 3.75546875,
+            "concentration": 0.2886017955989718,
+            "phase": 180.70154484603023
+          },
+          {
+            "origin": 180.36084849633377,
+            "scale": 3.76015625,
+            "concentration": 0.2639056459502945,
+            "phase": 180.36084849633377
+          },
+          {
+            "origin": 181.09382414827365,
+            "scale": 3.75,
+            "concentration": 0.2607654348091882,
+            "phase": 181.09382414827365
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03760821695222338,
+            "scale": 3.779513888888889,
+            "concentration": 0.2989376577718422,
+            "phase": 3.8171221058411122
+          },
+          {
+            "origin": 0.4609928383647073,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28031061386614375,
+            "phase": 0.4609928383647073
+          },
+          {
+            "origin": -0.39949745850395146,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2788195430088806,
+            "phase": 3.385224763718271
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000612.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70168010961694,
+        "originY": 0.02887585396937664,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70168010961694,
+            "scale": 3.75546875,
+            "concentration": 0.288652986618205,
+            "phase": 180.70168010961694
+          },
+          {
+            "origin": 180.36101896929515,
+            "scale": 3.76015625,
+            "concentration": 0.2639620181367461,
+            "phase": 180.36101896929515
+          },
+          {
+            "origin": 181.0939583233448,
+            "scale": 3.75,
+            "concentration": 0.26089893670589787,
+            "phase": 181.0939583233448
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.02887585396937664,
+            "scale": 3.779513888888889,
+            "concentration": 0.3049874483756391,
+            "phase": 0.02887585396937664
+          },
+          {
+            "origin": -0.39076374299941924,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2853511014191579,
+            "phase": -0.39076374299941924
+          },
+          {
+            "origin": 0.4382048096342615,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2813701153863459,
+            "phase": 0.4382048096342615
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000613.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70168010961694,
+        "originY": 0.02887585396937664,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70168010961694,
+            "scale": 3.75546875,
+            "concentration": 0.288652986618205,
+            "phase": 180.70168010961694
+          },
+          {
+            "origin": 180.36101896929515,
+            "scale": 3.76015625,
+            "concentration": 0.2639620181367461,
+            "phase": 180.36101896929515
+          },
+          {
+            "origin": 181.0939583233448,
+            "scale": 3.75,
+            "concentration": 0.26089893670589787,
+            "phase": 181.0939583233448
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.02887585396937664,
+            "scale": 3.779513888888889,
+            "concentration": 0.3049874483756391,
+            "phase": 0.02887585396937664
+          },
+          {
+            "origin": -0.39076374299941924,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2853511014191579,
+            "phase": -0.39076374299941924
+          },
+          {
+            "origin": 0.4382048096342615,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2813701153863459,
+            "phase": 0.4382048096342615
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000614.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7015815504732,
+        "originY": 0.03761109719402622,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7015815504732,
+            "scale": 3.75546875,
+            "concentration": 0.2886020205457719,
+            "phase": 180.7015815504732
+          },
+          {
+            "origin": 180.36089621818826,
+            "scale": 3.76015625,
+            "concentration": 0.26390075104600225,
+            "phase": 180.36089621818826
+          },
+          {
+            "origin": 181.09385108414887,
+            "scale": 3.75,
+            "concentration": 0.2607723448483037,
+            "phase": 181.09385108414887
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03761109719402622,
+            "scale": 3.779513888888889,
+            "concentration": 0.29894049099417386,
+            "phase": 3.817124986082915
+          },
+          {
+            "origin": 0.4609917210371419,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28031374838979534,
+            "phase": 0.4609917210371419
+          },
+          {
+            "origin": -0.3994912879619532,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2788209202926476,
+            "phase": 3.385230934260269
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000615.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7015815504732,
+        "originY": 0.03761109719402622,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7015815504732,
+            "scale": 3.75546875,
+            "concentration": 0.2886020205457719,
+            "phase": 180.7015815504732
+          },
+          {
+            "origin": 180.36089621818826,
+            "scale": 3.76015625,
+            "concentration": 0.26390075104600225,
+            "phase": 180.36089621818826
+          },
+          {
+            "origin": 181.09385108414887,
+            "scale": 3.75,
+            "concentration": 0.2607723448483037,
+            "phase": 181.09385108414887
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03761109719402622,
+            "scale": 3.779513888888889,
+            "concentration": 0.29894049099417386,
+            "phase": 3.817124986082915
+          },
+          {
+            "origin": 0.4609917210371419,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28031374838979534,
+            "phase": 0.4609917210371419
+          },
+          {
+            "origin": -0.3994912879619532,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2788209202926476,
+            "phase": 3.385230934260269
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000616.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70168308030833,
+        "originY": 0.028502543403205495,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70168308030833,
+            "scale": 3.75546875,
+            "concentration": 0.288674153527152,
+            "phase": 180.70168308030833
+          },
+          {
+            "origin": 180.36102174863709,
+            "scale": 3.76015625,
+            "concentration": 0.26397943322805956,
+            "phase": 180.36102174863709
+          },
+          {
+            "origin": 181.093962487194,
+            "scale": 3.75,
+            "concentration": 0.260921410414779,
+            "phase": 181.093962487194
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.028502543403205495,
+            "scale": 3.779513888888889,
+            "concentration": 0.3049106151761455,
+            "phase": 0.028502543403205495
+          },
+          {
+            "origin": -0.391150786238969,
+            "scale": 3.7847222222222223,
+            "concentration": 0.28540930569341033,
+            "phase": -0.391150786238969
+          },
+          {
+            "origin": 0.437967622150102,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2811892999762637,
+            "phase": 0.437967622150102
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000617.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70168308030833,
+        "originY": 0.028502543403205495,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70168308030833,
+            "scale": 3.75546875,
+            "concentration": 0.288674153527152,
+            "phase": 180.70168308030833
+          },
+          {
+            "origin": 180.36102174863709,
+            "scale": 3.76015625,
+            "concentration": 0.26397943322805956,
+            "phase": 180.36102174863709
+          },
+          {
+            "origin": 181.093962487194,
+            "scale": 3.75,
+            "concentration": 0.260921410414779,
+            "phase": 181.093962487194
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.028502543403205495,
+            "scale": 3.779513888888889,
+            "concentration": 0.3049106151761455,
+            "phase": 0.028502543403205495
+          },
+          {
+            "origin": -0.391150786238969,
+            "scale": 3.7847222222222223,
+            "concentration": 0.28540930569341033,
+            "phase": -0.391150786238969
+          },
+          {
+            "origin": 0.437967622150102,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2811892999762637,
+            "phase": 0.437967622150102
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000618.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70159031852594,
+        "originY": 0.03760705649905027,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70159031852594,
+            "scale": 3.75546875,
+            "concentration": 0.28860985213009693,
+            "phase": 180.70159031852594
+          },
+          {
+            "origin": 180.36092376356913,
+            "scale": 3.76015625,
+            "concentration": 0.26390752492197384,
+            "phase": 180.36092376356913
+          },
+          {
+            "origin": 181.09383906628221,
+            "scale": 3.75,
+            "concentration": 0.26078167529639257,
+            "phase": 181.09383906628221
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03760705649905027,
+            "scale": 3.779513888888889,
+            "concentration": 0.29894036956868497,
+            "phase": 3.817120945387939
+          },
+          {
+            "origin": 0.46098922263893605,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28031254606443945,
+            "phase": 0.46098922263893605
+          },
+          {
+            "origin": -0.39949573362388513,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2788221365654705,
+            "phase": 3.385226488598337
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000619.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70159031852594,
+        "originY": 0.03760705649905027,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70159031852594,
+            "scale": 3.75546875,
+            "concentration": 0.28860985213009693,
+            "phase": 180.70159031852594
+          },
+          {
+            "origin": 180.36092376356913,
+            "scale": 3.76015625,
+            "concentration": 0.26390752492197384,
+            "phase": 180.36092376356913
+          },
+          {
+            "origin": 181.09383906628221,
+            "scale": 3.75,
+            "concentration": 0.26078167529639257,
+            "phase": 181.09383906628221
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03760705649905027,
+            "scale": 3.779513888888889,
+            "concentration": 0.29894036956868497,
+            "phase": 3.817120945387939
+          },
+          {
+            "origin": 0.46098922263893605,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28031254606443945,
+            "phase": 0.46098922263893605
+          },
+          {
+            "origin": -0.39949573362388513,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2788221365654705,
+            "phase": 3.385226488598337
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000620.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70163709247223,
+        "originY": 0.028627191774809307,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70163709247223,
+            "scale": 3.75546875,
+            "concentration": 0.2886751253841382,
+            "phase": 180.70163709247223
+          },
+          {
+            "origin": 180.3609944689163,
+            "scale": 3.76015625,
+            "concentration": 0.2639781668434409,
+            "phase": 180.3609944689163
+          },
+          {
+            "origin": 181.09388395561402,
+            "scale": 3.75,
+            "concentration": 0.26092726135640865,
+            "phase": 181.09388395561402
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.028627191774809307,
+            "scale": 3.779513888888889,
+            "concentration": 0.3049876825949945,
+            "phase": 0.028627191774809307
+          },
+          {
+            "origin": -0.3909102315781485,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2854244009309804,
+            "phase": -0.3909102315781485
+          },
+          {
+            "origin": 0.4379361495087176,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2812854838063837,
+            "phase": 0.4379361495087176
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000621.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70163709247223,
+        "originY": 0.028627191774809307,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70163709247223,
+            "scale": 3.75546875,
+            "concentration": 0.2886751253841382,
+            "phase": 180.70163709247223
+          },
+          {
+            "origin": 180.3609944689163,
+            "scale": 3.76015625,
+            "concentration": 0.2639781668434409,
+            "phase": 180.3609944689163
+          },
+          {
+            "origin": 181.09388395561402,
+            "scale": 3.75,
+            "concentration": 0.26092726135640865,
+            "phase": 181.09388395561402
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.028627191774809307,
+            "scale": 3.779513888888889,
+            "concentration": 0.3049876825949945,
+            "phase": 0.028627191774809307
+          },
+          {
+            "origin": -0.3909102315781485,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2854244009309804,
+            "phase": -0.3909102315781485
+          },
+          {
+            "origin": 0.4379361495087176,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2812854838063837,
+            "phase": 0.4379361495087176
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000622.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70158542194795,
+        "originY": 0.03760705649905027,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70158542194795,
+            "scale": 3.75546875,
+            "concentration": 0.28863425214175065,
+            "phase": 180.70158542194795
+          },
+          {
+            "origin": 180.3609300862177,
+            "scale": 3.76015625,
+            "concentration": 0.2639310792441764,
+            "phase": 180.3609300862177
+          },
+          {
+            "origin": 181.09382077401781,
+            "scale": 3.75,
+            "concentration": 0.26080347982366503,
+            "phase": 181.09382077401781
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03760705649905027,
+            "scale": 3.779513888888889,
+            "concentration": 0.29894036956868497,
+            "phase": 3.817120945387939
+          },
+          {
+            "origin": 0.46098922263893605,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28031254606443945,
+            "phase": 0.46098922263893605
+          },
+          {
+            "origin": -0.39949573362388513,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2788221365654705,
+            "phase": 3.385226488598337
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000623.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70158542194795,
+        "originY": 0.03760705649905027,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70158542194795,
+            "scale": 3.75546875,
+            "concentration": 0.28863425214175065,
+            "phase": 180.70158542194795
+          },
+          {
+            "origin": 180.3609300862177,
+            "scale": 3.76015625,
+            "concentration": 0.2639310792441764,
+            "phase": 180.3609300862177
+          },
+          {
+            "origin": 181.09382077401781,
+            "scale": 3.75,
+            "concentration": 0.26080347982366503,
+            "phase": 181.09382077401781
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03760705649905027,
+            "scale": 3.779513888888889,
+            "concentration": 0.29894036956868497,
+            "phase": 3.817120945387939
+          },
+          {
+            "origin": 0.46098922263893605,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28031254606443945,
+            "phase": 0.46098922263893605
+          },
+          {
+            "origin": -0.39949573362388513,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2788221365654705,
+            "phase": 3.385226488598337
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000624.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7015609751827,
+        "originY": 0.028721202692230892,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7015609751827,
+            "scale": 3.75546875,
+            "concentration": 0.2887034042778433,
+            "phase": 180.7015609751827
+          },
+          {
+            "origin": 180.36092808682463,
+            "scale": 3.76015625,
+            "concentration": 0.2640137759543105,
+            "phase": 180.36092808682463
+          },
+          {
+            "origin": 181.09378860580068,
+            "scale": 3.75,
+            "concentration": 0.26094465129888655,
+            "phase": 181.09378860580068
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.028721202692230892,
+            "scale": 3.779513888888889,
+            "concentration": 0.30504511691749076,
+            "phase": 0.028721202692230892
+          },
+          {
+            "origin": -0.390728941685971,
+            "scale": 3.7847222222222223,
+            "concentration": 0.28543527075778435,
+            "phase": -0.390728941685971
+          },
+          {
+            "origin": 0.4379128624247634,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28135736201067574,
+            "phase": 0.4379128624247634
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000625.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7015609751827,
+        "originY": 0.028721202692230892,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7015609751827,
+            "scale": 3.75546875,
+            "concentration": 0.2887034042778433,
+            "phase": 180.7015609751827
+          },
+          {
+            "origin": 180.36092808682463,
+            "scale": 3.76015625,
+            "concentration": 0.2640137759543105,
+            "phase": 180.36092808682463
+          },
+          {
+            "origin": 181.09378860580068,
+            "scale": 3.75,
+            "concentration": 0.26094465129888655,
+            "phase": 181.09378860580068
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.028721202692230892,
+            "scale": 3.779513888888889,
+            "concentration": 0.30504511691749076,
+            "phase": 0.028721202692230892
+          },
+          {
+            "origin": -0.390728941685971,
+            "scale": 3.7847222222222223,
+            "concentration": 0.28543527075778435,
+            "phase": -0.390728941685971
+          },
+          {
+            "origin": 0.4379128624247634,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28135736201067574,
+            "phase": 0.4379128624247634
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000626.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70154619490742,
+        "originY": 0.03760705649905027,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70154619490742,
+            "scale": 3.75546875,
+            "concentration": 0.2886286853954295,
+            "phase": 180.70154619490742
+          },
+          {
+            "origin": 180.36088771074134,
+            "scale": 3.76015625,
+            "concentration": 0.26393183278142834,
+            "phase": 180.36088771074134
+          },
+          {
+            "origin": 181.09378207801538,
+            "scale": 3.75,
+            "concentration": 0.26079162889904245,
+            "phase": 181.09378207801538
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03760705649905027,
+            "scale": 3.779513888888889,
+            "concentration": 0.29894036956868497,
+            "phase": 3.817120945387939
+          },
+          {
+            "origin": 0.46098922263893605,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28031254606443945,
+            "phase": 0.46098922263893605
+          },
+          {
+            "origin": -0.39949573362388513,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2788221365654705,
+            "phase": 3.385226488598337
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000627.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70154619490742,
+        "originY": 0.03760705649905027,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70154619490742,
+            "scale": 3.75546875,
+            "concentration": 0.2886286853954295,
+            "phase": 180.70154619490742
+          },
+          {
+            "origin": 180.36088771074134,
+            "scale": 3.76015625,
+            "concentration": 0.26393183278142834,
+            "phase": 180.36088771074134
+          },
+          {
+            "origin": 181.09378207801538,
+            "scale": 3.75,
+            "concentration": 0.26079162889904245,
+            "phase": 181.09378207801538
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03760705649905027,
+            "scale": 3.779513888888889,
+            "concentration": 0.29894036956868497,
+            "phase": 3.817120945387939
+          },
+          {
+            "origin": 0.46098922263893605,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28031254606443945,
+            "phase": 0.46098922263893605
+          },
+          {
+            "origin": -0.39949573362388513,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2788221365654705,
+            "phase": 3.385226488598337
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000628.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70164954488925,
+        "originY": 0.02888739196762698,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70164954488925,
+            "scale": 3.75546875,
+            "concentration": 0.2887286885748698,
+            "phase": 180.70164954488925
+          },
+          {
+            "origin": 180.36104003458124,
+            "scale": 3.76015625,
+            "concentration": 0.2640322594901708,
+            "phase": 180.36104003458124
+          },
+          {
+            "origin": 181.09387219027784,
+            "scale": 3.75,
+            "concentration": 0.26097682080234313,
+            "phase": 181.09387219027784
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.02888739196762698,
+            "scale": 3.779513888888889,
+            "concentration": 0.30501547109586097,
+            "phase": 0.02888739196762698
+          },
+          {
+            "origin": -0.39069879372257366,
+            "scale": 3.7847222222222223,
+            "concentration": 0.28536690628908773,
+            "phase": -0.39069879372257366
+          },
+          {
+            "origin": 0.4381595526580502,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28139388292277795,
+            "phase": 0.4381595526580502
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000629.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70164954488925,
+        "originY": 0.02888739196762698,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70164954488925,
+            "scale": 3.75546875,
+            "concentration": 0.2887286885748698,
+            "phase": 180.70164954488925
+          },
+          {
+            "origin": 180.36104003458124,
+            "scale": 3.76015625,
+            "concentration": 0.2640322594901708,
+            "phase": 180.36104003458124
+          },
+          {
+            "origin": 181.09387219027784,
+            "scale": 3.75,
+            "concentration": 0.26097682080234313,
+            "phase": 181.09387219027784
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.02888739196762698,
+            "scale": 3.779513888888889,
+            "concentration": 0.30501547109586097,
+            "phase": 0.02888739196762698
+          },
+          {
+            "origin": -0.39069879372257366,
+            "scale": 3.7847222222222223,
+            "concentration": 0.28536690628908773,
+            "phase": -0.39069879372257366
+          },
+          {
+            "origin": 0.4381595526580502,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28139388292277795,
+            "phase": 0.4381595526580502
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000630.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70154607447117,
+        "originY": 0.03760705649905027,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70154607447117,
+            "scale": 3.75546875,
+            "concentration": 0.28862725492519326,
+            "phase": 180.70154607447117
+          },
+          {
+            "origin": 180.36089948949672,
+            "scale": 3.76015625,
+            "concentration": 0.26393110139353587,
+            "phase": 180.36089948949672
+          },
+          {
+            "origin": 181.0937682869589,
+            "scale": 3.75,
+            "concentration": 0.26079080697249846,
+            "phase": 181.0937682869589
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03760705649905027,
+            "scale": 3.779513888888889,
+            "concentration": 0.29894036956868497,
+            "phase": 3.817120945387939
+          },
+          {
+            "origin": 0.46098922263893605,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28031254606443945,
+            "phase": 0.46098922263893605
+          },
+          {
+            "origin": -0.39949573362388513,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2788221365654705,
+            "phase": 3.385226488598337
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        2,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.9551332231011,
+      "scale": 3.753978806089085,
+      "rms": 0.25134624486453305,
+      "points": 976
+    },
+    "y": {
+      "origin": 0.7010747425138462,
+      "scale": 3.773396009673184,
+      "rms": 0.2168754977871498,
+      "points": 3688
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 75,
+    "currentXPoints": 123,
+    "currentYPoints": 462
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000631.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000632.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000633.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000634.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000635.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "status": "diagnosis_only_not_new_blind_read",
+  "frames": [
+    {
+      "frame": 5180,
+      "path": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1/frame-005180.png",
+      "sha256": "b3a5eba449e913cb4c403a379ff1f8d3efd58ea3243dfe06a0c51214a2f5278e"
+    },
+    {
+      "frame": 5181,
+      "path": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1/frame-005181.png",
+      "sha256": "067400e0288bd4c92df430bc5be0ce2baf0c04a5a2debc8684b869dd116cdfe0"
+    },
+    {
+      "frame": 5182,
+      "path": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1/frame-005182.png",
+      "sha256": "97f0f16f56e97d63c160172327bd890ea4135c5dfa098592eb76e530bd822644"
+    }
+  ],
+  "actualSha256": "afdcf8e418fbdc895600f98a3474b8d3613b19263b34ebdbf1c238c863c240b7",
+  "observation": "5180 enclosed blank menu; 5181 first two labels plus two unattached dakuten above blank third row, cursor already visible; 5182 full labels with marks attached. Current incomplete writing has a pixel signal distinct from missing cursor.",
+  "next": "Check all START-layout detached marks before implementing; do not infer completeness from expected labels or future frame.",
+  "gtChanged": false
+}

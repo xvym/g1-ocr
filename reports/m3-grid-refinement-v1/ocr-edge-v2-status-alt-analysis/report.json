@@ -1,0 +1,159 @@
+{
+  "status": "independent_raw_edit_counts_agree_not_OCR_acceptance",
+  "inputReport": {
+    "path": "reports/m3-grid-refinement-v1/ocr-edge-v2-status-alt-pages/comparison/report.json",
+    "sha256": "87f2ec8c276e1cc44b2845ad621b9291d0c1afec3fb71db2475b0c1e7e5731c1"
+  },
+  "frameReferences": 129,
+  "uniqueSourceFrames": 129,
+  "characters": 10314,
+  "errors": 149,
+  "frameCharacterAccuracy": 0.9855536164436688,
+  "clips": [
+    {
+      "clipId": "status-alt-pages",
+      "characters": 10314,
+      "errors": 149,
+      "framesWithTextErrors": 2
+    }
+  ],
+  "frequentDifferences": [
+    {
+      "difference": "text|pokemon_name:1:11:0|ウツボット|ウツホット",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|experience_label:3:9:5|けいけんち/|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|experience:4:13:6|117997|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|next_level_label:5:9:7|あと|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|experience_remaining:6:10:8|7129で|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|compact_status_label:6:16:9|:L|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|next_level:6:17:10|51|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|move_name:12:2:11|ねむりごな|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|pp_label:12:11:12|PP|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|move_pp:12:14:13|15/15|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|move_name:14:2:14|つるぎのまい|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|pp_label:14:11:15|PP|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|move_pp:14:14:16|30/30|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|move_name:16:2:17|すてみタックル|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|pp_label:16:11:18|PP|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|move_pp:16:14:19|15/15|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|stat_label:10:1:20|こうげき|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|attack:10:6:21|144|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|pokemon_type:10:10:22|タイプ1/くさ|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|compact_status_label:3.5:11:5||HP:",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|hp_current_max:4:12:6||160/160",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|pokemon_condition:6:10:7||じょうたい/ふつう",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|move_name:12:2:8||ねむりこな",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|pp_label:12:11:9||PP",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|move_pp:12:14:10||15/15",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|move_name:14:2:11||つるぎのまい",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|pp_label:14:11:12||PP",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|move_pp:14:14:13||30/30",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|move_name:16:2:14||すてみタックル",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|pp_label:16:11:15||PP",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|move_pp:16:14:16||15/15",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|stat_label:10:1:17||こうげき",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|attack:10:6:18||144",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|pokemon_type:10:10:19||タイプ1/くさ",
+      "frames": 1
+    }
+  ],
+  "scope": "Independent source-frame association and Unicode scalar edit counts; strict region keys unchanged. Geometry, state, page/UI and independent-session gates remain separate."
+}

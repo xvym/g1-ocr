@@ -1,0 +1,62 @@
+[
+  {
+    "sourceFrameIndex": 3853,
+    "sourcePts": 1972736,
+    "stateId": "c83de914352e-f3853-f3855",
+    "expectedCharacters": 21,
+    "errors": 31,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue:15:1:1",
+        "expected": "にゅうじょうりょうが いるけど",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:5:1",
+        "expected": "",
+        "actual": "�",
+        "errors": 1
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:15:1:2",
+        "expected": "",
+        "actual": "にゅうじょうりょうが いるけど",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 3854,
+    "sourcePts": 1973248,
+    "stateId": "c83de914352e-f3853-f3855",
+    "expectedCharacters": 21,
+    "errors": 31,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue:15:1:1",
+        "expected": "にゅうじょうりょうが いるけど",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:14:5:1",
+        "expected": "",
+        "actual": "�",
+        "errors": 1
+      },
+      {
+        "kind": "extra_region",
+        "key": "dialogue:15:1:2",
+        "expected": "",
+        "actual": "にゅうじょうりょうが いるけど",
+        "errors": 15
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "version": "scoring-dimensions-v1",
+  "scope": {"clips":38,"retainedReferences":3577,"scoredReferences":3368,"uniqueScoredFrames":3361,"completeFrames":2045,"transitionFrames":1316,"pages":116},
+  "frozen": "data/gt/frozen/ocr-all-scenes-v2-observation-r14",
+  "run": "reports/m3-grid-refinement-v1/ocr-regression-all-v19",
+  "audit": "reports/m3-grid-refinement-v1/coordinate-contract-v19-v1",
+  "legacyTrialContractSha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c",
+  "dimensions": {
+    "text": "Unicode scalar Levenshtein by exact role/base grid start/readingOrder. Preserve spaces, punctuation, diacritics and small kana; missing/extra fields count deletion/insertion.",
+    "fieldPosition": "Exact role/start/order matching, full gridRect, markCells, logicalRect and renderUnits. No text-based pairing; missing/extra fields and visible-mark attribution remain failures.",
+    "symbols": "Presence, kind/style, gridRect, order of all cursor/down-arrow/detached symbols. SourceRect separately reported. Retain strict descriptor equality beside version-aware equality.",
+    "state": "Exact kind beside version-aware comparison. Only legacy schema1 flat-arrow complete_waiting can represent current message_complete; no other kind aliases.",
+    "pixelBorder": "Compare half-open sourceRect on every strict matched field/symbol path; missing/extra targets are not comparable, never cosmetic offsets. Keep all deltas, frozen projection checks and prior original-pixel warnings, which cannot prove glyph clipping or safety.",
+    "logicalAgreement": "Conjunction of text/fieldPosition/symbols/state only, diagnostic, not a replacement accepted page score or physical-envelope/UI qualification."
+  },
+  "compatibility": {
+    "guard": "Exact frozen legacy contract SHA plus expected schemaVersion1 and flat cursor with downArrowVisible true, valid gridRect/sourceRect, no nested downArrow and no style. Never guard by clip/frame/text answer.",
+    "arrow": "Expand expected legacy flat arrow to filled_down in a derived comparison copy only. Preserve actual style, symbol presence, logical position, extra symbols and original source rectangles.",
+    "state": "Under the same guard, expected completePage true, expected kind complete_waiting and all nonempty expected regions role dialogue: compare to actual message_complete with visible down arrow. Keep original label mismatch and compatibility event. Loading, cursor, menu and clearing kinds are not aliased."
+  },
+  "aggregation": "One original frame counted once; any overlapping replay failure fails that dimension. Max edit errors across overlaps, same frozen continuous-state union and page-opportunity union as original. All scoring frames retained. Per-page dimension success requires every complete frame; transition frames and continuous transition opportunities separately listed.",
+  "checks": [
+    "Independently reconstruct both stages of every original score and exact aggregate without importing production OCR or changing its scorer.",
+    "Bind all previous audit inputs, GT payloads, media, actual/build/old scores plus new helpers by SHA before/after; no new OCR/build/GT mutation.",
+    "Preserve original7/116, raw188/final177, seven literal/mark mismatch frames, unit subdivisions, three true symbol pages,17 question pages and all unresolved boundary warnings.",
+    "Adversarial cloned fixtures exercise deleted characters, role/order/occupancy/mark/unit mistakes and compatibility guard rejection, not product acceptance.",
+    "Independent checker must rebuild new per-frame dimensions, overlap/state/page aggregation, compatibility scope and fixtures from frozen GT and actual, not call the new scorer."
+  ],
+  "qualification": {"productAcceptance":false,"uiLatency":"unverified","independentSessionAcceptance":"unverified","gtSemanticQualification":false}
+}

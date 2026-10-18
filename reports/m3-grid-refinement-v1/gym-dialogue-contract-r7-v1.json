@@ -1,0 +1,2225 @@
+{
+  "status": "same_carried_dialogue_field_has_inconsistent_metadata_role_original_review_required",
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r7/freeze.json",
+    "sha256": "e57cb8b84ec8d4b0631b1a59377a90cb5157799a418d22696e459df99518cfe1"
+  },
+  "helper": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\audit-gym-dialogue-contract.cjs",
+    "sha256": "6fdde53e3789ba534944e7aafdc56aff06fda73ff23214ac282bcd6673f547d4"
+  },
+  "sourceAudit": {
+    "path": "reports/m3-font-audit-v1/source-audit-v2/report.json",
+    "sha256": "7dbead23d979e368afde384493177d9d9c05fbbf9c39fcd82461ff5172f9c2a3"
+  },
+  "sources": [
+    {
+      "path": ".cache/reference-sources/pokegreen-v1/home/text.asm",
+      "sha256": "1f7f3c343a8d1834b8a8cc52069b3f46db3cff6ecd591ecf812d08ea2adf6103",
+      "commit": "953f41b34108621b2bf13c3b1e53abfc9c3e5aec",
+      "gitBlob": "cf885539e417bd2210b9ed96c013c3502c4781ca",
+      "rule": "PromptText waits with an arrow; _ContText scrolls twice and continues through NextChar. The renderer does not assign distinct field roles to the carried row before/after an annotation clip boundary."
+    },
+    {
+      "path": ".cache/reference-sources/pokeblue-v1/home/text.asm",
+      "sha256": "4c013d31c66adece2af44642abf939a8e357b219d7074e7202d7de77be346836",
+      "commit": "69cd1814203dd24533c46af383d7cff5591aea90",
+      "gitBlob": "e4afda8f607d93367237e6076a614bbff803e20d",
+      "rule": "PromptText waits with an arrow; _ContText scrolls twice and continues through NextChar. The renderer does not assign distinct field roles to the carried row before/after an annotation clip boundary."
+    },
+    {
+      "path": ".cache/reference-sources/pokeyellow-jp-v1/home/text.asm",
+      "sha256": "c8d6de2ef56ff5b4b2f09b94926ece655feef419eff1488336497288924fe45d",
+      "commit": "f282e72ae26232790fdb780aa5a5db7ec8ebf572",
+      "gitBlob": "9fba9eb8dfd2b2c608933f5222f3769e3b0b2b05",
+      "rule": "PromptText waits with an arrow; _ContText scrolls twice and continues through NextChar. The renderer does not assign distinct field roles to the carried row before/after an annotation clip boundary."
+    }
+  ],
+  "commonRules": [
+    "consumerInput",
+    "textUnit",
+    "partiallyHiddenGlyphs",
+    "rectangles",
+    "regionMatching",
+    "characterErrors",
+    "equalStateAccuracy",
+    "emptyFrames",
+    "pages",
+    "latency"
+  ],
+  "scope": [
+    {
+      "id": "approved-trial",
+      "payloads": [
+        {
+          "kind": "gt",
+          "path": "data/gt/frozen/ocr-trial-v2/ocr-candidate-v2.jsonl",
+          "sha256": "30d240232e03eaca07eeebe9502a56689e41bf223faa59c665c4e638a154de25"
+        },
+        {
+          "kind": "clip",
+          "path": "data/gt/frozen/ocr-trial-v2/clip-trial-v2.json",
+          "sha256": "a44fa579bf3699bca4b8edd654c2e1300507cd15002cc74bc34e7f8e314bd912"
+        },
+        {
+          "kind": "layout",
+          "path": "data/gt/frozen/ocr-trial-v2/layout-v2.json",
+          "sha256": "f004f9fdb59681ef99f116593ad5a82b716380125487b7cf66b639ddfb00adf0"
+        },
+        {
+          "kind": "contract",
+          "path": "data/gt/frozen/ocr-trial-v2/ocr-scoring-contract-v1.json",
+          "sha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c"
+        }
+      ],
+      "states": [
+        {
+          "schemaVersion": 1,
+          "stateId": "c83de914352e-f5264-f5268",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5264,
+          "endFrameExclusive": 5268,
+          "startPts": 2695168,
+          "endPtsExclusive": 2697216,
+          "timeBase": "1/12288",
+          "kind": "no_textbox",
+          "completePage": false,
+          "regions": [],
+          "cursor": {
+            "gridRect": null,
+            "downArrowVisible": false,
+            "sourceRect": null
+          },
+          "layoutRef": "layout-v2.json",
+          "evidence": {
+            "frameRange": [
+              5264,
+              5268
+            ],
+            "allFrames": "data/frames/video-02/trial-pass2-v1",
+            "reviewedByHuman": "not claimed",
+            "pass1": "data/gt/candidates/ocr-trial-v1/pass1.jsonl; differences resolved only from original pixels, see pass-differences.json",
+            "pass2": "agent reread all 39 freshly decoded original frames in ordered text/full-game sheets; nearest-neighbour recheck of 5278,5279,5280,5286,5296,5298; no OCR/translation exists"
+          },
+          "renderNote": null,
+          "verificationStatus": "agent_double_read_complete_candidate"
+        },
+        {
+          "schemaVersion": 1,
+          "stateId": "c83de914352e-f5268-f5275",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5268,
+          "endFrameExclusive": 5275,
+          "startPts": 2697216,
+          "endPtsExclusive": 2700800,
+          "timeBase": "1/12288",
+          "kind": "textbox_empty",
+          "completePage": false,
+          "regions": [],
+          "cursor": {
+            "gridRect": null,
+            "downArrowVisible": false,
+            "sourceRect": null
+          },
+          "layoutRef": "layout-v2.json",
+          "evidence": {
+            "frameRange": [
+              5268,
+              5275
+            ],
+            "allFrames": "data/frames/video-02/trial-pass2-v1",
+            "reviewedByHuman": "not claimed",
+            "pass1": "data/gt/candidates/ocr-trial-v1/pass1.jsonl; differences resolved only from original pixels, see pass-differences.json",
+            "pass2": "agent reread all 39 freshly decoded original frames in ordered text/full-game sheets; nearest-neighbour recheck of 5278,5279,5280,5286,5296,5298; no OCR/translation exists"
+          },
+          "renderNote": null,
+          "verificationStatus": "agent_double_read_complete_candidate"
+        },
+        {
+          "schemaVersion": 1,
+          "stateId": "c83de914352e-f5275-f5276",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5275,
+          "endFrameExclusive": 5276,
+          "startPts": 2700800,
+          "endPtsExclusive": 2701312,
+          "timeBase": "1/12288",
+          "kind": "loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "line-0",
+              "role": "dialogue_line",
+              "readingOrder": 0,
+              "text": "セキ",
+              "gridRect": [
+                1,
+                14,
+                3,
+                15
+              ],
+              "sourceRect": [
+                318,
+                360,
+                354,
+                378
+              ],
+              "markCells": [],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            }
+          ],
+          "cursor": {
+            "gridRect": null,
+            "downArrowVisible": false,
+            "sourceRect": null
+          },
+          "layoutRef": "layout-v2.json",
+          "evidence": {
+            "frameRange": [
+              5275,
+              5276
+            ],
+            "allFrames": "data/frames/video-02/trial-pass2-v1",
+            "reviewedByHuman": "not claimed",
+            "pass1": "data/gt/candidates/ocr-trial-v1/pass1.jsonl; differences resolved only from original pixels, see pass-differences.json",
+            "pass2": "agent reread all 39 freshly decoded original frames in ordered text/full-game sheets; nearest-neighbour recheck of 5278,5279,5280,5286,5296,5298; no OCR/translation exists"
+          },
+          "renderNote": null,
+          "verificationStatus": "agent_double_read_complete_candidate"
+        },
+        {
+          "schemaVersion": 1,
+          "stateId": "c83de914352e-f5276-f5278",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5276,
+          "endFrameExclusive": 5278,
+          "startPts": 2701312,
+          "endPtsExclusive": 2702336,
+          "timeBase": "1/12288",
+          "kind": "loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "line-0",
+              "role": "dialogue_line",
+              "readingOrder": 0,
+              "text": "セキチク",
+              "gridRect": [
+                1,
+                14,
+                5,
+                15
+              ],
+              "sourceRect": [
+                318,
+                360,
+                390,
+                378
+              ],
+              "markCells": [],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            }
+          ],
+          "cursor": {
+            "gridRect": null,
+            "downArrowVisible": false,
+            "sourceRect": null
+          },
+          "layoutRef": "layout-v2.json",
+          "evidence": {
+            "frameRange": [
+              5276,
+              5278
+            ],
+            "allFrames": "data/frames/video-02/trial-pass2-v1",
+            "reviewedByHuman": "not claimed",
+            "pass1": "data/gt/candidates/ocr-trial-v1/pass1.jsonl; differences resolved only from original pixels, see pass-differences.json",
+            "pass2": "agent reread all 39 freshly decoded original frames in ordered text/full-game sheets; nearest-neighbour recheck of 5278,5279,5280,5286,5296,5298; no OCR/translation exists"
+          },
+          "renderNote": null,
+          "verificationStatus": "agent_double_read_complete_candidate"
+        },
+        {
+          "schemaVersion": 1,
+          "stateId": "c83de914352e-f5278-f5279",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5278,
+          "endFrameExclusive": 5279,
+          "startPts": 2702336,
+          "endPtsExclusive": 2702848,
+          "timeBase": "1/12288",
+          "kind": "loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "line-0",
+              "role": "dialogue_line",
+              "readingOrder": 0,
+              "text": "セキチク ポケモ",
+              "gridRect": [
+                1,
+                14,
+                9,
+                15
+              ],
+              "sourceRect": [
+                318,
+                342,
+                462,
+                378
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 6,
+                  "gridRow": 13,
+                  "kind": "handakuten"
+                }
+              ],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            }
+          ],
+          "cursor": {
+            "gridRect": null,
+            "downArrowVisible": false,
+            "sourceRect": null
+          },
+          "layoutRef": "layout-v2.json",
+          "evidence": {
+            "frameRange": [
+              5278,
+              5279
+            ],
+            "allFrames": "data/frames/video-02/trial-pass2-v1",
+            "reviewedByHuman": "not claimed",
+            "pass1": "data/gt/candidates/ocr-trial-v1/pass1.jsonl; differences resolved only from original pixels, see pass-differences.json",
+            "pass2": "agent reread all 39 freshly decoded original frames in ordered text/full-game sheets; nearest-neighbour recheck of 5278,5279,5280,5286,5296,5298; no OCR/translation exists"
+          },
+          "renderNote": null,
+          "verificationStatus": "agent_double_read_complete_candidate"
+        },
+        {
+          "schemaVersion": 1,
+          "stateId": "c83de914352e-f5279-f5280",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5279,
+          "endFrameExclusive": 5280,
+          "startPts": 2702848,
+          "endPtsExclusive": 2703360,
+          "timeBase": "1/12288",
+          "kind": "loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "line-0",
+              "role": "dialogue_line",
+              "readingOrder": 0,
+              "text": "セキチク ポケモン ジ",
+              "gridRect": [
+                1,
+                14,
+                12,
+                15
+              ],
+              "sourceRect": [
+                318,
+                342,
+                516,
+                378
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 6,
+                  "gridRow": 13,
+                  "kind": "handakuten"
+                },
+                {
+                  "gridColumn": 11,
+                  "gridRow": 13,
+                  "kind": "dakuten"
+                }
+              ],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            }
+          ],
+          "cursor": {
+            "gridRect": null,
+            "downArrowVisible": false,
+            "sourceRect": null
+          },
+          "layoutRef": "layout-v2.json",
+          "evidence": {
+            "frameRange": [
+              5279,
+              5280
+            ],
+            "allFrames": "data/frames/video-02/trial-pass2-v1",
+            "reviewedByHuman": "not claimed",
+            "pass1": "data/gt/candidates/ocr-trial-v1/pass1.jsonl; differences resolved only from original pixels, see pass-differences.json",
+            "pass2": "agent reread all 39 freshly decoded original frames in ordered text/full-game sheets; nearest-neighbour recheck of 5278,5279,5280,5286,5296,5298; no OCR/translation exists"
+          },
+          "renderNote": null,
+          "verificationStatus": "agent_double_read_complete_candidate"
+        },
+        {
+          "schemaVersion": 1,
+          "stateId": "c83de914352e-f5280-f5281",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5280,
+          "endFrameExclusive": 5281,
+          "startPts": 2703360,
+          "endPtsExclusive": 2703872,
+          "timeBase": "1/12288",
+          "kind": "loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "line-0",
+              "role": "dialogue_line",
+              "readingOrder": 0,
+              "text": "セキチク ポケモン ジム",
+              "gridRect": [
+                1,
+                14,
+                13,
+                15
+              ],
+              "sourceRect": [
+                318,
+                342,
+                534,
+                378
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 6,
+                  "gridRow": 13,
+                  "kind": "handakuten"
+                },
+                {
+                  "gridColumn": 11,
+                  "gridRow": 13,
+                  "kind": "dakuten"
+                }
+              ],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            },
+            {
+              "id": "line-1",
+              "role": "dialogue_line",
+              "readingOrder": 1,
+              "text": "キョ",
+              "gridRect": [
+                1,
+                16,
+                3,
+                17
+              ],
+              "sourceRect": [
+                318,
+                396,
+                354,
+                414
+              ],
+              "markCells": [],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            }
+          ],
+          "cursor": {
+            "gridRect": null,
+            "downArrowVisible": false,
+            "sourceRect": null
+          },
+          "layoutRef": "layout-v2.json",
+          "evidence": {
+            "frameRange": [
+              5280,
+              5281
+            ],
+            "allFrames": "data/frames/video-02/trial-pass2-v1",
+            "reviewedByHuman": "not claimed",
+            "pass1": "data/gt/candidates/ocr-trial-v1/pass1.jsonl; differences resolved only from original pixels, see pass-differences.json",
+            "pass2": "agent reread all 39 freshly decoded original frames in ordered text/full-game sheets; nearest-neighbour recheck of 5278,5279,5280,5286,5296,5298; no OCR/translation exists"
+          },
+          "renderNote": null,
+          "verificationStatus": "agent_double_read_complete_candidate"
+        },
+        {
+          "schemaVersion": 1,
+          "stateId": "c83de914352e-f5281-f5282",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5281,
+          "endFrameExclusive": 5282,
+          "startPts": 2703872,
+          "endPtsExclusive": 2704384,
+          "timeBase": "1/12288",
+          "kind": "loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "line-0",
+              "role": "dialogue_line",
+              "readingOrder": 0,
+              "text": "セキチク ポケモン ジム",
+              "gridRect": [
+                1,
+                14,
+                13,
+                15
+              ],
+              "sourceRect": [
+                318,
+                342,
+                534,
+                378
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 6,
+                  "gridRow": 13,
+                  "kind": "handakuten"
+                },
+                {
+                  "gridColumn": 11,
+                  "gridRow": 13,
+                  "kind": "dakuten"
+                }
+              ],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            },
+            {
+              "id": "line-1",
+              "role": "dialogue_line",
+              "readingOrder": 1,
+              "text": "キョウ に",
+              "gridRect": [
+                1,
+                16,
+                6,
+                17
+              ],
+              "sourceRect": [
+                318,
+                396,
+                408,
+                414
+              ],
+              "markCells": [],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            }
+          ],
+          "cursor": {
+            "gridRect": null,
+            "downArrowVisible": false,
+            "sourceRect": null
+          },
+          "layoutRef": "layout-v2.json",
+          "evidence": {
+            "frameRange": [
+              5281,
+              5282
+            ],
+            "allFrames": "data/frames/video-02/trial-pass2-v1",
+            "reviewedByHuman": "not claimed",
+            "pass1": "data/gt/candidates/ocr-trial-v1/pass1.jsonl; differences resolved only from original pixels, see pass-differences.json",
+            "pass2": "agent reread all 39 freshly decoded original frames in ordered text/full-game sheets; nearest-neighbour recheck of 5278,5279,5280,5286,5296,5298; no OCR/translation exists"
+          },
+          "renderNote": null,
+          "verificationStatus": "agent_double_read_complete_candidate"
+        },
+        {
+          "schemaVersion": 1,
+          "stateId": "c83de914352e-f5282-f5284",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5282,
+          "endFrameExclusive": 5284,
+          "startPts": 2704384,
+          "endPtsExclusive": 2705408,
+          "timeBase": "1/12288",
+          "kind": "loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "line-0",
+              "role": "dialogue_line",
+              "readingOrder": 0,
+              "text": "セキチク ポケモン ジム",
+              "gridRect": [
+                1,
+                14,
+                13,
+                15
+              ],
+              "sourceRect": [
+                318,
+                342,
+                534,
+                378
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 6,
+                  "gridRow": 13,
+                  "kind": "handakuten"
+                },
+                {
+                  "gridColumn": 11,
+                  "gridRow": 13,
+                  "kind": "dakuten"
+                }
+              ],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            },
+            {
+              "id": "line-1",
+              "role": "dialogue_line",
+              "readingOrder": 1,
+              "text": "キョウ にんてい",
+              "gridRect": [
+                1,
+                16,
+                9,
+                17
+              ],
+              "sourceRect": [
+                318,
+                396,
+                462,
+                414
+              ],
+              "markCells": [],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            }
+          ],
+          "cursor": {
+            "gridRect": null,
+            "downArrowVisible": false,
+            "sourceRect": null
+          },
+          "layoutRef": "layout-v2.json",
+          "evidence": {
+            "frameRange": [
+              5282,
+              5284
+            ],
+            "allFrames": "data/frames/video-02/trial-pass2-v1",
+            "reviewedByHuman": "not claimed",
+            "pass1": "data/gt/candidates/ocr-trial-v1/pass1.jsonl; differences resolved only from original pixels, see pass-differences.json",
+            "pass2": "agent reread all 39 freshly decoded original frames in ordered text/full-game sheets; nearest-neighbour recheck of 5278,5279,5280,5286,5296,5298; no OCR/translation exists"
+          },
+          "renderNote": null,
+          "verificationStatus": "agent_double_read_complete_candidate"
+        },
+        {
+          "schemaVersion": 1,
+          "stateId": "c83de914352e-f5284-f5285",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5284,
+          "endFrameExclusive": 5285,
+          "startPts": 2705408,
+          "endPtsExclusive": 2705920,
+          "timeBase": "1/12288",
+          "kind": "loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "line-0",
+              "role": "dialogue_line",
+              "readingOrder": 0,
+              "text": "セキチク ポケモン ジム",
+              "gridRect": [
+                1,
+                14,
+                13,
+                15
+              ],
+              "sourceRect": [
+                318,
+                342,
+                534,
+                378
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 6,
+                  "gridRow": 13,
+                  "kind": "handakuten"
+                },
+                {
+                  "gridColumn": 11,
+                  "gridRow": 13,
+                  "kind": "dakuten"
+                }
+              ],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            },
+            {
+              "id": "line-1",
+              "role": "dialogue_line",
+              "readingOrder": 1,
+              "text": "キョウ にんてい トレ",
+              "gridRect": [
+                1,
+                16,
+                12,
+                17
+              ],
+              "sourceRect": [
+                318,
+                396,
+                516,
+                414
+              ],
+              "markCells": [],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            }
+          ],
+          "cursor": {
+            "gridRect": null,
+            "downArrowVisible": false,
+            "sourceRect": null
+          },
+          "layoutRef": "layout-v2.json",
+          "evidence": {
+            "frameRange": [
+              5284,
+              5285
+            ],
+            "allFrames": "data/frames/video-02/trial-pass2-v1",
+            "reviewedByHuman": "not claimed",
+            "pass1": "data/gt/candidates/ocr-trial-v1/pass1.jsonl; differences resolved only from original pixels, see pass-differences.json",
+            "pass2": "agent reread all 39 freshly decoded original frames in ordered text/full-game sheets; nearest-neighbour recheck of 5278,5279,5280,5286,5296,5298; no OCR/translation exists"
+          },
+          "renderNote": null,
+          "verificationStatus": "agent_double_read_complete_candidate"
+        },
+        {
+          "schemaVersion": 1,
+          "stateId": "c83de914352e-f5285-f5286",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5285,
+          "endFrameExclusive": 5286,
+          "startPts": 2705920,
+          "endPtsExclusive": 2706432,
+          "timeBase": "1/12288",
+          "kind": "loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "line-0",
+              "role": "dialogue_line",
+              "readingOrder": 0,
+              "text": "セキチク ポケモン ジム",
+              "gridRect": [
+                1,
+                14,
+                13,
+                15
+              ],
+              "sourceRect": [
+                318,
+                342,
+                534,
+                378
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 6,
+                  "gridRow": 13,
+                  "kind": "handakuten"
+                },
+                {
+                  "gridColumn": 11,
+                  "gridRow": 13,
+                  "kind": "dakuten"
+                }
+              ],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            },
+            {
+              "id": "line-1",
+              "role": "dialogue_line",
+              "readingOrder": 1,
+              "text": "キョウ にんてい トレーナー",
+              "gridRect": [
+                1,
+                16,
+                15,
+                17
+              ],
+              "sourceRect": [
+                318,
+                396,
+                570,
+                414
+              ],
+              "markCells": [],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            }
+          ],
+          "cursor": {
+            "gridRect": null,
+            "downArrowVisible": false,
+            "sourceRect": null
+          },
+          "layoutRef": "layout-v2.json",
+          "evidence": {
+            "frameRange": [
+              5285,
+              5286
+            ],
+            "allFrames": "data/frames/video-02/trial-pass2-v1",
+            "reviewedByHuman": "not claimed",
+            "pass1": "data/gt/candidates/ocr-trial-v1/pass1.jsonl; differences resolved only from original pixels, see pass-differences.json",
+            "pass2": "agent reread all 39 freshly decoded original frames in ordered text/full-game sheets; nearest-neighbour recheck of 5278,5279,5280,5286,5296,5298; no OCR/translation exists"
+          },
+          "renderNote": null,
+          "verificationStatus": "agent_double_read_complete_candidate"
+        },
+        {
+          "schemaVersion": 1,
+          "stateId": "c83de914352e-f5286-f5296",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5286,
+          "endFrameExclusive": 5296,
+          "startPts": 2706432,
+          "endPtsExclusive": 2711552,
+          "timeBase": "1/12288",
+          "kind": "complete_waiting",
+          "completePage": true,
+          "regions": [
+            {
+              "id": "line-0",
+              "role": "dialogue_line",
+              "readingOrder": 0,
+              "text": "セキチク ポケモン ジム",
+              "gridRect": [
+                1,
+                14,
+                13,
+                15
+              ],
+              "sourceRect": [
+                318,
+                342,
+                534,
+                378
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 6,
+                  "gridRow": 13,
+                  "kind": "handakuten"
+                },
+                {
+                  "gridColumn": 11,
+                  "gridRow": 13,
+                  "kind": "dakuten"
+                }
+              ],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            },
+            {
+              "id": "line-1",
+              "role": "dialogue_line",
+              "readingOrder": 1,
+              "text": "キョウ にんてい トレーナー！",
+              "gridRect": [
+                1,
+                16,
+                16,
+                17
+              ],
+              "sourceRect": [
+                318,
+                396,
+                588,
+                414
+              ],
+              "markCells": [],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            }
+          ],
+          "cursor": {
+            "gridRect": [
+              18,
+              16,
+              19,
+              17
+            ],
+            "downArrowVisible": true,
+            "sourceRect": [
+              624,
+              396,
+              642,
+              414
+            ]
+          },
+          "layoutRef": "layout-v2.json",
+          "evidence": {
+            "frameRange": [
+              5286,
+              5296
+            ],
+            "allFrames": "data/frames/video-02/trial-pass2-v1",
+            "reviewedByHuman": "not claimed",
+            "pass1": "data/gt/candidates/ocr-trial-v1/pass1.jsonl; differences resolved only from original pixels, see pass-differences.json",
+            "pass2": "agent reread all 39 freshly decoded original frames in ordered text/full-game sheets; nearest-neighbour recheck of 5278,5279,5280,5286,5296,5298; no OCR/translation exists"
+          },
+          "renderNote": null,
+          "verificationStatus": "agent_double_read_complete_candidate"
+        },
+        {
+          "schemaVersion": 1,
+          "stateId": "c83de914352e-f5296-f5298",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5296,
+          "endFrameExclusive": 5298,
+          "startPts": 2711552,
+          "endPtsExclusive": 2712576,
+          "timeBase": "1/12288",
+          "kind": "scrolling",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "line-0",
+              "role": "dialogue_line",
+              "readingOrder": 0,
+              "text": "セキチク ホケモン シム",
+              "gridRect": [
+                1,
+                13,
+                13,
+                14
+              ],
+              "sourceRect": [
+                318,
+                342,
+                534,
+                360
+              ],
+              "markCells": [],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            },
+            {
+              "id": "line-1",
+              "role": "dialogue_line",
+              "readingOrder": 1,
+              "text": "キョウ にんてい トレーナー！",
+              "gridRect": [
+                1,
+                15,
+                16,
+                16
+              ],
+              "sourceRect": [
+                318,
+                378,
+                588,
+                396
+              ],
+              "markCells": [],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            }
+          ],
+          "cursor": {
+            "gridRect": null,
+            "downArrowVisible": false,
+            "sourceRect": null
+          },
+          "layoutRef": "layout-v2.json",
+          "evidence": {
+            "frameRange": [
+              5296,
+              5298
+            ],
+            "allFrames": "data/frames/video-02/trial-pass2-v1",
+            "reviewedByHuman": "not claimed",
+            "pass1": "data/gt/candidates/ocr-trial-v1/pass1.jsonl; differences resolved only from original pixels, see pass-differences.json",
+            "pass2": "agent reread all 39 freshly decoded original frames in ordered text/full-game sheets; nearest-neighbour recheck of 5278,5279,5280,5286,5296,5298; no OCR/translation exists"
+          },
+          "renderNote": "Current frame has base ホ and シ; upper diacritics are clipped by textbox. Do not restore ポ/ジ from earlier frames.",
+          "verificationStatus": "agent_double_read_complete_candidate"
+        },
+        {
+          "schemaVersion": 1,
+          "stateId": "c83de914352e-f5298-f5299",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5298,
+          "endFrameExclusive": 5299,
+          "startPts": 2712576,
+          "endPtsExclusive": 2713088,
+          "timeBase": "1/12288",
+          "kind": "scroll_settled_next_page_context",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "line-0",
+              "role": "dialogue_line",
+              "readingOrder": 0,
+              "text": "キョウ にんてい トレーナー！",
+              "gridRect": [
+                1,
+                14,
+                16,
+                15
+              ],
+              "sourceRect": [
+                318,
+                360,
+                588,
+                378
+              ],
+              "markCells": [],
+              "spaceUnit": "U+0020 = one visible blank base cell; trailing padding is not text"
+            }
+          ],
+          "cursor": {
+            "gridRect": null,
+            "downArrowVisible": false,
+            "sourceRect": null
+          },
+          "layoutRef": "layout-v2.json",
+          "evidence": {
+            "frameRange": [
+              5298,
+              5299
+            ],
+            "allFrames": "data/frames/video-02/trial-pass2-v1",
+            "reviewedByHuman": "not claimed",
+            "pass1": "data/gt/candidates/ocr-trial-v1/pass1.jsonl; differences resolved only from original pixels, see pass-differences.json",
+            "pass2": "agent reread all 39 freshly decoded original frames in ordered text/full-game sheets; nearest-neighbour recheck of 5278,5279,5280,5286,5296,5298; no OCR/translation exists"
+          },
+          "renderNote": null,
+          "verificationStatus": "agent_double_read_complete_candidate"
+        }
+      ],
+      "clip": {
+        "schemaVersion": 1,
+        "id": "c83de914352e-f5262-f5301",
+        "sourceCandidate": "data/meta/clips-candidates-v1.json",
+        "mediaId": "video-02",
+        "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+        "startFrame": 5262,
+        "endFrameExclusive": 5301,
+        "warmup": [
+          5262,
+          5264
+        ],
+        "scoredRange": [
+          5264,
+          5299
+        ],
+        "postContext": [
+          5299,
+          5301
+        ],
+        "timeBase": "1/12288",
+        "set": "development",
+        "sessionGrouping": "video-02 source context only; independence unverified; no acceptance allocation",
+        "eventType": "one visible dialogue page followed by its scroll/replacement",
+        "boundaryStatus": "complete_agent_double_read",
+        "selectionReason": "First complete page of gym plaque: pre-textbox scene, empty textbox, all character loading, complete first page with arrow, two scrolling frames and settled replacement. The next page text loading at 5300 is post-context only; not claimed as a second complete event.",
+        "keyFrames": {
+          "pre": 5267,
+          "textbox": 5268,
+          "complete": 5286,
+          "replacementSettled": 5298,
+          "nextPageLoadingContext": 5300,
+          "scrollStart": 5296,
+          "firstText": 5275
+        },
+        "version": "trial-ocr-v2",
+        "gt": "data/gt/candidates/ocr-trial-v1/ocr-candidate-v2.jsonl",
+        "frozen": false,
+        "unresolved": "No unresolved scored text/position/time states. Version identity, session independence and other events remain unverified outside this trial."
+      },
+      "layout": {
+        "schemaVersion": 1,
+        "canonicalSize": [
+          160,
+          144
+        ],
+        "sourceGameRect": [
+          300,
+          108,
+          660,
+          432
+        ],
+        "gridCellSize": [
+          8,
+          8
+        ],
+        "sourceScaleNumerator": 9,
+        "sourceScaleDenominator": 4,
+        "sourceOrigin": [
+          300,
+          108
+        ],
+        "sourceFrameSize": [
+          960,
+          544
+        ],
+        "rectConvention": "[left,top,right,bottom)",
+        "coordinateMeaning": "logical base glyph cells; source region envelope also includes separately listed dakuten/handakuten cells above base cells",
+        "characterEncoding": "UTF-8; NFC precomposed Japanese characters; Unicode scalar counting; U+0020 one blank cell; U+FF01 exclamation glyph",
+        "evidence": "All 39 re-decoded game crops; complete frame 5286 confirms base and upper marks, scrolling frame 5296 confirms base shifted by 8 game pixels and marks absent. Grid origin/source scale fixed from original raster, independent of OCR.",
+        "status": "agent_double_read_complete_candidate_not_frozen"
+      },
+      "contract": {
+        "schemaVersion": 1,
+        "status": "candidate_contract_before_any_tested_ocr; freeze only with approved M2 materials",
+        "gtFields": [
+          "stateId",
+          "mediaId",
+          "mediaSha256",
+          "startFrame",
+          "endFrameExclusive",
+          "startPts",
+          "endPtsExclusive",
+          "timeBase",
+          "kind",
+          "completePage",
+          "regions",
+          "cursor",
+          "layoutRef",
+          "evidence",
+          "verificationStatus"
+        ],
+        "regionFields": [
+          "id",
+          "role",
+          "readingOrder",
+          "text",
+          "gridRect",
+          "sourceRect",
+          "markCells"
+        ],
+        "actualDriverFields": [
+          "sourceFrameIndex",
+          "sourcePts",
+          "timeBase",
+          "resultReceivedAt",
+          "rawRegions",
+          "correctedRegions",
+          "correctionEvidence",
+          "visibleState",
+          "uiObservedAt",
+          "uiObservationEvidence"
+        ],
+        "consumerInput": "RGB24, width, height, integer source PTS and positive rational time base only. Driver keeps source frame association outside app input; no GT, clip/split labels or answers in consumer.",
+        "textUnit": "UTF-8 NFC precomposed Japanese Unicode scalar values; U+0020 represents one blank glyph cell; U+FF01 exclamation. Keep small kana, numbers, punctuation and all spaces. No automatic normalization during scoring.",
+        "partiallyHiddenGlyphs": "Score current visible base glyph when its diacritic is clipped, with explicit renderNote and changed markCells/coordinates; do not restore marks from earlier/later frames. Trial frames 5296-5297 are ホ/シ, not ポ/ジ.",
+        "rectangles": "[left,top,right,bottom); gridRect is logical base-cell occupancy, sourceRect includes actually visible diacritic envelope. layoutRef freezes source-to-game mapping before OCR. Pixel border offsets are reported separately.",
+        "regionMatching": "Match by frozen field role, base grid starting row/column and reading order. Reject duplicate keys; do not choose by text similarity. Unmatched GT is deletion; unmatched actual is insertion. Wrong occupancy, role or visible marks makes position/page incorrect, even if text agrees.",
+        "characterErrors": "Per matched region use Levenshtein substitutions+deletions+insertions on Unicode scalars. Missing output is deletion, extra output is insertion. Frame accuracy=max(0,1-sum(errors)/sum(expectedCharacters)); all scored frames included.",
+        "equalStateAccuracy": "For each frozen continuous state divide accumulated frame errors and expected characters separately by its original frame count; sum these per-state averages then apply the same accuracy formula. Repeated occurrences remain separate states.",
+        "emptyFrames": "All empty/non-target frames are scored; extra text is explicit false-positive error and cannot disappear into a zero denominator. Unknown/conflict/unreviewed GT prevents freezing and is not accepted as empty.",
+        "pages": "An opportunity begins at first complete frame and ends at first replacement/removal frame; count opportunities equally, never weight by dwell time. Exact text, fields, positions, state and timely actual UI presentation required for page success. Loading/cursor/scroll/clear transitions are reported separately.",
+        "latency": "Use independent original frame time for onset and independently observed actual UI presentation/removal for endpoint. Require <=200ms and output while page still valid; sub-200ms pages remain opportunities. No observed UI evidence means pending, not zero latency. Report P50/P95/P99/max/timeouts/misses.",
+        "examplesNotProductAcceptance": [
+          {
+            "expected": "キョ",
+            "actual": "キヨ",
+            "substitutions": 1,
+            "expectedCharacters": 2,
+            "reason": "small kana must not normalize"
+          },
+          {
+            "expected": "ポケモン",
+            "actual": "ホケモン",
+            "substitutions": 1,
+            "expectedCharacters": 4,
+            "reason": "visible handakuten must not disappear"
+          },
+          {
+            "expected": "206/206",
+            "actual": "206/20",
+            "deletions": 1,
+            "expectedCharacters": 7
+          },
+          {
+            "expected": "",
+            "actual": "あ",
+            "falsePositiveInsertions": 1,
+            "emptyFrameFailure": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "gym-sign-continuation",
+      "payloads": [
+        {
+          "kind": "gt",
+          "path": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/ocr-candidate-v1.jsonl",
+          "sha256": "e24d2223b62f398e7a579a2aa63bcfb43c93ca12a9d8c0d2dbc77be535898bfd"
+        },
+        {
+          "kind": "clip",
+          "path": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/dialogue-gym-sign-continuation-clip-v1.json",
+          "sha256": "b010a13b169ea4fb8c89b3f69f6195e99e958b6bf40ea4bd9ca8edacdcbfa361"
+        },
+        {
+          "kind": "layout",
+          "path": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/layout-v1.json",
+          "sha256": "9f84c917f7c975617bce4a989a68d38c9187fede681db5524a84fe878bfa1244"
+        },
+        {
+          "kind": "contract",
+          "path": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      ],
+      "states": [
+        {
+          "schemaVersion": 2,
+          "stateId": "c83de914352e-f5299-f5300",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5299,
+          "endFrameExclusive": 5300,
+          "startPts": 2713088,
+          "endPtsExclusive": 2713600,
+          "timeBase": "1/12288",
+          "kind": "message_loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "message-top",
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "キョウ にんてい トレーナー！",
+              "gridRect": [
+                1,
+                14,
+                16,
+                15
+              ],
+              "sourceRect": [
+                318,
+                360,
+                588,
+                378
+              ],
+              "markCells": []
+            }
+          ],
+          "cursor": {
+            "menuCursors": [],
+            "downArrowVisible": false
+          },
+          "layoutRef": "layout-v1.json",
+          "verificationStatus": "agent_double_read_complete_candidate",
+          "evidence": {
+            "outputIndependence": "No tested OCR or production translation exists",
+            "humanPerFrameVerification": "not claimed",
+            "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/gym-sign-continuation/manual-pass2.json",
+            "originalFrames": "data/frames/video-02/dialogue-sign-completion-pass2-v1"
+          }
+        },
+        {
+          "schemaVersion": 2,
+          "stateId": "c83de914352e-f5300-f5302",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5300,
+          "endFrameExclusive": 5302,
+          "startPts": 2713600,
+          "endPtsExclusive": 2714624,
+          "timeBase": "1/12288",
+          "kind": "message_loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "message-top",
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "キョウ にんてい トレーナー！",
+              "gridRect": [
+                1,
+                14,
+                16,
+                15
+              ],
+              "sourceRect": [
+                318,
+                360,
+                588,
+                378
+              ],
+              "markCells": []
+            },
+            {
+              "id": "message-bottom",
+              "role": "dialogue",
+              "readingOrder": 1,
+              "text": "レッド",
+              "gridRect": [
+                1,
+                16,
+                4,
+                17
+              ],
+              "sourceRect": [
+                318,
+                378,
+                372,
+                414
+              ],
+              "markCells": [
+                {
+                  "kind": "dakuten",
+                  "gridColumn": 3,
+                  "gridRow": 15
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "menuCursors": [],
+            "downArrowVisible": false
+          },
+          "layoutRef": "layout-v1.json",
+          "verificationStatus": "agent_double_read_complete_candidate",
+          "evidence": {
+            "outputIndependence": "No tested OCR or production translation exists",
+            "humanPerFrameVerification": "not claimed",
+            "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/gym-sign-continuation/manual-pass2.json",
+            "originalFrames": "data/frames/video-02/dialogue-sign-completion-pass2-v1"
+          }
+        },
+        {
+          "schemaVersion": 2,
+          "stateId": "c83de914352e-f5302-f5303",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5302,
+          "endFrameExclusive": 5303,
+          "startPts": 2714624,
+          "endPtsExclusive": 2715136,
+          "timeBase": "1/12288",
+          "kind": "message_loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "message-top",
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "キョウ にんてい トレーナー！",
+              "gridRect": [
+                1,
+                14,
+                16,
+                15
+              ],
+              "sourceRect": [
+                318,
+                360,
+                588,
+                378
+              ],
+              "markCells": []
+            },
+            {
+              "id": "message-bottom",
+              "role": "dialogue",
+              "readingOrder": 1,
+              "text": "レッド グリ",
+              "gridRect": [
+                1,
+                16,
+                7,
+                17
+              ],
+              "sourceRect": [
+                318,
+                378,
+                426,
+                414
+              ],
+              "markCells": [
+                {
+                  "kind": "dakuten",
+                  "gridColumn": 3,
+                  "gridRow": 15
+                },
+                {
+                  "kind": "dakuten",
+                  "gridColumn": 5,
+                  "gridRow": 15
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "menuCursors": [],
+            "downArrowVisible": false
+          },
+          "layoutRef": "layout-v1.json",
+          "verificationStatus": "agent_double_read_complete_candidate",
+          "evidence": {
+            "outputIndependence": "No tested OCR or production translation exists",
+            "humanPerFrameVerification": "not claimed",
+            "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/gym-sign-continuation/manual-pass2.json",
+            "originalFrames": "data/frames/video-02/dialogue-sign-completion-pass2-v1"
+          }
+        },
+        {
+          "schemaVersion": 2,
+          "stateId": "c83de914352e-f5303-f5320",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5303,
+          "endFrameExclusive": 5320,
+          "startPts": 2715136,
+          "endPtsExclusive": 2723840,
+          "timeBase": "1/12288",
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "id": "message-top",
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "キョウ にんてい トレーナー！",
+              "gridRect": [
+                1,
+                14,
+                16,
+                15
+              ],
+              "sourceRect": [
+                318,
+                360,
+                588,
+                378
+              ],
+              "markCells": []
+            },
+            {
+              "id": "message-bottom",
+              "role": "dialogue",
+              "readingOrder": 1,
+              "text": "レッド グリーン",
+              "gridRect": [
+                1,
+                16,
+                9,
+                17
+              ],
+              "sourceRect": [
+                318,
+                378,
+                462,
+                414
+              ],
+              "markCells": [
+                {
+                  "kind": "dakuten",
+                  "gridColumn": 3,
+                  "gridRow": 15
+                },
+                {
+                  "kind": "dakuten",
+                  "gridColumn": 5,
+                  "gridRow": 15
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "menuCursors": [],
+            "downArrowVisible": false
+          },
+          "layoutRef": "layout-v1.json",
+          "verificationStatus": "agent_double_read_complete_candidate",
+          "evidence": {
+            "outputIndependence": "No tested OCR or production translation exists",
+            "humanPerFrameVerification": "not claimed",
+            "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/gym-sign-continuation/manual-pass2.json",
+            "originalFrames": "data/frames/video-02/dialogue-sign-completion-pass2-v1"
+          },
+          "pageOpportunityId": "gym-sign-continuation-1"
+        },
+        {
+          "schemaVersion": 2,
+          "stateId": "c83de914352e-f5320-f5324",
+          "mediaId": "video-02",
+          "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+          "startFrame": 5320,
+          "endFrameExclusive": 5324,
+          "startPts": 2723840,
+          "endPtsExclusive": 2725888,
+          "timeBase": "1/12288",
+          "kind": "empty_target",
+          "completePage": false,
+          "regions": [],
+          "cursor": {
+            "menuCursors": [],
+            "downArrowVisible": false
+          },
+          "layoutRef": "layout-v1.json",
+          "verificationStatus": "agent_double_read_complete_candidate",
+          "evidence": {
+            "outputIndependence": "No tested OCR or production translation exists",
+            "humanPerFrameVerification": "not claimed",
+            "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/gym-sign-continuation/manual-pass2.json",
+            "originalFrames": "data/frames/video-02/dialogue-sign-completion-pass2-v1"
+          }
+        }
+      ],
+      "clip": {
+        "startFrame": 5262,
+        "gt": "data/gt/candidates/ocr-dialogue-expansion-v1/gym-sign-continuation/ocr-candidate-v1.jsonl",
+        "id": "c83de914352e-f5262-f5328-gym-sign-continuation",
+        "schemaVersion": 2,
+        "timeBase": "1/12288",
+        "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+        "scoredRange": [
+          5299,
+          5324
+        ],
+        "frozen": false,
+        "independentSession": "unverified",
+        "postContext": [
+          5324,
+          5328
+        ],
+        "scoreKind": "text_and_state",
+        "selectionReason": "Original-source navigation selected this naturally bounded speech block before OCR exists. All original pre-loading, visible loading/complete/scroll/clear and ending after-state frames retained; details and corrected boundaries in both manual reads and differences.",
+        "scopeLimits": [
+          "Other dialogue and unselected source intervals remain unverified",
+          "Not independent acceptance; candidate GT only, no approval or OCR pass"
+        ],
+        "endFrameExclusive": 5328,
+        "warmup": [
+          5262,
+          5299
+        ],
+        "eventType": "原道馆路牌后续姓名页补全（同一事件）",
+        "pageOpportunityPolicy": "explicit_id",
+        "boundaryStatus": "agent_double_read_complete_candidate_not_frozen",
+        "mediaId": "video-02",
+        "set": "development"
+      },
+      "layout": {
+        "sourceScaleDenominator": 4,
+        "canonicalGameSize": [
+          160,
+          144
+        ],
+        "sourceGameRect": [
+          300,
+          108,
+          660,
+          432
+        ],
+        "scope": "Original game raster, base rows14/16, upward scroll13/15. Nurse menu col15 rows8/10 and filled-right cursor col14 row8. No inferred or OCR-derived coordinates.",
+        "sourceFrameSize": [
+          960,
+          544
+        ],
+        "sourceOrigin": [
+          300,
+          108
+        ],
+        "sourceScaleNumerator": 9,
+        "schemaVersion": 2,
+        "cellPixels": [
+          8,
+          8
+        ]
+      },
+      "contract": {
+        "schemaVersion": 3,
+        "status": "all-scenes candidate contract; not approved/frozen; original approved contract-v1 unchanged",
+        "gtFields": [
+          "stateId",
+          "mediaId",
+          "mediaSha256",
+          "startFrame",
+          "endFrameExclusive",
+          "startPts",
+          "endPtsExclusive",
+          "timeBase",
+          "kind",
+          "completePage",
+          "regions",
+          "cursor",
+          "layoutRef",
+          "evidence",
+          "verificationStatus"
+        ],
+        "regionFields": [
+          "id",
+          "role",
+          "readingOrder",
+          "text",
+          "gridRect",
+          "sourceRect",
+          "markCells"
+        ],
+        "actualDriverFields": [
+          "sourceFrameIndex",
+          "sourcePts",
+          "timeBase",
+          "resultReceivedAt",
+          "rawRegions",
+          "correctedRegions",
+          "correctionEvidence",
+          "visibleState",
+          "uiObservedAt",
+          "uiObservationEvidence"
+        ],
+        "consumerInput": "RGB24, width, height, integer source PTS and positive rational time base only. Driver keeps source frame association outside app input; no GT, clip/split labels or answers in consumer.",
+        "textUnit": "UTF-8 NFC precomposed Japanese Unicode scalar values; U+0020 represents one blank glyph cell; U+FF01 exclamation. Keep small kana, numbers, punctuation and all spaces. No automatic normalization during scoring.",
+        "partiallyHiddenGlyphs": "Score current visible base glyph when its diacritic is clipped, with explicit renderNote and changed markCells/coordinates; do not restore marks from earlier/later frames. Trial frames 5296-5297 are ホ/シ, not ポ/ジ.",
+        "rectangles": "[left,top,right,bottom); gridRect is logical base-cell occupancy, sourceRect includes actually visible diacritic envelope. layoutRef freezes source-to-game mapping before OCR. Pixel border offsets are reported separately.",
+        "regionMatching": "Match by frozen field role, base grid starting row/column and reading order. Reject duplicate keys; do not choose by text similarity. Unmatched GT is deletion; unmatched actual is insertion. Wrong occupancy, role or visible marks makes position/page incorrect, even if text agrees.",
+        "characterErrors": "Per matched region use Levenshtein substitutions+deletions+insertions on Unicode scalars. Missing output is deletion, extra output is insertion. Frame accuracy=max(0,1-sum(errors)/sum(expectedCharacters)); all scored frames included.",
+        "equalStateAccuracy": "For each frozen continuous state divide accumulated frame errors and expected characters separately by its original frame count; sum these per-state averages then apply the same accuracy formula. Repeated occurrences remain separate states.",
+        "emptyFrames": "All empty/non-target frames are scored; extra text is explicit false-positive error and cannot disappear into a zero denominator. Unknown/conflict/unreviewed GT prevents freezing and is not accepted as empty.",
+        "pages": "An opportunity begins at first complete frame and ends at first replacement/removal frame; count opportunities equally, never weight by dwell time. Exact text, fields, positions, state and timely actual UI presentation required for page success. Loading/cursor/scroll/clear transitions are reported separately.",
+        "latency": "Use independent original frame time for onset and independently observed actual UI presentation/removal for endpoint. Require <=200ms and output while page still valid; sub-200ms pages remain opportunities. No observed UI evidence means pending, not zero latency. Report P50/P95/P99/max/timeouts/misses.",
+        "examplesNotProductAcceptance": [
+          {
+            "expected": "キョ",
+            "actual": "キヨ",
+            "substitutions": 1,
+            "expectedCharacters": 2,
+            "reason": "small kana must not normalize"
+          },
+          {
+            "expected": "ポケモン",
+            "actual": "ホケモン",
+            "substitutions": 1,
+            "expectedCharacters": 4,
+            "reason": "visible handakuten must not disappear"
+          },
+          {
+            "expected": "206/206",
+            "actual": "206/20",
+            "deletions": 1,
+            "expectedCharacters": 7
+          },
+          {
+            "expected": "",
+            "actual": "あ",
+            "falsePositiveInsertions": 1,
+            "emptyFrameFailure": true
+          }
+        ],
+        "renderUnits": "Regular regions retain integer8x8 cells. Packed labels explicitly list literal renderUnits and integer canonical logicalRect pixels; gridRect equals logicalRect/8 including fractions. Joined unit text must exactly equal NFC region text; sourceRect is outward rational projection; evidence required, never infer label from tested OCR.",
+        "detachedMarks": "When only dakuten/handakuten is actually visible and the entire base is occluded, list the visible one-cell symbol, sourceRect and reason in detachedMarks. Do not invent a kana or word. Compare symbol presence/position as visible-state correctness; report its denominator separately, not as zero-character unknown GT. A partly visible but unreadable base remains unknown and cannot be frozen.",
+        "nonTargetOnly": "Explicit clip scoreKind=non_target_only permits nonempty fully covered frame intervals with regions empty, no marks/cursors, completePage=false and zero complete-page opportunities. Allowed source-observed kinds are non_target/black_frame/invalid_target_image. Unknown/conflict/unreviewed states and empty frame/GT sets remain rejected; target text cannot be relabeled non-target.",
+        "sourceRectangleProjection": "Independent positive rational X/Y source-raster scales; floor left/top and ceil right/bottom. Never apply recorded SAR twice. Existing approved integral glyph-cell boundaries remain identical.",
+        "pageOpportunityIdentity": "New clips explicitly declare pageOpportunityPolicy=explicit_id and every completePage state supplies a frozen pageOpportunityId. Same complete visible text/fields/positions and menu selection may share identity across arrow flashes or transient redraw gaps; all states still scored individually. Distinct selection/content or reappearance after another page requires new identity. Report complete-state intervals separately from unique opportunities. Valid hit source frames must be in the actual complete-state intervals for that ID; no hit in absent/transition gaps. Deadline starts first complete source frame and cannot outlive the actual page. Legacy approved clips retain their unchanged state-interval contract/count.",
+        "rasterAnimationGeometry": {
+          "evidence": "Original video-04 attack animation near17503-17510; not an assumed fixed layout",
+          "field": "renderOffsetLogicalPixels",
+          "rule": "Every shifted frame retains literal text and its current sourceRect. Nominal grid/logicalRect stays attached to the same render cell; apply state offset before floor starts/ceil ends. Reject translated glyph envelopes crossing viewport; clipped portions need explicit separate visible annotation.",
+          "pageIdentity": "One continuing page may have several raster-shake phases; sourceRect is checked per phase and excluded only from opportunity identity. Changed literal/nominal grid or cursor selection cannot merge.",
+          "units": "integer canonical160x144 pixels, before independent rational X/Y projection"
+        },
+        "cursorAdditionalDownArrows": "When list and message wait arrows coexist, cursor.downArrow is the primary visible symbol and cursor.additionalDownArrows retains every other actually visible one-cell arrow with sourceRect and renderNote. Each geometry is checked; duplicates or wrong projections reject. Cosmetic arrows do not create additional page opportunities. Compare every symbol in visible-state scoring.",
+        "ellipsis": "U+2026 represents one raw three-dot glyph cell; two successive cells use two U+2026. Never expand a single cell to three ordinary period cells."
+      }
+    }
+  ],
+  "roleOccurrences": [
+    {
+      "clip": "shop-exit",
+      "start": 1441,
+      "end": 1442,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1442,
+      "end": 1443,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1443,
+      "end": 1444,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1444,
+      "end": 1446,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1446,
+      "end": 1447,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1446,
+      "end": 1447,
+      "region": "dialogue-1",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1447,
+      "end": 1448,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1447,
+      "end": 1448,
+      "region": "dialogue-1",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1448,
+      "end": 1449,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1448,
+      "end": 1449,
+      "region": "dialogue-1",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1449,
+      "end": 1450,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1449,
+      "end": 1450,
+      "region": "dialogue-1",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1450,
+      "end": 1451,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1450,
+      "end": 1451,
+      "region": "dialogue-1",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1451,
+      "end": 1462,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1451,
+      "end": 1462,
+      "region": "dialogue-1",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1464,
+      "end": 1465,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1465,
+      "end": 1466,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1466,
+      "end": 1467,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1467,
+      "end": 1468,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1468,
+      "end": 1482,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "pc-connect",
+      "start": 1405,
+      "end": 1406,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "pc-connect",
+      "start": 1406,
+      "end": 1407,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "pc-connect",
+      "start": 1407,
+      "end": 1408,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "pc-connect",
+      "start": 1408,
+      "end": 1410,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "pc-connect",
+      "start": 1410,
+      "end": 1411,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "pc-connect",
+      "start": 1411,
+      "end": 1422,
+      "region": "dialogue-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5275,
+      "end": 5276,
+      "region": "line-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5276,
+      "end": 5278,
+      "region": "line-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5278,
+      "end": 5279,
+      "region": "line-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5279,
+      "end": 5280,
+      "region": "line-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5280,
+      "end": 5281,
+      "region": "line-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5280,
+      "end": 5281,
+      "region": "line-1",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5281,
+      "end": 5282,
+      "region": "line-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5281,
+      "end": 5282,
+      "region": "line-1",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5282,
+      "end": 5284,
+      "region": "line-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5282,
+      "end": 5284,
+      "region": "line-1",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5284,
+      "end": 5285,
+      "region": "line-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5284,
+      "end": 5285,
+      "region": "line-1",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5285,
+      "end": 5286,
+      "region": "line-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5285,
+      "end": 5286,
+      "region": "line-1",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5286,
+      "end": 5296,
+      "region": "line-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5286,
+      "end": 5296,
+      "region": "line-1",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5296,
+      "end": 5298,
+      "region": "line-0",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5296,
+      "end": 5298,
+      "region": "line-1",
+      "role": "dialogue_line"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5298,
+      "end": 5299,
+      "region": "line-0",
+      "role": "dialogue_line"
+    }
+  ],
+  "legacyStateOccurrences": [
+    {
+      "clip": "shop-exit",
+      "start": 1441,
+      "end": 1442,
+      "kind": "loading"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1442,
+      "end": 1443,
+      "kind": "loading"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1443,
+      "end": 1444,
+      "kind": "loading"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1444,
+      "end": 1446,
+      "kind": "loading"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1446,
+      "end": 1447,
+      "kind": "loading"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1447,
+      "end": 1448,
+      "kind": "loading"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1448,
+      "end": 1449,
+      "kind": "loading"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1449,
+      "end": 1450,
+      "kind": "loading"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1450,
+      "end": 1451,
+      "kind": "complete_waiting"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1451,
+      "end": 1462,
+      "kind": "complete_waiting"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1464,
+      "end": 1465,
+      "kind": "loading"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1465,
+      "end": 1466,
+      "kind": "loading"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1466,
+      "end": 1467,
+      "kind": "loading"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1467,
+      "end": 1468,
+      "kind": "loading"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1468,
+      "end": 1482,
+      "kind": "complete_waiting"
+    },
+    {
+      "clip": "shop-exit",
+      "start": 1482,
+      "end": 1486,
+      "kind": "no_textbox"
+    },
+    {
+      "clip": "pc-connect",
+      "start": 1405,
+      "end": 1406,
+      "kind": "loading"
+    },
+    {
+      "clip": "pc-connect",
+      "start": 1406,
+      "end": 1407,
+      "kind": "loading"
+    },
+    {
+      "clip": "pc-connect",
+      "start": 1407,
+      "end": 1408,
+      "kind": "loading"
+    },
+    {
+      "clip": "pc-connect",
+      "start": 1408,
+      "end": 1410,
+      "kind": "loading"
+    },
+    {
+      "clip": "pc-connect",
+      "start": 1410,
+      "end": 1411,
+      "kind": "loading"
+    },
+    {
+      "clip": "pc-connect",
+      "start": 1411,
+      "end": 1422,
+      "kind": "complete_waiting"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5264,
+      "end": 5268,
+      "kind": "no_textbox"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5275,
+      "end": 5276,
+      "kind": "loading"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5276,
+      "end": 5278,
+      "kind": "loading"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5278,
+      "end": 5279,
+      "kind": "loading"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5279,
+      "end": 5280,
+      "kind": "loading"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5280,
+      "end": 5281,
+      "kind": "loading"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5281,
+      "end": 5282,
+      "kind": "loading"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5282,
+      "end": 5284,
+      "kind": "loading"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5284,
+      "end": 5285,
+      "kind": "loading"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5285,
+      "end": 5286,
+      "kind": "loading"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5286,
+      "end": 5296,
+      "kind": "complete_waiting"
+    },
+    {
+      "clip": "approved-trial",
+      "start": 5298,
+      "end": 5299,
+      "kind": "scroll_settled_next_page_context"
+    }
+  ],
+  "boundary": {
+    "left": {
+      "frame": 5298,
+      "kind": "scroll_settled_next_page_context",
+      "role": "dialogue_line"
+    },
+    "right": {
+      "frame": 5299,
+      "kind": "message_loading",
+      "role": "dialogue"
+    },
+    "samePhysicalRegion": {
+      "text": "キョウ にんてい トレーナー！",
+      "readingOrder": 0,
+      "gridRect": [
+        1,
+        14,
+        16,
+        15
+      ],
+      "sourceRect": [
+        318,
+        360,
+        588,
+        378
+      ],
+      "markCells": []
+    },
+    "notIdenticalWholeImageClaim": true
+  },
+  "decision": "Same carried line and identical scoring semantics support a field-role vocabulary correction after full 66-frame event double review. All dialogue_line occurrences are listed. Do not change actual output by clip. State names also differ, but complete_waiting explicitly denotes waiting and message_complete may include no-arrow final pages; do not globally equate these or rewrite states in this role-only candidate.",
+  "reviewRange": {
+    "media": "video-02",
+    "retained": [
+      5262,
+      5328
+    ],
+    "scored": [
+      [
+        5264,
+        5299
+      ],
+      [
+        5299,
+        5324
+      ]
+    ],
+    "firstReadSource": "data/frames/video-02/dialogue-sign-completion-pass2-v1",
+    "newIndependentSecondReadRequired": true
+  },
+  "effectiveFreezeChanged": false,
+  "productAcceptance": false
+}

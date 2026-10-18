@@ -1,0 +1,4059 @@
+{
+  "status": "adversarial_dimension_properties_passed_not_product_acceptance",
+  "scorerSha256": "196796725877e3c9586c264cf0069e68137a223a8c12e9bd1e45fd3aa57b15ec",
+  "cases": 32,
+  "failures": 0,
+  "fixtures": [
+    {
+      "name": "exact_modern",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "legacyStrict": true,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": true
+      },
+      "flags": {
+        "legacyStrict": true,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": true,
+        "errors": 0,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "only_pixel_border",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              9,
+              8,
+              25,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": true,
+        "pixelBorder": false,
+        "logicalAgreement": true
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": false,
+        "logicalAgreement": true,
+        "errors": 0,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "whole_character_deleted",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": false,
+        "errors": 1,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": false,
+        "fieldPosition": true,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 1,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "whole_character_inserted",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケモ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": false,
+        "errors": 1,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": false,
+        "fieldPosition": true,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 1,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "visible_mark_lost_in_literal",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ホケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": []
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": false,
+        "fieldPosition": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": false,
+        "fieldPosition": false,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 1,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "mark_missing_text_identical",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": []
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": true,
+        "fieldPosition": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": false,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "mark_attached_wrong_cell_text_identical",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 2,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": true,
+        "fieldPosition": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": false,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "missing_field",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": false,
+        "fieldPosition": false,
+        "pixelBorder": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": false,
+        "fieldPosition": false,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": false,
+        "logicalAgreement": false,
+        "errors": 2,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "wrong_role_same_text",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "item_name",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": false,
+        "fieldPosition": false,
+        "pixelBorder": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": false,
+        "fieldPosition": false,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": false,
+        "logicalAgreement": false,
+        "errors": 4,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "wrong_reading_order_same_text",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 1,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": false,
+        "fieldPosition": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": false,
+        "fieldPosition": false,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": false,
+        "logicalAgreement": false,
+        "errors": 4,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "wrong_grid_start_same_text",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              2,
+              2,
+              4,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": false,
+        "fieldPosition": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": false,
+        "fieldPosition": false,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": false,
+        "logicalAgreement": false,
+        "errors": 4,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "wrong_grid_occupancy_same_start",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              4,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": true,
+        "fieldPosition": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": false,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "wrong_logical_envelope",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ],
+            "logicalRect": [
+              8,
+              16,
+              24,
+              24
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": true,
+        "fieldPosition": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": false,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "render_unit_merge",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ],
+              "renderUnits": [
+                {
+                  "text": "ポ",
+                  "logicalRect": [
+                    8,
+                    16,
+                    16,
+                    24
+                  ]
+                },
+                {
+                  "text": "ケ",
+                  "logicalRect": [
+                    16,
+                    16,
+                    24,
+                    24
+                  ]
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ],
+            "renderUnits": [
+              {
+                "text": "ポケ",
+                "logicalRect": [
+                  8,
+                  16,
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": true,
+        "fieldPosition": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": false,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "question_encoding_not_normalized",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "？",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "?",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": false,
+        "errors": 1,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": false,
+        "fieldPosition": true,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 1,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "small_kana_not_normalized",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "キョ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "キヨ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": false,
+        "errors": 1
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": false,
+        "fieldPosition": true,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 1,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "spaces_not_deleted",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポ ケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": false,
+        "errors": 1
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": false,
+        "fieldPosition": true,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 1,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "empty_false_positive",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": false,
+          "regions": [],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": false,
+        "fieldPosition": false,
+        "errors": 2
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": false,
+        "fieldPosition": false,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": false,
+        "logicalAgreement": false,
+        "errors": 2,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "modern_arrow_missing",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": false,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "symbols": false,
+        "logicalAgreement": false,
+        "pixelBorder": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": false,
+        "state": true,
+        "pixelBorder": false,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "modern_arrow_wrong_position",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                17,
+                16,
+                18,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "symbols": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": false,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "old_flat_arrow_and_label",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 1,
+          "kind": "complete_waiting",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "gridRect": [
+              18,
+              16,
+              19,
+              17
+            ],
+            "sourceRect": [
+              144,
+              128,
+              152,
+              136
+            ]
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c"
+        }
+      },
+      "expected": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": true,
+        "state": true,
+        "logicalAgreement": true,
+        "arrowCompatibility": 1,
+        "stateCompatibility": 1
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": true,
+        "errors": 0,
+        "arrowCompatibility": 1,
+        "stateCompatibility": 1
+      }
+    },
+    {
+      "name": "flat_structure_other_contract",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 1,
+          "kind": "complete_waiting",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "gridRect": [
+              18,
+              16,
+              19,
+              17
+            ],
+            "sourceRect": [
+              144,
+              128,
+              152,
+              136
+            ]
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "symbols": false,
+        "state": false,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": false,
+        "state": false,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "flat_structure_new_schema",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "complete_waiting",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "gridRect": [
+              18,
+              16,
+              19,
+              17
+            ],
+            "sourceRect": [
+              144,
+              128,
+              152,
+              136
+            ]
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c"
+        }
+      },
+      "expected": {
+        "symbols": false,
+        "state": false,
+        "arrowCompatibility": 0
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": false,
+        "state": false,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "nested_arrow_no_style_legacy_hash",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 1,
+          "kind": "complete_waiting",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            }
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c"
+        }
+      },
+      "expected": {
+        "symbols": false,
+        "state": false,
+        "arrowCompatibility": 0
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": false,
+        "state": false,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "legacy_actual_wrong_arrow_style",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 1,
+          "kind": "complete_waiting",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "gridRect": [
+              18,
+              16,
+              19,
+              17
+            ],
+            "sourceRect": [
+              144,
+              128,
+              152,
+              136
+            ]
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "outline_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c"
+        }
+      },
+      "expected": {
+        "symbols": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": false,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 1,
+        "stateCompatibility": 1
+      }
+    },
+    {
+      "name": "legacy_actual_arrow_missing",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 1,
+          "kind": "complete_waiting",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "gridRect": [
+              18,
+              16,
+              19,
+              17
+            ],
+            "sourceRect": [
+              144,
+              128,
+              152,
+              136
+            ]
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": false,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c"
+        }
+      },
+      "expected": {
+        "symbols": false,
+        "state": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": false,
+        "state": false,
+        "pixelBorder": false,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 1,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "legacy_actual_extra_menu_symbol",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 1,
+          "kind": "complete_waiting",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "gridRect": [
+              18,
+              16,
+              19,
+              17
+            ],
+            "sourceRect": [
+              144,
+              128,
+              152,
+              136
+            ]
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [
+              {
+                "style": "filled_right",
+                "gridRect": [
+                  1,
+                  1,
+                  2,
+                  2
+                ],
+                "sourceRect": [
+                  8,
+                  8,
+                  16,
+                  16
+                ]
+              }
+            ],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c"
+        }
+      },
+      "expected": {
+        "symbols": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": false,
+        "state": true,
+        "pixelBorder": false,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 1,
+        "stateCompatibility": 1
+      }
+    },
+    {
+      "name": "legacy_actual_loading_state",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 1,
+          "kind": "complete_waiting",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "gridRect": [
+              18,
+              16,
+              19,
+              17
+            ],
+            "sourceRect": [
+              144,
+              128,
+              152,
+              136
+            ]
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_loading",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c"
+        }
+      },
+      "expected": {
+        "state": false,
+        "logicalAgreement": false,
+        "stateCompatibility": 0
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": true,
+        "state": false,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 1,
+        "stateCompatibility": 0
+      }
+    },
+    {
+      "name": "legacy_wrong_field_not_excused",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 1,
+          "kind": "complete_waiting",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "gridRect": [
+              18,
+              16,
+              19,
+              17
+            ],
+            "sourceRect": [
+              144,
+              128,
+              152,
+              136
+            ]
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "item_name",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c"
+        }
+      },
+      "expected": {
+        "fieldPosition": false,
+        "text": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": false,
+        "fieldPosition": false,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": false,
+        "logicalAgreement": false,
+        "errors": 4,
+        "arrowCompatibility": 1,
+        "stateCompatibility": 1
+      }
+    },
+    {
+      "name": "legacy_wrong_mark_not_excused",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 1,
+          "kind": "complete_waiting",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "gridRect": [
+              18,
+              16,
+              19,
+              17
+            ],
+            "sourceRect": [
+              144,
+              128,
+              152,
+              136
+            ]
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": []
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c"
+        }
+      },
+      "expected": {
+        "fieldPosition": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": false,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": true,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 1,
+        "stateCompatibility": 1
+      }
+    },
+    {
+      "name": "legacy_extra_detached_mark_not_excused",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 1,
+          "kind": "complete_waiting",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "gridRect": [
+              18,
+              16,
+              19,
+              17
+            ],
+            "sourceRect": [
+              144,
+              128,
+              152,
+              136
+            ]
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ポケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              8,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": [
+            {
+              "kind": "dakuten",
+              "gridRect": [
+                2,
+                1,
+                3,
+                2
+              ],
+              "sourceRect": [
+                16,
+                8,
+                24,
+                16
+              ]
+            }
+          ]
+        },
+        "context": {
+          "contractSha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c"
+        }
+      },
+      "expected": {
+        "symbols": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": true,
+        "fieldPosition": true,
+        "symbols": false,
+        "state": true,
+        "pixelBorder": false,
+        "logicalAgreement": false,
+        "errors": 0,
+        "arrowCompatibility": 1,
+        "stateCompatibility": 1
+      }
+    },
+    {
+      "name": "boundary_change_not_excuse_text",
+      "kind": "fabricated_adversarial_comparison_not_GT",
+      "input": {
+        "gt": {
+          "schemaVersion": 2,
+          "kind": "message_complete",
+          "completePage": true,
+          "regions": [
+            {
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "ポケ",
+              "gridRect": [
+                1,
+                2,
+                3,
+                3
+              ],
+              "sourceRect": [
+                8,
+                8,
+                24,
+                24
+              ],
+              "markCells": [
+                {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                  "kind": "handakuten"
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "regions": [
+          {
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ホケ",
+            "gridRect": [
+              1,
+              2,
+              3,
+              3
+            ],
+            "sourceRect": [
+              8,
+              16,
+              24,
+              24
+            ],
+            "markCells": [
+              {
+                "gridColumn": 1,
+                "gridRow": 1,
+                "kind": "handakuten"
+              }
+            ]
+          }
+        ],
+        "visible": {
+          "kind": "message_complete",
+          "cursor": {
+            "downArrowVisible": true,
+            "downArrow": {
+              "style": "filled_down",
+              "gridRect": [
+                18,
+                16,
+                19,
+                17
+              ],
+              "sourceRect": [
+                144,
+                128,
+                152,
+                136
+              ]
+            },
+            "menuCursors": [],
+            "additionalDownArrows": []
+          },
+          "detachedMarks": []
+        },
+        "context": {
+          "contractSha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+        }
+      },
+      "expected": {
+        "text": false,
+        "pixelBorder": false,
+        "logicalAgreement": false
+      },
+      "flags": {
+        "legacyStrict": false,
+        "text": false,
+        "fieldPosition": true,
+        "symbols": true,
+        "state": true,
+        "pixelBorder": false,
+        "logicalAgreement": false,
+        "errors": 1,
+        "arrowCompatibility": 0,
+        "stateCompatibility": 0
+      }
+    }
+  ]
+}

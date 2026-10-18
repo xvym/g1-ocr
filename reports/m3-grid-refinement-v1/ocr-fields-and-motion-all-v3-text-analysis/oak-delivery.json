@@ -1,0 +1,18 @@
+[
+  {
+    "sourceFrameIndex": 24223,
+    "sourcePts": 24223,
+    "stateId": "f53c237ad19a-f24223-f24224",
+    "expectedCharacters": 19,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "dialogue:16:1:1",
+        "expected": "とどけもの",
+        "actual": "とどけも",
+        "errors": 1
+      }
+    ]
+  }
+]

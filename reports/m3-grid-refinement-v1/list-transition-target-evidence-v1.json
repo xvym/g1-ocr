@@ -1,0 +1,75 @@
+{
+  "evidence": [
+    {
+      "clip": "pc-deposit-navigation",
+      "frames": 124,
+      "oldSha256": "d4a90bd58ea2a00710d665a08223ed8ddbf5616f06461b1dd3a5be7988d1f098",
+      "currentSha256": "7f770433dd11c9ae462294bdc3bcf7e85d6ad5d04fce360ebb618340f08a7271",
+      "changes": [
+        {
+          "frame": 1660,
+          "before": "menu_complete",
+          "after": "submenu_cursor_loading"
+        },
+        {
+          "frame": 1697,
+          "before": "menu_complete",
+          "after": "scroll_partial_redraw"
+        },
+        {
+          "frame": 1706,
+          "before": "menu_complete",
+          "after": "scroll_duplicate_row"
+        },
+        {
+          "frame": 1707,
+          "before": "menu_complete",
+          "after": "cursor_transition"
+        },
+        {
+          "frame": 1714,
+          "before": "menu_complete",
+          "after": "cursor_transition"
+        },
+        {
+          "frame": 1715,
+          "before": "menu_complete",
+          "after": "cursor_transition"
+        },
+        {
+          "frame": 1724,
+          "before": "menu_complete",
+          "after": "scroll_partial_redraw"
+        }
+      ]
+    },
+    {
+      "clip": "shop-buy-navigation",
+      "frames": 48,
+      "oldSha256": "de96da9cbc5ba0441eea3a1fb59e988fc346738033f6ac0457b88bdf6180742c",
+      "currentSha256": "38cf7d1ed013d5bc523bbd053fdea23239fdf6287ffb0a6e1f829f6330ec646a",
+      "changes": [
+        {
+          "frame": 859,
+          "before": "menu_complete",
+          "after": "scroll_cursor_transition"
+        }
+      ]
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frames": 62,
+      "oldSha256": "343fccfd18add084a33baa419e9db1b42b6865cbd67d436788c3d8f7ce01b03f",
+      "currentSha256": "e55fd28a42704655b59d984d8144f04ff665e7fd49b60150e81f855d8d1efc69",
+      "changes": [
+        {
+          "frame": 1069,
+          "before": "menu_complete",
+          "after": "submenu_cursor_loading"
+        }
+      ]
+    }
+  ],
+  "testLogSha256": "fb63e35b6c293e73fd73f0d40e548f112c0c6d7a23246bd6c8bc2d6e4baaf2c1",
+  "notIndependentAcceptance": true
+}

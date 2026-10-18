@@ -1,0 +1,25 @@
+{
+  "candidate": 2,
+  "budget": 3,
+  "reason": "Source @ ends PlaceString and does not alone certify the page. Candidate2 waits for following para/cont/done/prompt or confirmed script end before indexing the visible page. No text/GT/score criteria change.",
+  "first": {
+    "config": ".cache/japanese-source-page-boundaries-v1/catalog.json",
+    "sha256": "8818bda98cfa507f0529cb2630a69478e2e57a178ba85133b4fb42d3b1c6567e",
+    "templates": 9153,
+    "retained": 473,
+    "scored": 471,
+    "strictCandidate": 14
+  },
+  "current": {
+    "config": ".cache/japanese-source-page-boundaries-v2/catalog.json",
+    "sha256": "f3b05ece3212c5d74740ef063f7d647e769d73a5dc908bbdc7f44ab750d1d7ce",
+    "templates": 8653,
+    "retained": 473,
+    "scored": 471,
+    "strictCandidate": 14
+  },
+  "experiment": "reports/m3-grid-refinement-v1/source-page-boundary-v2/report.json",
+  "experimentSha256": "8222ada966f0f2bd2b231759355a4933cea2afa5202cf38a721734916b2fdc15",
+  "productionJavaUnchanged": true,
+  "firstTargetOutputsPreserved": true
+}

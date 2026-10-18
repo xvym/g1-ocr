@@ -1,0 +1,3121 @@
+[
+  {
+    "sourceFrameIndex": 1044,
+    "sourcePts": 534528,
+    "stateId": "9c8aee036f72-f1044-f1048",
+    "expectedCharacters": 55,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "そのほかに わたくしどもで",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:6",
+        "expected": "おちからに なれることは？",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "そのほかに わたくしどもで",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おちからに なれることは?",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1045,
+    "sourcePts": 535040,
+    "stateId": "9c8aee036f72-f1044-f1048",
+    "expectedCharacters": 55,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "そのほかに わたくしどもで",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:6",
+        "expected": "おちからに なれることは？",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "そのほかに わたくしどもで",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おちからに なれることは?",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1046,
+    "sourcePts": 535552,
+    "stateId": "9c8aee036f72-f1044-f1048",
+    "expectedCharacters": 55,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "そのほかに わたくしどもで",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:6",
+        "expected": "おちからに なれることは？",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "そのほかに わたくしどもで",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おちからに なれることは?",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1047,
+    "sourcePts": 536064,
+    "stateId": "9c8aee036f72-f1044-f1048",
+    "expectedCharacters": 55,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "そのほかに わたくしどもで",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:6",
+        "expected": "おちからに なれることは？",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "そのほかに わたくしどもで",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おちからに なれることは?",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1048,
+    "sourcePts": 536576,
+    "stateId": "9c8aee036f72-f1048-f1056",
+    "expectedCharacters": 55,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "そのほかに わたくしどもで",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:6",
+        "expected": "おちからに なれることは？",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "そのほかに わたくしどもで",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おちからに なれることは?",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1049,
+    "sourcePts": 537088,
+    "stateId": "9c8aee036f72-f1048-f1056",
+    "expectedCharacters": 55,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "そのほかに わたくしどもで",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:6",
+        "expected": "おちからに なれることは？",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "そのほかに わたくしどもで",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おちからに なれることは?",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1050,
+    "sourcePts": 537600,
+    "stateId": "9c8aee036f72-f1048-f1056",
+    "expectedCharacters": 55,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "そのほかに わたくしどもで",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:6",
+        "expected": "おちからに なれることは？",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "そのほかに わたくしどもで",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おちからに なれることは?",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1051,
+    "sourcePts": 538112,
+    "stateId": "9c8aee036f72-f1048-f1056",
+    "expectedCharacters": 55,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "そのほかに わたくしどもで",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:6",
+        "expected": "おちからに なれることは？",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "そのほかに わたくしどもで",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おちからに なれることは?",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1052,
+    "sourcePts": 538624,
+    "stateId": "9c8aee036f72-f1048-f1056",
+    "expectedCharacters": 55,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "そのほかに わたくしどもで",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:6",
+        "expected": "おちからに なれることは？",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "そのほかに わたくしどもで",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おちからに なれることは?",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1053,
+    "sourcePts": 539136,
+    "stateId": "9c8aee036f72-f1048-f1056",
+    "expectedCharacters": 55,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "そのほかに わたくしどもで",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:6",
+        "expected": "おちからに なれることは？",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "そのほかに わたくしどもで",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おちからに なれることは?",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1054,
+    "sourcePts": 539648,
+    "stateId": "9c8aee036f72-f1048-f1056",
+    "expectedCharacters": 55,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "そのほかに わたくしどもで",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:6",
+        "expected": "おちからに なれることは？",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "そのほかに わたくしどもで",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おちからに なれることは?",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1055,
+    "sourcePts": 540160,
+    "stateId": "9c8aee036f72-f1048-f1056",
+    "expectedCharacters": 55,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "そのほかに わたくしどもで",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:6",
+        "expected": "おちからに なれることは？",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "そのほかに わたくしどもで",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おちからに なれることは?",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1056,
+    "sourcePts": 540672,
+    "stateId": "9c8aee036f72-f1056-f1057",
+    "expectedCharacters": 55,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "そのほかに わたくしどもで",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:16:1:6",
+        "expected": "おちからに なれることは？",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "そのほかに わたくしどもで",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おちからに なれることは?",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1057,
+    "sourcePts": 541184,
+    "stateId": "9c8aee036f72-f1057-f1058",
+    "expectedCharacters": 29,
+    "errors": 58,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1058,
+    "sourcePts": 541696,
+    "stateId": "9c8aee036f72-f1058-f1059",
+    "expectedCharacters": 32,
+    "errors": 64,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "どれを",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "どれを",
+        "errors": 3
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1059,
+    "sourcePts": 542208,
+    "stateId": "9c8aee036f72-f1059-f1060",
+    "expectedCharacters": 35,
+    "errors": 70,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "どれを うっ",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "どれを うっ",
+        "errors": 6
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1060,
+    "sourcePts": 542720,
+    "stateId": "9c8aee036f72-f1060-f1062",
+    "expectedCharacters": 38,
+    "errors": 76,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "どれを うっていた",
+        "actual": "",
+        "errors": 9
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "どれを うっていた",
+        "errors": 9
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1061,
+    "sourcePts": 543232,
+    "stateId": "9c8aee036f72-f1060-f1062",
+    "expectedCharacters": 38,
+    "errors": 76,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "どれを うっていた",
+        "actual": "",
+        "errors": 9
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "どれを うっていた",
+        "errors": 9
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1062,
+    "sourcePts": 543744,
+    "stateId": "9c8aee036f72-f1062-f1063",
+    "expectedCharacters": 41,
+    "errors": 82,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:5",
+        "expected": "どれを うっていただけま",
+        "actual": "",
+        "errors": 12
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "どれを うっていただけま",
+        "errors": 12
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1063,
+    "sourcePts": 544256,
+    "stateId": "9c8aee036f72-f1063-f1068",
+    "expectedCharacters": 38,
+    "errors": 76,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:2",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:3",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:4",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:4",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1064,
+    "sourcePts": 544768,
+    "stateId": "9c8aee036f72-f1063-f1068",
+    "expectedCharacters": 38,
+    "errors": 76,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:2",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:3",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:4",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:4",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1065,
+    "sourcePts": 545280,
+    "stateId": "9c8aee036f72-f1063-f1068",
+    "expectedCharacters": 38,
+    "errors": 76,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:2",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:3",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:4",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:4",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1066,
+    "sourcePts": 545792,
+    "stateId": "9c8aee036f72-f1063-f1068",
+    "expectedCharacters": 38,
+    "errors": 76,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:2",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:3",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:4",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:4",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1067,
+    "sourcePts": 546304,
+    "stateId": "9c8aee036f72-f1063-f1068",
+    "expectedCharacters": 38,
+    "errors": 76,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:2",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:3",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:4",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:4",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1068,
+    "sourcePts": 546816,
+    "stateId": "9c8aee036f72-f1068-f1069",
+    "expectedCharacters": 58,
+    "errors": 31,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "item_name:6:6:4",
+        "expected": "ポケモンのふえ",
+        "actual": "ホケモンのふえ",
+        "errors": 1
+      },
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:7",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:7",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1069,
+    "sourcePts": 547328,
+    "stateId": "9c8aee036f72-f1069-f1070",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1070,
+    "sourcePts": 547840,
+    "stateId": "9c8aee036f72-f1070-f1082",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1071,
+    "sourcePts": 548352,
+    "stateId": "9c8aee036f72-f1070-f1082",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1072,
+    "sourcePts": 548864,
+    "stateId": "9c8aee036f72-f1070-f1082",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1073,
+    "sourcePts": 549376,
+    "stateId": "9c8aee036f72-f1070-f1082",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1074,
+    "sourcePts": 549888,
+    "stateId": "9c8aee036f72-f1070-f1082",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1075,
+    "sourcePts": 550400,
+    "stateId": "9c8aee036f72-f1070-f1082",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1076,
+    "sourcePts": 550912,
+    "stateId": "9c8aee036f72-f1070-f1082",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1077,
+    "sourcePts": 551424,
+    "stateId": "9c8aee036f72-f1070-f1082",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1078,
+    "sourcePts": 551936,
+    "stateId": "9c8aee036f72-f1070-f1082",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1079,
+    "sourcePts": 552448,
+    "stateId": "9c8aee036f72-f1070-f1082",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1080,
+    "sourcePts": 552960,
+    "stateId": "9c8aee036f72-f1070-f1082",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1081,
+    "sourcePts": 553472,
+    "stateId": "9c8aee036f72-f1070-f1082",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1082,
+    "sourcePts": 553984,
+    "stateId": "9c8aee036f72-f1082-f1092",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1083,
+    "sourcePts": 554496,
+    "stateId": "9c8aee036f72-f1082-f1092",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1084,
+    "sourcePts": 555008,
+    "stateId": "9c8aee036f72-f1082-f1092",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1085,
+    "sourcePts": 555520,
+    "stateId": "9c8aee036f72-f1082-f1092",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1086,
+    "sourcePts": 556032,
+    "stateId": "9c8aee036f72-f1082-f1092",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1087,
+    "sourcePts": 556544,
+    "stateId": "9c8aee036f72-f1082-f1092",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1088,
+    "sourcePts": 557056,
+    "stateId": "9c8aee036f72-f1082-f1092",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1089,
+    "sourcePts": 557568,
+    "stateId": "9c8aee036f72-f1082-f1092",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1090,
+    "sourcePts": 558080,
+    "stateId": "9c8aee036f72-f1082-f1092",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1091,
+    "sourcePts": 558592,
+    "stateId": "9c8aee036f72-f1082-f1092",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1092,
+    "sourcePts": 559104,
+    "stateId": "9c8aee036f72-f1092-f1096",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1093,
+    "sourcePts": 559616,
+    "stateId": "9c8aee036f72-f1092-f1096",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1094,
+    "sourcePts": 560128,
+    "stateId": "9c8aee036f72-f1092-f1096",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1095,
+    "sourcePts": 560640,
+    "stateId": "9c8aee036f72-f1092-f1096",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1096,
+    "sourcePts": 561152,
+    "stateId": "9c8aee036f72-f1096-f1102",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1097,
+    "sourcePts": 561664,
+    "stateId": "9c8aee036f72-f1096-f1102",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1098,
+    "sourcePts": 562176,
+    "stateId": "9c8aee036f72-f1096-f1102",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1099,
+    "sourcePts": 562688,
+    "stateId": "9c8aee036f72-f1096-f1102",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1100,
+    "sourcePts": 563200,
+    "stateId": "9c8aee036f72-f1096-f1102",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1101,
+    "sourcePts": 563712,
+    "stateId": "9c8aee036f72-f1096-f1102",
+    "expectedCharacters": 59,
+    "errors": 30,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "dialogue_line:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:9",
+        "expected": "",
+        "actual": "どれを うっていただけますか?",
+        "errors": 15
+      }
+    ]
+  }
+]

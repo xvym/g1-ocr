@@ -1,0 +1,7 @@
+java.lang.IllegalArgumentException: Frozen reference identity mismatch: D:\Code\Workspace\g1-ocr\data\gt\frozen\ocr-all-scenes-v2\freeze.json
+	at io.github.g1ocr.verification.FrozenDataset.require(FrozenDataset.java:108)
+	at io.github.g1ocr.verification.FrozenDataset.checkedReference(FrozenDataset.java:78)
+	at io.github.g1ocr.verification.FrozenDataset.<init>(FrozenDataset.java:20)
+	at io.github.g1ocr.verification.FrozenDataset.<init>(FrozenDataset.java:14)
+	at io.github.g1ocr.verification.ReplayTimeline.audit(ReplayTimeline.java:80)
+	at io.github.g1ocr.verification.VideoTool.main(VideoTool.java:33)

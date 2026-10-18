@@ -1,0 +1,2810 @@
+[
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001406.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80977690538512,
+        "originY": 0.02860577153733863,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80977690538512,
+            "scale": 3.7546875,
+            "concentration": 0.29032683181939883,
+            "phase": 180.80977690538512
+          },
+          {
+            "origin": 181.20592024443798,
+            "scale": 3.75,
+            "concentration": 0.25902572033576604,
+            "phase": 181.20592024443798
+          },
+          {
+            "origin": 180.34999533024148,
+            "scale": 3.76015625,
+            "concentration": 0.253682501712128,
+            "phase": 180.34999533024148
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.02860577153733863,
+            "scale": 3.779513888888889,
+            "concentration": 0.3087004621962401,
+            "phase": 0.02860577153733863
+          },
+          {
+            "origin": 0.3814801731362144,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2810820134644537,
+            "phase": 0.3814801731362144
+          },
+          {
+            "origin": -0.3301165852710572,
+            "scale": 3.7847222222222223,
+            "concentration": 0.27841342242281847,
+            "phase": -0.3301165852710572
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.72857693586778,
+      "scale": 3.755662046278852,
+      "rms": 0.11888920644274045,
+      "points": 347
+    },
+    "y": {
+      "origin": 0.057424668161213215,
+      "scale": 3.7785740433837973,
+      "rms": 0.24609595010178392,
+      "points": 870
+    },
+    "historyFrames": 1,
+    "currentMatchedCells": 169,
+    "currentXPoints": 470,
+    "currentYPoints": 870
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001407.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80977690538512,
+        "originY": 0.02860577153733863,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80977690538512,
+            "scale": 3.7546875,
+            "concentration": 0.29032683181939883,
+            "phase": 180.80977690538512
+          },
+          {
+            "origin": 181.20592024443798,
+            "scale": 3.75,
+            "concentration": 0.25902572033576604,
+            "phase": 181.20592024443798
+          },
+          {
+            "origin": 180.34999533024148,
+            "scale": 3.76015625,
+            "concentration": 0.253682501712128,
+            "phase": 180.34999533024148
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.02860577153733863,
+            "scale": 3.779513888888889,
+            "concentration": 0.3087004621962401,
+            "phase": 0.02860577153733863
+          },
+          {
+            "origin": 0.3814801731362144,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2810820134644537,
+            "phase": 0.3814801731362144
+          },
+          {
+            "origin": -0.3301165852710572,
+            "scale": 3.7847222222222223,
+            "concentration": 0.27841342242281847,
+            "phase": -0.3301165852710572
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.72857693586485,
+      "scale": 3.7556620462788715,
+      "rms": 0.11888920644273936,
+      "points": 694
+    },
+    "y": {
+      "origin": 0.057424668156964724,
+      "scale": 3.7785740433838404,
+      "rms": 0.24609595010177912,
+      "points": 1740
+    },
+    "historyFrames": 2,
+    "currentMatchedCells": 169,
+    "currentXPoints": 470,
+    "currentYPoints": 870
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001408.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80977690538512,
+        "originY": 0.02860577153733863,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80977690538512,
+            "scale": 3.7546875,
+            "concentration": 0.29032683181939883,
+            "phase": 180.80977690538512
+          },
+          {
+            "origin": 181.20592024443798,
+            "scale": 3.75,
+            "concentration": 0.25902572033576604,
+            "phase": 181.20592024443798
+          },
+          {
+            "origin": 180.34999533024148,
+            "scale": 3.76015625,
+            "concentration": 0.253682501712128,
+            "phase": 180.34999533024148
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.02860577153733863,
+            "scale": 3.779513888888889,
+            "concentration": 0.3087004621962401,
+            "phase": 0.02860577153733863
+          },
+          {
+            "origin": 0.3814801731362144,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2810820134644537,
+            "phase": 0.3814801731362144
+          },
+          {
+            "origin": -0.3301165852710572,
+            "scale": 3.7847222222222223,
+            "concentration": 0.27841342242281847,
+            "phase": -0.3301165852710572
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.72857693585618,
+      "scale": 3.7556620462789154,
+      "rms": 0.118889206442742,
+      "points": 1041
+    },
+    "y": {
+      "origin": 0.057424668157722986,
+      "scale": 3.778574043383851,
+      "rms": 0.24609595010178295,
+      "points": 2610
+    },
+    "historyFrames": 3,
+    "currentMatchedCells": 169,
+    "currentXPoints": 470,
+    "currentYPoints": 870
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001409.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80977690538512,
+        "originY": 0.02860577153733863,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80977690538512,
+            "scale": 3.7546875,
+            "concentration": 0.29032683181939883,
+            "phase": 180.80977690538512
+          },
+          {
+            "origin": 181.20592024443798,
+            "scale": 3.75,
+            "concentration": 0.25902572033576604,
+            "phase": 181.20592024443798
+          },
+          {
+            "origin": 180.34999533024148,
+            "scale": 3.76015625,
+            "concentration": 0.253682501712128,
+            "phase": 180.34999533024148
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.02860577153733863,
+            "scale": 3.779513888888889,
+            "concentration": 0.3087004621962401,
+            "phase": 0.02860577153733863
+          },
+          {
+            "origin": 0.3814801731362144,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2810820134644537,
+            "phase": 0.3814801731362144
+          },
+          {
+            "origin": -0.3301165852710572,
+            "scale": 3.7847222222222223,
+            "concentration": 0.27841342242281847,
+            "phase": -0.3301165852710572
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.72857693586494,
+      "scale": 3.755662046278852,
+      "rms": 0.11888920644274067,
+      "points": 1388
+    },
+    "y": {
+      "origin": 0.057424668155559716,
+      "scale": 3.7785740433838764,
+      "rms": 0.24609595010179192,
+      "points": 3480
+    },
+    "historyFrames": 4,
+    "currentMatchedCells": 169,
+    "currentXPoints": 470,
+    "currentYPoints": 870
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001410.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80977690538512,
+        "originY": 0.02860577153733863,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80977690538512,
+            "scale": 3.7546875,
+            "concentration": 0.29032683181939883,
+            "phase": 180.80977690538512
+          },
+          {
+            "origin": 181.20592024443798,
+            "scale": 3.75,
+            "concentration": 0.25902572033576604,
+            "phase": 181.20592024443798
+          },
+          {
+            "origin": 180.34999533024148,
+            "scale": 3.76015625,
+            "concentration": 0.253682501712128,
+            "phase": 180.34999533024148
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.02860577153733863,
+            "scale": 3.779513888888889,
+            "concentration": 0.3087004621962401,
+            "phase": 0.02860577153733863
+          },
+          {
+            "origin": 0.3814801731362144,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2810820134644537,
+            "phase": 0.3814801731362144
+          },
+          {
+            "origin": -0.3301165852710572,
+            "scale": 3.7847222222222223,
+            "concentration": 0.27841342242281847,
+            "phase": -0.3301165852710572
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.72857693587014,
+      "scale": 3.755662046278814,
+      "rms": 0.11888920644274656,
+      "points": 1735
+    },
+    "y": {
+      "origin": 0.057424668154957566,
+      "scale": 3.7785740433838857,
+      "rms": 0.24609595010177823,
+      "points": 4350
+    },
+    "historyFrames": 5,
+    "currentMatchedCells": 169,
+    "currentXPoints": 470,
+    "currentYPoints": 870
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001411.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80977690538512,
+        "originY": 0.02860577153733863,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80977690538512,
+            "scale": 3.7546875,
+            "concentration": 0.29032683181939883,
+            "phase": 180.80977690538512
+          },
+          {
+            "origin": 181.20592024443798,
+            "scale": 3.75,
+            "concentration": 0.25902572033576604,
+            "phase": 181.20592024443798
+          },
+          {
+            "origin": 180.34999533024148,
+            "scale": 3.76015625,
+            "concentration": 0.253682501712128,
+            "phase": 180.34999533024148
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.02860577153733863,
+            "scale": 3.779513888888889,
+            "concentration": 0.3087004621962401,
+            "phase": 0.02860577153733863
+          },
+          {
+            "origin": 0.3814801731362144,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2810820134644537,
+            "phase": 0.3814801731362144
+          },
+          {
+            "origin": -0.3301165852710572,
+            "scale": 3.7847222222222223,
+            "concentration": 0.27841342242281847,
+            "phase": -0.3301165852710572
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.72857693587304,
+      "scale": 3.755662046278809,
+      "rms": 0.11888920644273913,
+      "points": 2082
+    },
+    "y": {
+      "origin": 0.05742466816624227,
+      "scale": 3.77857404338376,
+      "rms": 0.24609595010178428,
+      "points": 5220
+    },
+    "historyFrames": 6,
+    "currentMatchedCells": 169,
+    "currentXPoints": 470,
+    "currentYPoints": 870
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001412.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80977690538512,
+        "originY": 0.02860577153733863,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80977690538512,
+            "scale": 3.7546875,
+            "concentration": 0.29032683181939883,
+            "phase": 180.80977690538512
+          },
+          {
+            "origin": 181.20592024443798,
+            "scale": 3.75,
+            "concentration": 0.25902572033576604,
+            "phase": 181.20592024443798
+          },
+          {
+            "origin": 180.34999533024148,
+            "scale": 3.76015625,
+            "concentration": 0.253682501712128,
+            "phase": 180.34999533024148
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.02860577153733863,
+            "scale": 3.779513888888889,
+            "concentration": 0.3087004621962401,
+            "phase": 0.02860577153733863
+          },
+          {
+            "origin": 0.3814801731362144,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2810820134644537,
+            "phase": 0.3814801731362144
+          },
+          {
+            "origin": -0.3301165852710572,
+            "scale": 3.7847222222222223,
+            "concentration": 0.27841342242281847,
+            "phase": -0.3301165852710572
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.7285769358625,
+      "scale": 3.7556620462789247,
+      "rms": 0.11888920644274335,
+      "points": 2429
+    },
+    "y": {
+      "origin": 0.05742466817904349,
+      "scale": 3.7785740433836037,
+      "rms": 0.2460959501017757,
+      "points": 6090
+    },
+    "historyFrames": 7,
+    "currentMatchedCells": 169,
+    "currentXPoints": 470,
+    "currentYPoints": 870
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001413.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80975016011124,
+        "originY": 0.03640353580778624,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80975016011124,
+            "scale": 3.7546875,
+            "concentration": 0.2943518522138746,
+            "phase": 180.80975016011124
+          },
+          {
+            "origin": 181.2143068751704,
+            "scale": 3.75,
+            "concentration": 0.26098805865989705,
+            "phase": 181.2143068751704
+          },
+          {
+            "origin": 180.34001520789062,
+            "scale": 3.76015625,
+            "concentration": 0.2554355078346677,
+            "phase": 180.34001520789062
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03640353580778624,
+            "scale": 3.779513888888889,
+            "concentration": 0.31006968744879393,
+            "phase": 0.03640353580778624
+          },
+          {
+            "origin": -0.30612872197990487,
+            "scale": 3.7847222222222223,
+            "concentration": 0.28117865092798583,
+            "phase": -0.30612872197990487
+          },
+          {
+            "origin": 0.3730199091733638,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2807981213233603,
+            "phase": 0.3730199091733638
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.72843099081206,
+      "scale": 3.755663503719643,
+      "rms": 0.11898765898210979,
+      "points": 2767
+    },
+    "y": {
+      "origin": 0.05753261474085127,
+      "scale": 3.778572293566827,
+      "rms": 0.24615497588335603,
+      "points": 6950
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 154,
+    "currentXPoints": 460,
+    "currentYPoints": 860
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001414.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80860178905326,
+        "originY": 0.03752965418904163,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80860178905326,
+            "scale": 3.7546875,
+            "concentration": 0.2958587308180122,
+            "phase": 180.80860178905326
+          },
+          {
+            "origin": 181.21157536031146,
+            "scale": 3.75,
+            "concentration": 0.26231508550257626,
+            "phase": 181.21157536031146
+          },
+          {
+            "origin": 180.34071758264133,
+            "scale": 3.76015625,
+            "concentration": 0.2569362345160714,
+            "phase": 180.34071758264133
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03752965418904163,
+            "scale": 3.779513888888889,
+            "concentration": 0.30964587145809264,
+            "phase": 0.03752965418904163
+          },
+          {
+            "origin": 0.3755474600573775,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28092837155722455,
+            "phase": 0.3755474600573775
+          },
+          {
+            "origin": -0.30658031169363303,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2804567266386212,
+            "phase": -0.30658031169363303
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.72860369880425,
+      "scale": 3.7556630540832963,
+      "rms": 0.11908919808509222,
+      "points": 2761
+    },
+    "y": {
+      "origin": 0.05717883041891422,
+      "scale": 3.7785745719245214,
+      "rms": 0.24598204148803157,
+      "points": 6940
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 154,
+    "currentXPoints": 463,
+    "currentYPoints": 860
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001415.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80482284721958,
+        "originY": 0.03715322075983276,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80482284721958,
+            "scale": 3.7546875,
+            "concentration": 0.2956178340615437,
+            "phase": 180.80482284721958
+          },
+          {
+            "origin": 181.2028573753235,
+            "scale": 3.75,
+            "concentration": 0.2614666064161118,
+            "phase": 181.2028573753235
+          },
+          {
+            "origin": 180.34269902710506,
+            "scale": 3.76015625,
+            "concentration": 0.257670094303628,
+            "phase": 180.34269902710506
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03715322075983276,
+            "scale": 3.779513888888889,
+            "concentration": 0.30864741557458736,
+            "phase": 0.03715322075983276
+          },
+          {
+            "origin": 0.37765225488850857,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2801082762868794,
+            "phase": 0.37765225488850857
+          },
+          {
+            "origin": -0.30937324980437814,
+            "scale": 3.7847222222222223,
+            "concentration": 0.27949975575598557,
+            "phase": -0.30937324980437814
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.62780923827825,
+      "scale": 3.7562870770153487,
+      "rms": 0.15258878538108017,
+      "points": 3192
+    },
+    "y": {
+      "origin": 0.056833916253854644,
+      "scale": 3.7785767641415076,
+      "rms": 0.24580290233894544,
+      "points": 6931
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 156,
+    "currentXPoints": 468,
+    "currentYPoints": 861
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001416.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80467525640321,
+        "originY": 0.036556190103867396,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80467525640321,
+            "scale": 3.7546875,
+            "concentration": 0.2959765030065758,
+            "phase": 180.80467525640321
+          },
+          {
+            "origin": 181.2024555777162,
+            "scale": 3.75,
+            "concentration": 0.26176019875374545,
+            "phase": 181.2024555777162
+          },
+          {
+            "origin": 180.34283116145437,
+            "scale": 3.76015625,
+            "concentration": 0.2580072645592163,
+            "phase": 180.34283116145437
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.036556190103867396,
+            "scale": 3.779513888888889,
+            "concentration": 0.30871282115962556,
+            "phase": 0.036556190103867396
+          },
+          {
+            "origin": 0.377145740163752,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28030222888877465,
+            "phase": 0.377145740163752
+          },
+          {
+            "origin": -0.31004807181549454,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2794246497417169,
+            "phase": -0.31004807181549454
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.62863281329481,
+      "scale": 3.7562821921791745,
+      "rms": 0.1524018454718278,
+      "points": 3183
+    },
+    "y": {
+      "origin": 0.05648825322252953,
+      "scale": 3.7785790952668448,
+      "rms": 0.24562231250935368,
+      "points": 6922
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 156,
+    "currentXPoints": 468,
+    "currentYPoints": 861
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001417.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80392739412977,
+        "originY": 0.035844677926457735,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80392739412977,
+            "scale": 3.7546875,
+            "concentration": 0.29385181019183937,
+            "phase": 180.80392739412977
+          },
+          {
+            "origin": 181.19886273013236,
+            "scale": 3.75,
+            "concentration": 0.26004417402833224,
+            "phase": 181.19886273013236
+          },
+          {
+            "origin": 180.34535988138168,
+            "scale": 3.76015625,
+            "concentration": 0.25668000255048,
+            "phase": 180.34535988138168
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035844677926457735,
+            "scale": 3.779513888888889,
+            "concentration": 0.30825236344843515,
+            "phase": 0.035844677926457735
+          },
+          {
+            "origin": 0.3797025193933178,
+            "scale": 3.7743055555555554,
+            "concentration": 0.28001321036489196,
+            "phase": 0.3797025193933178
+          },
+          {
+            "origin": -0.3139751650900375,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2788588362783218,
+            "phase": -0.3139751650900375
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.63013577078698,
+      "scale": 3.7562733093845218,
+      "rms": 0.15286842033851572,
+      "points": 3187
+    },
+    "y": {
+      "origin": 0.05613941736356348,
+      "scale": 3.7785817870350433,
+      "rms": 0.24543034940642125,
+      "points": 6914
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 159,
+    "currentXPoints": 473,
+    "currentYPoints": 862
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001418.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8049595853314,
+        "originY": 0.033802656343039625,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8049595853314,
+            "scale": 3.7546875,
+            "concentration": 0.2933016887605386,
+            "phase": 180.8049595853314
+          },
+          {
+            "origin": 181.19856126757867,
+            "scale": 3.75,
+            "concentration": 0.26011068470504595,
+            "phase": 181.19856126757867
+          },
+          {
+            "origin": 180.3483080546231,
+            "scale": 3.76015625,
+            "concentration": 0.2569410195451359,
+            "phase": 180.3483080546231
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.033802656343039625,
+            "scale": 3.779513888888889,
+            "concentration": 0.30745168631298136,
+            "phase": 0.033802656343039625
+          },
+          {
+            "origin": 0.37920609561580093,
+            "scale": 3.7743055555555554,
+            "concentration": 0.27970644396293753,
+            "phase": 0.37920609561580093
+          },
+          {
+            "origin": -0.31756906781044225,
+            "scale": 3.7847222222222223,
+            "concentration": 0.27772282014715166,
+            "phase": -0.31756906781044225
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.68341397787162,
+      "scale": 3.755944668604287,
+      "rms": 0.1386574753912654,
+      "points": 2968
+    },
+    "y": {
+      "origin": 0.05578828701935088,
+      "scale": 3.7785853683726653,
+      "rms": 0.2452301748911015,
+      "points": 6908
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 161,
+    "currentXPoints": 478,
+    "currentYPoints": 864
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001419.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8058342206131,
+        "originY": 0.03325904173468754,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8058342206131,
+            "scale": 3.7546875,
+            "concentration": 0.29391610848497296,
+            "phase": 180.8058342206131
+          },
+          {
+            "origin": 181.20183462548326,
+            "scale": 3.75,
+            "concentration": 0.2615936395756699,
+            "phase": 181.20183462548326
+          },
+          {
+            "origin": 180.3464447192808,
+            "scale": 3.76015625,
+            "concentration": 0.2584659070075453,
+            "phase": 180.3464447192808
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03325904173468754,
+            "scale": 3.779513888888889,
+            "concentration": 0.3075676515128059,
+            "phase": 0.03325904173468754
+          },
+          {
+            "origin": 0.38316355591368917,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2799327675360694,
+            "phase": 0.38316355591368917
+          },
+          {
+            "origin": -0.322546656167056,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2777508788611896,
+            "phase": -0.322546656167056
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.68548978605293,
+      "scale": 3.755932549527848,
+      "rms": 0.13876785431861266,
+      "points": 2976
+    },
+    "y": {
+      "origin": 0.055432075156362025,
+      "scale": 3.778589621983871,
+      "rms": 0.24498444041041711,
+      "points": 6906
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 165,
+    "currentXPoints": 480,
+    "currentYPoints": 868
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001420.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8039335779827,
+        "originY": 0.032765057718838066,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8039335779827,
+            "scale": 3.7546875,
+            "concentration": 0.2912873437821136,
+            "phase": 180.8039335779827
+          },
+          {
+            "origin": 181.20007605028124,
+            "scale": 3.75,
+            "concentration": 0.259058560924835,
+            "phase": 181.20007605028124
+          },
+          {
+            "origin": 180.34452552518707,
+            "scale": 3.76015625,
+            "concentration": 0.25669638622605345,
+            "phase": 180.34452552518707
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.032765057718838066,
+            "scale": 3.779513888888889,
+            "concentration": 0.3072740311747199,
+            "phase": 0.032765057718838066
+          },
+          {
+            "origin": 0.3858255054808103,
+            "scale": 3.7743055555555554,
+            "concentration": 0.27964603745823896,
+            "phase": 0.3858255054808103
+          },
+          {
+            "origin": -0.3262813568180618,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2774005941963929,
+            "phase": -0.3262813568180618
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.687823161479,
+      "scale": 3.7559186760691112,
+      "rms": 0.13893361027863715,
+      "points": 2985
+    },
+    "y": {
+      "origin": 0.05507906802689183,
+      "scale": 3.7785937028150824,
+      "rms": 0.24473190079207413,
+      "points": 6905
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 168,
+    "currentXPoints": 481,
+    "currentYPoints": 869
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001421.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80381711797082,
+        "originY": 0.032382739045298974,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80381711797082,
+            "scale": 3.7546875,
+            "concentration": 0.29151370456992043,
+            "phase": 180.80381711797082
+          },
+          {
+            "origin": 181.19974921850635,
+            "scale": 3.75,
+            "concentration": 0.2593253172535369,
+            "phase": 181.19974921850635
+          },
+          {
+            "origin": 180.34463639219598,
+            "scale": 3.76015625,
+            "concentration": 0.2568052989854726,
+            "phase": 180.34463639219598
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.032382739045298974,
+            "scale": 3.779513888888889,
+            "concentration": 0.3074554186041946,
+            "phase": 0.032382739045298974
+          },
+          {
+            "origin": 0.38567978837471933,
+            "scale": 3.7743055555555554,
+            "concentration": 0.27991832169988956,
+            "phase": 0.38567978837471933
+          },
+          {
+            "origin": -0.32684512613423616,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2774635761476954,
+            "phase": -0.32684512613423616
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.6900168532393,
+      "scale": 3.755905994384182,
+      "rms": 0.13919649893434366,
+      "points": 3006
+    },
+    "y": {
+      "origin": 0.05461587971373385,
+      "scale": 3.778599539679974,
+      "rms": 0.24441790553954057,
+      "points": 6914
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 168,
+    "currentXPoints": 481,
+    "currentYPoints": 869
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001422.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80138082189345,
+        "originY": 0.03433198712994784,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80138082189345,
+            "scale": 3.7546875,
+            "concentration": 0.28952581854982873,
+            "phase": 180.80138082189345
+          },
+          {
+            "origin": 181.18890227453943,
+            "scale": 3.75,
+            "concentration": 0.2576993714429972,
+            "phase": 181.18890227453943
+          },
+          {
+            "origin": 180.3516561769172,
+            "scale": 3.76015625,
+            "concentration": 0.255977616834782,
+            "phase": 180.3516561769172
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03433198712994784,
+            "scale": 3.779513888888889,
+            "concentration": 0.307795993953099,
+            "phase": 0.03433198712994784
+          },
+          {
+            "origin": 0.39633169702133664,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2793776072268992,
+            "phase": 0.39633169702133664
+          },
+          {
+            "origin": -0.33367214750264707,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2779107674929452,
+            "phase": -0.33367214750264707
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69233236669092,
+      "scale": 3.75589234532901,
+      "rms": 0.13937319509461937,
+      "points": 3032
+    },
+    "y": {
+      "origin": 0.054569992477114845,
+      "scale": 3.7786035686216826,
+      "rms": 0.24426935381861017,
+      "points": 6931
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 174,
+    "currentXPoints": 489,
+    "currentYPoints": 877
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001423.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8009246383366,
+        "originY": 0.03309429980681342,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8009246383366,
+            "scale": 3.7546875,
+            "concentration": 0.29032484886899845,
+            "phase": 180.8009246383366
+          },
+          {
+            "origin": 181.18784799474165,
+            "scale": 3.75,
+            "concentration": 0.2583131003833728,
+            "phase": 181.18784799474165
+          },
+          {
+            "origin": 180.35194882725497,
+            "scale": 3.76015625,
+            "concentration": 0.25682813094582685,
+            "phase": 180.35194882725497
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03309429980681342,
+            "scale": 3.779513888888889,
+            "concentration": 0.30786209223186217,
+            "phase": 0.03309429980681342
+          },
+          {
+            "origin": 0.39526963653022085,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2797487324553573,
+            "phase": 0.39526963653022085
+          },
+          {
+            "origin": -0.33497948299792385,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2776508214387307,
+            "phase": -0.33497948299792385
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69403679995773,
+      "scale": 3.755882428114265,
+      "rms": 0.13951675121043744,
+      "points": 3053
+    },
+    "y": {
+      "origin": 0.05451782503549658,
+      "scale": 3.7786075595345254,
+      "rms": 0.2441141804554566,
+      "points": 6947
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 174,
+    "currentXPoints": 489,
+    "currentYPoints": 877
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001424.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.801248777624,
+        "originY": 0.03483992766009759,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.801248777624,
+            "scale": 3.7546875,
+            "concentration": 0.2898611406686975,
+            "phase": 180.801248777624
+          },
+          {
+            "origin": 181.18717896443061,
+            "scale": 3.75,
+            "concentration": 0.2584223295761543,
+            "phase": 181.18717896443061
+          },
+          {
+            "origin": 180.3534673722445,
+            "scale": 3.76015625,
+            "concentration": 0.2569721043512315,
+            "phase": 180.3534673722445
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03483992766009759,
+            "scale": 3.779513888888889,
+            "concentration": 0.3076192227950578,
+            "phase": 0.03483992766009759
+          },
+          {
+            "origin": 0.3993944971896741,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2789513583305657,
+            "phase": 0.3993944971896741
+          },
+          {
+            "origin": -0.3357744769204648,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2778010317618573,
+            "phase": -0.3357744769204648
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.6956087827031,
+      "scale": 3.7558733492666128,
+      "rms": 0.13960169819695536,
+      "points": 3074
+    },
+    "y": {
+      "origin": 0.054474848447593524,
+      "scale": 3.778611019142356,
+      "rms": 0.24393282214098944,
+      "points": 6965
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 176,
+    "currentXPoints": 489,
+    "currentYPoints": 879
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001425.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.80008085218682,
+        "originY": 0.034636073366624075,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.80008085218682,
+            "scale": 3.7546875,
+            "concentration": 0.2905666850486963,
+            "phase": 180.80008085218682
+          },
+          {
+            "origin": 181.18797903567676,
+            "scale": 3.75,
+            "concentration": 0.25967262910845434,
+            "phase": 181.18797903567676
+          },
+          {
+            "origin": 180.34957960843758,
+            "scale": 3.76015625,
+            "concentration": 0.2581908546602464,
+            "phase": 180.34957960843758
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.034636073366624075,
+            "scale": 3.779513888888889,
+            "concentration": 0.3080280093094417,
+            "phase": 0.034636073366624075
+          },
+          {
+            "origin": 0.4025626093879269,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2792229994267791,
+            "phase": 0.4025626093879269
+          },
+          {
+            "origin": -0.33930765648633937,
+            "scale": 3.7847222222222223,
+            "concentration": 0.27800761301097887,
+            "phase": -0.33930765648633937
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69659505172547,
+      "scale": 3.7558676708926733,
+      "rms": 0.13959593004299997,
+      "points": 3092
+    },
+    "y": {
+      "origin": 0.05439251591041471,
+      "scale": 3.778615830018167,
+      "rms": 0.24377823720859104,
+      "points": 6985
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 491,
+    "currentYPoints": 882
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001426.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7995391256094,
+        "originY": 0.03591032472899615,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7995391256094,
+            "scale": 3.7546875,
+            "concentration": 0.2894877379207604,
+            "phase": 180.7995391256094
+          },
+          {
+            "origin": 181.19057069511382,
+            "scale": 3.75,
+            "concentration": 0.2590103609387053,
+            "phase": 181.19057069511382
+          },
+          {
+            "origin": 180.34523673773398,
+            "scale": 3.76015625,
+            "concentration": 0.25739957420309123,
+            "phase": 180.34523673773398
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03591032472899615,
+            "scale": 3.779513888888889,
+            "concentration": 0.30820844505805206,
+            "phase": 0.03591032472899615
+          },
+          {
+            "origin": 0.40854188866948027,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2788460718872391,
+            "phase": 0.40854188866948027
+          },
+          {
+            "origin": -0.34281799912088795,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2783491582558488,
+            "phase": -0.34281799912088795
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.6975107792818,
+      "scale": 3.755860972221844,
+      "rms": 0.13976217890078405,
+      "points": 3107
+    },
+    "y": {
+      "origin": 0.054263740715068204,
+      "scale": 3.778621745589891,
+      "rms": 0.24363631133035538,
+      "points": 7007
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 181,
+    "currentXPoints": 493,
+    "currentYPoints": 886
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001427.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.79969481732275,
+        "originY": 0.0372816297803339,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.79969481732275,
+            "scale": 3.7546875,
+            "concentration": 0.28952478063336634,
+            "phase": 180.79969481732275
+          },
+          {
+            "origin": 181.19070335702537,
+            "scale": 3.75,
+            "concentration": 0.25902336676229565,
+            "phase": 181.19070335702537
+          },
+          {
+            "origin": 180.3454421028221,
+            "scale": 3.76015625,
+            "concentration": 0.2574541232456137,
+            "phase": 180.3454421028221
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.0372816297803339,
+            "scale": 3.779513888888889,
+            "concentration": 0.3093440113935322,
+            "phase": 0.0372816297803339
+          },
+          {
+            "origin": 0.40890376259995187,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2804697951550902,
+            "phase": 0.40890376259995187
+          },
+          {
+            "origin": -0.3407375275726552,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2786011523413762,
+            "phase": -0.3407375275726552
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69833672092273,
+      "scale": 3.7558547810350613,
+      "rms": 0.13991364139400853,
+      "points": 3121
+    },
+    "y": {
+      "origin": 0.054744856232260206,
+      "scale": 3.7786213238269406,
+      "rms": 0.24381567291800155,
+      "points": 7025
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 181,
+    "currentXPoints": 493,
+    "currentYPoints": 886
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001428.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.79930235518978,
+        "originY": 0.03622707550488912,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.79930235518978,
+            "scale": 3.7546875,
+            "concentration": 0.28934740902242223,
+            "phase": 180.79930235518978
+          },
+          {
+            "origin": 181.1911568549736,
+            "scale": 3.75,
+            "concentration": 0.2589898888233676,
+            "phase": 181.1911568549736
+          },
+          {
+            "origin": 180.3441980205862,
+            "scale": 3.76015625,
+            "concentration": 0.25710757357716657,
+            "phase": 180.3441980205862
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03622707550488912,
+            "scale": 3.779513888888889,
+            "concentration": 0.3096586988282032,
+            "phase": 0.03622707550488912
+          },
+          {
+            "origin": -0.3440087845347779,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2809543024233212,
+            "phase": -0.3440087845347779
+          },
+          {
+            "origin": 0.41037596403426435,
+            "scale": 3.7743055555555554,
+            "concentration": 0.27861882274591554,
+            "phase": 0.41037596403426435
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69890865927664,
+      "scale": 3.755850485794688,
+      "rms": 0.13997827498497128,
+      "points": 3134
+    },
+    "y": {
+      "origin": 0.05456260628111526,
+      "scale": 3.77862892345081,
+      "rms": 0.24365312491976132,
+      "points": 7042
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 182,
+    "currentXPoints": 493,
+    "currentYPoints": 886
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001429.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7993472483386,
+        "originY": 0.03604724195020309,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7993472483386,
+            "scale": 3.7546875,
+            "concentration": 0.2894006288732075,
+            "phase": 180.7993472483386
+          },
+          {
+            "origin": 181.19123753996297,
+            "scale": 3.75,
+            "concentration": 0.25902274547261533,
+            "phase": 181.19123753996297
+          },
+          {
+            "origin": 180.3441841106491,
+            "scale": 3.76015625,
+            "concentration": 0.2571698752875947,
+            "phase": 180.3441841106491
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03604724195020309,
+            "scale": 3.779513888888889,
+            "concentration": 0.3097103878933313,
+            "phase": 0.03604724195020309
+          },
+          {
+            "origin": -0.3442148158541669,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2809544846669925,
+            "phase": -0.3442148158541669
+          },
+          {
+            "origin": 0.41023546740011785,
+            "scale": 3.7743055555555554,
+            "concentration": 0.27870907496917013,
+            "phase": 0.41023546740011785
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69940443820764,
+      "scale": 3.7558459681000453,
+      "rms": 0.13996431530824383,
+      "points": 3146
+    },
+    "y": {
+      "origin": 0.05438399290502254,
+      "scale": 3.778636447896712,
+      "rms": 0.24349301913486598,
+      "points": 7059
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 182,
+    "currentXPoints": 493,
+    "currentYPoints": 886
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001430.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.79931896948875,
+        "originY": 0.03900970504934023,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.79931896948875,
+            "scale": 3.7546875,
+            "concentration": 0.2893962166360424,
+            "phase": 180.79931896948875
+          },
+          {
+            "origin": 181.19119936316224,
+            "scale": 3.75,
+            "concentration": 0.2590214764177803,
+            "phase": 181.19119936316224
+          },
+          {
+            "origin": 180.34416336741774,
+            "scale": 3.76015625,
+            "concentration": 0.25716034275179867,
+            "phase": 180.34416336741774
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03900970504934023,
+            "scale": 3.779513888888889,
+            "concentration": 0.3098761744950919,
+            "phase": 0.03900970504934023
+          },
+          {
+            "origin": -0.34195859260922473,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2802418617811918,
+            "phase": -0.34195859260922473
+          },
+          {
+            "origin": 0.41330910832841383,
+            "scale": 3.7743055555555554,
+            "concentration": 0.27976749123534966,
+            "phase": 0.41330910832841383
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69945550091114,
+      "scale": 3.755844338190576,
+      "rms": 0.14001825695416156,
+      "points": 3150
+    },
+    "y": {
+      "origin": 0.054234097459640494,
+      "scale": 3.7786419772219055,
+      "rms": 0.24339759108648806,
+      "points": 7068
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 182,
+    "currentXPoints": 493,
+    "currentYPoints": 886
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001431.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.79931896948875,
+        "originY": 0.03900970504934023,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.79931896948875,
+            "scale": 3.7546875,
+            "concentration": 0.2893962166360424,
+            "phase": 180.79931896948875
+          },
+          {
+            "origin": 181.19119936316224,
+            "scale": 3.75,
+            "concentration": 0.2590214764177803,
+            "phase": 181.19119936316224
+          },
+          {
+            "origin": 180.34416336741774,
+            "scale": 3.76015625,
+            "concentration": 0.25716034275179867,
+            "phase": 180.34416336741774
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03900970504934023,
+            "scale": 3.779513888888889,
+            "concentration": 0.3098761744950919,
+            "phase": 0.03900970504934023
+          },
+          {
+            "origin": -0.34195859260922473,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2802418617811918,
+            "phase": -0.34195859260922473
+          },
+          {
+            "origin": 0.41330910832841383,
+            "scale": 3.7743055555555554,
+            "concentration": 0.27976749123534966,
+            "phase": 0.41330910832841383
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69946628596674,
+      "scale": 3.755842986074939,
+      "rms": 0.14004573210260501,
+      "points": 3154
+    },
+    "y": {
+      "origin": 0.05408318027323887,
+      "scale": 3.7786475556276686,
+      "rms": 0.24331345447858085,
+      "points": 7077
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 182,
+    "currentXPoints": 493,
+    "currentYPoints": 886
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001432.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.79933599567295,
+        "originY": 0.03841467464928254,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.79933599567295,
+            "scale": 3.7546875,
+            "concentration": 0.2893826213434556,
+            "phase": 180.79933599567295
+          },
+          {
+            "origin": 181.1912139431035,
+            "scale": 3.75,
+            "concentration": 0.25900790093380277,
+            "phase": 181.1912139431035
+          },
+          {
+            "origin": 180.3441878631866,
+            "scale": 3.76015625,
+            "concentration": 0.25714990108317093,
+            "phase": 180.3441878631866
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03841467464928254,
+            "scale": 3.779513888888889,
+            "concentration": 0.309811873688959,
+            "phase": 0.03841467464928254
+          },
+          {
+            "origin": -0.34239344404864647,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2803304515655489,
+            "phase": -0.34239344404864647
+          },
+          {
+            "origin": 0.4126653066041748,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2795566737311761,
+            "phase": 0.4126653066041748
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69942167330868,
+      "scale": 3.755841934131956,
+      "rms": 0.14005704083708556,
+      "points": 3158
+    },
+    "y": {
+      "origin": 0.053924980332308727,
+      "scale": 3.778653470769872,
+      "rms": 0.24325504402000783,
+      "points": 7084
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 182,
+    "currentXPoints": 493,
+    "currentYPoints": 886
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001433.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.79933599567295,
+        "originY": 0.03841467464928254,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.79933599567295,
+            "scale": 3.7546875,
+            "concentration": 0.2893826213434556,
+            "phase": 180.79933599567295
+          },
+          {
+            "origin": 181.1912139431035,
+            "scale": 3.75,
+            "concentration": 0.25900790093380277,
+            "phase": 181.1912139431035
+          },
+          {
+            "origin": 180.3441878631866,
+            "scale": 3.76015625,
+            "concentration": 0.25714990108317093,
+            "phase": 180.3441878631866
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03841467464928254,
+            "scale": 3.779513888888889,
+            "concentration": 0.309811873688959,
+            "phase": 0.03841467464928254
+          },
+          {
+            "origin": -0.34239344404864647,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2803304515655489,
+            "phase": -0.34239344404864647
+          },
+          {
+            "origin": 0.4126653066041748,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2795566737311761,
+            "phase": 0.4126653066041748
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69938414374948,
+      "scale": 3.755840909830486,
+      "rms": 0.14011193342558037,
+      "points": 3160
+    },
+    "y": {
+      "origin": 0.053808253058418944,
+      "scale": 3.778657719641885,
+      "rms": 0.24318187337773975,
+      "points": 7088
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 182,
+    "currentXPoints": 493,
+    "currentYPoints": 886
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001434.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7993425604776,
+        "originY": 0.038953239220824845,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7993425604776,
+            "scale": 3.7546875,
+            "concentration": 0.289384240827848,
+            "phase": 180.7993425604776
+          },
+          {
+            "origin": 181.1912232221624,
+            "scale": 3.75,
+            "concentration": 0.2590078796494636,
+            "phase": 181.1912232221624
+          },
+          {
+            "origin": 180.34419135592546,
+            "scale": 3.76015625,
+            "concentration": 0.25715279323315593,
+            "phase": 180.34419135592546
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.038953239220824845,
+            "scale": 3.779513888888889,
+            "concentration": 0.30983850808456,
+            "phase": 0.038953239220824845
+          },
+          {
+            "origin": -0.3419888311645738,
+            "scale": 3.7847222222222223,
+            "concentration": 0.28019799056029876,
+            "phase": -0.3419888311645738
+          },
+          {
+            "origin": 0.4132291770719263,
+            "scale": 3.7743055555555554,
+            "concentration": 0.27974645415946287,
+            "phase": 0.4132291770719263
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69939179338928,
+      "scale": 3.755841118613581,
+      "rms": 0.14006805394875838,
+      "points": 3160
+    },
+    "y": {
+      "origin": 0.0537387553409833,
+      "scale": 3.778660049320768,
+      "rms": 0.24310507735665168,
+      "points": 7088
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 182,
+    "currentXPoints": 493,
+    "currentYPoints": 886
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001435.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7993425604776,
+        "originY": 0.038953239220824845,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7993425604776,
+            "scale": 3.7546875,
+            "concentration": 0.289384240827848,
+            "phase": 180.7993425604776
+          },
+          {
+            "origin": 181.1912232221624,
+            "scale": 3.75,
+            "concentration": 0.2590078796494636,
+            "phase": 181.1912232221624
+          },
+          {
+            "origin": 180.34419135592546,
+            "scale": 3.76015625,
+            "concentration": 0.25715279323315593,
+            "phase": 180.34419135592546
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.038953239220824845,
+            "scale": 3.779513888888889,
+            "concentration": 0.30983850808456,
+            "phase": 0.038953239220824845
+          },
+          {
+            "origin": -0.3419888311645738,
+            "scale": 3.7847222222222223,
+            "concentration": 0.28019799056029876,
+            "phase": -0.3419888311645738
+          },
+          {
+            "origin": 0.4132291770719263,
+            "scale": 3.7743055555555554,
+            "concentration": 0.27974645415946287,
+            "phase": 0.4132291770719263
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69939679250945,
+      "scale": 3.755841255055517,
+      "rms": 0.1400402305339638,
+      "points": 3160
+    },
+    "y": {
+      "origin": 0.05306598943198031,
+      "scale": 3.778667998522016,
+      "rms": 0.24275129574494902,
+      "points": 7088
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 182,
+    "currentXPoints": 493,
+    "currentYPoints": 886
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001436.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.79932852693577,
+        "originY": 0.03802862272183025,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.79932852693577,
+            "scale": 3.7546875,
+            "concentration": 0.28938953589519273,
+            "phase": 180.79932852693577
+          },
+          {
+            "origin": 181.1912092294999,
+            "scale": 3.75,
+            "concentration": 0.25901547221535753,
+            "phase": 181.1912092294999
+          },
+          {
+            "origin": 180.34417634625837,
+            "scale": 3.76015625,
+            "concentration": 0.25715479872413916,
+            "phase": 180.34417634625837
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03802862272183025,
+            "scale": 3.779513888888889,
+            "concentration": 0.3097886089179759,
+            "phase": 0.03802862272183025
+          },
+          {
+            "origin": -0.3426922044942573,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2804222122652171,
+            "phase": -0.3426922044942573
+          },
+          {
+            "origin": 0.41226959008074043,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2794175152658693,
+            "phase": 0.41226959008074043
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69939679250945,
+      "scale": 3.755841255055517,
+      "rms": 0.1400402305339638,
+      "points": 3160
+    },
+    "y": {
+      "origin": 0.05305306285212545,
+      "scale": 3.7786681122556867,
+      "rms": 0.24274552958654755,
+      "points": 7088
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 182,
+    "currentXPoints": 493,
+    "currentYPoints": 886
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001437.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.79932852693577,
+        "originY": 0.03802862272183025,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.79932852693577,
+            "scale": 3.7546875,
+            "concentration": 0.28938953589519273,
+            "phase": 180.79932852693577
+          },
+          {
+            "origin": 181.1912092294999,
+            "scale": 3.75,
+            "concentration": 0.25901547221535753,
+            "phase": 181.1912092294999
+          },
+          {
+            "origin": 180.34417634625837,
+            "scale": 3.76015625,
+            "concentration": 0.25715479872413916,
+            "phase": 180.34417634625837
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03802862272183025,
+            "scale": 3.779513888888889,
+            "concentration": 0.3097886089179759,
+            "phase": 0.03802862272183025
+          },
+          {
+            "origin": -0.3426922044942573,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2804222122652171,
+            "phase": -0.3426922044942573
+          },
+          {
+            "origin": 0.41226959008074043,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2794175152658693,
+            "phase": 0.41226959008074043
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69939679250945,
+      "scale": 3.755841255055517,
+      "rms": 0.1400402305339638,
+      "points": 3160
+    },
+    "y": {
+      "origin": 0.0530401362721392,
+      "scale": 3.778668225989359,
+      "rms": 0.242739763047059,
+      "points": 7088
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 182,
+    "currentXPoints": 493,
+    "currentYPoints": 886
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001438.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8088609864079,
+        "originY": 0.03843771151170254,
+        "scaleX": 3.7546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8088609864079,
+            "scale": 3.7546875,
+            "concentration": 0.2964084807272606,
+            "phase": 180.8088609864079
+          },
+          {
+            "origin": 181.2118172612567,
+            "scale": 3.75,
+            "concentration": 0.2629451213572297,
+            "phase": 181.2118172612567
+          },
+          {
+            "origin": 180.34101560080907,
+            "scale": 3.76015625,
+            "concentration": 0.257298217886872,
+            "phase": 180.34101560080907
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03843771151170254,
+            "scale": 3.779513888888889,
+            "concentration": 0.3107689403875064,
+            "phase": 0.03843771151170254
+          },
+          {
+            "origin": -0.3050105812833153,
+            "scale": 3.7847222222222223,
+            "concentration": 0.28234280311677074,
+            "phase": -0.3050105812833153
+          },
+          {
+            "origin": 0.37583141520528096,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2811006345355124,
+            "phase": 0.37583141520528096
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.69725395782038,
+      "scale": 3.7558553465673077,
+      "rms": 0.13986994970434735,
+      "points": 3130
+    },
+    "y": {
+      "origin": 0.0532192654897285,
+      "scale": 3.778660129970801,
+      "rms": 0.2429569214530137,
+      "points": 7062
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 154,
+    "currentXPoints": 463,
+    "currentYPoints": 860
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001439.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.69732865153918,
+        "originY": -0.0675614847265898,
+        "scaleX": 3.75546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.69732865153918,
+            "scale": 3.75546875,
+            "concentration": 0.3083805385490697,
+            "phase": 180.69732865153918
+          },
+          {
+            "origin": 180.30378798209952,
+            "scale": 3.76015625,
+            "concentration": 0.28016744898418133,
+            "phase": 180.30378798209952
+          },
+          {
+            "origin": 181.15679188187988,
+            "scale": 3.75,
+            "concentration": 0.2768346736537262,
+            "phase": 181.15679188187988
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.0675614847265898,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32626527389535187,
+            "phase": -0.0675614847265898
+          },
+          {
+            "origin": 0.28335150337781667,
+            "scale": 3.775173611111111,
+            "concentration": 0.30306737211676316,
+            "phase": 0.28335150337781667
+          },
+          {
+            "origin": -0.48820212662540186,
+            "scale": 3.7864583333333335,
+            "concentration": 0.28888948154039695,
+            "phase": -0.48820212662540186
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.7321666453495,
+      "scale": 3.7556427894919375,
+      "rms": 0.12092829569425219,
+      "points": 2750
+    },
+    "y": {
+      "origin": 0.05791109024768632,
+      "scale": 3.7786239889779267,
+      "rms": 0.24683418188214049,
+      "points": 7002
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 119,
+    "currentXPoints": 276,
+    "currentYPoints": 831
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001440.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70372774573468,
+        "originY": -0.06905962392727455,
+        "scaleX": 3.75546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70372774573468,
+            "scale": 3.75546875,
+            "concentration": 0.31895979452892775,
+            "phase": 180.70372774573468
+          },
+          {
+            "origin": 180.3102892978275,
+            "scale": 3.76015625,
+            "concentration": 0.2887700560690007,
+            "phase": 180.3102892978275
+          },
+          {
+            "origin": 181.16392002777715,
+            "scale": 3.75,
+            "concentration": 0.28820889742659744,
+            "phase": 181.16392002777715
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06905962392727455,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3312917430614938,
+            "phase": -0.06905962392727455
+          },
+          {
+            "origin": 0.2818048695208549,
+            "scale": 3.775173611111111,
+            "concentration": 0.3082436560721045,
+            "phase": 0.2818048695208549
+          },
+          {
+            "origin": -0.4886244871237092,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2930022959216015,
+            "phase": -0.4886244871237092
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.71890129689822,
+      "scale": 3.7557308358115713,
+      "rms": 0.12000747934910694,
+      "points": 2562
+    },
+    "y": {
+      "origin": 0.06347486344095697,
+      "scale": 3.778576789183497,
+      "rms": 0.2511186913977875,
+      "points": 6945
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 119,
+    "currentXPoints": 276,
+    "currentYPoints": 831
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001441.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76955430312012,
+        "originY": -0.06519143049432023,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76955430312012,
+            "scale": 3.7546875,
+            "concentration": 0.3176850381344591,
+            "phase": 180.76955430312012
+          },
+          {
+            "origin": 181.1570979536181,
+            "scale": 3.75,
+            "concentration": 0.2874217103340535,
+            "phase": 181.1570979536181
+          },
+          {
+            "origin": 180.31926738876297,
+            "scale": 3.76015625,
+            "concentration": 0.2868969479094309,
+            "phase": 180.31926738876297
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06519143049432023,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32996331692870173,
+            "phase": -0.06519143049432023
+          },
+          {
+            "origin": 0.2870203654243125,
+            "scale": 3.775173611111111,
+            "concentration": 0.3075462770671241,
+            "phase": 0.2870203654243125
+          },
+          {
+            "origin": -0.4867597602857406,
+            "scale": 3.7864583333333335,
+            "concentration": 0.29089632883970307,
+            "phase": -0.4867597602857406
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.63644228311958,
+      "scale": 3.7562455231106893,
+      "rms": 0.14431307707947744,
+      "points": 2660
+    },
+    "y": {
+      "origin": 0.06768367001295379,
+      "scale": 3.778540754543133,
+      "rms": 0.2564943755051552,
+      "points": 6898
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 122,
+    "currentXPoints": 281,
+    "currentYPoints": 832
+  }
+]

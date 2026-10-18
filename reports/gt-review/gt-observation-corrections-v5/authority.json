@@ -1,0 +1,186 @@
+{
+  "reviewId": "gt-observation-corrections-v5",
+  "message": "如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论",
+  "basis": "Conditional user authorization with full original-event double reading; same coding agent, prior diagnostic exposure disclosed; not independent-session or human per-frame certification.",
+  "changes": [
+    {
+      "id": "pc-deposit-navigation",
+      "oldGt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/ocr-candidate-v3.jsonl",
+        "sha256": "9c47b795bbcc581f24875e46618328999f3316aa5f0ea59a53bca1b15d58e356"
+      },
+      "candidate": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v5/pc-deposit-navigation/ocr-candidate-role-v1.jsonl",
+        "sha256": "bebe6893906bdae28249ab61ced31c69249bbcef7da626184867d43a3ff867c5"
+      },
+      "changes": [
+        {
+          "start": 1749,
+          "end": 1750,
+          "region": "main1",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 1749,
+          "end": 1750,
+          "region": "main2",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 1750,
+          "end": 1754,
+          "region": "main1",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 1750,
+          "end": 1754,
+          "region": "main2",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 1750,
+          "end": 1754,
+          "region": "main3",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 1750,
+          "end": 1754,
+          "region": "main4",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 1750,
+          "end": 1754,
+          "region": "main5",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        }
+      ]
+    },
+    {
+      "id": "pc-exit",
+      "oldGt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/ocr-candidate-v1.jsonl",
+        "sha256": "2971936b34856a36608135879a00b10eb11bb0f46ceaabbd0f93e0f659b77c37"
+      },
+      "candidate": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v5/pc-exit/ocr-candidate-role-v1.jsonl",
+        "sha256": "b4c2cf523651bfcc590cce9f48319a7a4f3bf651dd71262b3593223b74c4d665"
+      },
+      "changes": [
+        {
+          "start": 2248,
+          "end": 2253,
+          "region": "main1",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 2248,
+          "end": 2253,
+          "region": "main2",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 2248,
+          "end": 2253,
+          "region": "main3",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 2248,
+          "end": 2253,
+          "region": "main4",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        },
+        {
+          "start": 2248,
+          "end": 2253,
+          "region": "main5",
+          "before": "menu_label",
+          "after": "pc_menu_choice"
+        }
+      ]
+    }
+  ],
+  "affectedFrames": [
+    "pc-deposit-navigation:1749",
+    "pc-deposit-navigation:1750",
+    "pc-deposit-navigation:1751",
+    "pc-deposit-navigation:1752",
+    "pc-deposit-navigation:1753",
+    "pc-exit:2248",
+    "pc-exit:2249",
+    "pc-exit:2250",
+    "pc-exit:2251",
+    "pc-exit:2252"
+  ],
+  "limitations": [
+    {
+      "mediaId": "video-04",
+      "impact": "整个背包退出事件不冻结/不宣称通过；该原帧保留，不能计作空文字成功",
+      "uncertainFrames": [
+        5359
+      ],
+      "checks": [
+        "首遍原上下文逐帧及直接放大",
+        "第二次原视频重解码及原像素光标条带",
+        "再次查看5358-5362独立原图，仍不能可靠区分被遮基础字形"
+      ],
+      "source": "data/frames/video-04/all-scenes-backpack-pass2-v1",
+      "layout": "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/layout-v1.json",
+      "id": "backpack-exit-occluded",
+      "status": "pending_not_proposed_for_freeze",
+      "range": [
+        5358,
+        5363
+      ],
+      "reason": "5359退出重绘时玩家精灵遮住やめる末字基础字形，残余道具行也被背景/菜单改写；仅凭5358前帧和5360后帧不能恢复当帧答案"
+    },
+    {
+      "id": "versions-and-sessions",
+      "status": "pending",
+      "reason": "只有video01 HOME红版图标有版本证据；其余版本/来源关系与独立会话无法证实，全部候选development，独立acceptance集合为空；M4继续待验证，不要求补录"
+    },
+    {
+      "id": "unselected-source",
+      "status": "unverified",
+      "reason": "未选原帧范围按四录像总账本补集逐段列出；候选通过不等于整个录像、版本或游戏通过"
+    },
+    {
+      "id": "real-window-and-ui",
+      "status": "pending",
+      "reason": "真实投屏前台/后台/遮挡/最小化/无效帧、Windows10兼容、实际UI延迟和长时稳定性尚无实测证据"
+    },
+    {
+      "id": "review-browser-render",
+      "status": "pending",
+      "reason": "内置浏览器曾明确拒绝file协议且禁止绕过；本包仅做静态/控件检查，实际浏览器呈现未验证，请直接在本机打开入口文件"
+    },
+    {
+      "id": "status-alt-3541-mark",
+      "status": "pending_semantic_confirmation",
+      "mediaId": "video-03",
+      "frames": [
+        3541
+      ],
+      "reason": "Incomplete upper mark remains unresolved after both new original-image readings. Existing historical annotation remains in the denominator. No newly frozen conclusion or pass is granted for this frame."
+    },
+    {
+      "id": "remaining-annotation-audit",
+      "status": "pending",
+      "reason": "Other previously recorded field-role/order/Unicode and raw-image doubts are unchanged, not resolved by these six corrections. Complete dataset semantic integrity and OCR gates remain unpassed."
+    }
+  ]
+}

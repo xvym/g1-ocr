@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Validate retaining already-confirmed unchanged messages through menu-only transitions, before production integration",
+  "primaryStableMs": 100,
+  "primaryVariant": "message_history_100",
+  "variants": [
+    "arrow",
+    "arrow_stable_100",
+    "separate_pc_100",
+    "message_history_100"
+  ],
+  "previousExperiment": "reports/m3-grid-refinement-v1/completion-trigger-v18-r14-v2",
+  "messageFields": [
+    "dialogue",
+    "dialogue_line",
+    "battle_message",
+    "pc_prompt",
+    "shop_prompt",
+    "shop_message",
+    "party_prompt"
+  ],
+  "messageGate": "A filled menu cursor never by itself confirms a new message. Existing genuine message-complete/fading state, a down arrow in the main message box, or 100ms of unchanged message fields confirms it; keep the confirmation only while the current message signature is unchanged.",
+  "menuGate": "Menu-only pages retain v18 rules. Mixed pages expose menuReady and messageReady separately. Existing redraw/scroll/clear states remain ineligible.",
+  "pcSuspensionGate": "On a currently identified pc_prompt, a hollow parent selection in renderer column1 with no active child selection to its right blocks message publication until a main-message arrow, active child or changed context is observed. Source-backed PC item-operation semantics, not clip identity or wording.",
+  "negativeControl": "Blanket suppression of all hollow-only menus is deliberately compared to expose loss of legitimate merchant messages; it is not the selected rule.",
+  "signature": "Message readingOrder is relative to the message-only channel; message-region marks and message-area detached marks are included. Whole-candidate signature remains unchanged.",
+  "minimumStableObservations": 2,
+  "observationClock": "Original integer PTS; no future or between-frame timer events; reset at existing clip boundary with real warmup",
+  "residualFalseTrigger": "Same frozen loading/message_loading definition as previous comparison",
+  "pageDetection": "Same116 frozen page opportunities and strict-key raw/final text scores as previous comparison; all duplicate observations must be ready",
+  "shortPage": "Same complete-frame duration strictly below200ms; do not discard or extend short pages",
+  "delay": "Source-PTS readiness lower bound only, not actual UI latency; misses excluded from quantiles and reported separately",
+  "successCriteria": [
+    "residual=0",
+    "other transition triggers<=2",
+    "all20 previous rescues correct<=200ms",
+    "no page or short-page regression",
+    "reduce the previous14 added delays",
+    "no output on scrolling/clearing"
+  ],
+  "boundaries": "Never read GT, clip/frame IDs, fixed messages or future observations in a policy. No GT/scorer/OCR changes; all previous production repair limits remain. This is development evidence, not independent acceptance.",
+  "menuBaseline": "reports/m3-grid-refinement-v1/completion-menu-gating-v2",
+  "holdKinds": [
+    "submenu_partial_redraw",
+    "submenu_cursor_loading",
+    "scroll_partial_redraw",
+    "scroll_duplicate_row",
+    "scroll_cursor_transition",
+    "cursor_transition",
+    "menu_cursor_loading",
+    "money_temporarily_cleared",
+    "menu_partial_redraw"
+  ],
+  "history": "Retain only an existing confirmation through enumerated non-message menu transitions. Never emit in those states or confirm a fresh message there. Message scrolling/clearing, absence, content/position/mark changes, reset or nonmonotonic/changed clocks revoke it."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "preliminary_original_image_observation_not_a_completed_blind_pass_or_new_GT",
+  "source": "video-03",
+  "context": "While investigating remaining scored scroll-position failures after sealing the three-scene correction bundle, the full original images below were opened. Tested differences had already been inspected; this is explicitly a diagnostic first look, not a fresh blind double read.",
+  "frames": [
+    {"frame":1630,"path":"data/frames/video-03/dialogue-league-centre-npc-reviewed-v1/frame-001630.png","observation":"Two full text bases visibly remain at normal rows14/16, below the top interior spacing. They have not yet moved to13/15."},
+    {"frame":1632,"path":"data/frames/video-03/dialogue-league-centre-npc-reviewed-v1/frame-001632.png","observation":"Both text lines visibly moved upward relative to1630. This original distinguishes the actual scrolling boundary."},
+    {"frame":1692,"path":"data/frames/video-03/dialogue-league-centre-npc-reviewed-v1/frame-001692.png","observation":"Upper line remains at normal row14, with bothド andが marks still visible; lower line remains row16."}
+  ],
+  "decision": "Do not implement a program shift or remove voiced marks to satisfy the current annotation at these frames. Independently re-read the full retained1590-1736 event in two ordered passes before proposing any further correction.",
+  "effectiveGtUnchanged": "ocr-all-scenes-v2-observation-r3",
+  "productPass": false
+}

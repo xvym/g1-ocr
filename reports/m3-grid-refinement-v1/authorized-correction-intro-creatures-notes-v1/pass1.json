@@ -1,0 +1,33 @@
+{
+  "status": "agent_original_image_first_pass_complete_not_GT_or_freeze",
+  "input": "reports/m3-grid-refinement-v1/authorized-correction-intro-creatures-pass1-sheets-v1/report.json",
+  "reviewed": "All 13 sheets / 78 consecutive original frames 6246..6323, first pass from fresh source extraction. No tested output or old GT opened during this pass; prior error analysis is known and is not claimed forgotten.",
+  "humanPerFrameVerification": false,
+  "baseRows": [14,16],
+  "observations": [
+    {"range":[6246,6250],"text":[],"state":"no_textbox"},
+    {"range":[6250,6252],"text":[],"state":"textbox_empty"},
+    {"range":[6252,6253],"text":["こ"]},
+    {"range":[6253,6255],"text":["この せ"]},
+    {"range":[6255,6256],"text":["この せかいに"]},
+    {"range":[6256,6258],"text":["この せかいには","ポケ"]},
+    {"range":[6258,6259],"text":["この せかいには","ポケット"],"note":"No later モ or trailing blank counted as visible text."},
+    {"range":[6259,6261],"text":["この せかいには","ポケット モンス"]},
+    {"range":[6261,6262],"text":["この せかいには","ポケット モンスターと"]},
+    {"range":[6262,6264],"text":["この せかいには","ポケット モンスターと よば"]},
+    {"range":[6264,6279],"text":["この せかいには","ポケット モンスターと よばれる"],"state":"message_complete","arrow":true},
+    {"range":[6279,6288],"text":[],"state":"textbox_empty"},
+    {"range":[6288,6289],"text":["い"]},
+    {"range":[6289,6291],"text":["いきもの"]},
+    {"range":[6291,6293],"text":["いきもの たち"]},
+    {"range":[6293,6294],"text":["いきもの たちが","いた"]},
+    {"range":[6294,6296],"text":["いきもの たちが","いたるとこ"]},
+    {"range":[6296,6297],"text":["いきもの たちが","いたるところに"]},
+    {"range":[6297,6299],"text":["いきもの たちが","いたるところに すんで"]},
+    {"range":[6299,6318],"text":["いきもの たちが","いたるところに すんでいる！"],"state":"message_complete","arrow":false},
+    {"range":[6318,6320],"text":["いきもの たちが","いたるところに すんでいる！"],"state":"message_complete","arrow":true},
+    {"range":[6320,6324],"text":[],"state":"textbox_empty"}
+  ],
+  "geometry": "Game remains at source [240,96,560,384), two source pixels per logical pixel; text begins col1, baselines14/16; ポ mark above col1 row15, が mark above col8 row13, で mark above col12 row15. No scrolling or cursor observed. Needs independent second pass before any amendment.",
+  "confidence": "High on visible text and transitions; second pass will independently check all ranges and mark coordinates."
+}

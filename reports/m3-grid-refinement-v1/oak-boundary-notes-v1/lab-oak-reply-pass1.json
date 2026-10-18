@@ -1,0 +1,173 @@
+{
+  "status": "first_direct_read_complete_second_read_pending",
+  "range": [
+    13429,
+    13512
+  ],
+  "input": {
+    "path": "reports/m3-grid-refinement-v1/oak-reply-boundary-pass1-sheets-v1/report.json",
+    "sha256": "f743f1a8a4259472d258b1ef3cbeef6f2b5b404287f3a3e91b3cb269522a24e5"
+  },
+  "viewedSheets": [
+    0,
+    13
+  ],
+  "exposure": "Prior diagnostic and historical ledger knowledge disclosed. No GT/actual opened during this full pass; same coding agent, not independent session or human certification.",
+  "spans": [
+    [
+      13429,
+      13433,
+      [],
+      false,
+      "no box"
+    ],
+    [
+      13433,
+      13435,
+      [],
+      false,
+      "empty box"
+    ],
+    [
+      13435,
+      13436,
+      [
+        "オー"
+      ],
+      false
+    ],
+    [
+      13436,
+      13438,
+      [
+        "オーキド『"
+      ],
+      false
+    ],
+    [
+      13438,
+      13439,
+      [
+        "オーキド『まー！"
+      ],
+      false
+    ],
+    [
+      13439,
+      13441,
+      [
+        "オーキド『まー！",
+        "あわて"
+      ],
+      false
+    ],
+    [
+      13441,
+      13442,
+      [
+        "オーキド『まー！",
+        "あわてるな"
+      ],
+      false
+    ],
+    [
+      13442,
+      13444,
+      [
+        "オーキド『まー！",
+        "あわてるな グリー"
+      ],
+      false
+    ],
+    [
+      13444,
+      13467,
+      [
+        "オーキド『まー！",
+        "あわてるな グリーン！"
+      ],
+      true
+    ],
+    [
+      13467,
+      13470,
+      [
+        "オーキト『まー！",
+        "あわてるな グリーン！"
+      ],
+      false,
+      "scroll: upper dakuten clipped; rows13/15, confirm on second pass"
+    ],
+    [
+      13470,
+      13471,
+      [
+        "あわてるな グリーン！"
+      ],
+      false
+    ],
+    [
+      13471,
+      13473,
+      [
+        "あわてるな グリーン！",
+        "お"
+      ],
+      false
+    ],
+    [
+      13473,
+      13474,
+      [
+        "あわてるな グリーン！",
+        "おまえも"
+      ],
+      false
+    ],
+    [
+      13474,
+      13476,
+      [
+        "あわてるな グリーン！",
+        "おまえも すき"
+      ],
+      false
+    ],
+    [
+      13476,
+      13477,
+      [
+        "あわてるな グリーン！",
+        "おまえも すきなもの"
+      ],
+      false
+    ],
+    [
+      13477,
+      13479,
+      [
+        "あわてるな グリーン！",
+        "おまえも すきなものを と"
+      ],
+      false
+    ],
+    [
+      13479,
+      13506,
+      [
+        "あわてるな グリーン！",
+        "おまえも すきなものを とれ！"
+      ],
+      false
+    ],
+    [
+      13506,
+      13512,
+      [],
+      false,
+      "box and text cleared"
+    ]
+  ],
+  "columns": "All lines begin column1; normal rows14/16; upper dakuten at column4 before scroll and green at column7; no standalone marks observed.",
+  "productAcceptance": false
+}

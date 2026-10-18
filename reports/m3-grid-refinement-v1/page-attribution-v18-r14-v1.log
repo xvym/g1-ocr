@@ -1,0 +1,78 @@
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+... Skipped lines
+
+  {
+    characters: 18,
+    deletions: 0,
+    detachedActual: 0,
+    detachedExpected: 0,
+...
+      'geometry_or_missing_field:own_level:8:16:2',
++     'geometry_or_missing_field:compact_hud_label:9.5:10:3',
++     'geometry_or_missing_field:hp_current_max:10:11:4'
+-     'geometry_or_missing_field:compact_hud_label:9.5:1E+1:3',
+-     'geometry_or_missing_field:hp_current_max:1E+1:11:4'
+    ],
+    exact: false,
+    insertions: 0,
+    regionGeometry: false,
+    state: true,
+
+    at Object.<anonymous> (D:\Code\Workspace\g1-ocr\tools\attribute-ocr-pages.cjs:88:154)
+    at Module._compile (node:internal/modules/cjs/loader:1872:14)
+    at Object..js (node:internal/modules/cjs/loader:2003:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: {
+    characters: 18,
+    substitutions: 0,
+    deletions: 0,
+    insertions: 0,
+    detachedExpected: 0,
+    detachedActual: 0,
+    exact: false,
+    regionGeometry: false,
+    symbols: true,
+    state: true,
+    differences: [
+      'geometry_or_missing_field:own_pokemon_name:8:11:0',
+      'geometry_or_missing_field:compact_hud_label:8:15:1',
+      'geometry_or_missing_field:own_level:8:16:2',
+      'geometry_or_missing_field:compact_hud_label:9.5:10:3',
+      'geometry_or_missing_field:hp_current_max:10:11:4'
+    ]
+  },
+  expected: {
+    characters: 18,
+    substitutions: 0,
+    deletions: 0,
+    insertions: 0,
+    detachedExpected: 0,
+    detachedActual: 0,
+    exact: false,
+    regionGeometry: false,
+    symbols: true,
+    state: true,
+    differences: [
+      'geometry_or_missing_field:own_pokemon_name:8:11:0',
+      'geometry_or_missing_field:compact_hud_label:8:15:1',
+      'geometry_or_missing_field:own_level:8:16:2',
+      'geometry_or_missing_field:compact_hud_label:9.5:1E+1:3',
+      'geometry_or_missing_field:hp_current_max:1E+1:11:4'
+    ]
+  },
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

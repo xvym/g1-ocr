@@ -1,0 +1,34 @@
+{
+  "mediaId": "video-01",
+  "timeBase": "1/30",
+  "boundaryStatus": "agent_double_read_complete_candidate_not_frozen",
+  "gt": "data/gt/candidates/ocr-all-scenes-v1/startup-nontarget/ocr-candidate-v1.jsonl",
+  "id": "f53c237ad19a-f90-f390-startup",
+  "warmup": [
+    90,
+    90
+  ],
+  "set": "development",
+  "schemaVersion": 2,
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "scopeLimits": [
+    "No gameplay text/page opportunity in this sequence",
+    "Version evidence red tile only; independent session unverified"
+  ],
+  "endFrameExclusive": 390,
+  "selectionReason": "Predetermined context includes before launch and stable after return, no tested OCR exists",
+  "pageOpportunityPolicy": "explicit_id",
+  "startFrame": 90,
+  "scoredRange": [
+    90,
+    390
+  ],
+  "eventType": "complete HOME launch and suspension return, no target gameplay text",
+  "scoreKind": "non_target_only",
+  "frozen": false,
+  "postContext": [
+    390,
+    390
+  ],
+  "independentSession": "unverified"
+}

@@ -1,0 +1,145 @@
+{
+  "status": "agent_original_image_read_not_human_certification",
+  "images": "reports/m3-grid-refinement-v1/blind-recheck-sheets-pass1-v1/lab-rival-demand",
+  "readSheets": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "range": [
+    13374,
+    13420
+  ],
+  "disclosure": "Earlier actual/GT difference at 13382 and glyph templates were seen during diagnosis. During these eight full ordered image sheets no actual or GT was opened. Not a fresh independent acceptance session.",
+  "observations": [
+    {
+      "range": [
+        13374,
+        13378
+      ],
+      "text": [],
+      "state": "no message box"
+    },
+    {
+      "range": [
+        13378,
+        13379
+      ],
+      "text": [],
+      "state": "empty message box"
+    },
+    {
+      "range": [
+        13379,
+        13381
+      ],
+      "text": [
+        "グリ"
+      ],
+      "state": "loading; first transient rendering to be cross-checked"
+    },
+    {
+      "range": [
+        13381,
+        13382
+      ],
+      "text": [
+        "グリーン『"
+      ]
+    },
+    {
+      "range": [
+        13382,
+        13384
+      ],
+      "text": [
+        "グリーン『あッ！"
+      ]
+    },
+    {
+      "range": [
+        13384,
+        13385
+      ],
+      "text": [
+        "グリーン『あッ！ ずる"
+      ]
+    },
+    {
+      "range": [
+        13385,
+        13387
+      ],
+      "text": [
+        "グリーン『あッ！ ずるい！",
+        "じ"
+      ]
+    },
+    {
+      "range": [
+        13387,
+        13389
+      ],
+      "text": [
+        "グリーン『あッ！ ずるい！",
+        "じいさん"
+      ]
+    },
+    {
+      "range": [
+        13389,
+        13390
+      ],
+      "text": [
+        "グリーン『あッ！ ずるい！",
+        "じいさん！ お"
+      ]
+    },
+    {
+      "range": [
+        13390,
+        13391
+      ],
+      "text": [
+        "グリーン『あッ！ ずるい！",
+        "じいさん！ おれにも"
+      ]
+    },
+    {
+      "range": [
+        13391,
+        13393
+      ],
+      "text": [
+        "グリーン『あッ！ ずるい！",
+        "じいさん！ おれにも くれ"
+      ]
+    },
+    {
+      "range": [
+        13393,
+        13414
+      ],
+      "text": [
+        "グリーン『あッ！ ずるい！",
+        "じいさん！ おれにも くれよお！"
+      ],
+      "state": "same complete visible text; no down arrow"
+    },
+    {
+      "range": [
+        13414,
+        13420
+      ],
+      "text": [],
+      "state": "box removed"
+    }
+  ],
+  "glyphObservation": "Upper row cell7 small kana has separated upper strokes, consistent with katakana ッ, not the connected horizontal stroke of hiragana っ. Do not infer hiragana merely from adjacent あ.",
+  "limitations": "Initial glyph shapes and final source completion semantics require second pass; this note does not change GT."
+}

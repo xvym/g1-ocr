@@ -1,0 +1,11 @@
+{
+  "status": "agent_original_image_independent_reread_not_human_per_frame_verification",
+  "pass": 2,
+  "source": "data/frames/video-03/shop-metadata-pass2-v1",
+  "range": [1406,1488],
+  "display": "shop-metadata-pass2-sheets/sheet-000.png through sheet-003.png; every original frame shown, plus complete original1439 directly reopened",
+  "observation": "Item list remains through1438, disappears at1439. The1439 and1440 fields are identical: top money label, buy choice, amount22526円, sell choice, leave choice; bottom textbox empty and left outline cursor at sell. This is the same field naming/order and textbox_empty state used by the already-approved shop-exit entry. No visible text, geometry or timing change is proposed.",
+  "differenceFromPass1": "None for this metadata decision; the historical two original GT readings and their differences remain retained separately.",
+  "resolution": "Amend only shop-rejection state[1439,1440) to the already-approved shop-exit field descriptors/order, cursor descriptor structure and empty-textbox kind. Keep every original frame, string, glyph mark, source/grid rectangle, numeric value, complete-page flag and time boundary.",
+  "outputIndependence": "No tested OCR or production translation exists. No recognition model or simulator used."
+}

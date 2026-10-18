@@ -1,0 +1,76 @@
+{
+  "status": "diagnostic_candidate_not_product_geometry",
+  "input": "data/frames/video-01/all-scenes-exploration-npc-pass2-v1/frame-009870.png",
+  "current": {
+    "located": true,
+    "method": "palette_and_phase",
+    "grid": {
+      "originX": 240.0,
+      "originY": 96.0,
+      "scaleX": 2.0,
+      "scaleY": 2.0
+    },
+    "hypotheses": {
+      "available": true,
+      "xCandidates": [
+        {
+          "origin": 240.0,
+          "scale": 2.0,
+          "concentration": 1.0,
+          "phase": 236.0
+        },
+        {
+          "origin": 239.72365063711214,
+          "scale": 2.0046875,
+          "concentration": 0.7689172076410195,
+          "phase": 235.71427563711214
+        },
+        {
+          "origin": 240.31657555758449,
+          "scale": 1.99453125,
+          "concentration": 0.6924232687280358,
+          "phase": 236.3275130575845
+        }
+      ],
+      "yCandidates": [
+        {
+          "origin": 96.0,
+          "scale": 2.0,
+          "concentration": 1.0,
+          "phase": 92.0
+        },
+        {
+          "origin": 95.57666686938215,
+          "scale": 2.0052083333333335,
+          "concentration": 0.7371381043141038,
+          "phase": 91.56625020271548
+        },
+        {
+          "origin": 96.49791472151409,
+          "scale": 1.9939236111111112,
+          "concentration": 0.6495642035997181,
+          "phase": 92.51006749929186
+        }
+      ]
+    },
+    "envelope": [
+      236,
+      92,
+      564,
+      388
+    ]
+  },
+  "discreteX": {
+    "origin": 236.0,
+    "scale": 1.99375,
+    "weightedSquaredEdgeDistance": 0.0,
+    "equalMinima": 152
+  },
+  "discreteY": {
+    "origin": 91.87537977430556,
+    "scale": 1.9939236111111112,
+    "weightedSquaredEdgeDistance": 0.0,
+    "equalMinima": 151
+  },
+  "limitation": "Discrete ceil-edge model is a hypothesis. Compression, filtering and tied origins may invalidate exact projection. No product modification or acceptance claim."
+}

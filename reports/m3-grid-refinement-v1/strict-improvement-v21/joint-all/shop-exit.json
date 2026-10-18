@@ -1,0 +1,3404 @@
+[
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001439.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.69732865153918,
+        "originY": -0.0675614847265898,
+        "scaleX": 3.75546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.69732865153918,
+            "scale": 3.75546875,
+            "concentration": 0.3083805385490697,
+            "phase": 180.69732865153918
+          },
+          {
+            "origin": 180.30378798209952,
+            "scale": 3.76015625,
+            "concentration": 0.28016744898418133,
+            "phase": 180.30378798209952
+          },
+          {
+            "origin": 181.15679188187988,
+            "scale": 3.75,
+            "concentration": 0.2768346736537262,
+            "phase": 181.15679188187988
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.0675614847265898,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32626527389535187,
+            "phase": -0.0675614847265898
+          },
+          {
+            "origin": 0.28335150337781667,
+            "scale": 3.775173611111111,
+            "concentration": 0.30306737211676316,
+            "phase": 0.28335150337781667
+          },
+          {
+            "origin": -0.48820212662540186,
+            "scale": 3.7864583333333335,
+            "concentration": 0.28888948154039695,
+            "phase": -0.48820212662540186
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89332566239213,
+      "scale": 3.7537900498140213,
+      "rms": 0.2795036678857428,
+      "points": 276
+    },
+    "y": {
+      "origin": 0.09136075044227887,
+      "scale": 3.7783763391678398,
+      "rms": 0.2765106297721832,
+      "points": 831
+    },
+    "historyFrames": 1,
+    "currentMatchedCells": 119,
+    "currentXPoints": 276,
+    "currentYPoints": 831
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001440.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70372774573468,
+        "originY": -0.06905962392727455,
+        "scaleX": 3.75546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70372774573468,
+            "scale": 3.75546875,
+            "concentration": 0.31895979452892775,
+            "phase": 180.70372774573468
+          },
+          {
+            "origin": 180.3102892978275,
+            "scale": 3.76015625,
+            "concentration": 0.2887700560690007,
+            "phase": 180.3102892978275
+          },
+          {
+            "origin": 181.16392002777715,
+            "scale": 3.75,
+            "concentration": 0.28820889742659744,
+            "phase": 181.16392002777715
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06905962392727455,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3312917430614938,
+            "phase": -0.06905962392727455
+          },
+          {
+            "origin": 0.2818048695208549,
+            "scale": 3.775173611111111,
+            "concentration": 0.3082436560721045,
+            "phase": 0.2818048695208549
+          },
+          {
+            "origin": -0.4886244871237092,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2930022959216015,
+            "phase": -0.4886244871237092
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89340816759338,
+      "scale": 3.753790262333232,
+      "rms": 0.2794744647190496,
+      "points": 552
+    },
+    "y": {
+      "origin": 0.09467582883266311,
+      "scale": 3.7783288156742576,
+      "rms": 0.27628949399970537,
+      "points": 1660
+    },
+    "historyFrames": 2,
+    "currentMatchedCells": 119,
+    "currentXPoints": 276,
+    "currentYPoints": 831
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001441.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76955430312012,
+        "originY": -0.06519143049432023,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76955430312012,
+            "scale": 3.7546875,
+            "concentration": 0.3176850381344591,
+            "phase": 180.76955430312012
+          },
+          {
+            "origin": 181.1570979536181,
+            "scale": 3.75,
+            "concentration": 0.2874217103340535,
+            "phase": 181.1570979536181
+          },
+          {
+            "origin": 180.31926738876297,
+            "scale": 3.76015625,
+            "concentration": 0.2868969479094309,
+            "phase": 180.31926738876297
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06519143049432023,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32996331692870173,
+            "phase": -0.06519143049432023
+          },
+          {
+            "origin": 0.2870203654243125,
+            "scale": 3.775173611111111,
+            "concentration": 0.3075462770671241,
+            "phase": 0.2870203654243125
+          },
+          {
+            "origin": -0.4867597602857406,
+            "scale": 3.7864583333333335,
+            "concentration": 0.29089632883970307,
+            "phase": -0.4867597602857406
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89253903966636,
+      "scale": 3.7537947811742445,
+      "rms": 0.2786882940985496,
+      "points": 833
+    },
+    "y": {
+      "origin": 0.0969658038625288,
+      "scale": 3.778302149910391,
+      "rms": 0.277054974072507,
+      "points": 2491
+    },
+    "historyFrames": 3,
+    "currentMatchedCells": 122,
+    "currentXPoints": 281,
+    "currentYPoints": 832
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001442.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.77220166908825,
+        "originY": -0.06440255566298192,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.77220166908825,
+            "scale": 3.7546875,
+            "concentration": 0.31738981999003235,
+            "phase": 180.77220166908825
+          },
+          {
+            "origin": 181.1554267249155,
+            "scale": 3.75,
+            "concentration": 0.2879431308004288,
+            "phase": 181.1554267249155
+          },
+          {
+            "origin": 180.3269426070968,
+            "scale": 3.76015625,
+            "concentration": 0.2859782190636123,
+            "phase": 180.3269426070968
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06440255566298192,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3290888472491256,
+            "phase": -0.06440255566298192
+          },
+          {
+            "origin": 0.2901009671948475,
+            "scale": 3.775173611111111,
+            "concentration": 0.3071092868139132,
+            "phase": 0.2901009671948475
+          },
+          {
+            "origin": -0.48951953660168124,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2899842449407131,
+            "phase": -0.48951953660168124
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89207942615928,
+      "scale": 3.7537966715292073,
+      "rms": 0.27802825191154595,
+      "points": 1116
+    },
+    "y": {
+      "origin": 0.09742945180818519,
+      "scale": 3.77830696127708,
+      "rms": 0.2770804366507411,
+      "points": 3324
+    },
+    "historyFrames": 4,
+    "currentMatchedCells": 124,
+    "currentXPoints": 283,
+    "currentYPoints": 834
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001443.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.77030045735253,
+        "originY": -0.06558146616626777,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.77030045735253,
+            "scale": 3.7546875,
+            "concentration": 0.31547148290363797,
+            "phase": 180.77030045735253
+          },
+          {
+            "origin": 181.15154158402896,
+            "scale": 3.75,
+            "concentration": 0.28638900924660454,
+            "phase": 181.15154158402896
+          },
+          {
+            "origin": 180.32709248433994,
+            "scale": 3.76015625,
+            "concentration": 0.2850614241641162,
+            "phase": 180.32709248433994
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06558146616626777,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3288796211562164,
+            "phase": -0.06558146616626777
+          },
+          {
+            "origin": 0.29131292865692476,
+            "scale": 3.775173611111111,
+            "concentration": 0.30711865212804224,
+            "phase": 0.29131292865692476
+          },
+          {
+            "origin": -0.4935107799758356,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2895446590469985,
+            "phase": -0.4935107799758356
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89185103799497,
+      "scale": 3.7537980926600967,
+      "rms": 0.27738330018036833,
+      "points": 1402
+    },
+    "y": {
+      "origin": 0.09769307196251108,
+      "scale": 3.778311590186253,
+      "rms": 0.27703132336418856,
+      "points": 4160
+    },
+    "historyFrames": 5,
+    "currentMatchedCells": 127,
+    "currentXPoints": 286,
+    "currentYPoints": 837
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001444.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76875044111975,
+        "originY": -0.06968285891077422,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76875044111975,
+            "scale": 3.7546875,
+            "concentration": 0.31562073815615993,
+            "phase": 180.76875044111975
+          },
+          {
+            "origin": 181.15081687768367,
+            "scale": 3.75,
+            "concentration": 0.2872728873103078,
+            "phase": 181.15081687768367
+          },
+          {
+            "origin": 180.32416949437777,
+            "scale": 3.76015625,
+            "concentration": 0.28569395262194064,
+            "phase": 180.32416949437777
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06968285891077422,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3286301278928773,
+            "phase": -0.06968285891077422
+          },
+          {
+            "origin": 0.2901756588282695,
+            "scale": 3.775173611111111,
+            "concentration": 0.30593610515941166,
+            "phase": 0.2901756588282695
+          },
+          {
+            "origin": -0.5002250593682014,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2903003305848389,
+            "phase": -0.5002250593682014
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89175138755593,
+      "scale": 3.7537991376582007,
+      "rms": 0.27647431218449314,
+      "points": 1694
+    },
+    "y": {
+      "origin": 0.0952205309038386,
+      "scale": 3.7783371414424973,
+      "rms": 0.27855740212919633,
+      "points": 5002
+    },
+    "historyFrames": 6,
+    "currentMatchedCells": 131,
+    "currentXPoints": 292,
+    "currentYPoints": 837
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001445.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76926320912767,
+        "originY": -0.07037438583775465,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76926320912767,
+            "scale": 3.7546875,
+            "concentration": 0.3156693174920633,
+            "phase": 180.76926320912767
+          },
+          {
+            "origin": 181.15135507017004,
+            "scale": 3.75,
+            "concentration": 0.287310461039852,
+            "phase": 181.15135507017004
+          },
+          {
+            "origin": 180.32476421163702,
+            "scale": 3.76015625,
+            "concentration": 0.28572675965714633,
+            "phase": 180.32476421163702
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.07037438583775465,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32902843877185445,
+            "phase": -0.07037438583775465
+          },
+          {
+            "origin": 0.28980617436079475,
+            "scale": 3.775173611111111,
+            "concentration": 0.30645054277867834,
+            "phase": 0.28980617436079475
+          },
+          {
+            "origin": -0.5012937677501316,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2904888443999406,
+            "phase": -0.5012937677501316
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89162998965503,
+      "scale": 3.753799565118633,
+      "rms": 0.27582822924841854,
+      "points": 1986
+    },
+    "y": {
+      "origin": 0.0950317667543363,
+      "scale": 3.7783420905621092,
+      "rms": 0.2790319189568614,
+      "points": 5839
+    },
+    "historyFrames": 7,
+    "currentMatchedCells": 131,
+    "currentXPoints": 292,
+    "currentYPoints": 837
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001446.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76822496905862,
+        "originY": -0.06791754120063481,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76822496905862,
+            "scale": 3.7546875,
+            "concentration": 0.3118276587602226,
+            "phase": 180.76822496905862
+          },
+          {
+            "origin": 181.1471709588145,
+            "scale": 3.75,
+            "concentration": 0.283355728796437,
+            "phase": 181.1471709588145
+          },
+          {
+            "origin": 180.3277331778759,
+            "scale": 3.76015625,
+            "concentration": 0.28243626255052656,
+            "phase": 180.3277331778759
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06791754120063481,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32528439892510896,
+            "phase": -0.06791754120063481
+          },
+          {
+            "origin": 0.2937311972893058,
+            "scale": 3.775173611111111,
+            "concentration": 0.3038743840990348,
+            "phase": 0.2937311972893058
+          },
+          {
+            "origin": -0.5013514443095195,
+            "scale": 3.7864583333333335,
+            "concentration": 0.28643466877817914,
+            "phase": -0.5013514443095195
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89161796226716,
+      "scale": 3.753799519128267,
+      "rms": 0.27529103044982406,
+      "points": 2279
+    },
+    "y": {
+      "origin": 0.09473184828667527,
+      "scale": 3.778351709424764,
+      "rms": 0.2792477287155996,
+      "points": 6682
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 135,
+    "currentXPoints": 293,
+    "currentYPoints": 843
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001447.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7712710858556,
+        "originY": -0.06725203024887492,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7712710858556,
+            "scale": 3.7546875,
+            "concentration": 0.30997683314232527,
+            "phase": 180.7712710858556
+          },
+          {
+            "origin": 181.14640044766443,
+            "scale": 3.75,
+            "concentration": 0.28234198796993293,
+            "phase": 181.14640044766443
+          },
+          {
+            "origin": 180.33527089334416,
+            "scale": 3.76015625,
+            "concentration": 0.28023210142990146,
+            "phase": 180.33527089334416
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06725203024887492,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3248578426974038,
+            "phase": -0.06725203024887492
+          },
+          {
+            "origin": 0.2978243684692044,
+            "scale": 3.775173611111111,
+            "concentration": 0.30295808289452875,
+            "phase": 0.2978243684692044
+          },
+          {
+            "origin": -0.505026138627918,
+            "scale": 3.7864583333333335,
+            "concentration": 0.28612283944479827,
+            "phase": -0.505026138627918
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.8914504627237,
+      "scale": 3.7538006029119555,
+      "rms": 0.2742656389739022,
+      "points": 2299
+    },
+    "y": {
+      "origin": 0.09491931126782985,
+      "scale": 3.778356092825211,
+      "rms": 0.2797319302546097,
+      "points": 6697
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 138,
+    "currentXPoints": 296,
+    "currentYPoints": 846
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001448.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.77025583384858,
+        "originY": -0.07048231925840005,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.77025583384858,
+            "scale": 3.7546875,
+            "concentration": 0.3098471715426995,
+            "phase": 180.77025583384858
+          },
+          {
+            "origin": 181.14392481340252,
+            "scale": 3.75,
+            "concentration": 0.28231612940958284,
+            "phase": 181.14392481340252
+          },
+          {
+            "origin": 180.33595909521398,
+            "scale": 3.76015625,
+            "concentration": 0.2807661932270225,
+            "phase": 180.33595909521398
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.07048231925840005,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3254999680640546,
+            "phase": -0.07048231925840005
+          },
+          {
+            "origin": 0.2981155379891081,
+            "scale": 3.775173611111111,
+            "concentration": 0.30271516073801785,
+            "phase": 0.2981155379891081
+          },
+          {
+            "origin": -0.5115013019952437,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2869361788560735,
+            "phase": -0.5115013019952437
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89125824233417,
+      "scale": 3.753801654345945,
+      "rms": 0.2732510313981708,
+      "points": 2319
+    },
+    "y": {
+      "origin": 0.09518120749603136,
+      "scale": 3.7783565262224315,
+      "rms": 0.2802968185894041,
+      "points": 6713
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 140,
+    "currentXPoints": 296,
+    "currentYPoints": 847
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001449.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.77013126077256,
+        "originY": -0.07133100289722644,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.77013126077256,
+            "scale": 3.7546875,
+            "concentration": 0.3090097226177159,
+            "phase": 180.77013126077256
+          },
+          {
+            "origin": 181.14384564331053,
+            "scale": 3.75,
+            "concentration": 0.2817313836507001,
+            "phase": 181.14384564331053
+          },
+          {
+            "origin": 180.33582988077262,
+            "scale": 3.76015625,
+            "concentration": 0.2803428379754893,
+            "phase": 180.33582988077262
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.07133100289722644,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32588531140168103,
+            "phase": -0.07133100289722644
+          },
+          {
+            "origin": 0.3025110371738831,
+            "scale": 3.775173611111111,
+            "concentration": 0.3029743340287216,
+            "phase": 0.3025110371738831
+          },
+          {
+            "origin": -0.518410664025062,
+            "scale": 3.7864583333333335,
+            "concentration": 0.28672091694616725,
+            "phase": -0.518410664025062
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89145851443052,
+      "scale": 3.75380062060227,
+      "rms": 0.27242127726150456,
+      "points": 2336
+    },
+    "y": {
+      "origin": 0.09472123145762554,
+      "scale": 3.778362663346653,
+      "rms": 0.2806112045307137,
+      "points": 6731
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 143,
+    "currentXPoints": 298,
+    "currentYPoints": 850
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001450.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76975375223282,
+        "originY": -0.06500855328323207,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76975375223282,
+            "scale": 3.7546875,
+            "concentration": 0.3082944375123856,
+            "phase": 180.76975375223282
+          },
+          {
+            "origin": 181.14479280030594,
+            "scale": 3.75,
+            "concentration": 0.2814600192188825,
+            "phase": 181.14479280030594
+          },
+          {
+            "origin": 180.33378685955896,
+            "scale": 3.76015625,
+            "concentration": 0.28004743691518563,
+            "phase": 180.33378685955896
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06500855328323207,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3273384924928018,
+            "phase": -0.06500855328323207
+          },
+          {
+            "origin": 0.3113986906053192,
+            "scale": 3.775173611111111,
+            "concentration": 0.30453327102213074,
+            "phase": 0.3113986906053192
+          },
+          {
+            "origin": -0.5166239943864105,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2872189941947881,
+            "phase": -0.5166239943864105
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89168737026054,
+      "scale": 3.753799888175781,
+      "rms": 0.27172722610016486,
+      "points": 2351
+    },
+    "y": {
+      "origin": 0.09476236220127174,
+      "scale": 3.7783624112947716,
+      "rms": 0.2805986299872008,
+      "points": 6747
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 144,
+    "currentXPoints": 298,
+    "currentYPoints": 850
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001451.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76952806879834,
+        "originY": -0.06497962821220575,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76952806879834,
+            "scale": 3.7546875,
+            "concentration": 0.306863722033458,
+            "phase": 180.76952806879834
+          },
+          {
+            "origin": 181.1466790321619,
+            "scale": 3.75,
+            "concentration": 0.2801189041214332,
+            "phase": 181.1466790321619
+          },
+          {
+            "origin": 180.3312640766743,
+            "scale": 3.76015625,
+            "concentration": 0.27910649962355694,
+            "phase": 180.3312640766743
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06497962821220575,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32717797505406293,
+            "phase": -0.06497962821220575
+          },
+          {
+            "origin": 0.3118736143068104,
+            "scale": 3.775173611111111,
+            "concentration": 0.3044678061438558,
+            "phase": 0.3118736143068104
+          },
+          {
+            "origin": -0.5171186997854719,
+            "scale": 3.7864583333333335,
+            "concentration": 0.28692441544009734,
+            "phase": -0.5171186997854719
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.8923418575007,
+      "scale": 3.7537954554446538,
+      "rms": 0.27128261575402257,
+      "points": 2360
+    },
+    "y": {
+      "origin": 0.09481225843856816,
+      "scale": 3.7783610998542363,
+      "rms": 0.2806260456720518,
+      "points": 6760
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 144,
+    "currentXPoints": 295,
+    "currentYPoints": 850
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001452.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76929782128695,
+        "originY": -0.06999835396092606,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76929782128695,
+            "scale": 3.7546875,
+            "concentration": 0.3070611782622422,
+            "phase": 180.76929782128695
+          },
+          {
+            "origin": 181.14643585852448,
+            "scale": 3.75,
+            "concentration": 0.2803051966195096,
+            "phase": 181.14643585852448
+          },
+          {
+            "origin": 180.33102119422628,
+            "scale": 3.76015625,
+            "concentration": 0.2793083648576408,
+            "phase": 180.33102119422628
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06999835396092606,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32704795645018736,
+            "phase": -0.06999835396092606
+          },
+          {
+            "origin": 0.30807258516938296,
+            "scale": 3.775173611111111,
+            "concentration": 0.3036262044831679,
+            "phase": 0.30807258516938296
+          },
+          {
+            "origin": -0.5221967012693718,
+            "scale": 3.7864583333333335,
+            "concentration": 0.28762469569967597,
+            "phase": -0.5221967012693718
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89295982528319,
+      "scale": 3.753790935529453,
+      "rms": 0.27117692181508907,
+      "points": 2363
+    },
+    "y": {
+      "origin": 0.09513533083630142,
+      "scale": 3.7783517180266113,
+      "rms": 0.28068494321129106,
+      "points": 6773
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 144,
+    "currentXPoints": 295,
+    "currentYPoints": 850
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001453.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76912125010907,
+        "originY": -0.070012504229812,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76912125010907,
+            "scale": 3.7546875,
+            "concentration": 0.307105244568342,
+            "phase": 180.76912125010907
+          },
+          {
+            "origin": 181.14618732963885,
+            "scale": 3.75,
+            "concentration": 0.2803172418267442,
+            "phase": 181.14618732963885
+          },
+          {
+            "origin": 180.33092172153167,
+            "scale": 3.76015625,
+            "concentration": 0.27936361577022845,
+            "phase": 180.33092172153167
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.070012504229812,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32709447756073046,
+            "phase": -0.070012504229812
+          },
+          {
+            "origin": 0.3080067502441851,
+            "scale": 3.775173611111111,
+            "concentration": 0.3036789827828489,
+            "phase": 0.3080067502441851
+          },
+          {
+            "origin": -0.5221465810360524,
+            "scale": 3.7864583333333335,
+            "concentration": 0.28764963791564246,
+            "phase": -0.5221465810360524
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89361931076078,
+      "scale": 3.7537866882815836,
+      "rms": 0.27107280938975037,
+      "points": 2366
+    },
+    "y": {
+      "origin": 0.09545682710836974,
+      "scale": 3.778342402069558,
+      "rms": 0.2807422416908522,
+      "points": 6786
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 144,
+    "currentXPoints": 295,
+    "currentYPoints": 850
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001454.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76914169882883,
+        "originY": -0.06516982000532444,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76914169882883,
+            "scale": 3.7546875,
+            "concentration": 0.30712738557291475,
+            "phase": 180.76914169882883
+          },
+          {
+            "origin": 181.14622674035243,
+            "scale": 3.75,
+            "concentration": 0.28033599852638375,
+            "phase": 181.14622674035243
+          },
+          {
+            "origin": 180.33092315545645,
+            "scale": 3.76015625,
+            "concentration": 0.2793869047257727,
+            "phase": 180.33092315545645
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06516982000532444,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32737691868547153,
+            "phase": -0.06516982000532444
+          },
+          {
+            "origin": 0.31171507190647363,
+            "scale": 3.775173611111111,
+            "concentration": 0.30459990022034056,
+            "phase": 0.31171507190647363
+          },
+          {
+            "origin": -0.5172779667350464,
+            "scale": 3.7864583333333335,
+            "concentration": 0.28711352385679134,
+            "phase": -0.5172779667350464
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.8942045594801,
+      "scale": 3.7537827799586587,
+      "rms": 0.2710211617085251,
+      "points": 2368
+    },
+    "y": {
+      "origin": 0.09599892613640469,
+      "scale": 3.778332247182052,
+      "rms": 0.2803989291835012,
+      "points": 6793
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 144,
+    "currentXPoints": 295,
+    "currentYPoints": 850
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001455.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76914169882883,
+        "originY": -0.06516982000532444,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76914169882883,
+            "scale": 3.7546875,
+            "concentration": 0.30712738557291475,
+            "phase": 180.76914169882883
+          },
+          {
+            "origin": 181.14622674035243,
+            "scale": 3.75,
+            "concentration": 0.28033599852638375,
+            "phase": 181.14622674035243
+          },
+          {
+            "origin": 180.33092315545645,
+            "scale": 3.76015625,
+            "concentration": 0.2793869047257727,
+            "phase": 180.33092315545645
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06516982000532444,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32737691868547153,
+            "phase": -0.06516982000532444
+          },
+          {
+            "origin": 0.31171507190647363,
+            "scale": 3.775173611111111,
+            "concentration": 0.30459990022034056,
+            "phase": 0.31171507190647363
+          },
+          {
+            "origin": -0.5172779667350464,
+            "scale": 3.7864583333333335,
+            "concentration": 0.28711352385679134,
+            "phase": -0.5172779667350464
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.8947495276868,
+      "scale": 3.753778847324057,
+      "rms": 0.2710121108456149,
+      "points": 2367
+    },
+    "y": {
+      "origin": 0.09872333805618917,
+      "scale": 3.778304395883895,
+      "rms": 0.27925847719825425,
+      "points": 6789
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 144,
+    "currentXPoints": 295,
+    "currentYPoints": 850
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001456.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76909931336172,
+        "originY": -0.07113227265879404,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76909931336172,
+            "scale": 3.7546875,
+            "concentration": 0.30711839314327316,
+            "phase": 180.76909931336172
+          },
+          {
+            "origin": 181.14617207152915,
+            "scale": 3.75,
+            "concentration": 0.2803339907374629,
+            "phase": 181.14617207152915
+          },
+          {
+            "origin": 180.33089188512682,
+            "scale": 3.76015625,
+            "concentration": 0.27937076206509165,
+            "phase": 180.33089188512682
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.07113227265879404,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3255443468532544,
+            "phase": -0.07113227265879404
+          },
+          {
+            "origin": 0.30582397888003354,
+            "scale": 3.775173611111111,
+            "concentration": 0.3026555339221715,
+            "phase": 0.30582397888003354
+          },
+          {
+            "origin": -0.5217646295191104,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2860331810047795,
+            "phase": -0.5217646295191104
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89530512209734,
+      "scale": 3.753774853658012,
+      "rms": 0.27101247089535546,
+      "points": 2366
+    },
+    "y": {
+      "origin": 0.0986709510304886,
+      "scale": 3.7783056886404918,
+      "rms": 0.27917042399963565,
+      "points": 6792
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 144,
+    "currentXPoints": 295,
+    "currentYPoints": 850
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001457.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76909931336172,
+        "originY": -0.07113227265879404,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76909931336172,
+            "scale": 3.7546875,
+            "concentration": 0.30711839314327316,
+            "phase": 180.76909931336172
+          },
+          {
+            "origin": 181.14617207152915,
+            "scale": 3.75,
+            "concentration": 0.2803339907374629,
+            "phase": 181.14617207152915
+          },
+          {
+            "origin": 180.33089188512682,
+            "scale": 3.76015625,
+            "concentration": 0.27937076206509165,
+            "phase": 180.33089188512682
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.07113227265879404,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3255443468532544,
+            "phase": -0.07113227265879404
+          },
+          {
+            "origin": 0.30582397888003354,
+            "scale": 3.775173611111111,
+            "concentration": 0.3026555339221715,
+            "phase": 0.30582397888003354
+          },
+          {
+            "origin": -0.5217646295191104,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2860331810047795,
+            "phase": -0.5217646295191104
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89578699794075,
+      "scale": 3.7537713714686585,
+      "rms": 0.27110909406876377,
+      "points": 2363
+    },
+    "y": {
+      "origin": 0.09862543054925195,
+      "scale": 3.7783075576375174,
+      "rms": 0.2791250485677693,
+      "points": 6792
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 144,
+    "currentXPoints": 295,
+    "currentYPoints": 850
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001458.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76911131022888,
+        "originY": -0.06497682438707866,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76911131022888,
+            "scale": 3.7546875,
+            "concentration": 0.3071291180879593,
+            "phase": 180.76911131022888
+          },
+          {
+            "origin": 181.14619521160026,
+            "scale": 3.75,
+            "concentration": 0.28034274699367817,
+            "phase": 181.14619521160026
+          },
+          {
+            "origin": 180.3308926975154,
+            "scale": 3.76015625,
+            "concentration": 0.2793822634155375,
+            "phase": 180.3308926975154
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06497682438707866,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32737178938201833,
+            "phase": -0.06497682438707866
+          },
+          {
+            "origin": 0.31193196250328753,
+            "scale": 3.775173611111111,
+            "concentration": 0.304661090687877,
+            "phase": 0.31193196250328753
+          },
+          {
+            "origin": -0.5171753326437173,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2870439532038449,
+            "phase": -0.5171753326437173
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89625412814357,
+      "scale": 3.753767744875655,
+      "rms": 0.27120449927802737,
+      "points": 2360
+    },
+    "y": {
+      "origin": 0.0986362070327041,
+      "scale": 3.7783072326631144,
+      "rms": 0.2791294244554936,
+      "points": 6792
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 144,
+    "currentXPoints": 295,
+    "currentYPoints": 850
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001459.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76911131022888,
+        "originY": -0.06497682438707866,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76911131022888,
+            "scale": 3.7546875,
+            "concentration": 0.3071291180879593,
+            "phase": 180.76911131022888
+          },
+          {
+            "origin": 181.14619521160026,
+            "scale": 3.75,
+            "concentration": 0.28034274699367817,
+            "phase": 181.14619521160026
+          },
+          {
+            "origin": 180.3308926975154,
+            "scale": 3.76015625,
+            "concentration": 0.2793822634155375,
+            "phase": 180.3308926975154
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06497682438707866,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32737178938201833,
+            "phase": -0.06497682438707866
+          },
+          {
+            "origin": 0.31193196250328753,
+            "scale": 3.775173611111111,
+            "concentration": 0.304661090687877,
+            "phase": 0.31193196250328753
+          },
+          {
+            "origin": -0.5171753326437173,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2870439532038449,
+            "phase": -0.5171753326437173
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89625412814357,
+      "scale": 3.753767744875655,
+      "rms": 0.27120449927802737,
+      "points": 2360
+    },
+    "y": {
+      "origin": 0.09864660595202664,
+      "scale": 3.778306923277538,
+      "rms": 0.2791345067428731,
+      "points": 6792
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 144,
+    "currentXPoints": 295,
+    "currentYPoints": 850
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001460.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76914389203574,
+        "originY": -0.07108035752367503,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76914389203574,
+            "scale": 3.7546875,
+            "concentration": 0.307110171709189,
+            "phase": 180.76914389203574
+          },
+          {
+            "origin": 181.14621085100939,
+            "scale": 3.75,
+            "concentration": 0.2803182082624388,
+            "phase": 181.14621085100939
+          },
+          {
+            "origin": 180.33094507460007,
+            "scale": 3.76015625,
+            "concentration": 0.27937210032505005,
+            "phase": 180.33094507460007
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.07108035752367503,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3255426313013297,
+            "phase": -0.07108035752367503
+          },
+          {
+            "origin": 0.3058827501478964,
+            "scale": 3.775173611111111,
+            "concentration": 0.30267161529184916,
+            "phase": 0.3058827501478964
+          },
+          {
+            "origin": -0.521737396012104,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2860143653355631,
+            "phase": -0.521737396012104
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89625412814357,
+      "scale": 3.753767744875655,
+      "rms": 0.27120449927802737,
+      "points": 2360
+    },
+    "y": {
+      "origin": 0.09628297703998054,
+      "scale": 3.778330097968495,
+      "rms": 0.2798852784351725,
+      "points": 6800
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 144,
+    "currentXPoints": 295,
+    "currentYPoints": 850
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001461.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76914389203574,
+        "originY": -0.07108035752367503,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76914389203574,
+            "scale": 3.7546875,
+            "concentration": 0.307110171709189,
+            "phase": 180.76914389203574
+          },
+          {
+            "origin": 181.14621085100939,
+            "scale": 3.75,
+            "concentration": 0.2803182082624388,
+            "phase": 181.14621085100939
+          },
+          {
+            "origin": 180.33094507460007,
+            "scale": 3.76015625,
+            "concentration": 0.27937210032505005,
+            "phase": 180.33094507460007
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.07108035752367503,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3255426313013297,
+            "phase": -0.07108035752367503
+          },
+          {
+            "origin": 0.3058827501478964,
+            "scale": 3.775173611111111,
+            "concentration": 0.30267161529184916,
+            "phase": 0.3058827501478964
+          },
+          {
+            "origin": -0.521737396012104,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2860143653355631,
+            "phase": -0.521737396012104
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89625412814357,
+      "scale": 3.753767744875655,
+      "rms": 0.27120449927802737,
+      "points": 2360
+    },
+    "y": {
+      "origin": 0.09612887723429595,
+      "scale": 3.778334689326642,
+      "rms": 0.27980015213376325,
+      "points": 6800
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 144,
+    "currentXPoints": 295,
+    "currentYPoints": 850
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001462.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.76881923054043,
+        "originY": -0.06258693590457,
+        "scaleX": 3.7546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.76881923054043,
+            "scale": 3.7546875,
+            "concentration": 0.3201690053270903,
+            "phase": 180.76881923054043
+          },
+          {
+            "origin": 181.16639487030895,
+            "scale": 3.75,
+            "concentration": 0.28998445608579626,
+            "phase": 181.16639487030895
+          },
+          {
+            "origin": 180.3070724572065,
+            "scale": 3.76015625,
+            "concentration": 0.2898353283386014,
+            "phase": 180.3070724572065
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06258693590457,
+            "scale": 3.7803819444444446,
+            "concentration": 0.33009630619093844,
+            "phase": -0.06258693590457
+          },
+          {
+            "origin": 0.28572252440845625,
+            "scale": 3.775173611111111,
+            "concentration": 0.3085128281181822,
+            "phase": 0.28572252440845625
+          },
+          {
+            "origin": -0.4803831746384917,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2906652636177319,
+            "phase": -0.4803831746384917
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89633860610041,
+      "scale": 3.753766536988954,
+      "rms": 0.2722804005477122,
+      "points": 2338
+    },
+    "y": {
+      "origin": 0.09598923446254165,
+      "scale": 3.778336940965727,
+      "rms": 0.2799243064262275,
+      "points": 6781
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 119,
+    "currentXPoints": 273,
+    "currentYPoints": 831
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001463.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7025204913119,
+        "originY": -0.06261337161089414,
+        "scaleX": 3.75546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7025204913119,
+            "scale": 3.75546875,
+            "concentration": 0.3215938662545356,
+            "phase": 180.7025204913119
+          },
+          {
+            "origin": 180.30866975599366,
+            "scale": 3.76015625,
+            "concentration": 0.29115532323387777,
+            "phase": 180.30866975599366
+          },
+          {
+            "origin": 181.16383587891318,
+            "scale": 3.75,
+            "concentration": 0.2909297984909537,
+            "phase": 181.16383587891318
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06261337161089414,
+            "scale": 3.7803819444444446,
+            "concentration": 0.33028442564862565,
+            "phase": -0.06261337161089414
+          },
+          {
+            "origin": 0.285653204559121,
+            "scale": 3.775173611111111,
+            "concentration": 0.30861387848701477,
+            "phase": 0.285653204559121
+          },
+          {
+            "origin": -0.48037629049005914,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2908945871947745,
+            "phase": -0.48037629049005914
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89596743590278,
+      "scale": 3.7537688434090537,
+      "rms": 0.27326839105743134,
+      "points": 2319
+    },
+    "y": {
+      "origin": 0.09584299490789981,
+      "scale": 3.778339290325823,
+      "rms": 0.28004358009708685,
+      "points": 6762
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 119,
+    "currentXPoints": 276,
+    "currentYPoints": 831
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001464.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7021317069766,
+        "originY": -0.06485797043811947,
+        "scaleX": 3.75546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7021317069766,
+            "scale": 3.75546875,
+            "concentration": 0.31979474819269255,
+            "phase": 180.7021317069766
+          },
+          {
+            "origin": 180.3100684529098,
+            "scale": 3.76015625,
+            "concentration": 0.2895465264629836,
+            "phase": 180.3100684529098
+          },
+          {
+            "origin": 181.16149342450765,
+            "scale": 3.75,
+            "concentration": 0.2889741493288419,
+            "phase": 181.16149342450765
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06485797043811947,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3299214111660546,
+            "phase": -0.06485797043811947
+          },
+          {
+            "origin": 0.28419436558519795,
+            "scale": 3.775173611111111,
+            "concentration": 0.3077590361008675,
+            "phase": 0.28419436558519795
+          },
+          {
+            "origin": -0.4830919242402531,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2910834571617501,
+            "phase": -0.4830919242402531
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89554691037208,
+      "scale": 3.7537715058072867,
+      "rms": 0.27428289833169966,
+      "points": 2300
+    },
+    "y": {
+      "origin": 0.09573385808384184,
+      "scale": 3.7783447208207015,
+      "rms": 0.27972041962710986,
+      "points": 6744
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 120,
+    "currentXPoints": 276,
+    "currentYPoints": 832
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001465.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7032916718027,
+        "originY": -0.0650513239677606,
+        "scaleX": 3.75546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7032916718027,
+            "scale": 3.75546875,
+            "concentration": 0.3177880981221218,
+            "phase": 180.7032916718027
+          },
+          {
+            "origin": 180.3190768220508,
+            "scale": 3.76015625,
+            "concentration": 0.2874629184103183,
+            "phase": 180.3190768220508
+          },
+          {
+            "origin": 181.15368418127557,
+            "scale": 3.75,
+            "concentration": 0.2869977701370892,
+            "phase": 181.15368418127557
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.0650513239677606,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3288712973849502,
+            "phase": -0.0650513239677606
+          },
+          {
+            "origin": 0.28585481099368765,
+            "scale": 3.775173611111111,
+            "concentration": 0.3068136974186071,
+            "phase": 0.28585481099368765
+          },
+          {
+            "origin": -0.4854404051195607,
+            "scale": 3.7864583333333335,
+            "concentration": 0.29006091058835676,
+            "phase": -0.4854404051195607
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.8949798492425,
+      "scale": 3.7537750613558587,
+      "rms": 0.27515050791018636,
+      "points": 2284
+    },
+    "y": {
+      "origin": 0.09562357802701012,
+      "scale": 3.7783502073137454,
+      "rms": 0.2793945396107653,
+      "points": 6726
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 123,
+    "currentXPoints": 279,
+    "currentYPoints": 832
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001466.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70291292030885,
+        "originY": -0.004172852880725507,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70291292030885,
+            "scale": 3.75546875,
+            "concentration": 0.3167019430873023,
+            "phase": 180.70291292030885
+          },
+          {
+            "origin": 180.31978768636867,
+            "scale": 3.76015625,
+            "concentration": 0.28669277685262645,
+            "phase": 180.31978768636867
+          },
+          {
+            "origin": 181.1520842204415,
+            "scale": 3.75,
+            "concentration": 0.2859999446397323,
+            "phase": 181.1520842204415
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.004172852880725507,
+            "scale": 3.779513888888889,
+            "concentration": 0.3299981155764603,
+            "phase": -0.004172852880725507
+          },
+          {
+            "origin": -0.36683042727893006,
+            "scale": 3.7847222222222223,
+            "concentration": 0.30827524707718595,
+            "phase": -0.36683042727893006
+          },
+          {
+            "origin": 0.3488106260635491,
+            "scale": 3.7743055555555554,
+            "concentration": 0.29993531211846114,
+            "phase": 0.3488106260635491
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89423031414182,
+      "scale": 3.7537793849724315,
+      "rms": 0.27599797064072756,
+      "points": 2269
+    },
+    "y": {
+      "origin": 0.09488193806748131,
+      "scale": 3.778358165885407,
+      "rms": 0.27985701089705495,
+      "points": 6712
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 126,
+    "currentXPoints": 280,
+    "currentYPoints": 836
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001467.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.7055734136775,
+        "originY": -0.004430967383851511,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.7055734136775,
+            "scale": 3.75546875,
+            "concentration": 0.3177406227476685,
+            "phase": 180.7055734136775
+          },
+          {
+            "origin": 180.32381971451923,
+            "scale": 3.76015625,
+            "concentration": 0.288341320261063,
+            "phase": 180.32381971451923
+          },
+          {
+            "origin": 181.15368533896282,
+            "scale": 3.75,
+            "concentration": 0.28763524159882337,
+            "phase": 181.15368533896282
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.004430967383851511,
+            "scale": 3.779513888888889,
+            "concentration": 0.3299220741489162,
+            "phase": -0.004430967383851511
+          },
+          {
+            "origin": -0.3708355310994249,
+            "scale": 3.7847222222222223,
+            "concentration": 0.30810326612952893,
+            "phase": -0.3708355310994249
+          },
+          {
+            "origin": 0.35252112677059555,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2999357791452805,
+            "phase": 0.35252112677059555
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89353456618713,
+      "scale": 3.7537836875239905,
+      "rms": 0.276718076437827,
+      "points": 2256
+    },
+    "y": {
+      "origin": 0.09414531926575986,
+      "scale": 3.7783666371089373,
+      "rms": 0.28031505097994713,
+      "points": 6703
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 130,
+    "currentXPoints": 282,
+    "currentYPoints": 841
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001468.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70465703996962,
+        "originY": -0.006381967146563142,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70465703996962,
+            "scale": 3.75546875,
+            "concentration": 0.3164962891783177,
+            "phase": 180.70465703996962
+          },
+          {
+            "origin": 180.3217784004534,
+            "scale": 3.76015625,
+            "concentration": 0.28758743646438256,
+            "phase": 180.3217784004534
+          },
+          {
+            "origin": 181.15380835610483,
+            "scale": 3.75,
+            "concentration": 0.2869081480678706,
+            "phase": 181.15380835610483
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.006381967146563142,
+            "scale": 3.779513888888889,
+            "concentration": 0.3294527017737552,
+            "phase": -0.006381967146563142
+          },
+          {
+            "origin": -0.3757070954272121,
+            "scale": 3.7847222222222223,
+            "concentration": 0.3076690345927398,
+            "phase": -0.3757070954272121
+          },
+          {
+            "origin": 0.353761368908531,
+            "scale": 3.7743055555555554,
+            "concentration": 0.299670560156821,
+            "phase": 0.353761368908531
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89291069997378,
+      "scale": 3.753789065307642,
+      "rms": 0.27709315583960814,
+      "points": 2249
+    },
+    "y": {
+      "origin": 0.09296845871618896,
+      "scale": 3.7783814131489364,
+      "rms": 0.28006466442132316,
+      "points": 6697
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 132,
+    "currentXPoints": 288,
+    "currentYPoints": 844
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001469.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70502140097656,
+        "originY": -0.006769366219943682,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70502140097656,
+            "scale": 3.75546875,
+            "concentration": 0.3165070855097584,
+            "phase": 180.70502140097656
+          },
+          {
+            "origin": 180.32216658875703,
+            "scale": 3.76015625,
+            "concentration": 0.2876088353066723,
+            "phase": 180.32216658875703
+          },
+          {
+            "origin": 181.15422355962733,
+            "scale": 3.75,
+            "concentration": 0.2869182314919161,
+            "phase": 181.15422355962733
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.006769366219943682,
+            "scale": 3.779513888888889,
+            "concentration": 0.32972873751574255,
+            "phase": -0.006769366219943682
+          },
+          {
+            "origin": -0.3762984206717024,
+            "scale": 3.7847222222222223,
+            "concentration": 0.3078434730330469,
+            "phase": -0.3762984206717024
+          },
+          {
+            "origin": 0.35359265774822785,
+            "scale": 3.7743055555555554,
+            "concentration": 0.3000092387403278,
+            "phase": 0.35359265774822785
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.8922886155957,
+      "scale": 3.7537944843267077,
+      "rms": 0.27746863033682295,
+      "points": 2242
+    },
+    "y": {
+      "origin": 0.09178954135853296,
+      "scale": 3.7783963573486123,
+      "rms": 0.2798092073949405,
+      "points": 6691
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 132,
+    "currentXPoints": 288,
+    "currentYPoints": 844
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001470.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70500211021326,
+        "originY": -0.06890958766600354,
+        "scaleX": 3.75546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70500211021326,
+            "scale": 3.75546875,
+            "concentration": 0.31651119227692803,
+            "phase": 180.70500211021326
+          },
+          {
+            "origin": 180.3221439206071,
+            "scale": 3.76015625,
+            "concentration": 0.2876091818263099,
+            "phase": 180.3221439206071
+          },
+          {
+            "origin": 181.15420719949373,
+            "scale": 3.75,
+            "concentration": 0.2869261108731583,
+            "phase": 181.15420719949373
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06890958766600354,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32969631017954054,
+            "phase": -0.06890958766600354
+          },
+          {
+            "origin": 0.29296806199250397,
+            "scale": 3.775173611111111,
+            "concentration": 0.3080088181569368,
+            "phase": 0.29296806199250397
+          },
+          {
+            "origin": -0.5024152559067319,
+            "scale": 3.7864583333333335,
+            "concentration": 0.29014480062494624,
+            "phase": -0.5024152559067319
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.8916827898818,
+      "scale": 3.7538007715339803,
+      "rms": 0.2766890138575182,
+      "points": 2257
+    },
+    "y": {
+      "origin": 0.0911682628473083,
+      "scale": 3.7784036850880747,
+      "rms": 0.2796233025563283,
+      "points": 6704
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 132,
+    "currentXPoints": 288,
+    "currentYPoints": 844
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001471.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70500211021326,
+        "originY": -0.06890958766600354,
+        "scaleX": 3.75546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70500211021326,
+            "scale": 3.75546875,
+            "concentration": 0.31651119227692803,
+            "phase": 180.70500211021326
+          },
+          {
+            "origin": 180.3221439206071,
+            "scale": 3.76015625,
+            "concentration": 0.2876091818263099,
+            "phase": 180.3221439206071
+          },
+          {
+            "origin": 181.15420719949373,
+            "scale": 3.75,
+            "concentration": 0.2869261108731583,
+            "phase": 181.15420719949373
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06890958766600354,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32969631017954054,
+            "phase": -0.06890958766600354
+          },
+          {
+            "origin": 0.29296806199250397,
+            "scale": 3.775173611111111,
+            "concentration": 0.3080088181569368,
+            "phase": 0.29296806199250397
+          },
+          {
+            "origin": -0.5024152559067319,
+            "scale": 3.7864583333333335,
+            "concentration": 0.29014480062494624,
+            "phase": -0.5024152559067319
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89153258630387,
+      "scale": 3.7538035874067517,
+      "rms": 0.2760291973743137,
+      "points": 2269
+    },
+    "y": {
+      "origin": 0.09055340044704835,
+      "scale": 3.778410916051869,
+      "rms": 0.27944302692042333,
+      "points": 6717
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 132,
+    "currentXPoints": 288,
+    "currentYPoints": 844
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001472.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70517249832062,
+        "originY": -0.006791193286225312,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70517249832062,
+            "scale": 3.75546875,
+            "concentration": 0.316320396625229,
+            "phase": 180.70517249832062
+          },
+          {
+            "origin": 180.3223770780152,
+            "scale": 3.76015625,
+            "concentration": 0.28743493606169446,
+            "phase": 180.3223770780152
+          },
+          {
+            "origin": 181.15433622263308,
+            "scale": 3.75,
+            "concentration": 0.28672189493143047,
+            "phase": 181.15433622263308
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.006791193286225312,
+            "scale": 3.779513888888889,
+            "concentration": 0.329738008586839,
+            "phase": -0.006791193286225312
+          },
+          {
+            "origin": -0.3763315862418201,
+            "scale": 3.7847222222222223,
+            "concentration": 0.30787158146728794,
+            "phase": -0.3763315862418201
+          },
+          {
+            "origin": 0.3535923722627619,
+            "scale": 3.7743055555555554,
+            "concentration": 0.29999934962283237,
+            "phase": 0.3535923722627619
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89136225311765,
+      "scale": 3.7538062434843873,
+      "rms": 0.27536028321142525,
+      "points": 2281
+    },
+    "y": {
+      "origin": 0.08947430912436116,
+      "scale": 3.7784203141916337,
+      "rms": 0.2795090869683844,
+      "points": 6729
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 132,
+    "currentXPoints": 288,
+    "currentYPoints": 844
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001473.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70517249832062,
+        "originY": -0.006791193286225312,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70517249832062,
+            "scale": 3.75546875,
+            "concentration": 0.316320396625229,
+            "phase": 180.70517249832062
+          },
+          {
+            "origin": 180.3223770780152,
+            "scale": 3.76015625,
+            "concentration": 0.28743493606169446,
+            "phase": 180.3223770780152
+          },
+          {
+            "origin": 181.15433622263308,
+            "scale": 3.75,
+            "concentration": 0.28672189493143047,
+            "phase": 181.15433622263308
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.006791193286225312,
+            "scale": 3.779513888888889,
+            "concentration": 0.329738008586839,
+            "phase": -0.006791193286225312
+          },
+          {
+            "origin": -0.3763315862418201,
+            "scale": 3.7847222222222223,
+            "concentration": 0.30787158146728794,
+            "phase": -0.3763315862418201
+          },
+          {
+            "origin": 0.3535923722627619,
+            "scale": 3.7743055555555554,
+            "concentration": 0.29999934962283237,
+            "phase": 0.3535923722627619
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89132728765242,
+      "scale": 3.7538080494548574,
+      "rms": 0.27485620953777495,
+      "points": 2290
+    },
+    "y": {
+      "origin": 0.08839522018484874,
+      "scale": 3.778429712218664,
+      "rms": 0.2795735240569805,
+      "points": 6741
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 132,
+    "currentXPoints": 288,
+    "currentYPoints": 844
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001474.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70514147042456,
+        "originY": -0.06879404284096027,
+        "scaleX": 3.75546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70514147042456,
+            "scale": 3.75546875,
+            "concentration": 0.3163047477000709,
+            "phase": 180.70514147042456
+          },
+          {
+            "origin": 180.32234674821353,
+            "scale": 3.76015625,
+            "concentration": 0.2874132908224097,
+            "phase": 180.32234674821353
+          },
+          {
+            "origin": 181.1543058029062,
+            "scale": 3.75,
+            "concentration": 0.28671584969704544,
+            "phase": 181.1543058029062
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06879404284096027,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32970725147619695,
+            "phase": -0.06879404284096027
+          },
+          {
+            "origin": 0.29310689284844865,
+            "scale": 3.775173611111111,
+            "concentration": 0.30804516408756044,
+            "phase": 0.29310689284844865
+          },
+          {
+            "origin": -0.5023536018668106,
+            "scale": 3.7864583333333335,
+            "concentration": 0.29012908446157215,
+            "phase": -0.5023536018668106
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.8915317112019,
+      "scale": 3.7538088953836573,
+      "rms": 0.27438441065671243,
+      "points": 2298
+    },
+    "y": {
+      "origin": 0.08837434576178771,
+      "scale": 3.778431412248812,
+      "rms": 0.2790546335769786,
+      "points": 6749
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 132,
+    "currentXPoints": 288,
+    "currentYPoints": 844
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001475.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70514147042456,
+        "originY": -0.06879404284096027,
+        "scaleX": 3.75546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70514147042456,
+            "scale": 3.75546875,
+            "concentration": 0.3163047477000709,
+            "phase": 180.70514147042456
+          },
+          {
+            "origin": 180.32234674821353,
+            "scale": 3.76015625,
+            "concentration": 0.2874132908224097,
+            "phase": 180.32234674821353
+          },
+          {
+            "origin": 181.1543058029062,
+            "scale": 3.75,
+            "concentration": 0.28671584969704544,
+            "phase": 181.1543058029062
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06879404284096027,
+            "scale": 3.7803819444444446,
+            "concentration": 0.32970725147619695,
+            "phase": -0.06879404284096027
+          },
+          {
+            "origin": 0.29310689284844865,
+            "scale": 3.775173611111111,
+            "concentration": 0.30804516408756044,
+            "phase": 0.29310689284844865
+          },
+          {
+            "origin": -0.5023536018668106,
+            "scale": 3.7864583333333335,
+            "concentration": 0.29012908446157215,
+            "phase": -0.5023536018668106
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89167547301653,
+      "scale": 3.753809765342725,
+      "rms": 0.2740457195046463,
+      "points": 2304
+    },
+    "y": {
+      "origin": 0.08834783474563553,
+      "scale": 3.7784326427391948,
+      "rms": 0.27853969368906345,
+      "points": 6752
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 132,
+    "currentXPoints": 288,
+    "currentYPoints": 844
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001476.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70516175971613,
+        "originY": -0.0068691296695264,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70516175971613,
+            "scale": 3.75546875,
+            "concentration": 0.31630921238997733,
+            "phase": 180.70516175971613
+          },
+          {
+            "origin": 180.32237322997872,
+            "scale": 3.76015625,
+            "concentration": 0.28742224717303266,
+            "phase": 180.32237322997872
+          },
+          {
+            "origin": 181.15431700890306,
+            "scale": 3.75,
+            "concentration": 0.28671349315865674,
+            "phase": 181.15431700890306
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.0068691296695264,
+            "scale": 3.779513888888889,
+            "concentration": 0.3297358990612473,
+            "phase": -0.0068691296695264
+          },
+          {
+            "origin": -0.3763862330139915,
+            "scale": 3.7847222222222223,
+            "concentration": 0.3078925563655941,
+            "phase": -0.3763862330139915
+          },
+          {
+            "origin": 0.35350735908192576,
+            "scale": 3.7743055555555554,
+            "concentration": 0.29997254127152306,
+            "phase": 0.35350735908192576
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89168070222706,
+      "scale": 3.753809790289178,
+      "rms": 0.27404493354679593,
+      "points": 2304
+    },
+    "y": {
+      "origin": 0.08833238147332949,
+      "scale": 3.778432899684592,
+      "rms": 0.27853278802649145,
+      "points": 6752
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 132,
+    "currentXPoints": 288,
+    "currentYPoints": 844
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001477.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70516175971613,
+        "originY": -0.0068691296695264,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70516175971613,
+            "scale": 3.75546875,
+            "concentration": 0.31630921238997733,
+            "phase": 180.70516175971613
+          },
+          {
+            "origin": 180.32237322997872,
+            "scale": 3.76015625,
+            "concentration": 0.28742224717303266,
+            "phase": 180.32237322997872
+          },
+          {
+            "origin": 181.15431700890306,
+            "scale": 3.75,
+            "concentration": 0.28671349315865674,
+            "phase": 181.15431700890306
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.0068691296695264,
+            "scale": 3.779513888888889,
+            "concentration": 0.3297358990612473,
+            "phase": -0.0068691296695264
+          },
+          {
+            "origin": -0.3763862330139915,
+            "scale": 3.7847222222222223,
+            "concentration": 0.3078925563655941,
+            "phase": -0.3763862330139915
+          },
+          {
+            "origin": 0.35350735908192576,
+            "scale": 3.7743055555555554,
+            "concentration": 0.29997254127152306,
+            "phase": 0.35350735908192576
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.8916807022269,
+      "scale": 3.75380979028918,
+      "rms": 0.27404493354679416,
+      "points": 2304
+    },
+    "y": {
+      "origin": 0.08831772817511463,
+      "scale": 3.778433029942779,
+      "rms": 0.2785281252170263,
+      "points": 6752
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 132,
+    "currentXPoints": 288,
+    "currentYPoints": 844
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001478.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70517302646857,
+        "originY": -0.06870070723950104,
+        "scaleX": 3.75546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70517302646857,
+            "scale": 3.75546875,
+            "concentration": 0.31632030010513923,
+            "phase": 180.70517302646857
+          },
+          {
+            "origin": 180.32237144080008,
+            "scale": 3.76015625,
+            "concentration": 0.2874339614561118,
+            "phase": 180.32237144080008
+          },
+          {
+            "origin": 181.1543463821407,
+            "scale": 3.75,
+            "concentration": 0.2867235280074168,
+            "phase": 181.1543463821407
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06870070723950104,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3297045631268322,
+            "phase": -0.06870070723950104
+          },
+          {
+            "origin": 0.2932123541247134,
+            "scale": 3.775173611111111,
+            "concentration": 0.3080735568930758,
+            "phase": 0.2932123541247134
+          },
+          {
+            "origin": -0.5023014694201099,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2900958884764226,
+            "phase": -0.5023014694201099
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.8916807022269,
+      "scale": 3.75380979028918,
+      "rms": 0.27404493354679416,
+      "points": 2304
+    },
+    "y": {
+      "origin": 0.08831772817563187,
+      "scale": 3.778433029942776,
+      "rms": 0.2785281252170193,
+      "points": 6752
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 132,
+    "currentXPoints": 288,
+    "currentYPoints": 844
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001479.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70517302646857,
+        "originY": -0.06870070723950104,
+        "scaleX": 3.75546875,
+        "scaleY": 3.7803819444444446
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70517302646857,
+            "scale": 3.75546875,
+            "concentration": 0.31632030010513923,
+            "phase": 180.70517302646857
+          },
+          {
+            "origin": 180.32237144080008,
+            "scale": 3.76015625,
+            "concentration": 0.2874339614561118,
+            "phase": 180.32237144080008
+          },
+          {
+            "origin": 181.1543463821407,
+            "scale": 3.75,
+            "concentration": 0.2867235280074168,
+            "phase": 181.1543463821407
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.06870070723950104,
+            "scale": 3.7803819444444446,
+            "concentration": 0.3297045631268322,
+            "phase": -0.06870070723950104
+          },
+          {
+            "origin": 0.2932123541247134,
+            "scale": 3.775173611111111,
+            "concentration": 0.3080735568930758,
+            "phase": 0.2932123541247134
+          },
+          {
+            "origin": -0.5023014694201099,
+            "scale": 3.7864583333333335,
+            "concentration": 0.2900958884764226,
+            "phase": -0.5023014694201099
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89168070222695,
+      "scale": 3.75380979028918,
+      "rms": 0.27404493354678977,
+      "points": 2304
+    },
+    "y": {
+      "origin": 0.08831772817004559,
+      "scale": 3.7784330299428324,
+      "rms": 0.278528125217023,
+      "points": 6752
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 132,
+    "currentXPoints": 288,
+    "currentYPoints": 844
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001480.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70513874532062,
+        "originY": -0.007057227474508375,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70513874532062,
+            "scale": 3.75546875,
+            "concentration": 0.3163074425137769,
+            "phase": 180.70513874532062
+          },
+          {
+            "origin": 180.32234834437259,
+            "scale": 3.76015625,
+            "concentration": 0.28741657466997056,
+            "phase": 180.32234834437259
+          },
+          {
+            "origin": 181.1542952597421,
+            "scale": 3.75,
+            "concentration": 0.2867171706826811,
+            "phase": 181.1542952597421
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.007057227474508375,
+            "scale": 3.779513888888889,
+            "concentration": 0.329730830677153,
+            "phase": -0.007057227474508375
+          },
+          {
+            "origin": -0.37651808829774497,
+            "scale": 3.7847222222222223,
+            "concentration": 0.3079431881697937,
+            "phase": -0.37651808829774497
+          },
+          {
+            "origin": 0.3533021234565829,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2999078660498443,
+            "phase": 0.3533021234565829
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.89168070222706,
+      "scale": 3.753809790289178,
+      "rms": 0.27404493354679593,
+      "points": 2304
+    },
+    "y": {
+      "origin": 0.08831772816966628,
+      "scale": 3.778433029942834,
+      "rms": 0.27852812521702264,
+      "points": 6752
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 132,
+    "currentXPoints": 288,
+    "currentYPoints": 844
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001481.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.70513874532062,
+        "originY": -0.007057227474508375,
+        "scaleX": 3.75546875,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.70513874532062,
+            "scale": 3.75546875,
+            "concentration": 0.3163074425137769,
+            "phase": 180.70513874532062
+          },
+          {
+            "origin": 180.32234834437259,
+            "scale": 3.76015625,
+            "concentration": 0.28741657466997056,
+            "phase": 180.32234834437259
+          },
+          {
+            "origin": 181.1542952597421,
+            "scale": 3.75,
+            "concentration": 0.2867171706826811,
+            "phase": 181.1542952597421
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": -0.007057227474508375,
+            "scale": 3.779513888888889,
+            "concentration": 0.329730830677153,
+            "phase": -0.007057227474508375
+          },
+          {
+            "origin": -0.37651808829774497,
+            "scale": 3.7847222222222223,
+            "concentration": 0.3079431881697937,
+            "phase": -0.37651808829774497
+          },
+          {
+            "origin": 0.3533021234565829,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2999078660498443,
+            "phase": 0.3533021234565829
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.8916807022269,
+      "scale": 3.75380979028918,
+      "rms": 0.27404493354679416,
+      "points": 2304
+    },
+    "y": {
+      "origin": 0.08831772817511463,
+      "scale": 3.778433029942779,
+      "rms": 0.2785281252170263,
+      "points": 6752
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 132,
+    "currentXPoints": 288,
+    "currentYPoints": 844
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001482.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001483.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001484.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001485.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001486.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  },
+  {
+    "input": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001487.png",
+    "initial": {
+      "located": false,
+      "method": "no_supported_grid",
+      "envelope": []
+    }
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "reviewId": "gt-observation-corrections-v4",
+  "message": "如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论",
+  "basis": "Direct user conditional authorization, satisfied by full event original-image double review. Not subsequent user review of this version; not human per-frame certification.",
+  "changes": [
+    {
+      "id": "safari-warden-npc",
+      "frames": [
+        4496,
+        4497,
+        4498,
+        4499,
+        4500,
+        4501,
+        4502,
+        4503,
+        4504,
+        4505,
+        4506,
+        4507,
+        4508,
+        4509,
+        4510,
+        4511,
+        4512,
+        4513,
+        4514,
+        4515,
+        4516,
+        4517,
+        4518,
+        4519,
+        4520,
+        4521
+      ],
+      "oldGt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/safari-warden-npc/ocr-candidate-v1.jsonl",
+        "sha256": "a2c35ef8d6192ac3a067f7ca2105218960235e6aeb1352d6d5f8165f251bdc88"
+      },
+      "correctedGt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v4/safari-warden-npc/ocr-candidate-v2.jsonl",
+        "sha256": "28e541e118f35e9467037d4c5f662ef0f33a4478019f53f8c6350cd4a6cf6aae"
+      }
+    }
+  ],
+  "limitations": [
+    {
+      "mediaId": "video-04",
+      "impact": "整个背包退出事件不冻结/不宣称通过；该原帧保留，不能计作空文字成功",
+      "uncertainFrames": [
+        5359
+      ],
+      "checks": [
+        "首遍原上下文逐帧及直接放大",
+        "第二次原视频重解码及原像素光标条带",
+        "再次查看5358-5362独立原图，仍不能可靠区分被遮基础字形"
+      ],
+      "source": "data/frames/video-04/all-scenes-backpack-pass2-v1",
+      "layout": "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/layout-v1.json",
+      "id": "backpack-exit-occluded",
+      "status": "pending_not_proposed_for_freeze",
+      "range": [
+        5358,
+        5363
+      ],
+      "reason": "5359退出重绘时玩家精灵遮住やめる末字基础字形，残余道具行也被背景/菜单改写；仅凭5358前帧和5360后帧不能恢复当帧答案"
+    },
+    {
+      "id": "versions-and-sessions",
+      "status": "pending",
+      "reason": "只有video01 HOME红版图标有版本证据；其余版本/来源关系与独立会话无法证实，全部候选development，独立acceptance集合为空；M4继续待验证，不要求补录"
+    },
+    {
+      "id": "unselected-source",
+      "status": "unverified",
+      "reason": "未选原帧范围按四录像总账本补集逐段列出；候选通过不等于整个录像、版本或游戏通过"
+    },
+    {
+      "id": "real-window-and-ui",
+      "status": "pending",
+      "reason": "真实投屏前台/后台/遮挡/最小化/无效帧、Windows10兼容、实际UI延迟和长时稳定性尚无实测证据"
+    },
+    {
+      "id": "review-browser-render",
+      "status": "pending",
+      "reason": "内置浏览器曾明确拒绝file协议且禁止绕过；本包仅做静态/控件检查，实际浏览器呈现未验证，请直接在本机打开入口文件"
+    },
+    {
+      "id": "status-alt-3541-mark",
+      "status": "pending_semantic_confirmation",
+      "mediaId": "video-03",
+      "frames": [
+        3541
+      ],
+      "reason": "Incomplete upper mark remains unresolved after both new original-image readings. Existing historical annotation remains in the denominator. No newly frozen conclusion or pass is granted for this frame."
+    },
+    {
+      "id": "remaining-annotation-audit",
+      "status": "pending",
+      "reason": "Other previously recorded field-role/order/Unicode and raw-image doubts are unchanged, not resolved by these six corrections. Complete dataset semantic integrity and OCR gates remain unpassed."
+    }
+  ]
+}

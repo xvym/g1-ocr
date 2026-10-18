@@ -1,0 +1,180 @@
+{
+  "files": [
+    {
+      "sha256": "0b6ac143bd41dbf3681d78f953eb33809a6ade91b6c7334041c1ff6bd6c46862",
+      "bytes": 2227,
+      "path": "verification/src/test/java/io/github/g1ocr/verification/PageOpportunitiesTest.java"
+    },
+    {
+      "sha256": "6f36d3b071b6ac37b1523ca512b47d793f765abf12b711d721f9f350b426df44",
+      "bytes": 1449,
+      "path": "verification/src/test/java/io/github/g1ocr/verification/LedgerTest.java"
+    },
+    {
+      "sha256": "51c454798df721a3d5e4180a976a1f49a9605fd4fbc85dd2066a08bddb2107e5",
+      "bytes": 4454,
+      "path": "verification/src/test/java/io/github/g1ocr/verification/GtGeometryTest.java"
+    },
+    {
+      "sha256": "2064c031d608770ff7af2006221632463ff283f856f8ab0e325bcd885f3c86f3",
+      "bytes": 3154,
+      "path": "verification/src/test/java/io/github/g1ocr/verification/GridProjectionTest.java"
+    },
+    {
+      "sha256": "9b6881c0925ccb7dbeb48f03b14ce91790b0f7d52c0fb76bc59caaee919fabf9",
+      "bytes": 20893,
+      "path": "verification/src/main/java/io/github/g1ocr/verification/VideoTool.java"
+    },
+    {
+      "sha256": "792daa2ba6ffd0f0af6f1bfcbf9cb2955c599c507c353aefbd70e2d2b7c749ac",
+      "bytes": 2165,
+      "path": "verification/src/main/java/io/github/g1ocr/verification/PageOpportunities.java"
+    },
+    {
+      "sha256": "c6ad289c5c0085af15f463631ded28c1d7c25ca2bb6006004f5d2aeba8f987c1",
+      "bytes": 1203,
+      "path": "verification/src/main/java/io/github/g1ocr/verification/Ledger.java"
+    },
+    {
+      "sha256": "0b17d8a0c0c261d2bf2d437ab0690166fcb1595ddc20879211438d4a7ee37694",
+      "bytes": 7675,
+      "path": "verification/src/main/java/io/github/g1ocr/verification/GtIntegrity.java"
+    },
+    {
+      "sha256": "31d04930e147f68b18ffb2e3978793e04cc86bdb1bdaf88262316e6b4a869bd2",
+      "bytes": 7116,
+      "path": "verification/src/main/java/io/github/g1ocr/verification/GtGeometry.java"
+    },
+    {
+      "sha256": "e35241e3df7bd7aaa706b2a2f45d3062f0a98e14d7cfdc19e0dd9eb12f36edbe",
+      "bytes": 3677,
+      "path": "verification/src/main/java/io/github/g1ocr/verification/GridProjection.java"
+    },
+    {
+      "sha256": "a68d73519810cedb78b312788582bf52c75e837a7486f7d72f2701f6a1fb7d82",
+      "bytes": 4840,
+      "path": "verification/src/main/java/io/github/g1ocr/verification/FrameInspection.java"
+    },
+    {
+      "sha256": "ca32f0e3639fdca38582fda020f9dbfe92d81cbafd19fbcd379500e58f684998",
+      "bytes": 688,
+      "path": "verification/pom.xml"
+    },
+    {
+      "sha256": "b8fc9aedcc405046e9417b72cf3a302c32d72a962f58b9f6139507a04cb5cec0",
+      "bytes": 750,
+      "path": "tools/validate.ps1"
+    },
+    {
+      "sha256": "e7a73d1cdd7a335d1e2e6ab607d67666a2d68a23aeb393d3200f1568bb0e119c",
+      "bytes": 5034,
+      "path": "tools/record-shop-rejection-first-v1.ps1"
+    },
+    {
+      "sha256": "41d58227253b400c30afbdbb44438842746d4fd2138d063e26e1ad6a698e869f",
+      "bytes": 7359,
+      "path": "tools/record-shop-first-v1.ps1"
+    },
+    {
+      "sha256": "8c0b92dd654e954541fd804028a9075b98e0974bf57463d6881d6b8ce7957e6f",
+      "bytes": 8745,
+      "path": "tools/record-pc-deposit-first-v1.ps1"
+    },
+    {
+      "sha256": "e264e3b995ec5f69cd1503bafe0201589a4b6c4684ce9880e16e6bf747345f36",
+      "bytes": 4675,
+      "path": "tools/record-party-first-v1.ps1"
+    },
+    {
+      "sha256": "8fb8e7b1ef3f158f4a5c7fd11360f71a2e8467dad1d1358bf5dd2aa2a760c353",
+      "bytes": 4829,
+      "path": "tools/record-exploration-npc-v1.ps1"
+    },
+    {
+      "sha256": "509011cc7d0981be950d91a5113d144a1c4ff1436d75df08f9c000f8f68248a9",
+      "bytes": 4154,
+      "path": "tools/record-backpack-opening-first-v1.ps1"
+    },
+    {
+      "sha256": "59927c3d99f4de436849c48ce0c7a8b1bf3a6ed84b5290c60ec847e15b8e65c9",
+      "bytes": 8685,
+      "path": "tools/prepare-all-scenes-review-v1.ps1"
+    },
+    {
+      "sha256": "0e156937e2bce5febf74657cd786a2fccdd08735ca50e1130e4eae36762b66e3",
+      "bytes": 4802,
+      "path": "tools/encode-visible-gt.ps1"
+    },
+    {
+      "sha256": "46d5d737833cc70e605fa361842b7047ee87c242a86f9e844045e655083cd984",
+      "bytes": 3264,
+      "path": "tools/encode-manual-gt.ps1"
+    },
+    {
+      "sha256": "c79ed969527ab9f2b24edf4c0fd18535ee240f5a11262f0f736834196c8a1c70",
+      "bytes": 3907,
+      "path": "tools/check-gt-review.cjs"
+    },
+    {
+      "sha256": "6664c21ceaa7a78a270cfe9f6bf12b7c5eea2ebb4096c75088bde04c1b04c891",
+      "bytes": 9686,
+      "path": "tools/check-all-scenes-review.cjs"
+    },
+    {
+      "sha256": "e8d7018438469bd373df06a5347a6dc5077b0eb2c5ab857e4187458b84ee663a",
+      "bytes": 18781,
+      "path": "tools/build-gt-review.ps1"
+    },
+    {
+      "sha256": "75232ddb3243c10f1efa407d01ae393502b0090f88c44e52d6ea220dfc084726",
+      "bytes": 15162,
+      "path": "tools/build-gt-batch-review.ps1"
+    },
+    {
+      "sha256": "5ce77df6f27e16a8b1f63ca95874642a30f5d8f9c7d346b321fbd36d83ce86e8",
+      "bytes": 6468,
+      "path": "tools/build-all-scenes-review.ps1"
+    },
+    {
+      "sha256": "b09392a5233f8c1bbd8306106374fc1ac1d787469c6c98ead4a0bf9d56076243",
+      "bytes": 13215,
+      "path": "tools/all-scenes-review-template.html"
+    },
+    {
+      "sha256": "3040082b583b959facddd04e955e9e83aaa42a26fbcf6d2c37f2208cca8c2ff7",
+      "bytes": 1700,
+      "path": "pom.xml"
+    },
+    {
+      "sha256": "12f084ffe49df8b03f36b368d85a0c7e8e621042ad0fd974eb2cb52bb4460b90",
+      "bytes": 825,
+      "path": "app/pom.xml"
+    },
+    {
+      "sha256": "1c6920def1606f71c9000fc6f5d463b19c30cebd7d3b140b1e105b2362481f16",
+      "bytes": 1186,
+      "path": "app/src/test/java/io/github/g1ocr/capture/SourceFrameTest.java"
+    },
+    {
+      "sha256": "570035247cf5073bb18c876c984133e2722b822fec66acccf33a15f045b91699",
+      "bytes": 769,
+      "path": "app/src/main/java/io/github/g1ocr/Main.java"
+    },
+    {
+      "sha256": "4fc95ad0eb997fe4164d9ebeb039f7336ee4b574b1b77fa126e35603a624065e",
+      "bytes": 1471,
+      "path": "app/src/main/java/io/github/g1ocr/capture/SourceFrame.java"
+    },
+    {
+      "sha256": "2abcd13d05dc07d4d5411479769435d346dc38527a9bdb57f0535fbcb8bf9739",
+      "bytes": 510,
+      "path": "app/src/main/java/io/github/g1ocr/BootstrapWindow.java"
+    }
+  ],
+  "scope": "Current application/verification source, tests and offline/review tools; generated GT and evidence identified separately",
+  "productOcrExists": false,
+  "checkedAt": "2026-10-15T12:28:42.3618638+08:00",
+  "buildLog": "reports/m2-all-scenes-format-v1/maven-test-two-arrows-v1.log",
+  "gitHead": "284b0715fcd9ed1973cb4b775e9caa990c0e6ace",
+  "tests": 35
+}

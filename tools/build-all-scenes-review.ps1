@@ -47,6 +47,12 @@ foreach($p in @($batchData.additionalEvidence)){
 }
 Save "$root/review-data.json" $data
 $template=Get-Content -Raw (Join-Path $PSScriptRoot 'all-scenes-review-template.html')
+if($batchData.metadataAmendment){
+ $template=$template.Replace('<h1>全部场景日文 GT</h1>','<h1>商店 GT 单帧元数据修订</h1>')
+ $from='<p class="note">你负责审阅和批准这版候选，无需承担日常标注。背包退出时的一帧遮挡、独立会话与版本证据不足等仍明确待验证；批准不能替代这些证据。既有已批准的 35 帧只作原样参考，不重复申请批准。</p>'
+ $to='<p class="note">本包只修订 video-03:1439 的字段角色、阅读顺序和空文本框状态标签。文字、坐标、时间、评分范围及已批准契约 v5 保持。整个32帧拒售事件保留，其他三个商店事件是原批准参考；其他场景批准保持。<a href="change-overview.html">查看修订对照与内嵌原图（安卓无需相对图片路径）</a>。</p>'
+ $template=$template.Replace($from,$to).Replace('的拟冻结候选范围及评分契约 v5','的单帧元数据修订（评分契约 v5 保持）')
+}
 $json=$data|ConvertTo-Json -Depth 45 -Compress
 [IO.File]::WriteAllText("$root/index.html",$template.Replace('__REVIEW_ID__',$batchData.reviewId).Replace('__DATA__',$json.Replace('</','<\/')),[Text.UTF8Encoding]::new($false))
 Write-Host 'Payload prepared; run check-all-scenes-review.cjs for independent checks and final manifest'

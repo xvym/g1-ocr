@@ -1,0 +1,31 @@
+{
+  "status": "independent_raw_edit_counts_agree_not_OCR_acceptance",
+  "inputReport": {
+    "path": "reports/m3-grid-refinement-v1/ocr-edge-v2-skills-turn/comparison/report.json",
+    "sha256": "74b636920a63d802f5769203cddc4c301f58052daf8602058de9b47a2233e875"
+  },
+  "frameReferences": 104,
+  "uniqueSourceFrames": 104,
+  "characters": 4832,
+  "errors": 208,
+  "frameCharacterAccuracy": 0.956953642384106,
+  "clips": [
+    {
+      "clipId": "skills-turn",
+      "characters": 4832,
+      "errors": 208,
+      "framesWithTextErrors": 13
+    }
+  ],
+  "frequentDifferences": [
+    {
+      "difference": "extra_region|battle_message:14:11:13||たたかう どうぐ",
+      "frames": 13
+    },
+    {
+      "difference": "extra_region|battle_message:16:11:14||ポケモン にげる",
+      "frames": 13
+    }
+  ],
+  "scope": "Independent source-frame association and Unicode scalar edit counts; strict region keys unchanged. Geometry, state, page/UI and independent-session gates remain separate."
+}

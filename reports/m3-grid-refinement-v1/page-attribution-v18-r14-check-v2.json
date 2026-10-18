@@ -1,0 +1,26 @@
+{
+  "status": "page_attribution_cross_check_passed_not_product_acceptance",
+  "report": {
+    "path": "reports/m3-grid-refinement-v1/page-attribution-v18-r14-v3/report.json",
+    "sha256": "0a1e66fccc381fb0928d715c74a9dd0116a5988047f3c01470b1914d5a368360"
+  },
+  "checker": {
+    "path": "tools/check-page-attribution.cjs",
+    "sha256": "8cd515a2bd5db9c4f1afd879a29dc36a31a4504ba31cc5bb7d9cf434dea23428"
+  },
+  "pages": 116,
+  "aliasesBeforeOverlapDeduplication": 117,
+  "scoredReferences": 3368,
+  "uniqueScoredFrames": 3361,
+  "rawStrictPages": 7,
+  "finalStrictPages": 7,
+  "rawTextOnlyDiagnosticPages": 97,
+  "finalTextOnlyDiagnosticPages": 98,
+  "sourceOnlyReferencesChecked": 2565,
+  "htmlRows": 116,
+  "linksChecked": 489,
+  "htmlFilters": "all/failed/passed/no-match verified in DOM stub",
+  "actualBrowserRendering": "not verified",
+  "immutableInputHashesRechecked": 564,
+  "productAcceptance": false
+}

@@ -1,0 +1,178 @@
+{
+  "status": "diagnosis_not_new_blind_read",
+  "originals": [
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1660,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001660.png",
+      "sha256": "627b9c4cea903a1a94865d109ae4bacafb1d5fe25186a705e7e650242a1cc313"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1697,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001697.png",
+      "sha256": "8258440993cc0b0e4606ba553114b0aa8124acb14eed31d187caeac5b414f4a6"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1707,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001707.png",
+      "sha256": "1ed9b6bc94d85a76d6397fab1918f6a2fd3fa15854a4297311239cd676270d20"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1714,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001714.png",
+      "sha256": "e3287f03856fd806daecb74dcefc067b8b8a02c76e1e31a33f1b5964d42da21b"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1715,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001715.png",
+      "sha256": "4fd63e560ed00ddc505cb3327741c202c4285ce1fac2c7a6e26a0439baf4213a"
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1724,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001724.png",
+      "sha256": "fe83be2fb026d0ad686079844d027709c6ad1e9cdbc9849e7a86b77feef497b2"
+    },
+    {
+      "clip": "shop-buy-navigation",
+      "frame": 859,
+      "path": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000859.png",
+      "sha256": "9cfbb9632b443fe868a0612a678d73cdbb2c4774fe0ac34a1debc181ac961d9b"
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1069,
+      "path": "data/frames/video-03/shop-sell-contract-pass2-v1/frame-001069.png",
+      "sha256": "523ed535aad32ddd5e77d8fa896243fa76d02c01ab2a432af3bc4fa7b85c9f22"
+    }
+  ],
+  "errors": [
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1660,
+      "pts": 849920,
+      "expected": "submenu_cursor_loading",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 44,
+      "actualCharacters": 44
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1673,
+      "pts": 856576,
+      "expected": "cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 44,
+      "actualCharacters": 44
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1688,
+      "pts": 864256,
+      "expected": "dual_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 44,
+      "actualCharacters": 44
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1697,
+      "pts": 868864,
+      "expected": "scroll_partial_redraw",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 47,
+      "actualCharacters": 47
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1706,
+      "pts": 873472,
+      "expected": "scroll_duplicate_row",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 48,
+      "actualCharacters": 48
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1707,
+      "pts": 873984,
+      "expected": "cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 50,
+      "actualCharacters": 50
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1714,
+      "pts": 877568,
+      "expected": "cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 52,
+      "actualCharacters": 52
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1715,
+      "pts": 878080,
+      "expected": "cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 52,
+      "actualCharacters": 52
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1724,
+      "pts": 882688,
+      "expected": "scroll_partial_redraw",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 50,
+      "actualCharacters": 50
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "frame": 1736,
+      "pts": 888832,
+      "expected": "cursor_transition",
+      "actual": "message_loading",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 43,
+      "actualCharacters": 43
+    },
+    {
+      "clip": "shop-buy-navigation",
+      "frame": 859,
+      "pts": 439808,
+      "expected": "scroll_cursor_transition",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 84,
+      "actualCharacters": 84
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frame": 1069,
+      "pts": 547328,
+      "expected": "submenu_cursor_loading",
+      "actual": "menu_complete",
+      "geometryMethod": "palette_and_phase_current_pixel_registration",
+      "expectedCharacters": 59,
+      "actualCharacters": 59
+    }
+  ],
+  "observation": "Closed child list without its cursor does not identify a unique transition. First opening and later navigation differ. PC1714/1715 currently have four distinct item lines and frozen kind cursor_transition; do not confuse pair-level diagnostic examples with frame-specific labels.",
+  "next": "Inspect remaining transition frames and neighboring originals before generalizing list selection tracking. No frame IDs or strings in runtime.",
+  "gtChanged": false
+}

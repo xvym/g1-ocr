@@ -1,0 +1,18 @@
+[
+  {
+    "sourceFrameIndex": 3541,
+    "sourcePts": 1812992,
+    "stateId": "9c8aee036f72-f3541-f3612",
+    "expectedCharacters": 94,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "pokemon_name:1:11:0",
+        "expected": "ウツボット",
+        "actual": "ウツホット",
+        "errors": 1
+      }
+    ]
+  }
+]

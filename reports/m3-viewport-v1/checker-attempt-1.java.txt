@@ -1,0 +1,111 @@
+package io.github.g1ocr.verification;
+
+import com.google.gson.*;
+import io.github.g1ocr.capture.SourceFrame;
+import io.github.g1ocr.ocr.GameViewportLocator;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.*;
+import java.util.*;
+
+/** Independent geometric comparison. Answers never cross the pixel consumer boundary. */
+final class ViewportCheck {
+    static void check(Path frozen,String selection,Path output) throws Exception {
+        FrozenDataset data=new FrozenDataset(frozen);
+        FrozenDataset.require(!Files.exists(output),"Use a new viewport report directory");Files.createDirectories(output);
+        JsonArray reports=new JsonArray();long total=0,scored=0,geometry=0,exact=0,missed=0,black=0,blackRejected=0;
+        Map<String,JsonObject> unique=new LinkedHashMap<>();
+        for(FrozenDataset.Clip clip:data.selected(selection)) {
+            Path actualPath=output.resolve(clip.id+"-actual.jsonl");
+            try(final BufferedWriter actual=Files.newBufferedWriter(actualPath,StandardCharsets.UTF_8,StandardOpenOption.CREATE_NEW)) {
+                ReplayTimeline.Consumer consumer=new ReplayTimeline.Consumer(){
+                    GameViewportLocator locator;
+                    public void reset(){locator=new GameViewportLocator();}
+                    public void accept(SourceFrame frame)throws Exception {
+                        long begin=System.nanoTime();GameViewportLocator.Result r=locator.locate(frame);
+                        JsonObject row=new JsonObject();row.addProperty("pts",frame.getPts());
+                        row.addProperty("status",r.status.name());row.add("paletteEnvelope",array(r.copyEnvelope()));
+                        row.addProperty("originX",r.originX);row.addProperty("originY",r.originY);
+                        row.addProperty("scaleX",r.scaleX);row.addProperty("scaleY",r.scaleY);
+                        row.addProperty("gridStrengthX",r.gridStrengthX);row.addProperty("gridStrengthY",r.gridStrengthY);
+                        row.addProperty("processingNanos",System.nanoTime()-begin);
+                        actual.write(row.toString());actual.newLine();
+                    }
+                };
+                JsonObject transport=ReplayTimeline.replay(clip,Paths.get("data/meta/m1-v1"),false,consumer,ReplayTimeline.SYSTEM_CLOCK,output.resolve(clip.id+"-timeline.jsonl"));
+                VideoTool.save(output.resolve(clip.id+"-transport.json"),transport);
+            }
+            // Only after actual output is closed, load frozen geometry and GT states.
+            JsonObject layout=VideoTool.readJson(clip.layoutPath);List<JsonObject> states=FrozenDataset.rows(clip.gtPath);
+            List<JsonObject> actual=FrozenDataset.rows(actualPath),timeline=FrozenDataset.rows(output.resolve(clip.id+"-timeline.jsonl"));
+            FrozenDataset.require(actual.size()==timeline.size(),"Viewport output frame count mismatch");
+            int clipGeometry=0,clipExact=0,clipMissed=0,clipBlack=0,clipBlackRejected=0,shiftFrames=0,maxError=0;
+            Map<String,Integer> statuses=new TreeMap<>();
+            try(BufferedWriter comparisons=Files.newBufferedWriter(output.resolve(clip.id+"-comparison.jsonl"),StandardCharsets.UTF_8,StandardOpenOption.CREATE_NEW)) {
+                for(int i=0;i<actual.size();i++) {
+                    JsonObject a=actual.get(i),t=timeline.get(i);int n=t.get("sourceFrameIndex").getAsInt();
+                    FrozenDataset.require(a.get("pts").equals(t.get("sourcePts")),"Viewport result source PTS mismatch");
+                    total++;String status=a.get("status").getAsString();statuses.put(status,statuses.getOrDefault(status,0)+1);
+                    JsonObject cmp=new JsonObject();cmp.addProperty("sourceFrameIndex",n);cmp.addProperty("pts",a.get("pts").getAsLong());
+                    cmp.addProperty("rgbSha256",t.get("rgbSha256").getAsString());cmp.addProperty("scored",t.get("scored").getAsBoolean());cmp.addProperty("actualStatus",status);
+                    cmp.addProperty("framePath",clip.frameDirectory.resolve(String.format(Locale.ROOT,"frame-%06d.png",n)).toString().replace('\\','/'));
+                    cmp.addProperty("previousFramePath",i==0?null:clip.frameDirectory.resolve(String.format(Locale.ROOT,"frame-%06d.png",n-1)).toString().replace('\\','/'));
+                    cmp.addProperty("nextFramePath",i+1==actual.size()?null:clip.frameDirectory.resolve(String.format(Locale.ROOT,"frame-%06d.png",n+1)).toString().replace('\\','/'));
+                    if(t.get("scored").getAsBoolean()) {
+                        scored++;JsonObject state=null;for(JsonObject s:states)if(n>=s.get("startFrame").getAsInt() && n<s.get("endFrameExclusive").getAsInt())state=s;
+                        FrozenDataset.require(state!=null,"Scored viewport frame missing frozen state");
+                        cmp.addProperty("stateId",state.get("stateId").getAsString());
+                        if(layout.has("sourceGameRect") && !layout.get("sourceGameRect").isJsonNull()) {
+                            geometry++;clipGeometry++;boolean located="LOCATED".equals(status);
+                            int[] offset=state.has("renderOffsetLogicalPixels")?ints(state.getAsJsonArray("renderOffsetLogicalPixels")):new int[]{0,0};
+                            if(offset[0]!=0||offset[1]!=0)shiftFrames++;
+                            int error=located?boundaryError(a,layout,offset):-1;
+                            cmp.add("expectedNominalRect",layout.get("sourceGameRect"));cmp.add("expectedRenderOffsetLogicalPixels",array(offset));
+                            cmp.addProperty("maxPixelBoundaryError",error);cmp.addProperty("exactGeometry",located && error==0);
+                            if(located && error==0){exact++;clipExact++;}else if(!located){missed++;clipMissed++;}else maxError=Math.max(maxError,error);
+                            cmp.addProperty("comparison","all_visible_logical_pixel_start_floor_end_ceil_boundaries_including_render_offset");
+                        } else cmp.addProperty("comparison","no_frozen_grid_assertion_not_a_geometry_success");
+                        // Exact black is an existing zero-RGB source fact, not inferred from the locator.
+                        if("NO_SIGNAL".equals(status)) {
+                            java.awt.image.BufferedImage im=javax.imageio.ImageIO.read(clip.frameDirectory.resolve(String.format(Locale.ROOT,"frame-%06d.png",n)).toFile());
+                            boolean zero=true;for(byte b:ReplayTimeline.rgb(im))if(b!=0){zero=false;break;}
+                            if(zero){black++;clipBlack++;blackRejected++;clipBlackRejected++;cmp.addProperty("exactBlackRejected",true);}
+                        }
+                        String key=clip.clip.get("mediaId").getAsString()+":"+n;
+                        JsonObject old=unique.put(key,cmp);if(old!=null)FrozenDataset.require(old.get("actualStatus").equals(cmp.get("actualStatus")) && Objects.equals(old.get("exactGeometry"),cmp.get("exactGeometry")),"Overlapping viewport runs disagree");
+                    }
+                    comparisons.write(cmp.toString());comparisons.newLine();
+                }
+            }
+            JsonObject r=new JsonObject();r.addProperty("clipId",clip.id);r.addProperty("retainedFrames",actual.size());r.addProperty("frozenGeometryFrames",clipGeometry);r.addProperty("exactGeometryFrames",clipExact);r.addProperty("unlocatedGeometryFrames",clipMissed);r.addProperty("maxLocatedBoundaryErrorPixels",maxError);r.addProperty("renderOffsetFrames",shiftFrames);r.addProperty("exactBlackFrames",clipBlack);r.addProperty("exactBlackRejected",clipBlackRejected);r.add("statuses",new Gson().toJsonTree(statuses));
+            r.addProperty("actualSha256",VideoTool.sha(actualPath));r.addProperty("gtSha256",VideoTool.sha(clip.gtPath));r.addProperty("layoutSha256",VideoTool.sha(clip.layoutPath));reports.add(r);
+            System.out.println("Viewport: "+clip.id+" exact="+clipExact+"/"+clipGeometry+" missing="+clipMissed+" maxError="+maxError);
+        }
+        JsonObject report=new JsonObject();report.addProperty("status",geometry>0 && exact==geometry?"frozen_development_geometry_passed_not_ocr_acceptance":"development_geometry_failed_not_ocr_acceptance");
+        report.addProperty("freezeSha256",VideoTool.sha(frozen.resolve("freeze.json")));report.addProperty("retainedFrameReferences",total);report.addProperty("scoredFrameReferences",scored);report.addProperty("uniqueScoredFrames",unique.size());report.addProperty("frozenGeometryFrameReferences",geometry);report.addProperty("exactGeometryFrameReferences",exact);report.addProperty("unlocatedGeometryFrameReferences",missed);report.addProperty("exactBlackFrames",black);report.addProperty("exactBlackRejected",blackRejected);
+        report.add("scope",data.envelope.get("summary"));report.add("clips",reports);
+        report.addProperty("consumerInput","RGB24,width,height,integerPTS,timeBase only; defaults; no GT/layout/clip/source identity");
+        report.addProperty("limitations","Development material only. No text OCR, no UI latency evidence, no independent session acceptance. No game geometry is asserted in non-target-only frozen GT.");
+        VideoTool.save(output.resolve("report.json"),report);
+        FrozenDataset.require(exact==geometry,"Viewport geometry mismatch; all outputs and failures retained in "+output);
+    }
+    static int boundaryError(JsonObject a,JsonObject layout,int[] offset) {
+        int max=0;boolean axis=layout.has("sourceScaleXNumerator");
+        for(int d=0;d<2;d++) {
+            double actualOrigin=a.get(d==0?"originX":"originY").getAsDouble(),actualScale=a.get(d==0?"scaleX":"scaleY").getAsDouble();
+            int origin=layout.getAsJsonArray("sourceOrigin").get(d).getAsInt();
+            int num=layout.get(axis?(d==0?"sourceScaleXNumerator":"sourceScaleYNumerator"):"sourceScaleNumerator").getAsInt();
+            int den=layout.get(axis?(d==0?"sourceScaleXDenominator":"sourceScaleYDenominator"):"sourceScaleDenominator").getAsInt();
+            int size=d==0?160:144;
+            for(int p=0;p<=size;p++)if(p+offset[d]>=0 && p+offset[d]<=size) {
+                long value=(long)(p+offset[d])*num;
+                int expectedStart=origin+(int)(value/den),expectedEnd=origin+(int)((value+den-1)/den);
+                max=Math.max(max,Math.abs((int)Math.floor(actualOrigin+p*actualScale+1e-7)-expectedStart));
+                max=Math.max(max,Math.abs((int)Math.ceil(actualOrigin+p*actualScale-1e-7)-expectedEnd));
+            }
+        }
+        return max;
+    }
+    private static JsonArray array(int[] a){JsonArray out=new JsonArray();for(int v:a)out.add(v);return out;}
+    private static int[] ints(JsonArray a){int[] out=new int[a.size()];for(int i=0;i<a.size();i++)out[i]=a.get(i).getAsInt();return out;}
+}

@@ -1,0 +1,31 @@
+{
+  "frames": 38,
+  "changes": [
+    {
+      "frame": 5181,
+      "before": "menu_complete",
+      "after": "menu_partial_redraw"
+    }
+  ],
+  "oldSha256": "cb20666561bf7f3beef91bc412e6576a163842ce8595d0a1f3b20fd1eb157d14",
+  "newSha256": "d4ce9d404f3d0fd4a2ea7a140e713edd01faabb836ee89398675795d0e353d36",
+  "originals": [
+    {
+      "frame": 5180,
+      "path": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1/frame-005180.png",
+      "sha256": "b3a5eba449e913cb4c403a379ff1f8d3efd58ea3243dfe06a0c51214a2f5278e"
+    },
+    {
+      "frame": 5181,
+      "path": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1/frame-005181.png",
+      "sha256": "067400e0288bd4c92df430bc5be0ce2baf0c04a5a2debc8684b869dd116cdfe0"
+    },
+    {
+      "frame": 5182,
+      "path": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1/frame-005182.png",
+      "sha256": "97f0f16f56e97d63c160172327bd890ea4135c5dfa098592eb76e530bd822644"
+    }
+  ],
+  "testLogSha256": "6b75fa4a4da4100316c3665832f711e22d94667d3dc24ab952346f4fe88c1068",
+  "notIndependentAcceptance": true
+}

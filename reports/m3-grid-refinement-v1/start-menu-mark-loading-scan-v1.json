@@ -1,0 +1,217 @@
+{
+  "status": "current_output_diagnosis_not_acceptance",
+  "eligibleReferences": 35,
+  "identities": [
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/approved-trial.jsonl",
+      "sha256": "ead32da0786087e27aa8de2f0312f32ca06cab69688bd49d810e0a2ecedd41bf"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/backpack-navigation.jsonl",
+      "sha256": "7515e1395720576e3874295c54cb204acd4f6af78398532990c015edfa2ec94a"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/backpack-opening.jsonl",
+      "sha256": "afdcf8e418fbdc895600f98a3474b8d3613b19263b34ebdbf1c238c863c240b7"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/battle-result.jsonl",
+      "sha256": "4aaae0ed9d22f3b604928f581ff77d6896a8184c414cc13f021664e18928b8d6"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/bill-data-npc.jsonl",
+      "sha256": "c86ec04bb975be8e26f08931a54ec9330a62527cc405b4dfdb484cf4b1b23ccb"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/bill-grandfather.jsonl",
+      "sha256": "48067fc08d38a2cfcd5285d3b399e55825e6acf74a292bc9abb4c2e601ba50a9"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/exploration-npc.jsonl",
+      "sha256": "4178ccde821f39072f21438cd41b2f18a416a72a19ecad387a93f68d003ad6b7"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/gym-sign-continuation.jsonl",
+      "sha256": "42d0bff386c96ae8de43a0d285a6988a1e5a5945ff08ad9cd8eff827e7bb17b8"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/intro-creatures.jsonl",
+      "sha256": "95c031206da3985f8167ce88dd133facd31db90a83141f3337b289a4471857ce"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/intro-greeting.jsonl",
+      "sha256": "225b1e59a36414b1912b7d18acd2f65fbfc1b4db05a01e49701fdc244747dac2"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/intro-oak.jsonl",
+      "sha256": "18fc3f4ac2e14558a4dd85751781bf4ad1f2ccab77aaa44e70e22083812ba81f"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/intro-pets.jsonl",
+      "sha256": "d6a5d1be6ea209884d00fce57e588b2ef2a06a9f66dda8a619b930c69d1ea855"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/intro-research.jsonl",
+      "sha256": "0363944a4b63c551fae18950b14cf05cf8ee56a544b96ab8e6de076c8e6c960f"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/lab-oak-reply.jsonl",
+      "sha256": "98a4def693a321b6d3f6658f289e590dc424cce6e2eaef5bf64262da3c1a39c5"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/lab-rival-demand.jsonl",
+      "sha256": "f740acc63ee86e883c0a8fb1c5e6155962c3efdab7a4878fa9aa8652bb6f82df"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/league-centre-npc.jsonl",
+      "sha256": "0d384f7ff375af377232638fa182009569f24b4417f7a9a1fd190e0112a6acb2"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/mart-child.jsonl",
+      "sha256": "e884477b54cd9de35ee0e19cad4dab86c345f21845b43feb210419baecae4953"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/museum-fee.jsonl",
+      "sha256": "5330ef7ff9be90e0c65a8d3094c967463b2b8b7d03373bda6405c179788424dc"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/museum-question.jsonl",
+      "sha256": "53cdf2e2105a661e1d6c5ebbfa3584ac12e2e8bebdb2a0e016f1196ee70b0600"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/nurse-greeting.jsonl",
+      "sha256": "9007a7eac9541793600be2b010c24cf803edffc63b4976b1751ef79d2e1cfd95"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/nurse-intake.jsonl",
+      "sha256": "2922923c27777f1b70a86e782403e9b79ce7bbc823533865506ddc1ab37b7880"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/nurse-return.jsonl",
+      "sha256": "bb5c5666b32e4511856efc71e00d0af69b5c64e71c4b3b51d9dc459bd21e5b49"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/oak-delivery.jsonl",
+      "sha256": "9c9645d1af1be3ea330ff609a4788370c6a5e0a11e5e5dffd2b9a663eb155358"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/party-list.jsonl",
+      "sha256": "159f7bb227d29cd999adb18b6d27eb81460f063e2b417d8083a7b6659b1fed83"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/pc-connect.jsonl",
+      "sha256": "be60bd4243621e1fb490167343b8cba0e3855071ea1556876ae53a9cdaf7571a"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/pc-deposit-navigation.jsonl",
+      "sha256": "c56c3961496ddec8c507ae97272411812085809ae02da345c16b33c80a0c0ea1"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/pc-exit.jsonl",
+      "sha256": "7ff8e00a268fb012c7b2f7313440f020602cf5a9b9779e5655a5d9ede6ee0384"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/route-ledge-npc.jsonl",
+      "sha256": "6bd1838d09faae7718e18210263807dfc4d7024a90e5d0a13712c17624fc6cf1"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/route-pp-sign.jsonl",
+      "sha256": "b18293ed0ba124d18597767d34887a7bf1b858ea3e77075b2d2d510697e0abbb"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/safari-warden-npc.jsonl",
+      "sha256": "19227058ccd7e19be705b4d99ca5fa7c749a6df633117e6f76b88f18ffeaf097"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/shop-buy-navigation.jsonl",
+      "sha256": "a5ad16b31d9ff343c393847bc5ede6868a49c943b18ea5ae147160f34e1e9f9c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/shop-exit.jsonl",
+      "sha256": "9a34dbcd06220a5a43443bf13ffdafb138de41b89b53c7f7ccda873ce429beda"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/shop-rejection.jsonl",
+      "sha256": "6f97ce39782d7d5ab9e205079461f535201f2a4379160426f98ffdd82f65098b"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/shop-sell-entry.jsonl",
+      "sha256": "4d6d6e1d706310e8d7dad7d6cf365a1acccf5213cd9ad299fa48f5107ae3b307"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/skills-turn.jsonl",
+      "sha256": "8144e0eb26402b526bb8dfa77c9efa505ee3d66b2f1a5206ec3a0bd956fc911a"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/startup-nontarget.jsonl",
+      "sha256": "4ffba74375339cda96d140bf4f98e509da346b271fd8871a76c08790daea85e8"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/status-alt-pages.jsonl",
+      "sha256": "a9a0b76ea415057c785d084014c2dcdb9080a7abdf5d92e816bb8bc128193ea7"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v13/actual/status-pages.jsonl",
+      "sha256": "3c56fc991d0676ca3b8c10842df6580258949ad6b4031480dd25f3364d60e532"
+    }
+  ],
+  "result": [
+    {
+      "clip": "backpack-opening",
+      "frame": 5181,
+      "marks": [
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            14,
+            5,
+            15,
+            6
+          ],
+          "sourceRect": [
+            571,
+            151,
+            602,
+            182
+          ]
+        },
+        {
+          "kind": "dakuten",
+          "gridRect": [
+            16,
+            5,
+            17,
+            6
+          ],
+          "sourceRect": [
+            631,
+            151,
+            662,
+            182
+          ]
+        }
+      ],
+      "regions": [
+        {
+          "text": "ずかん",
+          "gridRect": [
+            14,
+            2,
+            17,
+            3
+          ]
+        },
+        {
+          "text": "ポケモン",
+          "gridRect": [
+            14,
+            4,
+            18,
+            5
+          ]
+        }
+      ],
+      "kind": "menu_complete"
+    }
+  ]
+}

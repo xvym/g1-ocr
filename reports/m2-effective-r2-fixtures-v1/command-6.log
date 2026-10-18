@@ -1,0 +1,5 @@
+java.lang.IllegalArgumentException: Corrected regions need auditable correction evidence
+	at io.github.g1ocr.verification.FrozenDataset.require(FrozenDataset.java:108)
+	at io.github.g1ocr.verification.OcrComparison.compareClip(OcrComparison.java:32)
+	at io.github.g1ocr.verification.OcrComparison.compare(OcrComparison.java:18)
+	at io.github.g1ocr.verification.VideoTool.main(VideoTool.java:35)

@@ -1,0 +1,5 @@
+java.lang.IllegalArgumentException: Conflicting frozen overlap at video-03:1439
+	at io.github.g1ocr.verification.FrozenDataset.require(FrozenDataset.java:67)
+	at io.github.g1ocr.verification.ComparisonAggregate.build(ComparisonAggregate.java:41)
+	at io.github.g1ocr.verification.OcrComparison.compare(OcrComparison.java:21)
+	at io.github.g1ocr.verification.VideoTool.main(VideoTool.java:35)

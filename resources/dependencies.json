@@ -1,7 +1,7 @@
 {
   "schemaVersion":1,
   "checkedOn":"2026-10-14",
-  "scope":"M0 build and M1 deterministic tooling only; no game glyphs or scripts acquired",
+  "scope":"M0 build and M1/M2 deterministic tooling; M3 Japanese-source references are separately pinned below. Existing build-dependency license evidence remains the original M0 evidence.",
   "dependencies":[
     {"name":"Oracle JDK and bundled JavaFX","version":"1.8.0_192-b12","evidence":"reports/m0-20261014/environment.json","licenseReference":"https://www.oracle.com/downloads/licenses/binary-code-license.html","localNotices":"D:/Code/Tool/jdk1.8.0_192/THIRDPARTYLICENSEREADME-JAVAFX.txt","redistributed":false,"redistributionAudit":"pending for any future bundled runtime"},
     {"name":"Maven","version":"3.9.16","license":"Apache-2.0 and bundled third-party notices","licenseReference":"https://maven.apache.org/ref/3.9.16/","redistributed":false},
@@ -9,5 +9,6 @@
     {"name":"JUnit","version":"4.13.2","module":"test scope only","license":"EPL-1.0","licenseReference":"https://github.com/junit-team/junit4/blob/r4.13.2/LICENSE-junit.txt"},
     {"name":"FFmpeg and FFprobe","version":"8.1.2-essentials_build-www.gyan.dev","license":"GPL-3.0-or-later (installed build enables GPL/version3; local LICENSE is GPLv3)","licenseReference":"https://ffmpeg.org/legal.html","identity":"data/meta/m1-v1/decoder.json and *-version.txt","usage":"external development-only processes; no binaries copied","redistributed":false}
   ],
-  "gaps":["Build-plugin/transitive notice consolidation before distribution","Exact game-source commits, file scope and licenses to audit in M3; Chinese-source audit only after M4","Raw videos and game assets are not licensed here for redistribution"]
+  "japaneseReferenceAudit":{"checkedOn":"2026-10-16","manifest":"resources/japanese-font-sources-v2.json","report":"reports/m3-font-audit-v1/source-audit-v2/report.json","sources":"Three pinned Japanese repositories covering Red/Green, Blue and Yellow","localGraphics":"Ignored .cache only; not included in application artifacts","licenseEvidence":"No LICENSE/COPYING/NOTICE-named file in the three full pinned trees. No redistribution permission inferred.","externalRepositoryCodeExecuted":false},
+  "gaps":["Build-plugin/transitive notice consolidation before distribution","Japanese-source redistribution rights remain unestablished; further rendering/compact-label and whole-frame OCR work remains in M3","Chinese-source audit only after M4 passes","Raw videos and game assets are not licensed here for redistribution"]
 }

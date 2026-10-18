@@ -1,0 +1,211 @@
+{
+  "status": "backpack_scroll_correction_and_same_actual_rescoring_verified",
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r12/freeze.json",
+    "sha256": "3949812dd750e62fb8bd562465f0743b928c48310d73919f520db0cce8a7ea8a"
+  },
+  "comparison": {
+    "path": "reports/m3-grid-refinement-v1/ocr-v9-observation-r12-comparison/report.json",
+    "sha256": "615059dac488b6dfd27f87882319f50e9a7dce61eb92bfe98834d664ef914d80"
+  },
+  "changes": [
+    "backpack-navigation:5301",
+    "backpack-navigation:5304",
+    "backpack-navigation:5306",
+    "backpack-navigation:5347",
+    "backpack-navigation:5349"
+  ],
+  "scoreChanges": [
+    "backpack-navigation:5301",
+    "backpack-navigation:5304",
+    "backpack-navigation:5306",
+    "backpack-navigation:5347",
+    "backpack-navigation:5349"
+  ],
+  "unchangedActuals": [
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/startup-nontarget.jsonl",
+      "sha256": "417c90747eaf9cc88ad5785693ed984994811f4b89b478c9c8dfa5fc4fb38562"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/exploration-npc.jsonl",
+      "sha256": "76aea9b58be2563bf03060ea5480088d68d05aee53399e757501c0912b6cbc3b"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/battle-result.jsonl",
+      "sha256": "598b0547d75b881d456de6c5d40dbbe7dbcaff2bf92b60cbf775f8d80069e3f5"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/status-pages.jsonl",
+      "sha256": "9f7f24fd3f38397a7464abd9f2fc6c0f8dd58f9c2dff55f87d7e937145d52a9a"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/pc-deposit-navigation.jsonl",
+      "sha256": "edf18fcd12597572e64146f9d5a4b1cc0e28686f3d052e264d7dfa81b24607c6"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/pc-exit.jsonl",
+      "sha256": "927bbc033efd068656601d5ebc4fbf9b14285020f65ba8e777b4e7bfe2a86539"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/status-alt-pages.jsonl",
+      "sha256": "1898dfbdca995ca61a196170d17232b0023ca7fa7bccd062924156294523704f"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/party-list.jsonl",
+      "sha256": "06ef24c9d2f45c2faa8d5f5516c9fa5164cce4d7c985f84098c1fc4a385b8938"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/shop-buy-navigation.jsonl",
+      "sha256": "a0b8999727840d707f1ee1da23e417eb76d8429a35ecd66728658523ad9306d1"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/shop-sell-entry.jsonl",
+      "sha256": "7f7538603908fe0dea955a4550f89580b23b7c345bd4af0e785e11f472f0dc8d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/shop-rejection.jsonl",
+      "sha256": "6dc779fa5cd3e4285fbb1f600420efcd9509c7a4a093c0276ae0ee4d820788ec"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/backpack-opening.jsonl",
+      "sha256": "424bc90b906031ed2aea68fcd611c1dd11105763d4ab70a5e295aea6cefd7870"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/backpack-navigation.jsonl",
+      "sha256": "37fe461468ef547f4d9a2f1eb362ada5b0f9bea5a7e29551393a8396c195093a"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/skills-turn.jsonl",
+      "sha256": "14a1e87fbee0b0e9e558d5d9333e372ae8d39b930c3c98902aec1262fa4ac60b"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/shop-exit.jsonl",
+      "sha256": "f9164031b22c2c9fed40ddcd6b37769a3480c6aa1809a725088a32492e81da3d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/pc-connect.jsonl",
+      "sha256": "dcb8e4781ba94d243ff4a9ab43c3d6c524d2a04063303d10bf40e64347e00968"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/approved-trial.jsonl",
+      "sha256": "d4e936143f5695ddb9dbbb83f66ccc9191334767ce1d96a73197cd3574e0ed76"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/bill-data-npc.jsonl",
+      "sha256": "8772436397a7a2f855a2e2b068a7eed2b1776322a4b23410e32efee5d99ade51"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/bill-grandfather.jsonl",
+      "sha256": "287a697e9954d30d44a89c090dcf221020d1e70266066e72167fc8e88d4b12e8"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/gym-sign-continuation.jsonl",
+      "sha256": "1d6126f6e9f861f7ef9a6a6c3bbc536692d81c30d1a54b4a91ff64f26da1ca1e"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/intro-creatures.jsonl",
+      "sha256": "11bb845af55eaae6fc9bad8401a634131de8f39881af3908a7bf9f9f81231eb2"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/intro-greeting.jsonl",
+      "sha256": "61ce8cfd8e7bc15714b170704abb2c9deb5ca6236a97a8285d7884be3e01994b"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/intro-oak.jsonl",
+      "sha256": "99c74792aac87bc1e6cc2159a5cfd05d2105752dc868b987b2492d4ac58c7f6e"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/intro-pets.jsonl",
+      "sha256": "bb84f3ec5e2cbf7a2297769607cc3f8c0adc001ac40c729d66a3d74cc18b79af"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/intro-research.jsonl",
+      "sha256": "ed25e13185cc9692b294f4a8d83fd61faa86727843785f26332befbff8893c94"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/lab-oak-reply.jsonl",
+      "sha256": "59b275f5e1f12e4b1c24e8dcc38677ff9c68726ec36650a498797043296d5ec9"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/lab-rival-demand.jsonl",
+      "sha256": "adbdcfde4b06de1a7f07792a66465d56cb87df59540badfeb7ce46ea2b176faa"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/league-centre-npc.jsonl",
+      "sha256": "33082247507306794b84f6ac2c1b1e960b6e2c2a7f6459a980bcd63f4333af4c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/mart-child.jsonl",
+      "sha256": "2197969074871bade7b5fabfd6a060ad3293e8ec041b29994149957aedcad737"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/museum-fee.jsonl",
+      "sha256": "2f96969abb594891b945707ea458c4e776cd759dcdc8d9a69fbf63fbe9f11faf"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/museum-question.jsonl",
+      "sha256": "d0105f92f43bd698f354aa772d5de46d3b8e6c1acc4accf58a1b08804b001ed3"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/nurse-greeting.jsonl",
+      "sha256": "9173ea6903aa85174bd0836c58a264afed15ba4950693fb2410d910d52a0fb96"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/nurse-intake.jsonl",
+      "sha256": "94aa8879267ece6555e8de5ba3af682e5fe4423f61e018375058d340dbbb6ace"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/nurse-return.jsonl",
+      "sha256": "e5e89394c55aaab4f4becb91198441c47a027e25502f5f7aa8a00b639b2d3d63"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/oak-delivery.jsonl",
+      "sha256": "14560b07f3ed4e919a1dcef4a21e99c2dcbe826f44778c680900cc54b8c63bb8"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/route-ledge-npc.jsonl",
+      "sha256": "02b7038eae7ead3918af9a592381358ac001bf87744a63854d242951c28994b4"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/route-pp-sign.jsonl",
+      "sha256": "d37400ea26480ad67130ac77c25d970662b4597b4cc30babe8783b3861b30a15"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v9/actual/safari-warden-npc.jsonl",
+      "sha256": "1dc20564f5e3440cac6df96374020bcab309e7038d9ddfe4e266c6c7683b8031"
+    }
+  ],
+  "oldRaw": {
+    "characters": 86569,
+    "editErrors": 211,
+    "failedFrames": 2601,
+    "emptyFrames": 692,
+    "emptyFalsePositiveFrames": 0,
+    "uniqueContinuousStates": 714,
+    "equalStateErrors": 64.07122736418512,
+    "equalStateCharacters": 15457,
+    "pageOpportunities": 117,
+    "contentExactPages": 7,
+    "frameCharacterAccuracy": 0.9975626378957826,
+    "equalStateCharacterAccuracy": 0.9958548730436576
+  },
+  "newRaw": {
+    "characters": 86569,
+    "editErrors": 192,
+    "failedFrames": 2601,
+    "emptyFrames": 692,
+    "emptyFalsePositiveFrames": 0,
+    "uniqueContinuousStates": 714,
+    "equalStateErrors": 45.07122736418511,
+    "equalStateCharacters": 15457,
+    "pageOpportunities": 117,
+    "contentExactPages": 7,
+    "frameCharacterAccuracy": 0.9977821159999538,
+    "equalStateCharacterAccuracy": 0.9970840895798547
+  },
+  "allSemanticIntegrityPassed": false,
+  "productAcceptance": false,
+  "uiRendering": "pending",
+  "independentSessions": "pending"
+}

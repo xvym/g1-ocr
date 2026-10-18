@@ -1,0 +1,161 @@
+[
+  {
+    "sourceFrameIndex": 1408,
+    "sourcePts": 720896,
+    "stateId": "9c8aee036f72-f1408-f1413",
+    "expectedCharacters": 66,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "shop_message:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "どれを うっていただけますか?",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1409,
+    "sourcePts": 721408,
+    "stateId": "9c8aee036f72-f1408-f1413",
+    "expectedCharacters": 66,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "shop_message:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "どれを うっていただけますか?",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1410,
+    "sourcePts": 721920,
+    "stateId": "9c8aee036f72-f1408-f1413",
+    "expectedCharacters": 66,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "shop_message:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "どれを うっていただけますか?",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1411,
+    "sourcePts": 722432,
+    "stateId": "9c8aee036f72-f1408-f1413",
+    "expectedCharacters": 66,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "shop_message:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "どれを うっていただけますか?",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1412,
+    "sourcePts": 722944,
+    "stateId": "9c8aee036f72-f1408-f1413",
+    "expectedCharacters": 66,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "shop_message:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "どれを うっていただけますか?",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1439,
+    "sourcePts": 736768,
+    "stateId": "9c8aee036f72-f1439-f1440",
+    "expectedCharacters": 29,
+    "errors": 58,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      }
+    ]
+  }
+]

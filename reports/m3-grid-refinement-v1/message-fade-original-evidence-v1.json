@@ -1,0 +1,63 @@
+{
+  "status": "original_fade_observations_and_target_runs_not_gt_correction",
+  "probe": {
+    "path": "tools/RawFadeProbe.java",
+    "sha256": "42e43620b42ac3d07ac3bf502cf6f079cdda142c8860ef3a38aa9975342d2b44"
+  },
+  "events": [
+    {
+      "name": "oak",
+      "statistics": {
+        "path": "reports/m3-grid-refinement-v1/fade-oak-original-pixels-v2.json",
+        "sha256": "a158f5bf0a3f68bdab87755cbbe5177f481da969dd7e8bc552eefe8bc3afab7f"
+      },
+      "verification": {
+        "path": "data\\frames\\video-01\\dialogue-intro-oak-reviewed-v1/verification.json",
+        "sha256": "6fbbefc194674ee910cda410b8d2a90bdfd5004775feed6031cabdbe292de268"
+      },
+      "retainedFrames": 54
+    },
+    {
+      "name": "research",
+      "statistics": {
+        "path": "reports/m3-grid-refinement-v1/fade-research-original-pixels-v2.json",
+        "sha256": "9c8214a26dd207222544e4d9860163155a9f3fee218ae419c8aa580cc9258eec"
+      },
+      "verification": {
+        "path": "data\\frames\\video-01\\dialogue-intro-research-reviewed-v1/verification.json",
+        "sha256": "f8b3b39f64bc18616f4647b8fc9fdeeecb1a32fba530a2a3d1dd386fa93aca6f"
+      },
+      "retainedFrames": 80
+    }
+  ],
+  "observedStarts": [
+    6209,
+    6467
+  ],
+  "frozenStartDoubts": [
+    {
+      "frame": 6208,
+      "basis": "Same low/high quantiles as6207; only6 luma pixels differ, none by more than4. No coherent fade visible; further full-event independent reread required before annotation revision."
+    },
+    {
+      "frame": 6466,
+      "basis": "Entire measured game-region RGB identical to6465, contrasting frozen message_complete/message_fading labels. Cannot derive future transition from this current crop."
+    }
+  ],
+  "thresholdFailure": {
+    "attempt": 1,
+    "cause": "Upper figure occupies less than5percent; lower5percentile becomes background, losing fade step/plateau.",
+    "evidence": [
+      {
+        "path": "reports/m3-grid-refinement-v1/fade-oak-original-pixels-v2.json",
+        "sha256": "a158f5bf0a3f68bdab87755cbbe5177f481da969dd7e8bc552eefe8bc3afab7f"
+      },
+      {
+        "path": "reports/m3-grid-refinement-v1/fade-research-original-pixels-v2.json",
+        "sha256": "9c8214a26dd207222544e4d9860163155a9f3fee218ae419c8aa580cc9258eec"
+      }
+    ]
+  },
+  "repairAttempt": 2,
+  "productAcceptance": false
+}

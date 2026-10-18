@@ -1,0 +1,258 @@
+[
+  {
+    "sourceFrameIndex": 3541,
+    "sourcePts": 1812992,
+    "stateId": "9c8aee036f72-f3541-f3612",
+    "expectedCharacters": 94,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "pokemon_name:1:11:0",
+        "expected": "ウツボット",
+        "actual": "ウツホット",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 3612,
+    "sourcePts": 1849344,
+    "stateId": "9c8aee036f72-f3612-f3613",
+    "expectedCharacters": 91,
+    "errors": 148,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "experience_label:3:9:5",
+        "expected": "けいけんち/",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "experience:4:13:6",
+        "expected": "117997",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "next_level_label:5:9:7",
+        "expected": "あと",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "experience_remaining:6:10:8",
+        "expected": "7129で",
+        "actual": "",
+        "errors": 5
+      },
+      {
+        "kind": "missing_region",
+        "key": "compact_status_label:6:16:9",
+        "expected": ":L",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "next_level:6:17:10",
+        "expected": "51",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "move_name:12:2:11",
+        "expected": "ねむりごな",
+        "actual": "",
+        "errors": 5
+      },
+      {
+        "kind": "missing_region",
+        "key": "pp_label:12:11:12",
+        "expected": "PP",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "move_pp:12:14:13",
+        "expected": "15/15",
+        "actual": "",
+        "errors": 5
+      },
+      {
+        "kind": "missing_region",
+        "key": "move_name:14:2:14",
+        "expected": "つるぎのまい",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "pp_label:14:11:15",
+        "expected": "PP",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "move_pp:14:14:16",
+        "expected": "30/30",
+        "actual": "",
+        "errors": 5
+      },
+      {
+        "kind": "missing_region",
+        "key": "move_name:16:2:17",
+        "expected": "すてみタックル",
+        "actual": "",
+        "errors": 7
+      },
+      {
+        "kind": "missing_region",
+        "key": "pp_label:16:11:18",
+        "expected": "PP",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "move_pp:16:14:19",
+        "expected": "15/15",
+        "actual": "",
+        "errors": 5
+      },
+      {
+        "kind": "missing_region",
+        "key": "stat_label:10:1:20",
+        "expected": "こうげき",
+        "actual": "",
+        "errors": 4
+      },
+      {
+        "kind": "missing_region",
+        "key": "attack:10:6:21",
+        "expected": "144",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "pokemon_type:10:10:22",
+        "expected": "タイプ1/くさ",
+        "actual": "",
+        "errors": 7
+      },
+      {
+        "kind": "extra_region",
+        "key": "compact_status_label:3.5:11:5",
+        "expected": "",
+        "actual": "HP:",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "hp_current_max:4:12:6",
+        "expected": "",
+        "actual": "160/160",
+        "errors": 7
+      },
+      {
+        "kind": "extra_region",
+        "key": "pokemon_condition:6:10:7",
+        "expected": "",
+        "actual": "じょうたい/ふつう",
+        "errors": 9
+      },
+      {
+        "kind": "extra_region",
+        "key": "move_name:12:2:8",
+        "expected": "",
+        "actual": "ねむりこな",
+        "errors": 5
+      },
+      {
+        "kind": "extra_region",
+        "key": "pp_label:12:11:9",
+        "expected": "",
+        "actual": "PP",
+        "errors": 2
+      },
+      {
+        "kind": "extra_region",
+        "key": "move_pp:12:14:10",
+        "expected": "",
+        "actual": "15/15",
+        "errors": 5
+      },
+      {
+        "kind": "extra_region",
+        "key": "move_name:14:2:11",
+        "expected": "",
+        "actual": "つるぎのまい",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "pp_label:14:11:12",
+        "expected": "",
+        "actual": "PP",
+        "errors": 2
+      },
+      {
+        "kind": "extra_region",
+        "key": "move_pp:14:14:13",
+        "expected": "",
+        "actual": "30/30",
+        "errors": 5
+      },
+      {
+        "kind": "extra_region",
+        "key": "move_name:16:2:14",
+        "expected": "",
+        "actual": "すてみタックル",
+        "errors": 7
+      },
+      {
+        "kind": "extra_region",
+        "key": "pp_label:16:11:15",
+        "expected": "",
+        "actual": "PP",
+        "errors": 2
+      },
+      {
+        "kind": "extra_region",
+        "key": "move_pp:16:14:16",
+        "expected": "",
+        "actual": "15/15",
+        "errors": 5
+      },
+      {
+        "kind": "extra_region",
+        "key": "stat_label:10:1:17",
+        "expected": "",
+        "actual": "こうげき",
+        "errors": 4
+      },
+      {
+        "kind": "extra_region",
+        "key": "attack:10:6:18",
+        "expected": "",
+        "actual": "144",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "pokemon_type:10:10:19",
+        "expected": "",
+        "actual": "タイプ1/くさ",
+        "errors": 7
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+'use strict';
+const fs=require('fs'),crypto=require('crypto'),assert=require('assert/strict'),{audit}=require('./check-gt-overlaps.cjs');
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8')),rows=p=>fs.readFileSync(p,'utf8').trim().split(/\r?\n/).map(JSON.parse),sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex'),id=p=>({path:p,sha256:sha(p),bytes:fs.statSync(p).size});
+const save=(p,x)=>fs.writeFileSync(p,JSON.stringify(x,null,2)+'\n',{flag:'wx'}),copy=(a,b)=>fs.copyFileSync(a,b,fs.constants.COPYFILE_EXCL);
+const base='data/gt/frozen/ocr-all-scenes-v2-observation-r13',out='data/gt/frozen/ocr-all-scenes-v2-observation-r14',review='reports/gt-review/gt-observation-corrections-v12',notes='reports/m3-grid-refinement-v1/pc-cursor-notes-v1',integrity='reports/m3-grid-refinement-v1/pc-cursor-candidate-integrity-v1.json';
+assert(!fs.existsSync(out)&&!fs.existsSync(review));
+const old=read(base+'/freeze.json'),batch=read(base+'/batch.json'),ev=read(notes+'/candidate-evidence.json'),comparison=read(ev.audit.path),check=read(notes+'/extraction-check.json');
+assert.equal(sha(base+'/freeze.json'),comparison.freeze.sha256);assert.equal(sha(ev.audit.path),ev.audit.sha256);
+for(const p of [...comparison.notes,comparison.integrity,ev.input,ev.candidate])assert.equal(sha(p.path),p.sha256);
+assert.deepEqual(read(notes+'/pass-comparison.json').differences,[]);assert.deepEqual(comparison.differences.map(x=>x.frame),[1673,1688]);
+for(const it of old.items)for(const p of it.payloads)assert.equal(sha(p.file?base+'/'+p.file:p.approvedSource),p.sha256);
+const media=rows('data/meta/m1-v1/media.jsonl');assert.equal(media.length,4);for(const m of media)assert.equal(sha(m.path),m.sha256);
+const a=rows(ev.input.path),b=rows(ev.candidate.path);assert.equal(a.length,32);assert.equal(b.length,32);
+for(let i=0;i<a.length;i++){if(![1673,1688].includes(a[i].startFrame))assert.deepEqual(a[i],b[i]);else {const c=ev.changes.find(x=>x.frame===a[i].startFrame);assert.deepEqual(a[i],c.before);assert.deepEqual(b[i],c.after);assert.deepEqual(a[i].regions,b[i].regions);}}
+assert.deepEqual(ev.oldPageIds,ev.newPageIds);const ir=read(integrity);assert.equal(ir.gtSha256,ev.candidate.sha256);assert.equal(ir.sourceFrames,120);
+assert.equal(check.frames.length,124);const second='data/frames/video-02/pc-cursor-pass2-v1';
+for(const [i,f] of check.frames.entries()){assert.equal(f.frameIndex,1632+i);assert.equal(sha(second+'/frame-'+String(f.frameIndex).padStart(6,'0')+'.png'),f.pngSha256);}
+fs.mkdirSync(review+'/pc-deposit-navigation/frames',{recursive:true});
+for(const f of check.frames){const name='frame-'+String(f.frameIndex).padStart(6,'0')+'.png';copy(second+'/'+name,review+'/pc-deposit-navigation/frames/'+name);}
+for(const name of ['pass1.json','pass2.json','pass-comparison.json','extraction-check.json','frozen-comparison.json','candidate-evidence.json'])copy(notes+'/'+name,review+'/'+name);
+copy(second+'/verification.json',review+'/source-pass2.json');copy(ev.input.path,review+'/pc-deposit-navigation/old.jsonl');copy(ev.candidate.path,review+'/pc-deposit-navigation/corrected.jsonl');copy(integrity,review+'/pc-deposit-navigation/integrity.json');
+const bi=batch.items.find(x=>x.id==='pc-deposit-navigation');bi.candidate=ev.candidate.path;bi.integrity=review+'/pc-deposit-navigation/integrity.json';bi.approval='conditional_authorized_original_cursor_correction';
+batch.reviewId='gt-observation-corrections-v12';batch.approvalScope='Only1673/1688 source-visible cursor/state corrections and corresponding existing-page boundaries. All frames, text, rectangles, opportunities and scoring rules retained.';
+const summary={...old.summary,reviewId:batch.reviewId,status:'qualified_original_cursor_correction',correctionCharacterDelta:0,completeStateIntervals:old.summary.completeStateIntervals+2,allSemanticIntegrityPassed:false};
+save(review+'/batch.json',batch);save(review+'/summary.json',summary);
+const overlap=audit(review+'/batch.json');assert.equal(overlap.uniqueScoredFrames,3361);assert.equal(overlap.overlappingReferences,7);assert.equal(overlap.conflicts.length,0);save(review+'/overlap.json',overlap);
+const authority={reviewId:batch.reviewId,message:'如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论',basis:ev.rationale,changes:ev.changes,pageBoundaryChanges:ev.pageBoundaryChanges,limitations:old.limitations,sameAgentNotIndependentSession:true};save(review+'/authority.json',authority);
+save(review+'/identity.json',{base:id(base+'/freeze.json'),media:media.map(m=>id(m.path)),retainedReviewFrames:124,scoredReviewFrames:120,allSemanticIntegrityPassed:false,productAcceptance:false,uiRendering:'pending',builder:id(__filename),contract:'Unchanged: existing explicit-ID rule already permits same page across arrow flashes. GT boundaries supply onset/end; no numeric per-page boundaries in contract.'});
+fs.writeFileSync(review+'/index.html','<!doctype html><meta charset="utf-8"><title>PC光标原帧纠错</title><h1>PC光标原帧纠错</h1><p>完整124原帧双遍核读，逐120评分帧对照。1673首行光标仍在，仅下箭头消失；1688仅第三行光标，没有第二行光标。两帧恢复完整当前菜单状态，原首行页面结束延至1674、第三行页面起点前移至1688。11个页面机会、32状态区间及全部文字和位置保持，未删任何失败帧。已有诊断暴露和同代理记忆披露，不是独立会话或人工逐帧验收。UI呈现待验证。</p><a href="authority.json">授权与差异</a> <a href="pc-deposit-navigation/old.jsonl">旧全文</a> <a href="pc-deposit-navigation/corrected.jsonl">修订全文</a> <a href="pass1.json">首遍</a> <a href="pass2.json">二遍</a> <a href="frozen-comparison.json">全帧对照</a><ul>'+check.frames.map(f=>'<li><a href="pc-deposit-navigation/frames/frame-'+String(f.frameIndex).padStart(6,'0')+'.png">'+f.frameIndex+'</a></li>').join('')+'</ul>',{flag:'wx'});
+const files=[];function walk(d,p=''){for(const e of fs.readdirSync(d,{withFileTypes:true})){const r=p+e.name;if(e.isDirectory())walk(d+'/'+e.name,r+'/');else files.push({...id(d+'/'+e.name),path:r});}}walk(review);save(review+'/bundle-manifest.json',{reviewId:batch.reviewId,files});
+fs.mkdirSync(out,{recursive:true});for(const n of ['batch.json','summary.json'])copy(review+'/'+n,out+'/'+n);
+const items=old.items.map(it=>({id:it.id,priorFreeze:id(base+'/freeze.json'),payloads:it.payloads.map(p=>{const q={...p};if(q.file){q.approvedSource=base+'/'+q.file;delete q.file;}if(it.id==='pc-deposit-navigation'&&q.kind==='gt'){q.approvedSource=ev.candidate.path;q.sha256=ev.candidate.sha256;q.bytes=fs.statSync(ev.candidate.path).size;}return q;})}));
+save(out+'/freeze.json',{...old,freezeVersion:'ocr-all-scenes-v2-observation-r14',authority:'Two source-visible PC cursor corrections under conditional user authorization. Existing page identities retained; original-frame boundaries corrected. All qualifications remain.',approval:authority,approvedBundle:id(review+'/bundle-manifest.json'),identityCheck:id(review+'/identity.json'),items,summary,previousEffectiveFreeze:id(base+'/freeze.json')});
+console.log(JSON.stringify({freeze:id(out+'/freeze.json'),bundle:id(review+'/bundle-manifest.json')}));

@@ -1,0 +1,440 @@
+{
+  "status": "approved_version_identity_and_integrity_rechecked",
+  "approval": {
+    "path": "reports/gt-approval-shop-metadata-r2/approval.json",
+    "sha256": "a616d50cdb7f4d39fab6e8188f725e6bcc70bc7b2d0acfd575c46512f4a2ce82",
+    "bytes": 973
+  },
+  "bundle": {
+    "path": "reports/gt-review/gt-all-scenes-v2-shop-metadata-r2/bundle-manifest.json",
+    "sha256": "3f800da7ce58e00a3b0ca5e4d443beeb0629d3d87f40118f43c22100f452241e",
+    "bytes": 83420
+  },
+  "filesChecked": 475,
+  "media": [
+    {
+      "id": "video-01",
+      "path": "testpic/video/2026-10-11 22-34-17.mp4",
+      "sha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+      "bytes": 751818349,
+      "timeBase": "1/30",
+      "frameCount": 29346,
+      "durationSeconds": "978.200000",
+      "anomalousFrames": 0,
+      "gameVersion": "unverified",
+      "session": "unverified",
+      "decoder": {
+        "ffmpegSha256": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e",
+        "ffprobeSha256": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07",
+        "rgbFormat": "rgb24; row-major; top-to-bottom; R,G,B; untransformed orientation",
+        "filter": "scale=in_color_matrix=bt709:in_range=tv:out_range=full:flags=bilinear+accurate_rnd+bitexact,format=rgb24"
+      },
+      "framesSha256": "2b3429e2dc53f20924bc2f2f5a6b1a6be1e5f31e4ea6fe89725b17a46ebd77f6",
+      "probeSha256": "342dfbe47e815e7fac081320b1b2e57f5458fa92b92b3940ce967216f38dfb92"
+    },
+    {
+      "id": "video-02",
+      "path": "testpic/video/4a6e01eb2ea34cdbfdba41e9b4db6a88.mp4",
+      "sha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+      "bytes": 16579532,
+      "timeBase": "1/12288",
+      "frameCount": 7964,
+      "durationSeconds": "331.833333",
+      "anomalousFrames": 0,
+      "gameVersion": "unverified",
+      "session": "unverified",
+      "decoder": {
+        "ffmpegSha256": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e",
+        "ffprobeSha256": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07",
+        "rgbFormat": "rgb24; row-major; top-to-bottom; R,G,B; untransformed orientation",
+        "filter": "scale=in_color_matrix=bt709:in_range=tv:out_range=full:flags=bilinear+accurate_rnd+bitexact,format=rgb24"
+      },
+      "framesSha256": "227125110fb04a576288c5a33b71ebb56083c815f96707f5366acf9fb968e555",
+      "probeSha256": "9cbc5ee3dcbffb0b7b71f91ac96e5d4f6f2faa51052af76520843af1df355847"
+    },
+    {
+      "id": "video-03",
+      "path": "testpic/video/5b34074da5f0cd90a956a4178d77b637.mp4",
+      "sha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+      "bytes": 16812110,
+      "timeBase": "1/12288",
+      "frameCount": 7402,
+      "durationSeconds": "308.416667",
+      "anomalousFrames": 0,
+      "gameVersion": "unverified",
+      "session": "unverified",
+      "decoder": {
+        "ffmpegSha256": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e",
+        "ffprobeSha256": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07",
+        "rgbFormat": "rgb24; row-major; top-to-bottom; R,G,B; untransformed orientation",
+        "filter": "scale=in_color_matrix=bt709:in_range=tv:out_range=full:flags=bilinear+accurate_rnd+bitexact,format=rgb24"
+      },
+      "framesSha256": "e1152ec7214ccd1fab0eeb73a041b36a0b113128ead765f2eac4035c18dc33e9",
+      "probeSha256": "b6a821f7fcebd6b7b475df828c9ee6a11d6ca41ffdc7e163ef3f4fc48f2d267a"
+    },
+    {
+      "id": "video-04",
+      "path": "testpic/video/cd87cd5a156ef5cf5d64a43a1e6600fd.mp4",
+      "sha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+      "bytes": 40239837,
+      "timeBase": "1/19456",
+      "frameCount": 22058,
+      "durationSeconds": "1160.947368",
+      "anomalousFrames": 0,
+      "gameVersion": "unverified",
+      "session": "unverified",
+      "decoder": {
+        "ffmpegSha256": "1326dde4c84ff1f96fe6b8916c5bed29e163e9b5dccf995f6f3db069d143ec5e",
+        "ffprobeSha256": "b49ccc7c6547b141ad5a2f6ec69cc04323d7133d7704d70b331b904c63eecb07",
+        "rgbFormat": "rgb24; row-major; top-to-bottom; R,G,B; untransformed orientation",
+        "filter": "scale=in_color_matrix=bt709:in_range=tv:out_range=full:flags=bilinear+accurate_rnd+bitexact,format=rgb24"
+      },
+      "framesSha256": "8fc167297316537ec5641f4edde9bcae8edcbf7565fdf33bb6c6bbf3e95fa54e",
+      "probeSha256": "194eebac2d1d56736b25208d32ee916fc61da85238654137558906c7e8563e7a"
+    }
+  ],
+  "items": [
+    {
+      "id": "shop-buy-navigation",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/shop-buy-navigation/ocr-candidate-v1.jsonl",
+          "bundleFile": "shop-buy-navigation/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "bceb6945558436080011f08f61928bf170c35294ed9d4615243a2b70f19a4256",
+          "bytes": 21771
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-shop-buy-navigation-clip-v2.json",
+          "bundleFile": "shop-buy-navigation/annotations/all-scenes-shop-buy-navigation-clip-v2.json",
+          "sha256": "09c9960058e013d33ec839a2dd5930a7d2108f060900cd0f11f93fdc2d791ab1",
+          "bytes": 1086
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/shop-buy-navigation/layout-v1.json",
+          "bundleFile": "shop-buy-navigation/annotations/layout-v1.json",
+          "sha256": "8dbe2bbfc6bf1d47995256ff4b1ea8a7e4f8d47088c02a9dd2c83bb82e686099",
+          "bytes": 461
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "shop-buy-navigation/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-shop-metadata-r2/recheck-v1/shop-buy-navigation-integrity.json",
+        "sha256": "f7d402e71d25b839171db71bcd892f5412fa792ecad5dc8dd7091f0957fe6c85",
+        "bytes": 981
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\app\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-shop-buy-navigation-clip-v2.json",
+        "data/gt/candidates/ocr-all-scenes-v1/shop-buy-navigation/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/shop-buy-navigation/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-shop-metadata-r2\\recheck-v1\\shop-buy-navigation-integrity.json"
+      ],
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/freeze.json",
+        "sha256": "cf6cffeeefb4b94b5c519193effaa72db4dac3195e32ee9481bfd47541b36bc6",
+        "bytes": 82329
+      }
+    },
+    {
+      "id": "shop-sell-entry",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/shop-sell-entry/ocr-candidate-v1.jsonl",
+          "bundleFile": "shop-sell-entry/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "16fec5d23dd48b57daa2899e94733121e592feebd3930a5dcaa7513f4cdcadc7",
+          "bytes": 37466
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/all-scenes-shop-sell-entry-clip-v2.json",
+          "bundleFile": "shop-sell-entry/annotations/all-scenes-shop-sell-entry-clip-v2.json",
+          "sha256": "431953bfbe62656db4f3941603150bb21874b7fcca08ca9392b4a36a3c4adf52",
+          "bytes": 1121
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-all-scenes-v1/shop-sell-entry/layout-v1.json",
+          "bundleFile": "shop-sell-entry/annotations/layout-v1.json",
+          "sha256": "8dbe2bbfc6bf1d47995256ff4b1ea8a7e4f8d47088c02a9dd2c83bb82e686099",
+          "bytes": 461
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "shop-sell-entry/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-shop-metadata-r2/recheck-v1/shop-sell-entry-integrity.json",
+        "sha256": "a939f7d21453a15641f961ea13ed7a95a670a4d9f4ad8972686002897c457986",
+        "bytes": 1262
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\app\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/all-scenes-shop-sell-entry-clip-v2.json",
+        "data/gt/candidates/ocr-all-scenes-v1/shop-sell-entry/ocr-candidate-v1.jsonl",
+        "data/gt/candidates/ocr-all-scenes-v1/shop-sell-entry/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-shop-metadata-r2\\recheck-v1\\shop-sell-entry-integrity.json"
+      ],
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/freeze.json",
+        "sha256": "cf6cffeeefb4b94b5c519193effaa72db4dac3195e32ee9481bfd47541b36bc6",
+        "bytes": 82329
+      }
+    },
+    {
+      "id": "shop-rejection",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-shop-metadata-v1/shop-rejection/ocr-candidate-v2.jsonl",
+          "bundleFile": "shop-rejection/annotations/ocr-candidate-v2.jsonl",
+          "sha256": "2c44d8e75b2df9b2f10400a05ade9ed596e0f11202fa2fe7632b821d235e05b8",
+          "bytes": 48232
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/shop-metadata-rejection-clip-v1.json",
+          "bundleFile": "shop-rejection/annotations/shop-metadata-rejection-clip-v1.json",
+          "sha256": "59fb65440ddf09e0a5273bd0420cd811d65f0948dbc878f59939afb62016051c",
+          "bytes": 1110
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-shop-metadata-v1/shop-rejection/layout-v1.json",
+          "bundleFile": "shop-rejection/annotations/layout-v1.json",
+          "sha256": "8dbe2bbfc6bf1d47995256ff4b1ea8a7e4f8d47088c02a9dd2c83bb82e686099",
+          "bytes": 461
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "shop-rejection/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-shop-metadata-r2/recheck-v1/shop-rejection-integrity.json",
+        "sha256": "c16753ad1f4b49e197011f1961097b68e32ad64ec1d46c1d2df4e480579e242f",
+        "bytes": 1262
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\app\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/shop-metadata-rejection-clip-v1.json",
+        "data/gt/candidates/ocr-shop-metadata-v1/shop-rejection/ocr-candidate-v2.jsonl",
+        "data/gt/candidates/ocr-shop-metadata-v1/shop-rejection/layout-v1.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-shop-metadata-r2\\recheck-v1\\shop-rejection-integrity.json"
+      ],
+      "priorFreeze": null
+    },
+    {
+      "id": "shop-exit",
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-expansion-v1/shop-exit/ocr-candidate-v2.jsonl",
+          "bundleFile": "shop-exit/annotations/ocr-candidate-v2.jsonl",
+          "sha256": "cb90c6276d9905227add176e828943ffd5874c5c8d5e15f14e9cfafe73f4db7f",
+          "bytes": 36760
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/meta/expansion-shop-clip-v2.json",
+          "bundleFile": "shop-exit/annotations/expansion-shop-clip-v2.json",
+          "sha256": "5760d76623aa7d698bc3acf77999445b7d2651b80b56e703707140b7dc00e0f3",
+          "bytes": 1623
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/candidates/ocr-expansion-v1/shop-exit/layout-v2.json",
+          "bundleFile": "shop-exit/annotations/layout-v2.json",
+          "sha256": "aee32f21b67e47541a03c43ad863a12b4c79b05e871d27f7ce682f681826c366",
+          "bytes": 1129
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/meta/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "shop-exit/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ],
+      "report": {
+        "path": "reports/gt-approval-shop-metadata-r2/recheck-v1/shop-exit-integrity.json",
+        "sha256": "36968fa733666eff433dc89ad6b08753efc2898f1f39b3af6914fd8f6a2f34f4",
+        "bytes": 1380
+      },
+      "command": [
+        "-Dfile.encoding=UTF-8",
+        "-cp",
+        "D:\\Code\\Workspace\\g1-ocr\\verification\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\app\\target\\classes;D:\\Code\\Workspace\\g1-ocr\\.cache\\m2\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar",
+        "io.github.g1ocr.verification.VideoTool",
+        "gt-check",
+        "data/meta/m1-v1",
+        "data/meta/expansion-shop-clip-v2.json",
+        "data/gt/candidates/ocr-expansion-v1/shop-exit/ocr-candidate-v2.jsonl",
+        "data/gt/candidates/ocr-expansion-v1/shop-exit/layout-v2.json",
+        "D:\\Code\\Workspace\\g1-ocr\\reports\\gt-approval-shop-metadata-r2\\recheck-v1\\shop-exit-integrity.json"
+      ],
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/freeze.json",
+        "sha256": "cf6cffeeefb4b94b5c519193effaa72db4dac3195e32ee9481bfd47541b36bc6",
+        "bytes": 82329
+      }
+    }
+  ],
+  "summary": {
+    "reviewId": "gt-all-scenes-v2-shop-metadata-r2",
+    "status": "all_scene_candidates_structurally_checked_not_approved_not_frozen",
+    "clipCount": 4,
+    "candidateClipCount": 1,
+    "scoreFrameSum": 181,
+    "uniqueScoredOriginalFrames": 180,
+    "uniqueCandidateOriginalFrames": 32,
+    "alreadyApprovedReferenceFrames": 149,
+    "duplicateScoreFrameReferences": 1,
+    "continuousStateIntervals": 54,
+    "completeStateIntervals": 16,
+    "pageOpportunitiesBeforeOverlapDeduplication": 12,
+    "uniquePageOpportunities": 12,
+    "selectedClipFrameReferences": 195,
+    "uniqueSelectedClipFrames": 192,
+    "scoredSeconds": 7.500000000000019,
+    "selectedClipSeconds": 8.000000000000021,
+    "totalSourceFrames": 66770,
+    "totalSourceSeconds": 2779.397368,
+    "outputIndependence": "No tested OCR or production translation exists",
+    "sessionPartition": "development only; independence unverified; acceptance empty",
+    "notProductAcceptance": true,
+    "sources": [
+      {
+        "mediaId": "video-01",
+        "sha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "sourceFrames": 29346,
+        "notScoredRanges": [
+          [
+            0,
+            29346
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            29346
+          ]
+        ],
+        "sourceTimeBase": "1/30",
+        "sourceDurationSeconds": "978.200000"
+      },
+      {
+        "mediaId": "video-02",
+        "sha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+        "sourceFrames": 7964,
+        "notScoredRanges": [
+          [
+            0,
+            7964
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            7964
+          ]
+        ],
+        "sourceTimeBase": "1/12288",
+        "sourceDurationSeconds": "331.833333"
+      },
+      {
+        "mediaId": "video-03",
+        "sha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+        "sourceFrames": 7402,
+        "notScoredRanges": [
+          [
+            0,
+            820
+          ],
+          [
+            864,
+            1044
+          ],
+          [
+            1102,
+            1408
+          ],
+          [
+            1486,
+            7402
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            818
+          ],
+          [
+            866,
+            1042
+          ],
+          [
+            1104,
+            1406
+          ],
+          [
+            1488,
+            7402
+          ]
+        ],
+        "sourceTimeBase": "1/12288",
+        "sourceDurationSeconds": "308.416667"
+      },
+      {
+        "mediaId": "video-04",
+        "sha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+        "sourceFrames": 22058,
+        "notScoredRanges": [
+          [
+            0,
+            22058
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            22058
+          ]
+        ],
+        "sourceTimeBase": "1/19456",
+        "sourceDurationSeconds": "1160.947368"
+      }
+    ]
+  }
+}

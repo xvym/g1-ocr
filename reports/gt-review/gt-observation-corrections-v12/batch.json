@@ -1,0 +1,739 @@
+{
+  "schemaVersion": 3,
+  "items": [
+    {
+      "name": "启动、非目标和黑帧",
+      "frames": "data/frames/video-01/all-scenes-startup-pass2-v1",
+      "integrity": "reports/m2-all-scenes-final-check-v1/startup-nontarget.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/startup-nontarget/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/startup-nontarget/all-scenes-startup-nontarget-clip-v1.json",
+      "approval": "already_approved_frozen_reference_only",
+      "id": "startup-nontarget",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/startup-nontarget/layout-v1.json",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/startup-nontarget/ocr-candidate-v1.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "探索 NPC 两页对话",
+      "frames": "data/frames/video-01/all-scenes-exploration-npc-pass2-v1",
+      "integrity": "reports/m2-all-scenes-final-check-v1/exploration-npc.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/exploration-npc/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/exploration-npc/all-scenes-exploration-npc-clip-v1.json",
+      "approval": "already_approved_frozen_reference_only",
+      "id": "exploration-npc",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/exploration-npc/layout-v1.json",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/exploration-npc/ocr-candidate-v1.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "战斗倒下与经验提示",
+      "frames": "data/frames/video-02/all-scenes-battle-result-pass2-v1",
+      "integrity": "reports/m2-all-scenes-final-check-v1/battle-result.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/battle-result/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/battle-result/all-scenes-battle-result-clip-v1.json",
+      "approval": "already_approved_frozen_reference_only",
+      "id": "battle-result",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/battle-result/layout-v1.json",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/battle-result/ocr-candidate-v1.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "状态双页 · 原始窗口尺寸",
+      "frames": "data/frames/video-02/all-scenes-status-pages-pass2-v1",
+      "integrity": "reports/gt-review/gt-observation-corrections-v1/status-pages/integrity.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/status-pages/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/status-pages/all-scenes-status-pages-clip-v1.json",
+      "approval": "conditional_authorization_six_corrected_frames_only_other_annotations_inherited",
+      "id": "status-pages",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/status-pages/layout-v1.json",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v1/status-pages/ocr-candidate-v2.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "PC 层级、道具列表与滚动",
+      "frames": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1",
+      "integrity": "reports/gt-review/gt-observation-corrections-v12/pc-deposit-navigation/integrity.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/all-scenes-pc-deposit-navigation-clip-v3.json",
+      "approval": "conditional_authorized_original_cursor_correction",
+      "id": "pc-deposit-navigation",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/layout-v2.json",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "PC 关闭与文字失效",
+      "frames": "data/frames/video-02/all-scenes-pc-exit-pass2-v1",
+      "integrity": "reports/gt-review/gt-observation-corrections-v5/pc-exit/integrity.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/all-scenes-pc-exit-clip-v2.json",
+      "approval": "conditional_authorized_original_PC_role_correction",
+      "id": "pc-exit",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/layout-v1.json",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v5/pc-exit/ocr-candidate-role-v1.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "状态双页 · 放大窗口尺寸",
+      "frames": "data/frames/video-03/all-scenes-status-alt-pages-pass2-v1",
+      "integrity": "reports/gt-review/gt-observation-corrections-v1/status-alt-pages/integrity.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/status-alt-pages/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/status-alt-pages/all-scenes-status-alt-pages-clip-v1.json",
+      "approval": "conditional_authorization_six_corrected_frames_only_other_annotations_inherited",
+      "id": "status-alt-pages",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/status-alt-pages/layout-v1.json",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v1/status-alt-pages/ocr-candidate-v2.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "队伍列表显示、选择与清屏",
+      "frames": "data/frames/video-03/all-scenes-party-list-pass2-v1",
+      "integrity": "reports/m2-all-scenes-final-check-v1/party-list.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/party-list/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/party-list/all-scenes-party-list-clip-v2.json",
+      "approval": "already_approved_frozen_reference_only",
+      "id": "party-list",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/party-list/layout-v1.json",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/party-list/ocr-candidate-v1.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "商店买入列表、价格与滚动",
+      "frames": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1",
+      "integrity": "reports/m2-all-scenes-final-check-v1/shop-buy-navigation.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/shop-buy-navigation/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/shop-buy-navigation/all-scenes-shop-buy-navigation-clip-v2.json",
+      "approval": "already_approved_frozen_reference_only",
+      "id": "shop-buy-navigation",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/shop-buy-navigation/layout-v1.json",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/shop-buy-navigation/ocr-candidate-v1.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "商店卖出列表开启与金额清空",
+      "frames": "data/frames/video-03/all-scenes-shop-sell-entry-pass2-v1",
+      "integrity": "reports/gt-review/gt-observation-corrections-v9/shop-sell-entry/integrity.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/shop-sell-entry/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/shop-sell-entry/all-scenes-shop-sell-entry-clip-v2.json",
+      "approval": "conditional_authorized_parent_field_consistency_correction",
+      "id": "shop-sell-entry",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/shop-sell-entry/layout-v1.json",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v9/shop-sell-entry/ocr-candidate-parent-role-v1.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "商店拒绝出售的完整否定提示",
+      "frames": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1",
+      "integrity": "reports/m2-shop-metadata-amendment-v1/shop-rejection-integrity.json",
+      "contract": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/shop-metadata-rejection-clip-v1.json",
+      "approval": "already_approved_frozen_reference_only",
+      "id": "shop-rejection",
+      "layout": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/layout-v1.json",
+      "candidate": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/ocr-candidate-v2.jsonl",
+      "freeze": "data/gt/frozen/ocr-shop-metadata-r2/freeze.json"
+    },
+    {
+      "name": "主菜单与背包开启",
+      "frames": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1",
+      "integrity": "reports/m2-all-scenes-final-check-v1/backpack-opening.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/all-scenes-backpack-opening-clip-v2.json",
+      "approval": "already_approved_frozen_reference_only",
+      "id": "backpack-opening",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/layout-v1.json",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/ocr-candidate-v1.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "背包光标、滚动和单帧页面",
+      "frames": "data/frames/video-04/all-scenes-backpack-pass2-v1",
+      "integrity": "reports/gt-review/gt-observation-corrections-v10/backpack-navigation/integrity.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/backpack-navigation/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/backpack-navigation/all-scenes-backpack-navigation-clip-v2.json",
+      "approval": "conditional_authorized_original_scroll_correction",
+      "id": "backpack-navigation",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/backpack-navigation/layout-v1.json",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v10/backpack-navigation/ocr-candidate-scroll-v1.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "技能选择、PP 与完整一回合",
+      "frames": "data/frames/video-04/all-scenes-skills-turn-pass2-v1",
+      "integrity": "reports/m2-all-scenes-final-check-v1/skills-turn.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/skills-turn/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/skills-turn/all-scenes-skills-turn-clip-v2.json",
+      "approval": "already_approved_frozen_reference_only",
+      "id": "skills-turn",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/skills-turn/layout-v1.json",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/skills-turn/ocr-candidate-v2.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "商店提问、短页与退出",
+      "frames": "data/frames/video-03/expansion-shop-exit-pass2-v1",
+      "integrity": "reports/m2-all-scenes-final-check-v1/shop-exit.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/expansion-shop-clip-v2.json",
+      "approval": "already_approved_frozen_reference_only",
+      "id": "shop-exit",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/layout-v2.json",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/ocr-candidate-v2.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "name": "PC 光标与连接确认",
+      "frames": "data/frames/video-02/expansion-pc-connect-pass2-v1",
+      "integrity": "reports/m2-all-scenes-final-check-v1/pc-connect.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/ocr-scoring-contract-all-scenes-v5.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/expansion-pc-clip-v1.json",
+      "approval": "already_approved_frozen_reference_only",
+      "id": "pc-connect",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/layout-v1.json",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/ocr-candidate-v1.jsonl",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json",
+      "name": "已批准参考：主文本框加载与滚动",
+      "frames": "data/frames/video-02/trial-pass2-v1",
+      "integrity": "reports/gt-review/gt-observation-corrections-v6/integrity.json",
+      "contract": "data/gt/frozen/ocr-trial-v2/ocr-scoring-contract-v1.json",
+      "clip": "data/gt/frozen/ocr-trial-v2/clip-trial-v2.json",
+      "approval": "conditional_authorized_original_gym_role_correction",
+      "id": "approved-trial",
+      "layout": "data/gt/frozen/ocr-trial-v2/layout-v2.json",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v6/approved-trial/ocr-candidate-role-v1.jsonl"
+    },
+    {
+      "frames": "data/frames/video-02/dialogue-bill-data-npc-reviewed-v1",
+      "approval": "already_approved_frozen_reference_only",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/ocr-candidate-v1.jsonl",
+      "integrity": "reports/m2-dialogue-expansion-v1/bill-data-npc-integrity-v1.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "bill-data-npc",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/dialogue-bill-data-npc-clip-v1.json",
+      "name": "新增 · 室内NPC正辉与PC数据三页",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-02/dialogue-bill-grandfather-reviewed-v1",
+      "approval": "already_approved_frozen_reference_only",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-candidate-v1.jsonl",
+      "integrity": "reports/m2-dialogue-expansion-v1/bill-grandfather-integrity-v1.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "bill-grandfather",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/dialogue-bill-grandfather-clip-v1.json",
+      "name": "新增 · 室内祖父四页与两次滚动",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-02/dialogue-gym-sign-continuation-reviewed-v1",
+      "approval": "already_approved_frozen_reference_only",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/ocr-candidate-v1.jsonl",
+      "integrity": "reports/m2-dialogue-expansion-v1/gym-sign-continuation-integrity-v1.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "gym-sign-continuation",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/dialogue-gym-sign-continuation-clip-v1.json",
+      "name": "新增 · 原道馆路牌后续姓名页补全（同一事件）",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-01/dialogue-intro-creatures-reviewed-v1",
+      "approval": "conditional_authorization_six_corrected_frames_only_other_annotations_inherited",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v1/intro-creatures/ocr-candidate-v2.jsonl",
+      "integrity": "reports/gt-review/gt-observation-corrections-v1/intro-creatures/integrity.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/intro-creatures/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "intro-creatures",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/intro-creatures/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/intro-creatures/dialogue-intro-creatures-clip-v1.json",
+      "name": "新增 · 宝可梦与生物说明两页",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-01/dialogue-intro-greeting-reviewed-v1",
+      "approval": "already_approved_frozen_reference_only",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/intro-greeting/ocr-candidate-v1.jsonl",
+      "integrity": "reports/m2-dialogue-expansion-v1/intro-greeting-integrity-v1.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/intro-greeting/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "intro-greeting",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/intro-greeting/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/intro-greeting/dialogue-intro-greeting-clip-v1.json",
+      "name": "新增 · 开场欢迎语与滚动",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-01/dialogue-intro-oak-reviewed-v1",
+      "approval": "already_approved_frozen_reference_only",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/intro-oak/ocr-candidate-v1.jsonl",
+      "integrity": "reports/m2-dialogue-expansion-v1/intro-oak-integrity-v1.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/intro-oak/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "intro-oak",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/intro-oak/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/intro-oak/dialogue-intro-oak-clip-v1.json",
+      "name": "新增 · 博士自我介绍与淡出",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-01/dialogue-intro-pets-reviewed-v1",
+      "approval": "already_approved_frozen_reference_only",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/intro-pets/ocr-candidate-v1.jsonl",
+      "integrity": "reports/m2-dialogue-expansion-v1/intro-pets-integrity-v1.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/intro-pets/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "intro-pets",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/intro-pets/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/intro-pets/dialogue-intro-pets-clip-v1.json",
+      "name": "新增 · 宠物与战斗说明滚动",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-01/dialogue-intro-research-reviewed-v1",
+      "approval": "conditional_authorized_original_punctuation_correction",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v7/intro-research/ocr-candidate-punctuation-v1.jsonl",
+      "integrity": "reports/gt-review/gt-observation-corrections-v7/integrity.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/intro-research/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "intro-research",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/intro-research/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/intro-research/dialogue-intro-research-clip-v1.json",
+      "name": "新增 · 研究说明与淡出",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-01/dialogue-lab-oak-reply-reviewed-v1",
+      "approval": "conditional_authorized_original_boundary_correction",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v8/lab-oak-reply/ocr-candidate-boundary-v1.jsonl",
+      "integrity": "reports/gt-review/gt-observation-corrections-v8/lab-oak-reply/integrity.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/lab-oak-reply/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "lab-oak-reply",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/lab-oak-reply/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/lab-oak-reply/dialogue-lab-oak-reply-clip-v1.json",
+      "name": "新增 · 研究所博士回复与滚动",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-01/dialogue-lab-rival-demand-reviewed-v1",
+      "approval": "conditional_authorized_original_katakana_glyph_correction",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v3/lab-rival-demand/ocr-candidate-v2.jsonl",
+      "integrity": "reports/gt-review/gt-observation-corrections-v3/integrity.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/lab-rival-demand/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "lab-rival-demand",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/lab-rival-demand/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/lab-rival-demand/dialogue-lab-rival-demand-clip-v1.json",
+      "name": "新增 · 研究所劲敌索要宝可梦",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-03/dialogue-league-centre-npc-reviewed-v1",
+      "approval": "conditional_authorized_three_original_frame_boundary_correction",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v2/league-centre-npc/ocr-candidate-v2.jsonl",
+      "integrity": "reports/gt-review/gt-observation-corrections-v2/integrity.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/league-centre-npc/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "league-centre-npc",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/league-centre-npc/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/league-centre-npc/dialogue-league-centre-npc-clip-v1.json",
+      "name": "新增 · 联盟中心NPC四页连续滚动",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-03/dialogue-mart-child-reviewed-v1",
+      "approval": "already_approved_frozen_reference_only",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/mart-child/ocr-candidate-v1.jsonl",
+      "integrity": "reports/m2-dialogue-expansion-v1/mart-child-integrity-v1.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/mart-child/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "mart-child",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/mart-child/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/mart-child/dialogue-mart-child-clip-v1.json",
+      "name": "新增 · 商店NPC宝可梦商品招呼",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-02/dialogue-museum-fee-reviewed-v1",
+      "approval": "already_approved_frozen_reference_only",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/museum-fee/ocr-candidate-v1.jsonl",
+      "integrity": "reports/m2-dialogue-expansion-v1/museum-fee-integrity-v1.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/museum-fee/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "museum-fee",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/museum-fee/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/museum-fee/dialogue-museum-fee-clip-v1.json",
+      "name": "新增 · 博物馆入场费与留在门口",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-02/dialogue-museum-question-reviewed-v1",
+      "approval": "already_approved_frozen_reference_only",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/museum-question/ocr-candidate-v1.jsonl",
+      "integrity": "reports/m2-dialogue-expansion-v1/museum-question-integrity-v1.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/museum-question/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "museum-question",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/museum-question/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/museum-question/dialogue-museum-question-clip-v1.json",
+      "name": "新增 · 博物馆提问、选择否与回答",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-03/dialogue-nurse-greeting-reviewed-v1",
+      "approval": "conditional_authorized_original_clearing_correction",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v11/nurse-greeting/ocr-candidate-clearing-v1.jsonl",
+      "integrity": "reports/gt-review/gt-observation-corrections-v11/nurse-greeting/integrity.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/nurse-greeting/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "nurse-greeting",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/nurse-greeting/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/nurse-greeting/dialogue-nurse-greeting-clip-v1.json",
+      "name": "新增 · 护士欢迎、恢复说明和寄存选择",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-03/dialogue-nurse-intake-reviewed-v1",
+      "approval": "already_approved_frozen_reference_only",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/nurse-intake/ocr-candidate-v1.jsonl",
+      "integrity": "reports/m2-dialogue-expansion-v1/nurse-intake-integrity-v1.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/nurse-intake/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "nurse-intake",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/nurse-intake/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/nurse-intake/dialogue-nurse-intake-clip-v1.json",
+      "name": "新增 · 护士接收提示与完整等待",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-03/dialogue-nurse-return-reviewed-v1",
+      "approval": "already_approved_frozen_reference_only",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/nurse-return/ocr-candidate-v1.jsonl",
+      "integrity": "reports/m2-dialogue-expansion-v1/nurse-return-integrity-v1.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/nurse-return/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "nurse-return",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/nurse-return/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/nurse-return/dialogue-nurse-return-clip-v1.json",
+      "name": "新增 · 护士返还、恢复完成与结束语",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-01/dialogue-oak-delivery-reviewed-v1",
+      "approval": "conditional_authorized_original_boundary_correction",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v8/oak-delivery/ocr-candidate-boundary-v1.jsonl",
+      "integrity": "reports/gt-review/gt-observation-corrections-v8/oak-delivery/integrity.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/oak-delivery/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "oak-delivery",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/oak-delivery/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/oak-delivery/dialogue-oak-delivery-clip-v1.json",
+      "name": "新增 · 研究所交付包裹提示与箭头闪烁",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-03/dialogue-route-ledge-npc-reviewed-v1",
+      "approval": "already_approved_frozen_reference_only",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/route-ledge-npc/ocr-candidate-v1.jsonl",
+      "integrity": "reports/m2-dialogue-expansion-v1/route-ledge-npc-integrity-v1.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/route-ledge-npc/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "route-ledge-npc",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/route-ledge-npc/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/route-ledge-npc/dialogue-route-ledge-npc-clip-v1.json",
+      "name": "新增 · 路边NPC三页跳台提示",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-03/dialogue-route-pp-sign-reviewed-v1",
+      "approval": "already_approved_frozen_reference_only",
+      "candidate": "data/gt/frozen/ocr-all-scenes-v2/route-pp-sign/ocr-candidate-v1.jsonl",
+      "integrity": "reports/m2-dialogue-expansion-v1/route-pp-sign-integrity-v1.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/route-pp-sign/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "route-pp-sign",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/route-pp-sign/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/route-pp-sign/dialogue-route-pp-sign-clip-v1.json",
+      "name": "新增 · 路牌PP与休息说明五页",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    },
+    {
+      "frames": "data/frames/video-02/dialogue-safari-warden-npc-reviewed-v1",
+      "approval": "conditional_authorized_original_spacing_correction",
+      "candidate": "data/gt/candidates/ocr-observation-corrections-v4/safari-warden-npc/ocr-candidate-v2.jsonl",
+      "integrity": "reports/gt-review/gt-observation-corrections-v4/integrity.json",
+      "contract": "data/gt/frozen/ocr-all-scenes-v2/safari-warden-npc/ocr-scoring-contract-all-scenes-v5.json",
+      "id": "safari-warden-npc",
+      "layout": "data/gt/frozen/ocr-all-scenes-v2/safari-warden-npc/layout-v1.json",
+      "clip": "data/gt/frozen/ocr-all-scenes-v2/safari-warden-npc/dialogue-safari-warden-npc-clip-v1.json",
+      "name": "新增 · 室内NPC园长与假牙两页",
+      "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+    }
+  ],
+  "reviewId": "gt-observation-corrections-v12",
+  "approvalScope": "Only1673/1688 source-visible cursor/state corrections and corresponding existing-page boundaries. All frames, text, rectangles, opportunities and scoring rules retained.",
+  "sourceIdentityReport": "reports/m2-dialogue-expansion-v1/source-identity-v2.json",
+  "outputIndependence": "Corrections read from original images in two passes without tested outputs. Existing OCR and prior diagnostic awareness disclosed; no claim of a fresh independent acceptance session.",
+  "gaps": [
+    {
+      "mediaId": "video-04",
+      "impact": "整个背包退出事件不冻结/不宣称通过；该原帧保留，不能计作空文字成功",
+      "uncertainFrames": [
+        5359
+      ],
+      "checks": [
+        "首遍原上下文逐帧及直接放大",
+        "第二次原视频重解码及原像素光标条带",
+        "再次查看5358-5362独立原图，仍不能可靠区分被遮基础字形"
+      ],
+      "source": "data/frames/video-04/all-scenes-backpack-pass2-v1",
+      "layout": "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/layout-v1.json",
+      "id": "backpack-exit-occluded",
+      "status": "pending_not_proposed_for_freeze",
+      "range": [
+        5358,
+        5363
+      ],
+      "reason": "5359退出重绘时玩家精灵遮住やめる末字基础字形，残余道具行也被背景/菜单改写；仅凭5358前帧和5360后帧不能恢复当帧答案"
+    },
+    {
+      "id": "versions-and-sessions",
+      "status": "pending",
+      "reason": "只有video01 HOME红版图标有版本证据；其余版本/来源关系与独立会话无法证实，全部候选development，独立acceptance集合为空；M4继续待验证，不要求补录"
+    },
+    {
+      "id": "unselected-source",
+      "status": "unverified",
+      "reason": "未选原帧范围按四录像总账本补集逐段列出；候选通过不等于整个录像、版本或游戏通过"
+    },
+    {
+      "id": "real-window-and-ui",
+      "status": "pending",
+      "reason": "真实投屏前台/后台/遮挡/最小化/无效帧、Windows10兼容、实际UI延迟和长时稳定性尚无实测证据"
+    },
+    {
+      "id": "review-browser-render",
+      "status": "pending",
+      "reason": "内置浏览器曾明确拒绝file协议且禁止绕过；本包仅做静态/控件检查，实际浏览器呈现未验证，请直接在本机打开入口文件"
+    },
+    {
+      "id": "status-alt-3541-mark",
+      "status": "pending_semantic_confirmation",
+      "mediaId": "video-03",
+      "frames": [
+        3541
+      ],
+      "reason": "Incomplete upper mark remains unresolved after both new original-image readings. Existing historical annotation remains in the denominator. No newly frozen conclusion or pass is granted for this frame."
+    },
+    {
+      "id": "remaining-annotation-audit",
+      "status": "pending",
+      "reason": "Other previously recorded field-role/order/Unicode and raw-image doubts are unchanged, not resolved by these six corrections. Complete dataset semantic integrity and OCR gates remain unpassed."
+    }
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "status": "conditional_authorized_corrections_with_inherited_qualified_reference",
+  "totalSourceFrames": 66770,
+  "coverage": [
+    {
+      "handledBy": [
+        "approved-trial",
+        "exploration-npc",
+        "bill-data-npc",
+        "bill-grandfather",
+        "gym-sign-continuation",
+        "intro-creatures",
+        "intro-greeting",
+        "intro-oak",
+        "intro-pets",
+        "intro-research",
+        "lab-oak-reply",
+        "lab-rival-demand",
+        "league-centre-npc",
+        "mart-child",
+        "museum-fee",
+        "museum-question",
+        "nurse-greeting",
+        "nurse-intake",
+        "nurse-return",
+        "oak-delivery",
+        "route-ledge-npc",
+        "route-pp-sign",
+        "safari-warden-npc"
+      ],
+      "result": "原两例及新增21项（20语段+原路牌后续页）双遍；加载、单帧完整、箭头闪烁、滚动裁切、空框、淡出、清屏及治疗等待全原帧保留，旧35帧批准仅为参考",
+      "scene": "主文本框"
+    },
+    {
+      "handledBy": [
+        "exploration-npc",
+        "bill-data-npc",
+        "bill-grandfather",
+        "gym-sign-continuation",
+        "intro-creatures",
+        "intro-greeting",
+        "intro-oak",
+        "intro-pets",
+        "intro-research",
+        "lab-oak-reply",
+        "lab-rival-demand",
+        "league-centre-npc",
+        "mart-child",
+        "museum-fee",
+        "museum-question",
+        "nurse-greeting",
+        "nurse-intake",
+        "nurse-return",
+        "oak-delivery",
+        "route-ledge-npc",
+        "route-pp-sign",
+        "safari-warden-npc"
+      ],
+      "result": "新增开场五语段、博物馆问答/费用、研究所劲敌/博士回复/交付、室内外NPC、中心护士及道路/道馆牌子；全部是开发候选，未选剧情/对话时段仍未验证",
+      "scene": "探索/对话"
+    },
+    {
+      "handledBy": [
+        "battle-result",
+        "skills-turn"
+      ],
+      "result": "倒下、经验、己方/敌方攻击和落空，保留HUD及其失效；未宣称整场战斗通过",
+      "scene": "战斗提示"
+    },
+    {
+      "handledBy": [
+        "skills-turn"
+      ],
+      "result": "技能/PP/类型和单帧先变字段、完整回合、整幅栅格晃动",
+      "scene": "技能选择"
+    },
+    {
+      "handledBy": [
+        "backpack-opening",
+        "backpack-navigation"
+      ],
+      "result": "打开/选择/滚动/单帧完整机会/重复行/双光标/孤立浊点；退出5359仍不能可靠核清，附原帧待验证",
+      "scene": "背包"
+    },
+    {
+      "handledBy": [
+        "status-pages",
+        "status-alt-pages",
+        "party-list"
+      ],
+      "result": "两种显示尺寸双页/新旧混排/18空帧及队伍六行/选择/半清屏；所有可见数字/名字/PP/HP/ID保留",
+      "scene": "宝可梦状态菜单"
+    },
+    {
+      "handledBy": [
+        "pc-connect",
+        "pc-deposit-navigation",
+        "pc-exit"
+      ],
+      "result": "连接提示、菜单层级、道具列表进入/遮挡/滚动/退出和PC关闭；未选宝可梦盒操作和实际转移未验证",
+      "scene": "PC"
+    },
+    {
+      "handledBy": [
+        "shop-buy-navigation",
+        "shop-sell-entry",
+        "shop-rejection",
+        "shop-exit"
+      ],
+      "result": "买/卖列表、价格/金额/数量、菜单开启/遮挡、拒售否定/清屏/退出；选定操作没有成功交易，不宣称余额变化验收",
+      "scene": "商店"
+    },
+    {
+      "handledBy": [
+        "startup-nontarget"
+      ],
+      "result": "300帧非目标含55精确黑帧，其他候选空态全部计入；真实窗口采集失败输入不在离线素材证据中，待实测",
+      "scene": "非目标/黑帧/无效帧"
+    },
+    {
+      "handledBy": [
+        "exploration-npc",
+        "status-pages",
+        "status-alt-pages",
+        "skills-turn",
+        "shop-buy-navigation",
+        "backpack-navigation",
+        "intro-research",
+        "safari-warden-npc",
+        "league-centre-npc",
+        "nurse-greeting",
+        "route-pp-sign",
+        "gym-sign-continuation"
+      ],
+      "result": "2倍、9/4、独立15/4与34/9轴；浊点/半浊点/小假名/省略号/紧凑HP:/:L/No./IDNo/；玩家/物种/招式/道具/等级/HP/PP/经验/金额/数量均按可见值登记；新增U+30FB逐格点号、引号、两格省略号、滚动失去浊点/半浊点、单帧页面和选择菜单，各按当帧原像素登记",
+      "scene": "缩放/字形/变量"
+    }
+  ],
+  "totalSourceSeconds": 2779.397368,
+  "sessionPartition": "development only; independence unverified; acceptance empty",
+  "mediaLedger": "data/meta/m1-v1/media.jsonl",
+  "expansion": {
+    "limits": "Representative dialogue expansion, not exhaustive transcript of four videos; all unselected intervals explicitly unverified",
+    "priorReview": "gt-all-scenes-v1",
+    "newItemIds": [
+      "bill-data-npc",
+      "bill-grandfather",
+      "gym-sign-continuation",
+      "intro-creatures",
+      "intro-greeting",
+      "intro-oak",
+      "intro-pets",
+      "intro-research",
+      "lab-oak-reply",
+      "lab-rival-demand",
+      "league-centre-npc",
+      "mart-child",
+      "museum-fee",
+      "museum-question",
+      "nurse-greeting",
+      "nurse-intake",
+      "nurse-return",
+      "oak-delivery",
+      "route-ledge-npc",
+      "route-pp-sign",
+      "safari-warden-npc"
+    ],
+    "addedDialogueBlocks": 20,
+    "addedReferenceContinuation": 1,
+    "priorManifestSha256": "f999098f9ec4401a55fb10641ad2a1a342d24447af4ce40267e5bb60669f3246",
+    "description": "本版保留原17项，新增20个对话事件/自然语段，并补齐同一原道馆路牌的后续页。护士三段共享同一次互动；开场、博物馆与研究所相邻语段均不冒充独立会话。新增21项共54页面机会，保留加载、滚动、清屏、菜单与完整等待。",
+    "sameSourceInteractionGroups": [
+      [
+        "intro-greeting",
+        "intro-oak",
+        "intro-creatures",
+        "intro-pets",
+        "intro-research"
+      ],
+      [
+        "museum-question",
+        "museum-fee"
+      ],
+      [
+        "lab-rival-demand",
+        "lab-oak-reply"
+      ],
+      [
+        "nurse-greeting",
+        "nurse-intake",
+        "nurse-return"
+      ],
+      [
+        "approved-trial",
+        "gym-sign-continuation"
+      ]
+    ]
+  },
+  "additionalEvidence": [
+    "data/meta/dialogue-expansion-contexts-v1.json",
+    "reports/m2-dialogue-expansion-v1/dialogue-independent-extraction-v1.json",
+    "reports/m2-dialogue-expansion-v1/dialogue-tool-recovery-v1.json",
+    "reports/m2-dialogue-expansion-v1/dialogue-preview-check-v1.json",
+    "reports/m2-dialogue-expansion-v1/dialogue-source-snapshot-v1.json"
+  ],
+  "sourceEnvelopes": [
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/freeze.json",
+      "sha256": "cf6cffeeefb4b94b5c519193effaa72db4dac3195e32ee9481bfd47541b36bc6",
+      "bytes": 82329
+    },
+    {
+      "path": "data/gt/frozen/ocr-shop-metadata-r2/freeze.json",
+      "sha256": "141777e5b8c357239135450bdedd2adf43d9dd5ca35f1914f956a9f23422f016",
+      "bytes": 13660
+    }
+  ]
+}

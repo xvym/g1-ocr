@@ -1,0 +1,485 @@
+{
+  "reviewId": "gt-observation-corrections-v11",
+  "message": "如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论",
+  "basis": "Full102-frame original double read and98-frame comparison confirm partial erase of upper marks at1920/1921. Split1920 from prior complete menu page; preserve current base text. All original frames/times retained; one incorrectly classified complete opportunity explicitly withdrawn, not passed.",
+  "changes": [
+    {
+      "frame": 1920,
+      "before": {
+        "schemaVersion": 2,
+        "stateId": "9c8aee036f72-f1886-f1921",
+        "mediaId": "video-03",
+        "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+        "startFrame": 1886,
+        "endFrameExclusive": 1921,
+        "startPts": 965632,
+        "endPtsExclusive": 983552,
+        "timeBase": "1/12288",
+        "kind": "message_complete",
+        "completePage": true,
+        "regions": [
+          {
+            "id": "deposit",
+            "role": "menu_option",
+            "readingOrder": 0,
+            "text": "あずける",
+            "gridRect": [
+              15,
+              8,
+              19,
+              9
+            ],
+            "sourceRect": [
+              630,
+              211,
+              750,
+              272
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 16,
+                "gridRow": 7
+              }
+            ]
+          },
+          {
+            "id": "cancel",
+            "role": "menu_option",
+            "readingOrder": 1,
+            "text": "やめる",
+            "gridRect": [
+              15,
+              10,
+              18,
+              11
+            ],
+            "sourceRect": [
+              630,
+              302,
+              720,
+              333
+            ],
+            "markCells": []
+          },
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 2,
+            "text": "ここでは ポケモンの",
+            "gridRect": [
+              1,
+              14,
+              11,
+              15
+            ],
+            "sourceRect": [
+              210,
+              392,
+              510,
+              454
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 3,
+                "gridRow": 13
+              },
+              {
+                "kind": "handakuten",
+                "gridColumn": 6,
+                "gridRow": 13
+              }
+            ]
+          },
+          {
+            "id": "message-bottom",
+            "role": "dialogue",
+            "readingOrder": 3,
+            "text": "たいりょく かいふくを いたします",
+            "gridRect": [
+              1,
+              16,
+              18,
+              17
+            ],
+            "sourceRect": [
+              210,
+              483,
+              720,
+              514
+            ],
+            "markCells": []
+          }
+        ],
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                14,
+                8,
+                15,
+                9
+              ],
+              "sourceRect": [
+                600,
+                241,
+                630,
+                272
+              ]
+            }
+          ],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "outputIndependence": "No tested OCR or production translation exists",
+          "humanPerFrameVerification": "not claimed",
+          "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/nurse-greeting/manual-pass2.json",
+          "originalFrames": "data/frames/video-03/dialogue-centre-pass2-v1"
+        },
+        "pageOpportunityId": "nurse-greeting-3"
+      },
+      "after": {
+        "schemaVersion": 2,
+        "stateId": "9c8aee036f72-f1920-f1921",
+        "mediaId": "video-03",
+        "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+        "startFrame": 1920,
+        "endFrameExclusive": 1921,
+        "startPts": 983040,
+        "endPtsExclusive": 983552,
+        "timeBase": "1/12288",
+        "kind": "message_clearing",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "deposit",
+            "role": "menu_option",
+            "readingOrder": 0,
+            "text": "あずける",
+            "gridRect": [
+              15,
+              8,
+              19,
+              9
+            ],
+            "sourceRect": [
+              630,
+              211,
+              750,
+              272
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 16,
+                "gridRow": 7
+              }
+            ]
+          },
+          {
+            "id": "cancel",
+            "role": "menu_option",
+            "readingOrder": 1,
+            "text": "やめる",
+            "gridRect": [
+              15,
+              10,
+              18,
+              11
+            ],
+            "sourceRect": [
+              630,
+              302,
+              720,
+              333
+            ],
+            "markCells": []
+          },
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 2,
+            "text": "ここては ホケモンの",
+            "gridRect": [
+              1,
+              14,
+              11,
+              15
+            ],
+            "sourceRect": [
+              210,
+              423,
+              510,
+              454
+            ],
+            "markCells": []
+          },
+          {
+            "id": "message-bottom",
+            "role": "dialogue",
+            "readingOrder": 3,
+            "text": "たいりょく かいふくを いたします",
+            "gridRect": [
+              1,
+              16,
+              18,
+              17
+            ],
+            "sourceRect": [
+              210,
+              483,
+              720,
+              514
+            ],
+            "markCells": []
+          }
+        ],
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                14,
+                8,
+                15,
+                9
+              ],
+              "sourceRect": [
+                600,
+                241,
+                630,
+                272
+              ]
+            }
+          ],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "reports/m3-grid-refinement-v1/nurse-mark-notes-v1/pass2.json",
+          "originalFrames": "data/frames/video-03/nurse-mark-pass2-v1",
+          "humanPerFrameVerification": "not claimed",
+          "outputIndependence": "Full102-frame double read with actual/GT closed; prior diagnostic exposure and same-agent memory disclosed. Not independent acceptance."
+        },
+        "renderNote": "Current upper diacritics already erased while base glyphs remain; menu disappears one frame later and dialogue clears next. This is a partial erase transition, not a newly complete message."
+      }
+    },
+    {
+      "frame": 1921,
+      "before": {
+        "schemaVersion": 2,
+        "stateId": "9c8aee036f72-f1921-f1922",
+        "mediaId": "video-03",
+        "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+        "startFrame": 1921,
+        "endFrameExclusive": 1922,
+        "startPts": 983552,
+        "endPtsExclusive": 984064,
+        "timeBase": "1/12288",
+        "kind": "message_complete",
+        "completePage": true,
+        "regions": [
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ここでは ポケモンの",
+            "gridRect": [
+              1,
+              14,
+              11,
+              15
+            ],
+            "sourceRect": [
+              210,
+              392,
+              510,
+              454
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 3,
+                "gridRow": 13
+              },
+              {
+                "kind": "handakuten",
+                "gridColumn": 6,
+                "gridRow": 13
+              }
+            ]
+          },
+          {
+            "id": "message-bottom",
+            "role": "dialogue",
+            "readingOrder": 1,
+            "text": "たいりょく かいふくを いたします",
+            "gridRect": [
+              1,
+              16,
+              18,
+              17
+            ],
+            "sourceRect": [
+              210,
+              483,
+              720,
+              514
+            ],
+            "markCells": []
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "outputIndependence": "No tested OCR or production translation exists",
+          "humanPerFrameVerification": "not claimed",
+          "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/nurse-greeting/manual-pass2.json",
+          "originalFrames": "data/frames/video-03/dialogue-centre-pass2-v1"
+        },
+        "pageOpportunityId": "nurse-greeting-4"
+      },
+      "after": {
+        "schemaVersion": 2,
+        "stateId": "9c8aee036f72-f1921-f1922",
+        "mediaId": "video-03",
+        "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+        "startFrame": 1921,
+        "endFrameExclusive": 1922,
+        "startPts": 983552,
+        "endPtsExclusive": 984064,
+        "timeBase": "1/12288",
+        "kind": "message_clearing",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "ここては ホケモンの",
+            "gridRect": [
+              1,
+              14,
+              11,
+              15
+            ],
+            "sourceRect": [
+              210,
+              423,
+              510,
+              454
+            ],
+            "markCells": []
+          },
+          {
+            "id": "message-bottom",
+            "role": "dialogue",
+            "readingOrder": 1,
+            "text": "たいりょく かいふくを いたします",
+            "gridRect": [
+              1,
+              16,
+              18,
+              17
+            ],
+            "sourceRect": [
+              210,
+              483,
+              720,
+              514
+            ],
+            "markCells": []
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "reports/m3-grid-refinement-v1/nurse-mark-notes-v1/pass2.json",
+          "originalFrames": "data/frames/video-03/nurse-mark-pass2-v1",
+          "humanPerFrameVerification": "not claimed",
+          "outputIndependence": "Full102-frame double read with actual/GT closed; prior diagnostic exposure and same-agent memory disclosed. Not independent acceptance."
+        },
+        "renderNote": "Current upper diacritics already erased while base glyphs remain; menu disappears one frame later and dialogue clears next. This is a partial erase transition, not a newly complete message."
+      }
+    }
+  ],
+  "withdrawnPage": {
+    "id": "nurse-greeting-4",
+    "range": [
+      1921,
+      1922
+    ],
+    "reason": "Only frame of historical opportunity is partially erased old message after menu disappearance. Original102-frame double read establishes continuing erase through1922; not a new complete page. Keep every frame scored and retain old opportunity record here; do not count as a passed page."
+  },
+  "limitations": [
+    {
+      "mediaId": "video-04",
+      "impact": "整个背包退出事件不冻结/不宣称通过；该原帧保留，不能计作空文字成功",
+      "uncertainFrames": [
+        5359
+      ],
+      "checks": [
+        "首遍原上下文逐帧及直接放大",
+        "第二次原视频重解码及原像素光标条带",
+        "再次查看5358-5362独立原图，仍不能可靠区分被遮基础字形"
+      ],
+      "source": "data/frames/video-04/all-scenes-backpack-pass2-v1",
+      "layout": "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/layout-v1.json",
+      "id": "backpack-exit-occluded",
+      "status": "pending_not_proposed_for_freeze",
+      "range": [
+        5358,
+        5363
+      ],
+      "reason": "5359退出重绘时玩家精灵遮住やめる末字基础字形，残余道具行也被背景/菜单改写；仅凭5358前帧和5360后帧不能恢复当帧答案"
+    },
+    {
+      "id": "versions-and-sessions",
+      "status": "pending",
+      "reason": "只有video01 HOME红版图标有版本证据；其余版本/来源关系与独立会话无法证实，全部候选development，独立acceptance集合为空；M4继续待验证，不要求补录"
+    },
+    {
+      "id": "unselected-source",
+      "status": "unverified",
+      "reason": "未选原帧范围按四录像总账本补集逐段列出；候选通过不等于整个录像、版本或游戏通过"
+    },
+    {
+      "id": "real-window-and-ui",
+      "status": "pending",
+      "reason": "真实投屏前台/后台/遮挡/最小化/无效帧、Windows10兼容、实际UI延迟和长时稳定性尚无实测证据"
+    },
+    {
+      "id": "review-browser-render",
+      "status": "pending",
+      "reason": "内置浏览器曾明确拒绝file协议且禁止绕过；本包仅做静态/控件检查，实际浏览器呈现未验证，请直接在本机打开入口文件"
+    },
+    {
+      "id": "status-alt-3541-mark",
+      "status": "pending_semantic_confirmation",
+      "mediaId": "video-03",
+      "frames": [
+        3541
+      ],
+      "reason": "Incomplete upper mark remains unresolved after both new original-image readings. Existing historical annotation remains in the denominator. No newly frozen conclusion or pass is granted for this frame."
+    },
+    {
+      "id": "remaining-annotation-audit",
+      "status": "pending",
+      "reason": "Other previously recorded field-role/order/Unicode and raw-image doubts are unchanged, not resolved by these six corrections. Complete dataset semantic integrity and OCR gates remain unpassed."
+    }
+  ],
+  "sameAgentNotIndependentSession": true
+}

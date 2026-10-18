@@ -1,0 +1,72 @@
+{
+  "status": "diagnosis_not_new_blind_read",
+  "originalFrames": [
+    {
+      "frame": 1672,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001672.png",
+      "sha256": "538bd26b1ca29ab8dcd71228677789a6240fab06e8c14d8844b125d72f7405cb"
+    },
+    {
+      "frame": 1673,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001673.png",
+      "sha256": "c891dc6b3b9640d26c6e7f7ccedfa14089434a976457a7e0c81b6256738d0217"
+    },
+    {
+      "frame": 1674,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001674.png",
+      "sha256": "a9ef9e04083abae34a33223ba445c5d214dc8e2a94e874fe114d32455a99dad3"
+    },
+    {
+      "frame": 1687,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001687.png",
+      "sha256": "c020883245eeb5e0c17cc61e6536e8ca1a68d5657248e7aedef71ea42f087f9b"
+    },
+    {
+      "frame": 1688,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001688.png",
+      "sha256": "ff82f98474825b2a75ecb8bb1bb776701c7aa984e8918315b0c9a001de4175fc"
+    },
+    {
+      "frame": 1689,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001689.png",
+      "sha256": "507b02458e009163e13574ea94e56c60de4b651c5cad8e3d5e113b2dbe7ba00b"
+    },
+    {
+      "frame": 1705,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001705.png",
+      "sha256": "da0c5b98eac004f5f9fd0f57170cd5344263cd970e62a4213abd3f48cdbb2d5d"
+    },
+    {
+      "frame": 1706,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001706.png",
+      "sha256": "72c4e7761bbbc7a380cd43f226000ea574c454ee7026860acf3f7c5fb1fa269f"
+    },
+    {
+      "frame": 1735,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001735.png",
+      "sha256": "3de911bc88e044dfc9ad0e434f560f14b70b111e59d58cb9a37d0307fac3b525"
+    },
+    {
+      "frame": 1736,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001736.png",
+      "sha256": "ce2a959c96ab2042190b969734dce4d87800fb89c59326310e34ff582ac04047"
+    },
+    {
+      "frame": 1737,
+      "path": "data/frames/video-02/pc-role-recheck-pc-deposit-navigation-pass2-v1/frame-001737.png",
+      "sha256": "14bca0e9d75197e658ad81be446f44f555fc9d33de6c0169d83c3d706232302d"
+    }
+  ],
+  "priorDoubleReadDifference": {
+    "path": "reports/m3-grid-refinement-v1/pc-role-recheck-notes-v1/pass-differences.json",
+    "sha256": "468bea3fb750399c2709e455454d9439ec001676a67338a4a799a0d1d0ce7d9d"
+  },
+  "observations": [
+    "1673 still has child row-4 filled cursor; only down arrow disappears relative to1672. Frozen cursor_transition currently removes that cursor.",
+    "1688 has only child row-8 filled cursor, not simultaneous row-6 and row-8. Prior full-event double-read reconciliation already recorded this discrepancy.",
+    "1706 visibly duplicates first two base rows with old upper marks; parent outline cursor is not a second child selection.",
+    "1736 is parent menu, not enclosed child list; current implementation must not pretend it is the same case."
+  ],
+  "gtChanged": false,
+  "followup": "Full affected-event cursor/state audit before any versioned GT correction."
+}

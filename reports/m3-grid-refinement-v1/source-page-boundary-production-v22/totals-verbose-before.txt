@@ -1,0 +1,606 @@
+Classfile /D:/Code/Workspace/g1-ocr/reports/m3-grid-refinement-v1/source-page-boundary-production-v22/baseline/verification/target/classes/io/github/g1ocr/verification/OcrComparison$Totals.class
+  Last modified 2026-10-17; size 4259 bytes
+  MD5 checksum 649fbfa620bf3bbb0aaa3733097bef33
+  Compiled from "OcrComparison.java"
+final class io.github.g1ocr.verification.OcrComparison$Totals
+  minor version: 0
+  major version: 52
+  flags: ACC_FINAL, ACC_SUPER
+Constant pool:
+    #1 = Methodref          #52.#105      // io/github/g1ocr/verification/OcrComparison$Totals."<init>":()V
+    #2 = Methodref          #53.#105      // java/lang/Object."<init>":()V
+    #3 = Fieldref           #52.#106      // io/github/g1ocr/verification/OcrComparison$Totals.characters:J
+    #4 = Fieldref           #80.#107      // io/github/g1ocr/verification/OcrScoring$FrameScore.characters:I
+    #5 = Fieldref           #52.#108      // io/github/g1ocr/verification/OcrComparison$Totals.substitutions:J
+    #6 = Fieldref           #80.#109      // io/github/g1ocr/verification/OcrScoring$FrameScore.substitutions:I
+    #7 = Fieldref           #52.#110      // io/github/g1ocr/verification/OcrComparison$Totals.deletions:J
+    #8 = Fieldref           #80.#111      // io/github/g1ocr/verification/OcrScoring$FrameScore.deletions:I
+    #9 = Fieldref           #52.#112      // io/github/g1ocr/verification/OcrComparison$Totals.insertions:J
+   #10 = Fieldref           #80.#113      // io/github/g1ocr/verification/OcrScoring$FrameScore.insertions:I
+   #11 = Fieldref           #80.#114      // io/github/g1ocr/verification/OcrScoring$FrameScore.exact:Z
+   #12 = Fieldref           #52.#115      // io/github/g1ocr/verification/OcrComparison$Totals.failedFrames:J
+   #13 = Fieldref           #52.#116      // io/github/g1ocr/verification/OcrComparison$Totals.emptyFrames:J
+   #14 = Fieldref           #52.#117      // io/github/g1ocr/verification/OcrComparison$Totals.emptyFalsePositiveFrames:J
+   #15 = Fieldref           #52.#118      // io/github/g1ocr/verification/OcrComparison$Totals.detachedExpected:J
+   #16 = Fieldref           #80.#119      // io/github/g1ocr/verification/OcrScoring$FrameScore.detachedExpected:I
+   #17 = Fieldref           #52.#120      // io/github/g1ocr/verification/OcrComparison$Totals.detachedActual:J
+   #18 = Fieldref           #80.#121      // io/github/g1ocr/verification/OcrScoring$FrameScore.detachedActual:I
+   #19 = Fieldref           #80.#122      // io/github/g1ocr/verification/OcrScoring$FrameScore.symbols:Z
+   #20 = Fieldref           #52.#123      // io/github/g1ocr/verification/OcrComparison$Totals.symbolErrorFrames:J
+   #21 = Fieldref           #80.#124      // io/github/g1ocr/verification/OcrScoring$FrameScore.regionGeometry:Z
+   #22 = Fieldref           #52.#125      // io/github/g1ocr/verification/OcrComparison$Totals.geometryErrorFrames:J
+   #23 = Fieldref           #80.#126      // io/github/g1ocr/verification/OcrScoring$FrameScore.state:Z
+   #24 = Fieldref           #52.#127      // io/github/g1ocr/verification/OcrComparison$Totals.stateErrorFrames:J
+   #25 = Class              #128          // com/google/gson/Gson
+   #26 = Methodref          #25.#105      // com/google/gson/Gson."<init>":()V
+   #27 = Methodref          #25.#129      // com/google/gson/Gson.toJsonTree:(Ljava/lang/Object;)Lcom/google/gson/JsonElement;
+   #28 = Methodref          #130.#131     // com/google/gson/JsonElement.getAsJsonObject:()Lcom/google/gson/JsonObject;
+   #29 = String             #132          // editErrors
+   #30 = Methodref          #133.#134     // java/lang/Long.valueOf:(J)Ljava/lang/Long;
+   #31 = Methodref          #135.#136     // com/google/gson/JsonObject.addProperty:(Ljava/lang/String;Ljava/lang/Number;)V
+   #32 = String             #137          // frameCharacterAccuracy
+   #33 = Methodref          #138.#139     // io/github/g1ocr/verification/OcrScoring.accuracy:(DD)D
+   #34 = Methodref          #140.#141     // java/lang/Double.valueOf:(D)Ljava/lang/Double;
+   #35 = Fieldref           #142.#143     // com/google/gson/JsonNull.INSTANCE:Lcom/google/gson/JsonNull;
+   #36 = Methodref          #135.#144     // com/google/gson/JsonObject.add:(Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+   #37 = Fieldref           #52.#145      // io/github/g1ocr/verification/OcrComparison$Totals.equalCharacters:D
+   #38 = String             #146          // equalStateCharacterAccuracy
+   #39 = Fieldref           #52.#147      // io/github/g1ocr/verification/OcrComparison$Totals.equalErrors:D
+   #40 = InterfaceMethodref #148.#149     // java/util/Map.values:()Ljava/util/Collection;
+   #41 = InterfaceMethodref #150.#151     // java/util/Collection.stream:()Ljava/util/stream/Stream;
+   #42 = InvokeDynamic      #0:#157       // #0:test:()Ljava/util/function/Predicate;
+   #43 = InterfaceMethodref #158.#159     // java/util/stream/Stream.filter:(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+   #44 = InterfaceMethodref #158.#160     // java/util/stream/Stream.count:()J
+   #45 = String             #161          // pageOpportunities
+   #46 = InterfaceMethodref #148.#162     // java/util/Map.size:()I
+   #47 = Methodref          #163.#164     // java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+   #48 = String             #165          // contentExactPages
+   #49 = String             #166          // contentPages
+   #50 = InterfaceMethodref #148.#167     // java/util/Map.isEmpty:()Z
+   #51 = String             #168          // contentExactPageRate
+   #52 = Class              #170          // io/github/g1ocr/verification/OcrComparison$Totals
+   #53 = Class              #171          // java/lang/Object
+   #54 = Utf8               characters
+   #55 = Utf8               J
+   #56 = Utf8               substitutions
+   #57 = Utf8               deletions
+   #58 = Utf8               insertions
+   #59 = Utf8               failedFrames
+   #60 = Utf8               emptyFrames
+   #61 = Utf8               emptyFalsePositiveFrames
+   #62 = Utf8               detachedExpected
+   #63 = Utf8               detachedActual
+   #64 = Utf8               symbolErrorFrames
+   #65 = Utf8               geometryErrorFrames
+   #66 = Utf8               stateErrorFrames
+   #67 = Utf8               equalErrors
+   #68 = Utf8               D
+   #69 = Utf8               equalCharacters
+   #70 = Utf8               <init>
+   #71 = Utf8               ()V
+   #72 = Utf8               Code
+   #73 = Utf8               LineNumberTable
+   #74 = Utf8               LocalVariableTable
+   #75 = Utf8               this
+   #76 = Utf8               Totals
+   #77 = Utf8               InnerClasses
+   #78 = Utf8               Lio/github/g1ocr/verification/OcrComparison$Totals;
+   #79 = Utf8               add
+   #80 = Class              #172          // io/github/g1ocr/verification/OcrScoring$FrameScore
+   #81 = Utf8               FrameScore
+   #82 = Utf8               (Lio/github/g1ocr/verification/OcrScoring$FrameScore;)V
+   #83 = Utf8               f
+   #84 = Utf8               Lio/github/g1ocr/verification/OcrScoring$FrameScore;
+   #85 = Utf8               StackMapTable
+   #86 = Utf8               json
+   #87 = Utf8               (Ljava/util/Map;)Lcom/google/gson/JsonObject;
+   #88 = Utf8               pages
+   #89 = Utf8               Ljava/util/Map;
+   #90 = Utf8               r
+   #91 = Utf8               Lcom/google/gson/JsonObject;
+   #92 = Utf8               errors
+   #93 = Utf8               correct
+   #94 = Utf8               LocalVariableTypeTable
+   #95 = Utf8               Ljava/util/Map<Ljava/lang/String;Ljava/lang/Boolean;>;
+   #96 = Class              #173          // com/google/gson/JsonObject
+   #97 = Utf8               Signature
+   #98 = Utf8               (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Boolean;>;)Lcom/google/gson/JsonObject;
+   #99 = Class              #174          // io/github/g1ocr/verification/OcrComparison$1
+  #100 = Utf8               (Lio/github/g1ocr/verification/OcrComparison$1;)V
+  #101 = Utf8               x0
+  #102 = Utf8               Lio/github/g1ocr/verification/OcrComparison$1;
+  #103 = Utf8               SourceFile
+  #104 = Utf8               OcrComparison.java
+  #105 = NameAndType        #70:#71       // "<init>":()V
+  #106 = NameAndType        #54:#55       // characters:J
+  #107 = NameAndType        #54:#175      // characters:I
+  #108 = NameAndType        #56:#55       // substitutions:J
+  #109 = NameAndType        #56:#175      // substitutions:I
+  #110 = NameAndType        #57:#55       // deletions:J
+  #111 = NameAndType        #57:#175      // deletions:I
+  #112 = NameAndType        #58:#55       // insertions:J
+  #113 = NameAndType        #58:#175      // insertions:I
+  #114 = NameAndType        #176:#177     // exact:Z
+  #115 = NameAndType        #59:#55       // failedFrames:J
+  #116 = NameAndType        #60:#55       // emptyFrames:J
+  #117 = NameAndType        #61:#55       // emptyFalsePositiveFrames:J
+  #118 = NameAndType        #62:#55       // detachedExpected:J
+  #119 = NameAndType        #62:#175      // detachedExpected:I
+  #120 = NameAndType        #63:#55       // detachedActual:J
+  #121 = NameAndType        #63:#175      // detachedActual:I
+  #122 = NameAndType        #178:#177     // symbols:Z
+  #123 = NameAndType        #64:#55       // symbolErrorFrames:J
+  #124 = NameAndType        #179:#177     // regionGeometry:Z
+  #125 = NameAndType        #65:#55       // geometryErrorFrames:J
+  #126 = NameAndType        #180:#177     // state:Z
+  #127 = NameAndType        #66:#55       // stateErrorFrames:J
+  #128 = Utf8               com/google/gson/Gson
+  #129 = NameAndType        #181:#182     // toJsonTree:(Ljava/lang/Object;)Lcom/google/gson/JsonElement;
+  #130 = Class              #183          // com/google/gson/JsonElement
+  #131 = NameAndType        #184:#185     // getAsJsonObject:()Lcom/google/gson/JsonObject;
+  #132 = Utf8               editErrors
+  #133 = Class              #186          // java/lang/Long
+  #134 = NameAndType        #187:#188     // valueOf:(J)Ljava/lang/Long;
+  #135 = Class              #173          // com/google/gson/JsonObject
+  #136 = NameAndType        #189:#190     // addProperty:(Ljava/lang/String;Ljava/lang/Number;)V
+  #137 = Utf8               frameCharacterAccuracy
+  #138 = Class              #191          // io/github/g1ocr/verification/OcrScoring
+  #139 = NameAndType        #192:#193     // accuracy:(DD)D
+  #140 = Class              #194          // java/lang/Double
+  #141 = NameAndType        #187:#195     // valueOf:(D)Ljava/lang/Double;
+  #142 = Class              #196          // com/google/gson/JsonNull
+  #143 = NameAndType        #197:#198     // INSTANCE:Lcom/google/gson/JsonNull;
+  #144 = NameAndType        #79:#199      // add:(Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+  #145 = NameAndType        #69:#68       // equalCharacters:D
+  #146 = Utf8               equalStateCharacterAccuracy
+  #147 = NameAndType        #67:#68       // equalErrors:D
+  #148 = Class              #200          // java/util/Map
+  #149 = NameAndType        #201:#202     // values:()Ljava/util/Collection;
+  #150 = Class              #203          // java/util/Collection
+  #151 = NameAndType        #204:#205     // stream:()Ljava/util/stream/Stream;
+  #152 = Utf8               BootstrapMethods
+  #153 = MethodHandle       #6:#206       // invokestatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #154 = MethodType         #207          //  (Ljava/lang/Object;)Z
+  #155 = MethodHandle       #5:#208       // invokevirtual java/lang/Boolean.booleanValue:()Z
+  #156 = MethodType         #209          //  (Ljava/lang/Boolean;)Z
+  #157 = NameAndType        #210:#211     // test:()Ljava/util/function/Predicate;
+  #158 = Class              #212          // java/util/stream/Stream
+  #159 = NameAndType        #213:#214     // filter:(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+  #160 = NameAndType        #215:#216     // count:()J
+  #161 = Utf8               pageOpportunities
+  #162 = NameAndType        #217:#218     // size:()I
+  #163 = Class              #219          // java/lang/Integer
+  #164 = NameAndType        #187:#220     // valueOf:(I)Ljava/lang/Integer;
+  #165 = Utf8               contentExactPages
+  #166 = Utf8               contentPages
+  #167 = NameAndType        #221:#222     // isEmpty:()Z
+  #168 = Utf8               contentExactPageRate
+  #169 = Class              #223          // io/github/g1ocr/verification/OcrComparison
+  #170 = Utf8               io/github/g1ocr/verification/OcrComparison$Totals
+  #171 = Utf8               java/lang/Object
+  #172 = Utf8               io/github/g1ocr/verification/OcrScoring$FrameScore
+  #173 = Utf8               com/google/gson/JsonObject
+  #174 = Utf8               io/github/g1ocr/verification/OcrComparison$1
+  #175 = Utf8               I
+  #176 = Utf8               exact
+  #177 = Utf8               Z
+  #178 = Utf8               symbols
+  #179 = Utf8               regionGeometry
+  #180 = Utf8               state
+  #181 = Utf8               toJsonTree
+  #182 = Utf8               (Ljava/lang/Object;)Lcom/google/gson/JsonElement;
+  #183 = Utf8               com/google/gson/JsonElement
+  #184 = Utf8               getAsJsonObject
+  #185 = Utf8               ()Lcom/google/gson/JsonObject;
+  #186 = Utf8               java/lang/Long
+  #187 = Utf8               valueOf
+  #188 = Utf8               (J)Ljava/lang/Long;
+  #189 = Utf8               addProperty
+  #190 = Utf8               (Ljava/lang/String;Ljava/lang/Number;)V
+  #191 = Utf8               io/github/g1ocr/verification/OcrScoring
+  #192 = Utf8               accuracy
+  #193 = Utf8               (DD)D
+  #194 = Utf8               java/lang/Double
+  #195 = Utf8               (D)Ljava/lang/Double;
+  #196 = Utf8               com/google/gson/JsonNull
+  #197 = Utf8               INSTANCE
+  #198 = Utf8               Lcom/google/gson/JsonNull;
+  #199 = Utf8               (Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+  #200 = Utf8               java/util/Map
+  #201 = Utf8               values
+  #202 = Utf8               ()Ljava/util/Collection;
+  #203 = Utf8               java/util/Collection
+  #204 = Utf8               stream
+  #205 = Utf8               ()Ljava/util/stream/Stream;
+  #206 = Methodref          #224.#225     // java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #207 = Utf8               (Ljava/lang/Object;)Z
+  #208 = Methodref          #226.#227     // java/lang/Boolean.booleanValue:()Z
+  #209 = Utf8               (Ljava/lang/Boolean;)Z
+  #210 = Utf8               test
+  #211 = Utf8               ()Ljava/util/function/Predicate;
+  #212 = Utf8               java/util/stream/Stream
+  #213 = Utf8               filter
+  #214 = Utf8               (Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+  #215 = Utf8               count
+  #216 = Utf8               ()J
+  #217 = Utf8               size
+  #218 = Utf8               ()I
+  #219 = Utf8               java/lang/Integer
+  #220 = Utf8               (I)Ljava/lang/Integer;
+  #221 = Utf8               isEmpty
+  #222 = Utf8               ()Z
+  #223 = Utf8               io/github/g1ocr/verification/OcrComparison
+  #224 = Class              #228          // java/lang/invoke/LambdaMetafactory
+  #225 = NameAndType        #229:#232     // metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #226 = Class              #233          // java/lang/Boolean
+  #227 = NameAndType        #234:#222     // booleanValue:()Z
+  #228 = Utf8               java/lang/invoke/LambdaMetafactory
+  #229 = Utf8               metafactory
+  #230 = Class              #236          // java/lang/invoke/MethodHandles$Lookup
+  #231 = Utf8               Lookup
+  #232 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #233 = Utf8               java/lang/Boolean
+  #234 = Utf8               booleanValue
+  #235 = Class              #237          // java/lang/invoke/MethodHandles
+  #236 = Utf8               java/lang/invoke/MethodHandles$Lookup
+  #237 = Utf8               java/lang/invoke/MethodHandles
+{
+  long characters;
+    descriptor: J
+    flags:
+
+  long substitutions;
+    descriptor: J
+    flags:
+
+  long deletions;
+    descriptor: J
+    flags:
+
+  long insertions;
+    descriptor: J
+    flags:
+
+  long failedFrames;
+    descriptor: J
+    flags:
+
+  long emptyFrames;
+    descriptor: J
+    flags:
+
+  long emptyFalsePositiveFrames;
+    descriptor: J
+    flags:
+
+  long detachedExpected;
+    descriptor: J
+    flags:
+
+  long detachedActual;
+    descriptor: J
+    flags:
+
+  long symbolErrorFrames;
+    descriptor: J
+    flags:
+
+  long geometryErrorFrames;
+    descriptor: J
+    flags:
+
+  long stateErrorFrames;
+    descriptor: J
+    flags:
+
+  double equalErrors;
+    descriptor: D
+    flags:
+
+  double equalCharacters;
+    descriptor: D
+    flags:
+
+  private io.github.g1ocr.verification.OcrComparison$Totals();
+    descriptor: ()V
+    flags: ACC_PRIVATE
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #2                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 57: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lio/github/g1ocr/verification/OcrComparison$Totals;
+
+  void add(io.github.g1ocr.verification.OcrScoring$FrameScore);
+    descriptor: (Lio/github/g1ocr/verification/OcrScoring$FrameScore;)V
+    flags:
+    Code:
+      stack=5, locals=2, args_size=2
+         0: aload_0
+         1: dup
+         2: getfield      #3                  // Field characters:J
+         5: aload_1
+         6: getfield      #4                  // Field io/github/g1ocr/verification/OcrScoring$FrameScore.characters:I
+         9: i2l
+        10: ladd
+        11: putfield      #3                  // Field characters:J
+        14: aload_0
+        15: dup
+        16: getfield      #5                  // Field substitutions:J
+        19: aload_1
+        20: getfield      #6                  // Field io/github/g1ocr/verification/OcrScoring$FrameScore.substitutions:I
+        23: i2l
+        24: ladd
+        25: putfield      #5                  // Field substitutions:J
+        28: aload_0
+        29: dup
+        30: getfield      #7                  // Field deletions:J
+        33: aload_1
+        34: getfield      #8                  // Field io/github/g1ocr/verification/OcrScoring$FrameScore.deletions:I
+        37: i2l
+        38: ladd
+        39: putfield      #7                  // Field deletions:J
+        42: aload_0
+        43: dup
+        44: getfield      #9                  // Field insertions:J
+        47: aload_1
+        48: getfield      #10                 // Field io/github/g1ocr/verification/OcrScoring$FrameScore.insertions:I
+        51: i2l
+        52: ladd
+        53: putfield      #9                  // Field insertions:J
+        56: aload_1
+        57: getfield      #11                 // Field io/github/g1ocr/verification/OcrScoring$FrameScore.exact:Z
+        60: ifne          73
+        63: aload_0
+        64: dup
+        65: getfield      #12                 // Field failedFrames:J
+        68: lconst_1
+        69: ladd
+        70: putfield      #12                 // Field failedFrames:J
+        73: aload_1
+        74: getfield      #4                  // Field io/github/g1ocr/verification/OcrScoring$FrameScore.characters:I
+        77: ifne          107
+        80: aload_0
+        81: dup
+        82: getfield      #13                 // Field emptyFrames:J
+        85: lconst_1
+        86: ladd
+        87: putfield      #13                 // Field emptyFrames:J
+        90: aload_1
+        91: getfield      #10                 // Field io/github/g1ocr/verification/OcrScoring$FrameScore.insertions:I
+        94: ifle          107
+        97: aload_0
+        98: dup
+        99: getfield      #14                 // Field emptyFalsePositiveFrames:J
+       102: lconst_1
+       103: ladd
+       104: putfield      #14                 // Field emptyFalsePositiveFrames:J
+       107: aload_0
+       108: dup
+       109: getfield      #15                 // Field detachedExpected:J
+       112: aload_1
+       113: getfield      #16                 // Field io/github/g1ocr/verification/OcrScoring$FrameScore.detachedExpected:I
+       116: i2l
+       117: ladd
+       118: putfield      #15                 // Field detachedExpected:J
+       121: aload_0
+       122: dup
+       123: getfield      #17                 // Field detachedActual:J
+       126: aload_1
+       127: getfield      #18                 // Field io/github/g1ocr/verification/OcrScoring$FrameScore.detachedActual:I
+       130: i2l
+       131: ladd
+       132: putfield      #17                 // Field detachedActual:J
+       135: aload_1
+       136: getfield      #19                 // Field io/github/g1ocr/verification/OcrScoring$FrameScore.symbols:Z
+       139: ifne          152
+       142: aload_0
+       143: dup
+       144: getfield      #20                 // Field symbolErrorFrames:J
+       147: lconst_1
+       148: ladd
+       149: putfield      #20                 // Field symbolErrorFrames:J
+       152: aload_1
+       153: getfield      #21                 // Field io/github/g1ocr/verification/OcrScoring$FrameScore.regionGeometry:Z
+       156: ifne          169
+       159: aload_0
+       160: dup
+       161: getfield      #22                 // Field geometryErrorFrames:J
+       164: lconst_1
+       165: ladd
+       166: putfield      #22                 // Field geometryErrorFrames:J
+       169: aload_1
+       170: getfield      #23                 // Field io/github/g1ocr/verification/OcrScoring$FrameScore.state:Z
+       173: ifne          186
+       176: aload_0
+       177: dup
+       178: getfield      #24                 // Field stateErrorFrames:J
+       181: lconst_1
+       182: ladd
+       183: putfield      #24                 // Field stateErrorFrames:J
+       186: return
+      LineNumberTable:
+        line 60: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0     187     0  this   Lio/github/g1ocr/verification/OcrComparison$Totals;
+            0     187     1     f   Lio/github/g1ocr/verification/OcrScoring$FrameScore;
+      StackMapTable: number_of_entries = 5
+        frame_type = 251 /* same_frame_extended */
+          offset_delta = 73
+        frame_type = 33 /* same */
+        frame_type = 44 /* same */
+        frame_type = 16 /* same */
+        frame_type = 16 /* same */
+
+  com.google.gson.JsonObject json(java.util.Map<java.lang.String, java.lang.Boolean>);
+    descriptor: (Ljava/util/Map;)Lcom/google/gson/JsonObject;
+    flags:
+    Code:
+      stack=6, locals=7, args_size=2
+         0: new           #25                 // class com/google/gson/Gson
+         3: dup
+         4: invokespecial #26                 // Method com/google/gson/Gson."<init>":()V
+         7: aload_0
+         8: invokevirtual #27                 // Method com/google/gson/Gson.toJsonTree:(Ljava/lang/Object;)Lcom/google/gson/JsonElement;
+        11: invokevirtual #28                 // Method com/google/gson/JsonElement.getAsJsonObject:()Lcom/google/gson/JsonObject;
+        14: astore_2
+        15: aload_0
+        16: getfield      #5                  // Field substitutions:J
+        19: aload_0
+        20: getfield      #7                  // Field deletions:J
+        23: ladd
+        24: aload_0
+        25: getfield      #9                  // Field insertions:J
+        28: ladd
+        29: lstore_3
+        30: aload_2
+        31: ldc           #29                 // String editErrors
+        33: lload_3
+        34: invokestatic  #30                 // Method java/lang/Long.valueOf:(J)Ljava/lang/Long;
+        37: invokevirtual #31                 // Method com/google/gson/JsonObject.addProperty:(Ljava/lang/String;Ljava/lang/Number;)V
+        40: aload_0
+        41: getfield      #3                  // Field characters:J
+        44: lconst_0
+        45: lcmp
+        46: ifle          71
+        49: aload_2
+        50: ldc           #32                 // String frameCharacterAccuracy
+        52: lload_3
+        53: l2d
+        54: aload_0
+        55: getfield      #3                  // Field characters:J
+        58: l2d
+        59: invokestatic  #33                 // Method io/github/g1ocr/verification/OcrScoring.accuracy:(DD)D
+        62: invokestatic  #34                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+        65: invokevirtual #31                 // Method com/google/gson/JsonObject.addProperty:(Ljava/lang/String;Ljava/lang/Number;)V
+        68: goto          80
+        71: aload_2
+        72: ldc           #32                 // String frameCharacterAccuracy
+        74: getstatic     #35                 // Field com/google/gson/JsonNull.INSTANCE:Lcom/google/gson/JsonNull;
+        77: invokevirtual #36                 // Method com/google/gson/JsonObject.add:(Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+        80: aload_0
+        81: getfield      #37                 // Field equalCharacters:D
+        84: dconst_0
+        85: dcmpl
+        86: ifle          112
+        89: aload_2
+        90: ldc           #38                 // String equalStateCharacterAccuracy
+        92: aload_0
+        93: getfield      #39                 // Field equalErrors:D
+        96: aload_0
+        97: getfield      #37                 // Field equalCharacters:D
+       100: invokestatic  #33                 // Method io/github/g1ocr/verification/OcrScoring.accuracy:(DD)D
+       103: invokestatic  #34                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+       106: invokevirtual #31                 // Method com/google/gson/JsonObject.addProperty:(Ljava/lang/String;Ljava/lang/Number;)V
+       109: goto          121
+       112: aload_2
+       113: ldc           #38                 // String equalStateCharacterAccuracy
+       115: getstatic     #35                 // Field com/google/gson/JsonNull.INSTANCE:Lcom/google/gson/JsonNull;
+       118: invokevirtual #36                 // Method com/google/gson/JsonObject.add:(Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+       121: aload_1
+       122: invokeinterface #40,  1           // InterfaceMethod java/util/Map.values:()Ljava/util/Collection;
+       127: invokeinterface #41,  1           // InterfaceMethod java/util/Collection.stream:()Ljava/util/stream/Stream;
+       132: invokedynamic #42,  0             // InvokeDynamic #0:test:()Ljava/util/function/Predicate;
+       137: invokeinterface #43,  2           // InterfaceMethod java/util/stream/Stream.filter:(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+       142: invokeinterface #44,  1           // InterfaceMethod java/util/stream/Stream.count:()J
+       147: lstore        5
+       149: aload_2
+       150: ldc           #45                 // String pageOpportunities
+       152: aload_1
+       153: invokeinterface #46,  1           // InterfaceMethod java/util/Map.size:()I
+       158: invokestatic  #47                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+       161: invokevirtual #31                 // Method com/google/gson/JsonObject.addProperty:(Ljava/lang/String;Ljava/lang/Number;)V
+       164: aload_2
+       165: ldc           #48                 // String contentExactPages
+       167: lload         5
+       169: invokestatic  #30                 // Method java/lang/Long.valueOf:(J)Ljava/lang/Long;
+       172: invokevirtual #31                 // Method com/google/gson/JsonObject.addProperty:(Ljava/lang/String;Ljava/lang/Number;)V
+       175: aload_2
+       176: ldc           #49                 // String contentPages
+       178: new           #25                 // class com/google/gson/Gson
+       181: dup
+       182: invokespecial #26                 // Method com/google/gson/Gson."<init>":()V
+       185: aload_1
+       186: invokevirtual #27                 // Method com/google/gson/Gson.toJsonTree:(Ljava/lang/Object;)Lcom/google/gson/JsonElement;
+       189: invokevirtual #36                 // Method com/google/gson/JsonObject.add:(Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+       192: aload_1
+       193: invokeinterface #50,  1           // InterfaceMethod java/util/Map.isEmpty:()Z
+       198: ifne          224
+       201: aload_2
+       202: ldc           #51                 // String contentExactPageRate
+       204: lload         5
+       206: l2d
+       207: aload_1
+       208: invokeinterface #46,  1           // InterfaceMethod java/util/Map.size:()I
+       213: i2d
+       214: ddiv
+       215: invokestatic  #34                 // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+       218: invokevirtual #31                 // Method com/google/gson/JsonObject.addProperty:(Ljava/lang/String;Ljava/lang/Number;)V
+       221: goto          233
+       224: aload_2
+       225: ldc           #51                 // String contentExactPageRate
+       227: getstatic     #35                 // Field com/google/gson/JsonNull.INSTANCE:Lcom/google/gson/JsonNull;
+       230: invokevirtual #36                 // Method com/google/gson/JsonObject.add:(Ljava/lang/String;Lcom/google/gson/JsonElement;)V
+       233: aload_2
+       234: areturn
+      LineNumberTable:
+        line 62: 0
+        line 63: 40
+        line 64: 80
+        line 65: 121
+        line 66: 192
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0     235     0  this   Lio/github/g1ocr/verification/OcrComparison$Totals;
+            0     235     1 pages   Ljava/util/Map;
+           15     220     2     r   Lcom/google/gson/JsonObject;
+           30     205     3 errors   J
+          149      86     5 correct   J
+      LocalVariableTypeTable:
+        Start  Length  Slot  Name   Signature
+            0     235     1 pages   Ljava/util/Map<Ljava/lang/String;Ljava/lang/Boolean;>;
+      StackMapTable: number_of_entries = 6
+        frame_type = 253 /* append */
+          offset_delta = 71
+          locals = [ class com/google/gson/JsonObject, long ]
+        frame_type = 8 /* same */
+        frame_type = 31 /* same */
+        frame_type = 8 /* same */
+        frame_type = 252 /* append */
+          offset_delta = 102
+          locals = [ long ]
+        frame_type = 8 /* same */
+    Signature: #98                          // (Ljava/util/Map<Ljava/lang/String;Ljava/lang/Boolean;>;)Lcom/google/gson/JsonObject;
+
+  io.github.g1ocr.verification.OcrComparison$Totals(io.github.g1ocr.verification.OcrComparison$1);
+    descriptor: (Lio/github/g1ocr/verification/OcrComparison$1;)V
+    flags: ACC_SYNTHETIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #1                  // Method "<init>":()V
+         4: return
+      LineNumberTable:
+        line 57: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lio/github/g1ocr/verification/OcrComparison$Totals;
+            0       5     1    x0   Lio/github/g1ocr/verification/OcrComparison$1;
+}
+SourceFile: "OcrComparison.java"
+InnerClasses:
+     private static final #76= #52 of #169; //Totals=class io/github/g1ocr/verification/OcrComparison$Totals of class io/github/g1ocr/verification/OcrComparison
+     static final #81= #80 of #138; //FrameScore=class io/github/g1ocr/verification/OcrScoring$FrameScore of class io/github/g1ocr/verification/OcrScoring
+     static #99; //class io/github/g1ocr/verification/OcrComparison$1
+     public static final #231= #230 of #235; //Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+BootstrapMethods:
+  0: #153 invokestatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #154 (Ljava/lang/Object;)Z
+      #155 invokevirtual java/lang/Boolean.booleanValue:()Z
+      #156 (Ljava/lang/Boolean;)Z

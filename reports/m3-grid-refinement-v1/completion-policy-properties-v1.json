@@ -1,0 +1,18 @@
+{
+  "status": "policy_contract_properties_passed_synthetic_not_video_acceptance",
+  "cases": [
+    "No early output before threshold; no duplicate emission on stable plateau",
+    "Prefix growth and equal-length replacement restart waiting",
+    "Line motion, dakuten, cursor and detached-mark changes restart waiting",
+    "SourceRect noise and blinking arrows do not reset text timer",
+    "Existing arrow/menu/status completion remains immediate in both rules",
+    "Scrolling, clear, empty and unknown text do not gain stable readiness",
+    "Clock reversal and time-base changes discard history",
+    "A one-frame short page is never flushed after disappearance",
+    "Zero ms still requires a second actual observation",
+    "Causal prefix invariance under different future suffixes"
+  ],
+  "policySha256": "78468159f746032c13a2ca67539f90f60432dcca4a6ea312434ca610d203ad83",
+  "checkerSha256": "38162ff0f55573bfbfc5e1dc1c29af8885e780cafca644aa158fbbd8e6ab1552",
+  "productAcceptance": false
+}

@@ -1,0 +1,34 @@
+{
+  "scopeLimits": [
+    "Selected navigation does not commit item transfer",
+    "Other PC Pokemon box operations unselected and unverified"
+  ],
+  "boundaryStatus": "agent_double_read_complete_candidate_not_frozen",
+  "mediaSha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+  "eventType": "Complete deposit submenu operation, parent cursor change, prompt loading, list opening/navigation/scrolling/closing, return main PC hierarchy",
+  "schemaVersion": 2,
+  "id": "c83de914352e-f1632-f1756-pc-deposit-navigation",
+  "independentSession": "unverified",
+  "selectionReason": "Predetermined PC context raw navigation; before1638 parent cursor movement through deposit list and1731 closing/1747 return hierarchy, stable main after1750",
+  "scoreKind": "text_and_state",
+  "postContext": [
+    1754,
+    1756
+  ],
+  "scoredRange": [
+    1634,
+    1754
+  ],
+  "frozen": false,
+  "timeBase": "1/12288",
+  "gt": "data/gt/candidates/ocr-all-scenes-v1/pc-deposit-navigation/ocr-candidate-v3.jsonl",
+  "startFrame": 1632,
+  "mediaId": "video-02",
+  "endFrameExclusive": 1756,
+  "pageOpportunityPolicy": "explicit_id",
+  "warmup": [
+    1632,
+    1634
+  ],
+  "set": "development"
+}

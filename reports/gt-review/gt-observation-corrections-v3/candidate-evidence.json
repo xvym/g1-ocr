@@ -1,0 +1,81 @@
+{
+  "status": "high_confidence_original_glyph_correction_candidate_not_effective_freeze",
+  "authority": "如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论",
+  "oldGt": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2/lab-rival-demand/ocr-candidate-v1.jsonl",
+    "sha256": "e9c6db05f6e2bc4dab57acd812b965225cc05961d110b45154f9a1a5d5e02d51"
+  },
+  "candidate": {
+    "path": "data/gt/candidates/ocr-observation-corrections-v3/lab-rival-demand/ocr-candidate-v2.jsonl",
+    "sha256": "84ac0c0130dce455c9171bfa6ce525bf2a40b0ba7b4092b81582852a4a4e04cb"
+  },
+  "changes": [
+    {
+      "start": 13382,
+      "end": 13384,
+      "before": "グリーン『あっ！",
+      "after": "グリーン『あッ！"
+    },
+    {
+      "start": 13384,
+      "end": 13385,
+      "before": "グリーン『あっ！ ずる",
+      "after": "グリーン『あッ！ ずる"
+    },
+    {
+      "start": 13385,
+      "end": 13387,
+      "before": "グリーン『あっ！ ずるい！",
+      "after": "グリーン『あッ！ ずるい！"
+    },
+    {
+      "start": 13387,
+      "end": 13389,
+      "before": "グリーン『あっ！ ずるい！",
+      "after": "グリーン『あッ！ ずるい！"
+    },
+    {
+      "start": 13389,
+      "end": 13390,
+      "before": "グリーン『あっ！ ずるい！",
+      "after": "グリーン『あッ！ ずるい！"
+    },
+    {
+      "start": 13390,
+      "end": 13391,
+      "before": "グリーン『あっ！ ずるい！",
+      "after": "グリーン『あッ！ ずるい！"
+    },
+    {
+      "start": 13391,
+      "end": 13393,
+      "before": "グリーン『あっ！ ずるい！",
+      "after": "グリーン『あッ！ ずるい！"
+    },
+    {
+      "start": 13393,
+      "end": 13414,
+      "before": "グリーン『あっ！ ずるい！",
+      "after": "グリーン『あッ！ ずるい！"
+    }
+  ],
+  "unchanged": "Every original frame, state boundary, page opportunity, region role/order/geometry, marks/cursors, and codepoint count. Only っ→ッ in the observed current upper row. Old versions retained.",
+  "evidence": [
+    {
+      "path": "reports/m3-grid-refinement-v1/authorized-correction-lab-rival-demand-notes-v1/pass1.json",
+      "sha256": "da8387164a978c2e6bae7ab981d39e2344ac33c8a60dad5fe52c0e8c34a64dcd"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/authorized-correction-lab-rival-demand-notes-v1/pass2.json",
+      "sha256": "d4cc355308f0075955f35eb00f92e92c33ffe8378bf345446d668b3dbe554c90"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/authorized-correction-lab-rival-demand-notes-v1/cell-means.json",
+      "sha256": "cea0b00c6b0fa120700c5a22a2cb820b93eeb5fb18bb50a28ff34c3e4739468c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/authorized-correction-lab-rival-demand-notes-v1/glyph-separation.json",
+      "sha256": "734b0f858b121decc1cb2f6c290aba425eeef3c0124c81facf1c4e15dcf3675e"
+    }
+  ]
+}

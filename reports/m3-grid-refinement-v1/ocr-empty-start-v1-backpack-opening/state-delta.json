@@ -1,0 +1,119 @@
+{
+  "old": {
+    "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v6/actual/backpack-opening.jsonl",
+    "sha256": "19d8f29dc7b3701daa7f2b4e2367b5077fb0928284df5a51a78db82c94dd57b1"
+  },
+  "current": {
+    "path": "reports/m3-grid-refinement-v1/ocr-empty-start-v1-backpack-opening/actual/backpack-opening.jsonl",
+    "sha256": "5daded482838e899de7817289ac4cd5c9a992f99f857d164d1fd65972c5dca3f"
+  },
+  "frames": 38,
+  "allRawRegionsUnchanged": true,
+  "changes": [
+    {
+      "frame": 5176,
+      "before": {
+        "kind": "no_textbox",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      },
+      "after": {
+        "kind": "menu_empty",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      }
+    },
+    {
+      "frame": 5177,
+      "before": {
+        "kind": "no_textbox",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      },
+      "after": {
+        "kind": "menu_empty",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      }
+    },
+    {
+      "frame": 5178,
+      "before": {
+        "kind": "no_textbox",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      },
+      "after": {
+        "kind": "menu_empty",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      }
+    },
+    {
+      "frame": 5179,
+      "before": {
+        "kind": "no_textbox",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      },
+      "after": {
+        "kind": "menu_empty",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      }
+    },
+    {
+      "frame": 5180,
+      "before": {
+        "kind": "no_textbox",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      },
+      "after": {
+        "kind": "menu_empty",
+        "cursor": {
+          "menuCursors": [],
+          "additionalDownArrows": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": []
+      }
+    }
+  ]
+}

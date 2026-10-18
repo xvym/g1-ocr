@@ -28,6 +28,18 @@ public final class VideoTool {
             else if (args.length == 5 && "sheet".equals(args[0])) sheet(Paths.get(args[1]), Paths.get(args[2]), Integer.parseInt(args[3]), Integer.parseInt(args[4]));
             else if (args.length == 7 && "inspect".equals(args[0])) FrameInspection.inspect(Paths.get(args[1]), Paths.get(args[2]), Integer.parseInt(args[3]), Integer.parseInt(args[4]), Integer.parseInt(args[5]), Integer.parseInt(args[6]));
             else if (args.length == 6 && "gt-check".equals(args[0])) GtIntegrity.check(Paths.get(args[1]), Paths.get(args[2]), Paths.get(args[3]), Paths.get(args[4]), Paths.get(args[5]));
+            else if (args.length == 5 && "replay-audit".equals(args[0])) {
+                if (!Arrays.asList("realtime", "unpaced").contains(args[4])) throw new IllegalArgumentException("Replay mode must be realtime or unpaced");
+                ReplayTimeline.audit(Paths.get(args[1]), args[2], Paths.get(args[3]), "realtime".equals(args[4]));
+            }
+            else if (args.length == 5 && "compare-ocr".equals(args[0])) OcrComparison.compare(Paths.get(args[1]), args[2], Paths.get(args[3]), Paths.get(args[4]));
+            else if (args.length == 4 && "font-audit".equals(args[0])) FontReferenceAudit.audit(Paths.get(args[1]), Paths.get(args[2]), Paths.get(args[3]));
+            else if (args.length == 4 && "viewport-check".equals(args[0])) ViewportCheck.check(Paths.get(args[1]), args[2], Paths.get(args[3]));
+            else if (args.length == 4 && "grid-check".equals(args[0])) ViewportCheck.check(Paths.get(args[1]), args[2], Paths.get(args[3]),true);
+            else if (args.length == 4 && "glyph-audit".equals(args[0])) GlyphReadAudit.audit(Paths.get(args[1]), args[2], Paths.get(args[3]));
+            else if (args.length == 4 && "glyph-context-audit".equals(args[0])) GlyphReadAudit.audit(Paths.get(args[1]), args[2], Paths.get(args[3]),true);
+            else if (args.length == 4 && "ocr-replay".equals(args[0])) OcrReplay.replay(Paths.get(args[1]), args[2], Paths.get(args[3]));
+            else if (args.length == 6 && "ocr-replay-assisted".equals(args[0])) OcrReplay.replay(Paths.get(args[1]), args[2], Paths.get(args[3]),new SourceAliasConfiguration(Paths.get(args[4]),args[5]));
             else throw new IllegalArgumentException("Usage: index <input.json> <new-ledger-dir> | export <ledger-dir> <media-id> <start> <end-exclusive> <new-dir> <step (1=all)> | sheet <frame-dir> <new.png> <columns> <thumb-width> | inspect <continuous-export-dir> <new-report-dir> <crop-x> <crop-y> <crop-width> <crop-height> | gt-check <ledger-dir> <clip.json> <gt.jsonl> <layout.json> <new-report.json>");
         } catch (Exception e) {
             e.printStackTrace(System.err); System.exit(e instanceof IllegalArgumentException ? 3 : 4);

@@ -1,0 +1,1059 @@
+{
+  "status": "full_98_frame_content_geometry_cursor_comparison_not_new_freeze",
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r12/freeze.json",
+    "sha256": "3949812dd750e62fb8bd562465f0743b928c48310d73919f520db0cce8a7ea8a"
+  },
+  "integrity": {
+    "path": "reports/m3-grid-refinement-v1/nurse-mark-notes-v1/read-integrity.json",
+    "sha256": "a8161ad8aa5a7ec5354e32b8ac50022d22ae17fa6f99472c134ddf92b700ee8c"
+  },
+  "payloads": [
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-greeting/ocr-candidate-v1.jsonl",
+      "sha256": "9d69ff1b1255f20d9850696b9c967b000a4a624386947d2dcde56550a08de848",
+      "kind": "gt"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-greeting/dialogue-nurse-greeting-clip-v1.json",
+      "sha256": "f64c2e8146184ec22d955edb26b8ac29d8271e8233c3ff3eb5b150d095da2b8f",
+      "kind": "clip"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-greeting/layout-v1.json",
+      "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076",
+      "kind": "layout"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-greeting/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+      "kind": "contract"
+    }
+  ],
+  "scoredFrames": 98,
+  "checks": [
+    {
+      "frame": 1825,
+      "stateId": "9c8aee036f72-f1825-f1827",
+      "fieldsDiffering": [],
+      "recordedKind": "empty_target",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1826,
+      "stateId": "9c8aee036f72-f1825-f1827",
+      "fieldsDiffering": [],
+      "recordedKind": "empty_target",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1827,
+      "stateId": "9c8aee036f72-f1827-f1835",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1828,
+      "stateId": "9c8aee036f72-f1827-f1835",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1829,
+      "stateId": "9c8aee036f72-f1827-f1835",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1830,
+      "stateId": "9c8aee036f72-f1827-f1835",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1831,
+      "stateId": "9c8aee036f72-f1827-f1835",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1832,
+      "stateId": "9c8aee036f72-f1827-f1835",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1833,
+      "stateId": "9c8aee036f72-f1827-f1835",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1834,
+      "stateId": "9c8aee036f72-f1827-f1835",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1835,
+      "stateId": "9c8aee036f72-f1835-f1836",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1836,
+      "stateId": "9c8aee036f72-f1836-f1837",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1837,
+      "stateId": "9c8aee036f72-f1837-f1838",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1838,
+      "stateId": "9c8aee036f72-f1838-f1840",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1839,
+      "stateId": "9c8aee036f72-f1838-f1840",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1840,
+      "stateId": "9c8aee036f72-f1840-f1841",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1841,
+      "stateId": "9c8aee036f72-f1841-f1852",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1842,
+      "stateId": "9c8aee036f72-f1841-f1852",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1843,
+      "stateId": "9c8aee036f72-f1841-f1852",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1844,
+      "stateId": "9c8aee036f72-f1841-f1852",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1845,
+      "stateId": "9c8aee036f72-f1841-f1852",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1846,
+      "stateId": "9c8aee036f72-f1841-f1852",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1847,
+      "stateId": "9c8aee036f72-f1841-f1852",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1848,
+      "stateId": "9c8aee036f72-f1841-f1852",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1849,
+      "stateId": "9c8aee036f72-f1841-f1852",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1850,
+      "stateId": "9c8aee036f72-f1841-f1852",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1851,
+      "stateId": "9c8aee036f72-f1841-f1852",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1852,
+      "stateId": "9c8aee036f72-f1852-f1859",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1853,
+      "stateId": "9c8aee036f72-f1852-f1859",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1854,
+      "stateId": "9c8aee036f72-f1852-f1859",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1855,
+      "stateId": "9c8aee036f72-f1852-f1859",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1856,
+      "stateId": "9c8aee036f72-f1852-f1859",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1857,
+      "stateId": "9c8aee036f72-f1852-f1859",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1858,
+      "stateId": "9c8aee036f72-f1852-f1859",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1859,
+      "stateId": "9c8aee036f72-f1859-f1860",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1860,
+      "stateId": "9c8aee036f72-f1860-f1862",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1861,
+      "stateId": "9c8aee036f72-f1860-f1862",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1862,
+      "stateId": "9c8aee036f72-f1862-f1863",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1863,
+      "stateId": "9c8aee036f72-f1863-f1864",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1864,
+      "stateId": "9c8aee036f72-f1864-f1865",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1865,
+      "stateId": "9c8aee036f72-f1865-f1866",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1866,
+      "stateId": "9c8aee036f72-f1866-f1868",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1867,
+      "stateId": "9c8aee036f72-f1866-f1868",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1868,
+      "stateId": "9c8aee036f72-f1868-f1869",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1869,
+      "stateId": "9c8aee036f72-f1869-f1870",
+      "fieldsDiffering": [],
+      "recordedKind": "message_loading",
+      "recordedCompletePage": false
+    },
+    {
+      "frame": 1870,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1871,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1872,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1873,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1874,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1875,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1876,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1877,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1878,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1879,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1880,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1881,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1882,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1883,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1884,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1885,
+      "stateId": "9c8aee036f72-f1870-f1886",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1886,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1887,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1888,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1889,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1890,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1891,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1892,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1893,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1894,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1895,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1896,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1897,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1898,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1899,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1900,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1901,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1902,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1903,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1904,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1905,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1906,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1907,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1908,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1909,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1910,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1911,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1912,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1913,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1914,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1915,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1916,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1917,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1918,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1919,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1920,
+      "stateId": "9c8aee036f72-f1886-f1921",
+      "fieldsDiffering": [
+        "regions"
+      ],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1921,
+      "stateId": "9c8aee036f72-f1921-f1922",
+      "fieldsDiffering": [
+        "regions"
+      ],
+      "recordedKind": "message_complete",
+      "recordedCompletePage": true
+    },
+    {
+      "frame": 1922,
+      "stateId": "9c8aee036f72-f1922-f1923",
+      "fieldsDiffering": [],
+      "recordedKind": "textbox_empty",
+      "recordedCompletePage": false
+    }
+  ],
+  "differences": [
+    {
+      "frame": 1920,
+      "fields": [
+        "regions"
+      ],
+      "before": {
+        "regions": [
+          {
+            "text": "あずける",
+            "role": "menu_option",
+            "readingOrder": 0,
+            "gridRect": [
+              15,
+              8,
+              19,
+              9
+            ],
+            "sourceRect": [
+              630,
+              211,
+              750,
+              272
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 16,
+                "gridRow": 7
+              }
+            ]
+          },
+          {
+            "text": "やめる",
+            "role": "menu_option",
+            "readingOrder": 1,
+            "gridRect": [
+              15,
+              10,
+              18,
+              11
+            ],
+            "sourceRect": [
+              630,
+              302,
+              720,
+              333
+            ],
+            "markCells": []
+          },
+          {
+            "text": "ここでは ポケモンの",
+            "role": "dialogue",
+            "readingOrder": 2,
+            "gridRect": [
+              1,
+              14,
+              11,
+              15
+            ],
+            "sourceRect": [
+              210,
+              392,
+              510,
+              454
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 3,
+                "gridRow": 13
+              },
+              {
+                "kind": "handakuten",
+                "gridColumn": 6,
+                "gridRow": 13
+              }
+            ]
+          },
+          {
+            "text": "たいりょく かいふくを いたします",
+            "role": "dialogue",
+            "readingOrder": 3,
+            "gridRect": [
+              1,
+              16,
+              18,
+              17
+            ],
+            "sourceRect": [
+              210,
+              483,
+              720,
+              514
+            ],
+            "markCells": []
+          }
+        ],
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                14,
+                8,
+                15,
+                9
+              ],
+              "sourceRect": [
+                600,
+                241,
+                630,
+                272
+              ]
+            }
+          ],
+          "downArrowVisible": false
+        }
+      },
+      "observed": {
+        "regions": [
+          {
+            "text": "あずける",
+            "role": "menu_option",
+            "readingOrder": 0,
+            "gridRect": [
+              15,
+              8,
+              19,
+              9
+            ],
+            "sourceRect": [
+              630,
+              211,
+              750,
+              272
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 16,
+                "gridRow": 7
+              }
+            ]
+          },
+          {
+            "text": "やめる",
+            "role": "menu_option",
+            "readingOrder": 1,
+            "gridRect": [
+              15,
+              10,
+              18,
+              11
+            ],
+            "sourceRect": [
+              630,
+              302,
+              720,
+              333
+            ],
+            "markCells": []
+          },
+          {
+            "text": "ここては ホケモンの",
+            "role": "dialogue",
+            "readingOrder": 2,
+            "gridRect": [
+              1,
+              14,
+              11,
+              15
+            ],
+            "sourceRect": [
+              210,
+              423,
+              510,
+              454
+            ],
+            "markCells": []
+          },
+          {
+            "text": "たいりょく かいふくを いたします",
+            "role": "dialogue",
+            "readingOrder": 3,
+            "gridRect": [
+              1,
+              16,
+              18,
+              17
+            ],
+            "sourceRect": [
+              210,
+              483,
+              720,
+              514
+            ],
+            "markCells": []
+          }
+        ],
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                14,
+                8,
+                15,
+                9
+              ],
+              "sourceRect": [
+                600,
+                241,
+                630,
+                272
+              ]
+            }
+          ],
+          "downArrowVisible": false
+        }
+      }
+    },
+    {
+      "frame": 1921,
+      "fields": [
+        "regions"
+      ],
+      "before": {
+        "regions": [
+          {
+            "text": "ここでは ポケモンの",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "gridRect": [
+              1,
+              14,
+              11,
+              15
+            ],
+            "sourceRect": [
+              210,
+              392,
+              510,
+              454
+            ],
+            "markCells": [
+              {
+                "kind": "dakuten",
+                "gridColumn": 3,
+                "gridRow": 13
+              },
+              {
+                "kind": "handakuten",
+                "gridColumn": 6,
+                "gridRow": 13
+              }
+            ]
+          },
+          {
+            "text": "たいりょく かいふくを いたします",
+            "role": "dialogue",
+            "readingOrder": 1,
+            "gridRect": [
+              1,
+              16,
+              18,
+              17
+            ],
+            "sourceRect": [
+              210,
+              483,
+              720,
+              514
+            ],
+            "markCells": []
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        }
+      },
+      "observed": {
+        "regions": [
+          {
+            "text": "ここては ホケモンの",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "gridRect": [
+              1,
+              14,
+              11,
+              15
+            ],
+            "sourceRect": [
+              210,
+              423,
+              510,
+              454
+            ],
+            "markCells": []
+          },
+          {
+            "text": "たいりょく かいふくを いたします",
+            "role": "dialogue",
+            "readingOrder": 1,
+            "gridRect": [
+              1,
+              16,
+              18,
+              17
+            ],
+            "sourceRect": [
+              210,
+              483,
+              720,
+              514
+            ],
+            "markCells": []
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        }
+      }
+    }
+  ],
+  "stateReviewPending": [
+    1920,
+    1921
+  ],
+  "limitations": "Mark disappearance changes upper text/mark bounds at1920/1921. Re-evaluate transition kind and page-opportunity semantics before versioned correction. No OCR output read. No independent acceptance."
+}

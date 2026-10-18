@@ -1,0 +1,11 @@
+{
+  "status": "identical_RGB_annotation_differences_require_original_review_not_automatic_GT_repair",
+  "freezeSha256": "748087f7049d657ada68e634fda8b21dc37674257769bc559e79fff684dbb246",
+  "helperSha256": "5b789f4f79d1aa2c24f8e04af2fc41b6802eddf4d2c338e591e930df6e4b5417",
+  "inputBoundary": "Only frozen payloads, original frame hashes and source time ledger. No tested OCR output, glyph ranker or message index is read.",
+  "pixelIdenticalGroups": 2434,
+  "cases": 0,
+  "nearbySameClipPhysicalDifferences": 0,
+  "findings": [],
+  "interpretation": "Identical RGB can legitimately have different temporal state kinds or contextual roles. Physical text/geometry differences, especially nearby within one clip, require direct original-image review. No case is automatically marked wrong or used to alter GT; same-shape kana and segmentation also need review."
+}

@@ -1,0 +1,219 @@
+{
+  "status": "agent_original_frame_read_not_human_or_independent_session",
+  "pass": 1,
+  "range": [
+    1823,
+    1925
+  ],
+  "priorExposure": "Prior diagnosis and plan disclosed two suspected mark frames and kana ambiguity. No actual/GT opened during this read. Same agent memory persists.",
+  "sheets": "reports/m3-grid-refinement-v1/blind-recheck-sheets-pass1-v1/nurse-greeting",
+  "all17SheetsDirectlyViewed": true,
+  "spans": [
+    [
+      1823,
+      1835,
+      []
+    ],
+    [
+      1835,
+      1836,
+      [
+        "よ"
+      ]
+    ],
+    [
+      1836,
+      1837,
+      [
+        "ようこそ"
+      ]
+    ],
+    [
+      1837,
+      1838,
+      [
+        "ようこそ！",
+        "ポケ"
+      ]
+    ],
+    [
+      1838,
+      1840,
+      [
+        "ようこそ！",
+        "ポケモンセ"
+      ]
+    ],
+    [
+      1840,
+      1841,
+      [
+        "ようこそ！",
+        "ポケモンセンター"
+      ]
+    ],
+    [
+      1841,
+      1852,
+      [
+        "ようこそ！",
+        "ポケモンセンターへ"
+      ]
+    ],
+    [
+      1852,
+      1859,
+      []
+    ],
+    [
+      1859,
+      1860,
+      [
+        "こ"
+      ]
+    ],
+    [
+      1860,
+      1862,
+      [
+        "ここでは"
+      ]
+    ],
+    [
+      1862,
+      1863,
+      [
+        "ここでは ポケ"
+      ]
+    ],
+    [
+      1863,
+      1864,
+      [
+        "ここでは ポケモンの"
+      ]
+    ],
+    [
+      1864,
+      1865,
+      [
+        "ここでは ポケモンの",
+        "たいり"
+      ]
+    ],
+    [
+      1865,
+      1866,
+      [
+        "ここでは ポケモンの",
+        "たいりょく"
+      ]
+    ],
+    [
+      1866,
+      1868,
+      [
+        "ここでは ポケモンの",
+        "たいりょく かいふ"
+      ]
+    ],
+    [
+      1868,
+      1869,
+      [
+        "ここでは ポケモンの",
+        "たいりょく かいふくを"
+      ]
+    ],
+    [
+      1869,
+      1870,
+      [
+        "ここでは ポケモンの",
+        "たいりょく かいふくを いたし"
+      ]
+    ],
+    [
+      1870,
+      1920,
+      [
+        "ここでは ポケモンの",
+        "たいりょく かいふくを いたします"
+      ]
+    ],
+    [
+      1920,
+      1922,
+      [
+        "ここては ホケモンの",
+        "たいりょく かいふくを いたします"
+      ]
+    ],
+    [
+      1922,
+      1923,
+      []
+    ],
+    [
+      1923,
+      1924,
+      [
+        "それで"
+      ]
+    ],
+    [
+      1924,
+      1925,
+      [
+        "それでは",
+        "あず"
+      ]
+    ]
+  ],
+  "downArrow": [
+    [
+      1841,
+      1852
+    ],
+    [
+      1870,
+      1886
+    ]
+  ],
+  "menu": {
+    "range": [
+      1886,
+      1921
+    ],
+    "lines": [
+      "あずける",
+      "やめる"
+    ],
+    "cursor": [
+      14,
+      8
+    ],
+    "textStarts": [
+      [
+        15,
+        8
+      ],
+      [
+        15,
+        10
+      ]
+    ],
+    "dakuten": [
+      16,
+      7
+    ]
+  },
+  "boxAppears": 1827,
+  "notes": [
+    "All dialogue starts at column1 rows14/16. No scrolling in this event.",
+    "At1920/1921 upper line base glyphs remain but marks above て(column3)/ホ(column6), row13, are absent. Menu still has its dakuten at1920; menu removed1921; dialogue cleared1922.",
+    "At1864 observed たいり; small ょ first1865.",
+    "へ/ヘ is visually shared; へ transcription convention does not independently resolve Unicode.",
+    "Context1923/1924 belongs to subsequent intake, not additional scoring."
+  ]
+}

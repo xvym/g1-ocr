@@ -1,0 +1,88 @@
+{
+  "status": "validation_scope_correction_no_algorithm_change",
+  "firstFailedAssumption": {
+    "clip": "status-pages",
+    "frame": 460,
+    "reason": "Exact unchanged-output comparison rejected a real party-menu frame retained as warmup of status-pages. The approved party structure fix also applies to this current image."
+  },
+  "correction": "Keep all warmup/context; permit only the already-approved party HP unit change there. Scored failure target remains20 originals/115 labels. Every other output including readiness must remain equal.",
+  "cases": [
+    {
+      "clip": "status-pages",
+      "retained": 108,
+      "changes": [
+        {
+          "frame": 460,
+          "scored": false,
+          "labels": 6
+        },
+        {
+          "frame": 461,
+          "scored": false,
+          "labels": 6
+        },
+        {
+          "frame": 564,
+          "scored": false,
+          "labels": 6
+        },
+        {
+          "frame": 565,
+          "scored": false,
+          "labels": 6
+        },
+        {
+          "frame": 566,
+          "scored": false,
+          "labels": 6
+        },
+        {
+          "frame": 567,
+          "scored": false,
+          "labels": 6
+        }
+      ]
+    },
+    {
+      "clip": "status-alt-pages",
+      "retained": 135,
+      "changes": [
+        {
+          "frame": 3532,
+          "scored": false,
+          "labels": 6
+        },
+        {
+          "frame": 3533,
+          "scored": false,
+          "labels": 6
+        },
+        {
+          "frame": 3663,
+          "scored": false,
+          "labels": 6
+        },
+        {
+          "frame": 3664,
+          "scored": false,
+          "labels": 6
+        },
+        {
+          "frame": 3665,
+          "scored": false,
+          "labels": 6
+        },
+        {
+          "frame": 3666,
+          "scored": false,
+          "labels": 6
+        }
+      ]
+    },
+    {
+      "clip": "battle-result",
+      "retained": 55,
+      "changes": []
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "videoId": "video-02",
+  "range": [
+    5262,
+    5330
+  ],
+  "frameCount": 68,
+  "source": "data/frames/video-02/gym-dialogue-role-pass2-v1",
+  "sheets": "reports/m3-grid-refinement-v1/gym-dialogue-role-pass2-sheets-v1",
+  "method": "Same coding agent directly read all 12 sheets from newly exported original frames; no actual OCR or GT opened during this pass. Prior contract audit and first pass awareness retained; not independent-session or human review.",
+  "observations": [
+    {
+      "range": [
+        5262,
+        5268
+      ],
+      "lines": [],
+      "note": "No message box"
+    },
+    {
+      "range": [
+        5268,
+        5275
+      ],
+      "lines": [],
+      "note": "Empty bottom message box"
+    },
+    {
+      "range": [
+        5275,
+        5276
+      ],
+      "lines": [
+        "セキ"
+      ]
+    },
+    {
+      "range": [
+        5276,
+        5278
+      ],
+      "lines": [
+        "セキチク"
+      ]
+    },
+    {
+      "range": [
+        5278,
+        5279
+      ],
+      "lines": [
+        "セキチク ポケモ"
+      ]
+    },
+    {
+      "range": [
+        5279,
+        5280
+      ],
+      "lines": [
+        "セキチク ポケモン ジ"
+      ]
+    },
+    {
+      "range": [
+        5280,
+        5281
+      ],
+      "lines": [
+        "セキチク ポケモン ジム",
+        "キョ"
+      ]
+    },
+    {
+      "range": [
+        5281,
+        5282
+      ],
+      "lines": [
+        "セキチク ポケモン ジム",
+        "キョウ に"
+      ]
+    },
+    {
+      "range": [
+        5282,
+        5284
+      ],
+      "lines": [
+        "セキチク ポケモン ジム",
+        "キョウ にんてい"
+      ]
+    },
+    {
+      "range": [
+        5284,
+        5285
+      ],
+      "lines": [
+        "セキチク ポケモン ジム",
+        "キョウ にんてい トレ"
+      ]
+    },
+    {
+      "range": [
+        5285,
+        5286
+      ],
+      "lines": [
+        "セキチク ポケモン ジム",
+        "キョウ にんてい トレーナー"
+      ]
+    },
+    {
+      "range": [
+        5286,
+        5296
+      ],
+      "lines": [
+        "セキチク ポケモン ジム",
+        "キョウ にんてい トレーナー！"
+      ],
+      "arrow": true
+    },
+    {
+      "range": [
+        5296,
+        5298
+      ],
+      "lines": [
+        "セキチク ホケモン シム",
+        "キョウ にんてい トレーナー！"
+      ],
+      "arrow": false,
+      "note": "Both rows shifted up; upper marks clipped by border"
+    },
+    {
+      "range": [
+        5298,
+        5300
+      ],
+      "lines": [
+        "キョウ にんてい トレーナー！"
+      ],
+      "arrow": false,
+      "note": "Same surviving line at normal upper row; no menu or field transition at 5298/5299"
+    },
+    {
+      "range": [
+        5300,
+        5302
+      ],
+      "lines": [
+        "キョウ にんてい トレーナー！",
+        "レッド"
+      ],
+      "arrow": false
+    },
+    {
+      "range": [
+        5302,
+        5303
+      ],
+      "lines": [
+        "キョウ にんてい トレーナー！",
+        "レッド グリ"
+      ],
+      "arrow": false
+    },
+    {
+      "range": [
+        5303,
+        5320
+      ],
+      "lines": [
+        "キョウ にんてい トレーナー！",
+        "レッド グリーン"
+      ],
+      "arrow": false,
+      "note": "Visible stable text; not by itself online evidence of completion"
+    },
+    {
+      "range": [
+        5320,
+        5326
+      ],
+      "lines": [],
+      "note": "Message box gone"
+    },
+    {
+      "range": [
+        5326,
+        5330
+      ],
+      "lines": [],
+      "note": "Player moves; last two frames extra context only"
+    }
+  ],
+  "gtChanged": false,
+  "productionChanged": false
+}

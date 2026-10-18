@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 4,
+  "fontSourceManifest": "resources/japanese-font-sources-v2.json",
+  "purpose": "Pinned Japanese renderer coordinates, field encoding and list quantity/price printing. No message correction or translation.",
+  "files": [
+    "data/text_boxes.asm", "engine/menus/text_box.asm", "engine/menus/party_menu.asm",
+    "engine/menus/draw_start_menu.asm", "engine/menus/start_sub_menus.asm", "engine/menus/pc.asm",
+    "engine/menus/players_pc.asm", "engine/pokemon/status_screen.asm", "engine/battle/core.asm",
+    "home/print_text.asm", "constants/menu_constants.asm", "home/pokemon.asm",
+    "home/yes_no.asm", "data/yes_no_menu_strings.asm", "engine/events/pokecenter.asm", "home/list_menu.asm"
+  ]
+}

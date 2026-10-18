@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 3,
+  "status": "all-scenes candidate contract; not approved/frozen; original approved contract-v1 unchanged",
+  "gtFields": [
+    "stateId",
+    "mediaId",
+    "mediaSha256",
+    "startFrame",
+    "endFrameExclusive",
+    "startPts",
+    "endPtsExclusive",
+    "timeBase",
+    "kind",
+    "completePage",
+    "regions",
+    "cursor",
+    "layoutRef",
+    "evidence",
+    "verificationStatus"
+  ],
+  "regionFields": [
+    "id",
+    "role",
+    "readingOrder",
+    "text",
+    "gridRect",
+    "sourceRect",
+    "markCells"
+  ],
+  "actualDriverFields": [
+    "sourceFrameIndex",
+    "sourcePts",
+    "timeBase",
+    "resultReceivedAt",
+    "rawRegions",
+    "correctedRegions",
+    "correctionEvidence",
+    "visibleState",
+    "uiObservedAt",
+    "uiObservationEvidence"
+  ],
+  "consumerInput": "RGB24, width, height, integer source PTS and positive rational time base only. Driver keeps source frame association outside app input; no GT, clip/split labels or answers in consumer.",
+  "textUnit": "UTF-8 NFC precomposed Japanese Unicode scalar values; U+0020 represents one blank glyph cell; U+FF01 exclamation. Keep small kana, numbers, punctuation and all spaces. No automatic normalization during scoring.",
+  "partiallyHiddenGlyphs": "Score current visible base glyph when its diacritic is clipped, with explicit renderNote and changed markCells/coordinates; do not restore marks from earlier/later frames. Trial frames 5296-5297 are ホ/シ, not ポ/ジ.",
+  "rectangles": "[left,top,right,bottom); gridRect is logical base-cell occupancy, sourceRect includes actually visible diacritic envelope. layoutRef freezes source-to-game mapping before OCR. Pixel border offsets are reported separately.",
+  "regionMatching": "Match by frozen field role, base grid starting row/column and reading order. Reject duplicate keys; do not choose by text similarity. Unmatched GT is deletion; unmatched actual is insertion. Wrong occupancy, role or visible marks makes position/page incorrect, even if text agrees.",
+  "characterErrors": "Per matched region use Levenshtein substitutions+deletions+insertions on Unicode scalars. Missing output is deletion, extra output is insertion. Frame accuracy=max(0,1-sum(errors)/sum(expectedCharacters)); all scored frames included.",
+  "equalStateAccuracy": "For each frozen continuous state divide accumulated frame errors and expected characters separately by its original frame count; sum these per-state averages then apply the same accuracy formula. Repeated occurrences remain separate states.",
+  "emptyFrames": "All empty/non-target frames are scored; extra text is explicit false-positive error and cannot disappear into a zero denominator. Unknown/conflict/unreviewed GT prevents freezing and is not accepted as empty.",
+  "pages": "An opportunity begins at first complete frame and ends at first replacement/removal frame; count opportunities equally, never weight by dwell time. Exact text, fields, positions, state and timely actual UI presentation required for page success. Loading/cursor/scroll/clear transitions are reported separately.",
+  "latency": "Use independent original frame time for onset and independently observed actual UI presentation/removal for endpoint. Require <=200ms and output while page still valid; sub-200ms pages remain opportunities. No observed UI evidence means pending, not zero latency. Report P50/P95/P99/max/timeouts/misses.",
+  "examplesNotProductAcceptance": [
+    {
+      "expected": "キョ",
+      "actual": "キヨ",
+      "substitutions": 1,
+      "expectedCharacters": 2,
+      "reason": "small kana must not normalize"
+    },
+    {
+      "expected": "ポケモン",
+      "actual": "ホケモン",
+      "substitutions": 1,
+      "expectedCharacters": 4,
+      "reason": "visible handakuten must not disappear"
+    },
+    {
+      "expected": "206/206",
+      "actual": "206/20",
+      "deletions": 1,
+      "expectedCharacters": 7
+    },
+    {
+      "expected": "",
+      "actual": "あ",
+      "falsePositiveInsertions": 1,
+      "emptyFrameFailure": true
+    }
+  ],
+  "renderUnits": "Regular regions retain integer8x8 cells. Packed labels explicitly list literal renderUnits and integer canonical logicalRect pixels; gridRect equals logicalRect/8 including fractions. Joined unit text must exactly equal NFC region text; sourceRect is outward rational projection; evidence required, never infer label from tested OCR.",
+  "detachedMarks": "When only dakuten/handakuten is actually visible and the entire base is occluded, list the visible one-cell symbol, sourceRect and reason in detachedMarks. Do not invent a kana or word. Compare symbol presence/position as visible-state correctness; report its denominator separately, not as zero-character unknown GT. A partly visible but unreadable base remains unknown and cannot be frozen.",
+  "nonTargetOnly": "Explicit clip scoreKind=non_target_only permits nonempty fully covered frame intervals with regions empty, no marks/cursors, completePage=false and zero complete-page opportunities. Allowed source-observed kinds are non_target/black_frame/invalid_target_image. Unknown/conflict/unreviewed states and empty frame/GT sets remain rejected; target text cannot be relabeled non-target.",
+  "sourceRectangleProjection": "Independent positive rational X/Y source-raster scales; floor left/top and ceil right/bottom. Never apply recorded SAR twice. Existing approved integral glyph-cell boundaries remain identical.",
+  "pageOpportunityIdentity": "New clips explicitly declare pageOpportunityPolicy=explicit_id and every completePage state supplies a frozen pageOpportunityId. Same complete visible text/fields/positions and menu selection may share identity across arrow flashes or transient redraw gaps; all states still scored individually. Distinct selection/content or reappearance after another page requires new identity. Report complete-state intervals separately from unique opportunities. Valid hit source frames must be in the actual complete-state intervals for that ID; no hit in absent/transition gaps. Deadline starts first complete source frame and cannot outlive the actual page. Legacy approved clips retain their unchanged state-interval contract/count.",
+  "rasterAnimationGeometry": {
+    "evidence": "Original video-04 attack animation near17503-17510; not an assumed fixed layout",
+    "field": "renderOffsetLogicalPixels",
+    "rule": "Every shifted frame retains literal text and its current sourceRect. Nominal grid/logicalRect stays attached to the same render cell; apply state offset before floor starts/ceil ends. Reject translated glyph envelopes crossing viewport; clipped portions need explicit separate visible annotation.",
+    "pageIdentity": "One continuing page may have several raster-shake phases; sourceRect is checked per phase and excluded only from opportunity identity. Changed literal/nominal grid or cursor selection cannot merge.",
+    "units": "integer canonical160x144 pixels, before independent rational X/Y projection"
+  },
+  "cursorAdditionalDownArrows": "When list and message wait arrows coexist, cursor.downArrow is the primary visible symbol and cursor.additionalDownArrows retains every other actually visible one-cell arrow with sourceRect and renderNote. Each geometry is checked; duplicates or wrong projections reject. Cosmetic arrows do not create additional page opportunities. Compare every symbol in visible-state scoring.",
+  "ellipsis": "U+2026 represents one raw three-dot glyph cell; two successive cells use two U+2026. Never expand a single cell to three ordinary period cells."
+}

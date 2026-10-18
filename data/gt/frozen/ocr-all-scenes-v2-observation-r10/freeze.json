@@ -1,0 +1,2248 @@
+{
+  "schemaVersion": 1,
+  "freezeVersion": "ocr-all-scenes-v2-observation-r10",
+  "status": "frozen_approved_scope_only",
+  "authority": "Original visible character boundary correction under conditional user authorization; all qualifications remain.",
+  "approval": {
+    "reviewId": "gt-observation-corrections-v8",
+    "message": "如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论",
+    "basis": "13438 already contains the exclamation mark; 24223 has only とどけも and the next cell is blank. Full affected events were reread twice. Preserve all other states, roles, timing and page opportunities.",
+    "changes": [
+      {
+        "id": "lab-oak-reply",
+        "frame": 13438,
+        "input": {
+          "kind": "gt",
+          "path": "data/gt/frozen/ocr-all-scenes-v2/lab-oak-reply/ocr-candidate-v1.jsonl",
+          "sha256": "b5c4f4f3f73724c47052ad93320414503d3126de7e329929dea1f592d43c4a5f"
+        },
+        "candidate": {
+          "path": "data/gt/candidates/ocr-observation-corrections-v8/lab-oak-reply/ocr-candidate-boundary-v1.jsonl",
+          "sha256": "59f91be59d9dc900d96c527c15e038a9d4c79f3a3914df259d8d03b201053efb"
+        },
+        "before": {
+          "schemaVersion": 2,
+          "stateId": "f53c237ad19a-f13438-f13439",
+          "mediaId": "video-01",
+          "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+          "startFrame": 13438,
+          "endFrameExclusive": 13439,
+          "startPts": 13438,
+          "endPtsExclusive": 13439,
+          "timeBase": "1/30",
+          "kind": "message_loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "message-top",
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "オーキド『まー",
+              "gridRect": [
+                1,
+                14,
+                8,
+                15
+              ],
+              "sourceRect": [
+                256,
+                304,
+                368,
+                336
+              ],
+              "markCells": [
+                {
+                  "gridRow": 13,
+                  "kind": "dakuten",
+                  "gridColumn": 4
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "menuCursors": [],
+            "downArrowVisible": false
+          },
+          "layoutRef": "layout-v1.json",
+          "verificationStatus": "agent_double_read_complete_candidate",
+          "evidence": {
+            "outputIndependence": "No tested OCR or production translation exists",
+            "originalFrames": "data/frames/video-01/dialogue-lab-rival-pass2-v1",
+            "humanPerFrameVerification": "not claimed",
+            "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/lab-oak-reply/manual-pass2.json"
+          }
+        },
+        "after": {
+          "schemaVersion": 2,
+          "stateId": "f53c237ad19a-f13438-f13439",
+          "mediaId": "video-01",
+          "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+          "startFrame": 13438,
+          "endFrameExclusive": 13439,
+          "startPts": 13438,
+          "endPtsExclusive": 13439,
+          "timeBase": "1/30",
+          "kind": "message_loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "message-top",
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "オーキド『まー！",
+              "gridRect": [
+                1,
+                14,
+                9,
+                15
+              ],
+              "sourceRect": [
+                256,
+                304,
+                384,
+                336
+              ],
+              "markCells": [
+                {
+                  "gridRow": 13,
+                  "kind": "dakuten",
+                  "gridColumn": 4
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "menuCursors": [],
+            "downArrowVisible": false
+          },
+          "layoutRef": "layout-v1.json",
+          "verificationStatus": "agent_double_read_complete_candidate",
+          "evidence": {
+            "manualNotes": "reports/m3-grid-refinement-v1/oak-boundary-notes-v1/lab-oak-reply-pass2.json",
+            "originalFrames": "data\\frames\\video-01\\oak-reply-boundary-pass2-v1",
+            "humanPerFrameVerification": "not claimed",
+            "outputIndependence": "Full original-frame double reread with GT/actual closed; prior diagnostic exposure disclosed; same agent, not independent acceptance."
+          }
+        },
+        "characterDelta": 1
+      },
+      {
+        "id": "oak-delivery",
+        "frame": 24223,
+        "input": {
+          "kind": "gt",
+          "path": "data/gt/frozen/ocr-all-scenes-v2/oak-delivery/ocr-candidate-v1.jsonl",
+          "sha256": "21fb90a17c18338d2e56b1951f99c56cd105f3d1aa675c0a8b07ca35482f0952"
+        },
+        "candidate": {
+          "path": "data/gt/candidates/ocr-observation-corrections-v8/oak-delivery/ocr-candidate-boundary-v1.jsonl",
+          "sha256": "bfce42c4eb6818fdfd15a4c49709713966e7a0436220fa888a024fea5581fd6a"
+        },
+        "before": {
+          "schemaVersion": 2,
+          "stateId": "f53c237ad19a-f24223-f24224",
+          "mediaId": "video-01",
+          "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+          "startFrame": 24223,
+          "endFrameExclusive": 24224,
+          "startPts": 24223,
+          "endPtsExclusive": 24224,
+          "timeBase": "1/30",
+          "kind": "message_loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "message-top",
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "レッドは オーキド はかせに",
+              "gridRect": [
+                1,
+                14,
+                15,
+                15
+              ],
+              "sourceRect": [
+                256,
+                304,
+                480,
+                336
+              ],
+              "markCells": [
+                {
+                  "kind": "dakuten",
+                  "gridColumn": 3,
+                  "gridRow": 13
+                },
+                {
+                  "kind": "dakuten",
+                  "gridColumn": 9,
+                  "gridRow": 13
+                }
+              ]
+            },
+            {
+              "id": "message-bottom",
+              "role": "dialogue",
+              "readingOrder": 1,
+              "text": "とどけもの",
+              "gridRect": [
+                1,
+                16,
+                6,
+                17
+              ],
+              "sourceRect": [
+                256,
+                336,
+                336,
+                368
+              ],
+              "markCells": [
+                {
+                  "kind": "dakuten",
+                  "gridColumn": 2,
+                  "gridRow": 15
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "menuCursors": [],
+            "downArrowVisible": false
+          },
+          "layoutRef": "layout-v1.json",
+          "verificationStatus": "agent_double_read_complete_candidate",
+          "evidence": {
+            "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/oak-delivery/manual-pass2.json",
+            "outputIndependence": "No tested OCR or production translation exists",
+            "originalFrames": "data/frames/video-01/dialogue-oak-delivery-pass2-v1",
+            "humanPerFrameVerification": "not claimed"
+          }
+        },
+        "after": {
+          "schemaVersion": 2,
+          "stateId": "f53c237ad19a-f24223-f24224",
+          "mediaId": "video-01",
+          "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+          "startFrame": 24223,
+          "endFrameExclusive": 24224,
+          "startPts": 24223,
+          "endPtsExclusive": 24224,
+          "timeBase": "1/30",
+          "kind": "message_loading",
+          "completePage": false,
+          "regions": [
+            {
+              "id": "message-top",
+              "role": "dialogue",
+              "readingOrder": 0,
+              "text": "レッドは オーキド はかせに",
+              "gridRect": [
+                1,
+                14,
+                15,
+                15
+              ],
+              "sourceRect": [
+                256,
+                304,
+                480,
+                336
+              ],
+              "markCells": [
+                {
+                  "kind": "dakuten",
+                  "gridColumn": 3,
+                  "gridRow": 13
+                },
+                {
+                  "kind": "dakuten",
+                  "gridColumn": 9,
+                  "gridRow": 13
+                }
+              ]
+            },
+            {
+              "id": "message-bottom",
+              "role": "dialogue",
+              "readingOrder": 1,
+              "text": "とどけも",
+              "gridRect": [
+                1,
+                16,
+                5,
+                17
+              ],
+              "sourceRect": [
+                256,
+                336,
+                320,
+                368
+              ],
+              "markCells": [
+                {
+                  "kind": "dakuten",
+                  "gridColumn": 2,
+                  "gridRow": 15
+                }
+              ]
+            }
+          ],
+          "cursor": {
+            "menuCursors": [],
+            "downArrowVisible": false
+          },
+          "layoutRef": "layout-v1.json",
+          "verificationStatus": "agent_double_read_complete_candidate",
+          "evidence": {
+            "manualNotes": "reports/m3-grid-refinement-v1/oak-boundary-notes-v1/oak-delivery-pass2.json",
+            "originalFrames": "data\\frames\\video-01\\oak-delivery-boundary-pass2-v1",
+            "humanPerFrameVerification": "not claimed",
+            "outputIndependence": "Full original-frame double reread with GT/actual closed; prior diagnostic exposure disclosed; same agent, not independent acceptance."
+          }
+        },
+        "characterDelta": -1
+      }
+    ],
+    "limitations": [
+      {
+        "mediaId": "video-04",
+        "impact": "整个背包退出事件不冻结/不宣称通过；该原帧保留，不能计作空文字成功",
+        "uncertainFrames": [
+          5359
+        ],
+        "checks": [
+          "首遍原上下文逐帧及直接放大",
+          "第二次原视频重解码及原像素光标条带",
+          "再次查看5358-5362独立原图，仍不能可靠区分被遮基础字形"
+        ],
+        "source": "data/frames/video-04/all-scenes-backpack-pass2-v1",
+        "layout": "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/layout-v1.json",
+        "id": "backpack-exit-occluded",
+        "status": "pending_not_proposed_for_freeze",
+        "range": [
+          5358,
+          5363
+        ],
+        "reason": "5359退出重绘时玩家精灵遮住やめる末字基础字形，残余道具行也被背景/菜单改写；仅凭5358前帧和5360后帧不能恢复当帧答案"
+      },
+      {
+        "id": "versions-and-sessions",
+        "status": "pending",
+        "reason": "只有video01 HOME红版图标有版本证据；其余版本/来源关系与独立会话无法证实，全部候选development，独立acceptance集合为空；M4继续待验证，不要求补录"
+      },
+      {
+        "id": "unselected-source",
+        "status": "unverified",
+        "reason": "未选原帧范围按四录像总账本补集逐段列出；候选通过不等于整个录像、版本或游戏通过"
+      },
+      {
+        "id": "real-window-and-ui",
+        "status": "pending",
+        "reason": "真实投屏前台/后台/遮挡/最小化/无效帧、Windows10兼容、实际UI延迟和长时稳定性尚无实测证据"
+      },
+      {
+        "id": "review-browser-render",
+        "status": "pending",
+        "reason": "内置浏览器曾明确拒绝file协议且禁止绕过；本包仅做静态/控件检查，实际浏览器呈现未验证，请直接在本机打开入口文件"
+      },
+      {
+        "id": "status-alt-3541-mark",
+        "status": "pending_semantic_confirmation",
+        "mediaId": "video-03",
+        "frames": [
+          3541
+        ],
+        "reason": "Incomplete upper mark remains unresolved after both new original-image readings. Existing historical annotation remains in the denominator. No newly frozen conclusion or pass is granted for this frame."
+      },
+      {
+        "id": "remaining-annotation-audit",
+        "status": "pending",
+        "reason": "Other previously recorded field-role/order/Unicode and raw-image doubts are unchanged, not resolved by these six corrections. Complete dataset semantic integrity and OCR gates remain unpassed."
+      }
+    ],
+    "sameAgentNotIndependentSession": true
+  },
+  "approvedBundle": {
+    "path": "reports/gt-review/gt-observation-corrections-v8/bundle-manifest.json",
+    "sha256": "001e3d716befc9acef58c0827d04e16d1f78a41815e8e8ae2ac5d593e2544d24",
+    "bytes": 37513
+  },
+  "identityCheck": {
+    "path": "reports/gt-review/gt-observation-corrections-v8/identity.json",
+    "sha256": "006cb13f6cf25e1e127282baffdaeabede398d1a736d39d129243d42f2516d75",
+    "bytes": 1297
+  },
+  "items": [
+    {
+      "id": "startup-nontarget",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/startup-nontarget/ocr-candidate-v1.jsonl",
+          "bundleFile": "startup-nontarget/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "96c6896c8aadd805ee8041a49c29908addd2075ea860e5cfa0a372f5e9aa26f4",
+          "bytes": 6307
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/startup-nontarget/all-scenes-startup-nontarget-clip-v1.json",
+          "bundleFile": "startup-nontarget/annotations/all-scenes-startup-nontarget-clip-v1.json",
+          "sha256": "b26183d40cf2a69d4a666089afef0d6554afe05033be66a677f9ecd36a69d677",
+          "bytes": 1064
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/startup-nontarget/layout-v1.json",
+          "bundleFile": "startup-nontarget/annotations/layout-v1.json",
+          "sha256": "6168dc8bcaf42a8ca2a95582d83812222a710b829979af35ae83e5eead966339",
+          "bytes": 287
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/startup-nontarget/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "startup-nontarget/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "exploration-npc",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/exploration-npc/ocr-candidate-v1.jsonl",
+          "bundleFile": "exploration-npc/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "d4f28d7c291633e2018531ed2b04d6bc0db9cd6dbbb15d6907fda80d2903cd56",
+          "bytes": 17773
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/exploration-npc/all-scenes-exploration-npc-clip-v1.json",
+          "bundleFile": "exploration-npc/annotations/all-scenes-exploration-npc-clip-v1.json",
+          "sha256": "3e88333c58ffc7fc8f692d877c3a9c215d05f2099074aaee02cf5aef9c4e486f",
+          "bytes": 1216
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/exploration-npc/layout-v1.json",
+          "bundleFile": "exploration-npc/annotations/layout-v1.json",
+          "sha256": "2c3d01e5af49c34cbcac4ff2d9115dacfba12959b794bb6ad975c131b8f5117a",
+          "bytes": 415
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/exploration-npc/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "exploration-npc/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "battle-result",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/battle-result/ocr-candidate-v1.jsonl",
+          "bundleFile": "battle-result/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "8d2c1d32849df442e3c38294a3a93cd3e8d87fbbf1be1fcfc2514415b5020157",
+          "bytes": 53537
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/battle-result/all-scenes-battle-result-clip-v1.json",
+          "bundleFile": "battle-result/annotations/all-scenes-battle-result-clip-v1.json",
+          "sha256": "85eb2ad872d11e3fb7037dea800147b3ff2fba425cca9ca274f906fb5dec4aca",
+          "bytes": 1170
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/battle-result/layout-v1.json",
+          "bundleFile": "battle-result/annotations/layout-v1.json",
+          "sha256": "5c87608dfd5f564fffbab7cd16d29f35698eecfc8281cd39ff8c2ed8ae292c68",
+          "bytes": 414
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/battle-result/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "battle-result/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "status-pages",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2-observation-r3/status-pages/ocr-corrected-v2.jsonl",
+          "bundleFile": "status-pages/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "7a1d6134b9a0c6c11c4ffe8e863107ac117da99f9c8db27920ae05e62930f7a4",
+          "bytes": 23546
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/status-pages/all-scenes-status-pages-clip-v1.json",
+          "bundleFile": "status-pages/annotations/all-scenes-status-pages-clip-v1.json",
+          "sha256": "d748ea18e108b4e1078cd91e75629ab236d20ee252fa9e777bf0eccd17fb6a50",
+          "bytes": 1221
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/status-pages/layout-v1.json",
+          "bundleFile": "status-pages/annotations/layout-v1.json",
+          "sha256": "539e10e32a15ce2b115047bcd86adea3949aad559781807ab18ef812c25fe1d7",
+          "bytes": 431
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/status-pages/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "status-pages/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "pc-deposit-navigation",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-observation-corrections-v5/pc-deposit-navigation/ocr-candidate-role-v1.jsonl",
+          "bundleFile": "pc-deposit-navigation/annotations/ocr-candidate-v3.jsonl",
+          "sha256": "bebe6893906bdae28249ab61ced31c69249bbcef7da626184867d43a3ff867c5",
+          "bytes": 89977
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/all-scenes-pc-deposit-navigation-clip-v3.json",
+          "bundleFile": "pc-deposit-navigation/annotations/all-scenes-pc-deposit-navigation-clip-v3.json",
+          "sha256": "ac724207d567d698305f526c45ef60ab397611235e408977b98aea61c5c40aa0",
+          "bytes": 1231
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/layout-v2.json",
+          "bundleFile": "pc-deposit-navigation/annotations/layout-v2.json",
+          "sha256": "ddbc5611922b831203d036345237316a8b6b67b3f0a07dc8dfcbad21b7588fa4",
+          "bytes": 422
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "pc-deposit-navigation/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "pc-exit",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-observation-corrections-v5/pc-exit/ocr-candidate-role-v1.jsonl",
+          "bundleFile": "pc-exit/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "b4c2cf523651bfcc590cce9f48319a7a4f3bf651dd71262b3593223b74c4d665",
+          "bytes": 2720
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/all-scenes-pc-exit-clip-v2.json",
+          "bundleFile": "pc-exit/annotations/all-scenes-pc-exit-clip-v2.json",
+          "sha256": "dfeb5c9a32dc9ec3ab54209c1c61b76f594d72677cb2059580286bb3aa7762a6",
+          "bytes": 985
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/layout-v1.json",
+          "bundleFile": "pc-exit/annotations/layout-v1.json",
+          "sha256": "52540d5a4b4b3ac38a40dbaf5ab837c3db77c5913fb86399c3d821a49994a30d",
+          "bytes": 442
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "pc-exit/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "status-alt-pages",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2-observation-r3/status-alt-pages/ocr-corrected-v2.jsonl",
+          "bundleFile": "status-alt-pages/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "880f326ff0ae317b2d812eca981521915f9f69d84c4d9569c52eaf908f3404cf",
+          "bytes": 23728
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/status-alt-pages/all-scenes-status-alt-pages-clip-v1.json",
+          "bundleFile": "status-alt-pages/annotations/all-scenes-status-alt-pages-clip-v1.json",
+          "sha256": "c2583b1029c6e103c137d641a57edfdd620771f59e6034a3f0c9a10defcbb00a",
+          "bytes": 1227
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/status-alt-pages/layout-v1.json",
+          "bundleFile": "status-alt-pages/annotations/layout-v1.json",
+          "sha256": "39edcba44ba47f389895cdd096238547aa4dfa744988a1464c10230326f5080c",
+          "bytes": 499
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/status-alt-pages/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "status-alt-pages/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "party-list",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/party-list/ocr-candidate-v1.jsonl",
+          "bundleFile": "party-list/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "1fd0f395a594414645c548c6c5f7a2bb416fd350ac131df8fc7a81ac8474c897",
+          "bytes": 28506
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/party-list/all-scenes-party-list-clip-v2.json",
+          "bundleFile": "party-list/annotations/all-scenes-party-list-clip-v2.json",
+          "sha256": "a8566df2115c30c8833c2edd5f80cdc838af2af770f61945fb647789112ad531",
+          "bytes": 1158
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/party-list/layout-v1.json",
+          "bundleFile": "party-list/annotations/layout-v1.json",
+          "sha256": "61fc0ecdca44ae062bea433528a6e5472b20cc380e57def01419a85d53d01641",
+          "bytes": 497
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/party-list/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "party-list/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "shop-buy-navigation",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/shop-buy-navigation/ocr-candidate-v1.jsonl",
+          "bundleFile": "shop-buy-navigation/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "bceb6945558436080011f08f61928bf170c35294ed9d4615243a2b70f19a4256",
+          "bytes": 21771
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/shop-buy-navigation/all-scenes-shop-buy-navigation-clip-v2.json",
+          "bundleFile": "shop-buy-navigation/annotations/all-scenes-shop-buy-navigation-clip-v2.json",
+          "sha256": "09c9960058e013d33ec839a2dd5930a7d2108f060900cd0f11f93fdc2d791ab1",
+          "bytes": 1086
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/shop-buy-navigation/layout-v1.json",
+          "bundleFile": "shop-buy-navigation/annotations/layout-v1.json",
+          "sha256": "8dbe2bbfc6bf1d47995256ff4b1ea8a7e4f8d47088c02a9dd2c83bb82e686099",
+          "bytes": 461
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/shop-buy-navigation/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "shop-buy-navigation/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "shop-sell-entry",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/shop-sell-entry/ocr-candidate-v1.jsonl",
+          "bundleFile": "shop-sell-entry/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "16fec5d23dd48b57daa2899e94733121e592feebd3930a5dcaa7513f4cdcadc7",
+          "bytes": 37466
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/shop-sell-entry/all-scenes-shop-sell-entry-clip-v2.json",
+          "bundleFile": "shop-sell-entry/annotations/all-scenes-shop-sell-entry-clip-v2.json",
+          "sha256": "431953bfbe62656db4f3941603150bb21874b7fcca08ca9392b4a36a3c4adf52",
+          "bytes": 1121
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/shop-sell-entry/layout-v1.json",
+          "bundleFile": "shop-sell-entry/annotations/layout-v1.json",
+          "sha256": "8dbe2bbfc6bf1d47995256ff4b1ea8a7e4f8d47088c02a9dd2c83bb82e686099",
+          "bytes": 461
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/shop-sell-entry/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "shop-sell-entry/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "shop-rejection",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/ocr-candidate-v2.jsonl",
+          "bundleFile": "shop-rejection/annotations/ocr-candidate-v2.jsonl",
+          "sha256": "2c44d8e75b2df9b2f10400a05ade9ed596e0f11202fa2fe7632b821d235e05b8",
+          "bytes": 48232
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/shop-metadata-rejection-clip-v1.json",
+          "bundleFile": "shop-rejection/annotations/shop-metadata-rejection-clip-v1.json",
+          "sha256": "59fb65440ddf09e0a5273bd0420cd811d65f0948dbc878f59939afb62016051c",
+          "bytes": 1110
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/layout-v1.json",
+          "bundleFile": "shop-rejection/annotations/layout-v1.json",
+          "sha256": "8dbe2bbfc6bf1d47995256ff4b1ea8a7e4f8d47088c02a9dd2c83bb82e686099",
+          "bytes": 461
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "shop-rejection/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "backpack-opening",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/ocr-candidate-v1.jsonl",
+          "bundleFile": "backpack-opening/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "80ab4a399b972b09955215636ef01793124767b29c2b1eb16b723ecdfc9c72e5",
+          "bytes": 16666
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/all-scenes-backpack-opening-clip-v2.json",
+          "bundleFile": "backpack-opening/annotations/all-scenes-backpack-opening-clip-v2.json",
+          "sha256": "ff8f144ebd1f130afb3ef1fd0e6c97fb5745d0ca9114e5441b4e6ae4a5f801ed",
+          "bytes": 1134
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/layout-v1.json",
+          "bundleFile": "backpack-opening/annotations/layout-v1.json",
+          "sha256": "77652ae818669c79dd49a7c4504299fceaf21e9981faebd120a3676ee8a3eee6",
+          "bytes": 898
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "backpack-opening/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "backpack-navigation",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/backpack-navigation/ocr-candidate-v2.jsonl",
+          "bundleFile": "backpack-navigation/annotations/ocr-candidate-v2.jsonl",
+          "sha256": "34ef0bd2d6220db5c454155b574ec7541d8ca692a1807d2ed91e0c173721334c",
+          "bytes": 106911
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/backpack-navigation/all-scenes-backpack-navigation-clip-v2.json",
+          "bundleFile": "backpack-navigation/annotations/all-scenes-backpack-navigation-clip-v2.json",
+          "sha256": "7d30d344d38606ceb97e39f16d730209636c5439f3f25ff439933b99f192bf0b",
+          "bytes": 1378
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/backpack-navigation/layout-v1.json",
+          "bundleFile": "backpack-navigation/annotations/layout-v1.json",
+          "sha256": "5edb74be55314433d00ff9d5279bbabd02f0631c175fe7a626c8e6c3d4a3440f",
+          "bytes": 900
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/backpack-navigation/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "backpack-navigation/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "skills-turn",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/skills-turn/ocr-candidate-v2.jsonl",
+          "bundleFile": "skills-turn/annotations/ocr-candidate-v2.jsonl",
+          "sha256": "20d92c8959a41aa5e67ca59e094da0e3300ae3283fd1fdf698815a4e16728d5c",
+          "bytes": 179608
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/skills-turn/all-scenes-skills-turn-clip-v2.json",
+          "bundleFile": "skills-turn/annotations/all-scenes-skills-turn-clip-v2.json",
+          "sha256": "8565e3402776794fd23ab302b1d9fc8113d0afc8c7a6cfa9aaa7aec7f30977a4",
+          "bytes": 1239
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/skills-turn/layout-v1.json",
+          "bundleFile": "skills-turn/annotations/layout-v1.json",
+          "sha256": "8c30181bc8808098a54c569734c8b1008bb71158b8fb87c7b74dd4b3e0827515",
+          "bytes": 574
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/skills-turn/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "skills-turn/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "shop-exit",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/ocr-candidate-v2.jsonl",
+          "bundleFile": "shop-exit/annotations/ocr-candidate-v2.jsonl",
+          "sha256": "cb90c6276d9905227add176e828943ffd5874c5c8d5e15f14e9cfafe73f4db7f",
+          "bytes": 36760
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/expansion-shop-clip-v2.json",
+          "bundleFile": "shop-exit/annotations/expansion-shop-clip-v2.json",
+          "sha256": "5760d76623aa7d698bc3acf77999445b7d2651b80b56e703707140b7dc00e0f3",
+          "bytes": 1623
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/layout-v2.json",
+          "bundleFile": "shop-exit/annotations/layout-v2.json",
+          "sha256": "aee32f21b67e47541a03c43ad863a12b4c79b05e871d27f7ce682f681826c366",
+          "bytes": 1129
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "shop-exit/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "pc-connect",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/ocr-candidate-v1.jsonl",
+          "bundleFile": "pc-connect/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "3b9da087f8807b7ad136942afd3e5d293d6f669ea828ecbe8a685669450df0eb",
+          "bytes": 22310
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/expansion-pc-clip-v1.json",
+          "bundleFile": "pc-connect/annotations/expansion-pc-clip-v1.json",
+          "sha256": "0a6005006657f212aa5da50c202f7ee30305a36b141c7df095fbd4f816aaf863",
+          "bytes": 1604
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/layout-v1.json",
+          "bundleFile": "pc-connect/annotations/layout-v1.json",
+          "sha256": "0e36b60bf215eb24584920fab5f12a0f5a252de991c27423259330935311a8db",
+          "bytes": 903
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "pc-connect/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "approved-trial",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-observation-corrections-v6/approved-trial/ocr-candidate-role-v1.jsonl",
+          "bundleFile": "approved-trial/annotations/ocr-candidate-v2.jsonl",
+          "sha256": "bcea58f995d75002d1421be6f92d7db331f52ff4eba5b4e231583ff968a91e79",
+          "bytes": 18423
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-trial-v2/clip-trial-v2.json",
+          "bundleFile": "approved-trial/annotations/clip-trial-v2.json",
+          "sha256": "a44fa579bf3699bca4b8edd654c2e1300507cd15002cc74bc34e7f8e314bd912",
+          "bytes": 1490
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-trial-v2/layout-v2.json",
+          "bundleFile": "approved-trial/annotations/layout-v2.json",
+          "sha256": "f004f9fdb59681ef99f116593ad5a82b716380125487b7cf66b639ddfb00adf0",
+          "bytes": 998
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-trial-v2/ocr-scoring-contract-v1.json",
+          "bundleFile": "approved-trial/annotations/ocr-scoring-contract-v1.json",
+          "sha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c",
+          "bytes": 3718
+        }
+      ]
+    },
+    {
+      "id": "bill-data-npc",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/ocr-candidate-v1.jsonl",
+          "bundleFile": "bill-data-npc/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "bf7c51523e8cb289cda981028fe23631d4aae6c2457714fbe51867111dee607e",
+          "bytes": 26824
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/dialogue-bill-data-npc-clip-v1.json",
+          "bundleFile": "bill-data-npc/annotations/dialogue-bill-data-npc-clip-v1.json",
+          "sha256": "3801ff86a21be84c4751d2223a3fbd9bc2786907fb238f680bbcc5747b8390a9",
+          "bytes": 1251
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/layout-v1.json",
+          "bundleFile": "bill-data-npc/annotations/layout-v1.json",
+          "sha256": "9f84c917f7c975617bce4a989a68d38c9187fede681db5524a84fe878bfa1244",
+          "bytes": 517
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "bill-data-npc/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "bill-grandfather",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-candidate-v1.jsonl",
+          "bundleFile": "bill-grandfather/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "5362eadf83cc85226ea42d979154c7456bcbd45594c18a4b905d2928bc74b0a5",
+          "bytes": 34536
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/dialogue-bill-grandfather-clip-v1.json",
+          "bundleFile": "bill-grandfather/annotations/dialogue-bill-grandfather-clip-v1.json",
+          "sha256": "d309c276dfb10e07a11877ac56c1b85430143f7739ffa05037c83de84d5ff9d6",
+          "bytes": 1258
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/layout-v1.json",
+          "bundleFile": "bill-grandfather/annotations/layout-v1.json",
+          "sha256": "9f84c917f7c975617bce4a989a68d38c9187fede681db5524a84fe878bfa1244",
+          "bytes": 517
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "bill-grandfather/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "gym-sign-continuation",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/ocr-candidate-v1.jsonl",
+          "bundleFile": "gym-sign-continuation/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "e24d2223b62f398e7a579a2aa63bcfb43c93ca12a9d8c0d2dbc77be535898bfd",
+          "bytes": 5290
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/dialogue-gym-sign-continuation-clip-v1.json",
+          "bundleFile": "gym-sign-continuation/annotations/dialogue-gym-sign-continuation-clip-v1.json",
+          "sha256": "b010a13b169ea4fb8c89b3f69f6195e99e958b6bf40ea4bd9ca8edacdcbfa361",
+          "bytes": 1289
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/layout-v1.json",
+          "bundleFile": "gym-sign-continuation/annotations/layout-v1.json",
+          "sha256": "9f84c917f7c975617bce4a989a68d38c9187fede681db5524a84fe878bfa1244",
+          "bytes": 517
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "gym-sign-continuation/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "intro-creatures",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2-observation-r3/intro-creatures/ocr-corrected-v2.jsonl",
+          "bundleFile": "intro-creatures/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "7cc5f3cc68e320b98afb3e87f717197073f2b20521a6c053fe3f7e8d6e61c9af",
+          "bytes": 23006
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-creatures/dialogue-intro-creatures-clip-v1.json",
+          "bundleFile": "intro-creatures/annotations/dialogue-intro-creatures-clip-v1.json",
+          "sha256": "c30de703b35a77ff9726d7b37cbaa51be944f17023875431e65e7d3f9b87e406",
+          "bytes": 1250
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-creatures/layout-v1.json",
+          "bundleFile": "intro-creatures/annotations/layout-v1.json",
+          "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858",
+          "bytes": 464
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-creatures/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "intro-creatures/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "intro-greeting",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-greeting/ocr-candidate-v1.jsonl",
+          "bundleFile": "intro-greeting/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "5d408e825e3d5f3d67669ce715016c7600551f7aaa9ac275754e303ab23b4eba",
+          "bytes": 20636
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-greeting/dialogue-intro-greeting-clip-v1.json",
+          "bundleFile": "intro-greeting/annotations/dialogue-intro-greeting-clip-v1.json",
+          "sha256": "6a7ffb655ff484bb287a2e02ab01fb4e534088bd3e7d9677b42e88d02b48ee0a",
+          "bytes": 1242
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-greeting/layout-v1.json",
+          "bundleFile": "intro-greeting/annotations/layout-v1.json",
+          "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858",
+          "bytes": 464
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-greeting/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "intro-greeting/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "intro-oak",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-oak/ocr-candidate-v1.jsonl",
+          "bundleFile": "intro-oak/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "c7f2ece52b0fbb50f5444dd449f78a488766b808be24c1259ba3f84f10fe3ea7",
+          "bytes": 22539
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-oak/dialogue-intro-oak-clip-v1.json",
+          "bundleFile": "intro-oak/annotations/dialogue-intro-oak-clip-v1.json",
+          "sha256": "78db1e9d9851768aed130cadb699cc3b7ee7efef10e182fc045949bf3ca27da8",
+          "bytes": 1235
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-oak/layout-v1.json",
+          "bundleFile": "intro-oak/annotations/layout-v1.json",
+          "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858",
+          "bytes": 464
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-oak/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "intro-oak/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "intro-pets",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-pets/ocr-candidate-v1.jsonl",
+          "bundleFile": "intro-pets/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "8b753eb1023522ab7ff4c34642873a58122b79de453f4d840d6803dba97a6e50",
+          "bytes": 21249
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-pets/dialogue-intro-pets-clip-v1.json",
+          "bundleFile": "intro-pets/annotations/dialogue-intro-pets-clip-v1.json",
+          "sha256": "baafe94468161862c0a2bb7e8eebe2211ddc77dc92b7b68b14a9f058551f9131",
+          "bytes": 1237
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-pets/layout-v1.json",
+          "bundleFile": "intro-pets/annotations/layout-v1.json",
+          "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858",
+          "bytes": 464
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-pets/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "intro-pets/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "intro-research",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-observation-corrections-v7/intro-research/ocr-candidate-punctuation-v1.jsonl",
+          "bundleFile": "intro-research/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "6aacd78b33e72d1743f2bc59a3bdda083089fd2b1cce974f6d9477ddb730955b",
+          "bytes": 19184
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-research/dialogue-intro-research-clip-v1.json",
+          "bundleFile": "intro-research/annotations/dialogue-intro-research-clip-v1.json",
+          "sha256": "4eedbe9a3979d53e5279fe447e0ed21d8eef919a9fdd79023e5cc3596938535f",
+          "bytes": 1239
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-research/layout-v1.json",
+          "bundleFile": "intro-research/annotations/layout-v1.json",
+          "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858",
+          "bytes": 464
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/intro-research/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "intro-research/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "lab-oak-reply",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-observation-corrections-v8/lab-oak-reply/ocr-candidate-boundary-v1.jsonl",
+          "bundleFile": "lab-oak-reply/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "59f91be59d9dc900d96c527c15e038a9d4c79f3a3914df259d8d03b201053efb",
+          "bytes": 18800
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/lab-oak-reply/dialogue-lab-oak-reply-clip-v1.json",
+          "bundleFile": "lab-oak-reply/annotations/dialogue-lab-oak-reply-clip-v1.json",
+          "sha256": "d218e477980dab3be55ea8d40805192e32f71c5c5c84af8050e55c4ebbfe7b42",
+          "bytes": 1256
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/lab-oak-reply/layout-v1.json",
+          "bundleFile": "lab-oak-reply/annotations/layout-v1.json",
+          "sha256": "42e9356b95e3fdb2a18e373280354041383a0e4e2264d990cee1813f50bcadaa",
+          "bytes": 518
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/lab-oak-reply/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "lab-oak-reply/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "lab-rival-demand",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-observation-corrections-v3/lab-rival-demand/ocr-candidate-v2.jsonl",
+          "bundleFile": "lab-rival-demand/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "84ac0c0130dce455c9171bfa6ce525bf2a40b0ba7b4092b81582852a4a4e04cb",
+          "bytes": 17633
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/lab-rival-demand/dialogue-lab-rival-demand-clip-v1.json",
+          "bundleFile": "lab-rival-demand/annotations/dialogue-lab-rival-demand-clip-v1.json",
+          "sha256": "e325da354939037ecf4e1f763d7b7a8e0461a4ae6b0e3490504e00a50d9d192f",
+          "bytes": 1262
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/lab-rival-demand/layout-v1.json",
+          "bundleFile": "lab-rival-demand/annotations/layout-v1.json",
+          "sha256": "42e9356b95e3fdb2a18e373280354041383a0e4e2264d990cee1813f50bcadaa",
+          "bytes": 518
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/lab-rival-demand/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "lab-rival-demand/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "league-centre-npc",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-observation-corrections-v2/league-centre-npc/ocr-candidate-v2.jsonl",
+          "bundleFile": "league-centre-npc/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "05bb1f63e45c4efeb2ecea8fe7b03ac039aac593db613bb33036d7e78495c542",
+          "bytes": 37196
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/league-centre-npc/dialogue-league-centre-npc-clip-v1.json",
+          "bundleFile": "league-centre-npc/annotations/dialogue-league-centre-npc-clip-v1.json",
+          "sha256": "0295739f20d48ea0b1c006cc43d9880e54ee4c0638e02139c44a7e9d2f88f3c1",
+          "bytes": 1260
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/league-centre-npc/layout-v1.json",
+          "bundleFile": "league-centre-npc/annotations/layout-v1.json",
+          "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076",
+          "bytes": 581
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/league-centre-npc/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "league-centre-npc/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "mart-child",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/mart-child/ocr-candidate-v1.jsonl",
+          "bundleFile": "mart-child/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "577cb8c7d48dc6c230833564d2a148362c1d550dafb5df23d5eec48fd89a061b",
+          "bytes": 12384
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/mart-child/dialogue-mart-child-clip-v1.json",
+          "bundleFile": "mart-child/annotations/dialogue-mart-child-clip-v1.json",
+          "sha256": "d814171da846c3994e8992ad16113976bc7c13c2f57ff821a607e75f30aa06c0",
+          "bytes": 1233
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/mart-child/layout-v1.json",
+          "bundleFile": "mart-child/annotations/layout-v1.json",
+          "sha256": "5f3fa2183b73a7b01ee8bf2fd7428f26b28921f5a5f64e8b03ff23092ae7890e",
+          "bytes": 584
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/mart-child/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "mart-child/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "museum-fee",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/museum-fee/ocr-candidate-v1.jsonl",
+          "bundleFile": "museum-fee/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "3dd74ee46b73f0cf5a6fa8a203ff67f53020754a79be34ac9741dfe9609041fb",
+          "bytes": 29255
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/museum-fee/dialogue-museum-fee-clip-v1.json",
+          "bundleFile": "museum-fee/annotations/dialogue-museum-fee-clip-v1.json",
+          "sha256": "ff789bbfabcae1a24063bf3b69f2d2e430ec5704e07031ff1b7f02079ebae087",
+          "bytes": 1246
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/museum-fee/layout-v1.json",
+          "bundleFile": "museum-fee/annotations/layout-v1.json",
+          "sha256": "992b75c740dbf05fd1ff54a943e5c3aa3edd092ffc59c13143267f5d54aa9588",
+          "bytes": 520
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/museum-fee/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "museum-fee/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "museum-question",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/museum-question/ocr-candidate-v1.jsonl",
+          "bundleFile": "museum-question/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "b6d476e2cdadefd8a035fff77889875d4dca5c975e82db7f523ed1575c8da433",
+          "bytes": 25023
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/museum-question/dialogue-museum-question-clip-v1.json",
+          "bundleFile": "museum-question/annotations/dialogue-museum-question-clip-v1.json",
+          "sha256": "947f8ee67288bb415c9500cfa2cb71257133e78cccc24d9e0180b23af2a24c70",
+          "bytes": 1259
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/museum-question/layout-v1.json",
+          "bundleFile": "museum-question/annotations/layout-v1.json",
+          "sha256": "992b75c740dbf05fd1ff54a943e5c3aa3edd092ffc59c13143267f5d54aa9588",
+          "bytes": 520
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/museum-question/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "museum-question/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "nurse-greeting",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/nurse-greeting/ocr-candidate-v1.jsonl",
+          "bundleFile": "nurse-greeting/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "9d69ff1b1255f20d9850696b9c967b000a4a624386947d2dcde56550a08de848",
+          "bytes": 23268
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/nurse-greeting/dialogue-nurse-greeting-clip-v1.json",
+          "bundleFile": "nurse-greeting/annotations/dialogue-nurse-greeting-clip-v1.json",
+          "sha256": "f64c2e8146184ec22d955edb26b8ac29d8271e8233c3ff3eb5b150d095da2b8f",
+          "bytes": 1263
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/nurse-greeting/layout-v1.json",
+          "bundleFile": "nurse-greeting/annotations/layout-v1.json",
+          "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076",
+          "bytes": 581
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/nurse-greeting/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "nurse-greeting/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "nurse-intake",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/nurse-intake/ocr-candidate-v1.jsonl",
+          "bundleFile": "nurse-intake/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "a85f23d226af9aaa9fb5c587b8998d37860659cd519deef6f213a63604a9555f",
+          "bytes": 8317
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/nurse-intake/dialogue-nurse-intake-clip-v1.json",
+          "bundleFile": "nurse-intake/annotations/dialogue-nurse-intake-clip-v1.json",
+          "sha256": "9a0c7e312ecbaf424ba78f1ee6d3d906c979eb5bc6c969fdfff1766d0be3c512",
+          "bytes": 1250
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/nurse-intake/layout-v1.json",
+          "bundleFile": "nurse-intake/annotations/layout-v1.json",
+          "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076",
+          "bytes": 581
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/nurse-intake/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "nurse-intake/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "nurse-return",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/nurse-return/ocr-candidate-v1.jsonl",
+          "bundleFile": "nurse-return/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "892dcc4c566e8e697c6e520a4453446c0d49d2dde532e445c37d9869e80f475d",
+          "bytes": 30199
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/nurse-return/dialogue-nurse-return-clip-v1.json",
+          "bundleFile": "nurse-return/annotations/dialogue-nurse-return-clip-v1.json",
+          "sha256": "4a19c3f2ce580fd88c3bdc9f8681c6af69c22bdf5acb66bf663166f182483187",
+          "bytes": 1256
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/nurse-return/layout-v1.json",
+          "bundleFile": "nurse-return/annotations/layout-v1.json",
+          "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076",
+          "bytes": 581
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/nurse-return/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "nurse-return/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "oak-delivery",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-observation-corrections-v8/oak-delivery/ocr-candidate-boundary-v1.jsonl",
+          "bundleFile": "oak-delivery/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "bfce42c4eb6818fdfd15a4c49709713966e7a0436220fa888a024fea5581fd6a",
+          "bytes": 12983
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/oak-delivery/dialogue-oak-delivery-clip-v1.json",
+          "bundleFile": "oak-delivery/annotations/dialogue-oak-delivery-clip-v1.json",
+          "sha256": "e7c9b5a07877fbba485aad936381a6f3fd18cb54224578b83fd5ae12784ef29b",
+          "bytes": 1266
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/oak-delivery/layout-v1.json",
+          "bundleFile": "oak-delivery/annotations/layout-v1.json",
+          "sha256": "d955586151318a59f975d32e3a20195e29aa5b4388e51420a5e6987757a396ce",
+          "bytes": 518
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/oak-delivery/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "oak-delivery/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "route-ledge-npc",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/route-ledge-npc/ocr-candidate-v1.jsonl",
+          "bundleFile": "route-ledge-npc/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "da50c331568bddf738647428ce6ac883dbf5c4340155fc758382a2c824ca4b4e",
+          "bytes": 28526
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/route-ledge-npc/dialogue-route-ledge-npc-clip-v1.json",
+          "bundleFile": "route-ledge-npc/annotations/dialogue-route-ledge-npc-clip-v1.json",
+          "sha256": "18b9067680eb66be8cc5d1a26d0d0749b56edd413efc9d968569f19b4ba83d1e",
+          "bytes": 1250
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/route-ledge-npc/layout-v1.json",
+          "bundleFile": "route-ledge-npc/annotations/layout-v1.json",
+          "sha256": "5f3fa2183b73a7b01ee8bf2fd7428f26b28921f5a5f64e8b03ff23092ae7890e",
+          "bytes": 584
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/route-ledge-npc/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "route-ledge-npc/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "route-pp-sign",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/route-pp-sign/ocr-candidate-v1.jsonl",
+          "bundleFile": "route-pp-sign/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "74e42243eeae34c195f7993e262311cc8a4257c650a6b6cfb7deb3c733649e79",
+          "bytes": 52247
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/route-pp-sign/dialogue-route-pp-sign-clip-v1.json",
+          "bundleFile": "route-pp-sign/annotations/dialogue-route-pp-sign-clip-v1.json",
+          "sha256": "50a15b2c0c0ca5e2fbfb9a6be1e4936d493e391dc3deb045aa29a46ca73f7d01",
+          "bytes": 1248
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/route-pp-sign/layout-v1.json",
+          "bundleFile": "route-pp-sign/annotations/layout-v1.json",
+          "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076",
+          "bytes": 581
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/route-pp-sign/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "route-pp-sign/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    },
+    {
+      "id": "safari-warden-npc",
+      "priorFreeze": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+        "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+        "bytes": 81212
+      },
+      "payloads": [
+        {
+          "kind": "gt",
+          "approvedSource": "data/gt/candidates/ocr-observation-corrections-v4/safari-warden-npc/ocr-candidate-v2.jsonl",
+          "bundleFile": "safari-warden-npc/annotations/ocr-candidate-v1.jsonl",
+          "sha256": "28e541e118f35e9467037d4c5f662ef0f33a4478019f53f8c6350cd4a6cf6aae",
+          "bytes": 27540
+        },
+        {
+          "kind": "clip",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/safari-warden-npc/dialogue-safari-warden-npc-clip-v1.json",
+          "bundleFile": "safari-warden-npc/annotations/dialogue-safari-warden-npc-clip-v1.json",
+          "sha256": "d1ffa5b581ae2ec15b08e9b62619ec0f95b697cd75962ee17d2b933550aa75ff",
+          "bytes": 1257
+        },
+        {
+          "kind": "layout",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/safari-warden-npc/layout-v1.json",
+          "bundleFile": "safari-warden-npc/annotations/layout-v1.json",
+          "sha256": "9f84c917f7c975617bce4a989a68d38c9187fede681db5524a84fe878bfa1244",
+          "bytes": 517
+        },
+        {
+          "kind": "contract",
+          "approvedSource": "data/gt/frozen/ocr-all-scenes-v2/safari-warden-npc/ocr-scoring-contract-all-scenes-v5.json",
+          "bundleFile": "safari-warden-npc/annotations/ocr-scoring-contract-all-scenes-v5.json",
+          "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+          "bytes": 7703
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "reviewId": "gt-observation-corrections-v8",
+    "status": "qualified_original_boundary_correction",
+    "clipCount": 38,
+    "candidateClipCount": 37,
+    "scoreFrameSum": 3368,
+    "uniqueScoredOriginalFrames": 3361,
+    "uniqueCandidateOriginalFrames": 3326,
+    "alreadyApprovedReferenceFrames": 35,
+    "duplicateScoreFrameReferences": 7,
+    "continuousStateIntervals": 719,
+    "completeStateIntervals": 162,
+    "pageOpportunitiesBeforeOverlapDeduplication": 118,
+    "uniquePageOpportunities": 117,
+    "selectedClipFrameReferences": 3577,
+    "uniqueSelectedClipFrames": 3507,
+    "scoredSeconds": 134.91622807017757,
+    "selectedClipSeconds": 140.86359649122872,
+    "totalSourceFrames": 66770,
+    "totalSourceSeconds": 2779.397368,
+    "outputIndependence": "Corrections read from original images in two passes without tested outputs. Existing OCR and prior diagnostic awareness disclosed; no claim of a fresh independent acceptance session.",
+    "sessionPartition": "development only; independence unverified; acceptance empty",
+    "notProductAcceptance": true,
+    "sources": [
+      {
+        "mediaId": "video-01",
+        "sha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "sourceFrames": 29346,
+        "notScoredRanges": [
+          [
+            0,
+            90
+          ],
+          [
+            390,
+            6058
+          ],
+          [
+            6165,
+            6171
+          ],
+          [
+            6221,
+            6248
+          ],
+          [
+            6322,
+            6328
+          ],
+          [
+            6398,
+            6404
+          ],
+          [
+            6480,
+            9838
+          ],
+          [
+            9926,
+            13376
+          ],
+          [
+            13418,
+            13431
+          ],
+          [
+            13510,
+            24213
+          ],
+          [
+            24321,
+            29346
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            90
+          ],
+          [
+            390,
+            6056
+          ],
+          [
+            6167,
+            6169
+          ],
+          [
+            6223,
+            6246
+          ],
+          [
+            6324,
+            6326
+          ],
+          [
+            6400,
+            6402
+          ],
+          [
+            6482,
+            9836
+          ],
+          [
+            9930,
+            13374
+          ],
+          [
+            13420,
+            13429
+          ],
+          [
+            13512,
+            24211
+          ],
+          [
+            24325,
+            29346
+          ]
+        ],
+        "sourceTimeBase": "1/30",
+        "sourceDurationSeconds": "978.200000"
+      },
+      {
+        "mediaId": "video-02",
+        "sha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+        "sourceFrames": 7964,
+        "notScoredRanges": [
+          [
+            0,
+            462
+          ],
+          [
+            564,
+            1379
+          ],
+          [
+            1426,
+            1634
+          ],
+          [
+            1754,
+            2248
+          ],
+          [
+            2258,
+            3523
+          ],
+          [
+            3632,
+            3798
+          ],
+          [
+            3917,
+            4447
+          ],
+          [
+            4526,
+            4551
+          ],
+          [
+            4652,
+            4706
+          ],
+          [
+            4832,
+            5264
+          ],
+          [
+            5324,
+            6916
+          ],
+          [
+            6964,
+            7964
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            460
+          ],
+          [
+            568,
+            1379
+          ],
+          [
+            1430,
+            1632
+          ],
+          [
+            1756,
+            2246
+          ],
+          [
+            2260,
+            3521
+          ],
+          [
+            3634,
+            3796
+          ],
+          [
+            3919,
+            4445
+          ],
+          [
+            4528,
+            4549
+          ],
+          [
+            4654,
+            4704
+          ],
+          [
+            4834,
+            5262
+          ],
+          [
+            5328,
+            6913
+          ],
+          [
+            6968,
+            7964
+          ]
+        ],
+        "sourceTimeBase": "1/12288",
+        "sourceDurationSeconds": "331.833333"
+      },
+      {
+        "mediaId": "video-03",
+        "sha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+        "sourceFrames": 7402,
+        "notScoredRanges": [
+          [
+            0,
+            578
+          ],
+          [
+            634,
+            820
+          ],
+          [
+            864,
+            1044
+          ],
+          [
+            1102,
+            1408
+          ],
+          [
+            1486,
+            1592
+          ],
+          [
+            1734,
+            1825
+          ],
+          [
+            2191,
+            3534
+          ],
+          [
+            3687,
+            6427
+          ],
+          [
+            6523,
+            6684
+          ],
+          [
+            6849,
+            7402
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            576
+          ],
+          [
+            636,
+            818
+          ],
+          [
+            866,
+            1042
+          ],
+          [
+            1104,
+            1406
+          ],
+          [
+            1488,
+            1590
+          ],
+          [
+            1736,
+            1823
+          ],
+          [
+            2193,
+            3532
+          ],
+          [
+            3689,
+            6425
+          ],
+          [
+            6525,
+            6682
+          ],
+          [
+            6852,
+            7402
+          ]
+        ],
+        "sourceTimeBase": "1/12288",
+        "sourceDurationSeconds": "308.416667"
+      },
+      {
+        "mediaId": "video-04",
+        "sha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+        "sourceFrames": 22058,
+        "notScoredRanges": [
+          [
+            0,
+            5174
+          ],
+          [
+            5358,
+            17462
+          ],
+          [
+            17566,
+            22058
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            5172
+          ],
+          [
+            5366,
+            17458
+          ],
+          [
+            17570,
+            22058
+          ]
+        ],
+        "sourceTimeBase": "1/19456",
+        "sourceDurationSeconds": "1160.947368"
+      }
+    ],
+    "correctionCharacterDelta": 0,
+    "allSemanticIntegrityPassed": false
+  },
+  "limitations": [
+    {
+      "mediaId": "video-04",
+      "impact": "整个背包退出事件不冻结/不宣称通过；该原帧保留，不能计作空文字成功",
+      "uncertainFrames": [
+        5359
+      ],
+      "checks": [
+        "首遍原上下文逐帧及直接放大",
+        "第二次原视频重解码及原像素光标条带",
+        "再次查看5358-5362独立原图，仍不能可靠区分被遮基础字形"
+      ],
+      "source": "data/frames/video-04/all-scenes-backpack-pass2-v1",
+      "layout": "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/layout-v1.json",
+      "id": "backpack-exit-occluded",
+      "status": "pending_not_proposed_for_freeze",
+      "range": [
+        5358,
+        5363
+      ],
+      "reason": "5359退出重绘时玩家精灵遮住やめる末字基础字形，残余道具行也被背景/菜单改写；仅凭5358前帧和5360后帧不能恢复当帧答案"
+    },
+    {
+      "id": "versions-and-sessions",
+      "status": "pending",
+      "reason": "只有video01 HOME红版图标有版本证据；其余版本/来源关系与独立会话无法证实，全部候选development，独立acceptance集合为空；M4继续待验证，不要求补录"
+    },
+    {
+      "id": "unselected-source",
+      "status": "unverified",
+      "reason": "未选原帧范围按四录像总账本补集逐段列出；候选通过不等于整个录像、版本或游戏通过"
+    },
+    {
+      "id": "real-window-and-ui",
+      "status": "pending",
+      "reason": "真实投屏前台/后台/遮挡/最小化/无效帧、Windows10兼容、实际UI延迟和长时稳定性尚无实测证据"
+    },
+    {
+      "id": "review-browser-render",
+      "status": "pending",
+      "reason": "内置浏览器曾明确拒绝file协议且禁止绕过；本包仅做静态/控件检查，实际浏览器呈现未验证，请直接在本机打开入口文件"
+    },
+    {
+      "id": "status-alt-3541-mark",
+      "status": "pending_semantic_confirmation",
+      "mediaId": "video-03",
+      "frames": [
+        3541
+      ],
+      "reason": "Incomplete upper mark remains unresolved after both new original-image readings. Existing historical annotation remains in the denominator. No newly frozen conclusion or pass is granted for this frame."
+    },
+    {
+      "id": "remaining-annotation-audit",
+      "status": "pending",
+      "reason": "Other previously recorded field-role/order/Unicode and raw-image doubts are unchanged, not resolved by these six corrections. Complete dataset semantic integrity and OCR gates remain unpassed."
+    }
+  ],
+  "sessionPartition": "development only; independence unverified; acceptance empty",
+  "allSemanticIntegrityPassed": false,
+  "productAcceptance": false,
+  "previousEffectiveFreeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r9/freeze.json",
+    "sha256": "c3a110eb72418d7939112ff8fe264f1b2fa4b78b8133fa711f3a7b7eecb37b66",
+    "bytes": 81212
+  }
+}

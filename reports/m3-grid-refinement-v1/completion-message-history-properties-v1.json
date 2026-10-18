@@ -1,0 +1,26 @@
+{
+  "status": "menu_message_gate_properties_passed_synthetic_not_acceptance",
+  "cases": [
+    "A filled parent selection cannot certify a growing new message",
+    "Menu-only pages keep immediate v18 readiness",
+    "Independent message100ms confirmation and no repeated plateau emission",
+    "Suspended PC parent stays blocked; current active child releases gate",
+    "A main-message arrow releases PC suspension, an unrelated list arrow does not",
+    "Merchant hollow menu is a legitimate counterexample to a blanket gate",
+    "Equal-length replacement, marks and message position changes revoke confirmation",
+    "Changing only menu selection does not restart unchanged message clock",
+    "Unknown glyphs never become confirmed merely by waiting",
+    "Clear/scroll/partial drawing and clip-end silence never publish",
+    "Reversed or changed clocks discard a previous confirmation",
+    "One-frame opportunity is not invented or flushed after disappearance",
+    "Different future suffixes and extraneous GT/identity properties do not affect prefix",
+    "Confirmed unchanged messages survive menu-only transitions but cannot publish there",
+    "Unsafe transitions never accumulate a fresh message confirmation",
+    "Message clearing and scrolling revoke existing completion even with identical text",
+    "Only unrelated menu fields may change global reading order",
+    "Loose message-area marks revoke confirmation"
+  ],
+  "policySha256": "bc92db66f2bf9bf932d0d69222e46403fe5e9ad28308a0ad18f1f80b380c6514",
+  "checkerSha256": "fb20799efcc5551ad8b49165f6c5968edb74cdf79a32a4b965b3d5f1500dc7bb",
+  "productAcceptance": false
+}

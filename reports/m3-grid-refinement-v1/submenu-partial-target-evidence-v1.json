@@ -1,0 +1,45 @@
+{
+  "evidence": [
+    {
+      "clip": "pc-deposit-navigation",
+      "frames": 124,
+      "oldSha256": "c56c3961496ddec8c507ae97272411812085809ae02da345c16b33c80a0c0ea1",
+      "currentSha256": "989e3806d4c74deeb4e5d1947cb83efde669ba06469807976451bb0ad7e2bd40",
+      "changes": [
+        {
+          "frame": 1659,
+          "before": "menu_complete",
+          "after": "submenu_partial_redraw"
+        }
+      ]
+    },
+    {
+      "clip": "shop-sell-entry",
+      "frames": 62,
+      "oldSha256": "4d6d6e1d706310e8d7dad7d6cf365a1acccf5213cd9ad299fa48f5107ae3b307",
+      "currentSha256": "306f044e9e08ae8cf7dd3d9abf7b0ec72f42c6cde9173518f1d004f680bdec38",
+      "changes": [
+        {
+          "frame": 1068,
+          "before": "menu_complete",
+          "after": "submenu_partial_redraw"
+        }
+      ]
+    },
+    {
+      "clip": "backpack-opening",
+      "frames": 38,
+      "oldSha256": "afdcf8e418fbdc895600f98a3474b8d3613b19263b34ebdbf1c238c863c240b7",
+      "currentSha256": "25606c2ac81cafc9f2519e3c2c0a688925a420f16905b666b127480b43250806",
+      "changes": [
+        {
+          "frame": 5204,
+          "before": "menu_complete",
+          "after": "submenu_partial_redraw"
+        }
+      ]
+    }
+  ],
+  "testLogSha256": "b73d2c60d7a6ef52fa9ac061a0bd51c91e01b6add2addf419c55ba1d3036fe1c",
+  "notIndependentAcceptance": true
+}

@@ -1,0 +1,31 @@
+'use strict';
+// Compose immutable approved envelopes; never edits a payload or derives an answer.
+const fs=require('fs'),path=require('path'),crypto=require('crypto');
+const {audit,visible}=require('./check-gt-overlaps.cjs');
+const assert=(ok,msg)=>{if(!ok)throw Error(msg);},json=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const root=process.cwd(),rel=p=>path.relative(root,path.resolve(p)).replace(/\\/g,'/');
+const identity=p=>({path:rel(p),sha256:sha(p),bytes:fs.statSync(p).size});
+const save=(p,x)=>fs.writeFileSync(p,JSON.stringify(x,null,2)+'\n',{flag:'wx'});
+function load(dir){const file=path.join(dir,'freeze.json'),e=json(file),batch=json(path.join(dir,'batch.json'));assert(e.status==='frozen_approved_scope_only','Input must be an approved envelope');assert(sha(e.approvedBundle.path)===e.approvedBundle.sha256&&sha(e.identityCheck.path)===e.identityCheck.sha256,'Approved evidence identity changed');
+ const manifest=json(e.approvedBundle.path);for(const name of ['batch.json','summary.json'])assert(sha(path.join(dir,name))===manifest.files.find(f=>f.path===name).sha256,'Frozen metadata changed');
+ const items=e.items.map(i=>{const payloads=i.payloads.map(p=>{const file=p.file?path.join(dir,p.file):p.approvedSource;assert(sha(file)===p.sha256&&fs.statSync(file).size===p.bytes,'Frozen bytes changed');return {...p,approvedSource:rel(file),file:undefined};});return {id:i.id,sourceFreeze:identity(file),payloads};});return {e,batch,items,identity:identity(file)};}
+function source(item,kind){return item.payloads.find(x=>x.kind===kind).approvedSource;}
+function rangeSignature(c){return JSON.stringify([c.mediaId,c.mediaSha256,c.timeBase,c.id,c.startFrame,c.endFrameExclusive,c.scoredRange,c.warmup,c.postContext,c.set]);}
+function frameStates(file){const map=new Map();for(const s of fs.readFileSync(file,'utf8').trim().split(/\r?\n/).map(JSON.parse))for(let n=s.startFrame;n<s.endFrameExclusive;n++){assert(!map.has(n),'GT overlap inside clip');map.set(n,s);}return map;}
+function literal(s){const v=visible(s);delete v.kind;v.regions=v.regions.map(r=>({text:r.text,gridRect:r.gridRect,sourceRect:r.sourceRect,markCells:r.markCells,logicalRect:r.logicalRect,renderUnits:r.renderUnits})).sort((a,b)=>JSON.stringify(a.gridRect).localeCompare(JSON.stringify(b.gridRect)));return JSON.stringify(v);}
+const [baseDir,amendDir,replacementId,out]=process.argv.slice(2);assert(baseDir&&amendDir&&replacementId&&out&&!fs.existsSync(out),'Usage: node tools/compose-approved-gt.cjs <base-frozen-dir> <amendment-frozen-dir> <replacement-item-id> <new-collection-dir>');
+const target=path.resolve(out);assert(path.relative(root,target)&&!path.relative(root,target).startsWith('..'),'Output outside workspace');
+const base=load(baseDir),amend=load(amendDir),old=base.items.find(x=>x.id===replacementId),replacement=amend.items.find(x=>x.id===replacementId);
+assert(old&&replacement,'Replacement must select an existing approved item');assert(json(path.join(amendDir,'freeze.json')).items.find(x=>x.id===replacementId).payloads.every(p=>p.file),'Replacement is not newly frozen by this amendment');
+assert(rangeSignature(json(source(old,'clip')))===rangeSignature(json(source(replacement,'clip'))),'This composition requires unchanged source and frame scope');
+for(const k of ['layout','contract'])assert(source(old,k)&&sha(source(old,k))===sha(source(replacement,k)),'Layout/contract changed outside the approved metadata-only amendment');
+const oldStates=frameStates(source(old,'gt')),newStates=frameStates(source(replacement,'gt')),changed=[];assert(oldStates.size===newStates.size,'Frame denominator changed');
+for(const [n,a] of oldStates){const b=newStates.get(n);assert(b&&literal(a)===literal(b),'Literal text, displayed values or visible geometry changed');for(const k of ['stateId','startFrame','endFrameExclusive','startPts','endPtsExclusive','timeBase','completePage','pageOpportunityId'])assert(JSON.stringify(a[k])===JSON.stringify(b[k]),'Boundary/page identity changed');if(JSON.stringify(visible(a))!==JSON.stringify(visible(b)))changed.push(n);}
+assert(changed.length===1&&changed[0]===1439,'Amendment scope differs from approved single-frame metadata revision');
+const items=base.items.map(i=>i.id===replacementId?replacement:i),definitions=base.batch.items.map(i=>{const selected=items.find(x=>x.id===i.id),original=(i.id===replacementId?amend.batch:base.batch).items.find(x=>x.id===i.id);return {...original,approval:'already_approved_frozen_reference_only',candidate:source(selected,'gt'),clip:source(selected,'clip'),layout:source(selected,'layout'),contract:source(selected,'contract'),freeze:selected.sourceFreeze.path};});
+fs.mkdirSync(target,{recursive:true});
+const batch={...base.batch,reviewId:'approved-effective-all-scenes-v2-shop-r2',status:'composition_of_approved_envelopes_no_new_GT',items:definitions,sourceEnvelopes:[base.identity,amend.identity],approvalScope:'No new annotation or scoring contract. Every payload is byte-identical to its approved source envelope; only shop-rejection uses its approved amendment.'};
+save(path.join(out,'batch.json'),batch);const check=audit(path.join(out,'batch.json'));assert(check.conflicts.length===0&&check.overlappingReferences===7&&check.uniqueScoredFrames===base.e.summary.uniqueScoredOriginalFrames,'Effective overlap/scope check failed');save(path.join(out,'overlap-integrity.json'),check);
+const envelope={schemaVersion:1,status:'approved_frozen_collection',freezeVersion:batch.reviewId,authority:'A composition of existing explicit approvals; no payload bytes changed and no additional approval claimed.',baseFreeze:base.identity,replacement:{id:replacementId,envelope:amend.identity,oldGtSha256:sha(source(old,'gt')),newGtSha256:sha(source(replacement,'gt')),changedSourceFrames:changed},items,summary:base.e.summary,batchIdentity:identity(path.join(out,'batch.json')),overlapIntegrity:identity(path.join(out,'overlap-integrity.json')),sessionPartition:base.e.sessionPartition,limitations:base.e.limitations,productAcceptance:false};
+save(path.join(out,'freeze.json'),envelope);console.log('Approved collection composed: '+items.length+' items / '+check.uniqueScoredFrames+' unique scored frames / 7 consistent overlaps; no GT edits.');

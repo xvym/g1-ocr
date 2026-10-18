@@ -1,0 +1,32 @@
+{
+  "status": "independent_reconstruction_passed_not_product_acceptance",
+  "report": {
+    "path": "reports/m3-grid-refinement-v1/completion-message-history-v2/report.json",
+    "sha256": "f862fc12a172c07ea11e490c81ba23d6f690eb2e034c588bf3216e93b382da92"
+  },
+  "checker": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\check-completion-message-history.cjs",
+    "sha256": "ba30b66072a5784fa0ca4b8ad3c2ef1580bb0e4c319de8adb69b79b753a9487a"
+  },
+  "policyDecisions": 14308,
+  "retainedReferences": 3577,
+  "scoredReferences": 3368,
+  "uniqueScoredFrames": 3361,
+  "pages": 116,
+  "shortPages": 11,
+  "events": 481,
+  "immutableHashes": 594,
+  "htmlRows": 116,
+  "localLinks": 123,
+  "retainedPreviousRescues": 20,
+  "baselineResidualFalseTriggers": 5,
+  "selectedResidualFalseTriggers": 0,
+  "baselineOtherFalseTriggers": 4,
+  "selectedOtherFalseTriggers": 2,
+  "delayedPages": 0,
+  "experimentCriteriaPassed": true,
+  "filters": "all/short/missed/no-match verified in DOM stub",
+  "actualBrowser": "not verified",
+  "actualUiLatency": "not measured",
+  "productAcceptance": false
+}

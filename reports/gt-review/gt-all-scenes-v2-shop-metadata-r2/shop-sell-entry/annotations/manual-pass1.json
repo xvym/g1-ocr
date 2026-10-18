@@ -1,0 +1,1389 @@
+{
+  "mediaId": "video-03",
+  "notes": [
+    "Money22526円 remains literal; sale-entry briefly clears numeric amount1063-1068, not inferred unchanged",
+    "Buy candidate is complete cursor/scroll operation already inside buy list; sell candidate is entry and selection operation, not a completed transaction",
+    "Obscured parent fields recorded only visible prefixes; no full hidden labels restored"
+  ],
+  "status": "first_raw_read_complete_not_frozen",
+  "firstRead": "All selected score frames directly viewed full original ordered sheets and key full frames; no tested OCR output",
+  "states": [
+    {
+      "kind": "menu_complete",
+      "startFrame": 1044,
+      "endFrameExclusive": 1048,
+      "completePage": true,
+      "pageOpportunityId": "shop-parent-buy",
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うりに きた",
+          "col": 2,
+          "id": "sell",
+          "role": "menu_label"
+        },
+        {
+          "row": 5,
+          "text": "べつに いいです",
+          "col": 2,
+          "id": "leave",
+          "role": "menu_label"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "row": 14,
+          "text": "そのほかに わたくしどもで",
+          "col": 1,
+          "id": "prompt-0",
+          "role": "shop_prompt"
+        },
+        {
+          "row": 16,
+          "text": "おちからに なれることは？",
+          "col": 1,
+          "id": "prompt-1",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            1,
+            1,
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "menu_complete",
+      "startFrame": 1048,
+      "endFrameExclusive": 1056,
+      "completePage": true,
+      "pageOpportunityId": "shop-parent-sell",
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うりに きた",
+          "col": 2,
+          "id": "sell",
+          "role": "menu_label"
+        },
+        {
+          "row": 5,
+          "text": "べつに いいです",
+          "col": 2,
+          "id": "leave",
+          "role": "menu_label"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "row": 14,
+          "text": "そのほかに わたくしどもで",
+          "col": 1,
+          "id": "prompt-0",
+          "role": "shop_prompt"
+        },
+        {
+          "row": 16,
+          "text": "おちからに なれることは？",
+          "col": 1,
+          "id": "prompt-1",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "filled_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "submenu_opening",
+      "startFrame": 1056,
+      "endFrameExclusive": 1057,
+      "completePage": false,
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うりに きた",
+          "col": 2,
+          "id": "sell",
+          "role": "menu_label"
+        },
+        {
+          "row": 5,
+          "text": "べつに いいです",
+          "col": 2,
+          "id": "leave",
+          "role": "menu_label"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "row": 14,
+          "text": "そのほかに わたくしどもで",
+          "col": 1,
+          "id": "prompt-0",
+          "role": "shop_prompt"
+        },
+        {
+          "row": 16,
+          "text": "おちからに なれることは？",
+          "col": 1,
+          "id": "prompt-1",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "message_clear_menu_remains",
+      "startFrame": 1057,
+      "endFrameExclusive": 1058,
+      "completePage": false,
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うりに きた",
+          "col": 2,
+          "id": "sell",
+          "role": "menu_label"
+        },
+        {
+          "row": 5,
+          "text": "べつに いいです",
+          "col": 2,
+          "id": "leave",
+          "role": "menu_label"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 1058,
+      "endFrameExclusive": 1059,
+      "completePage": false,
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うりに きた",
+          "col": 2,
+          "id": "sell",
+          "role": "menu_label"
+        },
+        {
+          "row": 5,
+          "text": "べつに いいです",
+          "col": 2,
+          "id": "leave",
+          "role": "menu_label"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "row": 14,
+          "text": "どれを",
+          "col": 1,
+          "id": "prompt-0",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 1059,
+      "endFrameExclusive": 1060,
+      "completePage": false,
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うりに きた",
+          "col": 2,
+          "id": "sell",
+          "role": "menu_label"
+        },
+        {
+          "row": 5,
+          "text": "べつに いいです",
+          "col": 2,
+          "id": "leave",
+          "role": "menu_label"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "row": 14,
+          "text": "どれを うっ",
+          "col": 1,
+          "id": "prompt-0",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 1060,
+      "endFrameExclusive": 1062,
+      "completePage": false,
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うりに きた",
+          "col": 2,
+          "id": "sell",
+          "role": "menu_label"
+        },
+        {
+          "row": 5,
+          "text": "べつに いいです",
+          "col": 2,
+          "id": "leave",
+          "role": "menu_label"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "row": 14,
+          "text": "どれを うっていた",
+          "col": 1,
+          "id": "prompt-0",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "message_loading",
+      "startFrame": 1062,
+      "endFrameExclusive": 1063,
+      "completePage": false,
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うりに きた",
+          "col": 2,
+          "id": "sell",
+          "role": "menu_label"
+        },
+        {
+          "row": 5,
+          "text": "べつに いいです",
+          "col": 2,
+          "id": "leave",
+          "role": "menu_label"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "row": 14,
+          "text": "どれを うっていただけま",
+          "col": 1,
+          "id": "prompt-0",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "money_temporarily_cleared",
+      "startFrame": 1063,
+      "endFrameExclusive": 1068,
+      "completePage": false,
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うりに きた",
+          "col": 2,
+          "id": "sell",
+          "role": "menu_label"
+        },
+        {
+          "row": 5,
+          "text": "べつに いいです",
+          "col": 2,
+          "id": "leave",
+          "role": "menu_label"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "row": 14,
+          "text": "どれを うっていただけますか？",
+          "col": 1,
+          "id": "prompt-0",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "submenu_partial_redraw",
+      "startFrame": 1068,
+      "endFrameExclusive": 1069,
+      "completePage": false,
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うりに きた",
+          "col": 2,
+          "id": "sell",
+          "role": "menu_label"
+        },
+        {
+          "row": 5,
+          "text": "べつに いいです",
+          "col": 2,
+          "id": "leave",
+          "role": "menu_label"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 6,
+          "id": "item-1",
+          "variable": {
+            "type": "string",
+            "displayValue": "ポケモンのふえ",
+            "role": "item_name"
+          },
+          "text": "ポケモンのふえ"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 8,
+          "id": "item-2",
+          "variable": {
+            "type": "string",
+            "displayValue": "いいつりざお",
+            "role": "item_name"
+          },
+          "text": "いいつりざお"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 10,
+          "id": "item-3",
+          "variable": {
+            "type": "string",
+            "displayValue": "ボロのつりざお",
+            "role": "item_name"
+          },
+          "text": "ボロのつりざお"
+        },
+        {
+          "row": 14,
+          "text": "どれを うっていただけますか？",
+          "col": 1,
+          "id": "prompt-0",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "submenu_cursor_loading",
+      "startFrame": 1069,
+      "endFrameExclusive": 1070,
+      "completePage": false,
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 4,
+          "id": "item-0",
+          "variable": {
+            "type": "string",
+            "displayValue": "じてんしゃ",
+            "role": "item_name"
+          },
+          "text": "じてんしゃ"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 6,
+          "id": "item-1",
+          "variable": {
+            "type": "string",
+            "displayValue": "ポケモンのふえ",
+            "role": "item_name"
+          },
+          "text": "ポケモンのふえ"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 8,
+          "id": "item-2",
+          "variable": {
+            "type": "string",
+            "displayValue": "いいつりざお",
+            "role": "item_name"
+          },
+          "text": "いいつりざお"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 10,
+          "id": "item-3",
+          "variable": {
+            "type": "string",
+            "displayValue": "ボロのつりざお",
+            "role": "item_name"
+          },
+          "text": "ボロのつりざお"
+        },
+        {
+          "row": 14,
+          "text": "どれを うっていただけますか？",
+          "col": 1,
+          "id": "prompt-0",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "endFrameExclusive": 1082,
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 4,
+          "id": "item-0",
+          "variable": {
+            "type": "string",
+            "displayValue": "じてんしゃ",
+            "role": "item_name"
+          },
+          "text": "じてんしゃ"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 6,
+          "id": "item-1",
+          "variable": {
+            "type": "string",
+            "displayValue": "ポケモンのふえ",
+            "role": "item_name"
+          },
+          "text": "ポケモンのふえ"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 8,
+          "id": "item-2",
+          "variable": {
+            "type": "string",
+            "displayValue": "いいつりざお",
+            "role": "item_name"
+          },
+          "text": "いいつりざお"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 10,
+          "id": "item-3",
+          "variable": {
+            "type": "string",
+            "displayValue": "ボロのつりざお",
+            "role": "item_name"
+          },
+          "text": "ボロのつりざお"
+        },
+        {
+          "row": 14,
+          "text": "どれを うっていただけますか？",
+          "col": 1,
+          "id": "prompt-0",
+          "role": "shop_prompt"
+        }
+      ],
+      "kind": "menu_complete",
+      "startFrame": 1070,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "completePage": true,
+      "pageOpportunityId": "sell-first"
+    },
+    {
+      "kind": "menu_complete",
+      "startFrame": 1082,
+      "endFrameExclusive": 1092,
+      "completePage": true,
+      "pageOpportunityId": "sell-first",
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 4,
+          "id": "item-0",
+          "variable": {
+            "type": "string",
+            "displayValue": "じてんしゃ",
+            "role": "item_name"
+          },
+          "text": "じてんしゃ"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 6,
+          "id": "item-1",
+          "variable": {
+            "type": "string",
+            "displayValue": "ポケモンのふえ",
+            "role": "item_name"
+          },
+          "text": "ポケモンのふえ"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 8,
+          "id": "item-2",
+          "variable": {
+            "type": "string",
+            "displayValue": "いいつりざお",
+            "role": "item_name"
+          },
+          "text": "いいつりざお"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 10,
+          "id": "item-3",
+          "variable": {
+            "type": "string",
+            "displayValue": "ボロのつりざお",
+            "role": "item_name"
+          },
+          "text": "ボロのつりざお"
+        },
+        {
+          "row": 14,
+          "text": "どれを うっていただけますか？",
+          "col": 1,
+          "id": "prompt-0",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            4,
+            6,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "menu_complete",
+      "startFrame": 1092,
+      "endFrameExclusive": 1096,
+      "completePage": true,
+      "pageOpportunityId": "sell-second",
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 4,
+          "id": "item-0",
+          "variable": {
+            "type": "string",
+            "displayValue": "じてんしゃ",
+            "role": "item_name"
+          },
+          "text": "じてんしゃ"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 6,
+          "id": "item-1",
+          "variable": {
+            "type": "string",
+            "displayValue": "ポケモンのふえ",
+            "role": "item_name"
+          },
+          "text": "ポケモンのふえ"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 8,
+          "id": "item-2",
+          "variable": {
+            "type": "string",
+            "displayValue": "いいつりざお",
+            "role": "item_name"
+          },
+          "text": "いいつりざお"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 10,
+          "id": "item-3",
+          "variable": {
+            "type": "string",
+            "displayValue": "ボロのつりざお",
+            "role": "item_name"
+          },
+          "text": "ボロのつりざお"
+        },
+        {
+          "row": 14,
+          "text": "どれを うっていただけますか？",
+          "col": 1,
+          "id": "prompt-0",
+          "role": "shop_prompt"
+        }
+      ],
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            6,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "endFrameExclusive": 1102,
+      "fields": [
+        {
+          "row": 1,
+          "text": "かいに きた",
+          "col": 2,
+          "id": "buy",
+          "role": "menu_label"
+        },
+        {
+          "row": 3,
+          "text": "うり",
+          "col": 2,
+          "id": "sell",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 5,
+          "text": "べつ",
+          "col": 2,
+          "id": "leave",
+          "role": "occluded_menu_visible_prefix"
+        },
+        {
+          "row": 0,
+          "text": "おかね",
+          "col": 14,
+          "id": "money-label",
+          "role": "money_label"
+        },
+        {
+          "col": 13,
+          "role": "money",
+          "row": 1,
+          "id": "money-value",
+          "variable": {
+            "type": "integer",
+            "numericValue": 22526,
+            "currency": "JPY",
+            "role": "money",
+            "displayValue": "22526円",
+            "suffix": "円"
+          },
+          "text": "22526円"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 4,
+          "id": "item-0",
+          "variable": {
+            "type": "string",
+            "displayValue": "じてんしゃ",
+            "role": "item_name"
+          },
+          "text": "じてんしゃ"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 6,
+          "id": "item-1",
+          "variable": {
+            "type": "string",
+            "displayValue": "ポケモンのふえ",
+            "role": "item_name"
+          },
+          "text": "ポケモンのふえ"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 8,
+          "id": "item-2",
+          "variable": {
+            "type": "string",
+            "displayValue": "いいつりざお",
+            "role": "item_name"
+          },
+          "text": "いいつりざお"
+        },
+        {
+          "col": 6,
+          "role": "item_name",
+          "row": 10,
+          "id": "item-3",
+          "variable": {
+            "type": "string",
+            "displayValue": "ボロのつりざお",
+            "role": "item_name"
+          },
+          "text": "ボロのつりざお"
+        },
+        {
+          "row": 14,
+          "text": "どれを うっていただけますか？",
+          "col": 1,
+          "id": "prompt-0",
+          "role": "shop_prompt"
+        }
+      ],
+      "kind": "menu_complete",
+      "startFrame": 1096,
+      "menuCursors": [
+        {
+          "style": "outline_right",
+          "gridRect": [
+            1,
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "style": "filled_right",
+          "gridRect": [
+            5,
+            6,
+            6,
+            7
+          ]
+        }
+      ],
+      "downArrow": {
+        "style": "filled_down",
+        "gridRect": [
+          18,
+          11,
+          19,
+          12
+        ]
+      },
+      "completePage": true,
+      "pageOpportunityId": "sell-second"
+    }
+  ],
+  "humanPerFrameVerification": "not claimed",
+  "source": "data/frames/video-03/expansion-context-f800-f1540-v1",
+  "frozen": false,
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5"
+}

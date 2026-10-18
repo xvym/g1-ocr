@@ -1,0 +1,5774 @@
+[
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006326.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918548332267,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902540435788592,
+            "phase": 91.438768816656
+          },
+          {
+            "origin": 96.64307194306363,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509649925812945,
+            "phase": 92.6552247208414
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 102
+    },
+    "y": {
+      "origin": 95.99853441575219,
+      "scale": 1.999847204683377,
+      "rms": 0.03509306843417271,
+      "points": 439
+    },
+    "historyFrames": 1,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006327.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918548332267,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902540435788592,
+            "phase": 91.438768816656
+          },
+          {
+            "origin": 96.64307194306363,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509649925812945,
+            "phase": 92.6552247208414
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 204
+    },
+    "y": {
+      "origin": 95.99853441565838,
+      "scale": 1.999847204684158,
+      "rms": 0.035093068434187046,
+      "points": 878
+    },
+    "historyFrames": 2,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006328.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918548332267,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902540435788592,
+            "phase": 91.438768816656
+          },
+          {
+            "origin": 96.64307194306363,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509649925812945,
+            "phase": 92.6552247208414
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 306
+    },
+    "y": {
+      "origin": 95.99853441560118,
+      "scale": 1.9998472046846327,
+      "rms": 0.03509306843417031,
+      "points": 1317
+    },
+    "historyFrames": 3,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006329.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918548332267,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902540435788592,
+            "phase": 91.438768816656
+          },
+          {
+            "origin": 96.64307194306363,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509649925812945,
+            "phase": 92.6552247208414
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 408
+    },
+    "y": {
+      "origin": 95.99853441564416,
+      "scale": 1.9998472046842846,
+      "rms": 0.03509306843417421,
+      "points": 1756
+    },
+    "historyFrames": 4,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006330.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.68096372730636,
+            "scale": 2.0046875,
+            "concentration": 0.7484289377708571,
+            "phase": 235.67158872730636
+          },
+          {
+            "origin": 240.36636142686476,
+            "scale": 1.99453125,
+            "concentration": 0.6680268323170295,
+            "phase": 236.37729892686477
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44743719515265,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8930968305705551,
+            "phase": 91.43702052848597
+          },
+          {
+            "origin": 96.6451829910378,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8548270384360621,
+            "phase": 92.65733576881557
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 515
+    },
+    "y": {
+      "origin": 95.99847652881918,
+      "scale": 1.9998474758543505,
+      "rms": 0.03510525741623196,
+      "points": 2196
+    },
+    "historyFrames": 5,
+    "currentMatchedCells": 50,
+    "currentXPoints": 107,
+    "currentYPoints": 440
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006331.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.68096372730636,
+            "scale": 2.0046875,
+            "concentration": 0.7484289377708571,
+            "phase": 235.67158872730636
+          },
+          {
+            "origin": 240.36636142686476,
+            "scale": 1.99453125,
+            "concentration": 0.6680268323170295,
+            "phase": 236.37729892686477
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44743691752028,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8930973473388863,
+            "phase": 91.4370202508536
+          },
+          {
+            "origin": 96.64518332573866,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8548277407035133,
+            "phase": 92.65733610351643
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999998,
+      "rms": 3.989186299927028E-14,
+      "points": 622
+    },
+    "y": {
+      "origin": 95.99843796822688,
+      "scale": 1.999847656490922,
+      "rms": 0.035113364224652735,
+      "points": 2636
+    },
+    "historyFrames": 6,
+    "currentMatchedCells": 50,
+    "currentXPoints": 107,
+    "currentYPoints": 440
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006332.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6931322616656,
+            "scale": 2.0046875,
+            "concentration": 0.7597664665328011,
+            "phase": 235.6837572616656
+          },
+          {
+            "origin": 240.35128891220825,
+            "scale": 1.99453125,
+            "concentration": 0.6833326652351457,
+            "phase": 236.36222641220826
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44596204950213,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8957580293014538,
+            "phase": 91.43554538283546
+          },
+          {
+            "origin": 96.64695865205265,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8584435059241406,
+            "phase": 92.65911142983042
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.4017814087021115E-14,
+      "points": 735
+    },
+    "y": {
+      "origin": 95.99838256686957,
+      "scale": 1.9998479278336083,
+      "rms": 0.03512891361983375,
+      "points": 3079
+    },
+    "historyFrames": 7,
+    "currentMatchedCells": 53,
+    "currentXPoints": 113,
+    "currentYPoints": 443
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006333.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6949510623895,
+            "scale": 2.0046875,
+            "concentration": 0.7673876203475458,
+            "phase": 235.6855760623895
+          },
+          {
+            "origin": 240.34926465169593,
+            "scale": 1.99453125,
+            "concentration": 0.6934553839588131,
+            "phase": 236.36020215169594
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44427919236882,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8983088117652935,
+            "phase": 91.43386252570215
+          },
+          {
+            "origin": 96.64898182399874,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8619108169744498,
+            "phase": 92.66113460177651
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 851
+    },
+    "y": {
+      "origin": 95.99820817095727,
+      "scale": 1.9998488166451396,
+      "rms": 0.03517567198468784,
+      "points": 3526
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 55,
+    "currentXPoints": 116,
+    "currentYPoints": 447
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006334.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6949510623895,
+            "scale": 2.0046875,
+            "concentration": 0.7673876203475458,
+            "phase": 235.6855760623895
+          },
+          {
+            "origin": 240.34926465169593,
+            "scale": 1.99453125,
+            "concentration": 0.6934553839588131,
+            "phase": 236.36020215169594
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44427937709807,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8983083234636836,
+            "phase": 91.4338627104314
+          },
+          {
+            "origin": 96.64898160326841,
+            "scale": 1.9939236111111112,
+            "concentration": 0.861910153162121,
+            "phase": 92.66113438104618
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 865
+    },
+    "y": {
+      "origin": 95.99801573341648,
+      "scale": 1.9998497911855795,
+      "rms": 0.035226414557733586,
+      "points": 3534
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 55,
+    "currentXPoints": 116,
+    "currentYPoints": 447
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006335.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.688401780407,
+            "scale": 2.0046875,
+            "concentration": 0.7795437661500114,
+            "phase": 235.67902678040699
+          },
+          {
+            "origin": 240.35815997669775,
+            "scale": 1.99453125,
+            "concentration": 0.7090082657480543,
+            "phase": 236.36909747669776
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44250625766462,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9010837067454589,
+            "phase": 91.43208959099795
+          },
+          {
+            "origin": 96.6511077702379,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8656838246069639,
+            "phase": 92.66326054801567
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999997,
+      "scale": 2.0000000000000004,
+      "rms": 4.3055195615840253E-14,
+      "points": 883
+    },
+    "y": {
+      "origin": 95.99779090685868,
+      "scale": 1.999850931339617,
+      "rms": 0.035280085396288303,
+      "points": 3543
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 58,
+    "currentXPoints": 120,
+    "currentYPoints": 448
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006336.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6776671833213,
+            "scale": 2.0046875,
+            "concentration": 0.7807008343399687,
+            "phase": 235.66829218332128
+          },
+          {
+            "origin": 240.3717934594898,
+            "scale": 1.99453125,
+            "concentration": 0.7097749200414987,
+            "phase": 236.3827309594898
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.4410798973262,
+            "scale": 2.0052083333333335,
+            "concentration": 0.903418199291941,
+            "phase": 91.43066323065953
+          },
+          {
+            "origin": 96.65281381655082,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8688587325821534,
+            "phase": 92.66496659432859
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999997,
+      "scale": 2.0000000000000004,
+      "rms": 4.2641989139068236E-14,
+      "points": 903
+    },
+    "y": {
+      "origin": 95.99755619384987,
+      "scale": 1.9998521054521425,
+      "rms": 0.03533612129989587,
+      "points": 3555
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 60,
+    "currentXPoints": 122,
+    "currentYPoints": 451
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006337.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6776671833213,
+            "scale": 2.0046875,
+            "concentration": 0.7807008343399687,
+            "phase": 235.66829218332128
+          },
+          {
+            "origin": 240.3717934594898,
+            "scale": 1.99453125,
+            "concentration": 0.7097749200414987,
+            "phase": 236.3827309594898
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.4410798973262,
+            "scale": 2.0052083333333335,
+            "concentration": 0.903418199291941,
+            "phase": 91.43066323065953
+          },
+          {
+            "origin": 96.65281381655082,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8688587325821534,
+            "phase": 92.66496659432859
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 923
+    },
+    "y": {
+      "origin": 95.9973231468182,
+      "scale": 1.9998532712624721,
+      "rms": 0.0353914292753728,
+      "points": 3567
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 60,
+    "currentXPoints": 122,
+    "currentYPoints": 451
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006338.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6545483635605,
+            "scale": 2.0046875,
+            "concentration": 0.7699476053560795,
+            "phase": 235.6451733635605
+          },
+          {
+            "origin": 240.40018761637646,
+            "scale": 1.99453125,
+            "concentration": 0.6944529335744637,
+            "phase": 236.41112511637647
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.43925583912974,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9063638216893273,
+            "phase": 91.42883917246307
+          },
+          {
+            "origin": 96.65499084691267,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8728656021124862,
+            "phase": 92.66714362469044
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 943
+    },
+    "y": {
+      "origin": 95.99712679532739,
+      "scale": 1.9998542649002584,
+      "rms": 0.03543896835218328,
+      "points": 3578
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 63,
+    "currentXPoints": 127,
+    "currentYPoints": 451
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006339.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6737528839346,
+            "scale": 2.0046875,
+            "concentration": 0.7667696681460947,
+            "phase": 235.6643778839346
+          },
+          {
+            "origin": 240.37650976082105,
+            "scale": 1.99453125,
+            "concentration": 0.6904236473873598,
+            "phase": 236.38744726082106
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.43454982456231,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9067992043639795,
+            "phase": 91.42413315789564
+          },
+          {
+            "origin": 96.6606014975139,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8734664799001938,
+            "phase": 92.67275427529167
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999997,
+      "scale": 2.0000000000000004,
+      "rms": 4.181415375749719E-14,
+      "points": 964
+    },
+    "y": {
+      "origin": 95.99693170346063,
+      "scale": 1.999855252229202,
+      "rms": 0.03548597477331842,
+      "points": 3589
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 66,
+    "currentXPoints": 128,
+    "currentYPoints": 451
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006340.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.6737528839346,
+            "scale": 2.0046875,
+            "concentration": 0.7667696681460947,
+            "phase": 235.6643778839346
+          },
+          {
+            "origin": 240.37650976082105,
+            "scale": 1.99453125,
+            "concentration": 0.6904236473873598,
+            "phase": 236.38744726082106
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.43454982456231,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9067992043639795,
+            "phase": 91.42413315789564
+          },
+          {
+            "origin": 96.6606014975139,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8734664799001938,
+            "phase": 92.67275427529167
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.17163197128843E-14,
+      "points": 979
+    },
+    "y": {
+      "origin": 95.99676018979406,
+      "scale": 1.9998561191739588,
+      "rms": 0.035524708484970365,
+      "points": 3597
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 66,
+    "currentXPoints": 128,
+    "currentYPoints": 451
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006341.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67818614898968,
+            "scale": 2.0046875,
+            "concentration": 0.7727721849383629,
+            "phase": 235.66881114898968
+          },
+          {
+            "origin": 240.37101119386878,
+            "scale": 1.99453125,
+            "concentration": 0.6984784277704532,
+            "phase": 236.3819486938688
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.43248932562315,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9071834954126557,
+            "phase": 91.42207265895648
+          },
+          {
+            "origin": 96.66305832627988,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8739942400914724,
+            "phase": 92.67521110405765
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99671762070132,
+      "scale": 1.9998563201475024,
+      "rms": 0.03553048325923075,
+      "points": 3601
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 129,
+    "currentYPoints": 451
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006342.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67933956724661,
+            "scale": 2.0046875,
+            "concentration": 0.7799742704948948,
+            "phase": 235.6699645672466
+          },
+          {
+            "origin": 240.36973231784773,
+            "scale": 1.99453125,
+            "concentration": 0.7080691951341628,
+            "phase": 236.38066981784775
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.43066498197122,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9074715524089526,
+            "phase": 91.42024831530455
+          },
+          {
+            "origin": 96.66523223472983,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8743914503172165,
+            "phase": 92.6773850125076
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 1008
+    },
+    "y": {
+      "origin": 95.99678316431812,
+      "scale": 1.999855214743599,
+      "rms": 0.03556143425506455,
+      "points": 3608
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 70,
+    "currentXPoints": 132,
+    "currentYPoints": 454
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006343.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67933956724661,
+            "scale": 2.0046875,
+            "concentration": 0.7799742704948948,
+            "phase": 235.6699645672466
+          },
+          {
+            "origin": 240.36973231784773,
+            "scale": 1.99453125,
+            "concentration": 0.7080691951341628,
+            "phase": 236.38066981784775
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.43066478953934,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9074716819110648,
+            "phase": 91.42024812287266
+          },
+          {
+            "origin": 96.66523246438493,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8743916269963378,
+            "phase": 92.6773852421627
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 1020
+    },
+    "y": {
+      "origin": 95.99688104733725,
+      "scale": 1.9998539458102824,
+      "rms": 0.035589086189060294,
+      "points": 3614
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 70,
+    "currentXPoints": 132,
+    "currentYPoints": 454
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006344.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67230965057524,
+            "scale": 2.0046875,
+            "concentration": 0.7883415268711559,
+            "phase": 235.66293465057524
+          },
+          {
+            "origin": 240.37893147026077,
+            "scale": 1.99453125,
+            "concentration": 0.7188016096278135,
+            "phase": 236.38986897026078
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42763494015854,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9078980230604887,
+            "phase": 91.41721827349187
+          },
+          {
+            "origin": 96.6688405747722,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8749821975803935,
+            "phase": 92.68099335254998
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 1036
+    },
+    "y": {
+      "origin": 95.99700265851047,
+      "scale": 1.9998524990648074,
+      "rms": 0.03561590503702829,
+      "points": 3620
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 72,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006345.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949139880225,
+            "scale": 2.0046875,
+            "concentration": 0.7855371981371819,
+            "phase": 235.66011639880224
+          },
+          {
+            "origin": 240.38223658535168,
+            "scale": 1.99453125,
+            "concentration": 0.7150393426505265,
+            "phase": 236.3931740853517
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 1052
+    },
+    "y": {
+      "origin": 95.99712371511517,
+      "scale": 1.9998510588290923,
+      "rms": 0.03564251808142755,
+      "points": 3626
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006346.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949139880225,
+            "scale": 2.0046875,
+            "concentration": 0.7855371981371819,
+            "phase": 235.66011639880224
+          },
+          {
+            "origin": 240.38223658535168,
+            "scale": 1.99453125,
+            "concentration": 0.7150393426505265,
+            "phase": 236.3931740853517
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 1063
+    },
+    "y": {
+      "origin": 95.99724422080482,
+      "scale": 1.9998496250602822,
+      "rms": 0.035668927337829504,
+      "points": 3632
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006347.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0867326467877166E-14,
+      "points": 1073
+    },
+    "y": {
+      "origin": 95.99736417918044,
+      "scale": 1.9998481977160634,
+      "rms": 0.03569513479656651,
+      "points": 3638
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006348.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 1083
+    },
+    "y": {
+      "origin": 95.99748359383003,
+      "scale": 1.9998467767543444,
+      "rms": 0.035721142423054755,
+      "points": 3644
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006349.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 1092
+    },
+    "y": {
+      "origin": 95.99760246830692,
+      "scale": 1.9998453621334233,
+      "rms": 0.035746952158243465,
+      "points": 3650
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006350.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0000000000000004,
+      "rms": 3.8377512752325844E-14,
+      "points": 1098
+    },
+    "y": {
+      "origin": 95.99761556515298,
+      "scale": 1.9998452261941335,
+      "rms": 0.035748720578603364,
+      "points": 3653
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006351.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.833039443671181E-14,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99762864050993,
+      "scale": 1.9998450905002898,
+      "rms": 0.03575048552554709,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006352.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.833039443671181E-14,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99762864050993,
+      "scale": 1.9998450905002898,
+      "rms": 0.03575048552554709,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006353.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.833039443671181E-14,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99762864050993,
+      "scale": 1.9998450905002898,
+      "rms": 0.03575048552554709,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006354.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.833039443671181E-14,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99762864050993,
+      "scale": 1.9998450905002898,
+      "rms": 0.03575048552554709,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006355.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.833039443671181E-14,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99762864050993,
+      "scale": 1.9998450905002898,
+      "rms": 0.03575048552554709,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006356.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.833039443671181E-14,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99762864050993,
+      "scale": 1.9998450905002898,
+      "rms": 0.03575048552554709,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006357.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.833039443671181E-14,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99762864050993,
+      "scale": 1.9998450905002898,
+      "rms": 0.03575048552554709,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006358.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.833039443671181E-14,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99762864050993,
+      "scale": 1.9998450905002898,
+      "rms": 0.03575048552554709,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006359.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.833039443671181E-14,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99762864050993,
+      "scale": 1.9998450905002898,
+      "rms": 0.03575048552554709,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006360.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.833039443671181E-14,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99762864050993,
+      "scale": 1.9998450905002898,
+      "rms": 0.03575048552554709,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006361.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.833039443671181E-14,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99762864050993,
+      "scale": 1.9998450905002898,
+      "rms": 0.03575048552554709,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006362.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.833039443671181E-14,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99762864050993,
+      "scale": 1.9998450905002898,
+      "rms": 0.03575048552554709,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006363.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.833039443671181E-14,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99762864050993,
+      "scale": 1.9998450905002898,
+      "rms": 0.03575048552554709,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006364.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66949076181984,
+            "scale": 2.0046875,
+            "concentration": 0.7855385095181392,
+            "phase": 235.66011576181984
+          },
+          {
+            "origin": 240.3822374305445,
+            "scale": 1.99453125,
+            "concentration": 0.7150410574508361,
+            "phase": 236.39317493054452
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42689062965385,
+            "scale": 2.0052083333333335,
+            "concentration": 0.908121886427612,
+            "phase": 91.41647396298718
+          },
+          {
+            "origin": 96.66972756980917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8752893823437002,
+            "phase": 92.68188034758694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 1.9999999999999996,
+      "rms": 3.833039443671181E-14,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99762864050993,
+      "scale": 1.9998450905002898,
+      "rms": 0.03575048552554709,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 73,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006365.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67125801199148,
+            "scale": 2.0046875,
+            "concentration": 0.787844550026637,
+            "phase": 235.66188301199148
+          },
+          {
+            "origin": 240.38024274190607,
+            "scale": 1.99453125,
+            "concentration": 0.7181360933255967,
+            "phase": 236.39118024190608
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.43811549365107,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9120788403104616,
+            "phase": 91.4276988269844
+          },
+          {
+            "origin": 96.65626353209204,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8806102384342531,
+            "phase": 92.66841630986981
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00001211601494,
+      "scale": 2.000002107806093,
+      "rms": 0.004079802761105384,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99716580863304,
+      "scale": 1.9998487239687073,
+      "rms": 0.03577270814460233,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 71,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006366.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67126164128666,
+            "scale": 2.0046875,
+            "concentration": 0.7878447726337353,
+            "phase": 235.66188664128666
+          },
+          {
+            "origin": 240.3802381934266,
+            "scale": 1.99453125,
+            "concentration": 0.7181365787059151,
+            "phase": 236.39117569342662
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.4381155584782,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9120782838810276,
+            "phase": 91.42769889181153
+          },
+          {
+            "origin": 96.65626345904472,
+            "scale": 1.9939236111111112,
+            "concentration": 0.88060948241795,
+            "phase": 92.6684162368225
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00002423202997,
+      "scale": 2.000004215612184,
+      "rms": 0.0057608903765164155,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99670455441893,
+      "scale": 1.9998523466509506,
+      "rms": 0.035794752812109504,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 71,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006367.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.67125801199148,
+            "scale": 2.0046875,
+            "concentration": 0.787844550026637,
+            "phase": 235.66188301199148
+          },
+          {
+            "origin": 240.38024274190607,
+            "scale": 1.99453125,
+            "concentration": 0.7181360933255967,
+            "phase": 236.39118024190608
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.43811549365107,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9120788403104616,
+            "phase": 91.4276988269844
+          },
+          {
+            "origin": 96.65626353209204,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8806102384342531,
+            "phase": 92.66841630986981
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0000363480448,
+      "scale": 2.000006323418279,
+      "rms": 0.007044799648120942,
+      "points": 1104
+    },
+    "y": {
+      "origin": 95.99624486348124,
+      "scale": 1.9998559586565678,
+      "rms": 0.035816620817961366,
+      "points": 3656
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 71,
+    "currentXPoints": 138,
+    "currentYPoints": 457
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006368.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.68334183157046,
+            "scale": 2.0046875,
+            "concentration": 0.7811754955523107,
+            "phase": 235.67396683157045
+          },
+          {
+            "origin": 240.36473956719604,
+            "scale": 1.99453125,
+            "concentration": 0.710828889672053,
+            "phase": 236.37567706719605
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44307338815139,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8995557824994157,
+            "phase": 91.43265672148472
+          },
+          {
+            "origin": 96.65043201000917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8636064532097798,
+            "phase": 92.66258478778694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00004460097054,
+      "scale": 2.000006359678241,
+      "rms": 0.007125455133041403,
+      "points": 1079
+    },
+    "y": {
+      "origin": 95.99617731006504,
+      "scale": 1.9998570596668432,
+      "rms": 0.035782411032210804,
+      "points": 3644
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 57,
+    "currentXPoints": 113,
+    "currentYPoints": 445
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006369.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.68334183157046,
+            "scale": 2.0046875,
+            "concentration": 0.7811754955523107,
+            "phase": 235.67396683157045
+          },
+          {
+            "origin": 240.36473956719604,
+            "scale": 1.99453125,
+            "concentration": 0.710828889672053,
+            "phase": 236.37567706719605
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44307338815139,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8995557824994157,
+            "phase": 91.43265672148472
+          },
+          {
+            "origin": 96.65043201000917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8636064532097798,
+            "phase": 92.66258478778694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00005337924867,
+      "scale": 2.00000639575541,
+      "rms": 0.007208950235207706,
+      "points": 1054
+    },
+    "y": {
+      "origin": 95.99610962099156,
+      "scale": 1.9998581655482432,
+      "rms": 0.035747812238321526,
+      "points": 3632
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 57,
+    "currentXPoints": 113,
+    "currentYPoints": 445
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006370.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.68334183157046,
+            "scale": 2.0046875,
+            "concentration": 0.7811754955523107,
+            "phase": 235.67396683157045
+          },
+          {
+            "origin": 240.36473956719604,
+            "scale": 1.99453125,
+            "concentration": 0.710828889672053,
+            "phase": 236.37567706719605
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44307338815139,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8995557824994157,
+            "phase": 91.43265672148472
+          },
+          {
+            "origin": 96.65043201000917,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8636064532097798,
+            "phase": 92.66258478778694
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00006272516896,
+      "scale": 2.0000064315860433,
+      "rms": 0.007295455629809251,
+      "points": 1029
+    },
+    "y": {
+      "origin": 95.99604179539058,
+      "scale": 1.9998592763464893,
+      "rms": 0.03571281844275528,
+      "points": 3620
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 57,
+    "currentXPoints": 113,
+    "currentYPoints": 445
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006371.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69633998748273,
+            "scale": 2.0046875,
+            "concentration": 0.7801310041424822,
+            "phase": 235.68696498748272
+          },
+          {
+            "origin": 240.34887301682593,
+            "scale": 1.99453125,
+            "concentration": 0.7096557767145268,
+            "phase": 236.35981051682595
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.43926067764076,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8999365675360281,
+            "phase": 91.42884401097409
+          },
+          {
+            "origin": 96.65499243843206,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8641277846214661,
+            "phase": 92.66714521620983
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00007086326116,
+      "scale": 2.000006478738569,
+      "rms": 0.007363198532628682,
+      "points": 1010
+    },
+    "y": {
+      "origin": 95.9959596677696,
+      "scale": 1.9998605620027317,
+      "rms": 0.03567440143421702,
+      "points": 3609
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 60,
+    "currentXPoints": 119,
+    "currentYPoints": 446
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006372.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.70397647639592,
+            "scale": 2.0046875,
+            "concentration": 0.7875193461302307,
+            "phase": 235.69460147639592
+          },
+          {
+            "origin": 240.33955583230593,
+            "scale": 1.99453125,
+            "concentration": 0.7196107646598306,
+            "phase": 236.35049333230594
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.4359502777787,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9005601518422212,
+            "phase": 91.42553361111203
+          },
+          {
+            "origin": 96.65895217512343,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8649815990493611,
+            "phase": 92.6711049529012
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00007885049973,
+      "scale": 2.0000065298077483,
+      "rms": 0.007429123881954077,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99593591253836,
+      "scale": 1.9998611180713148,
+      "rms": 0.035647429916351454,
+      "points": 3600
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 63,
+    "currentXPoints": 120,
+    "currentYPoints": 448
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006373.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.70397647639592,
+            "scale": 2.0046875,
+            "concentration": 0.7875193461302307,
+            "phase": 235.69460147639592
+          },
+          {
+            "origin": 240.33955583230593,
+            "scale": 1.99453125,
+            "concentration": 0.7196107646598306,
+            "phase": 236.35049333230594
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.4359502777787,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9005601518422212,
+            "phase": 91.42553361111203
+          },
+          {
+            "origin": 96.65895217512343,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8649815990493611,
+            "phase": 92.6711049529012
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0000581224758,
+      "scale": 2.0000043882944656,
+      "rms": 0.006131478846772628,
+      "points": 974
+    },
+    "y": {
+      "origin": 95.99637697537958,
+      "scale": 1.9998580220329787,
+      "rms": 0.035597817271095664,
+      "points": 3591
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 63,
+    "currentXPoints": 120,
+    "currentYPoints": 448
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006374.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.7028546854132,
+            "scale": 2.0046875,
+            "concentration": 0.7965782423117035,
+            "phase": 235.6934796854132
+          },
+          {
+            "origin": 240.34132230289416,
+            "scale": 1.99453125,
+            "concentration": 0.7314913286990725,
+            "phase": 236.35225980289417
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.43218235223486,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9012183756294155,
+            "phase": 91.42176568556819
+          },
+          {
+            "origin": 96.66345553660446,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8658867512367519,
+            "phase": 92.67560831438223
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0000313201096,
+      "scale": 2.0000022133034725,
+      "rms": 0.004376621418174599,
+      "points": 959
+    },
+    "y": {
+      "origin": 95.99699616764786,
+      "scale": 1.9998528295209321,
+      "rms": 0.03557725770437021,
+      "points": 3587
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 66,
+    "currentXPoints": 123,
+    "currentYPoints": 453
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006375.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69662369362072,
+            "scale": 2.0046875,
+            "concentration": 0.8025435965252316,
+            "phase": 235.68724869362072
+          },
+          {
+            "origin": 240.3494243491418,
+            "scale": 1.99453125,
+            "concentration": 0.7389451352077631,
+            "phase": 236.3603618491418
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.4293523013531,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9017596875338614,
+            "phase": 91.41893563468643
+          },
+          {
+            "origin": 96.66683558473939,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8666327575293733,
+            "phase": 92.67898836251716
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 945
+    },
+    "y": {
+      "origin": 95.9976821929596,
+      "scale": 1.9998469030966612,
+      "rms": 0.035563406187308445,
+      "points": 3586
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 67,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006376.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69662369362072,
+            "scale": 2.0046875,
+            "concentration": 0.8025435965252316,
+            "phase": 235.68724869362072
+          },
+          {
+            "origin": 240.3494243491418,
+            "scale": 1.99453125,
+            "concentration": 0.7389451352077631,
+            "phase": 236.3603618491418
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.4293523013531,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9017596875338614,
+            "phase": 91.41893563468643
+          },
+          {
+            "origin": 96.66683558473939,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8666327575293733,
+            "phase": 92.67898836251716
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 956
+    },
+    "y": {
+      "origin": 95.99796283923779,
+      "scale": 1.9998435789121336,
+      "rms": 0.035608251422035636,
+      "points": 3597
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 67,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006377.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 967
+    },
+    "y": {
+      "origin": 95.99824126822551,
+      "scale": 1.9998402810767109,
+      "rms": 0.03565226204506787,
+      "points": 3608
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006378.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 978
+    },
+    "y": {
+      "origin": 95.9985175063442,
+      "scale": 1.999837009276442,
+      "rms": 0.035695454224636436,
+      "points": 3619
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006379.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 983
+    },
+    "y": {
+      "origin": 95.99880567658215,
+      "scale": 1.9998335930475908,
+      "rms": 0.03574074468013104,
+      "points": 3629
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006380.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999997,
+      "scale": 2.0000000000000004,
+      "rms": 4.0886674382917737E-14,
+      "points": 987
+    },
+    "y": {
+      "origin": 95.99903673875727,
+      "scale": 1.999830898527571,
+      "rms": 0.03577424024539011,
+      "points": 3637
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006381.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 991
+    },
+    "y": {
+      "origin": 95.99926647473147,
+      "scale": 1.99982821954536,
+      "rms": 0.03580724357428928,
+      "points": 3645
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006382.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0783503200608235E-14,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99932875108622,
+      "scale": 1.9998275294564343,
+      "rms": 0.035813391332740536,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006383.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0783503200608235E-14,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99932875108622,
+      "scale": 1.9998275294564343,
+      "rms": 0.035813391332740536,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006384.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0783503200608235E-14,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99932875108622,
+      "scale": 1.9998275294564343,
+      "rms": 0.035813391332740536,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006385.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0783503200608235E-14,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99932875108622,
+      "scale": 1.9998275294564343,
+      "rms": 0.035813391332740536,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006386.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0783503200608235E-14,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99932875108622,
+      "scale": 1.9998275294564343,
+      "rms": 0.035813391332740536,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006387.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0783503200608235E-14,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99932875108622,
+      "scale": 1.9998275294564343,
+      "rms": 0.035813391332740536,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006388.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0783503200608235E-14,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99932875108622,
+      "scale": 1.9998275294564343,
+      "rms": 0.035813391332740536,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006389.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0783503200608235E-14,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99932875108622,
+      "scale": 1.9998275294564343,
+      "rms": 0.035813391332740536,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006390.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0783503200608235E-14,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99932875108622,
+      "scale": 1.9998275294564343,
+      "rms": 0.035813391332740536,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006391.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0783503200608235E-14,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99932875108622,
+      "scale": 1.9998275294564343,
+      "rms": 0.035813391332740536,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006392.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0783503200608235E-14,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99932875108622,
+      "scale": 1.9998275294564343,
+      "rms": 0.035813391332740536,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006393.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0783503200608235E-14,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99932875108622,
+      "scale": 1.9998275294564343,
+      "rms": 0.035813391332740536,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006394.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0783503200608235E-14,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99932875108622,
+      "scale": 1.9998275294564343,
+      "rms": 0.035813391332740536,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006395.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.69180793883018,
+            "scale": 2.0046875,
+            "concentration": 0.7986057979882899,
+            "phase": 235.68243293883017
+          },
+          {
+            "origin": 240.3551105347534,
+            "scale": 1.99453125,
+            "concentration": 0.7335629470007977,
+            "phase": 236.36604803475342
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.42805821350247,
+            "scale": 2.0052083333333335,
+            "concentration": 0.9021531524165507,
+            "phase": 91.4176415468358
+          },
+          {
+            "origin": 96.6683816242444,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8671727368892169,
+            "phase": 92.68053440202218
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.00000000000003,
+      "scale": 1.9999999999999996,
+      "rms": 4.0783503200608235E-14,
+      "points": 992
+    },
+    "y": {
+      "origin": 95.99932875108622,
+      "scale": 1.9998275294564343,
+      "rms": 0.035813391332740536,
+      "points": 3648
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 68,
+    "currentXPoints": 124,
+    "currentYPoints": 456
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006396.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999997,
+      "scale": 2.0000000000000004,
+      "rms": 4.119399872259149E-14,
+      "points": 970
+    },
+    "y": {
+      "origin": 95.99924544245921,
+      "scale": 1.9998298106224817,
+      "rms": 0.03573055256837202,
+      "points": 3631
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006397.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 239.99999999999997,
+      "scale": 2.0000000000000004,
+      "rms": 4.161921199885847E-14,
+      "points": 948
+    },
+    "y": {
+      "origin": 95.99916056547909,
+      "scale": 1.9998321207420233,
+      "rms": 0.03564564938125993,
+      "points": 3614
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006398.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 926
+    },
+    "y": {
+      "origin": 95.99907409464173,
+      "scale": 1.9998344602711087,
+      "rms": 0.0355586235763756,
+      "points": 3597
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  },
+  {
+    "input": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006399.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 240.0,
+        "originY": 95.99999999999999,
+        "scaleX": 2.0,
+        "scaleY": 2.0
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 240.0,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 236.0
+          },
+          {
+            "origin": 239.66134352496013,
+            "scale": 2.0046875,
+            "concentration": 0.7510968813297864,
+            "phase": 235.65196852496013
+          },
+          {
+            "origin": 240.08684148598846,
+            "scale": 2.02578125,
+            "concentration": 0.6744102918286842,
+            "phase": 236.03527898598847
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 95.99999999999999,
+            "scale": 2.0,
+            "concentration": 1.0,
+            "phase": 91.99999999999999
+          },
+          {
+            "origin": 95.44918479711149,
+            "scale": 2.0052083333333335,
+            "concentration": 0.8902523364954887,
+            "phase": 91.43876813044481
+          },
+          {
+            "origin": 96.64307278864948,
+            "scale": 1.9939236111111112,
+            "concentration": 0.8509626796202497,
+            "phase": 92.65522556642725
+          }
+        ]
+      },
+      "envelope": [
+        236,
+        92,
+        564,
+        388
+      ]
+    },
+    "x": {
+      "origin": 240.0,
+      "scale": 2.0,
+      "rms": 0.0,
+      "points": 904
+    },
+    "y": {
+      "origin": 95.99898600390405,
+      "scale": 1.9998368296752935,
+      "rms": 0.035469414838427714,
+      "points": 3580
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 48,
+    "currentXPoints": 102,
+    "currentYPoints": 439
+  }
+]

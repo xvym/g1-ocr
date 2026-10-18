@@ -1,0 +1,300 @@
+{
+  "count": 73,
+  "classes": [
+    {
+      "entry": "io/github/g1ocr/BootstrapWindow.class",
+      "sha256": "1cf56137fe6b8a377083bcbaedf72a370c419d3995469714b34a073fcf20fbe0"
+    },
+    {
+      "entry": "io/github/g1ocr/capture/SourceFrame.class",
+      "sha256": "010fbd12c4888e15a48030bf05613bef4d7d0a35af1b12cfe58d1a1efdbff01e"
+    },
+    {
+      "entry": "io/github/g1ocr/Main.class",
+      "sha256": "20a8b76462752766da2a30098af667ed19044900575e36dc4cea5c46c3dbe86a"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/BackpackTransitionTracker.class",
+      "sha256": "a4d6987eee6f771dd5848015ba6a91f92afd6f31b6b7f71a2889fffd676306f8"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/BoxTextDetector$1.class",
+      "sha256": "cc38549920f83fbe5fe418ab72b185195cd967f76c066c9ead0578e10386335e"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/BoxTextDetector$Box.class",
+      "sha256": "c6032016b224cb054cbb8ce17ed100bc3b7ac059f764e2858901cc5f5187c20b"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/BoxTextDetector$Fragment.class",
+      "sha256": "a6a4bcb8a6abfdbcb1b0998122cb7e3550a16fe53449f052411ef43679d280d4"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/BoxTextDetector$Line.class",
+      "sha256": "7d20955b3e12c7a1ff2e341d932fa9477cca98e22b44c435cf8e02e7d854b98a"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/BoxTextDetector$Symbol.class",
+      "sha256": "e435b128e199741d3977f5094fbcc7972ed051fc9b9f14f24ce45bbfa68ae5a7"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/BoxTextDetector.class",
+      "sha256": "6369362406c6d13033b3c75923d32918b57af35209e03f17768d5a011891653d"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/FrameGeometryEstimator$1.class",
+      "sha256": "11b1002665bc6cae9cd1423ef92eb7ef083b7a4dd4160186788a1addffba825b"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/FrameGeometryEstimator$Estimate.class",
+      "sha256": "741b3401c9a950108ed0375a15ab4fc739ebaa8978cf7f2837ec1f0b6e78964e"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/FrameGeometryEstimator.class",
+      "sha256": "29257662c5debd588b45abe17c31713421c5475a5c5267e07cdf228848b0ddf2"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/GameViewportLocator$1.class",
+      "sha256": "d62de6ba35dfd46f67e48892ba7572f42caddda38f3148ca957a2351f12438fe"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/GameViewportLocator$Axis.class",
+      "sha256": "d52dd1a2a5235e2d48aaf37fefdcff1b095a7356322ef0c84b6925109a63e5cc"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/GameViewportLocator$Box.class",
+      "sha256": "f095ef58a097c1913f2493cfdf9481280c0ca5b1d3461b96847b97e5c5137fdc"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/GameViewportLocator$Config.class",
+      "sha256": "c610d2e66fc1bd9bdb03e3c5b1e7327aa3bbfeb225469fe94b0b391bd31071a4"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/GameViewportLocator$Result.class",
+      "sha256": "90023562c29395b873511e7b2a3390566a44ce2f361c64beeb08449257671e4b"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/GameViewportLocator$Status.class",
+      "sha256": "32871e6b2ec01b602fe40ec786db4d9bef5293b1137af32626a520d3f8066a2f"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/GameViewportLocator.class",
+      "sha256": "d0c67f17099c6c5038a6d138b9656977ffb8f50a6d45fd3787d9f12c85fa794a"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/GlyphTemplate.class",
+      "sha256": "6c14519f593aac447d5f89fb1ad80a5b45be34c54af96f5a70f17d20c3b07357"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapaneseOcrEngine$1.class",
+      "sha256": "21f9c42a452f45aad29cf146a39b3cf28abce9fdf03228ad17ba19ac6ec0b3aa"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapaneseOcrEngine$Cursor.class",
+      "sha256": "89120fac289be2208eaf2fa255537ff38e8ea256d68361ac98741f925f212654"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapaneseOcrEngine$Mark.class",
+      "sha256": "34f777c10597d51ada08b3005b4f455da7b67243195ddf42822fef341dbc5493"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapaneseOcrEngine$Region.class",
+      "sha256": "1488921879beb5989bfd58e29f3d5bb042671c594bbbbedc6a52425870138aa4"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapaneseOcrEngine$RenderUnit.class",
+      "sha256": "88ea3156017305f3f6c8617e7a7c0c35b6ddfa1ef1679dc29907cd903c33fac8"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapaneseOcrEngine$Result.class",
+      "sha256": "1cb6f168bb4c75de2ff79fe8c332ebe3f62a567d34e03473c05d6a36e831e4bf"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapaneseOcrEngine$Shape.class",
+      "sha256": "e9e15f78319612e8f7c3b2d498e6401402dbf498e6e5ea7b58930d2b54672f82"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapaneseOcrEngine$VisibleState.class",
+      "sha256": "79a1459c38f89e479c1f51002800b9e6f6659276699faba281cf3e12d441b1c7"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapaneseOcrEngine.class",
+      "sha256": "a059a1c7cf1d2234b0d28d237096597615896036c1524063acd02d52e27c1ebd"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapanesePageBoundaryResolver$1.class",
+      "sha256": "caf2dbea734679ff6880b460c5f483e1567da1f18df655a65b62587c3fee46ce"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapanesePageBoundaryResolver$Entry.class",
+      "sha256": "75ecd6339c86bb3d8d19fc22b7d384ac2c268249f78791e6ac59c579bdf0119e"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapanesePageBoundaryResolver$Line.class",
+      "sha256": "72034327e293ad70572804fdeac9c5be0ac7f647b1100917ba3aa7388b445a05"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapanesePageBoundaryResolver$Resolution.class",
+      "sha256": "fae6529e051e054ea53ffed0cff53dd4b77329744df34d36f8b77ea08ffdf03f"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapanesePageBoundaryResolver.class",
+      "sha256": "1e33b97f98044364af879d65f5d2ae5a223da5ddea53bad60d2dd0be270c9479"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapaneseSourceAliasResolver$Change.class",
+      "sha256": "afc102f8e56a8a00267a58aa1a8eede66b72032555224a5eca9662e7e92a7204"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapaneseSourceAliasResolver$Entry.class",
+      "sha256": "2dfb770dc0db70412c50c6dcd4c778f451d7cb2814d5301e369b0f6ac5cefc84"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapaneseSourceAliasResolver$Resolution.class",
+      "sha256": "0fd04bc79ab4e4c0fac10c9dbba34df5c77c27bdb57d5fe9ca91cc552fecfec0"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/JapaneseSourceAliasResolver.class",
+      "sha256": "786edd5fb2b8837c08d65ad349854c9a334afd2e196f35da9e92ecc6536d3f30"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/KanaScriptResolver$1.class",
+      "sha256": "69db14c52fb976568deeff42e633e4134fcb261129205f7a0b3a179f4820694c"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/KanaScriptResolver$Resolution.class",
+      "sha256": "2346f9ee1e7aa32a26073922d285bec82c5c7dcdb9187f125ed9613facd91e33"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/KanaScriptResolver$Result.class",
+      "sha256": "08043341cb665a8acf934c1923e4808bd37b8b041bcc9b51c1c59c819762f084"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/KanaScriptResolver.class",
+      "sha256": "c38a4840d2bb6092e867f63fac2cdb5a5ce541d4cb98da54bdc0d12f57d72f0d"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/MenuFieldReader$1.class",
+      "sha256": "f0bef1d4ce32606506b478f2fc23a76f805f5f706c2131277f7472e1760832e4"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/MenuFieldReader$Layout.class",
+      "sha256": "0747af59b2545a0e37848b787f3054619bfc1e321b079134e59bdf4e8996e05e"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/MenuFieldReader.class",
+      "sha256": "713905f27c5f25cb488924a45fd00701e3ba6940a9133bbe0575fc306ef01acc"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/MessageEraseTracker.class",
+      "sha256": "7de05e354d5237ac1c5546bb4c09229b81b7631adaaa8588bd9dda29c3ad8d9b"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/MessageFadeTracker.class",
+      "sha256": "897ed336913f7fdc193253567fa1694cd40fa8a70260b8cd9455129bb190c09c"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/OutputReadinessTracker$1.class",
+      "sha256": "a018cd3383aff6157b6d4b366fbb954ce9f6babc10a6c96d075bbe10fc56bdad"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/OutputReadinessTracker$Decision.class",
+      "sha256": "98dff8afe46e9c54e0739e93754b3e53b4fa6c928b76150c8526ef74800567d9"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/OutputReadinessTracker$Observation.class",
+      "sha256": "f93d33140b16fa86f81e3a1cc904541fcec3d8f4809a41809105a2662cad5a87"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/OutputReadinessTracker.class",
+      "sha256": "9cc4dc34d3fb621553a593d91fc8b945c6b60ad6780dd0e90e1b9f3cc0ed37bc"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/PackedGlyphReader.class",
+      "sha256": "cb59df8d9ea80fbde1c982c2b4a81de1251fd3a5d7e5524ec6eccf4579db040f"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/PixelGlyphMatcher$1.class",
+      "sha256": "2f547e4a0128aa45e6d337ac24cdb1642b5937dbf8125d40e588d8f66bac6264"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/PixelGlyphMatcher$Candidate.class",
+      "sha256": "20443822e19e10eb19ab847a0bea32ff3cf1998a6cbed7bed084a18d35c3a229"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/PixelGlyphMatcher.class",
+      "sha256": "d81d38b64524baee4220cb4520f457de408d740cbcda3ef7c184893d8fe9b2a6"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/PixelGlyphReader$1.class",
+      "sha256": "04f47698c28ed9384dacce90cad8ae46f3aa82a5836e77021659696e8326e562"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/PixelGlyphReader$Cell.class",
+      "sha256": "fdbff3b72d8bc50f9d3427133d7573839f06f26090aa1b588889cf3685b55b34"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/PixelGlyphReader$Frame.class",
+      "sha256": "de5759917e5f310a331071f7839e18b4eced4c4fe119b1d8a51c4e70e5245bad"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/PixelGlyphReader$Grid.class",
+      "sha256": "e7ad959077ddae4ca3ebffe119cedde5cbafcd82ebdd67d1b5c3d2f1fbd37fb1"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/PixelGlyphReader$PhaseAlternative.class",
+      "sha256": "c13a3075a4f59579a2e040ab80c4ab7f4c145f8aea42c8b073c12fd6a0432df1"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/PixelGlyphReader.class",
+      "sha256": "723dd7bc453509596eab66798cbc81ef14a4274d2338927db96f4390bb762a4e"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/RasterGridRefiner$1.class",
+      "sha256": "64dfc29d32e89a950e0871c24872646abef379231e68eb275eb5db8f873c9852"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/RasterGridRefiner$Axis.class",
+      "sha256": "b3c67113854833fefe7d8b4817e8b5d5175d9be2f52939a24245601cf93d0390"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/RasterGridRefiner$Result.class",
+      "sha256": "d4b4041312375c0ff3e9544246c34e7932be5fb976226b36e37ef336209a3460"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/RasterGridRefiner.class",
+      "sha256": "c78e6bf19f8fba758321dc4a35a8b4a6346531f75327cacf190b26c5f831614d"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/RasterMotionTracker$1.class",
+      "sha256": "e6b64206aacbbf658fbc40b47f2aaa8c6e05c61763765c793e307b4c50985c72"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/RasterMotionTracker$Alignment.class",
+      "sha256": "68610ffb81e61ee62a7d1b0baabc818fb63295b86b1ebb288e1fcf0c1ca2bab7"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/RasterMotionTracker.class",
+      "sha256": "24e14b5aa461712bcda8e2cec4c946c244e516d0e89811a30d8ee4778f6be950"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/SceneFieldReader$Scene.class",
+      "sha256": "59a6254ef8940d3fbfe880bacb12b735b879e5cbe569fd5f9203cb0b4a651f3d"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/SceneFieldReader.class",
+      "sha256": "93014fb4aecd17cc1ce91b62c53e7f5ab42216fc6dd860c31c1001357307cd14"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/ShopMessageRoleTracker.class",
+      "sha256": "881353bcb50b17ae471940b6439b57be212151aafae3e342f39b324bda6f9a83"
+    },
+    {
+      "entry": "io/github/g1ocr/ocr/ShopMoneyTransitionTracker.class",
+      "sha256": "70b0c684c9bb9d8e224882bff37e9100bf7e0cca4bd5665a3bbc327046b8f9dc"
+    }
+  ],
+  "sha256": "f0bff070daddd489eac8fc92934b6bf83eed8c3b8e4416222019884b1ed6165b",
+  "meaning": "Every packaged class equals current compiled class; not video acceptance",
+  "jar": "app/target/g1-ocr-app-0.1.0-SNAPSHOT.jar"
+}

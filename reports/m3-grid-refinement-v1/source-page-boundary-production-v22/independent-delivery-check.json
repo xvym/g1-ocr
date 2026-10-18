@@ -1,0 +1,43 @@
+{
+  "status": "independent_all38_final_state_and_original_strict_reconstruction_passed_not_product_acceptance",
+  "checker": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\verify-source-boundary-delivery-v22.cjs",
+    "sha256": "c18d78acd15723754c04059bc8a3ab67dd90e2d0fcc09c6aa109fce5ecffbee4"
+  },
+  "report": {
+    "path": "reports/m3-grid-refinement-v1/source-page-boundary-production-v22/delivery/report.json",
+    "sha256": "e6a85316bdea098d11e3ca490a323c7cab9882df27123a8e45657b140c6ed801"
+  },
+  "retained": 3577,
+  "scored": 3368,
+  "uniqueScoredOriginals": 3361,
+  "stageFrameChecks": 6736,
+  "pages": 116,
+  "continuousStates": 715,
+  "transitionOpportunities": 553,
+  "transitionOriginals": 1316,
+  "changedRetained": 473,
+  "changedScored": 471,
+  "newTransitionCompletions": 0,
+  "rawImageStrict": 7,
+  "finalSourceAssistedStrict": 14,
+  "gainedPages": [
+    "video-01:f6187",
+    "video-01:f6299",
+    "video-01:f6344",
+    "video-01:f9898",
+    "video-01:f13393",
+    "video-01:f13479",
+    "video-01:f24227"
+  ],
+  "lostPages": [],
+  "criteriaUnchanged": true,
+  "readinessAll3577Identical": true,
+  "tests": 187,
+  "reportInputsVerified": 8645,
+  "independentPolicyInputsVerified": 3856,
+  "localLinks": 2169,
+  "actualBrowserRendering": "unverified",
+  "GTChanged": false,
+  "productAcceptance": false
+}

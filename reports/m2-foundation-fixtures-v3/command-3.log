@@ -1,0 +1,7 @@
+java.lang.IllegalArgumentException: Duplicate region match key: shop_money_label:0:14:0
+	at io.github.g1ocr.verification.FrozenDataset.require(FrozenDataset.java:67)
+	at io.github.g1ocr.verification.OcrScoring.regions(OcrScoring.java:43)
+	at io.github.g1ocr.verification.OcrScoring.score(OcrScoring.java:74)
+	at io.github.g1ocr.verification.OcrComparison.compareClip(OcrComparison.java:43)
+	at io.github.g1ocr.verification.OcrComparison.compare(OcrComparison.java:18)
+	at io.github.g1ocr.verification.VideoTool.main(VideoTool.java:35)

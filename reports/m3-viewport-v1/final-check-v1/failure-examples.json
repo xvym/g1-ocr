@@ -1,0 +1,317 @@
+[
+  {
+    "category": "pixel_scale_or_origin",
+    "layout": "{\"origin\":[300,108],\"rect\":[300,108,660,432]}",
+    "clipId": "battle-result",
+    "frame": 6916,
+    "pts": 3540992,
+    "rgbSha256": "cd3584e7b42f637da6278e3ab3e156c89303b30c56b0374b9daabb5026afcafe",
+    "actual": {
+      "pts": 3540992,
+      "status": "LOCATED",
+      "paletteEnvelope": [
+        296,
+        104,
+        666,
+        441
+      ],
+      "originX": 301,
+      "originY": 109,
+      "scaleX": 2.25,
+      "scaleY": 2.2708333333333335,
+      "gridStrengthX": 0.2105832325599919,
+      "gridStrengthY": 0.1941697159388303,
+      "processingNanos": 38143799
+    },
+    "expected": {
+      "sourceOrigin": [
+        300,
+        108
+      ],
+      "sourceGameRect": [
+        300,
+        108,
+        660,
+        432
+      ],
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    "maxPixelBoundaryError": 4,
+    "framePath": "data/frames/video-02/all-scenes-battle-result-pass2-v1/frame-006916.png",
+    "previousFramePath": "data/frames/video-02/all-scenes-battle-result-pass2-v1/frame-006915.png",
+    "nextFramePath": "data/frames/video-02/all-scenes-battle-result-pass2-v1/frame-006917.png"
+  },
+  {
+    "category": "no_observable_or_accepted_grid",
+    "layout": "{\"origin\":[300,108],\"rect\":[300,108,660,432]}",
+    "clipId": "battle-result",
+    "frame": 6958,
+    "pts": 3562496,
+    "rgbSha256": "1155fed5c006498e720e9dbb3c3f6f5c62b7eebb2a9cb70430f89210824063ba",
+    "actual": {
+      "pts": 3562496,
+      "status": "NO_GRID",
+      "paletteEnvelope": [
+        296,
+        104,
+        666,
+        441
+      ],
+      "originX": 0,
+      "originY": 0,
+      "scaleX": 0,
+      "scaleY": 0,
+      "gridStrengthX": 0,
+      "gridStrengthY": 0,
+      "processingNanos": 36909400
+    },
+    "expected": {
+      "sourceOrigin": [
+        300,
+        108
+      ],
+      "sourceGameRect": [
+        300,
+        108,
+        660,
+        432
+      ],
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    "maxPixelBoundaryError": -1,
+    "framePath": "data/frames/video-02/all-scenes-battle-result-pass2-v1/frame-006958.png",
+    "previousFramePath": "data/frames/video-02/all-scenes-battle-result-pass2-v1/frame-006957.png",
+    "nextFramePath": "data/frames/video-02/all-scenes-battle-result-pass2-v1/frame-006959.png"
+  },
+  {
+    "category": "no_observable_or_accepted_grid",
+    "layout": "{\"origin\":[180,0],\"rect\":[180,0,780,544]}",
+    "clipId": "status-alt-pages",
+    "frame": 3534,
+    "pts": 1809408,
+    "rgbSha256": "a9e58d5d7bf3472084119292ea43fcc8d8f83c452f3227ef83393541feb29707",
+    "actual": {
+      "pts": 1809408,
+      "status": "NO_GRID",
+      "paletteEnvelope": [
+        180,
+        0,
+        782,
+        544
+      ],
+      "originX": 0,
+      "originY": 0,
+      "scaleX": 0,
+      "scaleY": 0,
+      "gridStrengthX": 0,
+      "gridStrengthY": 0,
+      "processingNanos": 11022800
+    },
+    "expected": {
+      "sourceOrigin": [
+        180,
+        0
+      ],
+      "sourceGameRect": [
+        180,
+        0,
+        780,
+        544
+      ],
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    "maxPixelBoundaryError": -1,
+    "framePath": "data/frames/video-03/all-scenes-status-alt-pages-pass2-v1/frame-003534.png",
+    "previousFramePath": "data/frames/video-03/all-scenes-status-alt-pages-pass2-v1/frame-003533.png",
+    "nextFramePath": "data/frames/video-03/all-scenes-status-alt-pages-pass2-v1/frame-003535.png"
+  },
+  {
+    "category": "pixel_scale_or_origin",
+    "layout": "{\"origin\":[180,0],\"rect\":[180,0,780,544]}",
+    "clipId": "status-alt-pages",
+    "frame": 3536,
+    "pts": 1810432,
+    "rgbSha256": "72b858218637863f18196f85f99becaf02814a42ec7d5b3b0bd6845215184aaa",
+    "actual": {
+      "pts": 1810432,
+      "status": "LOCATED",
+      "paletteEnvelope": [
+        180,
+        0,
+        782,
+        544
+      ],
+      "originX": 177,
+      "originY": 14,
+      "scaleX": 3.8,
+      "scaleY": 3.5833333333333335,
+      "gridStrengthX": 0.783135490821486,
+      "gridStrengthY": 0.9999999959973707,
+      "processingNanos": 12331199
+    },
+    "expected": {
+      "sourceOrigin": [
+        180,
+        0
+      ],
+      "sourceGameRect": [
+        180,
+        0,
+        780,
+        544
+      ],
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    "maxPixelBoundaryError": 14,
+    "framePath": "data/frames/video-03/all-scenes-status-alt-pages-pass2-v1/frame-003536.png",
+    "previousFramePath": "data/frames/video-03/all-scenes-status-alt-pages-pass2-v1/frame-003535.png",
+    "nextFramePath": "data/frames/video-03/all-scenes-status-alt-pages-pass2-v1/frame-003537.png"
+  },
+  {
+    "category": "pixel_scale_or_origin",
+    "layout": "{\"origin\":[150,0],\"rect\":[150,0,750,544]}",
+    "clipId": "backpack-opening",
+    "frame": 5174,
+    "pts": 5298176,
+    "rgbSha256": "2810143a3e477528919fc0aaa23b0752c29d30ffea5a7163e3e6601dd1b1261b",
+    "actual": {
+      "pts": 5298176,
+      "status": "LOCATED",
+      "paletteEnvelope": [
+        151,
+        0,
+        752,
+        544
+      ],
+      "originX": 151,
+      "originY": 0,
+      "scaleX": 3.75625,
+      "scaleY": 3.7777777777777777,
+      "gridStrengthX": 0.38892247874677904,
+      "gridStrengthY": 0.31405307679786315,
+      "processingNanos": 33971100
+    },
+    "expected": {
+      "sourceOrigin": [
+        150,
+        0
+      ],
+      "sourceGameRect": [
+        150,
+        0,
+        750,
+        544
+      ],
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    "maxPixelBoundaryError": 2,
+    "framePath": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1/frame-005174.png",
+    "previousFramePath": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1/frame-005173.png",
+    "nextFramePath": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1/frame-005175.png"
+  },
+  {
+    "category": "render_offset",
+    "layout": "{\"origin\":[150,0],\"rect\":[150,0,750,544]}",
+    "clipId": "skills-turn",
+    "frame": 17503,
+    "pts": 17923072,
+    "rgbSha256": "ea37016f2c289ebeca9a459654532699ccedcf60684d8a499e444696082f7880",
+    "actual": {
+      "pts": 17923072,
+      "status": "LOCATED",
+      "paletteEnvelope": [
+        150,
+        0,
+        752,
+        544
+      ],
+      "originX": 150,
+      "originY": 0,
+      "scaleX": 3.75625,
+      "scaleY": 3.7777777777777777,
+      "gridStrengthX": 0.24203183525756145,
+      "gridStrengthY": 0.2777159695342308,
+      "processingNanos": 26740399
+    },
+    "expected": {
+      "sourceOrigin": [
+        150,
+        0
+      ],
+      "sourceGameRect": [
+        150,
+        0,
+        750,
+        544
+      ],
+      "renderOffsetLogicalPixels": [
+        2,
+        0
+      ]
+    },
+    "maxPixelBoundaryError": 8,
+    "framePath": "data/frames/video-04/all-scenes-skills-turn-pass2-v1/frame-017503.png",
+    "previousFramePath": "data/frames/video-04/all-scenes-skills-turn-pass2-v1/frame-017502.png",
+    "nextFramePath": "data/frames/video-04/all-scenes-skills-turn-pass2-v1/frame-017504.png"
+  },
+  {
+    "category": "no_observable_or_accepted_grid",
+    "layout": "{\"origin\":[240,96],\"rect\":[240,96,560,384]}",
+    "clipId": "intro-oak",
+    "frame": 6217,
+    "pts": 6217,
+    "rgbSha256": "fec378594caf4d27e4c27fabb2ef7a8b887d70e2bdb231bc299088310236ac23",
+    "actual": {
+      "pts": 6217,
+      "status": "NO_GRID",
+      "paletteEnvelope": [
+        236,
+        92,
+        564,
+        388
+      ],
+      "originX": 0,
+      "originY": 0,
+      "scaleX": 0,
+      "scaleY": 0,
+      "gridStrengthX": 0,
+      "gridStrengthY": 0,
+      "processingNanos": 39886300
+    },
+    "expected": {
+      "sourceOrigin": [
+        240,
+        96
+      ],
+      "sourceGameRect": [
+        240,
+        96,
+        560,
+        384
+      ],
+      "renderOffsetLogicalPixels": [
+        0,
+        0
+      ]
+    },
+    "maxPixelBoundaryError": -1,
+    "framePath": "data/frames/video-01/dialogue-intro-oak-reviewed-v1/frame-006217.png",
+    "previousFramePath": "data/frames/video-01/dialogue-intro-oak-reviewed-v1/frame-006216.png",
+    "nextFramePath": "data/frames/video-01/dialogue-intro-oak-reviewed-v1/frame-006218.png"
+  }
+]

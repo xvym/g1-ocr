@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "input": "data/gt/frozen/ocr-all-scenes-v2-effective-r2",
+  "inputFreezeSha256": "748087f7049d657ada68e634fda8b21dc37674257769bc559e79fff684dbb246",
+  "experiments": [
+    {
+      "problem": "Disconnected light background islands",
+      "repairNumber": 1,
+      "limit": 3,
+      "failure": "maven-test-attempt-1.log",
+      "rootCause": "Connected components alone cannot enclose a background split by dark strokes",
+      "change": "Add row and column support candidates; preserve the failing synthetic input",
+      "regression": "maven-test-attempt-2.log",
+      "claim": "Unit property only; not real-device acceptance"
+    },
+    {
+      "problem": "Palette-envelope extraction on real-device frames",
+      "repairNumber": 1,
+      "limit": 3,
+      "failure": "attempt-1/intro-greeting-comparison.jsonl",
+      "rootCause": "Area ranking selected the larger colorful bezel instead of the smaller game region",
+      "change": "Require the candidate interior to fit one monochrome RGB ray",
+      "result": "attempt-2/report.json",
+      "regression": "maven-test-monochrome-repair-v1.log"
+    },
+    {
+      "problem": "Palette-envelope extraction on real-device frames",
+      "repairNumber": 2,
+      "limit": 3,
+      "failure": "attempt-2/shop-exit-comparison.jsonl",
+      "rootCause": "A ray through RGB zero rejects dark colors retaining a palette chroma offset",
+      "change": "Also allow consistent chroma offsets when checking candidate interiors",
+      "result": "attempt-3/report.json",
+      "regression": "maven-test-final-v1.log"
+    },
+    {
+      "problem": "Palette-envelope extraction on real-device frames",
+      "repairNumber": 3,
+      "limit": 3,
+      "failure": "attempt-3/lab-oak-reply-comparison.jsonl",
+      "rootCause": "Only the dominant light background was used for the connected envelope; a darker same-palette border was disconnected",
+      "change": "Pool compatible nonblack palette levels for both component and projection support",
+      "targetSamples": "multilevel-repair-samples-v1.log",
+      "result": "attempt-4/report.json",
+      "regression": "maven-test-final-v2.log"
+    }
+  ],
+  "toolLaunchIssue": {
+    "evidence": "monochrome-repair-samples-v1.log",
+    "detail": "javac output directory was absent; the command did not run the probe",
+    "repairNumber": 1,
+    "correctedEvidence": "monochrome-repair-samples-v2.log"
+  },
+  "unchanged": ["All approved GT payloads", "Source ranges and denominators", "Original video bytes", "Scoring contracts"],
+  "interpretation": "Each real-device run preserves every selected source frame. Per-pixel boundary equality is strict. A completed report or exit zero from the evidence checker does not grant the geometry gate or OCR acceptance. No source text, translation or alternate OCR model was used."
+}

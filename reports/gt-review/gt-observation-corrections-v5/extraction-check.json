@@ -1,0 +1,35 @@
+{
+  "status": "independent_reextraction_identity_checked_second_read_pending",
+  "events": [
+    {
+      "id": "pc-connect",
+      "frames": 51,
+      "firstVerification": "data\\frames\\video-02\\expansion-pc-connect-pass2-v1\\verification.json",
+      "firstVerificationSha256": "fb465e9d3664b33e9ca597527f6a775d50f812209ae698c002305eeb8c7548c5",
+      "secondVerification": "data\\frames\\video-02\\pc-role-recheck-pc-connect-pass2-v1\\verification.json",
+      "secondVerificationSha256": "fb465e9d3664b33e9ca597527f6a775d50f812209ae698c002305eeb8c7548c5",
+      "allPngBytesEqual": true,
+      "secondReadComplete": false
+    },
+    {
+      "id": "pc-deposit-navigation",
+      "frames": 124,
+      "firstVerification": "data\\frames\\video-02\\all-scenes-pc-deposit-navigation-pass2-v1\\verification.json",
+      "firstVerificationSha256": "7f47129f165d8b83e93f237f72b842b81a2bc09341877bf2977af56165004541",
+      "secondVerification": "data\\frames\\video-02\\pc-role-recheck-pc-deposit-navigation-pass2-v1\\verification.json",
+      "secondVerificationSha256": "7f47129f165d8b83e93f237f72b842b81a2bc09341877bf2977af56165004541",
+      "allPngBytesEqual": true,
+      "secondReadComplete": false
+    },
+    {
+      "id": "pc-exit",
+      "frames": 14,
+      "firstVerification": "data\\frames\\video-02\\all-scenes-pc-exit-pass2-v1\\verification.json",
+      "firstVerificationSha256": "74e5bf50127513ceecb0bdf3ed584df6806596797f3b4dac6dcb481ed3b95c6c",
+      "secondVerification": "data\\frames\\video-02\\pc-role-recheck-pc-exit-pass2-v1\\verification.json",
+      "secondVerificationSha256": "74e5bf50127513ceecb0bdf3ed584df6806596797f3b4dac6dcb481ed3b95c6c",
+      "allPngBytesEqual": true,
+      "secondReadComplete": false
+    }
+  ]
+}

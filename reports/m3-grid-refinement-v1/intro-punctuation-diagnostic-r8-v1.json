@@ -1,0 +1,472 @@
+{
+  "status": "suspected_annotation_timing_discrepancy_not_confirmed",
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r8/freeze.json",
+    "sha256": "e1b7d53332b3d3e6bd4d667072273d8fb80510b3df9a8f56aa98785acf5211f8"
+  },
+  "gt": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2/intro-research/ocr-candidate-v1.jsonl",
+    "sha256": "34b73d6417d53798504ca1bf4f0ab523a090f83aa5c44705dcc8618180b4d75e"
+  },
+  "actual": {
+    "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v7/actual/intro-research.jsonl",
+    "sha256": "bf8affcf12daed95f9a352e2dd14f28eabc97de01b2ac882a82e0e62cbf3d1d2"
+  },
+  "comparison": {
+    "path": "reports/m3-grid-refinement-v1/ocr-v7-observation-r8-comparison/report.json",
+    "sha256": "3a0d2206cd96d119cf2cbed2ac97cdb9c9cb99b304526bcaba30fc7d6f2e52c4"
+  },
+  "helper": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\record-intro-punctuation-diagnostic.cjs",
+    "sha256": "6055eafe98a8625b891059089d70357c28df04b8a4681bf153d0b8d1dd5c3de1"
+  },
+  "frames": [
+    {
+      "frame": 6408,
+      "expected": {
+        "schemaVersion": 2,
+        "stateId": "f53c237ad19a-f6408-f6410",
+        "mediaId": "video-01",
+        "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "startFrame": 6408,
+        "endFrameExclusive": 6410,
+        "startPts": 6408,
+        "endPtsExclusive": 6410,
+        "timeBase": "1/30",
+        "kind": "message_loading",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "そして・",
+            "gridRect": [
+              1,
+              14,
+              5,
+              15
+            ],
+            "sourceRect": [
+              256,
+              320,
+              320,
+              336
+            ],
+            "markCells": []
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-research/manual-pass2.json",
+          "humanPerFrameVerification": "not claimed",
+          "outputIndependence": "No tested OCR or production translation exists",
+          "originalFrames": "data/frames/video-01/dialogue-intro-pass2-v1"
+        }
+      },
+      "actual": {
+        "sourcePts": 6408,
+        "processingNanos": 38801300,
+        "timeBase": "1/30",
+        "rawRegions": [
+          {
+            "id": "dialogue-1-14",
+            "role": "dialogue",
+            "text": "そして・・",
+            "pixelCandidateText": "そして・・",
+            "readingOrder": 0,
+            "gridRect": [
+              1,
+              14,
+              6,
+              15
+            ],
+            "sourceRect": [
+              256,
+              320,
+              336,
+              336
+            ],
+            "markCells": [],
+            "glyphCandidates": [
+              [
+                "そ"
+              ],
+              [
+                "し"
+              ],
+              [
+                "て"
+              ],
+              [
+                "・"
+              ],
+              [
+                "・"
+              ]
+            ],
+            "candidateResolutions": []
+          }
+        ],
+        "visibleState": {
+          "kind": "message_loading",
+          "cursor": {
+            "menuCursors": [],
+            "additionalDownArrows": [],
+            "downArrowVisible": false
+          },
+          "detachedMarks": []
+        },
+        "geometry": {
+          "located": true,
+          "method": "palette_and_phase_current_pixel_registration",
+          "grid": {
+            "originX": 240,
+            "originY": 95.99999999999999,
+            "scaleX": 2,
+            "scaleY": 2
+          },
+          "hypotheses": {
+            "available": true,
+            "xCandidates": [
+              {
+                "origin": 240,
+                "scale": 2,
+                "concentration": 1,
+                "phase": 236
+              },
+              {
+                "origin": 239.6814108696306,
+                "scale": 2.0046875,
+                "concentration": 0.7510305868992618,
+                "phase": 235.6720358696306
+              },
+              {
+                "origin": 240.36578218818613,
+                "scale": 1.99453125,
+                "concentration": 0.6714821059532219,
+                "phase": 236.37671968818614
+              }
+            ],
+            "yCandidates": [
+              {
+                "origin": 95.99999999999999,
+                "scale": 2,
+                "concentration": 1,
+                "phase": 91.99999999999999
+              },
+              {
+                "origin": 95.44671145222273,
+                "scale": 2.0052083333333335,
+                "concentration": 0.8942551233773657,
+                "phase": 91.43629478555606
+              },
+              {
+                "origin": 96.64605787587396,
+                "scale": 1.9939236111111112,
+                "concentration": 0.8564010235722439,
+                "phase": 92.65821065365174
+              }
+            ]
+          },
+          "envelope": [
+            236,
+            92,
+            564,
+            388
+          ]
+        },
+        "diagnosticBoxes": [
+          {
+            "left": 0,
+            "top": 12,
+            "right": 20,
+            "bottom": 18,
+            "lines": [
+              {
+                "left": 1,
+                "top": 14,
+                "right": 6,
+                "rawText": "そして・・",
+                "pixelCandidateText": "そして・・",
+                "candidates": [
+                  [
+                    "そ"
+                  ],
+                  [
+                    "し"
+                  ],
+                  [
+                    "て"
+                  ],
+                  [
+                    "・"
+                  ],
+                  [
+                    "・"
+                  ]
+                ],
+                "candidateResolutions": []
+              }
+            ],
+            "symbols": [],
+            "unclassifiedFragments": []
+          }
+        ],
+        "imageRegistration": {
+          "grid": {
+            "originX": 240,
+            "originY": 95.99999999999999,
+            "scaleX": 2,
+            "scaleY": 2
+          },
+          "offsetLogicalX": 0,
+          "offsetLogicalY": 0,
+          "featureCount": 2325,
+          "proposedOffsetLogicalX": 0,
+          "proposedOffsetLogicalY": 0,
+          "meanError": 0,
+          "runnerUpError": 21.171395815419892,
+          "matched": true,
+          "reason": "current_pixels_match_previous_raster_edges"
+        },
+        "sourceFrameIndex": 6408
+      },
+      "image": {
+        "path": "data/frames/video-01/dialogue-intro-pass2-v1/frame-006408.png",
+        "sha256": "296083b376fd779aba1a37ceb1c3ba1d373d4d3c65ec5f92b947fdf981e30a57"
+      }
+    },
+    {
+      "frame": 6409,
+      "expected": {
+        "schemaVersion": 2,
+        "stateId": "f53c237ad19a-f6408-f6410",
+        "mediaId": "video-01",
+        "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "startFrame": 6408,
+        "endFrameExclusive": 6410,
+        "startPts": 6408,
+        "endPtsExclusive": 6410,
+        "timeBase": "1/30",
+        "kind": "message_loading",
+        "completePage": false,
+        "regions": [
+          {
+            "id": "message-top",
+            "role": "dialogue",
+            "readingOrder": 0,
+            "text": "そして・",
+            "gridRect": [
+              1,
+              14,
+              5,
+              15
+            ],
+            "sourceRect": [
+              256,
+              320,
+              320,
+              336
+            ],
+            "markCells": []
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "layoutRef": "layout-v1.json",
+        "verificationStatus": "agent_double_read_complete_candidate",
+        "evidence": {
+          "manualNotes": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-research/manual-pass2.json",
+          "humanPerFrameVerification": "not claimed",
+          "outputIndependence": "No tested OCR or production translation exists",
+          "originalFrames": "data/frames/video-01/dialogue-intro-pass2-v1"
+        }
+      },
+      "actual": {
+        "sourcePts": 6409,
+        "processingNanos": 46575500,
+        "timeBase": "1/30",
+        "rawRegions": [
+          {
+            "id": "dialogue-1-14",
+            "role": "dialogue",
+            "text": "そして・・",
+            "pixelCandidateText": "そして・・",
+            "readingOrder": 0,
+            "gridRect": [
+              1,
+              14,
+              6,
+              15
+            ],
+            "sourceRect": [
+              256,
+              320,
+              336,
+              336
+            ],
+            "markCells": [],
+            "glyphCandidates": [
+              [
+                "そ"
+              ],
+              [
+                "し"
+              ],
+              [
+                "て"
+              ],
+              [
+                "・"
+              ],
+              [
+                "・"
+              ]
+            ],
+            "candidateResolutions": []
+          }
+        ],
+        "visibleState": {
+          "kind": "message_loading",
+          "cursor": {
+            "menuCursors": [],
+            "additionalDownArrows": [],
+            "downArrowVisible": false
+          },
+          "detachedMarks": []
+        },
+        "geometry": {
+          "located": true,
+          "method": "palette_and_phase_current_pixel_registration",
+          "grid": {
+            "originX": 240,
+            "originY": 95.99999999999999,
+            "scaleX": 2,
+            "scaleY": 2
+          },
+          "hypotheses": {
+            "available": true,
+            "xCandidates": [
+              {
+                "origin": 240,
+                "scale": 2,
+                "concentration": 1,
+                "phase": 236
+              },
+              {
+                "origin": 239.6814108696306,
+                "scale": 2.0046875,
+                "concentration": 0.7510305868992618,
+                "phase": 235.6720358696306
+              },
+              {
+                "origin": 240.36578218818613,
+                "scale": 1.99453125,
+                "concentration": 0.6714821059532219,
+                "phase": 236.37671968818614
+              }
+            ],
+            "yCandidates": [
+              {
+                "origin": 95.99999999999999,
+                "scale": 2,
+                "concentration": 1,
+                "phase": 91.99999999999999
+              },
+              {
+                "origin": 95.44671124385431,
+                "scale": 2.0052083333333335,
+                "concentration": 0.8942556511624512,
+                "phase": 91.43629457718764
+              },
+              {
+                "origin": 96.64605812611973,
+                "scale": 1.9939236111111112,
+                "concentration": 0.856401740896838,
+                "phase": 92.6582109038975
+              }
+            ]
+          },
+          "envelope": [
+            236,
+            92,
+            564,
+            388
+          ]
+        },
+        "diagnosticBoxes": [
+          {
+            "left": 0,
+            "top": 12,
+            "right": 20,
+            "bottom": 18,
+            "lines": [
+              {
+                "left": 1,
+                "top": 14,
+                "right": 6,
+                "rawText": "そして・・",
+                "pixelCandidateText": "そして・・",
+                "candidates": [
+                  [
+                    "そ"
+                  ],
+                  [
+                    "し"
+                  ],
+                  [
+                    "て"
+                  ],
+                  [
+                    "・"
+                  ],
+                  [
+                    "・"
+                  ]
+                ],
+                "candidateResolutions": []
+              }
+            ],
+            "symbols": [],
+            "unclassifiedFragments": []
+          }
+        ],
+        "imageRegistration": {
+          "grid": {
+            "originX": 240,
+            "originY": 95.99999999999999,
+            "scaleX": 2,
+            "scaleY": 2
+          },
+          "offsetLogicalX": 0,
+          "offsetLogicalY": 0,
+          "featureCount": 2369,
+          "proposedOffsetLogicalX": 0,
+          "proposedOffsetLogicalY": 0,
+          "meanError": 0,
+          "runnerUpError": 21.516736990154712,
+          "matched": true,
+          "reason": "current_pixels_match_previous_raster_edges"
+        },
+        "sourceFrameIndex": 6409
+      },
+      "image": {
+        "path": "data/frames/video-01/dialogue-intro-pass2-v1/frame-006409.png",
+        "sha256": "800f41fdfef7e16434034ef088222e0e229731e3cd288ec7af10cffd76196f57"
+      }
+    }
+  ],
+  "observation": "Direct full PNG inspection of frame 6408 shows two spatially separated dots. Frame 6409 has only been identity-bound here, not directly inspected. This diagnostic follows exposure to expected and actual text and cannot count as a blind pass.",
+  "next": "Review the complete retained intro-research event twice with GT and actual closed, bind fresh original extraction, then compare all affected states before deciding any versioned correction.",
+  "productionChanged": false,
+  "gtChanged": false,
+  "productAcceptance": false
+}

@@ -1,0 +1,9 @@
+{
+  "status": "incomplete_source_audit",
+  "command": "git -C .cache/reference-sources/pokegreen-v1 show 953f41b34108621b2bf13c3b1e53abfc9c3e5aec:engine/battle/core.asm",
+  "exitCode": 128,
+  "rootCause": "Partial clone needed an uncached blob; implicit promisor fetch used the host Schannel backend and hit SEC_E_NO_CREDENTIALS",
+  "sameProblemCumulativeRepair": "2/3, previous explicit Git clone backend recovery retained",
+  "repair": "Apply the previously verified per-command http.sslBackend=openssl to all audit Git reads; preserve TLS verification and global Git settings",
+  "partialSourceCopies": ".cache/japanese-ui-sources-v1"
+}

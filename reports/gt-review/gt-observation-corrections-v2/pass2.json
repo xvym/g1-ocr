@@ -1,0 +1,30 @@
+{
+  "scene":"league-centre-npc",
+  "range":[1590,1736],
+  "reviewer":"current coding agent, not human certification",
+  "sourceFrames":"data/frames/video-03/authorized-correction-league-centre-npc-pass2-v1",
+  "sheets":"reports/m3-grid-refinement-v1/authorized-correction-league-centre-npc-pass2-sheets-v1",
+  "readAllSheets":[0,24],
+  "readFrameCount":146,
+  "method":"All 25 freshly decoded original-image sheets directly read in order. No tested actual, comparison or old GT opened between first-pass reading and completion of this pass. Prior diagnostic awareness disclosed in pass1 remains applicable.",
+  "firstPassDifference":{"frame":1629,"firstPass":"arrow absent","secondPass":"down arrow clearly visible; absence starts at 1630","resolution":"second original-image sheet006 shows arrow at 1629, none at 1630 and 1631; preserve first notes unchanged"},
+  "confirmedBoundaries":[
+    [1590,1594,"no textbox"],[1594,1600,"empty textbox"],
+    [1600,1610,"loading; all literal per-frame text in first-pass notes confirmed"],
+    [1610,1630,"このさきは してんのうと / ひとりずつ たたかうの！; rows14/16; arrow"],
+    [1630,1632,"same text, rows14/16, arrow absent"],
+    [1632,1633,"same text, rows13/15, ず mark retained above lower line"],
+    [1633,1641,"old lower line at row14; new lower line loads exactly as first-pass notes"],
+    [1641,1662,"ひとりずつ たたかうの！ / もし かてたら ドアが ひらいて; rows14/16; arrow"],
+    [1662,1664,"ひとりすつ たたかうの！ / もし かてたら ドアが ひらいて; rows13/15; upper dakuten erased, lower two retained"],
+    [1664,1671,"old lower line at row14; new lower line loads exactly as first-pass notes"],
+    [1671,1692,"もし かてたら ドアが ひらいて / おくの へやに すすめるわ！; rows14/16; arrow"],
+    [1692,1693,"same text rows14/16, ド and が marks visible; arrow absent"],
+    [1693,1696,"もし かてたら トアか ひらいて / おくの へやに すすめるわ！; rows13/15; upper marks erased"],
+    [1696,1698,"おくの へやに すすめるわ！ / が; rows14/16"],
+    [1698,1699,"おくの へやに すすめるわ！ / がんばっ; rows14/16"],
+    [1699,1730,"おくの へやに すすめるわ！ / がんばって！; rows14/16; no arrow"],
+    [1730,1736,"textbox closed, no target text"]
+  ],
+  "status":"image double review complete; formal candidate, exact geometry checks and old annotation comparison not yet completed; no GT changed"
+}

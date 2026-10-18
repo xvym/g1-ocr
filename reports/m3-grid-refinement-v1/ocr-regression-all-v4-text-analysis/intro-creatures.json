@@ -1,0 +1,66 @@
+[
+  {
+    "sourceFrameIndex": 6258,
+    "sourcePts": 6258,
+    "stateId": "f53c237ad19a-f6258-f6259",
+    "expectedCharacters": 14,
+    "errors": 2,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "dialogue:16:1:1",
+        "expected": "ポケット モ",
+        "actual": "ポケット",
+        "errors": 2
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 6291,
+    "sourcePts": 6291,
+    "stateId": "f53c237ad19a-f6291-f6293",
+    "expectedCharacters": 8,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "dialogue:14:1:0",
+        "expected": "いきもの たちが",
+        "actual": "いきもの たち",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 6292,
+    "sourcePts": 6292,
+    "stateId": "f53c237ad19a-f6291-f6293",
+    "expectedCharacters": 8,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "dialogue:14:1:0",
+        "expected": "いきもの たちが",
+        "actual": "いきもの たち",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 6293,
+    "sourcePts": 6293,
+    "stateId": "f53c237ad19a-f6293-f6294",
+    "expectedCharacters": 11,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "dialogue:16:1:1",
+        "expected": "いたる",
+        "actual": "いた",
+        "errors": 1
+      }
+    ]
+  }
+]

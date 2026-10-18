@@ -1,0 +1,34 @@
+{
+  "mediaSha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+  "mediaId": "video-01",
+  "pageOpportunityPolicy": "explicit_id",
+  "selectionReason": "Original-source navigation selected this naturally bounded speech block before OCR exists. All original pre-loading, visible loading/complete/scroll/clear and ending after-state frames retained; details and corrected boundaries in both manual reads and differences.",
+  "set": "development",
+  "gt": "data/gt/candidates/ocr-dialogue-expansion-v1/intro-greeting/ocr-candidate-v1.jsonl",
+  "postContext": [
+    6165,
+    6167
+  ],
+  "scoredRange": [
+    6058,
+    6165
+  ],
+  "startFrame": 6056,
+  "endFrameExclusive": 6167,
+  "timeBase": "1/30",
+  "scoreKind": "text_and_state",
+  "eventType": "开场欢迎语与滚动",
+  "scopeLimits": [
+    "Other dialogue and unselected source intervals remain unverified",
+    "Not independent acceptance; candidate GT only, no approval or OCR pass"
+  ],
+  "id": "f53c237ad19a-f6056-f6167-intro-greeting",
+  "frozen": false,
+  "independentSession": "unverified",
+  "warmup": [
+    6056,
+    6058
+  ],
+  "schemaVersion": 2,
+  "boundaryStatus": "agent_double_read_complete_candidate_not_frozen"
+}

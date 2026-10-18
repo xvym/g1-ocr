@@ -1,0 +1,75 @@
+{
+  "status": "diagnostic_border_model_only",
+  "samplingModel": "area_integral",
+  "input": "data/frames/video-03/authorized-correction-league-centre-npc-pass2-v1/frame-001610.png",
+  "initial": {
+    "located": true,
+    "method": "palette_and_phase",
+    "grid": {
+      "originX": 180.76988636414555,
+      "originY": -0.27817627840251047,
+      "scaleX": 3.7546875,
+      "scaleY": 3.7821180555555554
+    },
+    "hypotheses": {
+      "available": true,
+      "xCandidates": [
+        {
+          "origin": 180.76988636414555,
+          "scale": 3.7546875,
+          "concentration": 0.2785883628883421,
+          "phase": 180.76988636414555
+        },
+        {
+          "origin": 181.05667400835227,
+          "scale": 3.75,
+          "concentration": 0.25467483853736933,
+          "phase": 181.05667400835227
+        },
+        {
+          "origin": 180.44169484939445,
+          "scale": 3.76015625,
+          "concentration": 0.2449188107953481,
+          "phase": 180.44169484939445
+        }
+      ],
+      "yCandidates": [
+        {
+          "origin": -0.27817627840251047,
+          "scale": 3.7821180555555554,
+          "concentration": 0.33403080419747405,
+          "phase": -0.27817627840251047
+        },
+        {
+          "origin": -0.7598851716519839,
+          "scale": 3.787326388888889,
+          "concentration": 0.3202046722345371,
+          "phase": -0.7598851716519839
+        },
+        {
+          "origin": 0.28397968675143453,
+          "scale": 3.7760416666666665,
+          "concentration": 0.31229891575149993,
+          "phase": 0.28397968675143453
+        }
+      ]
+    },
+    "envelope": [
+      180,
+      0,
+      782,
+      544
+    ]
+  },
+  "borderCells": 48,
+  "fixedSourceSamples": 4262,
+  "initialResidual": 207.72873408682028,
+  "bestResidual": 172.73427407701297,
+  "fittedGrid": [
+    181.14488636414555,
+    -0.7156762784025105,
+    3.7519531250000004,
+    3.7890625
+  ],
+  "limitation": "Assumed source sampling, not certified. Fit uses only current matched border pixels, no GT. No snapping or product change."
+}

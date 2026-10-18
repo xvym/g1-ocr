@@ -1,0 +1,25 @@
+{
+  "status": "independent_reconstruction_passed_not_product_acceptance",
+  "report": {
+    "path": "reports/m3-grid-refinement-v1/completion-trigger-v18-r14-v2/report.json",
+    "sha256": "28f1e1849146f08a52723198bbf0d78f9ae5636a82ec1f869cec5441aa3e7b0c"
+  },
+  "checker": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\check-completion-triggers.cjs",
+    "sha256": "56e4a8fe622880be1deace62fae3e5776fdb46449718b92499da14a9b40e6c00"
+  },
+  "policyDecisions": 35770,
+  "retainedReferences": 3577,
+  "scoredReferences": 3368,
+  "uniqueScoredFrames": 3361,
+  "pages": 116,
+  "shortPages": 11,
+  "events": 1496,
+  "immutableHashes": 572,
+  "htmlRows": 116,
+  "localLinks": 130,
+  "filters": "all/short/missed/no-match verified in DOM stub",
+  "actualBrowser": "not verified",
+  "actualUiLatency": "not measured",
+  "productAcceptance": false
+}

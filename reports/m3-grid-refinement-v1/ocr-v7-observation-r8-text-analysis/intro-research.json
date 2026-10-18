@@ -1,0 +1,34 @@
+[
+  {
+    "sourceFrameIndex": 6408,
+    "sourcePts": 6408,
+    "stateId": "f53c237ad19a-f6408-f6410",
+    "expectedCharacters": 4,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "dialogue:14:1:0",
+        "expected": "そして・",
+        "actual": "そして・・",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 6409,
+    "sourcePts": 6409,
+    "stateId": "f53c237ad19a-f6408-f6410",
+    "expectedCharacters": 4,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "dialogue:14:1:0",
+        "expected": "そして・",
+        "actual": "そして・・",
+        "errors": 1
+      }
+    ]
+  }
+]

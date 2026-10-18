@@ -1,0 +1,3746 @@
+[
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000818.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84829316754698,
+        "originY": 0.03509199128159246,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84829316754698,
+            "scale": 3.75390625,
+            "concentration": 0.29382730361917914,
+            "phase": 180.84829316754698
+          },
+          {
+            "origin": 180.43216451760136,
+            "scale": 3.75859375,
+            "concentration": 0.2680135107226102,
+            "phase": 180.43216451760136
+          },
+          {
+            "origin": 181.26267445319073,
+            "scale": 3.74921875,
+            "concentration": 0.2632099055550409,
+            "phase": 181.26267445319073
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03509199128159246,
+            "scale": 3.779513888888889,
+            "concentration": 0.2872822097331245,
+            "phase": 0.03509199128159246
+          },
+          {
+            "origin": 0.3753724621679399,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26396396196757965,
+            "phase": 0.3753724621679399
+          },
+          {
+            "origin": -0.3101520084696078,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25906860031524126,
+            "phase": -0.3101520084696078
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417333345,
+      "scale": 3.755603493990775,
+      "rms": 0.11586966150736326,
+      "points": 375
+    },
+    "y": {
+      "origin": 0.05846928938405056,
+      "scale": 3.7786038711617316,
+      "rms": 0.24238051144724246,
+      "points": 875
+    },
+    "historyFrames": 1,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000819.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84829316754698,
+        "originY": 0.03509199128159246,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84829316754698,
+            "scale": 3.75390625,
+            "concentration": 0.29382730361917914,
+            "phase": 180.84829316754698
+          },
+          {
+            "origin": 180.43216451760136,
+            "scale": 3.75859375,
+            "concentration": 0.2680135107226102,
+            "phase": 180.43216451760136
+          },
+          {
+            "origin": 181.26267445319073,
+            "scale": 3.74921875,
+            "concentration": 0.2632099055550409,
+            "phase": 181.26267445319073
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03509199128159246,
+            "scale": 3.779513888888889,
+            "concentration": 0.2872822097331245,
+            "phase": 0.03509199128159246
+          },
+          {
+            "origin": 0.3753724621679399,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26396396196757965,
+            "phase": 0.3753724621679399
+          },
+          {
+            "origin": -0.3101520084696078,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25906860031524126,
+            "phase": -0.3101520084696078
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334112,
+      "scale": 3.7556034939906895,
+      "rms": 0.11586966150736992,
+      "points": 750
+    },
+    "y": {
+      "origin": 0.05846928937916112,
+      "scale": 3.778603871161785,
+      "rms": 0.24238051144722708,
+      "points": 1750
+    },
+    "historyFrames": 2,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000820.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8489767292228,
+        "originY": 0.034354552046655495,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8489767292228,
+            "scale": 3.75390625,
+            "concentration": 0.2939891337690457,
+            "phase": 180.8489767292228
+          },
+          {
+            "origin": 180.4336490905008,
+            "scale": 3.75859375,
+            "concentration": 0.2683213490418829,
+            "phase": 180.4336490905008
+          },
+          {
+            "origin": 181.26255123369543,
+            "scale": 3.74921875,
+            "concentration": 0.2632151016129775,
+            "phase": 181.26255123369543
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.034354552046655495,
+            "scale": 3.779513888888889,
+            "concentration": 0.28756484983496994,
+            "phase": 0.034354552046655495
+          },
+          {
+            "origin": 0.3741992289339145,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2638150165667956,
+            "phase": 0.3741992289339145
+          },
+          {
+            "origin": -0.31019021091673926,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25961561383359677,
+            "phase": -0.31019021091673926
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334587,
+      "scale": 3.755603493990655,
+      "rms": 0.11586966150737196,
+      "points": 1125
+    },
+    "y": {
+      "origin": 0.058469289376888244,
+      "scale": 3.778603871161817,
+      "rms": 0.24238051144724437,
+      "points": 2625
+    },
+    "historyFrames": 3,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000821.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8489767292228,
+        "originY": 0.034354552046655495,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8489767292228,
+            "scale": 3.75390625,
+            "concentration": 0.2939891337690457,
+            "phase": 180.8489767292228
+          },
+          {
+            "origin": 180.4336490905008,
+            "scale": 3.75859375,
+            "concentration": 0.2683213490418829,
+            "phase": 180.4336490905008
+          },
+          {
+            "origin": 181.26255123369543,
+            "scale": 3.74921875,
+            "concentration": 0.2632151016129775,
+            "phase": 181.26255123369543
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.034354552046655495,
+            "scale": 3.779513888888889,
+            "concentration": 0.28756484983496994,
+            "phase": 0.034354552046655495
+          },
+          {
+            "origin": 0.3741992289339145,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2638150165667956,
+            "phase": 0.3741992289339145
+          },
+          {
+            "origin": -0.31019021091673926,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25961561383359677,
+            "phase": -0.31019021091673926
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334865,
+      "scale": 3.755603493990641,
+      "rms": 0.11586966150736269,
+      "points": 1500
+    },
+    "y": {
+      "origin": 0.058469289378429365,
+      "scale": 3.7786038711617893,
+      "rms": 0.24238051144724573,
+      "points": 3500
+    },
+    "historyFrames": 4,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000822.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8489404008701,
+        "originY": 0.035567437146139434,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8489404008701,
+            "scale": 3.75390625,
+            "concentration": 0.29399048177869447,
+            "phase": 180.8489404008701
+          },
+          {
+            "origin": 180.43360525622646,
+            "scale": 3.75859375,
+            "concentration": 0.2683134162968569,
+            "phase": 180.43360525622646
+          },
+          {
+            "origin": 181.26251154853486,
+            "scale": 3.74921875,
+            "concentration": 0.2632256788859932,
+            "phase": 181.26251154853486
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035567437146139434,
+            "scale": 3.779513888888889,
+            "concentration": 0.28757772771924034,
+            "phase": 0.035567437146139434
+          },
+          {
+            "origin": 0.3755294451687992,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26414666981514195,
+            "phase": 0.3755294451687992
+          },
+          {
+            "origin": -0.30927184511624817,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25932664338143746,
+            "phase": -0.30927184511624817
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417335007,
+      "scale": 3.755603493990635,
+      "rms": 0.11586966150736472,
+      "points": 1875
+    },
+    "y": {
+      "origin": 0.05846928938228105,
+      "scale": 3.778603871161747,
+      "rms": 0.24238051144723774,
+      "points": 4375
+    },
+    "historyFrames": 5,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000823.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8489404008701,
+        "originY": 0.035567437146139434,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8489404008701,
+            "scale": 3.75390625,
+            "concentration": 0.29399048177869447,
+            "phase": 180.8489404008701
+          },
+          {
+            "origin": 180.43360525622646,
+            "scale": 3.75859375,
+            "concentration": 0.2683134162968569,
+            "phase": 180.43360525622646
+          },
+          {
+            "origin": 181.26251154853486,
+            "scale": 3.74921875,
+            "concentration": 0.2632256788859932,
+            "phase": 181.26251154853486
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035567437146139434,
+            "scale": 3.779513888888889,
+            "concentration": 0.28757772771924034,
+            "phase": 0.035567437146139434
+          },
+          {
+            "origin": 0.3755294451687992,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26414666981514195,
+            "phase": 0.3755294451687992
+          },
+          {
+            "origin": -0.30927184511624817,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25932664338143746,
+            "phase": -0.30927184511624817
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334837,
+      "scale": 3.755603493990655,
+      "rms": 0.11586966150737227,
+      "points": 2250
+    },
+    "y": {
+      "origin": 0.05846928938291967,
+      "scale": 3.7786038711617316,
+      "rms": 0.24238051144724293,
+      "points": 5250
+    },
+    "historyFrames": 6,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000824.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84895760678327,
+        "originY": 0.03439749493417297,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84895760678327,
+            "scale": 3.75390625,
+            "concentration": 0.29400734255468536,
+            "phase": 180.84895760678327
+          },
+          {
+            "origin": 180.4336227456042,
+            "scale": 3.75859375,
+            "concentration": 0.2683364820136094,
+            "phase": 180.4336227456042
+          },
+          {
+            "origin": 181.26253633255791,
+            "scale": 3.74921875,
+            "concentration": 0.2632341121679894,
+            "phase": 181.26253633255791
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03439749493417297,
+            "scale": 3.779513888888889,
+            "concentration": 0.287566353658265,
+            "phase": 0.03439749493417297
+          },
+          {
+            "origin": 0.3742443432895432,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2638275989516998,
+            "phase": 0.3742443432895432
+          },
+          {
+            "origin": -0.3101556315483845,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25960624095332646,
+            "phase": -0.3101556315483845
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.7392441733446,
+      "scale": 3.755603493990692,
+      "rms": 0.11586966150736219,
+      "points": 2625
+    },
+    "y": {
+      "origin": 0.0584692893778259,
+      "scale": 3.7786038711617977,
+      "rms": 0.24238051144723474,
+      "points": 6125
+    },
+    "historyFrames": 7,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000825.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84895760678327,
+        "originY": 0.03439749493417297,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84895760678327,
+            "scale": 3.75390625,
+            "concentration": 0.29400734255468536,
+            "phase": 180.84895760678327
+          },
+          {
+            "origin": 180.4336227456042,
+            "scale": 3.75859375,
+            "concentration": 0.2683364820136094,
+            "phase": 180.4336227456042
+          },
+          {
+            "origin": 181.26253633255791,
+            "scale": 3.74921875,
+            "concentration": 0.2632341121679894,
+            "phase": 181.26253633255791
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03439749493417297,
+            "scale": 3.779513888888889,
+            "concentration": 0.287566353658265,
+            "phase": 0.03439749493417297
+          },
+          {
+            "origin": 0.3742443432895432,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2638275989516998,
+            "phase": 0.3742443432895432
+          },
+          {
+            "origin": -0.3101556315483845,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25960624095332646,
+            "phase": -0.3101556315483845
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.058469289374105365,
+      "scale": 3.778603871161846,
+      "rms": 0.24238051144723557,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000826.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84902820126285,
+        "originY": 0.03577669723569418,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84902820126285,
+            "scale": 3.75390625,
+            "concentration": 0.2939657806009425,
+            "phase": 180.84902820126285
+          },
+          {
+            "origin": 180.43352908823053,
+            "scale": 3.75859375,
+            "concentration": 0.2682284778979507,
+            "phase": 180.43352908823053
+          },
+          {
+            "origin": 181.2627541624336,
+            "scale": 3.74921875,
+            "concentration": 0.2632655443747475,
+            "phase": 181.2627541624336
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03577669723569418,
+            "scale": 3.779513888888889,
+            "concentration": 0.28753371972177405,
+            "phase": 0.03577669723569418
+          },
+          {
+            "origin": 0.37590583458136845,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2641356143299759,
+            "phase": 0.37590583458136845
+          },
+          {
+            "origin": -0.30921622078135846,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2592504666246627,
+            "phase": -0.30921622078135846
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.0584703186090836,
+      "scale": 3.7786038700394156,
+      "rms": 0.24238015923863826,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000827.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84910126390807,
+        "originY": 0.03587050905239355,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84910126390807,
+            "scale": 3.75390625,
+            "concentration": 0.29392879357859303,
+            "phase": 180.84910126390807
+          },
+          {
+            "origin": 180.43358495147325,
+            "scale": 3.75859375,
+            "concentration": 0.26817977756500844,
+            "phase": 180.43358495147325
+          },
+          {
+            "origin": 181.26284984801327,
+            "scale": 3.74921875,
+            "concentration": 0.2632419052287737,
+            "phase": 181.26284984801327
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03587050905239355,
+            "scale": 3.779513888888889,
+            "concentration": 0.2875824192067361,
+            "phase": 0.03587050905239355
+          },
+          {
+            "origin": 0.37601455042257453,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2641806827752278,
+            "phase": 0.37601455042257453
+          },
+          {
+            "origin": -0.30911761799226545,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25930213742303054,
+            "phase": -0.30911761799226545
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847134784406184,
+      "scale": 3.7786038689169854,
+      "rms": 0.24237980702578524,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000828.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84904440616245,
+        "originY": 0.03464092227908413,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84904440616245,
+            "scale": 3.75390625,
+            "concentration": 0.29393239968771495,
+            "phase": 180.84904440616245
+          },
+          {
+            "origin": 180.43352859983733,
+            "scale": 3.75859375,
+            "concentration": 0.26818430447460745,
+            "phase": 180.43352859983733
+          },
+          {
+            "origin": 181.2627940350836,
+            "scale": 3.74921875,
+            "concentration": 0.2632429637925348,
+            "phase": 181.2627940350836
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03464092227908413,
+            "scale": 3.779513888888889,
+            "concentration": 0.28759667679080175,
+            "phase": 0.03464092227908413
+          },
+          {
+            "origin": 0.37466821946377404,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2638769570553508,
+            "phase": 0.37466821946377404
+          },
+          {
+            "origin": -0.31005678711335977,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25961686811739254,
+            "phase": -0.31005678711335977
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847237707890703,
+      "scale": 3.7786038677945566,
+      "rms": 0.24237945480870035,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000829.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84904440616245,
+        "originY": 0.03464092227908413,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84904440616245,
+            "scale": 3.75390625,
+            "concentration": 0.29393239968771495,
+            "phase": 180.84904440616245
+          },
+          {
+            "origin": 180.43352859983733,
+            "scale": 3.75859375,
+            "concentration": 0.26818430447460745,
+            "phase": 180.43352859983733
+          },
+          {
+            "origin": 181.2627940350836,
+            "scale": 3.74921875,
+            "concentration": 0.2632429637925348,
+            "phase": 181.2627940350836
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03464092227908413,
+            "scale": 3.779513888888889,
+            "concentration": 0.28759667679080175,
+            "phase": 0.03464092227908413
+          },
+          {
+            "origin": 0.37466821946377404,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2638769570553508,
+            "phase": 0.37466821946377404
+          },
+          {
+            "origin": -0.31005678711335977,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25961686811739254,
+            "phase": -0.31005678711335977
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847340631358591,
+      "scale": 3.778603866672129,
+      "rms": 0.2423791025873484,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000830.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84884859919518,
+        "originY": 0.035937247300178325,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84884859919518,
+            "scale": 3.75390625,
+            "concentration": 0.2939741349498496,
+            "phase": 180.84884859919518
+          },
+          {
+            "origin": 180.43336564685964,
+            "scale": 3.75859375,
+            "concentration": 0.26825503155572133,
+            "phase": 180.43336564685964
+          },
+          {
+            "origin": 181.26254119048323,
+            "scale": 3.74921875,
+            "concentration": 0.26325136257339193,
+            "phase": 181.26254119048323
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035937247300178325,
+            "scale": 3.779513888888889,
+            "concentration": 0.2876905201994086,
+            "phase": 0.035937247300178325
+          },
+          {
+            "origin": 0.37608728845260053,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2642980522969889,
+            "phase": 0.37608728845260053
+          },
+          {
+            "origin": -0.3090543135926648,
+            "scale": 3.7847222222222223,
+            "concentration": 0.259399571581531,
+            "phase": -0.3090543135926648
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.058474435548397846,
+      "scale": 3.7786038655497003,
+      "rms": 0.24237875036177337,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000831.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84884859919518,
+        "originY": 0.035937247300178325,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84884859919518,
+            "scale": 3.75390625,
+            "concentration": 0.2939741349498496,
+            "phase": 180.84884859919518
+          },
+          {
+            "origin": 180.43336564685964,
+            "scale": 3.75859375,
+            "concentration": 0.26825503155572133,
+            "phase": 180.43336564685964
+          },
+          {
+            "origin": 181.26254119048323,
+            "scale": 3.74921875,
+            "concentration": 0.26325136257339193,
+            "phase": 181.26254119048323
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035937247300178325,
+            "scale": 3.779513888888889,
+            "concentration": 0.2876905201994086,
+            "phase": 0.035937247300178325
+          },
+          {
+            "origin": 0.37608728845260053,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2642980522969889,
+            "phase": 0.37608728845260053
+          },
+          {
+            "origin": -0.3090543135926648,
+            "scale": 3.7847222222222223,
+            "concentration": 0.259399571581531,
+            "phase": -0.3090543135926648
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847546478320977,
+      "scale": 3.7786038644272715,
+      "rms": 0.24237839813194595,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000832.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84884123821683,
+        "originY": 0.0347245112810965,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84884123821683,
+            "scale": 3.75390625,
+            "concentration": 0.29398539118618294,
+            "phase": 180.84884123821683
+          },
+          {
+            "origin": 180.43335279128922,
+            "scale": 3.75859375,
+            "concentration": 0.2682677850713639,
+            "phase": 180.43335279128922
+          },
+          {
+            "origin": 181.26254687375615,
+            "scale": 3.74921875,
+            "concentration": 0.2632602011838537,
+            "phase": 181.26254687375615
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.0347245112810965,
+            "scale": 3.779513888888889,
+            "concentration": 0.28767721086964715,
+            "phase": 0.0347245112810965
+          },
+          {
+            "origin": 0.37475805924966454,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26396572937810764,
+            "phase": 0.37475805924966454
+          },
+          {
+            "origin": -0.3099728818843731,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2596883753064644,
+            "phase": -0.3099728818843731
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847649401815475,
+      "scale": 3.778603863304841,
+      "rms": 0.24237804589786965,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000833.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84789060634148,
+        "originY": 0.034224639224553294,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84789060634148,
+            "scale": 3.75390625,
+            "concentration": 0.2938688225310949,
+            "phase": 180.84789060634148
+          },
+          {
+            "origin": 180.4315354536565,
+            "scale": 3.75859375,
+            "concentration": 0.2679333206282318,
+            "phase": 180.4315354536565
+          },
+          {
+            "origin": 181.2624974817792,
+            "scale": 3.74921875,
+            "concentration": 0.26335953083202124,
+            "phase": 181.2624974817792
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.034224639224553294,
+            "scale": 3.779513888888889,
+            "concentration": 0.28743917523266893,
+            "phase": 0.034224639224553294
+          },
+          {
+            "origin": 0.37461706222409963,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26383021474041674,
+            "phase": 0.37461706222409963
+          },
+          {
+            "origin": -0.31091268259739313,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25949860349379983,
+            "phase": -0.31091268259739313
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000834.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84840748213276,
+        "originY": 0.03538092622008356,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84840748213276,
+            "scale": 3.75390625,
+            "concentration": 0.2939689098482116,
+            "phase": 180.84840748213276
+          },
+          {
+            "origin": 180.43196086252362,
+            "scale": 3.75859375,
+            "concentration": 0.2681290374284119,
+            "phase": 180.43196086252362
+          },
+          {
+            "origin": 181.26309776717946,
+            "scale": 3.74921875,
+            "concentration": 0.2633420245321833,
+            "phase": 181.26309776717946
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03538092622008356,
+            "scale": 3.779513888888889,
+            "concentration": 0.28741366693529435,
+            "phase": 0.03538092622008356
+          },
+          {
+            "origin": 0.3758547836772641,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2641182525184334,
+            "phase": 0.3758547836772641
+          },
+          {
+            "origin": -0.3100136149117585,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25917731041082603,
+            "phase": -0.3100136149117585
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000835.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84847985211155,
+        "originY": 0.03532559203504109,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84847985211155,
+            "scale": 3.75390625,
+            "concentration": 0.2938929044841092,
+            "phase": 180.84847985211155
+          },
+          {
+            "origin": 180.4321202013662,
+            "scale": 3.75859375,
+            "concentration": 0.26807908145600595,
+            "phase": 180.4321202013662
+          },
+          {
+            "origin": 181.26307755155605,
+            "scale": 3.74921875,
+            "concentration": 0.26325855161820777,
+            "phase": 181.26307755155605
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03532559203504109,
+            "scale": 3.779513888888889,
+            "concentration": 0.2874104417513141,
+            "phase": 0.03532559203504109
+          },
+          {
+            "origin": 0.3757970506180138,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2641213285166842,
+            "phase": 0.3757970506180138
+          },
+          {
+            "origin": -0.31007442681291225,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25916875026925223,
+            "phase": -0.31007442681291225
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000836.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84844098978402,
+        "originY": 0.03414850353780366,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84844098978402,
+            "scale": 3.75390625,
+            "concentration": 0.29390744655901596,
+            "phase": 180.84844098978402
+          },
+          {
+            "origin": 180.4320756325272,
+            "scale": 3.75859375,
+            "concentration": 0.26809074697722285,
+            "phase": 180.4320756325272
+          },
+          {
+            "origin": 181.2630475850657,
+            "scale": 3.74921875,
+            "concentration": 0.26327428512026163,
+            "phase": 181.2630475850657
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03414850353780366,
+            "scale": 3.779513888888889,
+            "concentration": 0.28739491937080425,
+            "phase": 0.03414850353780366
+          },
+          {
+            "origin": 0.3745131584448887,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2637966560144439,
+            "phase": 0.3745131584448887
+          },
+          {
+            "origin": -0.31097106680300385,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25944694820331987,
+            "phase": -0.31097106680300385
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000837.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84844098978402,
+        "originY": 0.03414850353780366,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84844098978402,
+            "scale": 3.75390625,
+            "concentration": 0.29390744655901596,
+            "phase": 180.84844098978402
+          },
+          {
+            "origin": 180.4320756325272,
+            "scale": 3.75859375,
+            "concentration": 0.26809074697722285,
+            "phase": 180.4320756325272
+          },
+          {
+            "origin": 181.2630475850657,
+            "scale": 3.74921875,
+            "concentration": 0.26327428512026163,
+            "phase": 181.2630475850657
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03414850353780366,
+            "scale": 3.779513888888889,
+            "concentration": 0.28739491937080425,
+            "phase": 0.03414850353780366
+          },
+          {
+            "origin": 0.3745131584448887,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2637966560144439,
+            "phase": 0.3745131584448887
+          },
+          {
+            "origin": -0.31097106680300385,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25944694820331987,
+            "phase": -0.31097106680300385
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000838.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84850092470273,
+        "originY": 0.03541131145113713,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84850092470273,
+            "scale": 3.75390625,
+            "concentration": 0.29388392443702155,
+            "phase": 180.84850092470273
+          },
+          {
+            "origin": 180.4321447984301,
+            "scale": 3.75859375,
+            "concentration": 0.268073167931665,
+            "phase": 180.4321447984301
+          },
+          {
+            "origin": 181.26309821503685,
+            "scale": 3.74921875,
+            "concentration": 0.263247800796804,
+            "phase": 181.26309821503685
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03541131145113713,
+            "scale": 3.779513888888889,
+            "concentration": 0.28741350199599014,
+            "phase": 0.03541131145113713
+          },
+          {
+            "origin": 0.3758868308434056,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2641465416337272,
+            "phase": 0.3758868308434056
+          },
+          {
+            "origin": -0.31000532865689623,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25915004524452456,
+            "phase": -0.31000532865689623
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000839.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8485302562713,
+        "originY": 0.035391213955692814,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8485302562713,
+            "scale": 3.75390625,
+            "concentration": 0.29390110923775586,
+            "phase": 180.8485302562713
+          },
+          {
+            "origin": 180.43215771935354,
+            "scale": 3.75859375,
+            "concentration": 0.26809512389673884,
+            "phase": 180.43215771935354
+          },
+          {
+            "origin": 181.2631431402641,
+            "scale": 3.74921875,
+            "concentration": 0.2632562925410783,
+            "phase": 181.2631431402641
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035391213955692814,
+            "scale": 3.779513888888889,
+            "concentration": 0.2874082968044473,
+            "phase": 0.035391213955692814
+          },
+          {
+            "origin": 0.3758616087687695,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26414358803743365,
+            "phase": 0.3758616087687695
+          },
+          {
+            "origin": -0.3100231615318525,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2591426517146093,
+            "phase": -0.3100231615318525
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000840.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8485302562713,
+        "originY": 0.035391213955692814,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8485302562713,
+            "scale": 3.75390625,
+            "concentration": 0.29390110923775586,
+            "phase": 180.8485302562713
+          },
+          {
+            "origin": 180.43215771935354,
+            "scale": 3.75859375,
+            "concentration": 0.26809512389673884,
+            "phase": 180.43215771935354
+          },
+          {
+            "origin": 181.2631431402641,
+            "scale": 3.74921875,
+            "concentration": 0.2632562925410783,
+            "phase": 181.2631431402641
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035391213955692814,
+            "scale": 3.779513888888889,
+            "concentration": 0.2874082968044473,
+            "phase": 0.035391213955692814
+          },
+          {
+            "origin": 0.3758616087687695,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26414358803743365,
+            "phase": 0.3758616087687695
+          },
+          {
+            "origin": -0.3100231615318525,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2591426517146093,
+            "phase": -0.3100231615318525
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000841.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8485302562713,
+        "originY": 0.035391213955692814,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8485302562713,
+            "scale": 3.75390625,
+            "concentration": 0.29390110923775586,
+            "phase": 180.8485302562713
+          },
+          {
+            "origin": 180.43215771935354,
+            "scale": 3.75859375,
+            "concentration": 0.26809512389673884,
+            "phase": 180.43215771935354
+          },
+          {
+            "origin": 181.2631431402641,
+            "scale": 3.74921875,
+            "concentration": 0.2632562925410783,
+            "phase": 181.2631431402641
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035391213955692814,
+            "scale": 3.779513888888889,
+            "concentration": 0.2874082968044473,
+            "phase": 0.035391213955692814
+          },
+          {
+            "origin": 0.3758616087687695,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26414358803743365,
+            "phase": 0.3758616087687695
+          },
+          {
+            "origin": -0.3100231615318525,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2591426517146093,
+            "phase": -0.3100231615318525
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000842.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8485302562713,
+        "originY": 0.035391213955692814,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8485302562713,
+            "scale": 3.75390625,
+            "concentration": 0.29390110923775586,
+            "phase": 180.8485302562713
+          },
+          {
+            "origin": 180.43215771935354,
+            "scale": 3.75859375,
+            "concentration": 0.26809512389673884,
+            "phase": 180.43215771935354
+          },
+          {
+            "origin": 181.2631431402641,
+            "scale": 3.74921875,
+            "concentration": 0.2632562925410783,
+            "phase": 181.2631431402641
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035391213955692814,
+            "scale": 3.779513888888889,
+            "concentration": 0.2874082968044473,
+            "phase": 0.035391213955692814
+          },
+          {
+            "origin": 0.3758616087687695,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26414358803743365,
+            "phase": 0.3758616087687695
+          },
+          {
+            "origin": -0.3100231615318525,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2591426517146093,
+            "phase": -0.3100231615318525
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000843.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84846339692496,
+        "originY": 0.03408886329748321,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84846339692496,
+            "scale": 3.75390625,
+            "concentration": 0.2939214699565737,
+            "phase": 180.84846339692496
+          },
+          {
+            "origin": 180.43208246337753,
+            "scale": 3.75859375,
+            "concentration": 0.26810868973034224,
+            "phase": 180.43208246337753
+          },
+          {
+            "origin": 181.2630840006832,
+            "scale": 3.74921875,
+            "concentration": 0.26328089708883834,
+            "phase": 181.2630840006832
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03408886329748321,
+            "scale": 3.779513888888889,
+            "concentration": 0.28738836617980185,
+            "phase": 0.03408886329748321
+          },
+          {
+            "origin": 0.3744463952253743,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2637821460739357,
+            "phase": 0.3744463952253743
+          },
+          {
+            "origin": -0.31102068755298,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2594482182401733,
+            "phase": -0.31102068755298
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000844.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8485025104424,
+        "originY": 0.03543282364425675,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8485025104424,
+            "scale": 3.75390625,
+            "concentration": 0.29388075478189046,
+            "phase": 180.8485025104424
+          },
+          {
+            "origin": 180.43214644607863,
+            "scale": 3.75859375,
+            "concentration": 0.2680710052462514,
+            "phase": 180.43214644607863
+          },
+          {
+            "origin": 181.26309408602097,
+            "scale": 3.74921875,
+            "concentration": 0.2632382651491937,
+            "phase": 181.26309408602097
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03543282364425675,
+            "scale": 3.779513888888889,
+            "concentration": 0.2874118577262891,
+            "phase": 0.03543282364425675
+          },
+          {
+            "origin": 0.375901228784583,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26415750013623307,
+            "phase": 0.375901228784583
+          },
+          {
+            "origin": -0.30998552371872057,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2591352577830798,
+            "phase": -0.30998552371872057
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000845.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8485025104424,
+        "originY": 0.03543282364425675,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8485025104424,
+            "scale": 3.75390625,
+            "concentration": 0.29388075478189046,
+            "phase": 180.8485025104424
+          },
+          {
+            "origin": 180.43214644607863,
+            "scale": 3.75859375,
+            "concentration": 0.2680710052462514,
+            "phase": 180.43214644607863
+          },
+          {
+            "origin": 181.26309408602097,
+            "scale": 3.74921875,
+            "concentration": 0.2632382651491937,
+            "phase": 181.26309408602097
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03543282364425675,
+            "scale": 3.779513888888889,
+            "concentration": 0.2874118577262891,
+            "phase": 0.03543282364425675
+          },
+          {
+            "origin": 0.375901228784583,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26415750013623307,
+            "phase": 0.375901228784583
+          },
+          {
+            "origin": -0.30998552371872057,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2591352577830798,
+            "phase": -0.30998552371872057
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000846.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84895730610893,
+        "originY": 0.03455592138717012,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84895730610893,
+            "scale": 3.75390625,
+            "concentration": 0.2939606269435099,
+            "phase": 180.84895730610893
+          },
+          {
+            "origin": 180.43349158083745,
+            "scale": 3.75859375,
+            "concentration": 0.2682555221589939,
+            "phase": 180.43349158083745
+          },
+          {
+            "origin": 181.26265409874728,
+            "scale": 3.74921875,
+            "concentration": 0.2632184838613017,
+            "phase": 181.26265409874728
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03455592138717012,
+            "scale": 3.779513888888889,
+            "concentration": 0.2877204291094355,
+            "phase": 0.03455592138717012
+          },
+          {
+            "origin": 0.37459726682559485,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26398569073684375,
+            "phase": 0.37459726682559485
+          },
+          {
+            "origin": -0.31014377027746376,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25975160775163075,
+            "phase": -0.31014377027746376
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000847.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84895730610893,
+        "originY": 0.03455592138717012,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84895730610893,
+            "scale": 3.75390625,
+            "concentration": 0.2939606269435099,
+            "phase": 180.84895730610893
+          },
+          {
+            "origin": 180.43349158083745,
+            "scale": 3.75859375,
+            "concentration": 0.2682555221589939,
+            "phase": 180.43349158083745
+          },
+          {
+            "origin": 181.26265409874728,
+            "scale": 3.74921875,
+            "concentration": 0.2632184838613017,
+            "phase": 181.26265409874728
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03455592138717012,
+            "scale": 3.779513888888889,
+            "concentration": 0.2877204291094355,
+            "phase": 0.03455592138717012
+          },
+          {
+            "origin": 0.37459726682559485,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26398569073684375,
+            "phase": 0.37459726682559485
+          },
+          {
+            "origin": -0.31014377027746376,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25975160775163075,
+            "phase": -0.31014377027746376
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000848.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8489742551124,
+        "originY": 0.035822492844249744,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8489742551124,
+            "scale": 3.75390625,
+            "concentration": 0.2939682398632699,
+            "phase": 180.8489742551124
+          },
+          {
+            "origin": 180.43350260047544,
+            "scale": 3.75859375,
+            "concentration": 0.2682607679653306,
+            "phase": 180.43350260047544
+          },
+          {
+            "origin": 181.26267285298772,
+            "scale": 3.74921875,
+            "concentration": 0.2632281039930585,
+            "phase": 181.26267285298772
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035822492844249744,
+            "scale": 3.779513888888889,
+            "concentration": 0.2877334854387555,
+            "phase": 0.035822492844249744
+          },
+          {
+            "origin": 0.37598714881181744,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26433213646737364,
+            "phase": 0.37598714881181744
+          },
+          {
+            "origin": -0.3091861455190152,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2594492552479816,
+            "phase": -0.3091861455190152
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000849.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8489742551124,
+        "originY": 0.035822492844249744,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8489742551124,
+            "scale": 3.75390625,
+            "concentration": 0.2939682398632699,
+            "phase": 180.8489742551124
+          },
+          {
+            "origin": 180.43350260047544,
+            "scale": 3.75859375,
+            "concentration": 0.2682607679653306,
+            "phase": 180.43350260047544
+          },
+          {
+            "origin": 181.26267285298772,
+            "scale": 3.74921875,
+            "concentration": 0.2632281039930585,
+            "phase": 181.26267285298772
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035822492844249744,
+            "scale": 3.779513888888889,
+            "concentration": 0.2877334854387555,
+            "phase": 0.035822492844249744
+          },
+          {
+            "origin": 0.37598714881181744,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26433213646737364,
+            "phase": 0.37598714881181744
+          },
+          {
+            "origin": -0.3091861455190152,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2594492552479816,
+            "phase": -0.3091861455190152
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000850.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84894580299968,
+        "originY": 0.034692334106226984,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84894580299968,
+            "scale": 3.75390625,
+            "concentration": 0.29396359851001264,
+            "phase": 180.84894580299968
+          },
+          {
+            "origin": 180.43348060902602,
+            "scale": 3.75859375,
+            "concentration": 0.2682568298057833,
+            "phase": 180.43348060902602
+          },
+          {
+            "origin": 181.2626402806068,
+            "scale": 3.74921875,
+            "concentration": 0.2632223918407323,
+            "phase": 181.2626402806068
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.034692334106226984,
+            "scale": 3.779513888888889,
+            "concentration": 0.2877262850006709,
+            "phase": 0.034692334106226984
+          },
+          {
+            "origin": 0.3747385216370335,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2640265765286303,
+            "phase": 0.3747385216370335
+          },
+          {
+            "origin": -0.3100318686547207,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25972267990657005,
+            "phase": -0.3100318686547207
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000851.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84894580299968,
+        "originY": 0.034692334106226984,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84894580299968,
+            "scale": 3.75390625,
+            "concentration": 0.29396359851001264,
+            "phase": 180.84894580299968
+          },
+          {
+            "origin": 180.43348060902602,
+            "scale": 3.75859375,
+            "concentration": 0.2682568298057833,
+            "phase": 180.43348060902602
+          },
+          {
+            "origin": 181.2626402806068,
+            "scale": 3.74921875,
+            "concentration": 0.2632223918407323,
+            "phase": 181.2626402806068
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.034692334106226984,
+            "scale": 3.779513888888889,
+            "concentration": 0.2877262850006709,
+            "phase": 0.034692334106226984
+          },
+          {
+            "origin": 0.3747385216370335,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2640265765286303,
+            "phase": 0.3747385216370335
+          },
+          {
+            "origin": -0.3100318686547207,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25972267990657005,
+            "phase": -0.3100318686547207
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000852.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84897476174118,
+        "originY": 0.035854287840882425,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84897476174118,
+            "scale": 3.75390625,
+            "concentration": 0.29396567551135944,
+            "phase": 180.84897476174118
+          },
+          {
+            "origin": 180.43350464968964,
+            "scale": 3.75859375,
+            "concentration": 0.26825845324561937,
+            "phase": 180.43350464968964
+          },
+          {
+            "origin": 181.2626717198221,
+            "scale": 3.74921875,
+            "concentration": 0.263225491499186,
+            "phase": 181.2626717198221
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035854287840882425,
+            "scale": 3.779513888888889,
+            "concentration": 0.28773671874911116,
+            "phase": 0.035854287840882425
+          },
+          {
+            "origin": 0.37601648942088745,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2643431826071995,
+            "phase": 0.37601648942088745
+          },
+          {
+            "origin": -0.3091563857767138,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25944402219971896,
+            "phase": -0.3091563857767138
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000853.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84897476174118,
+        "originY": 0.035854287840882425,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84897476174118,
+            "scale": 3.75390625,
+            "concentration": 0.29396567551135944,
+            "phase": 180.84897476174118
+          },
+          {
+            "origin": 180.43350464968964,
+            "scale": 3.75859375,
+            "concentration": 0.26825845324561937,
+            "phase": 180.43350464968964
+          },
+          {
+            "origin": 181.2626717198221,
+            "scale": 3.74921875,
+            "concentration": 0.263225491499186,
+            "phase": 181.2626717198221
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035854287840882425,
+            "scale": 3.779513888888889,
+            "concentration": 0.28773671874911116,
+            "phase": 0.035854287840882425
+          },
+          {
+            "origin": 0.37601648942088745,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2643431826071995,
+            "phase": 0.37601648942088745
+          },
+          {
+            "origin": -0.3091563857767138,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25944402219971896,
+            "phase": -0.3091563857767138
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000854.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84894637482063,
+        "originY": 0.03469872014602303,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84894637482063,
+            "scale": 3.75390625,
+            "concentration": 0.29396828574073036,
+            "phase": 180.84894637482063
+          },
+          {
+            "origin": 180.43347830380932,
+            "scale": 3.75859375,
+            "concentration": 0.26826126460953903,
+            "phase": 180.43347830380932
+          },
+          {
+            "origin": 181.2626440675891,
+            "scale": 3.74921875,
+            "concentration": 0.26322693150877374,
+            "phase": 181.2626440675891
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03469872014602303,
+            "scale": 3.779513888888889,
+            "concentration": 0.2877296285650179,
+            "phase": 0.03469872014602303
+          },
+          {
+            "origin": 0.37473927727393086,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26403096895928696,
+            "phase": 0.37473927727393086
+          },
+          {
+            "origin": -0.3100205917834774,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25972382034054026,
+            "phase": -0.3100205917834774
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000855.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84894637482063,
+        "originY": 0.03469872014602303,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84894637482063,
+            "scale": 3.75390625,
+            "concentration": 0.29396828574073036,
+            "phase": 180.84894637482063
+          },
+          {
+            "origin": 180.43347830380932,
+            "scale": 3.75859375,
+            "concentration": 0.26826126460953903,
+            "phase": 180.43347830380932
+          },
+          {
+            "origin": 181.2626440675891,
+            "scale": 3.74921875,
+            "concentration": 0.26322693150877374,
+            "phase": 181.2626440675891
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03469872014602303,
+            "scale": 3.779513888888889,
+            "concentration": 0.2877296285650179,
+            "phase": 0.03469872014602303
+          },
+          {
+            "origin": 0.37473927727393086,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26403096895928696,
+            "phase": 0.37473927727393086
+          },
+          {
+            "origin": -0.3100205917834774,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25972382034054026,
+            "phase": -0.3100205917834774
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000856.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8489665742275,
+        "originY": 0.035939995787573405,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8489665742275,
+            "scale": 3.75390625,
+            "concentration": 0.2939684665623347,
+            "phase": 180.8489665742275
+          },
+          {
+            "origin": 180.43349453576582,
+            "scale": 3.75859375,
+            "concentration": 0.2682599248079185,
+            "phase": 180.43349453576582
+          },
+          {
+            "origin": 181.26266464432518,
+            "scale": 3.74921875,
+            "concentration": 0.2632294363482068,
+            "phase": 181.26266464432518
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035939995787573405,
+            "scale": 3.779513888888889,
+            "concentration": 0.2877429516742036,
+            "phase": 0.035939995787573405
+          },
+          {
+            "origin": 0.37610031052485926,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2643709570180204,
+            "phase": 0.37610031052485926
+          },
+          {
+            "origin": -0.30908105400717995,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25942789605783384,
+            "phase": -0.30908105400717995
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000857.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8489665742275,
+        "originY": 0.035939995787573405,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8489665742275,
+            "scale": 3.75390625,
+            "concentration": 0.2939684665623347,
+            "phase": 180.8489665742275
+          },
+          {
+            "origin": 180.43349453576582,
+            "scale": 3.75859375,
+            "concentration": 0.2682599248079185,
+            "phase": 180.43349453576582
+          },
+          {
+            "origin": 181.26266464432518,
+            "scale": 3.74921875,
+            "concentration": 0.2632294363482068,
+            "phase": 181.26266464432518
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.035939995787573405,
+            "scale": 3.779513888888889,
+            "concentration": 0.2877429516742036,
+            "phase": 0.035939995787573405
+          },
+          {
+            "origin": 0.37610031052485926,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2643709570180204,
+            "phase": 0.37610031052485926
+          },
+          {
+            "origin": -0.30908105400717995,
+            "scale": 3.7847222222222223,
+            "concentration": 0.25942789605783384,
+            "phase": -0.30908105400717995
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000858.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84849662599902,
+        "originY": 0.034309875494114794,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84849662599902,
+            "scale": 3.75390625,
+            "concentration": 0.29367590169932795,
+            "phase": 180.84849662599902
+          },
+          {
+            "origin": 180.43233529466605,
+            "scale": 3.75859375,
+            "concentration": 0.2678875180019821,
+            "phase": 180.43233529466605
+          },
+          {
+            "origin": 181.2628975040041,
+            "scale": 3.74921875,
+            "concentration": 0.2630506422720989,
+            "phase": 181.2628975040041
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.034309875494114794,
+            "scale": 3.779513888888889,
+            "concentration": 0.28733477405680374,
+            "phase": 0.034309875494114794
+          },
+          {
+            "origin": 0.37467109162909007,
+            "scale": 3.7743055555555554,
+            "concentration": 0.26370350799738707,
+            "phase": 0.37467109162909007
+          },
+          {
+            "origin": -0.31076942282020575,
+            "scale": 3.7847222222222223,
+            "concentration": 0.259421990242767,
+            "phase": -0.31076942282020575
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73924417334135,
+      "scale": 3.755603493990724,
+      "rms": 0.11586966150736899,
+      "points": 3000
+    },
+    "y": {
+      "origin": 0.05847752325296668,
+      "scale": 3.778603862182412,
+      "rms": 0.24237769365956818,
+      "points": 7000
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 178,
+    "currentXPoints": 501,
+    "currentYPoints": 876
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000859.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.85106804103756,
+        "originY": 0.02345227322033158,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.85106804103756,
+            "scale": 3.75390625,
+            "concentration": 0.29349758338038967,
+            "phase": 180.85106804103756
+          },
+          {
+            "origin": 180.4351249589549,
+            "scale": 3.75859375,
+            "concentration": 0.2684325259832277,
+            "phase": 180.4351249589549
+          },
+          {
+            "origin": 181.26624191393432,
+            "scale": 3.74921875,
+            "concentration": 0.2615173053606875,
+            "phase": 181.26624191393432
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.02345227322033158,
+            "scale": 3.779513888888889,
+            "concentration": 0.29208995128604254,
+            "phase": 0.02345227322033158
+          },
+          {
+            "origin": 0.3608731591747956,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2687734456819689,
+            "phase": 0.3608731591747956
+          },
+          {
+            "origin": -0.31985335281248833,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2641596648955638,
+            "phase": -0.31985335281248833
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73790494320482,
+      "scale": 3.755612848823428,
+      "rms": 0.11544881323045122,
+      "points": 2985
+    },
+    "y": {
+      "origin": 0.05811676294576135,
+      "scale": 3.778605501214419,
+      "rms": 0.24261627494328894,
+      "points": 6995
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 176,
+    "currentXPoints": 486,
+    "currentYPoints": 871
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000860.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84883110590954,
+        "originY": 0.027967252887076965,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84883110590954,
+            "scale": 3.75390625,
+            "concentration": 0.2928937519862441,
+            "phase": 180.84883110590954
+          },
+          {
+            "origin": 180.4318139798838,
+            "scale": 3.75859375,
+            "concentration": 0.2677450010431272,
+            "phase": 180.4318139798838
+          },
+          {
+            "origin": 181.2648166456146,
+            "scale": 3.74921875,
+            "concentration": 0.26124228025167523,
+            "phase": 181.2648166456146
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.027967252887076965,
+            "scale": 3.779513888888889,
+            "concentration": 0.2915426086252693,
+            "phase": 0.027967252887076965
+          },
+          {
+            "origin": 0.3662493371060023,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2684441304142657,
+            "phase": 0.3662493371060023
+          },
+          {
+            "origin": -0.3155290819641864,
+            "scale": 3.7847222222222223,
+            "concentration": 0.26343694281864805,
+            "phase": -0.3155290819641864
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73643490522778,
+      "scale": 3.755622845794269,
+      "rms": 0.1150518274708941,
+      "points": 2970
+    },
+    "y": {
+      "origin": 0.057761885008397636,
+      "scale": 3.7786070761492327,
+      "rms": 0.24279629825873894,
+      "points": 6990
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 486,
+    "currentYPoints": 871
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000861.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84985900670105,
+        "originY": 0.02970939625269666,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84985900670105,
+            "scale": 3.75390625,
+            "concentration": 0.29265118101911863,
+            "phase": 180.84985900670105
+          },
+          {
+            "origin": 180.4325380081136,
+            "scale": 3.75859375,
+            "concentration": 0.2674246707006758,
+            "phase": 180.4325380081136
+          },
+          {
+            "origin": 181.26621487562429,
+            "scale": 3.74921875,
+            "concentration": 0.26115326641599407,
+            "phase": 181.26621487562429
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.02970939625269666,
+            "scale": 3.779513888888889,
+            "concentration": 0.2918902141296155,
+            "phase": 0.02970939625269666
+          },
+          {
+            "origin": 0.36809783147251623,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2691029593500323,
+            "phase": 0.36809783147251623
+          },
+          {
+            "origin": -0.3139602814348275,
+            "scale": 3.7847222222222223,
+            "concentration": 0.26346818479871703,
+            "phase": -0.3139602814348275
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73528179245292,
+      "scale": 3.755630820317943,
+      "rms": 0.11482408007418995,
+      "points": 2955
+    },
+    "y": {
+      "origin": 0.05745474023730464,
+      "scale": 3.7786083463057007,
+      "rms": 0.24295797729042362,
+      "points": 6985
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 486,
+    "currentYPoints": 871
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000862.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84980034249017,
+        "originY": 0.03433437302921669,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84980034249017,
+            "scale": 3.75390625,
+            "concentration": 0.29264624892744934,
+            "phase": 180.84980034249017
+          },
+          {
+            "origin": 180.43249075709954,
+            "scale": 3.75859375,
+            "concentration": 0.26741941335238384,
+            "phase": 180.43249075709954
+          },
+          {
+            "origin": 181.26613559428938,
+            "scale": 3.74921875,
+            "concentration": 0.2611457380267932,
+            "phase": 181.26613559428938
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03433437302921669,
+            "scale": 3.779513888888889,
+            "concentration": 0.29225241393617,
+            "phase": 0.03433437302921669
+          },
+          {
+            "origin": 0.3711364866745421,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2696722046925225,
+            "phase": 0.3711364866745421
+          },
+          {
+            "origin": -0.3085606769084905,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2635490360171558,
+            "phase": -0.3085606769084905
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73411874124355,
+      "scale": 3.7556388374767447,
+      "rms": 0.11459015090686371,
+      "points": 2940
+    },
+    "y": {
+      "origin": 0.05712439734251892,
+      "scale": 3.778615116541939,
+      "rms": 0.2432285327868721,
+      "points": 6980
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 486,
+    "currentYPoints": 871
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000863.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.8497690603981,
+        "originY": 0.03430805813727371,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.8497690603981,
+            "scale": 3.75390625,
+            "concentration": 0.29267585831479354,
+            "phase": 180.8497690603981
+          },
+          {
+            "origin": 180.43247911975755,
+            "scale": 3.75859375,
+            "concentration": 0.2674520138908632,
+            "phase": 180.43247911975755
+          },
+          {
+            "origin": 181.2660807601601,
+            "scale": 3.74921875,
+            "concentration": 0.2611690902303958,
+            "phase": 181.2660807601601
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.03430805813727371,
+            "scale": 3.779513888888889,
+            "concentration": 0.29226978044786217,
+            "phase": 0.03430805813727371
+          },
+          {
+            "origin": 0.37111000476569495,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2696903960573838,
+            "phase": 0.37111000476569495
+          },
+          {
+            "origin": -0.3085914069339603,
+            "scale": 3.7847222222222223,
+            "concentration": 0.26356633925742573,
+            "phase": -0.3085914069339603
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.7329455779519,
+      "scale": 3.75564689797968,
+      "rms": 0.11434986661660505,
+      "points": 2925
+    },
+    "y": {
+      "origin": 0.05783765046640838,
+      "scale": 3.7786169115628443,
+      "rms": 0.2442069227931308,
+      "points": 6983
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 486,
+    "currentYPoints": 871
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000864.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84974773866352,
+        "originY": 0.030732817139503193,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84974773866352,
+            "scale": 3.75390625,
+            "concentration": 0.2926833425651649,
+            "phase": 180.84974773866352
+          },
+          {
+            "origin": 180.43244212161062,
+            "scale": 3.75859375,
+            "concentration": 0.26745763982090504,
+            "phase": 180.43244212161062
+          },
+          {
+            "origin": 181.2660726920906,
+            "scale": 3.74921875,
+            "concentration": 0.2611796689099589,
+            "phase": 181.2660726920906
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.030732817139503193,
+            "scale": 3.779513888888889,
+            "concentration": 0.29207197341578434,
+            "phase": 0.030732817139503193
+          },
+          {
+            "origin": 0.3675132049549924,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2685882452413394,
+            "phase": 0.3675132049549924
+          },
+          {
+            "origin": -0.3116496360052944,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2642871635751837,
+            "phase": -0.3116496360052944
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73176212476204,
+      "scale": 3.755655002552785,
+      "rms": 0.11410304743343952,
+      "points": 2910
+    },
+    "y": {
+      "origin": 0.0574103582235145,
+      "scale": 3.778624551695972,
+      "rms": 0.24443422840862553,
+      "points": 6978
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 486,
+    "currentYPoints": 871
+  },
+  {
+    "input": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000865.png",
+    "initial": {
+      "located": true,
+      "method": "palette_and_phase",
+      "grid": {
+        "originX": 180.84974773866352,
+        "originY": 0.030732817139503193,
+        "scaleX": 3.75390625,
+        "scaleY": 3.779513888888889
+      },
+      "hypotheses": {
+        "available": true,
+        "xCandidates": [
+          {
+            "origin": 180.84974773866352,
+            "scale": 3.75390625,
+            "concentration": 0.2926833425651649,
+            "phase": 180.84974773866352
+          },
+          {
+            "origin": 180.43244212161062,
+            "scale": 3.75859375,
+            "concentration": 0.26745763982090504,
+            "phase": 180.43244212161062
+          },
+          {
+            "origin": 181.2660726920906,
+            "scale": 3.74921875,
+            "concentration": 0.2611796689099589,
+            "phase": 181.2660726920906
+          }
+        ],
+        "yCandidates": [
+          {
+            "origin": 0.030732817139503193,
+            "scale": 3.779513888888889,
+            "concentration": 0.29207197341578434,
+            "phase": 0.030732817139503193
+          },
+          {
+            "origin": 0.3675132049549924,
+            "scale": 3.7743055555555554,
+            "concentration": 0.2685882452413394,
+            "phase": 0.3675132049549924
+          },
+          {
+            "origin": -0.3116496360052944,
+            "scale": 3.7847222222222223,
+            "concentration": 0.2642871635751837,
+            "phase": -0.3116496360052944
+          }
+        ]
+      },
+      "envelope": [
+        180,
+        0,
+        782,
+        544
+      ]
+    },
+    "x": {
+      "origin": 180.73056819960306,
+      "scale": 3.7556631519393413,
+      "rms": 0.11384950686478763,
+      "points": 2895
+    },
+    "y": {
+      "origin": 0.05698360619509173,
+      "scale": 3.778632190147318,
+      "rms": 0.24466090575638508,
+      "points": 6973
+    },
+    "historyFrames": 8,
+    "currentMatchedCells": 177,
+    "currentXPoints": 486,
+    "currentYPoints": 871
+  }
+]

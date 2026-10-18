@@ -1,0 +1,30 @@
+{
+  "status": "independent_dimension_reconstruction_passed_not_product_acceptance",
+  "report": {
+    "path": "reports/m3-grid-refinement-v1/scoring-dimensions-v1-final/report.json",
+    "sha256": "e1be69ffc2e5e6c96fa81672dcc5e7d184dce8f90d3929f3b37c4a37ffc674a8"
+  },
+  "checker": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\check-scoring-dimensions-v1.cjs",
+    "sha256": "7afc7a8d3443a0170ac87b4a8d248e1679486232c0fc08223ea5cf8bb5347b07"
+  },
+  "inputs": 4263,
+  "retainedReferences": 3577,
+  "frames": 3368,
+  "uniqueFrames": 3361,
+  "pages": 116,
+  "states": 715,
+  "transitionOpportunities": 553,
+  "stageFrameChecks": 6736,
+  "fixtures": 32,
+  "legacyStrictPreserved": 7,
+  "rawErrors": 188,
+  "finalErrors": 177,
+  "legacyCompatibilityFrames": 10,
+  "markMismatchFrames": 7,
+  "questionPages": 17,
+  "localLinks": 4043,
+  "filters": "all dimensions and page/transition scopes passed in DOM substitute",
+  "actualBrowserRendering": "unverified",
+  "productAcceptance": false
+}

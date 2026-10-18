@@ -1,0 +1,577 @@
+{
+  "method": "Mean RGB intensity of all four source pixels in each fixed original 2x2 logical pixel, using pre-frozen integral mapping. Positive separation means every expected dark cell is darker than every expected light cell. No app/OCR imports or tuning.",
+  "input": {
+    "path": "reports/m3-grid-refinement-v1/authorized-correction-lab-rival-demand-notes-v1/cell-means.json",
+    "sha256": "cea0b00c6b0fa120700c5a22a2cb820b93eeb5fb18bb50a28ff34c3e4739468c"
+  },
+  "bank": {
+    "path": ".cache/m3-japanese-glyph-banks-v2/red-green-jp-glyphs.json",
+    "sha256": "1259845b81e38d7139d7f660754fc992093423ed05742cbcecd711c377cbf54c"
+  },
+  "glyphs": [
+    {
+      "sourceId": "red-green-jp",
+      "profile": "main",
+      "tile": 223,
+      "darkInkHex": "60810100f000000",
+      "aliases": [
+        "っ"
+      ]
+    },
+    {
+      "sourceId": "red-green-jp",
+      "profile": "main",
+      "tile": 172,
+      "darkInkHex": "608101515000000",
+      "aliases": [
+        "ッ"
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "frame": 13382,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13383,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13384,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13385,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13386,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13387,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13388,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13389,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13390,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13391,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13392,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13393,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13394,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13395,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13396,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13397,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13398,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13399,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13400,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13401,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13402,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13403,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13404,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13405,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13406,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13407,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13408,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13409,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13410,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13411,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13412,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    },
+    {
+      "frame": 13413,
+      "variants": [
+        {
+          "glyph": "っ",
+          "maxInk": 139,
+          "minBackground": 18.333333333333336,
+          "separation": -120.66666666666666
+        },
+        {
+          "glyph": "ッ",
+          "maxInk": 18.666666666666668,
+          "minBackground": 131.66666666666669,
+          "separation": 113.00000000000001
+        }
+      ]
+    }
+  ]
+}

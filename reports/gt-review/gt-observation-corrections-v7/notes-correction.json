@@ -1,0 +1,29 @@
+{
+  "status": "original_full_png_check_corrects_agent_notes_not_GT",
+  "reason": "After comparing completed reads with frozen annotations, reopened full original PNGs 6418,6419,6420. All three clearly have the down arrow. The 6419 gap in both draft notes was a transcription/reading error; do not use it to alter GT. Prior notes preserved.",
+  "correctDownArrowVisibleRanges": [
+    [
+      6410,
+      6429
+    ],
+    [
+      6453,
+      6469
+    ]
+  ],
+  "images": [
+    {
+      "path": "data/frames/video-01/intro-punctuation-pass2-v1/frame-006418.png",
+      "sha256": "fb43a439b774f27312d87b9786b4b83cfeec9568b430dc875fd357691b9df756"
+    },
+    {
+      "path": "data/frames/video-01/intro-punctuation-pass2-v1/frame-006419.png",
+      "sha256": "4ffe7e96ca6e9b8b9bd91fcf306429650c92c7338aae81d51728966c1de01dc6"
+    },
+    {
+      "path": "data/frames/video-01/intro-punctuation-pass2-v1/frame-006420.png",
+      "sha256": "326001e9ccadeb4f72d431dfb9cde45d154322c1b58d3393373725f305ee17c8"
+    }
+  ],
+  "productAcceptance": false
+}

@@ -1,0 +1,258 @@
+{
+  "status": "pinned_UI_renderer_sources_read_not_OCR_acceptance",
+  "manifestSha256": "d0d88c92565570af4b6327a801389dc216f4a9a36ffb8a958bc41f7672ab3e30",
+  "fontManifestSha256": "39e42b896e44dbd13819391c7a829db87a5b2cbb7172c321e5c29c2124db9da3",
+  "sources": [
+    {
+      "id": "red-green-jp",
+      "commit": "953f41b34108621b2bf13c3b1e53abfc9c3e5aec",
+      "files": [
+        {
+          "path": "data/text_boxes.asm",
+          "sha256": "f9744814d4c0521aa6b31ad996682af415a7677c45d1c790c140fc5ac0d46f3f",
+          "gitBlob": "b8b2bb66915f72357a37d314442a50b73b44ed05",
+          "localCopy": ".cache/japanese-ui-sources-v2/red-green-jp/data/text_boxes.asm",
+          "url": "https://github.com/Narishma-gb/pokegreen/blob/953f41b34108621b2bf13c3b1e53abfc9c3e5aec/data/text_boxes.asm"
+        },
+        {
+          "path": "engine/menus/text_box.asm",
+          "sha256": "a05c6c6a55eea0eec791730836c6f4704934a90cd7ff6499b11cbf5ea534a0bc",
+          "gitBlob": "da2d5d1ad3fd077f4042cded7b34d68eb630a649",
+          "localCopy": ".cache/japanese-ui-sources-v2/red-green-jp/engine/menus/text_box.asm",
+          "url": "https://github.com/Narishma-gb/pokegreen/blob/953f41b34108621b2bf13c3b1e53abfc9c3e5aec/engine/menus/text_box.asm"
+        },
+        {
+          "path": "engine/menus/party_menu.asm",
+          "sha256": "d20115cd857246edbcc66a96fba95d64c666c15efe0f644328b3f1d3527be68c",
+          "gitBlob": "8d2db3f669e862c31e63aaea033e25b441761356",
+          "localCopy": ".cache/japanese-ui-sources-v2/red-green-jp/engine/menus/party_menu.asm",
+          "url": "https://github.com/Narishma-gb/pokegreen/blob/953f41b34108621b2bf13c3b1e53abfc9c3e5aec/engine/menus/party_menu.asm"
+        },
+        {
+          "path": "engine/menus/draw_start_menu.asm",
+          "sha256": "12a6c7961030f01db30b69cde3c980d08772a99abd30da5f088a33f606b49533",
+          "gitBlob": "7533b44241fcdef535fca4e9223c868d9b0ee860",
+          "localCopy": ".cache/japanese-ui-sources-v2/red-green-jp/engine/menus/draw_start_menu.asm",
+          "url": "https://github.com/Narishma-gb/pokegreen/blob/953f41b34108621b2bf13c3b1e53abfc9c3e5aec/engine/menus/draw_start_menu.asm"
+        },
+        {
+          "path": "engine/menus/start_sub_menus.asm",
+          "sha256": "d65db1ca33c8cee529acca134117ebf6137288fe031750f483a58f0ededc2d44",
+          "gitBlob": "d8ff5a85af72a3200151dbf22e44fca4955cf71a",
+          "localCopy": ".cache/japanese-ui-sources-v2/red-green-jp/engine/menus/start_sub_menus.asm",
+          "url": "https://github.com/Narishma-gb/pokegreen/blob/953f41b34108621b2bf13c3b1e53abfc9c3e5aec/engine/menus/start_sub_menus.asm"
+        },
+        {
+          "path": "engine/menus/pc.asm",
+          "sha256": "9f4ef726ed7c63ad83c91effc632c2de8da539a89252c168e28362d30da9ce8f",
+          "gitBlob": "9d1a2efcc703437ca2240013f6b2a55d6b7f2617",
+          "localCopy": ".cache/japanese-ui-sources-v2/red-green-jp/engine/menus/pc.asm",
+          "url": "https://github.com/Narishma-gb/pokegreen/blob/953f41b34108621b2bf13c3b1e53abfc9c3e5aec/engine/menus/pc.asm"
+        },
+        {
+          "path": "engine/menus/players_pc.asm",
+          "sha256": "6a64f64c61a47ccbf686db59690085b207858d752e66b6b9d22e3bc4be06fa83",
+          "gitBlob": "c50db33df81bccd9bc08903ed2c20cb1673091da",
+          "localCopy": ".cache/japanese-ui-sources-v2/red-green-jp/engine/menus/players_pc.asm",
+          "url": "https://github.com/Narishma-gb/pokegreen/blob/953f41b34108621b2bf13c3b1e53abfc9c3e5aec/engine/menus/players_pc.asm"
+        },
+        {
+          "path": "engine/pokemon/status_screen.asm",
+          "sha256": "1b2d8e4a5d4c77819d76fe7eb125e0302c0f3e9d6786660b83e51570340b0185",
+          "gitBlob": "e68e1e319bde433905ba41467e356466fb6272bc",
+          "localCopy": ".cache/japanese-ui-sources-v2/red-green-jp/engine/pokemon/status_screen.asm",
+          "url": "https://github.com/Narishma-gb/pokegreen/blob/953f41b34108621b2bf13c3b1e53abfc9c3e5aec/engine/pokemon/status_screen.asm"
+        },
+        {
+          "path": "engine/battle/core.asm",
+          "sha256": "9b170e40c665824edd3b70521367a4d32812383da7ded0c2ba924d360aca3c74",
+          "gitBlob": "c7ade33f53cefffa9b7eaf7d41d37b329426076f",
+          "localCopy": ".cache/japanese-ui-sources-v2/red-green-jp/engine/battle/core.asm",
+          "url": "https://github.com/Narishma-gb/pokegreen/blob/953f41b34108621b2bf13c3b1e53abfc9c3e5aec/engine/battle/core.asm"
+        },
+        {
+          "path": "home/print_text.asm",
+          "sha256": "f518c5bb599fc3993d53d88ef4e2e01db0a415c8e1549d87250cab9601fda858",
+          "gitBlob": "8e351ba3b8727842b553f4d1d1446f0fa8661540",
+          "localCopy": ".cache/japanese-ui-sources-v2/red-green-jp/home/print_text.asm",
+          "url": "https://github.com/Narishma-gb/pokegreen/blob/953f41b34108621b2bf13c3b1e53abfc9c3e5aec/home/print_text.asm"
+        },
+        {
+          "path": "constants/menu_constants.asm",
+          "sha256": "fbd0e91bd6ac5f8a491a4d5df3ccbc4438f34c234ce9be684f82b2537c6022ac",
+          "gitBlob": "c4476e032dfc5c2ecb536b48ede2d4ad639fa146",
+          "localCopy": ".cache/japanese-ui-sources-v2/red-green-jp/constants/menu_constants.asm",
+          "url": "https://github.com/Narishma-gb/pokegreen/blob/953f41b34108621b2bf13c3b1e53abfc9c3e5aec/constants/menu_constants.asm"
+        }
+      ]
+    },
+    {
+      "id": "blue-jp",
+      "commit": "69cd1814203dd24533c46af383d7cff5591aea90",
+      "files": [
+        {
+          "path": "data/text_boxes.asm",
+          "sha256": "f9744814d4c0521aa6b31ad996682af415a7677c45d1c790c140fc5ac0d46f3f",
+          "gitBlob": "b8b2bb66915f72357a37d314442a50b73b44ed05",
+          "localCopy": ".cache/japanese-ui-sources-v2/blue-jp/data/text_boxes.asm",
+          "url": "https://github.com/Narishma-gb/pokeblue/blob/69cd1814203dd24533c46af383d7cff5591aea90/data/text_boxes.asm"
+        },
+        {
+          "path": "engine/menus/text_box.asm",
+          "sha256": "a05c6c6a55eea0eec791730836c6f4704934a90cd7ff6499b11cbf5ea534a0bc",
+          "gitBlob": "da2d5d1ad3fd077f4042cded7b34d68eb630a649",
+          "localCopy": ".cache/japanese-ui-sources-v2/blue-jp/engine/menus/text_box.asm",
+          "url": "https://github.com/Narishma-gb/pokeblue/blob/69cd1814203dd24533c46af383d7cff5591aea90/engine/menus/text_box.asm"
+        },
+        {
+          "path": "engine/menus/party_menu.asm",
+          "sha256": "d20115cd857246edbcc66a96fba95d64c666c15efe0f644328b3f1d3527be68c",
+          "gitBlob": "8d2db3f669e862c31e63aaea033e25b441761356",
+          "localCopy": ".cache/japanese-ui-sources-v2/blue-jp/engine/menus/party_menu.asm",
+          "url": "https://github.com/Narishma-gb/pokeblue/blob/69cd1814203dd24533c46af383d7cff5591aea90/engine/menus/party_menu.asm"
+        },
+        {
+          "path": "engine/menus/draw_start_menu.asm",
+          "sha256": "12a6c7961030f01db30b69cde3c980d08772a99abd30da5f088a33f606b49533",
+          "gitBlob": "7533b44241fcdef535fca4e9223c868d9b0ee860",
+          "localCopy": ".cache/japanese-ui-sources-v2/blue-jp/engine/menus/draw_start_menu.asm",
+          "url": "https://github.com/Narishma-gb/pokeblue/blob/69cd1814203dd24533c46af383d7cff5591aea90/engine/menus/draw_start_menu.asm"
+        },
+        {
+          "path": "engine/menus/start_sub_menus.asm",
+          "sha256": "907324953cd5469a9d084c1b516ea87288bc1a24048d0638d7c4ed80b4ccb119",
+          "gitBlob": "575ea9605394b701093f2f9df4d105d3669c2cf8",
+          "localCopy": ".cache/japanese-ui-sources-v2/blue-jp/engine/menus/start_sub_menus.asm",
+          "url": "https://github.com/Narishma-gb/pokeblue/blob/69cd1814203dd24533c46af383d7cff5591aea90/engine/menus/start_sub_menus.asm"
+        },
+        {
+          "path": "engine/menus/pc.asm",
+          "sha256": "9f4ef726ed7c63ad83c91effc632c2de8da539a89252c168e28362d30da9ce8f",
+          "gitBlob": "9d1a2efcc703437ca2240013f6b2a55d6b7f2617",
+          "localCopy": ".cache/japanese-ui-sources-v2/blue-jp/engine/menus/pc.asm",
+          "url": "https://github.com/Narishma-gb/pokeblue/blob/69cd1814203dd24533c46af383d7cff5591aea90/engine/menus/pc.asm"
+        },
+        {
+          "path": "engine/menus/players_pc.asm",
+          "sha256": "6a64f64c61a47ccbf686db59690085b207858d752e66b6b9d22e3bc4be06fa83",
+          "gitBlob": "c50db33df81bccd9bc08903ed2c20cb1673091da",
+          "localCopy": ".cache/japanese-ui-sources-v2/blue-jp/engine/menus/players_pc.asm",
+          "url": "https://github.com/Narishma-gb/pokeblue/blob/69cd1814203dd24533c46af383d7cff5591aea90/engine/menus/players_pc.asm"
+        },
+        {
+          "path": "engine/pokemon/status_screen.asm",
+          "sha256": "ec1f4155ecba349e3bda6946dbe5ae4f1874fbb883c22e6fc00d40749aa88478",
+          "gitBlob": "237f8de5bb45cb0ebbf90cff66e46ba31cd5e80b",
+          "localCopy": ".cache/japanese-ui-sources-v2/blue-jp/engine/pokemon/status_screen.asm",
+          "url": "https://github.com/Narishma-gb/pokeblue/blob/69cd1814203dd24533c46af383d7cff5591aea90/engine/pokemon/status_screen.asm"
+        },
+        {
+          "path": "engine/battle/core.asm",
+          "sha256": "026c40edf1e87ae2c3cd07c8a0c94278bfd52064aed32edb68a6fb486a7a1bad",
+          "gitBlob": "0c23b26b03def93d20393ce564c21649c53afb06",
+          "localCopy": ".cache/japanese-ui-sources-v2/blue-jp/engine/battle/core.asm",
+          "url": "https://github.com/Narishma-gb/pokeblue/blob/69cd1814203dd24533c46af383d7cff5591aea90/engine/battle/core.asm"
+        },
+        {
+          "path": "home/print_text.asm",
+          "sha256": "f518c5bb599fc3993d53d88ef4e2e01db0a415c8e1549d87250cab9601fda858",
+          "gitBlob": "8e351ba3b8727842b553f4d1d1446f0fa8661540",
+          "localCopy": ".cache/japanese-ui-sources-v2/blue-jp/home/print_text.asm",
+          "url": "https://github.com/Narishma-gb/pokeblue/blob/69cd1814203dd24533c46af383d7cff5591aea90/home/print_text.asm"
+        },
+        {
+          "path": "constants/menu_constants.asm",
+          "sha256": "fbd0e91bd6ac5f8a491a4d5df3ccbc4438f34c234ce9be684f82b2537c6022ac",
+          "gitBlob": "c4476e032dfc5c2ecb536b48ede2d4ad639fa146",
+          "localCopy": ".cache/japanese-ui-sources-v2/blue-jp/constants/menu_constants.asm",
+          "url": "https://github.com/Narishma-gb/pokeblue/blob/69cd1814203dd24533c46af383d7cff5591aea90/constants/menu_constants.asm"
+        }
+      ]
+    },
+    {
+      "id": "yellow-jp",
+      "commit": "f282e72ae26232790fdb780aa5a5db7ec8ebf572",
+      "files": [
+        {
+          "path": "data/text_boxes.asm",
+          "sha256": "f9744814d4c0521aa6b31ad996682af415a7677c45d1c790c140fc5ac0d46f3f",
+          "gitBlob": "b8b2bb66915f72357a37d314442a50b73b44ed05",
+          "localCopy": ".cache/japanese-ui-sources-v2/yellow-jp/data/text_boxes.asm",
+          "url": "https://github.com/Narishma-gb/pokeyellow-jp/blob/f282e72ae26232790fdb780aa5a5db7ec8ebf572/data/text_boxes.asm"
+        },
+        {
+          "path": "engine/menus/text_box.asm",
+          "sha256": "cd2584e565f72d25f28bf210fa892c552d5c2bcc9c7b545fde12175ce7d36628",
+          "gitBlob": "75865817bbbe79b24dcebee1586de3fa73bd7aa3",
+          "localCopy": ".cache/japanese-ui-sources-v2/yellow-jp/engine/menus/text_box.asm",
+          "url": "https://github.com/Narishma-gb/pokeyellow-jp/blob/f282e72ae26232790fdb780aa5a5db7ec8ebf572/engine/menus/text_box.asm"
+        },
+        {
+          "path": "engine/menus/party_menu.asm",
+          "sha256": "d9c9f24dfb6ee30f59d8b80fb971086e6ce02069475c9860c0551dfc77578503",
+          "gitBlob": "bc1473f5b80dcb0124cac27c6412435b4bfd0925",
+          "localCopy": ".cache/japanese-ui-sources-v2/yellow-jp/engine/menus/party_menu.asm",
+          "url": "https://github.com/Narishma-gb/pokeyellow-jp/blob/f282e72ae26232790fdb780aa5a5db7ec8ebf572/engine/menus/party_menu.asm"
+        },
+        {
+          "path": "engine/menus/draw_start_menu.asm",
+          "sha256": "a14409543d29b51925722c26b9c701f58efecc39f05ffd6c771fa980c63fca6f",
+          "gitBlob": "6921e190e5fb0ae41458ca9b26e4effd88592612",
+          "localCopy": ".cache/japanese-ui-sources-v2/yellow-jp/engine/menus/draw_start_menu.asm",
+          "url": "https://github.com/Narishma-gb/pokeyellow-jp/blob/f282e72ae26232790fdb780aa5a5db7ec8ebf572/engine/menus/draw_start_menu.asm"
+        },
+        {
+          "path": "engine/menus/start_sub_menus.asm",
+          "sha256": "f3d1b47feeed966fe08c87287eb468b02889d26d523028248f077dd28d26e412",
+          "gitBlob": "2ad655f126effb10af55948f495d383f7dfc9d88",
+          "localCopy": ".cache/japanese-ui-sources-v2/yellow-jp/engine/menus/start_sub_menus.asm",
+          "url": "https://github.com/Narishma-gb/pokeyellow-jp/blob/f282e72ae26232790fdb780aa5a5db7ec8ebf572/engine/menus/start_sub_menus.asm"
+        },
+        {
+          "path": "engine/menus/pc.asm",
+          "sha256": "9f4ef726ed7c63ad83c91effc632c2de8da539a89252c168e28362d30da9ce8f",
+          "gitBlob": "9d1a2efcc703437ca2240013f6b2a55d6b7f2617",
+          "localCopy": ".cache/japanese-ui-sources-v2/yellow-jp/engine/menus/pc.asm",
+          "url": "https://github.com/Narishma-gb/pokeyellow-jp/blob/f282e72ae26232790fdb780aa5a5db7ec8ebf572/engine/menus/pc.asm"
+        },
+        {
+          "path": "engine/menus/players_pc.asm",
+          "sha256": "131ba7b9b834b4895d07e8379876b4bd6420dae96d3c84f2da0d7437719e9558",
+          "gitBlob": "0a2696859340a36cdf1a8ec41e4ef5fe001dd8e3",
+          "localCopy": ".cache/japanese-ui-sources-v2/yellow-jp/engine/menus/players_pc.asm",
+          "url": "https://github.com/Narishma-gb/pokeyellow-jp/blob/f282e72ae26232790fdb780aa5a5db7ec8ebf572/engine/menus/players_pc.asm"
+        },
+        {
+          "path": "engine/pokemon/status_screen.asm",
+          "sha256": "868686d33da87ebb72075248dcd76f0b8811dd675b8fda4aa31809dc2b192795",
+          "gitBlob": "c5f8469f1ef81a7747147d370a18e50b505a1729",
+          "localCopy": ".cache/japanese-ui-sources-v2/yellow-jp/engine/pokemon/status_screen.asm",
+          "url": "https://github.com/Narishma-gb/pokeyellow-jp/blob/f282e72ae26232790fdb780aa5a5db7ec8ebf572/engine/pokemon/status_screen.asm"
+        },
+        {
+          "path": "engine/battle/core.asm",
+          "sha256": "67d987b6839ffd83a2d667ea19c258f828e62094284fafd69bc9be078eaf267a",
+          "gitBlob": "970d1f3acdcc6a02c2b4227cbc6afac0f4971e62",
+          "localCopy": ".cache/japanese-ui-sources-v2/yellow-jp/engine/battle/core.asm",
+          "url": "https://github.com/Narishma-gb/pokeyellow-jp/blob/f282e72ae26232790fdb780aa5a5db7ec8ebf572/engine/battle/core.asm"
+        },
+        {
+          "path": "home/print_text.asm",
+          "sha256": "f518c5bb599fc3993d53d88ef4e2e01db0a415c8e1549d87250cab9601fda858",
+          "gitBlob": "8e351ba3b8727842b553f4d1d1446f0fa8661540",
+          "localCopy": ".cache/japanese-ui-sources-v2/yellow-jp/home/print_text.asm",
+          "url": "https://github.com/Narishma-gb/pokeyellow-jp/blob/f282e72ae26232790fdb780aa5a5db7ec8ebf572/home/print_text.asm"
+        },
+        {
+          "path": "constants/menu_constants.asm",
+          "sha256": "fbd0e91bd6ac5f8a491a4d5df3ccbc4438f34c234ce9be684f82b2537c6022ac",
+          "gitBlob": "c4476e032dfc5c2ecb536b48ede2d4ad639fa146",
+          "localCopy": ".cache/japanese-ui-sources-v2/yellow-jp/constants/menu_constants.asm",
+          "url": "https://github.com/Narishma-gb/pokeyellow-jp/blob/f282e72ae26232790fdb780aa5a5db7ec8ebf572/constants/menu_constants.asm"
+        }
+      ]
+    }
+  ],
+  "noExternalCodeExecuted": true,
+  "redistribution": "Source copies remain ignored cache; only identities are reported"
+}

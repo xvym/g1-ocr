@@ -1,0 +1,827 @@
+{
+  "status": "PC_main_menu_role_inconsistency_confirmed_in_metadata_original_event_review_still_required",
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r6/freeze.json",
+    "sha256": "603450afecb3fb7e45e1c916281cef77f6957c0382f9cd91cda15c109828de80"
+  },
+  "helperSha256": "90fbe8726aef63bf71b6c76c9240905cc3a048fbf2ab9b87d120db335cf5f09e",
+  "inputBoundary": "Only frozen annotations, layout/clip/contract identities. No actual, edit counts or tested recognizer.",
+  "reference": {
+    "clip": "pc-connect",
+    "state": "c83de914352e-f1379-f1387",
+    "reason": "Earlier source-time occurrence of the same five visible fields; this is a vocabulary reference, not proof from program output."
+  },
+  "findings": [
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1749,
+      "end": 1750,
+      "region": "main1",
+      "observedRole": "menu_label",
+      "priorReferenceRole": "pc_menu_choice",
+      "physical": {
+        "text": "マサキの パソコン",
+        "gridRect": [
+          2,
+          2,
+          11,
+          3
+        ],
+        "sourceRect": [
+          336,
+          126,
+          498,
+          162
+        ],
+        "marks": [
+          [
+            "handakuten",
+            7,
+            1
+          ]
+        ]
+      },
+      "readingOrder": 0,
+      "referenceReadingOrder": 0
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1749,
+      "end": 1750,
+      "region": "main2",
+      "observedRole": "menu_label",
+      "priorReferenceRole": "pc_menu_choice",
+      "physical": {
+        "text": "グリーンの パソコン",
+        "gridRect": [
+          2,
+          4,
+          12,
+          5
+        ],
+        "sourceRect": [
+          336,
+          162,
+          516,
+          198
+        ],
+        "marks": [
+          [
+            "dakuten",
+            2,
+            3
+          ],
+          [
+            "handakuten",
+            8,
+            3
+          ]
+        ]
+      },
+      "readingOrder": 1,
+      "referenceReadingOrder": 1
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1750,
+      "end": 1754,
+      "region": "main1",
+      "observedRole": "menu_label",
+      "priorReferenceRole": "pc_menu_choice",
+      "physical": {
+        "text": "マサキの パソコン",
+        "gridRect": [
+          2,
+          2,
+          11,
+          3
+        ],
+        "sourceRect": [
+          336,
+          126,
+          498,
+          162
+        ],
+        "marks": [
+          [
+            "handakuten",
+            7,
+            1
+          ]
+        ]
+      },
+      "readingOrder": 0,
+      "referenceReadingOrder": 0
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1750,
+      "end": 1754,
+      "region": "main2",
+      "observedRole": "menu_label",
+      "priorReferenceRole": "pc_menu_choice",
+      "physical": {
+        "text": "グリーンの パソコン",
+        "gridRect": [
+          2,
+          4,
+          12,
+          5
+        ],
+        "sourceRect": [
+          336,
+          162,
+          516,
+          198
+        ],
+        "marks": [
+          [
+            "dakuten",
+            2,
+            3
+          ],
+          [
+            "handakuten",
+            8,
+            3
+          ]
+        ]
+      },
+      "readingOrder": 1,
+      "referenceReadingOrder": 1
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1750,
+      "end": 1754,
+      "region": "main3",
+      "observedRole": "menu_label",
+      "priorReferenceRole": "pc_menu_choice",
+      "physical": {
+        "text": "オーキドの パソコン",
+        "gridRect": [
+          2,
+          6,
+          12,
+          7
+        ],
+        "sourceRect": [
+          336,
+          198,
+          516,
+          234
+        ],
+        "marks": [
+          [
+            "dakuten",
+            5,
+            5
+          ],
+          [
+            "handakuten",
+            8,
+            5
+          ]
+        ]
+      },
+      "readingOrder": 2,
+      "referenceReadingOrder": 2
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1750,
+      "end": 1754,
+      "region": "main4",
+      "observedRole": "menu_label",
+      "priorReferenceRole": "pc_menu_choice",
+      "physical": {
+        "text": "ポケモン リーグ",
+        "gridRect": [
+          2,
+          8,
+          10,
+          9
+        ],
+        "sourceRect": [
+          336,
+          234,
+          480,
+          270
+        ],
+        "marks": [
+          [
+            "dakuten",
+            9,
+            7
+          ],
+          [
+            "handakuten",
+            2,
+            7
+          ]
+        ]
+      },
+      "readingOrder": 3,
+      "referenceReadingOrder": 3
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1750,
+      "end": 1754,
+      "region": "main5",
+      "observedRole": "menu_label",
+      "priorReferenceRole": "pc_menu_choice",
+      "physical": {
+        "text": "スイッチを きる",
+        "gridRect": [
+          2,
+          10,
+          10,
+          11
+        ],
+        "sourceRect": [
+          336,
+          288,
+          480,
+          306
+        ],
+        "marks": []
+      },
+      "readingOrder": 4,
+      "referenceReadingOrder": 4
+    },
+    {
+      "clip": "pc-exit",
+      "start": 2248,
+      "end": 2253,
+      "region": "main1",
+      "observedRole": "menu_label",
+      "priorReferenceRole": "pc_menu_choice",
+      "physical": {
+        "text": "マサキの パソコン",
+        "gridRect": [
+          2,
+          2,
+          11,
+          3
+        ],
+        "sourceRect": [
+          336,
+          126,
+          498,
+          162
+        ],
+        "marks": [
+          [
+            "handakuten",
+            7,
+            1
+          ]
+        ]
+      },
+      "readingOrder": 0,
+      "referenceReadingOrder": 0
+    },
+    {
+      "clip": "pc-exit",
+      "start": 2248,
+      "end": 2253,
+      "region": "main2",
+      "observedRole": "menu_label",
+      "priorReferenceRole": "pc_menu_choice",
+      "physical": {
+        "text": "グリーンの パソコン",
+        "gridRect": [
+          2,
+          4,
+          12,
+          5
+        ],
+        "sourceRect": [
+          336,
+          162,
+          516,
+          198
+        ],
+        "marks": [
+          [
+            "dakuten",
+            2,
+            3
+          ],
+          [
+            "handakuten",
+            8,
+            3
+          ]
+        ]
+      },
+      "readingOrder": 1,
+      "referenceReadingOrder": 1
+    },
+    {
+      "clip": "pc-exit",
+      "start": 2248,
+      "end": 2253,
+      "region": "main3",
+      "observedRole": "menu_label",
+      "priorReferenceRole": "pc_menu_choice",
+      "physical": {
+        "text": "オーキドの パソコン",
+        "gridRect": [
+          2,
+          6,
+          12,
+          7
+        ],
+        "sourceRect": [
+          336,
+          198,
+          516,
+          234
+        ],
+        "marks": [
+          [
+            "dakuten",
+            5,
+            5
+          ],
+          [
+            "handakuten",
+            8,
+            5
+          ]
+        ]
+      },
+      "readingOrder": 2,
+      "referenceReadingOrder": 2
+    },
+    {
+      "clip": "pc-exit",
+      "start": 2248,
+      "end": 2253,
+      "region": "main4",
+      "observedRole": "menu_label",
+      "priorReferenceRole": "pc_menu_choice",
+      "physical": {
+        "text": "ポケモン リーグ",
+        "gridRect": [
+          2,
+          8,
+          10,
+          9
+        ],
+        "sourceRect": [
+          336,
+          234,
+          480,
+          270
+        ],
+        "marks": [
+          [
+            "dakuten",
+            9,
+            7
+          ],
+          [
+            "handakuten",
+            2,
+            7
+          ]
+        ]
+      },
+      "readingOrder": 3,
+      "referenceReadingOrder": 3
+    },
+    {
+      "clip": "pc-exit",
+      "start": 2248,
+      "end": 2253,
+      "region": "main5",
+      "observedRole": "menu_label",
+      "priorReferenceRole": "pc_menu_choice",
+      "physical": {
+        "text": "スイッチを きる",
+        "gridRect": [
+          2,
+          10,
+          10,
+          11
+        ],
+        "sourceRect": [
+          336,
+          288,
+          480,
+          306
+        ],
+        "marks": []
+      },
+      "readingOrder": 4,
+      "referenceReadingOrder": 4
+    }
+  ],
+  "affectedFrames": [
+    "pc-deposit-navigation:1749",
+    "pc-deposit-navigation:1750",
+    "pc-deposit-navigation:1751",
+    "pc-deposit-navigation:1752",
+    "pc-deposit-navigation:1753",
+    "pc-exit:2248",
+    "pc-exit:2249",
+    "pc-exit:2250",
+    "pc-exit:2251",
+    "pc-exit:2252"
+  ],
+  "controls": [
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1634,
+      "end": 1638,
+      "roles": [
+        "menu_label",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1638,
+      "end": 1649,
+      "roles": [
+        "menu_label",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1649,
+      "end": 1650,
+      "roles": [
+        "menu_label"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1650,
+      "end": 1651,
+      "roles": [
+        "menu_label",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1651,
+      "end": 1652,
+      "roles": [
+        "menu_label",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1652,
+      "end": 1654,
+      "roles": [
+        "menu_label",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1654,
+      "end": 1659,
+      "roles": [
+        "menu_label",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1659,
+      "end": 1660,
+      "roles": [
+        "menu_label",
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1660,
+      "end": 1661,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1661,
+      "end": 1673,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1673,
+      "end": 1674,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1674,
+      "end": 1688,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1688,
+      "end": 1689,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1689,
+      "end": 1697,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1697,
+      "end": 1698,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "quantity_label",
+        "item_quantity",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1698,
+      "end": 1706,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "quantity_label",
+        "item_quantity",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1706,
+      "end": 1707,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "quantity_label",
+        "item_quantity",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1707,
+      "end": 1708,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "quantity_label",
+        "item_quantity",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1708,
+      "end": 1714,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "quantity_label",
+        "item_quantity",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1714,
+      "end": 1716,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "quantity_label",
+        "item_quantity",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1716,
+      "end": 1724,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "quantity_label",
+        "item_quantity",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1724,
+      "end": 1725,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1725,
+      "end": 1731,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "item_name",
+        "quantity_label",
+        "item_quantity",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1731,
+      "end": 1732,
+      "roles": [
+        "occluded_menu_visible_prefix",
+        "menu_label",
+        "item_name",
+        "quantity_label",
+        "item_quantity",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1732,
+      "end": 1733,
+      "roles": [
+        "menu_label"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1733,
+      "end": 1734,
+      "roles": [
+        "menu_label",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1734,
+      "end": 1736,
+      "roles": [
+        "menu_label",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1736,
+      "end": 1737,
+      "roles": [
+        "menu_label",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    },
+    {
+      "clip": "pc-deposit-navigation",
+      "start": 1737,
+      "end": 1747,
+      "roles": [
+        "menu_label",
+        "pc_prompt"
+      ],
+      "reason": "Different visible fields; do not globally rename menu_label or match by row alone."
+    }
+  ],
+  "scope": [
+    {
+      "id": "pc-deposit-navigation",
+      "annotation": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/ocr-candidate-v3.jsonl",
+        "sha256": "9c47b795bbcc581f24875e46618328999f3316aa5f0ea59a53bca1b15d58e356"
+      },
+      "batchItem": {
+        "name": "PC 层级、道具列表与滚动",
+        "frames": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1",
+        "integrity": "reports/m2-all-scenes-final-check-v1/pc-deposit-navigation.json",
+        "contract": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/ocr-scoring-contract-all-scenes-v5.json",
+        "clip": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/all-scenes-pc-deposit-navigation-clip-v3.json",
+        "approval": "already_approved_frozen_reference_only",
+        "id": "pc-deposit-navigation",
+        "layout": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/layout-v2.json",
+        "candidate": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/ocr-candidate-v3.jsonl",
+        "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+      },
+      "stateCount": 32
+    },
+    {
+      "id": "pc-exit",
+      "annotation": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/ocr-candidate-v1.jsonl",
+        "sha256": "2971936b34856a36608135879a00b10eb11bb0f46ceaabbd0f93e0f659b77c37"
+      },
+      "batchItem": {
+        "name": "PC 关闭与文字失效",
+        "frames": "data/frames/video-02/all-scenes-pc-exit-pass2-v1",
+        "integrity": "reports/m2-all-scenes-final-check-v1/pc-exit.json",
+        "contract": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/ocr-scoring-contract-all-scenes-v5.json",
+        "clip": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/all-scenes-pc-exit-clip-v2.json",
+        "approval": "already_approved_frozen_reference_only",
+        "id": "pc-exit",
+        "layout": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/layout-v1.json",
+        "candidate": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/ocr-candidate-v1.jsonl",
+        "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+      },
+      "stateCount": 2
+    },
+    {
+      "id": "pc-connect",
+      "annotation": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/ocr-candidate-v1.jsonl",
+        "sha256": "3b9da087f8807b7ad136942afd3e5d293d6f669ea828ecbe8a685669450df0eb"
+      },
+      "batchItem": {
+        "name": "PC 光标与连接确认",
+        "frames": "data/frames/video-02/expansion-pc-connect-pass2-v1",
+        "integrity": "reports/m2-all-scenes-final-check-v1/pc-connect.json",
+        "contract": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/ocr-scoring-contract-all-scenes-v5.json",
+        "clip": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/expansion-pc-clip-v1.json",
+        "approval": "already_approved_frozen_reference_only",
+        "id": "pc-connect",
+        "layout": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/layout-v1.json",
+        "candidate": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/ocr-candidate-v1.jsonl",
+        "freeze": "data/gt/frozen/ocr-all-scenes-v2/freeze.json"
+      },
+      "stateCount": 10
+    }
+  ],
+  "decision": "Do not modify product roles by clip ID, future exit event or source timestamp. A contract-consistent candidate may preserve earlier pc_menu_choice for the same PC main menu, but requires full original-event double review of all three related events first. Do not rename PC item-operation menu labels, other fields or states automatically.",
+  "effectiveFreezeChanged": false,
+  "productAcceptance": false
+}

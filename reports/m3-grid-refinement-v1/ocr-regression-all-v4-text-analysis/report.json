@@ -1,0 +1,877 @@
+{
+  "status": "independent_raw_edit_counts_agree_not_OCR_acceptance",
+  "inputReport": {
+    "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v4/comparison/report.json",
+    "sha256": "74cd6e753defc8d2bbbe8b605e5e3d06576765fcf4ff1ad28f0005ce3e4d1087"
+  },
+  "frameReferences": 3368,
+  "uniqueSourceFrames": 3361,
+  "characters": 86602,
+  "errors": 7100,
+  "frameCharacterAccuracy": 0.9180157502136209,
+  "clips": [
+    {
+      "clipId": "startup-nontarget",
+      "characters": 0,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "intro-greeting",
+      "characters": 2155,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "intro-oak",
+      "characters": 975,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "intro-creatures",
+      "characters": 1082,
+      "errors": 5,
+      "framesWithTextErrors": 4
+    },
+    {
+      "clipId": "intro-pets",
+      "characters": 1536,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "intro-research",
+      "characters": 1024,
+      "errors": 2,
+      "framesWithTextErrors": 2
+    },
+    {
+      "clipId": "exploration-npc",
+      "characters": 1064,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "lab-rival-demand",
+      "characters": 802,
+      "errors": 32,
+      "framesWithTextErrors": 32
+    },
+    {
+      "clipId": "lab-oak-reply",
+      "characters": 1439,
+      "errors": 1,
+      "framesWithTextErrors": 1
+    },
+    {
+      "clipId": "oak-delivery",
+      "characters": 2469,
+      "errors": 1,
+      "framesWithTextErrors": 1
+    },
+    {
+      "clipId": "status-pages",
+      "characters": 7711,
+      "errors": 3,
+      "framesWithTextErrors": 1
+    },
+    {
+      "clipId": "pc-connect",
+      "characters": 2348,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "pc-deposit-navigation",
+      "characters": 5315,
+      "errors": 485,
+      "framesWithTextErrors": 104
+    },
+    {
+      "clipId": "pc-exit",
+      "characters": 225,
+      "errors": 450,
+      "framesWithTextErrors": 5
+    },
+    {
+      "clipId": "museum-question",
+      "characters": 1784,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "museum-fee",
+      "characters": 1626,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "safari-warden-npc",
+      "characters": 1308,
+      "errors": 26,
+      "framesWithTextErrors": 26
+    },
+    {
+      "clipId": "bill-data-npc",
+      "characters": 1521,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "bill-grandfather",
+      "characters": 1748,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "approved-trial",
+      "characters": 488,
+      "errors": 976,
+      "framesWithTextErrors": 24
+    },
+    {
+      "clipId": "gym-sign-continuation",
+      "characters": 463,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "battle-result",
+      "characters": 1464,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "mart-child",
+      "characters": 948,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "shop-buy-navigation",
+      "characters": 3735,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "shop-sell-entry",
+      "characters": 3123,
+      "errors": 1039,
+      "framesWithTextErrors": 52
+    },
+    {
+      "clipId": "shop-rejection",
+      "characters": 2223,
+      "errors": 63,
+      "framesWithTextErrors": 6
+    },
+    {
+      "clipId": "shop-exit",
+      "characters": 1868,
+      "errors": 3736,
+      "framesWithTextErrors": 43
+    },
+    {
+      "clipId": "league-centre-npc",
+      "characters": 3008,
+      "errors": 156,
+      "framesWithTextErrors": 3
+    },
+    {
+      "clipId": "nurse-greeting",
+      "characters": 1986,
+      "errors": 15,
+      "framesWithTextErrors": 13
+    },
+    {
+      "clipId": "nurse-intake",
+      "characters": 2919,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "nurse-return",
+      "characters": 1833,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "status-alt-pages",
+      "characters": 10314,
+      "errors": 149,
+      "framesWithTextErrors": 2
+    },
+    {
+      "clipId": "party-list",
+      "characters": 2374,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "route-ledge-npc",
+      "characters": 1153,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "route-pp-sign",
+      "characters": 2914,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "backpack-opening",
+      "characters": 662,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    },
+    {
+      "clipId": "backpack-navigation",
+      "characters": 4248,
+      "errors": 19,
+      "framesWithTextErrors": 5
+    },
+    {
+      "clipId": "skills-turn",
+      "characters": 4832,
+      "errors": 0,
+      "framesWithTextErrors": 0
+    }
+  ],
+  "frequentDifferences": [
+    {
+      "difference": "missing_region|shop_money_label:0:14:0|おかね|",
+      "frames": 44
+    },
+    {
+      "difference": "missing_region|shop_menu_choice:1:2:1|かいに きた|",
+      "frames": 44
+    },
+    {
+      "difference": "missing_region|money_amount:1:13:2|22526円|",
+      "frames": 44
+    },
+    {
+      "difference": "missing_region|shop_menu_choice:3:2:3|うりに きた|",
+      "frames": 44
+    },
+    {
+      "difference": "missing_region|shop_menu_choice:5:2:4|べつに いいです|",
+      "frames": 44
+    },
+    {
+      "difference": "extra_region|menu_label:1:2:0||かいに きた",
+      "frames": 44
+    },
+    {
+      "difference": "extra_region|menu_label:3:2:1||うりに きた",
+      "frames": 44
+    },
+    {
+      "difference": "extra_region|menu_label:5:2:2||べつに いいです",
+      "frames": 44
+    },
+    {
+      "difference": "extra_region|money_label:0:14:3||おかね",
+      "frames": 44
+    },
+    {
+      "difference": "extra_region|money:1:13:4||22526円",
+      "frames": 44
+    },
+    {
+      "difference": "text|pc_prompt:14:1:8|なにを あずけますか？|なにを あずけますか?",
+      "frames": 38
+    },
+    {
+      "difference": "text|pc_prompt:14:1:10|なにを あずけますか？|なにを あずけますか?",
+      "frames": 33
+    },
+    {
+      "difference": "missing_region|shop_prompt:14:1:9|どれを うっていただけますか？|",
+      "frames": 33
+    },
+    {
+      "difference": "extra_region|shop_message:14:1:9||どれを うっていただけますか?",
+      "frames": 33
+    },
+    {
+      "difference": "text|dialogue:14:1:0|グリーン『あっ！ ずるい！|グリーン『あッ！ ずるい！",
+      "frames": 29
+    },
+    {
+      "difference": "text|pc_prompt:14:1:4|なにを しますか？|なにを しますか?",
+      "frames": 26
+    },
+    {
+      "difference": "text|dialogue:14:1:0|でも…… 「は」は|でも……「は」は",
+      "frames": 24
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:0|セキチク ポケモン ジム|",
+      "frames": 16
+    },
+    {
+      "difference": "extra_region|dialogue:14:1:0||セキチク ポケモン ジム",
+      "frames": 16
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:5|そのほかに わたくしどもで|",
+      "frames": 16
+    },
+    {
+      "difference": "extra_region|shop_prompt:14:1:5||そのほかに わたくしどもで",
+      "frames": 16
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:5|ありがとう ございました|",
+      "frames": 14
+    },
+    {
+      "difference": "extra_region|shop_prompt:14:1:5||ありがとう ございました",
+      "frames": 14
+    },
+    {
+      "difference": "text|shop_prompt:16:1:6|おちからに なれることは？|おちからに なれることは?",
+      "frames": 13
+    },
+    {
+      "difference": "missing_region|dialogue_line:16:1:6|おちからに なれることは？|",
+      "frames": 12
+    },
+    {
+      "difference": "extra_region|shop_prompt:16:1:6||おちからに なれることは?",
+      "frames": 12
+    },
+    {
+      "difference": "text|dialogue:16:1:1|ポケモンセンターへ|ポケモンセンターヘ",
+      "frames": 11
+    },
+    {
+      "difference": "missing_region|menu_label:2:2:0|マサキの パソコン|",
+      "frames": 10
+    },
+    {
+      "difference": "missing_region|menu_label:4:2:1|グリーンの パソコン|",
+      "frames": 10
+    },
+    {
+      "difference": "missing_region|dialogue_line:16:1:1|キョウ にんてい トレーナー！|",
+      "frames": 10
+    },
+    {
+      "difference": "extra_region|dialogue:16:1:1||キョウ にんてい トレーナー！",
+      "frames": 10
+    },
+    {
+      "difference": "missing_region|menu_label:6:2:2|オーキドの パソコン|",
+      "frames": 9
+    },
+    {
+      "difference": "missing_region|menu_label:8:2:3|ポケモン リーグ|",
+      "frames": 9
+    },
+    {
+      "difference": "missing_region|menu_label:10:2:4|スイッチを きる|",
+      "frames": 9
+    },
+    {
+      "difference": "extra_region|pc_menu_choice:2:2:0||マサキの パソコン",
+      "frames": 9
+    },
+    {
+      "difference": "extra_region|pc_menu_choice:4:2:1||グリーンの パソコン",
+      "frames": 9
+    },
+    {
+      "difference": "extra_region|pc_menu_choice:6:2:2||オーキドの パソコン",
+      "frames": 9
+    },
+    {
+      "difference": "extra_region|pc_menu_choice:8:2:3||ポケモン リーグ",
+      "frames": 9
+    },
+    {
+      "difference": "extra_region|pc_menu_choice:10:2:4||スイッチを きる",
+      "frames": 9
+    },
+    {
+      "difference": "text|shop_prompt:14:1:4|どれを うっていただけますか？|どれを うっていただけますか?",
+      "frames": 5
+    },
+    {
+      "difference": "text|shop_message:14:1:9|どれを うっていただけますか？|どれを うっていただけますか?",
+      "frames": 5
+    },
+    {
+      "difference": "text|dialogue:14:1:0|いきもの たちが|いきもの たち",
+      "frames": 2
+    },
+    {
+      "difference": "text|dialogue:14:1:0|そして・|そして・・",
+      "frames": 2
+    },
+    {
+      "difference": "text|dialogue:14:1:0|グリーン『あっ！|グリーン『あッ！",
+      "frames": 2
+    },
+    {
+      "difference": "text|item_name:6:6:4|ポケモンのふえ|ホケモンのふえ",
+      "frames": 2
+    },
+    {
+      "difference": "text|pc_prompt:14:1:7|なにを あずけますか？|なにを あずけますか?",
+      "frames": 2
+    },
+    {
+      "difference": "text|item_name:6:6:5|いいつりざお|いいつりさお",
+      "frames": 2
+    },
+    {
+      "difference": "text|dialogue:14:1:0|でも…… 「は」|でも……「は」",
+      "frames": 2
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:0|セキチク|",
+      "frames": 2
+    },
+    {
+      "difference": "extra_region|dialogue:14:1:0||セキチク",
+      "frames": 2
+    },
+    {
+      "difference": "missing_region|dialogue_line:16:1:1|キョウ にんてい|",
+      "frames": 2
+    },
+    {
+      "difference": "extra_region|dialogue:16:1:1||キョウ にんてい",
+      "frames": 2
+    },
+    {
+      "difference": "missing_region|dialogue_line:13:1:0|セキチク ホケモン シム|",
+      "frames": 2
+    },
+    {
+      "difference": "missing_region|dialogue_line:15:1:1|キョウ にんてい トレーナー！|",
+      "frames": 2
+    },
+    {
+      "difference": "extra_region|dialogue:13:1:0||セキチク ホケモン シム",
+      "frames": 2
+    },
+    {
+      "difference": "extra_region|dialogue:15:1:1||キョウ にんてい トレーナー！",
+      "frames": 2
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:5|そのほかに わたくしども|",
+      "frames": 2
+    },
+    {
+      "difference": "extra_region|shop_prompt:14:1:5||そのほかに わたくしども",
+      "frames": 2
+    },
+    {
+      "difference": "missing_region|dialogue:13:1:0|このさきは してんのうと|",
+      "frames": 2
+    },
+    {
+      "difference": "missing_region|dialogue:15:1:1|ひとりずつ たたかうの！|",
+      "frames": 2
+    },
+    {
+      "difference": "extra_region|dialogue:14:1:0||このさきは してんのうと",
+      "frames": 2
+    },
+    {
+      "difference": "extra_region|dialogue:16:1:1||ひとりずつ たたかうの！",
+      "frames": 2
+    },
+    {
+      "difference": "text|dialogue:16:1:1|ポケット モ|ポケット",
+      "frames": 1
+    },
+    {
+      "difference": "text|dialogue:16:1:1|いたる|いた",
+      "frames": 1
+    },
+    {
+      "difference": "text|dialogue:14:1:0|グリーン『あっ！ ずる|グリーン『あッ！ ずる",
+      "frames": 1
+    },
+    {
+      "difference": "text|dialogue:14:1:0|オーキド『まー|オーキド『まー！",
+      "frames": 1
+    },
+    {
+      "difference": "text|dialogue:16:1:1|とどけもの|とどけも",
+      "frames": 1
+    },
+    {
+      "difference": "text|stat_label:12:1:14|ぼうぎょ|ほうきょ",
+      "frames": 1
+    },
+    {
+      "difference": "text|pokemon_type:12:10:20|タイプ2/こおり|タイフ2/こおり",
+      "frames": 1
+    },
+    {
+      "difference": "text|item_name:6:6:5|ひでんマシン02|ぴてんマシン02",
+      "frames": 1
+    },
+    {
+      "difference": "text|menu_label:6:2:2|どうぐを すてる|どうくを ずてる",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:0|セキ|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|dialogue:14:1:0||セキ",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:0|セキチク ポケモ|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|dialogue:14:1:0||セキチク ポケモ",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:0|セキチク ポケモン ジ|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|dialogue:14:1:0||セキチク ポケモン ジ",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:16:1:1|キョ|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|dialogue:16:1:1||キョ",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:16:1:1|キョウ に|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|dialogue:16:1:1||キョウ に",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:16:1:1|キョウ にんてい トレ|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|dialogue:16:1:1||キョウ にんてい トレ",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:16:1:1|キョウ にんてい トレーナー|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|dialogue:16:1:1||キョウ にんてい トレーナー",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:0|キョウ にんてい トレーナー！|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|dialogue:14:1:0||キョウ にんてい トレーナー！",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|shop_prompt:14:1:7|どれを うっていただけますか？|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|shop_message:14:1:7||どれを うっていただけますか?",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:5|そのほ|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|shop_prompt:14:1:5||そのほ",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:5|そのほかに|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|shop_prompt:14:1:5||そのほかに",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:5|そのほかに わたく|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|shop_prompt:14:1:5||そのほかに わたく",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:16:1:6|おち|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|shop_prompt:16:1:6||おち",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:16:1:6|おちからに|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|shop_prompt:16:1:6||おちからに",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:16:1:6|おちからに なれ|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|shop_prompt:16:1:6||おちからに なれ",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:16:1:6|おちからに なれること|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|shop_prompt:16:1:6||おちからに なれること",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:5|あ|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|shop_prompt:14:1:5||あ",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:5|ありがと|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|shop_prompt:14:1:5||ありがと",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:5|ありがとう ご|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|shop_prompt:14:1:5||ありがとう ご",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue_line:14:1:5|ありがとう ございま|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|shop_prompt:14:1:5||ありがとう ございま",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue:13:1:0|もし かてたら トアか ひらいて|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|dialogue:15:1:1|おくの へやに すすめるわ！|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|dialogue:14:1:0||もし かてたら ドアが ひらいて",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|dialogue:16:1:1||おくの へやに すすめるわ！",
+      "frames": 1
+    },
+    {
+      "difference": "text|dialogue:14:1:2|ここでは ポケモンの|ここては ホケモンの",
+      "frames": 1
+    },
+    {
+      "difference": "text|dialogue:14:1:0|ここでは ポケモンの|ここては ホケモンの",
+      "frames": 1
+    },
+    {
+      "difference": "text|pokemon_name:1:11:0|ウツボット|ウツホット",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|experience_label:3:9:5|けいけんち/|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|experience:4:13:6|117997|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|next_level_label:5:9:7|あと|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|experience_remaining:6:10:8|7129で|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|compact_status_label:6:16:9|:L|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|next_level:6:17:10|51|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|move_name:12:2:11|ねむりごな|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|pp_label:12:11:12|PP|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|move_pp:12:14:13|15/15|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|move_name:14:2:14|つるぎのまい|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|pp_label:14:11:15|PP|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|move_pp:14:14:16|30/30|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|move_name:16:2:17|すてみタックル|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|pp_label:16:11:18|PP|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|move_pp:16:14:19|15/15|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|stat_label:10:1:20|こうげき|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|attack:10:6:21|144|",
+      "frames": 1
+    },
+    {
+      "difference": "missing_region|pokemon_type:10:10:22|タイプ1/くさ|",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|compact_status_label:3.5:11:5||HP:",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|hp_current_max:4:12:6||160/160",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|pokemon_condition:6:10:7||じょうたい/ふつう",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|move_name:12:2:8||ねむりこな",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|pp_label:12:11:9||PP",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|move_pp:12:14:10||15/15",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|move_name:14:2:11||つるぎのまい",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|pp_label:14:11:12||PP",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|move_pp:14:14:13||30/30",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|move_name:16:2:14||すてみタックル",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|pp_label:16:11:15||PP",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|move_pp:16:14:16||15/15",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|stat_label:10:1:17||こうげき",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|attack:10:6:18||144",
+      "frames": 1
+    },
+    {
+      "difference": "extra_region|pokemon_type:10:10:19||タイプ1/くさ",
+      "frames": 1
+    },
+    {
+      "difference": "text|backpack_item_or_cancel:6:6:1|ボロのつりざお|ポロのつりさお",
+      "frames": 1
+    },
+    {
+      "difference": "text|backpack_item_or_cancel:6:6:1|いいつりざお|いいつりさお",
+      "frames": 1
+    },
+    {
+      "difference": "text|backpack_item_or_cancel:6:6:1|ポケモンのふえ|ホケモンのふえ",
+      "frames": 1
+    },
+    {
+      "difference": "text|backpack_item_or_cancel:4:6:0|いいつりざお|ポケモンのふえ",
+      "frames": 1
+    },
+    {
+      "difference": "text|backpack_item_or_cancel:6:6:1|ボロのつりざお|ホロのつりさお",
+      "frames": 1
+    },
+    {
+      "difference": "text|backpack_item_or_cancel:4:6:0|ボロのつりざお|いいつりざお",
+      "frames": 1
+    },
+    {
+      "difference": "text|backpack_item_or_cancel:6:6:1|ピーピーエイダー × 1|ビーヒーエイター × 1",
+      "frames": 1
+    }
+  ],
+  "scope": "Independent source-frame association and Unicode scalar edit counts; strict region keys unchanged. Geometry, state, page/UI and independent-session gates remain separate."
+}

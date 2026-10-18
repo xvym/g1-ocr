@@ -1,0 +1,40 @@
+{
+  "status": "implementation_diagnosis_not_new_blind_GT",
+  "files": [
+    {
+      "path": "reports/m3-grid-refinement-v1/shop-sell-contract-pass2-sheets-v1/sheet-002.png",
+      "sha256": "e51c4ac351f987f157847ce78e659fd9b3506e0a41846211b20e7c2f89b6fc78"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/shop-sell-contract-pass2-sheets-v1/sheet-003.png",
+      "sha256": "babdf75cca705fedd34e4e44afee2f6e9b2ff9a20acd8f1aa3ada421cbd3a68d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/shop-sell-contract-notes-v1/pass2.json",
+      "sha256": "b8a2ac43357d088a8141086f91ee821b78b1ce2f47929f790c6654f44bc144af"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/pc-cursor-notes-v1/pass2.json",
+      "sha256": "109baf47588636cc5f130799e735cd60d97997eb1372e18fd154559800251591"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001413.png",
+      "sha256": "d6090ea7788cbf63bfb0f794a9fa7d57dba3f30624e6099440d16177870872e6"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001414.png",
+      "sha256": "28da587a11772e428b70f485d309a55a41bf76d3ba12758fd54eaf3569307ab3"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001426.png",
+      "sha256": "84514d2ae36d08132571b0cdd93941d9886098bb690c59856c6f46c4a825d763"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001427.png",
+      "sha256": "fd2b1354cadbab7c04ff0066a0730147cd1780b3b0d1ce2a8d81a4d29b7b2446"
+    }
+  ],
+  "observation": "Shop parent becomes hollow before new sell prompt loads. Reject-item child changes filled to hollow as message begins; both parent and child remain hollow through completed reply. Current filled selection is distinct from suspended outline selection.",
+  "scope": "PC complete124-frame double read plus shop existing records and directly viewed transition originals. No GT revision.",
+  "productAcceptance": false
+}

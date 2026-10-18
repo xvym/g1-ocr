@@ -1,0 +1,34 @@
+{
+  "startFrame": 6682,
+  "gt": "data/gt/candidates/ocr-dialogue-expansion-v1/route-pp-sign/ocr-candidate-v1.jsonl",
+  "id": "9c8aee036f72-f6682-f6852-route-pp-sign",
+  "schemaVersion": 2,
+  "timeBase": "1/12288",
+  "mediaSha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+  "scoredRange": [
+    6684,
+    6849
+  ],
+  "frozen": false,
+  "independentSession": "unverified",
+  "postContext": [
+    6849,
+    6852
+  ],
+  "scoreKind": "text_and_state",
+  "selectionReason": "Original-source navigation selected this naturally bounded speech block before OCR exists. All original pre-loading, visible loading/complete/scroll/clear and ending after-state frames retained; details and corrected boundaries in both manual reads and differences.",
+  "scopeLimits": [
+    "Other dialogue and unselected source intervals remain unverified",
+    "Not independent acceptance; candidate GT only, no approval or OCR pass"
+  ],
+  "endFrameExclusive": 6852,
+  "warmup": [
+    6682,
+    6684
+  ],
+  "eventType": "路牌PP与休息说明五页",
+  "pageOpportunityPolicy": "explicit_id",
+  "boundaryStatus": "agent_double_read_complete_candidate_not_frozen",
+  "mediaId": "video-03",
+  "set": "development"
+}

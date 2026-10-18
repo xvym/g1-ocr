@@ -1,2 +1,115 @@
 # Keep generated review companions byte-identical to their recorded SHA-256.
 /reports/gt-review/gt-all-scenes-v2-mobile-*/index.html -text
+# New immutable GT/evidence versions must survive Git transport byte-for-byte.
+/data/gt/frozen/ocr-all-scenes-v2/** -text
+/data/gt/candidates/ocr-shop-metadata-v1/** -text
+/data/meta/shop-metadata-*.json -text
+/reports/gt-approval-all-scenes-v2/** -text
+/reports/gt-review/gt-all-scenes-v2-shop-metadata-*/** -text
+/reports/m2-foundation-fixtures-*/** -text
+/reports/m2-replay-*/** -text
+/reports/m2-shop-metadata-amendment-v1/** -text
+/data/gt/frozen/ocr-shop-metadata-r2/** -text
+/data/gt/frozen/ocr-all-scenes-v2-effective-r2/** -text
+/reports/gt-approval-shop-metadata-r2/** -text
+/reports/m2-effective-r2-*/** -text
+/reports/m3-font-audit-v1/** -text
+/reports/m3-viewport-v1/** -text
+/reports/m3-grid-refinement-v1/** -text
+/data/gt/candidates/ocr-observation-corrections-v1/** -text
+/data/gt/frozen/ocr-all-scenes-v2-observation-r3/** -text
+/reports/gt-review/gt-observation-corrections-v1/** -text
+/data/gt/candidates/ocr-observation-corrections-v2/** -text
+/data/gt/frozen/ocr-all-scenes-v2-observation-r4/** -text
+/reports/gt-review/gt-observation-corrections-v2/** -text
+/data/gt/candidates/ocr-observation-corrections-v3/** -text
+/data/gt/frozen/ocr-all-scenes-v2-observation-r5/** -text
+/reports/gt-review/gt-observation-corrections-v3/** -text
+
+/data/gt/candidates/ocr-observation-corrections-v4/** -text
+/data/gt/frozen/ocr-all-scenes-v2-observation-r6/** -text
+/reports/gt-review/gt-observation-corrections-v4/** -text
+/data/gt/candidates/ocr-observation-corrections-v5/** -text
+/data/gt/frozen/ocr-all-scenes-v2-observation-r7/** -text
+/reports/gt-review/gt-observation-corrections-v5/** -text
+
+data/gt/candidates/ocr-observation-corrections-v6/** -text
+
+data/gt/frozen/ocr-all-scenes-v2-observation-r8/** -text
+
+reports/gt-review/gt-observation-corrections-v6/** -text
+
+reports/m3-grid-refinement-v1/gym-dialogue-role-notes-v1/** -text
+
+reports/m3-grid-refinement-v1/shop-dialogue-role-notes-v1/** -text
+
+reports/m3-grid-refinement-v1/ocr-v7-observation-r8-comparison/** -text
+
+reports/m3-grid-refinement-v1/observation-r8-delivery-check-v1/** -text
+
+/data/gt/candidates/ocr-observation-corrections-v7/** -text
+/data/gt/frozen/ocr-all-scenes-v2-observation-r9/** -text
+/reports/gt-review/gt-observation-corrections-v7/** -text
+/reports/m3-grid-refinement-v1/intro-punctuation-notes-v1/** -text
+/reports/m3-grid-refinement-v1/ocr-v7-observation-r9-comparison/** -text
+/reports/m3-grid-refinement-v1/observation-r9-delivery-check-v1/** -text
+/data/gt/candidates/ocr-observation-corrections-v8/** -text
+/data/gt/frozen/ocr-all-scenes-v2-observation-r10/** -text
+/reports/gt-review/gt-observation-corrections-v8/** -text
+/reports/m3-grid-refinement-v1/oak-boundary-notes-v1/** -text
+/reports/m3-grid-refinement-v1/ocr-v7-observation-r10-comparison/** -text
+/reports/m3-grid-refinement-v1/observation-r10-delivery-check-v1/** -text
+/reports/m3-grid-refinement-v1/shop-sell-contract-notes-v1/** -text
+/reports/m3-grid-refinement-v1/shop-message-continuity-regression-v1.json -text
+/reports/m3-grid-refinement-v1/build-evidence-v8/** -text
+/reports/m3-grid-refinement-v1/ocr-regression-all-v8/** -text
+/reports/m3-grid-refinement-v1/ocr-v8-observation-r10-text-analysis/** -text
+/data/gt/candidates/ocr-observation-corrections-v9/** -text
+/data/gt/frozen/ocr-all-scenes-v2-observation-r11/** -text
+/reports/gt-review/gt-observation-corrections-v9/** -text
+/reports/m3-grid-refinement-v1/shop-parent*.json -text
+/reports/m3-grid-refinement-v1/build-evidence-v9/** -text
+/reports/m3-grid-refinement-v1/ocr-regression-all-v9/** -text
+/reports/m3-grid-refinement-v1/ocr-v8-observation-r11-comparison/** -text
+/reports/m3-grid-refinement-v1/ocr-v8-observation-r11-text-analysis/** -text
+/reports/m3-grid-refinement-v1/ocr-v9-observation-r11-text-analysis/** -text
+/reports/m3-grid-refinement-v1/backpack-scroll-notes-v1/** -text
+/reports/m3-grid-refinement-v1/backpack-scroll-pass2-sheets-v1/** -text
+/data/frames/video-04/backpack-scroll-pass2-v1/** -text
+/data/gt/candidates/ocr-observation-corrections-v10/** -text
+/data/gt/frozen/ocr-all-scenes-v2-observation-r12/** -text
+/reports/gt-review/gt-observation-corrections-v10/** -text
+/reports/m3-grid-refinement-v1/backpack-scroll-candidate-integrity-v1.json -text
+/reports/m3-grid-refinement-v1/ocr-v9-observation-r12-comparison/** -text
+/reports/m3-grid-refinement-v1/ocr-v9-observation-r12-text-analysis/** -text
+/reports/m3-grid-refinement-v1/observation-r12-delivery-check-v1/** -text
+/reports/m3-grid-refinement-v1/kana-source-ambiguity-v1/** -text
+reports/m3-grid-refinement-v1/build-evidence-v10/** -text
+reports/m3-grid-refinement-v1/build-evidence-v10-final/** -text
+reports/m3-grid-refinement-v1/ocr-regression-all-v10/** -text
+reports/m3-grid-refinement-v1/source-alias-regression-v1/** -text
+reports/m3-grid-refinement-v1/source-alias-input-integrity-v1.json -text
+reports/m3-grid-refinement-v1/source-alias-tests-v*.log -text
+/data/gt/candidates/ocr-observation-corrections-v11/** -text
+/data/gt/frozen/ocr-all-scenes-v2-observation-r13/** -text
+/reports/gt-review/gt-observation-corrections-v11/** -text
+/reports/m3-grid-refinement-v1/nurse-mark-* -text
+/reports/m3-grid-refinement-v1/nurse-mark-notes-v1/** -text
+/reports/m3-grid-refinement-v1/nurse-mark-pass2-sheets-v1/** -text
+/reports/m3-grid-refinement-v1/ocr-v10-observation-r13-comparison/** -text
+/reports/m3-grid-refinement-v1/ocr-v10-observation-r13-text-analysis/** -text
+/reports/m3-grid-refinement-v1/ocr-regression-r13-v10/** -text
+/reports/m3-grid-refinement-v1/observation-r13-delivery-check-v1/** -text
+/reports/m3-grid-refinement-v1/build-evidence-v11/** -text
+/reports/m3-grid-refinement-v1/ocr-message-erase-v1-nurse-greeting/** -text
+/reports/m3-grid-refinement-v1/ocr-regression-all-v11/** -text
+/reports/m3-grid-refinement-v1/message-erase-* -text
+/reports/m3-grid-refinement-v1/ocr-v11-observation-r13-text-analysis/** -text
+/reports/m3-grid-refinement-v1/visible-state-diagnosis-r13-v11/** -text
+/reports/m3-grid-refinement-v1/build-evidence-v12/** -text
+/reports/m3-grid-refinement-v1/build-evidence-v12-r2/** -text
+/reports/m3-grid-refinement-v1/ocr-message-fade-v*/** -text
+/reports/m3-grid-refinement-v1/ocr-regression-all-v12/** -text
+/reports/m3-grid-refinement-v1/message-fade-* -text
+/reports/m3-grid-refinement-v1/fade-*-original-pixels-v*.json -text
+/reports/m3-grid-refinement-v1/ocr-v12-observation-r13-text-analysis/** -text

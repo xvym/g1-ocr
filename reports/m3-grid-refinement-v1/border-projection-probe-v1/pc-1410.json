@@ -1,0 +1,74 @@
+{
+  "status": "diagnostic_bilinear_border_model_only",
+  "input": "data/frames/video-02/expansion-pc-connect-pass2-v1/frame-001410.png",
+  "initial": {
+    "located": true,
+    "method": "palette_and_phase",
+    "grid": {
+      "originX": 300.0176471075855,
+      "originY": 108.90696546121221,
+      "scaleX": 2.25,
+      "scaleY": 2.2664930555555554
+    },
+    "hypotheses": {
+      "available": true,
+      "xCandidates": [
+        {
+          "origin": 300.0176471075855,
+          "scale": 2.25,
+          "concentration": 0.27230317734823684,
+          "phase": 295.5176471075855
+        },
+        {
+          "origin": 299.73571915150023,
+          "scale": 2.2546875,
+          "concentration": 0.21640766179353962,
+          "phase": 295.22634415150026
+        },
+        {
+          "origin": 300.29380167753555,
+          "scale": 2.2453125,
+          "concentration": 0.20768920580458322,
+          "phase": 295.80317667753553
+        }
+      ],
+      "yCandidates": [
+        {
+          "origin": 108.90696546121221,
+          "scale": 2.2664930555555554,
+          "concentration": 0.20832376694447907,
+          "phase": 104.3739793501011
+        },
+        {
+          "origin": 108.44787843642472,
+          "scale": 2.271701388888889,
+          "concentration": 0.1711365275977889,
+          "phase": 103.90447565864694
+        },
+        {
+          "origin": 109.43564548279204,
+          "scale": 2.2604166666666665,
+          "concentration": 0.15032601035690485,
+          "phase": 104.91481214945871
+        }
+      ]
+    },
+    "envelope": [
+      295,
+      104,
+      666,
+      440
+    ]
+  },
+  "borderCells": 98,
+  "fixedSourceSamples": 3594,
+  "initialResidual": 21.403213207618503,
+  "bestResidual": 18.689067725930208,
+  "fittedGrid": [
+    300.0801471075855,
+    108.84446546121221,
+    2.25,
+    2.266927083333333
+  ],
+  "limitation": "Assumed bilinear source sampling, not certified. Fit uses only current matched border pixels, no GT. No snapping or product change."
+}

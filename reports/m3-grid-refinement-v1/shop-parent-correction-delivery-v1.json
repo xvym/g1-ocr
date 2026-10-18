@@ -1,0 +1,307 @@
+{
+  "status": "role_order_only_correction_verified",
+  "freezeSha256": "715b7297c1bd4327c6a8a50a93ddee7fef2410b8b25c4f2d4c2f4ac8a54199dd",
+  "changedFrames": [
+    1044,
+    1045,
+    1046,
+    1047,
+    1048,
+    1049,
+    1050,
+    1051,
+    1052,
+    1053,
+    1054,
+    1055,
+    1056,
+    1057,
+    1058,
+    1059,
+    1060,
+    1061,
+    1062,
+    1063,
+    1064,
+    1065,
+    1066,
+    1067,
+    1068,
+    1069,
+    1070,
+    1071,
+    1072,
+    1073,
+    1074,
+    1075,
+    1076,
+    1077,
+    1078,
+    1079,
+    1080,
+    1081,
+    1082,
+    1083,
+    1084,
+    1085,
+    1086,
+    1087,
+    1088,
+    1089,
+    1090,
+    1091,
+    1092,
+    1093,
+    1094,
+    1095,
+    1096,
+    1097,
+    1098,
+    1099,
+    1100,
+    1101
+  ],
+  "scoreChangedFrames": [
+    1044,
+    1045,
+    1046,
+    1047,
+    1048,
+    1049,
+    1050,
+    1051,
+    1052,
+    1053,
+    1054,
+    1055,
+    1056,
+    1057,
+    1058,
+    1059,
+    1060,
+    1061,
+    1062,
+    1063,
+    1064,
+    1065,
+    1066,
+    1067,
+    1068,
+    1069,
+    1070,
+    1071,
+    1072,
+    1073,
+    1074,
+    1075,
+    1076,
+    1077,
+    1078,
+    1079,
+    1080,
+    1081,
+    1082,
+    1083,
+    1084,
+    1085,
+    1086,
+    1087,
+    1088,
+    1089,
+    1090,
+    1091,
+    1092,
+    1093,
+    1094,
+    1095,
+    1096,
+    1097,
+    1098,
+    1099,
+    1100,
+    1101
+  ],
+  "unchangedActuals": [
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/startup-nontarget.jsonl",
+      "sha256": "3c4c4feaad7942256c44fea08d404d4d7ffb794f11335e67be137eeb89779c45"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/exploration-npc.jsonl",
+      "sha256": "ee3666cf7e7f8b20002e78f08ff21175d56c09ea33facc767c44e175108532db"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/battle-result.jsonl",
+      "sha256": "f15de1051dbdbd263ac1efa7bbdd11f3b8794c9401be65be890a531d649809c6"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/status-pages.jsonl",
+      "sha256": "1a0864b41bf754f017d2552bd78630f2598899e2990c88dbb1914fe09ce28f61"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/pc-deposit-navigation.jsonl",
+      "sha256": "b81cc141cfe86f9cc4184c9bc6ce4c1ea694324f0bf55a6bff2dee24dea56759"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/pc-exit.jsonl",
+      "sha256": "4a1e224c7c70e65a33d2d18932cefcaa59300d5255d7bb56efbcc34734f2a154"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/status-alt-pages.jsonl",
+      "sha256": "aa6ef43e7d4fade383a55ed58e8ad9846550c2ffbaa30a33df0f96f51ddcf419"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/party-list.jsonl",
+      "sha256": "98d522d858f718f7f70a66a541f626cdf15f860fc90e67f7eeb78f7d501c405e"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/shop-buy-navigation.jsonl",
+      "sha256": "1ec6f4ff2e5063ca35025afb6ca8c0c486eb65a5024be646c630ca6bab7fcc82"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/shop-sell-entry.jsonl",
+      "sha256": "d2b019c592e54e371a1adc937dd71fb8790536ad7b0954fc3783e245dce2bade"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/shop-rejection.jsonl",
+      "sha256": "457db027695fd9ec17f1bb985da468812392858146a427b617ebba31e49c4ec2"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/backpack-opening.jsonl",
+      "sha256": "054bfc82bea6f23b917bc7e3e67fcf8c057b4b9b00958fda651113b146498b03"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/backpack-navigation.jsonl",
+      "sha256": "ef5e164d50544e8962c90eea3017a2dbf28906d1fc635159735e05992ea7e644"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/skills-turn.jsonl",
+      "sha256": "ed8b23c12af20af70231b6ae734707d02d026e4e6e1190ad571d329356eab97e"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/shop-exit.jsonl",
+      "sha256": "337b233ac114537b87c30e583ad51de5c775e72ddd6205f615536229e95a1642"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/pc-connect.jsonl",
+      "sha256": "e9bf67dd32015c649e3f2135d9be3ff6c879735235bd937ac4991342cf01a7b4"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/approved-trial.jsonl",
+      "sha256": "5095dd55049443a544b57ccc04503357738425824753cbd7663631a256e424c5"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/bill-data-npc.jsonl",
+      "sha256": "d349bf934028bf733a40036ad8059a08d690505273dc08190ef19db974ff24f7"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/bill-grandfather.jsonl",
+      "sha256": "07e3ca12940ec0cbeb70d295f0bf3a4725111ce5ebd1945153507172a42b5765"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/gym-sign-continuation.jsonl",
+      "sha256": "52b254427bc760b5fa74834d0cf16a89d390b0b0351a48c9770cc425842bf20b"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/intro-creatures.jsonl",
+      "sha256": "7e716cddcb233e0cd5aa0f8cb369462715b4a5d721931eabdca999999ae14674"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/intro-greeting.jsonl",
+      "sha256": "8df79be1d6eab1ee5dd6f2263e88e7ceced24b6a0ff5c75d596f1ca49af40c3e"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/intro-oak.jsonl",
+      "sha256": "5a199144a85fe80cf32133110a0260d774cc92fe2f85033060762e69bbf5afe1"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/intro-pets.jsonl",
+      "sha256": "4738cea9f93269f5f5af8d367b18e2d7f56391d50f5a63419337dcdb9c12f06c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/intro-research.jsonl",
+      "sha256": "01ed906b51ec7bb06f73478fbfd33b6fe0ae53ea2113fbb85d984172563a1702"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/lab-oak-reply.jsonl",
+      "sha256": "783fe891fd1f16a4cf21da23314b1638bdefc7d54dc5008d21c88803b9b20543"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/lab-rival-demand.jsonl",
+      "sha256": "06914ef2cae12c9b3d0519bd16b0b31582789650d2eb5467a28ae4e7e4ea0447"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/league-centre-npc.jsonl",
+      "sha256": "bee37d239a3e027c4d5b253cb25eb10eb0e0bf94c48d8aec661bf66cb7bd2c35"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/mart-child.jsonl",
+      "sha256": "b2c5969f0bb64458cf1a60758114cf1c5977e07073592698a5e83b1eeaad662a"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/museum-fee.jsonl",
+      "sha256": "5064034000c5c5a13b4f874fd5b551895a4624d3fb37df1f75299b55a183ee9d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/museum-question.jsonl",
+      "sha256": "b98c620b71f75403aa24bb02ed72e3c8aeaa6396c4f9a9380e4a4852fcdd3c15"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/nurse-greeting.jsonl",
+      "sha256": "d5ced2355f5f5edca427d7e91a2bedaf153a53cad9bfbd6433a2ce4ba90bd6e8"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/nurse-intake.jsonl",
+      "sha256": "9da7624ec8e38c41eee514f364e888702ee47f26e12776d0d80220ab2b9f5aee"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/nurse-return.jsonl",
+      "sha256": "c9919eec8af9a926165da2c860aa4f2f6107a665ce85b70e195289c130263e8f"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/oak-delivery.jsonl",
+      "sha256": "f659767bc876bc22002f7df4b0ad7698083277bef7c05a4573a4b995e4786ff8"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/route-ledge-npc.jsonl",
+      "sha256": "d728ce82a41d038613b0bad6931202209e7cecd39509e1ae3b8f77d731838c01"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/route-pp-sign.jsonl",
+      "sha256": "e7bae7cf21f619d5ed3c11fe70ab7c74846b9e60d3ebdd52b051cbbc03016c2d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v8/actual/safari-warden-npc.jsonl",
+      "sha256": "2beb522922ac60462ecdff61cda171b8c73c4e67bc8d69eb8845e8f954d6529a"
+    }
+  ],
+  "oldRaw": {
+    "characters": 86569,
+    "editErrors": 3935,
+    "failedFrames": 2601,
+    "emptyFrames": 692,
+    "emptyFalsePositiveFrames": 0,
+    "uniqueContinuousStates": 714,
+    "equalStateErrors": 1492.0712273641852,
+    "equalStateCharacters": 15457,
+    "pageOpportunities": 117,
+    "contentExactPages": 7,
+    "frameCharacterAccuracy": 0.9545449294782197,
+    "equalStateCharacterAccuracy": 0.9034695460073633
+  },
+  "newRaw": {
+    "characters": 86569,
+    "editErrors": 7139,
+    "failedFrames": 2601,
+    "emptyFrames": 692,
+    "emptyFalsePositiveFrames": 0,
+    "uniqueContinuousStates": 714,
+    "equalStateErrors": 2418.0712273641852,
+    "equalStateCharacters": 15457,
+    "pageOpportunities": 117,
+    "contentExactPages": 7,
+    "frameCharacterAccuracy": 0.9175339902274486,
+    "equalStateCharacterAccuracy": 0.8435614137695423
+  },
+  "productAcceptance": false
+}

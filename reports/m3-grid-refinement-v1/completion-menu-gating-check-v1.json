@@ -1,0 +1,25 @@
+{
+  "status": "independent_reconstruction_passed_not_product_acceptance",
+  "report": {
+    "path": "reports/m3-grid-refinement-v1/completion-menu-gating-v1/report.json",
+    "sha256": "e6e40b0a205ce49d83f94e6a43fcd0e1192528332eca79e7d4848568ee4f998b"
+  },
+  "checker": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\check-completion-menu-gates.cjs",
+    "sha256": "461ec9fe21d9a163a09486d5e4702e3f973ba0af9177c302c355e16c420888d8"
+  },
+  "policyDecisions": 17885,
+  "retainedReferences": 3577,
+  "scoredReferences": 3368,
+  "uniqueScoredFrames": 3361,
+  "pages": 116,
+  "shortPages": 11,
+  "events": 604,
+  "immutableHashes": 586,
+  "htmlRows": 116,
+  "localLinks": 123,
+  "filters": "all/short/missed/no-match verified in DOM stub",
+  "actualBrowser": "not verified",
+  "actualUiLatency": "not measured",
+  "productAcceptance": false
+}

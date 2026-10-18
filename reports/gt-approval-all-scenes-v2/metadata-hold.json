@@ -1,0 +1,12 @@
+{
+  "status": "approved_frozen_bytes_preserved_but_M2_not_complete",
+  "frozenVersion": "data/gt/frozen/ocr-all-scenes-v2/freeze.json",
+  "affectedSourceFrame": "video-03:1439",
+  "conflict": "shop-rejection and shop-exit assign different field role strings, readingOrder and kind to the same visible source frame. Original review deduplication compared literal/pixel geometry only and explicitly omitted field-label naming; it did not prove exact scorer metadata consistency.",
+  "evidence": "strict-overlap-metadata-v1.json; ../m2-foundation-fixtures-v2/command-0.log",
+  "cause": "The pre-freeze structural validator checked each clip independently, and review deduplication omitted semantic labels. The new exact-field comparison exposed this cross-clip mismatch before any tested OCR exists.",
+  "action": "Preserve approved v2 and all old payloads. Prepare one affected-merchant-scene metadata amendment, do not normalize roles or order in actual OCR outputs, and do not start M3 until the amendment is approved and the full effective dataset rechecks cleanly.",
+  "repairAttempts": 1,
+  "repairStatus": "candidate_preparation_in_progress_not_approved_not_frozen",
+  "productAcceptance": false
+}

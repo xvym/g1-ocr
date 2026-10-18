@@ -1,0 +1,3525 @@
+{
+  "schemaVersion": 1,
+  "status": "saved_v18_causal_trigger_comparison_not_OCR_or_UI_acceptance",
+  "command": "D:\\Code\\Workspace\\g1-ocr\\tools\\compare-completion-menu-gates.cjs reports/m3-grid-refinement-v1/page-attribution-v18-r14-v3 reports/m3-grid-refinement-v1/completion-menu-gating-v1",
+  "protocol": {
+    "schemaVersion": 1,
+    "purpose": "Saved-v18 experiment separating menu-selection readiness from message readiness; no production changes",
+    "primaryStableMs": 100,
+    "primaryVariant": "separate_pc_100",
+    "variants": [
+      "arrow",
+      "arrow_stable_100",
+      "separate_message_100",
+      "blanket_hollow_100",
+      "separate_pc_100"
+    ],
+    "previousExperiment": "reports/m3-grid-refinement-v1/completion-trigger-v18-r14-v2",
+    "messageFields": [
+      "dialogue",
+      "dialogue_line",
+      "battle_message",
+      "pc_prompt",
+      "shop_prompt",
+      "shop_message",
+      "party_prompt"
+    ],
+    "messageGate": "A filled menu cursor never by itself confirms a new message. Existing genuine message-complete/fading state, a down arrow in the main message box, or 100ms of unchanged message fields confirms it; keep the confirmation only while the current message signature is unchanged.",
+    "menuGate": "Menu-only pages retain v18 rules. Mixed pages expose menuReady and messageReady separately. Existing redraw/scroll/clear states remain ineligible.",
+    "pcSuspensionGate": "On a currently identified pc_prompt, a hollow parent selection in renderer column1 with no active child selection to its right blocks message publication until a main-message arrow, active child or changed context is observed. Source-backed PC item-operation semantics, not clip identity or wording.",
+    "negativeControl": "Blanket suppression of all hollow-only menus is deliberately compared to expose loss of legitimate merchant messages; it is not the selected rule.",
+    "signature": "Message clock uses only currently observed message regions, marks and positions. Whole-candidate dedup keeps the previous experiment's full raw signature; no count reduction by ignoring selection changes.",
+    "minimumStableObservations": 2,
+    "observationClock": "Original integer PTS; no future or between-frame timer events; reset at existing clip boundary with real warmup",
+    "residualFalseTrigger": "Same frozen loading/message_loading definition as previous comparison",
+    "pageDetection": "Same116 frozen page opportunities and strict-key raw/final text scores as previous comparison; all duplicate observations must be ready",
+    "shortPage": "Same complete-frame duration strictly below200ms; do not discard or extend short pages",
+    "delay": "Source-PTS readiness lower bound only, not actual UI latency; misses excluded from quantiles and reported separately",
+    "successCriteria": [
+      "Reduce residual false triggers from5",
+      "Retain each of the previously rescued20 pages with final-correct text within200ms",
+      "No new missed page or short-page miss",
+      "No new scrolling/clearing candidate",
+      "List every remaining or newly introduced transition failure"
+    ],
+    "boundaries": "Never read GT, clip/frame IDs, fixed messages or future observations in a policy. No GT/scorer/OCR changes; all previous production repair limits remain. This is development evidence, not independent acceptance."
+  },
+  "protocolSha256": "92b432bf68b344f3e1d073f3b7e6ac6652a55a0fffab335ef702178711b57e42",
+  "previousExperiment": "reports/m3-grid-refinement-v1/completion-trigger-v18-r14-v2",
+  "previousReportSha256": "28f1e1849146f08a52723198bbf0d78f9ae5636a82ec1f869cec5441aa3e7b0c",
+  "pcSourceEvidence": [
+    {
+      "id": "red-green-jp",
+      "commit": "953f41b34108621b2bf13c3b1e53abfc9c3e5aec",
+      "path": "engine/menus/players_pc.asm",
+      "sha256": "6a64f64c61a47ccbf686db59690085b207858d752e66b6b9d22e3bc4be06fa83",
+      "gitBlob": "c50db33df81bccd9bc08903ed2c20cb1673091da",
+      "localCopy": ".cache/japanese-ui-sources-v5/red-green-jp/engine/menus/players_pc.asm",
+      "url": "https://github.com/Narishma-gb/pokegreen/blob/953f41b34108621b2bf13c3b1e53abfc9c3e5aec/engine/menus/players_pc.asm"
+    },
+    {
+      "id": "blue-jp",
+      "commit": "69cd1814203dd24533c46af383d7cff5591aea90",
+      "path": "engine/menus/players_pc.asm",
+      "sha256": "6a64f64c61a47ccbf686db59690085b207858d752e66b6b9d22e3bc4be06fa83",
+      "gitBlob": "c50db33df81bccd9bc08903ed2c20cb1673091da",
+      "localCopy": ".cache/japanese-ui-sources-v5/blue-jp/engine/menus/players_pc.asm",
+      "url": "https://github.com/Narishma-gb/pokeblue/blob/69cd1814203dd24533c46af383d7cff5591aea90/engine/menus/players_pc.asm"
+    },
+    {
+      "id": "yellow-jp",
+      "commit": "f282e72ae26232790fdb780aa5a5db7ec8ebf572",
+      "path": "engine/menus/players_pc.asm",
+      "sha256": "131ba7b9b834b4895d07e8379876b4bd6420dae96d3c84f2da0d7437719e9558",
+      "gitBlob": "0a2696859340a36cdf1a8ec41e4ef5fe001dd8e3",
+      "localCopy": ".cache/japanese-ui-sources-v5/yellow-jp/engine/menus/players_pc.asm",
+      "url": "https://github.com/Narishma-gb/pokeyellow-jp/blob/f282e72ae26232790fdb780aa5a5db7ec8ebf572/engine/menus/players_pc.asm"
+    }
+  ],
+  "attribution": "reports/m3-grid-refinement-v1/page-attribution-v18-r14-v3",
+  "run": "reports/m3-grid-refinement-v1/ocr-regression-all-v18",
+  "frozen": "data/gt/frozen/ocr-all-scenes-v2-observation-r14",
+  "freezeSha256": "eac7f15d33ed07d8df6d27cb9133da42582716ec48f77b29dee0172cf5b01dfe",
+  "planAtStart": {
+    "path": ".agent/EXECPLAN.md",
+    "sha256": "aeba9ee73c53429573e83a9c71e285dd20f6825eb25a0cab8be2ddbc3c43f54a"
+  },
+  "inputCounts": {
+    "clips": 38,
+    "retainedReferences": 3577,
+    "scoredReferences": 3368,
+    "uniqueScoredFrames": 3361,
+    "completeFrames": 2045,
+    "noncompleteFrames": 1316,
+    "pages": 116,
+    "shortPages": 11
+  },
+  "summary": [
+    {
+      "id": "arrow",
+      "stableMs": null,
+      "newTriggers": 105,
+      "residualFalseTriggers": 5,
+      "residualTextCorrect": 5,
+      "otherNoncompleteTriggers": 3,
+      "readyPages": 94,
+      "readyMisses": 22,
+      "rawTextCorrectPages": 77,
+      "finalTextCorrectPages": 78,
+      "readyWithin200": 92,
+      "rawWithin200": 75,
+      "finalWithin200": 76,
+      "readyOver200": 2,
+      "shortPages": 11,
+      "shortReadyMisses": 2,
+      "shortRawTextMisses": 4,
+      "shortFinalTextMisses": 4,
+      "readinessDelayMs": {
+        "n": 94,
+        "p50": 0,
+        "p95": 41.666666666666664,
+        "p99": 2066.6666666666665,
+        "max": 2066.6666666666665
+      },
+      "rawTextDelayMs": {
+        "n": 77,
+        "p50": 0,
+        "p95": 52.63157894736842,
+        "p99": 2066.6666666666665,
+        "max": 2066.6666666666665
+      },
+      "finalTextDelayMs": {
+        "n": 78,
+        "p50": 0,
+        "p95": 52.63157894736842,
+        "p99": 2066.6666666666665,
+        "max": 2066.6666666666665
+      },
+      "residualAffectedClips": [
+        "pc-connect"
+      ],
+      "processingMsAtTrigger": {
+        "n": 105,
+        "p50": 48.7529,
+        "p95": 70.8062,
+        "p99": 84.3072,
+        "max": 90.4033
+      }
+    },
+    {
+      "id": "arrow_stable_100",
+      "stableMs": 100,
+      "newTriggers": 126,
+      "residualFalseTriggers": 5,
+      "residualTextCorrect": 5,
+      "otherNoncompleteTriggers": 4,
+      "readyPages": 114,
+      "readyMisses": 2,
+      "rawTextCorrectPages": 97,
+      "finalTextCorrectPages": 98,
+      "readyWithin200": 114,
+      "rawWithin200": 97,
+      "finalWithin200": 98,
+      "readyOver200": 0,
+      "shortPages": 11,
+      "shortReadyMisses": 2,
+      "shortRawTextMisses": 4,
+      "shortFinalTextMisses": 4,
+      "readinessDelayMs": {
+        "n": 114,
+        "p50": 0,
+        "p95": 125,
+        "p99": 125,
+        "max": 125
+      },
+      "rawTextDelayMs": {
+        "n": 97,
+        "p50": 0,
+        "p95": 125,
+        "p99": 125,
+        "max": 125
+      },
+      "finalTextDelayMs": {
+        "n": 98,
+        "p50": 0,
+        "p95": 125,
+        "p99": 125,
+        "max": 125
+      },
+      "residualAffectedClips": [
+        "pc-connect"
+      ],
+      "processingMsAtTrigger": {
+        "n": 126,
+        "p50": 49.4065,
+        "p95": 70.8062,
+        "p99": 84.3072,
+        "max": 90.4033
+      }
+    },
+    {
+      "id": "separate_message_100",
+      "stableMs": 100,
+      "mode": "message",
+      "newTriggers": 124,
+      "residualFalseTriggers": 0,
+      "residualTextCorrect": 0,
+      "otherNoncompleteTriggers": 3,
+      "readyPages": 114,
+      "readyMisses": 2,
+      "rawTextCorrectPages": 97,
+      "finalTextCorrectPages": 98,
+      "readyWithin200": 114,
+      "rawWithin200": 97,
+      "finalWithin200": 98,
+      "readyOver200": 0,
+      "shortPages": 11,
+      "shortReadyMisses": 2,
+      "shortRawTextMisses": 4,
+      "shortFinalTextMisses": 4,
+      "readinessDelayMs": {
+        "n": 114,
+        "p50": 0,
+        "p95": 125,
+        "p99": 125,
+        "max": 125
+      },
+      "rawTextDelayMs": {
+        "n": 97,
+        "p50": 0,
+        "p95": 125,
+        "p99": 125,
+        "max": 125
+      },
+      "finalTextDelayMs": {
+        "n": 98,
+        "p50": 0,
+        "p95": 125,
+        "p99": 125,
+        "max": 125
+      },
+      "residualAffectedClips": [],
+      "processingMsAtTrigger": {
+        "n": 124,
+        "p50": 49.4065,
+        "p95": 70.8062,
+        "p99": 84.3072,
+        "max": 90.4033
+      }
+    },
+    {
+      "id": "blanket_hollow_100",
+      "stableMs": 100,
+      "mode": "blanket",
+      "newTriggers": 121,
+      "residualFalseTriggers": 0,
+      "residualTextCorrect": 0,
+      "otherNoncompleteTriggers": 1,
+      "readyPages": 113,
+      "readyMisses": 3,
+      "rawTextCorrectPages": 96,
+      "finalTextCorrectPages": 97,
+      "readyWithin200": 113,
+      "rawWithin200": 96,
+      "finalWithin200": 97,
+      "readyOver200": 0,
+      "shortPages": 11,
+      "shortReadyMisses": 2,
+      "shortRawTextMisses": 4,
+      "shortFinalTextMisses": 4,
+      "readinessDelayMs": {
+        "n": 113,
+        "p50": 0,
+        "p95": 125,
+        "p99": 125,
+        "max": 125
+      },
+      "rawTextDelayMs": {
+        "n": 96,
+        "p50": 0,
+        "p95": 125,
+        "p99": 125,
+        "max": 125
+      },
+      "finalTextDelayMs": {
+        "n": 97,
+        "p50": 0,
+        "p95": 125,
+        "p99": 125,
+        "max": 125
+      },
+      "residualAffectedClips": [],
+      "processingMsAtTrigger": {
+        "n": 121,
+        "p50": 49.3922,
+        "p95": 70.8062,
+        "p99": 84.3072,
+        "max": 90.4033
+      }
+    },
+    {
+      "id": "separate_pc_100",
+      "stableMs": 100,
+      "mode": "pc",
+      "newTriggers": 123,
+      "residualFalseTriggers": 0,
+      "residualTextCorrect": 0,
+      "otherNoncompleteTriggers": 2,
+      "readyPages": 114,
+      "readyMisses": 2,
+      "rawTextCorrectPages": 97,
+      "finalTextCorrectPages": 98,
+      "readyWithin200": 114,
+      "rawWithin200": 97,
+      "finalWithin200": 98,
+      "readyOver200": 0,
+      "shortPages": 11,
+      "shortReadyMisses": 2,
+      "shortRawTextMisses": 4,
+      "shortFinalTextMisses": 4,
+      "readinessDelayMs": {
+        "n": 114,
+        "p50": 0,
+        "p95": 125,
+        "p99": 125,
+        "max": 125
+      },
+      "rawTextDelayMs": {
+        "n": 97,
+        "p50": 0,
+        "p95": 125,
+        "p99": 125,
+        "max": 125
+      },
+      "finalTextDelayMs": {
+        "n": 98,
+        "p50": 0,
+        "p95": 125,
+        "p99": 125,
+        "max": 125
+      },
+      "residualAffectedClips": [],
+      "processingMsAtTrigger": {
+        "n": 123,
+        "p50": 49.4065,
+        "p95": 70.8062,
+        "p99": 84.3072,
+        "max": 90.4033
+      }
+    }
+  ],
+  "comparison": {
+    "baseline": "arrow_stable_100",
+    "arrowReference": "arrow",
+    "primary": "separate_pc_100",
+    "rescuedReadyPages": [
+      "video-01:f9898",
+      "video-01:f13393",
+      "video-01:f13479",
+      "video-02:f3542",
+      "video-02:f3572",
+      "video-02:f3612",
+      "video-02:f3889",
+      "video-02:f4502",
+      "video-02:f4627",
+      "video-02:f4807",
+      "video-02:f5303",
+      "video-03:f596",
+      "video-03:f1468",
+      "video-03:f1699",
+      "video-03:f1929",
+      "video-03:f2172",
+      "video-03:f6504",
+      "video-03:f6825",
+      "video-04:f17493",
+      "video-04:f17539"
+    ],
+    "rescuedFinalTextPages": [
+      "video-01:f9898",
+      "video-01:f13393",
+      "video-01:f13479",
+      "video-02:f3542",
+      "video-02:f3572",
+      "video-02:f3612",
+      "video-02:f3889",
+      "video-02:f4502",
+      "video-02:f4627",
+      "video-02:f4807",
+      "video-02:f5303",
+      "video-03:f596",
+      "video-03:f1468",
+      "video-03:f1699",
+      "video-03:f1929",
+      "video-03:f2172",
+      "video-03:f6504",
+      "video-03:f6825",
+      "video-04:f17493",
+      "video-04:f17539"
+    ],
+    "regressedReadyPages": [],
+    "completeLoading31": {
+      "pages": 31,
+      "baselineReady": 11,
+      "primaryReady": 30,
+      "primaryFinalTextWithin200": 30
+    },
+    "additionalResidualTriggers": [],
+    "additionalOtherNoncompleteTriggers": [],
+    "shortReadyMisses": [
+      {
+        "id": "video-02:f3541",
+        "clips": [
+          "museum-question"
+        ],
+        "durationMs": 41.666666666666664
+      },
+      {
+        "id": "video-03:f1450",
+        "clips": [
+          "shop-exit"
+        ],
+        "durationMs": 41.666666666666664
+      }
+    ],
+    "previousRescuedPages": [
+      "video-01:f9898",
+      "video-01:f13393",
+      "video-01:f13479",
+      "video-02:f3542",
+      "video-02:f3572",
+      "video-02:f3612",
+      "video-02:f3889",
+      "video-02:f4502",
+      "video-02:f4627",
+      "video-02:f4807",
+      "video-02:f5303",
+      "video-03:f596",
+      "video-03:f1468",
+      "video-03:f1699",
+      "video-03:f1929",
+      "video-03:f2172",
+      "video-03:f6504",
+      "video-03:f6825",
+      "video-04:f17493",
+      "video-04:f17539"
+    ],
+    "retainedPreviousRescues": [
+      "video-01:f9898",
+      "video-01:f13393",
+      "video-01:f13479",
+      "video-02:f3542",
+      "video-02:f3572",
+      "video-02:f3612",
+      "video-02:f3889",
+      "video-02:f4502",
+      "video-02:f4627",
+      "video-02:f4807",
+      "video-02:f5303",
+      "video-03:f596",
+      "video-03:f1468",
+      "video-03:f1699",
+      "video-03:f1929",
+      "video-03:f2172",
+      "video-03:f6504",
+      "video-03:f6825",
+      "video-04:f17493",
+      "video-04:f17539"
+    ],
+    "lostPreviousRescues": [],
+    "newReadyMisses": [],
+    "newFinalTextMisses": [],
+    "removedResidualTriggers": [
+      {
+        "media": "video-02",
+        "frame": 1405,
+        "clip": "pc-connect"
+      },
+      {
+        "media": "video-02",
+        "frame": 1406,
+        "clip": "pc-connect"
+      },
+      {
+        "media": "video-02",
+        "frame": 1407,
+        "clip": "pc-connect"
+      },
+      {
+        "media": "video-02",
+        "frame": 1408,
+        "clip": "pc-connect"
+      },
+      {
+        "media": "video-02",
+        "frame": 1410,
+        "clip": "pc-connect"
+      }
+    ],
+    "perVariantRetainedRescues": {
+      "arrow": [],
+      "arrow_stable_100": [
+        "video-01:f9898",
+        "video-01:f13393",
+        "video-01:f13479",
+        "video-02:f3542",
+        "video-02:f3572",
+        "video-02:f3612",
+        "video-02:f3889",
+        "video-02:f4502",
+        "video-02:f4627",
+        "video-02:f4807",
+        "video-02:f5303",
+        "video-03:f596",
+        "video-03:f1468",
+        "video-03:f1699",
+        "video-03:f1929",
+        "video-03:f2172",
+        "video-03:f6504",
+        "video-03:f6825",
+        "video-04:f17493",
+        "video-04:f17539"
+      ],
+      "separate_message_100": [
+        "video-01:f9898",
+        "video-01:f13393",
+        "video-01:f13479",
+        "video-02:f3542",
+        "video-02:f3572",
+        "video-02:f3612",
+        "video-02:f3889",
+        "video-02:f4502",
+        "video-02:f4627",
+        "video-02:f4807",
+        "video-02:f5303",
+        "video-03:f596",
+        "video-03:f1468",
+        "video-03:f1699",
+        "video-03:f1929",
+        "video-03:f2172",
+        "video-03:f6504",
+        "video-03:f6825",
+        "video-04:f17493",
+        "video-04:f17539"
+      ],
+      "blanket_hollow_100": [
+        "video-01:f9898",
+        "video-01:f13393",
+        "video-01:f13479",
+        "video-02:f3542",
+        "video-02:f3572",
+        "video-02:f3612",
+        "video-02:f3889",
+        "video-02:f4502",
+        "video-02:f4627",
+        "video-02:f4807",
+        "video-02:f5303",
+        "video-03:f596",
+        "video-03:f1699",
+        "video-03:f1929",
+        "video-03:f2172",
+        "video-03:f6504",
+        "video-03:f6825",
+        "video-04:f17493",
+        "video-04:f17539"
+      ],
+      "separate_pc_100": [
+        "video-01:f9898",
+        "video-01:f13393",
+        "video-01:f13479",
+        "video-02:f3542",
+        "video-02:f3572",
+        "video-02:f3612",
+        "video-02:f3889",
+        "video-02:f4502",
+        "video-02:f4627",
+        "video-02:f4807",
+        "video-02:f5303",
+        "video-03:f596",
+        "video-03:f1468",
+        "video-03:f1699",
+        "video-03:f1929",
+        "video-03:f2172",
+        "video-03:f6504",
+        "video-03:f6825",
+        "video-04:f17493",
+        "video-04:f17539"
+      ]
+    }
+  },
+  "transitions": {
+    "clearing_empty_nontarget": {
+      "frames": 722,
+      "kinds": {
+        "non_target": 245,
+        "black_frame": 55,
+        "empty_target": 146,
+        "textbox_empty": 242,
+        "message_clear_hud_remains": 8,
+        "message_clear_menu_remains": 5,
+        "menu_partial_clear": 1,
+        "money_temporarily_cleared": 5,
+        "menu_empty": 5,
+        "no_textbox": 8,
+        "message_clearing": 2
+      },
+      "variants": {
+        "arrow": {
+          "readyFrames": 0,
+          "newTriggers": 0
+        },
+        "arrow_stable_100": {
+          "readyFrames": 0,
+          "newTriggers": 0
+        },
+        "separate_message_100": {
+          "readyFrames": 0,
+          "newTriggers": 0
+        },
+        "blanket_hollow_100": {
+          "readyFrames": 0,
+          "newTriggers": 0
+        },
+        "separate_pc_100": {
+          "readyFrames": 0,
+          "newTriggers": 0
+        }
+      }
+    },
+    "loading": {
+      "frames": 514,
+      "kinds": {
+        "message_loading": 479,
+        "submenu_cursor_loading": 3,
+        "menu_cursor_loading": 2,
+        "loading": 30
+      },
+      "variants": {
+        "arrow": {
+          "readyFrames": 6,
+          "newTriggers": 5
+        },
+        "arrow_stable_100": {
+          "readyFrames": 6,
+          "newTriggers": 5
+        },
+        "separate_message_100": {
+          "readyFrames": 0,
+          "newTriggers": 0
+        },
+        "blanket_hollow_100": {
+          "readyFrames": 0,
+          "newTriggers": 0
+        },
+        "separate_pc_100": {
+          "readyFrames": 0,
+          "newTriggers": 0
+        }
+      }
+    },
+    "other_transition": {
+      "frames": 38,
+      "kinds": {
+        "status_page_redraw": 2,
+        "submenu_opening": 6,
+        "submenu_partial_redraw": 3,
+        "cursor_transition": 4,
+        "submenu_partial_closing": 1,
+        "parent_partial_redraw": 1,
+        "menu_partial_redraw": 1,
+        "menu_redraw_or_cursor_transition": 19,
+        "menu_detail_before_cursor_transition": 1
+      },
+      "variants": {
+        "arrow": {
+          "readyFrames": 3,
+          "newTriggers": 3
+        },
+        "arrow_stable_100": {
+          "readyFrames": 5,
+          "newTriggers": 4
+        },
+        "separate_message_100": {
+          "readyFrames": 4,
+          "newTriggers": 3
+        },
+        "blanket_hollow_100": {
+          "readyFrames": 1,
+          "newTriggers": 1
+        },
+        "separate_pc_100": {
+          "readyFrames": 2,
+          "newTriggers": 2
+        }
+      }
+    },
+    "scrolling": {
+      "frames": 42,
+      "kinds": {
+        "scroll_partial_redraw": 2,
+        "scroll_duplicate_row": 1,
+        "scroll_cursor_transition": 1,
+        "scrolling": 37,
+        "scroll_settled_next_page_context": 1
+      },
+      "variants": {
+        "arrow": {
+          "readyFrames": 0,
+          "newTriggers": 0
+        },
+        "arrow_stable_100": {
+          "readyFrames": 0,
+          "newTriggers": 0
+        },
+        "separate_message_100": {
+          "readyFrames": 0,
+          "newTriggers": 0
+        },
+        "blanket_hollow_100": {
+          "readyFrames": 0,
+          "newTriggers": 0
+        },
+        "separate_pc_100": {
+          "readyFrames": 0,
+          "newTriggers": 0
+        }
+      }
+    }
+  },
+  "existingAggregateUnchanged": {
+    "frameReferences": 3368,
+    "uniqueSourceFrames": 3361,
+    "duplicateReferences": 7,
+    "overlapRule": "One original frame counted once. Max edit errors and conjunction of exact geometry/state/symbol correctness across every replay of overlapping ranges; never select a successful replay to hide a failure.",
+    "raw": {
+      "characters": 86569,
+      "editErrors": 188,
+      "failedFrames": 2584,
+      "emptyFrames": 692,
+      "emptyFalsePositiveFrames": 0,
+      "uniqueContinuousStates": 715,
+      "equalStateErrors": 43.014084507042256,
+      "equalStateCharacters": 15491,
+      "pageOpportunities": 116,
+      "contentExactPages": 7,
+      "frameCharacterAccuracy": 0.9978283219166214,
+      "equalStateCharacterAccuracy": 0.9972232854878935
+    },
+    "final": {
+      "characters": 86569,
+      "editErrors": 177,
+      "failedFrames": 2584,
+      "emptyFrames": 692,
+      "emptyFalsePositiveFrames": 0,
+      "uniqueContinuousStates": 715,
+      "equalStateErrors": 42.014084507042256,
+      "equalStateCharacters": 15491,
+      "pageOpportunities": 116,
+      "contentExactPages": 7,
+      "frameCharacterAccuracy": 0.9979553881874574,
+      "equalStateCharacterAccuracy": 0.997287839099668
+    }
+  },
+  "sources": [
+    {
+      "id": "video-01",
+      "path": "testpic/video/2026-10-11 22-34-17.mp4",
+      "sha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+      "frames": 29346,
+      "timeBase": "1/30",
+      "durationSeconds": "978.200000"
+    },
+    {
+      "id": "video-02",
+      "path": "testpic/video/4a6e01eb2ea34cdbfdba41e9b4db6a88.mp4",
+      "sha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+      "frames": 7964,
+      "timeBase": "1/12288",
+      "durationSeconds": "331.833333"
+    },
+    {
+      "id": "video-03",
+      "path": "testpic/video/5b34074da5f0cd90a956a4178d77b637.mp4",
+      "sha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+      "frames": 7402,
+      "timeBase": "1/12288",
+      "durationSeconds": "308.416667"
+    },
+    {
+      "id": "video-04",
+      "path": "testpic/video/cd87cd5a156ef5cf5d64a43a1e6600fd.mp4",
+      "sha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+      "frames": 22058,
+      "timeBase": "1/19456",
+      "durationSeconds": "1160.947368"
+    }
+  ],
+  "coverageAndGaps": {
+    "reviewId": "gt-observation-corrections-v12",
+    "status": "qualified_original_cursor_correction",
+    "clipCount": 38,
+    "candidateClipCount": 37,
+    "scoreFrameSum": 3368,
+    "uniqueScoredOriginalFrames": 3361,
+    "uniqueCandidateOriginalFrames": 3326,
+    "alreadyApprovedReferenceFrames": 35,
+    "duplicateScoreFrameReferences": 7,
+    "continuousStateIntervals": 720,
+    "completeStateIntervals": 163,
+    "pageOpportunitiesBeforeOverlapDeduplication": 117,
+    "uniquePageOpportunities": 116,
+    "selectedClipFrameReferences": 3577,
+    "uniqueSelectedClipFrames": 3507,
+    "scoredSeconds": 134.91622807017757,
+    "selectedClipSeconds": 140.86359649122872,
+    "totalSourceFrames": 66770,
+    "totalSourceSeconds": 2779.397368,
+    "outputIndependence": "Corrections read from original images in two passes without tested outputs. Existing OCR and prior diagnostic awareness disclosed; no claim of a fresh independent acceptance session.",
+    "sessionPartition": "development only; independence unverified; acceptance empty",
+    "notProductAcceptance": true,
+    "sources": [
+      {
+        "mediaId": "video-01",
+        "sha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+        "sourceFrames": 29346,
+        "notScoredRanges": [
+          [
+            0,
+            90
+          ],
+          [
+            390,
+            6058
+          ],
+          [
+            6165,
+            6171
+          ],
+          [
+            6221,
+            6248
+          ],
+          [
+            6322,
+            6328
+          ],
+          [
+            6398,
+            6404
+          ],
+          [
+            6480,
+            9838
+          ],
+          [
+            9926,
+            13376
+          ],
+          [
+            13418,
+            13431
+          ],
+          [
+            13510,
+            24213
+          ],
+          [
+            24321,
+            29346
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            90
+          ],
+          [
+            390,
+            6056
+          ],
+          [
+            6167,
+            6169
+          ],
+          [
+            6223,
+            6246
+          ],
+          [
+            6324,
+            6326
+          ],
+          [
+            6400,
+            6402
+          ],
+          [
+            6482,
+            9836
+          ],
+          [
+            9930,
+            13374
+          ],
+          [
+            13420,
+            13429
+          ],
+          [
+            13512,
+            24211
+          ],
+          [
+            24325,
+            29346
+          ]
+        ],
+        "sourceTimeBase": "1/30",
+        "sourceDurationSeconds": "978.200000"
+      },
+      {
+        "mediaId": "video-02",
+        "sha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+        "sourceFrames": 7964,
+        "notScoredRanges": [
+          [
+            0,
+            462
+          ],
+          [
+            564,
+            1379
+          ],
+          [
+            1426,
+            1634
+          ],
+          [
+            1754,
+            2248
+          ],
+          [
+            2258,
+            3523
+          ],
+          [
+            3632,
+            3798
+          ],
+          [
+            3917,
+            4447
+          ],
+          [
+            4526,
+            4551
+          ],
+          [
+            4652,
+            4706
+          ],
+          [
+            4832,
+            5264
+          ],
+          [
+            5324,
+            6916
+          ],
+          [
+            6964,
+            7964
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            460
+          ],
+          [
+            568,
+            1379
+          ],
+          [
+            1430,
+            1632
+          ],
+          [
+            1756,
+            2246
+          ],
+          [
+            2260,
+            3521
+          ],
+          [
+            3634,
+            3796
+          ],
+          [
+            3919,
+            4445
+          ],
+          [
+            4528,
+            4549
+          ],
+          [
+            4654,
+            4704
+          ],
+          [
+            4834,
+            5262
+          ],
+          [
+            5328,
+            6913
+          ],
+          [
+            6968,
+            7964
+          ]
+        ],
+        "sourceTimeBase": "1/12288",
+        "sourceDurationSeconds": "331.833333"
+      },
+      {
+        "mediaId": "video-03",
+        "sha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+        "sourceFrames": 7402,
+        "notScoredRanges": [
+          [
+            0,
+            578
+          ],
+          [
+            634,
+            820
+          ],
+          [
+            864,
+            1044
+          ],
+          [
+            1102,
+            1408
+          ],
+          [
+            1486,
+            1592
+          ],
+          [
+            1734,
+            1825
+          ],
+          [
+            2191,
+            3534
+          ],
+          [
+            3687,
+            6427
+          ],
+          [
+            6523,
+            6684
+          ],
+          [
+            6849,
+            7402
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            576
+          ],
+          [
+            636,
+            818
+          ],
+          [
+            866,
+            1042
+          ],
+          [
+            1104,
+            1406
+          ],
+          [
+            1488,
+            1590
+          ],
+          [
+            1736,
+            1823
+          ],
+          [
+            2193,
+            3532
+          ],
+          [
+            3689,
+            6425
+          ],
+          [
+            6525,
+            6682
+          ],
+          [
+            6852,
+            7402
+          ]
+        ],
+        "sourceTimeBase": "1/12288",
+        "sourceDurationSeconds": "308.416667"
+      },
+      {
+        "mediaId": "video-04",
+        "sha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+        "sourceFrames": 22058,
+        "notScoredRanges": [
+          [
+            0,
+            5174
+          ],
+          [
+            5358,
+            17462
+          ],
+          [
+            17566,
+            22058
+          ]
+        ],
+        "notSelectedClipRanges": [
+          [
+            0,
+            5172
+          ],
+          [
+            5366,
+            17458
+          ],
+          [
+            17570,
+            22058
+          ]
+        ],
+        "sourceTimeBase": "1/19456",
+        "sourceDurationSeconds": "1160.947368"
+      }
+    ],
+    "correctionCharacterDelta": 0,
+    "allSemanticIntegrityPassed": false,
+    "withdrawnPage": {
+      "id": "nurse-greeting-4",
+      "range": [
+        1921,
+        1922
+      ],
+      "reason": "Only frame of historical opportunity is partially erased old message after menu disappearance. Original102-frame double read establishes continuing erase through1922; not a new complete page. Keep every frame scored and retain old opportunity record here; do not count as a passed page."
+    }
+  },
+  "limitations": [
+    "All four videos remain the only media; only selected frozen clips are covered. Unselected time and missing dimensions remain unverified.",
+    "Uses saved raw v18 text and existing status hints, not pixel replay, new OCR, translation, wall-clock scheduling or actual UI rendering.",
+    "Arrow and original100ms baselines exactly reproduce the previous experiment. New gates independently confirm message fields; menu cursors alone cannot certify a new message.",
+    "The PC suspension gate uses current pc_prompt classification and current parent/child cursors. Merchant hollow-only messages are a counterexample to a blanket rule. Unknown/uncovered PC operations remain unverified.",
+    "Excluding sourceRect drift and arrow blinking from a temporal signature is diagnostic design, not normalization of existing strict scores.",
+    "Correct-text page counts keep existing strict role/grid-start/order matching, but do not certify source rectangles, all frames, symbols or completion state.",
+    "A page can be detected correctly and still have had earlier residual false triggers; both metrics must be considered together.",
+    "Delay is a source-time lower bound from frame observations; processing, capture delivery, queue, translation and UI costs are excluded. Misses are not assigned zero delay.",
+    "No timer event is invented between frames or at clip end, and policies reset at each existing replay boundary with its real warmup.",
+    "GT semantic qualification and independent acceptance remain unverified. This parameter sweep uses development data and is not independent validation."
+  ],
+  "productAcceptance": false,
+  "uiLatencyAcceptance": false,
+  "allSemanticIntegrityPassed": false,
+  "inputs": [
+    {
+      "path": "tools/completion-menu-gate-protocol.json",
+      "sha256": "92b432bf68b344f3e1d073f3b7e6ac6652a55a0fffab335ef702178711b57e42"
+    },
+    {
+      "path": "D:/Code/Workspace/g1-ocr/tools/compare-completion-menu-gates.cjs",
+      "sha256": "6b2847a2cdc0abafd317e34c1187070a877e335c557b7630fc4141ce3fefdd2c"
+    },
+    {
+      "path": "tools/completion-trigger-policy.cjs",
+      "sha256": "78468159f746032c13a2ca67539f90f60432dcca4a6ea312434ca610d203ad83"
+    },
+    {
+      "path": "tools/completion-menu-gate-policy.cjs",
+      "sha256": "ee787cdd27ca3f8da4c7e14c50d575dbc271d1f9b59c9e5ba5fac0bca6ddec1f"
+    },
+    {
+      "path": "spec.md",
+      "sha256": "45713b1ce25f1b0b80cc9afb573ff1687881ecba8af45ad9ab8f7d8b1ec77a53"
+    },
+    {
+      "path": ".agent/PLANS.md",
+      "sha256": "7535ddbad7e2546872f2c3f4727b07573aab3932f329324290a2808878a396c5"
+    },
+    {
+      "path": "tools/completion-trigger-protocol.json",
+      "sha256": "c4dcfcadab2556a297f65dbd801c28a9e1dae28a70b28763e20bd3273ec99ec8"
+    },
+    {
+      "path": "D:/Code/Workspace/g1-ocr/tools/compare-completion-triggers.cjs",
+      "sha256": "fc1cb5c3cfb0a2deb8f112bf121b5a2f346e521b574f5e2488b1de6b8e88ad30"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r14/freeze.json",
+      "sha256": "eac7f15d33ed07d8df6d27cb9133da42582716ec48f77b29dee0172cf5b01dfe"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/report.json",
+      "sha256": "04ae40b98acf683b72de96ec3852e0509e5eecf0780fb8afb2267011abb081cc"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/money-clear-regression-v1.json",
+      "sha256": "d60136e0ccca014adcbe92c261c489d2a61e51b066b5b448186e027a42ed2402"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/build-evidence-v18/class-identity.json",
+      "sha256": "d1884720c7dec3e95811582990cb8a0553c1f897fb7fb955fbd819b0e3cf0b8a"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/build-evidence-v18/source-snapshot.json",
+      "sha256": "1bcd057bac6f4d3f0852464245be35cb3f67ed94c4826c1b022e1d31b60da2d5"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/BootstrapWindow.class",
+      "sha256": "1cf56137fe6b8a377083bcbaedf72a370c419d3995469714b34a073fcf20fbe0"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/Main.class",
+      "sha256": "20a8b76462752766da2a30098af667ed19044900575e36dc4cea5c46c3dbe86a"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/capture/SourceFrame.class",
+      "sha256": "010fbd12c4888e15a48030bf05613bef4d7d0a35af1b12cfe58d1a1efdbff01e"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/BackpackTransitionTracker.class",
+      "sha256": "bc637aa0a50d91d74ebdf6bbb2be251f7a5d30f3db417f0239c4d8c602f0524e"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/BoxTextDetector$1.class",
+      "sha256": "cc38549920f83fbe5fe418ab72b185195cd967f76c066c9ead0578e10386335e"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/BoxTextDetector$Box.class",
+      "sha256": "c6032016b224cb054cbb8ce17ed100bc3b7ac059f764e2858901cc5f5187c20b"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/BoxTextDetector$Fragment.class",
+      "sha256": "a6a4bcb8a6abfdbcb1b0998122cb7e3550a16fe53449f052411ef43679d280d4"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/BoxTextDetector$Line.class",
+      "sha256": "7d20955b3e12c7a1ff2e341d932fa9477cca98e22b44c435cf8e02e7d854b98a"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/BoxTextDetector$Symbol.class",
+      "sha256": "e435b128e199741d3977f5094fbcc7972ed051fc9b9f14f24ce45bbfa68ae5a7"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/BoxTextDetector.class",
+      "sha256": "6369362406c6d13033b3c75923d32918b57af35209e03f17768d5a011891653d"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/FrameGeometryEstimator$1.class",
+      "sha256": "11b1002665bc6cae9cd1423ef92eb7ef083b7a4dd4160186788a1addffba825b"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/FrameGeometryEstimator$Estimate.class",
+      "sha256": "741b3401c9a950108ed0375a15ab4fc739ebaa8978cf7f2837ec1f0b6e78964e"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/FrameGeometryEstimator.class",
+      "sha256": "29257662c5debd588b45abe17c31713421c5475a5c5267e07cdf228848b0ddf2"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GameViewportLocator$1.class",
+      "sha256": "d62de6ba35dfd46f67e48892ba7572f42caddda38f3148ca957a2351f12438fe"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GameViewportLocator$Axis.class",
+      "sha256": "d52dd1a2a5235e2d48aaf37fefdcff1b095a7356322ef0c84b6925109a63e5cc"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GameViewportLocator$Box.class",
+      "sha256": "f095ef58a097c1913f2493cfdf9481280c0ca5b1d3461b96847b97e5c5137fdc"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GameViewportLocator$Config.class",
+      "sha256": "c610d2e66fc1bd9bdb03e3c5b1e7327aa3bbfeb225469fe94b0b391bd31071a4"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GameViewportLocator$Result.class",
+      "sha256": "90023562c29395b873511e7b2a3390566a44ce2f361c64beeb08449257671e4b"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GameViewportLocator$Status.class",
+      "sha256": "32871e6b2ec01b602fe40ec786db4d9bef5293b1137af32626a520d3f8066a2f"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GameViewportLocator.class",
+      "sha256": "d0c67f17099c6c5038a6d138b9656977ffb8f50a6d45fd3787d9f12c85fa794a"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/GlyphTemplate.class",
+      "sha256": "6c14519f593aac447d5f89fb1ad80a5b45be34c54af96f5a70f17d20c3b07357"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$1.class",
+      "sha256": "21f9c42a452f45aad29cf146a39b3cf28abce9fdf03228ad17ba19ac6ec0b3aa"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$Cursor.class",
+      "sha256": "89120fac289be2208eaf2fa255537ff38e8ea256d68361ac98741f925f212654"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$Mark.class",
+      "sha256": "34f777c10597d51ada08b3005b4f455da7b67243195ddf42822fef341dbc5493"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$Region.class",
+      "sha256": "1488921879beb5989bfd58e29f3d5bb042671c594bbbbedc6a52425870138aa4"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$RenderUnit.class",
+      "sha256": "88ea3156017305f3f6c8617e7a7c0c35b6ddfa1ef1679dc29907cd903c33fac8"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$Result.class",
+      "sha256": "13b889bf5dd9b4d1dbec5dc7ec892579b5b9813909dd311a7aa6a4d3ff8c6815"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$Shape.class",
+      "sha256": "e9e15f78319612e8f7c3b2d498e6401402dbf498e6e5ea7b58930d2b54672f82"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine$VisibleState.class",
+      "sha256": "79a1459c38f89e479c1f51002800b9e6f6659276699faba281cf3e12d441b1c7"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseOcrEngine.class",
+      "sha256": "e73cafd553a4bb30eed51ef2af212d0099e92769f5d07e8a919dbbb9376aa06a"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseSourceAliasResolver$Change.class",
+      "sha256": "afc102f8e56a8a00267a58aa1a8eede66b72032555224a5eca9662e7e92a7204"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseSourceAliasResolver$Entry.class",
+      "sha256": "2dfb770dc0db70412c50c6dcd4c778f451d7cb2814d5301e369b0f6ac5cefc84"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseSourceAliasResolver$Resolution.class",
+      "sha256": "0fd04bc79ab4e4c0fac10c9dbba34df5c77c27bdb57d5fe9ca91cc552fecfec0"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/JapaneseSourceAliasResolver.class",
+      "sha256": "786edd5fb2b8837c08d65ad349854c9a334afd2e196f35da9e92ecc6536d3f30"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/KanaScriptResolver$1.class",
+      "sha256": "69db14c52fb976568deeff42e633e4134fcb261129205f7a0b3a179f4820694c"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/KanaScriptResolver$Resolution.class",
+      "sha256": "2346f9ee1e7aa32a26073922d285bec82c5c7dcdb9187f125ed9613facd91e33"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/KanaScriptResolver$Result.class",
+      "sha256": "08043341cb665a8acf934c1923e4808bd37b8b041bcc9b51c1c59c819762f084"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/KanaScriptResolver.class",
+      "sha256": "c38a4840d2bb6092e867f63fac2cdb5a5ce541d4cb98da54bdc0d12f57d72f0d"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/MenuFieldReader$1.class",
+      "sha256": "f0bef1d4ce32606506b478f2fc23a76f805f5f706c2131277f7472e1760832e4"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/MenuFieldReader$Layout.class",
+      "sha256": "0747af59b2545a0e37848b787f3054619bfc1e321b079134e59bdf4e8996e05e"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/MenuFieldReader.class",
+      "sha256": "713905f27c5f25cb488924a45fd00701e3ba6940a9133bbe0575fc306ef01acc"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/MessageEraseTracker.class",
+      "sha256": "7de05e354d5237ac1c5546bb4c09229b81b7631adaaa8588bd9dda29c3ad8d9b"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/MessageFadeTracker.class",
+      "sha256": "897ed336913f7fdc193253567fa1694cd40fa8a70260b8cd9455129bb190c09c"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PackedGlyphReader.class",
+      "sha256": "cb59df8d9ea80fbde1c982c2b4a81de1251fd3a5d7e5524ec6eccf4579db040f"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphMatcher$1.class",
+      "sha256": "2f547e4a0128aa45e6d337ac24cdb1642b5937dbf8125d40e588d8f66bac6264"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphMatcher$Candidate.class",
+      "sha256": "20443822e19e10eb19ab847a0bea32ff3cf1998a6cbed7bed084a18d35c3a229"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphMatcher.class",
+      "sha256": "d81d38b64524baee4220cb4520f457de408d740cbcda3ef7c184893d8fe9b2a6"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphReader$1.class",
+      "sha256": "04f47698c28ed9384dacce90cad8ae46f3aa82a5836e77021659696e8326e562"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphReader$Cell.class",
+      "sha256": "fdbff3b72d8bc50f9d3427133d7573839f06f26090aa1b588889cf3685b55b34"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphReader$Frame.class",
+      "sha256": "de5759917e5f310a331071f7839e18b4eced4c4fe119b1d8a51c4e70e5245bad"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphReader$Grid.class",
+      "sha256": "e7ad959077ddae4ca3ebffe119cedde5cbafcd82ebdd67d1b5c3d2f1fbd37fb1"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphReader$PhaseAlternative.class",
+      "sha256": "c13a3075a4f59579a2e040ab80c4ab7f4c145f8aea42c8b073c12fd6a0432df1"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/PixelGlyphReader.class",
+      "sha256": "723dd7bc453509596eab66798cbc81ef14a4274d2338927db96f4390bb762a4e"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/RasterGridRefiner$1.class",
+      "sha256": "64dfc29d32e89a950e0871c24872646abef379231e68eb275eb5db8f873c9852"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/RasterGridRefiner$Axis.class",
+      "sha256": "b3c67113854833fefe7d8b4817e8b5d5175d9be2f52939a24245601cf93d0390"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/RasterGridRefiner$Result.class",
+      "sha256": "d4b4041312375c0ff3e9544246c34e7932be5fb976226b36e37ef336209a3460"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/RasterGridRefiner.class",
+      "sha256": "c78e6bf19f8fba758321dc4a35a8b4a6346531f75327cacf190b26c5f831614d"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/RasterMotionTracker$1.class",
+      "sha256": "e6b64206aacbbf658fbc40b47f2aaa8c6e05c61763765c793e307b4c50985c72"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/RasterMotionTracker$Alignment.class",
+      "sha256": "68610ffb81e61ee62a7d1b0baabc818fb63295b86b1ebb288e1fcf0c1ca2bab7"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/RasterMotionTracker.class",
+      "sha256": "24e14b5aa461712bcda8e2cec4c946c244e516d0e89811a30d8ee4778f6be950"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/SceneFieldReader$Scene.class",
+      "sha256": "59a6254ef8940d3fbfe880bacb12b735b879e5cbe569fd5f9203cb0b4a651f3d"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/SceneFieldReader.class",
+      "sha256": "b2d091bc472a6211b245d7de5d65e88ee47f270539080ef78ea78df17875b0c3"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/ShopMessageRoleTracker.class",
+      "sha256": "881353bcb50b17ae471940b6439b57be212151aafae3e342f39b324bda6f9a83"
+    },
+    {
+      "path": "app/target/classes/io/github/g1ocr/ocr/ShopMoneyTransitionTracker.class",
+      "sha256": "70b0c684c9bb9d8e224882bff37e9100bf7e0cca4bd5665a3bbc327046b8f9dc"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ComparisonAggregate$Frame.class",
+      "sha256": "a493137943105b55c9dcd38ae206c4f1579a20a8c804b46bfd0538708c761371"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ComparisonAggregate$Union.class",
+      "sha256": "b08c2e27de8a3858ce6fffd0dc90048e4f4e7a0b2fd00b174384c4b077b2dfc1"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ComparisonAggregate.class",
+      "sha256": "5da4998c6af7251d3a6adbdbdb2cbd8e6ea4d1f55d9b5d497c1fd78234dcbfb3"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/FontReferenceAudit.class",
+      "sha256": "a287a77eeb8ee36f85f1a39c8fd5ac18d8bd250a8f22da8f3cd5c076e7a3181f"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/FrameInspection.class",
+      "sha256": "46ad60d128f52cb9e69bdbaab6abb5212c4947eb841c893752dfdfea5090bf13"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/FrozenDataset$Clip.class",
+      "sha256": "47085119da5ba45b851b88b40bd8709fb78d5b76701eb0e818a9cc96d08fe0e0"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/FrozenDataset.class",
+      "sha256": "8df976f560ff23b1227acfc68fb3fec374da9c2693b78624b656ff530d99f674"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GlyphReadAudit$1.class",
+      "sha256": "133e11375ff69982a314023aa93de3670783ebba5f900ba1caa935ec511b06cd"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GlyphReadAudit$Totals.class",
+      "sha256": "136d0539b99a010c3877366cc881b489384a48d11e492dbd117bfc01be15fdc8"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GlyphReadAudit.class",
+      "sha256": "46cc5133439cb6ceefce5e157767c34232c7b479668503b73446cc275b7ff566"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GridProjection.class",
+      "sha256": "050659a3840e30d8c620a1a5124b9f5899429fca59472d9646d8256b24437f30"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GtGeometry.class",
+      "sha256": "53954d9673d04b1465ff6837c97e4cfc0127db89f36d64a5d35c3d5b875f9ce0"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/GtIntegrity.class",
+      "sha256": "1a42a6c5ab09d30782d9be67009a8e09bf1569229ded51fea2c070144b3f65c9"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/Ledger.class",
+      "sha256": "ba29e44adb400f4804b6940e59207f3cf4f95129fb8c753312b7eba032d41383"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrComparison$1.class",
+      "sha256": "add09829472d6bb0911db7d10c1e36a6bfe588bbe4cec903749f04dad26954a5"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrComparison$Totals.class",
+      "sha256": "56c34d592ba795115a855e2ad51f38294d17f6b72ad31d6566c79f45393d556c"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrComparison.class",
+      "sha256": "aec5a05d44c89a693699866ff0b4b07ea1ff739a15265f32c70bd15472cccca1"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrReplay$1.class",
+      "sha256": "8f9eca38bf36c4905cb0989a40faf46f36060cf9aeb004b041eece997be332bc"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrReplay.class",
+      "sha256": "902ee7d88cc4e8307b3b2f6d9dbf482cdd3c8a276512a1708f28143b8a2f0a8a"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrScoring$Edit.class",
+      "sha256": "449626fcf92756da8f010ec1810f97d9606377df3ea7fabe8a467fe3ac64d7c8"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrScoring$FrameScore.class",
+      "sha256": "5c99e5f6f6c00111efaef887e187fa58bc9450d768245b76522eaf56aedadc01"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/OcrScoring.class",
+      "sha256": "d80e6f0a4c31dec89046a1454eac66ec04efc11ab9c54d13617270ef3d3d997b"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/PageOpportunities.class",
+      "sha256": "cac571805b4c7f7b2729616611f705e4571a84d3a79f0bfe3a254acad55ee6bd"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline$1.class",
+      "sha256": "71e373889fba6cea00eba1468f34fe53e15d35f2a5b4c3e86fe6c1188ef8fb56"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline$2.class",
+      "sha256": "d4510f3a070cafeb246de2e979dd901ff0d12aa6cee2cd8c0151a011e88e038a"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline$Clock.class",
+      "sha256": "b8055462b5e8f0f7516599ade7379044a5a0d99f2cd7699001589580e0f5fb0a"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline$Consumer.class",
+      "sha256": "7cab379e40328925eb92a0e6ad6e36b5f76b0321cc14dd3009742bc9c6cba275"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ReplayTimeline.class",
+      "sha256": "5d5c7f9a29d19031c11f6e166f7cd91f754f84a727b5f43b3bfaf8b6df0e6568"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/SourceAliasConfiguration.class",
+      "sha256": "96fea8ac3d73007d032b3c84830e1e66255047863942093ca91a78382273f733"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/VideoTool.class",
+      "sha256": "140c17b1b32768c838980d06706332218a4efae42b7129d7b53ecdd955b95107"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ViewportCheck$1.class",
+      "sha256": "dbb8f78ebc921806367945a4d9eba64cb8300704bae332361d6becfe1b6e8b69"
+    },
+    {
+      "path": "verification/target/classes/io/github/g1ocr/verification/ViewportCheck.class",
+      "sha256": "e7ba6377fffc2a7225f0cfc61ec5f2aef2c4d48fc819040169bf985dcdd2311e"
+    },
+    {
+      "path": "app/pom.xml",
+      "sha256": "12f084ffe49df8b03f36b368d85a0c7e8e621042ad0fd974eb2cb52bb4460b90"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/BootstrapWindow.java",
+      "sha256": "2abcd13d05dc07d4d5411479769435d346dc38527a9bdb57f0535fbcb8bf9739"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/Main.java",
+      "sha256": "570035247cf5073bb18c876c984133e2722b822fec66acccf33a15f045b91699"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/capture/SourceFrame.java",
+      "sha256": "4fc95ad0eb997fe4164d9ebeb039f7336ee4b574b1b77fa126e35603a624065e"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/BackpackTransitionTracker.java",
+      "sha256": "57a32a749286c559ae2c30b1cbe01e6df4ff2b3d36e217c07db0de448256c2f5"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/BoxTextDetector.java",
+      "sha256": "2bbeaa1fe694ca6f31840d6ee9b4078ef8badbffc527c1b504d5c80defc3b7bb"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/FrameGeometryEstimator.java",
+      "sha256": "a0b7146a0f3fc4213c7114023a1bfee39b68efa41fefda2b7956da3870bb121f"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/GameViewportLocator.java",
+      "sha256": "77b2462cf57c9e21770fecbb3116c17e25400550e8c1f04b44f593cb80957db4"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/GlyphTemplate.java",
+      "sha256": "580562113ea6e4f5dd356bf6d179a474d007e56fb478f649243362d718078642"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/JapaneseOcrEngine.java",
+      "sha256": "d7010bea9a65d909c5ec0f873818aa8942c72eea62f4a3a8fae67744152c8bda"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/JapaneseSourceAliasResolver.java",
+      "sha256": "18c1c687c643dc12fd9e0dbb016dce07a641e623ee05abb220f3af369b742490"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/KanaScriptResolver.java",
+      "sha256": "d04de2bc5234addd010371e889526e0d473a95a83853729e2371437f2b0e34e2"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/MenuFieldReader.java",
+      "sha256": "9244a737fa52714a757e8c7def0b43af9429de651b4694c820902c5d701e32a7"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/MessageEraseTracker.java",
+      "sha256": "25990f9664a22f48e70cb8c090a9fb1094d653dd535e4d5644b29730b6474d67"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/MessageFadeTracker.java",
+      "sha256": "37cc0d3a611a1d1257c8c704060d8bd3a420bf41a8a5fb420e914522ed74cebf"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/PackedGlyphReader.java",
+      "sha256": "9080826de9b7b0638e168c23a29381eb7d394f290d09ad9cbda7312b4f5751fb"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/PixelGlyphMatcher.java",
+      "sha256": "6d3f4cc90e97207e1279232f8ee92642c49efdb664030a76eb6af14ea27a7429"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/PixelGlyphReader.java",
+      "sha256": "09919ff1ae2f4481e1beae70c9ab8d3a4b5531b50e4e2dd42ecb9da04c816df1"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/RasterGridRefiner.java",
+      "sha256": "586535d4f410b1e29ea6709e2e4c81f08e99e806e36496a6d57d721625c786c5"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/RasterMotionTracker.java",
+      "sha256": "d23064dd848a87e877d9efe06fce4e75539b2d811493adf8bf80a9922dd42aef"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/SceneFieldReader.java",
+      "sha256": "8569215b3d142c6f88e9a4a8029247db8231dc2a4c274d684205a70608173c2b"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/ShopMessageRoleTracker.java",
+      "sha256": "bad813caae6b616c72453f41218a4f847b03d6ec88bbdd70374abc2d109ea0a6"
+    },
+    {
+      "path": "app/src/main/java/io/github/g1ocr/ocr/ShopMoneyTransitionTracker.java",
+      "sha256": "605d18402fde17ab8ce42248a7f943b7bfb3a4a8cda3b8a90f50242e714c36b9"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/capture/SourceFrameTest.java",
+      "sha256": "1c6920def1606f71c9000fc6f5d463b19c30cebd7d3b140b1e105b2362481f16"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/BackpackTransitionTrackerTest.java",
+      "sha256": "42c970d04c0fb5c85d3eaf41fdcf1461779aefe04c5076286c52c7c1fd745009"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/BoxTextDetectorTest.java",
+      "sha256": "eab71e78e9689425c7a7b8b9834f630598fad53d0a2d84b37c4aaaeedf8bce74"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/FrameGeometryEstimatorTest.java",
+      "sha256": "22982936de0402be5f96be9963633a4ce3cdab14fa7271f7993fc29bc476aaa9"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/GameViewportLocatorTest.java",
+      "sha256": "2cdca27ebd82893a46e837860d9e035aa2d75e0c71b028ebd1ede258d2924555"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/JapaneseOcrEngineTest.java",
+      "sha256": "65d1f20d696d36b803e2e362b2dee372b8b45aaaf9a5286c649c8c7ee403dba5"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/JapaneseSourceAliasResolverTest.java",
+      "sha256": "0c3f8ac03dbbe7cb6f656c6bcf4aa62ad2c2048de2f851e7e34fe61d9793683b"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/KanaScriptResolverTest.java",
+      "sha256": "14a5468e6d9af7ae28bbbe669aeed45f7a905953ec0b20e86b7fc43fe596031a"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/MenuFieldReaderTest.java",
+      "sha256": "146fddf6708822c6dbe66df6433f82a77c3f096c258218a46929b92dac8ab2e6"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/MessageEraseTrackerTest.java",
+      "sha256": "3077b9118fbde53dbeffe42af653b1efa483be9d79ffe5cb4ab6922fcca31600"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/MessageFadeTrackerTest.java",
+      "sha256": "4ac823a0abea425331d276932e0f007fbb93749b91720da3d9fe84fb21ed89e1"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/PixelGlyphMatcherTest.java",
+      "sha256": "e6a7c1d10dcc82b79a34684fafc8c0e3e63263f6ec218e50791449f76570b1e0"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/PixelGlyphReaderTest.java",
+      "sha256": "13cd4fd72a41c8ea16946c8adbae4e375e052dcbb08b127891f74cf63bc3be66"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/RasterGridRefinerTest.java",
+      "sha256": "ea4819992e5e52239d40131c2ee1d027e55c9f36adc9218f402161c85d07771c"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/RasterMotionTrackerTest.java",
+      "sha256": "161e0b8807da5c7a1d8885631a81c9ee27eece0697d7d3a11d00139593e7f6b3"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/SceneFieldReaderTest.java",
+      "sha256": "61663d1fa0dc23aa7a8c27ab7e185fcca8417d7023831b725573adc387ab0538"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/ShopMessageRoleTrackerTest.java",
+      "sha256": "c89bb501069c62d111a80e95caf4772a2f21b336550f39f58afac5d3c29ec5a7"
+    },
+    {
+      "path": "app/src/test/java/io/github/g1ocr/ocr/ShopMoneyTransitionTrackerTest.java",
+      "sha256": "34a3ae495ddf3f2d36ce3b01363b75d82b27f8e27928e54082ba5ec4f935ae4c"
+    },
+    {
+      "path": "verification/pom.xml",
+      "sha256": "c1728f8fab652689407328492d3e942c2b682392c37c9f6dc2ecef8a96bf4760"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/ComparisonAggregate.java",
+      "sha256": "bc03995c4372439d8e61e8856ab42cfe2616d7a493e7262456f617a93cb3ecf4"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/FontReferenceAudit.java",
+      "sha256": "a89c5d3932d6870a7cb1cbd0a3cbb3e5bb46b53f0bd6ddee329ba8b8d5b5e7f1"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/FrameInspection.java",
+      "sha256": "a68d73519810cedb78b312788582bf52c75e837a7486f7d72f2701f6a1fb7d82"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/FrozenDataset.java",
+      "sha256": "df7a0def8b28281450b5201b843004f4792226d778d99a382cb571cdb07fca8c"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/GlyphReadAudit.java",
+      "sha256": "d23e45eb112049fb66071322f031249a8336a874a0934baef7315fb461fa1eff"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/GridProjection.java",
+      "sha256": "e35241e3df7bd7aaa706b2a2f45d3062f0a98e14d7cfdc19e0dd9eb12f36edbe"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/GtGeometry.java",
+      "sha256": "31d04930e147f68b18ffb2e3978793e04cc86bdb1bdaf88262316e6b4a869bd2"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/GtIntegrity.java",
+      "sha256": "0b17d8a0c0c261d2bf2d437ab0690166fcb1595ddc20879211438d4a7ee37694"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/Ledger.java",
+      "sha256": "c6ad289c5c0085af15f463631ded28c1d7c25ca2bb6006004f5d2aeba8f987c1"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/OcrComparison.java",
+      "sha256": "59ea098bfa11dc6afa2943fccfa98320cd146b54765469a63dc68280fbe57404"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/OcrReplay.java",
+      "sha256": "45332a3a06e1a5f8a6e024b776dd4c2def4dec6c0a18226d4b4cd23adae579bc"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/OcrScoring.java",
+      "sha256": "8c29327af605a82694df287dfa14a34334fb741a448e4395e3ebb7515352bdb4"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/PageOpportunities.java",
+      "sha256": "792daa2ba6ffd0f0af6f1bfcbf9cb2955c599c507c353aefbd70e2d2b7c749ac"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/ReplayTimeline.java",
+      "sha256": "436ed7015ccdddcb473c104164835161ac13d40021b0741d0a2abd9b999c3c1e"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/SourceAliasConfiguration.java",
+      "sha256": "15b06d8d9beb7e2ff5278bc3a0f4d7426824c1057d3cc3fdcf8fa4ff6fa4aafb"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/VideoTool.java",
+      "sha256": "e3d9c9c3c22cbfd3625e4f449cd58f747a3eaa1f1bb014fbf38442e7f063d89a"
+    },
+    {
+      "path": "verification/src/main/java/io/github/g1ocr/verification/ViewportCheck.java",
+      "sha256": "8c8e5b985253a4c9b67b0856083292a77dfd43262f40f5a67df7625cf6cc819c"
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/ComparisonAggregateTest.java",
+      "sha256": "e34baff23d4cfed29f60c008959ab211a2e20b78214fcafbc9617d36b8fe5f97"
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/FontReferenceAuditTest.java",
+      "sha256": "6815dde057053c217ac173da739853f991332c76e55b6974d270c917d566d16f"
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/FrozenCollectionTest.java",
+      "sha256": "f2012168f08247720bcd30502d1e7e4154a9b045bf8b30a91f5d38278b16be7f"
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/GlyphReadAuditTest.java",
+      "sha256": "9c77837e7d864f1f804f3af751611ce9dbe22f20ebc92c5e23e7b61cfe2d2057"
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/GridProjectionTest.java",
+      "sha256": "2064c031d608770ff7af2006221632463ff283f856f8ab0e325bcd885f3c86f3"
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/GtGeometryTest.java",
+      "sha256": "51c454798df721a3d5e4180a976a1f49a9605fd4fbc85dd2066a08bddb2107e5"
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/LedgerTest.java",
+      "sha256": "6f36d3b071b6ac37b1523ca512b47d793f765abf12b711d721f9f350b426df44"
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/OcrScoringTest.java",
+      "sha256": "ee58b606c4f38ccfab782c4d2a3c6eb0fd682dde4a2a391404cbebe8d671dabf"
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/PageOpportunitiesTest.java",
+      "sha256": "0b6ac143bd41dbf3681d78f953eb33809a6ade91b6c7334041c1ff6bd6c46862"
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/ReplayTimelineTest.java",
+      "sha256": "c4779f910d3ff31c10df3f845333cf26c7c1f9d1e639f1072150e61311b517f6"
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/SourceAliasConfigurationTest.java",
+      "sha256": "37491c945fbecf0810d7d02ffd1b04b416e8cddc2fe368d89db16fe106950774"
+    },
+    {
+      "path": "verification/src/test/java/io/github/g1ocr/verification/ViewportCheckTest.java",
+      "sha256": "b710a4637b28eee984d2cefdc9c86b3a7222f711a00499ee948f350941143414"
+    },
+    {
+      "path": "tools/attribute-ocr-pages.cjs",
+      "sha256": "dddaf69df86b1ee8d85a63018a96668feee870080be4697b4f0b639854d2b38b"
+    },
+    {
+      "path": "data/meta/all-scenes-review-v2.json",
+      "sha256": "8453f29770dd229910699ed1dfb098849ccc1b43dc0c2ec9851c7475fe513034"
+    },
+    {
+      "path": "data/meta/m1-v1/media.jsonl",
+      "sha256": "2458c4b931241d3fd6cea9617873e97f48b6ce94114c3db5b95eb4eb1b2d2798"
+    },
+    {
+      "path": "testpic/video/2026-10-11 22-34-17.mp4",
+      "sha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572"
+    },
+    {
+      "path": "data/meta/m1-v1/video-01/frames.jsonl",
+      "sha256": "2b3429e2dc53f20924bc2f2f5a6b1a6be1e5f31e4ea6fe89725b17a46ebd77f6"
+    },
+    {
+      "path": "testpic/video/4a6e01eb2ea34cdbfdba41e9b4db6a88.mp4",
+      "sha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207"
+    },
+    {
+      "path": "data/meta/m1-v1/video-02/frames.jsonl",
+      "sha256": "227125110fb04a576288c5a33b71ebb56083c815f96707f5366acf9fb968e555"
+    },
+    {
+      "path": "testpic/video/5b34074da5f0cd90a956a4178d77b637.mp4",
+      "sha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5"
+    },
+    {
+      "path": "data/meta/m1-v1/video-03/frames.jsonl",
+      "sha256": "e1152ec7214ccd1fab0eeb73a041b36a0b113128ead765f2eac4035c18dc33e9"
+    },
+    {
+      "path": "testpic/video/cd87cd5a156ef5cf5d64a43a1e6600fd.mp4",
+      "sha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30"
+    },
+    {
+      "path": "data/meta/m1-v1/video-04/frames.jsonl",
+      "sha256": "8fc167297316537ec5641f4edde9bcae8edcbf7565fdf33bb6c6bbf3e95fa54e"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/startup-nontarget/ocr-candidate-v1.jsonl",
+      "sha256": "96c6896c8aadd805ee8041a49c29908addd2075ea860e5cfa0a372f5e9aa26f4"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/startup-nontarget/all-scenes-startup-nontarget-clip-v1.json",
+      "sha256": "b26183d40cf2a69d4a666089afef0d6554afe05033be66a677f9ecd36a69d677"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/startup-nontarget/layout-v1.json",
+      "sha256": "6168dc8bcaf42a8ca2a95582d83812222a710b829979af35ae83e5eead966339"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/startup-nontarget/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r13/freeze.json",
+      "sha256": "83f59aad5b1af0d5b295bf70740309599ec5af065eb45367c6254af9e78f1ab2"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/startup-nontarget.jsonl",
+      "sha256": "c39081331682064f141855afb87018257a2e50877c91e29736b64dca8fba5f23"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/startup-nontarget-timeline.jsonl",
+      "sha256": "88640a327a4160d2babc064d29b02f998b3233fcba21add51129e18bb2f6072e"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/startup-nontarget-frames.jsonl",
+      "sha256": "bce1127c2d31db0769a2aa29d82a7101baa317b71063b3c216399b26b7809ec5"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/exploration-npc/ocr-candidate-v1.jsonl",
+      "sha256": "d4f28d7c291633e2018531ed2b04d6bc0db9cd6dbbb15d6907fda80d2903cd56"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/exploration-npc/all-scenes-exploration-npc-clip-v1.json",
+      "sha256": "3e88333c58ffc7fc8f692d877c3a9c215d05f2099074aaee02cf5aef9c4e486f"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/exploration-npc/layout-v1.json",
+      "sha256": "2c3d01e5af49c34cbcac4ff2d9115dacfba12959b794bb6ad975c131b8f5117a"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/exploration-npc/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/exploration-npc.jsonl",
+      "sha256": "f890c2e4d86aaf9b544ac30e2fd982558eaea0ee7b41c2f04897ebb95ab2636d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/exploration-npc-timeline.jsonl",
+      "sha256": "ded323dc1b7e8c81ef9e0e8e9ebbfff1e88d14009e9d553cea130c276efaac9c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/exploration-npc-frames.jsonl",
+      "sha256": "7a001d431f33a247498b349acd1d3ef995cf89f99ee1a23d0116a2e03b39ba7f"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/battle-result/ocr-candidate-v1.jsonl",
+      "sha256": "8d2c1d32849df442e3c38294a3a93cd3e8d87fbbf1be1fcfc2514415b5020157"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/battle-result/all-scenes-battle-result-clip-v1.json",
+      "sha256": "85eb2ad872d11e3fb7037dea800147b3ff2fba425cca9ca274f906fb5dec4aca"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/battle-result/layout-v1.json",
+      "sha256": "5c87608dfd5f564fffbab7cd16d29f35698eecfc8281cd39ff8c2ed8ae292c68"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/battle-result/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/battle-result.jsonl",
+      "sha256": "6cc91c60e5b14ea2d8e7f688a877ce171cc3980ea744d9008989495c7be27fb2"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/battle-result-timeline.jsonl",
+      "sha256": "2fa1123c88c6cde6c798ae5169cb387a8d7c915ba196ee497d3b74bb47001522"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/battle-result-frames.jsonl",
+      "sha256": "daa724bca289071e4d5392ece9d461192f0c51af2d4b7d4356e070107447b92a"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r3/status-pages/ocr-corrected-v2.jsonl",
+      "sha256": "7a1d6134b9a0c6c11c4ffe8e863107ac117da99f9c8db27920ae05e62930f7a4"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/status-pages/all-scenes-status-pages-clip-v1.json",
+      "sha256": "d748ea18e108b4e1078cd91e75629ab236d20ee252fa9e777bf0eccd17fb6a50"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/status-pages/layout-v1.json",
+      "sha256": "539e10e32a15ce2b115047bcd86adea3949aad559781807ab18ef812c25fe1d7"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/status-pages/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/status-pages.jsonl",
+      "sha256": "adc6048af45365ed24848bdd7fa731bf74aca6ef5df234d83b5782456c161374"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/status-pages-timeline.jsonl",
+      "sha256": "71e3a712c4b9f84d245668c69884947ae749dedc695f2a56ca8fb5b485f4067a"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/status-pages-frames.jsonl",
+      "sha256": "48e5c8369ee2e47e2e3fa9c69a80a493a90fd8efc432cc3cfe83e79dc98ace77"
+    },
+    {
+      "path": "data/gt/candidates/ocr-observation-corrections-v12/pc-deposit-navigation/ocr-candidate-cursor-v1.jsonl",
+      "sha256": "545612ea9a8133b80a5efafb95c02ff0aa2365e8e7665c2b00a53271525b67f0"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/all-scenes-pc-deposit-navigation-clip-v3.json",
+      "sha256": "ac724207d567d698305f526c45ef60ab397611235e408977b98aea61c5c40aa0"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/layout-v2.json",
+      "sha256": "ddbc5611922b831203d036345237316a8b6b67b3f0a07dc8dfcbad21b7588fa4"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/pc-deposit-navigation/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/pc-deposit-navigation.jsonl",
+      "sha256": "b2849eab12c971e311dece0bdfe465e4904f7c826116651539395e41180cf8ca"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/pc-deposit-navigation-timeline.jsonl",
+      "sha256": "1b9cff8384734185ffdbbb39a423e789ce8544de0399429bb55189195f4ad2b2"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/pc-deposit-navigation-frames.jsonl",
+      "sha256": "a37f44ed32c61038a8c8803aec6b1863a88901c6f8325a802853f08696e4e535"
+    },
+    {
+      "path": "data/gt/candidates/ocr-observation-corrections-v5/pc-exit/ocr-candidate-role-v1.jsonl",
+      "sha256": "b4c2cf523651bfcc590cce9f48319a7a4f3bf651dd71262b3593223b74c4d665"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/all-scenes-pc-exit-clip-v2.json",
+      "sha256": "dfeb5c9a32dc9ec3ab54209c1c61b76f594d72677cb2059580286bb3aa7762a6"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/layout-v1.json",
+      "sha256": "52540d5a4b4b3ac38a40dbaf5ab837c3db77c5913fb86399c3d821a49994a30d"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/pc-exit/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/pc-exit.jsonl",
+      "sha256": "236ab0413623826ed53160b1239222270b872d061260c499ce0e7fbe1c7e3243"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/pc-exit-timeline.jsonl",
+      "sha256": "3c04a03a70b763227623f5a237a9dafa54d752202457ef01ee6f0998a4fc68f3"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/pc-exit-frames.jsonl",
+      "sha256": "2c186c0d5e632a28fa71dfae6e1356f3c41e88ddff242c4bc33c39ee4b509810"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r3/status-alt-pages/ocr-corrected-v2.jsonl",
+      "sha256": "880f326ff0ae317b2d812eca981521915f9f69d84c4d9569c52eaf908f3404cf"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/status-alt-pages/all-scenes-status-alt-pages-clip-v1.json",
+      "sha256": "c2583b1029c6e103c137d641a57edfdd620771f59e6034a3f0c9a10defcbb00a"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/status-alt-pages/layout-v1.json",
+      "sha256": "39edcba44ba47f389895cdd096238547aa4dfa744988a1464c10230326f5080c"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/status-alt-pages/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/status-alt-pages.jsonl",
+      "sha256": "e05dbe0aed62c5b70abf05de5d505148bc93da8d92957f7e23f2825bdcbbbe82"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/status-alt-pages-timeline.jsonl",
+      "sha256": "92a4f858539d8b81d8799fa5f5d84b1393a92939d855b08857ed3c78f3614251"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/status-alt-pages-frames.jsonl",
+      "sha256": "f452de3d6c0c597fcc5fc5e722a8d1cdc67c70b598c0e886f87ff82cf4d692c7"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/party-list/ocr-candidate-v1.jsonl",
+      "sha256": "1fd0f395a594414645c548c6c5f7a2bb416fd350ac131df8fc7a81ac8474c897"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/party-list/all-scenes-party-list-clip-v2.json",
+      "sha256": "a8566df2115c30c8833c2edd5f80cdc838af2af770f61945fb647789112ad531"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/party-list/layout-v1.json",
+      "sha256": "61fc0ecdca44ae062bea433528a6e5472b20cc380e57def01419a85d53d01641"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/party-list/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/party-list.jsonl",
+      "sha256": "a91f41dd1e20418a6ea30eb601985f2a84b166cc191861ba37382cbdc7670bb1"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/party-list-timeline.jsonl",
+      "sha256": "4dfd95c861f518eaa8b5a0944a4897e1deb04170acfb5e3d639bc4e99bbfdfae"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/party-list-frames.jsonl",
+      "sha256": "065a1b390ad8354c0cdbc2214e229a828a9f165367c56c4383fb7d4b32e60ebc"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/shop-buy-navigation/ocr-candidate-v1.jsonl",
+      "sha256": "bceb6945558436080011f08f61928bf170c35294ed9d4615243a2b70f19a4256"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/shop-buy-navigation/all-scenes-shop-buy-navigation-clip-v2.json",
+      "sha256": "09c9960058e013d33ec839a2dd5930a7d2108f060900cd0f11f93fdc2d791ab1"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/shop-buy-navigation/layout-v1.json",
+      "sha256": "8dbe2bbfc6bf1d47995256ff4b1ea8a7e4f8d47088c02a9dd2c83bb82e686099"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/shop-buy-navigation/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/shop-buy-navigation.jsonl",
+      "sha256": "527b2808c0438a420b526498bde630ae7f2e5f169d16fd645fdb4a405fc19977"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/shop-buy-navigation-timeline.jsonl",
+      "sha256": "b934b89a699c23240b588932c12bd5d0004283e08430de2a637add0a1da3cdf0"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/shop-buy-navigation-frames.jsonl",
+      "sha256": "7dc802e558c98b135e05df1f793c9ab89f31c5f836a991778e3ba81f264a2fbc"
+    },
+    {
+      "path": "data/gt/candidates/ocr-observation-corrections-v9/shop-sell-entry/ocr-candidate-parent-role-v1.jsonl",
+      "sha256": "553c62dc97c6e2a0925d8b1625b5c6f67792e92c66337db60206a5b3befa975b"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/shop-sell-entry/all-scenes-shop-sell-entry-clip-v2.json",
+      "sha256": "431953bfbe62656db4f3941603150bb21874b7fcca08ca9392b4a36a3c4adf52"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/shop-sell-entry/layout-v1.json",
+      "sha256": "8dbe2bbfc6bf1d47995256ff4b1ea8a7e4f8d47088c02a9dd2c83bb82e686099"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/shop-sell-entry/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/shop-sell-entry.jsonl",
+      "sha256": "cb7c27eadb4387864e181f15fdd8c9613276542fcf38b0fe6dcccea540b98bf9"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/shop-sell-entry-timeline.jsonl",
+      "sha256": "80273c42ece3e56df71bbd1e81738280ad4dd265a1a9653ae22255f8ec279fc7"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/shop-sell-entry-frames.jsonl",
+      "sha256": "17ec5f89671248e51c0ed209004a854ffc63b3d292ed6070ef3f7e802d637302"
+    },
+    {
+      "path": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/ocr-candidate-v2.jsonl",
+      "sha256": "2c44d8e75b2df9b2f10400a05ade9ed596e0f11202fa2fe7632b821d235e05b8"
+    },
+    {
+      "path": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/shop-metadata-rejection-clip-v1.json",
+      "sha256": "59fb65440ddf09e0a5273bd0420cd811d65f0948dbc878f59939afb62016051c"
+    },
+    {
+      "path": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/layout-v1.json",
+      "sha256": "8dbe2bbfc6bf1d47995256ff4b1ea8a7e4f8d47088c02a9dd2c83bb82e686099"
+    },
+    {
+      "path": "data/gt/frozen/ocr-shop-metadata-r2/shop-rejection/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/shop-rejection.jsonl",
+      "sha256": "f8ab314f46f6939ce0e1263b42541a613cd220874cfd8423966f06db5e116e8a"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/shop-rejection-timeline.jsonl",
+      "sha256": "39bf6ce69623baea03c5651d77b458ad3416b1699fda1065451c6d4b215895d4"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/shop-rejection-frames.jsonl",
+      "sha256": "0240c35e9a09ea54a2e3c4b47b02e19de13673a1addd376b1136c58c852a4b30"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/ocr-candidate-v1.jsonl",
+      "sha256": "80ab4a399b972b09955215636ef01793124767b29c2b1eb16b723ecdfc9c72e5"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/all-scenes-backpack-opening-clip-v2.json",
+      "sha256": "ff8f144ebd1f130afb3ef1fd0e6c97fb5745d0ca9114e5441b4e6ae4a5f801ed"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/layout-v1.json",
+      "sha256": "77652ae818669c79dd49a7c4504299fceaf21e9981faebd120a3676ee8a3eee6"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/backpack-opening.jsonl",
+      "sha256": "430fe65269feeb16ff715a195634ff346df1de6cb310ae1ad95655daff99661d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/backpack-opening-timeline.jsonl",
+      "sha256": "0313296fa53f9b3080a8e4932ddb81eed873ebe44e9aa5d6b9f85223f62a2580"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/backpack-opening-frames.jsonl",
+      "sha256": "4163ec96639b0f083f0055f8a925cae4a7d5e2aee4a032d5d5daea3a188a336a"
+    },
+    {
+      "path": "data/gt/candidates/ocr-observation-corrections-v10/backpack-navigation/ocr-candidate-scroll-v1.jsonl",
+      "sha256": "09399b146b0ab8cee1e07f566be4051032e8c307dd791e7cc012d1c864c2e50a"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-navigation/all-scenes-backpack-navigation-clip-v2.json",
+      "sha256": "7d30d344d38606ceb97e39f16d730209636c5439f3f25ff439933b99f192bf0b"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-navigation/layout-v1.json",
+      "sha256": "5edb74be55314433d00ff9d5279bbabd02f0631c175fe7a626c8e6c3d4a3440f"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-navigation/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/backpack-navigation.jsonl",
+      "sha256": "352473b1b4efd3df8687d74266ae4b8f2eb1db992b8623606afe3e4114b42c98"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/backpack-navigation-timeline.jsonl",
+      "sha256": "df46dd9fa14466a162078c7fd11cdee455a9271ac4ecfbc3fec225b36b15235f"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/backpack-navigation-frames.jsonl",
+      "sha256": "4a57b5a265f67b7913a9950b4df6dcd57ce2ae78a76bb6f2669075b163f89e18"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/skills-turn/ocr-candidate-v2.jsonl",
+      "sha256": "20d92c8959a41aa5e67ca59e094da0e3300ae3283fd1fdf698815a4e16728d5c"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/skills-turn/all-scenes-skills-turn-clip-v2.json",
+      "sha256": "8565e3402776794fd23ab302b1d9fc8113d0afc8c7a6cfa9aaa7aec7f30977a4"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/skills-turn/layout-v1.json",
+      "sha256": "8c30181bc8808098a54c569734c8b1008bb71158b8fb87c7b74dd4b3e0827515"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/skills-turn/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/skills-turn.jsonl",
+      "sha256": "57886b5ed4b7ca7ba7ed785b160be574cfe0dc3e97511db59e069f349c37a830"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/skills-turn-timeline.jsonl",
+      "sha256": "523e00632e9485a247ac52229b86e987592584119979b1bf5ded7668c8e4572e"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/skills-turn-frames.jsonl",
+      "sha256": "7728ff0c1147009e551c49e7c3a2b0880ee87c36e859cde5cb4b810024bb54fc"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/ocr-candidate-v2.jsonl",
+      "sha256": "cb90c6276d9905227add176e828943ffd5874c5c8d5e15f14e9cfafe73f4db7f"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/expansion-shop-clip-v2.json",
+      "sha256": "5760d76623aa7d698bc3acf77999445b7d2651b80b56e703707140b7dc00e0f3"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/layout-v2.json",
+      "sha256": "aee32f21b67e47541a03c43ad863a12b4c79b05e871d27f7ce682f681826c366"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/shop-exit/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/shop-exit.jsonl",
+      "sha256": "8181f256a552e3cbd0e8d0dafe51c14f7111455bbd021efd96ef88329a046878"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/shop-exit-timeline.jsonl",
+      "sha256": "ff686b1c2dfdd1e70309e125ea931df3316ec736c7d3b5570c3d8fe6d147da9c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/shop-exit-frames.jsonl",
+      "sha256": "291f6b16d840a2b81c110b4d03c0d00f5cf4a0cbc52e717236b7c21faafb6d9d"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/ocr-candidate-v1.jsonl",
+      "sha256": "3b9da087f8807b7ad136942afd3e5d293d6f669ea828ecbe8a685669450df0eb"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/expansion-pc-clip-v1.json",
+      "sha256": "0a6005006657f212aa5da50c202f7ee30305a36b141c7df095fbd4f816aaf863"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/layout-v1.json",
+      "sha256": "0e36b60bf215eb24584920fab5f12a0f5a252de991c27423259330935311a8db"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/pc-connect/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/pc-connect.jsonl",
+      "sha256": "63cf7d303ef3ba3c52ef1381155b6e4ef6a207b5efd57d12061f8a0ed66430a6"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/pc-connect-timeline.jsonl",
+      "sha256": "38d7e4ae1a2da9cf641fccda17d80973aec80ba1894a3e702764d986ae15b5e6"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/pc-connect-frames.jsonl",
+      "sha256": "6e0d55a468ca04565d06c7b26795b3f68c1177b03d82f1ec9f7613c91ade3e47"
+    },
+    {
+      "path": "data/gt/candidates/ocr-observation-corrections-v6/approved-trial/ocr-candidate-role-v1.jsonl",
+      "sha256": "bcea58f995d75002d1421be6f92d7db331f52ff4eba5b4e231583ff968a91e79"
+    },
+    {
+      "path": "data/gt/frozen/ocr-trial-v2/clip-trial-v2.json",
+      "sha256": "a44fa579bf3699bca4b8edd654c2e1300507cd15002cc74bc34e7f8e314bd912"
+    },
+    {
+      "path": "data/gt/frozen/ocr-trial-v2/layout-v2.json",
+      "sha256": "f004f9fdb59681ef99f116593ad5a82b716380125487b7cf66b639ddfb00adf0"
+    },
+    {
+      "path": "data/gt/frozen/ocr-trial-v2/ocr-scoring-contract-v1.json",
+      "sha256": "2930e6b370616fe29402d724e890ee4314ad9f714f9b8cae377484137d934c6c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/approved-trial.jsonl",
+      "sha256": "501cbc27a8a6a9305d05311e723a05c35766eac499a675a1228482520bc8f7e9"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/approved-trial-timeline.jsonl",
+      "sha256": "7b57b694df11f72d4aa419d91c0d4fc52cb37564065d4dca207cffec45efae2c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/approved-trial-frames.jsonl",
+      "sha256": "1b32103be238f6133777d55156748a1d00fea5a516d14bbd3bd862cee78764f4"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/ocr-candidate-v1.jsonl",
+      "sha256": "bf7c51523e8cb289cda981028fe23631d4aae6c2457714fbe51867111dee607e"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/dialogue-bill-data-npc-clip-v1.json",
+      "sha256": "3801ff86a21be84c4751d2223a3fbd9bc2786907fb238f680bbcc5747b8390a9"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/layout-v1.json",
+      "sha256": "9f84c917f7c975617bce4a989a68d38c9187fede681db5524a84fe878bfa1244"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/bill-data-npc/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/bill-data-npc.jsonl",
+      "sha256": "d4a87024baeeb89c1e8754e9ebc6eec2380f986c9847a965a65d9e5c9bd355bb"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/bill-data-npc-timeline.jsonl",
+      "sha256": "0e00ca1590e21bafb6cb50ac526dabc407be4921b96d8c9f6d1c9b5c950968a6"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/bill-data-npc-frames.jsonl",
+      "sha256": "3e217edb45d03964b5e91d0c0bdd99ed8bb0780bc8603c7e0b9beafc341b75a2"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-candidate-v1.jsonl",
+      "sha256": "5362eadf83cc85226ea42d979154c7456bcbd45594c18a4b905d2928bc74b0a5"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/dialogue-bill-grandfather-clip-v1.json",
+      "sha256": "d309c276dfb10e07a11877ac56c1b85430143f7739ffa05037c83de84d5ff9d6"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/layout-v1.json",
+      "sha256": "9f84c917f7c975617bce4a989a68d38c9187fede681db5524a84fe878bfa1244"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/bill-grandfather/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/bill-grandfather.jsonl",
+      "sha256": "da59cc0e020d55c1cc42c47a7fb883f62d5533db3782867fce72a906dca7c884"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/bill-grandfather-timeline.jsonl",
+      "sha256": "3a2ef9e004c713ef77d8116c64faf60f41c381013b750ca37c636d6427c962db"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/bill-grandfather-frames.jsonl",
+      "sha256": "a91de593a9121dcb0393e2488bf4a5de423875a87db59b724dd04625ec1fcf32"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/ocr-candidate-v1.jsonl",
+      "sha256": "e24d2223b62f398e7a579a2aa63bcfb43c93ca12a9d8c0d2dbc77be535898bfd"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/dialogue-gym-sign-continuation-clip-v1.json",
+      "sha256": "b010a13b169ea4fb8c89b3f69f6195e99e958b6bf40ea4bd9ca8edacdcbfa361"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/layout-v1.json",
+      "sha256": "9f84c917f7c975617bce4a989a68d38c9187fede681db5524a84fe878bfa1244"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/gym-sign-continuation/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/gym-sign-continuation.jsonl",
+      "sha256": "64d0648c23558f761769b541c2276d95afc9be9a86a9b0cb7dd33c205dca30ff"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/gym-sign-continuation-timeline.jsonl",
+      "sha256": "0e76ffee4cdaa22dfad302c45cc4da8fef89d1937d15272511948c70e15d7212"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/gym-sign-continuation-frames.jsonl",
+      "sha256": "a37d5f953317be6d2ca45a6b664dd23d5b91ba2c0aa40a6e38a6fe95a5ceaae2"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r3/intro-creatures/ocr-corrected-v2.jsonl",
+      "sha256": "7cc5f3cc68e320b98afb3e87f717197073f2b20521a6c053fe3f7e8d6e61c9af"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-creatures/dialogue-intro-creatures-clip-v1.json",
+      "sha256": "c30de703b35a77ff9726d7b37cbaa51be944f17023875431e65e7d3f9b87e406"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-creatures/layout-v1.json",
+      "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-creatures/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/intro-creatures.jsonl",
+      "sha256": "e313da8612301b1507063a207af2f1d75005c221e944caf038cd614d8e2e00e2"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/intro-creatures-timeline.jsonl",
+      "sha256": "f05d02154436a477a2a8e2a676b2ffcfd56aa804acc7a7ae800d66edb016b001"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/intro-creatures-frames.jsonl",
+      "sha256": "8689566f2a2c27e650970d611f05587b9c525486aa9db6386c59a2045f55af1f"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-greeting/ocr-candidate-v1.jsonl",
+      "sha256": "5d408e825e3d5f3d67669ce715016c7600551f7aaa9ac275754e303ab23b4eba"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-greeting/dialogue-intro-greeting-clip-v1.json",
+      "sha256": "6a7ffb655ff484bb287a2e02ab01fb4e534088bd3e7d9677b42e88d02b48ee0a"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-greeting/layout-v1.json",
+      "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-greeting/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/intro-greeting.jsonl",
+      "sha256": "2e081ea02a06728087064337a3e422683e6b0c3763e37fafb5beacc9e8307fe9"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/intro-greeting-timeline.jsonl",
+      "sha256": "0e66abcf53fd1206d8de253374aadbbcd8d2b3e3f5c585085d18729a61bb1f6b"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/intro-greeting-frames.jsonl",
+      "sha256": "9e9d06efc4a802522cfd800f995e48a72f6c557638eab728eb2e907844bf9d94"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-oak/ocr-candidate-v1.jsonl",
+      "sha256": "c7f2ece52b0fbb50f5444dd449f78a488766b808be24c1259ba3f84f10fe3ea7"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-oak/dialogue-intro-oak-clip-v1.json",
+      "sha256": "78db1e9d9851768aed130cadb699cc3b7ee7efef10e182fc045949bf3ca27da8"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-oak/layout-v1.json",
+      "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-oak/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/intro-oak.jsonl",
+      "sha256": "dcf456eb953352b19e44a838ab85ce3eacbc55c3dfffce18807d09b8c3f56752"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/intro-oak-timeline.jsonl",
+      "sha256": "a86bebce2f0961fd06656e03af52013344e1a5cc969dcc47a0ede7a3736debf0"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/intro-oak-frames.jsonl",
+      "sha256": "94b5fdb7846af0ab4373c11263b027ea7d13cd64e926d4d8ddb812898fa1b364"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-pets/ocr-candidate-v1.jsonl",
+      "sha256": "8b753eb1023522ab7ff4c34642873a58122b79de453f4d840d6803dba97a6e50"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-pets/dialogue-intro-pets-clip-v1.json",
+      "sha256": "baafe94468161862c0a2bb7e8eebe2211ddc77dc92b7b68b14a9f058551f9131"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-pets/layout-v1.json",
+      "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-pets/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/intro-pets.jsonl",
+      "sha256": "5d9d9aadcb207543c714df7c2f431672baa8662c9aeca017e8539811150bde57"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/intro-pets-timeline.jsonl",
+      "sha256": "c55fa1c714d69e7bbb31c0b9795e1ae62e97950c0205eab8fff4dca533f9692f"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/intro-pets-frames.jsonl",
+      "sha256": "04e1b829b3ef8fd13e239a0a76d3736f963b76d9240ceb02b2174cfd842690e9"
+    },
+    {
+      "path": "data/gt/candidates/ocr-observation-corrections-v7/intro-research/ocr-candidate-punctuation-v1.jsonl",
+      "sha256": "6aacd78b33e72d1743f2bc59a3bdda083089fd2b1cce974f6d9477ddb730955b"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-research/dialogue-intro-research-clip-v1.json",
+      "sha256": "4eedbe9a3979d53e5279fe447e0ed21d8eef919a9fdd79023e5cc3596938535f"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-research/layout-v1.json",
+      "sha256": "d1f7ebd5ea270d20088a02aebfe5fb6fc67262f98f31f83ffa0f862752ad2858"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/intro-research/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/intro-research.jsonl",
+      "sha256": "263958142925946b629f69764a06c707aa59a05e290846274053a7f5efc39655"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/intro-research-timeline.jsonl",
+      "sha256": "5529439a25396bb6186f1ffa807c0c8fc0a80ec35c2510d9487a7c15854567bc"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/intro-research-frames.jsonl",
+      "sha256": "bb073f94b63bd1d1b2b8560166aa3696b61b4ff0534a41e6d63bdc9fdc9b3037"
+    },
+    {
+      "path": "data/gt/candidates/ocr-observation-corrections-v8/lab-oak-reply/ocr-candidate-boundary-v1.jsonl",
+      "sha256": "59f91be59d9dc900d96c527c15e038a9d4c79f3a3914df259d8d03b201053efb"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/lab-oak-reply/dialogue-lab-oak-reply-clip-v1.json",
+      "sha256": "d218e477980dab3be55ea8d40805192e32f71c5c5c84af8050e55c4ebbfe7b42"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/lab-oak-reply/layout-v1.json",
+      "sha256": "42e9356b95e3fdb2a18e373280354041383a0e4e2264d990cee1813f50bcadaa"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/lab-oak-reply/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/lab-oak-reply.jsonl",
+      "sha256": "c7679b46e71711b74b99c9f10cf37639b6447e2d9be5a63e2f18608f20aa0810"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/lab-oak-reply-timeline.jsonl",
+      "sha256": "c039adc77d93ccf9466f1af60992c8a4c496c4131a00f4ed92b1507aac79d7aa"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/lab-oak-reply-frames.jsonl",
+      "sha256": "01046a9e8aca586dec8279e3cf8fc95e36b9c0e4414fe7e780304fffca5a0d84"
+    },
+    {
+      "path": "data/gt/candidates/ocr-observation-corrections-v3/lab-rival-demand/ocr-candidate-v2.jsonl",
+      "sha256": "84ac0c0130dce455c9171bfa6ce525bf2a40b0ba7b4092b81582852a4a4e04cb"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/lab-rival-demand/dialogue-lab-rival-demand-clip-v1.json",
+      "sha256": "e325da354939037ecf4e1f763d7b7a8e0461a4ae6b0e3490504e00a50d9d192f"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/lab-rival-demand/layout-v1.json",
+      "sha256": "42e9356b95e3fdb2a18e373280354041383a0e4e2264d990cee1813f50bcadaa"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/lab-rival-demand/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/lab-rival-demand.jsonl",
+      "sha256": "1c0b10221f79ab2f0582f202ec10095da4e1f83c912797ebac6426b3a9132eb4"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/lab-rival-demand-timeline.jsonl",
+      "sha256": "06f96c777d5e39faaff11be69c5fe945f08c492820f021ba2741c9052a4548b0"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/lab-rival-demand-frames.jsonl",
+      "sha256": "14d7d1fb92ea212a8929172fccdf24637c5ad8fa14116dc3be5ab55ba2a1e064"
+    },
+    {
+      "path": "data/gt/candidates/ocr-observation-corrections-v2/league-centre-npc/ocr-candidate-v2.jsonl",
+      "sha256": "05bb1f63e45c4efeb2ecea8fe7b03ac039aac593db613bb33036d7e78495c542"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/league-centre-npc/dialogue-league-centre-npc-clip-v1.json",
+      "sha256": "0295739f20d48ea0b1c006cc43d9880e54ee4c0638e02139c44a7e9d2f88f3c1"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/league-centre-npc/layout-v1.json",
+      "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/league-centre-npc/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/league-centre-npc.jsonl",
+      "sha256": "d9a8284f921574902649c6604f689870c42816cc8a5138ffee65acf058e141f4"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/league-centre-npc-timeline.jsonl",
+      "sha256": "9aae39d78138d7f279fc0edbfed21fa0997a1a49596f00bf15e1a49788daaa2d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/league-centre-npc-frames.jsonl",
+      "sha256": "5acbbdce60575b4d9bbeb81e0cca18e26345ff6b784728ef1d4bfb095745a6b2"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/mart-child/ocr-candidate-v1.jsonl",
+      "sha256": "577cb8c7d48dc6c230833564d2a148362c1d550dafb5df23d5eec48fd89a061b"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/mart-child/dialogue-mart-child-clip-v1.json",
+      "sha256": "d814171da846c3994e8992ad16113976bc7c13c2f57ff821a607e75f30aa06c0"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/mart-child/layout-v1.json",
+      "sha256": "5f3fa2183b73a7b01ee8bf2fd7428f26b28921f5a5f64e8b03ff23092ae7890e"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/mart-child/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/mart-child.jsonl",
+      "sha256": "1cfdfa97e3407bd8d89453fa3c35c01ea9f3e2acfdbaec7ccc38971ca2986ce1"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/mart-child-timeline.jsonl",
+      "sha256": "827a340d61d44f564a3d4ec7abbd6ce5c6d02a7e2715cad715a6b7677cf4ee2a"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/mart-child-frames.jsonl",
+      "sha256": "c08c1adeb838e4690eda056af1139884b9dec55f6453074e89bc9f46e7b1298e"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/museum-fee/ocr-candidate-v1.jsonl",
+      "sha256": "3dd74ee46b73f0cf5a6fa8a203ff67f53020754a79be34ac9741dfe9609041fb"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/museum-fee/dialogue-museum-fee-clip-v1.json",
+      "sha256": "ff789bbfabcae1a24063bf3b69f2d2e430ec5704e07031ff1b7f02079ebae087"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/museum-fee/layout-v1.json",
+      "sha256": "992b75c740dbf05fd1ff54a943e5c3aa3edd092ffc59c13143267f5d54aa9588"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/museum-fee/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/museum-fee.jsonl",
+      "sha256": "aed3f01c928729f7e4c8dc680a9306588d32194e4196143c032e5c3a38cb13b5"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/museum-fee-timeline.jsonl",
+      "sha256": "a123e0cf71b5cd203492447ac9d63a8c5e93810a7f0156b17ad16c5afa45e542"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/museum-fee-frames.jsonl",
+      "sha256": "4172ea0180af6967e92023a03ddff74196531cc89b155e8cfd967deea355e562"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/museum-question/ocr-candidate-v1.jsonl",
+      "sha256": "b6d476e2cdadefd8a035fff77889875d4dca5c975e82db7f523ed1575c8da433"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/museum-question/dialogue-museum-question-clip-v1.json",
+      "sha256": "947f8ee67288bb415c9500cfa2cb71257133e78cccc24d9e0180b23af2a24c70"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/museum-question/layout-v1.json",
+      "sha256": "992b75c740dbf05fd1ff54a943e5c3aa3edd092ffc59c13143267f5d54aa9588"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/museum-question/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/museum-question.jsonl",
+      "sha256": "9235cdbd36295f4f574ad59100eb54d92624cb1f62aabdb759652a6d136700c0"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/museum-question-timeline.jsonl",
+      "sha256": "cbbf698ff6d5fbbf8c46de59fc417c967f6d4147c2381038ad079f6020407ff1"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/museum-question-frames.jsonl",
+      "sha256": "f523420cadd11198c12a31b7bd5927dd920df63d08c71a4d60dfdacf67d99ca5"
+    },
+    {
+      "path": "data/gt/candidates/ocr-observation-corrections-v11/nurse-greeting/ocr-candidate-clearing-v1.jsonl",
+      "sha256": "84c6855eedd478398e36ee8673bcecd65ab027fcc0f0ca6d55e85bed6325a41e"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-greeting/dialogue-nurse-greeting-clip-v1.json",
+      "sha256": "f64c2e8146184ec22d955edb26b8ac29d8271e8233c3ff3eb5b150d095da2b8f"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-greeting/layout-v1.json",
+      "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-greeting/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/nurse-greeting.jsonl",
+      "sha256": "b0b6911cdbb4e4c80c54143419b6d0d2a04fca18779d26f4deba5ff37251629b"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/nurse-greeting-timeline.jsonl",
+      "sha256": "a28f138e538317b926014f44e64031d514400b07de448467d725c8dfa93663e6"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/nurse-greeting-frames.jsonl",
+      "sha256": "ca1d0ddb337b5b5e3ec29bfb71b1d4af9e921c9e3cd20dcb1fd8c9d7168709cc"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-intake/ocr-candidate-v1.jsonl",
+      "sha256": "a85f23d226af9aaa9fb5c587b8998d37860659cd519deef6f213a63604a9555f"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-intake/dialogue-nurse-intake-clip-v1.json",
+      "sha256": "9a0c7e312ecbaf424ba78f1ee6d3d906c979eb5bc6c969fdfff1766d0be3c512"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-intake/layout-v1.json",
+      "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-intake/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/nurse-intake.jsonl",
+      "sha256": "3faf22ed68ad99e8a42adc61734578eb66146b6c77967e077666e0f6f0ad275d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/nurse-intake-timeline.jsonl",
+      "sha256": "ca12595e71d5f3c5e819920c7d1454af99fde8658c12b7db6fc803a393f4fed2"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/nurse-intake-frames.jsonl",
+      "sha256": "552ac96e8197ca08be710f678f30f4b56e974e34ef04215a463e6586eff88e95"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-return/ocr-candidate-v1.jsonl",
+      "sha256": "892dcc4c566e8e697c6e520a4453446c0d49d2dde532e445c37d9869e80f475d"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-return/dialogue-nurse-return-clip-v1.json",
+      "sha256": "4a19c3f2ce580fd88c3bdc9f8681c6af69c22bdf5acb66bf663166f182483187"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-return/layout-v1.json",
+      "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/nurse-return/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/nurse-return.jsonl",
+      "sha256": "395742edc0b1943d72a4368890d718a6048ccc608c7773cb780467d9559362b6"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/nurse-return-timeline.jsonl",
+      "sha256": "ef19681040b90de353e8d332a11b7310892cb89e7af1c31f1626d35502069bd4"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/nurse-return-frames.jsonl",
+      "sha256": "769d455bb0648208fe19834f6719ae2584e7c74fc332e4cf1618d68ce17e1880"
+    },
+    {
+      "path": "data/gt/candidates/ocr-observation-corrections-v8/oak-delivery/ocr-candidate-boundary-v1.jsonl",
+      "sha256": "bfce42c4eb6818fdfd15a4c49709713966e7a0436220fa888a024fea5581fd6a"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/oak-delivery/dialogue-oak-delivery-clip-v1.json",
+      "sha256": "e7c9b5a07877fbba485aad936381a6f3fd18cb54224578b83fd5ae12784ef29b"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/oak-delivery/layout-v1.json",
+      "sha256": "d955586151318a59f975d32e3a20195e29aa5b4388e51420a5e6987757a396ce"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/oak-delivery/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/oak-delivery.jsonl",
+      "sha256": "c389b288730e3c703884a4cee753256ec933a239a886e67cb9df4f031231909c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/oak-delivery-timeline.jsonl",
+      "sha256": "92972b5e29e213169ca4d9fca82381e02d0079b51369eb9129b8afeaafc40be8"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/oak-delivery-frames.jsonl",
+      "sha256": "902e51f95e8a6b8105f1827c3b096f990d8048f995a351763938c3361dadaddd"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/route-ledge-npc/ocr-candidate-v1.jsonl",
+      "sha256": "da50c331568bddf738647428ce6ac883dbf5c4340155fc758382a2c824ca4b4e"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/route-ledge-npc/dialogue-route-ledge-npc-clip-v1.json",
+      "sha256": "18b9067680eb66be8cc5d1a26d0d0749b56edd413efc9d968569f19b4ba83d1e"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/route-ledge-npc/layout-v1.json",
+      "sha256": "5f3fa2183b73a7b01ee8bf2fd7428f26b28921f5a5f64e8b03ff23092ae7890e"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/route-ledge-npc/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/route-ledge-npc.jsonl",
+      "sha256": "1f037cf6429459948e8adbcda254b3843c0c88be8c0c37d2833429cbceb73401"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/route-ledge-npc-timeline.jsonl",
+      "sha256": "6d8d9ed64ffa13c77aac3b412a1e998c2465b4dcc9891bf9fcb2d838cd23efa5"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/route-ledge-npc-frames.jsonl",
+      "sha256": "0ba16e2c373ff6dc4e72f4f035dc3da940fc541f0b9dab8753d162163d06e879"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/route-pp-sign/ocr-candidate-v1.jsonl",
+      "sha256": "74e42243eeae34c195f7993e262311cc8a4257c650a6b6cfb7deb3c733649e79"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/route-pp-sign/dialogue-route-pp-sign-clip-v1.json",
+      "sha256": "50a15b2c0c0ca5e2fbfb9a6be1e4936d493e391dc3deb045aa29a46ca73f7d01"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/route-pp-sign/layout-v1.json",
+      "sha256": "3dd62ba6ff2c9c2687f1ca4bbfd092699af45238329569577ad95d3de56ba076"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/route-pp-sign/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/route-pp-sign.jsonl",
+      "sha256": "c1c3d61a1f2a252949c37eab756de18df925341e18cf477dec3960c5e895438a"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/route-pp-sign-timeline.jsonl",
+      "sha256": "4863038e6642055656115e03fffb996a913f29fb4d8e3ccc3b7c27eeb7561e8a"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/route-pp-sign-frames.jsonl",
+      "sha256": "bf279d1cb0d446ec15178fd02c877446df9a8ef1ba174849b2a3706bd74d0dbb"
+    },
+    {
+      "path": "data/gt/candidates/ocr-observation-corrections-v4/safari-warden-npc/ocr-candidate-v2.jsonl",
+      "sha256": "28e541e118f35e9467037d4c5f662ef0f33a4478019f53f8c6350cd4a6cf6aae"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/safari-warden-npc/dialogue-safari-warden-npc-clip-v1.json",
+      "sha256": "d1ffa5b581ae2ec15b08e9b62619ec0f95b697cd75962ee17d2b933550aa75ff"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/safari-warden-npc/layout-v1.json",
+      "sha256": "9f84c917f7c975617bce4a989a68d38c9187fede681db5524a84fe878bfa1244"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/safari-warden-npc/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/actual/safari-warden-npc.jsonl",
+      "sha256": "55dc66a600ece8c9ce62c6e34a6127368fc151fddc2517e6d5fe45f00450c4c9"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/safari-warden-npc-timeline.jsonl",
+      "sha256": "12b79c380f26fb8f2781ba91aace1a16ffc47ace0985ba1805c5a697480e7b35"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ocr-regression-all-v18/comparison/safari-warden-npc-frames.jsonl",
+      "sha256": "e37ada42ff4c4f97520ad6da94f1adb841022aca96c6d9599281eab688b46c5a"
+    },
+    {
+      "path": "data/frames/video-01/all-scenes-exploration-npc-pass2-v1/frame-009898.png",
+      "sha256": "5bc7711cbfe684879f37147fe2fc01f16a424d1bfa30fb487f9fc385e514e2fd"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-battle-result-pass2-v1/frame-006923.png",
+      "sha256": "0228b7eb7a81f8692364d1149e4f3a74a84e03d64494852b270b03bdd8918fa8"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-battle-result-pass2-v1/frame-006940.png",
+      "sha256": "e47765c771992c6d344dce53d48013e27db15e9a3c759f39a6f19dae13402735"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-battle-result-pass2-v1/frame-006950.png",
+      "sha256": "9e93bef57022136a375b756d79a7c6e88596d673f2e66488e7ee4afc747d2c23"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-status-pages-pass2-v1/frame-000469.png",
+      "sha256": "844728d0843065b7a7b721ed1429b7eca7afce74dd6ca636f1872a37054a5fbc"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-status-pages-pass2-v1/frame-000527.png",
+      "sha256": "2700d6b1ff9a4ce7074a1e8052554af35a1e66106682d74047c5a93371491237"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1/frame-001634.png",
+      "sha256": "5f8c8bcf9256f4c828b5649b7c85408255cd59f37160aeeb577c281f79715154"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1/frame-001638.png",
+      "sha256": "fd3d28a440e847cc8244f9574c881c62b6774117b2247f5a5db02adce05a95d8"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1/frame-001661.png",
+      "sha256": "b65247ede20d7f36058dc8a4ebb1358edf630c15b901d288b316a2ab6d4f6f5b"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1/frame-001674.png",
+      "sha256": "a9ef9e04083abae34a33223ba445c5d214dc8e2a94e874fe114d32455a99dad3"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1/frame-001688.png",
+      "sha256": "ff82f98474825b2a75ecb8bb1bb776701c7aa984e8918315b0c9a001de4175fc"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1/frame-001698.png",
+      "sha256": "1eca4f06307d7db28f337332618b24aa2657222dd7d77078960f0a11fc4dc27a"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1/frame-001708.png",
+      "sha256": "f852edca4f510540544d5d7463d66488eb72cf248482264e694627ca8b8b83d8"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1/frame-001716.png",
+      "sha256": "e15e528624536861632fdf79da2e73c0266895e255ffa131051fcb46baef25b4"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1/frame-001725.png",
+      "sha256": "b4a9ba3ff5b5d09a7bdc0499dd37ac218d903d1c23254c537245eaa7d89b630b"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1/frame-001737.png",
+      "sha256": "14bca0e9d75197e658ad81be446f44f555fc9d33de6c0169d83c3d706232302d"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-pc-deposit-navigation-pass2-v1/frame-001750.png",
+      "sha256": "3ccb6cbe562aca9929cf80f1f0aecb97d1a393c250391c171c2bd4276790090c"
+    },
+    {
+      "path": "data/frames/video-02/all-scenes-pc-exit-pass2-v1/frame-002248.png",
+      "sha256": "f7ab21ea3f56765ca4ecfc73939a62748d4dc83de877edd9504e7d8365a28bc3"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-status-alt-pages-pass2-v1/frame-003541.png",
+      "sha256": "6f4e75f54cad5232801c62d80a97eec87c1cc962a9b58d1503c8d3cc3a69cc5d"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-status-alt-pages-pass2-v1/frame-003613.png",
+      "sha256": "564eb87bb3a1f26c31064a385eaa187f6d81266dba569225d2791eb81f790ff5"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-party-list-pass2-v1/frame-003664.png",
+      "sha256": "3ac195ca0c74dc6386bc468673c7cc5d70ed879ed912680c1ad0e3f6a83f62ac"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000820.png",
+      "sha256": "0477312eee64dde22c26d906a0d4e80916ea07a27edadda3019e177494f922c7"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000826.png",
+      "sha256": "3213ce2273edcee0cc1356eab7ed66f239cef632d0b14eedce5d10f8230c6f3c"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000846.png",
+      "sha256": "79c256f4cfd40c0b01af18333faccfc99aa8e3587c93cfc4c33a2d65975ea7af"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-shop-buy-navigation-pass2-v1/frame-000860.png",
+      "sha256": "d2e079e01cc3a748715dc0b22edad28e811c52f480a269460af0ec6a27938dc2"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-shop-sell-entry-pass2-v1/frame-001044.png",
+      "sha256": "ed0c10599774dc2edbf514bc1902ed5012f6aaced60b2b25f20775e4c7a80aae"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-shop-sell-entry-pass2-v1/frame-001048.png",
+      "sha256": "a241caaec1aca1a20b57dc07c4abf2db89c69e739c424b0dfe80ec6a7507f6ff"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-shop-sell-entry-pass2-v1/frame-001070.png",
+      "sha256": "2be6a8dc43d6dc0df43d336580e68ec3e4e6a65b9b1d52af7131cfe018c1842f"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-shop-sell-entry-pass2-v1/frame-001092.png",
+      "sha256": "081423e66918224863b375799b261738dff270dd40f52a3f09f87f467626bd3d"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001408.png",
+      "sha256": "eb224dc5a4e6ecd47ba64fa7a8dfd7cb22da23d67606b6888ca5e42dc101e169"
+    },
+    {
+      "path": "data/frames/video-03/all-scenes-shop-rejection-pass2-v1/frame-001426.png",
+      "sha256": "84514d2ae36d08132571b0cdd93941d9886098bb690c59856c6f46c4a825d763"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1/frame-005182.png",
+      "sha256": "97f0f16f56e97d63c160172327bd890ea4135c5dfa098592eb76e530bd822644"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1/frame-005189.png",
+      "sha256": "398ed2f6c913272fbfe3bdc2589eb085dd7300d55617fd5a8e90ef3b59cfa1a5"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1/frame-005194.png",
+      "sha256": "21e2223e74601afcad03bbad6ae7291e86a5fbdb8a31a650af1b1f13006d4321"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-opening-pass2-v1/frame-005206.png",
+      "sha256": "7f7373bdd828feaefdf00104d5810110a697dbad305e1c7e654e2d629f63c9cc"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005223.png",
+      "sha256": "da679c4873aab838c085f0257cb5939b53d6313fce7a5ba1df48396f26d96774"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005232.png",
+      "sha256": "177d29617ce36640a16b8a0d108de03b419e7d07bbea6295ac0a28e5f27034b2"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005242.png",
+      "sha256": "fd087d24de50ca6e0cbfc7ec18f310d22e88bb790d9ec4f79d238418d551a41e"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005252.png",
+      "sha256": "030218382e640b042b623d2014ac0e325409dd7e3cada46c41c433d26f4aa426"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005261.png",
+      "sha256": "092d6ef4e4679bd85ce6f28bd5bcac72cd1527d654e017899e30fffa1f01813f"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005291.png",
+      "sha256": "d159e900fece11b3958aeb67bd41c8fa2f2b9edc6d9e0caae21a4408a1b281d3"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005300.png",
+      "sha256": "e5f369c16bb0f22843a8d48102d1e74c311b60ae3b42b9db10304dca93d57669"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005303.png",
+      "sha256": "c481dcc00f854f61e41e67594655fa9f5228115169a8c894523c2462b4366039"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005305.png",
+      "sha256": "d74d7f6837a7e4d97b297c2eb7ac4e50782cf01b23f013390d89a09aa07bcede"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005308.png",
+      "sha256": "483b1a5d8d1908d595f0e2745d8ee3c022f39d682576b2aa47b43fe225f781ff"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005331.png",
+      "sha256": "dd5549d9e26efe1adc560309687297b53da9931a0c50fa11f4e1c84a93af0b8f"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005335.png",
+      "sha256": "36ca9da95c766df1c0dcabad0eef6d61c0d7a6635629deb042ce21e49abd9748"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005346.png",
+      "sha256": "7ecf460747681ef9a87e43ac316ffdaf19b698f1a23bae48696d0ba7506c504f"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005348.png",
+      "sha256": "cd04dde8d8ad5d398a1a68a83ebb5b617a3fa157e3228c28f90bf2717e1542c1"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-backpack-pass2-v1/frame-005350.png",
+      "sha256": "60a36e5a8388683aaa82ba6dc5d345a33e4b7a0de0ea9bfaf0ccc96575e0a59e"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-skills-turn-pass2-v1/frame-017462.png",
+      "sha256": "58163bbca90932b6d84b31b33bbee3919491d039f61f9943ac7bd77b3ca08f89"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-skills-turn-pass2-v1/frame-017472.png",
+      "sha256": "185853196eb3f542bf39f8552bd35da5ab2f557fd19be1c355a5ac2fce9c7c33"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-skills-turn-pass2-v1/frame-017482.png",
+      "sha256": "f2aa5f31dd7cd46a15f2d7931ea0bd83386f9a521547a8da375b238bc90e1cf2"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-skills-turn-pass2-v1/frame-017493.png",
+      "sha256": "d0b5724f390db5976f8bda244bb09f7b64e83921f20a8cdd83aaf79a0409d23b"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-skills-turn-pass2-v1/frame-017539.png",
+      "sha256": "def8ee6dd5dc7fcb8d0eb7c788cf3d3ec137cd51a1cc0fed0e77d7189365bfbc"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-skills-turn-pass2-v1/frame-017557.png",
+      "sha256": "88af30d75ca57044c91e0c55026ce1ace52c5bc47e143fc3ec64c90cd225f373"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-skills-turn-pass2-v1/frame-017560.png",
+      "sha256": "03559e43a89d8ceb7e763be583ad35058662221506a61fd538313b1d1f4af6a4"
+    },
+    {
+      "path": "data/frames/video-04/all-scenes-skills-turn-pass2-v1/frame-017562.png",
+      "sha256": "234774baeab968e34ee304d79dfb33730746e7366c3a9c5980b2d966cd560422"
+    },
+    {
+      "path": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001450.png",
+      "sha256": "5daea3cc54d63fe691d1fbe7540622048bdea057b178257b226acf6c76041c2f"
+    },
+    {
+      "path": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001451.png",
+      "sha256": "87151e8a95dd8a4ed96e4ef00f83fa723334ed081e5a0107a94cc3fed1e1388a"
+    },
+    {
+      "path": "data/frames/video-03/expansion-shop-exit-pass2-v1/frame-001468.png",
+      "sha256": "d8388d0d38e2589bf32cfd09d152a6b4f51622f8f85d2652bbed87dd91f9c682"
+    },
+    {
+      "path": "data/frames/video-02/expansion-pc-connect-pass2-v1/frame-001379.png",
+      "sha256": "77c4bab40dfd70ec3ca4c988daac3f6c38ac138806e533d1a8b92c79ba6e2ef4"
+    },
+    {
+      "path": "data/frames/video-02/expansion-pc-connect-pass2-v1/frame-001387.png",
+      "sha256": "e1093247539ab2e4fbdf3a9cf873ff2560c79073a940e31398190481687320e1"
+    },
+    {
+      "path": "data/frames/video-02/expansion-pc-connect-pass2-v1/frame-001411.png",
+      "sha256": "f647c16162531144cf3774334379161b4ad095b263ee7cfe9233a0d109be131f"
+    },
+    {
+      "path": "data/frames/video-02/trial-pass2-v1/frame-005286.png",
+      "sha256": "6715bd3120fcbe1fbca217bdea0590c531daaa8883e0812e24d31f8312b26fb9"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-bill-data-npc-reviewed-v1/frame-004570.png",
+      "sha256": "809b3fd9c3d51c12138ddcc2d51dd6ff26cb4edc900b6e92c4380859357ef001"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-bill-data-npc-reviewed-v1/frame-004598.png",
+      "sha256": "71425914a698db519b5c22cbf4892fe92ce15993dbb19cef3732895b5e203a23"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-bill-data-npc-reviewed-v1/frame-004627.png",
+      "sha256": "7dca86effd9fc4d6ad54affeeb66cb18e6fca9a16190a843f13ceeefdaa21ea9"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-bill-grandfather-reviewed-v1/frame-004726.png",
+      "sha256": "c568963a6fbd07db176dbdceb075ef4aac8dda2aeaac0172c3aa3e1e422dfe7e"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-bill-grandfather-reviewed-v1/frame-004753.png",
+      "sha256": "d0f0629c4e9e8b335b67d1c377a1761e082b44a56ad718f1d311a26bca72798c"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-bill-grandfather-reviewed-v1/frame-004788.png",
+      "sha256": "7da5d06b9d022b5b3d95998494fd83a9a80bb50a6aebb8e44ba9a489cfbe8836"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-bill-grandfather-reviewed-v1/frame-004807.png",
+      "sha256": "d34370349671d172838431b32c0b44d893ef0be39b218e97d69d38b68d2b80db"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-gym-sign-continuation-reviewed-v1/frame-005303.png",
+      "sha256": "19e39ee1fc1171433f1ee259177bfcf9d43f791e86ec775869782a1b4bbca5f3"
+    },
+    {
+      "path": "data/frames/video-01/dialogue-intro-creatures-reviewed-v1/frame-006299.png",
+      "sha256": "d9a2fb38fa3448fb8548f6e8904527a7a3c61a84d3226766c7a779154555c890"
+    },
+    {
+      "path": "data/frames/video-01/dialogue-intro-oak-reviewed-v1/frame-006187.png",
+      "sha256": "e77ccc41808be7ae25697adaa1298fa82a8db6a73531c1ad51d098113a470f81"
+    },
+    {
+      "path": "data/frames/video-01/dialogue-intro-oak-reviewed-v1/frame-006208.png",
+      "sha256": "081e1ca6c8aa9b846793358019bedfc053f8688e206d40542cec9e77a7c50010"
+    },
+    {
+      "path": "data/frames/video-01/dialogue-intro-pets-reviewed-v1/frame-006344.png",
+      "sha256": "d74904c0dcecd263287b9f5d6c6d3019baece6c7dc26819660bfde6f80f1382c"
+    },
+    {
+      "path": "data/frames/video-01/dialogue-intro-research-reviewed-v1/frame-006466.png",
+      "sha256": "273740dcaac9f50f7f366220b1cf8754e2bad9fb96bdcb915faa47e2d06a6cb5"
+    },
+    {
+      "path": "data/frames/video-01/dialogue-lab-oak-reply-reviewed-v1/frame-013479.png",
+      "sha256": "8d2e7fcd69defdfdc731aca983099ca4348f38b16ab2c903a51406ae8c747a5c"
+    },
+    {
+      "path": "data/frames/video-01/dialogue-lab-rival-demand-reviewed-v1/frame-013393.png",
+      "sha256": "79025baa76a2cc685d13c4ab61a646ca0bd9d345e6f6aa51d2350cb67b9c5980"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-league-centre-npc-reviewed-v1/frame-001610.png",
+      "sha256": "e2826d0d4455daddd2e33673496f90e3444d2778965b4fef0d3facdb28e5c201"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-league-centre-npc-reviewed-v1/frame-001641.png",
+      "sha256": "e61fb6b37a512350856718a888acdfd4a4f4a6907e6b89f1dd444533bc31a006"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-league-centre-npc-reviewed-v1/frame-001671.png",
+      "sha256": "c64f9aee0b09408c20aa6d76d58265d6866cad5277c5a2eff4c04bff4479b4a1"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-league-centre-npc-reviewed-v1/frame-001699.png",
+      "sha256": "9fe63daa29634bd5677d4cc456625924cd116396fc113b972e382521e2fd52c3"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-mart-child-reviewed-v1/frame-000596.png",
+      "sha256": "20931c79485fe9491d358b2dd6e488538c94b03c69e6b6f78e076944268760b8"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-museum-fee-reviewed-v1/frame-003811.png",
+      "sha256": "a56fd755ced4174ef0a5c33232f5f8e3041a6739b50cb4ec2f07e5b7832c31f6"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-museum-fee-reviewed-v1/frame-003835.png",
+      "sha256": "fc813c7a9f97228daeb6d41b31a7964743e37d45cb317d62dd224b4bb0e67ccc"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-museum-fee-reviewed-v1/frame-003859.png",
+      "sha256": "72233f0e1e4656edf79e1d9297ab568a0e5100773a1cd28a4c862dbe489edf1e"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-museum-fee-reviewed-v1/frame-003889.png",
+      "sha256": "8b9060bcfeb2ce230619a697bfa9276d88e6088402fc8d0db239b86f1f623e7e"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-museum-question-reviewed-v1/frame-003541.png",
+      "sha256": "a434266978081b31edf79b0a45c8d7e204f2f5a61f12a88f2895fdf577e9d0b1"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-museum-question-reviewed-v1/frame-003542.png",
+      "sha256": "71824a1d5727b8a52f00afcd0dcbf441c4231af5a9a216683a320d5b6deac849"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-museum-question-reviewed-v1/frame-003572.png",
+      "sha256": "c3867ba3d20baf278e0081f78e268c61874713004c7fe3fc3fddab1a56f171b1"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-museum-question-reviewed-v1/frame-003594.png",
+      "sha256": "7a2d23c99d581c29a8d46b34fcab1b4d9fc45e0d265c2f2971da60e99b4a826d"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-museum-question-reviewed-v1/frame-003612.png",
+      "sha256": "727d55f91fa837ff52d6cdd9232b4eb797d60ccd3024d191ad4362bcb970b6dd"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-nurse-greeting-reviewed-v1/frame-001841.png",
+      "sha256": "857e55857dbf7255bad13ee36cb4d4bfb836b469b6d6534abe4540432816b8a2"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-nurse-greeting-reviewed-v1/frame-001870.png",
+      "sha256": "91fa22dbc1ad72ec278612ae3f303058807747b0ddf9bfb5b86f6d00f69d372d"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-nurse-greeting-reviewed-v1/frame-001886.png",
+      "sha256": "4b9619ef342fd4267bb4e282e99a72ffbf6843b655a5835eea4940f6a37f434f"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-nurse-intake-reviewed-v1/frame-001929.png",
+      "sha256": "624fe2bd532cdd5a535888253d791c12f4e596aef59b05206a529267c9dbeac4"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-nurse-return-reviewed-v1/frame-002098.png",
+      "sha256": "82f92897fa7998fcaca5921025a92e523b9ac789b65e26ba44b87b56bff45355"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-nurse-return-reviewed-v1/frame-002124.png",
+      "sha256": "9ea764198cda37705bc088b8c78cad22a15c5b7243c111d9a15acc40166629e7"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-nurse-return-reviewed-v1/frame-002172.png",
+      "sha256": "480b66df9c6206a469b02c2d298d2f4ef36fe0bd93d8d9293e318fb6888ec9d1"
+    },
+    {
+      "path": "data/frames/video-01/dialogue-oak-delivery-reviewed-v1/frame-024227.png",
+      "sha256": "40434ade397e8ab9ef4e220a6ce05422569aa126c82aadd4b59ab56100074680"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-route-ledge-npc-reviewed-v1/frame-006442.png",
+      "sha256": "b9c92c7b0b66d2b9c1952eb987e5eefb467d6841c52ef31ea5a177923b5d3c9d"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-route-ledge-npc-reviewed-v1/frame-006473.png",
+      "sha256": "3397e61cdee227d8f9b74b58aacf3b36a7c06e42c81ee06977a6a6b71a4f2628"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-route-ledge-npc-reviewed-v1/frame-006504.png",
+      "sha256": "66ee2bdde1d7b003a9c701c1205ed6cdeba907310e445e62ceee317b13ffd04f"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-route-pp-sign-reviewed-v1/frame-006696.png",
+      "sha256": "a061025b315c08fa5a1e0b0eeba4445cc0039ccdd109e8d6ada0915f09ca7b35"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-route-pp-sign-reviewed-v1/frame-006740.png",
+      "sha256": "78d93e061abce5c49aab7a25e47528a4e1b4ff4d75b527f53aa729389307979a"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-route-pp-sign-reviewed-v1/frame-006761.png",
+      "sha256": "24a0e2dbe86a52fd7162d218d9c2883595aa7aab141681a9b44b069054201752"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-route-pp-sign-reviewed-v1/frame-006800.png",
+      "sha256": "45e344776504f4a788f9190cec6dde10d508135aa544328d85330f4a272c14c2"
+    },
+    {
+      "path": "data/frames/video-03/dialogue-route-pp-sign-reviewed-v1/frame-006825.png",
+      "sha256": "2cbd71db4ae350940c89c2b0368a923b184ea1ff5a517edbd9a5fa5471f2bf40"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-safari-warden-npc-reviewed-v1/frame-004469.png",
+      "sha256": "f35326ae60d5cbc70982f0e112362fb011e5a88cfbb0e8c9b76be96fdecd1224"
+    },
+    {
+      "path": "data/frames/video-02/dialogue-safari-warden-npc-reviewed-v1/frame-004502.png",
+      "sha256": "1a5c30b99b6d80ec650cb3f563c49f9db623ad3429911e47a29338d08b82d845"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/page-attribution-v18-r14-v3/frames.jsonl",
+      "sha256": "24f02d5c1a20739cdc7908611ca31b0ec1d10458c9ed818a10a1a5a49a516bd7"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/page-attribution-v18-r14-v3/index.html",
+      "sha256": "9c0633cb8877a0d90fe651b745fd4f566936fb26c3422363435659b56a174a92"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/page-attribution-v18-r14-v3/pages.jsonl",
+      "sha256": "3034d301d25b10f4f72847e0f5cd01294b745cd688bf02e0650e698e09f08c21"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/page-attribution-v18-r14-v3/report.json",
+      "sha256": "0a1e66fccc381fb0928d715c74a9dd0116a5988047f3c01470b1914d5a368360"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/page-attribution-v18-r14-v3/manifest.json",
+      "sha256": "2f190e839230a37159c34f530e37886e7c71fdfc0da5cd4b90a741219966ac95"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/completion-trigger-v18-r14-v2/decisions.jsonl",
+      "sha256": "5c65e20b0014283c87a41698c24f1e2ec81d90c7b2387bd972f14638b10290d6"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/completion-trigger-v18-r14-v2/events.jsonl",
+      "sha256": "1b36f63d270b092503463da4b14ff65bce96d530ed29b9c2f82d739980f6b473"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/completion-trigger-v18-r14-v2/frames.jsonl",
+      "sha256": "1daf0be393be90479ac568f8ddd7a619f7458a82382b28df481826bf5309b875"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/completion-trigger-v18-r14-v2/index.html",
+      "sha256": "2ee19ac08780ea97ced512bc99472a2abe02b85d80fab8fc30623601b12f7fa8"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/completion-trigger-v18-r14-v2/pages.jsonl",
+      "sha256": "11c86e04d2cc7ab311fcc01d534e047a00d7910e6e0c9e9d21a3e925b3866d99"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/completion-trigger-v18-r14-v2/report.json",
+      "sha256": "28f1e1849146f08a52723198bbf0d78f9ae5636a82ec1f869cec5441aa3e7b0c"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/completion-trigger-v18-r14-v2/manifest.json",
+      "sha256": "25989202dd88a8a9cbea4ca10cf3e972d394a52fb7c075d9fd0a696d90f2ca08"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/ui-source-audit-v5/report.json",
+      "sha256": "f9169a6cf48b38e3748b5f3e1e572069b765d7ad87599304f2c98971387d8f3f"
+    },
+    {
+      "path": ".cache/japanese-ui-sources-v5/red-green-jp/engine/menus/players_pc.asm",
+      "sha256": "6a64f64c61a47ccbf686db59690085b207858d752e66b6b9d22e3bc4be06fa83"
+    },
+    {
+      "path": ".cache/japanese-ui-sources-v5/blue-jp/engine/menus/players_pc.asm",
+      "sha256": "6a64f64c61a47ccbf686db59690085b207858d752e66b6b9d22e3bc4be06fa83"
+    },
+    {
+      "path": ".cache/japanese-ui-sources-v5/yellow-jp/engine/menus/players_pc.asm",
+      "sha256": "131ba7b9b834b4895d07e8379876b4bd6420dae96d3c84f2da0d7437719e9558"
+    }
+  ]
+}

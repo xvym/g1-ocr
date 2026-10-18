@@ -1,0 +1,6 @@
+java.lang.IllegalArgumentException: Collection cannot add/remove approved items
+	at io.github.g1ocr.verification.FrozenDataset.require(FrozenDataset.java:108)
+	at io.github.g1ocr.verification.FrozenDataset.<init>(FrozenDataset.java:31)
+	at io.github.g1ocr.verification.FrozenDataset.<init>(FrozenDataset.java:14)
+	at io.github.g1ocr.verification.ReplayTimeline.audit(ReplayTimeline.java:80)
+	at io.github.g1ocr.verification.VideoTool.main(VideoTool.java:33)

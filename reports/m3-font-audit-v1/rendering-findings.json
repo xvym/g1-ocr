@@ -1,0 +1,24 @@
+{
+  "status": "source_rules_audited_for_M3_development_not_OCR_acceptance",
+  "sourceManifest": "resources/japanese-font-sources-v2.json",
+  "sourceAudit": "source-audit-v2/report.json",
+  "observations": [
+    {"rule":"Source font tiles occupy8x8 pixels. Main font is128 tiles; textbox extra32; battle extra30. Profile-specific VRAM loads must be retained.","evidence":["gfx/font.asm","home/load_font.asm","ram/vram.asm","Makefile:192-198"]},
+    {"rule":"Status-screen copy lengths are3 tiles for BattleHudTiles1,1 for BattleHudTiles2,2 for BattleHudTiles3, and1 for PTile. The latter two source PNG strips each contain3 tiles; trailing tiles are not loaded at these declared call sites.","evidence":["engine/pokemon/status_screen.asm:78-94"],"implementationCorrection":{"attempt":1,"limit":3,"preservedEarlierAudit":"source-audit-v1/report.json","preservedEarlierLocalBanks":".cache/m3-japanese-glyph-banks-v1","correctedManifest":"resources/japanese-font-sources-v2.json","effect":"200 raw-sheet templates reduced to197 actually copied templates per source; no GT or video changes"}},
+    {"rule":"Diacritic kana codes below0x60 are converted to a base glyph and a dakuten/handakuten tile at the same column one grid row above. The auditor verified all50 literal aliases against source arithmetic and explicit charmap base codes.","evidence":["home/text.asm:PlaceNextChar/.KanaCharacter/.PlaceDakuten/.PlaceHandakuten","constants/charmap.asm","data/text/dakutens.asm"]},
+    {"rule":"The same raw tile can represent multiple source aliases: main0xcd is へ/ヘ, main0xd8 is り/リ; source diacritic aliases also share codes. Preserve alternatives; the matcher never chooses the first alias.","evidence":["constants/charmap.asm","source-audit-v2/report.json"]},
+    {"rule":"0x00..0x16 can denote text-script commands or diacritic kana depending on parser context. Symbol table lookup alone is not a valid global byte decoder. Source substitutions such as PLAYER/RIVAL expand data and are not pixel-derived OCR corrections.","evidence":["constants/charmap.asm:first comment","macros/scripts/text.asm","home/text.asm:PlaceNextChar/TextCommandProcessor"]},
+    {"rule":"PARA clears the interior after a visible wait; scrolling copies intermediate rows twice with source-frame waits. Down-arrow visibility is controlled separately during input waits. Neither static duration nor arrow presence proves an entire source message has ended.","evidence":["home/text.asm:Paragraph/_ContText/ScrollTextUpOneLine/PromptText","home/joypad2.asm:WaitForTextScrollButtonPress/ManualTextScroll"]},
+    {"rule":"Japanese Blue/Yellow add GA0x4a and DEXEND0x5f source controls; their text-command sound dispatch differs from Red/Green. Do not replace Japanese control behavior with an international-version assumption.","evidence":["pinned-source home/text.asm and constants/charmap.asm comparisons"]},
+    {"rule":"Source Unicode spellings include fullwidth digits/letters, ideographic spaces and source-specific ellipsis/middle-dot symbols. These must remain auditable source aliases. A future visible-output representation layer must comply with the already-frozen contract; this audit performs no text normalization.","evidence":["constants/charmap.asm","resources/japanese-font-sources-v2.json:outputRepresentation"]},
+    {"rule":"Glyph data at reused tile codes cannot be merged without the active image profile. Compact HP/level/ID/No./PP labels require separate rendered-unit interpretation; those interpretations and viewport/shadow handling are not yet implemented.","evidence":["gfx/font/font_extra.png","gfx/font/font_battle_extra.png","gfx/battle/battle_hud_1.png","engine/pokemon/status_screen.asm"]}
+  ],
+  "notPerformed": ["No tested full-frame OCR run","No source-text candidate correction","No GT modification","No Chinese GT or production mapping","No ROM build or emulator use","No independent video acceptance or actual UI timing measurement"],
+  "sourceAcquisition": {
+    "initialFailure": "Git Windows Schannel returned SEC_E_NO_CREDENTIALS for all3 public clones; original logs retained in reports/gt-approval-shop-metadata-r2/clone-*.log",
+    "repairAttempt": 1,
+    "repairLimit": 3,
+    "resolution": "Used per-command git -c http.sslBackend=openssl; TLS verification remained enabled and global Git configuration was not changed. All3 public sources acquired and commits pinned. External repository scripts were never executed."
+  },
+  "rightsEvidence": "No LICENSE/COPYING/NOTICE-named file was found in any of the3 full pinned Git trees; this fact is not a legal permission claim. Graphics and derived pixel banks remain in ignored .cache and are excluded from product packages."
+}

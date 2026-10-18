@@ -1,0 +1,30 @@
+{
+  "status": "verification_assumptions_corrected_production_candidate_unchanged",
+  "productionCandidates": 1,
+  "events": [
+    {
+      "kind": "similar_scope",
+      "evidence": "similar-comparison-scope-v1.json",
+      "detail": "Status clips include party warmup/context. Only approved same HP unit change permitted."
+    },
+    {
+      "kind": "historical_live_test_xml",
+      "firstInput": "app/target/surefire-reports/TEST-io.github.g1ocr.capture.SourceFrameTest.xml",
+      "detail": "Authorized Maven test rerun replaced live JUnit XML. Old XML bytes were not archived; old hashes, prior176-test reports/logs and production sources/classes/JAR preserved. Current XML rechecked178 tests with zero failure. Original GT and OCR scores untouched.",
+      "files": 31
+    },
+    {
+      "kind": "serialized_stage_count",
+      "evidence": "delivery-check-v2.log",
+      "detail": "Final stage reuses rawRegions when correctedRegions is absent. Actual serialized unit changes187, not374; both raw/final scoring still checked6736 frame stages and230 target unit comparisons."
+    }
+  ],
+  "helperBeforeCorrection": {
+    "path": "reports/m3-grid-refinement-v1/packed-render-units-fix-v1/validation-helper-before-junit-fix.cjs",
+    "sha256": "3c9b4dc80247bf81ff8f4d1b603e264b751571417785591cf0046180922f7eed"
+  },
+  "finalReport": {
+    "path": "reports/m3-grid-refinement-v1/packed-render-units-fix-v1/delivery/report.json",
+    "sha256": "8eec6fa03ceb43de42bdfe735c6e980db052aea99624c5fe89a0e8cf9519e408"
+  }
+}

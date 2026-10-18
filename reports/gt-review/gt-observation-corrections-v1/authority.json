@@ -1,0 +1,137 @@
+{
+  "reviewId": "gt-observation-corrections-v1",
+  "message": "如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论",
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "basis": "Direct user conditional authorization; original-image evidence now satisfies the condition for only the six listed frames. Not a claim of subsequent approval of this version or human per-frame reading.",
+  "scope": "Only six specified source frames receive corrected conclusions. All38 original event ranges, all frames and page opportunities retained. Unchanged annotations inherit their old authority and any explicit pending qualifications; they are not newly certified.",
+  "humanPerFrameVerification": "not claimed",
+  "changes": [
+    {
+      "id": "intro-creatures",
+      "frames": [
+        6258,
+        6291,
+        6292,
+        6293
+      ],
+      "oldGt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/intro-creatures/ocr-candidate-v1.jsonl",
+        "sha256": "34c2ba7dd81354736156368f36ed6a4934b951300e8bb97219ac526a8e15729b",
+        "bytes": 22256
+      },
+      "correctedGt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v1/intro-creatures/ocr-candidate-v2.jsonl",
+        "sha256": "7cc5f3cc68e320b98afb3e87f717197073f2b20521a6c053fe3f7e8d6e61c9af",
+        "bytes": 23006
+      },
+      "evidence": {
+        "path": "reports/m3-grid-refinement-v1/authorized-correction-intro-creatures-notes-v1/correction-evidence.json",
+        "sha256": "205333d4c38d6855649041f493c3f34b4b5635a86c059ba0f745538c83891603",
+        "bytes": 14710
+      },
+      "expectedCharacterDelta": -5
+    },
+    {
+      "id": "status-pages",
+      "frames": [
+        526
+      ],
+      "oldGt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/status-pages/ocr-candidate-v1.jsonl",
+        "sha256": "cdfc263ad361fb0db955c3f9275f9bbfdac232b18340fd0e71a075a7799d61c9",
+        "bytes": 23540
+      },
+      "correctedGt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v1/status-pages/ocr-candidate-v2.jsonl",
+        "sha256": "7a1d6134b9a0c6c11c4ffe8e863107ac117da99f9c8db27920ae05e62930f7a4",
+        "bytes": 23546
+      },
+      "evidence": {
+        "path": "reports/m3-grid-refinement-v1/authorized-correction-status-pages-notes-v1/correction-evidence.json",
+        "sha256": "ef6bdf0ef3111c70e73edbccb3f7137ef10b06b418fdf898634541f59e2381cd",
+        "bytes": 49466
+      },
+      "expectedCharacterDelta": 0
+    },
+    {
+      "id": "status-alt-pages",
+      "frames": [
+        3612
+      ],
+      "oldGt": {
+        "path": "data/gt/frozen/ocr-all-scenes-v2/status-alt-pages/ocr-candidate-v1.jsonl",
+        "sha256": "021fd43307990be1c54539071b9dd4f93761fb35929d14009bc194170e798f4e",
+        "bytes": 23241
+      },
+      "correctedGt": {
+        "path": "data/gt/candidates/ocr-observation-corrections-v1/status-alt-pages/ocr-candidate-v2.jsonl",
+        "sha256": "880f326ff0ae317b2d812eca981521915f9f69d84c4d9569c52eaf908f3404cf",
+        "bytes": 23728
+      },
+      "evidence": {
+        "path": "reports/m3-grid-refinement-v1/authorized-correction-status-alt-pages-notes-v1/correction-evidence.json",
+        "sha256": "d2bfd067c51ace239809020120eb4ff63a80103391eaa1e41dbdbe09022c1042",
+        "bytes": 51240
+      },
+      "expectedCharacterDelta": -4
+    }
+  ],
+  "limitations": [
+    {
+      "mediaId": "video-04",
+      "impact": "整个背包退出事件不冻结/不宣称通过；该原帧保留，不能计作空文字成功",
+      "uncertainFrames": [
+        5359
+      ],
+      "checks": [
+        "首遍原上下文逐帧及直接放大",
+        "第二次原视频重解码及原像素光标条带",
+        "再次查看5358-5362独立原图，仍不能可靠区分被遮基础字形"
+      ],
+      "source": "data/frames/video-04/all-scenes-backpack-pass2-v1",
+      "layout": "data/gt/candidates/ocr-all-scenes-v1/backpack-navigation/layout-v1.json",
+      "id": "backpack-exit-occluded",
+      "status": "pending_not_proposed_for_freeze",
+      "range": [
+        5358,
+        5363
+      ],
+      "reason": "5359退出重绘时玩家精灵遮住やめる末字基础字形，残余道具行也被背景/菜单改写；仅凭5358前帧和5360后帧不能恢复当帧答案"
+    },
+    {
+      "id": "versions-and-sessions",
+      "status": "pending",
+      "reason": "只有video01 HOME红版图标有版本证据；其余版本/来源关系与独立会话无法证实，全部候选development，独立acceptance集合为空；M4继续待验证，不要求补录"
+    },
+    {
+      "id": "unselected-source",
+      "status": "unverified",
+      "reason": "未选原帧范围按四录像总账本补集逐段列出；候选通过不等于整个录像、版本或游戏通过"
+    },
+    {
+      "id": "real-window-and-ui",
+      "status": "pending",
+      "reason": "真实投屏前台/后台/遮挡/最小化/无效帧、Windows10兼容、实际UI延迟和长时稳定性尚无实测证据"
+    },
+    {
+      "id": "review-browser-render",
+      "status": "pending",
+      "reason": "内置浏览器曾明确拒绝file协议且禁止绕过；本包仅做静态/控件检查，实际浏览器呈现未验证，请直接在本机打开入口文件"
+    },
+    {
+      "id": "status-alt-3541-mark",
+      "status": "pending_semantic_confirmation",
+      "mediaId": "video-03",
+      "frames": [
+        3541
+      ],
+      "reason": "Incomplete upper mark remains unresolved after both new original-image readings. Existing historical annotation remains in the denominator. No newly frozen conclusion or pass is granted for this frame."
+    },
+    {
+      "id": "remaining-annotation-audit",
+      "status": "pending",
+      "reason": "Other previously recorded field-role/order/Unicode and raw-image doubts are unchanged, not resolved by these six corrections. Complete dataset semantic integrity and OCR gates remain unpassed."
+    }
+  ]
+}

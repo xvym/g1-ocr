@@ -1,0 +1,202 @@
+{
+  "status": "agent_first_original_read_complete_not_new_GT",
+  "source": "data/frames/video-02/dialogue-sign-completion-pass2-v1",
+  "sheetReport": {
+    "path": "reports/m3-grid-refinement-v1/gym-dialogue-role-pass1-sheets-v1/report.json",
+    "sha256": "28de58dd701428372481998983634d819d3933940212ba9b4f538729b37b7e61"
+  },
+  "directlyViewedSheets": [
+    0,
+    11
+  ],
+  "frames": [
+    5262,
+    5330
+  ],
+  "frameCount": 68,
+  "disclosure": "Earlier GT/metadata/source rules were inspected to locate the discrepancy. During this sequential original-image read no GT or tested OCR output was opened. Same coding agent; not a fresh independent acceptance session or human per-frame certification.",
+  "observations": [
+    {
+      "range": [
+        5262,
+        5268
+      ],
+      "text": [],
+      "note": "Player approaches/stands at gym statue, no textbox or menu."
+    },
+    {
+      "range": [
+        5268,
+        5275
+      ],
+      "text": [],
+      "note": "Complete bottom empty textbox, no menu."
+    },
+    {
+      "range": [
+        5275,
+        5276
+      ],
+      "text": [
+        "セキ"
+      ],
+      "note": "First upper row starts."
+    },
+    {
+      "range": [
+        5276,
+        5278
+      ],
+      "text": [
+        "セキチク"
+      ]
+    },
+    {
+      "range": [
+        5278,
+        5279
+      ],
+      "text": [
+        "セキチク ポケモ"
+      ],
+      "note": "Visible handakuten above ポ."
+    },
+    {
+      "range": [
+        5279,
+        5280
+      ],
+      "text": [
+        "セキチク ポケモン ジ"
+      ]
+    },
+    {
+      "range": [
+        5280,
+        5281
+      ],
+      "text": [
+        "セキチク ポケモン ジム",
+        "キョ"
+      ]
+    },
+    {
+      "range": [
+        5281,
+        5282
+      ],
+      "text": [
+        "セキチク ポケモン ジム",
+        "キョウ に"
+      ]
+    },
+    {
+      "range": [
+        5282,
+        5284
+      ],
+      "text": [
+        "セキチク ポケモン ジム",
+        "キョウ にんてい"
+      ]
+    },
+    {
+      "range": [
+        5284,
+        5285
+      ],
+      "text": [
+        "セキチク ポケモン ジム",
+        "キョウ にんてい トレ"
+      ]
+    },
+    {
+      "range": [
+        5285,
+        5286
+      ],
+      "text": [
+        "セキチク ポケモン ジム",
+        "キョウ にんてい トレーナー"
+      ]
+    },
+    {
+      "range": [
+        5286,
+        5296
+      ],
+      "text": [
+        "セキチク ポケモン ジム",
+        "キョウ にんてい トレーナー！"
+      ],
+      "arrow": true
+    },
+    {
+      "range": [
+        5296,
+        5298
+      ],
+      "text": [
+        "セキチク ホケモン シム",
+        "キョウ にんてい トレーナー！"
+      ],
+      "arrow": false,
+      "note": "Both baselines up one row; upper diacritics clipped, retain base ホ/シ."
+    },
+    {
+      "range": [
+        5298,
+        5300
+      ],
+      "text": [
+        "キョウ にんてい トレーナー！"
+      ],
+      "arrow": false,
+      "note": "Old lower row now upper normal baseline; same field continuing across5298/5299, no menu/layer change."
+    },
+    {
+      "range": [
+        5300,
+        5302
+      ],
+      "text": [
+        "キョウ にんてい トレーナー！",
+        "レッド"
+      ],
+      "arrow": false
+    },
+    {
+      "range": [
+        5302,
+        5303
+      ],
+      "text": [
+        "キョウ にんてい トレーナー！",
+        "レッド グリ"
+      ],
+      "arrow": false
+    },
+    {
+      "range": [
+        5303,
+        5320
+      ],
+      "text": [
+        "キョウ にんてい トレーナー！",
+        "レッド グリーン"
+      ],
+      "arrow": false,
+      "note": "Final name row remains through5319; observed subsequent close, no wait arrow. Do not infer instantaneous runtime completion from static duration."
+    },
+    {
+      "range": [
+        5320,
+        5330
+      ],
+      "text": [],
+      "note": "Textbox disappears at5320. Player moves from5326, extra5328/29 only context."
+    }
+  ],
+  "fieldInterpretation": "One continuous ordinary sign dialogue in the same bottom box; no visible field-role transition at the old clip boundary.",
+  "stateInterpretation": "Keep separate observations for arrow waiting, arrow-free final text, scrolling and empty/no-box; no global state renaming authorized by this note."
+}

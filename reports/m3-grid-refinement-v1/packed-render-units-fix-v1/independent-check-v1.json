@@ -1,0 +1,34 @@
+{
+  "status": "independent_party_unit_equivalence_and_dimension_check_passed_not_acceptance",
+  "report": {
+    "path": "reports/m3-grid-refinement-v1/packed-render-units-fix-v1/delivery/report.json",
+    "sha256": "8eec6fa03ceb43de42bdfe735c6e980db052aea99624c5fe89a0e8cf9519e408"
+  },
+  "checker": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\verify-packed-render-units-delivery.cjs",
+    "sha256": "d5b278ff8cf4363b5480541af8dc075cdf87ae8cb600f38b3095576bbe2fcc9d"
+  },
+  "inputs": 4561,
+  "retainedReferences": 3577,
+  "scoredReferences": 3368,
+  "uniqueScoredFrames": 3361,
+  "retainedChangedReferences": 32,
+  "scoredChangedFrames": 20,
+  "retainedChangedLabels": 187,
+  "scoredChangedLabels": 115,
+  "stageFrameChecks": 6736,
+  "pages": 116,
+  "states": 715,
+  "transitionOpportunities": 553,
+  "tests": 178,
+  "legacyStrict": 7,
+  "rawErrors": 188,
+  "finalErrors": 177,
+  "fieldPositionPages": 115,
+  "logicalDiagnosticPages": 62,
+  "remainingMarkFrames": 7,
+  "readinessIdentical": true,
+  "localLinks": 2167,
+  "actualBrowserRendering": "unverified",
+  "productAcceptance": false
+}

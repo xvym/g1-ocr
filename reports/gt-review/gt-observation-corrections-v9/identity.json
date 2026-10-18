@@ -1,0 +1,38 @@
+{
+  "base": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r10/freeze.json",
+    "sha256": "fd098d60c720dfad568475d6ee16ba71e5338e9faa22982c80cf5b6590b6ace2",
+    "bytes": 87717
+  },
+  "media": [
+    {
+      "path": "testpic/video/2026-10-11 22-34-17.mp4",
+      "sha256": "f53c237ad19a3367a4d04c4cbd890e07a7faf3038a9a91e776765e3769cbc572",
+      "bytes": 751818349
+    },
+    {
+      "path": "testpic/video/4a6e01eb2ea34cdbfdba41e9b4db6a88.mp4",
+      "sha256": "c83de914352e64d207c9ea37318f4503855d6ca7f3b31af6215a0d9b451cf207",
+      "bytes": 16579532
+    },
+    {
+      "path": "testpic/video/5b34074da5f0cd90a956a4178d77b637.mp4",
+      "sha256": "9c8aee036f721a3da4d79255589f00f142148a0b2398972c924194ffbd3635b5",
+      "bytes": 16812110
+    },
+    {
+      "path": "testpic/video/cd87cd5a156ef5cf5d64a43a1e6600fd.mp4",
+      "sha256": "4a2fec5930e97d8ad8db4ed3343dac3fce7ecaadde2f9211519bddc2ece9ec30",
+      "bytes": 40239837
+    }
+  ],
+  "retainedReviewFrames": 111,
+  "allSemanticIntegrityPassed": false,
+  "productAcceptance": false,
+  "uiRendering": "pending",
+  "builder": {
+    "path": "D:\\Code\\Workspace\\g1-ocr\\tools\\build-shop-parent-correction-bundle.cjs",
+    "sha256": "c71909964751636f36df663167abb6e7258687f307533e70d7692c79221b8200",
+    "bytes": 6956
+  }
+}

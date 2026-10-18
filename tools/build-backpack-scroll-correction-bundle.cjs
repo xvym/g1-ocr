@@ -1,0 +1,34 @@
+'use strict';
+const fs=require('fs'),path=require('path'),crypto=require('crypto'),assert=require('assert/strict'),{audit}=require('./check-gt-overlaps.cjs');
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8')),rows=p=>fs.readFileSync(p,'utf8').trim().split(/\r?\n/).map(JSON.parse);
+const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex'),ident=p=>({path:p,sha256:sha(p),bytes:fs.statSync(p).size});
+const save=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n',{flag:'wx'}),copy=(a,b)=>fs.copyFileSync(a,b,fs.constants.COPYFILE_EXCL);
+const base='data/gt/frozen/ocr-all-scenes-v2-observation-r11',out='data/gt/frozen/ocr-all-scenes-v2-observation-r12',review='reports/gt-review/gt-observation-corrections-v10',notes='reports/m3-grid-refinement-v1/backpack-scroll-notes-v1';
+assert(!fs.existsSync(out)&&!fs.existsSync(review));
+const old=read(base+'/freeze.json'),batch=read(base+'/batch.json'),ev=read(notes+'/candidate-evidence.json'),check=read(notes+'/read-integrity.json'),comparison=read(ev.audit.path);
+assert.equal(sha(base+'/freeze.json'),comparison.freeze.sha256);assert.equal(sha(ev.audit.path),ev.audit.sha256);assert.equal(check.frameCount,166);assert(check.observationsAgree);assert.equal(ev.changes.length,5);
+for(const it of old.items)for(const p of it.payloads)assert.equal(sha(p.file?base+'/'+p.file:p.approvedSource),p.sha256);
+const media=rows('data/meta/m1-v1/media.jsonl');assert.equal(media.length,4);for(const m of media)assert.equal(sha(m.path),m.sha256);
+for(const p of [...check.notes,...check.verification,ev.input,ev.candidate])assert.equal(sha(p.path),p.sha256);
+const a=rows(ev.input.path),b=rows(ev.candidate.path),restored=structuredClone(b);
+for(const c of ev.changes){const idx=a.findIndex(s=>s.startFrame===c.frame);assert.deepEqual(a[idx],c.before);assert.deepEqual(b[idx],c.after);restored[idx]=a[idx];}assert.deepEqual(restored,a);
+const integrity='reports/m3-grid-refinement-v1/backpack-scroll-candidate-integrity-v1.json',ir=read(integrity);assert.equal(ir.gtSha256,ev.candidate.sha256);assert.equal(ir.sourceFrames,152);
+const second='data/frames/video-04/backpack-scroll-pass2-v1';
+for(const f of check.pngs){const name='/frame-'+String(f.frame).padStart(6,'0')+'.png';for(const v of check.verification)assert.equal(sha(path.dirname(v.path)+name),f.sha256);}
+fs.mkdirSync(review+'/backpack-navigation/frames',{recursive:true});
+for(const f of check.pngs){const name='frame-'+String(f.frame).padStart(6,'0')+'.png';copy(second+'/'+name,review+'/backpack-navigation/frames/'+name);}
+for(const name of ['pass1.json','pass2.json','read-integrity.json','notes-correction.json','frozen-comparison.json','candidate-evidence.json'])copy(notes+'/'+name,review+'/'+name);
+for(let k=0;k<2;k++)copy(check.verification[k].path,review+'/source-pass'+(k+1)+'.json');
+copy(ev.input.path,review+'/backpack-navigation/old.jsonl');copy(ev.candidate.path,review+'/backpack-navigation/corrected.jsonl');copy(integrity,review+'/backpack-navigation/integrity.json');
+const bi=batch.items.find(x=>x.id==='backpack-navigation');bi.candidate=ev.candidate.path;bi.integrity=review+'/backpack-navigation/integrity.json';bi.approval='conditional_authorized_original_scroll_correction';
+batch.reviewId='gt-observation-corrections-v10';batch.approvalScope='Only five backpack navigation redraw frames: current text, attached/detached marks and necessary rectangles. No state, timing, page, role or scoring changes.';
+const summary={...old.summary,reviewId:batch.reviewId,status:'qualified_original_scroll_correction',correctionCharacterDelta:0,allSemanticIntegrityPassed:false};save(review+'/batch.json',batch);save(review+'/summary.json',summary);
+const overlap=audit(review+'/batch.json');assert.equal(overlap.uniqueScoredFrames,3361);assert.equal(overlap.overlappingReferences,7);assert.equal(overlap.conflicts.length,0);save(review+'/overlap.json',overlap);
+const authority={reviewId:batch.reviewId,message:'如果确认冻结内容有误，可以在置信度较高的情况下调整冻结结论',basis:ev.rationale,changes:ev.changes,limitations:old.limitations,sameAgentNotIndependentSession:true};save(review+'/authority.json',authority);
+save(review+'/identity.json',{base:ident(base+'/freeze.json'),media:media.map(m=>ident(m.path)),retainedReviewFrames:166,allSemanticIntegrityPassed:false,productAcceptance:false,uiRendering:'pending',builder:ident(__filename)});
+fs.writeFileSync(review+'/index.html','<!doctype html><meta charset="utf-8"><title>背包滚动原帧纠错</title><h1>背包滚动原帧纠错</h1><p>完整166原帧双遍核读，对照全部152评分帧。五帧文字重绘时仍带旧附标，按当帧保留；不借下一稳定帧补写。字符总分母不变，状态、页面和评分保持。笔记箭头及列号误记另有纠正记录，原笔记保留。代理核读不等于独立会话或人工逐帧验收；UI、真实环境仍待验证。</p><a href="authority.json">授权及完整差异</a> <a href="backpack-navigation/old.jsonl">旧注释</a> <a href="backpack-navigation/corrected.jsonl">新注释</a> <a href="pass1.json">首遍</a> <a href="pass2.json">二遍</a> <a href="notes-correction.json">笔记纠正</a><ul>'+check.pngs.map(f=>'<li><a href="backpack-navigation/frames/frame-'+String(f.frame).padStart(6,'0')+'.png">'+f.frame+'</a></li>').join('')+'</ul>',{flag:'wx'});
+const files=[];function walk(d,p=''){for(const e of fs.readdirSync(d,{withFileTypes:true})){const rel=p+e.name;if(e.isDirectory())walk(d+'/'+e.name,rel+'/');else files.push({...ident(d+'/'+e.name),path:rel});}}walk(review);save(review+'/bundle-manifest.json',{reviewId:batch.reviewId,files});
+fs.mkdirSync(out,{recursive:true});for(const n of ['batch.json','summary.json'])copy(review+'/'+n,out+'/'+n);
+const items=old.items.map(it=>({id:it.id,priorFreeze:ident(base+'/freeze.json'),payloads:it.payloads.map(p=>{const q={...p};if(q.file){q.approvedSource=base+'/'+q.file;delete q.file;}if(it.id==='backpack-navigation'&&q.kind==='gt'){q.approvedSource=ev.candidate.path;q.sha256=ev.candidate.sha256;q.bytes=fs.statSync(ev.candidate.path).size;}return q;})}));
+save(out+'/freeze.json',{...old,freezeVersion:'ocr-all-scenes-v2-observation-r12',authority:'Current visible backpack scroll correction under conditional user authorization; all qualifications remain.',approval:authority,approvedBundle:ident(review+'/bundle-manifest.json'),identityCheck:ident(review+'/identity.json'),items,summary,previousEffectiveFreeze:ident(base+'/freeze.json')});
+console.log(JSON.stringify({freeze:ident(out+'/freeze.json'),bundle:ident(review+'/bundle-manifest.json')}));

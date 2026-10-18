@@ -1,0 +1,22 @@
+{
+  "status": "agent_first_original_image_recheck_only_not_new_GT_not_approved",
+  "event": "status-pages",
+  "source": "video-02",
+  "inputVerification": "data/frames/video-02/ocr-observation-recheck-status-pages-v1/verification.json",
+  "displayVerification": "reports/m3-grid-refinement-v1/blind-recheck-sheets-pass1-v1/status-pages/report.json",
+  "viewedSheets": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],
+  "viewedOriginalFrames": [526],
+  "reviewer": "Current coding agent, not human per-frame verification",
+  "inputIndependence": "Only original PNG and exact nearest-neighbor sheets were viewed during this pass; no tested actual, score differences or replacement annotations were opened.",
+  "observations": [
+    {"range": [460,462], "scope": "before-context", "visible": "Party list and status/swap/cancel submenu; outline party cursor and filled submenu cursor."},
+    {"range": [462,469], "visible": "Uniform raster, no target letters or cursor."},
+    {"range": [469,526], "header": ["ラプラス", ":L", "50", "No.", "131", "HP:", "200/206", "じょうたい/ふつう"], "stats": [["こうげき","122"],["ぼうぎょ","123"],["すばやさ","103"],["とくしゅ","139"]], "otherFields": ["タイプ1/みず", "タイプ2/こおり", "IDNo/", "16785", "おや/ レッド"], "visible": "Text remains stable. Creature appears at490. Some displayed sheet previews show repeated right-hand strips; full original526 was also opened and no annotation was inferred from the strip artifacts."},
+    {"range": [526,527], "header": ["ラプラス", ":L", "50", "No.", "131"], "experience": ["けいけんち/", "157734", "あと", "8079で", ":L", "51"], "newMove": ["れいとうビーム", "PP", "9/10"], "oldLowerFields": ["ほうきょ", "123", "すばやさ", "103", "とくしゅ", "139", "タイフ2/こおり", "IDNo/", "16785", "おや/ レッド"], "visible": "Mixed redraw. Marks above old defence and type2 bases are cleared by new move row; old lower bases remain. Old HP panel replaced by experience. No page-complete claim."},
+    {"range": [527,553], "header": ["ラプラス", ":L", "50", "No.", "131"], "experience": ["けいけんち/", "157734", "あと", "8079で", ":L", "51"], "moves": [["れいとうビーム","PP","9/10"],["のしかかり","PP","14/15"],["あやしいひかり","PP","10/10"],["ハイドロポンプ","PP","5/ 5"]], "visible": "Second page stable, no cursor/down arrow."},
+    {"range": [553,564], "visible": "All status letters cleared, uniform raster."},
+    {"range": [564,568], "scope": "after-context", "visible": "Party list and prompt return, filled cursor first entry."}
+  ],
+  "evidenceBoundary": "One first-pass observation only; not a second pass, replacement GT, approval request or scoring exception. Original frozen payload remains unchanged.",
+  "remaining": ["Second independent original-image pass not performed", "Other affected rechecks not completed; user has now explicitly prohibited GT changes"]
+}

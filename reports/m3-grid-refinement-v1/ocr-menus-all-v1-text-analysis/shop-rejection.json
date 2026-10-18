@@ -1,0 +1,2439 @@
+[
+  {
+    "sourceFrameIndex": 1408,
+    "sourcePts": 720896,
+    "stateId": "9c8aee036f72-f1408-f1413",
+    "expectedCharacters": 66,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "shop_message:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "どれを うっていただけますか?",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1409,
+    "sourcePts": 721408,
+    "stateId": "9c8aee036f72-f1408-f1413",
+    "expectedCharacters": 66,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "shop_message:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "どれを うっていただけますか?",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1410,
+    "sourcePts": 721920,
+    "stateId": "9c8aee036f72-f1408-f1413",
+    "expectedCharacters": 66,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "shop_message:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "どれを うっていただけますか?",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1411,
+    "sourcePts": 722432,
+    "stateId": "9c8aee036f72-f1408-f1413",
+    "expectedCharacters": 66,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "shop_message:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "どれを うっていただけますか?",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1412,
+    "sourcePts": 722944,
+    "stateId": "9c8aee036f72-f1408-f1413",
+    "expectedCharacters": 66,
+    "errors": 1,
+    "differences": [
+      {
+        "kind": "text",
+        "key": "shop_message:14:1:9",
+        "expected": "どれを うっていただけますか？",
+        "actual": "どれを うっていただけますか?",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1413,
+    "sourcePts": 723456,
+    "stateId": "9c8aee036f72-f1413-f1414",
+    "expectedCharacters": 51,
+    "errors": 48,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1414,
+    "sourcePts": 723968,
+    "stateId": "9c8aee036f72-f1414-f1415",
+    "expectedCharacters": 52,
+    "errors": 50,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "…",
+        "actual": "",
+        "errors": 1
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "…",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1415,
+    "sourcePts": 724480,
+    "stateId": "9c8aee036f72-f1415-f1417",
+    "expectedCharacters": 55,
+    "errors": 56,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……その",
+        "actual": "",
+        "errors": 4
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……その",
+        "errors": 4
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1416,
+    "sourcePts": 724992,
+    "stateId": "9c8aee036f72-f1415-f1417",
+    "expectedCharacters": 55,
+    "errors": 56,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……その",
+        "actual": "",
+        "errors": 4
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……その",
+        "errors": 4
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1417,
+    "sourcePts": 725504,
+    "stateId": "9c8aee036f72-f1417-f1418",
+    "expectedCharacters": 58,
+    "errors": 62,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなも",
+        "actual": "",
+        "errors": 7
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなも",
+        "errors": 7
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1418,
+    "sourcePts": 726016,
+    "stateId": "9c8aee036f72-f1418-f1419",
+    "expectedCharacters": 60,
+    "errors": 66,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに",
+        "actual": "",
+        "errors": 9
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに",
+        "errors": 9
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1419,
+    "sourcePts": 726528,
+    "stateId": "9c8aee036f72-f1419-f1420",
+    "expectedCharacters": 64,
+    "errors": 74,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだ",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだ",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1420,
+    "sourcePts": 727040,
+    "stateId": "9c8aee036f72-f1420-f1422",
+    "expectedCharacters": 67,
+    "errors": 80,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "お",
+        "actual": "",
+        "errors": 1
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "お",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1421,
+    "sourcePts": 727552,
+    "stateId": "9c8aee036f72-f1420-f1422",
+    "expectedCharacters": 67,
+    "errors": 80,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "お",
+        "actual": "",
+        "errors": 1
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "お",
+        "errors": 1
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1422,
+    "sourcePts": 728064,
+    "stateId": "9c8aee036f72-f1422-f1424",
+    "expectedCharacters": 73,
+    "errors": 92,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけ",
+        "actual": "",
+        "errors": 7
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけ",
+        "errors": 7
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1423,
+    "sourcePts": 728576,
+    "stateId": "9c8aee036f72-f1422-f1424",
+    "expectedCharacters": 73,
+    "errors": 92,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけ",
+        "actual": "",
+        "errors": 7
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけ",
+        "errors": 7
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1424,
+    "sourcePts": 729088,
+    "stateId": "9c8aee036f72-f1424-f1425",
+    "expectedCharacters": 75,
+    "errors": 96,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけには",
+        "actual": "",
+        "errors": 9
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけには",
+        "errors": 9
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1425,
+    "sourcePts": 729600,
+    "stateId": "9c8aee036f72-f1425-f1426",
+    "expectedCharacters": 79,
+    "errors": 104,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけには まいり",
+        "actual": "",
+        "errors": 13
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけには まいり",
+        "errors": 13
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1426,
+    "sourcePts": 730112,
+    "stateId": "9c8aee036f72-f1426-f1428",
+    "expectedCharacters": 82,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけには まいりません",
+        "actual": "",
+        "errors": 16
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけには まいりません",
+        "errors": 16
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1427,
+    "sourcePts": 730624,
+    "stateId": "9c8aee036f72-f1426-f1428",
+    "expectedCharacters": 82,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけには まいりません",
+        "actual": "",
+        "errors": 16
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけには まいりません",
+        "errors": 16
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1428,
+    "sourcePts": 731136,
+    "stateId": "9c8aee036f72-f1428-f1438",
+    "expectedCharacters": 82,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけには まいりません",
+        "actual": "",
+        "errors": 16
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけには まいりません",
+        "errors": 16
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1429,
+    "sourcePts": 731648,
+    "stateId": "9c8aee036f72-f1428-f1438",
+    "expectedCharacters": 82,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけには まいりません",
+        "actual": "",
+        "errors": 16
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけには まいりません",
+        "errors": 16
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1430,
+    "sourcePts": 732160,
+    "stateId": "9c8aee036f72-f1428-f1438",
+    "expectedCharacters": 82,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけには まいりません",
+        "actual": "",
+        "errors": 16
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけには まいりません",
+        "errors": 16
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1431,
+    "sourcePts": 732672,
+    "stateId": "9c8aee036f72-f1428-f1438",
+    "expectedCharacters": 82,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけには まいりません",
+        "actual": "",
+        "errors": 16
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけには まいりません",
+        "errors": 16
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1432,
+    "sourcePts": 733184,
+    "stateId": "9c8aee036f72-f1428-f1438",
+    "expectedCharacters": 82,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけには まいりません",
+        "actual": "",
+        "errors": 16
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけには まいりません",
+        "errors": 16
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1433,
+    "sourcePts": 733696,
+    "stateId": "9c8aee036f72-f1428-f1438",
+    "expectedCharacters": 82,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけには まいりません",
+        "actual": "",
+        "errors": 16
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけには まいりません",
+        "errors": 16
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1434,
+    "sourcePts": 734208,
+    "stateId": "9c8aee036f72-f1428-f1438",
+    "expectedCharacters": 82,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけには まいりません",
+        "actual": "",
+        "errors": 16
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけには まいりません",
+        "errors": 16
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1435,
+    "sourcePts": 734720,
+    "stateId": "9c8aee036f72-f1428-f1438",
+    "expectedCharacters": 82,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけには まいりません",
+        "actual": "",
+        "errors": 16
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけには まいりません",
+        "errors": 16
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1436,
+    "sourcePts": 735232,
+    "stateId": "9c8aee036f72-f1428-f1438",
+    "expectedCharacters": 82,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけには まいりません",
+        "actual": "",
+        "errors": 16
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけには まいりません",
+        "errors": 16
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1437,
+    "sourcePts": 735744,
+    "stateId": "9c8aee036f72-f1428-f1438",
+    "expectedCharacters": 82,
+    "errors": 110,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:14:1:9",
+        "expected": "……そのしなものに おねだんを",
+        "actual": "",
+        "errors": 15
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_message:16:1:10",
+        "expected": "おつけするわけには まいりません",
+        "actual": "",
+        "errors": 16
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:14:1:5",
+        "expected": "",
+        "actual": "……そのしなものに おねだんを",
+        "errors": 15
+      },
+      {
+        "kind": "extra_region",
+        "key": "shop_prompt:16:1:6",
+        "expected": "",
+        "actual": "おつけするわけには まいりません",
+        "errors": 16
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1438,
+    "sourcePts": 736256,
+    "stateId": "9c8aee036f72-f1438-f1439",
+    "expectedCharacters": 51,
+    "errors": 48,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:3:2:1",
+        "expected": "うり",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "occluded_menu_visible_prefix:5:2:2",
+        "expected": "べつ",
+        "actual": "",
+        "errors": 2
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:4:6:5",
+        "expected": "ひでんマシン05",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:6:6:6",
+        "expected": "ひでんマシン01",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:8:6:7",
+        "expected": "ひでんマシン03",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "missing_region",
+        "key": "item_name:10:6:8",
+        "expected": "ひでんマシン04",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うり│  ゛",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつ│  ゛",
+        "errors": 6
+      }
+    ]
+  },
+  {
+    "sourceFrameIndex": 1439,
+    "sourcePts": 736768,
+    "stateId": "9c8aee036f72-f1439-f1440",
+    "expectedCharacters": 29,
+    "errors": 58,
+    "differences": [
+      {
+        "kind": "missing_region",
+        "key": "shop_money_label:0:14:0",
+        "expected": "おかね",
+        "actual": "",
+        "errors": 3
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:1:2:1",
+        "expected": "かいに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "money_amount:1:13:2",
+        "expected": "22526円",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:3:2:3",
+        "expected": "うりに きた",
+        "actual": "",
+        "errors": 6
+      },
+      {
+        "kind": "missing_region",
+        "key": "shop_menu_choice:5:2:4",
+        "expected": "べつに いいです",
+        "actual": "",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:1:2:0",
+        "expected": "",
+        "actual": "かいに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:3:2:1",
+        "expected": "",
+        "actual": "うりに きた",
+        "errors": 6
+      },
+      {
+        "kind": "extra_region",
+        "key": "menu_label:5:2:2",
+        "expected": "",
+        "actual": "べつに いいです",
+        "errors": 8
+      },
+      {
+        "kind": "extra_region",
+        "key": "money_label:0:14:3",
+        "expected": "",
+        "actual": "おかね",
+        "errors": 3
+      },
+      {
+        "kind": "extra_region",
+        "key": "money:1:13:4",
+        "expected": "",
+        "actual": "22526円",
+        "errors": 6
+      }
+    ]
+  }
+]

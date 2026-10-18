@@ -1,0 +1,2630 @@
+{
+  "status": "full_scored_scope_observation_comparison_not_new_freeze",
+  "freeze": {
+    "path": "data/gt/frozen/ocr-all-scenes-v2-observation-r11/freeze.json",
+    "sha256": "715b7297c1bd4327c6a8a50a93ddee7fef2410b8b25c4f2d4c2f4ac8a54199dd"
+  },
+  "notes": [
+    {
+      "path": "reports/m3-grid-refinement-v1/backpack-scroll-notes-v1/pass1.json",
+      "sha256": "8768763dde0a439de709cf237ba599bcabb6ebdf9737b4051359642ddeb8cf89"
+    },
+    {
+      "path": "reports/m3-grid-refinement-v1/backpack-scroll-notes-v1/pass2.json",
+      "sha256": "f7aa1df8f051264243f2f58e35fa3878fcf36fcb5e8d1f10586b9caa343993ea"
+    }
+  ],
+  "correction": {
+    "path": "reports/m3-grid-refinement-v1/backpack-scroll-notes-v1/notes-correction.json",
+    "sha256": "2274517d49ff337836eba07a0652069fd0fb8119efc9c9966bd2c9e1098012ff"
+  },
+  "payloads": [
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-navigation/ocr-candidate-v2.jsonl",
+      "sha256": "34ef0bd2d6220db5c454155b574ec7541d8ca692a1807d2ed91e0c173721334c",
+      "kind": "gt"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-navigation/all-scenes-backpack-navigation-clip-v2.json",
+      "sha256": "7d30d344d38606ceb97e39f16d730209636c5439f3f25ff439933b99f192bf0b",
+      "kind": "clip"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-navigation/layout-v1.json",
+      "sha256": "5edb74be55314433d00ff9d5279bbabd02f0631c175fe7a626c8e6c3d4a3440f",
+      "kind": "layout"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-navigation/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+      "kind": "contract"
+    }
+  ],
+  "openingPayloads": [
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/ocr-candidate-v1.jsonl",
+      "sha256": "80ab4a399b972b09955215636ef01793124767b29c2b1eb16b723ecdfc9c72e5",
+      "kind": "gt"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/all-scenes-backpack-opening-clip-v2.json",
+      "sha256": "ff8f144ebd1f130afb3ef1fd0e6c97fb5745d0ca9114e5441b4e6ae4a5f801ed",
+      "kind": "clip"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/layout-v1.json",
+      "sha256": "77652ae818669c79dd49a7c4504299fceaf21e9981faebd120a3676ee8a3eee6",
+      "kind": "layout"
+    },
+    {
+      "path": "data/gt/frozen/ocr-all-scenes-v2/backpack-opening/ocr-scoring-contract-all-scenes-v5.json",
+      "sha256": "619265a1f39869e950cc95e3a85def7b72d0d832b2b10ef9bbcca1f320d8414d",
+      "kind": "contract"
+    }
+  ],
+  "scoredFrames": 152,
+  "states": 47,
+  "overlapChecked": [
+    5206,
+    5207
+  ],
+  "checks": [
+    {
+      "frame": 5206,
+      "stateId": "4a2fec5930e9-f5206-f5216",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5207,
+      "stateId": "4a2fec5930e9-f5206-f5216",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5208,
+      "stateId": "4a2fec5930e9-f5206-f5216",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5209,
+      "stateId": "4a2fec5930e9-f5206-f5216",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5210,
+      "stateId": "4a2fec5930e9-f5206-f5216",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5211,
+      "stateId": "4a2fec5930e9-f5206-f5216",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5212,
+      "stateId": "4a2fec5930e9-f5206-f5216",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5213,
+      "stateId": "4a2fec5930e9-f5206-f5216",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5214,
+      "stateId": "4a2fec5930e9-f5206-f5216",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5215,
+      "stateId": "4a2fec5930e9-f5206-f5216",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5216,
+      "stateId": "4a2fec5930e9-f5216-f5223",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5217,
+      "stateId": "4a2fec5930e9-f5216-f5223",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5218,
+      "stateId": "4a2fec5930e9-f5216-f5223",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5219,
+      "stateId": "4a2fec5930e9-f5216-f5223",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5220,
+      "stateId": "4a2fec5930e9-f5216-f5223",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5221,
+      "stateId": "4a2fec5930e9-f5216-f5223",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5222,
+      "stateId": "4a2fec5930e9-f5216-f5223",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5223,
+      "stateId": "4a2fec5930e9-f5223-f5226",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5224,
+      "stateId": "4a2fec5930e9-f5223-f5226",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5225,
+      "stateId": "4a2fec5930e9-f5223-f5226",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5226,
+      "stateId": "4a2fec5930e9-f5226-f5232",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5227,
+      "stateId": "4a2fec5930e9-f5226-f5232",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5228,
+      "stateId": "4a2fec5930e9-f5226-f5232",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5229,
+      "stateId": "4a2fec5930e9-f5226-f5232",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5230,
+      "stateId": "4a2fec5930e9-f5226-f5232",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5231,
+      "stateId": "4a2fec5930e9-f5226-f5232",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5232,
+      "stateId": "4a2fec5930e9-f5232-f5236",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5233,
+      "stateId": "4a2fec5930e9-f5232-f5236",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5234,
+      "stateId": "4a2fec5930e9-f5232-f5236",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5235,
+      "stateId": "4a2fec5930e9-f5232-f5236",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5236,
+      "stateId": "4a2fec5930e9-f5236-f5241",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5237,
+      "stateId": "4a2fec5930e9-f5236-f5241",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5238,
+      "stateId": "4a2fec5930e9-f5236-f5241",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5239,
+      "stateId": "4a2fec5930e9-f5236-f5241",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5240,
+      "stateId": "4a2fec5930e9-f5236-f5241",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5241,
+      "stateId": "4a2fec5930e9-f5241-f5242",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5242,
+      "stateId": "4a2fec5930e9-f5242-f5251",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5243,
+      "stateId": "4a2fec5930e9-f5242-f5251",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5244,
+      "stateId": "4a2fec5930e9-f5242-f5251",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5245,
+      "stateId": "4a2fec5930e9-f5242-f5251",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5246,
+      "stateId": "4a2fec5930e9-f5242-f5251",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5247,
+      "stateId": "4a2fec5930e9-f5242-f5251",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5248,
+      "stateId": "4a2fec5930e9-f5242-f5251",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5249,
+      "stateId": "4a2fec5930e9-f5242-f5251",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5250,
+      "stateId": "4a2fec5930e9-f5242-f5251",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5251,
+      "stateId": "4a2fec5930e9-f5251-f5252",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5252,
+      "stateId": "4a2fec5930e9-f5252-f5260",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5253,
+      "stateId": "4a2fec5930e9-f5252-f5260",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5254,
+      "stateId": "4a2fec5930e9-f5252-f5260",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5255,
+      "stateId": "4a2fec5930e9-f5252-f5260",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5256,
+      "stateId": "4a2fec5930e9-f5252-f5260",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5257,
+      "stateId": "4a2fec5930e9-f5252-f5260",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5258,
+      "stateId": "4a2fec5930e9-f5252-f5260",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5259,
+      "stateId": "4a2fec5930e9-f5252-f5260",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5260,
+      "stateId": "4a2fec5930e9-f5260-f5261",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5261,
+      "stateId": "4a2fec5930e9-f5261-f5270",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5262,
+      "stateId": "4a2fec5930e9-f5261-f5270",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5263,
+      "stateId": "4a2fec5930e9-f5261-f5270",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5264,
+      "stateId": "4a2fec5930e9-f5261-f5270",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5265,
+      "stateId": "4a2fec5930e9-f5261-f5270",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5266,
+      "stateId": "4a2fec5930e9-f5261-f5270",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5267,
+      "stateId": "4a2fec5930e9-f5261-f5270",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5268,
+      "stateId": "4a2fec5930e9-f5261-f5270",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5269,
+      "stateId": "4a2fec5930e9-f5261-f5270",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5270,
+      "stateId": "4a2fec5930e9-f5270-f5271",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5271,
+      "stateId": "4a2fec5930e9-f5271-f5282",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5272,
+      "stateId": "4a2fec5930e9-f5271-f5282",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5273,
+      "stateId": "4a2fec5930e9-f5271-f5282",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5274,
+      "stateId": "4a2fec5930e9-f5271-f5282",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5275,
+      "stateId": "4a2fec5930e9-f5271-f5282",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5276,
+      "stateId": "4a2fec5930e9-f5271-f5282",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5277,
+      "stateId": "4a2fec5930e9-f5271-f5282",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5278,
+      "stateId": "4a2fec5930e9-f5271-f5282",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5279,
+      "stateId": "4a2fec5930e9-f5271-f5282",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5280,
+      "stateId": "4a2fec5930e9-f5271-f5282",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5281,
+      "stateId": "4a2fec5930e9-f5271-f5282",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5282,
+      "stateId": "4a2fec5930e9-f5282-f5283",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5283,
+      "stateId": "4a2fec5930e9-f5283-f5291",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5284,
+      "stateId": "4a2fec5930e9-f5283-f5291",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5285,
+      "stateId": "4a2fec5930e9-f5283-f5291",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5286,
+      "stateId": "4a2fec5930e9-f5283-f5291",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5287,
+      "stateId": "4a2fec5930e9-f5283-f5291",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5288,
+      "stateId": "4a2fec5930e9-f5283-f5291",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5289,
+      "stateId": "4a2fec5930e9-f5283-f5291",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5290,
+      "stateId": "4a2fec5930e9-f5283-f5291",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5291,
+      "stateId": "4a2fec5930e9-f5291-f5300",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5292,
+      "stateId": "4a2fec5930e9-f5291-f5300",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5293,
+      "stateId": "4a2fec5930e9-f5291-f5300",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5294,
+      "stateId": "4a2fec5930e9-f5291-f5300",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5295,
+      "stateId": "4a2fec5930e9-f5291-f5300",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5296,
+      "stateId": "4a2fec5930e9-f5291-f5300",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5297,
+      "stateId": "4a2fec5930e9-f5291-f5300",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5298,
+      "stateId": "4a2fec5930e9-f5291-f5300",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5299,
+      "stateId": "4a2fec5930e9-f5291-f5300",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5300,
+      "stateId": "4a2fec5930e9-f5300-f5301",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5301,
+      "stateId": "4a2fec5930e9-f5301-f5302",
+      "fieldsDiffering": [
+        "regions",
+        "detachedMarks"
+      ]
+    },
+    {
+      "frame": 5302,
+      "stateId": "4a2fec5930e9-f5302-f5303",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5303,
+      "stateId": "4a2fec5930e9-f5303-f5304",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5304,
+      "stateId": "4a2fec5930e9-f5304-f5305",
+      "fieldsDiffering": [
+        "regions",
+        "detachedMarks"
+      ]
+    },
+    {
+      "frame": 5305,
+      "stateId": "4a2fec5930e9-f5305-f5306",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5306,
+      "stateId": "4a2fec5930e9-f5306-f5307",
+      "fieldsDiffering": [
+        "regions",
+        "detachedMarks"
+      ]
+    },
+    {
+      "frame": 5307,
+      "stateId": "4a2fec5930e9-f5307-f5308",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5308,
+      "stateId": "4a2fec5930e9-f5308-f5309",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5309,
+      "stateId": "4a2fec5930e9-f5309-f5310",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5310,
+      "stateId": "4a2fec5930e9-f5310-f5311",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5311,
+      "stateId": "4a2fec5930e9-f5311-f5312",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5312,
+      "stateId": "4a2fec5930e9-f5312-f5313",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5313,
+      "stateId": "4a2fec5930e9-f5313-f5314",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5314,
+      "stateId": "4a2fec5930e9-f5314-f5316",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5315,
+      "stateId": "4a2fec5930e9-f5314-f5316",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5316,
+      "stateId": "4a2fec5930e9-f5316-f5317",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5317,
+      "stateId": "4a2fec5930e9-f5317-f5326",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5318,
+      "stateId": "4a2fec5930e9-f5317-f5326",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5319,
+      "stateId": "4a2fec5930e9-f5317-f5326",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5320,
+      "stateId": "4a2fec5930e9-f5317-f5326",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5321,
+      "stateId": "4a2fec5930e9-f5317-f5326",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5322,
+      "stateId": "4a2fec5930e9-f5317-f5326",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5323,
+      "stateId": "4a2fec5930e9-f5317-f5326",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5324,
+      "stateId": "4a2fec5930e9-f5317-f5326",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5325,
+      "stateId": "4a2fec5930e9-f5317-f5326",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5326,
+      "stateId": "4a2fec5930e9-f5326-f5330",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5327,
+      "stateId": "4a2fec5930e9-f5326-f5330",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5328,
+      "stateId": "4a2fec5930e9-f5326-f5330",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5329,
+      "stateId": "4a2fec5930e9-f5326-f5330",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5330,
+      "stateId": "4a2fec5930e9-f5330-f5331",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5331,
+      "stateId": "4a2fec5930e9-f5331-f5335",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5332,
+      "stateId": "4a2fec5930e9-f5331-f5335",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5333,
+      "stateId": "4a2fec5930e9-f5331-f5335",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5334,
+      "stateId": "4a2fec5930e9-f5331-f5335",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5335,
+      "stateId": "4a2fec5930e9-f5335-f5338",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5336,
+      "stateId": "4a2fec5930e9-f5335-f5338",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5337,
+      "stateId": "4a2fec5930e9-f5335-f5338",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5338,
+      "stateId": "4a2fec5930e9-f5338-f5345",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5339,
+      "stateId": "4a2fec5930e9-f5338-f5345",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5340,
+      "stateId": "4a2fec5930e9-f5338-f5345",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5341,
+      "stateId": "4a2fec5930e9-f5338-f5345",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5342,
+      "stateId": "4a2fec5930e9-f5338-f5345",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5343,
+      "stateId": "4a2fec5930e9-f5338-f5345",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5344,
+      "stateId": "4a2fec5930e9-f5338-f5345",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5345,
+      "stateId": "4a2fec5930e9-f5345-f5346",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5346,
+      "stateId": "4a2fec5930e9-f5346-f5347",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5347,
+      "stateId": "4a2fec5930e9-f5347-f5348",
+      "fieldsDiffering": [
+        "regions",
+        "detachedMarks"
+      ]
+    },
+    {
+      "frame": 5348,
+      "stateId": "4a2fec5930e9-f5348-f5349",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5349,
+      "stateId": "4a2fec5930e9-f5349-f5350",
+      "fieldsDiffering": [
+        "regions",
+        "detachedMarks"
+      ]
+    },
+    {
+      "frame": 5350,
+      "stateId": "4a2fec5930e9-f5350-f5351",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5351,
+      "stateId": "4a2fec5930e9-f5351-f5352",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5352,
+      "stateId": "4a2fec5930e9-f5352-f5358",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5353,
+      "stateId": "4a2fec5930e9-f5352-f5358",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5354,
+      "stateId": "4a2fec5930e9-f5352-f5358",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5355,
+      "stateId": "4a2fec5930e9-f5352-f5358",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5356,
+      "stateId": "4a2fec5930e9-f5352-f5358",
+      "fieldsDiffering": []
+    },
+    {
+      "frame": 5357,
+      "stateId": "4a2fec5930e9-f5352-f5358",
+      "fieldsDiffering": []
+    }
+  ],
+  "differences": [
+    {
+      "frame": 5301,
+      "fields": [
+        "regions",
+        "detachedMarks"
+      ],
+      "before": {
+        "regions": [
+          {
+            "text": "ボロのつりざお",
+            "gridRect": [
+              6,
+              4,
+              13,
+              5
+            ],
+            "sourceRect": [
+              330,
+              90,
+              540,
+              152
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              },
+              {
+                "gridRow": 3,
+                "gridColumn": 11,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 0
+          },
+          {
+            "text": "ボロのつりざお",
+            "gridRect": [
+              6,
+              6,
+              13,
+              7
+            ],
+            "sourceRect": [
+              330,
+              151,
+              540,
+              212
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              },
+              {
+                "gridRow": 5,
+                "gridColumn": 11,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 1
+          },
+          {
+            "text": "ピーピーエイダー × 1",
+            "gridRect": [
+              6,
+              8,
+              18,
+              9
+            ],
+            "sourceRect": [
+              330,
+              211,
+              690,
+              272
+            ],
+            "markCells": [
+              {
+                "gridRow": 7,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              },
+              {
+                "gridRow": 7,
+                "gridColumn": 8,
+                "kind": "handakuten"
+              },
+              {
+                "gridRow": 7,
+                "gridColumn": 12,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 2
+          },
+          {
+            "text": "やめる",
+            "gridRect": [
+              6,
+              10,
+              9,
+              11
+            ],
+            "sourceRect": [
+              330,
+              302,
+              420,
+              333
+            ],
+            "markCells": [],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 3
+          },
+          {
+            "text": "とじる",
+            "gridRect": [
+              14,
+              14,
+              17,
+              15
+            ],
+            "sourceRect": [
+              570,
+              392,
+              660,
+              454
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "gridColumn": 15,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "parent_menu_visible_choice",
+            "readingOrder": 4
+          }
+        ],
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                4,
+                6,
+                5
+              ],
+              "sourceRect": [
+                300,
+                120,
+                330,
+                152
+              ]
+            }
+          ],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              570,
+              30,
+              600,
+              61
+            ]
+          }
+        ],
+        "kind": "menu_redraw_or_cursor_transition",
+        "completePage": false
+      },
+      "observed": {
+        "regions": [
+          {
+            "text": "ボロのつりざお",
+            "gridRect": [
+              6,
+              4,
+              13,
+              5
+            ],
+            "sourceRect": [
+              330,
+              90,
+              540,
+              152
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              },
+              {
+                "gridRow": 3,
+                "gridColumn": 11,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 0
+          },
+          {
+            "text": "ポロのつりさお",
+            "gridRect": [
+              6,
+              6,
+              13,
+              7
+            ],
+            "sourceRect": [
+              330,
+              151,
+              540,
+              212
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 1
+          },
+          {
+            "text": "ピーピーエイダー × 1",
+            "gridRect": [
+              6,
+              8,
+              18,
+              9
+            ],
+            "sourceRect": [
+              330,
+              211,
+              690,
+              272
+            ],
+            "markCells": [
+              {
+                "gridRow": 7,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              },
+              {
+                "gridRow": 7,
+                "gridColumn": 8,
+                "kind": "handakuten"
+              },
+              {
+                "gridRow": 7,
+                "gridColumn": 12,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 2
+          },
+          {
+            "text": "やめる",
+            "gridRect": [
+              6,
+              10,
+              9,
+              11
+            ],
+            "sourceRect": [
+              330,
+              302,
+              420,
+              333
+            ],
+            "markCells": [],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 3
+          },
+          {
+            "text": "とじる",
+            "gridRect": [
+              14,
+              14,
+              17,
+              15
+            ],
+            "sourceRect": [
+              570,
+              392,
+              660,
+              454
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "gridColumn": 15,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "parent_menu_visible_choice",
+            "readingOrder": 4
+          }
+        ],
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                4,
+                6,
+                5
+              ],
+              "sourceRect": [
+                300,
+                120,
+                330,
+                152
+              ]
+            }
+          ],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              570,
+              30,
+              600,
+              61
+            ]
+          },
+          {
+            "kind": "handakuten",
+            "gridRect": [
+              8,
+              5,
+              9,
+              6
+            ],
+            "sourceRect": [
+              390,
+              151,
+              420,
+              182
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              12,
+              5,
+              13,
+              6
+            ],
+            "sourceRect": [
+              510,
+              151,
+              540,
+              182
+            ]
+          }
+        ],
+        "kind": "menu_redraw_or_cursor_transition",
+        "completePage": false
+      }
+    },
+    {
+      "frame": 5304,
+      "fields": [
+        "regions",
+        "detachedMarks"
+      ],
+      "before": {
+        "regions": [
+          {
+            "text": "いいつりざお",
+            "gridRect": [
+              6,
+              4,
+              12,
+              5
+            ],
+            "sourceRect": [
+              330,
+              90,
+              510,
+              152
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 10,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 0
+          },
+          {
+            "text": "いいつりざお",
+            "gridRect": [
+              6,
+              6,
+              12,
+              7
+            ],
+            "sourceRect": [
+              330,
+              151,
+              510,
+              212
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 10,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 1
+          },
+          {
+            "text": "ボロのつりざお",
+            "gridRect": [
+              6,
+              8,
+              13,
+              9
+            ],
+            "sourceRect": [
+              330,
+              211,
+              540,
+              272
+            ],
+            "markCells": [
+              {
+                "gridRow": 7,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              },
+              {
+                "gridRow": 7,
+                "gridColumn": 11,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 2
+          },
+          {
+            "text": "ピーピーエイダー × 1",
+            "gridRect": [
+              6,
+              10,
+              18,
+              11
+            ],
+            "sourceRect": [
+              330,
+              272,
+              690,
+              333
+            ],
+            "markCells": [
+              {
+                "gridRow": 9,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              },
+              {
+                "gridRow": 9,
+                "gridColumn": 8,
+                "kind": "handakuten"
+              },
+              {
+                "gridRow": 9,
+                "gridColumn": 12,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 3
+          },
+          {
+            "text": "とじる",
+            "gridRect": [
+              14,
+              14,
+              17,
+              15
+            ],
+            "sourceRect": [
+              570,
+              392,
+              660,
+              454
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "gridColumn": 15,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "parent_menu_visible_choice",
+            "readingOrder": 4
+          }
+        ],
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                4,
+                6,
+                5
+              ],
+              "sourceRect": [
+                300,
+                120,
+                330,
+                152
+              ]
+            }
+          ],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ],
+            "sourceRect": [
+              690,
+              332,
+              720,
+              363
+            ]
+          }
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              570,
+              30,
+              600,
+              61
+            ]
+          }
+        ],
+        "kind": "menu_redraw_or_cursor_transition",
+        "completePage": false
+      },
+      "observed": {
+        "regions": [
+          {
+            "text": "いいつりざお",
+            "gridRect": [
+              6,
+              4,
+              12,
+              5
+            ],
+            "sourceRect": [
+              330,
+              90,
+              510,
+              152
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 10,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 0
+          },
+          {
+            "text": "いいつりさお",
+            "gridRect": [
+              6,
+              6,
+              12,
+              7
+            ],
+            "sourceRect": [
+              330,
+              181,
+              510,
+              212
+            ],
+            "markCells": [],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 1
+          },
+          {
+            "text": "ボロのつりざお",
+            "gridRect": [
+              6,
+              8,
+              13,
+              9
+            ],
+            "sourceRect": [
+              330,
+              211,
+              540,
+              272
+            ],
+            "markCells": [
+              {
+                "gridRow": 7,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              },
+              {
+                "gridRow": 7,
+                "gridColumn": 11,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 2
+          },
+          {
+            "text": "ピーピーエイダー × 1",
+            "gridRect": [
+              6,
+              10,
+              18,
+              11
+            ],
+            "sourceRect": [
+              330,
+              272,
+              690,
+              333
+            ],
+            "markCells": [
+              {
+                "gridRow": 9,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              },
+              {
+                "gridRow": 9,
+                "gridColumn": 8,
+                "kind": "handakuten"
+              },
+              {
+                "gridRow": 9,
+                "gridColumn": 12,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 3
+          },
+          {
+            "text": "とじる",
+            "gridRect": [
+              14,
+              14,
+              17,
+              15
+            ],
+            "sourceRect": [
+              570,
+              392,
+              660,
+              454
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "gridColumn": 15,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "parent_menu_visible_choice",
+            "readingOrder": 4
+          }
+        ],
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                4,
+                6,
+                5
+              ],
+              "sourceRect": [
+                300,
+                120,
+                330,
+                152
+              ]
+            }
+          ],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ],
+            "sourceRect": [
+              690,
+              332,
+              720,
+              363
+            ]
+          }
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              570,
+              30,
+              600,
+              61
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              6,
+              5,
+              7,
+              6
+            ],
+            "sourceRect": [
+              330,
+              151,
+              360,
+              182
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              11,
+              5,
+              12,
+              6
+            ],
+            "sourceRect": [
+              480,
+              151,
+              510,
+              182
+            ]
+          }
+        ],
+        "kind": "menu_redraw_or_cursor_transition",
+        "completePage": false
+      }
+    },
+    {
+      "frame": 5306,
+      "fields": [
+        "regions",
+        "detachedMarks"
+      ],
+      "before": {
+        "regions": [
+          {
+            "text": "ポケモンのふえ",
+            "gridRect": [
+              6,
+              4,
+              13,
+              5
+            ],
+            "sourceRect": [
+              330,
+              90,
+              540,
+              152
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 0
+          },
+          {
+            "text": "ポケモンのふえ",
+            "gridRect": [
+              6,
+              6,
+              13,
+              7
+            ],
+            "sourceRect": [
+              330,
+              151,
+              540,
+              212
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 1
+          },
+          {
+            "text": "いいつりざお",
+            "gridRect": [
+              6,
+              8,
+              12,
+              9
+            ],
+            "sourceRect": [
+              330,
+              211,
+              510,
+              272
+            ],
+            "markCells": [
+              {
+                "gridRow": 7,
+                "gridColumn": 10,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 2
+          },
+          {
+            "text": "ボロのつりざお",
+            "gridRect": [
+              6,
+              10,
+              13,
+              11
+            ],
+            "sourceRect": [
+              330,
+              272,
+              540,
+              333
+            ],
+            "markCells": [
+              {
+                "gridRow": 9,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              },
+              {
+                "gridRow": 9,
+                "gridColumn": 11,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 3
+          },
+          {
+            "text": "とじる",
+            "gridRect": [
+              14,
+              14,
+              17,
+              15
+            ],
+            "sourceRect": [
+              570,
+              392,
+              660,
+              454
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "gridColumn": 15,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "parent_menu_visible_choice",
+            "readingOrder": 4
+          }
+        ],
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                4,
+                6,
+                5
+              ],
+              "sourceRect": [
+                300,
+                120,
+                330,
+                152
+              ]
+            }
+          ],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ],
+            "sourceRect": [
+              690,
+              332,
+              720,
+              363
+            ]
+          }
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              570,
+              30,
+              600,
+              61
+            ]
+          }
+        ],
+        "kind": "menu_redraw_or_cursor_transition",
+        "completePage": false
+      },
+      "observed": {
+        "regions": [
+          {
+            "text": "ポケモンのふえ",
+            "gridRect": [
+              6,
+              4,
+              13,
+              5
+            ],
+            "sourceRect": [
+              330,
+              90,
+              540,
+              152
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 0
+          },
+          {
+            "text": "ホケモンのふえ",
+            "gridRect": [
+              6,
+              6,
+              13,
+              7
+            ],
+            "sourceRect": [
+              330,
+              181,
+              540,
+              212
+            ],
+            "markCells": [],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 1
+          },
+          {
+            "text": "いいつりざお",
+            "gridRect": [
+              6,
+              8,
+              12,
+              9
+            ],
+            "sourceRect": [
+              330,
+              211,
+              510,
+              272
+            ],
+            "markCells": [
+              {
+                "gridRow": 7,
+                "gridColumn": 10,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 2
+          },
+          {
+            "text": "ボロのつりざお",
+            "gridRect": [
+              6,
+              10,
+              13,
+              11
+            ],
+            "sourceRect": [
+              330,
+              272,
+              540,
+              333
+            ],
+            "markCells": [
+              {
+                "gridRow": 9,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              },
+              {
+                "gridRow": 9,
+                "gridColumn": 11,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 3
+          },
+          {
+            "text": "とじる",
+            "gridRect": [
+              14,
+              14,
+              17,
+              15
+            ],
+            "sourceRect": [
+              570,
+              392,
+              660,
+              454
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "gridColumn": 15,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "parent_menu_visible_choice",
+            "readingOrder": 4
+          }
+        ],
+        "cursor": {
+          "menuCursors": [
+            {
+              "style": "filled_right",
+              "gridRect": [
+                5,
+                4,
+                6,
+                5
+              ],
+              "sourceRect": [
+                300,
+                120,
+                330,
+                152
+              ]
+            }
+          ],
+          "downArrowVisible": true,
+          "downArrow": {
+            "style": "filled_down",
+            "gridRect": [
+              18,
+              11,
+              19,
+              12
+            ],
+            "sourceRect": [
+              690,
+              332,
+              720,
+              363
+            ]
+          }
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              570,
+              30,
+              600,
+              61
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              10,
+              5,
+              11,
+              6
+            ],
+            "sourceRect": [
+              450,
+              151,
+              480,
+              182
+            ]
+          }
+        ],
+        "kind": "menu_redraw_or_cursor_transition",
+        "completePage": false
+      }
+    },
+    {
+      "frame": 5347,
+      "fields": [
+        "regions",
+        "detachedMarks"
+      ],
+      "before": {
+        "regions": [
+          {
+            "text": "いいつりざお",
+            "gridRect": [
+              6,
+              4,
+              12,
+              5
+            ],
+            "sourceRect": [
+              330,
+              90,
+              510,
+              152
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 10,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 0
+          },
+          {
+            "text": "ボロのつりざお",
+            "gridRect": [
+              6,
+              6,
+              13,
+              7
+            ],
+            "sourceRect": [
+              330,
+              151,
+              540,
+              212
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              },
+              {
+                "gridRow": 5,
+                "gridColumn": 11,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 1
+          },
+          {
+            "text": "ピーピーエイダー × 1",
+            "gridRect": [
+              6,
+              8,
+              18,
+              9
+            ],
+            "sourceRect": [
+              330,
+              211,
+              690,
+              272
+            ],
+            "markCells": [
+              {
+                "gridRow": 7,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              },
+              {
+                "gridRow": 7,
+                "gridColumn": 8,
+                "kind": "handakuten"
+              },
+              {
+                "gridRow": 7,
+                "gridColumn": 12,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 2
+          },
+          {
+            "text": "やめる",
+            "gridRect": [
+              6,
+              10,
+              9,
+              11
+            ],
+            "sourceRect": [
+              330,
+              302,
+              420,
+              333
+            ],
+            "markCells": [],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 3
+          },
+          {
+            "text": "とじる",
+            "gridRect": [
+              14,
+              14,
+              17,
+              15
+            ],
+            "sourceRect": [
+              570,
+              392,
+              660,
+              454
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "gridColumn": 15,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "parent_menu_visible_choice",
+            "readingOrder": 4
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              570,
+              30,
+              600,
+              61
+            ]
+          }
+        ],
+        "kind": "menu_redraw_or_cursor_transition",
+        "completePage": false
+      },
+      "observed": {
+        "regions": [
+          {
+            "text": "ポケモンのふえ",
+            "gridRect": [
+              6,
+              4,
+              13,
+              5
+            ],
+            "sourceRect": [
+              330,
+              90,
+              540,
+              152
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 0
+          },
+          {
+            "text": "ホロのつりさお",
+            "gridRect": [
+              6,
+              6,
+              13,
+              7
+            ],
+            "sourceRect": [
+              330,
+              181,
+              540,
+              212
+            ],
+            "markCells": [],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 1
+          },
+          {
+            "text": "ピーピーエイダー × 1",
+            "gridRect": [
+              6,
+              8,
+              18,
+              9
+            ],
+            "sourceRect": [
+              330,
+              211,
+              690,
+              272
+            ],
+            "markCells": [
+              {
+                "gridRow": 7,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              },
+              {
+                "gridRow": 7,
+                "gridColumn": 8,
+                "kind": "handakuten"
+              },
+              {
+                "gridRow": 7,
+                "gridColumn": 12,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 2
+          },
+          {
+            "text": "やめる",
+            "gridRect": [
+              6,
+              10,
+              9,
+              11
+            ],
+            "sourceRect": [
+              330,
+              302,
+              420,
+              333
+            ],
+            "markCells": [],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 3
+          },
+          {
+            "text": "とじる",
+            "gridRect": [
+              14,
+              14,
+              17,
+              15
+            ],
+            "sourceRect": [
+              570,
+              392,
+              660,
+              454
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "gridColumn": 15,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "parent_menu_visible_choice",
+            "readingOrder": 4
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              570,
+              30,
+              600,
+              61
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              10,
+              5,
+              11,
+              6
+            ],
+            "sourceRect": [
+              450,
+              151,
+              480,
+              182
+            ]
+          }
+        ],
+        "kind": "menu_redraw_or_cursor_transition",
+        "completePage": false
+      }
+    },
+    {
+      "frame": 5349,
+      "fields": [
+        "regions",
+        "detachedMarks"
+      ],
+      "before": {
+        "regions": [
+          {
+            "text": "ボロのつりざお",
+            "gridRect": [
+              6,
+              4,
+              13,
+              5
+            ],
+            "sourceRect": [
+              330,
+              90,
+              540,
+              152
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              },
+              {
+                "gridRow": 3,
+                "gridColumn": 11,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 0
+          },
+          {
+            "text": "ピーピーエイダー × 1",
+            "gridRect": [
+              6,
+              6,
+              18,
+              7
+            ],
+            "sourceRect": [
+              330,
+              151,
+              690,
+              212
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 6,
+                "kind": "handakuten"
+              },
+              {
+                "gridRow": 5,
+                "gridColumn": 8,
+                "kind": "handakuten"
+              },
+              {
+                "gridRow": 5,
+                "gridColumn": 12,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 1
+          },
+          {
+            "text": "やめる",
+            "gridRect": [
+              6,
+              8,
+              9,
+              9
+            ],
+            "sourceRect": [
+              330,
+              241,
+              420,
+              272
+            ],
+            "markCells": [],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 2
+          },
+          {
+            "text": "とじる",
+            "gridRect": [
+              14,
+              14,
+              17,
+              15
+            ],
+            "sourceRect": [
+              570,
+              392,
+              660,
+              454
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "gridColumn": 15,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "parent_menu_visible_choice",
+            "readingOrder": 3
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              570,
+              30,
+              600,
+              61
+            ]
+          }
+        ],
+        "kind": "menu_redraw_or_cursor_transition",
+        "completePage": false
+      },
+      "observed": {
+        "regions": [
+          {
+            "text": "いいつりざお",
+            "gridRect": [
+              6,
+              4,
+              12,
+              5
+            ],
+            "sourceRect": [
+              330,
+              90,
+              510,
+              152
+            ],
+            "markCells": [
+              {
+                "gridRow": 3,
+                "gridColumn": 10,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 0
+          },
+          {
+            "text": "ビーヒーエイター × 1",
+            "gridRect": [
+              6,
+              6,
+              18,
+              7
+            ],
+            "sourceRect": [
+              330,
+              151,
+              690,
+              212
+            ],
+            "markCells": [
+              {
+                "gridRow": 5,
+                "gridColumn": 6,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 1
+          },
+          {
+            "text": "やめる",
+            "gridRect": [
+              6,
+              8,
+              9,
+              9
+            ],
+            "sourceRect": [
+              330,
+              241,
+              420,
+              272
+            ],
+            "markCells": [],
+            "role": "backpack_item_or_cancel",
+            "readingOrder": 2
+          },
+          {
+            "text": "とじる",
+            "gridRect": [
+              14,
+              14,
+              17,
+              15
+            ],
+            "sourceRect": [
+              570,
+              392,
+              660,
+              454
+            ],
+            "markCells": [
+              {
+                "gridRow": 13,
+                "gridColumn": 15,
+                "kind": "dakuten"
+              }
+            ],
+            "role": "parent_menu_visible_choice",
+            "readingOrder": 3
+          }
+        ],
+        "cursor": {
+          "menuCursors": [],
+          "downArrowVisible": false
+        },
+        "detachedMarks": [
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              14,
+              1,
+              15,
+              2
+            ],
+            "sourceRect": [
+              570,
+              30,
+              600,
+              61
+            ]
+          },
+          {
+            "kind": "dakuten",
+            "gridRect": [
+              11,
+              5,
+              12,
+              6
+            ],
+            "sourceRect": [
+              480,
+              151,
+              510,
+              182
+            ]
+          }
+        ],
+        "kind": "menu_redraw_or_cursor_transition",
+        "completePage": false
+      }
+    }
+  ],
+  "limitations": "Comparing manually observed geometry and content, not granting runtime or independent acceptance. No tested OCR input."
+}
