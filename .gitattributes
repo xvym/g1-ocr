@@ -1,0 +1,12 @@
+*.java text eol=lf
+*.py text eol=lf
+*.tsv text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.md text eol=lf
+*.ps1 text eol=lf
+*.png binary
+.gitattributes text eol=lf
+.gitignore text eol=lf
+# A literal space is the text token for the blank glyph in this TSV.
+src/main/resources/font.tsv whitespace=-blank-at-eol

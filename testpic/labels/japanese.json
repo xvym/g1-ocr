@@ -1,6 +1,7 @@
 {
   "format_version": 1,
-  "annotation_version": 1,
+  "annotation_version": 4,
+  "revision_note": "模型直接回看原图：版本 2 为 g1-006、g1-007 补回「なんに」的「ん」；版本 3 将 g1-015 的「ねえ！」改为可见的「わあ！」，为 g1-088 的「つよくなる！」补回句尾「！」；版本 4 为 g1-102 第二行补回可见的「ポケモンの 」。不表示人工复核。",
   "annotation_method": "model_visual_transcription_from_supplied_images",
   "annotation_scope": "six_target_regions_visible_japanese",
   "source_manifest": "../manifest.csv",
@@ -13,7 +14,8 @@
     "non_text": "选择指针、下翻箭头和边框不计入文本；选择位置另存为从 0 起的 selected_row 或 selected_item。",
     "footer": "footer_lines 是目标列表附属退出框的可见文字，同样纳入逐字比较。",
     "empty": "空框和无目标样本保留记录；expected_no_target_text=true 时不得产生目标文字。",
-    "semantic_type": "type 是档案用途说明；共享文字网格的语义用途未定不阻止 rawOcr，也不作为文字正确与否的替代条件。"
+    "semantic_type": "type 是档案用途说明；共享文字网格的语义用途未定不阻止 rawOcr，也不作为文字正确与否的替代条件。",
+    "pixel_identical_kana": "用户批准仅允许 り/リ、へ/ヘ、べ/ベ、ぺ/ペ 四组完全同形字等价比较；OCR 保留候选，严格 Unicode 指标另报，独立答案保留原写法。"
   },
   "acceptance_target": {
     "images": 108,
@@ -124,7 +126,7 @@
           "region_id": "r2",
           "type": "dialogue",
           "lines": [
-            "なに するん？"
+            "なんに するん？"
           ]
         }
       ],
@@ -154,7 +156,7 @@
           "region_id": "r2",
           "type": "dialogue",
           "lines": [
-            "なに するん？"
+            "なんに するん？"
           ]
         }
       ],
@@ -320,7 +322,7 @@
           "region_id": "r1",
           "type": "dialogue",
           "lines": [
-            "ねえ！ ポケモングッズが",
+            "わあ！ ポケモングッズが",
             "たくさん そろってるぞ！"
           ]
         }
@@ -1562,7 +1564,7 @@
           "type": "dialogue",
           "lines": [
             "たたかい きたえれば",
-            "どこまでも つよくなる"
+            "どこまでも つよくなる！"
           ]
         }
       ],
@@ -1804,7 +1806,7 @@
           "type": "dialogue",
           "lines": [
             "どうやら めずらしい",
-            "カセキ らしいんですよ"
+            "ポケモンの カセキ らしいんですよ"
           ]
         }
       ],
