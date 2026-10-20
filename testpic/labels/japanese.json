@@ -1,0 +1,1913 @@
+{
+  "format_version": 1,
+  "annotation_version": 1,
+  "annotation_method": "model_visual_transcription_from_supplied_images",
+  "annotation_scope": "six_target_regions_visible_japanese",
+  "source_manifest": "../manifest.csv",
+  "chinese_annotation_status": "pending",
+  "text_conventions": {
+    "whitespace": "每行去除首尾排版空白；相邻空白格合并为一个 ASCII 空格。保留可见行及字段的顺序。",
+    "characters": "数字采用 ASCII；可见的日文、大小假名、清浊点、标点、长音和正文中的“円”保留，不按语义纠错或补字。",
+    "ellipsis": "画面中两个三点字形记为“……”，不改写为句号。",
+    "level_marker": "PC 宝可梦列表中显示为 :L 形状的等级字形记为 <Lv>，按一个字形 token 统计；数字仍须完全正确。",
+    "non_text": "选择指针、下翻箭头和边框不计入文本；选择位置另存为从 0 起的 selected_row 或 selected_item。",
+    "footer": "footer_lines 是目标列表附属退出框的可见文字，同样纳入逐字比较。",
+    "empty": "空框和无目标样本保留记录；expected_no_target_text=true 时不得产生目标文字。",
+    "semantic_type": "type 是档案用途说明；共享文字网格的语义用途未定不阻止 rawOcr，也不作为文字正确与否的替代条件。"
+  },
+  "acceptance_target": {
+    "images": 108,
+    "raw_ocr_character_accuracy": 1,
+    "raw_ocr_cer": 0,
+    "image_exact_match_accuracy": 1,
+    "required": "所有目标区域和 footer_lines 均完整一致；漏区域、漏字、多字、错字、未知字符和负样本误输出均不通过。没有产品运行结果时不得记为达标。",
+    "chinese": "中文标注与中文通过门槛待定；本阶段日文达标不代表最终中文验收通过。"
+  },
+  "samples": [
+    {
+      "sample_id": "g1-001",
+      "file": "../Screenshot 2026-10-20 21-22-46.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "bag_items",
+          "lines": [
+            "じてんしゃ",
+            "ポケモンのふえ",
+            "いいつりざお",
+            "ボロのつりざお"
+          ],
+          "footer_lines": [
+            "とじる"
+          ],
+          "selected_row": 0
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-002",
+      "file": "../Screenshot 2026-10-20 21-22-53.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "おーす！",
+            "みらいの チャンピオン！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-003",
+      "file": "../Screenshot 2026-10-20 21-23-05.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": true,
+      "regions": [],
+      "notes": [
+        "普通地图，无目标区域文字。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-004",
+      "file": "../Screenshot 2026-10-20 22-42-09.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": true,
+      "regions": [],
+      "notes": [
+        "启动菜单和存档信息属于六类目标之外，预期不输出目标文字。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-005",
+      "file": "../Screenshot 2026-10-20 22-42-18.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ここでは ポケモンの",
+            "たいりょく かいふくを いたします"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-006",
+      "file": "../Screenshot 2026-10-20 22-42-43.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "pc_pokemon",
+          "lines": [
+            "ゴローニャ <Lv>50",
+            "ライチュウ <Lv>50",
+            "リザードン <Lv>50",
+            "ポッポ <Lv>3"
+          ],
+          "selected_row": 0
+        },
+        {
+          "region_id": "r2",
+          "type": "dialogue",
+          "lines": [
+            "なに するん？"
+          ]
+        }
+      ],
+      "notes": [
+        "右下“いまのボックス 7”状态框及背面 PC 操作菜单的残片不属于当前目标。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-007",
+      "file": "../Screenshot 2026-10-20 22-42-47.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "pc_pokemon",
+          "lines": [
+            "ライチュウ <Lv>50",
+            "リザードン <Lv>50",
+            "ポッポ <Lv>3",
+            "やめる"
+          ],
+          "selected_row": 2
+        },
+        {
+          "region_id": "r2",
+          "type": "dialogue",
+          "lines": [
+            "なに するん？"
+          ]
+        }
+      ],
+      "notes": [
+        "右下盒子编号及背面操作菜单的残片不属于当前目标。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-008",
+      "file": "../Screenshot 2026-10-20 22-43-11.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "pc_items",
+          "lines": [
+            "わざマシン02 × 1",
+            "エレベータのカギ",
+            "わざマシン07 × 1",
+            "シルフスコープ"
+          ],
+          "selected_row": 2
+        },
+        {
+          "region_id": "r2",
+          "type": "dialogue",
+          "lines": [
+            "なにを ひきだしますか？"
+          ]
+        }
+      ],
+      "notes": [
+        "上方被遮挡的 PC 操作菜单属于范围外内容。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-009",
+      "file": "../Screenshot 2026-10-20 22-43-52.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ポケモン リーグ してんのうは",
+            "4にん つづけて"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-010",
+      "file": "../Screenshot 2026-10-20 22-44-02.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "まけたら ひとりめ から",
+            "やりなおしに なるぞ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-011",
+      "file": "../Screenshot 2026-10-20 22-44-11.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ゆっくり ごらんになって ください"
+          ]
+        }
+      ],
+      "notes": [
+        "已知商店购买列表、价格、金额及操作菜单属于专门布局的范围外内容；底部主对话仍是目标。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-012",
+      "file": "../Screenshot 2026-10-20 22-44-17.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "bag_items",
+          "lines": [
+            "じてんしゃ",
+            "ポケモンのふえ",
+            "いいつりざお",
+            "ボロのつりざお"
+          ],
+          "selected_row": 0
+        },
+        {
+          "region_id": "r2",
+          "type": "dialogue",
+          "lines": [
+            "どれを うっていただけますか？"
+          ]
+        }
+      ],
+      "notes": [
+        "出售时显示的背包道具布局纳入 bag_items；背面商店菜单与金额不纳入。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-013",
+      "file": "../Screenshot 2026-10-20 22-44-39.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ひとりずつ たたかうの！",
+            "もし かてたら ドアが ひらいて"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-014",
+      "file": "../Screenshot 2026-10-20 22-44-44.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "もし かてたら ドアが ひらいて",
+            "おくの へやに すすめるわ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-015",
+      "file": "../Screenshot 2026-10-20 22-44-57.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ねえ！ ポケモングッズが",
+            "たくさん そろってるぞ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-016",
+      "file": "../Screenshot 2026-10-20 22-45-49.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": true,
+      "regions": [],
+      "notes": [
+        "普通地图；建筑招牌不属于目标区域。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-017",
+      "file": "../Screenshot 2026-10-20 22-46-05.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ばんざーい！",
+            "ロケットだんが いなくなった！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-018",
+      "file": "../Screenshot 2026-10-20 22-46-09.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ロケットだんが いなくなった！",
+            "ビビらないで そと あるけるんだ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-019",
+      "file": "../Screenshot 2026-10-20 22-53-11.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "すこし たかい けど",
+            "ねむけざまし どくけし などを"
+          ]
+        }
+      ],
+      "notes": [
+        "第二行可见文字为“ねむけざまし どくけし などを”，不补后文。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-020",
+      "file": "../Screenshot 2026-10-20 22-53-20.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "あ……",
+            "この あいだは どーも！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-021",
+      "file": "../Screenshot 2026-10-20 22-53-32.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ロケットだんが シルフ おそって",
+            "だいじけんって きいて！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-022",
+      "file": "../Screenshot 2026-10-20 22-53-38.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "かいけつ した……？",
+            "すんません！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-023",
+      "file": "../Screenshot 2026-10-20 22-54-30.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "みせの まえの うえきが じゃまで",
+            "むこうへ いけないよ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-024",
+      "file": "../Screenshot 2026-10-20 22-54-36.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "でも どこか まわりみち すると",
+            "いける らしい けど……"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-025",
+      "file": "../Screenshot 2026-10-20 22-54-44.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ほほう……！",
+            "ポケモンの ずかんを つくってる？"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-026",
+      "file": "../Screenshot 2026-10-20 22-54-49.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ポケモンの ずかんを つくってる？",
+            "それは たのしそう だなあ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-027",
+      "file": "../Screenshot 2026-10-20 22-54-57.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "わたしも じてんしゃ ほしい！",
+            "まっかな じてんしゃ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-028",
+      "file": "../Screenshot 2026-10-20 22-55-14.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ハナダ ポケモン ジム",
+            "カスミ にんてい トレーナー！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-029",
+      "file": "../Screenshot 2026-10-20 22-55-18.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "カスミ にんてい トレーナー！",
+            "レッド グリーン"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-030",
+      "file": "../Screenshot 2026-10-20 22-55-23.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "カスミに かったな！",
+            "おれの いった とおり だったろ？"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-031",
+      "file": "../Screenshot 2026-10-20 22-55-35.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "わざマシン11は バブルこうせんを",
+            "ポケモンに おしえるの"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-032",
+      "file": "../Screenshot 2026-10-20 22-56-03.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "おかあさん『グリーン……！",
+            "すこし やすんで いったら"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-033",
+      "file": "../Screenshot 2026-10-20 22-56-08.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "すこし やすんで いったら",
+            "どうかしら……？"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-034",
+      "file": "../Screenshot 2026-10-20 22-56-29.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "にんげんと おなじように",
+            "ポケモンも いきてるの！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-035",
+      "file": "../Screenshot 2026-10-20 22-56-33.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "たいりょくが ないときは",
+            "やすませて あげて！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-036",
+      "file": "../Screenshot 2026-10-20 22-56-46.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "わたしも はかせの じょしゅ として",
+            "ポケモンを けんきゅう してます"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-037",
+      "file": "../Screenshot 2026-10-20 22-56-51.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ポケモンの ほんが いっぱい！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-038",
+      "file": "../Screenshot 2026-10-20 22-57-10.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "オーキド『よく きた！",
+            "ポケモンずかんの"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-039",
+      "file": "../Screenshot 2026-10-20 22-58-40.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "あ！ やせいの",
+            "コラッタが とびだしてきた！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-040",
+      "file": "../Screenshot 2026-10-20 22-58-44.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": true,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [],
+          "empty": true
+        }
+      ],
+      "notes": [
+        "底部主对话框为空，不输出文字；战斗名称、HP 与等级面板不属于目标。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-041",
+      "file": "../Screenshot 2026-10-20 22-58-49.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ラプラスの",
+            "れいとうビーム！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-042",
+      "file": "../Screenshot 2026-10-20 22-58-54.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "てきの コラッタは たおれた！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-043",
+      "file": "../Screenshot 2026-10-20 22-59-17.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ラプラスの",
+            "れいとうビーム！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-044",
+      "file": "../Screenshot 2026-10-20 22-59-22.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "てきの ポッポは たおれた！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-045",
+      "file": "../Screenshot 2026-10-20 22-59-25.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ラプラスは おおめに",
+            "34 けいけんちを もらった！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-046",
+      "file": "../Screenshot 2026-10-20 22-59-43.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "battle_action",
+          "lines": [
+            "たたかう どうぐ",
+            "ポケモン にげる"
+          ],
+          "selected_item": "たたかう"
+        }
+      ],
+      "notes": [
+        "左侧无可见正文；战斗名称、HP 与等级面板不属于目标。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-047",
+      "file": "../Screenshot 2026-10-20 22-59-47.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "bag_items",
+          "lines": [
+            "じてんしゃ",
+            "ポケモンのふえ",
+            "いいつりざお",
+            "ボロのつりざお"
+          ],
+          "selected_row": 1
+        }
+      ],
+      "notes": [
+        "背面战斗面板及空白主框不产生额外正文。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-048",
+      "file": "../Screenshot 2026-10-20 23-00-00.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "グリーンは",
+            "モンスターボールを つかった！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-049",
+      "file": "../Screenshot 2026-10-20 23-00-35.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "やったー！",
+            "コラッタを つかまえたぞ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-050",
+      "file": "../Screenshot 2026-10-20 23-01-13.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ポケモン リーグへ ようこそ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-051",
+      "file": "../Screenshot 2026-10-20 23-01-17.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "わたしが してんのうの カンナ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-052",
+      "file": "../Screenshot 2026-10-20 23-01-19.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "こおり ポケモン つかわせたら",
+            "みぎに でる ものは いないわ"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-053",
+      "file": "../Screenshot 2026-10-20 23-01-21.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "あいてを こおらせるって",
+            "とっても きょうりょくよ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-054",
+      "file": "../Screenshot 2026-10-20 23-01-23.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "だって こおっちゃったら",
+            "あんたの ポケモン"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-055",
+      "file": "../Screenshot 2026-10-20 23-01-25.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "あんたの ポケモン",
+            "ぜんぜん うごけ ないんだから"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-056",
+      "file": "../Screenshot 2026-10-20 23-01-27.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "…… あははッ！",
+            "じゃ かくごは いいかしら！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-057",
+      "file": "../Screenshot 2026-10-20 23-01-30.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": true,
+      "regions": [],
+      "notes": [
+        "战斗转场，无目标文字。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-058",
+      "file": "../Screenshot 2026-10-20 23-01-35.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "カンナが",
+            "しょうぶを しかけてきた！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-059",
+      "file": "../Screenshot 2026-10-20 23-01-38.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "カンナは",
+            "ジュゴンを くりだした！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-060",
+      "file": "../Screenshot 2026-10-20 23-01-41.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ゆけっ！ ラプラス！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-061",
+      "file": "../Screenshot 2026-10-20 23-01-45.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "きゅうしょ"
+          ]
+        }
+      ],
+      "notes": [
+        "截图中的可见文本只到“きゅうしょ”，不补后文。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-062",
+      "file": "../Screenshot 2026-10-20 23-01-46.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "きゅうしょに あたった！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-063",
+      "file": "../Screenshot 2026-10-20 23-01-52.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "てきの ジュゴンは たいりょくを",
+            "かいふくした！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-064",
+      "file": "../Screenshot 2026-10-20 23-01-59.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ゆけっ"
+          ]
+        }
+      ],
+      "notes": [
+        "只显示“ゆけっ”，不补感叹号或宝可梦名。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-065",
+      "file": "../Screenshot 2026-10-20 23-02-00.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ゆけっ！ ウツボット！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-066",
+      "file": "../Screenshot 2026-10-20 23-02-07.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ウツボットの",
+            "はっぱカッター！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-067",
+      "file": "../Screenshot 2026-10-20 23-02-11.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "きゅうしょに あたった！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-068",
+      "file": "../Screenshot 2026-10-20 23-02-14.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "こうかは ばつぐんだ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-069",
+      "file": "../Screenshot 2026-10-20 23-02-16.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "てきの ジュゴンは めをさました！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-070",
+      "file": "../Screenshot 2026-10-20 23-02-27.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "こうかは ばつぐんだ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-071",
+      "file": "../Screenshot 2026-10-20 23-02-28.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "てきの ジュゴンは たおれた！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-072",
+      "file": "../Screenshot 2026-10-20 23-02-30.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ラプラスは おおめに",
+            "1525 けいけんちを もらった！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-073",
+      "file": "../Screenshot 2026-10-20 23-02-32.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ウツボットは",
+            "1017 けいけんちを もらった！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-074",
+      "file": "../Screenshot 2026-10-20 23-02-40.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ウツボットの",
+            "はっぱカッター！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-075",
+      "file": "../Screenshot 2026-10-20 23-03-21.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "battle_moves",
+          "lines": [
+            "はっぱカッター",
+            "ねむりごな",
+            "つるぎのまい",
+            "すてみタックル"
+          ],
+          "selected_row": 0
+        }
+      ],
+      "notes": [
+        "右侧 PP、技能属性及战斗 HP 面板不属于技能名称列表的文本范围。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-076",
+      "file": "../Screenshot 2026-10-20 23-04-12.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ラプラスは",
+            "こんらんしている！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-077",
+      "file": "../Screenshot 2026-10-20 23-04-14.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ラプラスの",
+            "のしかかり こうげき！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-078",
+      "file": "../Screenshot 2026-10-20 23-04-19.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "カンナは ラプラスに",
+            "いいキズぐすりを つかった"
+          ]
+        }
+      ],
+      "notes": [
+        "末尾未显示感叹号，按实际可见内容保存。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-079",
+      "file": "../Screenshot 2026-10-20 23-04-44.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "てきの ラプラスは たおれた！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-080",
+      "file": "../Screenshot 2026-10-20 23-04-51.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "カンナとの",
+            "しょうぶに かった！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-081",
+      "file": "../Screenshot 2026-10-20 23-04-56.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "カンナ『…… なんて やつなの！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-082",
+      "file": "../Screenshot 2026-10-20 23-04-58.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "グリーンは しょうきんとして",
+            "5544円 てにいれた！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-083",
+      "file": "../Screenshot 2026-10-20 23-05-02.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "すこしは できる みたいね！",
+            "わかった……！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-084",
+      "file": "../Screenshot 2026-10-20 23-05-04.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "わかった……！",
+            "つぎの へやに すすむと いいわ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-085",
+      "file": "../Screenshot 2026-10-20 23-05-06.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ポケモン リーグ しんの パワーは",
+            "まだまだ……！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-086",
+      "file": "../Screenshot 2026-10-20 23-05-08.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "まだまだ……！",
+            "こんな ものじゃ ないわよ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-087",
+      "file": "../Screenshot 2026-10-20 23-05-23.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ひとも ポケモンも",
+            "たたかい きたえれば"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-088",
+      "file": "../Screenshot 2026-10-20 23-05-25.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "たたかい きたえれば",
+            "どこまでも つよくなる"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-089",
+      "file": "../Screenshot 2026-10-20 23-05-27.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "おれは そんな きたえ ぬかれた",
+            "ポケモンと ともに いきてきた！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-090",
+      "file": "../Screenshot 2026-10-20 23-05-29.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ポケモンと ともに いきてきた！",
+            "そして これからもな！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-091",
+      "file": "../Screenshot 2026-10-20 23-05-30.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "グリーンと いったな！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-092",
+      "file": "../Screenshot 2026-10-20 23-05-33.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "おれたちの スーパー パワーを",
+            "うけて みるが いい！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-093",
+      "file": "../Screenshot 2026-10-20 23-05-34.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ウー！ ハーッ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-094",
+      "file": "../Screenshot 2026-10-20 23-07-21.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ラプラスは",
+            "レベル51 に あがった！"
+          ]
+        }
+      ],
+      "notes": [
+        "右上能力值面板不属于目标；主对话中的等级数字必须识别。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-095",
+      "file": "../Screenshot 2026-10-20 23-07-34.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ダメだ！",
+            "しょうぶの さいちゅうに"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-096",
+      "file": "../Screenshot 2026-10-20 23-10-46.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ここでは まいにち",
+            "ポケモンの けんきゅうを してます"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-097",
+      "file": "../Screenshot 2026-10-20 23-10-55.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "グレン ラボラトリーの そうせつしゃ",
+            "フジはかせの しゃしんだ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-098",
+      "file": "../Screenshot 2026-10-20 23-11-01.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "あと めずらしい ポケモンなどを",
+            "もちこんでくる おきゃくさんも"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-099",
+      "file": "../Screenshot 2026-10-20 23-11-13.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "これこれ",
+            "きみ ライチュウ もっとる？"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-100",
+      "file": "../Screenshot 2026-10-20 23-11-18.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "わしの マルマインと",
+            "こうかん しないか？"
+          ]
+        }
+      ],
+      "notes": [
+        "右上“はい／いいえ”是范围外的独立菜单，底部两行主对话完整可见。"
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-101",
+      "file": "../Screenshot 2026-10-20 23-11-25.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "ぼく おつきみやまで",
+            "カセキを みつけましてねー！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-102",
+      "file": "../Screenshot 2026-10-20 23-11-29.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "どうやら めずらしい",
+            "カセキ らしいんですよ"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-103",
+      "file": "../Screenshot 2026-10-20 23-11-35.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "モンジャラ げんき？",
+            "わたしの コンパンは げんきよ"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-104",
+      "file": "../Screenshot 2026-10-20 23-11-47.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "はいー！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-105",
+      "file": "../Screenshot 2026-10-20 23-11-52.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "わたしは エラーイ はかせ"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-106",
+      "file": "../Screenshot 2026-10-20 23-11-56.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "いつも めずらしい カセキ",
+            "けんきゅう してる アルよ！"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-107",
+      "file": "../Screenshot 2026-10-20 23-12-00.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "あなた！",
+            "いい カセキ もってるか？"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "sample_id": "g1-108",
+      "file": "../Screenshot 2026-10-20 23-12-03.png",
+      "annotation_status": "model_visual_transcribed",
+      "expected_no_target_text": false,
+      "regions": [
+        {
+          "region_id": "r1",
+          "type": "dialogue",
+          "lines": [
+            "もってない アルね……"
+          ]
+        }
+      ],
+      "uncertainties": []
+    }
+  ]
+}
