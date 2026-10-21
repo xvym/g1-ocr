@@ -5,10 +5,12 @@ src/main/resources/corpus/*.csv text eol=lf
 tools/text_*.csv text eol=lf
 reports/text-corpus-issues.csv text eol=lf
 reports/text-segmentation-issues.csv text eol=lf
+reports/chinese-*.csv text eol=lf
 *.json text eol=lf
 *.xml text eol=lf
 *.md text eol=lf
 *.ps1 text eol=lf
+*.cmd text eol=crlf
 *.cpp text eol=lf
 CMakeLists.txt text eol=lf
 *.png binary

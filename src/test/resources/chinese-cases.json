@@ -1,0 +1,249 @@
+{
+  "method": "model_authored_from_independent_Japanese_text_and_selected_localization_sources; not_generated_from_resolver_output; not_human_reviewed",
+  "scope": "S4 development scenarios, not final A6 or game-wide coverage",
+  "source": "Pinned corpus source cells and user-approved revisions listed in each expected source label; literal expected Chinese is fixed before running the resolver",
+  "scenarios": [
+    {
+      "name": "identical translations across all sources publish without a version",
+      "events": [
+        {
+          "raw": "あたしは してんのうの キクコ！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "我是四天王中的菊子！",
+          "source": "AgathasRoomAgathaBattleText",
+          "candidateCount": 3
+        }
+      ]
+    },
+    {
+      "name": "same visible greeting has different script sources",
+      "events": [
+        {
+          "raw": "おーす！\nみらいの チャンピオン！",
+          "match": "ambiguous",
+          "status": "ambiguous",
+          "chinese": ""
+        }
+      ]
+    },
+    {
+      "name": "approved correction waits for both lines",
+      "events": [
+        {
+          "raw": "おしょくじ ちゅう！",
+          "match": "equivalent",
+          "status": "wait_for_semantic_unit",
+          "chinese": ""
+        },
+        {
+          "raw": "おしょくじ ちゅう！\n…… の フダが かけてある！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "上面挂着‘用餐中’的告示。",
+          "source": "GameCornerOutToLunchText"
+        }
+      ]
+    },
+    {
+      "name": "Giovanni continuation requires observed start",
+      "events": [
+        {
+          "raw": "せかい じゅうの ポケモンを",
+          "match": "equivalent",
+          "status": "wait_for_semantic_unit",
+          "chinese": ""
+        },
+        {
+          "raw": "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+          "match": "equivalent",
+          "status": "wait_for_semantic_unit",
+          "chinese": ""
+        },
+        {
+          "raw": "わるだくみに つかい まくって\nかねもうけ する ロケッ",
+          "match": "equivalent",
+          "status": "incomplete",
+          "chinese": ""
+        },
+        {
+          "raw": "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "火箭队把世界各地的宝可梦用于坏事，借此赚钱！",
+          "source": "RocketHideoutB4FGiovanniText.ImpressedYouGotHereText"
+        },
+        {
+          "reset": true
+        },
+        {
+          "raw": "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+          "match": "equivalent",
+          "status": "context_required",
+          "chinese": ""
+        }
+      ]
+    },
+    {
+      "name": "disappearance clears continuous context",
+      "events": [
+        {
+          "raw": "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+          "match": "equivalent",
+          "status": "wait_for_semantic_unit",
+          "chinese": ""
+        },
+        {
+          "disappear": true
+        },
+        {
+          "raw": "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+          "match": "equivalent",
+          "status": "context_required",
+          "chinese": ""
+        }
+      ]
+    },
+    {
+      "name": "accepted courtesy omission does not require missing courtesy",
+      "events": [
+        {
+          "raw": "おまちどうさまでした！",
+          "match": "equivalent",
+          "status": "wait_for_semantic_unit",
+          "chinese": ""
+        },
+        {
+          "raw": "おあずかりした ポケモンは\nみんな げんきに なりましたよ！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "交给我的宝可梦\n全都变得精力充沛了哦！",
+          "source": "PokemonFightingFitText"
+        }
+      ]
+    },
+    {
+      "name": "current name is bound; prior name cannot satisfy a later sentence",
+      "events": [
+        {
+          "raw": "サトシは ひきかえけんで\nじてんしゃを もらった！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "サトシ用兑换券\n得到了自行车！",
+          "source": "BikeShopExchangedVoucherText"
+        },
+        {
+          "raw": "たんパンとの\nしょうぶに かった！",
+          "match": "equivalent",
+          "status": "variables_missing",
+          "chinese": "",
+          "source": "TrainerDefeatedText"
+        }
+      ]
+    },
+    {
+      "name": "box and nickname slots are not swapped by Japanese order",
+      "events": [
+        {
+          "raw": "パソコンの ボックス3 に\nピカチュウを てんそうした！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "ピカチュウ被传送至\n电脑的3号盒子！",
+          "source": "SentToBoxText"
+        }
+      ]
+    },
+    {
+      "name": "composed move uses its source grammar and local move term",
+      "events": [
+        {
+          "raw": "ピカチュウは\nつるぎのまいを つかった！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "ピカチュウ\n使出了剑舞！",
+          "source": "composed:UsedMove.grammar0.normal"
+        }
+      ]
+    },
+    {
+      "name": "enemy prefix is separate from the nickname",
+      "events": [
+        {
+          "raw": "てきの ピカチュウは\nつるぎのまいを つかった！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "敌方ピカチュウ\n使出了剑舞！",
+          "source": "composed:UsedMove.grammar0.normal"
+        }
+      ]
+    },
+    {
+      "name": "nickname matching an item is not translated as an item",
+      "events": [
+        {
+          "raw": "キズぐすりを\nまた つれていく ことにした！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "决定取出キズぐすり！",
+          "source": "MonIsTakenOutText"
+        }
+      ]
+    },
+    {
+      "name": "unknown character prevents publication",
+      "events": [
+        {
+          "raw": "あたしは してんのうの �クコ！",
+          "match": "unreliable",
+          "status": "unknown_character",
+          "chinese": ""
+        }
+      ]
+    },
+    {
+      "name": "unrecorded text stays Japanese",
+      "events": [
+        {
+          "raw": "これは テストようの みしゅうろくぶん！",
+          "match": "missing",
+          "status": "missing",
+          "chinese": ""
+        }
+      ]
+    },
+    {
+      "name": "incomplete character prefix never reveals a completed unit",
+      "events": [
+        {
+          "raw": "あたしは してんのうの キク",
+          "match": "equivalent",
+          "status": "incomplete",
+          "chinese": ""
+        }
+      ]
+    },
+    {
+      "name": "a ready candidate cannot bypass another candidate waiting for a semantic unit",
+      "events": [
+        {
+          "raw": "タマムシ マンション",
+          "match": "ambiguous",
+          "status": "ambiguous",
+          "chinese": ""
+        }
+      ]
+    },
+    {
+      "name": "different later text does not block the identical current segment",
+      "events": [
+        {
+          "raw": "…… おとくな けいじばん！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "……有用的公告牌！",
+          "candidateCount": 66
+        }
+      ]
+    }
+  ]
+}

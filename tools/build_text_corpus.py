@@ -374,11 +374,13 @@ def add_fixed_words(jp, zh, games, replacements, all_records, all_fragments):
         all_fragments.append(dict(record_id=rid,ordinal=1,japanese=row['japanese'],previous_ordinal='',
             chinese=z,chinese_start=0,chinese_end=len(z),status='whole_visible_unit',source='fixed_layout_or_variable_dictionary'))
 
-    for filename in ['data/types/names.asm','data/trainers/name_pointers.asm','home/list_menu.asm','engine/battle/core.asm']:
+    for filename in ['data/types/names.asm','data/trainers/name_pointers.asm','home/list_menu.asm',
+                     'engine/battle/core.asm','engine/menus/draw_start_menu.asm']:
         jstrings,zstrings=scalar_strings(jp,filename),scalar_strings(zh+'/src',filename)
         for label,(ja,ln) in jstrings.items():
             if filename.endswith('core.asm') and label not in {'DisabledText','TypeText'}:continue
             if filename=='home/list_menu.asm' and label!='ListMenuCancelText':continue
+            if filename=='engine/menus/draw_start_menu.asm' and label!='StartMenuExitText':continue
             if label not in zstrings:continue
             en=zstrings[label][0]
             options=[p for p in replacements if p['file']==filename and p['original']=='"'+en+'"' and not p['replacement']]
@@ -393,6 +395,17 @@ def add_fixed_words(jp, zh, games, replacements, all_records, all_fragments):
                     cell,value=json.loads(full['chinese_cells'])[0]
                     p=dict(p,chinese=value,row=int(cell[1:]),file='data/trainers/names.asm')
                 append(label,ja,p,filename,ln)
+    # These buffers are loaded from fixed local labels, not player-entered names.
+    for path in sorted((SOURCES/jp/'scripts').glob('*Gym.asm')):
+        if 'LoadGymLeaderAndCityName' not in path.read_text(encoding='utf-8'):continue
+        filename=path.relative_to(SOURCES/jp).as_posix()
+        zstrings=scalar_strings(zh+'/src',filename)
+        for label,(ja,ln) in scalar_strings(jp,filename).items():
+            if not label.endswith(('.CityName','.LeaderName')):continue
+            en=zstrings[label][0]
+            p=next(p for p in replacements if p['file']==filename and p['original']=='"'+en+'"' and not p['replacement'])
+            role='GymCity.' if label.endswith('.CityName') else 'GymLeader.'
+            append(role+label,ja,p,filename,ln)
     filename='data/battle/stat_mod_names.asm'
     for (ja,ln),(en,_) in zip(name_table(jp,filename),name_table(zh+'/src',filename)):
         p=next(p for p in replacements if p['file']==filename and p['original']=='"'+en+'"')
@@ -492,6 +505,76 @@ def add_compositions(jp, all_records, all_fragments):
             row['evidence']=packed(dict(alignment=row['evidence'],consumed_by=consumers[row['id']]))
 
 
+def add_trainer_end_compositions(jp, all_records, all_fragments):
+    bylabel={r['japanese_label']:r for r in all_records if r['japanese_repo']==jp}
+    consumers=collections.defaultdict(list)
+    # PrintEndBattleText prints TrainerEndBattleText before the saved target.
+    # Collect actual pointer producers, rather than permitting a name before any dialogue.
+    targets=collections.defaultdict(list)
+    for path in sorted((SOURCES/jp/'scripts').glob('*.asm')):
+        filename=path.relative_to(SOURCES/jp).as_posix()
+        text='\n'.join(line.split(';')[0].rstrip() for line in path.read_text(encoding='utf-8').splitlines())
+        trainer_map,global_label='', ''
+        scopes=[]
+        for ln,line in enumerate(text.splitlines(),1):
+            if m:=re.match(r'^(\w+)::?',line):global_label=m[1]
+            scopes.append(global_label)
+            if m:=re.match(r'\s*def_trainers\s+(\w+)',line):trainer_map=m[1]
+            if m:=re.match(r'\s*trainer\s+[^,]+,[^,]+,\s*(\w+)',line):
+                targets[filename,trainer_map+m[1]+'EndBattleText'].append(dict(file=filename,line=ln,producer='trainer macro'))
+        for m in re.finditer(r'ld hl, ([.\w]+)\s+ld de, ([.\w]+)\s+call SaveEndBattleTextPointers',text):
+            ln=text.count('\n',0,m.start())+1
+            for label in set(m.groups()):
+                if label.startswith('.'):label=scopes[ln-1]+label
+                targets[filename,label].append(dict(file=filename,line=ln,
+                                                    producer='SaveEndBattleTextPointers'))
+    prefix=bylabel['TrainerEndBattleText']
+    available={(r['japanese_file'],r['japanese_label']) for r in all_records
+               if r['japanese_repo']==jp and r['mapping_status']=='aligned'}
+    if missing:=set(targets)-available:raise ValueError(f'Missing trainer end source: {jp} {sorted(missing)}')
+    for body in list(all_records):
+        references=targets.get((body['japanese_file'],body['japanese_label']),[])
+        if body['japanese_repo']!=jp or not references or body['mapping_status']!='aligned':continue
+        ja_prefix=prefix['japanese'].replace('{{RAM1}}','{{SPEAKER}}')
+        zh_prefix=prefix['chinese'].replace('{{RAM1}}','{{SPEAKER}}')
+        row=dict(body)
+        rid=f"{jp}:composed:TrainerEnd.{body['id'].split(':')[-1]}"
+        row.update(id=rid,kind='dialogue_template',japanese_label='TrainerEnd.'+body['japanese_label'],
+                   japanese=ja_prefix+body['japanese'],chinese=zh_prefix+body['chinese'],
+                   japanese_ocr=prefix['japanese_ocr'].replace('{{RAM1}}','{{SPEAKER}}')+body['japanese_ocr'],
+                   japanese_commands=packed(json.loads(prefix['japanese_commands'])+json.loads(body['japanese_commands'])),
+                   japanese_events=packed([dict(e,offset=e['offset']+len(ja_prefix)) for e in json.loads(body['japanese_events'])]),
+                   chinese_source=packed([prefix['chinese_source'],body['chinese_source']]),
+                   chinese_cells=packed([json.loads(prefix['chinese_cells']),json.loads(body['chinese_cells'])]),
+                   chinese_events=packed([dict(e,offset=e['offset']+len(zh_prefix)) for e in json.loads(body['chinese_events'])]),
+                   variables=packed([dict(slot='SPEAKER',kind='NAME',address='wNameBuffer',offset=0,
+                                          format='SaveTrainerName')]+[dict(v,offset=v['offset']+len(ja_prefix)) for v in json.loads(body['variables'])]),
+                   method='source_control_flow_composition',variable_status='model_semantic',
+                   evidence=packed(dict(composition='trainer_end_prefix',prefix=prefix['id'],body=body['id'],
+                                        references=references,source='home/trainers.asm:PrintEndBattleText',
+                                        prefix_slot_alias=dict(RAM1='SPEAKER'),reviewer='model')))
+        if body['chinese_revision']:
+            revision=json.loads(body['chinese_revision'])
+            revision['original_chinese']=zh_prefix+revision['original_chinese']
+            for field in ['revised_ranges','excluded_ranges']:
+                revision[field]=[[a+len(zh_prefix),b+len(zh_prefix)] for a,b in revision[field]]
+            row['chinese_revision']=packed(revision)
+        all_records.append(row)
+        for fragment in list(all_fragments):
+            if fragment['record_id']!=body['id']:continue
+            first=int(fragment['ordinal'])-len(fragment['japanese'].splitlines())+1
+            all_fragments.append(dict(fragment,record_id=rid,
+                japanese=(ja_prefix if first==1 else '')+fragment['japanese'],
+                japanese_ocr=(prefix['japanese_ocr'].replace('{{RAM1}}','{{SPEAKER}}') if first==1 else '')+fragment['japanese_ocr'],
+                source='PrintEndBattleText continuation'))
+        consumers[prefix['id']].append(rid)
+    prefix.update(kind='component',mapping_status='component',segment_status='use_composition',
+                  evidence=packed(dict(alignment=prefix['evidence'],consumed_by=consumers[prefix['id']])))
+    for fragment in all_fragments:
+        if fragment['record_id']==prefix['id']:
+            fragment.update(status='use_composition',chinese='',chinese_start='',chinese_end='')
+
+
 def segment_corpus(records, fragments):
     """Apply saved offline semantic decisions; no line-count or length alignment."""
     by_id = {r['id']: r for r in records}
@@ -522,7 +605,17 @@ def segment_corpus(records, fragments):
             continue
         lines = [line for line in record['japanese'].split('\n') if line]
         source_id = record['id']
-        if decision := decisions.get((record['japanese'], record['chinese'])):
+        evidence=json.loads(record['evidence']) if record['method']=='source_control_flow_composition' else {}
+        if evidence.get('composition')=='trainer_end_prefix':
+            # Prefix and body share the same first game line. Preserve every body
+            # semantic boundary and status; adding a speaker never unlocks later text.
+            body=by_id[evidence['body']]
+            offset=len(record['chinese'])-len(body['chinese'])
+            units=[[s['japanese_end_ordinal'],0 if s['ordinal']==1 else s['chinese_start']+offset,
+                    s['chinese_end']+offset,s['status']] for s in by_record[body['id']]]
+            source_id=body['id']
+            method,review='source_control_flow_composition','model_reviewed_control_flow_not_human'
+        elif decision := decisions.get((record['japanese'], record['chinese'])):
             units, source_id = decision
             method, review = 'model_semantic', 'model_reviewed_not_human'
         else:
@@ -807,6 +900,10 @@ def build():
             excluded_ranges=json.loads(revision['excluded_ranges']),
             source='tools/text_translation_revisions.csv', method=revision['method'],
             approval_status=revision['approval_status'], evidence=revision['evidence']))
+    for jp in ['pokegreen','pokeblue','pokeyellow-jp']:
+        add_trainer_end_compositions(jp,all_records,all_fragments)
+    stats = {jp: dict(collections.Counter(r['mapping_status'] for r in all_records if r['japanese_repo']==jp))
+             for jp in ['pokegreen','pokeblue','pokeyellow-jp']}
     semantic_segments, segmentation_issues = segment_corpus(all_records, all_fragments)
     write_csv(DEST/'sources.csv', source_rows, list(source_rows[0]))
     write_csv(DEST/'records.csv', all_records, list(all_records[0]))

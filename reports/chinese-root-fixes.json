@@ -1,0 +1,295 @@
+{
+  "implementationVersion": "0.3.0",
+  "scope": "Root causes of eight reported issue classes; 108 static PNGs; real hardware/UI acceptance deferred",
+  "staticSourceChecks": {
+    "verification": "static_source_and_resource_checks; not dynamic runtime or hardware acceptance",
+    "originalRecords": 9093,
+    "currentRecords": 10187,
+    "originalJapaneseAndChineseUnchanged": true,
+    "csvHeaderOrderUnchanged": true,
+    "changedOriginalMetadata": {
+      "pokegreen:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text": [
+        "segment_status"
+      ],
+      "pokegreen:home/trainers.asm:TrainerEndBattleText": [
+        "kind",
+        "evidence",
+        "mapping_status",
+        "segment_status"
+      ],
+      "pokeblue:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text": [
+        "segment_status"
+      ],
+      "pokeblue:home/trainers.asm:TrainerEndBattleText": [
+        "kind",
+        "evidence",
+        "mapping_status",
+        "segment_status"
+      ],
+      "pokeyellow-jp:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text": [
+        "segment_status"
+      ],
+      "pokeyellow-jp:home/trainers.asm:TrainerEndBattleText": [
+        "kind",
+        "evidence",
+        "mapping_status",
+        "segment_status"
+      ]
+    },
+    "newFixedWords": 51,
+    "newTrainerEndCompositions": 1043,
+    "compositionContentAndBodySemanticBoundariesPreserved": true,
+    "sourceCoverage": {
+      "pokegreen": {
+        "compositions": 348,
+        "savedPointerCallsCovered": 30,
+        "savedPointerCallsInSource": 30,
+        "trainerHeaderProducersCovered": 310,
+        "gymCityMappings": 8,
+        "gymLeaderMappings": 8
+      },
+      "pokeblue": {
+        "compositions": 348,
+        "savedPointerCallsCovered": 30,
+        "savedPointerCallsInSource": 30,
+        "trainerHeaderProducersCovered": 310,
+        "gymCityMappings": 8,
+        "gymLeaderMappings": 8
+      },
+      "pokeyellow-jp": {
+        "compositions": 347,
+        "savedPointerCallsCovered": 34,
+        "savedPointerCallsInSource": 34,
+        "trainerHeaderProducersCovered": 305,
+        "gymCityMappings": 8,
+        "gymLeaderMappings": 8
+      }
+    },
+    "tradeSpeciesSlotOccurrences": {
+      "pokegreen": 15,
+      "pokeblue": 15,
+      "pokeyellow-jp": 15
+    },
+    "blockedMismatchWindows": [
+      "pokegreen:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text#3",
+      "pokegreen:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text#4",
+      "pokeblue:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text#3",
+      "pokeblue:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text#4",
+      "pokeyellow-jp:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text#3",
+      "pokeyellow-jp:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text#4"
+    ],
+    "unresolvedSourceAlignmentIssues": 0
+  },
+  "dynamicVerification": {
+    "buildLog": "output/build-root-fixes.log",
+    "passedTestMethods": 7,
+    "skippedDesktopTestMethods": 1,
+    "developmentScenarios": 16,
+    "developmentComparisonsPassed": 24,
+    "affectedPngsWithFixedExpectations": 11,
+    "affectedUnitsCompared": 23,
+    "allPngsExecuted": 108,
+    "rawJapanesePassedImages": 108,
+    "executionFailures": [],
+    "chinesePublicationSummary": {
+      "images": 108,
+      "noTargetImages": 5,
+      "allUnitsReadyChineseImages": 79,
+      "partialChineseImages": 6,
+      "noChineseImages": 18,
+      "units": 132,
+      "unitsWithChinese": 107,
+      "displayStatusCounts": {
+        "ready": 103,
+        "ambiguous": 4,
+        "nickname_preserved": 7,
+        "wait_for_semantic_unit": 7,
+        "context_required": 5,
+        "ready_waiting": 4,
+        "variables_missing": 1,
+        "source_semantic_mismatch": 1
+      }
+    },
+    "offlineJarCases": [
+      "g1-001",
+      "g1-008",
+      "g1-081",
+      "g1-106"
+    ],
+    "hardwareOrUiTested": false,
+    "finalChineseAcceptance": false
+  },
+  "issues": [
+    {
+      "issue_id": "CI-01",
+      "severity": "coverage",
+      "samples": "g1-001",
+      "matching_scope": "all_sources",
+      "category": "missing_fixed_label",
+      "expected_or_next_step": "固定预期与全部图片回归通过",
+      "status": "fixed",
+      "root_cause": "固定词提取白名单遗漏开始菜单退出标签；运行时无可检索词条",
+      "fix": "从 StartMenuExitText 与 data.xlsx 的原汉化同角色词提取 关闭，保留来源",
+      "validation_scope": "退出固定词在三份日文语料均可用",
+      "current_result": "相关匹配/字段已得到固定预期结果",
+      "observed_before_fix": "とじる 被标记 missing 且中文为空",
+      "evidence_before_fix": "原图 g1-001; TextResolver.word; 当前主库无该固定词"
+    },
+    {
+      "issue_id": "CI-02",
+      "severity": "functional",
+      "samples": "g1-008",
+      "matching_scope": "all_sources",
+      "category": "quantity_spacing",
+      "expected_or_next_step": "固定预期与全部图片回归通过",
+      "status": "fixed",
+      "root_cause": "数量正则只接受乘号后紧邻数字，且由匹配结果重新拼装原文",
+      "fix": "名称与数量分离，接受可见排版空格，后缀按原始子串保留",
+      "validation_scope": "同一规则覆盖所有道具和 TM/HM，验证 ×12 与 × 99，原图 × 1",
+      "current_result": "相关匹配/字段已得到固定预期结果",
+      "observed_before_fix": "わざマシン02 × 1 与 わざマシン07 × 1 均 missing",
+      "evidence_before_fix": "模型回看原图; TextResolver.QUANTITY 仅接受 × 后紧邻数字"
+    },
+    {
+      "issue_id": "CI-03",
+      "severity": "functional",
+      "samples": "g1-007",
+      "matching_scope": "all_sources",
+      "category": "cancel_as_nickname",
+      "expected_or_next_step": "固定预期与全部图片回归通过",
+      "status": "fixed",
+      "root_cause": "将 PC 区域用途误当成每一行的字段用途，取消行也走昵称路径",
+      "fix": "带可见等级的宝可梦行保留昵称，独立控制行只查固定取消词",
+      "validation_scope": "やめる <Lv>12 仍是昵称；やめる 控制行显示 取消",
+      "current_result": "相关匹配/字段已得到固定预期结果",
+      "observed_before_fix": "PC 列表的 やめる 被当作昵称原样保留",
+      "evidence_before_fix": "模型回看原图; fixed:ListMenuCancelText 已有 取消; TextResolver.resolve"
+    },
+    {
+      "issue_id": "CI-04",
+      "severity": "coverage",
+      "samples": "g1-081",
+      "matching_scope": "all_sources",
+      "category": "speaker_prefix_not_composed",
+      "expected_or_next_step": "固定预期与全部图片回归通过",
+      "status": "fixed",
+      "root_cause": "源正文没有包含游戏 PrintEndBattleText 拼接的姓名前缀，局部目标标签也被漏收",
+      "fix": "依据 trainer 宏与保存战后指针生成 1043 个带前缀组合，继承正文语义边界",
+      "validation_scope": "覆盖94处保存指针调用及925个 trainer 宏生产者；不把任意对白视为战后文本",
+      "current_result": "相关匹配/字段已得到固定预期结果",
+      "observed_before_fix": "カンナ『…… なんて やつなの！ 无匹配候选",
+      "evidence_before_fix": "模型回看原图; LoreleisRoomLoreleiEndBattleText 只存 …… なんて やつなの！"
+    },
+    {
+      "issue_id": "CI-05",
+      "severity": "translation_quality",
+      "samples": "g1-078",
+      "matching_scope": "all_sources",
+      "category": "item_slot_untranslated",
+      "expected_or_next_step": "固定预期与全部图片回归通过",
+      "status": "fixed",
+      "root_cause": "把重复使用的 wNameBuffer 当作无类型字面量，没有沿 GetItemName 数据流确定语义",
+      "fix": "为 AIBattleUseItemText.RAM3 记录有源码依据的 item 角色",
+      "validation_scope": "三个来源共用脚本角色；道具名来自现有词典，昵称仍保留",
+      "current_result": "相关匹配/字段已得到固定预期结果",
+      "observed_before_fix": "已发布中文仍包含 いいキズぐすり",
+      "evidence_before_fix": "engine/battle/trainer_ai2.asm:AIBattleUseItemText; data.xlsx#Items!C20"
+    },
+    {
+      "issue_id": "CI-06",
+      "severity": "translation_quality",
+      "samples": "g1-028;g1-029",
+      "matching_scope": "all_sources",
+      "category": "known_label_fields_untranslated",
+      "expected_or_next_step": "固定预期与全部图片回归通过",
+      "status": "fixed",
+      "root_cause": "城市和馆主名被当作字面量或可变姓名，固定地名/馆主词条未被提取",
+      "fix": "按 wGymCityName/wGymLeaderName 区分固定角色，并提取8座道馆的原汉化词条",
+      "validation_scope": "三份日文来源各8个城市和8个馆主，玩家和对手姓名不套此规则",
+      "current_result": "相关匹配/字段已得到固定预期结果",
+      "observed_before_fix": "g1-028 的 ハナダ 和 カスミ 以及 g1-029 的 カスミ 仍为日文",
+      "evidence_before_fix": "GymStatueText1/Text2; wGymCityName; wGymLeaderName; trainer:MISTY 已有 小霞"
+    },
+    {
+      "issue_id": "CI-07",
+      "severity": "translation_quality",
+      "samples": "g1-099;g1-100;g1-103",
+      "matching_scope": "all_sources",
+      "category": "trade_species_as_nickname",
+      "expected_or_next_step": "固定预期与全部图片回归通过",
+      "status": "fixed",
+      "root_cause": "用 MonName 名称子串推断昵称，混淆由物种ID生成的交换名称",
+      "fix": "按交换缓冲区的实际生产者判为 pokemon，已确认昵称缓冲区继续原样保留",
+      "validation_scope": "规则覆盖三份来源的45个交换物种槽位，不按截图或具体物种打补丁",
+      "current_result": "相关匹配/字段已得到固定预期结果",
+      "observed_before_fix": "交换对白中的物种名保留日文",
+      "evidence_before_fix": "engine/events/in_game_trades.asm:41-46; WannaTrade2Text; AfterTrade3Text"
+    },
+    {
+      "issue_id": "CI-08",
+      "severity": "semantic",
+      "samples": "g1-106",
+      "matching_scope": "all_sources",
+      "category": "source_semantic_mismatch",
+      "expected_or_next_step": "待确认将 罕见的宝可梦的啰！ 仅订正为 罕见的化石的啰！；当前阻止错译发布",
+      "status": "protected_pending_confirmation",
+      "root_cause": "所选原汉化把研究化石写成研究宝可梦，离线语义审核曾误标 aligned",
+      "fix": "在保存的语义单元中标记 source_semantic_mismatch，所有重叠窗口拒绝发布",
+      "validation_scope": "三条来源记录的6个窗口均阻断；原汉化不改，具体订正待用户确认",
+      "current_result": "g1-106 中文为空，source_semantic_mismatch，保留原始日文",
+      "observed_before_fix": "日文研究对象为 カセキ 即化石 已发布原汉化却是 罕见的宝可梦",
+      "evidence_before_fix": "模型回看原图; indoor.xlsx#CinnabarLabFossilRoom!G8:G9; 统一匹配仍输出原汉化措辞"
+    }
+  ],
+  "pendingCorrection": {
+    "sample": "g1-106",
+    "source": "indoor.xlsx#CinnabarLabFossilRoom!G8:G9",
+    "before": "我致力于研究\n罕见的宝可梦的啰！",
+    "proposed": "我致力于研究\n罕见的化石的啰！",
+    "approvalStatus": "pending_user_confirmation",
+    "currentBehavior": "source_semantic_mismatch; Chinese empty; original Japanese retained"
+  },
+  "artifact": {
+    "path": "target/g1-ocr-0.3.0.jar",
+    "bytes": 15695939,
+    "sha256": "7992242f790bb196fe6ccfb756672aac92ec87e2de3c054d6677f3e6222a1068"
+  },
+  "sha256": {
+    "AGENTS.md": "f4a8727c9a65be0b7617dcc3486b24184270562434d5afaec31a582053726495",
+    "pokemon_g1_vc_ocr_SPEC.md": "27d1d00a11dfcb6841c1d49ad9e44473ec44f4b4ea06b6d149c75ade8fe09df3",
+    "src/main/java/io/github/g1ocr/Main.java": "199f7dbf311154fa27873bb97dfc0fa2c7dd5187d1df59576906ef7aed7794b9",
+    "src/main/java/io/github/g1ocr/OcrPipeline.java": "d28a79eeb0948c42538098e9c7bb0f992dc9c7d71d933df33a001be6d25471f6",
+    "src/main/java/io/github/g1ocr/capture/LiveSession.java": "3b662ee7568be2f0466920d6569e26b9cde7561af2f181ea6acb54a4a99c829f",
+    "src/main/java/io/github/g1ocr/capture/WindowCapture.java": "c516d0824ce21e1e99c419047476237f0efb054533d80265336b252696b1fb38",
+    "src/main/java/io/github/g1ocr/image/GbFrame.java": "b47213b645b0b835b45093fa33893c90fc1a12fee9f27f25c18b3a1246cda3b5",
+    "src/main/java/io/github/g1ocr/image/ViewportResolver.java": "456352112fd004ba760b1ed5368ae7426dcf53385a55d6e0d15c1bf0b0bc9086",
+    "src/main/java/io/github/g1ocr/ocr/PixelFont.java": "983edf9f244ba5084042612e0343e55145fdce614a876a418edf824270c7f8ba",
+    "src/main/java/io/github/g1ocr/ocr/PixelOcr.java": "a5ec55f0e59c504295306f33de5fc8363eaade34fc6743922b40b55d4ce21fa3",
+    "src/main/java/io/github/g1ocr/region/RegionDetector.java": "6fa82dbf5fbc13818937adcc2376c2cf503e6b08dac34ede376018ebcf925b04",
+    "src/main/java/io/github/g1ocr/region/StabilityDetector.java": "b3b37046c37efd61ee2332f13f2754c5bc15590d8cdc0a3f29bea851e3f13bf5",
+    "src/main/java/io/github/g1ocr/text/TextCorpus.java": "f402cc56378059e1313e1fa29d489dec502e0450108d52a7e29d4333e5c26452",
+    "src/main/java/io/github/g1ocr/text/TextResolver.java": "cf5ce1c6086ed2bbd67e6f930fae25e766dc906dd253804074b96298cd6dcd65",
+    "src/main/java/io/github/g1ocr/ui/LiveApplication.java": "6a7a8870884a9f10ec7f6176d56d920ebbd9c42331c12b638e5f6813b14b9d12",
+    "src/main/resources/SOURCES.md": "8712e57f185dffa141d0e53a22891199296bc9c3dd545990e549353158aea6d0",
+    "src/main/resources/corpus/README.md": "25bfb9e857681f1e0caa6ac4653317cdeb71ea988c602dc321132952596252cb",
+    "src/main/resources/corpus/control_rules.csv": "e0688409826990bf15b15598c9d6e617243b65475c6856b87a4ecb46ea23f560",
+    "src/main/resources/corpus/fragments.csv": "a5ba245e6bfacbba408f62f2740484b02d8af5c4c2af62c00a6dd7ba215c512e",
+    "src/main/resources/corpus/records.csv": "6fe6185718c5821a115257ba6e2d13b5f7c806a5c10d76fcf38daa71e97c3430",
+    "src/main/resources/corpus/segments.csv": "a581a3d18c0e7ab379721a3febcd211136a71d352751bde585825650540ab6c0",
+    "src/main/resources/corpus/slot_rules.csv": "fb213c840105319f373e844d5bb54abf903ba08b09ab575e8b545c8956b65b9d",
+    "src/main/resources/corpus/sources.csv": "1c3781d918002354066b6c7868968f4f876e099b6c216ecf4439ddd8ec763d81",
+    "src/main/resources/corpus/variables.csv": "7be71b7e5921077f40fa9d2791e8c55eb4e1ee6f40b4460b2a5488cce030edd2",
+    "src/main/resources/font.tsv": "56022863949bdbdd3e097cbc62123d33d601a95596a88db69bbb710d3975b4a4",
+    "src/test/java/io/github/g1ocr/AcceptanceTest.java": "fd1f739c685a1f3197fb70b5118ca4f538620eca78632fb5720cac89493f9c15",
+    "src/test/java/io/github/g1ocr/PipelineRulesTest.java": "b89d9bf55dfbf07b5023290821572ef14b7b3aaef506b64d5d643b1833a20ac5",
+    "src/test/java/io/github/g1ocr/TranslationTest.java": "2dbb4ccde091030581764c0f68f110cf9838dc4838883171439502d67969d016",
+    "src/test/java/io/github/g1ocr/WgcSmokeTest.java": "cf77e24464efb42810dfe0174a37b2973d29598603c3abc0df8163c472a95b56",
+    "src/test/resources/chinese-cases.json": "721fde2bab0ef6dfaa1fc2f6321e9bc0e38236eea64b33ce67a362070693f578",
+    "src/test/resources/chinese-regressions.json": "9881f462285e4be2f5dc2e0062471921f28386b9148a1f1ff34613f0b3fa2b2b",
+    "testpic/labels/japanese.json": "263e154a044b2a7f331a0147e068c75f25d99e044bb5466c7c176bfabebea640",
+    "tools/build_text_corpus.py": "dad28274c21a64ace870cab22a3b55832c70b1be473c0e8439a66615cbc1090b",
+    "tools/text_segmentation.csv": "3b8c71d0f38e4034f5b29e712b14672be6967c5b1b81fecde6cfeda5577dd9d5",
+    "tools/text_sources.csv": "c1ab9fec1c782ec0acf023620a46aa0815b0f51c984b1e25fecd7d111f1f5dbd",
+    "tools/text_translation_revisions.csv": "714f2b414f849e72be1ca3b82d231e980ab6f82364c4f86aa8705509c3ca7edc"
+  }
+}

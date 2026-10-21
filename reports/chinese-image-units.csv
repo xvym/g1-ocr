@@ -1,0 +1,273 @@
+﻿sample_id,matching_scope,region,layout,raw_japanese,match_status,display_status,chinese,candidate_count,candidate_ids
+g1-001,all_sources,list,shared_list,じてんしゃ,equivalent,ready,自行车,3,pokeblue:item:BICYCLE;pokegreen:item:BICYCLE;pokeyellow-jp:item:BICYCLE
+g1-001,all_sources,list,shared_list,ポケモンのふえ,equivalent,ready,宝可梦之笛,3,pokeblue:item:POKE_FLUTE;pokegreen:item:POKE_FLUTE;pokeyellow-jp:item:POKE_FLUTE
+g1-001,all_sources,list,shared_list,いいつりざお,equivalent,ready,好钓竿,3,pokeblue:item:GOOD_ROD;pokegreen:item:GOOD_ROD;pokeyellow-jp:item:GOOD_ROD
+g1-001,all_sources,list,shared_list,ボロのつりざお,equivalent,ready,破旧钓竿,3,pokeblue:item:OLD_ROD;pokegreen:item:OLD_ROD;pokeyellow-jp:item:OLD_ROD
+g1-001,all_sources,list,shared_list,とじる,equivalent,ready,关闭,3,pokeblue:fixed:StartMenuExitText;pokegreen:fixed:StartMenuExitText;pokeyellow-jp:fixed:StartMenuExitText
+g1-002,all_sources,dialogue,dialogue,"おーす！
+みらいの チャンピオン！",ambiguous,ambiguous,,21,pokeblue:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText;pokeblue:scripts/CinnabarGym.asm:CinnabarGymGymGuideText.ChampInMakingText;pokeblue:scripts/FuchsiaGym.asm:FuchsiaGymGymGuideText.ChampInMakingText;pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText;pokeblue:scripts/SaffronGym.asm:SaffronGymGymGuideText.ChampInMakingText;pokeblue:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText;pokeblue:scripts/ViridianGym.asm:ViridianGymGuidePreBattleText;pokegreen:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText;pokegreen:scripts/CinnabarGym.asm:CinnabarGymGymGuideText.ChampInMakingText;pokegreen:scripts/FuchsiaGym.asm:FuchsiaGymGymGuideText.ChampInMakingText;pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText;pokegreen:scripts/SaffronGym.asm:SaffronGymGymGuideText.ChampInMakingText;pokegreen:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText;pokegreen:scripts/ViridianGym.asm:ViridianGymGuidePreBattleText;pokeyellow-jp:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/CinnabarGym_3.asm:CinnabarGymPrintGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/FuchsiaGym.asm:FuchsiaGymGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText;pokeyellow-jp:scripts/SaffronGym.asm:SaffronGymGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymGuidePreBattleText
+g1-005,all_sources,dialogue,dialogue,"ここでは ポケモンの
+たいりょく かいふくを いたします",equivalent,ready,"我们能让您的宝可梦
+完全恢复健康！",3,pokeblue:engine/events/pokecenter.asm:PokemonCenterWelcomeText;pokegreen:engine/events/pokecenter.asm:PokemonCenterWelcomeText;pokeyellow-jp:engine/events/pokecenter.asm:PokemonCenterWelcomeText
+g1-006,all_sources,list,shared_list,ゴローニャ <Lv>50,not_applicable,nickname_preserved,,0,
+g1-006,all_sources,list,shared_list,ライチュウ <Lv>50,not_applicable,nickname_preserved,,0,
+g1-006,all_sources,list,shared_list,りザードン <Lv>50,not_applicable,nickname_preserved,,0,
+g1-006,all_sources,list,shared_list,ポッポ <Lv>3,not_applicable,nickname_preserved,,0,
+g1-006,all_sources,dialogue,dialogue,なんに するん？,equivalent,ready,要做什么？,3,pokeblue:engine/pokemon/bills_pc.asm:WhatText;pokegreen:engine/pokemon/bills_pc.asm:WhatText;pokeyellow-jp:engine/pokemon/bills_pc.asm:WhatText
+g1-007,all_sources,list,shared_list,ライチュウ <Lv>50,not_applicable,nickname_preserved,,0,
+g1-007,all_sources,list,shared_list,りザードン <Lv>50,not_applicable,nickname_preserved,,0,
+g1-007,all_sources,list,shared_list,ポッポ <Lv>3,not_applicable,nickname_preserved,,0,
+g1-007,all_sources,list,shared_list,やめる,equivalent,ready,取消,3,pokeblue:fixed:ListMenuCancelText;pokegreen:fixed:ListMenuCancelText;pokeyellow-jp:fixed:ListMenuCancelText
+g1-007,all_sources,dialogue,dialogue,なんに するん？,equivalent,ready,要做什么？,3,pokeblue:engine/pokemon/bills_pc.asm:WhatText;pokegreen:engine/pokemon/bills_pc.asm:WhatText;pokeyellow-jp:engine/pokemon/bills_pc.asm:WhatText
+g1-008,all_sources,list,shared_list,わざマシン02 × 1,equivalent,ready,TM02 × 1,3,pokeblue:item:TM02;pokegreen:item:TM02;pokeyellow-jp:item:TM02
+g1-008,all_sources,list,shared_list,エレべータのカギ,equivalent,ready,电梯钥匙,3,pokeblue:item:LIFT_KEY;pokegreen:item:LIFT_KEY;pokeyellow-jp:item:LIFT_KEY
+g1-008,all_sources,list,shared_list,わざマシン07 × 1,equivalent,ready,TM07 × 1,3,pokeblue:item:TM07;pokegreen:item:TM07;pokeyellow-jp:item:TM07
+g1-008,all_sources,list,shared_list,シルフスコープ,equivalent,ready,西尔佛检视镜,3,pokeblue:item:SILPH_SCOPE;pokegreen:item:SILPH_SCOPE;pokeyellow-jp:item:SILPH_SCOPE
+g1-008,all_sources,dialogue,dialogue,なにを ひきだしますか？,equivalent,ready,要取出什么呢？,3,pokeblue:engine/menus/players_pc.asm:WhatToWithdrawText;pokegreen:engine/menus/players_pc.asm:WhatToWithdrawText;pokeyellow-jp:engine/menus/players_pc.asm:WhatToWithdrawText
+g1-009,all_sources,dialogue,dialogue,"ポケモン りーグ してんのうは
+4にん つづけて",equivalent,wait_for_semantic_unit,,3,pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText;pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText;pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText
+g1-010,all_sources,dialogue,dialogue,"まけたら ひとりめ から
+やりなおしに なるぞ！",equivalent,ready,要是输了就必须从头来过！,3,pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText;pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText;pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText
+g1-011,all_sources,dialogue,dialogue,ゆっくり ごらんになって ください,equivalent,ready,请慢慢挑选。,3,pokeblue:engine/events/pokemart.asm:PokemartBuyingGreetingText;pokegreen:engine/events/pokemart.asm:PokemartBuyingGreetingText;pokeyellow-jp:engine/events/pokemart.asm:PokemartBuyingGreetingText
+g1-012,all_sources,list,shared_list,じてんしゃ,equivalent,ready,自行车,3,pokeblue:item:BICYCLE;pokegreen:item:BICYCLE;pokeyellow-jp:item:BICYCLE
+g1-012,all_sources,list,shared_list,ポケモンのふえ,equivalent,ready,宝可梦之笛,3,pokeblue:item:POKE_FLUTE;pokegreen:item:POKE_FLUTE;pokeyellow-jp:item:POKE_FLUTE
+g1-012,all_sources,list,shared_list,いいつりざお,equivalent,ready,好钓竿,3,pokeblue:item:GOOD_ROD;pokegreen:item:GOOD_ROD;pokeyellow-jp:item:GOOD_ROD
+g1-012,all_sources,list,shared_list,ボロのつりざお,equivalent,ready,破旧钓竿,3,pokeblue:item:OLD_ROD;pokegreen:item:OLD_ROD;pokeyellow-jp:item:OLD_ROD
+g1-012,all_sources,dialogue,dialogue,どれを うっていただけますか？,equivalent,ready,要卖什么呢？,3,pokeblue:engine/events/pokemart.asm:PokemonSellingGreetingText;pokegreen:engine/events/pokemart.asm:PokemonSellingGreetingText;pokeyellow-jp:engine/events/pokemart.asm:PokemonSellingGreetingText
+g1-013,all_sources,dialogue,dialogue,"ひとりずつ たたかうの！
+もし かてたら ドアが ひらいて",equivalent,context_required,,3,pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText;pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText;pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText
+g1-014,all_sources,dialogue,dialogue,"もし かてたら ドアが ひらいて
+おくの へやに すすめるわ！",equivalent,ready,"要是你赢了，
+门会自动打开，
+你就可以前往
+更里边的房间了！",3,pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText;pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText;pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText
+g1-015,all_sources,dialogue,dialogue,"わあ！ ポケモングッズが
+たくさん そろってるぞ！",equivalent,ready,"哇啊！好多好多
+宝可梦的物品！",3,pokeblue:engine/events/hidden_events/pokemon_stuff.asm:PokemonStuffText;pokegreen:engine/events/hidden_events/pokemon_stuff.asm:PokemonStuffText;pokeyellow-jp:engine/events/hidden_events/pokemon_stuff.asm:PokemonStuffText
+g1-017,all_sources,dialogue,dialogue,"ばんざーい！
+ロケットだんが いなくなった！",equivalent,ready,"万岁～～！
+火箭队的人终于滚蛋了！",3,pokeblue:scripts/SaffronCity.asm:SaffronCitySilphWorkerMText;pokegreen:scripts/SaffronCity.asm:SaffronCitySilphWorkerMText;pokeyellow-jp:scripts/SaffronCity.asm:SaffronCitySilphWorkerMText
+g1-018,all_sources,dialogue,dialogue,"ロケットだんが いなくなった！
+ビビらないで そと あるけるんだ！",equivalent,ready,"火箭队的人终于滚蛋了！
+终于可以不用
+担惊受怕地出门了！",3,pokeblue:scripts/SaffronCity.asm:SaffronCitySilphWorkerMText;pokegreen:scripts/SaffronCity.asm:SaffronCitySilphWorkerMText;pokeyellow-jp:scripts/SaffronCity.asm:SaffronCitySilphWorkerMText
+g1-019,all_sources,dialogue,dialogue,"すこし たかい けど
+ねむけざまし どくけし などを",equivalent,wait_for_semantic_unit,,3,pokeblue:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text;pokegreen:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text;pokeyellow-jp:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text
+g1-020,all_sources,dialogue,dialogue,"あ……
+この あいだは どーも！",equivalent,ready,"啊……
+之前真是谢谢你了！",3,pokeblue:scripts/Route5Gate.asm:SaffronGateGuardThanksForTheDrinkText;pokegreen:scripts/Route5Gate.asm:SaffronGateGuardThanksForTheDrinkText;pokeyellow-jp:scripts/Route5Gate.asm:SaffronGateGuardThanksForTheDrinkText
+g1-021,all_sources,dialogue,dialogue,"ロケットだんが シルフ おそって
+だいじけんって きいて！",equivalent,ready,"我听说火箭队
+袭击了西尔佛！",3,pokeblue:scripts/SaffronCity.asm:SaffronCityGentlemanText;pokegreen:scripts/SaffronCity.asm:SaffronCityGentlemanText;pokeyellow-jp:scripts/SaffronCity.asm:SaffronCityGentlemanText
+g1-022,all_sources,dialogue,dialogue,"かいけつ した……？
+すんません！",equivalent,ready_waiting,"你说这件事
+已经解决了……？",3,pokeblue:scripts/SaffronCity.asm:SaffronCityGentlemanText;pokegreen:scripts/SaffronCity.asm:SaffronCityGentlemanText;pokeyellow-jp:scripts/SaffronCity.asm:SaffronCityGentlemanText
+g1-023,all_sources,dialogue,dialogue,"みせの まえの うえきが じゃまで
+むこうへ いけないよ！",equivalent,ready,"商店前的树挡着路，
+所以从这边走不过去呀！",3,pokeblue:scripts/CeruleanCity.asm:CeruleanCitySuperNerd1Text;pokegreen:scripts/CeruleanCity.asm:CeruleanCitySuperNerd1Text;pokeyellow-jp:scripts/CeruleanCity.asm:CeruleanCitySuperNerd1Text
+g1-024,all_sources,dialogue,dialogue,"でも どこか まわりみち すると
+いける らしい けど……",equivalent,ready,"虽然貌似从别处绕个路
+就可以走过去了……",3,pokeblue:scripts/CeruleanCity.asm:CeruleanCitySuperNerd1Text;pokegreen:scripts/CeruleanCity.asm:CeruleanCitySuperNerd1Text;pokeyellow-jp:scripts/CeruleanCity.asm:CeruleanCitySuperNerd1Text
+g1-025,all_sources,dialogue,dialogue,"ほほう……！
+ポケモンの ずかんを つくってる？",equivalent,ready,"呵呵呵……！
+你在收集宝可梦图鉴？",3,pokeblue:scripts/CeruleanCity.asm:CeruleanCitySuperNerd2Text;pokegreen:scripts/CeruleanCity.asm:CeruleanCitySuperNerd2Text;pokeyellow-jp:scripts/CeruleanCity.asm:CeruleanCitySuperNerd2Text
+g1-026,all_sources,dialogue,dialogue,"ポケモンの ずかんを つくってる？
+それは たのしそう だなあ！",equivalent,ready,"你在收集宝可梦图鉴？
+听上去还挺有趣的！",3,pokeblue:scripts/CeruleanCity.asm:CeruleanCitySuperNerd2Text;pokegreen:scripts/CeruleanCity.asm:CeruleanCitySuperNerd2Text;pokeyellow-jp:scripts/CeruleanCity.asm:CeruleanCitySuperNerd2Text
+g1-027,all_sources,dialogue,dialogue,"わたしも じてんしゃ ほしい！
+まっかな じてんしゃ！",equivalent,ready,"我也想要一辆自行车！
+又亮又红的自行车！",3,pokeblue:scripts/CeruleanCity.asm:CeruleanCityCooltrainerF2Text;pokegreen:scripts/CeruleanCity.asm:CeruleanCityCooltrainerF2Text;pokeyellow-jp:scripts/CeruleanCity.asm:CeruleanCityCooltrainerF2Text
+g1-028,all_sources,dialogue,dialogue,"ハナダ ポケモン ジム
+カスミ にんてい トレーナー！",equivalent,ready,"华蓝市宝可梦道馆
+小霞认证训练家！",6,pokeblue:engine/events/hidden_events/gym_statues.asm:GymStatueText1;pokeblue:engine/events/hidden_events/gym_statues.asm:GymStatueText2;pokegreen:engine/events/hidden_events/gym_statues.asm:GymStatueText1;pokegreen:engine/events/hidden_events/gym_statues.asm:GymStatueText2;pokeyellow-jp:engine/events/hidden_events/gym_statues.asm:GymStatueText1;pokeyellow-jp:engine/events/hidden_events/gym_statues.asm:GymStatueText2
+g1-029,all_sources,dialogue,dialogue,"カスミ にんてい トレーナー！
+レッド グりーン",equivalent,ready,"小霞认证训练家！
+レッド グりーン",3,pokeblue:engine/events/hidden_events/gym_statues.asm:GymStatueText2;pokegreen:engine/events/hidden_events/gym_statues.asm:GymStatueText2;pokeyellow-jp:engine/events/hidden_events/gym_statues.asm:GymStatueText2
+g1-030,all_sources,dialogue,dialogue,"カスミに かったな！
+おれの いった とおり だったろ？",equivalent,ready,"你战胜了小霞啊！
+我说的很管用吧？",3,pokeblue:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.BeatMistyText;pokegreen:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.BeatMistyText;pokeyellow-jp:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.BeatMistyText
+g1-031,all_sources,dialogue,dialogue,"わざマシン11は バブルこうせんを
+ポケモンに おしえるの",equivalent,ready,"招式学习器１１可以让
+宝可梦学会“泡沫光线”！",3,pokeblue:scripts/CeruleanGym.asm:CeruleanGymMistyText.TM11ExplanationText;pokegreen:scripts/CeruleanGym.asm:CeruleanGymMistyText.TM11ExplanationText;pokeyellow-jp:scripts/CeruleanGym.asm:CeruleanGymMistyText.TM11ExplanationText
+g1-032,all_sources,dialogue,dialogue,"おかあさん『グりーン……！
+すこし やすんで いったら",equivalent,ready_waiting,妈妈：グりーン……！,2,pokeblue:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText;pokegreen:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText
+g1-033,all_sources,dialogue,dialogue,"すこし やすんで いったら
+どうかしら……？",equivalent,wait_for_semantic_unit,,2,pokeblue:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText;pokegreen:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText
+g1-034,all_sources,dialogue,dialogue,"にんげんと おなじように
+ポケモンも いきてるの！",equivalent,ready,"宝可梦和人类一样，
+是活着的生物！",2,pokeblue:scripts/BluesHouse.asm:BluesHouseDaisyWalkingText;pokegreen:scripts/BluesHouse.asm:BluesHouseDaisyWalkingText
+g1-035,all_sources,dialogue,dialogue,"たいりょくが ないときは
+やすませて あげて！",equivalent,ready,"如果累了的话，
+就让它们休息一下吧！",2,pokeblue:scripts/BluesHouse.asm:BluesHouseDaisyWalkingText;pokegreen:scripts/BluesHouse.asm:BluesHouseDaisyWalkingText
+g1-036,all_sources,dialogue,dialogue,"わたしも はかせの じょしゅ として
+ポケモンを けんきゅう してます",equivalent,ready,"作为博士的助手，我也在
+做一些宝可梦的研究。",3,pokeblue:scripts/OaksLab.asm:OaksLabScientistText.Text;pokegreen:scripts/OaksLab.asm:OaksLabScientistText.Text;pokeyellow-jp:scripts/OaksLab.asm:OaksLabScientistText.Text
+g1-037,all_sources,dialogue,dialogue,ポケモンの ほんが いっぱい！,equivalent,ready,"上面全是
+宝可梦的书！",3,pokeblue:engine/events/hidden_events/book_or_sculpture.asm:PokemonBooksText;pokegreen:engine/events/hidden_events/book_or_sculpture.asm:PokemonBooksText;pokeyellow-jp:engine/events/hidden_events/book_or_sculpture.asm:PokemonBooksText
+g1-038,all_sources,dialogue,dialogue,"オーキド『よく きた！
+ポケモンずかんの",equivalent,ready_waiting,你来的正好！,3,pokeblue:scripts/OaksLab.asm:OaksLabOak1Text.HowIsYourPokedexComingText;pokegreen:scripts/OaksLab.asm:OaksLabOak1Text.HowIsYourPokedexComingText;pokeyellow-jp:scripts/OaksLab.asm:OaksLabOak1Text.HowIsYourPokedexComingText
+g1-039,all_sources,dialogue,dialogue,"あ！ やせいの
+コラッタが とびだしてきた！",equivalent,ready,"啊！野生的
+コラッタ扑过来了！",3,pokeblue:engine/battle/common_text.asm:WildMonAppearedText;pokegreen:engine/battle/common_text.asm:WildMonAppearedText;pokeyellow-jp:engine/battle/common_text.asm:WildMonAppearedText
+g1-041,all_sources,dialogue,dialogue,"ラプラスの
+れいとうビーム！",equivalent,ready,"ラプラス
+使出了冰冻光束！",3,pokeblue:composed:UsedMove.grammar4.normal;pokegreen:composed:UsedMove.grammar4.normal;pokeyellow-jp:composed:UsedMove.grammar4.normal
+g1-042,all_sources,dialogue,dialogue,てきの コラッタは たおれた！,equivalent,ready,"敌方コラッタ
+倒下了！",3,pokeblue:engine/battle/core.asm:EnemyMonFaintedText;pokegreen:engine/battle/core.asm:EnemyMonFaintedText;pokeyellow-jp:engine/battle/core.asm:EnemyMonFaintedText
+g1-043,all_sources,dialogue,dialogue,"ラプラスの
+れいとうビーム！",equivalent,ready,"ラプラス
+使出了冰冻光束！",3,pokeblue:composed:UsedMove.grammar4.normal;pokegreen:composed:UsedMove.grammar4.normal;pokeyellow-jp:composed:UsedMove.grammar4.normal
+g1-044,all_sources,dialogue,dialogue,てきの ポッポは たおれた！,equivalent,ready,"敌方ポッポ
+倒下了！",3,pokeblue:engine/battle/core.asm:EnemyMonFaintedText;pokegreen:engine/battle/core.asm:EnemyMonFaintedText;pokeyellow-jp:engine/battle/core.asm:EnemyMonFaintedText
+g1-045,all_sources,dialogue,dialogue,"ラプラスは おおめに
+34 けいけんちを もらった！",equivalent,ready,"ラプラス获得了
+较为多的34经验值！",3,pokeblue:composed:Experience.BoostedText;pokegreen:composed:Experience.BoostedText;pokeyellow-jp:composed:Experience.BoostedText
+g1-046,all_sources,action,battle_action,たたかう,equivalent,ready,战斗,3,pokeblue:fixed:BattleMenu.たたかう;pokegreen:fixed:BattleMenu.たたかう;pokeyellow-jp:fixed:BattleMenu.たたかう
+g1-046,all_sources,action,battle_action,どうぐ,equivalent,ready,道具,3,pokeblue:fixed:BattleMenu.どうぐ;pokegreen:fixed:BattleMenu.どうぐ;pokeyellow-jp:fixed:BattleMenu.どうぐ
+g1-046,all_sources,action,battle_action,ポケモン,equivalent,ready,宝可梦,3,pokeblue:fixed:BattleMenu.ポケモン;pokegreen:fixed:BattleMenu.ポケモン;pokeyellow-jp:fixed:BattleMenu.ポケモン
+g1-046,all_sources,action,battle_action,にげる,equivalent,ready,逃走,3,pokeblue:fixed:BattleMenu.にげる;pokegreen:fixed:BattleMenu.にげる;pokeyellow-jp:fixed:BattleMenu.にげる
+g1-047,all_sources,list,shared_list,じてんしゃ,equivalent,ready,自行车,3,pokeblue:item:BICYCLE;pokegreen:item:BICYCLE;pokeyellow-jp:item:BICYCLE
+g1-047,all_sources,list,shared_list,ポケモンのふえ,equivalent,ready,宝可梦之笛,3,pokeblue:item:POKE_FLUTE;pokegreen:item:POKE_FLUTE;pokeyellow-jp:item:POKE_FLUTE
+g1-047,all_sources,list,shared_list,いいつりざお,equivalent,ready,好钓竿,3,pokeblue:item:GOOD_ROD;pokegreen:item:GOOD_ROD;pokeyellow-jp:item:GOOD_ROD
+g1-047,all_sources,list,shared_list,ボロのつりざお,equivalent,ready,破旧钓竿,3,pokeblue:item:OLD_ROD;pokegreen:item:OLD_ROD;pokeyellow-jp:item:OLD_ROD
+g1-048,all_sources,dialogue,dialogue,"グりーンは
+モンスターボールを つかった！",equivalent,ready,グりーン使用了精灵球！,3,pokeblue:engine/items/item_effects.asm:ItemUseText00;pokegreen:engine/items/item_effects.asm:ItemUseText00;pokeyellow-jp:engine/items/item_effects.asm:ItemUseText00
+g1-049,all_sources,dialogue,dialogue,"やったー！
+コラッタを つかまえたぞ！",equivalent,ready,"太好了！
+捉到コラッタ了！",3,pokeblue:engine/items/item_effects.asm:ItemUseBallText05;pokegreen:engine/items/item_effects.asm:ItemUseBallText05;pokeyellow-jp:engine/items/item_effects.asm:ItemUseBallText05
+g1-050,all_sources,dialogue,dialogue,ポケモン りーグへ ようこそ！,equivalent,ready,"欢迎来到
+宝可梦联盟！",3,pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText;pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText;pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText
+g1-051,all_sources,dialogue,dialogue,わたしが してんのうの カンナ！,equivalent,ready,我是四天王中的科拿！,3,pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText;pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText;pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText
+g1-052,all_sources,dialogue,dialogue,"こおり ポケモン つかわせたら
+みぎに でる ものは いないわ",equivalent,ready,"只要能让我用
+冰属性宝可梦，
+就绝对没人能赢得过我！",3,pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText;pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText;pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText
+g1-053,all_sources,dialogue,dialogue,"あいてを こおらせるって
+とっても きょうりょくよ！",equivalent,ready,"能冻住对方
+可是很厉害的哦！",3,pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText;pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText;pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText
+g1-054,all_sources,dialogue,dialogue,"だって こおっちゃったら
+あんたの ポケモン",equivalent,wait_for_semantic_unit,,3,pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText;pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText;pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText
+g1-055,all_sources,dialogue,dialogue,"あんたの ポケモン
+ぜんぜん うごけ ないんだから",equivalent,context_required,,3,pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText;pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText;pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText
+g1-056,all_sources,dialogue,dialogue,"…… あははッ！
+じゃ かくごは いいかしら！",equivalent,ready,"……啊哈哈！
+你做好觉悟了吧！",3,pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText;pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText;pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText
+g1-058,all_sources,dialogue,dialogue,"カンナが
+しょうぶを しかけてきた！",equivalent,ready,"科拿
+前来挑战了！",3,pokeblue:engine/battle/common_text.asm:TrainerWantsToFightText;pokegreen:engine/battle/common_text.asm:TrainerWantsToFightText;pokeyellow-jp:engine/battle/common_text.asm:TrainerWantsToFightText
+g1-059,all_sources,dialogue,dialogue,"カンナは
+ジュゴンを くりだした！",equivalent,ready,"科拿派出了
+ジュゴン！",3,pokeblue:engine/battle/core.asm:TrainerSentOutText;pokegreen:engine/battle/core.asm:TrainerSentOutText;pokeyellow-jp:engine/battle/core.asm:TrainerSentOutText
+g1-060,all_sources,dialogue,dialogue,ゆけっ！ ラプラス！,equivalent,ready,上吧！ラプラス！,3,pokeblue:composed:SendOut.GoText;pokegreen:composed:SendOut.GoText;pokeyellow-jp:composed:SendOut.GoText
+g1-061,all_sources,dialogue,dialogue,きゅうしょ,ambiguous,ambiguous,,7,pokeblue:composed:Retreat.direct;pokeblue:engine/battle/core.asm:CriticalHitText;pokegreen:composed:Retreat.direct;pokegreen:engine/battle/core.asm:CriticalHitText;pokeyellow-jp:composed:Retreat.direct;pokeyellow-jp:engine/battle/core.asm:CriticalHitText;pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalTakesText5
+g1-062,all_sources,dialogue,dialogue,きゅうしょに あたった！,equivalent,ready,击中了要害！,3,pokeblue:engine/battle/core.asm:CriticalHitText;pokegreen:engine/battle/core.asm:CriticalHitText;pokeyellow-jp:engine/battle/core.asm:CriticalHitText
+g1-063,all_sources,dialogue,dialogue,"てきの ジュゴンは たいりょくを
+かいふくした！",equivalent,ready,"敌方ジュゴン
+回复了体力！",3,pokeblue:engine/battle/move_effects/heal.asm:RegainedHealthText;pokegreen:engine/battle/move_effects/heal.asm:RegainedHealthText;pokeyellow-jp:engine/battle/move_effects/heal.asm:RegainedHealthText
+g1-064,all_sources,dialogue,dialogue,ゆけっ,ambiguous,ambiguous,,7,pokeblue:composed:Retreat.direct;pokeblue:composed:SendOut.GoText;pokegreen:composed:Retreat.direct;pokegreen:composed:SendOut.GoText;pokeyellow-jp:composed:Retreat.direct;pokeyellow-jp:composed:SendOut.GoText;pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalTakesText5
+g1-065,all_sources,dialogue,dialogue,ゆけっ！ ウツボット！,equivalent,ready,上吧！ウツボット！,3,pokeblue:composed:SendOut.GoText;pokegreen:composed:SendOut.GoText;pokeyellow-jp:composed:SendOut.GoText
+g1-066,all_sources,dialogue,dialogue,"ウツボットの
+はっぱカッター！",equivalent,ready,"ウツボット
+使出了飞叶快刀！",3,pokeblue:composed:UsedMove.grammar4.normal;pokegreen:composed:UsedMove.grammar4.normal;pokeyellow-jp:composed:UsedMove.grammar4.normal
+g1-067,all_sources,dialogue,dialogue,きゅうしょに あたった！,equivalent,ready,击中了要害！,3,pokeblue:engine/battle/core.asm:CriticalHitText;pokegreen:engine/battle/core.asm:CriticalHitText;pokeyellow-jp:engine/battle/core.asm:CriticalHitText
+g1-068,all_sources,dialogue,dialogue,こうかは ばつぐんだ！,equivalent,ready,效果绝佳！,3,pokeblue:engine/battle/display_effectiveness.asm:SuperEffectiveText;pokegreen:engine/battle/display_effectiveness.asm:SuperEffectiveText;pokeyellow-jp:engine/battle/display_effectiveness.asm:SuperEffectiveText
+g1-069,all_sources,dialogue,dialogue,てきの ジュゴンは めをさました！,equivalent,ready,"敌方ジュゴン
+醒过来了！",3,pokeblue:engine/battle/core.asm:WokeUpText;pokegreen:engine/battle/core.asm:WokeUpText;pokeyellow-jp:engine/battle/core.asm:WokeUpText
+g1-070,all_sources,dialogue,dialogue,こうかは ばつぐんだ！,equivalent,ready,效果绝佳！,3,pokeblue:engine/battle/display_effectiveness.asm:SuperEffectiveText;pokegreen:engine/battle/display_effectiveness.asm:SuperEffectiveText;pokeyellow-jp:engine/battle/display_effectiveness.asm:SuperEffectiveText
+g1-071,all_sources,dialogue,dialogue,てきの ジュゴンは たおれた！,equivalent,ready,"敌方ジュゴン
+倒下了！",3,pokeblue:engine/battle/core.asm:EnemyMonFaintedText;pokegreen:engine/battle/core.asm:EnemyMonFaintedText;pokeyellow-jp:engine/battle/core.asm:EnemyMonFaintedText
+g1-072,all_sources,dialogue,dialogue,"ラプラスは おおめに
+1525 けいけんちを もらった！",equivalent,ready,"ラプラス获得了
+较为多的1525经验值！",3,pokeblue:composed:Experience.BoostedText;pokegreen:composed:Experience.BoostedText;pokeyellow-jp:composed:Experience.BoostedText
+g1-073,all_sources,dialogue,dialogue,"ウツボットは
+1017 けいけんちを もらった！",equivalent,ready,"ウツボット获得了
+1017经验值！",3,pokeblue:composed:Experience.normal;pokegreen:composed:Experience.normal;pokeyellow-jp:composed:Experience.normal
+g1-074,all_sources,dialogue,dialogue,"ウツボットの
+はっぱカッター！",equivalent,ready,"ウツボット
+使出了飞叶快刀！",3,pokeblue:composed:UsedMove.grammar4.normal;pokegreen:composed:UsedMove.grammar4.normal;pokeyellow-jp:composed:UsedMove.grammar4.normal
+g1-075,all_sources,moves,battle_moves,はっぱカッター,equivalent,ready,飞叶快刀,3,pokeblue:move:RAZOR_LEAF;pokegreen:move:RAZOR_LEAF;pokeyellow-jp:move:RAZOR_LEAF
+g1-075,all_sources,moves,battle_moves,ねむりごな,equivalent,ready,催眠粉,3,pokeblue:move:SLEEP_POWDER;pokegreen:move:SLEEP_POWDER;pokeyellow-jp:move:SLEEP_POWDER
+g1-075,all_sources,moves,battle_moves,つるぎのまい,equivalent,ready,剑舞,3,pokeblue:move:SWORDS_DANCE;pokegreen:move:SWORDS_DANCE;pokeyellow-jp:move:SWORDS_DANCE
+g1-075,all_sources,moves,battle_moves,すてみタックル,equivalent,ready,舍身冲撞,3,pokeblue:move:DOUBLE_EDGE;pokegreen:move:DOUBLE_EDGE;pokeyellow-jp:move:DOUBLE_EDGE
+g1-076,all_sources,dialogue,dialogue,"ラプラスは
+こんらんしている！",equivalent,ready,"ラプラス
+正在混乱中！",3,pokeblue:engine/battle/core.asm:IsConfusedText;pokegreen:engine/battle/core.asm:IsConfusedText;pokeyellow-jp:engine/battle/core.asm:IsConfusedText
+g1-077,all_sources,dialogue,dialogue,"ラプラスの
+のしかかり こうげき！",equivalent,ready,"ラプラス
+使出了泰山压顶！",3,pokeblue:composed:UsedMove.grammar3.normal;pokegreen:composed:UsedMove.grammar3.normal;pokeyellow-jp:composed:UsedMove.grammar3.normal
+g1-078,all_sources,dialogue,dialogue,"カンナは ラプラスに
+いいキズぐすりを つかった",equivalent,ready,"科拿对
+ラプラス
+使用了好伤药！",3,pokeblue:engine/battle/trainer_ai2.asm:AIBattleUseItemText;pokegreen:engine/battle/trainer_ai2.asm:AIBattleUseItemText;pokeyellow-jp:engine/battle/trainer_ai.asm:AIBattleUseItemText
+g1-079,all_sources,dialogue,dialogue,てきの ラプラスは たおれた！,equivalent,ready,"敌方ラプラス
+倒下了！",3,pokeblue:engine/battle/core.asm:EnemyMonFaintedText;pokegreen:engine/battle/core.asm:EnemyMonFaintedText;pokeyellow-jp:engine/battle/core.asm:EnemyMonFaintedText
+g1-080,all_sources,dialogue,dialogue,"カンナとの
+しょうぶに かった！",equivalent,variables_missing,,3,pokeblue:engine/battle/core.asm:TrainerDefeatedText;pokegreen:engine/battle/core.asm:TrainerDefeatedText;pokeyellow-jp:engine/battle/core.asm:TrainerDefeatedText
+g1-081,all_sources,dialogue,dialogue,カンナ『…… なんて やつなの！,equivalent,ready,科拿：真是个厉害的家伙！,3,pokeblue:composed:TrainerEnd.LoreleisRoomLoreleiEndBattleText;pokegreen:composed:TrainerEnd.LoreleisRoomLoreleiEndBattleText;pokeyellow-jp:composed:TrainerEnd.LoreleisRoomLoreleiEndBattleText
+g1-082,all_sources,dialogue,dialogue,"グりーンは しょうきんとして
+5544円 てにいれた！",equivalent,ready,"作为奖金，グりーン
+获得了¥5544！",3,pokeblue:engine/battle/core.asm:MoneyForWinningText;pokegreen:engine/battle/core.asm:MoneyForWinningText;pokeyellow-jp:engine/battle/core.asm:MoneyForWinningText
+g1-083,all_sources,dialogue,dialogue,"すこしは できる みたいね！
+わかった……！",equivalent,ready,"比我预想中有本事呢！
+好吧……！",3,pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText;pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText;pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText
+g1-084,all_sources,dialogue,dialogue,"わかった……！
+つぎの へやに すすむと いいわ！",equivalent,ready,"好吧……！
+你可以前往下一个房间了！",3,pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText;pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText;pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText
+g1-085,all_sources,dialogue,dialogue,"ポケモン りーグ しんの パワーは
+まだまだ……！",equivalent,wait_for_semantic_unit,,3,pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText;pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText;pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText
+g1-086,all_sources,dialogue,dialogue,"まだまだ……！
+こんな ものじゃ ないわよ！",equivalent,context_required,,3,pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText;pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText;pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText
+g1-087,all_sources,dialogue,dialogue,"ひとも ポケモンも
+たたかい きたえれば",equivalent,wait_for_semantic_unit,,3,pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText;pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText;pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText
+g1-088,all_sources,dialogue,dialogue,"たたかい きたえれば
+どこまでも つよくなる！",equivalent,context_required,,3,pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText;pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText;pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText
+g1-089,all_sources,dialogue,dialogue,"おれは そんな きたえ ぬかれた
+ポケモンと ともに いきてきた！",equivalent,ready,"我就是在这样的锤炼中
+和我的宝可梦
+一起生活，一起成长！",3,pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText;pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText;pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText
+g1-090,all_sources,dialogue,dialogue,"ポケモンと ともに いきてきた！
+そして これからもな！",equivalent,context_required,,3,pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText;pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText;pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText
+g1-091,all_sources,dialogue,dialogue,グりーンと いったな！,equivalent,ready,你叫グりーン，对吧！,3,pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText;pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText;pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText
+g1-092,all_sources,dialogue,dialogue,"おれたちの スーパー パワーを
+うけて みるが いい！",equivalent,ready,"你就好好见识一下
+我们的强大力量吧！",3,pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText;pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText;pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText
+g1-093,all_sources,dialogue,dialogue,ウー！ ハーッ！,equivalent,ready,哼——哈——！,3,pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText;pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText;pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText
+g1-094,all_sources,dialogue,dialogue,"ラプラスは
+レべル51 に あがった！",equivalent,ready,"ラプラス上升到了
+等级51！",3,pokeblue:engine/battle/experience.asm:GrewLevelText;pokegreen:engine/battle/experience.asm:GrewLevelText;pokeyellow-jp:engine/battle/experience.asm:GrewLevelText
+g1-095,all_sources,dialogue,dialogue,"ダメだ！
+しょうぶの さいちゅうに",equivalent,ready_waiting,不行！,3,pokeblue:engine/battle/core.asm:NoRunningText;pokegreen:engine/battle/core.asm:NoRunningText;pokeyellow-jp:engine/battle/core.asm:NoRunningText
+g1-096,all_sources,dialogue,dialogue,"ここでは まいにち
+ポケモンの けんきゅうを してます",equivalent,ready,"我们每天都在这里
+研究宝可梦。",3,pokeblue:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText;pokegreen:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText;pokeyellow-jp:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText
+g1-097,all_sources,dialogue,dialogue,"グレン ラボラトりーの そうせつしゃ
+フジはかせの しゃしんだ！",equivalent,ready,"是红莲研究所创始人
+富士博士的照片！",3,pokeblue:scripts/CinnabarLab.asm:CinnabarLabPhotoText;pokegreen:scripts/CinnabarLab.asm:CinnabarLabPhotoText;pokeyellow-jp:scripts/CinnabarLab.asm:CinnabarLabPhotoText
+g1-098,all_sources,dialogue,dialogue,"あと めずらしい ポケモンなどを
+もちこんでくる おきゃくさんも",equivalent,wait_for_semantic_unit,,3,pokeblue:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText;pokegreen:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText;pokeyellow-jp:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText
+g1-099,all_sources,dialogue,dialogue,"これこれ
+きみ ライチュウ もっとる？",equivalent,ready,"这边这边，
+你有雷丘吗？",3,pokeblue:engine/events/in_game_trades.asm:WannaTrade2Text;pokegreen:engine/events/in_game_trades.asm:WannaTrade2Text;pokeyellow-jp:engine/events/in_game_trades.asm:WannaTrade2Text
+g1-100,all_sources,dialogue,dialogue,"わしの マルマインと
+こうかん しないか？",equivalent,ready,"不和老夫的顽皮雷弹
+交换吗？",3,pokeblue:engine/events/in_game_trades.asm:WannaTrade2Text;pokegreen:engine/events/in_game_trades.asm:WannaTrade2Text;pokeyellow-jp:engine/events/in_game_trades.asm:WannaTrade2Text
+g1-101,all_sources,dialogue,dialogue,"ぼく おつきみやまで
+カセキを みつけましてねー！",equivalent,ready,"我在月见山
+发现了化石～！",3,pokeblue:scripts/CinnabarLabTradeRoom.asm:CinnabarLabTradeRoomSuperNerdText;pokegreen:scripts/CinnabarLabTradeRoom.asm:CinnabarLabTradeRoomSuperNerdText;pokeyellow-jp:scripts/CinnabarLabTradeRoom.asm:CinnabarLabTradeRoomSuperNerdText
+g1-102,all_sources,dialogue,dialogue,"どうやら めずらしい
+ポケモンの カセキ らしいんですよ",equivalent,ready,"而且貌似还是
+罕见宝可梦的化石～！",3,pokeblue:scripts/CinnabarLabTradeRoom.asm:CinnabarLabTradeRoomSuperNerdText;pokegreen:scripts/CinnabarLabTradeRoom.asm:CinnabarLabTradeRoomSuperNerdText;pokeyellow-jp:scripts/CinnabarLabTradeRoom.asm:CinnabarLabTradeRoomSuperNerdText
+g1-103,all_sources,dialogue,dialogue,"モンジャラ げんき？
+わたしの コンパンは げんきよ",equivalent,ready,"蔓藤怪
+过得还好吗？
+
+我的毛球
+很有精神哦！",3,pokeblue:engine/events/in_game_trades.asm:AfterTrade3Text;pokegreen:engine/events/in_game_trades.asm:AfterTrade3Text;pokeyellow-jp:engine/events/in_game_trades.asm:AfterTrade3Text
+g1-104,all_sources,dialogue,dialogue,はいー！,ambiguous,ambiguous,,46,pokeblue:composed:Retreat.direct;pokeblue:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistTakesFossilText;pokeblue:engine/movie/oak_speech/oak_speech.asm:OakSpeechText3;pokeblue:scripts/ChampionsRoom.asm:ChampionsRoomRivalText.IntroText;pokeblue:scripts/CinnabarGym.asm:CinnabarGymGymGuideText.BeatBlaineText;pokeblue:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text;pokeblue:scripts/HallOfFame.asm:HallOfFameOakText;pokeblue:scripts/OaksLab.asm:OaksLabRivalLeaveItAllToMeText;pokeblue:scripts/OaksLab.asm:OaksLabRivalSmellYouLaterText.Text;pokeblue:scripts/SilphCo11F.asm:SilphCo11FGiovanniYouRuinedOurPlansText;pokegreen:composed:Retreat.direct;pokegreen:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistTakesFossilText;pokegreen:engine/movie/oak_speech/oak_speech.asm:OakSpeechText3;pokegreen:scripts/ChampionsRoom.asm:ChampionsRoomRivalText.IntroText;pokegreen:scripts/CinnabarGym.asm:CinnabarGymGymGuideText.BeatBlaineText;pokegreen:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text;pokegreen:scripts/HallOfFame.asm:HallOfFameOakText;pokegreen:scripts/OaksLab.asm:OaksLabRivalLeaveItAllToMeText;pokegreen:scripts/OaksLab.asm:OaksLabRivalSmellYouLaterText.Text;pokegreen:scripts/SilphCo11F.asm:SilphCo11FGiovanniYouRuinedOurPlansText;pokeyellow-jp:composed:Retreat.direct;pokeyellow-jp:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistTakesFossilText;pokeyellow-jp:engine/movie/oak_speech/oak_speech.asm:OakSpeechText3;pokeyellow-jp:scripts/ChampionsRoom.asm:ChampionsRoomRivalText.IntroText;pokeyellow-jp:scripts/CinnabarGym_3.asm:CinnabarGymPrintGymGuideText.BeatBlaineText;pokeyellow-jp:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text;pokeyellow-jp:scripts/HallOfFame.asm:HallOfFameOakText;pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalLeaveItAllToMeText;pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalSmellYouLaterText.Text;pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalTakesText5;pokeyellow-jp:scripts/SilphCo11F.asm:SilphCo11FGiovanniYouRuinedOurPlansText
+g1-105,all_sources,dialogue,dialogue,わたしは エラーイ はかせ,equivalent,ready,我是熊厉害博士的啰！,3,pokeblue:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text;pokegreen:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text;pokeyellow-jp:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text
+g1-106,all_sources,dialogue,dialogue,"いつも めずらしい カセキ
+けんきゅう してる アルよ！",equivalent,source_semantic_mismatch,,3,pokeblue:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text;pokegreen:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text;pokeyellow-jp:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text
+g1-107,all_sources,dialogue,dialogue,"あなた！
+いい カセキ もってるか？",equivalent,ready,"你啰！
+有没有了不得的化石的啰？",3,pokeblue:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text;pokegreen:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text;pokeyellow-jp:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text
+g1-108,all_sources,dialogue,dialogue,もってない アルね……,equivalent,ready,你没有的啰……,3,pokeblue:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.NoFossilsText;pokegreen:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.NoFossilsText;pokeyellow-jp:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.NoFossilsText

@@ -3,6 +3,8 @@ package io.github.g1ocr;
 import com.fasterxml.jackson.databind.json.JsonMapper;
 import io.github.g1ocr.image.GbFrame;
 import io.github.g1ocr.ui.LiveApplication;
+import io.github.g1ocr.text.TextCorpus;
+import io.github.g1ocr.text.TextResolver;
 import javax.imageio.ImageIO;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -25,6 +27,9 @@ public final class Main {
         if (source == null) throw new IllegalArgumentException("Unsupported image: " + input);
         GbFrame frame = GbFrame.normalize(source, mapping);
         var results = new OcrPipeline().recognize(frame);
+        var translator = new TextResolver(new TextCorpus());
+        var translation = new LinkedHashMap<String, Object>();
+        for (var result : results) translation.put(result.id(), translator.resolve(result));
         Files.createDirectories(output);
         ImageIO.write(frame.image(), "png", output.resolve("gb.png").toFile());
         int k = mapping.scale();
@@ -35,8 +40,7 @@ public final class Main {
         report.put("mapping", mapping);
         report.put("threshold", frame.threshold());
         report.put("regions", results);
-        report.put("resolvedJapanese", null);
-        report.put("chinese", null);
+        report.put("translation", translation);
         JsonMapper.builder().build().writerWithDefaultPrettyPrinter().writeValue(output.resolve("ocr.json").toFile(), report);
         System.out.println("OCR saved to " + output.resolve("ocr.json"));
     }

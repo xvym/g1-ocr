@@ -5,6 +5,8 @@ import io.github.g1ocr.image.GbFrame;
 import io.github.g1ocr.image.ViewportResolver;
 import io.github.g1ocr.ocr.PixelFont;
 import io.github.g1ocr.ocr.PixelOcr;
+import io.github.g1ocr.text.TextCorpus;
+import io.github.g1ocr.text.TextResolver;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -19,24 +21,27 @@ import java.util.function.Consumer;
 
 /** One worker owns native capture, calibration and OCR. The UI receives only the latest view. */
 public final class LiveSession implements AutoCloseable {
-    public record RegionView(PixelOcr.Result text, Integer selectedItem) {}
+    public record RegionView(PixelOcr.Result text, Integer selectedItem, List<TextResolver.Unit> translation) {}
     public record View(long selectionId, String status, String diagnostics, BufferedImage gb, List<RegionView> regions) {}
     private final ScheduledExecutorService worker = Executors.newSingleThreadScheduledExecutor(r -> new Thread(r, "g1-capture"));
     private final AtomicLong selectionId = new AtomicLong();
     private final Consumer<View> listener;
     private final OcrPipeline pipeline;
     private final ViewportResolver resolver;
+    private final TextResolver translator;
     private final Map<String, OcrPipeline.StableResult> published = new LinkedHashMap<>();
+    private final Map<String, List<TextResolver.Unit>> translations = new LinkedHashMap<>();
     private WindowCapture capture;
     private WindowCapture.Window window;
     private long activeSelection;
     private long revision = -1;
     private GbFrame.Mapping mapping;
 
-    public LiveSession(Consumer<View> listener) throws IOException {
+    public LiveSession(Consumer<View> listener, TextCorpus corpus) throws IOException {
         this.listener = listener;
         pipeline = new OcrPipeline();
         resolver = new ViewportResolver(new PixelFont());
+        translator = new TextResolver(corpus);
         worker.scheduleWithFixedDelay(this::tick, 0, 100, TimeUnit.MILLISECONDS);
     }
 
@@ -78,7 +83,8 @@ public final class LiveSession implements AutoCloseable {
     }
 
     private void clearRecognition() {
-        pipeline.invalidate(); resolver.reset(); published.clear(); mapping = null; revision = -1;
+        pipeline.invalidate(); resolver.reset(); published.clear(); translations.clear(); translator.reset();
+        mapping = null; revision = -1;
     }
 
     private void stopCapture() {
@@ -115,25 +121,33 @@ public final class LiveSession implements AutoCloseable {
             diagnostics += "\n物理图像=" + poll.image().getWidth() + "×" + poll.image().getHeight()
                     + "\n校准=" + resolution.status() + " 候选数=" + resolution.candidates() + " 映射=" + resolution.mapping();
             if (resolution.status() != ViewportResolver.Status.READY) {
-                pipeline.invalidate(); published.clear(); mapping = null;
+                pipeline.invalidate(); published.clear(); translations.clear(); translator.reset(); mapping = null;
                 emit(resolution.detail(), diagnostics, null, List.of());
                 return;
             }
             if (!resolution.mapping().equals(mapping)) {
-                pipeline.invalidate(); published.clear(); mapping = resolution.mapping();
+                pipeline.invalidate(); published.clear(); translations.clear(); translator.reset(); mapping = resolution.mapping();
             }
             GbFrame frame = resolution.frame();
             String session = activeSelection + ":" + revision;
             var updates = pipeline.sample(session, mapping, poll.sampleTimeNanos(), frame);
+            var regions = pipeline.regions(frame);
+            var visible = new java.util.HashSet<String>();
+            for (var region : regions)
+                if (java.util.Arrays.stream(region.textPixels(frame)).anyMatch(p -> p != 0)) visible.add(region.id());
+            translator.retainRegions(visible);
             published.values().removeIf(value -> !pipeline.isCurrent(value.key()));
-            for (var update : updates) if (pipeline.isCurrent(update.key()) && update.result().hasText())
+            translations.keySet().retainAll(published.keySet());
+            for (var update : updates) if (pipeline.isCurrent(update.key()) && update.result().hasText()) {
                 published.put(update.result().id(), update);
+                translations.put(update.result().id(), translator.resolve(update.result()));
+            }
             List<RegionView> views = new ArrayList<>();
             boolean content = false;
-            for (var region : pipeline.regions(frame)) {
+            for (var region : regions) {
                 if (java.util.Arrays.stream(region.textPixels(frame)).anyMatch(p -> p != 0)) content = true;
                 var value = published.get(region.id());
-                if (value != null) views.add(new RegionView(value.result(), region.selectedItem()));
+                if (value != null) views.add(new RegionView(value.result(), region.selectedItem(), translations.get(region.id())));
             }
             String status = views.isEmpty() ? (content ? "文字尚未稳定" : "已校准，当前无目标文字") : "识别中";
             if (views.stream().flatMap(view -> view.text().diagnostics().stream()).flatMap(line -> line.characters().stream())

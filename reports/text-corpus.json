@@ -8,51 +8,53 @@
     "pokered": "af519899719f0754965776faac0e836a3b906e6d",
     "pokeyellow": "aa25d4fdeadc8ef1c489feb6cfcdc8674a292c34"
   },
-  "records": 9093,
+  "records": 10187,
   "mapping_status": {
     "pokegreen": {
-      "aligned": 2957,
-      "component": 37
+      "aligned": 3321,
+      "component": 38
     },
     "pokeblue": {
-      "aligned": 2957,
-      "component": 37
+      "aligned": 3321,
+      "component": 38
     },
     "pokeyellow-jp": {
-      "aligned": 3067,
-      "component": 37,
+      "aligned": 3430,
+      "component": 38,
       "source_unreferenced": 1
     }
   },
   "kinds": {
-    "dialogue": 7229,
-    "component": 111,
+    "dialogue": 7226,
+    "component": 114,
     "pokemon": 453,
     "move": 495,
     "item": 414,
     "trainer": 141,
-    "fixed": 156,
-    "dialogue_template": 93,
+    "fixed": 207,
+    "dialogue_template": 1136,
     "unreferenced": 1
   },
   "fragments": {
-    "semantic_visible": 7625,
-    "wait_for_semantic_unit": 7161,
-    "semantic_context_required": 1920,
-    "whole_visible_unit": 5400,
-    "use_composition": 138,
+    "semantic_visible": 8219,
+    "wait_for_semantic_unit": 7388,
+    "semantic_context_required": 1962,
+    "whole_visible_unit": 6222,
+    "source_semantic_mismatch": 6,
+    "use_composition": 141,
     "source_unreferenced": 1
   },
-  "semantic_segments": 14257,
+  "semantic_segments": 15700,
   "semantic_segment_methods": {
-    "model_semantic": 8893,
-    "aligned_whole_unit": 5260,
+    "model_semantic": 8890,
+    "aligned_whole_unit": 5311,
     "exact_reviewed_unit_reuse": 78,
     "user_approved_model_translation": 12,
     "user_approved_model_correction": 11,
-    "user_approved_localization_omission": 3
+    "user_approved_localization_omission": 3,
+    "source_control_flow_composition": 1395
   },
-  "segmentation_issue_records": 0,
+  "segmentation_issue_records": 3,
   "approved_revision_methods": {
     "model_translation": 6,
     "model_correction": 10,
@@ -62,11 +64,11 @@
   "accepted_omission_segments": 3,
   "variable_status": {
     "typed_unique": 7151,
-    "model_semantic": 234,
+    "model_semantic": 1277,
     "requires_observed_PLAYER": 6,
     "review": 21,
     "unresolved": 22,
-    "none": 1659
+    "none": 1710
   },
   "unresolved_source_alignment_issues": 0,
   "verification": "static_source_and_data_construction",

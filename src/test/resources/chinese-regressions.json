@@ -1,0 +1,130 @@
+{
+  "method": "model_authored_from_independent_Japanese_labels_and_pinned_localization_cells_before_running_fixes; not_human_reviewed",
+  "scope": "11 affected PNGs; targeted regression expectations, not full A6 answers",
+  "sources": {
+    "CI-01": "data.xlsx#Main!C28 (RGB), C68 (YEJP)",
+    "CI-02": "home/names.asm:GetMachineName; quantities from current image",
+    "CI-03": "data.xlsx#Main!C189 (ListMenuCancelText)",
+    "CI-04": "home/trainers.asm:TrainerEndBattleText plus LoreleisRoomLoreleiEndBattleText source cells",
+    "CI-05": "data.xlsx#Items!C20; AIBattleUseItemText",
+    "CI-06": "data.xlsx#Townnames!C64:C65; GymStatueText1/Text2; current names preserved",
+    "CI-07": "data.xlsx#PM; WannaTrade2Text/AfterTrade3Text",
+    "CI-08": "source mismatch blocked until specific correction approved"
+  },
+  "samples": {
+    "g1-001": [
+      {
+        "chinese": "自行车",
+        "status": "ready"
+      },
+      {
+        "chinese": "宝可梦之笛",
+        "status": "ready"
+      },
+      {
+        "chinese": "好钓竿",
+        "status": "ready"
+      },
+      {
+        "chinese": "破旧钓竿",
+        "status": "ready"
+      },
+      {
+        "chinese": "关闭",
+        "status": "ready"
+      }
+    ],
+    "g1-007": [
+      {
+        "chinese": "",
+        "status": "nickname_preserved"
+      },
+      {
+        "chinese": "",
+        "status": "nickname_preserved"
+      },
+      {
+        "chinese": "",
+        "status": "nickname_preserved"
+      },
+      {
+        "chinese": "取消",
+        "status": "ready"
+      },
+      {
+        "chinese": "要做什么？",
+        "status": "ready"
+      }
+    ],
+    "g1-008": [
+      {
+        "chinese": "TM02 × 1",
+        "status": "ready"
+      },
+      {
+        "chinese": "电梯钥匙",
+        "status": "ready"
+      },
+      {
+        "chinese": "TM07 × 1",
+        "status": "ready"
+      },
+      {
+        "chinese": "西尔佛检视镜",
+        "status": "ready"
+      },
+      {
+        "chinese": "要取出什么呢？",
+        "status": "ready"
+      }
+    ],
+    "g1-028": [
+      {
+        "chinese": "华蓝市宝可梦道馆\n小霞认证训练家！",
+        "status": "ready"
+      }
+    ],
+    "g1-029": [
+      {
+        "chinese": "小霞认证训练家！\nレッド グりーン",
+        "status": "ready"
+      }
+    ],
+    "g1-078": [
+      {
+        "chinese": "科拿对\nラプラス\n使用了好伤药！",
+        "status": "ready"
+      }
+    ],
+    "g1-081": [
+      {
+        "chinese": "科拿：真是个厉害的家伙！",
+        "status": "ready"
+      }
+    ],
+    "g1-099": [
+      {
+        "chinese": "这边这边，\n你有雷丘吗？",
+        "status": "ready"
+      }
+    ],
+    "g1-100": [
+      {
+        "chinese": "不和老夫的顽皮雷弹\n交换吗？",
+        "status": "ready"
+      }
+    ],
+    "g1-103": [
+      {
+        "chinese": "蔓藤怪\n过得还好吗？\n\n我的毛球\n很有精神哦！",
+        "status": "ready"
+      }
+    ],
+    "g1-106": [
+      {
+        "chinese": "",
+        "status": "source_semantic_mismatch"
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 # 识别与翻译资源来源
 
-当前 OCR 运行时读取 `font.tsv`，不读取截图答案。新增的 `corpus/` 为后续翻译层准备日中 CSV，尚未接入运行时；结构、固定来源、建设与核对状态见 [语料说明](corpus/README.md) 及 [来源清单](corpus/sources.csv)。
+OCR 运行时读取 `font.tsv`；独立翻译层读取 `corpus/records.csv`、`fragments.csv` 和 `slot_rules.csv`，不读取截图答案。结构、固定来源、建设与核对状态见 [语料说明](corpus/README.md) 及 [来源清单](corpus/sources.csv)。
 
 上游：[Narishma-gb/pokegreen](https://github.com/Narishma-gb/pokegreen/tree/953f41b34108621b2bf13c3b1e53abfc9c3e5aec)，固定提交 `953f41b34108621b2bf13c3b1e53abfc9c3e5aec`。该仓库说明为日版红/绿反汇编；这不证明未知版本截图属于红/绿，也不证明另两个版本布局通过。
 

@@ -7,7 +7,7 @@
 | 检查 | 结果及证据 |
 | - | - |
 | Java 编译与打包 | `./build.ps1` 成功；默认 4 项测试通过，桌面 WGC 测试默认跳过 1 项；日志 `output/build-java-final.log` |
-| 全部固定截图 | 当前 0.2.0：108/108，202 行，2186/2186 token，CER=0，未知字符 0；严格 Unicode 95/108、13 个同形假名差异。仅按已批准的四组同形假名等价，保留候选。逐图结果及当前源码哈希见 [japanese-all.json](japanese-all.json) |
+| 全部固定截图 | 0.2.0：108/108，202 行，2186/2186 token，CER=0，未知字符 0；严格 Unicode 95/108、13 个同形假名差异。仅按已批准的四组同形假名等价，保留候选。该版本逐图结果及源码哈希见 [japanese-0.2.0.json](japanese-0.2.0.json) |
 | 原生编译与链接 | MSVC x64 / C++20 Release 成功，无编译警告；`output/build-native-local.log`。DLL 依赖检查只列 Windows 系统组件，没有动态 MSVC 运行库依赖 |
 | WGC/JNI 集成 | 显式运行 `WgcSmokeTest`：1/1 通过。真实创建独立测试窗口，枚举 HWND/PID，打开 WGC，轮询 JNI 图像，自动校准、OCR，再关闭 JNI 会话；日志 `output/wgc-test.log` |
 | 实际采集像素 | 测试窗口交替绘制 g1-002 对话和 g1-003 无目标地图；两幅经 WGC 捕获并还原的 160×144 图像均与原 PNG 还原图逐像素完全一致，来自不同帧。对话有识别输出，地图无目标文字输出 |

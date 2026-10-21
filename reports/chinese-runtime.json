@@ -1,0 +1,1706 @@
+{
+  "implementationVersion" : "0.3.0",
+  "scope" : "S4 development scenarios, not final A6 or game-wide coverage",
+  "annotationMethod" : "model_authored_from_independent_Japanese_text_and_selected_localization_sources; not_generated_from_resolver_output; not_human_reviewed",
+  "checks" : 24,
+  "passed" : 24,
+  "realCaptureTested" : false,
+  "finalChineseAcceptance" : false,
+  "sha256" : {
+    "src/main/java/io/github/g1ocr/capture/LiveSession.java" : "3b662ee7568be2f0466920d6569e26b9cde7561af2f181ea6acb54a4a99c829f",
+    "src/main/java/io/github/g1ocr/capture/WindowCapture.java" : "c516d0824ce21e1e99c419047476237f0efb054533d80265336b252696b1fb38",
+    "src/main/java/io/github/g1ocr/image/GbFrame.java" : "b47213b645b0b835b45093fa33893c90fc1a12fee9f27f25c18b3a1246cda3b5",
+    "src/main/java/io/github/g1ocr/image/ViewportResolver.java" : "456352112fd004ba760b1ed5368ae7426dcf53385a55d6e0d15c1bf0b0bc9086",
+    "src/main/java/io/github/g1ocr/Main.java" : "199f7dbf311154fa27873bb97dfc0fa2c7dd5187d1df59576906ef7aed7794b9",
+    "src/main/java/io/github/g1ocr/OcrPipeline.java" : "d28a79eeb0948c42538098e9c7bb0f992dc9c7d71d933df33a001be6d25471f6",
+    "src/main/java/io/github/g1ocr/ocr/PixelFont.java" : "983edf9f244ba5084042612e0343e55145fdce614a876a418edf824270c7f8ba",
+    "src/main/java/io/github/g1ocr/ocr/PixelOcr.java" : "a5ec55f0e59c504295306f33de5fc8363eaade34fc6743922b40b55d4ce21fa3",
+    "src/main/java/io/github/g1ocr/region/RegionDetector.java" : "6fa82dbf5fbc13818937adcc2376c2cf503e6b08dac34ede376018ebcf925b04",
+    "src/main/java/io/github/g1ocr/region/StabilityDetector.java" : "b3b37046c37efd61ee2332f13f2754c5bc15590d8cdc0a3f29bea851e3f13bf5",
+    "src/main/java/io/github/g1ocr/text/TextCorpus.java" : "f402cc56378059e1313e1fa29d489dec502e0450108d52a7e29d4333e5c26452",
+    "src/main/java/io/github/g1ocr/text/TextResolver.java" : "cf5ce1c6086ed2bbd67e6f930fae25e766dc906dd253804074b96298cd6dcd65",
+    "src/main/java/io/github/g1ocr/ui/LiveApplication.java" : "6a7a8870884a9f10ec7f6176d56d920ebbd9c42331c12b638e5f6813b14b9d12",
+    "src/main/resources/corpus/control_rules.csv" : "e0688409826990bf15b15598c9d6e617243b65475c6856b87a4ecb46ea23f560",
+    "src/main/resources/corpus/fragments.csv" : "a5ba245e6bfacbba408f62f2740484b02d8af5c4c2af62c00a6dd7ba215c512e",
+    "src/main/resources/corpus/README.md" : "25bfb9e857681f1e0caa6ac4653317cdeb71ea988c602dc321132952596252cb",
+    "src/main/resources/corpus/records.csv" : "6fe6185718c5821a115257ba6e2d13b5f7c806a5c10d76fcf38daa71e97c3430",
+    "src/main/resources/corpus/segments.csv" : "a581a3d18c0e7ab379721a3febcd211136a71d352751bde585825650540ab6c0",
+    "src/main/resources/corpus/slot_rules.csv" : "fb213c840105319f373e844d5bb54abf903ba08b09ab575e8b545c8956b65b9d",
+    "src/main/resources/corpus/sources.csv" : "1c3781d918002354066b6c7868968f4f876e099b6c216ecf4439ddd8ec763d81",
+    "src/main/resources/corpus/variables.csv" : "7be71b7e5921077f40fa9d2791e8c55eb4e1ee6f40b4460b2a5488cce030edd2",
+    "src/main/resources/font.tsv" : "56022863949bdbdd3e097cbc62123d33d601a95596a88db69bbb710d3975b4a4",
+    "src/main/resources/SOURCES.md" : "8712e57f185dffa141d0e53a22891199296bc9c3dd545990e549353158aea6d0",
+    "src/test/java/io/github/g1ocr/AcceptanceTest.java" : "fd1f739c685a1f3197fb70b5118ca4f538620eca78632fb5720cac89493f9c15",
+    "src/test/java/io/github/g1ocr/PipelineRulesTest.java" : "b89d9bf55dfbf07b5023290821572ef14b7b3aaef506b64d5d643b1833a20ac5",
+    "src/test/java/io/github/g1ocr/TranslationTest.java" : "2dbb4ccde091030581764c0f68f110cf9838dc4838883171439502d67969d016",
+    "src/test/java/io/github/g1ocr/WgcSmokeTest.java" : "cf77e24464efb42810dfe0174a37b2973d29598603c3abc0df8163c472a95b56",
+    "src/test/resources/chinese-cases.json" : "721fde2bab0ef6dfaa1fc2f6321e9bc0e38236eea64b33ce67a362070693f578",
+    "src/test/resources/chinese-regressions.json" : "9881f462285e4be2f5dc2e0062471921f28386b9148a1f1ff34613f0b3fa2b2b"
+  },
+  "results" : [ {
+    "actual" : {
+      "rawJapanese" : "あたしは してんのうの キクコ！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "あたしは してんのうの キクコ！",
+      "chinese" : "我是四天王中的菊子！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/AgathasRoom.asm:AgathasRoomAgathaBattleText",
+        "ordinal" : 1,
+        "japanese" : "あたしは してんのうの キクコ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#AgathasRoom!F2:G24\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/AgathasRoom.asm:AgathasRoomAgathaBattleText",
+        "ordinal" : 1,
+        "japanese" : "あたしは してんのうの キクコ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#AgathasRoom!F2:G24\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/AgathasRoom.asm:AgathasRoomAgathaBattleText",
+        "ordinal" : 1,
+        "japanese" : "あたしは してんのうの キクコ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#AgathasRoom!F2:G17\"]",
+        "revision" : "null"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "あたしは してんのうの キクコ！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "我是四天王中的菊子！",
+      "source" : "AgathasRoomAgathaBattleText",
+      "candidateCount" : 3
+    },
+    "scenario" : "identical translations across all sources publish without a version"
+  }, {
+    "actual" : {
+      "rawJapanese" : "おーす！\nみらいの チャンピオン！",
+      "matchStatus" : "ambiguous",
+      "displayStatus" : "ambiguous",
+      "resolvedJapanese" : "",
+      "chinese" : "",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CeruleanGym!F111:G128\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/CinnabarGym.asm:CinnabarGymGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CinnabarGym!F197:G210\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/FuchsiaGym.asm:FuchsiaGymGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#FuchsiaGym_2!F176:G191\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G15\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/SaffronGym.asm:SaffronGymGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#SaffronGym!F80:G95\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#VermilionGym_2!F118:G142\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/ViridianGym.asm:ViridianGymGuidePreBattleText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#ViridianGym!F223:G239\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CeruleanGym!F111:G128\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/CinnabarGym.asm:CinnabarGymGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CinnabarGym!F197:G210\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/FuchsiaGym.asm:FuchsiaGymGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#FuchsiaGym_2!F176:G191\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G15\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/SaffronGym.asm:SaffronGymGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#SaffronGym!F80:G95\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#VermilionGym_2!F118:G142\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/ViridianGym.asm:ViridianGymGuidePreBattleText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#ViridianGym!F223:G239\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CeruleanGym!F111:G123\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/CinnabarGym_3.asm:CinnabarGymPrintGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CinnabarGym!F195:G204\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/FuchsiaGym.asm:FuchsiaGymGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#FuchsiaGym!F201:G211\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G11\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/SaffronGym.asm:SaffronGymGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#SaffronGym!F78:G89\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#VermilionGym!F139:G155\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymGuidePreBattleText",
+        "ordinal" : 2,
+        "japanese" : "おーす！\nみらいの チャンピオン！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#ViridianGym!F219:G230\"]",
+        "revision" : "null"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "おーす！\nみらいの チャンピオン！",
+      "match" : "ambiguous",
+      "status" : "ambiguous",
+      "chinese" : ""
+    },
+    "scenario" : "same visible greeting has different script sources"
+  }, {
+    "actual" : {
+      "rawJapanese" : "おしょくじ ちゅう！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "wait_for_semantic_unit",
+      "resolvedJapanese" : "おしょくじ ちゅう！",
+      "chinese" : "",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText",
+        "ordinal" : 1,
+        "japanese" : "おしょくじ ちゅう！",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F463:G466\"]",
+        "revision" : "{\"original_chinese\":\"上面贴了个\\n设备故障的告示。\",\"revised_ranges\":[[0,13]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_correction\",\"approval_status\":\"user_approved\",\"evidence\":\"用户确认按日文将设备故障告示订正为用餐中告示；两行合并后发布\"}"
+      }, {
+        "recordId" : "pokeblue:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText",
+        "ordinal" : 1,
+        "japanese" : "おしょくじ ちゅう！",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F463:G466\"]",
+        "revision" : "{\"original_chinese\":\"上面贴了个\\n设备故障的告示。\",\"revised_ranges\":[[0,13]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_correction\",\"approval_status\":\"user_approved\",\"evidence\":\"用户确认按日文将设备故障告示订正为用餐中告示；两行合并后发布\"}"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText",
+        "ordinal" : 1,
+        "japanese" : "おしょくじ ちゅう！",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F496:G499\"]",
+        "revision" : "{\"original_chinese\":\"上面贴了个\\n设备故障的告示。\",\"revised_ranges\":[[0,13]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_correction\",\"approval_status\":\"user_approved\",\"evidence\":\"用户确认按日文将设备故障告示订正为用餐中告示；两行合并后发布\"}"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "おしょくじ ちゅう！",
+      "match" : "equivalent",
+      "status" : "wait_for_semantic_unit",
+      "chinese" : ""
+    },
+    "scenario" : "approved correction waits for both lines"
+  }, {
+    "actual" : {
+      "rawJapanese" : "おしょくじ ちゅう！\n…… の フダが かけてある！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "おしょくじ ちゅう！\n…… の フダが かけてある！",
+      "chinese" : "上面挂着‘用餐中’的告示。",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText",
+        "ordinal" : 2,
+        "japanese" : "おしょくじ ちゅう！\n…… の フダが かけてある！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F463:G466\"]",
+        "revision" : "{\"original_chinese\":\"上面贴了个\\n设备故障的告示。\",\"revised_ranges\":[[0,13]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_correction\",\"approval_status\":\"user_approved\",\"evidence\":\"用户确认按日文将设备故障告示订正为用餐中告示；两行合并后发布\"}"
+      }, {
+        "recordId" : "pokeblue:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText",
+        "ordinal" : 2,
+        "japanese" : "おしょくじ ちゅう！\n…… の フダが かけてある！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F463:G466\"]",
+        "revision" : "{\"original_chinese\":\"上面贴了个\\n设备故障的告示。\",\"revised_ranges\":[[0,13]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_correction\",\"approval_status\":\"user_approved\",\"evidence\":\"用户确认按日文将设备故障告示订正为用餐中告示；两行合并后发布\"}"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText",
+        "ordinal" : 2,
+        "japanese" : "おしょくじ ちゅう！\n…… の フダが かけてある！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F496:G499\"]",
+        "revision" : "{\"original_chinese\":\"上面贴了个\\n设备故障的告示。\",\"revised_ranges\":[[0,13]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_correction\",\"approval_status\":\"user_approved\",\"evidence\":\"用户确认按日文将设备故障告示订正为用餐中告示；两行合并后发布\"}"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "おしょくじ ちゅう！\n…… の フダが かけてある！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "上面挂着‘用餐中’的告示。",
+      "source" : "GameCornerOutToLunchText"
+    },
+    "scenario" : "approved correction waits for both lines"
+  }, {
+    "actual" : {
+      "rawJapanese" : "せかい じゅうの ポケモンを",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "wait_for_semantic_unit",
+      "resolvedJapanese" : "せかい じゅうの ポケモンを",
+      "chinese" : "",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 3,
+        "japanese" : "せかい じゅうの ポケモンを",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 3,
+        "japanese" : "せかい じゅうの ポケモンを",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 3,
+        "japanese" : "せかい じゅうの ポケモンを",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "せかい じゅうの ポケモンを",
+      "match" : "equivalent",
+      "status" : "wait_for_semantic_unit",
+      "chinese" : ""
+    },
+    "scenario" : "Giovanni continuation requires observed start"
+  }, {
+    "actual" : {
+      "rawJapanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "wait_for_semantic_unit",
+      "resolvedJapanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+      "chinese" : "",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 4,
+        "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 4,
+        "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 4,
+        "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+      "match" : "equivalent",
+      "status" : "wait_for_semantic_unit",
+      "chinese" : ""
+    },
+    "scenario" : "Giovanni continuation requires observed start"
+  }, {
+    "actual" : {
+      "rawJapanese" : "わるだくみに つかい まくって\nかねもうけ する ロケッ",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "incomplete",
+      "resolvedJapanese" : "",
+      "chinese" : "",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 5,
+        "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+        "segmentStatus" : "semantic_context_required",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 5,
+        "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+        "segmentStatus" : "semantic_context_required",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 5,
+        "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+        "segmentStatus" : "semantic_context_required",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "わるだくみに つかい まくって\nかねもうけ する ロケッ",
+      "match" : "equivalent",
+      "status" : "incomplete",
+      "chinese" : ""
+    },
+    "scenario" : "Giovanni continuation requires observed start"
+  }, {
+    "actual" : {
+      "rawJapanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+      "chinese" : "火箭队把世界各地的宝可梦用于坏事，借此赚钱！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 5,
+        "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+        "segmentStatus" : "semantic_context_required",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 5,
+        "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+        "segmentStatus" : "semantic_context_required",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 5,
+        "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+        "segmentStatus" : "semantic_context_required",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "火箭队把世界各地的宝可梦用于坏事，借此赚钱！",
+      "source" : "RocketHideoutB4FGiovanniText.ImpressedYouGotHereText"
+    },
+    "scenario" : "Giovanni continuation requires observed start"
+  }, {
+    "actual" : {
+      "rawJapanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "context_required",
+      "resolvedJapanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+      "chinese" : "",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 5,
+        "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+        "segmentStatus" : "semantic_context_required",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 5,
+        "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+        "segmentStatus" : "semantic_context_required",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 5,
+        "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+        "segmentStatus" : "semantic_context_required",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+      "match" : "equivalent",
+      "status" : "context_required",
+      "chinese" : ""
+    },
+    "scenario" : "Giovanni continuation requires observed start"
+  }, {
+    "actual" : {
+      "rawJapanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "wait_for_semantic_unit",
+      "resolvedJapanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+      "chinese" : "",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 4,
+        "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 4,
+        "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 4,
+        "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+      "match" : "equivalent",
+      "status" : "wait_for_semantic_unit",
+      "chinese" : ""
+    },
+    "scenario" : "disappearance clears continuous context"
+  }, {
+    "actual" : {
+      "rawJapanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "context_required",
+      "resolvedJapanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+      "chinese" : "",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 5,
+        "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+        "segmentStatus" : "semantic_context_required",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 5,
+        "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+        "segmentStatus" : "semantic_context_required",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 5,
+        "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+        "segmentStatus" : "semantic_context_required",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+      "match" : "equivalent",
+      "status" : "context_required",
+      "chinese" : ""
+    },
+    "scenario" : "disappearance clears continuous context"
+  }, {
+    "actual" : {
+      "rawJapanese" : "おまちどうさまでした！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "wait_for_semantic_unit",
+      "resolvedJapanese" : "おまちどうさまでした！",
+      "chinese" : "",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/events/pokecenter.asm:PokemonFightingFitText",
+        "ordinal" : 1,
+        "japanese" : "おまちどうさまでした！",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_4!F179:G183\"]",
+        "revision" : "{\"original_chinese\":\"交给我的宝可梦\\n全都变得精力充沛了哦！\",\"revised_ranges\":[],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"localization_omission\",\"approval_status\":\"user_approved\",\"evidence\":\"用户接受原汉化省略“久等了”礼貌语，不补译；首行等待，恢复状态两行完整后使用原译，不要求观察礼貌语前文\"}"
+      }, {
+        "recordId" : "pokeblue:engine/events/pokecenter.asm:PokemonFightingFitText",
+        "ordinal" : 1,
+        "japanese" : "おまちどうさまでした！",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_4!F179:G183\"]",
+        "revision" : "{\"original_chinese\":\"交给我的宝可梦\\n全都变得精力充沛了哦！\",\"revised_ranges\":[],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"localization_omission\",\"approval_status\":\"user_approved\",\"evidence\":\"用户接受原汉化省略“久等了”礼貌语，不补译；首行等待，恢复状态两行完整后使用原译，不要求观察礼貌语前文\"}"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/events/pokecenter.asm:PokemonFightingFitText",
+        "ordinal" : 1,
+        "japanese" : "おまちどうさまでした！",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_7!F183:G186\"]",
+        "revision" : "{\"original_chinese\":\"交给我的宝可梦\\n全都变得精力充沛了哦！\",\"revised_ranges\":[],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"localization_omission\",\"approval_status\":\"user_approved\",\"evidence\":\"用户接受原汉化省略“久等了”礼貌语，不补译；首行等待，恢复状态两行完整后使用原译，不要求观察礼貌语前文\"}"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "おまちどうさまでした！",
+      "match" : "equivalent",
+      "status" : "wait_for_semantic_unit",
+      "chinese" : ""
+    },
+    "scenario" : "accepted courtesy omission does not require missing courtesy"
+  }, {
+    "actual" : {
+      "rawJapanese" : "おあずかりした ポケモンは\nみんな げんきに なりましたよ！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "おあずかりした ポケモンは\nみんな げんきに なりましたよ！",
+      "chinese" : "交给我的宝可梦\n全都变得精力充沛了哦！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/events/pokecenter.asm:PokemonFightingFitText",
+        "ordinal" : 3,
+        "japanese" : "おあずかりした ポケモンは\nみんな げんきに なりましたよ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_4!F179:G183\"]",
+        "revision" : "{\"original_chinese\":\"交给我的宝可梦\\n全都变得精力充沛了哦！\",\"revised_ranges\":[],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"localization_omission\",\"approval_status\":\"user_approved\",\"evidence\":\"用户接受原汉化省略“久等了”礼貌语，不补译；首行等待，恢复状态两行完整后使用原译，不要求观察礼貌语前文\"}"
+      }, {
+        "recordId" : "pokeblue:engine/events/pokecenter.asm:PokemonFightingFitText",
+        "ordinal" : 3,
+        "japanese" : "おあずかりした ポケモンは\nみんな げんきに なりましたよ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_4!F179:G183\"]",
+        "revision" : "{\"original_chinese\":\"交给我的宝可梦\\n全都变得精力充沛了哦！\",\"revised_ranges\":[],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"localization_omission\",\"approval_status\":\"user_approved\",\"evidence\":\"用户接受原汉化省略“久等了”礼貌语，不补译；首行等待，恢复状态两行完整后使用原译，不要求观察礼貌语前文\"}"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/events/pokecenter.asm:PokemonFightingFitText",
+        "ordinal" : 3,
+        "japanese" : "おあずかりした ポケモンは\nみんな げんきに なりましたよ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_7!F183:G186\"]",
+        "revision" : "{\"original_chinese\":\"交给我的宝可梦\\n全都变得精力充沛了哦！\",\"revised_ranges\":[],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"localization_omission\",\"approval_status\":\"user_approved\",\"evidence\":\"用户接受原汉化省略“久等了”礼貌语，不补译；首行等待，恢复状态两行完整后使用原译，不要求观察礼貌语前文\"}"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "おあずかりした ポケモンは\nみんな げんきに なりましたよ！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "交给我的宝可梦\n全都变得精力充沛了哦！",
+      "source" : "PokemonFightingFitText"
+    },
+    "scenario" : "accepted courtesy omission does not require missing courtesy"
+  }, {
+    "actual" : {
+      "rawJapanese" : "サトシは ひきかえけんで\nじてんしゃを もらった！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "サトシは ひきかえけんで\nじてんしゃを もらった！",
+      "chinese" : "サトシ用兑换券\n得到了自行车！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/BikeShop.asm:BikeShopExchangedVoucherText",
+        "ordinal" : 2,
+        "japanese" : "{{PLAYER}}は ひきかえけんで\nじてんしゃを もらった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "PLAYER" : "サトシ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#BikeShop!F28:G31\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/BikeShop.asm:BikeShopExchangedVoucherText",
+        "ordinal" : 2,
+        "japanese" : "{{PLAYER}}は ひきかえけんで\nじてんしゃを もらった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "PLAYER" : "サトシ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#BikeShop!F28:G31\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/BikeShop.asm:BikeShopExchangedVoucherText",
+        "ordinal" : 2,
+        "japanese" : "{{PLAYER}}は ひきかえけんで\nじてんしゃを もらった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "PLAYER" : "サトシ"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#BikeShop!F28:G31\"]",
+        "revision" : "null"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "サトシは ひきかえけんで\nじてんしゃを もらった！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "サトシ用兑换券\n得到了自行车！",
+      "source" : "BikeShopExchangedVoucherText"
+    },
+    "scenario" : "current name is bound; prior name cannot satisfy a later sentence"
+  }, {
+    "actual" : {
+      "rawJapanese" : "たんパンとの\nしょうぶに かった！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "variables_missing",
+      "resolvedJapanese" : "たんパンとの\nしょうぶに かった！",
+      "chinese" : "",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/battle/core.asm:TrainerDefeatedText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}との\nしょうぶに かった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "たんパン"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F890:G895\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/battle/core.asm:TrainerDefeatedText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}との\nしょうぶに かった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "たんパン"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F890:G895\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/battle/core.asm:TrainerDefeatedText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}との\nしょうぶに かった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "たんパン"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F920:G925\"]",
+        "revision" : "null"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "たんパンとの\nしょうぶに かった！",
+      "match" : "equivalent",
+      "status" : "variables_missing",
+      "chinese" : "",
+      "source" : "TrainerDefeatedText"
+    },
+    "scenario" : "current name is bound; prior name cannot satisfy a later sentence"
+  }, {
+    "actual" : {
+      "rawJapanese" : "パソコンの ボックス3 に\nピカチュウを てんそうした！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "パソコンの ボックス3 に\nピカチュウを てんそうした！",
+      "chinese" : "ピカチュウ被传送至\n电脑的3号盒子！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/events/give_pokemon.asm:SentToBoxText",
+        "ordinal" : 3,
+        "japanese" : "パソコンの ボックス{{RAM1}} に\n{{RAM2}}を てんそうした！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM2" : "ピカチュウ",
+          "RAM1" : "3"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_5!F85:G95\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/events/give_pokemon.asm:SentToBoxText",
+        "ordinal" : 3,
+        "japanese" : "パソコンの ボックス{{RAM1}} に\n{{RAM2}}を てんそうした！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM2" : "ピカチュウ",
+          "RAM1" : "3"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_5!F85:G95\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/events/give_pokemon.asm:SentToBoxText",
+        "ordinal" : 3,
+        "japanese" : "パソコンの ボックス{{RAM1}} に\n{{RAM2}}を てんそうした！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM2" : "ピカチュウ",
+          "RAM1" : "3"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_8!F108:G116\"]",
+        "revision" : "null"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "パソコンの ボックス3 に\nピカチュウを てんそうした！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "ピカチュウ被传送至\n电脑的3号盒子！",
+      "source" : "SentToBoxText"
+    },
+    "scenario" : "box and nickname slots are not swapped by Japanese order"
+  }, {
+    "actual" : {
+      "rawJapanese" : "ピカチュウは\nつるぎのまいを つかった！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "ピカチュウは\nつるぎのまいを つかった！",
+      "chinese" : "ピカチュウ\n使出了剑舞！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:composed:UsedMove.grammar0.normal",
+        "ordinal" : 2,
+        "japanese" : "{{USER}}は\n{{RAM1}}を つかった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "つるぎのまい",
+          "USER" : "ピカチュウ"
+        },
+        "source" : "pokeredCHS-rgb:[\"[\\\"src/xlsx/core.xlsx#text_2!F1097:G1099\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1116:G1120\\\"]\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:composed:UsedMove.grammar0.normal",
+        "ordinal" : 2,
+        "japanese" : "{{USER}}は\n{{RAM1}}を つかった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "つるぎのまい",
+          "USER" : "ピカチュウ"
+        },
+        "source" : "pokeredCHS-rgb:[\"[\\\"src/xlsx/core.xlsx#text_2!F1097:G1099\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1116:G1120\\\"]\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:composed:UsedMove.grammar0.normal",
+        "ordinal" : 2,
+        "japanese" : "{{USER}}は\n{{RAM1}}を つかった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "つるぎのまい",
+          "USER" : "ピカチュウ"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_2!F1128:G1130\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1147:G1151\\\"]\"]",
+        "revision" : "null"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "ピカチュウは\nつるぎのまいを つかった！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "ピカチュウ\n使出了剑舞！",
+      "source" : "composed:UsedMove.grammar0.normal"
+    },
+    "scenario" : "composed move uses its source grammar and local move term"
+  }, {
+    "actual" : {
+      "rawJapanese" : "てきの ピカチュウは\nつるぎのまいを つかった！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "てきの ピカチュウは\nつるぎのまいを つかった！",
+      "chinese" : "敌方ピカチュウ\n使出了剑舞！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:composed:UsedMove.grammar0.normal",
+        "ordinal" : 2,
+        "japanese" : "{{USER}}は\n{{RAM1}}を つかった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "つるぎのまい",
+          "USER" : "てきの ピカチュウ"
+        },
+        "source" : "pokeredCHS-rgb:[\"[\\\"src/xlsx/core.xlsx#text_2!F1097:G1099\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1116:G1120\\\"]\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:composed:UsedMove.grammar0.normal",
+        "ordinal" : 2,
+        "japanese" : "{{USER}}は\n{{RAM1}}を つかった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "つるぎのまい",
+          "USER" : "てきの ピカチュウ"
+        },
+        "source" : "pokeredCHS-rgb:[\"[\\\"src/xlsx/core.xlsx#text_2!F1097:G1099\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1116:G1120\\\"]\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:composed:UsedMove.grammar0.normal",
+        "ordinal" : 2,
+        "japanese" : "{{USER}}は\n{{RAM1}}を つかった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "つるぎのまい",
+          "USER" : "てきの ピカチュウ"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_2!F1128:G1130\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1147:G1151\\\"]\"]",
+        "revision" : "null"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "てきの ピカチュウは\nつるぎのまいを つかった！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "敌方ピカチュウ\n使出了剑舞！",
+      "source" : "composed:UsedMove.grammar0.normal"
+    },
+    "scenario" : "enemy prefix is separate from the nickname"
+  }, {
+    "actual" : {
+      "rawJapanese" : "キズぐすりを\nまた つれていく ことにした！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "キズぐすりを\nまた つれていく ことにした！",
+      "chinese" : "决定取出キズぐすり！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/pokemon/bills_pc.asm:MonIsTakenOutText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}を\nまた つれていく ことにした！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "キズぐすり"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1602:G1611\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/pokemon/bills_pc.asm:MonIsTakenOutText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}を\nまた つれていく ことにした！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "キズぐすり"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1602:G1611\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/pokemon/bills_pc.asm:MonIsTakenOutText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}を\nまた つれていく ことにした！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "キズぐすり"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F316:G323\"]",
+        "revision" : "null"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "キズぐすりを\nまた つれていく ことにした！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "决定取出キズぐすり！",
+      "source" : "MonIsTakenOutText"
+    },
+    "scenario" : "nickname matching an item is not translated as an item"
+  }, {
+    "actual" : {
+      "rawJapanese" : "あたしは してんのうの �クコ！",
+      "matchStatus" : "unreliable",
+      "displayStatus" : "unknown_character",
+      "resolvedJapanese" : "",
+      "chinese" : "",
+      "candidates" : [ ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "あたしは してんのうの �クコ！",
+      "match" : "unreliable",
+      "status" : "unknown_character",
+      "chinese" : ""
+    },
+    "scenario" : "unknown character prevents publication"
+  }, {
+    "actual" : {
+      "rawJapanese" : "これは テストようの みしゅうろくぶん！",
+      "matchStatus" : "missing",
+      "displayStatus" : "missing",
+      "resolvedJapanese" : "",
+      "chinese" : "",
+      "candidates" : [ ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "これは テストようの みしゅうろくぶん！",
+      "match" : "missing",
+      "status" : "missing",
+      "chinese" : ""
+    },
+    "scenario" : "unrecorded text stays Japanese"
+  }, {
+    "actual" : {
+      "rawJapanese" : "あたしは してんのうの キク",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "incomplete",
+      "resolvedJapanese" : "",
+      "chinese" : "",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/AgathasRoom.asm:AgathasRoomAgathaBattleText",
+        "ordinal" : 1,
+        "japanese" : "あたしは してんのうの キクコ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#AgathasRoom!F2:G24\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/AgathasRoom.asm:AgathasRoomAgathaBattleText",
+        "ordinal" : 1,
+        "japanese" : "あたしは してんのうの キクコ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#AgathasRoom!F2:G24\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/AgathasRoom.asm:AgathasRoomAgathaBattleText",
+        "ordinal" : 1,
+        "japanese" : "あたしは してんのうの キクコ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#AgathasRoom!F2:G17\"]",
+        "revision" : "null"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "あたしは してんのうの キク",
+      "match" : "equivalent",
+      "status" : "incomplete",
+      "chinese" : ""
+    },
+    "scenario" : "incomplete character prefix never reveals a completed unit"
+  }, {
+    "actual" : {
+      "rawJapanese" : "タマムシ マンション",
+      "matchStatus" : "ambiguous",
+      "displayStatus" : "ambiguous",
+      "resolvedJapanese" : "",
+      "chinese" : "",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/CeladonCity.asm:CeladonCityMansionSignText",
+        "ordinal" : 1,
+        "japanese" : "タマムシ マンション",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#CeladonCity!F121:G123\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/CeladonMansion1F.asm:CeladonMansion1FManagersSuiteSignText",
+        "ordinal" : 1,
+        "japanese" : "タマムシ マンション",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CeladonMansion1F!F24:G27\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/CeladonCity.asm:CeladonCityMansionSignText",
+        "ordinal" : 1,
+        "japanese" : "タマムシ マンション",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#CeladonCity!F121:G123\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/CeladonMansion1F.asm:CeladonMansion1FManagersSuiteSignText",
+        "ordinal" : 1,
+        "japanese" : "タマムシ マンション",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CeladonMansion1F!F24:G27\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/CeladonCity.asm:CeladonCityMansionSignText",
+        "ordinal" : 1,
+        "japanese" : "タマムシ マンション",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#CeladonCity!F105:G107\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/CeladonMansion1F.asm:CeladonMansion1FManagersSuiteSignText",
+        "ordinal" : 1,
+        "japanese" : "タマムシ マンション",
+        "segmentStatus" : "wait_for_semantic_unit",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CeladonMansion1F!F16:G19\"]",
+        "revision" : "null"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "タマムシ マンション",
+      "match" : "ambiguous",
+      "status" : "ambiguous",
+      "chinese" : ""
+    },
+    "scenario" : "a ready candidate cannot bypass another candidate waiting for a semantic unit"
+  }, {
+    "actual" : {
+      "rawJapanese" : "…… おとくな けいじばん！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "…… おとくな けいじばん！",
+      "chinese" : "……有用的公告牌！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/CeladonCity.asm:CeladonCityTrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#CeladonCity!F90:G104\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/CeladonCity.asm:CeladonCityTrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#CeladonCity!F131:G143\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/CeruleanCity.asm:CeruleanCityTrainerTipsText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#CeruleanCity!F214:G221\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/PewterCity.asm:PewterCityTrainerTipsText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#PewterCity!F80:G87\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/Route13.asm:Route13TrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/routes.xlsx#Route13!F162:G167\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/Route13.asm:Route13TrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/routes.xlsx#Route13!F169:G175\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/Route17.asm:Route17TrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/routes.xlsx#Route17!F158:G169\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/Route17.asm:Route17TrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/routes.xlsx#Route17!F170:G177\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/SafariZoneCenter.asm:SafariZoneCenterTrainerTipsSignText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#SafariZoneCenter!F6:G12\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/SafariZoneEast.asm:SafariZoneEastTrainerTipsText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#SafariZoneEast!F6:G12\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/SafariZoneNorth.asm:SafariZoneNorthTrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#SafariZoneNorth!F6:G11\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/SafariZoneNorth.asm:SafariZoneNorthTrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#SafariZoneNorth!F17:G26\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/SafariZoneNorth.asm:SafariZoneNorthTrainerTips3Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#SafariZoneNorth!F28:G34\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/SafariZoneWest.asm:SafariZoneWestTrainerTipsText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#SafariZoneWest!F19:G27\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#SaffronCity!F114:G124\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/SaffronCity.asm:SaffronCityTrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#SaffronCity!F126:G136\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/ViridianCity.asm:ViridianCityTrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#ViridianCity!F148:G158\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/ViridianCity.asm:ViridianCityTrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#ViridianCity!F160:G172\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/ViridianForest.asm:ViridianForestTrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#ViridianForest!F75:G82\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/ViridianForest.asm:ViridianForestTrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#ViridianForest!F90:G97\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/ViridianForest.asm:ViridianForestTrainerTips3Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#ViridianForest!F99:G107\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/ViridianForest.asm:ViridianForestTrainerTips4Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#ViridianForest!F109:G118\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/CeladonCity.asm:CeladonCityTrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#CeladonCity!F90:G104\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/CeladonCity.asm:CeladonCityTrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#CeladonCity!F131:G143\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/CeruleanCity.asm:CeruleanCityTrainerTipsText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#CeruleanCity!F214:G221\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/PewterCity.asm:PewterCityTrainerTipsText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#PewterCity!F80:G87\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/Route13.asm:Route13TrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/routes.xlsx#Route13!F162:G167\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/Route13.asm:Route13TrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/routes.xlsx#Route13!F169:G175\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/Route17.asm:Route17TrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/routes.xlsx#Route17!F158:G169\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/Route17.asm:Route17TrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/routes.xlsx#Route17!F170:G177\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/SafariZoneCenter.asm:SafariZoneCenterTrainerTipsSignText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#SafariZoneCenter!F6:G12\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/SafariZoneEast.asm:SafariZoneEastTrainerTipsText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#SafariZoneEast!F6:G12\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/SafariZoneNorth.asm:SafariZoneNorthTrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#SafariZoneNorth!F6:G11\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/SafariZoneNorth.asm:SafariZoneNorthTrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#SafariZoneNorth!F17:G26\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/SafariZoneNorth.asm:SafariZoneNorthTrainerTips3Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#SafariZoneNorth!F28:G34\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/SafariZoneWest.asm:SafariZoneWestTrainerTipsText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#SafariZoneWest!F19:G27\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#SaffronCity!F114:G124\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/SaffronCity.asm:SaffronCityTrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#SaffronCity!F126:G136\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/ViridianCity.asm:ViridianCityTrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#ViridianCity!F148:G158\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/ViridianCity.asm:ViridianCityTrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#ViridianCity!F160:G172\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/ViridianForest.asm:ViridianForestTrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#ViridianForest!F75:G82\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/ViridianForest.asm:ViridianForestTrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#ViridianForest!F90:G97\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/ViridianForest.asm:ViridianForestTrainerTips3Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#ViridianForest!F99:G107\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/ViridianForest.asm:ViridianForestTrainerTips4Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#ViridianForest!F109:G118\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/CeladonCity.asm:CeladonCityTrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#CeladonCity!F115:G123\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/CeladonCity_2.asm:CeladonCityPrintTrainerTips1Text.text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#CeladonCity!F141:G150\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/CeruleanCity.asm:CeruleanCityTrainerTipsText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#CeruleanCity!F214:G219\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/PewterCity.asm:PewterCityTrainerTipsText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#PewterCity!F80:G86\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/Route13.asm:Route13TrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/routes.xlsx#Route13!F161:G165\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/Route13.asm:Route13TrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/routes.xlsx#Route13!F168:G173\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/Route17.asm:Route17TrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/routes.xlsx#Route17!F158:G166\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/Route17.asm:Route17TrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/routes.xlsx#Route17!F170:G175\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/SafariZoneCenter.asm:SafariZoneCenterTrainerTipsSignText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#SafariZoneCenter!F6:G11\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/SafariZoneEast.asm:SafariZoneEastTrainerTipsText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#SafariZoneEast!F6:G11\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/SafariZoneNorth.asm:SafariZoneNorthTrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#SafariZoneNorth!F6:G10\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/SafariZoneNorth.asm:SafariZoneNorthTrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#SafariZoneNorth!F17:G24\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/SafariZoneNorth.asm:SafariZoneNorthTrainerTips3Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#SafariZoneNorth!F28:G32\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/SafariZoneWest.asm:SafariZoneWestTrainerTipsText",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#SafariZoneWest!F19:G24\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#SaffronCity!F113:G121\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/SaffronCity.asm:SaffronCityTrainerTips2Text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#SaffronCity!F125:G132\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/ViridianCity_2.asm:ViridianCityPrintTrainerTips1Text.text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#ViridianCity!F162:G168\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/ViridianCity_2.asm:ViridianCityPrintTrainerTips2Text.text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#ViridianCity!F174:G182\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/ViridianForest_2.asm:ViridianForestPrintTrainerTips1Text.text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#ViridianForest!F109:G114\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/ViridianForest_2.asm:ViridianForestPrintTrainerTips2Text.text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#ViridianForest!F124:G129\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/ViridianForest_2.asm:ViridianForestPrintTrainerTips3Text.text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#ViridianForest!F133:G138\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/ViridianForest_2.asm:ViridianForestPrintTrainerTips4Text.text",
+        "ordinal" : 1,
+        "japanese" : "…… おとくな けいじばん！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#ViridianForest!F143:G149\"]",
+        "revision" : "null"
+      } ]
+    },
+    "pass" : true,
+    "expected" : {
+      "raw" : "…… おとくな けいじばん！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "……有用的公告牌！",
+      "candidateCount" : 66
+    },
+    "scenario" : "different later text does not block the identical current segment"
+  } ]
+}

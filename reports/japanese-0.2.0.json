@@ -1,0 +1,5270 @@
+{
+  "implementationVersion" : "0.2.0",
+  "java" : "21.0.9+10-LTS",
+  "group" : "all",
+  "annotationVersion" : 4,
+  "annotationSha256" : "263e154a044b2a7f331a0147e068c75f25d99e044bb5466c7c176bfabebea640",
+  "comparison" : "NFC; only pixel-identical り/リ,へ/ヘ,べ/ベ,ぺ/ペ equivalent; <Lv> counts as one token; spaces count, line breaks compared structurally",
+  "mapping" : {
+    "ox" : 0,
+    "oy" : 0,
+    "scale" : 3
+  },
+  "images" : 108,
+  "passedImages" : 108,
+  "strictUnicodePassedImages" : 95,
+  "expectedTextLines" : 202,
+  "expectedCharacterTokens" : 2186,
+  "characterErrors" : 0,
+  "strictUnicodeCharacterErrors" : 13,
+  "cer" : 0.0,
+  "unknownCharacters" : 0,
+  "implementationSha256" : {
+    "src/main/java/io/github/g1ocr/capture/LiveSession.java" : "f4dfe09aebdc002f232a10c7a0bbffdba5c7475304c8e3c43f9208df765586b9",
+    "src/main/java/io/github/g1ocr/capture/WindowCapture.java" : "c516d0824ce21e1e99c419047476237f0efb054533d80265336b252696b1fb38",
+    "src/main/java/io/github/g1ocr/image/GbFrame.java" : "b47213b645b0b835b45093fa33893c90fc1a12fee9f27f25c18b3a1246cda3b5",
+    "src/main/java/io/github/g1ocr/image/ViewportResolver.java" : "456352112fd004ba760b1ed5368ae7426dcf53385a55d6e0d15c1bf0b0bc9086",
+    "src/main/java/io/github/g1ocr/Main.java" : "2e9b57d8a5173cf63f2af09464ed954b1a416be1049634764271d1f4a7d88cc2",
+    "src/main/java/io/github/g1ocr/OcrPipeline.java" : "d28a79eeb0948c42538098e9c7bb0f992dc9c7d71d933df33a001be6d25471f6",
+    "src/main/java/io/github/g1ocr/ocr/PixelFont.java" : "983edf9f244ba5084042612e0343e55145fdce614a876a418edf824270c7f8ba",
+    "src/main/java/io/github/g1ocr/ocr/PixelOcr.java" : "a5ec55f0e59c504295306f33de5fc8363eaade34fc6743922b40b55d4ce21fa3",
+    "src/main/java/io/github/g1ocr/region/RegionDetector.java" : "6fa82dbf5fbc13818937adcc2376c2cf503e6b08dac34ede376018ebcf925b04",
+    "src/main/java/io/github/g1ocr/region/StabilityDetector.java" : "b3b37046c37efd61ee2332f13f2754c5bc15590d8cdc0a3f29bea851e3f13bf5",
+    "src/main/java/io/github/g1ocr/ui/LiveApplication.java" : "c760d37750f49543f413fff994171c05a01c2dcc32b87a73c1d3efd652b44a56",
+    "src/main/resources/font.tsv" : "56022863949bdbdd3e097cbc62123d33d601a95596a88db69bbb710d3975b4a4",
+    "src/main/resources/SOURCES.md" : "7f2fd53e43b8ad7fcb22ea4a5a86d38dd779285af3ed07b25cb8fa246564af1c",
+    "src/test/java/io/github/g1ocr/AcceptanceTest.java" : "fd1f739c685a1f3197fb70b5118ca4f538620eca78632fb5720cac89493f9c15",
+    "src/test/java/io/github/g1ocr/PipelineRulesTest.java" : "b89d9bf55dfbf07b5023290821572ef14b7b3aaef506b64d5d643b1833a20ac5",
+    "src/test/java/io/github/g1ocr/WgcSmokeTest.java" : "cf77e24464efb42810dfe0174a37b2973d29598603c3abc0df8163c472a95b56",
+    "pom.xml" : "d7ef7f6859b1a71de2f9c11b21b7d38e6674eff08c753310f4e27abe7fa65a93"
+  },
+  "samples" : [ {
+    "sampleId" : "g1-001",
+    "source" : "testpic/Screenshot 2026-10-20 21-22-46.png",
+    "sourceSha256" : "7871f552745dafeec0c5931b2ee92b8afa7077d37a00a1816f957d5894cf51a1",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "bag_items",
+      "detectedLayout" : "shared_list",
+      "semanticType" : "ambiguous",
+      "bounds" : {
+        "x" : 32,
+        "y" : 16,
+        "width" : 128,
+        "height" : 88
+      },
+      "textGrids" : [ {
+        "x" : 48,
+        "y" : 32,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 48,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 64,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 80,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      } ],
+      "footerGrids" : [ {
+        "x" : 112,
+        "y" : 112,
+        "columns" : 5,
+        "maskedColumns" : [ ]
+      } ],
+      "expectedLines" : [ "じてんしゃ", "ポケモンのふえ", "いいつりざお", "ボロのつりざお" ],
+      "rawOcr" : [ "じてんしゃ", "ポケモンのふえ", "いいつりざお", "ボロのつりざお" ],
+      "expectedFooter" : [ "とじる" ],
+      "footerLines" : [ "とじる" ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "expectedSelection" : 0,
+      "actualSelection" : 0,
+      "selectionPass" : true,
+      "ambiguousCharacters" : [ {
+        "x" : 72,
+        "y" : 64,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      }, {
+        "x" : 80,
+        "y" : 80,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-002",
+    "source" : "testpic/Screenshot 2026-10-20 21-22-53.png",
+    "sourceSha256" : "e88f4d4a198a997f6124ea596775a66878d2ac151fade2d7734b0709c7c90077",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "おーす！", "みらいの チャンピオン！" ],
+      "rawOcr" : [ "おーす！", "みらいの チャンピオン！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-003",
+    "source" : "testpic/Screenshot 2026-10-20 21-23-05.png",
+    "sourceSha256" : "e8aac744fccfece5e8030fa14ec6fc9734f0435eb22237e0002b406f0f62709b",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : true,
+    "regions" : [ ]
+  }, {
+    "sampleId" : "g1-004",
+    "source" : "testpic/Screenshot 2026-10-20 22-42-09.png",
+    "sourceSha256" : "fea54be31a39d2f7490f556e8cdbb35732babb509ad67adab4264d38e3dea8b6",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : true,
+    "regions" : [ ]
+  }, {
+    "sampleId" : "g1-005",
+    "source" : "testpic/Screenshot 2026-10-20 22-42-18.png",
+    "sourceSha256" : "a9914bfe5ddd2ee3b5ff993febedf176a610c481580727702eef4f32be524867",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ここでは ポケモンの", "たいりょく かいふくを いたします" ],
+      "rawOcr" : [ "ここでは ポケモンの", "たいりょく かいふくを いたします" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 24,
+        "y" : 128,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-006",
+    "source" : "testpic/Screenshot 2026-10-20 22-42-43.png",
+    "sourceSha256" : "b2a16cdd95f93f693dc403f73cc0671222a2c7c81135c61df7ee38116947e894",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : false,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "pc_pokemon",
+      "detectedLayout" : "shared_list",
+      "semanticType" : "pc_pokemon",
+      "bounds" : {
+        "x" : 32,
+        "y" : 16,
+        "width" : 128,
+        "height" : 88
+      },
+      "textGrids" : [ {
+        "x" : 48,
+        "y" : 32,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 48,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 64,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 80,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ゴローニャ <Lv>50", "ライチュウ <Lv>50", "リザードン <Lv>50", "ポッポ <Lv>3" ],
+      "rawOcr" : [ "ゴローニャ <Lv>50", "ライチュウ <Lv>50", "りザードン <Lv>50", "ポッポ <Lv>3" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : false,
+      "errors" : 0,
+      "strictUnicodeErrors" : 1,
+      "expectedSelection" : 0,
+      "actualSelection" : 0,
+      "selectionPass" : true,
+      "ambiguousCharacters" : [ {
+        "x" : 48,
+        "y" : 64,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    }, {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 8,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 8,
+        "maskedColumns" : [ ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "なんに するん？" ],
+      "rawOcr" : [ "なんに するん？" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-007",
+    "source" : "testpic/Screenshot 2026-10-20 22-42-47.png",
+    "sourceSha256" : "78b2aaa37f7ef0aa5371a5404b281909dd9f24d90cb3f44447af8f86f685c9c6",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : false,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "pc_pokemon",
+      "detectedLayout" : "shared_list",
+      "semanticType" : "pc_pokemon",
+      "bounds" : {
+        "x" : 32,
+        "y" : 16,
+        "width" : 128,
+        "height" : 88
+      },
+      "textGrids" : [ {
+        "x" : 48,
+        "y" : 32,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 48,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 64,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 80,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ライチュウ <Lv>50", "リザードン <Lv>50", "ポッポ <Lv>3", "やめる" ],
+      "rawOcr" : [ "ライチュウ <Lv>50", "りザードン <Lv>50", "ポッポ <Lv>3", "やめる" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : false,
+      "errors" : 0,
+      "strictUnicodeErrors" : 1,
+      "expectedSelection" : 2,
+      "actualSelection" : 2,
+      "selectionPass" : true,
+      "ambiguousCharacters" : [ {
+        "x" : 48,
+        "y" : 48,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    }, {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 8,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 8,
+        "maskedColumns" : [ ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "なんに するん？" ],
+      "rawOcr" : [ "なんに するん？" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-008",
+    "source" : "testpic/Screenshot 2026-10-20 22-43-11.png",
+    "sourceSha256" : "ede6ace4355044a76ae9f538285087a8eda7a65689ad2dc61b9aa70cc032aeb6",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : false,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "pc_items",
+      "detectedLayout" : "shared_list",
+      "semanticType" : "ambiguous",
+      "bounds" : {
+        "x" : 32,
+        "y" : 16,
+        "width" : 128,
+        "height" : 88
+      },
+      "textGrids" : [ {
+        "x" : 48,
+        "y" : 32,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 48,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 64,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 80,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "わざマシン02 × 1", "エレベータのカギ", "わざマシン07 × 1", "シルフスコープ" ],
+      "rawOcr" : [ "わざマシン02 × 1", "エレべータのカギ", "わざマシン07 × 1", "シルフスコープ" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : false,
+      "errors" : 0,
+      "strictUnicodeErrors" : 1,
+      "expectedSelection" : 2,
+      "actualSelection" : 2,
+      "selectionPass" : true,
+      "ambiguousCharacters" : [ {
+        "x" : 64,
+        "y" : 48,
+        "raw" : "べ",
+        "candidates" : [ "べ", "ベ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 4,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    }, {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "なにを ひきだしますか？" ],
+      "rawOcr" : [ "なにを ひきだしますか？" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-009",
+    "source" : "testpic/Screenshot 2026-10-20 22-43-52.png",
+    "sourceSha256" : "ec1f9e8f797ef62f6f17da9fa91cf07e1edf02f4e98caede7539930ac1ef6e72",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : false,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ポケモン リーグ してんのうは", "4にん つづけて" ],
+      "rawOcr" : [ "ポケモン りーグ してんのうは", "4にん つづけて" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : false,
+      "errors" : 0,
+      "strictUnicodeErrors" : 1,
+      "ambiguousCharacters" : [ {
+        "x" : 48,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-010",
+    "source" : "testpic/Screenshot 2026-10-20 22-44-02.png",
+    "sourceSha256" : "b5c60bcdca3416d670dce926ef2f6a1344dcc1741a068472452ae428bbfd4649",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "まけたら ひとりめ から", "やりなおしに なるぞ！" ],
+      "rawOcr" : [ "まけたら ひとりめ から", "やりなおしに なるぞ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 64,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      }, {
+        "x" : 16,
+        "y" : 128,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-011",
+    "source" : "testpic/Screenshot 2026-10-20 22-44-11.png",
+    "sourceSha256" : "a59232456e6cca9106e244b22fc02154baa71aaf6e8f0019c6d8d55cee56878f",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ゆっくり ごらんになって ください" ],
+      "rawOcr" : [ "ゆっくり ごらんになって ください" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 32,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-012",
+    "source" : "testpic/Screenshot 2026-10-20 22-44-17.png",
+    "sourceSha256" : "eef67616b60d646431a69721b574e8a5b0ed427134f3c41d11460c1718edff03",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "bag_items",
+      "detectedLayout" : "shared_list",
+      "semanticType" : "ambiguous",
+      "bounds" : {
+        "x" : 32,
+        "y" : 16,
+        "width" : 128,
+        "height" : 88
+      },
+      "textGrids" : [ {
+        "x" : 48,
+        "y" : 32,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 48,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 64,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 80,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "じてんしゃ", "ポケモンのふえ", "いいつりざお", "ボロのつりざお" ],
+      "rawOcr" : [ "じてんしゃ", "ポケモンのふえ", "いいつりざお", "ボロのつりざお" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "expectedSelection" : 0,
+      "actualSelection" : 0,
+      "selectionPass" : true,
+      "ambiguousCharacters" : [ {
+        "x" : 72,
+        "y" : 64,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      }, {
+        "x" : 80,
+        "y" : 80,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    }, {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "どれを うっていただけますか？" ],
+      "rawOcr" : [ "どれを うっていただけますか？" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-013",
+    "source" : "testpic/Screenshot 2026-10-20 22-44-39.png",
+    "sourceSha256" : "d06ebb2f9bd01075845bed2d01b1924ff17cbcdea0ed55d0dcbae13f901cc72e",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ひとりずつ たたかうの！", "もし かてたら ドアが ひらいて" ],
+      "rawOcr" : [ "ひとりずつ たたかうの！", "もし かてたら ドアが ひらいて" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 24,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-014",
+    "source" : "testpic/Screenshot 2026-10-20 22-44-44.png",
+    "sourceSha256" : "3da99a4b2dd656fdb7cebba52679bafc3b78794af0965b14369e4c179bbfd809",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "もし かてたら ドアが ひらいて", "おくの へやに すすめるわ！" ],
+      "rawOcr" : [ "もし かてたら ドアが ひらいて", "おくの へやに すすめるわ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 40,
+        "y" : 128,
+        "raw" : "へ",
+        "candidates" : [ "へ", "ヘ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 4,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-015",
+    "source" : "testpic/Screenshot 2026-10-20 22-44-57.png",
+    "sourceSha256" : "24f047e4b40ebb6d3b818b9690459ea8c6474b44871576db053c029d95f2b67a",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "わあ！ ポケモングッズが", "たくさん そろってるぞ！" ],
+      "rawOcr" : [ "わあ！ ポケモングッズが", "たくさん そろってるぞ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-016",
+    "source" : "testpic/Screenshot 2026-10-20 22-45-49.png",
+    "sourceSha256" : "2811d2f3a8b39954f991a466db68609421795884a575cf172338a0649b02c4cb",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : true,
+    "regions" : [ ]
+  }, {
+    "sampleId" : "g1-017",
+    "source" : "testpic/Screenshot 2026-10-20 22-46-05.png",
+    "sourceSha256" : "447523daaac2cff13cd0b7d36c6be9a58cefda1c64a546757df22457691580ad",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ばんざーい！", "ロケットだんが いなくなった！" ],
+      "rawOcr" : [ "ばんざーい！", "ロケットだんが いなくなった！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-018",
+    "source" : "testpic/Screenshot 2026-10-20 22-46-09.png",
+    "sourceSha256" : "3f61aa4c828b8c308351a6382cd283c06378576f6f1ff17fcce042ee6b4d0d59",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ロケットだんが いなくなった！", "ビビらないで そと あるけるんだ！" ],
+      "rawOcr" : [ "ロケットだんが いなくなった！", "ビビらないで そと あるけるんだ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-019",
+    "source" : "testpic/Screenshot 2026-10-20 22-53-11.png",
+    "sourceSha256" : "b4b72eed0932c8cecd41e9bc4a8bdd1076bc72a7f5748cf1176fdd8a7e770424",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "すこし たかい けど", "ねむけざまし どくけし などを" ],
+      "rawOcr" : [ "すこし たかい けど", "ねむけざまし どくけし などを" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-020",
+    "source" : "testpic/Screenshot 2026-10-20 22-53-20.png",
+    "sourceSha256" : "401f558f3d1f01de72ed585ee00ab262d4e1e630d7f45f83d4dd89b09818d1c1",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "あ……", "この あいだは どーも！" ],
+      "rawOcr" : [ "あ……", "この あいだは どーも！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-021",
+    "source" : "testpic/Screenshot 2026-10-20 22-53-32.png",
+    "sourceSha256" : "4470ea87f85d4d62b5b4bbe5617c779ee1db9f47bc942f88503558eee82c9cb5",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ロケットだんが シルフ おそって", "だいじけんって きいて！" ],
+      "rawOcr" : [ "ロケットだんが シルフ おそって", "だいじけんって きいて！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-022",
+    "source" : "testpic/Screenshot 2026-10-20 22-53-38.png",
+    "sourceSha256" : "03528ddf9f04d0f882dc4cb8e7693dbabc8cf6281c4f13a092bc8483922f9cd4",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "かいけつ した……？", "すんません！" ],
+      "rawOcr" : [ "かいけつ した……？", "すんません！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-023",
+    "source" : "testpic/Screenshot 2026-10-20 22-54-30.png",
+    "sourceSha256" : "280fb249d52660249f203e543e9143b5e1868c425edd4e37f307169c993a6f4b",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "みせの まえの うえきが じゃまで", "むこうへ いけないよ！" ],
+      "rawOcr" : [ "みせの まえの うえきが じゃまで", "むこうへ いけないよ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 32,
+        "y" : 128,
+        "raw" : "へ",
+        "candidates" : [ "へ", "ヘ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 4,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-024",
+    "source" : "testpic/Screenshot 2026-10-20 22-54-36.png",
+    "sourceSha256" : "75072191e4e4384f8b8035ef6805621249ef891e7c83476e444ecf0b77538f94",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "でも どこか まわりみち すると", "いける らしい けど……" ],
+      "rawOcr" : [ "でも どこか まわりみち すると", "いける らしい けど……" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 80,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-025",
+    "source" : "testpic/Screenshot 2026-10-20 22-54-44.png",
+    "sourceSha256" : "b25db7b4d1ad6ec40f03f4c0051e7acc5473374c29f06049b27a0053aa017714",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ほほう……！", "ポケモンの ずかんを つくってる？" ],
+      "rawOcr" : [ "ほほう……！", "ポケモンの ずかんを つくってる？" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-026",
+    "source" : "testpic/Screenshot 2026-10-20 22-54-49.png",
+    "sourceSha256" : "4177ab62389a29a63df336ea3bb34e2b2fe9ccc3057e754d0c72a242e02b6cf2",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ポケモンの ずかんを つくってる？", "それは たのしそう だなあ！" ],
+      "rawOcr" : [ "ポケモンの ずかんを つくってる？", "それは たのしそう だなあ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-027",
+    "source" : "testpic/Screenshot 2026-10-20 22-54-57.png",
+    "sourceSha256" : "73989b4374a71e645cce4ffc4b394e29fb4ee53368133ebd01feb39b33c790f7",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "わたしも じてんしゃ ほしい！", "まっかな じてんしゃ！" ],
+      "rawOcr" : [ "わたしも じてんしゃ ほしい！", "まっかな じてんしゃ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-028",
+    "source" : "testpic/Screenshot 2026-10-20 22-55-14.png",
+    "sourceSha256" : "c33e15eba80bbded4e695eaa99482ff9040c27cccd7c43211eba78b401dc7f1c",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ハナダ ポケモン ジム", "カスミ にんてい トレーナー！" ],
+      "rawOcr" : [ "ハナダ ポケモン ジム", "カスミ にんてい トレーナー！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-029",
+    "source" : "testpic/Screenshot 2026-10-20 22-55-18.png",
+    "sourceSha256" : "a4e86d853e80ef2715e7d44e1851d863d16f51ed40f2cb047cdb9d51dc87e620",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : false,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "カスミ にんてい トレーナー！", "レッド グリーン" ],
+      "rawOcr" : [ "カスミ にんてい トレーナー！", "レッド グりーン" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : false,
+      "errors" : 0,
+      "strictUnicodeErrors" : 1,
+      "ambiguousCharacters" : [ {
+        "x" : 48,
+        "y" : 128,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-030",
+    "source" : "testpic/Screenshot 2026-10-20 22-55-23.png",
+    "sourceSha256" : "c06e7a59f7cfad1f73469c892e731671b419797ec9ae80fa8879c403292d8521",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "カスミに かったな！", "おれの いった とおり だったろ？" ],
+      "rawOcr" : [ "カスミに かったな！", "おれの いった とおり だったろ？" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 88,
+        "y" : 128,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-031",
+    "source" : "testpic/Screenshot 2026-10-20 22-55-35.png",
+    "sourceSha256" : "3c35b828593c04d0a88ca916f423d237060696bd55aaf92ccb76f48df3572a7a",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "わざマシン11は バブルこうせんを", "ポケモンに おしえるの" ],
+      "rawOcr" : [ "わざマシン11は バブルこうせんを", "ポケモンに おしえるの" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-032",
+    "source" : "testpic/Screenshot 2026-10-20 22-56-03.png",
+    "sourceSha256" : "be47573b6f7e6badaefd2daa107245c22e7e26bef08a79e3f1da335001cb97bb",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : false,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "おかあさん『グリーン……！", "すこし やすんで いったら" ],
+      "rawOcr" : [ "おかあさん『グりーン……！", "すこし やすんで いったら" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : false,
+      "errors" : 0,
+      "strictUnicodeErrors" : 1,
+      "ambiguousCharacters" : [ {
+        "x" : 64,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-033",
+    "source" : "testpic/Screenshot 2026-10-20 22-56-08.png",
+    "sourceSha256" : "518d5a43a1173fa6f0bdc7244ea7696300202833581a0e866a9332f89301e6db",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "すこし やすんで いったら", "どうかしら……？" ],
+      "rawOcr" : [ "すこし やすんで いったら", "どうかしら……？" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-034",
+    "source" : "testpic/Screenshot 2026-10-20 22-56-29.png",
+    "sourceSha256" : "f36e4266041629074741620753cee68bfc8d29df8af1c2ea95de6493156f4ea6",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "にんげんと おなじように", "ポケモンも いきてるの！" ],
+      "rawOcr" : [ "にんげんと おなじように", "ポケモンも いきてるの！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-035",
+    "source" : "testpic/Screenshot 2026-10-20 22-56-33.png",
+    "sourceSha256" : "4787116663b880ca94cbdf1245ef7d6204bf396ac07b09c7f8b2a915e2b23c37",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "たいりょくが ないときは", "やすませて あげて！" ],
+      "rawOcr" : [ "たいりょくが ないときは", "やすませて あげて！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 24,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-036",
+    "source" : "testpic/Screenshot 2026-10-20 22-56-46.png",
+    "sourceSha256" : "a59f9506b7db30f143ea300cf9fc763f59a8d47ad1069660cdc22c5189836f58",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "わたしも はかせの じょしゅ として", "ポケモンを けんきゅう してます" ],
+      "rawOcr" : [ "わたしも はかせの じょしゅ として", "ポケモンを けんきゅう してます" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-037",
+    "source" : "testpic/Screenshot 2026-10-20 22-56-51.png",
+    "sourceSha256" : "2fc596299d91aff5d9999fe12ee4a793ebf873019306e2cc9e0214c3fe318062",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ポケモンの ほんが いっぱい！" ],
+      "rawOcr" : [ "ポケモンの ほんが いっぱい！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-038",
+    "source" : "testpic/Screenshot 2026-10-20 22-57-10.png",
+    "sourceSha256" : "b8468d7e70c208e4a756b0ebcb129a0b2c58c7d86bec72c44c91ec0981b71dd5",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "オーキド『よく きた！", "ポケモンずかんの" ],
+      "rawOcr" : [ "オーキド『よく きた！", "ポケモンずかんの" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-039",
+    "source" : "testpic/Screenshot 2026-10-20 22-58-40.png",
+    "sourceSha256" : "6f6979ca8acd02032c6333ecf93061046a761bbe2ee92f98d97cf6568028a79f",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "あ！ やせいの", "コラッタが とびだしてきた！" ],
+      "rawOcr" : [ "あ！ やせいの", "コラッタが とびだしてきた！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-040",
+    "source" : "testpic/Screenshot 2026-10-20 22-58-44.png",
+    "sourceSha256" : "9e8e51651f94a544bc0c384bc5dd8b6034a1e5dae6c87d952ad41e65c233cf06",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : true,
+    "regions" : [ ]
+  }, {
+    "sampleId" : "g1-041",
+    "source" : "testpic/Screenshot 2026-10-20 22-58-49.png",
+    "sourceSha256" : "06a4434d7065ae3648a765242bd63e75f4ab461e83a49c6dc406c0b1d2991a92",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ラプラスの", "れいとうビーム！" ],
+      "rawOcr" : [ "ラプラスの", "れいとうビーム！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-042",
+    "source" : "testpic/Screenshot 2026-10-20 22-58-54.png",
+    "sourceSha256" : "56470da48d66dfc0ee1589b8aed24175fcb50dabba231604027875c070673e17",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "てきの コラッタは たおれた！" ],
+      "rawOcr" : [ "てきの コラッタは たおれた！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-043",
+    "source" : "testpic/Screenshot 2026-10-20 22-59-17.png",
+    "sourceSha256" : "e926401f8a28f18f102a3f5a6dfc822c289b593ecdb90ecb9f893569125e645e",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ラプラスの", "れいとうビーム！" ],
+      "rawOcr" : [ "ラプラスの", "れいとうビーム！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-044",
+    "source" : "testpic/Screenshot 2026-10-20 22-59-22.png",
+    "sourceSha256" : "358a1f12e53ed0812020f4d94f718004d55b3996463245fe0ab05fbcb92a3ccc",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "てきの ポッポは たおれた！" ],
+      "rawOcr" : [ "てきの ポッポは たおれた！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-045",
+    "source" : "testpic/Screenshot 2026-10-20 22-59-25.png",
+    "sourceSha256" : "53fa6e41b68d8f8eb0438908691109bb94e7850144c867f5e8d51c8a817d15d8",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ラプラスは おおめに", "34 けいけんちを もらった！" ],
+      "rawOcr" : [ "ラプラスは おおめに", "34 けいけんちを もらった！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-046",
+    "source" : "testpic/Screenshot 2026-10-20 22-59-43.png",
+    "sourceSha256" : "9fdf71a6cb4c06f6539069e66a6ed9ca8c81ff25ab54b9f1adac6844e9c321bf",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "battle_action",
+      "detectedLayout" : "battle_action",
+      "semanticType" : "battle_action",
+      "bounds" : {
+        "x" : 72,
+        "y" : 96,
+        "width" : 88,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 88,
+        "y" : 112,
+        "columns" : 8,
+        "maskedColumns" : [ 4 ]
+      }, {
+        "x" : 88,
+        "y" : 128,
+        "columns" : 8,
+        "maskedColumns" : [ 4 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "たたかう どうぐ", "ポケモン にげる" ],
+      "rawOcr" : [ "たたかう どうぐ", "ポケモン にげる" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "expectedSelection" : 0,
+      "actualSelection" : 0,
+      "selectionPass" : true,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-047",
+    "source" : "testpic/Screenshot 2026-10-20 22-59-47.png",
+    "sourceSha256" : "42a032a33feb30cffcbaf661cc535b787db3473eb89384c17ea4e50f6c13aa61",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "bag_items",
+      "detectedLayout" : "shared_list",
+      "semanticType" : "ambiguous",
+      "bounds" : {
+        "x" : 32,
+        "y" : 16,
+        "width" : 128,
+        "height" : 88
+      },
+      "textGrids" : [ {
+        "x" : 48,
+        "y" : 32,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 48,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 64,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 80,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "じてんしゃ", "ポケモンのふえ", "いいつりざお", "ボロのつりざお" ],
+      "rawOcr" : [ "じてんしゃ", "ポケモンのふえ", "いいつりざお", "ボロのつりざお" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "expectedSelection" : 1,
+      "actualSelection" : 1,
+      "selectionPass" : true,
+      "ambiguousCharacters" : [ {
+        "x" : 72,
+        "y" : 64,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      }, {
+        "x" : 80,
+        "y" : 80,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-048",
+    "source" : "testpic/Screenshot 2026-10-20 23-00-00.png",
+    "sourceSha256" : "fecf3e11ca20a1793e4de0cc1bea2c75d542df305988f3d4a9841d0b55c74f21",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : false,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "グリーンは", "モンスターボールを つかった！" ],
+      "rawOcr" : [ "グりーンは", "モンスターボールを つかった！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : false,
+      "errors" : 0,
+      "strictUnicodeErrors" : 1,
+      "ambiguousCharacters" : [ {
+        "x" : 16,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-049",
+    "source" : "testpic/Screenshot 2026-10-20 23-00-35.png",
+    "sourceSha256" : "0df000d8a3fe6328e42527e23bc262f7a9dcb9166f747df92a10eabfa0482035",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "やったー！", "コラッタを つかまえたぞ！" ],
+      "rawOcr" : [ "やったー！", "コラッタを つかまえたぞ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-050",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-13.png",
+    "sourceSha256" : "d2826fb9944df124d74f0e77e6170b1c7998f53618eb45aad94c7297dfaac69b",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : false,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ポケモン リーグへ ようこそ！" ],
+      "rawOcr" : [ "ポケモン りーグへ ようこそ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : false,
+      "errors" : 0,
+      "strictUnicodeErrors" : 1,
+      "ambiguousCharacters" : [ {
+        "x" : 48,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      }, {
+        "x" : 72,
+        "y" : 112,
+        "raw" : "へ",
+        "candidates" : [ "へ", "ヘ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 4,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-051",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-17.png",
+    "sourceSha256" : "2cc097af3e425e47b9f97ae774bfe92a75b42a1a6147b641410847464957f06e",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "わたしが してんのうの カンナ！" ],
+      "rawOcr" : [ "わたしが してんのうの カンナ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-052",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-19.png",
+    "sourceSha256" : "bf4d0a80cb1af40f25dff00af1b774b7a02e471887eec34a15ddb432deddd39a",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "こおり ポケモン つかわせたら", "みぎに でる ものは いないわ" ],
+      "rawOcr" : [ "こおり ポケモン つかわせたら", "みぎに でる ものは いないわ" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 24,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-053",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-21.png",
+    "sourceSha256" : "3eec2837cc0998f0e53a13cdb29903573bda444aed9dafcb4fb531b045265785",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "あいてを こおらせるって", "とっても きょうりょくよ！" ],
+      "rawOcr" : [ "あいてを こおらせるって", "とっても きょうりょくよ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 72,
+        "y" : 128,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-054",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-23.png",
+    "sourceSha256" : "57e6d377c53f087f64bd02c43b5a78d17fce7ad6852961f901d23188dcda9c64",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "だって こおっちゃったら", "あんたの ポケモン" ],
+      "rawOcr" : [ "だって こおっちゃったら", "あんたの ポケモン" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-055",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-25.png",
+    "sourceSha256" : "68361867be7b6cbc209b85414192f5d8d80a61012fa9d10d9d6d56ae3be0df55",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "あんたの ポケモン", "ぜんぜん うごけ ないんだから" ],
+      "rawOcr" : [ "あんたの ポケモン", "ぜんぜん うごけ ないんだから" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-056",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-27.png",
+    "sourceSha256" : "51d02de09f168890fc4b3a7ec2c7bb2e6caa069f30956bf8b181c09f293483e3",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "…… あははッ！", "じゃ かくごは いいかしら！" ],
+      "rawOcr" : [ "…… あははッ！", "じゃ かくごは いいかしら！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-057",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-30.png",
+    "sourceSha256" : "ccccf0aa764ed606a8c52b47408ad3b232e77e53313f897a0a7cd329912fd91c",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : true,
+    "regions" : [ ]
+  }, {
+    "sampleId" : "g1-058",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-35.png",
+    "sourceSha256" : "50ae0eb3803293c2b613d3902a5db3b3a67875893925016958d87bde2b5979f1",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "カンナが", "しょうぶを しかけてきた！" ],
+      "rawOcr" : [ "カンナが", "しょうぶを しかけてきた！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-059",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-38.png",
+    "sourceSha256" : "305b4ddb28b04c937e982fe4feb1fc211900231ee08dd102c0b2ea60b6c233b0",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "カンナは", "ジュゴンを くりだした！" ],
+      "rawOcr" : [ "カンナは", "ジュゴンを くりだした！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 64,
+        "y" : 128,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-060",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-41.png",
+    "sourceSha256" : "ec7e351d875a5400a7db81fbb9a2c4516977ad3f0c2324ce49d0019cae58b349",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ゆけっ！ ラプラス！" ],
+      "rawOcr" : [ "ゆけっ！ ラプラス！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-061",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-45.png",
+    "sourceSha256" : "a93d3237b694a90b0ffec6b3203ffef6828703d2ae37eee525baa78a9ca36bf5",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "きゅうしょ" ],
+      "rawOcr" : [ "きゅうしょ" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-062",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-46.png",
+    "sourceSha256" : "573c8d87cf1df1e04d820bcccbef1a61f931eab25c8ecd318a52697be8e38f54",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "きゅうしょに あたった！" ],
+      "rawOcr" : [ "きゅうしょに あたった！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-063",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-52.png",
+    "sourceSha256" : "46705a05ecf2122473b18dca68c82b449987babaab019e0281181f967d534763",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "てきの ジュゴンは たいりょくを", "かいふくした！" ],
+      "rawOcr" : [ "てきの ジュゴンは たいりょくを", "かいふくした！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 104,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-064",
+    "source" : "testpic/Screenshot 2026-10-20 23-01-59.png",
+    "sourceSha256" : "27bce32ffe9c40bd3220e87d418565661330bf1b4578d8ae4df1e8273663fa85",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ゆけっ" ],
+      "rawOcr" : [ "ゆけっ" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-065",
+    "source" : "testpic/Screenshot 2026-10-20 23-02-00.png",
+    "sourceSha256" : "360a18cdfbf28e2a3df7653f3f3b8f247b2ea81a9e23e6446bc1692cb4e1ee08",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ゆけっ！ ウツボット！" ],
+      "rawOcr" : [ "ゆけっ！ ウツボット！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-066",
+    "source" : "testpic/Screenshot 2026-10-20 23-02-07.png",
+    "sourceSha256" : "7d819a8fbf321aee0b401cb7831c9a27b5b5004f6638539a263f54aa15857672",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ウツボットの", "はっぱカッター！" ],
+      "rawOcr" : [ "ウツボットの", "はっぱカッター！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-067",
+    "source" : "testpic/Screenshot 2026-10-20 23-02-11.png",
+    "sourceSha256" : "df1675c3c57d93226e0ed46a32fcae62d450be403a56ea4844fdc8bac07276b3",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "きゅうしょに あたった！" ],
+      "rawOcr" : [ "きゅうしょに あたった！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-068",
+    "source" : "testpic/Screenshot 2026-10-20 23-02-14.png",
+    "sourceSha256" : "983456b5da75bf434a39cfb2f79aa8ed66f2f7f3179fc6cb6214e28dc8eeca5c",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "こうかは ばつぐんだ！" ],
+      "rawOcr" : [ "こうかは ばつぐんだ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-069",
+    "source" : "testpic/Screenshot 2026-10-20 23-02-16.png",
+    "sourceSha256" : "e9eb37e1bb4e122aa0b7037b3625bc292a9e16e17b65a2ab67a2b5246a2e6284",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "てきの ジュゴンは めをさました！" ],
+      "rawOcr" : [ "てきの ジュゴンは めをさました！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-070",
+    "source" : "testpic/Screenshot 2026-10-20 23-02-27.png",
+    "sourceSha256" : "9ce8eb1c492c006a5257aad9b73bb3c109da27e277de09855224ec08055c8875",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "こうかは ばつぐんだ！" ],
+      "rawOcr" : [ "こうかは ばつぐんだ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-071",
+    "source" : "testpic/Screenshot 2026-10-20 23-02-28.png",
+    "sourceSha256" : "12bf733d3eb26d8601c2168ac4f0e8229455595f67075ad4c1d8b6ad1393d0ab",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "てきの ジュゴンは たおれた！" ],
+      "rawOcr" : [ "てきの ジュゴンは たおれた！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-072",
+    "source" : "testpic/Screenshot 2026-10-20 23-02-30.png",
+    "sourceSha256" : "53b81b03005feeddaad3657c9105be7640d735ea808f9ff5a03ccc494f098d73",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ラプラスは おおめに", "1525 けいけんちを もらった！" ],
+      "rawOcr" : [ "ラプラスは おおめに", "1525 けいけんちを もらった！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-073",
+    "source" : "testpic/Screenshot 2026-10-20 23-02-32.png",
+    "sourceSha256" : "1d07baf98d3a5678088476e85a06356cfdd0107676af96bee89b9cb79441aae7",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ウツボットは", "1017 けいけんちを もらった！" ],
+      "rawOcr" : [ "ウツボットは", "1017 けいけんちを もらった！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-074",
+    "source" : "testpic/Screenshot 2026-10-20 23-02-40.png",
+    "sourceSha256" : "0fee04f4a72271099fb2192658e5f5b754951d0e37c8d2462550be479e683848",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ウツボットの", "はっぱカッター！" ],
+      "rawOcr" : [ "ウツボットの", "はっぱカッター！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-075",
+    "source" : "testpic/Screenshot 2026-10-20 23-03-21.png",
+    "sourceSha256" : "abed9fa88786da581451d96ec372d115d7d2d95df550a1e7b145647eaa304f55",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "battle_moves",
+      "detectedLayout" : "battle_moves",
+      "semanticType" : "battle_moves",
+      "bounds" : {
+        "x" : 0,
+        "y" : 64,
+        "width" : 80,
+        "height" : 80
+      },
+      "textGrids" : [ {
+        "x" : 16,
+        "y" : 80,
+        "columns" : 7,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 16,
+        "y" : 96,
+        "columns" : 7,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 16,
+        "y" : 112,
+        "columns" : 7,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 16,
+        "y" : 128,
+        "columns" : 7,
+        "maskedColumns" : [ ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "はっぱカッター", "ねむりごな", "つるぎのまい", "すてみタックル" ],
+      "rawOcr" : [ "はっぱカッター", "ねむりごな", "つるぎのまい", "すてみタックル" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "expectedSelection" : 0,
+      "actualSelection" : 0,
+      "selectionPass" : true,
+      "ambiguousCharacters" : [ {
+        "x" : 32,
+        "y" : 96,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-076",
+    "source" : "testpic/Screenshot 2026-10-20 23-04-12.png",
+    "sourceSha256" : "f34c741ca6d38f2afc4e4a3481a462f70b19dac8f247d33d74b97735d362862f",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ラプラスは", "こんらんしている！" ],
+      "rawOcr" : [ "ラプラスは", "こんらんしている！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-077",
+    "source" : "testpic/Screenshot 2026-10-20 23-04-14.png",
+    "sourceSha256" : "dab805a98c48214fd42e2b440833bba6155c7623cc786273bbafab53352dce44",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 2,
+        "y" : 96,
+        "width" : 158,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 10,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 10,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ラプラスの", "のしかかり こうげき！" ],
+      "rawOcr" : [ "ラプラスの", "のしかかり こうげき！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 42,
+        "y" : 128,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-078",
+    "source" : "testpic/Screenshot 2026-10-20 23-04-19.png",
+    "sourceSha256" : "593f35811744e936c8c8c4763e9e179e5a9628756ebf3e0e8d79cedd8f1999ec",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "カンナは ラプラスに", "いいキズぐすりを つかった" ],
+      "rawOcr" : [ "カンナは ラプラスに", "いいキズぐすりを つかった" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 56,
+        "y" : 128,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-079",
+    "source" : "testpic/Screenshot 2026-10-20 23-04-44.png",
+    "sourceSha256" : "4a9aebbadb45e174541a0190c85a248c321d9ef6962b6e8ae3ac67632e4cf81e",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "てきの ラプラスは たおれた！" ],
+      "rawOcr" : [ "てきの ラプラスは たおれた！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-080",
+    "source" : "testpic/Screenshot 2026-10-20 23-04-51.png",
+    "sourceSha256" : "9e88542f4605972357eea195db291c39041df487ef40dd2dc1f0b2fc2e79f3f1",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "カンナとの", "しょうぶに かった！" ],
+      "rawOcr" : [ "カンナとの", "しょうぶに かった！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-081",
+    "source" : "testpic/Screenshot 2026-10-20 23-04-56.png",
+    "sourceSha256" : "9643526ac2a32f153d662e783a56af1756f6dc8ed73f39949c4818d6e6ebe632",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "カンナ『…… なんて やつなの！" ],
+      "rawOcr" : [ "カンナ『…… なんて やつなの！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-082",
+    "source" : "testpic/Screenshot 2026-10-20 23-04-58.png",
+    "sourceSha256" : "9c68931bc8c753344de914ce837a47b50edf773f79bf2c07fad1d41db838e92d",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : false,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "グリーンは しょうきんとして", "5544円 てにいれた！" ],
+      "rawOcr" : [ "グりーンは しょうきんとして", "5544円 てにいれた！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : false,
+      "errors" : 0,
+      "strictUnicodeErrors" : 1,
+      "ambiguousCharacters" : [ {
+        "x" : 16,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-083",
+    "source" : "testpic/Screenshot 2026-10-20 23-05-02.png",
+    "sourceSha256" : "44d2665048cc713bc01abdb4f9d6842ebe4b42c458ae120533cb35aea2f1d660",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "すこしは できる みたいね！", "わかった……！" ],
+      "rawOcr" : [ "すこしは できる みたいね！", "わかった……！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-084",
+    "source" : "testpic/Screenshot 2026-10-20 23-05-04.png",
+    "sourceSha256" : "76a9705cf906ced7520fbb1ad96761b536f141e258c7f8019580e43d4e4adc23",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "わかった……！", "つぎの へやに すすむと いいわ！" ],
+      "rawOcr" : [ "わかった……！", "つぎの へやに すすむと いいわ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ {
+        "x" : 40,
+        "y" : 128,
+        "raw" : "へ",
+        "candidates" : [ "へ", "ヘ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 4,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-085",
+    "source" : "testpic/Screenshot 2026-10-20 23-05-06.png",
+    "sourceSha256" : "cd6d1bed5e03dfddd43c1eebd64d4bfa734d34398fb95782b4356795f38dd978",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : false,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ポケモン リーグ しんの パワーは", "まだまだ……！" ],
+      "rawOcr" : [ "ポケモン りーグ しんの パワーは", "まだまだ……！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : false,
+      "errors" : 0,
+      "strictUnicodeErrors" : 1,
+      "ambiguousCharacters" : [ {
+        "x" : 48,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-086",
+    "source" : "testpic/Screenshot 2026-10-20 23-05-08.png",
+    "sourceSha256" : "3b04a1b839316b1c2962b63d9b732a53eaf968bce46880efd1531ff43dab1102",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "まだまだ……！", "こんな ものじゃ ないわよ！" ],
+      "rawOcr" : [ "まだまだ……！", "こんな ものじゃ ないわよ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-087",
+    "source" : "testpic/Screenshot 2026-10-20 23-05-23.png",
+    "sourceSha256" : "d4acb708ebaccf433762fb17a97df16df7f3fb6e4eb236057d94d2bf948226d8",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ひとも ポケモンも", "たたかい きたえれば" ],
+      "rawOcr" : [ "ひとも ポケモンも", "たたかい きたえれば" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-088",
+    "source" : "testpic/Screenshot 2026-10-20 23-05-25.png",
+    "sourceSha256" : "3a393e3dbaa3f6a51499bb59e6a611b55f5d4fd5473b87dd4842068f46f4b633",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "たたかい きたえれば", "どこまでも つよくなる！" ],
+      "rawOcr" : [ "たたかい きたえれば", "どこまでも つよくなる！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-089",
+    "source" : "testpic/Screenshot 2026-10-20 23-05-27.png",
+    "sourceSha256" : "5781b5d0fb88275e2da7bcb73a69f4b756a16473410a75fa4133ab1a61c19dd6",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "おれは そんな きたえ ぬかれた", "ポケモンと ともに いきてきた！" ],
+      "rawOcr" : [ "おれは そんな きたえ ぬかれた", "ポケモンと ともに いきてきた！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-090",
+    "source" : "testpic/Screenshot 2026-10-20 23-05-29.png",
+    "sourceSha256" : "e0843bfea9fa0f07f3cdbc75321f0cd831a2d31bb895e21f13e900cc2cec65c7",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ポケモンと ともに いきてきた！", "そして これからもな！" ],
+      "rawOcr" : [ "ポケモンと ともに いきてきた！", "そして これからもな！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-091",
+    "source" : "testpic/Screenshot 2026-10-20 23-05-30.png",
+    "sourceSha256" : "6ffd0316c9c322ca2f02692434c53381a925b4b267e0c095daae6a2d2a229fc3",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : false,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "グリーンと いったな！" ],
+      "rawOcr" : [ "グりーンと いったな！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : false,
+      "errors" : 0,
+      "strictUnicodeErrors" : 1,
+      "ambiguousCharacters" : [ {
+        "x" : 16,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-092",
+    "source" : "testpic/Screenshot 2026-10-20 23-05-33.png",
+    "sourceSha256" : "b13a2145b1cfc3c5714a0a9551960f940849b6bd3eb6fbaaeeaab9d89a1cabca",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "おれたちの スーパー パワーを", "うけて みるが いい！" ],
+      "rawOcr" : [ "おれたちの スーパー パワーを", "うけて みるが いい！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-093",
+    "source" : "testpic/Screenshot 2026-10-20 23-05-34.png",
+    "sourceSha256" : "e3fb40e95a8784915c4c7b3146e6b59741e3121863d6d6c92b59a4d2f54b35e6",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ウー！ ハーッ！" ],
+      "rawOcr" : [ "ウー！ ハーッ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-094",
+    "source" : "testpic/Screenshot 2026-10-20 23-07-21.png",
+    "sourceSha256" : "d5a7b675cb101d950e2eb79c843779bdf8e4395e3c7ab1fb7cb38e4f6aaf04f1",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : false,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ラプラスは", "レベル51 に あがった！" ],
+      "rawOcr" : [ "ラプラスは", "レべル51 に あがった！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : false,
+      "errors" : 0,
+      "strictUnicodeErrors" : 1,
+      "ambiguousCharacters" : [ {
+        "x" : 16,
+        "y" : 128,
+        "raw" : "べ",
+        "candidates" : [ "べ", "ベ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 4,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-095",
+    "source" : "testpic/Screenshot 2026-10-20 23-07-34.png",
+    "sourceSha256" : "400dced3ede8f6a2ccb5eb5824c99b6b5d3194a8a4037dfc700d5faf0786823a",
+    "group" : "development",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ダメだ！", "しょうぶの さいちゅうに" ],
+      "rawOcr" : [ "ダメだ！", "しょうぶの さいちゅうに" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-096",
+    "source" : "testpic/Screenshot 2026-10-20 23-10-46.png",
+    "sourceSha256" : "2eeb54c2b103a152d2aa7ed5e88fe88a33eba7537d41d44e580bec6f30660696",
+    "group" : "holdout_lab",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ここでは まいにち", "ポケモンの けんきゅうを してます" ],
+      "rawOcr" : [ "ここでは まいにち", "ポケモンの けんきゅうを してます" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-097",
+    "source" : "testpic/Screenshot 2026-10-20 23-10-55.png",
+    "sourceSha256" : "c41d53e079428293be0e8f262792f6871ccbad80546b4b17a68c35df9c568f0a",
+    "group" : "holdout_lab",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : false,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "グレン ラボラトリーの そうせつしゃ", "フジはかせの しゃしんだ！" ],
+      "rawOcr" : [ "グレン ラボラトりーの そうせつしゃ", "フジはかせの しゃしんだ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : false,
+      "errors" : 0,
+      "strictUnicodeErrors" : 1,
+      "ambiguousCharacters" : [ {
+        "x" : 72,
+        "y" : 112,
+        "raw" : "り",
+        "candidates" : [ "り", "リ" ],
+        "distance" : 0,
+        "runnerUpDistance" : 8,
+        "unknown" : false
+      } ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-098",
+    "source" : "testpic/Screenshot 2026-10-20 23-11-01.png",
+    "sourceSha256" : "9f7245a9976e1bf18dc5868d4a34d91f8afc1fedf8113c7cf899ae5c23513cd7",
+    "group" : "holdout_lab",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "あと めずらしい ポケモンなどを", "もちこんでくる おきゃくさんも" ],
+      "rawOcr" : [ "あと めずらしい ポケモンなどを", "もちこんでくる おきゃくさんも" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-099",
+    "source" : "testpic/Screenshot 2026-10-20 23-11-13.png",
+    "sourceSha256" : "c2103175f1c9353d2312269747bf8cda8cdfb062b043d17bc1c6157b75374407",
+    "group" : "holdout_lab",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "これこれ", "きみ ライチュウ もっとる？" ],
+      "rawOcr" : [ "これこれ", "きみ ライチュウ もっとる？" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-100",
+    "source" : "testpic/Screenshot 2026-10-20 23-11-18.png",
+    "sourceSha256" : "098efab7fa978c2a781a4a3710eb06a850763334616473e213f45ef88f752355",
+    "group" : "holdout_lab",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "わしの マルマインと", "こうかん しないか？" ],
+      "rawOcr" : [ "わしの マルマインと", "こうかん しないか？" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-101",
+    "source" : "testpic/Screenshot 2026-10-20 23-11-25.png",
+    "sourceSha256" : "ab7e47da50bbb278bdd55656237f9411891f2a655c1d792a74393e4526d1a7f3",
+    "group" : "holdout_lab",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "ぼく おつきみやまで", "カセキを みつけましてねー！" ],
+      "rawOcr" : [ "ぼく おつきみやまで", "カセキを みつけましてねー！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-102",
+    "source" : "testpic/Screenshot 2026-10-20 23-11-29.png",
+    "sourceSha256" : "38db1d76792f1455f2da5ce936429051fba6057f41ac52c46231814ce0b5376f",
+    "group" : "holdout_lab",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "どうやら めずらしい", "ポケモンの カセキ らしいんですよ" ],
+      "rawOcr" : [ "どうやら めずらしい", "ポケモンの カセキ らしいんですよ" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-103",
+    "source" : "testpic/Screenshot 2026-10-20 23-11-35.png",
+    "sourceSha256" : "4ee55db32280b4772d4a3071849582735f43fc942f36b5d853d69c21dd193ca1",
+    "group" : "holdout_lab",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "モンジャラ げんき？", "わたしの コンパンは げんきよ" ],
+      "rawOcr" : [ "モンジャラ げんき？", "わたしの コンパンは げんきよ" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-104",
+    "source" : "testpic/Screenshot 2026-10-20 23-11-47.png",
+    "sourceSha256" : "85b25c2fea07280cc9ff32ccf6b0366bfa4897b1cc89506d14d7301793d06eab",
+    "group" : "holdout_lab",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "はいー！" ],
+      "rawOcr" : [ "はいー！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-105",
+    "source" : "testpic/Screenshot 2026-10-20 23-11-52.png",
+    "sourceSha256" : "189955df3c6c3960b634ebb7dbc6cf35845b7cf6e042bf758c5e25b4ddbbfaa1",
+    "group" : "holdout_lab",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "わたしは エラーイ はかせ" ],
+      "rawOcr" : [ "わたしは エラーイ はかせ" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-106",
+    "source" : "testpic/Screenshot 2026-10-20 23-11-56.png",
+    "sourceSha256" : "c4fb36f40a081cc1f0e46bb32897f0e9336431ead815710442957265aaf34223",
+    "group" : "holdout_lab",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "いつも めずらしい カセキ", "けんきゅう してる アルよ！" ],
+      "rawOcr" : [ "いつも めずらしい カセキ", "けんきゅう してる アルよ！" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-107",
+    "source" : "testpic/Screenshot 2026-10-20 23-12-00.png",
+    "sourceSha256" : "dec47a11349e81e8911820022c7f3c599dc9bff06fd51d87e53e886b609ed813",
+    "group" : "holdout_lab",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "あなた！", "いい カセキ もってるか？" ],
+      "rawOcr" : [ "あなた！", "いい カセキ もってるか？" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  }, {
+    "sampleId" : "g1-108",
+    "source" : "testpic/Screenshot 2026-10-20 23-12-03.png",
+    "sourceSha256" : "108cc2cfbb26ba1d6fd4fb1e0c8f28836cee4fcc0790146e258d52c05aacb1e1",
+    "group" : "holdout_lab",
+    "threshold" : 84,
+    "pass" : true,
+    "strictUnicodePass" : true,
+    "expectedNoTargetText" : false,
+    "regions" : [ {
+      "expectedType" : "dialogue",
+      "detectedLayout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "expectedLines" : [ "もってない アルね……" ],
+      "rawOcr" : [ "もってない アルね……" ],
+      "expectedFooter" : [ ],
+      "footerLines" : [ ],
+      "pass" : true,
+      "strictUnicodePass" : true,
+      "errors" : 0,
+      "strictUnicodeErrors" : 0,
+      "ambiguousCharacters" : [ ],
+      "unknownCharacters" : [ ],
+      "maximumMatchDistance" : 0,
+      "resolvedJapanese" : null,
+      "chinese" : null
+    } ]
+  } ]
+}
