@@ -14,7 +14,9 @@
 | `control_rules.csv` | 显示控制符、固定展开、名字、数字及列表字段规则 |
 | `sources.csv` | 来源仓库、分支、固定提交、适用版本及分发状态 |
 
-所有 CSV 为 UTF-8、LF，支持字段内真实换行。应使用 CSV 解析器，不按物理文件行切分记录。嵌套来源、命令和事件保存在 CSV 字段中的 JSON 值里；不依赖第三方仓库出现在运行环境中。
+本目录 CSV 为带 BOM 的 UTF-8、LF，支持字段内真实换行；BOM 供 Excel 直接打开时识别编码。程序读取时须消费文件开头的 BOM，例如 Python 使用 `encoding='utf-8-sig'`，不将其计入第一列列名。应使用 CSV 解析器，不按物理文件行切分记录。嵌套来源、命令和事件保存在 CSV 字段中的 JSON 值里；不依赖第三方仓库出现在运行环境中。
+
+Excel 中也可使用“数据 → 从文本/CSV”，选择 `65001: Unicode (UTF-8)` 导入。编码处理依据见 [Microsoft：正确打开 UTF-8 CSV](https://support.microsoft.com/en-gb/excel/opening-csv-utf-8-files-correctly-in-excel)。
 
 ## 来源与建设方法
 

@@ -28,7 +28,7 @@ BOOKS = ['buildingsA', 'buildingsB', 'core', 'indoor', 'outdoor', 'routes', 'rat
 
 def write_csv(path, rows, fields):
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open('w', encoding='utf-8', newline='') as f:
+    with path.open('w', encoding='utf-8-sig', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=fields, lineterminator='\n', extrasaction='ignore')
         writer.writeheader()
         writer.writerows(rows)

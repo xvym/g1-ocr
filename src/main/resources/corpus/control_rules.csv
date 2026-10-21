@@ -1,4 +1,4 @@
-token,kind,japanese_display,rule,source,notes
+﻿token,kind,japanese_display,rule,source,notes
 @,string_end,,结束当前PlaceString调用并保留光标；后续text_ram或text可以继续同句,home/text.asm#PlaceString,不是整段或整页结束
 text,command,,TX_START读取字符串；不自动换行,macros/scripts/text.asm#text,
 line,layout,\n,在对话框底行从首列书写,home/text.asm#PlaceNextChar,与next语义不同
