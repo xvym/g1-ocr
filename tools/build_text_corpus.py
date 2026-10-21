@@ -546,6 +546,7 @@ def segment_corpus(records, fragments):
             if len(lines) > 2:
                 raise ValueError(f"Missing semantic decision for long source: {record['id']}")
         current, previous = [], 0
+        revision = json.loads(record['chinese_revision']) if record['chinese_revision'] else None
         for ordinal, (end, start, stop, status) in enumerate(units, 1):
             while start < stop and record['chinese'][start] == '\n':
                 start += 1
@@ -556,19 +557,25 @@ def segment_corpus(records, fragments):
                            japanese='\n'.join(lines[previous:end]), chinese_start=start, chinese_end=stop,
                            chinese=record['chinese'][start:stop] if status == 'aligned' else '',
                            status=status, method=method, review_status=review, source_record_id=source_id)
+            if revision and (status == 'accepted_omission' or any(
+                    start < b and stop > a for a, b in revision['revised_ranges'])):
+                segment.update(method='user_approved_'+revision['method'],
+                               review_status='user_approved_'+revision['method'])
             segments.append(segment)
             current.append(segment)
-            if status != 'aligned':
+            if status not in {'aligned', 'accepted_omission'}:
                 issues.append(dict(record_id=record['id'], reason=status,
                                    japanese=segment['japanese'], chinese=record['chinese'][start:stop]))
             previous = end
         covered = {i for segment in current if segment['status'] == 'aligned'
                    for i in range(segment['chinese_start'], segment['chinese_end'])}
+        if revision:
+            covered.update(i for a, b in revision['excluded_ranges'] for i in range(a, b))
         unmatched = ''.join(ch for i, ch in enumerate(record['chinese']) if i not in covered and ch != '\n')
         if unmatched:
             issues.append(dict(record_id=record['id'], reason='chinese_without_japanese_segment',
                                japanese=record['japanese'], chinese=unmatched))
-        record['segment_status'] = ('source_semantic_gap' if any(s['status'] != 'aligned' for s in current)
+        record['segment_status'] = ('source_semantic_gap' if any(s['status'] not in {'aligned', 'accepted_omission'} for s in current)
                                     or unmatched else 'semantic_segmented' if method != 'aligned_whole_unit'
                                     else 'whole_visible_unit')
         by_record[record['id']] = current
@@ -585,12 +592,14 @@ def segment_corpus(records, fragments):
         overlapping = [s for s in current if s['japanese_start_ordinal'] <= ordinal
                        and s['japanese_end_ordinal'] >= first]
         fragment.update(chinese='', chinese_start='', chinese_end='')
-        blocked = [s for s in overlapping if s['status'] != 'aligned']
+        blocked = [s for s in overlapping if s['status'] not in {'aligned', 'accepted_omission'}]
         if blocked:
             fragment['status'] = blocked[0]['status']
             continue
-        ready = [s for s in overlapping if s['japanese_end_ordinal'] <= ordinal]
-        pending = [s for s in overlapping if s['japanese_end_ordinal'] > ordinal]
+        ready = [s for s in overlapping if s['status'] == 'aligned' and s['japanese_end_ordinal'] <= ordinal]
+        pending = [s for s in overlapping if s['status'] == 'aligned' and s['japanese_end_ordinal'] > ordinal]
+        if not ready and not pending and any(s['status'] == 'accepted_omission' for s in overlapping):
+            pending = [s for s in current if s['status'] == 'aligned' and s['japanese_end_ordinal'] > ordinal]
         if pending:
             fragment['waiting_for_ordinal'] = pending[0]['japanese_end_ordinal']
         if not ready:
@@ -782,6 +791,22 @@ def build():
     for f in all_fragments:
         f['japanese_ocr'] = f['japanese'].replace('　',' ').replace('⋯','…').translate(str.maketrans('０１２３４５６７８９','0123456789'))
         f['japanese_ocr'] = '\n'.join(line.rstrip() for line in f['japanese_ocr'].split('\n'))
+    records_by_id = {r['id']: r for r in all_records}
+    for record in all_records:
+        record['chinese_revision'] = ''
+    for revision in csv.DictReader((ROOT/'tools/text_translation_revisions.csv').open(encoding='utf-8-sig', newline='')):
+        record = records_by_id[revision['record_id']]
+        for field, expected in [('japanese', revision['japanese_sha256']),
+                                ('chinese', revision['original_chinese_sha256'])]:
+            if hashlib.sha256(record[field].encode('utf-8')).hexdigest() != expected:
+                raise ValueError(f"Approved revision source changed: {record['id']} {field}")
+        original = record['chinese']
+        record['chinese'] = revision['chinese']
+        record['chinese_revision'] = packed(dict(original_chinese=original,
+            revised_ranges=json.loads(revision['revised_ranges']),
+            excluded_ranges=json.loads(revision['excluded_ranges']),
+            source='tools/text_translation_revisions.csv', method=revision['method'],
+            approval_status=revision['approval_status'], evidence=revision['evidence']))
     semantic_segments, segmentation_issues = segment_corpus(all_records, all_fragments)
     write_csv(DEST/'sources.csv', source_rows, list(source_rows[0]))
     write_csv(DEST/'records.csv', all_records, list(all_records[0]))
@@ -797,6 +822,9 @@ def build():
                 semantic_segments=len(semantic_segments),
                 semantic_segment_methods=dict(collections.Counter(s['method'] for s in semantic_segments)),
                 segmentation_issue_records=len({issue['record_id'] for issue in segmentation_issues}),
+                approved_revision_methods=dict(collections.Counter(json.loads(r['chinese_revision'])['method']
+                    for r in all_records if r['chinese_revision'])),
+                accepted_omission_segments=sum(s['status'] == 'accepted_omission' for s in semantic_segments),
                 variable_status=dict(collections.Counter(r['variable_status'] for r in all_records)),
                 unresolved_source_alignment_issues=len(issues),verification='static_source_and_data_construction',
                 dynamic_tests_run=False,runtime_translation_integrated=False,

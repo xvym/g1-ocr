@@ -3773,13 +3773,13 @@ pokegreen:scripts/RocketHideoutB3F.asm:RocketHideoutB3FRocket2AfterBattleText,2,
 pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,1,1,2,"ほほうッ！
 こんな　ところ　まで　よくきた",0,15,"能来到这里，
 你的确很不简单！",aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
-pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,2,3,9,"せかい　じゅうの　ポケモンを
+pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,2,3,5,"せかい　じゅうの　ポケモンを
 わるだくみに　つかい　まくって
-かねもうけ　する　ロケットだん！
-わたしが
-その　リーダー　サカキだ！
-わたしに　はむかう　なら
-いたい　めに　あって　もらう！",15,15,,source_translation_gap,model_semantic,model_reviewed_not_human,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
+かねもうけ　する　ロケットだん！",17,39,火箭队把世界各地的宝可梦用于坏事，借此赚钱！,aligned,user_approved_model_translation,user_approved_model_translation,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
+pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,3,6,7,"わたしが
+その　リーダー　サカキだ！",41,53,我就是火箭队的首领坂木！,aligned,user_approved_model_translation,user_approved_model_translation,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
+pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,4,8,9,"わたしに　はむかう　なら
+いたい　めに　あって　もらう！",55,71,你要是敢反抗我，就准备吃苦头吧！,aligned,user_approved_model_translation,user_approved_model_translation,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
 pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.WhatCannotBeText,1,1,1,ぐ　ぐーッ！,0,4,唔、唔！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.WhatCannotBeText
 pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.WhatCannotBeText,2,2,2,そんな　ばかなーッ！,5,11,这不可能啊！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.WhatCannotBeText
 pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniHopeWeMeetAgainText,1,1,2,"⋯⋯　きみは　とても　だいじに
@@ -4553,7 +4553,7 @@ pokegreen:scripts/Route15.asm:Route15CooltrainerM2BattleText,1,1,1,おや⋯⋯�
 pokegreen:scripts/Route15.asm:Route15CooltrainerM2BattleText,2,2,2,とりが　ふるえてる！,6,11,鸟在颤抖！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route15.asm:Route15CooltrainerM2BattleText
 pokegreen:scripts/Route15.asm:Route15CooltrainerM2BattleText,3,3,3,おまえ　もしかして⋯⋯　つよいな？,12,23,难道你……要变强了吗？,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route15.asm:Route15CooltrainerM2BattleText
 pokegreen:scripts/Route15.asm:Route15CooltrainerM2EndBattleText,1,1,1,おもった　とおりだ,0,7,是我想太多了。,aligned,aligned_whole_unit,source_alignment_only,pokegreen:scripts/Route15.asm:Route15CooltrainerM2EndBattleText
-pokegreen:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText,1,1,1,あったり　まえ　だけどさ⋯⋯,0,9,,source_semantic_mismatch,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText
+pokegreen:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText,1,1,1,あったり　まえ　だけどさ⋯⋯,0,9,这是理所当然的……,aligned,user_approved_model_correction,user_approved_model_correction,pokegreen:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText
 pokegreen:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText,2,2,3,"とり　ポケモンは
 じしん　や　じわれ　には　つよいよ",10,27,"鸟宝可梦对于地震或地裂
 也很强哦。",aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText
@@ -5412,7 +5412,8 @@ pokegreen:scripts/Route3.asm:Route3Youngster2BattleText,2,3,3,おまえも　は
 pokegreen:scripts/Route3.asm:Route3Youngster2EndBattleText,1,1,1,いけると　おもったのに,0,9,本以为我能赢的……,aligned,aligned_whole_unit,source_alignment_only,pokegreen:scripts/Route3.asm:Route3Youngster2EndBattleText
 pokegreen:scripts/Route3.asm:Route3Youngster2AfterBattleText,1,1,1,パソコン　つうしん　やってる？,0,12,你在用电脑寄放宝可梦吗？,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route3.asm:Route3Youngster2AfterBattleText
 pokegreen:scripts/Route3.asm:Route3Youngster2AfterBattleText,2,2,3,"１つの　ボックスに　ポケモンを
-３０ぴき　まで　あずけられるよ",12,12,,source_semantic_mismatch,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route3.asm:Route3Youngster2AfterBattleText
+３０ぴき　まで　あずけられるよ",13,29,"一个盒子只能寄放
+３０只宝可梦。",aligned,user_approved_model_correction,user_approved_model_correction,pokegreen:scripts/Route3.asm:Route3Youngster2AfterBattleText
 pokegreen:scripts/Route3.asm:Route3CooltrainerF1BattleText,1,1,1,ちょっと　きみ！,0,4,我说你！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route3.asm:Route3CooltrainerF1BattleText
 pokegreen:scripts/Route3.asm:Route3CooltrainerF1BattleText,2,2,2,いま　わたしの　ほう　みたでしょ,5,13,刚才有看我了吧？,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route3.asm:Route3CooltrainerF1BattleText
 pokegreen:scripts/Route3.asm:Route3CooltrainerF1EndBattleText,1,1,1,もう　いや,0,5,真是讨厌。,aligned,aligned_whole_unit,source_alignment_only,pokegreen:scripts/Route3.asm:Route3CooltrainerF1EndBattleText
@@ -7099,11 +7100,11 @@ pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainReceivedHM01Te
 得到了{{RAM1}}！",aligned,aligned_whole_unit,source_alignment_only,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainReceivedHM01Text
 pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,1,1,1,せんちょう『⋯⋯ふう！,0,5,船长：呼。,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
 pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,2,2,2,らくに　なったし⋯⋯,7,17,这会儿我感觉好多了！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
-pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,3,3,3,そろそろ　じかんだ！,18,26,差不多该起航了。,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
-pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,4,4,7,"もうすぐ　サント·アンヌは
-しゅっぱつ　するよ！
-また　クチバに　くる　ときまで
-ごきげんよう！",26,26,,source_translation_gap,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
+pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,3,3,5,"そろそろ　じかんだ！
+もうすぐ　サント·アンヌは
+しゅっぱつ　するよ！",18,26,差不多该起航了。,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
+pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,4,6,7,"また　クチバに　くる　ときまで
+ごきげんよう！",28,41,等下次再来枯叶市时再见吧！,aligned,user_approved_model_translation,user_approved_model_translation,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
 pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainHM01NoRoomText,1,1,1,なんとー！,0,6,什么嘛——！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainHM01NoRoomText
 pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainHM01NoRoomText,2,2,2,にもつが　いっぱいだ！,7,13,行李已满了！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainHM01NoRoomText
 pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomTrashText,1,1,2,"あんまり　みないほうが
@@ -8910,7 +8911,7 @@ pokegreen:engine/events/pokecenter.asm:ShallWeHealYourPokemonText,1,1,2,"モン�
 pokegreen:engine/events/pokecenter.asm:NeedYourPokemonText,1,1,2,"それでは
 あずからせて　いただきます！",0,10,"那么，
 就交给我吧！",aligned,aligned_whole_unit,source_alignment_only,pokegreen:engine/events/pokecenter.asm:NeedYourPokemonText
-pokegreen:engine/events/pokecenter.asm:PokemonFightingFitText,1,1,1,おまちどうさまでした！,0,0,,source_translation_gap,model_semantic,model_reviewed_not_human,pokegreen:engine/events/pokecenter.asm:PokemonFightingFitText
+pokegreen:engine/events/pokecenter.asm:PokemonFightingFitText,1,1,1,おまちどうさまでした！,0,0,,accepted_omission,user_approved_localization_omission,user_approved_localization_omission,pokegreen:engine/events/pokecenter.asm:PokemonFightingFitText
 pokegreen:engine/events/pokecenter.asm:PokemonFightingFitText,2,2,3,"おあずかりした　ポケモンは
 みんな　げんきに　なりましたよ！",0,19,"交给我的宝可梦
 全都变得精力充沛了哦！",aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/events/pokecenter.asm:PokemonFightingFitText
@@ -9496,7 +9497,7 @@ pokegreen:engine/pokemon/learn_move.asm:HMCantDeleteText,1,1,2,"それは　た�
 pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutOfOrderText,1,1,1,こしょう　ちゅう！,0,5,设备故障！,aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutOfOrderText
 pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutOfOrderText,2,2,2,⋯⋯　ざんねん　だけど　こわれてる,6,17,非常遗憾，已经坏掉了。,aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutOfOrderText
 pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText,1,1,2,"おしょくじ　ちゅう！
-⋯⋯　の　フダが　かけてある！",0,14,,source_semantic_mismatch,model_semantic,model_reviewed_not_human,pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText
+⋯⋯　の　フダが　かけてある！",0,13,上面挂着‘用餐中’的告示。,aligned,user_approved_model_correction,user_approved_model_correction,pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText
 pokegreen:engine/slots/game_corner_slots.asm:GameCornerSomeonesKeysText,1,1,2,"カギが　おいてある⋯⋯
 きっと　これは　だれかの　だいだ！",0,19,"上面放了把钥匙，
 肯定这里已经有人了！",aligned,aligned_whole_unit,source_alignment_only,pokegreen:engine/slots/game_corner_slots.asm:GameCornerSomeonesKeysText
@@ -13958,13 +13959,13 @@ pokeblue:scripts/RocketHideoutB3F.asm:RocketHideoutB3FRocket2AfterBattleText,2,2
 pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,1,1,2,"ほほうッ！
 こんな　ところ　まで　よくきた",0,15,"能来到这里，
 你的确很不简单！",aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
-pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,2,3,9,"せかい　じゅうの　ポケモンを
+pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,2,3,5,"せかい　じゅうの　ポケモンを
 わるだくみに　つかい　まくって
-かねもうけ　する　ロケットだん！
-わたしが
-その　リーダー　サカキだ！
-わたしに　はむかう　なら
-いたい　めに　あって　もらう！",15,15,,source_translation_gap,model_semantic,model_reviewed_not_human,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
+かねもうけ　する　ロケットだん！",17,39,火箭队把世界各地的宝可梦用于坏事，借此赚钱！,aligned,user_approved_model_translation,user_approved_model_translation,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
+pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,3,6,7,"わたしが
+その　リーダー　サカキだ！",41,53,我就是火箭队的首领坂木！,aligned,user_approved_model_translation,user_approved_model_translation,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
+pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,4,8,9,"わたしに　はむかう　なら
+いたい　めに　あって　もらう！",55,71,你要是敢反抗我，就准备吃苦头吧！,aligned,user_approved_model_translation,user_approved_model_translation,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
 pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.WhatCannotBeText,1,1,1,ぐ　ぐーッ！,0,4,唔、唔！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.WhatCannotBeText
 pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.WhatCannotBeText,2,2,2,そんな　ばかなーッ！,5,11,这不可能啊！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.WhatCannotBeText
 pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniHopeWeMeetAgainText,1,1,2,"⋯⋯　きみは　とても　だいじに
@@ -14738,7 +14739,7 @@ pokeblue:scripts/Route15.asm:Route15CooltrainerM2BattleText,1,1,1,おや⋯⋯�
 pokeblue:scripts/Route15.asm:Route15CooltrainerM2BattleText,2,2,2,とりが　ふるえてる！,6,11,鸟在颤抖！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route15.asm:Route15CooltrainerM2BattleText
 pokeblue:scripts/Route15.asm:Route15CooltrainerM2BattleText,3,3,3,おまえ　もしかして⋯⋯　つよいな？,12,23,难道你……要变强了吗？,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route15.asm:Route15CooltrainerM2BattleText
 pokeblue:scripts/Route15.asm:Route15CooltrainerM2EndBattleText,1,1,1,おもった　とおりだ,0,7,是我想太多了。,aligned,aligned_whole_unit,source_alignment_only,pokeblue:scripts/Route15.asm:Route15CooltrainerM2EndBattleText
-pokeblue:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText,1,1,1,あったり　まえ　だけどさ⋯⋯,0,9,,source_semantic_mismatch,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText
+pokeblue:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText,1,1,1,あったり　まえ　だけどさ⋯⋯,0,9,这是理所当然的……,aligned,user_approved_model_correction,user_approved_model_correction,pokegreen:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText
 pokeblue:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText,2,2,3,"とり　ポケモンは
 じしん　や　じわれ　には　つよいよ",10,27,"鸟宝可梦对于地震或地裂
 也很强哦。",aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText
@@ -15597,7 +15598,8 @@ pokeblue:scripts/Route3.asm:Route3Youngster2BattleText,2,3,3,おまえも　は�
 pokeblue:scripts/Route3.asm:Route3Youngster2EndBattleText,1,1,1,いけると　おもったのに,0,9,本以为我能赢的……,aligned,aligned_whole_unit,source_alignment_only,pokeblue:scripts/Route3.asm:Route3Youngster2EndBattleText
 pokeblue:scripts/Route3.asm:Route3Youngster2AfterBattleText,1,1,1,パソコン　つうしん　やってる？,0,12,你在用电脑寄放宝可梦吗？,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route3.asm:Route3Youngster2AfterBattleText
 pokeblue:scripts/Route3.asm:Route3Youngster2AfterBattleText,2,2,3,"１つの　ボックスに　ポケモンを
-３０ぴき　まで　あずけられるよ",12,12,,source_semantic_mismatch,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route3.asm:Route3Youngster2AfterBattleText
+３０ぴき　まで　あずけられるよ",13,29,"一个盒子只能寄放
+３０只宝可梦。",aligned,user_approved_model_correction,user_approved_model_correction,pokegreen:scripts/Route3.asm:Route3Youngster2AfterBattleText
 pokeblue:scripts/Route3.asm:Route3CooltrainerF1BattleText,1,1,1,ちょっと　きみ！,0,4,我说你！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route3.asm:Route3CooltrainerF1BattleText
 pokeblue:scripts/Route3.asm:Route3CooltrainerF1BattleText,2,2,2,いま　わたしの　ほう　みたでしょ,5,13,刚才有看我了吧？,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route3.asm:Route3CooltrainerF1BattleText
 pokeblue:scripts/Route3.asm:Route3CooltrainerF1EndBattleText,1,1,1,もう　いや,0,5,真是讨厌。,aligned,aligned_whole_unit,source_alignment_only,pokeblue:scripts/Route3.asm:Route3CooltrainerF1EndBattleText
@@ -17284,11 +17286,11 @@ pokeblue:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainReceivedHM01Tex
 得到了{{RAM1}}！",aligned,aligned_whole_unit,source_alignment_only,pokeblue:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainReceivedHM01Text
 pokeblue:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,1,1,1,せんちょう『⋯⋯ふう！,0,5,船长：呼。,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
 pokeblue:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,2,2,2,らくに　なったし⋯⋯,7,17,这会儿我感觉好多了！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
-pokeblue:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,3,3,3,そろそろ　じかんだ！,18,26,差不多该起航了。,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
-pokeblue:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,4,4,7,"もうすぐ　サント·アンヌは
-しゅっぱつ　するよ！
-また　クチバに　くる　ときまで
-ごきげんよう！",26,26,,source_translation_gap,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
+pokeblue:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,3,3,5,"そろそろ　じかんだ！
+もうすぐ　サント·アンヌは
+しゅっぱつ　するよ！",18,26,差不多该起航了。,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
+pokeblue:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,4,6,7,"また　クチバに　くる　ときまで
+ごきげんよう！",28,41,等下次再来枯叶市时再见吧！,aligned,user_approved_model_translation,user_approved_model_translation,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
 pokeblue:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainHM01NoRoomText,1,1,1,なんとー！,0,6,什么嘛——！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainHM01NoRoomText
 pokeblue:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainHM01NoRoomText,2,2,2,にもつが　いっぱいだ！,7,13,行李已满了！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainHM01NoRoomText
 pokeblue:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomTrashText,1,1,2,"あんまり　みないほうが
@@ -19095,7 +19097,7 @@ pokeblue:engine/events/pokecenter.asm:ShallWeHealYourPokemonText,1,1,2,"モン�
 pokeblue:engine/events/pokecenter.asm:NeedYourPokemonText,1,1,2,"それでは
 あずからせて　いただきます！",0,10,"那么，
 就交给我吧！",aligned,aligned_whole_unit,source_alignment_only,pokeblue:engine/events/pokecenter.asm:NeedYourPokemonText
-pokeblue:engine/events/pokecenter.asm:PokemonFightingFitText,1,1,1,おまちどうさまでした！,0,0,,source_translation_gap,model_semantic,model_reviewed_not_human,pokegreen:engine/events/pokecenter.asm:PokemonFightingFitText
+pokeblue:engine/events/pokecenter.asm:PokemonFightingFitText,1,1,1,おまちどうさまでした！,0,0,,accepted_omission,user_approved_localization_omission,user_approved_localization_omission,pokegreen:engine/events/pokecenter.asm:PokemonFightingFitText
 pokeblue:engine/events/pokecenter.asm:PokemonFightingFitText,2,2,3,"おあずかりした　ポケモンは
 みんな　げんきに　なりましたよ！",0,19,"交给我的宝可梦
 全都变得精力充沛了哦！",aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/events/pokecenter.asm:PokemonFightingFitText
@@ -19681,7 +19683,7 @@ pokeblue:engine/pokemon/learn_move.asm:HMCantDeleteText,1,1,2,"それは　た�
 pokeblue:engine/slots/game_corner_slots.asm:GameCornerOutOfOrderText,1,1,1,こしょう　ちゅう！,0,5,设备故障！,aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutOfOrderText
 pokeblue:engine/slots/game_corner_slots.asm:GameCornerOutOfOrderText,2,2,2,⋯⋯　ざんねん　だけど　こわれてる,6,17,非常遗憾，已经坏掉了。,aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutOfOrderText
 pokeblue:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText,1,1,2,"おしょくじ　ちゅう！
-⋯⋯　の　フダが　かけてある！",0,14,,source_semantic_mismatch,model_semantic,model_reviewed_not_human,pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText
+⋯⋯　の　フダが　かけてある！",0,13,上面挂着‘用餐中’的告示。,aligned,user_approved_model_correction,user_approved_model_correction,pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText
 pokeblue:engine/slots/game_corner_slots.asm:GameCornerSomeonesKeysText,1,1,2,"カギが　おいてある⋯⋯
 きっと　これは　だれかの　だいだ！",0,19,"上面放了把钥匙，
 肯定这里已经有人了！",aligned,aligned_whole_unit,source_alignment_only,pokeblue:engine/slots/game_corner_slots.asm:GameCornerSomeonesKeysText
@@ -24278,13 +24280,13 @@ pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FText13,1,1,1,やな�
 pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,1,1,2,"ほほうッ！
 こんな　ところ　まで　よくきた",0,15,"能来到这里，
 你的确很不简单！",aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
-pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,2,3,9,"せかい　じゅうの　ポケモンを
+pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,2,3,5,"せかい　じゅうの　ポケモンを
 わるだくみに　つかい　まくって
-かねもうけ　する　ロケットだん！
-わたしが
-その　リーダー　サカキだ！
-わたしに　はむかう　なら
-いたい　めに　あって　もらう！",15,15,,source_translation_gap,model_semantic,model_reviewed_not_human,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
+かねもうけ　する　ロケットだん！",17,39,火箭队把世界各地的宝可梦用于坏事，借此赚钱！,aligned,user_approved_model_translation,user_approved_model_translation,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
+pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,3,6,7,"わたしが
+その　リーダー　サカキだ！",41,53,我就是火箭队的首领坂木！,aligned,user_approved_model_translation,user_approved_model_translation,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
+pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText,4,8,9,"わたしに　はむかう　なら
+いたい　めに　あって　もらう！",55,71,你要是敢反抗我，就准备吃苦头吧！,aligned,user_approved_model_translation,user_approved_model_translation,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText
 pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.WhatCannotBeText,1,1,1,ぐ　ぐーッ！,0,4,唔、唔！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.WhatCannotBeText
 pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.WhatCannotBeText,2,2,2,そんな　ばかなーッ！,5,11,这不可能啊！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.WhatCannotBeText
 pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniHopeWeMeetAgainText,1,1,2,"⋯⋯　きみは　とても　だいじに
@@ -25011,7 +25013,7 @@ pokeyellow-jp:scripts/Route15.asm:Route15CooltrainerM2BattleText,1,1,1,おや⋯
 pokeyellow-jp:scripts/Route15.asm:Route15CooltrainerM2BattleText,2,2,2,とりが　ふるえてる！,6,11,鸟在颤抖！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route15.asm:Route15CooltrainerM2BattleText
 pokeyellow-jp:scripts/Route15.asm:Route15CooltrainerM2BattleText,3,3,3,おまえ　もしかして⋯⋯　つよいな？,12,23,难道你……要变强了吗？,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route15.asm:Route15CooltrainerM2BattleText
 pokeyellow-jp:scripts/Route15.asm:Route15CooltrainerM2EndBattleText,1,1,1,おもった　とおりだ,0,7,是我想太多了。,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:scripts/Route15.asm:Route15CooltrainerM2EndBattleText
-pokeyellow-jp:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText,1,1,1,あったり　まえ　だけどさ⋯⋯,0,9,,source_semantic_mismatch,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText
+pokeyellow-jp:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText,1,1,1,あったり　まえ　だけどさ⋯⋯,0,9,这是理所当然的……,aligned,user_approved_model_correction,user_approved_model_correction,pokegreen:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText
 pokeyellow-jp:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText,2,2,3,"とり　ポケモンは
 じしん　や　じわれ　には　つよいよ",10,27,"鸟宝可梦对于地震或地裂
 也很强哦。",aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route15.asm:Route15CooltrainerM2AfterBattleText
@@ -25916,7 +25918,8 @@ pokeyellow-jp:scripts/Route3.asm:Route3Youngster2BattleText,2,3,3,おまえも�
 pokeyellow-jp:scripts/Route3.asm:Route3Youngster2EndBattleText,1,1,1,いけると　おもったのに,0,9,本以为我能赢的……,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:scripts/Route3.asm:Route3Youngster2EndBattleText
 pokeyellow-jp:scripts/Route3.asm:Route3Youngster2AfterBattleText,1,1,1,パソコン　つうしん　やってる？,0,12,你在用电脑寄放宝可梦吗？,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route3.asm:Route3Youngster2AfterBattleText
 pokeyellow-jp:scripts/Route3.asm:Route3Youngster2AfterBattleText,2,2,3,"１つの　ボックスに　ポケモンを
-３０ぴき　まで　あずけられるよ",12,12,,source_semantic_mismatch,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route3.asm:Route3Youngster2AfterBattleText
+３０ぴき　まで　あずけられるよ",13,29,"一个盒子只能寄放
+３０只宝可梦。",aligned,user_approved_model_correction,user_approved_model_correction,pokegreen:scripts/Route3.asm:Route3Youngster2AfterBattleText
 pokeyellow-jp:scripts/Route3.asm:Route3CooltrainerF1BattleText,1,1,1,ちょっと　きみ！,0,4,我说你！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route3.asm:Route3CooltrainerF1BattleText
 pokeyellow-jp:scripts/Route3.asm:Route3CooltrainerF1BattleText,2,2,2,いま　わたしの　ほう　みたでしょ,5,13,刚才有看我了吧？,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/Route3.asm:Route3CooltrainerF1BattleText
 pokeyellow-jp:scripts/Route3.asm:Route3CooltrainerF1EndBattleText,1,1,1,もう　いや,0,5,真是讨厌。,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:scripts/Route3.asm:Route3CooltrainerF1EndBattleText
@@ -27630,11 +27633,11 @@ pokeyellow-jp:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainReceivedHM
 得到了{{RAM1}}！",aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainReceivedHM01Text
 pokeyellow-jp:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,1,1,1,せんちょう『⋯⋯ふう！,0,5,船长：呼。,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
 pokeyellow-jp:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,2,2,2,らくに　なったし⋯⋯,7,17,这会儿我感觉好多了！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
-pokeyellow-jp:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,3,3,3,そろそろ　じかんだ！,18,26,差不多该起航了。,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
-pokeyellow-jp:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,4,4,7,"もうすぐ　サント·アンヌは
-しゅっぱつ　するよ！
-また　クチバに　くる　ときまで
-ごきげんよう！",26,26,,source_translation_gap,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
+pokeyellow-jp:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,3,3,5,"そろそろ　じかんだ！
+もうすぐ　サント·アンヌは
+しゅっぱつ　するよ！",18,26,差不多该起航了。,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
+pokeyellow-jp:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText,4,6,7,"また　クチバに　くる　ときまで
+ごきげんよう！",28,41,等下次再来枯叶市时再见吧！,aligned,user_approved_model_translation,user_approved_model_translation,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainNotSickAnymoreText
 pokeyellow-jp:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainHM01NoRoomText,1,1,1,なんとー！,0,6,什么嘛——！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainHM01NoRoomText
 pokeyellow-jp:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainHM01NoRoomText,2,2,2,にもつが　いっぱいだ！,7,13,行李已满了！,aligned,model_semantic,model_reviewed_not_human,pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainHM01NoRoomText
 pokeyellow-jp:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomTrashText,1,1,2,"あんまり　みないほうが
@@ -29588,7 +29591,7 @@ pokeyellow-jp:engine/events/pokecenter.asm:ShallWeHealYourPokemonText,1,1,2,"モ
 pokeyellow-jp:engine/events/pokecenter.asm:NeedYourPokemonText,1,1,2,"それでは
 あずからせて　いただきます！",0,10,"那么，
 就交给我吧！",aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:engine/events/pokecenter.asm:NeedYourPokemonText
-pokeyellow-jp:engine/events/pokecenter.asm:PokemonFightingFitText,1,1,1,おまちどうさまでした！,0,0,,source_translation_gap,model_semantic,model_reviewed_not_human,pokegreen:engine/events/pokecenter.asm:PokemonFightingFitText
+pokeyellow-jp:engine/events/pokecenter.asm:PokemonFightingFitText,1,1,1,おまちどうさまでした！,0,0,,accepted_omission,user_approved_localization_omission,user_approved_localization_omission,pokegreen:engine/events/pokecenter.asm:PokemonFightingFitText
 pokeyellow-jp:engine/events/pokecenter.asm:PokemonFightingFitText,2,2,3,"おあずかりした　ポケモンは
 みんな　げんきに　なりましたよ！",0,19,"交给我的宝可梦
 全都变得精力充沛了哦！",aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/events/pokecenter.asm:PokemonFightingFitText
@@ -29753,8 +29756,8 @@ pokeyellow-jp:engine/items/item_effects.asm:ThrewBaitText,1,1,1,{{PLAYER}}は　
 投出了诱饵！",aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:engine/items/item_effects.asm:ThrewBaitText
 pokeyellow-jp:engine/items/item_effects.asm:ThrewRockText,1,1,1,{{PLAYER}}は　いしを　なげた！,0,17,"{{PLAYER}}
 投出了石块！",aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:engine/items/item_effects.asm:ThrewRockText
-pokeyellow-jp:engine/items/item_effects.asm:PlayedFluteNoEffectText,1,1,2,"ポケモンのふえだ！
-ねむったポケモンを　おこせるかも⋯",0,24,,source_semantic_mismatch,model_semantic,model_reviewed_not_human,pokeyellow-jp:engine/items/item_effects.asm:PlayedFluteNoEffectText
+pokeyellow-jp:engine/items/item_effects.asm:PlayedFluteNoEffectText,1,1,1,ポケモンのふえだ！,0,7,是宝可梦之笛！,aligned,user_approved_model_correction,user_approved_model_correction,pokeyellow-jp:engine/items/item_effects.asm:PlayedFluteNoEffectText
+pokeyellow-jp:engine/items/item_effects.asm:PlayedFluteNoEffectText,2,2,2,ねむったポケモンを　おこせるかも⋯,7,20,也许能唤醒睡着的宝可梦……,aligned,user_approved_model_correction,user_approved_model_correction,pokeyellow-jp:engine/items/item_effects.asm:PlayedFluteNoEffectText
 pokeyellow-jp:engine/items/item_effects.asm:FluteWokeUpText,1,1,2,"すべての　ポケモンが
 めを　さました！",0,12,"所有宝可梦
 都醒过来了！",aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:engine/items/item_effects.asm:FluteWokeUpText
@@ -30232,7 +30235,7 @@ pokeyellow-jp:engine/printer/printer.asm:NoPokemonText,1,1,1,ポケモンが　�
 pokeyellow-jp:engine/slots/game_corner_slots.asm:GameCornerOutOfOrderText,1,1,1,こしょう　ちゅう！,0,5,设备故障！,aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutOfOrderText
 pokeyellow-jp:engine/slots/game_corner_slots.asm:GameCornerOutOfOrderText,2,2,2,⋯⋯　ざんねん　だけど　こわれてる,6,17,非常遗憾，已经坏掉了。,aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutOfOrderText
 pokeyellow-jp:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText,1,1,2,"おしょくじ　ちゅう！
-⋯⋯　の　フダが　かけてある！",0,14,,source_semantic_mismatch,model_semantic,model_reviewed_not_human,pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText
+⋯⋯　の　フダが　かけてある！",0,13,上面挂着‘用餐中’的告示。,aligned,user_approved_model_correction,user_approved_model_correction,pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText
 pokeyellow-jp:engine/slots/game_corner_slots.asm:GameCornerSomeonesKeysText,1,1,2,"カギが　おいてある⋯⋯
 きっと　これは　だれかの　だいだ！",0,19,"上面放了把钥匙，
 肯定这里已经有人了！",aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:engine/slots/game_corner_slots.asm:GameCornerSomeonesKeysText

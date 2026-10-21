@@ -36,22 +36,30 @@
     "unreferenced": 1
   },
   "fragments": {
-    "semantic_visible": 7602,
-    "wait_for_semantic_unit": 7134,
-    "semantic_context_required": 1914,
-    "whole_visible_unit": 5397,
-    "source_translation_gap": 39,
-    "source_semantic_mismatch": 20,
+    "semantic_visible": 7625,
+    "wait_for_semantic_unit": 7161,
+    "semantic_context_required": 1920,
+    "whole_visible_unit": 5400,
     "use_composition": 138,
     "source_unreferenced": 1
   },
-  "semantic_segments": 14250,
+  "semantic_segments": 14257,
   "semantic_segment_methods": {
-    "model_semantic": 8912,
+    "model_semantic": 8893,
     "aligned_whole_unit": 5260,
-    "exact_reviewed_unit_reuse": 78
+    "exact_reviewed_unit_reuse": 78,
+    "user_approved_model_translation": 12,
+    "user_approved_model_correction": 11,
+    "user_approved_localization_omission": 3
   },
-  "segmentation_issue_records": 23,
+  "segmentation_issue_records": 0,
+  "approved_revision_methods": {
+    "model_translation": 6,
+    "model_correction": 10,
+    "localization_addition": 4,
+    "localization_omission": 3
+  },
+  "accepted_omission_segments": 3,
   "variable_status": {
     "typed_unique": 7151,
     "model_semantic": 234,
