@@ -141,7 +141,7 @@ class AcceptanceTest {
             record.put("regions", regions); samples.add(record);
         }
         var report = new LinkedHashMap<String, Object>();
-        report.put("implementationVersion", "0.1.0"); report.put("java", System.getProperty("java.runtime.version"));
+        report.put("implementationVersion", System.getProperty("g1ocr.version")); report.put("java", System.getProperty("java.runtime.version"));
         report.put("group", group); report.put("annotationVersion", labels.path("annotation_version").asInt());
         report.put("annotationSha256", hash(labelPath));
         report.put("comparison", "NFC; only pixel-identical り/リ,へ/ヘ,べ/ベ,ぺ/ペ equivalent; <Lv> counts as one token; spaces count, line breaks compared structurally");

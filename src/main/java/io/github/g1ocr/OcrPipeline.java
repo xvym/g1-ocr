@@ -27,6 +27,8 @@ public final class OcrPipeline {
                 .filter(PixelOcr.Result::hasText).toList();
     }
 
+    public List<RegionDetector.Region> regions(GbFrame frame) { return detector.detect(frame); }
+
     public List<StableResult> sample(String session, GbFrame.Mapping mapping, long sampleTimeNanos, GbFrame frame) {
         return stability.sample(session, mapping, sampleTimeNanos, frame).stream()
                 .map(request -> new StableResult(request.key(), request.sampleTimeNanos(), ocr.read(request.frame(), request.region())))

@@ -2,6 +2,7 @@ package io.github.g1ocr;
 
 import com.fasterxml.jackson.databind.json.JsonMapper;
 import io.github.g1ocr.image.GbFrame;
+import io.github.g1ocr.ui.LiveApplication;
 import javax.imageio.ImageIO;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -10,8 +11,12 @@ import java.util.LinkedHashMap;
 /** A single image and an explicit upper-screen mapping; never opens annotations. */
 public final class Main {
     public static void main(String[] args) throws Exception {
+        if (args.length == 0 || args.length == 1 && args[0].equals("--live")) {
+            LiveApplication.launchApp();
+            return;
+        }
         if (args.length != 5) {
-            System.err.println("Usage: java -jar g1-ocr.jar <image.png> <upper-ox> <upper-oy> <scale> <output-dir>");
+            System.err.println("Usage: java -jar g1-ocr.jar --live | <image.png> <upper-ox> <upper-oy> <scale> <output-dir>");
             System.exit(2);
         }
         Path input = Path.of(args[0]), output = Path.of(args[4]);

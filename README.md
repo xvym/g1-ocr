@@ -32,13 +32,27 @@ spec.md                       规范导航
 testpic/                      原始 PNG、素材说明与索引
 ```
 
-当前实现为 Java 单应用的离线识别链，代码位于 `src/main/java/`，像素字库及来源说明位于 `src/main/resources/`；`tools/` 只含开发工具。Windows 捕获模块在 S3 按需增加。
+Java 单应用代码位于 `src/main/java/`，像素字库及来源说明位于 `src/main/resources/`；`tools/` 只含开发工具。`native/capture/` 是新增的薄 Windows WGC/JNI 捕获模块。
 
-## 当前日文离线版本
+## 当前实时开发版本（0.2.0，待人工测试）
 
-全部 108 张固定截图已通过原始 OCR 验收：202 行、2186 个字符 token，CER=0，全图正确率 100%。按用户确认，仅四组完全同形假名等价比较，并保留候选；严格 Unicode 结果另列为 95/108。详见 [验收报告](reports/japanese-acceptance.md)、[108 张逐项结果](reports/japanese-all.json) 及 [布局证据](reports/layouts.md)。中文翻译、实时捕获和 JavaFX 界面尚未接入。
+已加入实时捕获、自动校准、既有 OCR 接入和简单 JavaFX 日文窗口的源码，优先配置为 **new3ds_view，仅上屏**。可以选择窗口、开始/停止、重校准，并查看 GB 预览、可见日文、列表选择、同形候选及采集状态。候选不唯一时暂停识别；尺寸/DPI 变化和最小化恢复后重新确认映射，窗口关闭后重新选择。中文翻译仍未接入。
 
-开发工具链固定为 Amazon Corretto JDK `21.0.9.10.1`（Windows x64）、Maven `3.9.16`。JavaFX 选用 `21.0.8`，在 S4 实际接入时再增加依赖及验证；后续 JNI/WGC 构建条件在 S3 落实。离线运行仅需 JDK 21，不需要 Python、网络或标注。
+Java 与原生 DLL 已编译成功，当前 0.2.0 的 108 张图片回归仍为 100%；WGC/JNI 构造窗口集成测试通过，JavaFX 主窗口已启动。真实投屏软件及界面交互仍待人工验收。实际结果、工具链及复现方式见 [编译运行验证](reports/live-validation.md)，人工检查表见 [实时开发记录](reports/live-development.md)。本机已准备本地工具链，可执行：
+
+```powershell
+./build.ps1
+./build-capture.ps1 -UseLocalTools
+./run-live.ps1
+```
+
+原生构建需要 VS 2022 Desktop C++ / MSVC v143、Windows SDK 10.0.26100.0 和 CMake 3.28+；Java 使用下述 JDK/Maven，新增 JavaFX 21.0.8 Windows 依赖。本机采用微软官方包在 `.tools/native/` 解压构建；已安装开发工具的环境使用不带 `-UseLocalTools` 的默认入口，该路线尚未验证。当前不是免开发环境安装的正式发行包，两种投屏软件的兼容性仍待人工验证。
+
+## 离线入口与 0.1.0 验收基线
+
+已提交的 0.1.0（`0107e12`）对全部 108 张固定截图通过原始 OCR 验收：202 行、2186 个字符 token，CER=0，全图正确率 100%。按用户确认，仅四组完全同形假名等价比较，并保留候选；严格 Unicode 结果另列为 95/108。详见 [历史验收报告](reports/japanese-acceptance.md)、[0.1.0 逐项结果](reports/japanese-0.1.0.json) 及 [布局证据](reports/layouts.md)。当前 0.2.0 的独立回归证据见 [最新逐项结果](reports/japanese-all.json)。
+
+开发工具链固定为 Amazon Corretto JDK `21.0.9.10.1`（Windows x64）、Maven `3.9.16`。JavaFX `21.0.8` 已编译并启动主窗口；JNI/WGC 构建与集成验证见编译运行报告。离线运行不加载捕获 DLL，不需要 Python、网络或标注。
 
 本机开发 JDK 放在被忽略的 `.tools/jdk21.0.9_10/`；其他环境设置 `JAVA_HOME` 指向 JDK 21，并让 `mvn` 可执行即可。固定 JDK [下载地址](https://corretto.aws/downloads/resources/21.0.9.10.1/amazon-corretto-21.0.9.10.1-windows-x64-jdk.zip)，ZIP SHA-256：`77226707f66b0c19a5baeb2c176ff5cc1c7d0f2a9f67f52354ce2901a53b9240`。正式自带运行时的用户包属于 S6，本次尚未交付。
 
@@ -47,7 +61,7 @@ testpic/                      原始 PNG、素材说明与索引
 ./build.ps1
 
 # 单张离线识别：输入 PNG、上屏原点 ox/oy、整数倍率 k、输出目录
-& ./.tools/jdk21.0.9_10/bin/java.exe -jar target/g1-ocr-0.1.0.jar `
+& ./.tools/jdk21.0.9_10/bin/java.exe -jar target/g1-ocr-0.2.0.jar `
   'testpic/Screenshot 2026-10-20 21-22-53.png' 0 0 3 output/example
 ```
 

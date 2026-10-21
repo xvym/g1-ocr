@@ -1,5 +1,5 @@
 {
-  "implementationVersion" : "0.1.0",
+  "implementationVersion" : "0.2.0",
   "java" : "21.0.9+10-LTS",
   "group" : "all",
   "annotationVersion" : 4,
@@ -20,18 +20,23 @@
   "cer" : 0.0,
   "unknownCharacters" : 0,
   "implementationSha256" : {
+    "src/main/java/io/github/g1ocr/capture/LiveSession.java" : "f4dfe09aebdc002f232a10c7a0bbffdba5c7475304c8e3c43f9208df765586b9",
+    "src/main/java/io/github/g1ocr/capture/WindowCapture.java" : "c516d0824ce21e1e99c419047476237f0efb054533d80265336b252696b1fb38",
     "src/main/java/io/github/g1ocr/image/GbFrame.java" : "b47213b645b0b835b45093fa33893c90fc1a12fee9f27f25c18b3a1246cda3b5",
-    "src/main/java/io/github/g1ocr/Main.java" : "91b91406cc53573bffd99669d5a727c26932b2ab361e835f0056fffe94a29201",
-    "src/main/java/io/github/g1ocr/OcrPipeline.java" : "a343ac8ed6bb6eaa872d5fb9fa3f14af56ae3b841f91500faa31ae674258d38d",
+    "src/main/java/io/github/g1ocr/image/ViewportResolver.java" : "456352112fd004ba760b1ed5368ae7426dcf53385a55d6e0d15c1bf0b0bc9086",
+    "src/main/java/io/github/g1ocr/Main.java" : "2e9b57d8a5173cf63f2af09464ed954b1a416be1049634764271d1f4a7d88cc2",
+    "src/main/java/io/github/g1ocr/OcrPipeline.java" : "d28a79eeb0948c42538098e9c7bb0f992dc9c7d71d933df33a001be6d25471f6",
     "src/main/java/io/github/g1ocr/ocr/PixelFont.java" : "983edf9f244ba5084042612e0343e55145fdce614a876a418edf824270c7f8ba",
     "src/main/java/io/github/g1ocr/ocr/PixelOcr.java" : "a5ec55f0e59c504295306f33de5fc8363eaade34fc6743922b40b55d4ce21fa3",
     "src/main/java/io/github/g1ocr/region/RegionDetector.java" : "6fa82dbf5fbc13818937adcc2376c2cf503e6b08dac34ede376018ebcf925b04",
     "src/main/java/io/github/g1ocr/region/StabilityDetector.java" : "b3b37046c37efd61ee2332f13f2754c5bc15590d8cdc0a3f29bea851e3f13bf5",
+    "src/main/java/io/github/g1ocr/ui/LiveApplication.java" : "c760d37750f49543f413fff994171c05a01c2dcc32b87a73c1d3efd652b44a56",
     "src/main/resources/font.tsv" : "56022863949bdbdd3e097cbc62123d33d601a95596a88db69bbb710d3975b4a4",
     "src/main/resources/SOURCES.md" : "7f2fd53e43b8ad7fcb22ea4a5a86d38dd779285af3ed07b25cb8fa246564af1c",
-    "src/test/java/io/github/g1ocr/AcceptanceTest.java" : "ede185df72abb34ab1f6b92b24f6d3fadc31e9186d440e3f31b8c27aacb235cf",
+    "src/test/java/io/github/g1ocr/AcceptanceTest.java" : "fd1f739c685a1f3197fb70b5118ca4f538620eca78632fb5720cac89493f9c15",
     "src/test/java/io/github/g1ocr/PipelineRulesTest.java" : "b89d9bf55dfbf07b5023290821572ef14b7b3aaef506b64d5d643b1833a20ac5",
-    "pom.xml" : "111b34a198ec2fc863e54a59ba68796146e162bc7a8af64a373fb6d74f3b86d0"
+    "src/test/java/io/github/g1ocr/WgcSmokeTest.java" : "cf77e24464efb42810dfe0174a37b2973d29598603c3abc0df8163c472a95b56",
+    "pom.xml" : "d7ef7f6859b1a71de2f9c11b21b7d38e6674eff08c753310f4e27abe7fa65a93"
   },
   "samples" : [ {
     "sampleId" : "g1-001",
