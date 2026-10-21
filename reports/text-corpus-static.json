@@ -1,9 +1,11 @@
 {
-  "method": "read_only_CSV_and_upstream_workbook_inspection",
+  "method": "read_only_CSV_workbook_and_source_AST_inspection",
   "records": 9093,
   "fragments": 22245,
-  "source_cells_expected": 40982,
-  "source_cells_checked": 40982,
+  "semantic_segments": 14250,
+  "semantic_decision_pairs": 1316,
+  "source_cells_expected": 62502,
+  "source_cells_checked": 62502,
   "original_chinese_cells_equal": true,
   "source_alignment": {
     "aligned": 8981,
@@ -11,33 +13,93 @@
     "source_unreferenced": 1
   },
   "fragments_status": {
-    "unavailable": 16025,
-    "whole_visible_unit": 6082,
-    "use_composition": 138
+    "semantic_visible": 7602,
+    "wait_for_semantic_unit": 7134,
+    "semantic_context_required": 1914,
+    "whole_visible_unit": 5397,
+    "source_translation_gap": 39,
+    "source_semantic_mismatch": 20,
+    "use_composition": 138,
+    "source_unreferenced": 1
   },
+  "source_association_changed_records": [
+    "pokegreen:scripts/CopycatsHouse2F.asm:CopycatsHouse2FCopycatText.ReceivedTM31Text",
+    "pokegreen:scripts/ViridianGym.asm:ViridianGymGiovanniReceivedTM27Text",
+    "pokegreen:scripts/WardensHouse.asm:WardensHouseWardenText.GaveTheGoldTeethText",
+    "pokegreen:engine/events/pokedex_rating.asm:DexRatingText_Own40To49",
+    "pokegreen:engine/events/pokedex_rating.asm:DexRatingText_Own50To59",
+    "pokegreen:engine/movie/oak_speech/oak_speech.asm:OakSpeechText2",
+    "pokeblue:scripts/CopycatsHouse2F.asm:CopycatsHouse2FCopycatText.ReceivedTM31Text",
+    "pokeblue:scripts/ViridianGym.asm:ViridianGymGiovanniReceivedTM27Text",
+    "pokeblue:scripts/WardensHouse.asm:WardensHouseWardenText.GaveTheGoldTeethText",
+    "pokeblue:engine/events/pokedex_rating.asm:DexRatingText_Own40To49",
+    "pokeblue:engine/events/pokedex_rating.asm:DexRatingText_Own50To59",
+    "pokeblue:engine/movie/oak_speech/oak_speech.asm:OakSpeechText2",
+    "pokeyellow-jp:scripts/CopycatsHouse2F.asm:CopycatsHouse2FCopycatText.ReceivedTM31Text",
+    "pokeyellow-jp:scripts/MtMoonB2F.asm:MtMoonB2FRocket2BattleText",
+    "pokeyellow-jp:scripts/MtMoonB2F.asm:MtMoonB2FRocket2EndBattleText",
+    "pokeyellow-jp:scripts/MtMoonB2F.asm:MtMoonB2FRocket2AfterBattleText",
+    "pokeyellow-jp:scripts/MtMoonB2F.asm:MtMoonB2FRocket3BattleText",
+    "pokeyellow-jp:scripts/MtMoonB2F.asm:MtMoonB2FRocket3EndBattleText",
+    "pokeyellow-jp:scripts/MtMoonB2F.asm:MtMoonB2FRocket3AfterBattleText",
+    "pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymGiovanniReceivedTM27Text",
+    "pokeyellow-jp:scripts/WardensHouse.asm:WardensHouseWardenText.GaveTheGoldTeethText",
+    "pokeyellow-jp:engine/events/pokedex_rating.asm:DexRatingText_Own40To49",
+    "pokeyellow-jp:engine/events/pokedex_rating.asm:DexRatingText_Own50To59"
+  ],
+  "source_association_changed_fields": {
+    "chinese_source": 23,
+    "chinese_label": 23,
+    "chinese": 23,
+    "chinese_cells": 23,
+    "chinese_events": 21,
+    "method": 23,
+    "evidence": 23
+  },
+  "japanese_and_record_ids_unchanged": true,
   "errors": [],
   "resource_sha256": {
     "control_rules.csv": "e0688409826990bf15b15598c9d6e617243b65475c6856b87a4ecb46ea23f560",
-    "fragments.csv": "ac02ac227fb09d4cd917101cadcebcac307b74bdc10c295219c06c9484578adc",
-    "records.csv": "50ac890effdb16a290997022bffda858838f13ba8506e4c16a3af40f565468b0",
+    "fragments.csv": "6270fcedd211663e884bcfc2b630c75f4c98e4f3c8d5e11ad74ca0bd22dda64d",
+    "records.csv": "2975d39245456c5884a65d4da681ec1307445d04c61e74ab7c07a77967f80fea",
+    "segments.csv": "8f95cc2c121581b5c570ea93dbe8cfdb1c3ee62e28c87b90ea06508baaaa5685",
     "sources.csv": "1c3781d918002354066b6c7868968f4f876e099b6c216ecf4439ddd8ec763d81",
     "variables.csv": "7be71b7e5921077f40fa9d2791e8c55eb4e1ee6f40b4460b2a5488cce030edd2"
   },
-  "does_not_establish": "semantic accuracy of every pair, all visible progress, runtime translation, or Chinese acceptance",
-  "dynamic_product_tests_run": false,
+  "segmentation_inputs_sha256": {
+    "tools/build_text_corpus.py": "d459d0f2f8c4bdb69aab63345324d83df6662af8c6a7b8489b9db8286c51f95f",
+    "tools/text_segmentation.csv": "f28e08b053abc3f948e50d218282895992e625d3c38f04f0eb41ddcf29fd3a21",
+    "tools/text_alignment.csv": "df581b10c6426059db576bfe20be989afdf4d817eda1ee48cd8c3231d9af0445"
+  },
   "encoding_verification": {
-    "encoding": "UTF-8 with BOM",
-    "reference_commit": "ff7e71bdb8570e209db6a832243ae2cf7c37fcc1",
-    "only_bom_added": true,
-    "csv_rows": {
-      "src/main/resources/corpus/control_rules.csv": 30,
-      "src/main/resources/corpus/fragments.csv": 22245,
-      "src/main/resources/corpus/records.csv": 9093,
-      "src/main/resources/corpus/sources.csv": 7,
-      "src/main/resources/corpus/variables.csv": 2884,
-      "reports/text-corpus-issues.csv": 0
+    "control_rules.csv": {
+      "bom": true,
+      "lf_only": true
     },
-    "excel_ui_verified": false,
-    "method": "static_byte_comparison_and_CSV_read_only_inspection"
-  }
+    "fragments.csv": {
+      "bom": true,
+      "lf_only": true
+    },
+    "records.csv": {
+      "bom": true,
+      "lf_only": true
+    },
+    "segments.csv": {
+      "bom": true,
+      "lf_only": true
+    },
+    "sources.csv": {
+      "bom": true,
+      "lf_only": true
+    },
+    "variables.csv": {
+      "bom": true,
+      "lf_only": true
+    }
+  },
+  "does_not_establish": "semantic accuracy of every source pair, runtime translation, real timing or Chinese acceptance",
+  "dynamic_product_tests_run": false,
+  "fragment_japanese_and_progress_unchanged": true,
+  "empty_aligned_semantic_units": 0,
+  "ocr_implementation_and_font_unchanged": true
 }

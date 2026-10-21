@@ -36,10 +36,22 @@
     "unreferenced": 1
   },
   "fragments": {
-    "unavailable": 16025,
-    "whole_visible_unit": 6082,
-    "use_composition": 138
+    "semantic_visible": 7602,
+    "wait_for_semantic_unit": 7134,
+    "semantic_context_required": 1914,
+    "whole_visible_unit": 5397,
+    "source_translation_gap": 39,
+    "source_semantic_mismatch": 20,
+    "use_composition": 138,
+    "source_unreferenced": 1
   },
+  "semantic_segments": 14250,
+  "semantic_segment_methods": {
+    "model_semantic": 8912,
+    "aligned_whole_unit": 5260,
+    "exact_reviewed_unit_reuse": 78
+  },
+  "segmentation_issue_records": 23,
   "variable_status": {
     "typed_unique": 7151,
     "model_semantic": 234,

@@ -4,6 +4,7 @@
 src/main/resources/corpus/*.csv text eol=lf
 tools/text_*.csv text eol=lf
 reports/text-corpus-issues.csv text eol=lf
+reports/text-segmentation-issues.csv text eol=lf
 *.json text eol=lf
 *.xml text eol=lf
 *.md text eol=lf
@@ -17,3 +18,5 @@ CMakeLists.txt text eol=lf
 src/main/resources/font.tsv whitespace=-blank-at-eol
 # Quoted corpus fields retain the translator's literal trailing spaces.
 src/main/resources/corpus/records.csv whitespace=-blank-at-eol
+src/main/resources/corpus/fragments.csv whitespace=-blank-at-eol
+src/main/resources/corpus/segments.csv whitespace=-blank-at-eol

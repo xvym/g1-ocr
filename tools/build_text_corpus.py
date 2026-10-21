@@ -6,6 +6,7 @@ Sources live in ignored output/corpus-sources/<id>. See corpus/README.md.
 """
 import collections
 import csv
+import hashlib
 import json
 import pathlib
 import re
@@ -491,6 +492,122 @@ def add_compositions(jp, all_records, all_fragments):
             row['evidence']=packed(dict(alignment=row['evidence'],consumed_by=consumers[row['id']]))
 
 
+def segment_corpus(records, fragments):
+    """Apply saved offline semantic decisions; no line-count or length alignment."""
+    by_id = {r['id']: r for r in records}
+    decisions, reviewed_lines = {}, collections.defaultdict(dict)
+    for row in csv.DictReader((ROOT/'tools/text_segmentation.csv').open(encoding='utf-8-sig', newline='')):
+        record = by_id[row['record_id']]
+        for language in ['japanese', 'chinese']:
+            if hashlib.sha256(record[language].encode('utf-8')).hexdigest() != row[language+'_sha256']:
+                raise ValueError(f"Semantic decision source changed: {row['record_id']} {language}")
+        units = json.loads(row['units'])
+        lines = [line for line in record['japanese'].split('\n') if line]
+        previous, chinese_end = 0, 0
+        for end, start, stop, status in units:
+            if not previous < end <= len(lines) or not chinese_end <= start <= stop <= len(record['chinese']):
+                raise ValueError(f"Invalid semantic range: {row['record_id']}")
+            if status == 'aligned' and end == previous+1:
+                key = ''.join(lines[previous].split())
+                chinese = record['chinese'][start:stop].replace('\n', '')
+                reviewed_lines[key][chinese] = row['record_id']
+            previous, chinese_end = end, stop
+        if previous != len(lines):
+            raise ValueError(f"Incomplete semantic decision: {row['record_id']}")
+        decisions[record['japanese'], record['chinese']] = (units, row['record_id'])
+
+    segments, issues, by_record = [], [], {}
+    for record in records:
+        if record['mapping_status'] != 'aligned':
+            continue
+        lines = [line for line in record['japanese'].split('\n') if line]
+        source_id = record['id']
+        if decision := decisions.get((record['japanese'], record['chinese'])):
+            units, source_id = decision
+            method, review = 'model_semantic', 'model_reviewed_not_human'
+        else:
+            # A previously aligned complete source is safe only once all of it
+            # has been observed. In particular its first row is not a translation.
+            units = [[len(lines), 0, len(record['chinese']), 'aligned']]
+            method, review = 'aligned_whole_unit', 'source_alignment_only'
+            if len(lines) == 2:
+                candidates = reviewed_lines.get(''.join(lines[0].split()), {})
+                flat = record['chinese'].replace('\n', '')
+                matches = [(text, origin) for text, origin in candidates.items()
+                           if text and flat.startswith(text) and len(text) < len(flat)]
+                if len(matches) == 1:
+                    text, source_id = matches[0]
+                    stop, consumed = 0, 0
+                    while consumed < len(text):
+                        consumed += record['chinese'][stop] != '\n'
+                        stop += 1
+                    units = [[1, 0, stop, 'aligned'], [2, stop, len(record['chinese']), 'aligned']]
+                    method, review = 'exact_reviewed_unit_reuse', 'model_unit_reused_not_human'
+            if len(lines) > 2:
+                raise ValueError(f"Missing semantic decision for long source: {record['id']}")
+        current, previous = [], 0
+        for ordinal, (end, start, stop, status) in enumerate(units, 1):
+            while start < stop and record['chinese'][start] == '\n':
+                start += 1
+            while stop > start and record['chinese'][stop-1] == '\n':
+                stop -= 1
+            segment = dict(record_id=record['id'], ordinal=ordinal,
+                           japanese_start_ordinal=previous+1, japanese_end_ordinal=end,
+                           japanese='\n'.join(lines[previous:end]), chinese_start=start, chinese_end=stop,
+                           chinese=record['chinese'][start:stop] if status == 'aligned' else '',
+                           status=status, method=method, review_status=review, source_record_id=source_id)
+            segments.append(segment)
+            current.append(segment)
+            if status != 'aligned':
+                issues.append(dict(record_id=record['id'], reason=status,
+                                   japanese=segment['japanese'], chinese=record['chinese'][start:stop]))
+            previous = end
+        covered = {i for segment in current if segment['status'] == 'aligned'
+                   for i in range(segment['chinese_start'], segment['chinese_end'])}
+        unmatched = ''.join(ch for i, ch in enumerate(record['chinese']) if i not in covered and ch != '\n')
+        if unmatched:
+            issues.append(dict(record_id=record['id'], reason='chinese_without_japanese_segment',
+                               japanese=record['japanese'], chinese=unmatched))
+        record['segment_status'] = ('source_semantic_gap' if any(s['status'] != 'aligned' for s in current)
+                                    or unmatched else 'semantic_segmented' if method != 'aligned_whole_unit'
+                                    else 'whole_visible_unit')
+        by_record[record['id']] = current
+
+    for fragment in fragments:
+        fragment.update(semantic_segment_ordinals='[]', context_start_ordinal='', waiting_for_ordinal='')
+        current = by_record.get(fragment['record_id'])
+        if current is None:
+            if by_id[fragment['record_id']]['mapping_status'] == 'source_unreferenced':
+                fragment['status'] = 'source_unreferenced'
+            continue
+        ordinal = int(fragment['ordinal'])
+        first = ordinal-len(fragment['japanese'].splitlines())+1
+        overlapping = [s for s in current if s['japanese_start_ordinal'] <= ordinal
+                       and s['japanese_end_ordinal'] >= first]
+        fragment.update(chinese='', chinese_start='', chinese_end='')
+        blocked = [s for s in overlapping if s['status'] != 'aligned']
+        if blocked:
+            fragment['status'] = blocked[0]['status']
+            continue
+        ready = [s for s in overlapping if s['japanese_end_ordinal'] <= ordinal]
+        pending = [s for s in overlapping if s['japanese_end_ordinal'] > ordinal]
+        if pending:
+            fragment['waiting_for_ordinal'] = pending[0]['japanese_end_ordinal']
+        if not ready:
+            fragment['status'] = 'wait_for_semantic_unit'
+            continue
+        start, stop = ready[0]['chinese_start'], ready[-1]['chinese_end']
+        fragment.update(chinese=by_id[fragment['record_id']]['chinese'][start:stop],
+                        chinese_start=start, chinese_end=stop,
+                        semantic_segment_ordinals=packed([s['ordinal'] for s in ready]))
+        if ready[0]['japanese_start_ordinal'] < first:
+            fragment.update(status='semantic_context_required',
+                            context_start_ordinal=ready[0]['japanese_start_ordinal'])
+        else:
+            fragment['status'] = ('whole_visible_unit' if len(current) == 1 else 'semantic_visible')
+    return segments, issues
+
+
 def build():
     locks = list(csv.DictReader((ROOT/'tools/text_sources.csv').open(encoding='utf-8')))
     source_rows = []
@@ -665,20 +782,27 @@ def build():
     for f in all_fragments:
         f['japanese_ocr'] = f['japanese'].replace('　',' ').replace('⋯','…').translate(str.maketrans('０１２３４５６７８９','0123456789'))
         f['japanese_ocr'] = '\n'.join(line.rstrip() for line in f['japanese_ocr'].split('\n'))
+    semantic_segments, segmentation_issues = segment_corpus(all_records, all_fragments)
     write_csv(DEST/'sources.csv', source_rows, list(source_rows[0]))
     write_csv(DEST/'records.csv', all_records, list(all_records[0]))
     write_csv(DEST/'fragments.csv', all_fragments, list(all_fragments[0]))
+    write_csv(DEST/'segments.csv', semantic_segments, list(semantic_segments[0]))
     write_csv(DEST/'variables.csv', all_variables, ['record_id','language','slot','kind','address','format','offset','source_line'])
     write_csv(ROOT/'reports/text-corpus-issues.csv', issues, ['record_id','reason','japanese','candidates'])
+    write_csv(ROOT/'reports/text-segmentation-issues.csv', segmentation_issues,
+              ['record_id','reason','japanese','chinese'])
     report=dict(sources={r['id']:r['commit'] for r in source_rows},records=len(all_records),
                 mapping_status=stats,kinds=dict(collections.Counter(r['kind'] for r in all_records)),
                 fragments=dict(collections.Counter(f['status'] for f in all_fragments)),
+                semantic_segments=len(semantic_segments),
+                semantic_segment_methods=dict(collections.Counter(s['method'] for s in semantic_segments)),
+                segmentation_issue_records=len({issue['record_id'] for issue in segmentation_issues}),
                 variable_status=dict(collections.Counter(r['variable_status'] for r in all_records)),
                 unresolved_source_alignment_issues=len(issues),verification='static_source_and_data_construction',
                 dynamic_tests_run=False,runtime_translation_integrated=False,
                 chinese_acceptance_passed=False)
-    (ROOT/'reports/text-corpus.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    (ROOT/'output/text-corpus-summary.json').write_text(packed(stats)+'\n', encoding='utf-8')
+    (ROOT/'reports/text-corpus.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+    (ROOT/'output/text-corpus-summary.json').write_text(packed(stats)+'\n', encoding='utf-8',newline='\n')
     print(json.dumps(stats, ensure_ascii=False, indent=2))
     print('records',len(all_records),'fragments',len(all_fragments),'issues',len(issues))
 
