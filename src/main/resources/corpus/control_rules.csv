@@ -1,0 +1,31 @@
+token,kind,japanese_display,rule,source,notes
+@,string_end,,结束当前PlaceString调用并保留光标；后续text_ram或text可以继续同句,home/text.asm#PlaceString,不是整段或整页结束
+text,command,,TX_START读取字符串；不自动换行,macros/scripts/text.asm#text,
+line,layout,\n,在对话框底行从首列书写,home/text.asm#PlaceNextChar,与next语义不同
+next,layout,\n,相对当前字符串起点下移两行图块,home/text.asm#PlaceNextChar,列表常用；不是分页
+para,layout,\n\n,等待按键清空正文回到顶行,home/text.asm#Paragraph,清框分页
+cont,layout,\n,等待按键后正文滚动两图块行并在底行继续,home/text.asm#ContText,保留上一正文行
+_cnt,layout,\n,直接执行带等待的滚动,home/text.asm#_ContText,
+scrl,layout,\n,不等按键即滚动并在底行继续,home/text.asm#_ContTextNoPause,
+<SCROLL>,layout,\n,不等按键的滚动,home/text.asm#_ContTextNoPause,不是可见文字
+"text $4c,",zh_layout,\n,汉化工作簿中的TX_START后紧跟SCROLL,src/macros/scripts/text.asm,工作簿F列原值保存在chinese_cells
+done,flow,,结束文本框脚本,home/text.asm#DoneText,
+prompt,flow,,显示箭头并等待关闭后结束脚本,home/text.asm#PromptText,箭头不是翻译内容
+#,fixed,ポケモン,展开固定字串,home/text.asm#PlacePOKeText,中文词来自汉化data.xlsx的宝可梦原文
+<PC>,fixed,パソコン,展开固定字串,home/text.asm#PCCharText,
+<TM>,fixed,わざマシン,展开固定字串,home/text.asm#TMCharText,
+<TRAINER>,fixed,トレーナー,展开固定字串,home/text.asm#TrainerCharText,
+<ROCKET>,fixed,ロケットだん,展开固定字串,home/text.asm#RocketCharText,
+<⋯>,fixed,⋯⋯,展开两个省略号字形,home/text.asm#SixDotsCharText,不是单字形⋯
+<PLAYER>,name,{{PLAYER}},玩家名来自已确认的可见OCR；不读取游戏内存,home/text.asm#PrintPlayerName,中文原句可能增加或省略此槽位
+<RIVAL>,name,{{RIVAL}},劲敌名来自已确认的可见OCR,home/text.asm#PrintRivalName,
+<USER>,battle_name,{{USER}},按攻击方输出己方昵称或敌方前缀加敌方昵称,home/text.asm#PlaceMoveUsersName,てきの　是前缀；汉化前缀为data.xlsx原词敌方；不是昵称的一部分
+<TARGET>,battle_name,{{TARGET}},按攻击方的另一侧输出昵称并按需带敌方前缀,home/text.asm#PlaceMoveTargetsName,不能固定当成敌方
+text_ram,variable,{{RAMn}},显示源字符串；每段同一地址复用同一槽位,home/text.asm#TextCommand_RAM,运行时只绑定OCR文本；RAM地址仅用于离线来源追溯
+text_decimal,number,{{NUMBERn}},按字节数位数和左对齐规则显示十进制数,home/text.asm#TextCommand_NUM,格式参数保存在variables.csv；数值必须取自OCR
+text_bcd,number,{{NUMBERn}},按BCD字节数及前导零左对齐货币标志显示,home/text.asm#TextCommand_BCD,保留源码格式参数；不把编码字节当可见字符
+text_dots,visible,⋯,重复参数指定数量的省略号字形,home/text.asm#TextCommand_DOTS,
+text_asm,flow,,转交汇编；需核对后续文本指针和fallthrough,home/text.asm#TextCommand_START_ASM,不把后续独立对白自动并入当前可见译文
+GetMachineName,generated,わざマシンNN／ひでんマシンNN,前缀加两位十进制数；中文沿用源程序TMNN或HMNN,home/names.asm#GetMachineName,已展开55个机器道具名称
+list.quantity,number,×{{COUNT}},保留当前OCR的数量及名称行关系,home/list_menu.asm#PrintListMenuEntries,数量不从物品词条或历史画面补齐
+list.nickname,name,{{NICKNAME}},昵称无明确对应时原样显示,engine/pokemon/bills_pc.asm#DisplayMonListMenu,即使与物种名字相同也不能仅凭文字强制当作物种

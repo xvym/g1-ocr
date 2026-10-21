@@ -1,0 +1,28 @@
+{
+  "method": "read_only_CSV_and_upstream_workbook_inspection",
+  "records": 9093,
+  "fragments": 22245,
+  "source_cells_expected": 40982,
+  "source_cells_checked": 40982,
+  "original_chinese_cells_equal": true,
+  "source_alignment": {
+    "aligned": 8981,
+    "component": 111,
+    "source_unreferenced": 1
+  },
+  "fragments_status": {
+    "unavailable": 16025,
+    "whole_visible_unit": 6082,
+    "use_composition": 138
+  },
+  "errors": [],
+  "resource_sha256": {
+    "control_rules.csv": "3e181ab016b74ce48a289953e7db739000b67a2f119410433fa3cb7836eeec59",
+    "fragments.csv": "143b6d4da36b94d5d3f3b6176396b3236c7ac912bb6cb8543eabaed396686b1e",
+    "records.csv": "c91425498c9f17810c43a3d3d927e7fe7ddf3e97af78b5f3c79cc3640c7984b3",
+    "sources.csv": "4a1a6e63396e58aca554e130f857b912f351d7171e48bfbae0edfef0d5d9417c",
+    "variables.csv": "876fc4b5cb6038f8ff50418ccadffa515a872a8e5df6b6874e2e46c5b336c083"
+  },
+  "does_not_establish": "semantic accuracy of every pair, all visible progress, runtime translation, or Chinese acceptance",
+  "dynamic_product_tests_run": false
+}

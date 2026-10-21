@@ -1,0 +1,56 @@
+{
+  "sources": {
+    "pokegreen": "953f41b34108621b2bf13c3b1e53abfc9c3e5aec",
+    "pokeblue": "69cd1814203dd24533c46af383d7cff5591aea90",
+    "pokeyellow-jp": "f282e72ae26232790fdb780aa5a5db7ec8ebf572",
+    "pokeredCHS-rgb": "e47a1e5b7414ac46387c5d31bff4bc264a59bfa6",
+    "pokeyellowCHS-sjp": "19c7565a7961252ea1046bc330c639ff7f1e1be4",
+    "pokered": "af519899719f0754965776faac0e836a3b906e6d",
+    "pokeyellow": "aa25d4fdeadc8ef1c489feb6cfcdc8674a292c34"
+  },
+  "records": 9093,
+  "mapping_status": {
+    "pokegreen": {
+      "aligned": 2957,
+      "component": 37
+    },
+    "pokeblue": {
+      "aligned": 2957,
+      "component": 37
+    },
+    "pokeyellow-jp": {
+      "aligned": 3067,
+      "component": 37,
+      "source_unreferenced": 1
+    }
+  },
+  "kinds": {
+    "dialogue": 7229,
+    "component": 111,
+    "pokemon": 453,
+    "move": 495,
+    "item": 414,
+    "trainer": 141,
+    "fixed": 156,
+    "dialogue_template": 93,
+    "unreferenced": 1
+  },
+  "fragments": {
+    "unavailable": 16025,
+    "whole_visible_unit": 6082,
+    "use_composition": 138
+  },
+  "variable_status": {
+    "typed_unique": 7151,
+    "model_semantic": 234,
+    "requires_observed_PLAYER": 6,
+    "review": 21,
+    "unresolved": 22,
+    "none": 1659
+  },
+  "unresolved_source_alignment_issues": 0,
+  "verification": "static_source_and_data_construction",
+  "dynamic_tests_run": false,
+  "runtime_translation_integrated": false,
+  "chinese_acceptance_passed": false
+}

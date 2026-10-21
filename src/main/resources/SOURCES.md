@@ -1,6 +1,6 @@
-# 日文像素资源来源
+# 识别与翻译资源来源
 
-产品只读取 `font.tsv`；不含截图、标注、台词、物品词典或中文映射。
+当前 OCR 运行时读取 `font.tsv`，不读取截图答案。新增的 `corpus/` 为后续翻译层准备日中 CSV，尚未接入运行时；结构、固定来源、建设与核对状态见 [语料说明](corpus/README.md) 及 [来源清单](corpus/sources.csv)。
 
 上游：[Narishma-gb/pokegreen](https://github.com/Narishma-gb/pokegreen/tree/953f41b34108621b2bf13c3b1e53abfc9c3e5aec)，固定提交 `953f41b34108621b2bf13c3b1e53abfc9c3e5aec`。该仓库说明为日版红/绿反汇编；这不证明未知版本截图属于红/绿，也不证明另两个版本布局通过。
 
@@ -16,4 +16,4 @@
 
 布局参考：[data/text_boxes.asm](https://github.com/Narishma-gb/pokegreen/blob/953f41b34108621b2bf13c3b1e53abfc9c3e5aec/data/text_boxes.asm)；实际网格与遮罩证据见 `reports/layouts.md`，运行时由 `RegionDetector` 定义。
 
-分发条件：固定提交的文件树未提供 LICENSE；游戏字形的再分发授权尚未确认。本次为本地研究实现及固定素材验证，不声明已满足对外分发条件。S6 正式交付前须落实字形资源的使用与分发条件。未引入 ROM、整库脚本或中文汉化资源。
+分发条件：固定提交的文件树未提供 LICENSE；游戏字形的再分发授权尚未确认。本次为本地研究实现及固定素材验证，不声明已满足对外分发条件。S6 正式交付前须落实字形及文本派生资源的使用与分发条件。未引入 ROM；第三方完整仓库仅用于离线建库，位于被忽略的输出目录，不作为产品资源。
