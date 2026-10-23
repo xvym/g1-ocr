@@ -21,6 +21,7 @@ public final class TextCorpus {
                         String source, JsonNode revision, JsonNode variables, JsonNode evidence) {}
     public record Fragment(Entry entry, int ordinal, int previous, int first, String japanese,
                            String status, int chineseStart, int chineseEnd, int contextStart, int waiting,
+                           String displayChinese, String displaySource,
                            List<String> literals, List<String> slots, Set<String> numbers) {}
     public record Hit(Fragment fragment, Map<String, String> variables, boolean complete) {}
     private record Binding(Map<String, String> variables, boolean complete) {}
@@ -69,15 +70,17 @@ public final class TextCorpus {
                     ordinal - japanese.split("\n").length + 1, row.get("japanese_ocr"), row.get("status"),
                     integer(row, "chinese_start"), integer(row, "chinese_end"),
                     integer(row, "context_start_ordinal"), integer(row, "waiting_for_ordinal"),
+                    row.get("display_chinese"), row.get("display_source"),
                     List.copyOf(literals), List.copyOf(slots), Set.copyOf(numbers));
             if (slots.isEmpty()) exact.computeIfAbsent(japanese, key -> new ArrayList<>()).add(fragment);
             else templates.add(fragment);
         }
     }
 
+    /** An empty kind list searches every standalone word, for names and nicknames. */
     public List<Entry> words(String text, List<String> kinds) {
         return words.getOrDefault(canonical(text), List.of()).stream()
-                .filter(e -> kinds.contains(e.kind())).toList();
+                .filter(e -> kinds.isEmpty() || kinds.contains(e.kind())).toList();
     }
 
     public List<Hit> dialogue(String text) {
@@ -156,19 +159,21 @@ public final class TextCorpus {
         if (slot.equals("USER") || slot.equals("TARGET")) return "battle_name";
         if (slot.equals("SPEAKER")) return "trainer_name";
         if (entry.id().contains(":composed:UsedMove.") && slot.equals("RAM1")) return "move";
+        if (entry.id().contains(":composed:Experience.") && slot.equals("RAM1")) return "nickname";
         if (entry.id().contains(":composed:StatChange.") && slot.equals("RAM1")) return "stat";
         String label = entry.id().substring(entry.id().lastIndexOf(':') + 1);
         String declared = slotKinds.get(label + ":" + slot);
         if (declared != null) return declared;
         for (var variable : entry.variables()) if (variable.path("slot").asText().equals(slot)) {
             String address = variable.path("address").asText();
-            if (address.equals("wInGameTradeGiveMonName") || address.equals("wInGameTradeReceiveMonName")) return "pokemon";
+            if (address.equals("wInGameTradeGiveMonName") || address.equals("wInGameTradeReceiveMonName")
+                    || address.equals("wNameOfPlayerMonToBeTraded")) return "pokemon";
             if (address.contains("Nick") || address.equals("wDayCareMonName") || address.equals("wLearnMoveMonName")) return "nickname";
             if (address.equals("wGymCityName")) return "city";
             if (address.equals("wGymLeaderName")) return "gym_leader";
             if (address.equals("wLinkEnemyTrainerName")) return "name";
             if (address.equals("wBoxNumString")) return "number";
-            if (address.equals("wTrainerName")) return "trainer";
+            if (address.equals("wTrainerName")) return "trainer_name";
             if (address.equals("wOaksAideRewardItemName")) return "item";
         }
         return "literal";

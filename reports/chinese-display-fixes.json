@@ -1,0 +1,1378 @@
+{
+  "verification": "static data/source audit, not dynamic runtime or real capture",
+  "referenceCommit": "ffdd4aa1c727e0212f3514cbead9ed9d63da885c",
+  "unchangedFiles": {
+    "src/main/resources/corpus/records.csv": true,
+    "src/main/resources/corpus/segments.csv": true,
+    "src/main/resources/corpus/variables.csv": true,
+    "src/main/resources/corpus/control_rules.csv": true,
+    "src/main/resources/corpus/sources.csv": true,
+    "tools/text_segmentation.csv": true,
+    "tools/text_translation_revisions.csv": true
+  },
+  "projectedAlignedWindowsChecked": 23788,
+  "blockedMismatchWindows": [
+    "pokegreen:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text#3",
+    "pokegreen:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text#4",
+    "pokeblue:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text#3",
+    "pokeblue:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text#4",
+    "pokeyellow-jp:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text#3",
+    "pokeyellow-jp:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.Text#4"
+  ],
+  "fragmentStatusCounts": {
+    "semantic_visible": 13894,
+    "whole_visible_unit": 9894,
+    "source_semantic_mismatch": 6,
+    "use_composition": 141,
+    "wait_for_semantic_unit": 3,
+    "source_unreferenced": 1
+  },
+  "wildSpeciesRuleCoverage": {
+    "pokegreen": [
+      "pokegreen:engine/battle/common_text.asm:WildMonAppearedText",
+      "pokegreen:engine/battle/common_text.asm:HookedMonAttackedText",
+      "pokegreen:engine/battle/core.asm:WildRanText"
+    ],
+    "pokeblue": [
+      "pokeblue:engine/battle/common_text.asm:WildMonAppearedText",
+      "pokeblue:engine/battle/common_text.asm:HookedMonAttackedText",
+      "pokeblue:engine/battle/core.asm:WildRanText"
+    ],
+    "pokeyellow-jp": [
+      "pokeyellow-jp:engine/battle/common_text.asm:WildMonAppearedText",
+      "pokeyellow-jp:engine/battle/common_text.asm:HookedMonAttackedText",
+      "pokeyellow-jp:engine/battle/core.asm:WildRanText"
+    ]
+  },
+  "implementationVersion": "0.3.0",
+  "scope": "Wild species role correction and complete saved-unit display; 108 independent PNGs; real capture deferred",
+  "dynamicVerification": {
+    "buildLog": "output/build-display-fixes.log",
+    "passedTestMethods": 7,
+    "skippedDesktopTestMethods": 1,
+    "developmentScenarios": 22,
+    "developmentComparisonsPassed": 33,
+    "fixedPngRegressionImages": 11,
+    "fixedPngRegressionUnits": 23,
+    "rawJapanesePassedImages": 108,
+    "summary": {
+      "images": 108,
+      "noTargetImages": 5,
+      "allUnitsReadyChineseImages": 95,
+      "partialChineseImages": 2,
+      "noChineseImages": 6,
+      "units": 132,
+      "unitsWithChinese": 119,
+      "displayStatusCounts": {
+        "ready": 119,
+        "ambiguous": 4,
+        "nickname_preserved": 7,
+        "variables_missing": 1,
+        "source_semantic_mismatch": 1
+      }
+    },
+    "packagedCliSamples": [
+      "g1-039",
+      "g1-009"
+    ],
+    "packagedCsvMatches": true,
+    "testAnswersAbsentFromJar": true,
+    "realCaptureTested": false,
+    "finalChineseAcceptance": false
+  },
+  "review": {
+    "method": "post-run model review against pinned source units; not independent gold or human review",
+    "changedImageUnits": 17,
+    "newOrChangedPublishedPairs": 17,
+    "currentPublishedPairs": 106,
+    "changedUnits": [
+      {
+        "sample": "g1-009",
+        "before": {
+          "rawJapanese": "ポケモン りーグ してんのうは\n4にん つづけて",
+          "matchStatus": "equivalent",
+          "displayStatus": "wait_for_semantic_unit",
+          "resolvedJapanese": "ポケモン リーグ してんのうは\n4にん つづけて",
+          "chinese": "",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
+              "ordinal": 4,
+              "japanese": "ポケモン リーグ してんのうは\n4にん つづけて",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G15\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
+              "ordinal": 4,
+              "japanese": "ポケモン リーグ してんのうは\n4にん つづけて",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G15\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
+              "ordinal": 4,
+              "japanese": "ポケモン リーグ してんのうは\n4にん つづけて",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G11\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "ポケモン りーグ してんのうは\n4にん つづけて",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "ポケモン リーグ してんのうは\n4にん つづけて",
+          "chinese": "这里的规则是\n要连续打败４位\n宝可梦联盟四天王！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
+              "ordinal": 4,
+              "japanese": "ポケモン リーグ してんのうは\n4にん つづけて",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G15\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
+              "ordinal": 4,
+              "japanese": "ポケモン リーグ してんのうは\n4にん つづけて",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G15\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
+              "ordinal": 4,
+              "japanese": "ポケモン リーグ してんのうは\n4にん つづけて",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G11\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-013",
+        "before": {
+          "rawJapanese": "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
+          "matchStatus": "equivalent",
+          "displayStatus": "context_required",
+          "resolvedJapanese": "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
+          "chinese": "",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText",
+              "ordinal": 3,
+              "japanese": "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F17:G27\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText",
+              "ordinal": 3,
+              "japanese": "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F17:G27\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText",
+              "ordinal": 3,
+              "japanese": "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F17:G25\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
+          "chinese": "接下来你必须\n与四天王一一对战哦！\n\n要是你赢了，\n门会自动打开，\n你就可以前往\n更里边的房间了！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText",
+              "ordinal": 3,
+              "japanese": "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F17:G27\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText",
+              "ordinal": 3,
+              "japanese": "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F17:G27\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText",
+              "ordinal": 3,
+              "japanese": "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F17:G25\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-019",
+        "before": {
+          "rawJapanese": "すこし たかい けど\nねむけざまし どくけし などを",
+          "matchStatus": "equivalent",
+          "displayStatus": "wait_for_semantic_unit",
+          "resolvedJapanese": "すこし たかい けど\nねむけざまし どくけし などを",
+          "chinese": "",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text",
+              "ordinal": 6,
+              "japanese": "すこし たかい けど\nねむけざまし どくけし などを",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#SaffronCity!F114:G124\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text",
+              "ordinal": 6,
+              "japanese": "すこし たかい けど\nねむけざまし どくけし などを",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#SaffronCity!F114:G124\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text",
+              "ordinal": 6,
+              "japanese": "すこし たかい けど\nねむけざまし どくけし などを",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#SaffronCity!F113:G121\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "すこし たかい けど\nねむけざまし どくけし などを",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "すこし たかい けど\nねむけざまし どくけし などを",
+          "chinese": "虽然价格偏高，\n但是不用分开买解眠药、\n解毒药什么的，省事极了！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text",
+              "ordinal": 6,
+              "japanese": "すこし たかい けど\nねむけざまし どくけし などを",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#SaffronCity!F114:G124\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text",
+              "ordinal": 6,
+              "japanese": "すこし たかい けど\nねむけざまし どくけし などを",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#SaffronCity!F114:G124\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text",
+              "ordinal": 6,
+              "japanese": "すこし たかい けど\nねむけざまし どくけし などを",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#SaffronCity!F113:G121\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-022",
+        "before": {
+          "rawJapanese": "かいけつ した……？\nすんません！",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready_waiting",
+          "resolvedJapanese": "かいけつ した……？\nすんません！",
+          "chinese": "你说这件事\n已经解决了……？",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/SaffronCity.asm:SaffronCityGentlemanText",
+              "ordinal": 5,
+              "japanese": "かいけつ した……？\nすんません！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#SaffronCity!F58:G67\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/SaffronCity.asm:SaffronCityGentlemanText",
+              "ordinal": 5,
+              "japanese": "かいけつ した……？\nすんません！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#SaffronCity!F58:G67\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/SaffronCity.asm:SaffronCityGentlemanText",
+              "ordinal": 5,
+              "japanese": "かいけつ した……？\nすんません！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#SaffronCity!F58:G67\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "かいけつ した……？\nすんません！",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "かいけつ した……？\nすんません！",
+          "chinese": "你说这件事\n已经解决了……？\n不好意思！\n我天生就喜欢看热闹！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/SaffronCity.asm:SaffronCityGentlemanText",
+              "ordinal": 5,
+              "japanese": "かいけつ した……？\nすんません！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#SaffronCity!F58:G67\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/SaffronCity.asm:SaffronCityGentlemanText",
+              "ordinal": 5,
+              "japanese": "かいけつ した……？\nすんません！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#SaffronCity!F58:G67\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/SaffronCity.asm:SaffronCityGentlemanText",
+              "ordinal": 5,
+              "japanese": "かいけつ した……？\nすんません！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#SaffronCity!F58:G67\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-032",
+        "before": {
+          "rawJapanese": "おかあさん『グりーン……！\nすこし やすんで いったら",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready_waiting",
+          "resolvedJapanese": "おかあさん『グりーン……！\nすこし やすんで いったら",
+          "chinese": "妈妈：グりーン……！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText",
+              "ordinal": 2,
+              "japanese": "おかあさん『{{PLAYER}}……！\nすこし やすんで いったら",
+              "segmentStatus": "semantic_visible",
+              "variables": {
+                "PLAYER": "グりーン"
+              },
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#RedsHouse1F!F13:G17\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText",
+              "ordinal": 2,
+              "japanese": "おかあさん『{{PLAYER}}……！\nすこし やすんで いったら",
+              "segmentStatus": "semantic_visible",
+              "variables": {
+                "PLAYER": "グりーン"
+              },
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#RedsHouse1F!F13:G17\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "おかあさん『グりーン……！\nすこし やすんで いったら",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "おかあさん『グりーン……！\nすこし やすんで いったら",
+          "chinese": "妈妈：グりーン……！\n稍微休息一下吧……？",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText",
+              "ordinal": 2,
+              "japanese": "おかあさん『{{PLAYER}}……！\nすこし やすんで いったら",
+              "segmentStatus": "semantic_visible",
+              "variables": {
+                "PLAYER": "グりーン"
+              },
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#RedsHouse1F!F13:G17\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText",
+              "ordinal": 2,
+              "japanese": "おかあさん『{{PLAYER}}……！\nすこし やすんで いったら",
+              "segmentStatus": "semantic_visible",
+              "variables": {
+                "PLAYER": "グりーン"
+              },
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#RedsHouse1F!F13:G17\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-033",
+        "before": {
+          "rawJapanese": "すこし やすんで いったら\nどうかしら……？",
+          "matchStatus": "equivalent",
+          "displayStatus": "wait_for_semantic_unit",
+          "resolvedJapanese": "すこし やすんで いったら\nどうかしら……？",
+          "chinese": "",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText",
+              "ordinal": 3,
+              "japanese": "すこし やすんで いったら\nどうかしら……？",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#RedsHouse1F!F13:G17\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText",
+              "ordinal": 3,
+              "japanese": "すこし やすんで いったら\nどうかしら……？",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#RedsHouse1F!F13:G17\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "すこし やすんで いったら\nどうかしら……？",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "すこし やすんで いったら\nどうかしら……？",
+          "chinese": "稍微休息一下吧……？",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText",
+              "ordinal": 3,
+              "japanese": "すこし やすんで いったら\nどうかしら……？",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#RedsHouse1F!F13:G17\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText",
+              "ordinal": 3,
+              "japanese": "すこし やすんで いったら\nどうかしら……？",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#RedsHouse1F!F13:G17\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-038",
+        "before": {
+          "rawJapanese": "オーキド『よく きた！\nポケモンずかんの",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready_waiting",
+          "resolvedJapanese": "オーキド『よく きた！\nポケモンずかんの",
+          "chinese": "你来的正好！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/OaksLab.asm:OaksLabOak1Text.HowIsYourPokedexComingText",
+              "ordinal": 2,
+              "japanese": "オーキド『よく きた！\nポケモンずかんの",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#OaksLab!F163:G169\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/OaksLab.asm:OaksLabOak1Text.HowIsYourPokedexComingText",
+              "ordinal": 2,
+              "japanese": "オーキド『よく きた！\nポケモンずかんの",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#OaksLab!F163:G169\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/OaksLab.asm:OaksLabOak1Text.HowIsYourPokedexComingText",
+              "ordinal": 2,
+              "japanese": "オーキド『よく きた！\nポケモンずかんの",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#OaksLab!F132:G137\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "オーキド『よく きた！\nポケモンずかんの",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "オーキド『よく きた！\nポケモンずかんの",
+          "chinese": "你来的正好！\n宝可梦图鉴收集得如何了？",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/OaksLab.asm:OaksLabOak1Text.HowIsYourPokedexComingText",
+              "ordinal": 2,
+              "japanese": "オーキド『よく きた！\nポケモンずかんの",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#OaksLab!F163:G169\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/OaksLab.asm:OaksLabOak1Text.HowIsYourPokedexComingText",
+              "ordinal": 2,
+              "japanese": "オーキド『よく きた！\nポケモンずかんの",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#OaksLab!F163:G169\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/OaksLab.asm:OaksLabOak1Text.HowIsYourPokedexComingText",
+              "ordinal": 2,
+              "japanese": "オーキド『よく きた！\nポケモンずかんの",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#OaksLab!F132:G137\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-039",
+        "before": {
+          "rawJapanese": "あ！ やせいの\nコラッタが とびだしてきた！",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "あ！ やせいの\nコラッタが とびだしてきた！",
+          "chinese": "啊！野生的\nコラッタ扑过来了！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:engine/battle/common_text.asm:WildMonAppearedText",
+              "ordinal": 2,
+              "japanese": "あ！ やせいの\n{{RAM1}}が とびだしてきた！",
+              "segmentStatus": "whole_visible_unit",
+              "variables": {
+                "RAM1": "コラッタ"
+              },
+              "source": "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1258:G1263\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:engine/battle/common_text.asm:WildMonAppearedText",
+              "ordinal": 2,
+              "japanese": "あ！ やせいの\n{{RAM1}}が とびだしてきた！",
+              "segmentStatus": "whole_visible_unit",
+              "variables": {
+                "RAM1": "コラッタ"
+              },
+              "source": "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1258:G1263\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:engine/battle/common_text.asm:WildMonAppearedText",
+              "ordinal": 2,
+              "japanese": "あ！ やせいの\n{{RAM1}}が とびだしてきた！",
+              "segmentStatus": "whole_visible_unit",
+              "variables": {
+                "RAM1": "コラッタ"
+              },
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1312:G1317\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "あ！ やせいの\nコラッタが とびだしてきた！",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "あ！ やせいの\nコラッタが とびだしてきた！",
+          "chinese": "啊！野生的\n小拉达扑过来了！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:engine/battle/common_text.asm:WildMonAppearedText",
+              "ordinal": 2,
+              "japanese": "あ！ やせいの\n{{RAM1}}が とびだしてきた！",
+              "segmentStatus": "whole_visible_unit",
+              "variables": {
+                "RAM1": "コラッタ"
+              },
+              "source": "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1258:G1263\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:engine/battle/common_text.asm:WildMonAppearedText",
+              "ordinal": 2,
+              "japanese": "あ！ やせいの\n{{RAM1}}が とびだしてきた！",
+              "segmentStatus": "whole_visible_unit",
+              "variables": {
+                "RAM1": "コラッタ"
+              },
+              "source": "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1258:G1263\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:engine/battle/common_text.asm:WildMonAppearedText",
+              "ordinal": 2,
+              "japanese": "あ！ やせいの\n{{RAM1}}が とびだしてきた！",
+              "segmentStatus": "whole_visible_unit",
+              "variables": {
+                "RAM1": "コラッタ"
+              },
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1312:G1317\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-054",
+        "before": {
+          "rawJapanese": "だって こおっちゃったら\nあんたの ポケモン",
+          "matchStatus": "equivalent",
+          "displayStatus": "wait_for_semantic_unit",
+          "resolvedJapanese": "だって こおっちゃったら\nあんたの ポケモン",
+          "chinese": "",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
+              "ordinal": 8,
+              "japanese": "だって こおっちゃったら\nあんたの ポケモン",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G23\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
+              "ordinal": 8,
+              "japanese": "だって こおっちゃったら\nあんたの ポケモン",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G23\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
+              "ordinal": 8,
+              "japanese": "だって こおっちゃったら\nあんたの ポケモン",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G15\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "だって こおっちゃったら\nあんたの ポケモン",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "だって こおっちゃったら\nあんたの ポケモン",
+          "chinese": "因为如果被冻住，\n你的宝可梦就无法动弹了！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
+              "ordinal": 8,
+              "japanese": "だって こおっちゃったら\nあんたの ポケモン",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G23\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
+              "ordinal": 8,
+              "japanese": "だって こおっちゃったら\nあんたの ポケモン",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G23\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
+              "ordinal": 8,
+              "japanese": "だって こおっちゃったら\nあんたの ポケモン",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G15\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-055",
+        "before": {
+          "rawJapanese": "あんたの ポケモン\nぜんぜん うごけ ないんだから",
+          "matchStatus": "equivalent",
+          "displayStatus": "context_required",
+          "resolvedJapanese": "あんたの ポケモン\nぜんぜん うごけ ないんだから",
+          "chinese": "",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
+              "ordinal": 9,
+              "japanese": "あんたの ポケモン\nぜんぜん うごけ ないんだから",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G23\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
+              "ordinal": 9,
+              "japanese": "あんたの ポケモン\nぜんぜん うごけ ないんだから",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G23\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
+              "ordinal": 9,
+              "japanese": "あんたの ポケモン\nぜんぜん うごけ ないんだから",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G15\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "あんたの ポケモン\nぜんぜん うごけ ないんだから",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "あんたの ポケモン\nぜんぜん うごけ ないんだから",
+          "chinese": "因为如果被冻住，\n你的宝可梦就无法动弹了！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
+              "ordinal": 9,
+              "japanese": "あんたの ポケモン\nぜんぜん うごけ ないんだから",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G23\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
+              "ordinal": 9,
+              "japanese": "あんたの ポケモン\nぜんぜん うごけ ないんだから",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G23\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
+              "ordinal": 9,
+              "japanese": "あんたの ポケモン\nぜんぜん うごけ ないんだから",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G15\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-085",
+        "before": {
+          "rawJapanese": "ポケモン りーグ しんの パワーは\nまだまだ……！",
+          "matchStatus": "equivalent",
+          "displayStatus": "wait_for_semantic_unit",
+          "resolvedJapanese": "ポケモン リーグ しんの パワーは\nまだまだ……！",
+          "chinese": "",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
+              "ordinal": 5,
+              "japanese": "ポケモン リーグ しんの パワーは\nまだまだ……！",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G39\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
+              "ordinal": 5,
+              "japanese": "ポケモン リーグ しんの パワーは\nまだまだ……！",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G39\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
+              "ordinal": 5,
+              "japanese": "ポケモン リーグ しんの パワーは\nまだまだ……！",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G38\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "ポケモン りーグ しんの パワーは\nまだまだ……！",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "ポケモン リーグ しんの パワーは\nまだまだ……！",
+          "chinese": "不过，\n宝可梦联盟真正的力量\n还在后头呢……！\n可没有你想的那么简单！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
+              "ordinal": 5,
+              "japanese": "ポケモン リーグ しんの パワーは\nまだまだ……！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G39\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
+              "ordinal": 5,
+              "japanese": "ポケモン リーグ しんの パワーは\nまだまだ……！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G39\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
+              "ordinal": 5,
+              "japanese": "ポケモン リーグ しんの パワーは\nまだまだ……！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G38\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-086",
+        "before": {
+          "rawJapanese": "まだまだ……！\nこんな ものじゃ ないわよ！",
+          "matchStatus": "equivalent",
+          "displayStatus": "context_required",
+          "resolvedJapanese": "まだまだ……！\nこんな ものじゃ ないわよ！",
+          "chinese": "",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
+              "ordinal": 6,
+              "japanese": "まだまだ……！\nこんな ものじゃ ないわよ！",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G39\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
+              "ordinal": 6,
+              "japanese": "まだまだ……！\nこんな ものじゃ ないわよ！",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G39\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
+              "ordinal": 6,
+              "japanese": "まだまだ……！\nこんな ものじゃ ないわよ！",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G38\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "まだまだ……！\nこんな ものじゃ ないわよ！",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "まだまだ……！\nこんな ものじゃ ないわよ！",
+          "chinese": "不过，\n宝可梦联盟真正的力量\n还在后头呢……！\n可没有你想的那么简单！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
+              "ordinal": 6,
+              "japanese": "まだまだ……！\nこんな ものじゃ ないわよ！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G39\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
+              "ordinal": 6,
+              "japanese": "まだまだ……！\nこんな ものじゃ ないわよ！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G39\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
+              "ordinal": 6,
+              "japanese": "まだまだ……！\nこんな ものじゃ ないわよ！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G38\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-087",
+        "before": {
+          "rawJapanese": "ひとも ポケモンも\nたたかい きたえれば",
+          "matchStatus": "equivalent",
+          "displayStatus": "wait_for_semantic_unit",
+          "resolvedJapanese": "ひとも ポケモンも\nたたかい きたえれば",
+          "chinese": "",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 3,
+              "japanese": "ひとも ポケモンも\nたたかい きたえれば",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 3,
+              "japanese": "ひとも ポケモンも\nたたかい きたえれば",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 3,
+              "japanese": "ひとも ポケモンも\nたたかい きたえれば",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G15\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "ひとも ポケモンも\nたたかい きたえれば",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "ひとも ポケモンも\nたたかい きたえれば",
+          "chinese": "无论是人还是宝可梦，\n只要经历了战斗的锤炼，\n就能使实力突破极限！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 3,
+              "japanese": "ひとも ポケモンも\nたたかい きたえれば",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 3,
+              "japanese": "ひとも ポケモンも\nたたかい きたえれば",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 3,
+              "japanese": "ひとも ポケモンも\nたたかい きたえれば",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G15\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-088",
+        "before": {
+          "rawJapanese": "たたかい きたえれば\nどこまでも つよくなる！",
+          "matchStatus": "equivalent",
+          "displayStatus": "context_required",
+          "resolvedJapanese": "たたかい きたえれば\nどこまでも つよくなる！",
+          "chinese": "",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 4,
+              "japanese": "たたかい きたえれば\nどこまでも つよくなる！",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 4,
+              "japanese": "たたかい きたえれば\nどこまでも つよくなる！",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 4,
+              "japanese": "たたかい きたえれば\nどこまでも つよくなる！",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G15\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "たたかい きたえれば\nどこまでも つよくなる！",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "たたかい きたえれば\nどこまでも つよくなる！",
+          "chinese": "无论是人还是宝可梦，\n只要经历了战斗的锤炼，\n就能使实力突破极限！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 4,
+              "japanese": "たたかい きたえれば\nどこまでも つよくなる！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 4,
+              "japanese": "たたかい きたえれば\nどこまでも つよくなる！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 4,
+              "japanese": "たたかい きたえれば\nどこまでも つよくなる！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G15\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-090",
+        "before": {
+          "rawJapanese": "ポケモンと ともに いきてきた！\nそして これからもな！",
+          "matchStatus": "equivalent",
+          "displayStatus": "context_required",
+          "resolvedJapanese": "ポケモンと ともに いきてきた！\nそして これからもな！",
+          "chinese": "",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 7,
+              "japanese": "ポケモンと ともに いきてきた！\nそして これからもな！",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 7,
+              "japanese": "ポケモンと ともに いきてきた！\nそして これからもな！",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 7,
+              "japanese": "ポケモンと ともに いきてきた！\nそして これからもな！",
+              "segmentStatus": "semantic_context_required",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G15\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "ポケモンと ともに いきてきた！\nそして これからもな！",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "ポケモンと ともに いきてきた！\nそして これからもな！",
+          "chinese": "我就是在这样的锤炼中\n和我的宝可梦\n一起生活，一起成长！\n今后也会如此！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 7,
+              "japanese": "ポケモンと ともに いきてきた！\nそして これからもな！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 7,
+              "japanese": "ポケモンと ともに いきてきた！\nそして これからもな！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
+              "ordinal": 7,
+              "japanese": "ポケモンと ともに いきてきた！\nそして これからもな！",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G15\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-095",
+        "before": {
+          "rawJapanese": "ダメだ！\nしょうぶの さいちゅうに",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready_waiting",
+          "resolvedJapanese": "ダメだ！\nしょうぶの さいちゅうに",
+          "chinese": "不行！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:engine/battle/core.asm:NoRunningText",
+              "ordinal": 2,
+              "japanese": "ダメだ！\nしょうぶの さいちゅうに",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F956:G960\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:engine/battle/core.asm:NoRunningText",
+              "ordinal": 2,
+              "japanese": "ダメだ！\nしょうぶの さいちゅうに",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F956:G960\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:engine/battle/core.asm:NoRunningText",
+              "ordinal": 2,
+              "japanese": "ダメだ！\nしょうぶの さいちゅうに",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F986:G989\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "ダメだ！\nしょうぶの さいちゅうに",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "ダメだ！\nしょうぶの さいちゅうに",
+          "chinese": "不行！不能在对战中\n临阵脱逃！",
+          "candidates": [
+            {
+              "recordId": "pokegreen:engine/battle/core.asm:NoRunningText",
+              "ordinal": 2,
+              "japanese": "ダメだ！\nしょうぶの さいちゅうに",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F956:G960\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:engine/battle/core.asm:NoRunningText",
+              "ordinal": 2,
+              "japanese": "ダメだ！\nしょうぶの さいちゅうに",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F956:G960\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:engine/battle/core.asm:NoRunningText",
+              "ordinal": 2,
+              "japanese": "ダメだ！\nしょうぶの さいちゅうに",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F986:G989\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      },
+      {
+        "sample": "g1-098",
+        "before": {
+          "rawJapanese": "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
+          "matchStatus": "equivalent",
+          "displayStatus": "wait_for_semantic_unit",
+          "resolvedJapanese": "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
+          "chinese": "",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText",
+              "ordinal": 4,
+              "japanese": "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CinnabarLab!F2:G9\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText",
+              "ordinal": 4,
+              "japanese": "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CinnabarLab!F2:G9\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText",
+              "ordinal": 4,
+              "japanese": "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
+              "segmentStatus": "wait_for_semantic_unit",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CinnabarLab!F2:G8\"]",
+              "revision": "null"
+            }
+          ]
+        },
+        "after": {
+          "rawJapanese": "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
+          "matchStatus": "equivalent",
+          "displayStatus": "ready",
+          "resolvedJapanese": "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
+          "chinese": "除此之外，也有客人\n把罕见的宝可梦\n送到这里来。",
+          "candidates": [
+            {
+              "recordId": "pokegreen:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText",
+              "ordinal": 4,
+              "japanese": "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CinnabarLab!F2:G9\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeblue:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText",
+              "ordinal": 4,
+              "japanese": "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CinnabarLab!F2:G9\"]",
+              "revision": "null"
+            },
+            {
+              "recordId": "pokeyellow-jp:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText",
+              "ordinal": 4,
+              "japanese": "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
+              "segmentStatus": "semantic_visible",
+              "variables": {},
+              "source": "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CinnabarLab!F2:G8\"]",
+              "revision": "null"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "jar": {
+    "path": "target/g1-ocr-0.3.0.jar",
+    "bytes": 15706010,
+    "sha256": "18f6114aaf8f20a8a724d9cf3f0e02e7dc047922b78a89db4852c0a85c2740b7"
+  },
+  "sha256": {
+    "tools/build_text_corpus.py": "e9fba24619f2ce35a9928203c81861cfcb33b95f17ea9e45afdea173de02a785",
+    "src/main/resources/corpus/fragments.csv": "351b9957dfb5e01ba2d113e9b8fbafb14af245349ec67ecb8e338d8d64a27c9f",
+    "src/main/resources/corpus/slot_rules.csv": "6f869ec0fe2d5f687de094630023b67b7751946ec207533b5b26e54d7dac8096",
+    "src/test/resources/chinese-cases.json": "77f0e8507a43172c683d26573172f93568eeb78f81d46470b0705c907bb6f9d6",
+    "src/test/java/io/github/g1ocr/TranslationTest.java": "af03f29d07e45b769c55f25dc7ce580bcd5c8b59da8ea78c46214111e8089863",
+    "src/main/resources/corpus/README.md": "e060638d4d404d8929dcfd12e240c6bf72b2db8549f61a67d45fa8880243ef01"
+  },
+  "documentationRepackage": {
+    "log": "output/package-display-fixes.log",
+    "testsRepeated": false,
+    "verifiedBeforeDocumentationOnlyChange": {
+      "path": "target/g1-ocr-0.3.0.jar",
+      "bytes": 15706010,
+      "sha256": "e69cd33dceddb13ceaf2c05d66c931bbb0b5c31fcb4fec591593ef46a963733c"
+    },
+    "changedJarEntries": [
+      "corpus/README.md"
+    ],
+    "applicationClassesAndRuntimeCsvUnchanged": true,
+    "executionSnapshotReadmeSha256": "cdc75335b6e6e7036a61f5516626d456970fb98c8bfcfeb6035edfc02465adad"
+  },
+  "evidenceSnapshotFor": "2026-10-21 complete saved-unit display and initial three species roles; current capture/Safari roles and JAR: chinese-capture-name-fix.json"
+}

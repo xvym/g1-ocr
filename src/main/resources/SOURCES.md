@@ -10,9 +10,12 @@ OCR 运行时读取 `font.tsv`；独立翻译层读取 `corpus/records.csv`、`f
 | `gfx/font/font.png` | `2579f65843562a1addd355e8a33e0d32aad5a327908391ca96db93f1c0bd87af` | 128 个主字形，含清浊点、数字及光标 |
 | `gfx/font/font_extra.png` | `65bec927782290b91c345b799b3356202fa8ec4f89b61dbcaab9200b90c1fe54` | 标点、框线及附加假名 |
 | `gfx/font/font_battle_extra.png` | `7fc5145da077e55d4b35f843176808f41bf442c528a5b761f80fb0697b170cee` | `<Lv>` 字形 |
-| 派生 `font.tsv` | `56022863949bdbdd3e097cbc62123d33d601a95596a88db69bbb710d3975b4a4` | 209 个模板，其中 198 个文字模板；每行保留所有相同像素候选 |
+| 蓝／皮卡丘 `gfx/font/font_extra.png` | `8e3cd60638504890bb44947617230a358e4dbdef74f34412e5fc61f19b192129` | 补充四个角点模板；横线、竖线沿用相同模板 |
+| 派生 `font.tsv` | `9dd2d154326996eddc9f7a4f803607ba34e76669e270b02e98de7aff18cab598` | 213 个模板，其中 198 个文字模板；每行保留所有相同像素候选 |
 
 生成方式：`python tools/import_font.py`（开发工具需要 Pillow；运行 Java 应用不需要 Python 或网络）。脚本仅从固定上游图形和字符表生成模板，不读取验收答案。每个 8×8 字形按 `bit=y*8+x` 写入 64 位数，低位在左上；清浊点保留为独立的上方 8×8 图块。只接受 128 位字形距离为 0 的匹配，非零距离输出未知及最近候选，不作模糊纠错。
+
+新增角点取自 [Narishma-gb/pokeblue](https://github.com/Narishma-gb/pokeblue/tree/69cd1814203dd24533c46af383d7cff5591aea90) 固定提交 `69cd1814203dd24533c46af383d7cff5591aea90` 的 `gfx/font/font_extra.png`，字符码 `$79/$7b/$7d/$7e` 分别对应 `┌/┐/└/┘`。已与 `pokeyellow-jp` 固定提交 `f282e72ae26232790fdb780aa5a5db7ec8ebf572` 的同名图像核对，整个文件 SHA-256 相同。生成脚本保留原红／绿模板后追加这四个模板；区域检测接受同一框线字符的全部精确字形，正文模板和字形距离规则不变。此来源核对不表示蓝／皮卡丘全部界面或实时捕获已通过。
 
 布局参考：[data/text_boxes.asm](https://github.com/Narishma-gb/pokegreen/blob/953f41b34108621b2bf13c3b1e53abfc9c3e5aec/data/text_boxes.asm)；实际网格与遮罩证据见 `reports/layouts.md`，运行时由 `RegionDetector` 定义。
 

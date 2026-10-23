@@ -17,6 +17,10 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 FILES = ["constants/charmap.asm", "gfx/font/font.png", "gfx/font/font_extra.png",
          "gfx/font/font_battle_extra.png"]
 data = {p: urllib.request.urlopen(BASE + p).read() for p in FILES}
+BLUE_COMMIT = "69cd1814203dd24533c46af383d7cff5591aea90"
+BLUE_BORDER = "pokeblue/gfx/font/font_extra.png"
+data[BLUE_BORDER] = urllib.request.urlopen(
+    f"https://raw.githubusercontent.com/Narishma-gb/pokeblue/{BLUE_COMMIT}/gfx/font/font_extra.png").read()
 charmap = data[FILES[0]].decode("utf-8")
 mapping = re.findall(r'charmap "([^"]+)",\s*\$([0-9a-f]+)', charmap)
 
@@ -60,6 +64,9 @@ for token, code in mapping:
         if token not in entries.setdefault(key, []):
             entries[key].append(token)
 entries[("text", tile(FILES[3], 0x6e - 0x62), 0)] = ["<Lv>"]
+for token, code in extra_mapping:
+    if token in "┌┐└┘":
+        entries[("border", tile(BLUE_BORDER, int(code, 16) - 0x60), 0)] = [token]
 target = ROOT / "src/main/resources/font.tsv"
 target.parent.mkdir(parents=True, exist_ok=True)
 lines = ["# role\tbase_8x8_lsb_xy\tmark_8x8_lsb_xy\tUnicode_candidates"]

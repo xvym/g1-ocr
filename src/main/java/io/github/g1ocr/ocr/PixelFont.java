@@ -29,6 +29,11 @@ public final class PixelFont {
                 .findFirst().orElseThrow().base();
     }
 
+    /** Exact tile comparison accepts every saved variant of the token. */
+    public boolean matches(String token, long pixels) {
+        return glyphs.stream().anyMatch(g -> g.mark() == 0 && g.base() == pixels && g.candidates().contains(token));
+    }
+
     /** All equal visual candidates survive; non-exact matches remain unknown. */
     public Match match(long base, long mark) {
         int best = 129, second = 129;

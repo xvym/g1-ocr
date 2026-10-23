@@ -1,6 +1,7 @@
 package io.github.g1ocr;
 
 import io.github.g1ocr.image.GbFrame;
+import io.github.g1ocr.image.ViewportResolver;
 import io.github.g1ocr.ocr.PixelFont;
 import io.github.g1ocr.region.RegionDetector;
 import io.github.g1ocr.region.StabilityDetector;
@@ -10,7 +11,7 @@ import java.awt.image.BufferedImage;
 import java.nio.file.Path;
 import static org.junit.jupiter.api.Assertions.*;
 
-/** Synthetic inputs check rules only; these are not real capture/timing evidence. */
+/** Static images and synthetic inputs are not real capture/timing evidence. */
 class PipelineRulesTest {
     private static final GbFrame.Mapping SCREEN = new GbFrame.Mapping(0, 0, 3);
     private static BufferedImage source(String time) throws Exception {
@@ -36,6 +37,30 @@ class PipelineRulesTest {
             for (int y = 0; y < 144; y++) for (int x = 0; x < 160; x++)
                 assertEquals((x * 17011 + y * 9137) & 0xffffff, normalized.image().getRGB(x, y) & 0xffffff);
         }
+    }
+
+    @Test void blueYellowBorderAttachmentSupportsCalibrationAndOcr() throws Exception {
+        var image = ImageIO.read(Path.of("testpic/additional/oak-speech-border-2026-10-22.png").toFile());
+        var upper = new BufferedImage(1200, 720, BufferedImage.TYPE_INT_RGB);
+        var graphics = upper.createGraphics();
+        // Preserve the attachment's GB pixels; only place its (5,5,480,432) crop at the usual origin.
+        graphics.drawImage(image, 360 - 5, 144 - 5, null);
+        graphics.dispose();
+        var resolver = new ViewportResolver(new PixelFont());
+        resolver.resolve(upper, java.util.List.of(), 0);
+        resolver.resolve(upper, java.util.List.of(), 100_000_000L);
+        var resolution = resolver.resolve(upper, java.util.List.of(), 200_000_000L);
+        assertEquals(ViewportResolver.Status.READY, resolution.status());
+        assertEquals(SCREEN, resolution.mapping());
+        var pipeline = new OcrPipeline();
+        var actual = pipeline.recognize(resolution.frame());
+        assertEquals(1, actual.size());
+        assertEquals("dialogue", actual.getFirst().layout());
+        // Independently transcribed by the model from the attachment, not from OCR output.
+        assertEquals(java.util.List.of("わたしの なまえは オーキド", "みんなからは ポケモン はかせと"),
+                actual.getFirst().rawOcr());
+        assertTrue(actual.getFirst().diagnostics().stream().flatMap(line -> line.characters().stream())
+                .noneMatch(character -> character.unknown()));
     }
 
     @Test void stabilityMasksGenerationsAndInvalidation() throws Exception {

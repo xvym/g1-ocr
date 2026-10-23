@@ -37,12 +37,15 @@ class TranslationTest {
                 if (event.path("reset").asBoolean()) { resolver.reset(); continue; }
                 if (event.path("disappear").asBoolean()) { resolver.retainRegions(Set.of()); continue; }
                 var actual = resolver.dialogue("dialogue", event.path("raw").asText());
-                boolean pass = actual.matchStatus().equals(event.path("match").asText())
+                boolean pass = actual.rawJapanese().equals(event.path("raw").asText())
+                        && actual.matchStatus().equals(event.path("match").asText())
                         && actual.displayStatus().equals(event.path("status").asText())
                         && actual.chinese().equals(event.path("chinese").asText())
                         && (!event.has("source") || actual.candidates().stream()
                         .allMatch(c -> c.recordId().endsWith(event.path("source").asText())))
-                        && (!event.has("candidateCount") || actual.candidates().size() == event.path("candidateCount").asInt());
+                        && (!event.has("candidateCount") || actual.candidates().size() == event.path("candidateCount").asInt())
+                        && (!event.has("reusedPlayerName") || actual.candidates().stream()
+                        .allMatch(c -> c.reusedPlayerName().equals(event.path("reusedPlayerName").asText())));
                 results.add(java.util.Map.of("scenario", scenario.path("name").asText(), "expected", event, "actual", actual, "pass", pass));
                 if (!pass) failures.add(scenario.path("name").asText() + ": " + json.writeValueAsString(actual));
                 assertions++;
@@ -66,6 +69,32 @@ class TranslationTest {
         assertTrue(failures.isEmpty(), String.join("\n", failures));
     }
 
+    @Test void incompleteTextAndOpponentNamesDoNotEstablishPlayerIdentity() {
+        for (String raw : List.of("サトシは ひきかえけんで\nじてんしゃを もら",
+                "サト�は ひきかえけんで\nじてんしゃを もらった！", "カンナ『…… なんて やつなの！")) {
+            var resolver = new TextResolver(corpus);
+            resolver.dialogue("dialogue", raw);
+            var victory = resolver.dialogue("dialogue", "カンナとの\nしょうぶに かった！");
+            assertEquals("variables_missing", victory.displayStatus());
+            assertEquals("", victory.chinese());
+            assertTrue(victory.candidates().stream().allMatch(c -> c.reusedPlayerName().isEmpty()));
+        }
+    }
+
+    @Test void presetNamesUseTheDictionaryAcrossSourcesAndKeepConflictsJapanese() {
+        // JACK also occurs in the source as an unused trainer alias for Juggler.
+        for (var name : List.of(List.of("レッド", "赤红"), List.of("サトシ", "小智"), List.of("ジャック", "ジャック"),
+                List.of("グリーン", "青绿"), List.of("シゲル", "小茂"), List.of("ジョン", "约翰"),
+                List.of("ブルー", "碧蓝"), List.of("ツネカズ", "恒和"), List.of("ジャン", "基恩"),
+                List.of("ヒロシ", "阿溥"), List.of("イエロー", "小黄"))) {
+            String raw = name.getFirst() + "は ひきかえけんで\nじてんしゃを もらった！";
+            var result = new TextResolver(corpus).dialogue("dialogue", raw);
+            assertEquals(name.get(1) + "用兑换券\n得到了自行车！", result.chinese());
+            assertEquals(raw, result.rawJapanese());
+            assertTrue(result.candidates().stream().allMatch(c -> name.getFirst().equals(c.variables().get("PLAYER"))));
+        }
+    }
+
     @Test void listFieldsAndVisualOcrRemainIndependent() throws Exception {
         var resolver = new TextResolver(corpus);
         var frame = GbFrame.normalize(ImageIO.read(Path.of("testpic/Screenshot 2026-10-20 21-22-46.png").toFile()),
@@ -84,11 +113,13 @@ class TranslationTest {
         assertEquals(List.of("伤药 ×12", "伤药 × 99"), quantities.stream().map(TextResolver.Unit::chinese).toList());
         assertEquals(items.rawOcr(), quantities.stream().map(TextResolver.Unit::rawJapanese).toList());
         var nicknames = new PixelOcr.Result("list", "shared_list", "pc_pokemon", items.bounds(),
-                List.of(), List.of(), List.of("やめる <Lv>12", "やめる"), List.of(), 0, List.of());
+                List.of(), List.of(), List.of("やめる <Lv>12", "ピカチュウ <Lv>50", "あいうえお <Lv>3", "ゴースト <Lv>7", "やめる"), List.of(), 0, List.of());
         var pc = resolver.resolve(nicknames);
-        assertEquals("やめる <Lv>12", pc.getFirst().display());
-        assertEquals("nickname_preserved", pc.getFirst().displayStatus());
-        assertEquals("取消", pc.get(1).chinese());
+        assertEquals(List.of("取消 <Lv>12", "皮卡丘 <Lv>50", "あいうえお <Lv>3", "ゴースト <Lv>7", "取消"),
+                pc.stream().map(TextResolver.Unit::display).toList());
+        assertEquals(List.of("ready", "ready", "missing", "ambiguous", "ready"),
+                pc.stream().map(TextResolver.Unit::displayStatus).toList());
+        assertEquals(nicknames.rawOcr(), pc.stream().map(TextResolver.Unit::rawJapanese).toList());
         var action = new PixelOcr.Result("action", "battle_action", "battle_action", items.bounds(),
                 List.of(), List.of(), List.of("たたかう どうぐ", "ポケモン にげる"), List.of(), 2, List.of());
         assertEquals(List.of("战斗", "道具", "宝可梦", "逃走"),

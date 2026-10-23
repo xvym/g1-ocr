@@ -2,8 +2,8 @@
   "implementationVersion" : "0.3.0",
   "scope" : "S4 development scenarios, not final A6 or game-wide coverage",
   "annotationMethod" : "model_authored_from_independent_Japanese_text_and_selected_localization_sources; not_generated_from_resolver_output; not_human_reviewed",
-  "checks" : 24,
-  "passed" : 24,
+  "checks" : 40,
+  "passed" : 40,
   "realCaptureTested" : false,
   "finalChineseAcceptance" : false,
   "sha256" : {
@@ -15,29 +15,40 @@
     "src/main/java/io/github/g1ocr/OcrPipeline.java" : "d28a79eeb0948c42538098e9c7bb0f992dc9c7d71d933df33a001be6d25471f6",
     "src/main/java/io/github/g1ocr/ocr/PixelFont.java" : "983edf9f244ba5084042612e0343e55145fdce614a876a418edf824270c7f8ba",
     "src/main/java/io/github/g1ocr/ocr/PixelOcr.java" : "a5ec55f0e59c504295306f33de5fc8363eaade34fc6743922b40b55d4ce21fa3",
-    "src/main/java/io/github/g1ocr/region/RegionDetector.java" : "6fa82dbf5fbc13818937adcc2376c2cf503e6b08dac34ede376018ebcf925b04",
+    "src/main/java/io/github/g1ocr/region/RegionDetector.java" : "8817172f1979a330fb6c7f563a323b3feadd439aee5d3aa791c87d059c0a4ae4",
     "src/main/java/io/github/g1ocr/region/StabilityDetector.java" : "b3b37046c37efd61ee2332f13f2754c5bc15590d8cdc0a3f29bea851e3f13bf5",
     "src/main/java/io/github/g1ocr/text/TextCorpus.java" : "f402cc56378059e1313e1fa29d489dec502e0450108d52a7e29d4333e5c26452",
-    "src/main/java/io/github/g1ocr/text/TextResolver.java" : "cf5ce1c6086ed2bbd67e6f930fae25e766dc906dd253804074b96298cd6dcd65",
-    "src/main/java/io/github/g1ocr/ui/LiveApplication.java" : "6a7a8870884a9f10ec7f6176d56d920ebbd9c42331c12b638e5f6813b14b9d12",
+    "src/main/java/io/github/g1ocr/text/TextResolver.java" : "aed72df0a64d2738e6acabdd1fb2370bdc5be45b5afa973e9dd1d3c72e2a108e",
+    "src/main/java/io/github/g1ocr/ui/LiveApplication.java" : "7c56860990f7a248996c23ca5473fa40b4f23fd5aa63d9ca0ff29c11b5338776",
     "src/main/resources/corpus/control_rules.csv" : "e0688409826990bf15b15598c9d6e617243b65475c6856b87a4ecb46ea23f560",
-    "src/main/resources/corpus/fragments.csv" : "a5ba245e6bfacbba408f62f2740484b02d8af5c4c2af62c00a6dd7ba215c512e",
-    "src/main/resources/corpus/README.md" : "25bfb9e857681f1e0caa6ac4653317cdeb71ea988c602dc321132952596252cb",
+    "src/main/resources/corpus/fragments.csv" : "351b9957dfb5e01ba2d113e9b8fbafb14af245349ec67ecb8e338d8d64a27c9f",
+    "src/main/resources/corpus/README.md" : "b6d85bffd624042106ddd01e3f106acf84a527fb054a63107af76fa92c117981",
     "src/main/resources/corpus/records.csv" : "6fe6185718c5821a115257ba6e2d13b5f7c806a5c10d76fcf38daa71e97c3430",
     "src/main/resources/corpus/segments.csv" : "a581a3d18c0e7ab379721a3febcd211136a71d352751bde585825650540ab6c0",
-    "src/main/resources/corpus/slot_rules.csv" : "fb213c840105319f373e844d5bb54abf903ba08b09ab575e8b545c8956b65b9d",
+    "src/main/resources/corpus/slot_rules.csv" : "b29015748f9cb4f27109fd7f914cc23cca9223181f90de8cd2c92dfdd4b2a7ad",
     "src/main/resources/corpus/sources.csv" : "1c3781d918002354066b6c7868968f4f876e099b6c216ecf4439ddd8ec763d81",
     "src/main/resources/corpus/variables.csv" : "7be71b7e5921077f40fa9d2791e8c55eb4e1ee6f40b4460b2a5488cce030edd2",
     "src/main/resources/font.tsv" : "56022863949bdbdd3e097cbc62123d33d601a95596a88db69bbb710d3975b4a4",
     "src/main/resources/SOURCES.md" : "8712e57f185dffa141d0e53a22891199296bc9c3dd545990e549353158aea6d0",
     "src/test/java/io/github/g1ocr/AcceptanceTest.java" : "fd1f739c685a1f3197fb70b5118ca4f538620eca78632fb5720cac89493f9c15",
     "src/test/java/io/github/g1ocr/PipelineRulesTest.java" : "b89d9bf55dfbf07b5023290821572ef14b7b3aaef506b64d5d643b1833a20ac5",
-    "src/test/java/io/github/g1ocr/TranslationTest.java" : "2dbb4ccde091030581764c0f68f110cf9838dc4838883171439502d67969d016",
+    "src/test/java/io/github/g1ocr/ShopTest.java" : "27d503f686e5ae049763145f9267297d2062ef36694f8306e2f5a0b05d58e4a0",
+    "src/test/java/io/github/g1ocr/TranslationTest.java" : "af03f29d07e45b769c55f25dc7ce580bcd5c8b59da8ea78c46214111e8089863",
     "src/test/java/io/github/g1ocr/WgcSmokeTest.java" : "cf77e24464efb42810dfe0174a37b2973d29598603c3abc0df8163c472a95b56",
-    "src/test/resources/chinese-cases.json" : "721fde2bab0ef6dfaa1fc2f6321e9bc0e38236eea64b33ce67a362070693f578",
-    "src/test/resources/chinese-regressions.json" : "9881f462285e4be2f5dc2e0062471921f28386b9148a1f1ff34613f0b3fa2b2b"
+    "src/test/resources/chinese-cases.json" : "c1f77c9a3280fc1f759ab5085fc650ac4ea3bc63a80ff214427ee306803d9af6",
+    "src/test/resources/chinese-regressions.json" : "0f4898fa8c8ccae4ff9593410cab9f505585fa1158f4f890c0459daaedf57ce5"
   },
   "results" : [ {
+    "pass" : true,
+    "expected" : {
+      "raw" : "あたしは してんのうの キクコ！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "我是四天王中的菊子！",
+      "source" : "AgathasRoomAgathaBattleText",
+      "candidateCount" : 3
+    },
+    "scenario" : "identical translations across all sources publish without a version",
     "actual" : {
       "rawJapanese" : "あたしは してんのうの キクコ！",
       "matchStatus" : "equivalent",
@@ -69,18 +80,16 @@
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#AgathasRoom!F2:G17\"]",
         "revision" : "null"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "あたしは してんのうの キクコ！",
-      "match" : "equivalent",
-      "status" : "ready",
-      "chinese" : "我是四天王中的菊子！",
-      "source" : "AgathasRoomAgathaBattleText",
-      "candidateCount" : 3
+      "raw" : "おーす！\nみらいの チャンピオン！",
+      "match" : "ambiguous",
+      "status" : "ambiguous",
+      "chinese" : ""
     },
-    "scenario" : "identical translations across all sources publish without a version"
-  }, {
+    "scenario" : "same visible greeting has different script sources",
     "actual" : {
       "rawJapanese" : "おーす！\nみらいの チャンピオン！",
       "matchStatus" : "ambiguous",
@@ -256,27 +265,27 @@
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#ViridianGym!F219:G230\"]",
         "revision" : "null"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "おーす！\nみらいの チャンピオン！",
-      "match" : "ambiguous",
-      "status" : "ambiguous",
-      "chinese" : ""
+      "raw" : "おしょくじ ちゅう！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "上面挂着‘用餐中’的告示。"
     },
-    "scenario" : "same visible greeting has different script sources"
-  }, {
+    "scenario" : "approved semantic unit can publish before its final Japanese line",
     "actual" : {
       "rawJapanese" : "おしょくじ ちゅう！",
       "matchStatus" : "equivalent",
-      "displayStatus" : "wait_for_semantic_unit",
+      "displayStatus" : "ready",
       "resolvedJapanese" : "おしょくじ ちゅう！",
-      "chinese" : "",
+      "chinese" : "上面挂着‘用餐中’的告示。",
       "candidates" : [ {
         "recordId" : "pokegreen:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText",
         "ordinal" : 1,
         "japanese" : "おしょくじ ちゅう！",
-        "segmentStatus" : "wait_for_semantic_unit",
+        "segmentStatus" : "whole_visible_unit",
         "variables" : { },
         "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F463:G466\"]",
         "revision" : "{\"original_chinese\":\"上面贴了个\\n设备故障的告示。\",\"revised_ranges\":[[0,13]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_correction\",\"approval_status\":\"user_approved\",\"evidence\":\"用户确认按日文将设备故障告示订正为用餐中告示；两行合并后发布\"}"
@@ -284,7 +293,7 @@
         "recordId" : "pokeblue:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText",
         "ordinal" : 1,
         "japanese" : "おしょくじ ちゅう！",
-        "segmentStatus" : "wait_for_semantic_unit",
+        "segmentStatus" : "whole_visible_unit",
         "variables" : { },
         "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F463:G466\"]",
         "revision" : "{\"original_chinese\":\"上面贴了个\\n设备故障的告示。\",\"revised_ranges\":[[0,13]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_correction\",\"approval_status\":\"user_approved\",\"evidence\":\"用户确认按日文将设备故障告示订正为用餐中告示；两行合并后发布\"}"
@@ -292,21 +301,22 @@
         "recordId" : "pokeyellow-jp:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText",
         "ordinal" : 1,
         "japanese" : "おしょくじ ちゅう！",
-        "segmentStatus" : "wait_for_semantic_unit",
+        "segmentStatus" : "whole_visible_unit",
         "variables" : { },
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F496:G499\"]",
         "revision" : "{\"original_chinese\":\"上面贴了个\\n设备故障的告示。\",\"revised_ranges\":[[0,13]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_correction\",\"approval_status\":\"user_approved\",\"evidence\":\"用户确认按日文将设备故障告示订正为用餐中告示；两行合并后发布\"}"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "おしょくじ ちゅう！",
+      "raw" : "おしょくじ ちゅう！\n…… の フダが かけてある！",
       "match" : "equivalent",
-      "status" : "wait_for_semantic_unit",
-      "chinese" : ""
+      "status" : "ready",
+      "chinese" : "上面挂着‘用餐中’的告示。",
+      "source" : "GameCornerOutToLunchText"
     },
-    "scenario" : "approved correction waits for both lines"
-  }, {
+    "scenario" : "approved semantic unit can publish before its final Japanese line",
     "actual" : {
       "rawJapanese" : "おしょくじ ちゅう！\n…… の フダが かけてある！",
       "matchStatus" : "equivalent",
@@ -338,69 +348,68 @@
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F496:G499\"]",
         "revision" : "{\"original_chinese\":\"上面贴了个\\n设备故障的告示。\",\"revised_ranges\":[[0,13]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_correction\",\"approval_status\":\"user_approved\",\"evidence\":\"用户确认按日文将设备故障告示订正为用餐中告示；两行合并后发布\"}"
       } ]
-    },
-    "pass" : true,
-    "expected" : {
-      "raw" : "おしょくじ ちゅう！\n…… の フダが かけてある！",
-      "match" : "equivalent",
-      "status" : "ready",
-      "chinese" : "上面挂着‘用餐中’的告示。",
-      "source" : "GameCornerOutToLunchText"
-    },
-    "scenario" : "approved correction waits for both lines"
+    }
   }, {
-    "actual" : {
-      "rawJapanese" : "せかい じゅうの ポケモンを",
-      "matchStatus" : "equivalent",
-      "displayStatus" : "wait_for_semantic_unit",
-      "resolvedJapanese" : "せかい じゅうの ポケモンを",
-      "chinese" : "",
-      "candidates" : [ {
-        "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
-        "ordinal" : 3,
-        "japanese" : "せかい じゅうの ポケモンを",
-        "segmentStatus" : "wait_for_semantic_unit",
-        "variables" : { },
-        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
-        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
-      }, {
-        "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
-        "ordinal" : 3,
-        "japanese" : "せかい じゅうの ポケモンを",
-        "segmentStatus" : "wait_for_semantic_unit",
-        "variables" : { },
-        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
-        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
-      }, {
-        "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
-        "ordinal" : 3,
-        "japanese" : "せかい じゅうの ポケモンを",
-        "segmentStatus" : "wait_for_semantic_unit",
-        "variables" : { },
-        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
-        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
-      } ]
-    },
     "pass" : true,
     "expected" : {
       "raw" : "せかい じゅうの ポケモンを",
       "match" : "equivalent",
-      "status" : "wait_for_semantic_unit",
-      "chinese" : ""
+      "status" : "ready",
+      "chinese" : "火箭队把世界各地的宝可梦用于坏事，借此赚钱！"
     },
-    "scenario" : "Giovanni continuation requires observed start"
+    "scenario" : "saved unit publishes from either side of a rolling window; character prefixes remain incomplete",
+    "actual" : {
+      "rawJapanese" : "せかい じゅうの ポケモンを",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "せかい じゅうの ポケモンを",
+      "chinese" : "火箭队把世界各地的宝可梦用于坏事，借此赚钱！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 3,
+        "japanese" : "せかい じゅうの ポケモンを",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 3,
+        "japanese" : "せかい じゅうの ポケモンを",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 3,
+        "japanese" : "せかい じゅうの ポケモンを",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      } ]
+    }
   }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "火箭队把世界各地的宝可梦用于坏事，借此赚钱！"
+    },
+    "scenario" : "saved unit publishes from either side of a rolling window; character prefixes remain incomplete",
     "actual" : {
       "rawJapanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
       "matchStatus" : "equivalent",
-      "displayStatus" : "wait_for_semantic_unit",
+      "displayStatus" : "ready",
       "resolvedJapanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
-      "chinese" : "",
+      "chinese" : "火箭队把世界各地的宝可梦用于坏事，借此赚钱！",
       "candidates" : [ {
         "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 4,
         "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
-        "segmentStatus" : "wait_for_semantic_unit",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
@@ -408,7 +417,7 @@
         "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 4,
         "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
-        "segmentStatus" : "wait_for_semantic_unit",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
@@ -416,21 +425,21 @@
         "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 4,
         "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
-        "segmentStatus" : "wait_for_semantic_unit",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+      "raw" : "わるだくみに つかい まくって\nかねもうけ する ロケッ",
       "match" : "equivalent",
-      "status" : "wait_for_semantic_unit",
+      "status" : "incomplete",
       "chinese" : ""
     },
-    "scenario" : "Giovanni continuation requires observed start"
-  }, {
+    "scenario" : "saved unit publishes from either side of a rolling window; character prefixes remain incomplete",
     "actual" : {
       "rawJapanese" : "わるだくみに つかい まくって\nかねもうけ する ロケッ",
       "matchStatus" : "equivalent",
@@ -441,7 +450,7 @@
         "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 5,
         "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-        "segmentStatus" : "semantic_context_required",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
@@ -449,7 +458,7 @@
         "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 5,
         "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-        "segmentStatus" : "semantic_context_required",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
@@ -457,21 +466,22 @@
         "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 5,
         "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-        "segmentStatus" : "semantic_context_required",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "わるだくみに つかい まくって\nかねもうけ する ロケッ",
+      "raw" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
       "match" : "equivalent",
-      "status" : "incomplete",
-      "chinese" : ""
+      "status" : "ready",
+      "chinese" : "火箭队把世界各地的宝可梦用于坏事，借此赚钱！",
+      "source" : "RocketHideoutB4FGiovanniText.ImpressedYouGotHereText"
     },
-    "scenario" : "Giovanni continuation requires observed start"
-  }, {
+    "scenario" : "saved unit publishes from either side of a rolling window; character prefixes remain incomplete",
     "actual" : {
       "rawJapanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
       "matchStatus" : "equivalent",
@@ -482,7 +492,7 @@
         "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 5,
         "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-        "segmentStatus" : "semantic_context_required",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
@@ -490,7 +500,7 @@
         "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 5,
         "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-        "segmentStatus" : "semantic_context_required",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
@@ -498,33 +508,32 @@
         "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 5,
         "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-        "segmentStatus" : "semantic_context_required",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
       "raw" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
       "match" : "equivalent",
       "status" : "ready",
-      "chinese" : "火箭队把世界各地的宝可梦用于坏事，借此赚钱！",
-      "source" : "RocketHideoutB4FGiovanniText.ImpressedYouGotHereText"
+      "chinese" : "火箭队把世界各地的宝可梦用于坏事，借此赚钱！"
     },
-    "scenario" : "Giovanni continuation requires observed start"
-  }, {
+    "scenario" : "saved unit publishes from either side of a rolling window; character prefixes remain incomplete",
     "actual" : {
       "rawJapanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
       "matchStatus" : "equivalent",
-      "displayStatus" : "context_required",
+      "displayStatus" : "ready",
       "resolvedJapanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-      "chinese" : "",
+      "chinese" : "火箭队把世界各地的宝可梦用于坏事，借此赚钱！",
       "candidates" : [ {
         "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 5,
         "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-        "segmentStatus" : "semantic_context_required",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
@@ -532,7 +541,7 @@
         "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 5,
         "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-        "segmentStatus" : "semantic_context_required",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
@@ -540,73 +549,73 @@
         "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 5,
         "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-        "segmentStatus" : "semantic_context_required",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
       } ]
-    },
-    "pass" : true,
-    "expected" : {
-      "raw" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-      "match" : "equivalent",
-      "status" : "context_required",
-      "chinese" : ""
-    },
-    "scenario" : "Giovanni continuation requires observed start"
+    }
   }, {
-    "actual" : {
-      "rawJapanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
-      "matchStatus" : "equivalent",
-      "displayStatus" : "wait_for_semantic_unit",
-      "resolvedJapanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
-      "chinese" : "",
-      "candidates" : [ {
-        "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
-        "ordinal" : 4,
-        "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
-        "segmentStatus" : "wait_for_semantic_unit",
-        "variables" : { },
-        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
-        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
-      }, {
-        "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
-        "ordinal" : 4,
-        "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
-        "segmentStatus" : "wait_for_semantic_unit",
-        "variables" : { },
-        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
-        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
-      }, {
-        "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
-        "ordinal" : 4,
-        "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
-        "segmentStatus" : "wait_for_semantic_unit",
-        "variables" : { },
-        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
-        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
-      } ]
-    },
     "pass" : true,
     "expected" : {
       "raw" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
       "match" : "equivalent",
-      "status" : "wait_for_semantic_unit",
-      "chinese" : ""
+      "status" : "ready",
+      "chinese" : "火箭队把世界各地的宝可梦用于坏事，借此赚钱！"
     },
-    "scenario" : "disappearance clears continuous context"
+    "scenario" : "current rolling window can publish its saved unit after region disappearance",
+    "actual" : {
+      "rawJapanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+      "chinese" : "火箭队把世界各地的宝可梦用于坏事，借此赚钱！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 4,
+        "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 4,
+        "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
+        "ordinal" : 4,
+        "japanese" : "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
+        "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
+      } ]
+    }
   }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "火箭队把世界各地的宝可梦用于坏事，借此赚钱！"
+    },
+    "scenario" : "current rolling window can publish its saved unit after region disappearance",
     "actual" : {
       "rawJapanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
       "matchStatus" : "equivalent",
-      "displayStatus" : "context_required",
+      "displayStatus" : "ready",
       "resolvedJapanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-      "chinese" : "",
+      "chinese" : "火箭队把世界各地的宝可梦用于坏事，借此赚钱！",
       "candidates" : [ {
         "recordId" : "pokegreen:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 5,
         "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-        "segmentStatus" : "semantic_context_required",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
@@ -614,7 +623,7 @@
         "recordId" : "pokeblue:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 5,
         "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-        "segmentStatus" : "semantic_context_required",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F2:G6\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
@@ -622,21 +631,21 @@
         "recordId" : "pokeyellow-jp:scripts/RocketHideoutB4F.asm:RocketHideoutB4FGiovanniText.ImpressedYouGotHereText",
         "ordinal" : 5,
         "japanese" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
-        "segmentStatus" : "semantic_context_required",
+        "segmentStatus" : "semantic_visible",
         "variables" : { },
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#RocketHideoutB4F!F27:G30\"]",
         "revision" : "{\"original_chinese\":\"能来到这里，\\n你的确很不简单！\",\"revised_ranges\":[[17,71]],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"model_translation\",\"approval_status\":\"user_approved\",\"evidence\":\"坂木自我介绍：用户确认模型补译组织介绍、首领身份和威胁；保留原汉化开场\"}"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
+      "raw" : "おまちどうさまでした！",
       "match" : "equivalent",
-      "status" : "context_required",
+      "status" : "wait_for_semantic_unit",
       "chinese" : ""
     },
-    "scenario" : "disappearance clears continuous context"
-  }, {
+    "scenario" : "accepted courtesy omission does not require missing courtesy",
     "actual" : {
       "rawJapanese" : "おまちどうさまでした！",
       "matchStatus" : "equivalent",
@@ -668,16 +677,17 @@
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_7!F183:G186\"]",
         "revision" : "{\"original_chinese\":\"交给我的宝可梦\\n全都变得精力充沛了哦！\",\"revised_ranges\":[],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"localization_omission\",\"approval_status\":\"user_approved\",\"evidence\":\"用户接受原汉化省略“久等了”礼貌语，不补译；首行等待，恢复状态两行完整后使用原译，不要求观察礼貌语前文\"}"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "おまちどうさまでした！",
+      "raw" : "おあずかりした ポケモンは\nみんな げんきに なりましたよ！",
       "match" : "equivalent",
-      "status" : "wait_for_semantic_unit",
-      "chinese" : ""
+      "status" : "ready",
+      "chinese" : "交给我的宝可梦\n全都变得精力充沛了哦！",
+      "source" : "PokemonFightingFitText"
     },
-    "scenario" : "accepted courtesy omission does not require missing courtesy"
-  }, {
+    "scenario" : "accepted courtesy omission does not require missing courtesy",
     "actual" : {
       "rawJapanese" : "おあずかりした ポケモンは\nみんな げんきに なりましたよ！",
       "matchStatus" : "equivalent",
@@ -709,17 +719,17 @@
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_7!F183:G186\"]",
         "revision" : "{\"original_chinese\":\"交给我的宝可梦\\n全都变得精力充沛了哦！\",\"revised_ranges\":[],\"excluded_ranges\":[],\"source\":\"tools/text_translation_revisions.csv\",\"method\":\"localization_omission\",\"approval_status\":\"user_approved\",\"evidence\":\"用户接受原汉化省略“久等了”礼貌语，不补译；首行等待，恢复状态两行完整后使用原译，不要求观察礼貌语前文\"}"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "おあずかりした ポケモンは\nみんな げんきに なりましたよ！",
+      "raw" : "サトシは ひきかえけんで\nじてんしゃを もらった！",
       "match" : "equivalent",
       "status" : "ready",
-      "chinese" : "交给我的宝可梦\n全都变得精力充沛了哦！",
-      "source" : "PokemonFightingFitText"
+      "chinese" : "サトシ用兑换券\n得到了自行车！",
+      "source" : "BikeShopExchangedVoucherText"
     },
-    "scenario" : "accepted courtesy omission does not require missing courtesy"
-  }, {
+    "scenario" : "current name is bound; prior name cannot satisfy a later sentence",
     "actual" : {
       "rawJapanese" : "サトシは ひきかえけんで\nじてんしゃを もらった！",
       "matchStatus" : "equivalent",
@@ -757,17 +767,17 @@
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#BikeShop!F28:G31\"]",
         "revision" : "null"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "サトシは ひきかえけんで\nじてんしゃを もらった！",
+      "raw" : "たんパンとの\nしょうぶに かった！",
       "match" : "equivalent",
-      "status" : "ready",
-      "chinese" : "サトシ用兑换券\n得到了自行车！",
-      "source" : "BikeShopExchangedVoucherText"
+      "status" : "variables_missing",
+      "chinese" : "",
+      "source" : "TrainerDefeatedText"
     },
-    "scenario" : "current name is bound; prior name cannot satisfy a later sentence"
-  }, {
+    "scenario" : "current name is bound; prior name cannot satisfy a later sentence",
     "actual" : {
       "rawJapanese" : "たんパンとの\nしょうぶに かった！",
       "matchStatus" : "equivalent",
@@ -805,17 +815,17 @@
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F920:G925\"]",
         "revision" : "null"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "たんパンとの\nしょうぶに かった！",
+      "raw" : "パソコンの ボックス3 に\nピカチュウを てんそうした！",
       "match" : "equivalent",
-      "status" : "variables_missing",
-      "chinese" : "",
-      "source" : "TrainerDefeatedText"
+      "status" : "ready",
+      "chinese" : "ピカチュウ被传送至\n电脑的3号盒子！",
+      "source" : "SentToBoxText"
     },
-    "scenario" : "current name is bound; prior name cannot satisfy a later sentence"
-  }, {
+    "scenario" : "box and nickname slots are not swapped by Japanese order",
     "actual" : {
       "rawJapanese" : "パソコンの ボックス3 に\nピカチュウを てんそうした！",
       "matchStatus" : "equivalent",
@@ -856,17 +866,17 @@
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_8!F108:G116\"]",
         "revision" : "null"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "パソコンの ボックス3 に\nピカチュウを てんそうした！",
+      "raw" : "ピカチュウは\nつるぎのまいを つかった！",
       "match" : "equivalent",
       "status" : "ready",
-      "chinese" : "ピカチュウ被传送至\n电脑的3号盒子！",
-      "source" : "SentToBoxText"
+      "chinese" : "ピカチュウ\n使出了剑舞！",
+      "source" : "composed:UsedMove.grammar0.normal"
     },
-    "scenario" : "box and nickname slots are not swapped by Japanese order"
-  }, {
+    "scenario" : "composed move uses its source grammar and local move term",
     "actual" : {
       "rawJapanese" : "ピカチュウは\nつるぎのまいを つかった！",
       "matchStatus" : "equivalent",
@@ -907,17 +917,17 @@
         "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_2!F1128:G1130\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1147:G1151\\\"]\"]",
         "revision" : "null"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "ピカチュウは\nつるぎのまいを つかった！",
+      "raw" : "てきの ピカチュウは\nつるぎのまいを つかった！",
       "match" : "equivalent",
       "status" : "ready",
-      "chinese" : "ピカチュウ\n使出了剑舞！",
+      "chinese" : "敌方ピカチュウ\n使出了剑舞！",
       "source" : "composed:UsedMove.grammar0.normal"
     },
-    "scenario" : "composed move uses its source grammar and local move term"
-  }, {
+    "scenario" : "enemy prefix is separate from the nickname",
     "actual" : {
       "rawJapanese" : "てきの ピカチュウは\nつるぎのまいを つかった！",
       "matchStatus" : "equivalent",
@@ -958,17 +968,17 @@
         "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_2!F1128:G1130\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1147:G1151\\\"]\"]",
         "revision" : "null"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "てきの ピカチュウは\nつるぎのまいを つかった！",
+      "raw" : "キズぐすりを\nまた つれていく ことにした！",
       "match" : "equivalent",
       "status" : "ready",
-      "chinese" : "敌方ピカチュウ\n使出了剑舞！",
-      "source" : "composed:UsedMove.grammar0.normal"
+      "chinese" : "决定取出キズぐすり！",
+      "source" : "MonIsTakenOutText"
     },
-    "scenario" : "enemy prefix is separate from the nickname"
-  }, {
+    "scenario" : "nickname matching an item is not translated as an item",
     "actual" : {
       "rawJapanese" : "キズぐすりを\nまた つれていく ことにした！",
       "matchStatus" : "equivalent",
@@ -1006,25 +1016,8 @@
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F316:G323\"]",
         "revision" : "null"
       } ]
-    },
-    "pass" : true,
-    "expected" : {
-      "raw" : "キズぐすりを\nまた つれていく ことにした！",
-      "match" : "equivalent",
-      "status" : "ready",
-      "chinese" : "决定取出キズぐすり！",
-      "source" : "MonIsTakenOutText"
-    },
-    "scenario" : "nickname matching an item is not translated as an item"
+    }
   }, {
-    "actual" : {
-      "rawJapanese" : "あたしは してんのうの �クコ！",
-      "matchStatus" : "unreliable",
-      "displayStatus" : "unknown_character",
-      "resolvedJapanese" : "",
-      "chinese" : "",
-      "candidates" : [ ]
-    },
     "pass" : true,
     "expected" : {
       "raw" : "あたしは してんのうの �クコ！",
@@ -1032,16 +1025,16 @@
       "status" : "unknown_character",
       "chinese" : ""
     },
-    "scenario" : "unknown character prevents publication"
-  }, {
+    "scenario" : "unknown character prevents publication",
     "actual" : {
-      "rawJapanese" : "これは テストようの みしゅうろくぶん！",
-      "matchStatus" : "missing",
-      "displayStatus" : "missing",
+      "rawJapanese" : "あたしは してんのうの �クコ！",
+      "matchStatus" : "unreliable",
+      "displayStatus" : "unknown_character",
       "resolvedJapanese" : "",
       "chinese" : "",
       "candidates" : [ ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
       "raw" : "これは テストようの みしゅうろくぶん！",
@@ -1049,8 +1042,24 @@
       "status" : "missing",
       "chinese" : ""
     },
-    "scenario" : "unrecorded text stays Japanese"
+    "scenario" : "unrecorded text stays Japanese",
+    "actual" : {
+      "rawJapanese" : "これは テストようの みしゅうろくぶん！",
+      "matchStatus" : "missing",
+      "displayStatus" : "missing",
+      "resolvedJapanese" : "",
+      "chinese" : "",
+      "candidates" : [ ]
+    }
   }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "あたしは してんのうの キク",
+      "match" : "equivalent",
+      "status" : "incomplete",
+      "chinese" : ""
+    },
+    "scenario" : "incomplete character prefix never reveals a completed unit",
     "actual" : {
       "rawJapanese" : "あたしは してんのうの キク",
       "matchStatus" : "equivalent",
@@ -1082,16 +1091,16 @@
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#AgathasRoom!F2:G17\"]",
         "revision" : "null"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "あたしは してんのうの キク",
-      "match" : "equivalent",
-      "status" : "incomplete",
+      "raw" : "タマムシ マンション",
+      "match" : "ambiguous",
+      "status" : "ambiguous",
       "chinese" : ""
     },
-    "scenario" : "incomplete character prefix never reveals a completed unit"
-  }, {
+    "scenario" : "different saved Chinese units remain ambiguous after timing is relaxed",
     "actual" : {
       "rawJapanese" : "タマムシ マンション",
       "matchStatus" : "ambiguous",
@@ -1110,7 +1119,7 @@
         "recordId" : "pokegreen:scripts/CeladonMansion1F.asm:CeladonMansion1FManagersSuiteSignText",
         "ordinal" : 1,
         "japanese" : "タマムシ マンション",
-        "segmentStatus" : "wait_for_semantic_unit",
+        "segmentStatus" : "whole_visible_unit",
         "variables" : { },
         "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CeladonMansion1F!F24:G27\"]",
         "revision" : "null"
@@ -1126,7 +1135,7 @@
         "recordId" : "pokeblue:scripts/CeladonMansion1F.asm:CeladonMansion1FManagersSuiteSignText",
         "ordinal" : 1,
         "japanese" : "タマムシ マンション",
-        "segmentStatus" : "wait_for_semantic_unit",
+        "segmentStatus" : "whole_visible_unit",
         "variables" : { },
         "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CeladonMansion1F!F24:G27\"]",
         "revision" : "null"
@@ -1142,21 +1151,22 @@
         "recordId" : "pokeyellow-jp:scripts/CeladonMansion1F.asm:CeladonMansion1FManagersSuiteSignText",
         "ordinal" : 1,
         "japanese" : "タマムシ マンション",
-        "segmentStatus" : "wait_for_semantic_unit",
+        "segmentStatus" : "whole_visible_unit",
         "variables" : { },
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CeladonMansion1F!F16:G19\"]",
         "revision" : "null"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "タマムシ マンション",
-      "match" : "ambiguous",
-      "status" : "ambiguous",
-      "chinese" : ""
+      "raw" : "…… おとくな けいじばん！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "……有用的公告牌！",
+      "candidateCount" : 66
     },
-    "scenario" : "a ready candidate cannot bypass another candidate waiting for a semantic unit"
-  }, {
+    "scenario" : "different later text does not block the identical current segment",
     "actual" : {
       "rawJapanese" : "…… おとくな けいじばん！",
       "matchStatus" : "equivalent",
@@ -1692,15 +1702,1372 @@
         "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsA.xlsx#ViridianForest!F143:G149\"]",
         "revision" : "null"
       } ]
-    },
+    }
+  }, {
     "pass" : true,
     "expected" : {
-      "raw" : "…… おとくな けいじばん！",
+      "raw" : "あ！ やせいの\nコラッタが とびだしてきた！",
       "match" : "equivalent",
       "status" : "ready",
-      "chinese" : "……有用的公告牌！",
-      "candidateCount" : 66
+      "chinese" : "啊！野生的\n小拉达扑过来了！",
+      "source" : "WildMonAppearedText",
+      "candidateCount" : 3
     },
-    "scenario" : "different later text does not block the identical current segment"
+    "scenario" : "wild encounter uses species terms from all three sources",
+    "actual" : {
+      "rawJapanese" : "あ！ やせいの\nコラッタが とびだしてきた！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "あ！ やせいの\nコラッタが とびだしてきた！",
+      "chinese" : "啊！野生的\n小拉达扑过来了！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/battle/common_text.asm:WildMonAppearedText",
+        "ordinal" : 2,
+        "japanese" : "あ！ やせいの\n{{RAM1}}が とびだしてきた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1258:G1263\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/battle/common_text.asm:WildMonAppearedText",
+        "ordinal" : 2,
+        "japanese" : "あ！ やせいの\n{{RAM1}}が とびだしてきた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1258:G1263\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/battle/common_text.asm:WildMonAppearedText",
+        "ordinal" : 2,
+        "japanese" : "あ！ やせいの\n{{RAM1}}が とびだしてきた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1312:G1317\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "あ！ やせいの\nピカチュウが とびだしてきた！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "啊！野生的\n皮卡丘扑过来了！",
+      "source" : "WildMonAppearedText",
+      "candidateCount" : 3
+    },
+    "scenario" : "wild encounter uses species terms from all three sources",
+    "actual" : {
+      "rawJapanese" : "あ！ やせいの\nピカチュウが とびだしてきた！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "あ！ やせいの\nピカチュウが とびだしてきた！",
+      "chinese" : "啊！野生的\n皮卡丘扑过来了！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/battle/common_text.asm:WildMonAppearedText",
+        "ordinal" : 2,
+        "japanese" : "あ！ やせいの\n{{RAM1}}が とびだしてきた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ピカチュウ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1258:G1263\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/battle/common_text.asm:WildMonAppearedText",
+        "ordinal" : 2,
+        "japanese" : "あ！ やせいの\n{{RAM1}}が とびだしてきた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ピカチュウ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1258:G1263\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/battle/common_text.asm:WildMonAppearedText",
+        "ordinal" : 2,
+        "japanese" : "あ！ やせいの\n{{RAM1}}が とびだしてきた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ピカチュウ"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1312:G1317\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "つりあげた コイキングが\nとびかかってきた！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "上钩的鲤鱼王\n猛扑过来了！",
+      "source" : "HookedMonAttackedText",
+      "candidateCount" : 3
+    },
+    "scenario" : "fishing and non-link wild escape use species terms",
+    "actual" : {
+      "rawJapanese" : "つりあげた コイキングが\nとびかかってきた！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "つりあげた コイキングが\nとびかかってきた！",
+      "chinese" : "上钩的鲤鱼王\n猛扑过来了！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/battle/common_text.asm:HookedMonAttackedText",
+        "ordinal" : 2,
+        "japanese" : "つりあげた {{RAM1}}が\nとびかかってきた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コイキング"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1265:G1271\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/battle/common_text.asm:HookedMonAttackedText",
+        "ordinal" : 2,
+        "japanese" : "つりあげた {{RAM1}}が\nとびかかってきた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コイキング"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1265:G1271\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/battle/common_text.asm:HookedMonAttackedText",
+        "ordinal" : 2,
+        "japanese" : "つりあげた {{RAM1}}が\nとびかかってきた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コイキング"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1319:G1324\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "やせいのコラッタは にげだした！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "野生的小拉达\n逃走了！",
+      "source" : "WildRanText",
+      "candidateCount" : 3
+    },
+    "scenario" : "fishing and non-link wild escape use species terms",
+    "actual" : {
+      "rawJapanese" : "やせいのコラッタは にげだした！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "やせいのコラッタは にげだした！",
+      "chinese" : "野生的小拉达\n逃走了！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/battle/core.asm:WildRanText",
+        "ordinal" : 1,
+        "japanese" : "やせいの{{RAM1}}は にげだした！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F846:G851\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/battle/core.asm:WildRanText",
+        "ordinal" : 1,
+        "japanese" : "やせいの{{RAM1}}は にげだした！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F846:G851\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/battle/core.asm:WildRanText",
+        "ordinal" : 1,
+        "japanese" : "やせいの{{RAM1}}は にげだした！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F877:G882\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "コラッタを\nまた つれていく ことにした！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "决定取出コラッタ！",
+      "source" : "MonIsTakenOutText",
+      "candidateCount" : 3
+    },
+    "scenario" : "species spelling used as an actual nickname stays unchanged",
+    "actual" : {
+      "rawJapanese" : "コラッタを\nまた つれていく ことにした！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "コラッタを\nまた つれていく ことにした！",
+      "chinese" : "决定取出コラッタ！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/pokemon/bills_pc.asm:MonIsTakenOutText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}を\nまた つれていく ことにした！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1602:G1611\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/pokemon/bills_pc.asm:MonIsTakenOutText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}を\nまた つれていく ことにした！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1602:G1611\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/pokemon/bills_pc.asm:MonIsTakenOutText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}を\nまた つれていく ことにした！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F316:G323\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "てきのコラッタは にげだした！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "敌方コラッタ\n逃走了！",
+      "source" : "EnemyRanText",
+      "candidateCount" : 3
+    },
+    "scenario" : "species spelling used as an actual nickname stays unchanged",
+    "actual" : {
+      "rawJapanese" : "てきのコラッタは にげだした！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "てきのコラッタは にげだした！",
+      "chinese" : "敌方コラッタ\n逃走了！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/battle/core.asm:EnemyRanText",
+        "ordinal" : 1,
+        "japanese" : "てきの{{RAM1}}は にげだした！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F853:G858\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/battle/core.asm:EnemyRanText",
+        "ordinal" : 1,
+        "japanese" : "てきの{{RAM1}}は にげだした！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F853:G858\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/battle/core.asm:EnemyRanText",
+        "ordinal" : 1,
+        "japanese" : "てきの{{RAM1}}は にげだした！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F884:G889\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "あ！ やせいの",
+      "match" : "ambiguous",
+      "status" : "ambiguous",
+      "chinese" : ""
+    },
+    "scenario" : "wild species is never supplied before the current frame contains its name",
+    "actual" : {
+      "rawJapanese" : "あ！ やせいの",
+      "matchStatus" : "ambiguous",
+      "displayStatus" : "ambiguous",
+      "resolvedJapanese" : "",
+      "chinese" : "",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/battle/common_text.asm:WildMonAppearedText",
+        "ordinal" : 1,
+        "japanese" : "あ！ やせいの",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1258:G1263\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/battle/common_text.asm:WildMonAppearedText",
+        "ordinal" : 1,
+        "japanese" : "あ！ やせいの",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1258:G1263\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/battle/common_text.asm:WildMonAppearedText",
+        "ordinal" : 1,
+        "japanese" : "あ！ やせいの",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1312:G1317\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text",
+        "ordinal" : 3,
+        "japanese" : "{{RAM1}}の なかは",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CeladonMartRoof!F18:G23\",\"src/xlsx/indoor.xlsx#CeladonMartRoof!F25:G35\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text",
+        "ordinal" : 4,
+        "japanese" : "{{RAM1}}の なかは\nれいとうビーム なの！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CeladonMartRoof!F18:G23\",\"src/xlsx/indoor.xlsx#CeladonMartRoof!F25:G35\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text",
+        "ordinal" : 3,
+        "japanese" : "{{RAM1}}の なかは",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CeladonMartRoof!F48:G53\",\"src/xlsx/indoor.xlsx#CeladonMartRoof!F55:G65\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text",
+        "ordinal" : 4,
+        "japanese" : "{{RAM1}}の なかは\nいわなだれ なの！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CeladonMartRoof!F48:G53\",\"src/xlsx/indoor.xlsx#CeladonMartRoof!F55:G65\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/items/item_effects.asm:PPIncreasedText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_6!F147:G151\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/menus/party_menu.asm:PotionText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の たいりょくが",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1407:G1413\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/menus/party_menu.asm:PotionText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の たいりょくが\n{{NUMBER1}} かいふくした",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1407:G1413\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/menus/party_menu.asm:AntidoteText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の どくは",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1415:G1419\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/menus/party_menu.asm:AntidoteText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の どくは\nきれい さっぱり なくなった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1415:G1419\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/menus/party_menu.asm:ParlyzHealText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の からだの",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1421:G1425\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/menus/party_menu.asm:ParlyzHealText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の からだの\nしびれが とれた",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1421:G1425\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/menus/party_menu.asm:BurnHealText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1427:G1431\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/menus/party_menu.asm:IceHealText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の からだの",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1433:G1437\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/menus/party_menu.asm:IceHealText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の からだの\nこおりが とけた",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1433:G1437\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/menus/party_menu.asm:RareCandyText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の レベルが{{NUMBER1}}になった",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1457:G1463\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/overworld/field_move_messages.asm:CanMoveBouldersText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の かいりきの おかげで",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_5!F18:G25\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/overworld/field_move_messages.asm:CanMoveBouldersText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の かいりきの おかげで\nいわを おせるように なった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_5!F18:G25\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/pokemon/learn_move.asm:TryingToLearnText",
+        "ordinal" : 5,
+        "japanese" : "{{RAM2}}の かわりに",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM2" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_4!F114:G133\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokegreen:engine/pokemon/learn_move.asm:TryingToLearnText",
+        "ordinal" : 6,
+        "japanese" : "{{RAM2}}の かわりに\nほかの わざを わすれさせますか？",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM2" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_4!F114:G133\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text",
+        "ordinal" : 3,
+        "japanese" : "{{RAM1}}の なかは",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CeladonMartRoof!F18:G23\",\"src/xlsx/indoor.xlsx#CeladonMartRoof!F25:G35\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text",
+        "ordinal" : 4,
+        "japanese" : "{{RAM1}}の なかは\nれいとうビーム なの！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CeladonMartRoof!F18:G23\",\"src/xlsx/indoor.xlsx#CeladonMartRoof!F25:G35\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text",
+        "ordinal" : 3,
+        "japanese" : "{{RAM1}}の なかは",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CeladonMartRoof!F48:G53\",\"src/xlsx/indoor.xlsx#CeladonMartRoof!F55:G65\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text",
+        "ordinal" : 4,
+        "japanese" : "{{RAM1}}の なかは\nいわなだれ なの！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CeladonMartRoof!F48:G53\",\"src/xlsx/indoor.xlsx#CeladonMartRoof!F55:G65\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/items/item_effects.asm:PPIncreasedText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_6!F147:G151\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/menus/party_menu.asm:PotionText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の たいりょくが",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1407:G1413\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/menus/party_menu.asm:PotionText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の たいりょくが\n{{NUMBER1}} かいふくした",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1407:G1413\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/menus/party_menu.asm:AntidoteText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の どくは",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1415:G1419\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/menus/party_menu.asm:AntidoteText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の どくは\nきれい さっぱり なくなった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1415:G1419\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/menus/party_menu.asm:ParlyzHealText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の からだの",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1421:G1425\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/menus/party_menu.asm:ParlyzHealText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の からだの\nしびれが とれた",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1421:G1425\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/menus/party_menu.asm:BurnHealText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1427:G1431\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/menus/party_menu.asm:IceHealText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の からだの",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1433:G1437\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/menus/party_menu.asm:IceHealText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の からだの\nこおりが とけた",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1433:G1437\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/menus/party_menu.asm:RareCandyText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の レベルが{{NUMBER1}}になった",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1457:G1463\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/overworld/field_move_messages.asm:CanMoveBouldersText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の かいりきの おかげで",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_5!F18:G25\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/overworld/field_move_messages.asm:CanMoveBouldersText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の かいりきの おかげで\nいわを おせるように なった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_5!F18:G25\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/pokemon/learn_move.asm:TryingToLearnText",
+        "ordinal" : 5,
+        "japanese" : "{{RAM2}}の かわりに",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM2" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_4!F114:G133\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/pokemon/learn_move.asm:TryingToLearnText",
+        "ordinal" : 6,
+        "japanese" : "{{RAM2}}の かわりに\nほかの わざを わすれさせますか？",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM2" : "あ！ やせい"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_4!F114:G133\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text",
+        "ordinal" : 3,
+        "japanese" : "{{RAM1}}の なかは",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CeladonMartRoof!F18:G23\",\"src/xlsx/indoor.xlsx#CeladonMartRoof!F25:G33\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text",
+        "ordinal" : 4,
+        "japanese" : "{{RAM1}}の なかは\nれいとうビーム なの！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CeladonMartRoof!F18:G23\",\"src/xlsx/indoor.xlsx#CeladonMartRoof!F25:G33\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text",
+        "ordinal" : 3,
+        "japanese" : "{{RAM1}}の なかは",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CeladonMartRoof!F48:G53\",\"src/xlsx/indoor.xlsx#CeladonMartRoof!F55:G63\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text",
+        "ordinal" : 4,
+        "japanese" : "{{RAM1}}の なかは\nいわなだれ なの！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CeladonMartRoof!F48:G53\",\"src/xlsx/indoor.xlsx#CeladonMartRoof!F55:G63\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/items/item_effects.asm:PPIncreasedText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_9!F153:G157\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/menus/link_menu.asm:ColosseumHeightText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の たかさが",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F600:G604\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/menus/link_menu.asm:ColosseumHeightText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の たかさが\n2メートルを こえています！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F600:G604\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/menus/link_menu.asm:ColosseumWeightText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の おもさが",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F606:G610\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/menus/link_menu.asm:ColosseumWeightText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の おもさが\n20キロを こえています！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F606:G610\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/menus/party_menu.asm:PotionText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の たいりょくが",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F116:G122\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/menus/party_menu.asm:PotionText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の たいりょくが\n{{NUMBER1}} かいふくした",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F116:G122\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/menus/party_menu.asm:AntidoteText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の どくは",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F124:G128\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/menus/party_menu.asm:AntidoteText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の どくは\nきれい さっぱり なくなった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F124:G128\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/menus/party_menu.asm:ParlyzHealText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の からだの",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F130:G134\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/menus/party_menu.asm:ParlyzHealText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の からだの\nしびれが とれた",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F130:G134\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/menus/party_menu.asm:BurnHealText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F136:G140\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/menus/party_menu.asm:IceHealText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の からだの",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F142:G146\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/menus/party_menu.asm:IceHealText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の からだの\nこおりが とけた",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F142:G146\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/menus/party_menu.asm:RareCandyText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の レベルが{{NUMBER1}}になった",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F166:G172\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/overworld/field_move_messages.asm:CanMoveBouldersText",
+        "ordinal" : 1,
+        "japanese" : "{{RAM1}}の かいりきの おかげで",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_8!F84:G90\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/overworld/field_move_messages.asm:CanMoveBouldersText",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の かいりきの おかげで\nいわを おせるように なった！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_8!F84:G90\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/pokemon/learn_move.asm:TryingToLearnText",
+        "ordinal" : 5,
+        "japanese" : "{{RAM2}}の かわりに",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM2" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_7!F118:G132\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/pokemon/learn_move.asm:TryingToLearnText",
+        "ordinal" : 6,
+        "japanese" : "{{RAM2}}の かわりに\nほかの わざを わすれさせますか？",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM2" : "あ！ やせい"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_7!F118:G132\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "ポケモン りーグ してんのうは\n4にん つづけて",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "这里的规则是\n要连续打败４位\n宝可梦联盟四天王！",
+      "source" : "IndigoPlateauLobbyGymGuideText",
+      "candidateCount" : 3
+    },
+    "scenario" : "Elite Four rule publishes its complete saved unit before the final Japanese line",
+    "actual" : {
+      "rawJapanese" : "ポケモン りーグ してんのうは\n4にん つづけて",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "ポケモン リーグ してんのうは\n4にん つづけて",
+      "chinese" : "这里的规则是\n要连续打败４位\n宝可梦联盟四天王！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
+        "ordinal" : 4,
+        "japanese" : "ポケモン リーグ してんのうは\n4にん つづけて",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G15\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
+        "ordinal" : 4,
+        "japanese" : "ポケモン リーグ してんのうは\n4にん つづけて",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G15\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
+        "ordinal" : 4,
+        "japanese" : "ポケモン リーグ してんのうは\n4にん つづけて",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G11\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "すこし やすんで いったら\nどうかしら……？",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "稍微休息一下吧……？",
+      "source" : "RedsHouse1FMomYouShouldRestText",
+      "candidateCount" : 2
+    },
+    "scenario" : "mother rest question does not wait for trailing ellipsis or an observed earlier line",
+    "actual" : {
+      "rawJapanese" : "すこし やすんで いったら\nどうかしら……？",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "すこし やすんで いったら\nどうかしら……？",
+      "chinese" : "稍微休息一下吧……？",
+      "candidates" : [ {
+        "recordId" : "pokegreen:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText",
+        "ordinal" : 3,
+        "japanese" : "すこし やすんで いったら\nどうかしら……？",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#RedsHouse1F!F13:G17\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText",
+        "ordinal" : 3,
+        "japanese" : "すこし やすんで いったら\nどうかしら……？",
+        "segmentStatus" : "semantic_visible",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#RedsHouse1F!F13:G17\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "やったー！\nビードルを つかまえたぞ！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "太好了！\n捉到独角虫了！",
+      "source" : "ItemUseBallText05",
+      "candidateCount" : 3
+    },
+    "scenario" : "capture success and dex registration use species names before nicknaming",
+    "actual" : {
+      "rawJapanese" : "やったー！\nビードルを つかまえたぞ！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "やったー！\nビードルを つかまえたぞ！",
+      "chinese" : "太好了！\n捉到独角虫了！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/items/item_effects.asm:ItemUseBallText05",
+        "ordinal" : 2,
+        "japanese" : "やったー！\n{{RAM1}}を つかまえたぞ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_6!F30:G35\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/items/item_effects.asm:ItemUseBallText05",
+        "ordinal" : 2,
+        "japanese" : "やったー！\n{{RAM1}}を つかまえたぞ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_6!F30:G35\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/items/item_effects.asm:ItemUseBallText05",
+        "ordinal" : 2,
+        "japanese" : "やったー！\n{{RAM1}}を つかまえたぞ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_9!F30:G35\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "やったー！\nコラッタを つかまえたぞ！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "太好了！\n捉到小拉达了！",
+      "source" : "ItemUseBallText05",
+      "candidateCount" : 3
+    },
+    "scenario" : "capture success and dex registration use species names before nicknaming",
+    "actual" : {
+      "rawJapanese" : "やったー！\nコラッタを つかまえたぞ！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "やったー！\nコラッタを つかまえたぞ！",
+      "chinese" : "太好了！\n捉到小拉达了！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/items/item_effects.asm:ItemUseBallText05",
+        "ordinal" : 2,
+        "japanese" : "やったー！\n{{RAM1}}を つかまえたぞ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_6!F30:G35\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/items/item_effects.asm:ItemUseBallText05",
+        "ordinal" : 2,
+        "japanese" : "やったー！\n{{RAM1}}を つかまえたぞ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_6!F30:G35\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/items/item_effects.asm:ItemUseBallText05",
+        "ordinal" : 2,
+        "japanese" : "やったー！\n{{RAM1}}を つかまえたぞ！",
+        "segmentStatus" : "semantic_visible",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_9!F30:G35\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "ビードルの データが あたらしく\nポケモンずかんに セーブされます！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "独角虫的资料\n被添加到宝可梦图鉴里了！",
+      "source" : "ItemUseBallText06",
+      "candidateCount" : 3
+    },
+    "scenario" : "capture success and dex registration use species names before nicknaming",
+    "actual" : {
+      "rawJapanese" : "ビードルの データが あたらしく\nポケモンずかんに セーブされます！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "ビードルの データが あたらしく\nポケモンずかんに セーブされます！",
+      "chinese" : "独角虫的资料\n被添加到宝可梦图鉴里了！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/items/item_effects.asm:ItemUseBallText06",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の データが あたらしく\nポケモンずかんに セーブされます！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_6!F52:G57\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/items/item_effects.asm:ItemUseBallText06",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の データが あたらしく\nポケモンずかんに セーブされます！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_6!F52:G57\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/items/item_effects.asm:ItemUseBallText06",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}の データが あたらしく\nポケモンずかんに セーブされます！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_9!F52:G57\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "やせいのビードルは\nエサを たべてる！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "野生的独角虫\n正在吃诱饵！",
+      "source" : "SafariZoneEatingText",
+      "candidateCount" : 3
+    },
+    "scenario" : "Safari bait and anger messages use wild species names",
+    "actual" : {
+      "rawJapanese" : "やせいのビードルは\nエサを たべてる！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "やせいのビードルは\nエサを たべてる！",
+      "chinese" : "野生的独角虫\n正在吃诱饵！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/battle/safari_zone.asm:SafariZoneEatingText",
+        "ordinal" : 2,
+        "japanese" : "やせいの{{RAM1}}は\nエサを たべてる！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1351:G1356\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/battle/safari_zone.asm:SafariZoneEatingText",
+        "ordinal" : 2,
+        "japanese" : "やせいの{{RAM1}}は\nエサを たべてる！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1351:G1356\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/battle/safari_zone.asm:SafariZoneEatingText",
+        "ordinal" : 2,
+        "japanese" : "やせいの{{RAM1}}は\nエサを たべてる！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1298:G1303\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "やせいのコラッタは\nおこってる！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "野生的小拉达\n生气了！",
+      "source" : "SafariZoneAngryText",
+      "candidateCount" : 3
+    },
+    "scenario" : "Safari bait and anger messages use wild species names",
+    "actual" : {
+      "rawJapanese" : "やせいのコラッタは\nおこってる！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "やせいのコラッタは\nおこってる！",
+      "chinese" : "野生的小拉达\n生气了！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/battle/safari_zone.asm:SafariZoneAngryText",
+        "ordinal" : 2,
+        "japanese" : "やせいの{{RAM1}}は\nおこってる！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1358:G1365\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/battle/safari_zone.asm:SafariZoneAngryText",
+        "ordinal" : 2,
+        "japanese" : "やせいの{{RAM1}}は\nおこってる！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F1358:G1365\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/battle/safari_zone.asm:SafariZoneAngryText",
+        "ordinal" : 2,
+        "japanese" : "やせいの{{RAM1}}は\nおこってる！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "コラッタ"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1305:G1310\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "ビードルは マサキの ところへ\nてんそうされた！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "将ビードル\n传送到了正辉的电脑！",
+      "source" : "ItemUseBallText07",
+      "candidateCount" : 3
+    },
+    "scenario" : "post-capture PC transfer reads an actual nickname and keeps species-like spelling",
+    "actual" : {
+      "rawJapanese" : "ビードルは マサキの ところへ\nてんそうされた！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "ビードルは マサキの ところへ\nてんそうされた！",
+      "chinese" : "将ビードル\n传送到了正辉的电脑！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/items/item_effects.asm:ItemUseBallText07",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}は マサキの ところへ\nてんそうされた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_6!F38:G44\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/items/item_effects.asm:ItemUseBallText07",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}は マサキの ところへ\nてんそうされた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_6!F38:G44\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/items/item_effects.asm:ItemUseBallText07",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}は マサキの ところへ\nてんそうされた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_9!F38:G43\"]",
+        "revision" : "null"
+      } ]
+    }
+  }, {
+    "pass" : true,
+    "expected" : {
+      "raw" : "ビードルは だれかの パソコンに\nてんそうされた！",
+      "match" : "equivalent",
+      "status" : "ready",
+      "chinese" : "将ビードル\n传送到了某人的电脑！",
+      "source" : "ItemUseBallText08",
+      "candidateCount" : 3
+    },
+    "scenario" : "post-capture PC transfer reads an actual nickname and keeps species-like spelling",
+    "actual" : {
+      "rawJapanese" : "ビードルは だれかの パソコンに\nてんそうされた！",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "ビードルは だれかの パソコンに\nてんそうされた！",
+      "chinese" : "将ビードル\n传送到了某人的电脑！",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/items/item_effects.asm:ItemUseBallText08",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}は だれかの パソコンに\nてんそうされた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_6!F45:G51\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/items/item_effects.asm:ItemUseBallText08",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}は だれかの パソコンに\nてんそうされた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_6!F45:G51\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/items/item_effects.asm:ItemUseBallText08",
+        "ordinal" : 2,
+        "japanese" : "{{RAM1}}は だれかの パソコンに\nてんそうされた！",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : {
+          "RAM1" : "ビードル"
+        },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_9!F45:G50\"]",
+        "revision" : "null"
+      } ]
+    }
   } ]
 }

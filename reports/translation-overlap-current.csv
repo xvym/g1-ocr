@@ -1,0 +1,1414 @@
+﻿id,japanese,category,chinese_variants,complete_japanese_variants,source_record_ids
+O001,{{PLAYER}}は,同时涉及缺少当前变量,"1. {{PLAYER}}
+完好地写下了记录！
+
+2. {{PLAYER}}
+打开了电脑开关！
+
+3. {{PLAYER}}从{{RAM1}}上下来了。
+
+4. {{PLAYER}}使用了{{RAM1}}！
+
+5. {{PLAYER}}吹响了
+宝可梦之笛！
+
+6. {{PLAYER}}得到了
+{{RAM1}}！
+
+7. {{PLAYER}}找到了
+{{NUMBER1}}枚代币！
+
+8. {{PLAYER}}找到了
+{{RAM1}}！
+
+9. {{PLAYER}}正在玩
+Famicom！
+
+10. {{PLAYER}}正在玩
+Super Famicom！
+
+11. {{PLAYER}}的眼前
+一片漆黑！
+
+12. {{PLAYER}}骑上了{{RAM1}}！","1. {{PLAYER}}は
+{{RAM1}}から おりた
+
+2. {{PLAYER}}は
+{{RAM1}}に のった
+
+3. {{PLAYER}}は
+{{RAM1}}を つかった！
+
+4. {{PLAYER}}は
+{{RAM1}}を てにいれた！
+
+5. {{PLAYER}}は
+{{RAM1}}を みつけた！
+
+6. {{PLAYER}}は
+「{{RAM1}}」を もらった！
+
+7. {{PLAYER}}は
+めのまえが まっくらに なった！
+
+8. {{PLAYER}}は
+コイン を{{NUMBER1}}まい みつけた！
+
+9. {{PLAYER}}は
+コインを {{NUMBER1}}まい みつけた！
+
+10. {{PLAYER}}は
+スーパーファミコンを してる！
+
+11. {{PLAYER}}は
+パソコンの スイッチを いれた！
+
+12. {{PLAYER}}は
+ファミコンを してる！
+
+13. {{PLAYER}}は
+ポケモンのふえを ふいてみた！
+
+14. {{PLAYER}}は
+レポートに しっかり かきのこした！",pokeblue:engine/battle/core.asm:PlayerBlackedOutText2;pokeblue:engine/events/give_pokemon.asm:GotMonText;pokeblue:engine/events/hidden_events/reds_room.asm:RedBedroomSNESText;pokeblue:engine/events/hidden_items.asm:DroppedHiddenCoinsText;pokeblue:engine/events/hidden_items.asm:FoundHiddenCoinsText;pokeblue:engine/events/hidden_items.asm:FoundHiddenItemText;pokeblue:engine/events/pick_up_item.asm:FoundItemText;pokeblue:engine/items/item_effects.asm:GotOffBicycleText;pokeblue:engine/items/item_effects.asm:GotOnBicycleText;pokeblue:engine/items/item_effects.asm:ItemUseText00;pokeblue:engine/items/item_effects.asm:PlayedFluteHadEffectText;pokeblue:engine/menus/pc.asm:TurnedOnPC1Text;pokeblue:engine/menus/players_pc.asm:TurnedOnPC2Text;pokeblue:engine/menus/save.asm:GameSavedText;pokeblue:home/text_script.asm:PlayerBlackedOutText;pokeblue:scripts/MtMoonB2F.asm:MtMoonB2FReceivedFossilText.Text;pokeblue:scripts/Route1.asm:Route1Youngster1Text.GotPotionText;pokegreen:engine/battle/core.asm:PlayerBlackedOutText2;pokegreen:engine/events/give_pokemon.asm:GotMonText;pokegreen:engine/events/hidden_events/reds_room.asm:RedBedroomSNESText;pokegreen:engine/events/hidden_items.asm:DroppedHiddenCoinsText;pokegreen:engine/events/hidden_items.asm:FoundHiddenCoinsText;pokegreen:engine/events/hidden_items.asm:FoundHiddenItemText;pokegreen:engine/events/pick_up_item.asm:FoundItemText;pokegreen:engine/items/item_effects.asm:GotOffBicycleText;pokegreen:engine/items/item_effects.asm:GotOnBicycleText;pokegreen:engine/items/item_effects.asm:ItemUseText00;pokegreen:engine/items/item_effects.asm:PlayedFluteHadEffectText;pokegreen:engine/menus/pc.asm:TurnedOnPC1Text;pokegreen:engine/menus/players_pc.asm:TurnedOnPC2Text;pokegreen:engine/menus/save.asm:GameSavedText;pokegreen:home/text_script.asm:PlayerBlackedOutText;pokegreen:scripts/MtMoonB2F.asm:MtMoonB2FReceivedFossilText.Text;pokegreen:scripts/Route1.asm:Route1Youngster1Text.GotPotionText;pokeyellow-jp:engine/battle/core.asm:PlayerBlackedOutText2;pokeyellow-jp:engine/events/give_pokemon.asm:GotMonText;pokeyellow-jp:engine/events/hidden_events/reds_room.asm:RedBedroomSNESText;pokeyellow-jp:engine/events/hidden_items.asm:DroppedHiddenCoinsText;pokeyellow-jp:engine/events/hidden_items.asm:FoundHiddenCoinsText;pokeyellow-jp:engine/events/hidden_items.asm:FoundHiddenItemText;pokeyellow-jp:engine/events/pick_up_item.asm:FoundItemText;pokeyellow-jp:engine/items/item_effects.asm:GotOffBicycleText;pokeyellow-jp:engine/items/item_effects.asm:GotOnBicycleText;pokeyellow-jp:engine/items/item_effects.asm:ItemUseText00;pokeyellow-jp:engine/items/item_effects.asm:PlayedFluteHadEffectText;pokeyellow-jp:engine/menus/pc.asm:TurnedOnPC1Text;pokeyellow-jp:engine/menus/players_pc.asm:TurnedOnPC2Text;pokeyellow-jp:engine/menus/save.asm:GameSavedText;pokeyellow-jp:home/text_script.asm:PlayerBlackedOutText;pokeyellow-jp:scripts/MtMoonB2F.asm:MtMoonB2FReceivedFossilText.Text;pokeyellow-jp:scripts/Route1_2.asm:Route1PrintYoungster1Text.GotPotionText
+O002,{{PLAYER}}は おじさんから,同时涉及缺少当前变量,"1. {{PLAYER}}从叔叔那里
+得到了10枚代币！
+
+2. {{PLAYER}}从叔叔那里
+得到了20枚代币！
+
+3. {{PLAYER}}从大叔那里
+得到了{{RAM1}}！
+
+4. {{PLAYER}}从大叔那里
+得到了秘密琥珀！","1. {{PLAYER}}は おじさんから
+{{RAM1}}を もらった！
+
+2. {{PLAYER}}は おじさんから
+ひみつのコハクを もらった！
+
+3. {{PLAYER}}は おじさんから
+コイン 10まい もらった！
+
+4. {{PLAYER}}は おじさんから
+コイン 20まい もらった！",pokeblue:scripts/CeladonCity.asm:CeladonCityGramps3Text.ReceivedTM41Text;pokeblue:scripts/GameCorner.asm:GameCornerFishingGuruText.Received10CoinsText;pokeblue:scripts/GameCorner.asm:GameCornerGentlemanText.Received20CoinsText;pokeblue:scripts/Museum1F.asm:Museum1FScientist2Text.ReceivedOldAmberText;pokegreen:scripts/CeladonCity.asm:CeladonCityGramps3Text.ReceivedTM41Text;pokegreen:scripts/GameCorner.asm:GameCornerFishingGuruText.Received10CoinsText;pokegreen:scripts/GameCorner.asm:GameCornerGentlemanText.Received20CoinsText;pokegreen:scripts/Museum1F.asm:Museum1FScientist2Text.ReceivedOldAmberText;pokeyellow-jp:scripts/CeladonCity.asm:CeladonCityGramps3Text.ReceivedTM41Text;pokeyellow-jp:scripts/GameCorner.asm:GameCornerFishingGuru1Text.Received10CoinsText;pokeyellow-jp:scripts/GameCorner.asm:GameCornerFishingGuru2Text.Received20CoinsText;pokeyellow-jp:scripts/Museum1F_2.asm:Museum1FPrintScientist2Text.ReceivedOldAmberText
+O003,{{PLAYER}}は おんなのこから,同时涉及缺少当前变量,"1. {{PLAYER}}从女孩那里
+得到了HM02！
+
+2. {{PLAYER}}从女孩那里
+得到了TM39！
+
+3. {{PLAYER}}从女孩那里
+得到了TM49！
+
+4. {{PLAYER}}从女孩那里
+得到了{{RAM1}}！","1. {{PLAYER}}は おんなのこから
+{{RAM1}}を もらった！
+
+2. {{PLAYER}}は おんなのこから
+ひでんマシン02を もらった！
+
+3. {{PLAYER}}は おんなのこから
+わざマシン39を もらった！
+
+4. {{PLAYER}}は おんなのこから
+わざマシン49を もらった！",pokeblue:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text;pokeblue:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM49Text;pokeblue:scripts/Route12Gate2F.asm:Route12Gate2FBrunetteGirlText.ReceivedTM39Text;pokeblue:scripts/Route16FlyHouse.asm:Route16FlyHouseBrunetteGirlText.ReceivedHM02Text;pokegreen:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text;pokegreen:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM49Text;pokegreen:scripts/Route12Gate2F.asm:Route12Gate2FBrunetteGirlText.ReceivedTM39Text;pokegreen:scripts/Route16FlyHouse.asm:Route16FlyHouseBrunetteGirlText.ReceivedHM02Text;pokeyellow-jp:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text;pokeyellow-jp:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM49Text;pokeyellow-jp:scripts/Route12Gate2F.asm:Route12Gate2FBrunetteGirlText.ReceivedTM39Text;pokeyellow-jp:scripts/Route16FlyHouse.asm:Route16FlyHouseBrunetteGirlText.ReceivedHM02Text
+O004,{{PLAYER}}は オーキドから,同时涉及缺少当前变量,"1. {{PLAYER}}从大木那里
+得到了{{RAM1}}！
+
+2. {{PLAYER}}从大木那里
+得到了宝可梦图鉴！","1. {{PLAYER}}は オーキドから
+{{RAM1}}を もらった！
+
+2. {{PLAYER}}は オーキドから
+ポケモンずかんを もらった！",pokeblue:scripts/OaksLab.asm:OaksLabOakGotPokedexText;pokeblue:scripts/OaksLab.asm:OaksLabReceivedMonText;pokegreen:scripts/OaksLab.asm:OaksLabOakGotPokedexText;pokegreen:scripts/OaksLab.asm:OaksLabReceivedMonText;pokeyellow-jp:scripts/OaksLab.asm:OaksLabOakGotPokedexText;pokeyellow-jp:scripts/OaksLab.asm:OaksLabReceivedText
+O005,{{PLAYER}}は タケシから,变量模板，当前所需槽位具备,"1. {{PLAYER}}从小刚那里
+得到了TM34！
+
+2. {{PLAYER}}从小刚那里
+得到了灰色徽章！","1. {{PLAYER}}は タケシから
+わざマシン34を もらった！
+
+2. {{PLAYER}}は タケシから
+グレー バッジを もらった！",pokeblue:composed:TrainerEnd.PewterGymBrockReceivedBoulderBadgeText;pokeblue:scripts/PewterGym.asm:PewterGymBrockReceivedBoulderBadgeText;pokeblue:scripts/PewterGym.asm:PewterGymReceivedTM34Text;pokegreen:composed:TrainerEnd.PewterGymBrockReceivedBoulderBadgeText;pokegreen:scripts/PewterGym.asm:PewterGymBrockReceivedBoulderBadgeText;pokegreen:scripts/PewterGym.asm:PewterGymReceivedTM34Text;pokeyellow-jp:composed:TrainerEnd.PewterGymBrockReceivedBoulderBadgeText;pokeyellow-jp:scripts/PewterGym.asm:PewterGymBrockReceivedBoulderBadgeText;pokeyellow-jp:scripts/PewterGym.asm:PewterGymReceivedTM34Text
+O006,{{PLAYER}}！,变量模板，当前所需槽位具备,"1. {{PLAYER}}！
+
+2. {{PLAYER}}！
+知道这意味着什么吗？
+
+3. {{PLAYER}}，非常遗憾，
+这事完全没有
+你出场的机会呢！","1. {{PLAYER}}！
+
+2. {{PLAYER}}！
+この いみが わかるか？
+
+3. {{PLAYER}}！
+ざんねんだが おまえの でばんは
+まったく ねーぜ！",pokeblue:engine/movie/oak_speech/oak_speech.asm:OakSpeechText3;pokeblue:scripts/ChampionsRoom.asm:ChampionsRoomRivalText.IntroText;pokeblue:scripts/OaksLab.asm:OaksLabRivalLeaveItAllToMeText;pokegreen:engine/movie/oak_speech/oak_speech.asm:OakSpeechText3;pokegreen:scripts/ChampionsRoom.asm:ChampionsRoomRivalText.IntroText;pokegreen:scripts/OaksLab.asm:OaksLabRivalLeaveItAllToMeText;pokeyellow-jp:engine/movie/oak_speech/oak_speech.asm:OakSpeechText3;pokeyellow-jp:scripts/ChampionsRoom.asm:ChampionsRoomRivalText.IntroText;pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalLeaveItAllToMeText
+O007,{{RAM1}}が,变量模板，当前所需槽位具备,"1. {{RAM1}}
+前来挑战了！
+
+2. {{RAM1}}
+扑过来了！
+
+3. {{RAM1}}依依不舍地","1. {{RAM1}}が
+あらわれた！
+
+2. {{RAM1}}が
+しょうぶを しかけてきた！
+
+3. {{RAM1}}が
+なごりを おしみながら",pokeblue:engine/battle/common_text.asm:EnemyAppearedText;pokeblue:engine/battle/common_text.asm:TrainerWantsToFightText;pokeblue:engine/movie/trade.asm:TradeWavesFarewellText;pokegreen:engine/battle/common_text.asm:EnemyAppearedText;pokegreen:engine/battle/common_text.asm:TrainerWantsToFightText;pokegreen:engine/movie/trade.asm:TradeWavesFarewellText;pokeyellow-jp:engine/battle/common_text.asm:EnemyAppearedText;pokeyellow-jp:engine/battle/common_text.asm:TrainerWantsToFightText;pokeyellow-jp:engine/movie/trade.asm:TradeWavesFarewellText
+O008,{{RAM1}}との,同时涉及缺少当前变量,"1. {{PLAYER}}战胜了
+{{RAM1}}！
+
+2. {{PLAYER}}输给了
+{{RAM1}}！","1. {{RAM1}}との
+しょうぶに かった！
+
+2. {{RAM1}}との
+しょうぶに まけた！",pokeblue:engine/battle/core.asm:LinkBattleLostText;pokeblue:engine/battle/core.asm:TrainerDefeatedText;pokegreen:engine/battle/core.asm:LinkBattleLostText;pokegreen:engine/battle/core.asm:TrainerDefeatedText;pokeyellow-jp:engine/battle/core.asm:LinkBattleLostText;pokeyellow-jp:engine/battle/core.asm:TrainerDefeatedText
+O009,{{RAM1}}の,变量模板，当前所需槽位具备,"1. {{RAM1}}的
+招式点数增加了！
+
+2. {{RAM1}}的
+灼伤治愈了！","1. {{RAM1}}の
+やけどが なおった
+
+2. {{RAM1}}の
+わざポイントが ふえた！",pokeblue:engine/items/item_effects.asm:PPIncreasedText;pokeblue:engine/menus/party_menu.asm:BurnHealText;pokegreen:engine/items/item_effects.asm:PPIncreasedText;pokegreen:engine/menus/party_menu.asm:BurnHealText;pokeyellow-jp:engine/items/item_effects.asm:PPIncreasedText;pokeyellow-jp:engine/menus/party_menu.asm:BurnHealText
+O010,{{RAM1}}の からだの,变量模板，当前所需槽位具备,"1. {{RAM1}}
+身上的冰融化了！
+
+2. {{RAM1}}
+身上的麻痹状态消除了！","1. {{RAM1}}の からだの
+こおりが とけた
+
+2. {{RAM1}}の からだの
+しびれが とれた",pokeblue:engine/menus/party_menu.asm:IceHealText;pokeblue:engine/menus/party_menu.asm:ParlyzHealText;pokegreen:engine/menus/party_menu.asm:IceHealText;pokegreen:engine/menus/party_menu.asm:ParlyzHealText;pokeyellow-jp:engine/menus/party_menu.asm:IceHealText;pokeyellow-jp:engine/menus/party_menu.asm:ParlyzHealText
+O011,{{RAM1}}の なかは,变量模板，当前所需槽位具备,"1. {{RAM1}}是
+“冰冻光束”哦！
+
+2. {{RAM1}}是
+“岩崩”哦！","1. {{RAM1}}の なかは
+いわなだれ なの！
+
+2. {{RAM1}}の なかは
+れいとうビーム なの！",pokeblue:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text;pokeblue:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text;pokegreen:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text;pokegreen:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text;pokeyellow-jp:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text;pokeyellow-jp:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text
+O012,{{RAM1}}は,同时涉及缺少当前变量,"1. {{RAM1}}
+使用了居合斩！
+
+2. {{RAM1}}
+变得健康了！
+
+3. {{RAM1}}
+恢复了活力！
+
+4. {{RAM1}}
+换下了{{RAM2}}！
+
+5. {{RAM1}}
+醒过来了！
+
+6. {{RAM1}}上升到了
+等级{{NUMBER1}}！
+
+7. {{RAM1}}使用了
+怪力。
+
+8. {{RAM1}}派出了
+{{RAM2}}！
+
+9. {{RAM1}}获得了
+{{NUMBER1}}经验值！
+
+10. {{RAM1}}送来了
+{{RAM2}}。","1. {{RAM1}}は
+{{NUMBER1}} けいけんちを もらった！
+
+2. {{RAM1}}は
+{{RAM2}}を くりだした！
+
+3. {{RAM1}}は
+{{RAM2}}を くれます
+
+4. {{RAM1}}は
+{{RAM2}}をひっこめた！
+
+5. {{RAM1}}は
+いあいぎりで きりまくった！
+
+6. {{RAM1}}は
+かいりきを はっきした！
+
+7. {{RAM1}}は
+けんこうになった！
+
+8. {{RAM1}}は
+げんきを とりもどした！
+
+9. {{RAM1}}は
+めを さました
+
+10. {{RAM1}}は
+レべル{{NUMBER1}} に あがった！",pokeblue:composed:Experience.normal;pokeblue:engine/battle/core.asm:TrainerSentOutText;pokeblue:engine/battle/experience.asm:GrewLevelText;pokeblue:engine/battle/trainer_ai2.asm:AIBattleWithdrawText;pokeblue:engine/menus/party_menu.asm:AwakeningText;pokeblue:engine/menus/party_menu.asm:FullHealText;pokeblue:engine/menus/party_menu.asm:ReviveText;pokeblue:engine/movie/trade.asm:TradeSendsText;pokeblue:engine/overworld/cut.asm:UsedCutText;pokeblue:engine/overworld/field_move_messages.asm:UsedStrengthText;pokegreen:composed:Experience.normal;pokegreen:engine/battle/core.asm:TrainerSentOutText;pokegreen:engine/battle/experience.asm:GrewLevelText;pokegreen:engine/battle/trainer_ai2.asm:AIBattleWithdrawText;pokegreen:engine/menus/party_menu.asm:AwakeningText;pokegreen:engine/menus/party_menu.asm:FullHealText;pokegreen:engine/menus/party_menu.asm:ReviveText;pokegreen:engine/movie/trade.asm:TradeSendsText;pokegreen:engine/overworld/cut.asm:UsedCutText;pokegreen:engine/overworld/field_move_messages.asm:UsedStrengthText;pokeyellow-jp:composed:Experience.normal;pokeyellow-jp:engine/battle/core.asm:TrainerSentOutText;pokeyellow-jp:engine/battle/experience.asm:GrewLevelText;pokeyellow-jp:engine/battle/trainer_ai.asm:AIBattleWithdrawText;pokeyellow-jp:engine/menus/party_menu.asm:AwakeningText;pokeyellow-jp:engine/menus/party_menu.asm:FullHealText;pokeyellow-jp:engine/menus/party_menu.asm:ReviveText;pokeyellow-jp:engine/movie/trade.asm:TradeSendsText;pokeyellow-jp:engine/overworld/cut.asm:UsedCutText;pokeyellow-jp:engine/overworld/field_move_messages.asm:UsedStrengthText
+O013,"{{RAM1}}は
+また こんど ですね",同时涉及缺少当前变量,"1. ……虽说是这么想的，
+但是行李已满了的话，
+
+{{RAM1}}
+就只能下次再给了。
+
+2. 如果还没到{{NUMBER1}}种，
+我只能以后再把
+{{RAM1}}交给你了。
+
+3. 如果还没到{{NUMBER2}}种，
+我只能以后再把
+{{RAM1}}交给你了。","1. {{NUMBER1}}しゅるいに たりない なら
+{{RAM1}}は
+また こんど ですね
+
+2. {{NUMBER2}}しゅるいに たりない なら
+{{RAM1}}は
+また こんど ですね
+
+3. …… …… と おもった けど
+にもつが いっぱい だから
+{{RAM1}}は
+また こんど ですね",pokeblue:engine/events/oaks_aide.asm:OaksAideComeBackText;pokeblue:engine/events/oaks_aide.asm:OaksAideNoRoomText;pokeblue:engine/events/oaks_aide.asm:OaksAideUhOhText;pokegreen:engine/events/oaks_aide.asm:OaksAideComeBackText;pokegreen:engine/events/oaks_aide.asm:OaksAideNoRoomText;pokegreen:engine/events/oaks_aide.asm:OaksAideUhOhText;pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideComeBackText;pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideNoRoomText;pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideUhOhText
+O014,{{RAM1}}は {{RAM2}}を,变量模板，当前所需槽位具备,"1. {{RAM1}}正准备派出
+{{RAM2}}。
+
+2. {{RAM1}}没有学习
+{{RAM2}}就结束了！","1. {{RAM1}}は {{RAM2}}を
+おぼえずに おわった！
+
+2. {{RAM1}}は {{RAM2}}を
+くりだそうと しているようだ",pokeblue:engine/battle/core.asm:TrainerAboutToUseText;pokeblue:engine/pokemon/learn_move.asm:DidNotLearnText;pokegreen:engine/battle/core.asm:TrainerAboutToUseText;pokegreen:engine/pokemon/learn_move.asm:DidNotLearnText;pokeyellow-jp:engine/battle/core.asm:TrainerAboutToUseText;pokeyellow-jp:engine/pokemon/learn_move.asm:DidNotLearnText
+O015,{{RAM1}}は あたらしく,同时涉及缺少当前变量,"1. {{RAM1}}
+想要学习{{RAM2}}！
+
+2. {{RAM1}}学会了
+{{RAM2}}！","1. {{RAM1}}は あたらしく
+{{RAM2}}を おぼえたい……！
+
+2. {{RAM1}}は あたらしく
+{{RAM2}}を おぼえた！",pokeblue:engine/pokemon/learn_move.asm:LearnedMove1Text;pokeblue:engine/pokemon/learn_move.asm:TryingToLearnText;pokegreen:engine/pokemon/learn_move.asm:LearnedMove1Text;pokegreen:engine/pokemon/learn_move.asm:TryingToLearnText;pokeyellow-jp:engine/pokemon/learn_move.asm:LearnedMove1Text;pokeyellow-jp:engine/pokemon/learn_move.asm:TryingToLearnText
+O016,{{RAM1}}を,变量模板，当前所需槽位具备,"1. {{RAM1}}
+已被放生。
+
+2. 丢弃了
+{{RAM1}}。
+
+3. 决定取出{{RAM1}}！
+
+4. 要好好爱护
+{{RAM1}}哦！
+
+5. 要让宝可梦学习
+{{RAM1}}吗？
+
+6. 送来了{{RAM1}}。","1. {{RAM1}}を
+おくってきます
+
+2. {{RAM1}}を
+かわいがってやってください
+
+3. {{RAM1}}を
+すてました！
+
+4. {{RAM1}}を
+そとに にがして あげた！
+
+5. {{RAM1}}を
+また つれていく ことにした！
+
+6. {{RAM1}}を
+ポケモンに おぼえさせますか？",pokeblue:engine/items/item_effects.asm:TeachMachineMoveText;pokeblue:engine/items/item_effects.asm:ThrewAwayItemText;pokeblue:engine/movie/trade.asm:TradeTakeCareText;pokeblue:engine/movie/trade.asm:TradeTransferredText;pokeblue:engine/pokemon/bills_pc.asm:MonIsTakenOutText;pokeblue:engine/pokemon/bills_pc.asm:MonWasReleasedText;pokegreen:engine/items/item_effects.asm:TeachMachineMoveText;pokegreen:engine/items/item_effects.asm:ThrewAwayItemText;pokegreen:engine/movie/trade.asm:TradeTakeCareText;pokegreen:engine/movie/trade.asm:TradeTransferredText;pokegreen:engine/pokemon/bills_pc.asm:MonIsTakenOutText;pokegreen:engine/pokemon/bills_pc.asm:MonWasReleasedText;pokeyellow-jp:engine/items/item_effects.asm:TeachMachineMoveText;pokeyellow-jp:engine/items/item_effects.asm:ThrewAwayItemText;pokeyellow-jp:engine/movie/trade.asm:TradeTakeCareText;pokeyellow-jp:engine/movie/trade.asm:TradeTransferredText;pokeyellow-jp:engine/pokemon/bills_pc.asm:MonIsTakenOutText;pokeyellow-jp:engine/pokemon/bills_pc.asm:MonWasReleasedText
+O017,{{SPEAKER}}『なかなか……,变量模板，当前所需槽位具备,"1. {{SPEAKER}}：好厉害……
+
+2. {{SPEAKER}}：看来……
+还真是难以上手呢。","1. {{SPEAKER}}『なかなか……
+
+2. {{SPEAKER}}『なかなか……
+うまく いかん もの じゃ",pokeblue:composed:TrainerEnd.Route12Fisher4EndBattleText;pokeblue:composed:TrainerEnd.SilphCo2FScientist2EndBattleText;pokegreen:composed:TrainerEnd.Route12Fisher4EndBattleText;pokegreen:composed:TrainerEnd.SilphCo2FScientist2EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route12Fisher4EndBattleText;pokeyellow-jp:composed:TrainerEnd.SilphCo2FScientist2EndBattleText
+O018,{{SPEAKER}}『はッ！,变量模板，当前所需槽位具备,"1. {{SPEAKER}}：哈！
+
+2. {{SPEAKER}}：哈！哈——
+哈哈……其实……
+是我好像吃到笑菇了。","1. {{SPEAKER}}『はッ！
+
+2. {{SPEAKER}}『はッ！
+はーッ ははッ……！ じつは……
+わらい キノコ たべて しまってな",pokeblue:composed:TrainerEnd.Route10Hiker1EndBattleText;pokeblue:composed:TrainerEnd.Route11Gambler3EndBattleText;pokegreen:composed:TrainerEnd.Route10Hiker1EndBattleText;pokegreen:composed:TrainerEnd.Route11Gambler3EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route10Hiker1EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route11Gambler3EndBattleText
+O019,{{TARGET}}には,变量模板，当前所需槽位具备,"1. 对于{{TARGET}}
+好像没有效果……
+
+2. 对于{{TARGET}}
+完全没有效果！","1. {{TARGET}}には
+こうかが ない みたいだ……
+
+2. {{TARGET}}には
+ぜんぜんきいてない！",pokeblue:engine/battle/core.asm:DoesntAffectMonText;pokeblue:engine/battle/core.asm:UnaffectedText;pokegreen:engine/battle/core.asm:DoesntAffectMonText;pokegreen:engine/battle/core.asm:UnaffectedText;pokeyellow-jp:engine/battle/core.asm:DoesntAffectMonText;pokeyellow-jp:engine/battle/core.asm:UnaffectedText
+O020,{{TARGET}}の,同时涉及缺少当前变量,"1. {{TARGET}}的
+{{RAM1}}
+大幅降低了！
+
+2. {{TARGET}}的
+{{RAM1}}降低了！
+
+3. {{TARGET}}的梦
+被吃掉了！
+
+4. 封住了{{TARGET}}
+的{{RAM1}}！","1. {{TARGET}}の
+{{RAM1}}が
+がくっと さがった！
+
+2. {{TARGET}}の
+{{RAM1}}が さがった！
+
+3. {{TARGET}}の
+{{RAM1}}を ふうじこめた！
+
+4. {{TARGET}}の
+ゆめを くった！",pokeblue:composed:StatChange.MonsStatsFellText.large;pokeblue:composed:StatChange.MonsStatsFellText.normal;pokeblue:engine/battle/effects.asm:MoveWasDisabledText;pokeblue:engine/battle/move_effects/drain_hp.asm:DreamWasEatenText;pokegreen:composed:StatChange.MonsStatsFellText.large;pokegreen:composed:StatChange.MonsStatsFellText.normal;pokegreen:engine/battle/effects.asm:MoveWasDisabledText;pokegreen:engine/battle/move_effects/drain_hp.asm:DreamWasEatenText;pokeyellow-jp:composed:StatChange.MonsStatsFellText.large;pokeyellow-jp:composed:StatChange.MonsStatsFellText.normal;pokeyellow-jp:engine/battle/effects.asm:MoveWasDisabledText;pokeyellow-jp:engine/battle/move_effects/drain_hp.asm:DreamWasEatenText
+O021,{{TARGET}}は,变量模板，当前所需槽位具备,"1. {{TARGET}}
+中剧毒了！
+
+2. {{TARGET}}
+冻住了！
+
+3. {{TARGET}}
+摆出了事不关己的表情！
+
+4. {{TARGET}}
+混乱了！
+
+5. {{TARGET}}
+睡着了！
+
+6. {{TARGET}}
+被吹飞了！
+
+7. {{TARGET}}
+被灼伤了！
+
+8. {{TARGET}}
+避开了攻击！","1. {{TARGET}}は
+こうげきを かわした！
+
+2. {{TARGET}}は
+こおりづけになった！
+
+3. {{TARGET}}は
+こんらんした！
+
+4. {{TARGET}}は
+ねむってしまった！
+
+5. {{TARGET}}は
+ふきとばされた！
+
+6. {{TARGET}}は
+へいきな かおを している！
+
+7. {{TARGET}}は
+もうどくをあびた！
+
+8. {{TARGET}}は
+やけどをおった！",pokeblue:engine/battle/effects.asm:BadlyPoisonedText;pokeblue:engine/battle/effects.asm:BecameConfusedText;pokeblue:engine/battle/effects.asm:BurnedText;pokeblue:engine/battle/effects.asm:FellAsleepText;pokeblue:engine/battle/effects.asm:FrozenText;pokeblue:engine/battle/effects.asm:IsUnaffectedText;pokeblue:engine/battle/move_effects/leech_seed.asm:EvadedAttackText;pokegreen:engine/battle/effects.asm:BadlyPoisonedText;pokegreen:engine/battle/effects.asm:BecameConfusedText;pokegreen:engine/battle/effects.asm:BurnedText;pokegreen:engine/battle/effects.asm:FellAsleepText;pokegreen:engine/battle/effects.asm:FrozenText;pokegreen:engine/battle/effects.asm:IsUnaffectedText;pokegreen:engine/battle/move_effects/leech_seed.asm:EvadedAttackText;pokeyellow-jp:engine/battle/effects.asm:BadlyPoisonedText;pokeyellow-jp:engine/battle/effects.asm:BecameConfusedText;pokeyellow-jp:engine/battle/effects.asm:BurnedText;pokeyellow-jp:engine/battle/effects.asm:FellAsleepText;pokeyellow-jp:engine/battle/effects.asm:FrozenText;pokeyellow-jp:engine/battle/effects.asm:IsUnaffectedText;pokeyellow-jp:engine/battle/effects.asm:WasBlownAwayText;pokeyellow-jp:engine/battle/move_effects/leech_seed.asm:EvadedAttackText
+O022,{{USER}}の,同时涉及缺少当前变量,"1. {{USER}}
+使出了{{RAM1}}！
+
+2. {{USER}}的
+{{RAM1}}
+大幅提高了！
+
+3. {{USER}}的
+{{RAM1}}提高了！
+
+4. {{USER}}的
+定身法解除了！
+
+5. {{USER}}的
+忍耐被解除了！
+
+6. {{USER}}的
+混乱解除了！
+
+7. 替身出现了！","1. {{USER}}の
+{{RAM1}} こうげき！
+
+2. {{USER}}の
+{{RAM1}}が
+ぐーんと あがった！
+
+3. {{USER}}の
+{{RAM1}}が あがった！
+
+4. {{USER}}の
+{{RAM1}}！
+
+5. {{USER}}の
+かなしばりが とけた！
+
+6. {{USER}}の
+がまんが とかれた！
+
+7. {{USER}}の
+こんらんが とけた！
+
+8. {{USER}}の
+ぶんしんが あらわれた",pokeblue:composed:StatChange.MonsStatsRoseText.large;pokeblue:composed:StatChange.MonsStatsRoseText.normal;pokeblue:composed:UsedMove.grammar3.normal;pokeblue:composed:UsedMove.grammar4.normal;pokeblue:engine/battle/core.asm:ConfusedNoMoreText;pokeblue:engine/battle/core.asm:DisabledNoMoreText;pokeblue:engine/battle/core.asm:UnleashedEnergyText;pokeblue:engine/battle/move_effects/substitute.asm:SubstituteText;pokegreen:composed:StatChange.MonsStatsRoseText.large;pokegreen:composed:StatChange.MonsStatsRoseText.normal;pokegreen:composed:UsedMove.grammar3.normal;pokegreen:composed:UsedMove.grammar4.normal;pokegreen:engine/battle/core.asm:ConfusedNoMoreText;pokegreen:engine/battle/core.asm:DisabledNoMoreText;pokegreen:engine/battle/core.asm:UnleashedEnergyText;pokegreen:engine/battle/move_effects/substitute.asm:SubstituteText;pokeyellow-jp:composed:StatChange.MonsStatsRoseText.large;pokeyellow-jp:composed:StatChange.MonsStatsRoseText.normal;pokeyellow-jp:composed:UsedMove.grammar3.normal;pokeyellow-jp:composed:UsedMove.grammar4.normal;pokeyellow-jp:engine/battle/core.asm:ConfusedNoMoreText;pokeyellow-jp:engine/battle/core.asm:DisabledNoMoreText;pokeyellow-jp:engine/battle/core.asm:UnleashedEnergyText;pokeyellow-jp:engine/battle/move_effects/substitute.asm:SubstituteText
+O023,{{USER}}は,同时涉及缺少当前变量,"1. {{USER}}
+不能动弹！
+
+2. {{USER}}
+使出了{{RAM1}}！
+
+3. {{USER}}
+受到了毒的伤害！
+
+4. {{USER}}
+受到了灼伤的伤害！
+
+5. {{USER}}
+变身成了{{RAM1}}！
+
+6. {{USER}}
+吸收了光！
+
+7. {{USER}}
+因冻住了而无法行动！
+
+8. {{USER}}
+因身体麻痹而无法行动。
+
+9. {{USER}}
+学会了{{RAM1}}！
+
+10. {{USER}}
+把头缩了进去！
+
+11. {{USER}}
+正在呼呼大睡。
+
+12. {{USER}}
+正在混乱中！
+
+13. {{USER}}
+现在干劲十足！
+
+14. {{USER}}
+睡着了！
+
+15. {{USER}}
+被白雾包围了！
+
+16. {{USER}}
+钻入了地里！
+
+17. {{USER}}
+飞向了高空！
+
+18. {{USER}}的
+物理抗性提高了！
+
+19. {{USER}}的
+特殊抗性提高了！
+
+20. {{USER}}睡着了
+并且变得精力充沛！","1. {{USER}}は
+{{RAM1}}した！
+
+2. {{USER}}は
+{{RAM1}}に へんしんした！
+
+3. {{USER}}は
+{{RAM1}}を おぼえた！
+
+4. {{USER}}は
+{{RAM1}}を した！
+
+5. {{USER}}は
+{{RAM1}}を つかった！
+
+6. {{USER}}は
+あなをほって ちちゅうに もぐった！
+
+7. {{USER}}は
+からだが しびれて うごけない
+
+8. {{USER}}は
+くびを ひっこめた！
+
+9. {{USER}}は
+ぐうぐう ねむっている
+
+10. {{USER}}は
+けんこうになって ねむりはじめた！
+
+11. {{USER}}は
+こおって しまって うごかない！
+
+12. {{USER}}は
+こんらんしている！
+
+13. {{USER}}は
+しろい きりに つつまれた！
+
+14. {{USER}}は
+そらたかく とびあがった！
+
+15. {{USER}}は
+だげきこうげきに つよくなった！
+
+16. {{USER}}は
+とくしゅこうげきに つよくなった！
+
+17. {{USER}}は
+どくの ダメージを うけている！
+
+18. {{USER}}は
+ねむりはじめた！
+
+19. {{USER}}は
+はりきっている！
+
+20. {{USER}}は
+ひかりを きゅうしゅうした！
+
+21. {{USER}}は
+みうごきが とれない！
+
+22. {{USER}}は
+やけどの ダメージを うけている！",pokeblue:composed:Charge.DugAHoleText;pokeblue:composed:Charge.FlewUpHighText;pokeblue:composed:Charge.LoweredItsHeadText;pokeblue:composed:Charge.TookInSunlightText;pokeblue:composed:UsedMove.grammar0.normal;pokeblue:composed:UsedMove.grammar1.normal;pokeblue:composed:UsedMove.grammar2.normal;pokeblue:engine/battle/core.asm:CantMoveText;pokeblue:engine/battle/core.asm:FastAsleepText;pokeblue:engine/battle/core.asm:FullyParalyzedText;pokeblue:engine/battle/core.asm:HurtByBurnText;pokeblue:engine/battle/core.asm:HurtByPoisonText;pokeblue:engine/battle/core.asm:IsConfusedText;pokeblue:engine/battle/core.asm:IsFrozenText;pokeblue:engine/battle/effects.asm:MimicLearnedMoveText;pokeblue:engine/battle/move_effects/focus_energy.asm:GettingPumpedText;pokeblue:engine/battle/move_effects/heal.asm:FellAsleepBecameHealthyText;pokeblue:engine/battle/move_effects/heal.asm:StartedSleepingEffect;pokeblue:engine/battle/move_effects/mist.asm:ShroudedInMistText;pokeblue:engine/battle/move_effects/reflect_light_screen.asm:LightScreenProtectedText;pokeblue:engine/battle/move_effects/reflect_light_screen.asm:ReflectGainedArmorText;pokeblue:engine/battle/move_effects/transform.asm:TransformedText;pokegreen:composed:Charge.DugAHoleText;pokegreen:composed:Charge.FlewUpHighText;pokegreen:composed:Charge.LoweredItsHeadText;pokegreen:composed:Charge.TookInSunlightText;pokegreen:composed:UsedMove.grammar0.normal;pokegreen:composed:UsedMove.grammar1.normal;pokegreen:composed:UsedMove.grammar2.normal;pokegreen:engine/battle/core.asm:CantMoveText;pokegreen:engine/battle/core.asm:FastAsleepText;pokegreen:engine/battle/core.asm:FullyParalyzedText;pokegreen:engine/battle/core.asm:HurtByBurnText;pokegreen:engine/battle/core.asm:HurtByPoisonText;pokegreen:engine/battle/core.asm:IsConfusedText;pokegreen:engine/battle/core.asm:IsFrozenText;pokegreen:engine/battle/effects.asm:MimicLearnedMoveText;pokegreen:engine/battle/move_effects/focus_energy.asm:GettingPumpedText;pokegreen:engine/battle/move_effects/heal.asm:StartedSleepingEffect;pokegreen:engine/battle/move_effects/mist.asm:ShroudedInMistText;pokegreen:engine/battle/move_effects/reflect_light_screen.asm:LightScreenProtectedText;pokegreen:engine/battle/move_effects/reflect_light_screen.asm:ReflectGainedArmorText;pokegreen:engine/battle/move_effects/transform.asm:TransformedText;pokeyellow-jp:composed:Charge.FlewUpHighText;pokeyellow-jp:composed:Charge.LoweredItsHeadText;pokeyellow-jp:composed:Charge.TookInSunlightText;pokeyellow-jp:composed:UsedMove.grammar0.normal;pokeyellow-jp:composed:UsedMove.grammar1.normal;pokeyellow-jp:composed:UsedMove.grammar2.normal;pokeyellow-jp:engine/battle/core.asm:CantMoveText;pokeyellow-jp:engine/battle/core.asm:FastAsleepText;pokeyellow-jp:engine/battle/core.asm:FullyParalyzedText;pokeyellow-jp:engine/battle/core.asm:HurtByBurnText;pokeyellow-jp:engine/battle/core.asm:HurtByPoisonText;pokeyellow-jp:engine/battle/core.asm:IsConfusedText;pokeyellow-jp:engine/battle/core.asm:IsFrozenText;pokeyellow-jp:engine/battle/effects.asm:MimicLearnedMoveText;pokeyellow-jp:engine/battle/move_effects/focus_energy.asm:GettingPumpedText;pokeyellow-jp:engine/battle/move_effects/heal.asm:FellAsleepBecameHealthyText;pokeyellow-jp:engine/battle/move_effects/heal.asm:StartedSleepingEffect;pokeyellow-jp:engine/battle/move_effects/mist.asm:ShroudedInMistText;pokeyellow-jp:engine/battle/move_effects/reflect_light_screen.asm:LightScreenProtectedText;pokeyellow-jp:engine/battle/move_effects/reflect_light_screen.asm:ReflectGainedArmorText;pokeyellow-jp:engine/battle/move_effects/transform.asm:TransformedText
+O024,…… …… ……,固定文本，当前所需槽位具备,"1. ……
+
+2. …… ……
+
+3. …… ……
+……尽管我不太认可。
+
+4. ………………
+
+5. ………………
+……咔咔！
+
+6. ……　……　……
+
+7. ……宝可梦调查队敬上","1. …… …… ……
+
+2. …… …… ……
+…… みとめたく ねーけど
+
+3. …… …… ……
+…… ケケーッ！
+
+4. ポケモン ちょうさ たい
+…… …… ……",pokeblue:engine/events/hidden_events/oaks_lab_email.asm:OakLabEmailText;pokeblue:scripts/ChampionsRoom.asm:ChampionsRoomRivalAfterBattleText;pokeblue:scripts/ChampionsRoom.asm:ChampionsRoomRivalText.IntroText;pokeblue:scripts/CinnabarLabMetronomeRoom.asm:CinnabarLabMetronomeRoomPCText;pokeblue:scripts/CopycatsHouse2F.asm:CopycatsHouse2FPCText.MySecretsText;pokeblue:scripts/PokemonTower3F.asm:PokemonTower3FChanneler2BattleText;pokeblue:scripts/SSAnne1F.asm:SSAnne1FWaiterText;pokeblue:scripts/SaffronCity.asm:SaffronCityRocket9Text;pokegreen:engine/events/hidden_events/oaks_lab_email.asm:OakLabEmailText;pokegreen:scripts/ChampionsRoom.asm:ChampionsRoomRivalAfterBattleText;pokegreen:scripts/ChampionsRoom.asm:ChampionsRoomRivalText.IntroText;pokegreen:scripts/CinnabarLabMetronomeRoom.asm:CinnabarLabMetronomeRoomPCText;pokegreen:scripts/CopycatsHouse2F.asm:CopycatsHouse2FPCText.MySecretsText;pokegreen:scripts/PokemonTower3F.asm:PokemonTower3FChanneler2BattleText;pokegreen:scripts/SSAnne1F.asm:SSAnne1FWaiterText;pokegreen:scripts/SaffronCity.asm:SaffronCityRocket9Text;pokeyellow-jp:engine/events/hidden_events/oaks_lab_email.asm:OakLabEmailText;pokeyellow-jp:scripts/ChampionsRoom.asm:ChampionsRoomRivalAfterBattleText;pokeyellow-jp:scripts/ChampionsRoom.asm:ChampionsRoomRivalText.IntroText;pokeyellow-jp:scripts/CinnabarLabMetronomeRoom.asm:CinnabarLabMetronomeRoomPCText;pokeyellow-jp:scripts/CopycatsHouse2F.asm:CopycatsHouse2FPCText.MySecretsText;pokeyellow-jp:scripts/PokemonTower3F.asm:PokemonTower3FChanneler2BattleText;pokeyellow-jp:scripts/SSAnne1F.asm:SSAnne1FWaiterText;pokeyellow-jp:scripts/SaffronCity.asm:SaffronCityRocket9Text
+O025,…… ちょっと,固定文本，当前所需槽位具备,"1. ……
+就稍微来比试一下吧！
+
+2. 请你跟我来吧！","1. …… ちょっと
+おれの あいて してみろ！
+
+2. …… ちょっと
+わしに ついて きなさい！",pokeblue:scripts/OaksLab.asm:OaksLabRivalIllTakeYouOnText.Text;pokeblue:scripts/PalletTown.asm:PalletTownOakText.ItsUnsafeText;pokegreen:scripts/OaksLab.asm:OaksLabRivalIllTakeYouOnText.Text;pokegreen:scripts/PalletTown.asm:PalletTownOakText.ItsUnsafeText;pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalIllTakeYouOnText.Text;pokeyellow-jp:scripts/PalletTown.asm:PalletTownOakComeWithMe
+O026,"…… と おもったら
+もう ポケモンが ない",同时涉及缺少当前变量,"1. {{SPEAKER}}：来啊，
+继续啊！啊……
+
+我没有宝可梦了。
+
+2. 来啊，
+继续啊！啊……
+
+我没有宝可梦了。","1. {{SPEAKER}}『まだまだ！
+…… と おもったら
+もう ポケモンが ない
+
+2. まだまだ！
+…… と おもったら
+もう ポケモンが ない",pokeblue:composed:TrainerEnd.Route9Hiker1EndBattleText;pokeblue:scripts/Route9.asm:Route9Hiker1EndBattleText;pokegreen:composed:TrainerEnd.Route9Hiker1EndBattleText;pokegreen:scripts/Route9.asm:Route9Hiker1EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route9Hiker1EndBattleText;pokeyellow-jp:scripts/Route9.asm:Route9Hiker1EndBattleText
+O027,…… なに？,固定文本，当前所需槽位具备,"1. ……什么？
+
+2. ……什么？
+你说我挡了你的路？","1. …… なに？
+
+2. …… なに？
+わしが じゃまで とおれなかった？",pokeblue:scripts/PokemonMansion1F.asm:PokemonMansion1FScientistAfterBattleText;pokegreen:scripts/PokemonMansion1F.asm:PokemonMansion1FScientistAfterBattleText;pokeyellow-jp:scripts/PokemonMansion1F.asm:PokemonMansion1FScientistAfterBattleText;pokeyellow-jp:scripts/ViridianCity.asm:ViridianCityOldMan2Text.HadMyCoffeeNowText
+O028,あ こら！,固定文本，当前所需槽位具备,"1. 啊，嗨呀！
+
+2. 喂！我说！不要随便闯进
+别人家的院子！","1. あ こら！
+
+2. あ こら！
+ひとんちの にわ はいるなよ！",pokeblue:scripts/CeruleanCity.asm:CeruleanCityRocketText.Text;pokeblue:scripts/Route22.asm:Route22Rival2DefeatedText;pokegreen:scripts/CeruleanCity.asm:CeruleanCityRocketText.Text;pokegreen:scripts/Route22.asm:Route22Rival2DefeatedText;pokeyellow-jp:scripts/CeruleanCity.asm:CeruleanCityRocketText.Text;pokeyellow-jp:scripts/Route22.asm:Route22Rival2DefeatedText
+O029,あら！,固定文本，当前所需槽位具备,"1. 哎呀！这里只有女孩，
+我正好觉得有些无聊呢！
+
+2. 噢！","1. あら！
+
+2. あら！
+おんな ばっかりで
+たいくつ してたのよ！",pokeblue:scripts/CeladonGym.asm:CeladonGymBeauty1BattleText;pokeblue:scripts/Route13.asm:Route13CooltrainerF2BattleText;pokegreen:scripts/CeladonGym.asm:CeladonGymBeauty1BattleText;pokegreen:scripts/Route13.asm:Route13CooltrainerF2BattleText;pokeyellow-jp:scripts/CeladonGym.asm:CeladonGymBeauty1BattleText;pokeyellow-jp:scripts/Route13.asm:Route13CooltrainerF2BattleText
+O030,いらっしゃいませ！,固定文本，当前所需槽位具备,"1. 欢迎光临
+玉虹百货公司！
+
+2. 欢迎光临！","1. いらっしゃいませ！
+
+2. いらっしゃいませ！
+タマムシ デパートに ようこそ！",pokeblue:scripts/CeladonMart1F.asm:CeladonMart1FReceptionistText;pokeblue:scripts/GameCorner.asm:GameCornerBeauty1Text;pokeblue:scripts/GameCorner.asm:GameCornerClerk1Text.DoYouNeedSomeGameCoins;pokeblue:scripts/SilphCo1F.asm:SilphCo1FLinkReceptionistText;pokegreen:scripts/CeladonMart1F.asm:CeladonMart1FReceptionistText;pokegreen:scripts/GameCorner.asm:GameCornerBeauty1Text;pokegreen:scripts/GameCorner.asm:GameCornerClerk1Text.DoYouNeedSomeGameCoins;pokegreen:scripts/SilphCo1F.asm:SilphCo1FLinkReceptionistText;pokeyellow-jp:scripts/CeladonMart1F.asm:CeladonMart1FReceptionistText;pokeyellow-jp:scripts/GameCorner.asm:GameCornerBeauty1Text;pokeyellow-jp:scripts/GameCorner.asm:GameCornerClerkText.DoYouNeedSomeGameCoins;pokeyellow-jp:scripts/SilphCo1F.asm:SilphCo1FLinkReceptionistText
+O031,うーん！,固定文本，当前所需槽位具备,"1. 嗯……！
+
+2. 嗯嗯！
+多么优美的声音！","1. うーん！
+
+2. うーん！
+すばらしい ねいろだ！",pokeblue:engine/items/item_effects.asm:PlayedFluteNoEffectText;pokeblue:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlImNotThirstyText;pokegreen:engine/items/item_effects.asm:PlayedFluteNoEffectText;pokegreen:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlImNotThirstyText;pokeyellow-jp:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlImNotThirstyText
+O032,おれたちは,固定文本，当前所需槽位具备,"1. 我们是
+利用宝可梦做坏事的组织！
+
+2. 我们正在做重要的工作！","1. おれたちは
+だいじな しごとを してるんだ！
+
+2. おれたちは
+ポケモンを わるいことに
+つかおうっていう グループだ！",pokeblue:scripts/MtMoonB2F.asm:MtMoonB2FRocket3BattleText;pokeblue:scripts/Route24.asm:Route24CooltrainerM1Text.JoinTeamRocketText;pokegreen:scripts/MtMoonB2F.asm:MtMoonB2FRocket3BattleText;pokegreen:scripts/Route24.asm:Route24CooltrainerM1Text.JoinTeamRocketText;pokeyellow-jp:scripts/MtMoonB2F.asm:MtMoonB2FRocket2BattleText;pokeyellow-jp:scripts/Route24.asm:Route24CooltrainerM1Text.JoinTeamRocketText
+O033,おれは,固定文本，当前所需槽位具备,"1. 我住在山里很久了。
+
+2. 我正在看守这个海报！","1. おれは
+この ポスターを みはってるのだ
+
+2. おれは
+やまに すんで ながい",pokeblue:scripts/GameCorner.asm:GameCornerRocketText.ImGuardingThisPosterText;pokeblue:scripts/RockTunnel1F.asm:RockTunnel1FHiker3BattleText;pokegreen:scripts/GameCorner.asm:GameCornerRocketText.ImGuardingThisPosterText;pokegreen:scripts/RockTunnel1F.asm:RockTunnel1FHiker3BattleText;pokeyellow-jp:scripts/GameCorner.asm:GameCornerRocketText.ImGuardingThisPosterText;pokeyellow-jp:scripts/RockTunnel1F.asm:RockTunnel1FHiker3BattleText
+O034,おれは まいにち,固定文本，当前所需槽位具备,"1. 我每天要做的工作，
+就是削土豆皮！
+
+2. 我每天要做的工作，
+就是剥洋葱皮！","1. おれは まいにち
+イモの かわむきだ！
+
+2. おれは まいにち
+タマネギの かわむきだー",pokeblue:scripts/SSAnneKitchen.asm:SSAnneKitchenCook4Text;pokeblue:scripts/SSAnneKitchen.asm:SSAnneKitchenCook6Text;pokegreen:scripts/SSAnneKitchen.asm:SSAnneKitchenCook4Text;pokegreen:scripts/SSAnneKitchen.asm:SSAnneKitchenCook6Text;pokeyellow-jp:scripts/SSAnneKitchen.asm:SSAnneKitchenCook4Text;pokeyellow-jp:scripts/SSAnneKitchen.asm:SSAnneKitchenCook6Text
+O035,おんなのこ だからって,固定文本，当前所需槽位具备,"1. 别因为是女孩子
+就小看我呢！
+
+2. 别因为这里全都是女生
+就放松警惕了哦！","1. おんなのこ だからって
+てかげんは なしね！
+
+2. おんなのこ だからって
+ゆだん しない ほうが いいわよ！",pokeblue:scripts/CeladonGym.asm:CeladonGymCooltrainerF4BattleText;pokeblue:scripts/Route9.asm:Route9CooltrainerF2BattleText;pokegreen:scripts/CeladonGym.asm:CeladonGymCooltrainerF4BattleText;pokegreen:scripts/Route9.asm:Route9CooltrainerF2BattleText;pokeyellow-jp:scripts/CeladonGym.asm:CeladonGymCooltrainerF4BattleText;pokeyellow-jp:scripts/Route9.asm:Route9CooltrainerF2BattleText
+O036,おんなのこに,固定文本，当前所需槽位具备,"1. 不能对女生
+温柔一点吗？
+
+2. 为了能在女孩子面前
+炫耀一把，
+所以我才来到了这种地方。","1. おんなのこに
+やさしく できない？
+
+2. おんなのこに
+イイ とこ みせようと
+こんな とこ まで きちゃった",pokeblue:scripts/MtMoon1F.asm:MtMoon1FYoungster1AfterBattleText;pokeblue:scripts/Route3.asm:Route3CooltrainerF2EndBattleText;pokegreen:scripts/MtMoon1F.asm:MtMoon1FYoungster1AfterBattleText;pokegreen:scripts/Route3.asm:Route3CooltrainerF2EndBattleText;pokeyellow-jp:scripts/MtMoon1F.asm:MtMoon1FYoungster1AfterBattleText;pokeyellow-jp:scripts/Route3.asm:Route3CooltrainerF2EndBattleText
+O037,"きみの ちからを
+ためして みると いい",固定文本，当前所需槽位具备,"1. 你也很强大呢。
+要成为宝可梦训练家的话，
+我推荐你去华蓝市的道馆
+试试身手吧！
+
+2. 我推荐你也去华蓝市的道馆
+试试身手吧！","1. きみも つよい
+ポケモン トレーナーを めざすなら
+ハナダ シティの ジムにも いき
+きみの ちからを
+ためして みると いい
+
+2. ハナダ シティの ジムにも いき
+きみの ちからを
+ためして みると いい",pokeblue:scripts/PewterGym.asm:PewterGymBrockText.PostBattleAdviceText;pokegreen:scripts/PewterGym.asm:PewterGymBrockText.PostBattleAdviceText;pokeyellow-jp:scripts/PewterGym.asm:PewterGymBrockText.PostBattleAdviceText
+O038,きみも,固定文本，当前所需槽位具备,"1. 你也听说了
+关于正辉的传言吗？
+
+2. 你也是来探索洞穴的吗？","1. きみも
+どうくつ たんけんに きたのかい
+
+2. きみも
+マサキの うわさ きいてるか？",pokeblue:scripts/CeruleanPokecenter.asm:CeruleanPokecenterGentlemanText;pokeblue:scripts/MtMoon1F.asm:MtMoon1FYoungster1BattleText;pokegreen:scripts/CeruleanPokecenter.asm:CeruleanPokecenterGentlemanText;pokegreen:scripts/MtMoon1F.asm:MtMoon1FYoungster1BattleText;pokeyellow-jp:scripts/CeruleanPokecenter.asm:CeruleanPokecenterGentlemanText;pokeyellow-jp:scripts/MtMoon1F.asm:MtMoon1FYoungster1BattleText
+O039,ここから ちかつうろ,固定文本，当前所需槽位具备,"1. 前方是地下通道
+华蓝市　……　枯叶市
+
+2. 前方是地下通道
+玉虹市　……　紫苑镇","1. ここから ちかつうろ
+タマムシ …… シオン
+
+2. ここから ちかつうろ
+ハナダ シティ …… クチバ シティ",pokeblue:scripts/Route6.asm:Route6UndergroundPathSignText;pokeblue:scripts/Route7.asm:Route7UndergroundPathSignText;pokeblue:scripts/Route8.asm:Route8UndergroundSignText;pokegreen:scripts/Route6.asm:Route6UndergroundPathSignText;pokegreen:scripts/Route7.asm:Route7UndergroundPathSignText;pokegreen:scripts/Route8.asm:Route8UndergroundSignText;pokeyellow-jp:scripts/Route6.asm:Route6UndergroundPathSignText;pokeyellow-jp:scripts/Route7.asm:Route7UndergroundPathSignText;pokeyellow-jp:scripts/Route8.asm:Route8UndergroundSignText
+O040,ここでは {{RAM1}}で,变量模板，当前所需槽位具备,"1. {{RAM1}}
+不能在这里使用瞬间移动！
+
+2. {{RAM1}}
+不能在这里飞翔！","1. ここでは {{RAM1}}で
+そらを とぶことは できません！
+
+2. ここでは {{RAM1}}で
+テレポートすることは できません！",pokeblue:engine/menus/start_sub_menus.asm:StartMenu_Pokemon.cannotFlyHereText;pokeblue:engine/menus/start_sub_menus.asm:StartMenu_Pokemon.cannotUseTeleportNowText;pokegreen:engine/menus/start_sub_menus.asm:StartMenu_Pokemon.cannotFlyHereText;pokegreen:engine/menus/start_sub_menus.asm:StartMenu_Pokemon.cannotUseTeleportNowText;pokeyellow-jp:engine/menus/start_sub_menus.asm:StartMenu_Pokemon.cannotFlyHereText;pokeyellow-jp:engine/menus/start_sub_menus.asm:StartMenu_Pokemon.cannotUseTeleportNowText
+O041,ここは イワヤマ トンネル,固定文本，当前所需槽位具备,"1. 这里是岩山隧道
+
+2. 这里是岩山隧道
+华蓝市　……　紫苑镇","1. ここは イワヤマ トンネル
+
+2. ここは イワヤマ トンネル
+ハナダ シティ …… シオン タウン",pokeblue:scripts/RockTunnel1F.asm:RockTunnel1FSignText;pokeblue:scripts/Route10.asm:Route10RockTunnelSignText;pokegreen:scripts/RockTunnel1F.asm:RockTunnel1FSignText;pokegreen:scripts/Route10.asm:Route10RockTunnelSignText;pokeyellow-jp:scripts/RockTunnel1F.asm:RockTunnel1FSignText;pokeyellow-jp:scripts/Route10.asm:Route10RockTunnelSignText
+O042,この あたりは,固定文本，当前所需槽位具备,"1. 你在这里捉到的宝可梦，
+和你在森林里捉到的
+可不一样哦！
+
+2. 这一带是我们的地盘！
+
+3. 这一带的
+建筑物比较少，
+我们经常到这里聚集！","1. この あたりは
+たてものが すくねえ から
+よく はしりに くるぜ！
+
+2. この あたりは
+ぼくらの なわばりだ！
+
+3. この あたりは
+もり とは また ちがった
+ポケモンが とれるんだ！",pokeblue:scripts/Route14.asm:Route14Biker3BattleText;pokeblue:scripts/Route18.asm:Route18CooltrainerM3BattleText;pokeblue:scripts/Route3.asm:Route3Youngster1AfterBattleText;pokegreen:scripts/Route14.asm:Route14Biker3BattleText;pokegreen:scripts/Route18.asm:Route18CooltrainerM3BattleText;pokegreen:scripts/Route3.asm:Route3Youngster1AfterBattleText;pokeyellow-jp:scripts/Route14.asm:Route14Biker3BattleText;pokeyellow-jp:scripts/Route18.asm:Route18CooltrainerM3BattleText;pokeyellow-jp:scripts/Route3.asm:Route3Youngster1AfterBattleText
+O043,こんな うでまえじゃ,同时涉及缺少当前变量,"1. {{RIVAL}}：我说你啊，
+就只有这两下吗？
+
+2. {{SPEAKER}}：{{RIVAL}}：我说你啊，
+就只有这两下吗？","1. {{RIVAL}}『おまえなあ……
+こんな うでまえじゃ
+
+2. {{SPEAKER}}『{{RIVAL}}『おまえなあ……
+こんな うでまえじゃ",pokeblue:composed:TrainerEnd.SilphCo7FRivalVictoryText;pokeblue:scripts/SilphCo7F.asm:SilphCo7FRivalVictoryText;pokegreen:composed:TrainerEnd.SilphCo7FRivalVictoryText;pokegreen:scripts/SilphCo7F.asm:SilphCo7FRivalVictoryText;pokeyellow-jp:composed:TrainerEnd.SilphCo7FRivalVictoryText;pokeyellow-jp:scripts/SilphCo7F.asm:SilphCo7FRivalVictoryText
+O044,"こんな うでまえじゃ
+まだまだ……",同时涉及缺少当前变量,"1. {{RIVAL}}：我说你啊，
+就只有这两下吗？
+
+还差得远呢……
+你这样根本就
+算不上是男子汉啊！
+
+2. {{SPEAKER}}：{{RIVAL}}：我说你啊，
+就只有这两下吗？
+
+还差得远呢……
+你这样根本就
+算不上是男子汉啊！","1. {{RIVAL}}『おまえなあ……
+こんな うでまえじゃ
+まだまだ……
+いちにんまえ とは いえないぜ
+
+2. {{SPEAKER}}『{{RIVAL}}『おまえなあ……
+こんな うでまえじゃ
+まだまだ……
+いちにんまえ とは いえないぜ",pokeblue:composed:TrainerEnd.SilphCo7FRivalVictoryText;pokeblue:scripts/SilphCo7F.asm:SilphCo7FRivalVictoryText;pokegreen:composed:TrainerEnd.SilphCo7FRivalVictoryText;pokegreen:scripts/SilphCo7F.asm:SilphCo7FRivalVictoryText;pokeyellow-jp:composed:TrainerEnd.SilphCo7FRivalVictoryText;pokeyellow-jp:scripts/SilphCo7F.asm:SilphCo7FRivalVictoryText
+O045,しかし {{PLAYER}}は,变量模板，当前所需槽位具备,"1. 但是，{{PLAYER}}
+已经拿不下道具了！
+
+2. 哎呀！
+有一些代币掉了出来！","1. しかし {{PLAYER}}は
+どうぐを もう もてない！
+
+2. しかし {{PLAYER}}は
+なんまいか おとしてしまった！",pokeblue:engine/events/hidden_items.asm:DroppedHiddenCoinsText;pokeblue:engine/events/hidden_items.asm:HiddenItemBagFullText;pokegreen:engine/events/hidden_items.asm:DroppedHiddenCoinsText;pokegreen:engine/events/hidden_items.asm:HiddenItemBagFullText;pokeyellow-jp:engine/events/hidden_items.asm:DroppedHiddenCoinsText;pokeyellow-jp:engine/events/hidden_items.asm:HiddenItemBagFullText
+O046,しかし {{USER}}の,变量模板，当前所需槽位具备,"1. {{USER}}的
+攻击失误了！
+
+2. {{USER}}的
+替身已经出现了！","1. しかし {{USER}}の
+こうげきは はずれた！
+
+2. しかし {{USER}}の
+みがわりは すでに でていた！",pokeblue:engine/battle/core.asm:AttackMissedText;pokeblue:engine/battle/move_effects/substitute.asm:HasSubstituteText;pokegreen:engine/battle/core.asm:AttackMissedText;pokegreen:engine/battle/move_effects/substitute.asm:HasSubstituteText;pokeyellow-jp:engine/battle/core.asm:AttackMissedText;pokeyellow-jp:engine/battle/move_effects/substitute.asm:HasSubstituteText
+O047,すべての,固定文本，当前所需槽位具备,"1. 所有的
+宝可梦的攻击力
+都会提高少许。
+
+2. 所有的
+宝可梦的特殊能力
+都会提高少许。
+
+3. 所有的
+宝可梦的速度
+都会提高少许。
+
+4. 所有的
+宝可梦的防御力
+都会提高少许。","1. すべての
+ポケモンの こうげき りょくが
+すこし たかく なります
+
+2. すべての
+ポケモンの すばやさが
+すこし たかく なります
+
+3. すべての
+ポケモンの とくしゅ のうりょくが
+すこし たかく なります
+
+4. すべての
+ポケモンの ぼうぎょ りょくが
+すこし たかく なります",pokeblue:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseBoulderBadgeText;pokeblue:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseSoulBadgeText;pokeblue:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseThunderBadgeText;pokeblue:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseVolcanoBadgeText;pokegreen:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseBoulderBadgeText;pokegreen:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseSoulBadgeText;pokegreen:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseThunderBadgeText;pokegreen:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseVolcanoBadgeText;pokeyellow-jp:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseBoulderBadgeText;pokeyellow-jp:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseSoulBadgeText;pokeyellow-jp:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseThunderBadgeText;pokeyellow-jp:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseVolcanoBadgeText
+O048,そうか,固定文本，当前所需槽位具备,"1. 是吗？
+你想见我们老大？
+
+2. 这样啊。
+知道了，你有空再来吧。","1. そうか
+わかった また きなさいよ
+
+2. そうか
+ボスに あおうって いうのかい",pokeblue:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.ComeAnyTimeYouLikeText;pokeblue:scripts/SilphCo11F.asm:SilphCo11FRocket1AfterBattleText;pokegreen:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.ComeAnyTimeYouLikeText;pokegreen:scripts/SilphCo11F.asm:SilphCo11FRocket1AfterBattleText;pokeyellow-jp:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.ComeAnyTimeYouLikeText
+O049,そうだ！,固定文本，当前所需槽位具备,"1. 对了！
+
+2. 对啊！虽然不能亲自展示，
+但我可以把这个给你啊！
+
+3. 这样吧！
+
+4. 这样吧！你能不能
+替我照料这只妙蛙种子呢？","1. そうだ！
+
+2. そうだ！
+あなた この フシギダネの
+めんどうを みてくださらない？
+
+3. そうだ！
+かわりに これを あげよう！",pokeblue:scripts/Route1.asm:Route1Youngster1Text.MartSampleText;pokeblue:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainIFeelMuchBetterText;pokeblue:scripts/SilphCo7F.asm:SilphCo7FSilphWorkerM1Text.HaveThisPokemonText;pokegreen:scripts/Route1.asm:Route1Youngster1Text.MartSampleText;pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainIFeelMuchBetterText;pokegreen:scripts/SilphCo7F.asm:SilphCo7FSilphWorkerM1Text.HaveThisPokemonText;pokeyellow-jp:scripts/CeruleanMelaniesHouse.asm:CeruleanHouse1Text_1cfce;pokeyellow-jp:scripts/PokemonFanClub.asm:Text_59c1f;pokeyellow-jp:scripts/Route1_2.asm:Route1PrintYoungster1Text.MartSampleText;pokeyellow-jp:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainIFeelMuchBetterText;pokeyellow-jp:scripts/SilphCo7F.asm:SilphCo7FSilphWorkerM1Text.HaveThisPokemonText
+O050,それでは,固定文本，当前所需槽位具备,"1. 那么这个就送给你了！
+
+2. 那么，
+就交给我吧！
+
+3. 那么，你有什么
+想要培育的宝可梦吗？","1. それでは
+あずからせて いただきます！
+
+2. それでは
+これを おわたし します！
+
+3. それでは
+なにを そだてて みるかね？",pokeblue:engine/events/oaks_aide.asm:OaksAideHereYouGoText;pokeblue:engine/events/pokecenter.asm:NeedYourPokemonText;pokeblue:scripts/Daycare.asm:DaycareGentlemanText.WhichMonText;pokegreen:engine/events/oaks_aide.asm:OaksAideHereYouGoText;pokegreen:engine/events/pokecenter.asm:NeedYourPokemonText;pokegreen:scripts/Daycare.asm:DaycareGentlemanText.WhichMonText;pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHereYouGoText;pokeyellow-jp:engine/events/pokecenter.asm:NeedYourPokemonText;pokeyellow-jp:scripts/Daycare.asm:DaycareGentlemanText.WhichMonText
+O051,そんな……,固定文本，当前所需槽位具备,"1. 怎么会这样……
+课本上没有写呢。
+
+2. 是吗……","1. そんな……
+
+2. そんな……
+きょうかしょに のってなかったわ",pokeblue:scripts/CeladonGym.asm:CeladonGymErikaText.PreBattleText;pokegreen:scripts/CeladonGym.asm:CeladonGymErikaText.PreBattleText;pokeyellow-jp:scripts/CeladonGym.asm:CeladonGymErikaText.PreBattleText;pokeyellow-jp:scripts/Route6.asm:Route6CooltrainerF1EndBattleText
+O052,たたかい おわっても,固定文本，当前所需槽位具备,"1. 在战斗结束之后
+毒素也会残留。
+
+2. 在战斗结束之后
+灼伤也会残留。
+
+3. 就算战斗结束，
+也会依然处于麻痹状态。","1. たたかい おわっても
+どくは のこりますが
+
+2. たたかい おわっても
+やけどは のこります
+
+3. たたかい おわっても
+マヒは のこります",pokeblue:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardBurnText;pokeblue:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardPoisonText;pokeblue:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardPrlzText;pokegreen:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardBurnText;pokegreen:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardPoisonText;pokegreen:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardPrlzText;pokeyellow-jp:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardBurnText;pokeyellow-jp:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardPoisonText;pokeyellow-jp:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardPrlzText
+O053,"たたかって いない ときでも
+つかえるように なります",固定文本，当前所需槽位具备,"1. 此外，招式“冲浪”
+在战斗以外的时候
+好像也可以使用了。
+
+2. 此外，招式“居合斩”
+在战斗以外的时候
+好像也可以使用了。
+
+3. 此外，招式“怪力”
+在战斗以外的时候
+好像也可以使用了。
+
+4. 此外，招式“闪光”
+在战斗以外的时候
+好像也可以使用了。
+
+5. 此外，招式“飞翔”
+在战斗以外的时候
+好像也可以使用了。","1. それから いあいぎりの わざは
+たたかって いない ときでも
+つかえるように なります
+
+2. それから かいりきの わざは
+たたかって いない ときでも
+つかえるように なります
+
+3. それから そらをとぶ わざは
+たたかって いない ときでも
+つかえるように なります
+
+4. それから なみのりの わざは
+たたかって いない ときでも
+つかえるように なります
+
+5. それから フラッシュの わざは
+たたかって いない ときでも
+つかえるように なります",pokeblue:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseBoulderBadgeText;pokeblue:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseCascadeBadgeText;pokeblue:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseRainbowBadgeText;pokeblue:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseSoulBadgeText;pokeblue:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseThunderBadgeText;pokegreen:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseBoulderBadgeText;pokegreen:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseCascadeBadgeText;pokegreen:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseRainbowBadgeText;pokegreen:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseSoulBadgeText;pokegreen:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseThunderBadgeText;pokeyellow-jp:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseBoulderBadgeText;pokeyellow-jp:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseCascadeBadgeText;pokeyellow-jp:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseRainbowBadgeText;pokeyellow-jp:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseSoulBadgeText;pokeyellow-jp:scripts/CeruleanBadgeHouse.asm:CeruleanBadgeHouseThunderBadgeText
+O054,たまに あいてを,固定文本，当前所需槽位具备,"1. 它有时可以让对方
+害怕哦！
+
+2. 它有时可以让对方
+陷入冰冻状态！
+
+3. 有时可以让对方
+陷入麻痹状态呢。","1. たまに あいてを
+きぜつ させる ことが あるわ
+
+2. たまに あいてを
+こおらせる ことが あるわ
+
+3. たまに あいてを
+まひ させる ことが あるわ",pokeblue:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text;pokeblue:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text;pokeblue:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM49Text;pokegreen:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text;pokegreen:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text;pokegreen:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM49Text;pokeyellow-jp:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text;pokeyellow-jp:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM48Text
+O055,でんどうドアの,固定文本，当前所需槽位具备,"1. 电动门
+第１道锁已被解除！
+
+2. 电动门
+第２道锁已被解除！","1. でんどうドアの
+だい1 ロックが はずれた！
+
+2. でんどうドアの
+だい2 ロックが はずれた！",pokeblue:engine/events/hidden_events/vermilion_gym_trash.asm:VermilionGymTrashSuccessText1;pokeblue:engine/events/hidden_events/vermilion_gym_trash.asm:VermilionGymTrashSuccessText3;pokegreen:engine/events/hidden_events/vermilion_gym_trash.asm:VermilionGymTrashSuccessText1;pokegreen:engine/events/hidden_events/vermilion_gym_trash.asm:VermilionGymTrashSuccessText3;pokeyellow-jp:engine/events/hidden_events/vermilion_gym_trash.asm:VermilionGymTrashSuccessText1;pokeyellow-jp:engine/events/hidden_events/vermilion_gym_trash.asm:VermilionGymTrashSuccessText3
+O056,ともだちと こうかん した,固定文本，当前所需槽位具备,"1. 就算不喜欢和朋友交换来的
+宝可梦的昵称也没办法……
+
+2. 我就用和朋友交换来的
+宝可梦与你决胜负吧！","1. ともだちと こうかん した
+おきにいりで しょうぶ するわ！
+
+2. ともだちと こうかん した
+ポケモンの ニックネーム
+たとえ きに いらなくても……",pokeblue:scripts/Route15.asm:Route15CooltrainerF1AfterBattleText;pokeblue:scripts/Route15.asm:Route15CooltrainerF1BattleText;pokegreen:scripts/Route15.asm:Route15CooltrainerF1AfterBattleText;pokegreen:scripts/Route15.asm:Route15CooltrainerF1BattleText;pokeyellow-jp:scripts/Route15.asm:Route15CooltrainerF1AfterBattleText;pokeyellow-jp:scripts/Route15.asm:Route15CooltrainerF1BattleText
+O057,どうぐが いっぱいです,固定文本，当前所需槽位具备,"1. 道具太多，
+已经寄放不下了！
+
+2. 道具太多，
+已经拿不下了！","1. どうぐが いっぱいです
+もう あずけられません！
+
+2. どうぐが いっぱいです
+もう もてません！",pokeblue:engine/menus/players_pc.asm:CantCarryMoreText;pokeblue:engine/menus/players_pc.asm:NoRoomToStoreText;pokegreen:engine/menus/players_pc.asm:CantCarryMoreText;pokegreen:engine/menus/players_pc.asm:NoRoomToStoreText;pokeyellow-jp:engine/menus/players_pc.asm:CantCarryMoreText;pokeyellow-jp:engine/menus/players_pc.asm:NoRoomToStoreText
+O058,どの ポケモンを,固定文本，当前所需槽位具备,"1. 要寄放哪只
+宝可梦？
+
+2. 要放生哪只宝可梦？","1. どの ポケモンを
+あずけたいんや？
+
+2. どの ポケモンを
+にがすんや？",pokeblue:engine/pokemon/bills_pc.asm:DepositWhichMonText;pokeblue:engine/pokemon/bills_pc.asm:ReleaseWhichMonText;pokegreen:engine/pokemon/bills_pc.asm:DepositWhichMonText;pokegreen:engine/pokemon/bills_pc.asm:ReleaseWhichMonText;pokeyellow-jp:engine/pokemon/bills_pc.asm:DepositWhichMonText;pokeyellow-jp:engine/pokemon/bills_pc.asm:ReleaseWhichMonText
+O059,なかなか……,固定文本，当前所需槽位具备,"1. 好厉害……
+
+2. 我还没有……
+那么大的度量吗。
+
+3. 看来……
+还真是难以上手呢。","1. なかなか……
+
+2. なかなか……
+うまく いかん もの じゃ
+
+3. なかなか……
+どきょう ある じゃねえか",pokeblue:scripts/Route12.asm:Route12Fisher4EndBattleText;pokeblue:scripts/Route17.asm:Route17Biker4AfterBattleText;pokeblue:scripts/SilphCo2F.asm:SilphCo2FScientist2EndBattleText;pokegreen:scripts/Route12.asm:Route12Fisher4EndBattleText;pokegreen:scripts/Route17.asm:Route17Biker4AfterBattleText;pokegreen:scripts/SilphCo2F.asm:SilphCo2FScientist2EndBattleText;pokeyellow-jp:scripts/Route12.asm:Route12Fisher4EndBattleText;pokeyellow-jp:scripts/Route17.asm:Route17Biker4AfterBattleText;pokeyellow-jp:scripts/SilphCo2F.asm:SilphCo2FScientist2EndBattleText
+O060,ねえ この みせの うれすじは,固定文本，当前所需槽位具备,"1. 他们说，解麻药是
+这家店的畅销货呢！
+
+2. 这个商店，
+有好多解毒药啊！","1. ねえ この みせの うれすじは
+どくけし なんだって！
+
+2. ねえ この みせの うれすじは
+まひなおし なんだって！",pokeblue:scripts/ViridianMart.asm:ViridianMartYoungsterText;pokegreen:scripts/ViridianMart.asm:ViridianMartYoungsterText;pokeyellow-jp:scripts/ViridianMart.asm:ViridianMartYoungsterText
+O061,はい どうぞ,固定文本，当前所需槽位具备,"1. 请拿好。
+谢谢惠顾。
+
+2. 请拿好！","1. はい どうぞ
+
+2. はい どうぞ
+まいど ありがとう ございます",pokeblue:engine/events/pokemart.asm:PokemartBoughtItemText;pokeblue:engine/events/prize_menu.asm:HereYouGoText;pokegreen:engine/events/pokemart.asm:PokemartBoughtItemText;pokegreen:engine/events/prize_menu.asm:HereYouGoText;pokeyellow-jp:engine/events/pokemart.asm:PokemartBoughtItemText;pokeyellow-jp:engine/events/prize_menu.asm:HereYouGoText
+O062,はっはっはーッ！,固定文本，当前所需槽位具备,"1. 哈哈哈！
+
+2. 哈哈哈！登山男的心胸
+可是很豁达的。
+就算是输了也会笑！","1. はっはっはーッ！
+
+2. はっはっはーッ！
+やまおとこは こころが ひろいから
+まけても わらってるのだ！",pokeblue:scripts/Route9.asm:Route9Hiker3AfterBattleText;pokeblue:scripts/Route9.asm:Route9Hiker3BattleText;pokegreen:scripts/Route9.asm:Route9Hiker3AfterBattleText;pokegreen:scripts/Route9.asm:Route9Hiker3BattleText;pokeyellow-jp:scripts/Route9.asm:Route9Hiker3AfterBattleText;pokeyellow-jp:scripts/Route9.asm:Route9Hiker3BattleText
+O063,はッ！,固定文本，当前所需槽位具备,"1. 哈！
+
+2. 哈！哈——
+哈哈……其实……
+是我好像吃到笑菇了。","1. はッ！
+
+2. はッ！
+はーッ ははッ……！ じつは……
+わらい キノコ たべて しまってな",pokeblue:scripts/Route10.asm:Route10Hiker1EndBattleText;pokeblue:scripts/Route11.asm:Route11Gambler3EndBattleText;pokegreen:scripts/Route10.asm:Route10Hiker1EndBattleText;pokegreen:scripts/Route11.asm:Route11Gambler3EndBattleText;pokeyellow-jp:scripts/Route10.asm:Route10Hiker1EndBattleText;pokeyellow-jp:scripts/Route11.asm:Route11Gambler3EndBattleText
+O064,"はーッ ははッ……！ じつは……
+わらい キノコ たべて しまってな",同时涉及缺少当前变量,"1. {{SPEAKER}}：哈！哈——
+哈哈……其实……
+是我好像吃到笑菇了。
+
+2. 哈！哈——
+哈哈……其实……
+是我好像吃到笑菇了。","1. {{SPEAKER}}『はッ！
+はーッ ははッ……！ じつは……
+わらい キノコ たべて しまってな
+
+2. はッ！
+はーッ ははッ……！ じつは……
+わらい キノコ たべて しまってな",pokeblue:composed:TrainerEnd.Route10Hiker1EndBattleText;pokeblue:scripts/Route10.asm:Route10Hiker1EndBattleText;pokegreen:composed:TrainerEnd.Route10Hiker1EndBattleText;pokegreen:scripts/Route10.asm:Route10Hiker1EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route10Hiker1EndBattleText;pokeyellow-jp:scripts/Route10.asm:Route10Hiker1EndBattleText
+O065,"ばあいじゃ なかった
+でぐちは どっち だっけ？",同时涉及缺少当前变量,"1. {{SPEAKER}}：刚才就不应该
+和你战斗的。出口在哪呢？
+
+2. 刚才就不应该
+和你战斗的。出口在哪呢？","1. {{SPEAKER}}『たたかってる
+ばあいじゃ なかった
+でぐちは どっち だっけ？
+
+2. たたかってる
+ばあいじゃ なかった
+でぐちは どっち だっけ？",pokeblue:composed:TrainerEnd.RockTunnel1FHiker2EndBattleText;pokeblue:scripts/RockTunnel1F.asm:RockTunnel1FHiker2EndBattleText;pokegreen:composed:TrainerEnd.RockTunnel1FHiker2EndBattleText;pokegreen:scripts/RockTunnel1F.asm:RockTunnel1FHiker2EndBattleText;pokeyellow-jp:composed:TrainerEnd.RockTunnel1FHiker2EndBattleText;pokeyellow-jp:scripts/RockTunnel1F.asm:RockTunnel1FHiker2EndBattleText
+O066,ぶるぶる……,固定文本，当前所需槽位具备,"1. 哆了个嗦……
+我的神啊救救我吧……
+
+2. 好可怕……","1. ぶるぶる……
+
+2. ぶるぶる……
+かみさま ほとけさま たすけて",pokeblue:scripts/PokemonTower5F.asm:PokemonTower5FChanneler5EndBattleText;pokeblue:scripts/SilphCo6F.asm:SilphCo6FSilphWorkerM2Text.HelpMePleaseText;pokegreen:scripts/PokemonTower5F.asm:PokemonTower5FChanneler5EndBattleText;pokegreen:scripts/SilphCo6F.asm:SilphCo6FSilphWorkerM2Text.HelpMePleaseText;pokeyellow-jp:scripts/PokemonTower5F.asm:PokemonTower5FChanneler5EndBattleText;pokeyellow-jp:scripts/SilphCo6F.asm:SilphCo6FSilphWorkerM2Text.HelpMePleaseText
+O067,ほっほう！,固定文本，当前所需槽位具备,"1. 呵呵！
+
+2. 嚯嚯！
+
+3. 如果你在收集图鉴的话，
+我就给你个建议好了！","1. ほっほう！
+
+2. ほっほう！
+ポケモンずかん つくっとるか
+なら わしから アドバイスじゃ！",pokeblue:scripts/AgathasRoom.asm:AgathasRoomAgathaEndBattleText;pokeblue:scripts/ViridianCity.asm:ViridianCityOldManText.KnowHowToCatchPokemonText;pokegreen:scripts/AgathasRoom.asm:AgathasRoomAgathaEndBattleText;pokegreen:scripts/ViridianCity.asm:ViridianCityOldManText.KnowHowToCatchPokemonText;pokeyellow-jp:scripts/AgathasRoom.asm:AgathasRoomAgathaEndBattleText;pokeyellow-jp:scripts/ViridianCity_2.asm:ViridianCityPrintOldManText.WatchCloselyText
+O068,ほれ {{PLAYER}}！,变量模板，当前所需槽位具备,"1. 快看，{{PLAYER}}！
+
+2. 快看，{{PLAYER}}！
+那边有个圆圆的小球对吧？","1. ほれ {{PLAYER}}！
+
+2. ほれ {{PLAYER}}！
+そこに まるいたまが あるじゃろう",pokeblue:scripts/OaksLab.asm:OaksLabOakChooseMonText.Text;pokegreen:scripts/OaksLab.asm:OaksLabOakChooseMonText.Text;pokeyellow-jp:scripts/OaksLab.asm:OaksLabOakChooseMonText.Text
+O069,"ほんとに くたばっちまったぞ！
+よわいなー！",同时涉及缺少当前变量,"1. {{RIVAL}}：
+啊——啊……！
+全都给我去死吧！
+
+太弱了啊——！
+
+2. {{SPEAKER}}：{{RIVAL}}：
+啊——啊……！
+全都给我去死吧！
+
+太弱了啊——！","1. {{RIVAL}}『あーあ……！
+ほんとに くたばっちまったぞ！
+よわいなー！
+
+2. {{SPEAKER}}『{{RIVAL}}『あーあ……！
+ほんとに くたばっちまったぞ！
+よわいなー！",pokeblue:composed:TrainerEnd.PokemonTower2FRivalText.VictoryText;pokeblue:scripts/PokemonTower2F.asm:PokemonTower2FRivalText.VictoryText;pokegreen:composed:TrainerEnd.PokemonTower2FRivalText.VictoryText;pokegreen:scripts/PokemonTower2F.asm:PokemonTower2FRivalText.VictoryText;pokeyellow-jp:composed:TrainerEnd.PokemonTower2FRivalText.VictoryText;pokeyellow-jp:scripts/PokemonTower2F.asm:PokemonTower2FRivalText.VictoryText
+O070,まあ いい,固定文本，当前所需槽位具备,"1. 算了。
+哥哥会替我报仇的。
+
+2. 算了。
+弟弟会替我报仇的。
+
+3. 算了。
+我会让哥哥会替我报仇的。","1. まあ いい
+あにきが かたきを とって くれる
+
+2. まあ いい
+おとうとが かたきを とって くれる
+
+3. まあ いい
+おとうとが かたきを とってくれる",pokeblue:scripts/SilphCo6F.asm:SilphCo6FRocket1AfterBattleText;pokeblue:scripts/SilphCo7F.asm:SilphCo7FRocket2AfterBattleText;pokeblue:scripts/SilphCo8F.asm:SilphCo8FRocket2AfterBattleText;pokeblue:scripts/SilphCo9F.asm:SilphCo9FRocket2AfterBattleText;pokegreen:scripts/SilphCo6F.asm:SilphCo6FRocket1AfterBattleText;pokegreen:scripts/SilphCo7F.asm:SilphCo7FRocket2AfterBattleText;pokegreen:scripts/SilphCo8F.asm:SilphCo8FRocket2AfterBattleText;pokegreen:scripts/SilphCo9F.asm:SilphCo9FRocket2AfterBattleText;pokeyellow-jp:scripts/SilphCo6F.asm:SilphCo6FRocket1AfterBattleText;pokeyellow-jp:scripts/SilphCo7F.asm:SilphCo7FRocket2AfterBattleText;pokeyellow-jp:scripts/SilphCo8F.asm:SilphCo8FRocket2AfterBattleText;pokeyellow-jp:scripts/SilphCo9F.asm:SilphCo9FRocket2AfterBattleText
+O071,めずらしい こだい ポケモン,固定文本，当前所需槽位具备,"1. 罕见的古代宝可梦
+化石翼龙的化石
+
+2. 罕见的古代宝可梦
+镰刀盔的化石","1. めずらしい こだい ポケモン
+カブトプスの カセキ
+
+2. めずらしい こだい ポケモン
+プテラの カセキ",pokeblue:engine/events/hidden_events/museum_fossils.asm:AerodactylFossilText;pokeblue:engine/events/hidden_events/museum_fossils.asm:KabutopsFossilText;pokegreen:engine/events/hidden_events/museum_fossils.asm:AerodactylFossilText;pokegreen:engine/events/hidden_events/museum_fossils.asm:KabutopsFossilText;pokeyellow-jp:engine/events/hidden_events/museum_fossils.asm:AerodactylFossilText;pokeyellow-jp:engine/events/hidden_events/museum_fossils.asm:KabutopsFossilText
+O072,やせいの{{RAM1}}は,变量模板，当前所需槽位具备,"1. 野生的{{RAM1}}
+正在吃诱饵！
+
+2. 野生的{{RAM1}}
+生气了！","1. やせいの{{RAM1}}は
+おこってる！
+
+2. やせいの{{RAM1}}は
+エサを たべてる！",pokeblue:engine/battle/safari_zone.asm:SafariZoneAngryText;pokeblue:engine/battle/safari_zone.asm:SafariZoneEatingText;pokegreen:engine/battle/safari_zone.asm:SafariZoneAngryText;pokegreen:engine/battle/safari_zone.asm:SafariZoneEatingText;pokeyellow-jp:engine/battle/safari_zone.asm:SafariZoneAngryText;pokeyellow-jp:engine/battle/safari_zone.asm:SafariZoneEatingText
+O073,わざマシンは,固定文本，当前所需槽位具备,"1. 在玉虹百货公司可以
+买到招式学习器哦！
+
+2. 招式学习器
+一共有５０种！","1. わざマシンは
+ぜんぶで 50しゅるい！
+
+2. わざマシンは
+タマムシ デパート でも かえる！",pokeblue:engine/events/hidden_events/school_notebooks.asm:TMNotebook;pokeblue:scripts/Route14.asm:Route14CooltrainerM3BattleText;pokegreen:engine/events/hidden_events/school_notebooks.asm:TMNotebook;pokegreen:scripts/Route14.asm:Route14CooltrainerM3BattleText;pokeyellow-jp:engine/events/hidden_events/school_notebooks.asm:TMNotebook;pokeyellow-jp:scripts/Route14.asm:Route14CooltrainerM3BattleText
+O074,わたしは,固定文本，当前所需槽位具备,"1. 我是个大方的人，
+你想要什么我都可以给你。
+
+2. 我永远都会记得，
+在最危急的时候，
+是你勇敢地帮助了我！
+
+3. 我自己，
+则决定从头开始
+宝可梦的修行！
+
+4. 我至今都没有赢过……
+
+5. 比起西尔佛公司，
+我更愿意支持火箭队！","1. わたしは
+いままで かった ことが ない……
+
+2. わたしは
+ふとっぱらで ある からして
+
+3. わたしは
+シルフ カンパニーより
+ロケットだんに みかた する！
+
+4. わたしは
+ピンチを すくって くれた
+きみのことを このさき
+けして わすれない だろう！
+
+5. わたしは
+ポケモンの しゅぎょうを
+いちから しなおす つもりだ！",pokeblue:scripts/Route11.asm:Route11Gambler4BattleText;pokeblue:scripts/SilphCo11F.asm:SilphCo11FSilphPresidentText.Text;pokeblue:scripts/SilphCo3F.asm:SilphCo3FScientistBattleText;pokeblue:scripts/ViridianGym.asm:ViridianGymGiovanniText.PostBattleAdviceText;pokegreen:scripts/Route11.asm:Route11Gambler4BattleText;pokegreen:scripts/SilphCo11F.asm:SilphCo11FSilphPresidentText.Text;pokegreen:scripts/SilphCo3F.asm:SilphCo3FScientistBattleText;pokegreen:scripts/ViridianGym.asm:ViridianGymGiovanniText.PostBattleAdviceText;pokeyellow-jp:scripts/Route11.asm:Route11Gambler4BattleText;pokeyellow-jp:scripts/SilphCo11F.asm:SilphCo11FSilphPresidentText.Text;pokeyellow-jp:scripts/SilphCo3F.asm:SilphCo3FScientistBattleText;pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymGiovanniText.PostBattleAdviceText
+O075,"ガサゴソ……！
+おっと！ ゴミばこの そこに",固定文本，当前所需槽位具备,"1. 我翻我翻……！
+嘿哟！垃圾箱底
+又有一个开关！
+
+2. 我翻我翻……！
+嘿哟！垃圾箱底
+有一个开关！","1. ガサゴソ……！
+おっと！ ゴミばこの そこに
+また スイッチが あった！
+
+2. ガサゴソ……！
+おっと！ ゴミばこの そこに
+スイッチが あった！",pokeblue:engine/events/hidden_events/vermilion_gym_trash.asm:VermilionGymTrashSuccessText1;pokeblue:engine/events/hidden_events/vermilion_gym_trash.asm:VermilionGymTrashSuccessText2;pokegreen:engine/events/hidden_events/vermilion_gym_trash.asm:VermilionGymTrashSuccessText1;pokegreen:engine/events/hidden_events/vermilion_gym_trash.asm:VermilionGymTrashSuccessText2;pokeyellow-jp:engine/events/hidden_events/vermilion_gym_trash.asm:VermilionGymTrashSuccessText1;pokeyellow-jp:engine/events/hidden_events/vermilion_gym_trash.asm:VermilionGymTrashSuccessText2
+O076,コインを,固定文本，当前所需槽位具备,"1. 您在这里可以用代币
+兑换成精美奖品！
+
+2. 要投
+多少枚代币？","1. コインを
+けいひんと こうかんするよ
+
+2. コインを
+なんまい かけますか？",pokeblue:engine/events/prize_menu.asm:ExchangeCoinsForPrizesText;pokeblue:engine/slots/slot_machine.asm:BetHowManySlotMachineText;pokegreen:engine/events/prize_menu.asm:ExchangeCoinsForPrizesText;pokegreen:engine/slots/slot_machine.asm:BetHowManySlotMachineText;pokeyellow-jp:engine/events/prize_menu.asm:ExchangeCoinsForPrizesText;pokeyellow-jp:engine/slots/slot_machine.asm:BetHowManySlotMachineText
+O077,サイクりング ロード,固定文本，当前所需槽位具备,"1. 自行车道
+……　坡道到此为止！
+
+2. 自行车道
+从这里开始上坡。","1. サイクりング ロード
+…… さかみちは ここまで！
+
+2. サイクりング ロード
+こちら からは のぼり ざか です",pokeblue:scripts/Route17.asm:Route17CyclingRoadEndsSignText;pokeblue:scripts/Route18Gate1F.asm:Route18Gate1FGuardText.CyclingRoadUphillText;pokegreen:scripts/Route17.asm:Route17CyclingRoadEndsSignText;pokegreen:scripts/Route18Gate1F.asm:Route18Gate1FGuardText.CyclingRoadUphillText;pokeyellow-jp:scripts/Route17.asm:Route17CyclingRoadEndsSignText;pokeyellow-jp:scripts/Route18Gate1F.asm:Route18Gate1FGuardText.CyclingRoadUphillText
+O078,サイクりング ロードは,固定文本，当前所需槽位具备,"1. 步行通过自行车道
+是很危险的！
+
+2. 自行车道上掉落的东西
+也很多的！
+
+3. 自行车道是一条
+穿过海的坡道！","1. サイクりング ロードは
+あるいて すすむと キケンです！
+
+2. サイクりング ロードは
+うみを いく さかみち！
+
+3. サイクりング ロードは
+おとしものが おおい！",pokeblue:scripts/Route16Gate1F.asm:Route16Gate1FGuardText.CyclingRoadExplanationText;pokeblue:scripts/Route16Gate1F.asm:Route16Gate1FGuardText.NoPedestriansAllowedText;pokeblue:scripts/Route17.asm:Route17Biker1AfterBattleText;pokegreen:scripts/Route16Gate1F.asm:Route16Gate1FGuardText.CyclingRoadExplanationText;pokegreen:scripts/Route16Gate1F.asm:Route16Gate1FGuardText.NoPedestriansAllowedText;pokegreen:scripts/Route17.asm:Route17Biker1AfterBattleText;pokeyellow-jp:scripts/Route16Gate1F.asm:Route16Gate1FGuardText.CyclingRoadExplanationText;pokeyellow-jp:scripts/Route16Gate1F.asm:Route16Gate1FGuardText.NoPedestriansAllowedText;pokeyellow-jp:scripts/Route17.asm:Route17Biker1AfterBattleText
+O079,タマムシ マンション,固定文本，当前所需槽位具备,"1. 玉虹大厦
+
+2. 玉虹大厦
+……管理员室","1. タマムシ マンション
+
+2. タマムシ マンション
+…… かんりにん しつ",pokeblue:scripts/CeladonCity.asm:CeladonCityMansionSignText;pokeblue:scripts/CeladonMansion1F.asm:CeladonMansion1FManagersSuiteSignText;pokegreen:scripts/CeladonCity.asm:CeladonCityMansionSignText;pokegreen:scripts/CeladonMansion1F.asm:CeladonMansion1FManagersSuiteSignText;pokeyellow-jp:scripts/CeladonCity.asm:CeladonCityMansionSignText;pokeyellow-jp:scripts/CeladonMansion1F.asm:CeladonMansion1FManagersSuiteSignText
+O080,"ハナダ シティの ジムにも いき
+きみの ちからを",固定文本，当前所需槽位具备,"1. 你也很强大呢。
+要成为宝可梦训练家的话，
+我推荐你去华蓝市的道馆
+试试身手吧！
+
+2. 我推荐你也去华蓝市的道馆
+试试身手吧！","1. きみも つよい
+ポケモン トレーナーを めざすなら
+ハナダ シティの ジムにも いき
+きみの ちからを
+ためして みると いい
+
+2. ハナダ シティの ジムにも いき
+きみの ちからを
+ためして みると いい",pokeblue:scripts/PewterGym.asm:PewterGymBrockText.PostBattleAdviceText;pokegreen:scripts/PewterGym.asm:PewterGymBrockText.PostBattleAdviceText;pokeyellow-jp:scripts/PewterGym.asm:PewterGymBrockText.PostBattleAdviceText
+O081,パソコンつうしんで,同时涉及缺少当前变量,"1. 从电脑里取出了
+{{RAM1}}。
+
+2. 已将{{RAM1}}
+寄放到电脑中。","1. パソコンつうしんで
+{{RAM1}}を あずけた！
+
+2. パソコンつうしんで
+{{RAM1}}を ひきだした！",pokeblue:engine/menus/players_pc.asm:ItemWasStoredText;pokeblue:engine/menus/players_pc.asm:WithdrewItemText;pokegreen:engine/menus/players_pc.asm:ItemWasStoredText;pokegreen:engine/menus/players_pc.asm:WithdrewItemText;pokeyellow-jp:engine/menus/players_pc.asm:ItemWasStoredText;pokeyellow-jp:engine/menus/players_pc.asm:WithdrewItemText
+O082,ポケモン ずかん,固定文本，当前所需槽位具备,"1. 制作什么宝可梦图鉴，
+在我看来完全是一种错误！
+
+2. 呼叫了
+宝可梦图鉴评价系统！","1. ポケモン ずかん
+つくってる ようじゃ だめだ！
+
+2. ポケモン ずかん
+ひょうか システムを よびだした！",pokeblue:engine/menus/oaks_pc.asm:AccessedOaksPCText;pokeblue:scripts/AgathasRoom.asm:AgathasRoomAgathaBattleText;pokegreen:engine/menus/oaks_pc.asm:AccessedOaksPCText;pokegreen:scripts/AgathasRoom.asm:AgathasRoomAgathaBattleText;pokeyellow-jp:engine/menus/oaks_pc.asm:AccessedOaksPCText;pokeyellow-jp:scripts/AgathasRoom.asm:AgathasRoomAgathaBattleText
+O083,ポケモン りーグ にんてい,固定文本，当前所需槽位具备,"1. 只有宝可梦联盟认证的冠军
+才有资格进入这个洞窟。
+
+2. 宝可梦联盟认定徽章，
+一共有９个？","1. ポケモン りーグ にんてい
+チャンピオン しか はいれないのだ！
+
+2. ポケモン りーグ にんてい
+バッジは ぜんぶで 9しゅるい？",pokeblue:engine/events/hidden_events/cinnabar_gym_quiz.asm:CinnabarQuizQuestionsText2;pokeblue:scripts/CeruleanCity.asm:CeruleanCitySuperNerd3Text;pokegreen:engine/events/hidden_events/cinnabar_gym_quiz.asm:CinnabarQuizQuestionsText2;pokegreen:scripts/CeruleanCity.asm:CeruleanCitySuperNerd3Text;pokeyellow-jp:engine/events/hidden_events/cinnabar_gym_quiz.asm:CinnabarQuizQuestionsText2;pokeyellow-jp:scripts/CeruleanCity.asm:CeruleanCitySuperNerd3Text
+O084,ポケモンが,固定文本，当前所需槽位具备,"1. 宝可梦会
+会变得十分大力，
+在战斗以外的时候
+变得能够推动岩石！
+
+2. 宝可梦肯不肯听话，
+完全取决于训练家的
+能力啊。
+
+3. 让宝可梦学会闪光的话，
+就能通过岩山隧道了呢。","1. ポケモンが
+いうこと きくか どうかは
+ひとの うでまえ しだい なんだもの
+
+2. ポケモンが
+ちから もちに なってな
+たたかわん ときは
+いわを おすように なるで！
+
+3. ポケモンが
+フラッシュを おぼえたら
+イワヤマトンネルが とおれるね",pokeblue:scripts/CeruleanCity.asm:CeruleanCityCooltrainerF1Text.SlowbroWithdrawText;pokeblue:scripts/Route2Gate.asm:Route2GateYoungsterText;pokeblue:scripts/WardensHouse.asm:WardensHouseWardenText.HM04ExplanationText;pokegreen:scripts/CeruleanCity.asm:CeruleanCityCooltrainerF1Text.SlowbroWithdrawText;pokegreen:scripts/Route2Gate.asm:Route2GateYoungsterText;pokegreen:scripts/WardensHouse.asm:WardensHouseWardenText.HM04ExplanationText;pokeyellow-jp:scripts/CeruleanCity.asm:CeruleanCityCooltrainerF1Text.ElectrodeSwiftText;pokeyellow-jp:scripts/Route2Gate.asm:Route2GateYoungsterText;pokeyellow-jp:scripts/WardensHouse.asm:WardensHouseWardenText.HM04ExplanationText
+O085,ポケモンの のうりょくを あげる,固定文本，当前所需槽位具备,"1. 我是来买
+提高宝可梦能力的物品的！
+
+2. 提高宝可梦能力的物品
+只有在这里才能买到。","1. ポケモンの のうりょくを あげる
+アイテムは ここでしか かえない
+
+2. ポケモンの のうりょくを あげる
+アイテムを かいに きたんだ！",pokeblue:scripts/CeladonMart5F.asm:CeladonMart5FGentlemanText;pokeblue:scripts/CeladonMart5F.asm:CeladonMart5FSailorText;pokegreen:scripts/CeladonMart5F.asm:CeladonMart5FGentlemanText;pokegreen:scripts/CeladonMart5F.asm:CeladonMart5FSailorText;pokeyellow-jp:scripts/CeladonMart5F.asm:CeladonMart5FGentlemanText;pokeyellow-jp:scripts/CeladonMart5F.asm:CeladonMart5FSailorText
+O086,ポケモンは,固定文本，当前所需槽位具备,"1. 你知道宝可梦会和
+饲主长得越来越像吗？
+
+2. 宝可梦可是
+我忠实的部下！
+
+3. 用精灵球
+可以捕捉到宝可梦。","1. ポケモンは
+おれの ちゅうじつな こぶんだぜ！
+
+2. ポケモンは
+かいぬしに にるって しってるか？
+
+3. ポケモンは
+モンスターボールで つかまえて",pokeblue:engine/events/hidden_events/school_notebooks.asm:ViridianSchoolNotebookText1;pokeblue:scripts/SaffronGym.asm:SaffronGymChanneler2BattleText;pokeblue:scripts/SilphCo4F.asm:SilphCo4FScientistBattleText;pokegreen:engine/events/hidden_events/school_notebooks.asm:ViridianSchoolNotebookText1;pokegreen:scripts/SaffronGym.asm:SaffronGymChanneler2BattleText;pokegreen:scripts/SilphCo4F.asm:SilphCo4FScientistBattleText;pokeyellow-jp:engine/events/hidden_events/school_notebooks.asm:ViridianSchoolNotebookText1;pokeyellow-jp:scripts/SaffronGym.asm:SaffronGymChanneler2BattleText;pokeyellow-jp:scripts/SilphCo4F.asm:SilphCo4FScientistBattleText
+O087,ポケモンを つかまえる ときは,固定文本，当前所需槽位具备,"1. 在捕捉宝可梦之前
+先削弱它们的体力吧！
+
+2. 捕捉宝可梦时，
+首先要做的就是削弱它们！","1. ポケモンを つかまえる ときは
+なるべく よわらせてから！
+
+2. ポケモンを つかまえる ときは
+まず よわらせてから！",pokeblue:engine/events/hidden_events/school_notebooks.asm:ViridianSchoolNotebookText2;pokeblue:scripts/ViridianForest.asm:ViridianForestTrainerTips4Text;pokegreen:engine/events/hidden_events/school_notebooks.asm:ViridianSchoolNotebookText2;pokegreen:scripts/ViridianForest.asm:ViridianForestTrainerTips4Text;pokeyellow-jp:engine/events/hidden_events/school_notebooks.asm:ViridianSchoolNotebookText2;pokeyellow-jp:scripts/ViridianForest_2.asm:ViridianForestPrintTrainerTips4Text.text
+O088,マサキ にいちゃん,固定文本，当前所需槽位具备,"1. 正辉哥哥
+将自己收集的宝可梦
+资料放在他的电脑里哦！
+
+2. 正辉哥哥
+有好多宝可梦呢！","1. マサキ にいちゃん
+じぶんで あつめた ポケモンも
+パソコンの データに してるよ！
+
+2. マサキ にいちゃん
+ポケモン いっぱい もってるよ！",pokeblue:engine/events/hidden_events/bench_guys.asm:CeruleanCityPokecenterBenchGuyText;pokeblue:scripts/FuchsiaBillsGrandpasHouse.asm:FuchsiaBillsGrandpasHouseYoungsterText;pokegreen:engine/events/hidden_events/bench_guys.asm:CeruleanCityPokecenterBenchGuyText;pokegreen:scripts/FuchsiaBillsGrandpasHouse.asm:FuchsiaBillsGrandpasHouseYoungsterText;pokeyellow-jp:engine/events/hidden_events/bench_guys.asm:CeruleanCityPokecenterBenchGuyText;pokeyellow-jp:scripts/FuchsiaBillsGrandpasHouse.asm:FuchsiaBillsGrandpasHouseYoungsterText
+O089,"ムキに なっちゃって！
+…… わかった わかった！",同时涉及缺少当前变量,"1. {{SPEAKER}}：
+什么情况啊！真让人不爽！
+我知道了呐！
+
+2. 什么情况啊！真让人不爽！
+我知道了呐！","1. {{SPEAKER}}『なんだよー！
+ムキに なっちゃって！
+…… わかった わかった！
+
+2. なんだよー！
+ムキに なっちゃって！
+…… わかった わかった！",pokeblue:composed:TrainerEnd.CeruleanCityRivalDefeatedText;pokeblue:scripts/CeruleanCity.asm:CeruleanCityRivalDefeatedText;pokegreen:composed:TrainerEnd.CeruleanCityRivalDefeatedText;pokegreen:scripts/CeruleanCity.asm:CeruleanCityRivalDefeatedText;pokeyellow-jp:composed:TrainerEnd.CeruleanCityRivalDefeatedText;pokeyellow-jp:scripts/CeruleanCity.asm:CeruleanCityRivalDefeatedText
+O090,モンスターボールを,固定文本，当前所需槽位具备,"1. “嗖”地一下丢出
+精灵球来捕获它吧！
+
+2. 要让你的宝可梦
+休息一下吗？","1. モンスターボールを
+おあずけに なりますか？
+
+2. モンスターボールを
+ポイ！と なげれば
+ポケモンを つかまえ られる！",pokeblue:engine/events/pokecenter.asm:ShallWeHealYourPokemonText;pokeblue:scripts/OaksLab.asm:OaksLabOak1Text.GivePokeballsText;pokegreen:engine/events/pokecenter.asm:ShallWeHealYourPokemonText;pokegreen:scripts/OaksLab.asm:OaksLabOak1Text.GivePokeballsText;pokeyellow-jp:engine/events/pokecenter.asm:ShallWeHealYourPokemonText
+O091,ロケットだんに,固定文本，当前所需槽位具备,"1. 为你自身着想，我劝你
+还是不要和火箭队为敌。
+
+2. 你竟敢
+反抗我们火箭队！
+
+3. 你这家伙
+竟敢潜入火箭队。","1. ロケットだんに
+しのび こむ とは なんて やつ
+
+2. ロケットだんに
+たてつかない ほうが
+みのため だぜ
+
+3. ロケットだんに
+はむかう とはな！",pokeblue:scripts/PokemonTower7F.asm:PokemonTower7FRocket3EndBattleText;pokeblue:scripts/RocketHideoutB1F.asm:RocketHideoutB1FRocket2BattleText;pokeblue:scripts/SilphCo5F.asm:SilphCo5FRocket1AfterBattleText;pokegreen:scripts/PokemonTower7F.asm:PokemonTower7FRocket3EndBattleText;pokegreen:scripts/RocketHideoutB1F.asm:RocketHideoutB1FRocket2BattleText;pokegreen:scripts/SilphCo5F.asm:SilphCo5FRocket1AfterBattleText;pokeyellow-jp:scripts/RocketHideoutB1F.asm:RocketHideoutB1FRocket2BattleText;pokeyellow-jp:scripts/SilphCo5F.asm:SilphCo5FRocket1AfterBattleText
+O092,ロケットだんは,固定文本，当前所需槽位具备,"1. 火箭队将与西尔佛公司
+携手合作！
+
+2. 火箭队是想要
+利用宝可梦征服世界啊。","1. ロケットだんは
+シルフ カンパニーと
+ていけい するのだ！
+
+2. ロケットだんは
+ポケモン つかって
+せかい せいふく したいのよ",pokeblue:scripts/SilphCo2F.asm:SilphCo2FRocket2AfterBattleText;pokeblue:scripts/SilphCo6F.asm:SilphCo6FSilphWorkerF2Text.TeamRocketConquerWorldText;pokegreen:scripts/SilphCo2F.asm:SilphCo2FRocket2AfterBattleText;pokegreen:scripts/SilphCo6F.asm:SilphCo6FSilphWorkerF2Text.TeamRocketConquerWorldText;pokeyellow-jp:scripts/SilphCo2F.asm:SilphCo2FRocket2AfterBattleText;pokeyellow-jp:scripts/SilphCo6F.asm:SilphCo6FSilphWorkerF2Text.TeamRocketConquerWorldText

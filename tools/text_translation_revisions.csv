@@ -121,3 +121,544 @@ pokeyellow-jp:engine/events/pokecenter.asm:PokemonFightingFitText,d95a9b80ecdd13
 全都变得精力充沛了哦！",[],[],localization_omission,user_approved,用户接受原汉化省略“久等了”礼貌语，不补译；首行等待，恢复状态两行完整后使用原译，不要求观察礼貌语前文
 pokeyellow-jp:engine/items/item_effects.asm:PlayedFluteNoEffectText,e12ab13a99295acce6fa6b3100f52d547eb5c65f4720fd64da98a7c1b99dea3f,e9303d87c185d829333ce81c249a5a39ca77397e0205894ff84fd35e0eed5bf7,是宝可梦之笛！也许能唤醒睡着的宝可梦……,"[[0,20]]",[],model_correction,user_approved,用户确认按黄版日文订正无效果分支对白；原汉化为版本对白差异，保留原译及来源，不认定为来源指针错配
 pokeyellow-jp:engine/slots/game_corner_slots.asm:GameCornerOutToLunchText,8da5195b161f8699844e85e909af43d7726112d73527044d24ca89922124d673,b663dd6aed4f8b72b3e56c2c7d52cb90614dd73574849ded8cfb7c2fd50da6f7,上面挂着‘用餐中’的告示。,"[[0,13]]",[],model_correction,user_approved,用户确认按日文将设备故障告示订正为用餐中告示；两行合并后发布
+pokeblue:engine/battle/core.asm:StartBattle.outOfSafariBallsText,f63faf7c6277e335a5daf1be2896d3f2332fefc8f128aa60fefd66af6a3d31f2,26b62691fbbc4b7f80bb1b4be291c8eeda8de30d36e93988c1b7db5e986e142d,"广播：叮咚～！
+
+你的狩猎球
+全部都用完了！","[[0,7]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T038；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:engine/battle/effects.asm:NoEffectText,cffc37de36c5e1073fa91831be783debad5cff8508fcd0d63f6a8110f2df87b7,ae4153d850b6b57ef464e686f788a4f3b761b0fc6e05fcd1d3115dcb5724611d,但是，没有效果！,"[[0,8]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T016；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:engine/battle/effects.asm:NothingHappenedText,6de459b26ba0c31282800c24539afc6c639286535f1db5e55fbcb9c38040c004,af0e39b089a4e394429c192a271c09d844150ccc2a702ddfb726eb983f2d88d5,但是，什么也没有发生！,"[[0,11]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T017；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:engine/menus/start_sub_menus.asm:CannotUseItemsHereText,2d424d8f716ae4d7e750125461f250cf10310d1e44a20813530c4ebce679d601,0714ebbfb6f0aea33e14bc82a465f6863ba5800f502e979f4d8e2150a227261d,这里不能使用道具。,"[[0,9]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T014；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/BillsHouse.asm:BillsHouseBillPokemonText.ImNotAPokemonText,fcb9a7b0b8f36278f8db29442e7d845c7b163919e053ffd57de2b05d46cf2128,df9d6a8d8e54bbcabe6652aab83130c354b39fef9a9e34c43114fe78feaf3d9b,"你好！
+我是宝可梦……！
+……错！
+
+我是正辉！
+人称，宝可梦狂热迷！
+啊，您那眼神，啥意思？
+兄弟，您不信我？
+
+我说的都是真的！
+因为实验失败，
+我和宝可梦合二为一了。
+
+那个！
+帮帮我呗。","[[0,3]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T015；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/CeladonCity.asm:CeladonCityGramps3Text.TM41NoRoomText,8ebc8ecf098e55ee22ef7ac370c6c1bb9dac21171cfd55e103f0302accbf5c5a,4687fdfda767ead6e229a2831365b74edab8e9ed7d8b4a0e1930821cefead607,行李已满了！,"[[0,6]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T022；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/CeladonCity.asm:CeladonCityTrainerTips1Text,ded277e3a96d29d0679fb0ce45ed3c81d7aa8999d389eae69f5a221802af6348,140e03d3812e1b686e633998437b31a32e95e8f601779b485d8215e7d5a7b69f,"……有用的公告牌！
+
+命中强化可以
+提高招式的命中率！
+
+要害攻击可以
+让招式更容易击中要害！
+
+购买道具，
+请认准玉虹百货公司！","[[49,65]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T037；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/CeladonGym.asm:CeladonGymBeauty2EndBattleText,908fa8ecc8318bdbec6d5e7f6f758c8d2f72c02a52f49f273509656596ed3cba,7d5680e5b3000713e741e31c73eb23a595fa962783ddb0fcff99d8bfb476ba0d,哎呀～！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T034；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText,37fcf0efb67c53f0ea68ec8f7b4a576e93351c4aa338f25fd7959e3ebd5a939e,d48fbeecba99df208bb5687922c78eb675e5fdbf1fd59d129be31fc73fec8eae,"嗨～！
+未来的冠军！
+
+给你一个小建议吧！
+
+这里的馆主小霞在运用
+栖息于水中的宝可梦方面
+可是个专家！
+
+这种时候的策略就是使用
+植物宝可梦把水吸干！
+
+……或者用电属性的宝可梦
+来让对手陷入麻痹状态
+也不错！","[[0,10]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T011；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/CeruleanGym.asm:CeruleanGymMistyText.PreBattleText,cccbeeffc89dcfc402420ba0bed9fd0b0deb53f845c6fc67ff7397c6096b1008,df27d04848a241bed917f218dd13e982c80aa2dd99a6e7f63ee79dcf3ec1d3c8,"那个呢，你！
+
+只有在训练宝可梦时
+有自己的原则的人
+才能成为专家哦！
+
+你在捕捉和训练宝可梦时，
+一般会考虑什么呢？
+
+我的原则就是……
+派出我的水属性宝可梦，
+痛扁痛扁……痛扁到底哦！","[[70,94]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T029；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/FightingDojo.asm:FightingDojoBlackbelt1BattleText,c04900d1d5d552f9f6ec3c4f5cc1c61b2f0a27ee3bb066cdf275cfd5d8632f99,e53309793cb21cdc30a2afb94d7a55be0c3a78ae741465d8e3355745a1640f9d,"呜哦——！
+难道！你是来踢馆的？","[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T039；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/FuchsiaCity.asm:FuchsiaCityFossilSignText.UndeterminedText,293fed0dd102384a5be83370e07401269bdeb9cffca115fc4bcf6e7087121caa,b4935894c8ce16bde67bbffc672428b1533c4f1e1e8b1ce21a2933183db6bfa5,……,"[[0,2]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T002；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/FuchsiaGym.asm:FuchsiaGymKogaText.ReceivedSoulBadgeText,3a85faf14de8e607fb815b63379b47845b7cff181ec244fa40b552918eb91fec,e1d87860f813d67100bbbd0555fc6fe7c7dfcabb552ec7ee4b21b92a12ae0107,"哼！
+你可真有一手。
+
+喂！
+收下这粉红徽章吧！","[[0,2]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T025；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/GameCorner.asm:GameCornerClerk1Text.CoinCaseIsFull,caeafc2a302315a9d4aca3580736f2f7cabf70550d673ff797737966852aba27,e075fbc6409ad7f613046c612a4ba09aa837777d9b5c777269e1b03651680d4e,"哎呀……！
+代币盒已满了！","[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T007；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/MtMoonB2F.asm:MtMoonB2FSuperNerdOkIllShareText,a4f6f6442116df598151e7f6fd7be6226921c95fab829b08d583a0babc221e6e,6b204dab61a0a0bbc55e4506213abe0fea74619465a5943a559a5ca322f9cb29,"明白了！
+我也分你一点好了。","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T036；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/Museum1F.asm:Museum1FScientist2Text.YouDontHaveSpaceText,304860318a054c2226eb1028b267aefc1a4ea666478488d3c4b8ad387a09d979,670e64a9b8bb2f33a49dd99b04389d179c95a0c0bca5df2f827b5be40b4b7658,持有物已满了。,"[[0,7]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T031；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/Museum2F.asm:Museum2FHikerText,ca535f776e461e61ad422a65d83db05a9c24147e4520f79f01500990f86f853c,1b557bbee3a3467f0eb8f2f3b2d98977413fef753aa20b9c321453655c5014bc,"好、好！
+皮卡丘对吧！下次吧！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T023；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.WantMeToRateText,980f3a4989d0fdfc0901aac18e81b216a0f78cb827a5d51efb126ddf8c5ea5bf,9634444dd2e85a983cab06dcef798487459653d38755c387038823de9a4a9e79,"好、好！
+我是姓名鉴定师。
+也就是看名字算命的。
+
+来，让我算算
+你的宝可梦的昵称吧。","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T023；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/OaksLab.asm:OaksLabRivalAmIGreatOrWhatText,84a92ce5f0cc3165b43528887a98fc5a7bc1045d9e2bcf53116d893cb72664bb,b399c54afd4369bdd65e6473095083645a15882dfcdd33fd9c67678ce87783ef,"{{RIVAL}}：太棒了！
+我或许是天才吧？","[[0,14]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T001；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.FinalText,c9b1c536082aff68a776f56abb68fc2886ca874f725f6983bccf5beafc9f87df,216facda5f35744bf0f251ddd361a13bd374ac074d75a3a9406435cf65497f0c,"哎呀，{{PLAYER}}！
+
+又想来听老夫介绍
+引以为豪的宝可梦了吧！
+
+……啥？不是？
+什么嘛……真没意思……","[[0,14]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T033；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.StoryText,5a4520612a87b6aa033287bee2f3be999417bb110a389b85a7a54c66eb50f7f2,98f9ba180eb7262a4fcd1b86396a0bc6728e7fee6671bfbe6f7f8c848c382152,"是吗！
+那老夫就开始喽！
+
+那啥……那就先介绍
+老夫钟爱的烈焰马吧……
+
+……它呀……就是……
+……可爱的唷……
+了不得哇……唔……
+……而且它啊……
+棒棒的…………
+……你也这么觉得吗……
+为啥噢……太喜欢了……
+……哈～！
+
+抱一抱唷……
+……它睡觉的时候哇……
+……对吧！
+……艺术品啊……！
+优美到飞天……
+…………哎哟！
+已经到这个点了！
+老夫说得太多喽！
+
+你听老夫称赞宝可梦
+听得还挺有耐心的哇！
+…收下老夫的一点心意吧！","[[0,3]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T018；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/PokemonTower7F.asm:PokemonTower7FRocket1EndBattleText,7bd2ab4522e6cd2dd19a76905e3658c06191bf29de941d280b662a0a2566bf69,1614aa373410589c34bb7f1ccafc36c4edf06131a82fed5c55b2e867c574b29d,我、我输了！,"[[0,6]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T026；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/RockTunnelB1F.asm:RockTunnelB1FCooltrainerF2EndBattleText,0c47e937aaebb00e5258a3e12240f2fbffd9c4ae9608c862d98221f034afcdc8,99a14be417dcc3fb7a941ec6d6acb73054f86722d5fda13323c9d14c61af831a,我输了。,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T028；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker1EndBattleText,cac25a4c7e806277a982ff564265c918c9ad9b33995c256fb285ac3c57cb9a3e,41884ef4c07b30cc980d090aeedc30254c77384ac4d4a9ac0a1b25fb317e42fb,"哎呀呀！
+我在力量上输了么！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T008；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/RocketHideoutB1F.asm:RocketHideoutB1FRocket3AfterBattleText,fc246fe65e8f7847927b0a4d17edf540e1822ddb1cd189844424bfb2237f25c0,3e696f6406d936742bc700a4f37d3f13ab83477d2d3767751dd26c4040033c1d,"哼！
+你在找西尔佛检视镜吗？
+……我不知道它在哪里。","[[0,2]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T025；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/RocketHideoutB2F.asm:RocketHideoutB2FRocketEndBattleText,3ff695938703b635509d6d1d6da1c85358b7c5f8837cafa98aa0b239460f58ad,25163888da00c8436a405c40be2965229e374a0e08f03469b5fed0ceb075a078,我输了！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T027；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/Route14.asm:Route14Biker4EndBattleText,776402d3615cf4c38c01e72058c969323daa66decf43ba4b9697c8c57b54a10e,62f535ddd4b0f4382daa6e11ed4770cbf7235abec1b69d9012321f0c63a830b1,我不服！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T021；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/Route16.asm:Route16Biker1AfterBattleText,dd68ad3233315fb43995c798f907608b1896f75840ac9cda69a9ec42a60201d0,7d7aaeb8ca7ec6b5d9ce6bffb80d05f6d5281ac0033e42687a809cb7d9463428,"烦不烦啊！
+比起走路，我们更喜欢
+待在这里无所事事不行吗！","[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T019；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/Route20.asm:Route20Swimmer7EndBattleText,dea5becd0ca456e2a1a6d34f5b5106f51ddd8e6458ae8fade03d4804aeaedcc7,d12760002ed268ee514aa918e6da09a3913a0b9d6348d863ce692f6f720c8b6b,"哎呀～！
+我的珍珠还在里面啊……","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T034；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/Route21.asm:Route21Swimmer5BattleText,c7d4694f953c2abf3ca213db79aa0133044d39cd40ac0a69cf1569c1b8f0e935,4357fa72d88cf84b354d239980f20d5d37c4cce5837cdb3545ed0a9510bf6265,"啊——！
+阳光照在身上好舒服！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T004；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/Route25.asm:Route25Hiker3EndBattleText,ff1d9f99d91eda2d3bb81109d5f3e36f546effe816472df270be6490118de27d,77719f018991739fcefbf57b77f8b89cafc0198cb6b8e41c25b21494fd3b61ef,很厉害啊。,"[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T032；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/Route25.asm:Route25Youngster2EndBattleText,230d019743fe060b7d6700655ff2b71b27d9aa132404b405532310bef61bdd6e,e93728b7fdad08f3eec9473d23918b902e35d2de1dd990517873f5a1bf77b3ae,我才没有不甘心！,"[[0,8]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T013；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/Route9.asm:Route9Hiker2AfterBattleText,0dd2a15cb4a703764d5db53af7b458d4a95934450eb7a99f5396ba8cfa7cad1c,f5bf7f8611a7da442207a492fbaed82ca09181e1115526be44ed7cadeacc4e54,"哈哈哈！
+有活力就好啊！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T024；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/SSAnne1FRooms.asm:SSAnne1FRoomsCooltrainerFEndBattleText,48439b7764c91a9ee8a4a07d3ff15bd45cbf272431522f77ee4a43ad8b80e03d,15996ca76fc64a3fd40fea171824f654e3fc72941fe17b9336a00288aeb73598,"哎呀～！
+这可是我从世界各地
+收集到的宝可梦啊……","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T005；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/SaffronGym.asm:SaffronGymChanneler2EndBattleText,be03c29a1bada4569be09ff4595d4e096ce67966c67240abda72a31d9c8dc2e4,2461e6afc971b3c677a051e9aef46a85682e832b4e6c48bf34fdc886b7da2a8d,明白了！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T036；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/SilphCo2F.asm:SilphCo2FRocket1EndBattleText,be6d3bc443d485e450a52585c5a0ae05b8ec87034a3152985611edb1c0919719,90fa640029f5309652cc4db0de57966c7e3c6424b60674513b1eb3d84a952223,很厉害呢！,"[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T020；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/SilphCo3F.asm:SilphCo3FRocketEndBattleText,3ff695938703b635509d6d1d6da1c85358b7c5f8837cafa98aa0b239460f58ad,d4718f1e5a9a598e9e1d660a18406fb39887ce558382e4136ac432895f70100a,我输了！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T027；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/SilphCo4F.asm:SilphCo4FRocket1AfterBattleText,ae0dc3724bd7880bfd974ea138f43105714b9e8b95a4e66960492cceee49433a,a181ae2476e7e7a363628fb8316ab206aac04ffda1323f424a7af4ed54a51601,"哈哈哈！
+我们老大早就盯上这里了。","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T012；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/SilphCo6F.asm:SilphCo6FRocket1BattleText,a9f3fc2e66b0e3ed0d5f0cbcc428371a6d04b191687a0d618ec68a528efa0ac4,b49f8c987eece397d1b7d72068b9ec54b1cc82b51c1b0373bf990ba39b81cbc5,"我正是
+火箭队四兄弟之一！","[[0,13]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T010；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/SilphCo7F.asm:SilphCo7FRivalDefeatedText,a296200e355194062a5c6c8aaa5f66818754c636d44a5692cf0eb9dcd336a58b,9ac0a59dc67158110b977fa49cb41aeca8e42ee5fa66d6637a699f16846fbf9a,"噢、噢！
+看来你已经准备好
+面对火箭队的挑战了！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T006；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/VermilionCity.asm:VermilionCitySailor1Text.DoYouHaveATicketText,db7c1b260b8bda08067172e40c433c03701d30bf52910097401b113e55196478,4106aa70cc63477f927d6c5906225ab8a93a8191d0c1a1b4b5000fff89189766,"欢迎您搭乘
+圣特安努号！
+
+请等一下，
+这位乘客，您的船票呢？","[[0,12]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T035；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText,84f8b6f71a2bc92deb84d8b31a28668326a8b91385dd6667ae33606e4c380371,6218552758c4d1f42f8825796a14376111df340ec06100e8cfdfc7984e4b6ba7,"嗨～！
+未来的冠军！
+
+马志士少校有个别称，
+那就是闪电般的美国人！
+
+能将电属性宝可梦
+运用自如的美国No.1！
+
+飞行属性和水属性
+可能不太好对付他喔！
+你可要小心，
+不要被电麻痹了！
+
+还有，
+马志士做事极为谨慎，
+
+他可不会让你
+轻易解开门锁，
+到达他所在的房间呐！","[[0,10]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T011；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.DoYouLikeToFishText,21e4de4a2e5d2d560650e461c8bb5729ad9c1c7f078fdfb62e104427d564df19,5f54e615ab7bd82e381b20f86f940785855f5cf36901916e9f1125f3a73c72cd,"我就是钓鱼大叔！
+
+热爱钓鱼，
+至死方休！
+
+你喜不喜欢钓鱼呢？","[[10,21]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T030；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/VictoryRoad2F.asm:VictoryRoad2FHikerEndBattleText,ca7c54c5e33a2cd2445ea48b81c1f9b8f6c909c7f49d5b5e2564446fae34e5cd,3737f41ab0b160d0f183561119fd02685b3df16f0f7ee4cca5b92c32b6bc5653,嘿呀！,"[[0,3]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T040；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeblue:scripts/ViridianForest.asm:ViridianForestYoungster4EndBattleText,448362787538359efe7f4987b974bbf16469141682929b94c98d95b70943724d,f36f038cd7abf7dd248165ebf8aba8f0626d4a11f215ffe58245e6094b9a7217,"我输了！
+你好厉害啊！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T027；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:engine/battle/core.asm:StartBattle.outOfSafariBallsText,f63faf7c6277e335a5daf1be2896d3f2332fefc8f128aa60fefd66af6a3d31f2,26b62691fbbc4b7f80bb1b4be291c8eeda8de30d36e93988c1b7db5e986e142d,"广播：叮咚～！
+
+你的狩猎球
+全部都用完了！","[[0,7]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T038；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:engine/battle/effects.asm:NoEffectText,cffc37de36c5e1073fa91831be783debad5cff8508fcd0d63f6a8110f2df87b7,ae4153d850b6b57ef464e686f788a4f3b761b0fc6e05fcd1d3115dcb5724611d,但是，没有效果！,"[[0,8]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T016；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:engine/battle/effects.asm:NothingHappenedText,6de459b26ba0c31282800c24539afc6c639286535f1db5e55fbcb9c38040c004,af0e39b089a4e394429c192a271c09d844150ccc2a702ddfb726eb983f2d88d5,但是，什么也没有发生！,"[[0,11]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T017；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:engine/menus/start_sub_menus.asm:CannotUseItemsHereText,2d424d8f716ae4d7e750125461f250cf10310d1e44a20813530c4ebce679d601,0714ebbfb6f0aea33e14bc82a465f6863ba5800f502e979f4d8e2150a227261d,这里不能使用道具。,"[[0,9]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T014；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/BillsHouse.asm:BillsHouseBillPokemonText.ImNotAPokemonText,fcb9a7b0b8f36278f8db29442e7d845c7b163919e053ffd57de2b05d46cf2128,df9d6a8d8e54bbcabe6652aab83130c354b39fef9a9e34c43114fe78feaf3d9b,"你好！
+我是宝可梦……！
+……错！
+
+我是正辉！
+人称，宝可梦狂热迷！
+啊，您那眼神，啥意思？
+兄弟，您不信我？
+
+我说的都是真的！
+因为实验失败，
+我和宝可梦合二为一了。
+
+那个！
+帮帮我呗。","[[0,3]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T015；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/CeladonCity.asm:CeladonCityGramps3Text.TM41NoRoomText,8ebc8ecf098e55ee22ef7ac370c6c1bb9dac21171cfd55e103f0302accbf5c5a,4687fdfda767ead6e229a2831365b74edab8e9ed7d8b4a0e1930821cefead607,行李已满了！,"[[0,6]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T022；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/CeladonCity.asm:CeladonCityTrainerTips1Text,ded277e3a96d29d0679fb0ce45ed3c81d7aa8999d389eae69f5a221802af6348,140e03d3812e1b686e633998437b31a32e95e8f601779b485d8215e7d5a7b69f,"……有用的公告牌！
+
+命中强化可以
+提高招式的命中率！
+
+要害攻击可以
+让招式更容易击中要害！
+
+购买道具，
+请认准玉虹百货公司！","[[49,65]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T037；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/CeladonGym.asm:CeladonGymBeauty2EndBattleText,908fa8ecc8318bdbec6d5e7f6f758c8d2f72c02a52f49f273509656596ed3cba,7d5680e5b3000713e741e31c73eb23a595fa962783ddb0fcff99d8bfb476ba0d,哎呀～！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T034；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText,37fcf0efb67c53f0ea68ec8f7b4a576e93351c4aa338f25fd7959e3ebd5a939e,d48fbeecba99df208bb5687922c78eb675e5fdbf1fd59d129be31fc73fec8eae,"嗨～！
+未来的冠军！
+
+给你一个小建议吧！
+
+这里的馆主小霞在运用
+栖息于水中的宝可梦方面
+可是个专家！
+
+这种时候的策略就是使用
+植物宝可梦把水吸干！
+
+……或者用电属性的宝可梦
+来让对手陷入麻痹状态
+也不错！","[[0,10]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T011；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/CeruleanGym.asm:CeruleanGymMistyText.PreBattleText,cccbeeffc89dcfc402420ba0bed9fd0b0deb53f845c6fc67ff7397c6096b1008,df27d04848a241bed917f218dd13e982c80aa2dd99a6e7f63ee79dcf3ec1d3c8,"那个呢，你！
+
+只有在训练宝可梦时
+有自己的原则的人
+才能成为专家哦！
+
+你在捕捉和训练宝可梦时，
+一般会考虑什么呢？
+
+我的原则就是……
+派出我的水属性宝可梦，
+痛扁痛扁……痛扁到底哦！","[[70,94]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T029；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/FightingDojo.asm:FightingDojoBlackbelt1BattleText,c04900d1d5d552f9f6ec3c4f5cc1c61b2f0a27ee3bb066cdf275cfd5d8632f99,e53309793cb21cdc30a2afb94d7a55be0c3a78ae741465d8e3355745a1640f9d,"呜哦——！
+难道！你是来踢馆的？","[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T039；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/FuchsiaCity.asm:FuchsiaCityFossilSignText.UndeterminedText,293fed0dd102384a5be83370e07401269bdeb9cffca115fc4bcf6e7087121caa,b4935894c8ce16bde67bbffc672428b1533c4f1e1e8b1ce21a2933183db6bfa5,……,"[[0,2]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T002；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/FuchsiaGym.asm:FuchsiaGymKogaText.ReceivedSoulBadgeText,3a85faf14de8e607fb815b63379b47845b7cff181ec244fa40b552918eb91fec,e1d87860f813d67100bbbd0555fc6fe7c7dfcabb552ec7ee4b21b92a12ae0107,"哼！
+你可真有一手。
+
+喂！
+收下这粉红徽章吧！","[[0,2]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T025；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/GameCorner.asm:GameCornerClerk1Text.CoinCaseIsFull,caeafc2a302315a9d4aca3580736f2f7cabf70550d673ff797737966852aba27,e075fbc6409ad7f613046c612a4ba09aa837777d9b5c777269e1b03651680d4e,"哎呀……！
+代币盒已满了！","[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T007；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/MtMoonB2F.asm:MtMoonB2FSuperNerdOkIllShareText,a4f6f6442116df598151e7f6fd7be6226921c95fab829b08d583a0babc221e6e,6b204dab61a0a0bbc55e4506213abe0fea74619465a5943a559a5ca322f9cb29,"明白了！
+我也分你一点好了。","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T036；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/Museum1F.asm:Museum1FScientist2Text.YouDontHaveSpaceText,304860318a054c2226eb1028b267aefc1a4ea666478488d3c4b8ad387a09d979,670e64a9b8bb2f33a49dd99b04389d179c95a0c0bca5df2f827b5be40b4b7658,持有物已满了。,"[[0,7]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T031；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/Museum2F.asm:Museum2FHikerText,ca535f776e461e61ad422a65d83db05a9c24147e4520f79f01500990f86f853c,1b557bbee3a3467f0eb8f2f3b2d98977413fef753aa20b9c321453655c5014bc,"好、好！
+皮卡丘对吧！下次吧！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T023；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.WantMeToRateText,980f3a4989d0fdfc0901aac18e81b216a0f78cb827a5d51efb126ddf8c5ea5bf,9634444dd2e85a983cab06dcef798487459653d38755c387038823de9a4a9e79,"好、好！
+我是姓名鉴定师。
+也就是看名字算命的。
+
+来，让我算算
+你的宝可梦的昵称吧。","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T023；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/OaksLab.asm:OaksLabRivalAmIGreatOrWhatText,84a92ce5f0cc3165b43528887a98fc5a7bc1045d9e2bcf53116d893cb72664bb,b399c54afd4369bdd65e6473095083645a15882dfcdd33fd9c67678ce87783ef,"{{RIVAL}}：太棒了！
+我或许是天才吧？","[[0,14]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T001；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.FinalText,c9b1c536082aff68a776f56abb68fc2886ca874f725f6983bccf5beafc9f87df,216facda5f35744bf0f251ddd361a13bd374ac074d75a3a9406435cf65497f0c,"哎呀，{{PLAYER}}！
+
+又想来听老夫介绍
+引以为豪的宝可梦了吧！
+
+……啥？不是？
+什么嘛……真没意思……","[[0,14]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T033；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.StoryText,5a4520612a87b6aa033287bee2f3be999417bb110a389b85a7a54c66eb50f7f2,98f9ba180eb7262a4fcd1b86396a0bc6728e7fee6671bfbe6f7f8c848c382152,"是吗！
+那老夫就开始喽！
+
+那啥……那就先介绍
+老夫钟爱的烈焰马吧……
+
+……它呀……就是……
+……可爱的唷……
+了不得哇……唔……
+……而且它啊……
+棒棒的…………
+……你也这么觉得吗……
+为啥噢……太喜欢了……
+……哈～！
+
+抱一抱唷……
+……它睡觉的时候哇……
+……对吧！
+……艺术品啊……！
+优美到飞天……
+…………哎哟！
+已经到这个点了！
+老夫说得太多喽！
+
+你听老夫称赞宝可梦
+听得还挺有耐心的哇！
+…收下老夫的一点心意吧！","[[0,3]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T018；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/PokemonTower7F.asm:PokemonTower7FRocket1EndBattleText,7bd2ab4522e6cd2dd19a76905e3658c06191bf29de941d280b662a0a2566bf69,1614aa373410589c34bb7f1ccafc36c4edf06131a82fed5c55b2e867c574b29d,我、我输了！,"[[0,6]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T026；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/RockTunnelB1F.asm:RockTunnelB1FCooltrainerF2EndBattleText,0c47e937aaebb00e5258a3e12240f2fbffd9c4ae9608c862d98221f034afcdc8,99a14be417dcc3fb7a941ec6d6acb73054f86722d5fda13323c9d14c61af831a,我输了。,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T028；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker1EndBattleText,cac25a4c7e806277a982ff564265c918c9ad9b33995c256fb285ac3c57cb9a3e,41884ef4c07b30cc980d090aeedc30254c77384ac4d4a9ac0a1b25fb317e42fb,"哎呀呀！
+我在力量上输了么！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T008；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/RocketHideoutB1F.asm:RocketHideoutB1FRocket3AfterBattleText,fc246fe65e8f7847927b0a4d17edf540e1822ddb1cd189844424bfb2237f25c0,3e696f6406d936742bc700a4f37d3f13ab83477d2d3767751dd26c4040033c1d,"哼！
+你在找西尔佛检视镜吗？
+……我不知道它在哪里。","[[0,2]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T025；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/RocketHideoutB2F.asm:RocketHideoutB2FRocketEndBattleText,3ff695938703b635509d6d1d6da1c85358b7c5f8837cafa98aa0b239460f58ad,25163888da00c8436a405c40be2965229e374a0e08f03469b5fed0ceb075a078,我输了！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T027；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/Route14.asm:Route14Biker4EndBattleText,776402d3615cf4c38c01e72058c969323daa66decf43ba4b9697c8c57b54a10e,62f535ddd4b0f4382daa6e11ed4770cbf7235abec1b69d9012321f0c63a830b1,我不服！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T021；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/Route16.asm:Route16Biker1AfterBattleText,dd68ad3233315fb43995c798f907608b1896f75840ac9cda69a9ec42a60201d0,7d7aaeb8ca7ec6b5d9ce6bffb80d05f6d5281ac0033e42687a809cb7d9463428,"烦不烦啊！
+比起走路，我们更喜欢
+待在这里无所事事不行吗！","[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T019；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/Route20.asm:Route20Swimmer7EndBattleText,dea5becd0ca456e2a1a6d34f5b5106f51ddd8e6458ae8fade03d4804aeaedcc7,d12760002ed268ee514aa918e6da09a3913a0b9d6348d863ce692f6f720c8b6b,"哎呀～！
+我的珍珠还在里面啊……","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T034；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/Route21.asm:Route21Swimmer5BattleText,c7d4694f953c2abf3ca213db79aa0133044d39cd40ac0a69cf1569c1b8f0e935,4357fa72d88cf84b354d239980f20d5d37c4cce5837cdb3545ed0a9510bf6265,"啊——！
+阳光照在身上好舒服！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T004；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/Route25.asm:Route25Hiker3EndBattleText,ff1d9f99d91eda2d3bb81109d5f3e36f546effe816472df270be6490118de27d,77719f018991739fcefbf57b77f8b89cafc0198cb6b8e41c25b21494fd3b61ef,很厉害啊。,"[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T032；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/Route25.asm:Route25Youngster2EndBattleText,230d019743fe060b7d6700655ff2b71b27d9aa132404b405532310bef61bdd6e,e93728b7fdad08f3eec9473d23918b902e35d2de1dd990517873f5a1bf77b3ae,我才没有不甘心！,"[[0,8]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T013；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/Route9.asm:Route9Hiker2AfterBattleText,0dd2a15cb4a703764d5db53af7b458d4a95934450eb7a99f5396ba8cfa7cad1c,f5bf7f8611a7da442207a492fbaed82ca09181e1115526be44ed7cadeacc4e54,"哈哈哈！
+有活力就好啊！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T024；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/SSAnne1FRooms.asm:SSAnne1FRoomsCooltrainerFEndBattleText,48439b7764c91a9ee8a4a07d3ff15bd45cbf272431522f77ee4a43ad8b80e03d,15996ca76fc64a3fd40fea171824f654e3fc72941fe17b9336a00288aeb73598,"哎呀～！
+这可是我从世界各地
+收集到的宝可梦啊……","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T005；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/SaffronGym.asm:SaffronGymChanneler2EndBattleText,be03c29a1bada4569be09ff4595d4e096ce67966c67240abda72a31d9c8dc2e4,2461e6afc971b3c677a051e9aef46a85682e832b4e6c48bf34fdc886b7da2a8d,明白了！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T036；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/SilphCo2F.asm:SilphCo2FRocket1EndBattleText,be6d3bc443d485e450a52585c5a0ae05b8ec87034a3152985611edb1c0919719,90fa640029f5309652cc4db0de57966c7e3c6424b60674513b1eb3d84a952223,很厉害呢！,"[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T020；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/SilphCo3F.asm:SilphCo3FRocketEndBattleText,3ff695938703b635509d6d1d6da1c85358b7c5f8837cafa98aa0b239460f58ad,d4718f1e5a9a598e9e1d660a18406fb39887ce558382e4136ac432895f70100a,我输了！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T027；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/SilphCo4F.asm:SilphCo4FRocket1AfterBattleText,ae0dc3724bd7880bfd974ea138f43105714b9e8b95a4e66960492cceee49433a,a181ae2476e7e7a363628fb8316ab206aac04ffda1323f424a7af4ed54a51601,"哈哈哈！
+我们老大早就盯上这里了。","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T012；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/SilphCo6F.asm:SilphCo6FRocket1BattleText,a9f3fc2e66b0e3ed0d5f0cbcc428371a6d04b191687a0d618ec68a528efa0ac4,b49f8c987eece397d1b7d72068b9ec54b1cc82b51c1b0373bf990ba39b81cbc5,"我正是
+火箭队四兄弟之一！","[[0,13]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T010；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/SilphCo7F.asm:SilphCo7FRivalDefeatedText,a296200e355194062a5c6c8aaa5f66818754c636d44a5692cf0eb9dcd336a58b,9ac0a59dc67158110b977fa49cb41aeca8e42ee5fa66d6637a699f16846fbf9a,"噢、噢！
+看来你已经准备好
+面对火箭队的挑战了！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T006；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/VermilionCity.asm:VermilionCitySailor1Text.DoYouHaveATicketText,db7c1b260b8bda08067172e40c433c03701d30bf52910097401b113e55196478,4106aa70cc63477f927d6c5906225ab8a93a8191d0c1a1b4b5000fff89189766,"欢迎您搭乘
+圣特安努号！
+
+请等一下，
+这位乘客，您的船票呢？","[[0,12]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T035；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText,84f8b6f71a2bc92deb84d8b31a28668326a8b91385dd6667ae33606e4c380371,6218552758c4d1f42f8825796a14376111df340ec06100e8cfdfc7984e4b6ba7,"嗨～！
+未来的冠军！
+
+马志士少校有个别称，
+那就是闪电般的美国人！
+
+能将电属性宝可梦
+运用自如的美国No.1！
+
+飞行属性和水属性
+可能不太好对付他喔！
+你可要小心，
+不要被电麻痹了！
+
+还有，
+马志士做事极为谨慎，
+
+他可不会让你
+轻易解开门锁，
+到达他所在的房间呐！","[[0,10]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T011；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.DoYouLikeToFishText,21e4de4a2e5d2d560650e461c8bb5729ad9c1c7f078fdfb62e104427d564df19,5f54e615ab7bd82e381b20f86f940785855f5cf36901916e9f1125f3a73c72cd,"我就是钓鱼大叔！
+
+热爱钓鱼，
+至死方休！
+
+你喜不喜欢钓鱼呢？","[[10,21]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T030；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/VictoryRoad2F.asm:VictoryRoad2FHikerEndBattleText,ca7c54c5e33a2cd2445ea48b81c1f9b8f6c909c7f49d5b5e2564446fae34e5cd,3737f41ab0b160d0f183561119fd02685b3df16f0f7ee4cca5b92c32b6bc5653,嘿呀！,"[[0,3]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T040；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokegreen:scripts/ViridianForest.asm:ViridianForestYoungster4EndBattleText,448362787538359efe7f4987b974bbf16469141682929b94c98d95b70943724d,f36f038cd7abf7dd248165ebf8aba8f0626d4a11f215ffe58245e6094b9a7217,"我输了！
+你好厉害啊！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T027；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:engine/battle/core.asm:StartBattle.outOfSafariBallsText,f63faf7c6277e335a5daf1be2896d3f2332fefc8f128aa60fefd66af6a3d31f2,26b62691fbbc4b7f80bb1b4be291c8eeda8de30d36e93988c1b7db5e986e142d,"广播：叮咚～！
+
+你的狩猎球
+全部都用完了！","[[0,7]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T038；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:engine/menus/start_sub_menus.asm:CannotUseItemsHereText,2d424d8f716ae4d7e750125461f250cf10310d1e44a20813530c4ebce679d601,0714ebbfb6f0aea33e14bc82a465f6863ba5800f502e979f4d8e2150a227261d,这里不能使用道具。,"[[0,9]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T014；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/BillsHouse_2.asm:BillsHousePrintBillPokemonText.ImNotAPokemonText,fcb9a7b0b8f36278f8db29442e7d845c7b163919e053ffd57de2b05d46cf2128,df9d6a8d8e54bbcabe6652aab83130c354b39fef9a9e34c43114fe78feaf3d9b,"你好！
+我是宝可梦……！
+……错！
+
+我是正辉！
+人称，宝可梦狂热迷！
+啊，您那眼神，啥意思？
+兄弟，您不信我？
+
+我说的都是真的！
+因为实验失败，
+我和宝可梦合二为一了。
+
+那个！
+帮帮我呗。","[[0,3]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T015；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/CeladonCity.asm:CeladonCityGramps3Text.TM41NoRoomText,8ebc8ecf098e55ee22ef7ac370c6c1bb9dac21171cfd55e103f0302accbf5c5a,4687fdfda767ead6e229a2831365b74edab8e9ed7d8b4a0e1930821cefead607,行李已满了！,"[[0,6]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T022；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/CeladonCity_2.asm:CeladonCityPrintTrainerTips1Text.text,ded277e3a96d29d0679fb0ce45ed3c81d7aa8999d389eae69f5a221802af6348,140e03d3812e1b686e633998437b31a32e95e8f601779b485d8215e7d5a7b69f,"……有用的公告牌！
+
+命中强化可以
+提高招式的命中率！
+
+要害攻击可以
+让招式更容易击中要害！
+
+购买道具，
+请认准玉虹百货公司！","[[49,65]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T037；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/CeladonGym.asm:CeladonGymBeauty2EndBattleText,908fa8ecc8318bdbec6d5e7f6f758c8d2f72c02a52f49f273509656596ed3cba,7d5680e5b3000713e741e31c73eb23a595fa962783ddb0fcff99d8bfb476ba0d,哎呀～！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T034；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText,37fcf0efb67c53f0ea68ec8f7b4a576e93351c4aa338f25fd7959e3ebd5a939e,d48fbeecba99df208bb5687922c78eb675e5fdbf1fd59d129be31fc73fec8eae,"嗨～！
+未来的冠军！
+
+给你一个小建议吧！
+
+这里的馆主小霞在运用
+栖息于水中的宝可梦方面
+可是个专家！
+
+这种时候的策略就是使用
+植物宝可梦把水吸干！
+
+……或者用电属性的宝可梦
+来让对手陷入麻痹状态
+也不错！","[[0,10]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T011；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/FightingDojo.asm:FightingDojoBlackbelt1BattleText,c04900d1d5d552f9f6ec3c4f5cc1c61b2f0a27ee3bb066cdf275cfd5d8632f99,e53309793cb21cdc30a2afb94d7a55be0c3a78ae741465d8e3355745a1640f9d,"呜哦——！
+难道！你是来踢馆的？","[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T039；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/FuchsiaCity.asm:FuchsiaCityFossilSignText.UndeterminedText,293fed0dd102384a5be83370e07401269bdeb9cffca115fc4bcf6e7087121caa,b4935894c8ce16bde67bbffc672428b1533c4f1e1e8b1ce21a2933183db6bfa5,……,"[[0,2]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T002；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/GameCorner.asm:GameCornerClerkText.CoinCaseIsFull,caeafc2a302315a9d4aca3580736f2f7cabf70550d673ff797737966852aba27,e075fbc6409ad7f613046c612a4ba09aa837777d9b5c777269e1b03651680d4e,"哎呀……！
+代币盒已满了！","[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T007；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/MtMoonB2F.asm:MtMoonB2FSuperNerdOkIllShareText,a4f6f6442116df598151e7f6fd7be6226921c95fab829b08d583a0babc221e6e,6b204dab61a0a0bbc55e4506213abe0fea74619465a5943a559a5ca322f9cb29,"明白了！
+我也分你一点好了。","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T036；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/MtMoonB2F.asm:MtMoonB2FText12,155a1eb4f244ec0d2c4b865f87aa6c04de6c5ece127a7b874834ba7c179df5d7,2fd3be531cc2eba752dc4fcbada60074e13d0f874e1a19b1b6e2f02e46c15fa0,等一下！！,"[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T009；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/Museum1F_2.asm:Museum1FPrintScientist2Text.YouDontHaveSpaceText,304860318a054c2226eb1028b267aefc1a4ea666478488d3c4b8ad387a09d979,670e64a9b8bb2f33a49dd99b04389d179c95a0c0bca5df2f827b5be40b4b7658,持有物已满了。,"[[0,7]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T031；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/Museum2F.asm:Museum2FText_5c20e,ca535f776e461e61ad422a65d83db05a9c24147e4520f79f01500990f86f853c,1b557bbee3a3467f0eb8f2f3b2d98977413fef753aa20b9c321453655c5014bc,"好、好！
+皮卡丘对吧！下次吧！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T023；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.WantMeToRateText,980f3a4989d0fdfc0901aac18e81b216a0f78cb827a5d51efb126ddf8c5ea5bf,9634444dd2e85a983cab06dcef798487459653d38755c387038823de9a4a9e79,"好、好！
+我是姓名鉴定师。
+也就是看名字算命的。
+
+来，让我算算
+你的宝可梦的昵称吧。","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T023；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/OaksLab.asm:OaksLabEeveePokeBallText.Text,f0be92caadf147ae87e00739d3e7a150e8c8b5b792bbf9cc0b1a4284ea53bb31,47a416ce6fbf43ec2de68b8122d7bcc44f4d0a106fea4f3449ace758e0268ce1,"是精灵球。
+里面装着宝可梦哦！","[[0,15]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T041；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalAmIGreatOrWhatText,84a92ce5f0cc3165b43528887a98fc5a7bc1045d9e2bcf53116d893cb72664bb,b399c54afd4369bdd65e6473095083645a15882dfcdd33fd9c67678ce87783ef,"{{RIVAL}}：太棒了！
+我或许是天才吧？","[[0,14]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T001；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.FinalText,c9b1c536082aff68a776f56abb68fc2886ca874f725f6983bccf5beafc9f87df,216facda5f35744bf0f251ddd361a13bd374ac074d75a3a9406435cf65497f0c,"哎呀，{{PLAYER}}！
+
+又想来听老夫介绍
+引以为豪的宝可梦了吧！
+
+……啥？不是？
+什么嘛……真没意思……","[[0,14]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T033；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.StoryText,5a4520612a87b6aa033287bee2f3be999417bb110a389b85a7a54c66eb50f7f2,98f9ba180eb7262a4fcd1b86396a0bc6728e7fee6671bfbe6f7f8c848c382152,"是吗！
+那老夫就开始喽！
+
+那啥……那就先介绍
+老夫钟爱的烈焰马吧……
+
+……它呀……就是……
+……可爱的唷……
+了不得哇……唔……
+……而且它啊……
+棒棒的…………
+……你也这么觉得吗……
+为啥噢……太喜欢了……
+……哈～！
+
+抱一抱唷……
+……它睡觉的时候哇……
+……对吧！
+……艺术品啊……！
+优美到飞天……
+…………哎哟！
+已经到这个点了！
+老夫说得太多喽！
+
+你听老夫称赞宝可梦
+听得还挺有耐心的哇！
+…收下老夫的一点心意吧！","[[0,3]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T018；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/RockTunnelB1F.asm:RockTunnelB1FCooltrainerF2EndBattleText,0c47e937aaebb00e5258a3e12240f2fbffd9c4ae9608c862d98221f034afcdc8,99a14be417dcc3fb7a941ec6d6acb73054f86722d5fda13323c9d14c61af831a,我输了。,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T028；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker1EndBattleText,cac25a4c7e806277a982ff564265c918c9ad9b33995c256fb285ac3c57cb9a3e,41884ef4c07b30cc980d090aeedc30254c77384ac4d4a9ac0a1b25fb317e42fb,"哎呀呀！
+我在力量上输了么！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T008；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/RocketHideoutB1F.asm:RocketHideoutB1FRocket3AfterBattleText,fc246fe65e8f7847927b0a4d17edf540e1822ddb1cd189844424bfb2237f25c0,3e696f6406d936742bc700a4f37d3f13ab83477d2d3767751dd26c4040033c1d,"哼！
+你在找西尔佛检视镜吗？
+……我不知道它在哪里。","[[0,2]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T025；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/RocketHideoutB2F.asm:RocketHideoutB2FRocketEndBattleText,3ff695938703b635509d6d1d6da1c85358b7c5f8837cafa98aa0b239460f58ad,25163888da00c8436a405c40be2965229e374a0e08f03469b5fed0ceb075a078,我输了！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T027；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/Route14.asm:Route14Biker4EndBattleText,776402d3615cf4c38c01e72058c969323daa66decf43ba4b9697c8c57b54a10e,62f535ddd4b0f4382daa6e11ed4770cbf7235abec1b69d9012321f0c63a830b1,我不服！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T021；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/Route16.asm:Route16Biker1AfterBattleText,dd68ad3233315fb43995c798f907608b1896f75840ac9cda69a9ec42a60201d0,7d7aaeb8ca7ec6b5d9ce6bffb80d05f6d5281ac0033e42687a809cb7d9463428,"烦不烦啊！
+比起走路，我们更喜欢
+待在这里无所事事不行吗！","[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T019；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/Route20.asm:Route20Swimmer7EndBattleText,dea5becd0ca456e2a1a6d34f5b5106f51ddd8e6458ae8fade03d4804aeaedcc7,d12760002ed268ee514aa918e6da09a3913a0b9d6348d863ce692f6f720c8b6b,"哎呀～！
+我的珍珠还在里面啊……","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T034；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/Route21.asm:Route21Swimmer5BattleText,c7d4694f953c2abf3ca213db79aa0133044d39cd40ac0a69cf1569c1b8f0e935,4357fa72d88cf84b354d239980f20d5d37c4cce5837cdb3545ed0a9510bf6265,"啊——！
+阳光照在身上好舒服！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T004；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/Route25.asm:Route25Hiker3EndBattleText,ff1d9f99d91eda2d3bb81109d5f3e36f546effe816472df270be6490118de27d,77719f018991739fcefbf57b77f8b89cafc0198cb6b8e41c25b21494fd3b61ef,很厉害啊。,"[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T032；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/Route25.asm:Route25Youngster2EndBattleText,230d019743fe060b7d6700655ff2b71b27d9aa132404b405532310bef61bdd6e,e93728b7fdad08f3eec9473d23918b902e35d2de1dd990517873f5a1bf77b3ae,我才没有不甘心！,"[[0,8]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T013；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/Route9.asm:Route9Hiker2AfterBattleText,0dd2a15cb4a703764d5db53af7b458d4a95934450eb7a99f5396ba8cfa7cad1c,f5bf7f8611a7da442207a492fbaed82ca09181e1115526be44ed7cadeacc4e54,"哈哈哈！
+有活力就好啊！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T024；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/SSAnne1FRooms.asm:SSAnne1FRoomsCooltrainerFEndBattleText,48439b7764c91a9ee8a4a07d3ff15bd45cbf272431522f77ee4a43ad8b80e03d,15996ca76fc64a3fd40fea171824f654e3fc72941fe17b9336a00288aeb73598,"哎呀～！
+这可是我从世界各地
+收集到的宝可梦啊……","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T005；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/SaffronGym.asm:SaffronGymChanneler2EndBattleText,be03c29a1bada4569be09ff4595d4e096ce67966c67240abda72a31d9c8dc2e4,2461e6afc971b3c677a051e9aef46a85682e832b4e6c48bf34fdc886b7da2a8d,明白了！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T036；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/SaffronGym.asm:SaffronGymYoungster1AfterBattleText,d80011cd289ec0bc09f73ef529c40cccff328406bf8b654284ba821a5bd7616e,94266383239e07091ef7f72552a74f097907bc5aed939c2ba5888827df47e63e,"克制超能力的属性？
+有倒是有。
+那就是幽灵属性和虫属性！","[[16,28]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T003；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/SilphCo2F.asm:SilphCo2FRocket1EndBattleText,be6d3bc443d485e450a52585c5a0ae05b8ec87034a3152985611edb1c0919719,90fa640029f5309652cc4db0de57966c7e3c6424b60674513b1eb3d84a952223,很厉害呢！,"[[0,5]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T020；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/SilphCo3F.asm:SilphCo3FRocketEndBattleText,3ff695938703b635509d6d1d6da1c85358b7c5f8837cafa98aa0b239460f58ad,d4718f1e5a9a598e9e1d660a18406fb39887ce558382e4136ac432895f70100a,我输了！,"[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T027；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/SilphCo4F.asm:SilphCo4FRocket1AfterBattleText,ae0dc3724bd7880bfd974ea138f43105714b9e8b95a4e66960492cceee49433a,a181ae2476e7e7a363628fb8316ab206aac04ffda1323f424a7af4ed54a51601,"哈哈哈！
+我们老大早就盯上这里了。","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T012；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/SilphCo6F.asm:SilphCo6FRocket1BattleText,a9f3fc2e66b0e3ed0d5f0cbcc428371a6d04b191687a0d618ec68a528efa0ac4,b49f8c987eece397d1b7d72068b9ec54b1cc82b51c1b0373bf990ba39b81cbc5,"我正是
+火箭队四兄弟之一！","[[0,13]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T010；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/SilphCo7F.asm:SilphCo7FRivalDefeatedText,a296200e355194062a5c6c8aaa5f66818754c636d44a5692cf0eb9dcd336a58b,9ac0a59dc67158110b977fa49cb41aeca8e42ee5fa66d6637a699f16846fbf9a,"噢、噢！
+看来你已经准备好
+面对火箭队的挑战了！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T006；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/VermilionCity.asm:VermilionCitySailor1Text.DoYouHaveATicketText,db7c1b260b8bda08067172e40c433c03701d30bf52910097401b113e55196478,4106aa70cc63477f927d6c5906225ab8a93a8191d0c1a1b4b5000fff89189766,"欢迎您搭乘
+圣特安努号！
+
+请等一下，
+这位乘客，您的船票呢？","[[0,12]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T035；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText,84f8b6f71a2bc92deb84d8b31a28668326a8b91385dd6667ae33606e4c380371,6218552758c4d1f42f8825796a14376111df340ec06100e8cfdfc7984e4b6ba7,"嗨～！
+未来的冠军！
+
+马志士少校有个别称，
+那就是闪电般的美国人！
+
+能将电属性宝可梦
+运用自如的美国No.1！
+
+飞行属性和水属性
+可能不太好对付他喔！
+你可要小心，
+不要被电麻痹了！
+
+还有，
+马志士做事极为谨慎，
+
+他可不会让你
+轻易解开门锁，
+到达他所在的房间呐！","[[0,10]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T011；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.DoYouLikeToFishText,21e4de4a2e5d2d560650e461c8bb5729ad9c1c7f078fdfb62e104427d564df19,5f54e615ab7bd82e381b20f86f940785855f5cf36901916e9f1125f3a73c72cd,"我就是钓鱼大叔！
+
+热爱钓鱼，
+至死方休！
+
+你喜不喜欢钓鱼呢？","[[10,21]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T030；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/VictoryRoad2F.asm:VictoryRoad2FHikerEndBattleText,ca7c54c5e33a2cd2445ea48b81c1f9b8f6c909c7f49d5b5e2564446fae34e5cd,3737f41ab0b160d0f183561119fd02685b3df16f0f7ee4cca5b92c32b6bc5653,嘿呀！,"[[0,3]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T040；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元
+pokeyellow-jp:scripts/ViridianForest.asm:ViridianForestYoungster4EndBattleText,448362787538359efe7f4987b974bbf16469141682929b94c98d95b70943724d,f36f038cd7abf7dd248165ebf8aba8f0626d4a11f215ffe58245e6094b9a7217,"我输了！
+你好厉害啊！","[[0,4]]",[],translation_unification,user_approved,2026-10-22 用户确认除T042外其余41组按建议统一显示译文；T027；建议和来源：reports/translation-merge-review.csv；原汉化保留，未改后续独立语义单元

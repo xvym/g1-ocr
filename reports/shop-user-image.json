@@ -1,0 +1,965 @@
+{
+  "implementationVersion" : "0.3.0",
+  "scope" : "user-provided GB crop; preserved pixels placed into an upper-screen canvas; not real capture acceptance",
+  "annotationMethod" : "model_visual_transcribed_from_user_attachment_before_OCR; Chinese from pinned corpus item terms; not_human_reviewed",
+  "source" : "testpic/labels/../additional/shop-buy-2026-10-22.png",
+  "sourceSha256" : "40868ab1c257a2d2dba9a0a642fc6f4f6fc9ddcbeb6fa0f09da24dde610ebf85",
+  "gbCrop" : {
+    "x" : 2,
+    "y" : 6,
+    "width" : 480,
+    "height" : 432
+  },
+  "passed" : true,
+  "results" : [ {
+    "ocr" : {
+      "id" : "list",
+      "layout" : "shop_items",
+      "semanticType" : "shop_items",
+      "bounds" : {
+        "x" : 32,
+        "y" : 16,
+        "width" : 128,
+        "height" : 88
+      },
+      "textGrids" : [ {
+        "x" : 48,
+        "y" : 32,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 48,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 64,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 80,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      } ],
+      "footerGrids" : [ ],
+      "rawOcr" : [ "モンスターボール 200円", "どくけし 100円", "まひなおし 200円", "やけどなおし 250円" ],
+      "footerLines" : [ ],
+      "selectedItem" : 0,
+      "diagnostics" : [ {
+        "rawOcr" : "モンスターボール 200円",
+        "characters" : [ {
+          "x" : 48,
+          "y" : 32,
+          "raw" : "モ",
+          "candidates" : [ "モ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 11,
+          "unknown" : false
+        }, {
+          "x" : 56,
+          "y" : 32,
+          "raw" : "ン",
+          "candidates" : [ "ン" ],
+          "distance" : 0,
+          "runnerUpDistance" : 7,
+          "unknown" : false
+        }, {
+          "x" : 64,
+          "y" : 32,
+          "raw" : "ス",
+          "candidates" : [ "ス" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 72,
+          "y" : 32,
+          "raw" : "タ",
+          "candidates" : [ "タ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 80,
+          "y" : 32,
+          "raw" : "ー",
+          "candidates" : [ "ー" ],
+          "distance" : 0,
+          "runnerUpDistance" : 5,
+          "unknown" : false
+        }, {
+          "x" : 88,
+          "y" : 32,
+          "raw" : "ボ",
+          "candidates" : [ "ボ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 96,
+          "y" : 32,
+          "raw" : "ー",
+          "candidates" : [ "ー" ],
+          "distance" : 0,
+          "runnerUpDistance" : 5,
+          "unknown" : false
+        }, {
+          "x" : 104,
+          "y" : 32,
+          "raw" : "ル",
+          "candidates" : [ "ル" ],
+          "distance" : 0,
+          "runnerUpDistance" : 12,
+          "unknown" : false
+        }, {
+          "x" : 112,
+          "y" : 32,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 120,
+          "y" : 32,
+          "raw" : "2",
+          "candidates" : [ "2" ],
+          "distance" : 0,
+          "runnerUpDistance" : 12,
+          "unknown" : false
+        }, {
+          "x" : 128,
+          "y" : 32,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 136,
+          "y" : 32,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 144,
+          "y" : 32,
+          "raw" : "円",
+          "candidates" : [ "円" ],
+          "distance" : 0,
+          "runnerUpDistance" : 11,
+          "unknown" : false
+        } ]
+      }, {
+        "rawOcr" : "どくけし 100円",
+        "characters" : [ {
+          "x" : 48,
+          "y" : 48,
+          "raw" : "ど",
+          "candidates" : [ "ど" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 56,
+          "y" : 48,
+          "raw" : "く",
+          "candidates" : [ "く" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 64,
+          "y" : 48,
+          "raw" : "け",
+          "candidates" : [ "け" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 72,
+          "y" : 48,
+          "raw" : "し",
+          "candidates" : [ "し" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 80,
+          "y" : 48,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 88,
+          "y" : 48,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 96,
+          "y" : 48,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 104,
+          "y" : 48,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 112,
+          "y" : 48,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 120,
+          "y" : 48,
+          "raw" : "1",
+          "candidates" : [ "1" ],
+          "distance" : 0,
+          "runnerUpDistance" : 7,
+          "unknown" : false
+        }, {
+          "x" : 128,
+          "y" : 48,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 136,
+          "y" : 48,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 144,
+          "y" : 48,
+          "raw" : "円",
+          "candidates" : [ "円" ],
+          "distance" : 0,
+          "runnerUpDistance" : 11,
+          "unknown" : false
+        } ]
+      }, {
+        "rawOcr" : "まひなおし 200円",
+        "characters" : [ {
+          "x" : 48,
+          "y" : 64,
+          "raw" : "ま",
+          "candidates" : [ "ま" ],
+          "distance" : 0,
+          "runnerUpDistance" : 8,
+          "unknown" : false
+        }, {
+          "x" : 56,
+          "y" : 64,
+          "raw" : "ひ",
+          "candidates" : [ "ひ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 64,
+          "y" : 64,
+          "raw" : "な",
+          "candidates" : [ "な" ],
+          "distance" : 0,
+          "runnerUpDistance" : 15,
+          "unknown" : false
+        }, {
+          "x" : 72,
+          "y" : 64,
+          "raw" : "お",
+          "candidates" : [ "お" ],
+          "distance" : 0,
+          "runnerUpDistance" : 7,
+          "unknown" : false
+        }, {
+          "x" : 80,
+          "y" : 64,
+          "raw" : "し",
+          "candidates" : [ "し" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 88,
+          "y" : 64,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 96,
+          "y" : 64,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 104,
+          "y" : 64,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 112,
+          "y" : 64,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 120,
+          "y" : 64,
+          "raw" : "2",
+          "candidates" : [ "2" ],
+          "distance" : 0,
+          "runnerUpDistance" : 12,
+          "unknown" : false
+        }, {
+          "x" : 128,
+          "y" : 64,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 136,
+          "y" : 64,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 144,
+          "y" : 64,
+          "raw" : "円",
+          "candidates" : [ "円" ],
+          "distance" : 0,
+          "runnerUpDistance" : 11,
+          "unknown" : false
+        } ]
+      }, {
+        "rawOcr" : "やけどなおし 250円",
+        "characters" : [ {
+          "x" : 48,
+          "y" : 80,
+          "raw" : "や",
+          "candidates" : [ "や" ],
+          "distance" : 0,
+          "runnerUpDistance" : 13,
+          "unknown" : false
+        }, {
+          "x" : 56,
+          "y" : 80,
+          "raw" : "け",
+          "candidates" : [ "け" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 64,
+          "y" : 80,
+          "raw" : "ど",
+          "candidates" : [ "ど" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 72,
+          "y" : 80,
+          "raw" : "な",
+          "candidates" : [ "な" ],
+          "distance" : 0,
+          "runnerUpDistance" : 15,
+          "unknown" : false
+        }, {
+          "x" : 80,
+          "y" : 80,
+          "raw" : "お",
+          "candidates" : [ "お" ],
+          "distance" : 0,
+          "runnerUpDistance" : 7,
+          "unknown" : false
+        }, {
+          "x" : 88,
+          "y" : 80,
+          "raw" : "し",
+          "candidates" : [ "し" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 96,
+          "y" : 80,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 104,
+          "y" : 80,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 112,
+          "y" : 80,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 120,
+          "y" : 80,
+          "raw" : "2",
+          "candidates" : [ "2" ],
+          "distance" : 0,
+          "runnerUpDistance" : 12,
+          "unknown" : false
+        }, {
+          "x" : 128,
+          "y" : 80,
+          "raw" : "5",
+          "candidates" : [ "5" ],
+          "distance" : 0,
+          "runnerUpDistance" : 3,
+          "unknown" : false
+        }, {
+          "x" : 136,
+          "y" : 80,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 144,
+          "y" : 80,
+          "raw" : "円",
+          "candidates" : [ "円" ],
+          "distance" : 0,
+          "runnerUpDistance" : 11,
+          "unknown" : false
+        } ]
+      } ]
+    },
+    "expected" : {
+      "layout" : "shop_items",
+      "selectedItem" : 0,
+      "raw" : [ "モンスターボール 200円", "どくけし 100円", "まひなおし 200円", "やけどなおし 250円" ],
+      "chinese" : [ "精灵球 200円", "解毒药 100円", "解麻药 200円", "灼伤药 250円" ]
+    },
+    "translation" : [ {
+      "rawJapanese" : "モンスターボール 200円",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "モンスターボール 200円",
+      "chinese" : "精灵球 200円",
+      "candidates" : [ {
+        "recordId" : "pokegreen:item:POKE_BALL",
+        "ordinal" : 1,
+        "japanese" : "モンスターボール",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C5",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:item:POKE_BALL",
+        "ordinal" : 1,
+        "japanese" : "モンスターボール",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C5",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:item:POKE_BALL",
+        "ordinal" : 1,
+        "japanese" : "モンスターボール",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Items!C5",
+        "revision" : "null"
+      } ]
+    }, {
+      "rawJapanese" : "どくけし 100円",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "どくけし 100円",
+      "chinese" : "解毒药 100円",
+      "candidates" : [ {
+        "recordId" : "pokegreen:item:ANTIDOTE",
+        "ordinal" : 1,
+        "japanese" : "どくけし",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C12",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:item:ANTIDOTE",
+        "ordinal" : 1,
+        "japanese" : "どくけし",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C12",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:item:ANTIDOTE",
+        "ordinal" : 1,
+        "japanese" : "どくけし",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Items!C12",
+        "revision" : "null"
+      } ]
+    }, {
+      "rawJapanese" : "まひなおし 200円",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "まひなおし 200円",
+      "chinese" : "解麻药 200円",
+      "candidates" : [ {
+        "recordId" : "pokegreen:item:PARLYZ_HEAL",
+        "ordinal" : 1,
+        "japanese" : "まひなおし",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C16",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:item:PARLYZ_HEAL",
+        "ordinal" : 1,
+        "japanese" : "まひなおし",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C16",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:item:PARLYZ_HEAL",
+        "ordinal" : 1,
+        "japanese" : "まひなおし",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Items!C16",
+        "revision" : "null"
+      } ]
+    }, {
+      "rawJapanese" : "やけどなおし 250円",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "やけどなおし 250円",
+      "chinese" : "灼伤药 250円",
+      "candidates" : [ {
+        "recordId" : "pokegreen:item:BURN_HEAL",
+        "ordinal" : 1,
+        "japanese" : "やけどなおし",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C13",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:item:BURN_HEAL",
+        "ordinal" : 1,
+        "japanese" : "やけどなおし",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C13",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:item:BURN_HEAL",
+        "ordinal" : 1,
+        "japanese" : "やけどなおし",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Items!C13",
+        "revision" : "null"
+      } ]
+    } ]
+  }, {
+    "ocr" : {
+      "id" : "dialogue",
+      "layout" : "dialogue",
+      "semanticType" : "dialogue",
+      "bounds" : {
+        "x" : 0,
+        "y" : 96,
+        "width" : 160,
+        "height" : 48
+      },
+      "textGrids" : [ {
+        "x" : 8,
+        "y" : 112,
+        "columns" : 18,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 8,
+        "y" : 128,
+        "columns" : 18,
+        "maskedColumns" : [ 17 ]
+      } ],
+      "footerGrids" : [ ],
+      "rawOcr" : [ "ゆっくり ごらんになって ください" ],
+      "footerLines" : [ ],
+      "selectedItem" : null,
+      "diagnostics" : [ {
+        "rawOcr" : "ゆっくり ごらんになって ください",
+        "characters" : [ {
+          "x" : 8,
+          "y" : 112,
+          "raw" : "ゆ",
+          "candidates" : [ "ゆ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 13,
+          "unknown" : false
+        }, {
+          "x" : 16,
+          "y" : 112,
+          "raw" : "っ",
+          "candidates" : [ "っ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 24,
+          "y" : 112,
+          "raw" : "く",
+          "candidates" : [ "く" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 32,
+          "y" : 112,
+          "raw" : "り",
+          "candidates" : [ "り", "リ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 8,
+          "unknown" : false
+        }, {
+          "x" : 40,
+          "y" : 112,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 48,
+          "y" : 112,
+          "raw" : "ご",
+          "candidates" : [ "ご" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 56,
+          "y" : 112,
+          "raw" : "ら",
+          "candidates" : [ "ら" ],
+          "distance" : 0,
+          "runnerUpDistance" : 11,
+          "unknown" : false
+        }, {
+          "x" : 64,
+          "y" : 112,
+          "raw" : "ん",
+          "candidates" : [ "ん" ],
+          "distance" : 0,
+          "runnerUpDistance" : 13,
+          "unknown" : false
+        }, {
+          "x" : 72,
+          "y" : 112,
+          "raw" : "に",
+          "candidates" : [ "に" ],
+          "distance" : 0,
+          "runnerUpDistance" : 11,
+          "unknown" : false
+        }, {
+          "x" : 80,
+          "y" : 112,
+          "raw" : "な",
+          "candidates" : [ "な" ],
+          "distance" : 0,
+          "runnerUpDistance" : 15,
+          "unknown" : false
+        }, {
+          "x" : 88,
+          "y" : 112,
+          "raw" : "っ",
+          "candidates" : [ "っ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 96,
+          "y" : 112,
+          "raw" : "て",
+          "candidates" : [ "て" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 104,
+          "y" : 112,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 112,
+          "y" : 112,
+          "raw" : "く",
+          "candidates" : [ "く" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 120,
+          "y" : 112,
+          "raw" : "だ",
+          "candidates" : [ "だ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 128,
+          "y" : 112,
+          "raw" : "さ",
+          "candidates" : [ "さ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 136,
+          "y" : 112,
+          "raw" : "い",
+          "candidates" : [ "い" ],
+          "distance" : 0,
+          "runnerUpDistance" : 11,
+          "unknown" : false
+        }, {
+          "x" : 144,
+          "y" : 112,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        } ]
+      }, {
+        "rawOcr" : "",
+        "characters" : [ {
+          "x" : 8,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 16,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 24,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 32,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 40,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 48,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 56,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 64,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 72,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 80,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 88,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 96,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 104,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 112,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 120,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 128,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 136,
+          "y" : 128,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        } ]
+      } ]
+    },
+    "expected" : {
+      "layout" : "dialogue",
+      "raw" : [ "ゆっくり ごらんになって ください" ],
+      "chinese" : [ "请慢慢挑选。" ]
+    },
+    "translation" : [ {
+      "rawJapanese" : "ゆっくり ごらんになって ください",
+      "matchStatus" : "equivalent",
+      "displayStatus" : "ready",
+      "resolvedJapanese" : "ゆっくり ごらんになって ください",
+      "chinese" : "请慢慢挑选。",
+      "candidates" : [ {
+        "recordId" : "pokegreen:engine/events/pokemart.asm:PokemartBuyingGreetingText",
+        "ordinal" : 1,
+        "japanese" : "ゆっくり ごらんになって ください",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_4!F26:G28\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeblue:engine/events/pokemart.asm:PokemartBuyingGreetingText",
+        "ordinal" : 1,
+        "japanese" : "ゆっくり ごらんになって ください",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_4!F26:G28\"]",
+        "revision" : "null"
+      }, {
+        "recordId" : "pokeyellow-jp:engine/events/pokemart.asm:PokemartBuyingGreetingText",
+        "ordinal" : 1,
+        "japanese" : "ゆっくり ごらんになって ください",
+        "segmentStatus" : "whole_visible_unit",
+        "variables" : { },
+        "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_7!F30:G32\"]",
+        "revision" : "null"
+      } ]
+    } ]
+  } ],
+  "realCaptureTested" : false,
+  "finalChineseAcceptance" : false
+}

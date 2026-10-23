@@ -158,43 +158,68 @@ public final class LiveApplication extends Application {
         StringBuilder dialogues = new StringBuilder(), lists = new StringBuilder();
         for (var region : view.regions()) {
             var result = region.text();
+            boolean itemList = result.layout().equals("shared_list") || result.layout().equals("shop_items");
+            Integer selectedUnit = null;
+            if (itemList) {
+                int itemIndex = 0;
+                // OCR omits empty rows; the physical cursor row must map to a nonempty body item, never a footer.
+                for (int rowIndex = 0; rowIndex < result.textGrids().size(); rowIndex++) {
+                    if (result.diagnostics().get(rowIndex).rawOcr().isEmpty()) continue;
+                    if (java.util.Objects.equals(region.selectedItem(), rowIndex)) selectedUnit = itemIndex;
+                    itemIndex++;
+                }
+            }
             String label = switch (result.layout()) {
                 case "dialogue" -> "主对话";
                 case "battle_action" -> "战斗操作";
                 case "battle_moves" -> "战斗技能";
+                case "shop_items" -> "商店商品";
                 default -> result.semanticType().equals("pc_pokemon") ? "PC 宝可梦" : "道具列表（用途未确定）";
             };
-            body.append(label);
-            if (region.selectedItem() != null) body.append(" · 选中第 ").append(region.selectedItem() + 1).append(" 项");
-            body.append('\n');
+            if (!itemList) {
+                body.append(label);
+                if (region.selectedItem() != null) body.append(" · 选中第 ").append(region.selectedItem() + 1).append(" 项");
+                body.append('\n');
+            }
             StringBuilder translated = result.layout().equals("dialogue") ? dialogues : lists;
-            for (var row : result.diagnostics()) {
-                if (!row.rawOcr().isEmpty()) body.append(line(row)).append('\n');
+            for (int rowIndex = 0; rowIndex < result.diagnostics().size(); rowIndex++) {
+                var row = result.diagnostics().get(rowIndex);
+                if (!row.rawOcr().isEmpty()) {
+                    if (itemList) body.append(java.util.Objects.equals(region.selectedItem(), rowIndex) ? "▶ " : "  ");
+                    body.append(line(row)).append('\n');
+                }
             }
             body.append('\n');
-            translated.append(label);
-            if (region.selectedItem() != null) translated.append(" · 选中第 ").append(region.selectedItem() + 1).append(" 项");
-            translated.append('\n');
-            for (var unit : region.translation()) {
+            if (!itemList) {
+                translated.append(label);
+                if (region.selectedItem() != null) translated.append(" · 选中第 ").append(region.selectedItem() + 1).append(" 项");
+                translated.append('\n');
+            }
+            for (int itemIndex = 0; itemIndex < region.translation().size(); itemIndex++) {
+                var unit = region.translation().get(itemIndex);
+                if (itemList) translated.append(java.util.Objects.equals(selectedUnit, itemIndex) ? "▶ " : "  ");
                 translated.append(unit.display()).append('\n');
                 String message = switch (unit.displayStatus()) {
                     case "ready" -> "";
                     case "ready_waiting" -> "后续内容等待完整显示";
                     case "ambiguous" -> "候选译文或显示条件存在差异，保留日文";
                     case "context_required" -> "缺少连续前文，保留日文";
-                    case "variables_missing" -> "当前画面缺少译文所需变量，保留日文";
+                    case "variables_missing" -> "译文所需变量不足（玩家名可沿用已确认值），保留日文";
                     case "source_semantic_mismatch" -> "原汉化含义有误，暂时保留日文";
                     case "wait_for_semantic_unit" -> "等待语义单元完整显示";
                     case "incomplete" -> "当前文字片段尚未完整显示";
-                    case "nickname_preserved" -> "昵称与等级按原文保留";
                     case "unknown_character" -> "存在未识别字符";
                     default -> "未收录或当前片段不可翻译";
                 };
                 if (!message.isEmpty()) translated.append('〔').append(message).append("〕\n");
                 details.append("\n匹配=").append(unit.matchStatus()).append(" 显示=").append(unit.displayStatus());
-                for (var candidate : unit.candidates()) details.append("\n").append(candidate.recordId())
+                for (var candidate : unit.candidates()) {
+                    details.append("\n").append(candidate.recordId())
                         .append(" #").append(candidate.ordinal()).append("\n").append(candidate.source())
                         .append("\n变量=").append(candidate.variables()).append(" 修订=").append(candidate.revision());
+                    if (!candidate.reusedPlayerName().isEmpty())
+                        details.append("\n沿用前文玩家名=").append(candidate.reusedPlayerName());
+                }
             }
             translated.append('\n');
         }

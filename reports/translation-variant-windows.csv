@@ -1,0 +1,1003 @@
+﻿id,visible_japanese,has_variables,category,chinese_variant_count,chinese_variants,conditions,same_complete_japanese_unit,source_window_rows,source_record_count
+W001,{{PLAYER}}は,True,other_template_overlap,12,"1. {{PLAYER}}
+完好地写下了记录！
+
+2. {{PLAYER}}
+打开了电脑开关！
+
+3. {{PLAYER}}从{{RAM1}}上下来了。
+
+4. {{PLAYER}}使用了{{RAM1}}！
+
+5. {{PLAYER}}吹响了
+宝可梦之笛！
+
+6. {{PLAYER}}得到了
+{{RAM1}}！
+
+7. {{PLAYER}}找到了
+{{NUMBER1}}枚代币！
+
+8. {{PLAYER}}找到了
+{{RAM1}}！
+
+9. {{PLAYER}}正在玩
+Famicom！
+
+10. {{PLAYER}}正在玩
+Super Famicom！
+
+11. {{PLAYER}}的眼前
+一片漆黑！
+
+12. {{PLAYER}}骑上了{{RAM1}}！",ready;variables_missing,False,51,51
+W002,{{PLAYER}}は おじさんから,True,other_template_overlap,4,"1. {{PLAYER}}从叔叔那里
+得到了10枚代币！
+
+2. {{PLAYER}}从叔叔那里
+得到了20枚代币！
+
+3. {{PLAYER}}从大叔那里
+得到了{{RAM1}}！
+
+4. {{PLAYER}}从大叔那里
+得到了秘密琥珀！",ready;variables_missing,False,12,12
+W003,{{PLAYER}}は おんなのこから,True,other_template_overlap,4,"1. {{PLAYER}}从女孩那里
+得到了HM02！
+
+2. {{PLAYER}}从女孩那里
+得到了TM39！
+
+3. {{PLAYER}}从女孩那里
+得到了TM49！
+
+4. {{PLAYER}}从女孩那里
+得到了{{RAM1}}！",ready;variables_missing,False,12,12
+W004,{{PLAYER}}は オーキドから,True,other_template_overlap,2,"1. {{PLAYER}}从大木那里
+得到了{{RAM1}}！
+
+2. {{PLAYER}}从大木那里
+得到了宝可梦图鉴！",ready;variables_missing,False,6,6
+W005,{{PLAYER}}は タケシから,True,other_template_overlap,2,"1. {{PLAYER}}从小刚那里
+得到了TM34！
+
+2. {{PLAYER}}从小刚那里
+得到了灰色徽章！",ready,False,9,9
+W006,{{PLAYER}}！,True,other_template_overlap,3,"1. {{PLAYER}}！
+
+2. {{PLAYER}}！
+知道这意味着什么吗？
+
+3. {{PLAYER}}，非常遗憾，
+这事完全没有
+你出场的机会呢！",ready,False,9,9
+W007,{{RAM1}}が,True,other_template_overlap,3,"1. {{RAM1}}
+前来挑战了！
+
+2. {{RAM1}}
+扑过来了！
+
+3. {{RAM1}}依依不舍地",ready,False,9,9
+W008,{{RAM1}}との,True,other_template_overlap,2,"1. {{PLAYER}}战胜了
+{{RAM1}}！
+
+2. {{PLAYER}}输给了
+{{RAM1}}！",variables_missing,False,6,6
+W009,{{RAM1}}の,True,other_template_overlap,2,"1. {{RAM1}}的
+招式点数增加了！
+
+2. {{RAM1}}的
+灼伤治愈了！",ready,False,6,6
+W010,{{RAM1}}の からだの,True,other_template_overlap,2,"1. {{RAM1}}
+身上的冰融化了！
+
+2. {{RAM1}}
+身上的麻痹状态消除了！",ready,False,6,6
+W011,{{RAM1}}の なかは,True,other_template_overlap,2,"1. {{RAM1}}是
+“冰冻光束”哦！
+
+2. {{RAM1}}是
+“岩崩”哦！",ready,False,6,6
+W012,{{RAM1}}は,True,other_template_overlap,10,"1. {{RAM1}}
+使用了居合斩！
+
+2. {{RAM1}}
+变得健康了！
+
+3. {{RAM1}}
+恢复了活力！
+
+4. {{RAM1}}
+换下了{{RAM2}}！
+
+5. {{RAM1}}
+醒过来了！
+
+6. {{RAM1}}上升到了
+等级{{NUMBER1}}！
+
+7. {{RAM1}}使用了
+怪力。
+
+8. {{RAM1}}派出了
+{{RAM2}}！
+
+9. {{RAM1}}获得了
+{{NUMBER1}}经验值！
+
+10. {{RAM1}}送来了
+{{RAM2}}。",ready;variables_missing,False,30,30
+W013,"{{RAM1}}は
+また こんど ですね",True,other_template_overlap,3,"1. ……虽说是这么想的，
+但是行李已满了的话，
+
+{{RAM1}}
+就只能下次再给了。
+
+2. 如果还没到{{NUMBER1}}种，
+我只能以后再把
+{{RAM1}}交给你了。
+
+3. 如果还没到{{NUMBER2}}种，
+我只能以后再把
+{{RAM1}}交给你了。",ready;variables_missing,False,9,9
+W014,{{RAM1}}は {{RAM2}}を,True,other_template_overlap,2,"1. {{RAM1}}正准备派出
+{{RAM2}}。
+
+2. {{RAM1}}没有学习
+{{RAM2}}就结束了！",ready,False,6,6
+W015,{{RAM1}}は あたらしく,True,other_template_overlap,2,"1. {{RAM1}}
+想要学习{{RAM2}}！
+
+2. {{RAM1}}学会了
+{{RAM2}}！",variables_missing,False,6,6
+W016,{{RAM1}}を,True,other_template_overlap,6,"1. {{RAM1}}
+已被放生。
+
+2. 丢弃了
+{{RAM1}}。
+
+3. 决定取出{{RAM1}}！
+
+4. 要好好爱护
+{{RAM1}}哦！
+
+5. 要让宝可梦学习
+{{RAM1}}吗？
+
+6. 送来了{{RAM1}}。",ready,False,18,18
+W017,{{RIVAL}}『やりー！,True,template_same_complete_unit,2,"1. {{RIVAL}}：太棒了！
+
+2. {{RIVAL}}：真棒！",ready,True,6,6
+W018,{{SPEAKER}}『おっとっと！,True,template_same_complete_unit,2,"1. {{SPEAKER}}：哎呀呀！
+
+2. {{SPEAKER}}：哎呀！",ready,True,6,6
+W019,{{SPEAKER}}『くやしく ないもん,True,template_same_complete_unit,2,"1. {{SPEAKER}}：我不后悔。
+
+2. {{SPEAKER}}：我才没有不甘心！",ready,True,6,6
+W020,{{SPEAKER}}『つよい！,True,template_same_complete_unit,2,"1. {{SPEAKER}}：好强啊……
+
+2. {{SPEAKER}}：很厉害呢！",ready,True,6,6
+W021,{{SPEAKER}}『なかなか……,True,other_template_overlap,2,"1. {{SPEAKER}}：好厉害……
+
+2. {{SPEAKER}}：看来……
+还真是难以上手呢。",ready,False,6,6
+W022,{{SPEAKER}}『なっとく いかねえ,True,template_same_complete_unit,2,"1. {{SPEAKER}}：我不接受！
+
+2. {{SPEAKER}}：我不服！",ready,True,6,6
+W023,{{SPEAKER}}『はッ！,True,other_template_overlap,2,"1. {{SPEAKER}}：哈！
+
+2. {{SPEAKER}}：哈！哈——
+哈哈……其实……
+是我好像吃到笑菇了。",ready,False,6,6
+W024,{{SPEAKER}}『ふん……！,True,template_same_complete_unit,2,"1. {{SPEAKER}}：哼！
+
+2. {{SPEAKER}}：嗯……！",ready,True,5,5
+W025,{{SPEAKER}}『ま まいった！,True,template_same_complete_unit,2,"1. {{SPEAKER}}：我、我输了！
+
+2. {{SPEAKER}}：输、输掉了！",ready,True,5,5
+W026,{{SPEAKER}}『まいった！,True,template_same_complete_unit,3,"1. {{SPEAKER}}：唔！我输了！
+
+2. {{SPEAKER}}：我认输！
+
+3. {{SPEAKER}}：我输了！",ready,True,15,15
+W027,{{SPEAKER}}『まけちゃった,True,template_same_complete_unit,2,"1. {{SPEAKER}}：哦！输掉了！
+
+2. {{SPEAKER}}：我输了。",ready,True,6,6
+W028,{{SPEAKER}}『やるなあ,True,template_same_complete_unit,2,"1. {{SPEAKER}}：厉害。
+
+2. {{SPEAKER}}：很厉害啊。",ready,True,6,6
+W029,{{SPEAKER}}『やーん！,True,template_same_complete_unit,2,"1. {{SPEAKER}}：不要啊！
+
+2. {{SPEAKER}}：不！",ready,True,6,6
+W030,{{SPEAKER}}『わかった！,True,template_same_complete_unit,2,"1. {{SPEAKER}}：好吧！
+
+2. {{SPEAKER}}：我就知道！",ready,True,6,6
+W031,{{TARGET}}には,True,other_template_overlap,2,"1. 对于{{TARGET}}
+好像没有效果……
+
+2. 对于{{TARGET}}
+完全没有效果！",ready,False,6,6
+W032,{{TARGET}}の,True,other_template_overlap,4,"1. {{TARGET}}的
+{{RAM1}}
+大幅降低了！
+
+2. {{TARGET}}的
+{{RAM1}}降低了！
+
+3. {{TARGET}}的梦
+被吃掉了！
+
+4. 封住了{{TARGET}}
+的{{RAM1}}！",ready;variables_missing,False,12,12
+W033,{{TARGET}}は,True,other_template_overlap,8,"1. {{TARGET}}
+中剧毒了！
+
+2. {{TARGET}}
+冻住了！
+
+3. {{TARGET}}
+摆出了事不关己的表情！
+
+4. {{TARGET}}
+混乱了！
+
+5. {{TARGET}}
+睡着了！
+
+6. {{TARGET}}
+被吹飞了！
+
+7. {{TARGET}}
+被灼伤了！
+
+8. {{TARGET}}
+避开了攻击！",ready,False,22,22
+W034,{{USER}}の,True,other_template_overlap,7,"1. {{USER}}
+使出了{{RAM1}}！
+
+2. {{USER}}的
+{{RAM1}}
+大幅提高了！
+
+3. {{USER}}的
+{{RAM1}}提高了！
+
+4. {{USER}}的
+定身法解除了！
+
+5. {{USER}}的
+忍耐被解除了！
+
+6. {{USER}}的
+混乱解除了！
+
+7. 替身出现了！",ready;variables_missing,False,24,24
+W035,{{USER}}は,True,other_template_overlap,20,"1. {{USER}}
+不能动弹！
+
+2. {{USER}}
+使出了{{RAM1}}！
+
+3. {{USER}}
+受到了毒的伤害！
+
+4. {{USER}}
+受到了灼伤的伤害！
+
+5. {{USER}}
+变身成了{{RAM1}}！
+
+6. {{USER}}
+吸收了光！
+
+7. {{USER}}
+因冻住了而无法行动！
+
+8. {{USER}}
+因身体麻痹而无法行动。
+
+9. {{USER}}
+学会了{{RAM1}}！
+
+10. {{USER}}
+把头缩了进去！
+
+11. {{USER}}
+正在呼呼大睡。
+
+12. {{USER}}
+正在混乱中！
+
+13. {{USER}}
+现在干劲十足！
+
+14. {{USER}}
+睡着了！
+
+15. {{USER}}
+被白雾包围了！
+
+16. {{USER}}
+钻入了地里！
+
+17. {{USER}}
+飞向了高空！
+
+18. {{USER}}的
+物理抗性提高了！
+
+19. {{USER}}的
+特殊抗性提高了！
+
+20. {{USER}}睡着了
+并且变得精力充沛！",ready;variables_missing,False,64,64
+W036,……,False,fixed_same_complete_unit,2,"1. …
+
+2. ……",ready,True,6,6
+W037,…… …… ……,False,fixed_different_complete_units,7,"1. ……
+
+2. …… ……
+
+3. …… ……
+……尽管我不太认可。
+
+4. ………………
+
+5. ………………
+……咔咔！
+
+6. ……　……　……
+
+7. ……宝可梦调查队敬上",ready,False,27,24
+W038,…… ちょっと,False,fixed_different_complete_units,2,"1. ……
+就稍微来比试一下吧！
+
+2. 请你跟我来吧！",ready,False,6,6
+W039,"…… と おもったら
+もう ポケモンが ない",False,fixed_nonready_conditions,2,"1. {{SPEAKER}}：来啊，
+继续啊！啊……
+
+我没有宝可梦了。
+
+2. 来啊，
+继续啊！啊……
+
+我没有宝可梦了。",ready;variables_missing,False,6,6
+W040,…… なに？,False,fixed_different_complete_units,2,"1. ……什么？
+
+2. ……什么？
+你说我挡了你的路？",ready,False,4,4
+W041,"…… はははーッ！
+ゆうれい や むし くらい だぜ！",False,fixed_same_complete_unit,2,"1. 有倒是有。
+那就是幽灵属性和虫属性！
+
+2. 有倒是有。
+那就是虫属性！",ready,True,3,3
+W042,あ こら！,False,fixed_different_complete_units,2,"1. 啊，嗨呀！
+
+2. 喂！我说！不要随便闯进
+别人家的院子！",ready,False,6,6
+W043,あら！,False,fixed_different_complete_units,2,"1. 哎呀！这里只有女孩，
+我正好觉得有些无聊呢！
+
+2. 噢！",ready,False,6,6
+W044,あーッ！,False,fixed_same_complete_unit,2,"1. 啊——！
+
+2. 啊～！",ready,True,6,6
+W045,いやーん！,False,fixed_same_complete_unit,2,"1. 不！
+
+2. 哎呀～！",ready,True,6,6
+W046,いらっしゃいませ！,False,fixed_different_complete_units,2,"1. 欢迎光临
+玉虹百货公司！
+
+2. 欢迎光临！",ready,False,12,12
+W047,うーん！,False,fixed_different_complete_units,2,"1. 嗯……！
+
+2. 嗯嗯！
+多么优美的声音！",ready,False,5,5
+W048,おう おうッ！,False,fixed_same_complete_unit,2,"1. 噢、噢！
+
+2. 很好～！",ready,True,9,9
+W049,おっと……！,False,fixed_same_complete_unit,2,"1. 哎呀……！
+
+2. 哎哟……！",ready,True,6,6
+W050,おっとっと！,False,fixed_same_complete_unit,2,"1. 哎呀呀！
+
+2. 哎呀！",ready,True,6,6
+W051,おまち！！,False,fixed_same_complete_unit,2,"1. 且慢！
+
+2. 等一下！！",ready,True,2,2
+W052,おれこそは,False,fixed_different_complete_units,2,"1. 俺正是
+火箭队四兄弟之一！
+
+2. 我正是
+火箭队四兄弟之一！",ready,False,12,12
+W053,"おれこそは
+ロケット 4きょうだいの ひとり！",False,fixed_same_complete_unit,2,"1. 俺正是
+火箭队四兄弟之一！
+
+2. 我正是
+火箭队四兄弟之一！",ready,True,9,9
+W054,おれたちは,False,fixed_different_complete_units,2,"1. 我们是
+利用宝可梦做坏事的组织！
+
+2. 我们正在做重要的工作！",ready,False,6,6
+W055,おれは,False,fixed_different_complete_units,2,"1. 我住在山里很久了。
+
+2. 我正在看守这个海报！",ready,False,6,6
+W056,おれは まいにち,False,fixed_different_complete_units,2,"1. 我每天要做的工作，
+就是削土豆皮！
+
+2. 我每天要做的工作，
+就是剥洋葱皮！",ready,False,6,6
+W057,おんなのこ だからって,False,fixed_different_complete_units,2,"1. 别因为是女孩子
+就小看我呢！
+
+2. 别因为这里全都是女生
+就放松警惕了哦！",ready,False,6,6
+W058,おんなのこに,False,fixed_different_complete_units,2,"1. 不能对女生
+温柔一点吗？
+
+2. 为了能在女孩子面前
+炫耀一把，
+所以我才来到了这种地方。",ready,False,6,6
+W059,おーす！,False,fixed_same_complete_unit,3,"1. 哟！
+未来的冠军！
+
+2. 嗨～！
+未来的冠军！
+
+3. 等你很久喽！
+未来的冠军！",ready,True,21,21
+W060,"おーす！
+みらいの チャンピオン！",False,fixed_same_complete_unit,3,"1. 哟！
+未来的冠军！
+
+2. 嗨～！
+未来的冠军！
+
+3. 等你很久喽！
+未来的冠军！",ready,True,21,21
+W061,がはは！,False,fixed_same_complete_unit,2,"1. 哇哈哈！
+
+2. 哈哈哈！",ready,True,6,6
+W062,"きみの ちからを
+ためして みると いい",False,fixed_different_complete_units,2,"1. 你也很强大呢。
+要成为宝可梦训练家的话，
+我推荐你去华蓝市的道馆
+试试身手吧！
+
+2. 我推荐你也去华蓝市的道馆
+试试身手吧！",ready,False,3,3
+W063,きみも,False,fixed_different_complete_units,2,"1. 你也听说了
+关于正辉的传言吗？
+
+2. 你也是来探索洞穴的吗？",ready,False,6,6
+W064,くやしく ないもん,False,fixed_same_complete_unit,2,"1. 我不后悔。
+
+2. 我才没有不甘心！",ready,True,6,6
+W065,ここから ちかつうろ,False,fixed_different_complete_units,2,"1. 前方是地下通道
+华蓝市　……　枯叶市
+
+2. 前方是地下通道
+玉虹市　……　紫苑镇",ready,False,9,9
+W066,ここでは {{RAM1}}で,True,other_template_overlap,2,"1. {{RAM1}}
+不能在这里使用瞬间移动！
+
+2. {{RAM1}}
+不能在这里飞翔！",ready,False,6,6
+W067,ここでは どうぐを,False,fixed_same_complete_unit,2,"1. 不能在这里
+使用道具！
+
+2. 这里不能使用道具。",ready,True,6,6
+W068,"ここでは どうぐを
+つかうことは できません",False,fixed_same_complete_unit,2,"1. 不能在这里
+使用道具！
+
+2. 这里不能使用道具。",ready,True,6,6
+W069,ここは イワヤマ トンネル,False,fixed_different_complete_units,2,"1. 这里是岩山隧道
+
+2. 这里是岩山隧道
+华蓝市　……　紫苑镇",ready,False,6,6
+W070,この あたりは,False,fixed_different_complete_units,3,"1. 你在这里捉到的宝可梦，
+和你在森林里捉到的
+可不一样哦！
+
+2. 这一带是我们的地盘！
+
+3. 这一带的
+建筑物比较少，
+我们经常到这里聚集！",ready,False,9,9
+W071,こんちわ！,False,fixed_same_complete_unit,2,"1. 你好！
+
+2. 您好！",ready,True,6,6
+W072,こんな うでまえじゃ,False,fixed_nonready_conditions,2,"1. {{RIVAL}}：我说你啊，
+就只有这两下吗？
+
+2. {{SPEAKER}}：{{RIVAL}}：我说你啊，
+就只有这两下吗？",variables_missing,False,6,6
+W073,"こんな うでまえじゃ
+まだまだ……",False,fixed_nonready_conditions,2,"1. {{RIVAL}}：我说你啊，
+就只有这两下吗？
+
+还差得远呢……
+你这样根本就
+算不上是男子汉啊！
+
+2. {{SPEAKER}}：{{RIVAL}}：我说你啊，
+就只有这两下吗？
+
+还差得远呢……
+你这样根本就
+算不上是男子汉啊！",variables_missing,False,6,6
+W074,しかし {{PLAYER}}は,True,other_template_overlap,2,"1. 但是，{{PLAYER}}
+已经拿不下道具了！
+
+2. 哎呀！
+有一些代币掉了出来！",ready,False,6,6
+W075,しかし {{USER}}の,True,other_template_overlap,2,"1. {{USER}}的
+攻击失误了！
+
+2. {{USER}}的
+替身已经出现了！",ready,False,6,6
+W076,しかし こうかが なかった！,False,fixed_same_complete_unit,2,"1. 但是，什么也没有发生！
+
+2. 但是，没有效果！",ready,True,3,3
+W077,しかし なにもおこらない,False,fixed_same_complete_unit,2,"1. 但是，什么也没有发生！
+
+2. 但是，没有效果！",ready,True,3,3
+W078,すべての,False,fixed_different_complete_units,4,"1. 所有的
+宝可梦的攻击力
+都会提高少许。
+
+2. 所有的
+宝可梦的特殊能力
+都会提高少许。
+
+3. 所有的
+宝可梦的速度
+都会提高少许。
+
+4. 所有的
+宝可梦的防御力
+都会提高少许。",ready,False,12,12
+W079,そうか,False,fixed_different_complete_units,2,"1. 是吗？
+你想见我们老大？
+
+2. 这样啊。
+知道了，你有空再来吧。",ready,False,5,5
+W080,そうか！,False,fixed_same_complete_unit,2,"1. 是吗！
+
+2. 果然是吧！",ready,True,12,12
+W081,そうだ！,False,fixed_different_complete_units,4,"1. 对了！
+
+2. 对啊！虽然不能亲自展示，
+但我可以把这个给你啊！
+
+3. 这样吧！
+
+4. 这样吧！你能不能
+替我照料这只妙蛙种子呢？",ready,False,11,11
+W082,それでは,False,fixed_different_complete_units,3,"1. 那么这个就送给你了！
+
+2. 那么，
+就交给我吧！
+
+3. 那么，你有什么
+想要培育的宝可梦吗？",ready,False,9,9
+W083,そんな……,False,fixed_different_complete_units,2,"1. 怎么会这样……
+课本上没有写呢。
+
+2. 是吗……",ready,False,4,4
+W084,たたかい おわっても,False,fixed_different_complete_units,3,"1. 在战斗结束之后
+毒素也会残留。
+
+2. 在战斗结束之后
+灼伤也会残留。
+
+3. 就算战斗结束，
+也会依然处于麻痹状态。",ready,False,9,9
+W085,"たたかって いない ときでも
+つかえるように なります",False,fixed_different_complete_units,5,"1. 此外，招式“冲浪”
+在战斗以外的时候
+好像也可以使用了。
+
+2. 此外，招式“居合斩”
+在战斗以外的时候
+好像也可以使用了。
+
+3. 此外，招式“怪力”
+在战斗以外的时候
+好像也可以使用了。
+
+4. 此外，招式“闪光”
+在战斗以外的时候
+好像也可以使用了。
+
+5. 此外，招式“飞翔”
+在战斗以外的时候
+好像也可以使用了。",ready,False,15,15
+W086,たまに あいてを,False,fixed_different_complete_units,3,"1. 它有时可以让对方
+害怕哦！
+
+2. 它有时可以让对方
+陷入冰冻状态！
+
+3. 有时可以让对方
+陷入麻痹状态呢。",ready,False,8,8
+W087,っせーな！,False,fixed_same_complete_unit,2,"1. 你烦不烦啊！
+
+2. 烦不烦啊！",ready,True,6,6
+W088,つよい！,False,fixed_same_complete_unit,2,"1. 好强啊……
+
+2. 很厉害呢！",ready,True,6,6
+W089,でんどうドアの,False,fixed_different_complete_units,2,"1. 电动门
+第１道锁已被解除！
+
+2. 电动门
+第２道锁已被解除！",ready,False,6,6
+W090,"とくせいの モンスターボールじゃ
+どうも ありがとよ！",False,fixed_nonready_conditions,2,"1. 哦哦！这不是
+我预订的特殊精灵球嘛。
+真是谢谢你了！
+
+2. 哦哦！这不是
+我预订的特殊精灵球嘛。
+真是谢谢你了，
+{{PLAYER}}！",ready;variables_missing,True,3,3
+W091,ともだちと こうかん した,False,fixed_different_complete_units,2,"1. 就算不喜欢和朋友交换来的
+宝可梦的昵称也没办法……
+
+2. 我就用和朋友交换来的
+宝可梦与你决胜负吧！",ready,False,6,6
+W092,どうぐが いっぱいです,False,fixed_different_complete_units,2,"1. 道具太多，
+已经寄放不下了！
+
+2. 道具太多，
+已经拿不下了！",ready,False,6,6
+W093,どの ポケモンを,False,fixed_different_complete_units,2,"1. 要寄放哪只
+宝可梦？
+
+2. 要放生哪只宝可梦？",ready,False,6,6
+W094,なかなか……,False,fixed_different_complete_units,3,"1. 好厉害……
+
+2. 我还没有……
+那么大的度量吗。
+
+3. 看来……
+还真是难以上手呢。",ready,False,9,9
+W095,なっとく いかねえ,False,fixed_same_complete_unit,2,"1. 我不接受！
+
+2. 我不服！",ready,True,6,6
+W096,にもつが いっぱいだ,False,fixed_same_complete_unit,2,"1. 行李已满了。
+
+2. 行李已满了！",ready,True,8,8
+W097,ねえ この みせの うれすじは,False,fixed_different_complete_units,2,"1. 他们说，解麻药是
+这家店的畅销货呢！
+
+2. 这个商店，
+有好多解毒药啊！",ready,False,3,3
+W098,はい どうぞ,False,fixed_different_complete_units,2,"1. 请拿好。
+谢谢惠顾。
+
+2. 请拿好！",ready,False,6,6
+W099,はい はい！,False,fixed_same_complete_unit,2,"1. 嗨、嗨！
+
+2. 好了好了！",ready,True,6,6
+W100,はっはっはーッ！,False,fixed_different_complete_units,2,"1. 哈哈哈！
+
+2. 哈哈哈！登山男的心胸
+可是很豁达的。
+就算是输了也会笑！",ready,False,6,6
+W101,はッ！,False,fixed_different_complete_units,2,"1. 哈！
+
+2. 哈！哈——
+哈哈……其实……
+是我好像吃到笑菇了。",ready,False,6,6
+W102,はーっはっはッ！,False,fixed_same_complete_unit,2,"1. 哈哈哈哈！
+
+2. 哈哈哈！",ready,True,9,9
+W103,"はーッ ははッ……！ じつは……
+わらい キノコ たべて しまってな",False,fixed_nonready_conditions,2,"1. {{SPEAKER}}：哈！哈——
+哈哈……其实……
+是我好像吃到笑菇了。
+
+2. 哈！哈——
+哈哈……其实……
+是我好像吃到笑菇了。",ready;variables_missing,False,6,6
+W104,"ばあいじゃ なかった
+でぐちは どっち だっけ？",False,fixed_nonready_conditions,2,"1. {{SPEAKER}}：刚才就不应该
+和你战斗的。出口在哪呢？
+
+2. 刚才就不应该
+和你战斗的。出口在哪呢？",ready;variables_missing,False,6,6
+W105,ふん……！,False,fixed_same_complete_unit,2,"1. 哼！
+
+2. 嗯……！",ready,True,8,8
+W106,ぶるぶる……,False,fixed_different_complete_units,2,"1. 哆了个嗦……
+我的神啊救救我吧……
+
+2. 好可怕……",ready,False,6,6
+W107,ほっほう！,False,fixed_different_complete_units,3,"1. 呵呵！
+
+2. 嚯嚯！
+
+3. 如果你在收集图鉴的话，
+我就给你个建议好了！",ready,False,6,6
+W108,ほれ {{PLAYER}}！,True,other_template_overlap,2,"1. 快看，{{PLAYER}}！
+
+2. 快看，{{PLAYER}}！
+那边有个圆圆的小球对吧？",ready,False,3,3
+W109,"ほんとに くたばっちまったぞ！
+よわいなー！",False,fixed_nonready_conditions,2,"1. {{RIVAL}}：
+啊——啊……！
+全都给我去死吧！
+
+太弱了啊——！
+
+2. {{SPEAKER}}：{{RIVAL}}：
+啊——啊……！
+全都给我去死吧！
+
+太弱了啊——！",variables_missing,False,6,6
+W110,ま まいった！,False,fixed_same_complete_unit,2,"1. 我、我输了！
+
+2. 输、输掉了！",ready,True,5,5
+W111,まあ いい,False,fixed_different_complete_units,3,"1. 算了。
+哥哥会替我报仇的。
+
+2. 算了。
+弟弟会替我报仇的。
+
+3. 算了。
+我会让哥哥会替我报仇的。",ready,False,12,12
+W112,まいった！,False,fixed_same_complete_unit,3,"1. 唔！我输了！
+
+2. 我认输！
+
+3. 我输了！",ready,True,15,15
+W113,まけちゃった,False,fixed_same_complete_unit,2,"1. 哦！输掉了！
+
+2. 我输了。",ready,True,6,6
+W114,"みず タイプ ポケモンで せめて
+せめて ……せめまくる ことよ！",False,fixed_same_complete_unit,2,"1. 派出我的水属性宝可梦，
+痛扁痛扁……
+痛扁到底哦！
+
+2. 派出我的水属性宝可梦，
+痛扁痛扁……痛扁到底哦！",ready,True,3,3
+W115,めずらしい こだい ポケモン,False,fixed_different_complete_units,2,"1. 罕见的古代宝可梦
+化石翼龙的化石
+
+2. 罕见的古代宝可梦
+镰刀盔的化石",ready,False,6,6
+W116,もう しぬほど,False,fixed_same_complete_unit,2,"1. 热爱钓鱼，
+至死方休。
+
+2. 热爱钓鱼，
+至死方休！",ready,True,6,6
+W117,"もう しぬほど
+つりが すき なんだが",False,fixed_same_complete_unit,2,"1. 热爱钓鱼，
+至死方休。
+
+2. 热爱钓鱼，
+至死方休！",ready,True,6,6
+W118,もちものが いっぱいだ,False,fixed_same_complete_unit,2,"1. 你已经拿不下了！
+
+2. 持有物已满了。",ready,True,9,9
+W119,やせいの{{RAM1}}は,True,other_template_overlap,2,"1. 野生的{{RAM1}}
+正在吃诱饵！
+
+2. 野生的{{RAM1}}
+生气了！",ready,False,6,6
+W120,やるなあ,False,fixed_same_complete_unit,2,"1. 厉害。
+
+2. 很厉害啊。",ready,True,6,6
+W121,やー やー {{PLAYER}}くん！,True,template_same_complete_unit,2,"1. 哎呀，{{PLAYER}}！
+
+2. 那啥～说你呢～
+
+{{PLAYER}}啊！",ready,True,4,4
+W122,やーん！,False,fixed_same_complete_unit,3,"1. 不要啊！
+
+2. 不！
+
+3. 哎呀～！",ready,True,9,9
+W123,ようこそ サント·アンヌ ごうへ！,False,fixed_same_complete_unit,2,"1. 欢迎乘坐
+圣特安努号！
+
+2. 欢迎您搭乘
+圣特安努号！",ready,True,6,6
+W124,わかった！,False,fixed_same_complete_unit,2,"1. 好吧！
+
+2. 我就知道！",ready,True,6,6
+W125,わざマシンは,False,fixed_different_complete_units,2,"1. 在玉虹百货公司可以
+买到招式学习器哦！
+
+2. 招式学习器
+一共有５０种！",ready,False,6,6
+W126,わたしは,False,fixed_different_complete_units,5,"1. 我是个大方的人，
+你想要什么我都可以给你。
+
+2. 我永远都会记得，
+在最危急的时候，
+是你勇敢地帮助了我！
+
+3. 我自己，
+则决定从头开始
+宝可梦的修行！
+
+4. 我至今都没有赢过……
+
+5. 比起西尔佛公司，
+我更愿意支持火箭队！",ready,False,15,12
+W127,アイテムの おかいもとめは,False,fixed_same_complete_unit,2,"1. 更多精彩商品，
+玉虹百货公司
+欢迎您的光临！
+
+2. 购买道具，
+请认准玉虹百货公司！",ready,True,6,6
+W128,"アイテムの おかいもとめは
+タマムシ デパートで どうぞ！",False,fixed_same_complete_unit,2,"1. 更多精彩商品，
+玉虹百货公司
+欢迎您的光临！
+
+2. 购买道具，
+请认准玉虹百货公司！",ready,True,6,6
+W129,アナウンス『ピンポーン！,False,fixed_same_complete_unit,2,"1. 广播：叮咚～
+
+2. 广播：叮咚～！",ready,True,6,6
+W130,ウオースッ！,False,fixed_same_complete_unit,2,"1. 你好！
+
+2. 呜哦——！",ready,True,6,6
+W131,"ガサゴソ……！
+おっと！ ゴミばこの そこに",False,fixed_different_complete_units,2,"1. 我翻我翻……！
+嘿哟！垃圾箱底
+又有一个开关！
+
+2. 我翻我翻……！
+嘿哟！垃圾箱底
+有一个开关！",ready,False,6,6
+W132,コインを,False,fixed_different_complete_units,2,"1. 您在这里可以用代币
+兑换成精美奖品！
+
+2. 要投
+多少枚代币？",ready,False,6,6
+W133,サイクりング ロード,False,fixed_different_complete_units,2,"1. 自行车道
+……　坡道到此为止！
+
+2. 自行车道
+从这里开始上坡。",ready,False,6,6
+W134,サイクりング ロードは,False,fixed_different_complete_units,3,"1. 步行通过自行车道
+是很危险的！
+
+2. 自行车道上掉落的东西
+也很多的！
+
+3. 自行车道是一条
+穿过海的坡道！",ready,False,9,9
+W135,タマムシ マンション,False,fixed_different_complete_units,2,"1. 玉虹大厦
+
+2. 玉虹大厦
+……管理员室",ready,False,6,6
+W136,チェストー！,False,fixed_same_complete_unit,2,"1. 厉害！
+
+2. 嘿呀！",ready,True,6,6
+W137,"ハナダ シティの ジムにも いき
+きみの ちからを",False,fixed_different_complete_units,2,"1. 你也很强大呢。
+要成为宝可梦训练家的话，
+我推荐你去华蓝市的道馆
+试试身手吧！
+
+2. 我推荐你也去华蓝市的道馆
+试试身手吧！",ready,False,3,3
+W138,パソコンつうしんで,False,fixed_nonready_conditions,2,"1. 从电脑里取出了
+{{RAM1}}。
+
+2. 已将{{RAM1}}
+寄放到电脑中。",variables_missing,False,6,6
+W139,ポケモン ずかん,False,fixed_different_complete_units,2,"1. 制作什么宝可梦图鉴，
+在我看来完全是一种错误！
+
+2. 呼叫了
+宝可梦图鉴评价系统！",ready,False,6,6
+W140,ポケモン りーグ にんてい,False,fixed_different_complete_units,2,"1. 只有宝可梦联盟认证的冠军
+才有资格进入这个洞窟。
+
+2. 宝可梦联盟认定徽章，
+一共有９个？",ready,False,6,6
+W141,ポケモンが,False,fixed_different_complete_units,3,"1. 宝可梦会
+会变得十分大力，
+在战斗以外的时候
+变得能够推动岩石！
+
+2. 宝可梦肯不肯听话，
+完全取决于训练家的
+能力啊。
+
+3. 让宝可梦学会闪光的话，
+就能通过岩山隧道了呢。",ready,False,9,9
+W142,ポケモンの のうりょくを あげる,False,fixed_different_complete_units,2,"1. 我是来买
+提高宝可梦能力的物品的！
+
+2. 提高宝可梦能力的物品
+只有在这里才能买到。",ready,False,6,6
+W143,ポケモンは,False,fixed_different_complete_units,3,"1. 你知道宝可梦会和
+饲主长得越来越像吗？
+
+2. 宝可梦可是
+我忠实的部下！
+
+3. 用精灵球
+可以捕捉到宝可梦。",ready,False,9,9
+W144,ポケモンを つかまえる ときは,False,fixed_different_complete_units,2,"1. 在捕捉宝可梦之前
+先削弱它们的体力吧！
+
+2. 捕捉宝可梦时，
+首先要做的就是削弱它们！",ready,False,6,6
+W145,マサキ にいちゃん,False,fixed_different_complete_units,2,"1. 正辉哥哥
+将自己收集的宝可梦
+资料放在他的电脑里哦！
+
+2. 正辉哥哥
+有好多宝可梦呢！",ready,False,6,6
+W146,"ムキに なっちゃって！
+…… わかった わかった！",False,fixed_nonready_conditions,2,"1. {{SPEAKER}}：
+什么情况啊！真让人不爽！
+我知道了呐！
+
+2. 什么情况啊！真让人不爽！
+我知道了呐！",ready;variables_missing,False,6,6
+W147,モンスターボールだ,False,fixed_same_complete_unit,2,"1. 是精灵球。
+里面装有宝可梦！
+
+2. 是精灵球。
+里面装着宝可梦哦！",ready,True,3,3
+W148,"モンスターボールだ
+なかに ポケモンが はいってるぞ！",False,fixed_same_complete_unit,2,"1. 是精灵球。
+里面装有宝可梦！
+
+2. 是精灵球。
+里面装着宝可梦哦！",ready,True,3,3
+W149,モンスターボールを,False,fixed_different_complete_units,2,"1. “嗖”地一下丢出
+精灵球来捕获它吧！
+
+2. 要让你的宝可梦
+休息一下吗？",ready,False,5,5
+W150,ロケットだんに,False,fixed_different_complete_units,3,"1. 为你自身着想，我劝你
+还是不要和火箭队为敌。
+
+2. 你竟敢
+反抗我们火箭队！
+
+3. 你这家伙
+竟敢潜入火箭队。",ready,False,8,8
+W151,ロケットだんは,False,fixed_different_complete_units,2,"1. 火箭队将与西尔佛公司
+携手合作！
+
+2. 火箭队是想要
+利用宝可梦征服世界啊。",ready,False,6,6
+W152,！,False,fixed_same_complete_unit,2,"1. 宝可梦第一世代
+红蓝绿/黄 汉化人员名单
+
+程序：
+星夜之幻、TomJinW
+
+翻译：吃馍法师、
+无敌阿尔宙斯、夜灵的天空
+
+汉化工具：robertking
+TomJinW
+
+美工：
+卧看微尘、小光
+
+测试：无敌阿尔宙斯、小光
+NELO, SYLVEON
+colorcat
+
+请勿将汉化用于商业用途
+若付费购买请联系退款！
+
+2. ！",ready,True,12,12

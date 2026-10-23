@@ -1,0 +1,565 @@
+{
+  "date": "2026-10-22",
+  "method": "static_generated_corpus_comparison_and_compile_package; not_application_or_OCR_execution",
+  "approval": {
+    "text": "除了042，其他的我认为都可以按你的建议进行合并",
+    "approvedIds": [
+      "T001",
+      "T002",
+      "T003",
+      "T004",
+      "T005",
+      "T006",
+      "T007",
+      "T008",
+      "T009",
+      "T010",
+      "T011",
+      "T012",
+      "T013",
+      "T014",
+      "T015",
+      "T016",
+      "T017",
+      "T018",
+      "T019",
+      "T020",
+      "T021",
+      "T022",
+      "T023",
+      "T024",
+      "T025",
+      "T026",
+      "T027",
+      "T028",
+      "T029",
+      "T030",
+      "T031",
+      "T032",
+      "T033",
+      "T034",
+      "T035",
+      "T036",
+      "T037",
+      "T038",
+      "T039",
+      "T040",
+      "T041"
+    ],
+    "excludedIds": [
+      "T042"
+    ],
+    "reviewSource": "reports/translation-merge-review.csv",
+    "status": "user_approved_applied"
+  },
+  "summary": {
+    "approvedTexts": 41,
+    "coveredBaseRecords": 273,
+    "changedBaseRecords": 133,
+    "changedDerivedTrainerEndRecords": 55,
+    "changedRuntimeRecords": 188,
+    "newRevisionRows": 133,
+    "previousRevisionRowsPreserved": 23,
+    "totalRevisionRows": 156,
+    "segmentationDecisions": 1332,
+    "records": 10187,
+    "segments": 15700,
+    "fragments": 23939,
+    "unifiedSavedWindowKeys": 57,
+    "preservedT042SourceRecords": 12
+  },
+  "staticChecks": {
+    "record_ids_and_count_preserved": true,
+    "only_expected_188_record_texts_changed": true,
+    "all_source_and_japanese_fields_preserved": true,
+    "all_273_approved_ranges_equal_suggestions": true,
+    "segment_ids_and_japanese_boundaries_preserved": true,
+    "nonapproved_segment_texts_preserved": true,
+    "all_aligned_segment_slices_valid": true,
+    "fragment_keys_japanese_status_conditions_preserved": true,
+    "nonchanged_record_fragments_preserved": true,
+    "t042_all_12_records_preserved": true,
+    "t042_segments_and_fragments_preserved": true,
+    "all_57_saved_window_chinese_variants_unified": true,
+    "revision_original_text_preserved": true,
+    "all_23_previous_revisions_preserved": true,
+    "133_new_user_approved_revisions": true,
+    "jar_corpus_and_font_match_workspace": true,
+    "jar_excludes_test_answers": true,
+    "build_succeeded_tests_skipped": true
+  },
+  "packagedResourceChecks": {
+    "corpus/control_rules.csv": true,
+    "corpus/fragments.csv": true,
+    "corpus/README.md": true,
+    "corpus/records.csv": true,
+    "corpus/segments.csv": true,
+    "corpus/slot_rules.csv": true,
+    "corpus/sources.csv": true,
+    "corpus/variables.csv": true,
+    "font.tsv": true
+  },
+  "derivedExplanation": "TrainerEnd compositions are regenerated after approved base revisions; original speaker prefix, sources and semantic boundaries are preserved.",
+  "metadataOnlyChanges": "Explicit saved decisions and replacement representative records update segmentation provenance; 39 unchanged-text source records become semantic_segmented and 57 unchanged-text segments receive provenance metadata updates. Their displayed text, boundaries and fragment states do not change.",
+  "limitations": [
+    "57 saved-window consensuses are static data checks, not runtime test results.",
+    "Original differing-content prefixes, variables, partial characters and T042 remain subject to normal ambiguity handling.",
+    "Current image-wide Chinese counts and runtime results have not been rerun.",
+    "Review CSV remains the pre-approval proposal snapshot; approval and application states are recorded in this report and revision metadata."
+  ],
+  "dynamicTestsRun": false,
+  "applicationStarted": false,
+  "realDeviceAcceptanceRun": false,
+  "build": {
+    "log": "output/build-translation-merge.log",
+    "result": "success",
+    "testsSkipped": true,
+    "jar": "target/g1-ocr-0.3.0.jar",
+    "bytes": 15747066,
+    "sha256": "7445f656ab77ebb597f1ae273f409ec78f7ddf540cadc01487f8fe104943d026"
+  },
+  "sha256": {
+    "src/main/resources/corpus/records.csv": "d01c270fb13b8593951c76f38b63e3ae0760569db490f83816e5e36bad0bff62",
+    "src/main/resources/corpus/fragments.csv": "6b461245b4a424e2ef7d8a2ba00b11af6f5ce7c4d48340c7e3333801731c5644",
+    "src/main/resources/corpus/segments.csv": "e3a44cb96dda1822d517e9523288fb28aca09676e9ae65e128a18d333066d5de",
+    "src/main/resources/corpus/slot_rules.csv": "b29015748f9cb4f27109fd7f914cc23cca9223181f90de8cd2c92dfdd4b2a7ad",
+    "tools/text_translation_revisions.csv": "11dce1c3d9781986024a8bc2658b33ccc3a0e8bcde5c34539c2d565c9ed7d21e",
+    "tools/text_segmentation.csv": "ce8b26ecea4e1105736c8c390929aa394248cc3ded778e4f0e999390eebb72e2",
+    "src/test/resources/chinese-cases.json": "236176d5c48fcfae8d6dc36a0c2d86ad27a56bfd90223eb880e85207f3e67d6b",
+    "reports/translation-merge-review.csv": "30e5adafaaf0d94e6fc8f17e742a1b9a8226c845e8dc00efdc485aaa0fb1faf9",
+    "src/main/resources/corpus/README.md": "7c8950adc58179ec9342e9876a5e2dd8a9907e9a706ef4e49158a100abed530e"
+  },
+  "baselineSha256": {
+    "src/main/resources/corpus/records.csv": "6fe6185718c5821a115257ba6e2d13b5f7c806a5c10d76fcf38daa71e97c3430",
+    "src/main/resources/corpus/fragments.csv": "351b9957dfb5e01ba2d113e9b8fbafb14af245349ec67ecb8e338d8d64a27c9f",
+    "src/main/resources/corpus/segments.csv": "a581a3d18c0e7ab379721a3febcd211136a71d352751bde585825650540ab6c0"
+  },
+  "groups": [
+    {
+      "id": "T001",
+      "decision": "A",
+      "chinese": "{{RIVAL}}：太棒了！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W017"
+      ]
+    },
+    {
+      "id": "T002",
+      "decision": "A",
+      "chinese": "……",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W036"
+      ]
+    },
+    {
+      "id": "T003",
+      "decision": "B",
+      "chinese": "有倒是有。\n那就是幽灵属性和虫属性！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 3,
+      "windowIds": [
+        "W041"
+      ]
+    },
+    {
+      "id": "T004",
+      "decision": "A",
+      "chinese": "啊——！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W044"
+      ]
+    },
+    {
+      "id": "T005",
+      "decision": "A",
+      "chinese": "哎呀～！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W045"
+      ]
+    },
+    {
+      "id": "T006",
+      "decision": "A",
+      "chinese": "噢、噢！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 9,
+      "windowIds": [
+        "W048"
+      ]
+    },
+    {
+      "id": "T007",
+      "decision": "A",
+      "chinese": "哎呀……！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W049"
+      ]
+    },
+    {
+      "id": "T008",
+      "decision": "A",
+      "chinese": "哎呀呀！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W018",
+        "W050"
+      ]
+    },
+    {
+      "id": "T009",
+      "decision": "A",
+      "chinese": "等一下！！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 2,
+      "windowIds": [
+        "W051"
+      ]
+    },
+    {
+      "id": "T010",
+      "decision": "A",
+      "chinese": "我正是\n火箭队四兄弟之一！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 9,
+      "windowIds": [
+        "W053"
+      ]
+    },
+    {
+      "id": "T011",
+      "decision": "B",
+      "chinese": "嗨～！\n未来的冠军！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 21,
+      "windowIds": [
+        "W059",
+        "W060"
+      ]
+    },
+    {
+      "id": "T012",
+      "decision": "A",
+      "chinese": "哈哈哈！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W061"
+      ]
+    },
+    {
+      "id": "T013",
+      "decision": "B",
+      "chinese": "我才没有不甘心！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W019",
+        "W064"
+      ]
+    },
+    {
+      "id": "T014",
+      "decision": "A",
+      "chinese": "这里不能使用道具。",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W067",
+        "W068"
+      ]
+    },
+    {
+      "id": "T015",
+      "decision": "A",
+      "chinese": "你好！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W071"
+      ]
+    },
+    {
+      "id": "T016",
+      "decision": "B",
+      "chinese": "但是，没有效果！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 3,
+      "windowIds": [
+        "W076"
+      ]
+    },
+    {
+      "id": "T017",
+      "decision": "B",
+      "chinese": "但是，什么也没有发生！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 3,
+      "windowIds": [
+        "W077"
+      ]
+    },
+    {
+      "id": "T018",
+      "decision": "A",
+      "chinese": "是吗！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 12,
+      "windowIds": [
+        "W080"
+      ]
+    },
+    {
+      "id": "T019",
+      "decision": "A",
+      "chinese": "烦不烦啊！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W087"
+      ]
+    },
+    {
+      "id": "T020",
+      "decision": "A",
+      "chinese": "很厉害呢！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W020",
+        "W088"
+      ]
+    },
+    {
+      "id": "T021",
+      "decision": "A",
+      "chinese": "我不服！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W022",
+        "W095"
+      ]
+    },
+    {
+      "id": "T022",
+      "decision": "A",
+      "chinese": "行李已满了！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 8,
+      "windowIds": [
+        "W096"
+      ]
+    },
+    {
+      "id": "T023",
+      "decision": "C",
+      "chinese": "好、好！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W099"
+      ]
+    },
+    {
+      "id": "T024",
+      "decision": "A",
+      "chinese": "哈哈哈！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 9,
+      "windowIds": [
+        "W102"
+      ]
+    },
+    {
+      "id": "T025",
+      "decision": "A",
+      "chinese": "哼！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 8,
+      "windowIds": [
+        "W024",
+        "W105"
+      ]
+    },
+    {
+      "id": "T026",
+      "decision": "A",
+      "chinese": "我、我输了！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 5,
+      "windowIds": [
+        "W025",
+        "W110"
+      ]
+    },
+    {
+      "id": "T027",
+      "decision": "A",
+      "chinese": "我输了！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 15,
+      "windowIds": [
+        "W026",
+        "W112"
+      ]
+    },
+    {
+      "id": "T028",
+      "decision": "A",
+      "chinese": "我输了。",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W027",
+        "W113"
+      ]
+    },
+    {
+      "id": "T029",
+      "decision": "A",
+      "chinese": "派出我的水属性宝可梦，\n痛扁痛扁……痛扁到底哦！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 3,
+      "windowIds": [
+        "W114"
+      ]
+    },
+    {
+      "id": "T030",
+      "decision": "A",
+      "chinese": "热爱钓鱼，\n至死方休！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W116",
+        "W117"
+      ]
+    },
+    {
+      "id": "T031",
+      "decision": "A",
+      "chinese": "持有物已满了。",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 9,
+      "windowIds": [
+        "W118"
+      ]
+    },
+    {
+      "id": "T032",
+      "decision": "A",
+      "chinese": "很厉害啊。",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W028",
+        "W120"
+      ]
+    },
+    {
+      "id": "T033",
+      "decision": "A",
+      "chinese": "哎呀，{{PLAYER}}！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 4,
+      "windowIds": [
+        "W121"
+      ]
+    },
+    {
+      "id": "T034",
+      "decision": "A",
+      "chinese": "哎呀～！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 9,
+      "windowIds": [
+        "W029",
+        "W122"
+      ]
+    },
+    {
+      "id": "T035",
+      "decision": "A",
+      "chinese": "欢迎您搭乘\n圣特安努号！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W123"
+      ]
+    },
+    {
+      "id": "T036",
+      "decision": "C",
+      "chinese": "明白了！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W030",
+        "W124"
+      ]
+    },
+    {
+      "id": "T037",
+      "decision": "B",
+      "chinese": "购买道具，\n请认准玉虹百货公司！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W127",
+        "W128"
+      ]
+    },
+    {
+      "id": "T038",
+      "decision": "A",
+      "chinese": "广播：叮咚～！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W129"
+      ]
+    },
+    {
+      "id": "T039",
+      "decision": "B",
+      "chinese": "呜哦——！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W130"
+      ]
+    },
+    {
+      "id": "T040",
+      "decision": "B",
+      "chinese": "嘿呀！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 6,
+      "windowIds": [
+        "W136"
+      ]
+    },
+    {
+      "id": "T041",
+      "decision": "A",
+      "chinese": "是精灵球。\n里面装着宝可梦哦！",
+      "approvalStatus": "user_approved_applied",
+      "coveredBaseRecords": 3,
+      "windowIds": [
+        "W147",
+        "W148"
+      ]
+    }
+  ]
+}

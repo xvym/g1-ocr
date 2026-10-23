@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "annotation_version": 4,
+  "annotation_version": 5,
   "revision_note": "模型直接回看原图：版本 2 为 g1-006、g1-007 补回「なんに」的「ん」；版本 3 将 g1-015 的「ねえ！」改为可见的「わあ！」，为 g1-088 的「つよくなる！」补回句尾「！」；版本 4 为 g1-102 第二行补回可见的「ポケモンの 」。不表示人工复核。",
   "annotation_method": "model_visual_transcription_from_supplied_images",
   "annotation_scope": "six_target_regions_visible_japanese",
@@ -236,6 +236,17 @@
       "expected_no_target_text": false,
       "regions": [
         {
+          "region_id": "r2",
+          "type": "shop_items",
+          "lines": [
+            "ハイパーボール 1200円",
+            "スーパーボール 600円",
+            "かいふくのくすり3000円",
+            "まんたんのくすり2500円"
+          ],
+          "selected_row": 0
+        },
+        {
           "region_id": "r1",
           "type": "dialogue",
           "lines": [
@@ -244,7 +255,7 @@
         }
       ],
       "notes": [
-        "已知商店购买列表、价格、金额及操作菜单属于专门布局的范围外内容；底部主对话仍是目标。"
+        "2026-10-22 用户要求加入商店购买列表；模型回看原图补录商品/价格及选中行，原底部对话不改；余额和被遮挡操作菜单仍在范围外。"
       ],
       "uncertainties": []
     },

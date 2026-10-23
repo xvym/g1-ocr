@@ -422,6 +422,29 @@ def add_fixed_words(jp, zh, games, replacements, all_records, all_fragments):
     append('SafariMenu.Bait','エサをなげる',bait,filename,0,'诱饵')
     append('SafariMenu.Rock','いしをなげる',rock,filename,0,'石块')
 
+    # Pair preset names by the PLAYER/RIVAL menu slot, not dialogue order.
+    filename='constants/player_constants.asm'
+    jsource=(SOURCES/jp/filename).read_text(encoding='utf-8')
+    zsource=(SOURCES/zh/'src/data/player_names.asm').read_text(encoding='utf-8')
+    game={'pokegreen':'RED','pokeblue':'BLUE','pokeyellow-jp':'YELLOW'}[jp]
+    if jp=='pokegreen':
+        jsource=re.search(r'IF DEF\(_RED\)(.*?)ENDC',jsource,re.S)[1]
+    if zh=='pokeredCHS-rgb':
+        zsource=re.search(r'IF DEF\(_'+game+r'\)(.*?)ENDC',zsource,re.S)[1]
+    for role,menu in [('PLAYER','Player'),('RIVAL','Rival')]:
+        names=dict(re.findall(r'DEF ('+role+r'NAME\d) EQUS "([^"]+)"',jsource))
+        block=re.search(r'DefaultNames'+menu+r':\n((?:\t[^\n]*\n)+)',zsource)[1]
+        for n,en in enumerate(re.findall(r'\bnext "([^"]+)"',block),1):
+            symbol=f'{role}NAME{n}'
+            ja=names[symbol]
+            ln=next(i for i,line in enumerate((SOURCES/jp/filename).read_text(encoding='utf-8').splitlines(),1)
+                    if f'DEF {symbol} EQUS "{ja}"' in line)
+            p=next(p for p in replacements if p['file']=='data/player_names.asm' and p['original']=='"'+en+'"')
+            append('DefaultName.'+symbol,ja,p,filename,ln)
+            all_records[-1].update(method='preset_name_menu_role_and_slot',
+                evidence=packed(dict(japanese_constant=symbol,menu='DefaultNames'+menu,slot=n,
+                                     chinese_build=game,original_english=en,source_file='data/player_names.asm')))
+
 
 def add_compositions(jp, all_records, all_fragments):
     """The game's small, explicit battle-text continuations, not an ASM VM."""
@@ -674,7 +697,8 @@ def segment_corpus(records, fragments):
         by_record[record['id']] = current
 
     for fragment in fragments:
-        fragment.update(semantic_segment_ordinals='[]', context_start_ordinal='', waiting_for_ordinal='')
+        fragment.update(semantic_segment_ordinals='[]', context_start_ordinal='', waiting_for_ordinal='',
+                        display_chinese='', display_source='')
         current = by_record.get(fragment['record_id'])
         if current is None:
             if by_id[fragment['record_id']]['mapping_status'] == 'source_unreferenced':
@@ -689,12 +713,9 @@ def segment_corpus(records, fragments):
         if blocked:
             fragment['status'] = blocked[0]['status']
             continue
-        ready = [s for s in overlapping if s['status'] == 'aligned' and s['japanese_end_ordinal'] <= ordinal]
-        pending = [s for s in overlapping if s['status'] == 'aligned' and s['japanese_end_ordinal'] > ordinal]
-        if not ready and not pending and any(s['status'] == 'accepted_omission' for s in overlapping):
-            pending = [s for s in current if s['status'] == 'aligned' and s['japanese_end_ordinal'] > ordinal]
-        if pending:
-            fragment['waiting_for_ordinal'] = pending[0]['japanese_end_ordinal']
+        # Publish the saved units touched by this window, including their reordered
+        # Chinese ending. Unrelated later units remain outside the display range.
+        ready = [s for s in overlapping if s['status'] == 'aligned']
         if not ready:
             fragment['status'] = 'wait_for_semantic_unit'
             continue
@@ -702,11 +723,22 @@ def segment_corpus(records, fragments):
         fragment.update(chinese=by_id[fragment['record_id']]['chinese'][start:stop],
                         chinese_start=start, chinese_end=stop,
                         semantic_segment_ordinals=packed([s['ordinal'] for s in ready]))
-        if ready[0]['japanese_start_ordinal'] < first:
-            fragment.update(status='semantic_context_required',
-                            context_start_ordinal=ready[0]['japanese_start_ordinal'])
-        else:
-            fragment['status'] = ('whole_visible_unit' if len(current) == 1 else 'semantic_visible')
+        fragment['status'] = ('whole_visible_unit' if len(current) == 1 else 'semantic_visible')
+    # Offline-reviewed common content belongs to this exact visible window.
+    # Keep the complete source and semantic ranges for every other window.
+    windows = {(f['record_id'], str(f['ordinal']), hashlib.sha256(f['japanese_ocr'].encode('utf-8')).hexdigest()): f
+               for f in fragments}
+    for row in csv.DictReader((ROOT/'tools/text_fragment_displays.csv').open(encoding='utf-8-sig', newline='')):
+        record = by_id[row['record_id']]
+        for language in ['japanese', 'chinese']:
+            if hashlib.sha256(record[language].encode('utf-8')).hexdigest() != row[language+'_sha256']:
+                raise ValueError(f"Common fragment source changed: {record['id']} {language}")
+        fragment = windows[row['record_id'], row['ordinal'], row['visible_japanese_sha256']]
+        if row['source_chinese_start']:
+            if record['chinese'][int(row['source_chinese_start']):int(row['source_chinese_end'])] != row['display_chinese']:
+                raise ValueError(f"Common fragment slice changed: {record['id']}")
+        fragment.update(display_chinese=row['display_chinese'],
+                        display_source='tools/text_fragment_displays.csv:'+row['review_id']+':'+row['review_status'])
     return segments, issues
 
 
@@ -917,6 +949,7 @@ def build():
                 mapping_status=stats,kinds=dict(collections.Counter(r['kind'] for r in all_records)),
                 fragments=dict(collections.Counter(f['status'] for f in all_fragments)),
                 semantic_segments=len(semantic_segments),
+                common_display_windows=sum(bool(f['display_chinese']) for f in all_fragments),
                 semantic_segment_methods=dict(collections.Counter(s['method'] for s in semantic_segments)),
                 segmentation_issue_records=len({issue['record_id'] for issue in segmentation_issues}),
                 approved_revision_methods=dict(collections.Counter(json.loads(r['chinese_revision'])['method']

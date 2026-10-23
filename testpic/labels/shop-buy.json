@@ -1,0 +1,42 @@
+{
+  "method": "model_visual_transcribed_from_user_attachment_before_OCR; Chinese from pinned corpus item terms; not_human_reviewed",
+  "scope": "additional user attachment; outside original 108-image manifest",
+  "file": "../additional/shop-buy-2026-10-22.png",
+  "sha256": "40868ab1c257a2d2dba9a0a642fc6f4f6fc9ddcbeb6fa0f09da24dde610ebf85",
+  "imageWidth": 490,
+  "imageHeight": 445,
+  "gbCrop": {
+    "x": 2,
+    "y": 6,
+    "width": 480,
+    "height": 432
+  },
+  "scale": 3,
+  "regions": [
+    {
+      "layout": "shop_items",
+      "selectedItem": 0,
+      "raw": [
+        "モンスターボール 200円",
+        "どくけし 100円",
+        "まひなおし 200円",
+        "やけどなおし 250円"
+      ],
+      "chinese": [
+        "精灵球 200円",
+        "解毒药 100円",
+        "解麻药 200円",
+        "灼伤药 250円"
+      ]
+    },
+    {
+      "layout": "dialogue",
+      "raw": [
+        "ゆっくり ごらんになって ください"
+      ],
+      "chinese": [
+        "请慢慢挑选。"
+      ]
+    }
+  ]
+}

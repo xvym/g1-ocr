@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 /** Source matching and display readiness are independent. Raw OCR is never edited. */
 public final class TextResolver {
     public record Candidate(String recordId, int ordinal, String japanese, String segmentStatus,
-                            Map<String, String> variables, String source, String revision) {}
+                            Map<String, String> variables, String source, String revision, String reusedPlayerName) {}
     public record Unit(String rawJapanese, String matchStatus, String displayStatus, String resolvedJapanese,
                        String chinese, List<Candidate> candidates) {
         public String display() { return chinese.isEmpty() ? rawJapanese : chinese; }
@@ -19,14 +19,16 @@ public final class TextResolver {
     private record Progress(TextCorpus.Hit hit, int start) {}
     /** Source identity is deliberately excluded; current content and display permissions must agree. */
     private record Rendering(String status, String chinese, Map<String, String> variables,
-                             Map<String, String> variableKinds, int waitingLines) {}
+                             Map<String, String> variableKinds, int waitingLines, String reusedPlayerName) {}
     private static final Pattern SLOT = Pattern.compile("\\{\\{(\\w+)}}");
     private static final Pattern QUANTITY = Pattern.compile("^(.*?) *(× *[0-9]+)$");
+    private static final Pattern PRICE = Pattern.compile("^(.*?)( *[0-9]+円)$");
     private final TextCorpus corpus;
     private final Map<String, List<Progress>> histories = new LinkedHashMap<>();
+    private String playerName;
 
     public TextResolver(TextCorpus corpus) { this.corpus = corpus; }
-    public void reset() { histories.clear(); }
+    public void reset() { histories.clear(); playerName = null; }
     public void retainRegions(Set<String> visible) { histories.keySet().retainAll(visible); }
 
     public List<Unit> resolve(PixelOcr.Result result) {
@@ -38,13 +40,15 @@ public final class TextResolver {
                 for (String name : row.split(" +")) units.add(word(name, "", List.of("fixed"), "BattleMenu."));
             } else if (result.semanticType().equals("pc_pokemon")) {
                 // Mon entries include the visible level field; the cancel row is a fixed control.
-                if (row.contains("<Lv>"))
-                    units.add(new Unit(row, "not_applicable", "nickname_preserved", row, "", List.of()));
+                if (row.contains("<Lv>")) {
+                    String name = row.substring(0, row.indexOf("<Lv>")).stripTrailing();
+                    units.add(word(name, row.substring(name.length()), List.of(), ""));
+                }
                 else units.add(word(row, "", List.of("fixed"), "ListMenuCancelText"));
             } else {
-                var quantity = QUANTITY.matcher(row);
-                String name = quantity.matches() ? quantity.group(1) : row;
-                String suffix = quantity.matches() ? row.substring(name.length()) : "";
+                var amount = (result.layout().equals("shop_items") ? PRICE : QUANTITY).matcher(row);
+                String name = amount.matches() ? amount.group(1) : row;
+                String suffix = amount.matches() ? row.substring(name.length()) : "";
                 units.add(word(name, suffix,
                         result.layout().equals("battle_moves") ? List.of("move", "fixed") : List.of("item", "fixed"), ""));
             }
@@ -57,7 +61,7 @@ public final class TextResolver {
         var entries = corpus.words(text, kinds).stream()
                 .filter(e -> control.isEmpty() || e.id().contains(":fixed:" + control)).toList();
         var candidates = entries.stream().map(e -> new Candidate(e.id(), 1, e.japanese(), "whole_visible_unit",
-                Map.of(), e.source(), e.revision().toString())).toList();
+                Map.of(), e.source(), e.revision().toString(), "")).toList();
         String raw = text + suffix;
         if (text.contains("�")) return new Unit(raw, "unreliable", "unknown_character", "", "", candidates);
         if (entries.isEmpty()) return new Unit(raw, "missing", "missing", "", "", candidates);
@@ -104,13 +108,21 @@ public final class TextResolver {
         for (var before : previous) if (hits.stream().anyMatch(h -> !h.complete()
                 && h.fragment().entry().id().equals(before.hit().fragment().entry().id()))) remembered.add(before);
         histories.put(regionId, List.copyOf(remembered));
-        var candidates = possible.stream().map(TextResolver::candidate).toList();
-        if (possible.isEmpty()) return new Unit(raw, "missing", "missing", "", "", candidates);
+        if (possible.isEmpty()) return new Unit(raw, "missing", "missing", "", "", List.of());
+        // Learn only when every remaining source fully agrees that this visible value is PLAYER.
+        // Region disappearance clears dialogue progress, not the session's confirmed identity.
+        if (possible.stream().allMatch(h -> h.complete() && h.variables().containsKey("PLAYER"))) {
+            var names = possible.stream().map(h -> h.variables().get("PLAYER")).distinct().toList();
+            if (names.size() == 1) playerName = names.getFirst();
+        }
+        List<Candidate> candidates = new ArrayList<>();
         List<Rendering> renderings = new ArrayList<>();
         for (var hit : possible) {
             int start = hit.fragment().first();
             for (var value : progress) if (value.hit().equals(hit)) start = value.start();
-            renderings.add(render(hit, start));
+            var rendering = render(hit, start);
+            renderings.add(rendering);
+            candidates.add(candidate(hit, rendering.reusedPlayerName()));
         }
         if (renderings.stream().distinct().count() != 1)
             return new Unit(raw, "ambiguous", "ambiguous", "", "", candidates);
@@ -123,45 +135,65 @@ public final class TextResolver {
 
     private Rendering render(TextCorpus.Hit hit, int start) {
         var fragment = hit.fragment();
+        String savedChinese = fragment.displayChinese().isEmpty()
+                ? TextCorpus.slice(fragment.entry().chinese(), fragment.chineseStart(), fragment.chineseEnd())
+                : fragment.displayChinese();
+        Map<String, String> displayedVariables = new LinkedHashMap<>(hit.variables());
+        if (!fragment.displayChinese().isEmpty()) {
+            // A reviewed common fragment does not publish the other candidate-specific fields.
+            var used = new java.util.HashSet<String>();
+            var slots = SLOT.matcher(savedChinese);
+            while (slots.find()) used.add(slots.group(1));
+            displayedVariables.keySet().retainAll(used);
+        }
         Map<String, String> kinds = new LinkedHashMap<>();
-        hit.variables().keySet().forEach(slot -> kinds.put(slot, corpus.variableKind(fragment.entry(), slot)));
+        displayedVariables.keySet().forEach(slot -> kinds.put(slot, corpus.variableKind(fragment.entry(), slot)));
         String status = fragment.status();
         if (!hit.complete()) status = "incomplete";
         else if (status.equals("semantic_context_required") && start > fragment.contextStart()) status = "context_required";
         else if (List.of("whole_visible_unit", "semantic_visible", "semantic_context_required").contains(status))
             status = fragment.waiting() == 0 ? "ready" : "ready_waiting";
         String chinese = "";
+        String reusedPlayerName = "";
         if (status.equals("ready") || status.equals("ready_waiting")) {
-            chinese = corpus.displayChinese(fragment.entry(),
-                    TextCorpus.slice(fragment.entry().chinese(), fragment.chineseStart(), fragment.chineseEnd()));
+            chinese = corpus.displayChinese(fragment.entry(), savedChinese);
             Map<String, String> values = new LinkedHashMap<>();
             var slots = SLOT.matcher(chinese);
             while (slots.find()) {
                 String slot = slots.group(1), value = hit.variables().get(slot);
-                // Never reuse a name or number from an earlier frame, even with valid source context.
+                // Only PLAYER may come from the session; every other slot still needs current pixels.
+                if (value == null && slot.equals("PLAYER") && playerName != null) {
+                    value = playerName;
+                    reusedPlayerName = playerName;
+                }
                 if (value == null) { status = "variables_missing"; break; }
                 values.put(slot, translatedVariable(fragment.entry(), slot, value));
             }
             chinese = status.equals("variables_missing") ? "" : substitute(chinese, values);
+            if (chinese.isEmpty()) reusedPlayerName = "";
         }
-        return new Rendering(status, chinese, hit.variables(), Map.copyOf(kinds),
-                Math.max(0, fragment.waiting() - fragment.ordinal()));
+        return new Rendering(status, chinese, Map.copyOf(displayedVariables), Map.copyOf(kinds),
+                Math.max(0, fragment.waiting() - fragment.ordinal()), reusedPlayerName);
     }
 
     private String translatedVariable(TextCorpus.Entry entry, String slot, String raw) {
         String kind = corpus.variableKind(entry, slot);
-        if (kind.equals("battle_name") && raw.startsWith("てきの ")) return corpus.enemyPrefix(entry) + raw.substring(4);
-        if (!List.of("item", "move", "trainer", "trainer_name", "pokemon", "stat", "city", "gym_leader").contains(kind)) return raw;
-        var chinese = corpus.variableWords(raw, kind.equals("trainer_name") ? "trainer" : kind).stream()
-                .filter(e -> e.games().equals(entry.games()))
+        boolean name = List.of("name", "nickname", "battle_name", "trainer_name", "trainer", "gym_leader").contains(kind);
+        if (!name && !List.of("item", "move", "pokemon", "stat", "city").contains(kind)) return raw;
+        boolean enemy = kind.equals("battle_name") && raw.startsWith("てきの ");
+        String value = enemy ? raw.substring(4) : raw;
+        var chinese = (name ? corpus.words(value, List.of()) : corpus.variableWords(value, kind)).stream()
+                .filter(e -> name || e.games().equals(entry.games()))
                 .map(e -> corpus.displayChinese(e, e.chinese())).distinct().toList();
-        return chinese.size() == 1 ? chinese.getFirst() : raw;
+        return (enemy ? corpus.enemyPrefix(entry) : "") + (chinese.size() == 1 ? chinese.getFirst() : value);
     }
 
-    private static Candidate candidate(TextCorpus.Hit hit) {
+    private static Candidate candidate(TextCorpus.Hit hit, String reusedPlayerName) {
         var fragment = hit.fragment();
         return new Candidate(fragment.entry().id(), fragment.ordinal(), fragment.japanese(), fragment.status(),
-                hit.variables(), fragment.entry().source(), fragment.entry().revision().toString());
+                hit.variables(), fragment.entry().source()
+                        + (fragment.displaySource().isEmpty() ? "" : "; display: " + fragment.displaySource()),
+                fragment.entry().revision().toString(), reusedPlayerName);
     }
     private static String substitute(String text, Map<String, String> variables) {
         return SLOT.matcher(text).replaceAll(match -> java.util.regex.Matcher.quoteReplacement(variables.get(match.group(1))));

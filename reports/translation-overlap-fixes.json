@@ -1,0 +1,808 @@
+{
+  "date": "2026-10-23",
+  "scope": "92 reviewed exact visible-window/template overlap groups, not every partial character or template binding",
+  "summary": {
+    "reviewedGroups": 92,
+    "commonContentGroups": 67,
+    "quoteBodyGroups": 7,
+    "groupsRequiringDistinguishingTextOrContext": 18,
+    "savedDisplayWindowRows": 693,
+    "records": 10205,
+    "fragments": 23957
+  },
+  "staticChecks": {
+    "records_segments_variables_unchanged": true,
+    "fragment_keys_and_all_existing_fields_unchanged": true,
+    "exactly_693_reviewed_windows": true,
+    "all_reviewed_displays_are_current_source_slices_or_two_approved_examples": true,
+    "no_preview_needs_an_invisible_variable": true,
+    "all_74_reviewed_groups_have_one_saved_display": true,
+    "no_new_data_uses_test_images_or_labels": true,
+    "t042_displays_unchanged": true,
+    "jar_excludes_review_and_test_answers": true,
+    "jar_resources_and_changed_classes_match": true,
+    "build_success_tests_skipped": true,
+    "generator_python_ast_valid": true,
+    "pending_18_wordings_not_in_display_decisions": true
+  },
+  "dynamicTestsRun": false,
+  "runtimeOutcomeNotMeasured": true,
+  "limitations": [
+    "74 groups have identical saved common content; live readiness also depends on complete source matching, displayed variable types, composition grammar and observed history.",
+    "Remaining 18 groups retain original wording and ambiguity checks; a compatible observed previous source can already narrow them.",
+    "Partial-character matching does not publish completed common fragments.",
+    "The only new common phrasings are the previously proposed and user-approved welcome and PC prompt; other displays are exact slices of current source Chinese."
+  ],
+  "groups": [
+    {
+      "id": "O001",
+      "japanese": "{{PLAYER}}は",
+      "decision": "shared_content",
+      "display_chinese": "{{PLAYER}}",
+      "source_window_rows": 51,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O002",
+      "japanese": "{{PLAYER}}は おじさんから",
+      "decision": "shared_content",
+      "display_chinese": "{{PLAYER}}",
+      "source_window_rows": 12,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O003",
+      "japanese": "{{PLAYER}}は おんなのこから",
+      "decision": "shared_content",
+      "display_chinese": "{{PLAYER}}从女孩那里",
+      "source_window_rows": 12,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O004",
+      "japanese": "{{PLAYER}}は オーキドから",
+      "decision": "shared_content",
+      "display_chinese": "{{PLAYER}}从大木那里",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O005",
+      "japanese": "{{PLAYER}}は タケシから",
+      "decision": "shared_content",
+      "display_chinese": "{{PLAYER}}从小刚那里",
+      "source_window_rows": 9,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O006",
+      "japanese": "{{PLAYER}}！",
+      "decision": "shared_content",
+      "display_chinese": "{{PLAYER}}",
+      "source_window_rows": 9,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O007",
+      "japanese": "{{RAM1}}が",
+      "decision": "shared_content",
+      "display_chinese": "{{RAM1}}",
+      "source_window_rows": 9,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O008",
+      "japanese": "{{RAM1}}との",
+      "decision": "shared_content",
+      "display_chinese": "{{RAM1}}",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O009",
+      "japanese": "{{RAM1}}の",
+      "decision": "shared_content",
+      "display_chinese": "{{RAM1}}的",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O010",
+      "japanese": "{{RAM1}}の からだの",
+      "decision": "shared_content",
+      "display_chinese": "{{RAM1}}\n身上的",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O011",
+      "japanese": "{{RAM1}}の なかは",
+      "decision": "shared_content",
+      "display_chinese": "{{RAM1}}是",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O012",
+      "japanese": "{{RAM1}}は",
+      "decision": "shared_content",
+      "display_chinese": "{{RAM1}}",
+      "source_window_rows": 30,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O013",
+      "japanese": "{{RAM1}}は\nまた こんど ですね",
+      "decision": "shared_content",
+      "display_chinese": "{{RAM1}}",
+      "source_window_rows": 9,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O014",
+      "japanese": "{{RAM1}}は {{RAM2}}を",
+      "decision": "shared_content",
+      "display_chinese": "{{RAM1}}",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O015",
+      "japanese": "{{RAM1}}は あたらしく",
+      "decision": "shared_content",
+      "display_chinese": "{{RAM1}}",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O016",
+      "japanese": "{{RAM1}}を",
+      "decision": "shared_content",
+      "display_chinese": "{{RAM1}}",
+      "source_window_rows": 18,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O017",
+      "japanese": "{{SPEAKER}}『なかなか……",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 6,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O018",
+      "japanese": "{{SPEAKER}}『はッ！",
+      "decision": "shared_content",
+      "display_chinese": "{{SPEAKER}}：哈！",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O019",
+      "japanese": "{{TARGET}}には",
+      "decision": "shared_content",
+      "display_chinese": "对于{{TARGET}}",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O020",
+      "japanese": "{{TARGET}}の",
+      "decision": "shared_content",
+      "display_chinese": "{{TARGET}}",
+      "source_window_rows": 12,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O021",
+      "japanese": "{{TARGET}}は",
+      "decision": "shared_content",
+      "display_chinese": "{{TARGET}}",
+      "source_window_rows": 22,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O022",
+      "japanese": "{{USER}}の",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 24,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O023",
+      "japanese": "{{USER}}は",
+      "decision": "shared_content",
+      "display_chinese": "{{USER}}",
+      "source_window_rows": 64,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O024",
+      "japanese": "…… …… ……",
+      "decision": "shared_content",
+      "display_chinese": "……",
+      "source_window_rows": 27,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O025",
+      "japanese": "…… ちょっと",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 6,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O026",
+      "japanese": "…… と おもったら\nもう ポケモンが ない",
+      "decision": "quote_body_without_invisible_speaker",
+      "display_chinese": "来啊，\n继续啊！啊……\n\n我没有宝可梦了。",
+      "source_window_rows": 6,
+      "reason": "当前未显示的说话者标签不属于正文，单独保留正文译文"
+    },
+    {
+      "id": "O027",
+      "japanese": "…… なに？",
+      "decision": "shared_content",
+      "display_chinese": "……什么？",
+      "source_window_rows": 4,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O028",
+      "japanese": "あ こら！",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 6,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O029",
+      "japanese": "あら！",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 6,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O030",
+      "japanese": "いらっしゃいませ！",
+      "decision": "shared_content",
+      "display_chinese": "欢迎光临！",
+      "source_window_rows": 12,
+      "reason": "采用前述具体示例并获用户“按建议处理”确认的共同表达；完整窗口仍显示原译文。"
+    },
+    {
+      "id": "O031",
+      "japanese": "うーん！",
+      "decision": "shared_content",
+      "display_chinese": "嗯",
+      "source_window_rows": 5,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O032",
+      "japanese": "おれたちは",
+      "decision": "shared_content",
+      "display_chinese": "我们",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O033",
+      "japanese": "おれは",
+      "decision": "shared_content",
+      "display_chinese": "我",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O034",
+      "japanese": "おれは まいにち",
+      "decision": "shared_content",
+      "display_chinese": "我每天",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O035",
+      "japanese": "おんなのこ だからって",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 6,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O036",
+      "japanese": "おんなのこに",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 6,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O037",
+      "japanese": "きみの ちからを\nためして みると いい",
+      "decision": "shared_content",
+      "display_chinese": "试试身手吧！",
+      "source_window_rows": 3,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O038",
+      "japanese": "きみも",
+      "decision": "shared_content",
+      "display_chinese": "你也",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O039",
+      "japanese": "ここから ちかつうろ",
+      "decision": "shared_content",
+      "display_chinese": "前方是地下通道",
+      "source_window_rows": 9,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O040",
+      "japanese": "ここでは {{RAM1}}で",
+      "decision": "shared_content",
+      "display_chinese": "{{RAM1}}",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O041",
+      "japanese": "ここは イワヤマ トンネル",
+      "decision": "shared_content",
+      "display_chinese": "这里是岩山隧道",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O042",
+      "japanese": "この あたりは",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 9,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O043",
+      "japanese": "こんな うでまえじゃ",
+      "decision": "quote_body_without_invisible_speaker",
+      "display_chinese": "我说你啊，\n就只有这两下吗？",
+      "source_window_rows": 6,
+      "reason": "当前未显示的说话者标签不属于正文，单独保留正文译文"
+    },
+    {
+      "id": "O044",
+      "japanese": "こんな うでまえじゃ\nまだまだ……",
+      "decision": "quote_body_without_invisible_speaker",
+      "display_chinese": "我说你啊，\n就只有这两下吗？\n\n还差得远呢……\n你这样根本就\n算不上是男子汉啊！",
+      "source_window_rows": 6,
+      "reason": "当前未显示的说话者标签不属于正文，单独保留正文译文"
+    },
+    {
+      "id": "O045",
+      "japanese": "しかし {{PLAYER}}は",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 6,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O046",
+      "japanese": "しかし {{USER}}の",
+      "decision": "shared_content",
+      "display_chinese": "{{USER}}的",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O047",
+      "japanese": "すべての",
+      "decision": "shared_content",
+      "display_chinese": "所有的",
+      "source_window_rows": 12,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O048",
+      "japanese": "そうか",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 5,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O049",
+      "japanese": "そうだ！",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 11,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O050",
+      "japanese": "それでは",
+      "decision": "shared_content",
+      "display_chinese": "那么",
+      "source_window_rows": 9,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O051",
+      "japanese": "そんな……",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 4,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O052",
+      "japanese": "たたかい おわっても",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 9,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O053",
+      "japanese": "たたかって いない ときでも\nつかえるように なります",
+      "decision": "shared_content",
+      "display_chinese": "在战斗以外的时候\n好像也可以使用了。",
+      "source_window_rows": 15,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O054",
+      "japanese": "たまに あいてを",
+      "decision": "shared_content",
+      "display_chinese": "有时",
+      "source_window_rows": 8,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O055",
+      "japanese": "でんどうドアの",
+      "decision": "shared_content",
+      "display_chinese": "电动门",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O056",
+      "japanese": "ともだちと こうかん した",
+      "decision": "shared_content",
+      "display_chinese": "和朋友交换来的",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O057",
+      "japanese": "どうぐが いっぱいです",
+      "decision": "shared_content",
+      "display_chinese": "道具太多，",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O058",
+      "japanese": "どの ポケモンを",
+      "decision": "shared_content",
+      "display_chinese": "哪只宝可梦……",
+      "source_window_rows": 6,
+      "reason": "采用前述具体示例并获用户“按建议处理”确认的共同表达；完整窗口仍显示原译文。"
+    },
+    {
+      "id": "O059",
+      "japanese": "なかなか……",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 9,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O060",
+      "japanese": "ねえ この みせの うれすじは",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 3,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O061",
+      "japanese": "はい どうぞ",
+      "decision": "shared_content",
+      "display_chinese": "请拿好",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O062",
+      "japanese": "はっはっはーッ！",
+      "decision": "shared_content",
+      "display_chinese": "哈哈哈！",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O063",
+      "japanese": "はッ！",
+      "decision": "shared_content",
+      "display_chinese": "哈！",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O064",
+      "japanese": "はーッ ははッ……！ じつは……\nわらい キノコ たべて しまってな",
+      "decision": "quote_body_without_invisible_speaker",
+      "display_chinese": "哈！哈——\n哈哈……其实……\n是我好像吃到笑菇了。",
+      "source_window_rows": 6,
+      "reason": "当前未显示的说话者标签不属于正文，单独保留正文译文"
+    },
+    {
+      "id": "O065",
+      "japanese": "ばあいじゃ なかった\nでぐちは どっち だっけ？",
+      "decision": "quote_body_without_invisible_speaker",
+      "display_chinese": "刚才就不应该\n和你战斗的。出口在哪呢？",
+      "source_window_rows": 6,
+      "reason": "当前未显示的说话者标签不属于正文，单独保留正文译文"
+    },
+    {
+      "id": "O066",
+      "japanese": "ぶるぶる……",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 6,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O067",
+      "japanese": "ほっほう！",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 6,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O068",
+      "japanese": "ほれ {{PLAYER}}！",
+      "decision": "shared_content",
+      "display_chinese": "快看，{{PLAYER}}！",
+      "source_window_rows": 3,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O069",
+      "japanese": "ほんとに くたばっちまったぞ！\nよわいなー！",
+      "decision": "quote_body_without_invisible_speaker",
+      "display_chinese": "啊——啊……！\n全都给我去死吧！\n\n太弱了啊——！",
+      "source_window_rows": 6,
+      "reason": "当前未显示的说话者标签不属于正文，单独保留正文译文"
+    },
+    {
+      "id": "O070",
+      "japanese": "まあ いい",
+      "decision": "shared_content",
+      "display_chinese": "算了。",
+      "source_window_rows": 12,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O071",
+      "japanese": "めずらしい こだい ポケモン",
+      "decision": "shared_content",
+      "display_chinese": "罕见的古代宝可梦",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O072",
+      "japanese": "やせいの{{RAM1}}は",
+      "decision": "shared_content",
+      "display_chinese": "野生的{{RAM1}}",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O073",
+      "japanese": "わざマシンは",
+      "decision": "shared_content",
+      "display_chinese": "招式学习器",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O074",
+      "japanese": "わたしは",
+      "decision": "shared_content",
+      "display_chinese": "我",
+      "source_window_rows": 15,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O075",
+      "japanese": "ガサゴソ……！\nおっと！ ゴミばこの そこに",
+      "decision": "shared_content",
+      "display_chinese": "我翻我翻……！\n嘿哟！垃圾箱底",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O076",
+      "japanese": "コインを",
+      "decision": "shared_content",
+      "display_chinese": "代币",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O077",
+      "japanese": "サイクりング ロード",
+      "decision": "shared_content",
+      "display_chinese": "自行车道",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O078",
+      "japanese": "サイクりング ロードは",
+      "decision": "shared_content",
+      "display_chinese": "自行车道",
+      "source_window_rows": 9,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O079",
+      "japanese": "タマムシ マンション",
+      "decision": "shared_content",
+      "display_chinese": "玉虹大厦",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O080",
+      "japanese": "ハナダ シティの ジムにも いき\nきみの ちからを",
+      "decision": "shared_content",
+      "display_chinese": "去华蓝市的道馆\n试试身手吧！",
+      "source_window_rows": 3,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O081",
+      "japanese": "パソコンつうしんで",
+      "decision": "shared_content",
+      "display_chinese": "电脑",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O082",
+      "japanese": "ポケモン ずかん",
+      "decision": "shared_content",
+      "display_chinese": "宝可梦图鉴",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O083",
+      "japanese": "ポケモン りーグ にんてい",
+      "decision": "shared_content",
+      "display_chinese": "宝可梦联盟",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O084",
+      "japanese": "ポケモンが",
+      "decision": "shared_content",
+      "display_chinese": "宝可梦",
+      "source_window_rows": 9,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O085",
+      "japanese": "ポケモンの のうりょくを あげる",
+      "decision": "shared_content",
+      "display_chinese": "提高宝可梦能力的物品",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O086",
+      "japanese": "ポケモンは",
+      "decision": "shared_content",
+      "display_chinese": "宝可梦",
+      "source_window_rows": 9,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O087",
+      "japanese": "ポケモンを つかまえる ときは",
+      "decision": "shared_content",
+      "display_chinese": "捕捉宝可梦",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O088",
+      "japanese": "マサキ にいちゃん",
+      "decision": "shared_content",
+      "display_chinese": "正辉哥哥",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O089",
+      "japanese": "ムキに なっちゃって！\n…… わかった わかった！",
+      "decision": "quote_body_without_invisible_speaker",
+      "display_chinese": "什么情况啊！真让人不爽！\n我知道了呐！",
+      "source_window_rows": 6,
+      "reason": "当前未显示的说话者标签不属于正文，单独保留正文译文"
+    },
+    {
+      "id": "O090",
+      "japanese": "モンスターボールを",
+      "decision": "requires_distinguishing_text_or_context",
+      "display_chinese": "",
+      "source_window_rows": 5,
+      "reason": "当前共同内容没有自然一致的现有中文，使用已观察前文或等待区分文字，保留完整原译文"
+    },
+    {
+      "id": "O091",
+      "japanese": "ロケットだんに",
+      "decision": "shared_content",
+      "display_chinese": "火箭队",
+      "source_window_rows": 8,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    },
+    {
+      "id": "O092",
+      "japanese": "ロケットだんは",
+      "decision": "shared_content",
+      "display_chinese": "火箭队",
+      "source_window_rows": 6,
+      "reason": "共同内容采用已存在中文切片；保留当前变量角色及所有来源"
+    }
+  ],
+  "sha256": {
+    "tools/text_fragment_displays.csv": "b2a792c633eb300cd82b09ccabc09d6fc7b7e8931658caa50e5c9ffcbfa57243",
+    "tools/build_text_corpus.py": "8f49b64e98b52a1bdf2629eed0f02fd7e52e358f7ef138e8b69014a5b4be70da",
+    "src/main/resources/corpus/records.csv": "21e84fab9bfaebc14b23e0e6ff6f771df6862c722297451d5f56a68855418294",
+    "src/main/resources/corpus/fragments.csv": "40eaa11d1e714c73d47da4143aaffb082661e446479ac7b6e399f7b068ae385e",
+    "src/main/resources/corpus/segments.csv": "e7bd8e52a7095f0552d129b0c5075408f4ce3090e5fbfbdba7db9e5172056ebf",
+    "src/main/java/io/github/g1ocr/text/TextCorpus.java": "486238934a8d56479b41907b71cb9ee461045ec652381e05fa621c851fd88f22",
+    "src/main/java/io/github/g1ocr/text/TextResolver.java": "3fcec1a9576829ed82ba76efef9bae0ea3ffcd2d087089bfc14c31c8db36c79a",
+    "src/test/resources/chinese-cases.json": "ff34a27c79c5c05a20fecee21ea7d9fcecb626e4cc9491836f499f085792a76e",
+    "reports/translation-overlap-proposals.csv": "f8d08156aaee39938c795e5e6db064b48e2b7b4904cf0f856c6915d47b6af9da",
+    "src/main/resources/corpus/README.md": "09d70778b35335e214edb88a91256c11a00dd7a1b42d668141d42787012ac70d"
+  },
+  "packagedChecks": {
+    "corpus/control_rules.csv": true,
+    "corpus/fragments.csv": true,
+    "corpus/README.md": true,
+    "corpus/records.csv": true,
+    "corpus/segments.csv": true,
+    "corpus/slot_rules.csv": true,
+    "corpus/sources.csv": true,
+    "corpus/variables.csv": true,
+    "io/github/g1ocr/text/TextCorpus.class": true,
+    "io/github/g1ocr/text/TextCorpus$Fragment.class": true,
+    "io/github/g1ocr/text/TextResolver.class": true
+  },
+  "build": {
+    "result": "success",
+    "testsSkipped": true,
+    "log": "output/build-overlap-displays.log",
+    "jar": "target/g1-ocr-0.3.0.jar",
+    "bytes": 15761917,
+    "sha256": "afc24ad25b7faa2c73e8d3391fe6f9f5573fc766cf8d2347a6e198cd18426c13"
+  },
+  "pendingProposals": "reports/translation-overlap-proposals.csv"
+}

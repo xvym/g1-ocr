@@ -1,0 +1,115 @@
+﻿id,japanese,proposed_chinese,reason,current_chinese_variants,source_record_ids,reviewer,approval_status
+O017,{{SPEAKER}}『なかなか……,{{SPEAKER}}：嗯……,“なかなか”在称赞和事情不顺两处语气不同，先保留姓名及中性过渡，不提前判断结果。,"1. {{SPEAKER}}：好厉害……
+
+2. {{SPEAKER}}：看来……
+还真是难以上手呢。",pokeblue:composed:TrainerEnd.Route12Fisher4EndBattleText;pokeblue:composed:TrainerEnd.SilphCo2FScientist2EndBattleText;pokegreen:composed:TrainerEnd.Route12Fisher4EndBattleText;pokegreen:composed:TrainerEnd.SilphCo2FScientist2EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route12Fisher4EndBattleText;pokeyellow-jp:composed:TrainerEnd.SilphCo2FScientist2EndBattleText,model_not_human,pending_not_applied
+O022,{{USER}}の,{{USER}}的,当前日文已显示使用者；原“替身出现了”省略了姓名，现有候选没有共同姓名切片。,"1. {{USER}}
+使出了{{RAM1}}！
+
+2. {{USER}}的
+{{RAM1}}
+大幅提高了！
+
+3. {{USER}}的
+{{RAM1}}提高了！
+
+4. {{USER}}的
+定身法解除了！
+
+5. {{USER}}的
+忍耐被解除了！
+
+6. {{USER}}的
+混乱解除了！
+
+7. 替身出现了！",pokeblue:composed:StatChange.MonsStatsRoseText.large;pokeblue:composed:StatChange.MonsStatsRoseText.normal;pokeblue:composed:UsedMove.grammar3.normal;pokeblue:composed:UsedMove.grammar4.normal;pokeblue:engine/battle/core.asm:ConfusedNoMoreText;pokeblue:engine/battle/core.asm:DisabledNoMoreText;pokeblue:engine/battle/core.asm:UnleashedEnergyText;pokeblue:engine/battle/move_effects/substitute.asm:SubstituteText;pokegreen:composed:StatChange.MonsStatsRoseText.large;pokegreen:composed:StatChange.MonsStatsRoseText.normal;pokegreen:composed:UsedMove.grammar3.normal;pokegreen:composed:UsedMove.grammar4.normal;pokegreen:engine/battle/core.asm:ConfusedNoMoreText;pokegreen:engine/battle/core.asm:DisabledNoMoreText;pokegreen:engine/battle/core.asm:UnleashedEnergyText;pokegreen:engine/battle/move_effects/substitute.asm:SubstituteText;pokeyellow-jp:composed:StatChange.MonsStatsRoseText.large;pokeyellow-jp:composed:StatChange.MonsStatsRoseText.normal;pokeyellow-jp:composed:UsedMove.grammar3.normal;pokeyellow-jp:composed:UsedMove.grammar4.normal;pokeyellow-jp:engine/battle/core.asm:ConfusedNoMoreText;pokeyellow-jp:engine/battle/core.asm:DisabledNoMoreText;pokeyellow-jp:engine/battle/core.asm:UnleashedEnergyText;pokeyellow-jp:engine/battle/move_effects/substitute.asm:SubstituteText,model_not_human,pending_not_applied
+O025,…… ちょっと,……那个，,“ちょっと”是引起注意的开场，后面分别请求比试和跟随，不先选择请求动作。,"1. ……
+就稍微来比试一下吧！
+
+2. 请你跟我来吧！",pokeblue:scripts/OaksLab.asm:OaksLabRivalIllTakeYouOnText.Text;pokeblue:scripts/PalletTown.asm:PalletTownOakText.ItsUnsafeText;pokegreen:scripts/OaksLab.asm:OaksLabRivalIllTakeYouOnText.Text;pokegreen:scripts/PalletTown.asm:PalletTownOakText.ItsUnsafeText;pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalIllTakeYouOnText.Text;pokeyellow-jp:scripts/PalletTown.asm:PalletTownOakComeWithMe,model_not_human,pending_not_applied
+O028,あ こら！,喂！,统一当前呼唤，后面的禁止闯入庭院仍由完整窗口显示。,"1. 啊，嗨呀！
+
+2. 喂！我说！不要随便闯进
+别人家的院子！",pokeblue:scripts/CeruleanCity.asm:CeruleanCityRocketText.Text;pokeblue:scripts/Route22.asm:Route22Rival2DefeatedText;pokegreen:scripts/CeruleanCity.asm:CeruleanCityRocketText.Text;pokegreen:scripts/Route22.asm:Route22Rival2DefeatedText;pokeyellow-jp:scripts/CeruleanCity.asm:CeruleanCityRocketText.Text;pokeyellow-jp:scripts/Route22.asm:Route22Rival2DefeatedText,model_not_human,pending_not_applied
+O029,あら！,哎呀！,统一当前感叹，先不带出女孩和无聊等后文。,"1. 哎呀！这里只有女孩，
+我正好觉得有些无聊呢！
+
+2. 噢！",pokeblue:scripts/CeladonGym.asm:CeladonGymBeauty1BattleText;pokeblue:scripts/Route13.asm:Route13CooltrainerF2BattleText;pokegreen:scripts/CeladonGym.asm:CeladonGymBeauty1BattleText;pokegreen:scripts/Route13.asm:Route13CooltrainerF2BattleText;pokeyellow-jp:scripts/CeladonGym.asm:CeladonGymBeauty1BattleText;pokeyellow-jp:scripts/Route13.asm:Route13CooltrainerF2BattleText,model_not_human,pending_not_applied
+O035,おんなのこ だからって,别因为是女孩子就……,共同部分提示不要以性别为由作判断，后面分别为不要留手和不要大意。,"1. 别因为是女孩子
+就小看我呢！
+
+2. 别因为这里全都是女生
+就放松警惕了哦！",pokeblue:scripts/CeladonGym.asm:CeladonGymCooltrainerF4BattleText;pokeblue:scripts/Route9.asm:Route9CooltrainerF2BattleText;pokegreen:scripts/CeladonGym.asm:CeladonGymCooltrainerF4BattleText;pokegreen:scripts/Route9.asm:Route9CooltrainerF2BattleText;pokeyellow-jp:scripts/CeladonGym.asm:CeladonGymCooltrainerF4BattleText;pokeyellow-jp:scripts/Route9.asm:Route9CooltrainerF2BattleText,model_not_human,pending_not_applied
+O036,おんなのこに,女孩子……,当前仅出现对象，尚未出现温柔相待或在其面前炫耀的动作。,"1. 不能对女生
+温柔一点吗？
+
+2. 为了能在女孩子面前
+炫耀一把，
+所以我才来到了这种地方。",pokeblue:scripts/MtMoon1F.asm:MtMoon1FYoungster1AfterBattleText;pokeblue:scripts/Route3.asm:Route3CooltrainerF2EndBattleText;pokegreen:scripts/MtMoon1F.asm:MtMoon1FYoungster1AfterBattleText;pokegreen:scripts/Route3.asm:Route3CooltrainerF2EndBattleText;pokeyellow-jp:scripts/MtMoon1F.asm:MtMoon1FYoungster1AfterBattleText;pokeyellow-jp:scripts/Route3.asm:Route3CooltrainerF2EndBattleText,model_not_human,pending_not_applied
+O042,この あたりは,这一带……,统一地区话题，先不选择地盘、建筑或宝可梦分布。,"1. 你在这里捉到的宝可梦，
+和你在森林里捉到的
+可不一样哦！
+
+2. 这一带是我们的地盘！
+
+3. 这一带的
+建筑物比较少，
+我们经常到这里聚集！",pokeblue:scripts/Route14.asm:Route14Biker3BattleText;pokeblue:scripts/Route18.asm:Route18CooltrainerM3BattleText;pokeblue:scripts/Route3.asm:Route3Youngster1AfterBattleText;pokegreen:scripts/Route14.asm:Route14Biker3BattleText;pokegreen:scripts/Route18.asm:Route18CooltrainerM3BattleText;pokegreen:scripts/Route3.asm:Route3Youngster1AfterBattleText;pokeyellow-jp:scripts/Route14.asm:Route14Biker3BattleText;pokeyellow-jp:scripts/Route18.asm:Route18CooltrainerM3BattleText;pokeyellow-jp:scripts/Route3.asm:Route3Youngster1AfterBattleText,model_not_human,pending_not_applied
+O045,しかし {{PLAYER}}は,但是，{{PLAYER}}……,当前日文已明确玩家名，后面分别为行李已满或代币掉落。,"1. 但是，{{PLAYER}}
+已经拿不下道具了！
+
+2. 哎呀！
+有一些代币掉了出来！",pokeblue:engine/events/hidden_items.asm:DroppedHiddenCoinsText;pokeblue:engine/events/hidden_items.asm:HiddenItemBagFullText;pokegreen:engine/events/hidden_items.asm:DroppedHiddenCoinsText;pokegreen:engine/events/hidden_items.asm:HiddenItemBagFullText;pokeyellow-jp:engine/events/hidden_items.asm:DroppedHiddenCoinsText;pokeyellow-jp:engine/events/hidden_items.asm:HiddenItemBagFullText,model_not_human,pending_not_applied
+O048,そうか,这样啊。,统一承接答复，保留各自后续请求或告别。,"1. 是吗？
+你想见我们老大？
+
+2. 这样啊。
+知道了，你有空再来吧。",pokeblue:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.ComeAnyTimeYouLikeText;pokeblue:scripts/SilphCo11F.asm:SilphCo11FRocket1AfterBattleText;pokegreen:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.ComeAnyTimeYouLikeText;pokegreen:scripts/SilphCo11F.asm:SilphCo11FRocket1AfterBattleText;pokeyellow-jp:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.ComeAnyTimeYouLikeText,model_not_human,pending_not_applied
+O049,そうだ！,对了！,统一话题转换，后面的赠送或照顾妙蛙种子仍独立显示。,"1. 对了！
+
+2. 对啊！虽然不能亲自展示，
+但我可以把这个给你啊！
+
+3. 这样吧！
+
+4. 这样吧！你能不能
+替我照料这只妙蛙种子呢？",pokeblue:scripts/Route1.asm:Route1Youngster1Text.MartSampleText;pokeblue:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainIFeelMuchBetterText;pokeblue:scripts/SilphCo7F.asm:SilphCo7FSilphWorkerM1Text.HaveThisPokemonText;pokegreen:scripts/Route1.asm:Route1Youngster1Text.MartSampleText;pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainIFeelMuchBetterText;pokegreen:scripts/SilphCo7F.asm:SilphCo7FSilphWorkerM1Text.HaveThisPokemonText;pokeyellow-jp:scripts/CeruleanMelaniesHouse.asm:CeruleanHouse1Text_1cfce;pokeyellow-jp:scripts/PokemonFanClub.asm:Text_59c1f;pokeyellow-jp:scripts/Route1_2.asm:Route1PrintYoungster1Text.MartSampleText;pokeyellow-jp:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainIFeelMuchBetterText;pokeyellow-jp:scripts/SilphCo7F.asm:SilphCo7FSilphWorkerM1Text.HaveThisPokemonText,model_not_human,pending_not_applied
+O051,そんな……,怎么会这样……,按日文感叹表达意外，先不带出课本说明。,"1. 怎么会这样……
+课本上没有写呢。
+
+2. 是吗……",pokeblue:scripts/CeladonGym.asm:CeladonGymErikaText.PreBattleText;pokegreen:scripts/CeladonGym.asm:CeladonGymErikaText.PreBattleText;pokeyellow-jp:scripts/CeladonGym.asm:CeladonGymErikaText.PreBattleText;pokeyellow-jp:scripts/Route6.asm:Route6CooltrainerF1EndBattleText,model_not_human,pending_not_applied
+O052,たたかい おわっても,即使战斗结束……,保留共同让步条件，不提前选择中毒、灼伤或麻痹。,"1. 在战斗结束之后
+毒素也会残留。
+
+2. 在战斗结束之后
+灼伤也会残留。
+
+3. 就算战斗结束，
+也会依然处于麻痹状态。",pokeblue:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardBurnText;pokeblue:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardPoisonText;pokeblue:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardPrlzText;pokegreen:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardBurnText;pokegreen:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardPoisonText;pokegreen:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardPrlzText;pokeyellow-jp:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardBurnText;pokeyellow-jp:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardPoisonText;pokeyellow-jp:engine/events/hidden_events/school_blackboard.asm:ViridianBlackboardPrlzText,model_not_human,pending_not_applied
+O059,なかなか……,嗯……,与O017相同的中性过渡；具体称赞或不顺的意思由后文确定。,"1. 好厉害……
+
+2. 我还没有……
+那么大的度量吗。
+
+3. 看来……
+还真是难以上手呢。",pokeblue:scripts/Route12.asm:Route12Fisher4EndBattleText;pokeblue:scripts/Route17.asm:Route17Biker4AfterBattleText;pokeblue:scripts/SilphCo2F.asm:SilphCo2FScientist2EndBattleText;pokegreen:scripts/Route12.asm:Route12Fisher4EndBattleText;pokegreen:scripts/Route17.asm:Route17Biker4AfterBattleText;pokegreen:scripts/SilphCo2F.asm:SilphCo2FScientist2EndBattleText;pokeyellow-jp:scripts/Route12.asm:Route12Fisher4EndBattleText;pokeyellow-jp:scripts/Route17.asm:Route17Biker4AfterBattleText;pokeyellow-jp:scripts/SilphCo2F.asm:SilphCo2FScientist2EndBattleText,model_not_human,pending_not_applied
+O060,ねえ この みせの うれすじは,这家店的畅销货是……,原文共同表示畅销货，后文商品为解毒药或解麻药。,"1. 他们说，解麻药是
+这家店的畅销货呢！
+
+2. 这个商店，
+有好多解毒药啊！",pokeblue:scripts/ViridianMart.asm:ViridianMartYoungsterText;pokegreen:scripts/ViridianMart.asm:ViridianMartYoungsterText;pokeyellow-jp:scripts/ViridianMart.asm:ViridianMartYoungsterText,model_not_human,pending_not_applied
+O066,ぶるぶる……,哆了个嗦……,复用已有表示发抖的词句，求救后文仍独立显示。,"1. 哆了个嗦……
+我的神啊救救我吧……
+
+2. 好可怕……",pokeblue:scripts/PokemonTower5F.asm:PokemonTower5FChanneler5EndBattleText;pokeblue:scripts/SilphCo6F.asm:SilphCo6FSilphWorkerM2Text.HelpMePleaseText;pokegreen:scripts/PokemonTower5F.asm:PokemonTower5FChanneler5EndBattleText;pokegreen:scripts/SilphCo6F.asm:SilphCo6FSilphWorkerM2Text.HelpMePleaseText;pokeyellow-jp:scripts/PokemonTower5F.asm:PokemonTower5FChanneler5EndBattleText;pokeyellow-jp:scripts/SilphCo6F.asm:SilphCo6FSilphWorkerM2Text.HelpMePleaseText,model_not_human,pending_not_applied
+O067,ほっほう！,嚯嚯！,复用已有感叹，原长译文省掉此词，需要补出这一独立开场。,"1. 呵呵！
+
+2. 嚯嚯！
+
+3. 如果你在收集图鉴的话，
+我就给你个建议好了！",pokeblue:scripts/AgathasRoom.asm:AgathasRoomAgathaEndBattleText;pokeblue:scripts/ViridianCity.asm:ViridianCityOldManText.KnowHowToCatchPokemonText;pokegreen:scripts/AgathasRoom.asm:AgathasRoomAgathaEndBattleText;pokegreen:scripts/ViridianCity.asm:ViridianCityOldManText.KnowHowToCatchPokemonText;pokeyellow-jp:scripts/AgathasRoom.asm:AgathasRoomAgathaEndBattleText;pokeyellow-jp:scripts/ViridianCity_2.asm:ViridianCityPrintOldManText.WatchCloselyText,model_not_human,pending_not_applied
+O090,モンスターボールを,精灵球……,原文已出现精灵球；后文分别为投球捕捉或交给中心保管，不提前选择动作。,"1. “嗖”地一下丢出
+精灵球来捕获它吧！
+
+2. 要让你的宝可梦
+休息一下吗？",pokeblue:engine/events/pokecenter.asm:ShallWeHealYourPokemonText;pokeblue:scripts/OaksLab.asm:OaksLabOak1Text.GivePokeballsText;pokegreen:engine/events/pokecenter.asm:ShallWeHealYourPokemonText;pokegreen:scripts/OaksLab.asm:OaksLabOak1Text.GivePokeballsText;pokeyellow-jp:engine/events/pokecenter.asm:ShallWeHealYourPokemonText,model_not_human,pending_not_applied

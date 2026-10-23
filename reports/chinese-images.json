@@ -6,24 +6,21 @@
   "rawJapanesePassedImages" : 108,
   "executionFailures" : [ ],
   "finalChineseAcceptance" : false,
-  "regressionImages" : 11,
-  "regressionUnits" : 23,
+  "regressionImages" : 13,
+  "regressionUnits" : 29,
   "regressionMethod" : "model_authored_from_independent_Japanese_labels_and_pinned_localization_cells_before_running_fixes; not_human_reviewed",
   "summary" : {
     "images" : 108,
     "noTargetImages" : 5,
-    "allUnitsReadyChineseImages" : 79,
-    "partialChineseImages" : 6,
-    "noChineseImages" : 18,
-    "units" : 132,
-    "unitsWithChinese" : 107,
+    "allUnitsReadyChineseImages" : 95,
+    "partialChineseImages" : 2,
+    "noChineseImages" : 6,
+    "units" : 136,
+    "unitsWithChinese" : 123,
     "displayStatusCounts" : {
-      "ready" : 103,
+      "ready" : 123,
       "ambiguous" : 4,
       "nickname_preserved" : 7,
-      "wait_for_semantic_unit" : 7,
-      "context_required" : 5,
-      "ready_waiting" : 4,
       "variables_missing" : 1,
       "source_semantic_mismatch" : 1
     }
@@ -37,28 +34,29 @@
     "src/main/java/io/github/g1ocr/OcrPipeline.java" : "d28a79eeb0948c42538098e9c7bb0f992dc9c7d71d933df33a001be6d25471f6",
     "src/main/java/io/github/g1ocr/ocr/PixelFont.java" : "983edf9f244ba5084042612e0343e55145fdce614a876a418edf824270c7f8ba",
     "src/main/java/io/github/g1ocr/ocr/PixelOcr.java" : "a5ec55f0e59c504295306f33de5fc8363eaade34fc6743922b40b55d4ce21fa3",
-    "src/main/java/io/github/g1ocr/region/RegionDetector.java" : "6fa82dbf5fbc13818937adcc2376c2cf503e6b08dac34ede376018ebcf925b04",
+    "src/main/java/io/github/g1ocr/region/RegionDetector.java" : "8817172f1979a330fb6c7f563a323b3feadd439aee5d3aa791c87d059c0a4ae4",
     "src/main/java/io/github/g1ocr/region/StabilityDetector.java" : "b3b37046c37efd61ee2332f13f2754c5bc15590d8cdc0a3f29bea851e3f13bf5",
     "src/main/java/io/github/g1ocr/text/TextCorpus.java" : "f402cc56378059e1313e1fa29d489dec502e0450108d52a7e29d4333e5c26452",
-    "src/main/java/io/github/g1ocr/text/TextResolver.java" : "cf5ce1c6086ed2bbd67e6f930fae25e766dc906dd253804074b96298cd6dcd65",
-    "src/main/java/io/github/g1ocr/ui/LiveApplication.java" : "6a7a8870884a9f10ec7f6176d56d920ebbd9c42331c12b638e5f6813b14b9d12",
+    "src/main/java/io/github/g1ocr/text/TextResolver.java" : "aed72df0a64d2738e6acabdd1fb2370bdc5be45b5afa973e9dd1d3c72e2a108e",
+    "src/main/java/io/github/g1ocr/ui/LiveApplication.java" : "7c56860990f7a248996c23ca5473fa40b4f23fd5aa63d9ca0ff29c11b5338776",
     "src/main/resources/corpus/control_rules.csv" : "e0688409826990bf15b15598c9d6e617243b65475c6856b87a4ecb46ea23f560",
-    "src/main/resources/corpus/fragments.csv" : "a5ba245e6bfacbba408f62f2740484b02d8af5c4c2af62c00a6dd7ba215c512e",
-    "src/main/resources/corpus/README.md" : "25bfb9e857681f1e0caa6ac4653317cdeb71ea988c602dc321132952596252cb",
+    "src/main/resources/corpus/fragments.csv" : "351b9957dfb5e01ba2d113e9b8fbafb14af245349ec67ecb8e338d8d64a27c9f",
+    "src/main/resources/corpus/README.md" : "b6d85bffd624042106ddd01e3f106acf84a527fb054a63107af76fa92c117981",
     "src/main/resources/corpus/records.csv" : "6fe6185718c5821a115257ba6e2d13b5f7c806a5c10d76fcf38daa71e97c3430",
     "src/main/resources/corpus/segments.csv" : "a581a3d18c0e7ab379721a3febcd211136a71d352751bde585825650540ab6c0",
-    "src/main/resources/corpus/slot_rules.csv" : "fb213c840105319f373e844d5bb54abf903ba08b09ab575e8b545c8956b65b9d",
+    "src/main/resources/corpus/slot_rules.csv" : "b29015748f9cb4f27109fd7f914cc23cca9223181f90de8cd2c92dfdd4b2a7ad",
     "src/main/resources/corpus/sources.csv" : "1c3781d918002354066b6c7868968f4f876e099b6c216ecf4439ddd8ec763d81",
     "src/main/resources/corpus/variables.csv" : "7be71b7e5921077f40fa9d2791e8c55eb4e1ee6f40b4460b2a5488cce030edd2",
     "src/main/resources/font.tsv" : "56022863949bdbdd3e097cbc62123d33d601a95596a88db69bbb710d3975b4a4",
     "src/main/resources/SOURCES.md" : "8712e57f185dffa141d0e53a22891199296bc9c3dd545990e549353158aea6d0",
     "src/test/java/io/github/g1ocr/AcceptanceTest.java" : "fd1f739c685a1f3197fb70b5118ca4f538620eca78632fb5720cac89493f9c15",
     "src/test/java/io/github/g1ocr/PipelineRulesTest.java" : "b89d9bf55dfbf07b5023290821572ef14b7b3aaef506b64d5d643b1833a20ac5",
-    "src/test/java/io/github/g1ocr/TranslationTest.java" : "2dbb4ccde091030581764c0f68f110cf9838dc4838883171439502d67969d016",
+    "src/test/java/io/github/g1ocr/ShopTest.java" : "27d503f686e5ae049763145f9267297d2062ef36694f8306e2f5a0b05d58e4a0",
+    "src/test/java/io/github/g1ocr/TranslationTest.java" : "af03f29d07e45b769c55f25dc7ce580bcd5c8b59da8ea78c46214111e8089863",
     "src/test/java/io/github/g1ocr/WgcSmokeTest.java" : "cf77e24464efb42810dfe0174a37b2973d29598603c3abc0df8163c472a95b56",
-    "src/test/resources/chinese-cases.json" : "721fde2bab0ef6dfaa1fc2f6321e9bc0e38236eea64b33ce67a362070693f578",
-    "src/test/resources/chinese-regressions.json" : "9881f462285e4be2f5dc2e0062471921f28386b9148a1f1ff34613f0b3fa2b2b",
-    "testpic/labels/japanese.json" : "263e154a044b2a7f331a0147e068c75f25d99e044bb5466c7c176bfabebea640"
+    "src/test/resources/chinese-cases.json" : "c1f77c9a3280fc1f759ab5085fc650ac4ea3bc63a80ff214427ee306803d9af6",
+    "src/test/resources/chinese-regressions.json" : "0f4898fa8c8ccae4ff9593410cab9f505585fa1158f4f890c0459daaedf57ce5",
+    "testpic/labels/japanese.json" : "06b6116b51fe09d0d01ec2841696b680fea0d4e594289f0dc33c587ef2c05ef7"
   },
   "samples" : [ {
     "sampleId" : "g1-001",
@@ -583,7 +581,6 @@
     "units" : 5,
     "unitsWithChinese" : 5,
     "regions" : [ {
-      "id" : "list",
       "layout" : "shared_list",
       "semanticType" : "ambiguous",
       "units" : [ {
@@ -741,7 +738,8 @@
           "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Main!C68",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "list"
     } ]
   }, {
     "sampleId" : "g1-002",
@@ -1066,7 +1064,6 @@
     "units" : 1,
     "unitsWithChinese" : 0,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -1244,7 +1241,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#ViridianGym!F219:G230\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-003",
@@ -1591,7 +1589,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -1625,7 +1622,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_7!F164:G169\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-006",
@@ -2262,7 +2260,6 @@
     "units" : 5,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "list",
       "layout" : "shared_list",
       "semanticType" : "pc_pokemon",
       "units" : [ {
@@ -2293,9 +2290,9 @@
         "resolvedJapanese" : "ポッポ <Lv>3",
         "chinese" : "",
         "candidates" : [ ]
-      } ]
+      } ],
+      "id" : "list"
     }, {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -2329,7 +2326,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F289:G291\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-007",
@@ -2966,7 +2964,6 @@
     "units" : 5,
     "unitsWithChinese" : 2,
     "regions" : [ {
-      "id" : "list",
       "layout" : "shared_list",
       "semanticType" : "pc_pokemon",
       "units" : [ {
@@ -3021,9 +3018,9 @@
           "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Main!C189",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "list"
     }, {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -3057,7 +3054,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F289:G291\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-008",
@@ -3846,7 +3844,6 @@
     "units" : 5,
     "unitsWithChinese" : 5,
     "regions" : [ {
-      "id" : "list",
       "layout" : "shared_list",
       "semanticType" : "ambiguous",
       "units" : [ {
@@ -3973,9 +3970,9 @@
           "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Items!C73",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "list"
     }, {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -4009,7 +4006,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F237:G239\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-009",
@@ -4330,24 +4328,23 @@
         } ]
       } ]
     } ],
-    "outcome" : "no_chinese",
+    "outcome" : "all_ready",
     "units" : 1,
-    "unitsWithChinese" : 0,
+    "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "ポケモン りーグ してんのうは\n4にん つづけて",
         "matchStatus" : "equivalent",
-        "displayStatus" : "wait_for_semantic_unit",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "ポケモン リーグ してんのうは\n4にん つづけて",
-        "chinese" : "",
+        "chinese" : "这里的规则是\n要连续打败４位\n宝可梦联盟四天王！",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
           "ordinal" : 4,
           "japanese" : "ポケモン リーグ してんのうは\n4にん つづけて",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G15\"]",
           "revision" : "null"
@@ -4355,7 +4352,7 @@
           "recordId" : "pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
           "ordinal" : 4,
           "japanese" : "ポケモン リーグ してんのうは\n4にん つづけて",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G15\"]",
           "revision" : "null"
@@ -4363,12 +4360,13 @@
           "recordId" : "pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText",
           "ordinal" : 4,
           "japanese" : "ポケモン リーグ してんのうは\n4にん つづけて",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G11\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-010",
@@ -4693,7 +4691,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -4727,7 +4724,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F2:G11\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-011",
@@ -4736,6 +4734,470 @@
     "expectedNoTargetText" : false,
     "rawJapanesePass" : true,
     "rawOcrRegions" : [ {
+      "id" : "list",
+      "layout" : "shop_items",
+      "semanticType" : "shop_items",
+      "bounds" : {
+        "x" : 32,
+        "y" : 16,
+        "width" : 128,
+        "height" : 88
+      },
+      "textGrids" : [ {
+        "x" : 48,
+        "y" : 32,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 48,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 64,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      }, {
+        "x" : 48,
+        "y" : 80,
+        "columns" : 13,
+        "maskedColumns" : [ ]
+      } ],
+      "footerGrids" : [ ],
+      "rawOcr" : [ "ハイパーボール 1200円", "スーパーボール 600円", "かいふくのくすり3000円", "まんたんのくすり2500円" ],
+      "footerLines" : [ ],
+      "selectedItem" : 0,
+      "diagnostics" : [ {
+        "rawOcr" : "ハイパーボール 1200円",
+        "characters" : [ {
+          "x" : 48,
+          "y" : 32,
+          "raw" : "ハ",
+          "candidates" : [ "ハ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 56,
+          "y" : 32,
+          "raw" : "イ",
+          "candidates" : [ "イ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 9,
+          "unknown" : false
+        }, {
+          "x" : 64,
+          "y" : 32,
+          "raw" : "パ",
+          "candidates" : [ "パ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 6,
+          "unknown" : false
+        }, {
+          "x" : 72,
+          "y" : 32,
+          "raw" : "ー",
+          "candidates" : [ "ー" ],
+          "distance" : 0,
+          "runnerUpDistance" : 5,
+          "unknown" : false
+        }, {
+          "x" : 80,
+          "y" : 32,
+          "raw" : "ボ",
+          "candidates" : [ "ボ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 88,
+          "y" : 32,
+          "raw" : "ー",
+          "candidates" : [ "ー" ],
+          "distance" : 0,
+          "runnerUpDistance" : 5,
+          "unknown" : false
+        }, {
+          "x" : 96,
+          "y" : 32,
+          "raw" : "ル",
+          "candidates" : [ "ル" ],
+          "distance" : 0,
+          "runnerUpDistance" : 12,
+          "unknown" : false
+        }, {
+          "x" : 104,
+          "y" : 32,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 112,
+          "y" : 32,
+          "raw" : "1",
+          "candidates" : [ "1" ],
+          "distance" : 0,
+          "runnerUpDistance" : 7,
+          "unknown" : false
+        }, {
+          "x" : 120,
+          "y" : 32,
+          "raw" : "2",
+          "candidates" : [ "2" ],
+          "distance" : 0,
+          "runnerUpDistance" : 12,
+          "unknown" : false
+        }, {
+          "x" : 128,
+          "y" : 32,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 136,
+          "y" : 32,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 144,
+          "y" : 32,
+          "raw" : "円",
+          "candidates" : [ "円" ],
+          "distance" : 0,
+          "runnerUpDistance" : 11,
+          "unknown" : false
+        } ]
+      }, {
+        "rawOcr" : "スーパーボール 600円",
+        "characters" : [ {
+          "x" : 48,
+          "y" : 48,
+          "raw" : "ス",
+          "candidates" : [ "ス" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 56,
+          "y" : 48,
+          "raw" : "ー",
+          "candidates" : [ "ー" ],
+          "distance" : 0,
+          "runnerUpDistance" : 5,
+          "unknown" : false
+        }, {
+          "x" : 64,
+          "y" : 48,
+          "raw" : "パ",
+          "candidates" : [ "パ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 6,
+          "unknown" : false
+        }, {
+          "x" : 72,
+          "y" : 48,
+          "raw" : "ー",
+          "candidates" : [ "ー" ],
+          "distance" : 0,
+          "runnerUpDistance" : 5,
+          "unknown" : false
+        }, {
+          "x" : 80,
+          "y" : 48,
+          "raw" : "ボ",
+          "candidates" : [ "ボ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 88,
+          "y" : 48,
+          "raw" : "ー",
+          "candidates" : [ "ー" ],
+          "distance" : 0,
+          "runnerUpDistance" : 5,
+          "unknown" : false
+        }, {
+          "x" : 96,
+          "y" : 48,
+          "raw" : "ル",
+          "candidates" : [ "ル" ],
+          "distance" : 0,
+          "runnerUpDistance" : 12,
+          "unknown" : false
+        }, {
+          "x" : 104,
+          "y" : 48,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 112,
+          "y" : 48,
+          "raw" : " ",
+          "candidates" : [ " " ],
+          "distance" : 0,
+          "runnerUpDistance" : 2,
+          "unknown" : false
+        }, {
+          "x" : 120,
+          "y" : 48,
+          "raw" : "6",
+          "candidates" : [ "6" ],
+          "distance" : 0,
+          "runnerUpDistance" : 3,
+          "unknown" : false
+        }, {
+          "x" : 128,
+          "y" : 48,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 136,
+          "y" : 48,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 144,
+          "y" : 48,
+          "raw" : "円",
+          "candidates" : [ "円" ],
+          "distance" : 0,
+          "runnerUpDistance" : 11,
+          "unknown" : false
+        } ]
+      }, {
+        "rawOcr" : "かいふくのくすり3000円",
+        "characters" : [ {
+          "x" : 48,
+          "y" : 64,
+          "raw" : "か",
+          "candidates" : [ "か" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 56,
+          "y" : 64,
+          "raw" : "い",
+          "candidates" : [ "い" ],
+          "distance" : 0,
+          "runnerUpDistance" : 11,
+          "unknown" : false
+        }, {
+          "x" : 64,
+          "y" : 64,
+          "raw" : "ふ",
+          "candidates" : [ "ふ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 72,
+          "y" : 64,
+          "raw" : "く",
+          "candidates" : [ "く" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 80,
+          "y" : 64,
+          "raw" : "の",
+          "candidates" : [ "の" ],
+          "distance" : 0,
+          "runnerUpDistance" : 16,
+          "unknown" : false
+        }, {
+          "x" : 88,
+          "y" : 64,
+          "raw" : "く",
+          "candidates" : [ "く" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 96,
+          "y" : 64,
+          "raw" : "す",
+          "candidates" : [ "す" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 104,
+          "y" : 64,
+          "raw" : "り",
+          "candidates" : [ "り", "リ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 8,
+          "unknown" : false
+        }, {
+          "x" : 112,
+          "y" : 64,
+          "raw" : "3",
+          "candidates" : [ "3" ],
+          "distance" : 0,
+          "runnerUpDistance" : 9,
+          "unknown" : false
+        }, {
+          "x" : 120,
+          "y" : 64,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 128,
+          "y" : 64,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 136,
+          "y" : 64,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 144,
+          "y" : 64,
+          "raw" : "円",
+          "candidates" : [ "円" ],
+          "distance" : 0,
+          "runnerUpDistance" : 11,
+          "unknown" : false
+        } ]
+      }, {
+        "rawOcr" : "まんたんのくすり2500円",
+        "characters" : [ {
+          "x" : 48,
+          "y" : 80,
+          "raw" : "ま",
+          "candidates" : [ "ま" ],
+          "distance" : 0,
+          "runnerUpDistance" : 8,
+          "unknown" : false
+        }, {
+          "x" : 56,
+          "y" : 80,
+          "raw" : "ん",
+          "candidates" : [ "ん" ],
+          "distance" : 0,
+          "runnerUpDistance" : 13,
+          "unknown" : false
+        }, {
+          "x" : 64,
+          "y" : 80,
+          "raw" : "た",
+          "candidates" : [ "た" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 72,
+          "y" : 80,
+          "raw" : "ん",
+          "candidates" : [ "ん" ],
+          "distance" : 0,
+          "runnerUpDistance" : 13,
+          "unknown" : false
+        }, {
+          "x" : 80,
+          "y" : 80,
+          "raw" : "の",
+          "candidates" : [ "の" ],
+          "distance" : 0,
+          "runnerUpDistance" : 16,
+          "unknown" : false
+        }, {
+          "x" : 88,
+          "y" : 80,
+          "raw" : "く",
+          "candidates" : [ "く" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 96,
+          "y" : 80,
+          "raw" : "す",
+          "candidates" : [ "す" ],
+          "distance" : 0,
+          "runnerUpDistance" : 4,
+          "unknown" : false
+        }, {
+          "x" : 104,
+          "y" : 80,
+          "raw" : "り",
+          "candidates" : [ "り", "リ" ],
+          "distance" : 0,
+          "runnerUpDistance" : 8,
+          "unknown" : false
+        }, {
+          "x" : 112,
+          "y" : 80,
+          "raw" : "2",
+          "candidates" : [ "2" ],
+          "distance" : 0,
+          "runnerUpDistance" : 12,
+          "unknown" : false
+        }, {
+          "x" : 120,
+          "y" : 80,
+          "raw" : "5",
+          "candidates" : [ "5" ],
+          "distance" : 0,
+          "runnerUpDistance" : 3,
+          "unknown" : false
+        }, {
+          "x" : 128,
+          "y" : 80,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 136,
+          "y" : 80,
+          "raw" : "0",
+          "candidates" : [ "0" ],
+          "distance" : 0,
+          "runnerUpDistance" : 14,
+          "unknown" : false
+        }, {
+          "x" : 144,
+          "y" : 80,
+          "raw" : "円",
+          "candidates" : [ "円" ],
+          "distance" : 0,
+          "runnerUpDistance" : 11,
+          "unknown" : false
+        } ]
+      } ]
+    }, {
       "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
@@ -5049,10 +5511,138 @@
       } ]
     } ],
     "outcome" : "all_ready",
-    "units" : 1,
-    "unitsWithChinese" : 1,
+    "units" : 5,
+    "unitsWithChinese" : 5,
     "regions" : [ {
-      "id" : "dialogue",
+      "layout" : "shop_items",
+      "semanticType" : "shop_items",
+      "units" : [ {
+        "rawJapanese" : "ハイパーボール 1200円",
+        "matchStatus" : "equivalent",
+        "displayStatus" : "ready",
+        "resolvedJapanese" : "ハイパーボール 1200円",
+        "chinese" : "高级球 1200円",
+        "candidates" : [ {
+          "recordId" : "pokegreen:item:ULTRA_BALL",
+          "ordinal" : 1,
+          "japanese" : "ハイパーボール",
+          "segmentStatus" : "whole_visible_unit",
+          "variables" : { },
+          "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C3",
+          "revision" : "null"
+        }, {
+          "recordId" : "pokeblue:item:ULTRA_BALL",
+          "ordinal" : 1,
+          "japanese" : "ハイパーボール",
+          "segmentStatus" : "whole_visible_unit",
+          "variables" : { },
+          "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C3",
+          "revision" : "null"
+        }, {
+          "recordId" : "pokeyellow-jp:item:ULTRA_BALL",
+          "ordinal" : 1,
+          "japanese" : "ハイパーボール",
+          "segmentStatus" : "whole_visible_unit",
+          "variables" : { },
+          "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Items!C3",
+          "revision" : "null"
+        } ]
+      }, {
+        "rawJapanese" : "スーパーボール 600円",
+        "matchStatus" : "equivalent",
+        "displayStatus" : "ready",
+        "resolvedJapanese" : "スーパーボール 600円",
+        "chinese" : "超级球 600円",
+        "candidates" : [ {
+          "recordId" : "pokegreen:item:GREAT_BALL",
+          "ordinal" : 1,
+          "japanese" : "スーパーボール",
+          "segmentStatus" : "whole_visible_unit",
+          "variables" : { },
+          "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C4",
+          "revision" : "null"
+        }, {
+          "recordId" : "pokeblue:item:GREAT_BALL",
+          "ordinal" : 1,
+          "japanese" : "スーパーボール",
+          "segmentStatus" : "whole_visible_unit",
+          "variables" : { },
+          "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C4",
+          "revision" : "null"
+        }, {
+          "recordId" : "pokeyellow-jp:item:GREAT_BALL",
+          "ordinal" : 1,
+          "japanese" : "スーパーボール",
+          "segmentStatus" : "whole_visible_unit",
+          "variables" : { },
+          "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Items!C4",
+          "revision" : "null"
+        } ]
+      }, {
+        "rawJapanese" : "かいふくのくすり3000円",
+        "matchStatus" : "equivalent",
+        "displayStatus" : "ready",
+        "resolvedJapanese" : "かいふくのくすり3000円",
+        "chinese" : "全复药3000円",
+        "candidates" : [ {
+          "recordId" : "pokegreen:item:FULL_RESTORE",
+          "ordinal" : 1,
+          "japanese" : "かいふくのくすり",
+          "segmentStatus" : "whole_visible_unit",
+          "variables" : { },
+          "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C17",
+          "revision" : "null"
+        }, {
+          "recordId" : "pokeblue:item:FULL_RESTORE",
+          "ordinal" : 1,
+          "japanese" : "かいふくのくすり",
+          "segmentStatus" : "whole_visible_unit",
+          "variables" : { },
+          "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C17",
+          "revision" : "null"
+        }, {
+          "recordId" : "pokeyellow-jp:item:FULL_RESTORE",
+          "ordinal" : 1,
+          "japanese" : "かいふくのくすり",
+          "segmentStatus" : "whole_visible_unit",
+          "variables" : { },
+          "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Items!C17",
+          "revision" : "null"
+        } ]
+      }, {
+        "rawJapanese" : "まんたんのくすり2500円",
+        "matchStatus" : "equivalent",
+        "displayStatus" : "ready",
+        "resolvedJapanese" : "まんたんのくすり2500円",
+        "chinese" : "全满药2500円",
+        "candidates" : [ {
+          "recordId" : "pokegreen:item:MAX_POTION",
+          "ordinal" : 1,
+          "japanese" : "まんたんのくすり",
+          "segmentStatus" : "whole_visible_unit",
+          "variables" : { },
+          "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C18",
+          "revision" : "null"
+        }, {
+          "recordId" : "pokeblue:item:MAX_POTION",
+          "ordinal" : 1,
+          "japanese" : "まんたんのくすり",
+          "segmentStatus" : "whole_visible_unit",
+          "variables" : { },
+          "source" : "pokeredCHS-rgb:src/xlsx/data.xlsx#Items!C18",
+          "revision" : "null"
+        }, {
+          "recordId" : "pokeyellow-jp:item:MAX_POTION",
+          "ordinal" : 1,
+          "japanese" : "まんたんのくすり",
+          "segmentStatus" : "whole_visible_unit",
+          "variables" : { },
+          "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Items!C18",
+          "revision" : "null"
+        } ]
+      } ],
+      "id" : "list"
+    }, {
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -5086,7 +5676,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_7!F30:G32\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-012",
@@ -5875,7 +6466,6 @@
     "units" : 5,
     "unitsWithChinese" : 5,
     "regions" : [ {
-      "id" : "list",
       "layout" : "shared_list",
       "semanticType" : "ambiguous",
       "units" : [ {
@@ -6002,9 +6592,9 @@
           "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Items!C77",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "list"
     }, {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -6038,7 +6628,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_7!F58:G60\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-013",
@@ -6359,24 +6950,23 @@
         } ]
       } ]
     } ],
-    "outcome" : "no_chinese",
+    "outcome" : "all_ready",
     "units" : 1,
-    "unitsWithChinese" : 0,
+    "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
         "matchStatus" : "equivalent",
-        "displayStatus" : "context_required",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
-        "chinese" : "",
+        "chinese" : "接下来你必须\n与四天王一一对战哦！\n\n要是你赢了，\n门会自动打开，\n你就可以前往\n更里边的房间了！",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText",
           "ordinal" : 3,
           "japanese" : "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F17:G27\"]",
           "revision" : "null"
@@ -6384,7 +6974,7 @@
           "recordId" : "pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText",
           "ordinal" : 3,
           "japanese" : "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F17:G27\"]",
           "revision" : "null"
@@ -6392,12 +6982,13 @@
           "recordId" : "pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyCooltrainerFText",
           "ordinal" : 3,
           "japanese" : "ひとりずつ たたかうの！\nもし かてたら ドアが ひらいて",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F17:G25\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-014",
@@ -6722,7 +7313,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -6756,7 +7346,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#IndigoPlateauLobby!F17:G25\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-015",
@@ -7081,7 +7672,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -7115,7 +7705,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F865:G868\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-016",
@@ -7451,7 +8042,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -7485,7 +8075,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#SaffronCity!F45:G50\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-018",
@@ -7810,7 +8401,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -7844,7 +8434,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#SaffronCity!F45:G50\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-019",
@@ -8165,24 +8756,23 @@
         } ]
       } ]
     } ],
-    "outcome" : "no_chinese",
+    "outcome" : "all_ready",
     "units" : 1,
-    "unitsWithChinese" : 0,
+    "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "すこし たかい けど\nねむけざまし どくけし などを",
         "matchStatus" : "equivalent",
-        "displayStatus" : "wait_for_semantic_unit",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "すこし たかい けど\nねむけざまし どくけし などを",
-        "chinese" : "",
+        "chinese" : "虽然价格偏高，\n但是不用分开买解眠药、\n解毒药什么的，省事极了！",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text",
           "ordinal" : 6,
           "japanese" : "すこし たかい けど\nねむけざまし どくけし などを",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#SaffronCity!F114:G124\"]",
           "revision" : "null"
@@ -8190,7 +8780,7 @@
           "recordId" : "pokeblue:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text",
           "ordinal" : 6,
           "japanese" : "すこし たかい けど\nねむけざまし どくけし などを",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/outdoor.xlsx#SaffronCity!F114:G124\"]",
           "revision" : "null"
@@ -8198,12 +8788,13 @@
           "recordId" : "pokeyellow-jp:scripts/SaffronCity.asm:SaffronCityTrainerTips1Text",
           "ordinal" : 6,
           "japanese" : "すこし たかい けど\nねむけざまし どくけし などを",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#SaffronCity!F113:G121\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-020",
@@ -8528,7 +9119,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -8562,7 +9152,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/routes.xlsx#SaffronGates!F36:G39\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-021",
@@ -8887,7 +9478,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -8921,7 +9511,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#SaffronCity!F58:G67\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-022",
@@ -9242,19 +9833,18 @@
         } ]
       } ]
     } ],
-    "outcome" : "published_partial",
+    "outcome" : "all_ready",
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "かいけつ した……？\nすんません！",
         "matchStatus" : "equivalent",
-        "displayStatus" : "ready_waiting",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "かいけつ した……？\nすんません！",
-        "chinese" : "你说这件事\n已经解决了……？",
+        "chinese" : "你说这件事\n已经解决了……？\n不好意思！\n我天生就喜欢看热闹！",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/SaffronCity.asm:SaffronCityGentlemanText",
           "ordinal" : 5,
@@ -9280,7 +9870,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#SaffronCity!F58:G67\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-023",
@@ -9605,7 +10196,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -9639,7 +10229,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#CeruleanCity!F110:G115\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-024",
@@ -9964,7 +10555,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -9998,7 +10588,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#CeruleanCity!F110:G115\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-025",
@@ -10323,7 +10914,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -10357,7 +10947,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#CeruleanCity!F119:G123\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-026",
@@ -10682,7 +11273,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -10716,7 +11306,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#CeruleanCity!F119:G123\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-027",
@@ -11041,7 +11632,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -11075,7 +11665,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/outdoor.xlsx#CeruleanCity!F186:G192\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-028",
@@ -11400,7 +11991,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -11476,7 +12066,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F155:G162\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-029",
@@ -11801,7 +12392,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -11816,9 +12406,9 @@
           "japanese" : "{{RAM2}} にんてい トレーナー！\n{{RIVAL}} {{PLAYER}}",
           "segmentStatus" : "semantic_visible",
           "variables" : {
-            "RAM2" : "カスミ",
             "PLAYER" : "グりーン",
-            "RIVAL" : "レッド"
+            "RIVAL" : "レッド",
+            "RAM2" : "カスミ"
           },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F148:G155\"]",
           "revision" : "null"
@@ -11828,9 +12418,9 @@
           "japanese" : "{{RAM2}} にんてい トレーナー！\n{{RIVAL}} {{PLAYER}}",
           "segmentStatus" : "semantic_visible",
           "variables" : {
-            "RAM2" : "カスミ",
             "PLAYER" : "グりーン",
-            "RIVAL" : "レッド"
+            "RIVAL" : "レッド",
+            "RAM2" : "カスミ"
           },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F148:G155\"]",
           "revision" : "null"
@@ -11840,14 +12430,15 @@
           "japanese" : "{{RAM2}} にんてい トレーナー！\n{{RIVAL}} {{PLAYER}}",
           "segmentStatus" : "semantic_visible",
           "variables" : {
-            "RAM2" : "カスミ",
             "PLAYER" : "グりーン",
-            "RIVAL" : "レッド"
+            "RIVAL" : "レッド",
+            "RAM2" : "カスミ"
           },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F155:G162\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-030",
@@ -12172,7 +12763,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -12206,7 +12796,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CeruleanGym!F129:G134\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-031",
@@ -12531,7 +13122,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -12565,7 +13155,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CeruleanGym!F23:G28\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-032",
@@ -12886,19 +13477,18 @@
         } ]
       } ]
     } ],
-    "outcome" : "published_partial",
+    "outcome" : "all_ready",
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "おかあさん『グりーン……！\nすこし やすんで いったら",
         "matchStatus" : "equivalent",
-        "displayStatus" : "ready_waiting",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "おかあさん『グりーン……！\nすこし やすんで いったら",
-        "chinese" : "妈妈：グりーン……！",
+        "chinese" : "妈妈：グりーン……！\n稍微休息一下吧……？",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText",
           "ordinal" : 2,
@@ -12920,7 +13510,8 @@
           "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#RedsHouse1F!F13:G17\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-033",
@@ -13241,24 +13832,23 @@
         } ]
       } ]
     } ],
-    "outcome" : "no_chinese",
+    "outcome" : "all_ready",
     "units" : 1,
-    "unitsWithChinese" : 0,
+    "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "すこし やすんで いったら\nどうかしら……？",
         "matchStatus" : "equivalent",
-        "displayStatus" : "wait_for_semantic_unit",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "すこし やすんで いったら\nどうかしら……？",
-        "chinese" : "",
+        "chinese" : "稍微休息一下吧……？",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText",
           "ordinal" : 3,
           "japanese" : "すこし やすんで いったら\nどうかしら……？",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#RedsHouse1F!F13:G17\"]",
           "revision" : "null"
@@ -13266,12 +13856,13 @@
           "recordId" : "pokeblue:scripts/RedsHouse1F.asm:RedsHouse1FMomYouShouldRestText",
           "ordinal" : 3,
           "japanese" : "すこし やすんで いったら\nどうかしら……？",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#RedsHouse1F!F13:G17\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-034",
@@ -13596,7 +14187,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -13622,7 +14212,8 @@
           "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#BluesHouse!F34:G39\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-035",
@@ -13947,7 +14538,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -13973,7 +14563,8 @@
           "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#BluesHouse!F34:G39\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-036",
@@ -14298,7 +14889,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -14332,7 +14922,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#OaksLab!F401:G404\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-037",
@@ -14657,7 +15248,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -14691,7 +15281,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F846:G849\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-038",
@@ -15012,19 +15603,18 @@
         } ]
       } ]
     } ],
-    "outcome" : "published_partial",
+    "outcome" : "all_ready",
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "オーキド『よく きた！\nポケモンずかんの",
         "matchStatus" : "equivalent",
-        "displayStatus" : "ready_waiting",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "オーキド『よく きた！\nポケモンずかんの",
-        "chinese" : "你来的正好！",
+        "chinese" : "你来的正好！\n宝可梦图鉴收集得如何了？",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/OaksLab.asm:OaksLabOak1Text.HowIsYourPokedexComingText",
           "ordinal" : 2,
@@ -15050,7 +15640,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#OaksLab!F132:G137\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-039",
@@ -15375,7 +15966,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -15383,7 +15973,7 @@
         "matchStatus" : "equivalent",
         "displayStatus" : "ready",
         "resolvedJapanese" : "あ！ やせいの\nコラッタが とびだしてきた！",
-        "chinese" : "啊！野生的\nコラッタ扑过来了！",
+        "chinese" : "啊！野生的\n小拉达扑过来了！",
         "candidates" : [ {
           "recordId" : "pokegreen:engine/battle/common_text.asm:WildMonAppearedText",
           "ordinal" : 2,
@@ -15415,7 +16005,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1312:G1317\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-040",
@@ -15751,7 +16342,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -15794,7 +16384,8 @@
           "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_2!F1128:G1130\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1147:G1151\\\"]\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-042",
@@ -16119,7 +16710,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -16159,7 +16749,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F906:G911\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-043",
@@ -16484,7 +17075,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -16527,7 +17117,8 @@
           "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_2!F1128:G1130\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1147:G1151\\\"]\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-044",
@@ -16852,7 +17443,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -16892,7 +17482,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F906:G911\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-045",
@@ -17217,7 +17808,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -17260,7 +17850,8 @@
           "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_2!F1259:G1263\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1270:G1273\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1275:G1278\\\"]\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-046",
@@ -17417,7 +18008,6 @@
     "units" : 4,
     "unitsWithChinese" : 4,
     "regions" : [ {
-      "id" : "action",
       "layout" : "battle_action",
       "semanticType" : "battle_action",
       "units" : [ {
@@ -17544,7 +18134,8 @@
           "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Main!C94",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "action"
     } ]
   }, {
     "sampleId" : "g1-047",
@@ -18021,7 +18612,6 @@
     "units" : 4,
     "unitsWithChinese" : 4,
     "regions" : [ {
-      "id" : "list",
       "layout" : "shared_list",
       "semanticType" : "ambiguous",
       "units" : [ {
@@ -18148,7 +18738,8 @@
           "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Items!C77",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "list"
     } ]
   }, {
     "sampleId" : "g1-048",
@@ -18473,7 +19064,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -18488,8 +19078,8 @@
           "japanese" : "{{PLAYER}}は\n{{RAM1}}を つかった！",
           "segmentStatus" : "whole_visible_unit",
           "variables" : {
-            "PLAYER" : "グりーン",
-            "RAM1" : "モンスターボール"
+            "RAM1" : "モンスターボール",
+            "PLAYER" : "グりーン"
           },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_7!F2:G4\",\"src/xlsx/core.xlsx#text_7!F6:G9\"]",
           "revision" : "null"
@@ -18499,8 +19089,8 @@
           "japanese" : "{{PLAYER}}は\n{{RAM1}}を つかった！",
           "segmentStatus" : "whole_visible_unit",
           "variables" : {
-            "PLAYER" : "グりーン",
-            "RAM1" : "モンスターボール"
+            "RAM1" : "モンスターボール",
+            "PLAYER" : "グりーン"
           },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_7!F2:G4\",\"src/xlsx/core.xlsx#text_7!F6:G9\"]",
           "revision" : "null"
@@ -18510,13 +19100,14 @@
           "japanese" : "{{PLAYER}}は\n{{RAM1}}を つかった！",
           "segmentStatus" : "whole_visible_unit",
           "variables" : {
-            "PLAYER" : "グりーン",
-            "RAM1" : "モンスターボール"
+            "RAM1" : "モンスターボール",
+            "PLAYER" : "グりーン"
           },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_9!F246:G248\",\"src/xlsx/core.xlsx#text_9!F250:G253\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-049",
@@ -18841,7 +19432,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -18849,7 +19439,7 @@
         "matchStatus" : "equivalent",
         "displayStatus" : "ready",
         "resolvedJapanese" : "やったー！\nコラッタを つかまえたぞ！",
-        "chinese" : "太好了！\n捉到コラッタ了！",
+        "chinese" : "太好了！\n捉到小拉达了！",
         "candidates" : [ {
           "recordId" : "pokegreen:engine/items/item_effects.asm:ItemUseBallText05",
           "ordinal" : 2,
@@ -18881,7 +19471,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_9!F30:G35\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-050",
@@ -19206,7 +19797,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -19240,7 +19830,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G15\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-051",
@@ -19565,7 +20156,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -19599,7 +20189,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G15\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-052",
@@ -19924,7 +20515,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -19958,7 +20548,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G15\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-053",
@@ -20283,7 +20874,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -20317,7 +20907,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G15\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-054",
@@ -20638,24 +21229,23 @@
         } ]
       } ]
     } ],
-    "outcome" : "no_chinese",
+    "outcome" : "all_ready",
     "units" : 1,
-    "unitsWithChinese" : 0,
+    "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "だって こおっちゃったら\nあんたの ポケモン",
         "matchStatus" : "equivalent",
-        "displayStatus" : "wait_for_semantic_unit",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "だって こおっちゃったら\nあんたの ポケモン",
-        "chinese" : "",
+        "chinese" : "因为如果被冻住，\n你的宝可梦就无法动弹了！",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
           "ordinal" : 8,
           "japanese" : "だって こおっちゃったら\nあんたの ポケモン",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G23\"]",
           "revision" : "null"
@@ -20663,7 +21253,7 @@
           "recordId" : "pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
           "ordinal" : 8,
           "japanese" : "だって こおっちゃったら\nあんたの ポケモン",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G23\"]",
           "revision" : "null"
@@ -20671,12 +21261,13 @@
           "recordId" : "pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
           "ordinal" : 8,
           "japanese" : "だって こおっちゃったら\nあんたの ポケモン",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G15\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-055",
@@ -20997,24 +21588,23 @@
         } ]
       } ]
     } ],
-    "outcome" : "no_chinese",
+    "outcome" : "all_ready",
     "units" : 1,
-    "unitsWithChinese" : 0,
+    "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "あんたの ポケモン\nぜんぜん うごけ ないんだから",
         "matchStatus" : "equivalent",
-        "displayStatus" : "context_required",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "あんたの ポケモン\nぜんぜん うごけ ないんだから",
-        "chinese" : "",
+        "chinese" : "因为如果被冻住，\n你的宝可梦就无法动弹了！",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
           "ordinal" : 9,
           "japanese" : "あんたの ポケモン\nぜんぜん うごけ ないんだから",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G23\"]",
           "revision" : "null"
@@ -21022,7 +21612,7 @@
           "recordId" : "pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
           "ordinal" : 9,
           "japanese" : "あんたの ポケモン\nぜんぜん うごけ ないんだから",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G23\"]",
           "revision" : "null"
@@ -21030,12 +21620,13 @@
           "recordId" : "pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiBattleText",
           "ordinal" : 9,
           "japanese" : "あんたの ポケモン\nぜんぜん うごけ ないんだから",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G15\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-056",
@@ -21360,7 +21951,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -21394,7 +21984,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F2:G15\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-057",
@@ -21730,7 +22321,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -21770,7 +22360,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_3!F8:G12\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-059",
@@ -22095,7 +22686,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -22138,7 +22728,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F969:G975\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-060",
@@ -22463,7 +23054,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -22503,7 +23093,8 @@
           "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_3!F25:G27\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_3!F42:G45\\\"]\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-061",
@@ -22828,7 +23419,6 @@
     "units" : 1,
     "unitsWithChinese" : 0,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -22865,7 +23455,7 @@
           "recordId" : "pokegreen:composed:Retreat.direct",
           "ordinal" : 1,
           "japanese" : "{{RAM1}}",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "whole_visible_unit",
           "variables" : {
             "RAM1" : "きゅうしょ"
           },
@@ -22875,7 +23465,7 @@
           "recordId" : "pokeblue:composed:Retreat.direct",
           "ordinal" : 1,
           "japanese" : "{{RAM1}}",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "whole_visible_unit",
           "variables" : {
             "RAM1" : "きゅうしょ"
           },
@@ -22885,7 +23475,7 @@
           "recordId" : "pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalTakesText5",
           "ordinal" : 6,
           "japanese" : "{{PLAYER}}",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "きゅうしょ"
           },
@@ -22895,14 +23485,15 @@
           "recordId" : "pokeyellow-jp:composed:Retreat.direct",
           "ordinal" : 1,
           "japanese" : "{{RAM1}}",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "whole_visible_unit",
           "variables" : {
             "RAM1" : "きゅうしょ"
           },
           "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_3!F47:G50\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_3!F64:G69\\\"]\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-062",
@@ -23227,7 +23818,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -23261,7 +23851,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1194:G1196\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-063",
@@ -23586,7 +24177,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -23626,7 +24216,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_5!F228:G231\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-064",
@@ -23951,7 +24542,6 @@
     "units" : 1,
     "unitsWithChinese" : 0,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -23972,7 +24562,7 @@
           "recordId" : "pokegreen:composed:Retreat.direct",
           "ordinal" : 1,
           "japanese" : "{{RAM1}}",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "whole_visible_unit",
           "variables" : {
             "RAM1" : "ゆけっ"
           },
@@ -23990,7 +24580,7 @@
           "recordId" : "pokeblue:composed:Retreat.direct",
           "ordinal" : 1,
           "japanese" : "{{RAM1}}",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "whole_visible_unit",
           "variables" : {
             "RAM1" : "ゆけっ"
           },
@@ -24000,7 +24590,7 @@
           "recordId" : "pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalTakesText5",
           "ordinal" : 6,
           "japanese" : "{{PLAYER}}",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "ゆけっ"
           },
@@ -24018,14 +24608,15 @@
           "recordId" : "pokeyellow-jp:composed:Retreat.direct",
           "ordinal" : 1,
           "japanese" : "{{RAM1}}",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "whole_visible_unit",
           "variables" : {
             "RAM1" : "ゆけっ"
           },
           "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_3!F47:G50\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_3!F64:G69\\\"]\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-065",
@@ -24350,7 +24941,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -24390,7 +24980,8 @@
           "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_3!F25:G27\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_3!F42:G45\\\"]\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-066",
@@ -24715,7 +25306,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -24758,7 +25348,8 @@
           "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_2!F1128:G1130\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1147:G1151\\\"]\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-067",
@@ -25083,7 +25674,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -25117,7 +25707,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1194:G1196\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-068",
@@ -25442,7 +26033,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -25476,7 +26066,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1288:G1290\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-069",
@@ -25801,7 +26392,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -25841,7 +26431,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1050:G1053\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-070",
@@ -26166,7 +26757,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -26200,7 +26790,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1288:G1290\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-071",
@@ -26525,7 +27116,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -26565,7 +27155,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F906:G911\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-072",
@@ -26890,7 +27481,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -26933,7 +27523,8 @@
           "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_2!F1259:G1263\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1270:G1273\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1275:G1278\\\"]\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-073",
@@ -27258,7 +27849,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -27301,7 +27891,8 @@
           "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_2!F1259:G1263\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1275:G1278\\\"]\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-074",
@@ -27626,7 +28217,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -27669,7 +28259,8 @@
           "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_2!F1128:G1130\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1147:G1151\\\"]\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-075",
@@ -27954,7 +28545,6 @@
     "units" : 4,
     "unitsWithChinese" : 4,
     "regions" : [ {
-      "id" : "moves",
       "layout" : "battle_moves",
       "semanticType" : "battle_moves",
       "units" : [ {
@@ -28081,7 +28671,8 @@
           "source" : "pokeyellowCHS-sjp:src/xlsx/data.xlsx#Moves!C39",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "moves"
     } ]
   }, {
     "sampleId" : "g1-076",
@@ -28406,7 +28997,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -28446,7 +29036,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1080:G1083\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-077",
@@ -28771,7 +29362,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -28814,7 +29404,8 @@
           "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_2!F1128:G1130\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_2!F1147:G1151\\\"]\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-078",
@@ -29139,7 +29730,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -29154,9 +29744,9 @@
           "japanese" : "{{RAM1}}は {{RAM2}}に\n{{RAM3}}を つかった",
           "segmentStatus" : "whole_visible_unit",
           "variables" : {
+            "RAM3" : "いいキズぐすり",
             "RAM2" : "ラプラス",
-            "RAM1" : "カンナ",
-            "RAM3" : "いいキズぐすり"
+            "RAM1" : "カンナ"
           },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F10:G20\"]",
           "revision" : "null"
@@ -29166,9 +29756,9 @@
           "japanese" : "{{RAM1}}は {{RAM2}}に\n{{RAM3}}を つかった",
           "segmentStatus" : "whole_visible_unit",
           "variables" : {
+            "RAM3" : "いいキズぐすり",
             "RAM2" : "ラプラス",
-            "RAM1" : "カンナ",
-            "RAM3" : "いいキズぐすり"
+            "RAM1" : "カンナ"
           },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F10:G20\"]",
           "revision" : "null"
@@ -29178,14 +29768,15 @@
           "japanese" : "{{RAM1}}は {{RAM2}}に\n{{RAM3}}を つかった",
           "segmentStatus" : "whole_visible_unit",
           "variables" : {
+            "RAM3" : "いいキズぐすり",
             "RAM2" : "ラプラス",
-            "RAM1" : "カンナ",
-            "RAM3" : "いいキズぐすり"
+            "RAM1" : "カンナ"
           },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F10:G19\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-079",
@@ -29510,7 +30101,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -29550,7 +30140,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F906:G911\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-080",
@@ -29875,7 +30466,6 @@
     "units" : 1,
     "unitsWithChinese" : 0,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -29915,7 +30505,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F920:G925\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-081",
@@ -30240,7 +30831,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -30280,7 +30870,8 @@
           "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_1!F17:G20\\\"]\",\"[\\\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F25:G27\\\"]\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-082",
@@ -30605,7 +31196,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -30620,8 +31210,8 @@
           "japanese" : "{{PLAYER}}は しょうきんとして\n{{NUMBER1}}円 てにいれた！",
           "segmentStatus" : "whole_visible_unit",
           "variables" : {
-            "PLAYER" : "グりーン",
-            "NUMBER1" : "5544"
+            "NUMBER1" : "5544",
+            "PLAYER" : "グりーン"
           },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F883:G889\"]",
           "revision" : "null"
@@ -30631,8 +31221,8 @@
           "japanese" : "{{PLAYER}}は しょうきんとして\n{{NUMBER1}}円 てにいれた！",
           "segmentStatus" : "whole_visible_unit",
           "variables" : {
-            "PLAYER" : "グりーン",
-            "NUMBER1" : "5544"
+            "NUMBER1" : "5544",
+            "PLAYER" : "グりーン"
           },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/core.xlsx#text_2!F883:G889\"]",
           "revision" : "null"
@@ -30642,13 +31232,14 @@
           "japanese" : "{{PLAYER}}は しょうきんとして\n{{NUMBER1}}円 てにいれた！",
           "segmentStatus" : "whole_visible_unit",
           "variables" : {
-            "PLAYER" : "グりーン",
-            "NUMBER1" : "5544"
+            "NUMBER1" : "5544",
+            "PLAYER" : "グりーン"
           },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F913:G918\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-083",
@@ -30973,7 +31564,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -31007,7 +31597,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G38\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-084",
@@ -31332,7 +31923,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -31366,7 +31956,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G38\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-085",
@@ -31687,24 +32278,23 @@
         } ]
       } ]
     } ],
-    "outcome" : "no_chinese",
+    "outcome" : "all_ready",
     "units" : 1,
-    "unitsWithChinese" : 0,
+    "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "ポケモン りーグ しんの パワーは\nまだまだ……！",
         "matchStatus" : "equivalent",
-        "displayStatus" : "wait_for_semantic_unit",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "ポケモン リーグ しんの パワーは\nまだまだ……！",
-        "chinese" : "",
+        "chinese" : "不过，\n宝可梦联盟真正的力量\n还在后头呢……！\n可没有你想的那么简单！",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
           "ordinal" : 5,
           "japanese" : "ポケモン リーグ しんの パワーは\nまだまだ……！",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G39\"]",
           "revision" : "null"
@@ -31712,7 +32302,7 @@
           "recordId" : "pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
           "ordinal" : 5,
           "japanese" : "ポケモン リーグ しんの パワーは\nまだまだ……！",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G39\"]",
           "revision" : "null"
@@ -31720,12 +32310,13 @@
           "recordId" : "pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
           "ordinal" : 5,
           "japanese" : "ポケモン リーグ しんの パワーは\nまだまだ……！",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G38\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-086",
@@ -32046,24 +32637,23 @@
         } ]
       } ]
     } ],
-    "outcome" : "no_chinese",
+    "outcome" : "all_ready",
     "units" : 1,
-    "unitsWithChinese" : 0,
+    "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "まだまだ……！\nこんな ものじゃ ないわよ！",
         "matchStatus" : "equivalent",
-        "displayStatus" : "context_required",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "まだまだ……！\nこんな ものじゃ ないわよ！",
-        "chinese" : "",
+        "chinese" : "不过，\n宝可梦联盟真正的力量\n还在后头呢……！\n可没有你想的那么简单！",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
           "ordinal" : 6,
           "japanese" : "まだまだ……！\nこんな ものじゃ ないわよ！",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G39\"]",
           "revision" : "null"
@@ -32071,7 +32661,7 @@
           "recordId" : "pokeblue:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
           "ordinal" : 6,
           "japanese" : "まだまだ……！\nこんな ものじゃ ないわよ！",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G39\"]",
           "revision" : "null"
@@ -32079,12 +32669,13 @@
           "recordId" : "pokeyellow-jp:scripts/LoreleisRoom.asm:LoreleisRoomLoreleiAfterBattleText",
           "ordinal" : 6,
           "japanese" : "まだまだ……！\nこんな ものじゃ ないわよ！",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#LoreleisRoom!F30:G38\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-087",
@@ -32405,24 +32996,23 @@
         } ]
       } ]
     } ],
-    "outcome" : "no_chinese",
+    "outcome" : "all_ready",
     "units" : 1,
-    "unitsWithChinese" : 0,
+    "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "ひとも ポケモンも\nたたかい きたえれば",
         "matchStatus" : "equivalent",
-        "displayStatus" : "wait_for_semantic_unit",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "ひとも ポケモンも\nたたかい きたえれば",
-        "chinese" : "",
+        "chinese" : "无论是人还是宝可梦，\n只要经历了战斗的锤炼，\n就能使实力突破极限！",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
           "ordinal" : 3,
           "japanese" : "ひとも ポケモンも\nたたかい きたえれば",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
           "revision" : "null"
@@ -32430,7 +33020,7 @@
           "recordId" : "pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
           "ordinal" : 3,
           "japanese" : "ひとも ポケモンも\nたたかい きたえれば",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
           "revision" : "null"
@@ -32438,12 +33028,13 @@
           "recordId" : "pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
           "ordinal" : 3,
           "japanese" : "ひとも ポケモンも\nたたかい きたえれば",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G15\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-088",
@@ -32764,24 +33355,23 @@
         } ]
       } ]
     } ],
-    "outcome" : "no_chinese",
+    "outcome" : "all_ready",
     "units" : 1,
-    "unitsWithChinese" : 0,
+    "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "たたかい きたえれば\nどこまでも つよくなる！",
         "matchStatus" : "equivalent",
-        "displayStatus" : "context_required",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "たたかい きたえれば\nどこまでも つよくなる！",
-        "chinese" : "",
+        "chinese" : "无论是人还是宝可梦，\n只要经历了战斗的锤炼，\n就能使实力突破极限！",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
           "ordinal" : 4,
           "japanese" : "たたかい きたえれば\nどこまでも つよくなる！",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
           "revision" : "null"
@@ -32789,7 +33379,7 @@
           "recordId" : "pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
           "ordinal" : 4,
           "japanese" : "たたかい きたえれば\nどこまでも つよくなる！",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
           "revision" : "null"
@@ -32797,12 +33387,13 @@
           "recordId" : "pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
           "ordinal" : 4,
           "japanese" : "たたかい きたえれば\nどこまでも つよくなる！",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G15\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-089",
@@ -33127,7 +33718,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -33161,7 +33751,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G15\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-090",
@@ -33482,24 +34073,23 @@
         } ]
       } ]
     } ],
-    "outcome" : "no_chinese",
+    "outcome" : "all_ready",
     "units" : 1,
-    "unitsWithChinese" : 0,
+    "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "ポケモンと ともに いきてきた！\nそして これからもな！",
         "matchStatus" : "equivalent",
-        "displayStatus" : "context_required",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "ポケモンと ともに いきてきた！\nそして これからもな！",
-        "chinese" : "",
+        "chinese" : "我就是在这样的锤炼中\n和我的宝可梦\n一起生活，一起成长！\n今后也会如此！",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
           "ordinal" : 7,
           "japanese" : "ポケモンと ともに いきてきた！\nそして これからもな！",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
           "revision" : "null"
@@ -33507,7 +34097,7 @@
           "recordId" : "pokeblue:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
           "ordinal" : 7,
           "japanese" : "ポケモンと ともに いきてきた！\nそして これからもな！",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G22\"]",
           "revision" : "null"
@@ -33515,12 +34105,13 @@
           "recordId" : "pokeyellow-jp:scripts/BrunosRoom.asm:BrunosRoomBrunoBattleText",
           "ordinal" : 7,
           "japanese" : "ポケモンと ともに いきてきた！\nそして これからもな！",
-          "segmentStatus" : "semantic_context_required",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G15\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-091",
@@ -33845,7 +34436,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -33885,7 +34475,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G15\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-092",
@@ -34210,7 +34801,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -34244,7 +34834,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G15\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-093",
@@ -34569,7 +35160,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -34603,7 +35193,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/buildingsB.xlsx#BrunosRoom!F2:G15\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-094",
@@ -34928,7 +35519,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -34971,7 +35561,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F1280:G1286\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-095",
@@ -35292,19 +35883,18 @@
         } ]
       } ]
     } ],
-    "outcome" : "published_partial",
+    "outcome" : "all_ready",
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "ダメだ！\nしょうぶの さいちゅうに",
         "matchStatus" : "equivalent",
-        "displayStatus" : "ready_waiting",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "ダメだ！\nしょうぶの さいちゅうに",
-        "chinese" : "不行！",
+        "chinese" : "不行！不能在对战中\n临阵脱逃！",
         "candidates" : [ {
           "recordId" : "pokegreen:engine/battle/core.asm:NoRunningText",
           "ordinal" : 2,
@@ -35330,7 +35920,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_2!F986:G989\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-096",
@@ -35655,7 +36246,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -35689,7 +36279,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CinnabarLab!F2:G8\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-097",
@@ -36014,7 +36605,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -36048,7 +36638,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CinnabarLab!F11:G14\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-098",
@@ -36369,24 +36960,23 @@
         } ]
       } ]
     } ],
-    "outcome" : "no_chinese",
+    "outcome" : "all_ready",
     "units" : 1,
-    "unitsWithChinese" : 0,
+    "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
         "rawJapanese" : "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
         "matchStatus" : "equivalent",
-        "displayStatus" : "wait_for_semantic_unit",
+        "displayStatus" : "ready",
         "resolvedJapanese" : "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
-        "chinese" : "",
+        "chinese" : "除此之外，也有客人\n把罕见的宝可梦\n送到这里来。",
         "candidates" : [ {
           "recordId" : "pokegreen:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText",
           "ordinal" : 4,
           "japanese" : "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CinnabarLab!F2:G9\"]",
           "revision" : "null"
@@ -36394,7 +36984,7 @@
           "recordId" : "pokeblue:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText",
           "ordinal" : 4,
           "japanese" : "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CinnabarLab!F2:G9\"]",
           "revision" : "null"
@@ -36402,12 +36992,13 @@
           "recordId" : "pokeyellow-jp:scripts/CinnabarLab.asm:CinnabarLabFishingGuruText",
           "ordinal" : 4,
           "japanese" : "あと めずらしい ポケモンなどを\nもちこんでくる おきゃくさんも",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CinnabarLab!F2:G8\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-099",
@@ -36732,7 +37323,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -36772,7 +37362,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_9!F355:G364\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-100",
@@ -37097,7 +37688,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -37137,7 +37727,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_9!F355:G364\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-101",
@@ -37462,7 +38053,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -37496,7 +38086,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CinnabarLabTradeRoom!F2:G7\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-102",
@@ -37821,7 +38412,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -37855,7 +38445,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CinnabarLabTradeRoom!F2:G7\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-103",
@@ -38180,7 +38771,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -38223,7 +38813,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/core.xlsx#text_9!F424:G432\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-104",
@@ -38548,7 +39139,6 @@
     "units" : 1,
     "unitsWithChinese" : 0,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -38585,7 +39175,7 @@
           "recordId" : "pokegreen:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistTakesFossilText",
           "ordinal" : 1,
           "japanese" : "はいー！ じゃ それ",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CinnabarLabFossilRoom!F59:G67\"]",
           "revision" : "null"
@@ -38593,7 +39183,7 @@
           "recordId" : "pokeblue:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistTakesFossilText",
           "ordinal" : 1,
           "japanese" : "はいー！ じゃ それ",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeredCHS-rgb:[\"src/xlsx/indoor.xlsx#CinnabarLabFossilRoom!F59:G67\"]",
           "revision" : "null"
@@ -38601,7 +39191,7 @@
           "recordId" : "pokeyellow-jp:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistTakesFossilText",
           "ordinal" : 1,
           "japanese" : "はいー！ じゃ それ",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : { },
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CinnabarLabFossilRoom!F58:G65\"]",
           "revision" : "null"
@@ -38633,7 +39223,7 @@
           "recordId" : "pokegreen:scripts/ChampionsRoom.asm:ChampionsRoomRivalText.IntroText",
           "ordinal" : 14,
           "japanese" : "{{PLAYER}}！",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38663,7 +39253,7 @@
           "recordId" : "pokegreen:scripts/HallOfFame.asm:HallOfFameOakText",
           "ordinal" : 12,
           "japanese" : "{{PLAYER}}！ おまえは",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38673,7 +39263,7 @@
           "recordId" : "pokegreen:scripts/HallOfFame.asm:HallOfFameOakText",
           "ordinal" : 13,
           "japanese" : "{{PLAYER}}！ おまえは\nはげしい たたかいの すえ",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38683,7 +39273,7 @@
           "recordId" : "pokegreen:scripts/OaksLab.asm:OaksLabRivalSmellYouLaterText.Text",
           "ordinal" : 4,
           "japanese" : "{{PLAYER}}！ じいさん！",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38703,7 +39293,7 @@
           "recordId" : "pokegreen:scripts/OaksLab.asm:OaksLabRivalLeaveItAllToMeText",
           "ordinal" : 3,
           "japanese" : "{{PLAYER}}！",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38713,7 +39303,7 @@
           "recordId" : "pokegreen:scripts/SilphCo11F.asm:SilphCo11FGiovanniYouRuinedOurPlansText",
           "ordinal" : 5,
           "japanese" : "{{PLAYER}}！ すべての ポケモンは",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38723,7 +39313,7 @@
           "recordId" : "pokegreen:scripts/SilphCo11F.asm:SilphCo11FGiovanniYouRuinedOurPlansText",
           "ordinal" : 6,
           "japanese" : "{{PLAYER}}！ すべての ポケモンは\nロケットだんの ために",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38743,7 +39333,7 @@
           "recordId" : "pokegreen:composed:Retreat.direct",
           "ordinal" : 1,
           "japanese" : "{{RAM1}}",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "whole_visible_unit",
           "variables" : {
             "RAM1" : "はいー！"
           },
@@ -38753,7 +39343,7 @@
           "recordId" : "pokeblue:scripts/ChampionsRoom.asm:ChampionsRoomRivalText.IntroText",
           "ordinal" : 14,
           "japanese" : "{{PLAYER}}！",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38783,7 +39373,7 @@
           "recordId" : "pokeblue:scripts/HallOfFame.asm:HallOfFameOakText",
           "ordinal" : 12,
           "japanese" : "{{PLAYER}}！ おまえは",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38793,7 +39383,7 @@
           "recordId" : "pokeblue:scripts/HallOfFame.asm:HallOfFameOakText",
           "ordinal" : 13,
           "japanese" : "{{PLAYER}}！ おまえは\nはげしい たたかいの すえ",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38803,7 +39393,7 @@
           "recordId" : "pokeblue:scripts/OaksLab.asm:OaksLabRivalSmellYouLaterText.Text",
           "ordinal" : 4,
           "japanese" : "{{PLAYER}}！ じいさん！",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38823,7 +39413,7 @@
           "recordId" : "pokeblue:scripts/OaksLab.asm:OaksLabRivalLeaveItAllToMeText",
           "ordinal" : 3,
           "japanese" : "{{PLAYER}}！",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38833,7 +39423,7 @@
           "recordId" : "pokeblue:scripts/SilphCo11F.asm:SilphCo11FGiovanniYouRuinedOurPlansText",
           "ordinal" : 5,
           "japanese" : "{{PLAYER}}！ すべての ポケモンは",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38843,7 +39433,7 @@
           "recordId" : "pokeblue:scripts/SilphCo11F.asm:SilphCo11FGiovanniYouRuinedOurPlansText",
           "ordinal" : 6,
           "japanese" : "{{PLAYER}}！ すべての ポケモンは\nロケットだんの ために",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38863,7 +39453,7 @@
           "recordId" : "pokeblue:composed:Retreat.direct",
           "ordinal" : 1,
           "japanese" : "{{RAM1}}",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "whole_visible_unit",
           "variables" : {
             "RAM1" : "はいー！"
           },
@@ -38873,7 +39463,7 @@
           "recordId" : "pokeyellow-jp:scripts/ChampionsRoom.asm:ChampionsRoomRivalText.IntroText",
           "ordinal" : 14,
           "japanese" : "{{PLAYER}}！",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38903,7 +39493,7 @@
           "recordId" : "pokeyellow-jp:scripts/HallOfFame.asm:HallOfFameOakText",
           "ordinal" : 12,
           "japanese" : "{{PLAYER}}！ おまえは",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38913,7 +39503,7 @@
           "recordId" : "pokeyellow-jp:scripts/HallOfFame.asm:HallOfFameOakText",
           "ordinal" : 13,
           "japanese" : "{{PLAYER}}！ おまえは\nはげしい たたかいの すえ",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38923,7 +39513,7 @@
           "recordId" : "pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalTakesText5",
           "ordinal" : 6,
           "japanese" : "{{PLAYER}}",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー！"
           },
@@ -38933,7 +39523,7 @@
           "recordId" : "pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalSmellYouLaterText.Text",
           "ordinal" : 4,
           "japanese" : "{{PLAYER}}！ じいさん！",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38953,7 +39543,7 @@
           "recordId" : "pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalLeaveItAllToMeText",
           "ordinal" : 3,
           "japanese" : "{{PLAYER}}！",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38963,7 +39553,7 @@
           "recordId" : "pokeyellow-jp:scripts/SilphCo11F.asm:SilphCo11FGiovanniYouRuinedOurPlansText",
           "ordinal" : 5,
           "japanese" : "{{PLAYER}}！ すべての ポケモンは",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38973,7 +39563,7 @@
           "recordId" : "pokeyellow-jp:scripts/SilphCo11F.asm:SilphCo11FGiovanniYouRuinedOurPlansText",
           "ordinal" : 6,
           "japanese" : "{{PLAYER}}！ すべての ポケモンは\nロケットだんの ために",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "semantic_visible",
           "variables" : {
             "PLAYER" : "はいー"
           },
@@ -38993,14 +39583,15 @@
           "recordId" : "pokeyellow-jp:composed:Retreat.direct",
           "ordinal" : 1,
           "japanese" : "{{RAM1}}",
-          "segmentStatus" : "wait_for_semantic_unit",
+          "segmentStatus" : "whole_visible_unit",
           "variables" : {
             "RAM1" : "はいー！"
           },
           "source" : "pokeyellowCHS-sjp:[\"[\\\"src/xlsx/core.xlsx#text_3!F47:G50\\\"]\",\"[\\\"src/xlsx/core.xlsx#text_3!F64:G69\\\"]\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-105",
@@ -39325,7 +39916,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -39359,7 +39949,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CinnabarLabFossilRoom!F2:G9\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-106",
@@ -39684,7 +40275,6 @@
     "units" : 1,
     "unitsWithChinese" : 0,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -39718,7 +40308,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CinnabarLabFossilRoom!F2:G9\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-107",
@@ -40043,7 +40634,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -40077,7 +40667,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CinnabarLabFossilRoom!F2:G9\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   }, {
     "sampleId" : "g1-108",
@@ -40402,7 +40993,6 @@
     "units" : 1,
     "unitsWithChinese" : 1,
     "regions" : [ {
-      "id" : "dialogue",
       "layout" : "dialogue",
       "semanticType" : "dialogue",
       "units" : [ {
@@ -40436,7 +41026,8 @@
           "source" : "pokeyellowCHS-sjp:[\"src/xlsx/indoor.xlsx#CinnabarLabFossilRoom!F15:G17\"]",
           "revision" : "null"
         } ]
-      } ]
+      } ],
+      "id" : "dialogue"
     } ]
   } ]
 }

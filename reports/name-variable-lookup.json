@@ -1,0 +1,50 @@
+{
+  "scope": "name-variable dictionary lookup; static source/resource/package inspection only",
+  "dynamic_tests_run": false,
+  "application_started": false,
+  "final_chinese_acceptance": false,
+  "slot_rules": 73,
+  "new_slot_rules": 40,
+  "preset_records": 18,
+  "preset_names": [
+    "イエロー",
+    "グリーン",
+    "サトシ",
+    "シゲル",
+    "ジャック",
+    "ジャン",
+    "ジョン",
+    "ツネカズ",
+    "ヒロシ",
+    "ブルー",
+    "レッド"
+  ],
+  "checks": {
+    "records.csv_existing_rows_unchanged": true,
+    "fragments.csv_existing_rows_unchanged": true,
+    "segments.csv_existing_rows_unchanged": true,
+    "preset_record_count_18": true,
+    "preset_distinct_names_11": true,
+    "preset_original_cells_match": true,
+    "preset_japanese_source_lines_match": true,
+    "slot_rules_unique": true,
+    "new_slot_rules_exist_in_sources": true,
+    "runtime_csv_bom": true,
+    "fixture_json_valid": true,
+    "generator_python_ast_valid": true,
+    "jar_matches_compiled_classes_and_resources": true,
+    "jar_has_current_source_resources": true,
+    "build_success_tests_skipped": true,
+    "dictionary_has_no_empty_translations": true
+  },
+  "jar": {
+    "path": "target/g1-ocr-0.3.0.jar",
+    "size": 15751179,
+    "sha256": "ab4bcb463dd1b9f4d1e914d2511a7c41dd56b8c3cce00a0e13a89a255b6275e1"
+  },
+  "pending": [
+    "TranslationTest including name lookup/fallback/player reuse, PC levels and original OCR",
+    "108-image OCR/translation regression",
+    "live continuous capture and UI acceptance"
+  ]
+}

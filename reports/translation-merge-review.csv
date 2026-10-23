@@ -1,0 +1,191 @@
+﻿id,decision,decision_label,mergeable,japanese,proposed_chinese,proposal_origin,reason,original_chinese_variants,window_ids,derived_speaker_window_ids,source_record_ids,review_status,human_confirmation
+T001,A,可直接统一现有译文,True,{{RIVAL}}『やりー！,{{RIVAL}}：太棒了！,existing_localization,同为成功后的欢呼；姓名变量保持原槽位。,"1. {{RIVAL}}：太棒了！
+
+2. {{RIVAL}}：真棒！",W017,,pokeblue:engine/battle/core.asm:Rival1WinText;pokeblue:scripts/OaksLab.asm:OaksLabRivalAmIGreatOrWhatText;pokegreen:engine/battle/core.asm:Rival1WinText;pokegreen:scripts/OaksLab.asm:OaksLabRivalAmIGreatOrWhatText;pokeyellow-jp:engine/battle/core.asm:Rival1WinText;pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalAmIGreatOrWhatText,model_semantic_review_not_applied,not_recorded
+T002,A,可直接统一现有译文,True,……,……,existing_localization,仅省略号长度不同。,"1. …
+
+2. ……",W036,,pokeblue:scripts/FuchsiaCity.asm:FuchsiaCityFossilSignText.UndeterminedText;pokeblue:scripts/MtMoon1F.asm:MtMoon1FSuperNerdEndBattleText;pokegreen:scripts/FuchsiaCity.asm:FuchsiaCityFossilSignText.UndeterminedText;pokegreen:scripts/MtMoon1F.asm:MtMoon1FSuperNerdEndBattleText;pokeyellow-jp:scripts/FuchsiaCity.asm:FuchsiaCityFossilSignText.UndeterminedText;pokeyellow-jp:scripts/MtMoon1F.asm:MtMoon1FSuperNerdEndBattleText,model_semantic_review_not_applied,not_recorded
+T003,B,选较准确的现有版本后统一,True,"…… はははーッ！
+ゆうれい や むし くらい だぜ！","有倒是有。
+那就是幽灵属性和虫属性！",existing_localization,另一版本漏掉原文的幽灵属性，应选择包含两种属性的现有版本。,"1. 有倒是有。
+那就是幽灵属性和虫属性！
+
+2. 有倒是有。
+那就是虫属性！",W041,,pokeblue:scripts/SaffronGym.asm:SaffronGymYoungster1AfterBattleText;pokegreen:scripts/SaffronGym.asm:SaffronGymYoungster1AfterBattleText;pokeyellow-jp:scripts/SaffronGym.asm:SaffronGymYoungster1AfterBattleText,model_semantic_review_not_applied,not_recorded
+T004,A,可直接统一现有译文,True,あーッ！,啊——！,existing_localization,仅感叹语气符号不同。,"1. 啊——！
+
+2. 啊～！",W044,,pokeblue:scripts/Route21.asm:Route21Swimmer5BattleText;pokeblue:scripts/Route22.asm:Route22Rival1DefeatedText;pokegreen:scripts/Route21.asm:Route21Swimmer5BattleText;pokegreen:scripts/Route22.asm:Route22Rival1DefeatedText;pokeyellow-jp:scripts/Route21.asm:Route21Swimmer5BattleText;pokeyellow-jp:scripts/Route22.asm:Route22Rival1DefeatedText,model_semantic_review_not_applied,not_recorded
+T005,A,可直接统一现有译文,True,いやーん！,哎呀～！,existing_localization,战败和被偷看写信均为抗议感叹；泛感叹可兼容，不涉及明确否定命题。,"1. 不！
+
+2. 哎呀～！",W045,,pokeblue:scripts/SSAnne1FRooms.asm:SSAnne1FRoomsCooltrainerFEndBattleText;pokeblue:scripts/SaffronPidgeyHouse.asm:SaffronPidgeyHouseBrunetteGirlText;pokegreen:scripts/SSAnne1FRooms.asm:SSAnne1FRoomsCooltrainerFEndBattleText;pokegreen:scripts/SaffronPidgeyHouse.asm:SaffronPidgeyHouseBrunetteGirlText;pokeyellow-jp:scripts/SSAnne1FRooms.asm:SSAnne1FRoomsCooltrainerFEndBattleText;pokeyellow-jp:scripts/SaffronPidgeyHouse.asm:SaffronPidgeyHouseBrunetteGirlText,model_semantic_review_not_applied,not_recorded
+T006,A,可直接统一现有译文,True,おう おうッ！,噢、噢！,existing_localization,统一开场感叹即可；索要自行车、威胁或认可对手的具体意思仍由各自后文表达。,"1. 噢、噢！
+
+2. 很好～！",W048,,pokeblue:scripts/Route16.asm:Route16Biker2BattleText;pokeblue:scripts/Route16.asm:Route16Biker6AfterBattleText;pokeblue:scripts/SilphCo7F.asm:SilphCo7FRivalDefeatedText;pokegreen:scripts/Route16.asm:Route16Biker2BattleText;pokegreen:scripts/Route16.asm:Route16Biker6AfterBattleText;pokegreen:scripts/SilphCo7F.asm:SilphCo7FRivalDefeatedText;pokeyellow-jp:scripts/Route16.asm:Route16Biker2BattleText;pokeyellow-jp:scripts/Route16.asm:Route16Biker6AfterBattleText;pokeyellow-jp:scripts/SilphCo7F.asm:SilphCo7FRivalDefeatedText,model_semantic_review_not_applied,not_recorded
+T007,A,可直接统一现有译文,True,おっと……！,哎呀……！,existing_localization,哎呀与哎哟的感叹差异不影响理解。,"1. 哎呀……！
+
+2. 哎哟……！",W049,,pokeblue:scripts/GameCorner.asm:GameCornerClerk1Text.CoinCaseIsFull;pokeblue:scripts/Route12.asm:Route12Fisher2EndBattleText;pokegreen:scripts/GameCorner.asm:GameCornerClerk1Text.CoinCaseIsFull;pokegreen:scripts/Route12.asm:Route12Fisher2EndBattleText;pokeyellow-jp:scripts/GameCorner.asm:GameCornerClerkText.CoinCaseIsFull;pokeyellow-jp:scripts/Route12.asm:Route12Fisher2EndBattleText,model_semantic_review_not_applied,not_recorded
+T008,A,可直接统一现有译文,True,おっとっと！,哎呀呀！,existing_localization,仅感叹重复次数不同。,"1. 哎呀呀！
+
+2. 哎呀！",W018;W050,W018,pokeblue:composed:TrainerEnd.RockTunnelB1FHiker1EndBattleText;pokeblue:composed:TrainerEnd.Route9Hiker2EndBattleText;pokeblue:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker1EndBattleText;pokeblue:scripts/Route9.asm:Route9Hiker2EndBattleText;pokegreen:composed:TrainerEnd.RockTunnelB1FHiker1EndBattleText;pokegreen:composed:TrainerEnd.Route9Hiker2EndBattleText;pokegreen:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker1EndBattleText;pokegreen:scripts/Route9.asm:Route9Hiker2EndBattleText;pokeyellow-jp:composed:TrainerEnd.RockTunnelB1FHiker1EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route9Hiker2EndBattleText;pokeyellow-jp:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker1EndBattleText;pokeyellow-jp:scripts/Route9.asm:Route9Hiker2EndBattleText,model_semantic_review_not_applied,not_recorded
+T009,A,可直接统一现有译文,True,おまち！！,等一下！！,existing_localization,均要求对方停下。,"1. 且慢！
+
+2. 等一下！！",W051,,pokeyellow-jp:scripts/MtMoonB2F.asm:MtMoonB2FText12;pokeyellow-jp:scripts/PokemonTower7F.asm:PokemonTower7FText4,model_semantic_review_not_applied,not_recorded
+T010,A,可直接统一现有译文,True,"おれこそは
+ロケット 4きょうだいの ひとり！","我正是
+火箭队四兄弟之一！",existing_localization,第一人称措辞不同，身份和数量一致。,"1. 俺正是
+火箭队四兄弟之一！
+
+2. 我正是
+火箭队四兄弟之一！",W053,,pokeblue:scripts/SilphCo6F.asm:SilphCo6FRocket1BattleText;pokeblue:scripts/SilphCo7F.asm:SilphCo7FRocket2BattleText;pokeblue:scripts/SilphCo8F.asm:SilphCo8FRocket2BattleText;pokegreen:scripts/SilphCo6F.asm:SilphCo6FRocket1BattleText;pokegreen:scripts/SilphCo7F.asm:SilphCo7FRocket2BattleText;pokegreen:scripts/SilphCo8F.asm:SilphCo8FRocket2BattleText;pokeyellow-jp:scripts/SilphCo6F.asm:SilphCo6FRocket1BattleText;pokeyellow-jp:scripts/SilphCo7F.asm:SilphCo7FRocket2BattleText;pokeyellow-jp:scripts/SilphCo8F.asm:SilphCo8FRocket2BattleText,model_semantic_review_not_applied,not_recorded
+T011,B,选较准确的现有版本后统一,True,"おーす！
+みらいの チャンピオン！","嗨～！
+未来的冠军！",existing_localization,均为道馆向导招呼；舍弃增加等待事实的“等你很久喽”，选择现有普通问候版本。,"1. 哟！
+未来的冠军！
+
+2. 嗨～！
+未来的冠军！
+
+3. 等你很久喽！
+未来的冠军！",W059;W060,,pokeblue:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText;pokeblue:scripts/CinnabarGym.asm:CinnabarGymGymGuideText.ChampInMakingText;pokeblue:scripts/FuchsiaGym.asm:FuchsiaGymGymGuideText.ChampInMakingText;pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText;pokeblue:scripts/SaffronGym.asm:SaffronGymGymGuideText.ChampInMakingText;pokeblue:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText;pokeblue:scripts/ViridianGym.asm:ViridianGymGuidePreBattleText;pokegreen:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText;pokegreen:scripts/CinnabarGym.asm:CinnabarGymGymGuideText.ChampInMakingText;pokegreen:scripts/FuchsiaGym.asm:FuchsiaGymGymGuideText.ChampInMakingText;pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText;pokegreen:scripts/SaffronGym.asm:SaffronGymGymGuideText.ChampInMakingText;pokegreen:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText;pokegreen:scripts/ViridianGym.asm:ViridianGymGuidePreBattleText;pokeyellow-jp:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/CinnabarGym_3.asm:CinnabarGymPrintGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/FuchsiaGym.asm:FuchsiaGymGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText;pokeyellow-jp:scripts/SaffronGym.asm:SaffronGymGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymGuidePreBattleText,model_semantic_review_not_applied,not_recorded
+T012,A,可直接统一现有译文,True,がはは！,哈哈哈！,existing_localization,仅笑声写法不同。,"1. 哇哈哈！
+
+2. 哈哈哈！",W061,,pokeblue:scripts/Route9.asm:Route9Hiker1BattleText;pokeblue:scripts/SilphCo4F.asm:SilphCo4FRocket1AfterBattleText;pokegreen:scripts/Route9.asm:Route9Hiker1BattleText;pokegreen:scripts/SilphCo4F.asm:SilphCo4FRocket1AfterBattleText;pokeyellow-jp:scripts/Route9.asm:Route9Hiker1BattleText;pokeyellow-jp:scripts/SilphCo4F.asm:SilphCo4FRocket1AfterBattleText,model_semantic_review_not_applied,not_recorded
+T013,B,选较准确的现有版本后统一,True,くやしく ないもん,我才没有不甘心！,existing_localization,原文表达战败后的不甘心；“我不后悔”改变了情绪含义。,"1. 我不后悔。
+
+2. 我才没有不甘心！",W019;W064,W019,pokeblue:composed:TrainerEnd.Route25CooltrainerF2EndBattleText;pokeblue:composed:TrainerEnd.Route25Youngster2EndBattleText;pokeblue:scripts/Route25.asm:Route25CooltrainerF2EndBattleText;pokeblue:scripts/Route25.asm:Route25Youngster2EndBattleText;pokegreen:composed:TrainerEnd.Route25CooltrainerF2EndBattleText;pokegreen:composed:TrainerEnd.Route25Youngster2EndBattleText;pokegreen:scripts/Route25.asm:Route25CooltrainerF2EndBattleText;pokegreen:scripts/Route25.asm:Route25Youngster2EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route25CooltrainerF2EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route25Youngster2EndBattleText;pokeyellow-jp:scripts/Route25.asm:Route25CooltrainerF2EndBattleText;pokeyellow-jp:scripts/Route25.asm:Route25Youngster2EndBattleText,model_semantic_review_not_applied,not_recorded
+T014,A,可直接统一现有译文,True,"ここでは どうぐを
+つかうことは できません",这里不能使用道具。,existing_localization,地点、动作及否定一致。,"1. 不能在这里
+使用道具！
+
+2. 这里不能使用道具。",W067;W068,,pokeblue:engine/battle/core.asm:ItemsCantBeUsedHereText;pokeblue:engine/menus/start_sub_menus.asm:CannotUseItemsHereText;pokegreen:engine/battle/core.asm:ItemsCantBeUsedHereText;pokegreen:engine/menus/start_sub_menus.asm:CannotUseItemsHereText;pokeyellow-jp:engine/battle/core.asm:ItemsCantBeUsedHereText;pokeyellow-jp:engine/menus/start_sub_menus.asm:CannotUseItemsHereText,model_semantic_review_not_applied,not_recorded
+T015,A,可直接统一现有译文,True,こんちわ！,你好！,existing_localization,仅敬语程度不同。,"1. 你好！
+
+2. 您好！",W071,,pokeblue:scripts/BillsHouse.asm:BillsHouseBillPokemonText.ImNotAPokemonText;pokeblue:scripts/SafariZoneGate.asm:SafariZoneGateSafariZoneWorker2Text.FirstTimeHereText;pokegreen:scripts/BillsHouse.asm:BillsHouseBillPokemonText.ImNotAPokemonText;pokegreen:scripts/SafariZoneGate.asm:SafariZoneGateSafariZoneWorker2Text.FirstTimeHereText;pokeyellow-jp:scripts/BillsHouse_2.asm:BillsHousePrintBillPokemonText.ImNotAPokemonText;pokeyellow-jp:scripts/SafariZoneGate_2.asm:SafariZoneGatePrintSafariZoneWorker2Text.FirstTimeHereText,model_semantic_review_not_applied,not_recorded
+T016,B,选较准确的现有版本后统一,True,しかし こうかが なかった！,但是，没有效果！,existing_localization,原文こうかがなかった表示没有效果；按实际日文选译文，不按跨来源互换的英文脚本标签套用。,"1. 但是，什么也没有发生！
+
+2. 但是，没有效果！",W076,,pokeblue:engine/battle/effects.asm:NoEffectText;pokegreen:engine/battle/effects.asm:NoEffectText;pokeyellow-jp:engine/battle/effects.asm:NothingHappenedText,model_semantic_review_not_applied,not_recorded
+T017,B,选较准确的现有版本后统一,True,しかし なにもおこらない,但是，什么也没有发生！,existing_localization,原文なにもおこらない表示什么也没发生；与T016分别统一，不把两种日文混为一组。,"1. 但是，什么也没有发生！
+
+2. 但是，没有效果！",W077,,pokeblue:engine/battle/effects.asm:NothingHappenedText;pokegreen:engine/battle/effects.asm:NothingHappenedText;pokeyellow-jp:engine/battle/effects.asm:NoEffectText,model_semantic_review_not_applied,not_recorded
+T018,A,可直接统一现有译文,True,そうか！,是吗！,existing_localization,均为听到肯定答复后的承接，钓鱼或会长故事的具体内容由后文保留。,"1. 是吗！
+
+2. 果然是吧！",W080,,pokeblue:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.ReceivedGoodRodText;pokeblue:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.StoryText;pokeblue:scripts/Route12SuperRodHouse.asm:Route12SuperRodHouseFishingGuruText.ReceivedSuperRodText;pokeblue:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.TakeThisText;pokegreen:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.ReceivedGoodRodText;pokegreen:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.StoryText;pokegreen:scripts/Route12SuperRodHouse.asm:Route12SuperRodHouseFishingGuruText.ReceivedSuperRodText;pokegreen:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.TakeThisText;pokeyellow-jp:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.ReceivedGoodRodText;pokeyellow-jp:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.StoryText;pokeyellow-jp:scripts/Route12SuperRodHouse.asm:Route12SuperRodHouseFishingGuruText.ReceivedSuperRodText;pokeyellow-jp:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.TakeThisText,model_semantic_review_not_applied,not_recorded
+T019,A,可直接统一现有译文,True,っせーな！,烦不烦啊！,existing_localization,省略第二人称不影响意思。,"1. 你烦不烦啊！
+
+2. 烦不烦啊！",W087,,pokeblue:scripts/Route13.asm:Route13BikerAfterBattleText;pokeblue:scripts/Route16.asm:Route16Biker1AfterBattleText;pokegreen:scripts/Route13.asm:Route13BikerAfterBattleText;pokegreen:scripts/Route16.asm:Route16Biker1AfterBattleText;pokeyellow-jp:scripts/Route13.asm:Route13BikerAfterBattleText;pokeyellow-jp:scripts/Route16.asm:Route16Biker1AfterBattleText,model_semantic_review_not_applied,not_recorded
+T020,A,可直接统一现有译文,True,つよい！,很厉害呢！,existing_localization,均认可对方实力。,"1. 好强啊……
+
+2. 很厉害呢！",W020;W088,W020,pokeblue:composed:TrainerEnd.Route13Beauty1EndBattleText;pokeblue:composed:TrainerEnd.SilphCo2FRocket1EndBattleText;pokeblue:scripts/Route13.asm:Route13Beauty1EndBattleText;pokeblue:scripts/SilphCo2F.asm:SilphCo2FRocket1EndBattleText;pokegreen:composed:TrainerEnd.Route13Beauty1EndBattleText;pokegreen:composed:TrainerEnd.SilphCo2FRocket1EndBattleText;pokegreen:scripts/Route13.asm:Route13Beauty1EndBattleText;pokegreen:scripts/SilphCo2F.asm:SilphCo2FRocket1EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route13Beauty1EndBattleText;pokeyellow-jp:composed:TrainerEnd.SilphCo2FRocket1EndBattleText;pokeyellow-jp:scripts/Route13.asm:Route13Beauty1EndBattleText;pokeyellow-jp:scripts/SilphCo2F.asm:SilphCo2FRocket1EndBattleText,model_semantic_review_not_applied,not_recorded
+T021,A,可直接统一现有译文,True,なっとく いかねえ,我不服！,existing_localization,均表示不接受战败结果。,"1. 我不接受！
+
+2. 我不服！",W022;W095,W022,pokeblue:composed:TrainerEnd.Route14Biker4EndBattleText;pokeblue:composed:TrainerEnd.Route15Biker1EndBattleText;pokeblue:scripts/Route14.asm:Route14Biker4EndBattleText;pokeblue:scripts/Route15.asm:Route15Biker1EndBattleText;pokegreen:composed:TrainerEnd.Route14Biker4EndBattleText;pokegreen:composed:TrainerEnd.Route15Biker1EndBattleText;pokegreen:scripts/Route14.asm:Route14Biker4EndBattleText;pokegreen:scripts/Route15.asm:Route15Biker1EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route14Biker4EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route15Biker1EndBattleText;pokeyellow-jp:scripts/Route14.asm:Route14Biker4EndBattleText;pokeyellow-jp:scripts/Route15.asm:Route15Biker1EndBattleText,model_semantic_review_not_applied,not_recorded
+T022,A,可直接统一现有译文,True,にもつが いっぱいだ,行李已满了！,existing_localization,仅句末标点不同。,"1. 行李已满了。
+
+2. 行李已满了！",W096,,pokeblue:scripts/CeladonCity.asm:CeladonCityGramps3Text.TM41NoRoomText;pokeblue:scripts/CinnabarGym.asm:CinnabarGymBlaineTM38NoRoomText;pokeblue:scripts/FuchsiaGym.asm:FuchsiaGymKogaTM06NoRoomText;pokegreen:scripts/CeladonCity.asm:CeladonCityGramps3Text.TM41NoRoomText;pokegreen:scripts/CinnabarGym.asm:CinnabarGymBlaineTM38NoRoomText;pokegreen:scripts/FuchsiaGym.asm:FuchsiaGymKogaTM06NoRoomText;pokeyellow-jp:scripts/CeladonCity.asm:CeladonCityGramps3Text.TM41NoRoomText;pokeyellow-jp:scripts/CinnabarGym.asm:CinnabarGymBlaineTM38NoRoomText,model_semantic_review_not_applied,not_recorded
+T023,C,拟定中性新译文后统一,True,はい はい！,好、好！,model_new_proposal,博物馆为应付孩子，姓名鉴定师为口头招呼；现有“好了好了”和“嗨、嗨”不宜互套，新译文兼容两处。,"1. 嗨、嗨！
+
+2. 好了好了！",W099,,pokeblue:scripts/Museum2F.asm:Museum2FHikerText;pokeblue:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.WantMeToRateText;pokegreen:scripts/Museum2F.asm:Museum2FHikerText;pokegreen:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.WantMeToRateText;pokeyellow-jp:scripts/Museum2F.asm:Museum2FText_5c20e;pokeyellow-jp:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.WantMeToRateText,model_semantic_review_not_applied,not_recorded
+T024,A,可直接统一现有译文,True,はーっはっはッ！,哈哈哈！,existing_localization,仅笑声长度不同。,"1. 哈哈哈哈！
+
+2. 哈哈哈！",W102,,pokeblue:scripts/Route9.asm:Route9Hiker2AfterBattleText;pokeblue:scripts/Route9.asm:Route9Hiker2BattleText;pokeblue:scripts/Route9.asm:Route9Hiker3EndBattleText;pokegreen:scripts/Route9.asm:Route9Hiker2AfterBattleText;pokegreen:scripts/Route9.asm:Route9Hiker2BattleText;pokegreen:scripts/Route9.asm:Route9Hiker3EndBattleText;pokeyellow-jp:scripts/Route9.asm:Route9Hiker2AfterBattleText;pokeyellow-jp:scripts/Route9.asm:Route9Hiker2BattleText;pokeyellow-jp:scripts/Route9.asm:Route9Hiker3EndBattleText,model_semantic_review_not_applied,not_recorded
+T025,A,可直接统一现有译文,True,ふん……！,哼！,existing_localization,鼻音感叹的语气不同；具体认可或拒绝透露信息由各自后文表达。,"1. 哼！
+
+2. 嗯……！",W024;W105,W024,pokeblue:composed:TrainerEnd.FuchsiaGymKogaText.ReceivedSoulBadgeText;pokeblue:composed:TrainerEnd.SSAnne2FRivalDefeatedText;pokeblue:scripts/FuchsiaGym.asm:FuchsiaGymKogaText.ReceivedSoulBadgeText;pokeblue:scripts/RocketHideoutB1F.asm:RocketHideoutB1FRocket3AfterBattleText;pokeblue:scripts/SSAnne2F.asm:SSAnne2FRivalDefeatedText;pokegreen:composed:TrainerEnd.FuchsiaGymKogaText.ReceivedSoulBadgeText;pokegreen:composed:TrainerEnd.SSAnne2FRivalDefeatedText;pokegreen:scripts/FuchsiaGym.asm:FuchsiaGymKogaText.ReceivedSoulBadgeText;pokegreen:scripts/RocketHideoutB1F.asm:RocketHideoutB1FRocket3AfterBattleText;pokegreen:scripts/SSAnne2F.asm:SSAnne2FRivalDefeatedText;pokeyellow-jp:composed:TrainerEnd.SSAnne2FRivalDefeatedText;pokeyellow-jp:scripts/RocketHideoutB1F.asm:RocketHideoutB1FRocket3AfterBattleText;pokeyellow-jp:scripts/SSAnne2F.asm:SSAnne2FRivalDefeatedText,model_semantic_review_not_applied,not_recorded
+T026,A,可直接统一现有译文,True,ま まいった！,我、我输了！,existing_localization,均为结巴认输。,"1. 我、我输了！
+
+2. 输、输掉了！",W025;W110,W025,pokeblue:composed:TrainerEnd.FightingDojoBlackbelt1EndBattleText;pokeblue:composed:TrainerEnd.PokemonTower7FRocket1EndBattleText;pokeblue:scripts/FightingDojo.asm:FightingDojoBlackbelt1EndBattleText;pokeblue:scripts/PokemonTower7F.asm:PokemonTower7FRocket1EndBattleText;pokegreen:composed:TrainerEnd.FightingDojoBlackbelt1EndBattleText;pokegreen:composed:TrainerEnd.PokemonTower7FRocket1EndBattleText;pokegreen:scripts/FightingDojo.asm:FightingDojoBlackbelt1EndBattleText;pokegreen:scripts/PokemonTower7F.asm:PokemonTower7FRocket1EndBattleText;pokeyellow-jp:composed:TrainerEnd.FightingDojoBlackbelt1EndBattleText;pokeyellow-jp:scripts/FightingDojo.asm:FightingDojoBlackbelt1EndBattleText,model_semantic_review_not_applied,not_recorded
+T027,A,可直接统一现有译文,True,まいった！,我输了！,existing_localization,均表达战败、认输。,"1. 唔！我输了！
+
+2. 我认输！
+
+3. 我输了！",W026;W112,W026,pokeblue:composed:TrainerEnd.RockTunnelB1FHiker2EndBattleText;pokeblue:composed:TrainerEnd.RocketHideoutB2FRocketEndBattleText;pokeblue:composed:TrainerEnd.Route11SuperNerd2EndBattleText;pokeblue:composed:TrainerEnd.SilphCo3FRocketEndBattleText;pokeblue:composed:TrainerEnd.ViridianForestYoungster4EndBattleText;pokeblue:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker2EndBattleText;pokeblue:scripts/RocketHideoutB2F.asm:RocketHideoutB2FRocketEndBattleText;pokeblue:scripts/Route11.asm:Route11SuperNerd2EndBattleText;pokeblue:scripts/SilphCo3F.asm:SilphCo3FRocketEndBattleText;pokeblue:scripts/ViridianForest.asm:ViridianForestYoungster4EndBattleText;pokegreen:composed:TrainerEnd.RockTunnelB1FHiker2EndBattleText;pokegreen:composed:TrainerEnd.RocketHideoutB2FRocketEndBattleText;pokegreen:composed:TrainerEnd.Route11SuperNerd2EndBattleText;pokegreen:composed:TrainerEnd.SilphCo3FRocketEndBattleText;pokegreen:composed:TrainerEnd.ViridianForestYoungster4EndBattleText;pokegreen:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker2EndBattleText;pokegreen:scripts/RocketHideoutB2F.asm:RocketHideoutB2FRocketEndBattleText;pokegreen:scripts/Route11.asm:Route11SuperNerd2EndBattleText;pokegreen:scripts/SilphCo3F.asm:SilphCo3FRocketEndBattleText;pokegreen:scripts/ViridianForest.asm:ViridianForestYoungster4EndBattleText;pokeyellow-jp:composed:TrainerEnd.RockTunnelB1FHiker2EndBattleText;pokeyellow-jp:composed:TrainerEnd.RocketHideoutB2FRocketEndBattleText;pokeyellow-jp:composed:TrainerEnd.Route11SuperNerd2EndBattleText;pokeyellow-jp:composed:TrainerEnd.SilphCo3FRocketEndBattleText;pokeyellow-jp:composed:TrainerEnd.ViridianForestYoungster4EndBattleText;pokeyellow-jp:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker2EndBattleText;pokeyellow-jp:scripts/RocketHideoutB2F.asm:RocketHideoutB2FRocketEndBattleText;pokeyellow-jp:scripts/Route11.asm:Route11SuperNerd2EndBattleText;pokeyellow-jp:scripts/SilphCo3F.asm:SilphCo3FRocketEndBattleText;pokeyellow-jp:scripts/ViridianForest.asm:ViridianForestYoungster4EndBattleText,model_semantic_review_not_applied,not_recorded
+T028,A,可直接统一现有译文,True,まけちゃった,我输了。,existing_localization,战败含义一致，感叹语气不同。,"1. 哦！输掉了！
+
+2. 我输了。",W027;W113,W027,pokeblue:composed:TrainerEnd.RockTunnelB1FCooltrainerF2EndBattleText;pokeblue:composed:TrainerEnd.Route13CooltrainerF1EndBattleText;pokeblue:scripts/RockTunnelB1F.asm:RockTunnelB1FCooltrainerF2EndBattleText;pokeblue:scripts/Route13.asm:Route13CooltrainerF1EndBattleText;pokegreen:composed:TrainerEnd.RockTunnelB1FCooltrainerF2EndBattleText;pokegreen:composed:TrainerEnd.Route13CooltrainerF1EndBattleText;pokegreen:scripts/RockTunnelB1F.asm:RockTunnelB1FCooltrainerF2EndBattleText;pokegreen:scripts/Route13.asm:Route13CooltrainerF1EndBattleText;pokeyellow-jp:composed:TrainerEnd.RockTunnelB1FCooltrainerF2EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route13CooltrainerF1EndBattleText;pokeyellow-jp:scripts/RockTunnelB1F.asm:RockTunnelB1FCooltrainerF2EndBattleText;pokeyellow-jp:scripts/Route13.asm:Route13CooltrainerF1EndBattleText,model_semantic_review_not_applied,not_recorded
+T029,A,可直接统一现有译文,True,"みず タイプ ポケモンで せめて
+せめて ……せめまくる ことよ！","派出我的水属性宝可梦，
+痛扁痛扁……痛扁到底哦！",existing_localization,仅换行不同，中文字序一致。,"1. 派出我的水属性宝可梦，
+痛扁痛扁……
+痛扁到底哦！
+
+2. 派出我的水属性宝可梦，
+痛扁痛扁……痛扁到底哦！",W114,,pokeblue:scripts/CeruleanGym.asm:CeruleanGymMistyText.PreBattleText;pokegreen:scripts/CeruleanGym.asm:CeruleanGymMistyText.PreBattleText;pokeyellow-jp:scripts/CeruleanGym.asm:CeruleanGymMistyText.PreBattleText,model_semantic_review_not_applied,not_recorded
+T030,A,可直接统一现有译文,True,"もう しぬほど
+つりが すき なんだが","热爱钓鱼，
+至死方休！",existing_localization,仅句末标点不同。,"1. 热爱钓鱼，
+至死方休。
+
+2. 热爱钓鱼，
+至死方休！",W116;W117,,pokeblue:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.Text;pokeblue:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.DoYouLikeToFishText;pokegreen:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.Text;pokegreen:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.DoYouLikeToFishText;pokeyellow-jp:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.Text;pokeyellow-jp:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.DoYouLikeToFishText,model_semantic_review_not_applied,not_recorded
+T031,A,可直接统一现有译文,True,もちものが いっぱいだ,持有物已满了。,existing_localization,拿不下与持有物已满均表示背包空间不足。,"1. 你已经拿不下了！
+
+2. 持有物已满了。",W118,,pokeblue:scripts/Museum1F.asm:Museum1FScientist2Text.YouDontHaveSpaceText;pokeblue:scripts/PewterGym.asm:PewterGymTM34NoRoomText;pokeblue:scripts/Route24.asm:Route24CooltrainerM1Text.NoRoomText;pokegreen:scripts/Museum1F.asm:Museum1FScientist2Text.YouDontHaveSpaceText;pokegreen:scripts/PewterGym.asm:PewterGymTM34NoRoomText;pokegreen:scripts/Route24.asm:Route24CooltrainerM1Text.NoRoomText;pokeyellow-jp:scripts/Museum1F_2.asm:Museum1FPrintScientist2Text.YouDontHaveSpaceText;pokeyellow-jp:scripts/PewterGym.asm:PewterGymTM34NoRoomText;pokeyellow-jp:scripts/Route24.asm:Route24CooltrainerM1Text.NoRoomText,model_semantic_review_not_applied,not_recorded
+T032,A,可直接统一现有译文,True,やるなあ,很厉害啊。,existing_localization,同义称赞。,"1. 厉害。
+
+2. 很厉害啊。",W028;W120,W028,pokeblue:composed:TrainerEnd.RockTunnel1FHiker3EndBattleText;pokeblue:composed:TrainerEnd.Route25Hiker3EndBattleText;pokeblue:scripts/RockTunnel1F.asm:RockTunnel1FHiker3EndBattleText;pokeblue:scripts/Route25.asm:Route25Hiker3EndBattleText;pokegreen:composed:TrainerEnd.RockTunnel1FHiker3EndBattleText;pokegreen:composed:TrainerEnd.Route25Hiker3EndBattleText;pokegreen:scripts/RockTunnel1F.asm:RockTunnel1FHiker3EndBattleText;pokegreen:scripts/Route25.asm:Route25Hiker3EndBattleText;pokeyellow-jp:composed:TrainerEnd.RockTunnel1FHiker3EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route25Hiker3EndBattleText;pokeyellow-jp:scripts/RockTunnel1F.asm:RockTunnel1FHiker3EndBattleText;pokeyellow-jp:scripts/Route25.asm:Route25Hiker3EndBattleText,model_semantic_review_not_applied,not_recorded
+T033,A,可直接统一现有译文,True,やー やー {{PLAYER}}くん！,哎呀，{{PLAYER}}！,existing_localization,两处均为会长招呼玩家；选简洁的现有版本，保留姓名变量。,"1. 哎呀，{{PLAYER}}！
+
+2. 那啥～说你呢～
+
+{{PLAYER}}啊！",W121,,pokeblue:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.FinalText;pokegreen:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.FinalText;pokeyellow-jp:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.FinalText;pokeyellow-jp:scripts/PokemonFanClub.asm:Text_59c1f,model_semantic_review_not_applied,not_recorded
+T034,A,可直接统一现有译文,True,やーん！,哎呀～！,existing_localization,泛感叹兼容战败懊恼和赞叹宝可梦可爱；不能将所有场景统一成带否定意味的“不要啊”或“不”。,"1. 不要啊！
+
+2. 不！
+
+3. 哎呀～！",W029;W122,W029,pokeblue:composed:TrainerEnd.CeladonGymBeauty2EndBattleText;pokeblue:composed:TrainerEnd.Route20Swimmer7EndBattleText;pokeblue:scripts/CeladonGym.asm:CeladonGymBeauty2EndBattleText;pokeblue:scripts/Route20.asm:Route20Swimmer7EndBattleText;pokeblue:scripts/Route8.asm:Route8CooltrainerF2AfterBattleText;pokegreen:composed:TrainerEnd.CeladonGymBeauty2EndBattleText;pokegreen:composed:TrainerEnd.Route20Swimmer7EndBattleText;pokegreen:scripts/CeladonGym.asm:CeladonGymBeauty2EndBattleText;pokegreen:scripts/Route20.asm:Route20Swimmer7EndBattleText;pokegreen:scripts/Route8.asm:Route8CooltrainerF2AfterBattleText;pokeyellow-jp:composed:TrainerEnd.CeladonGymBeauty2EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route20Swimmer7EndBattleText;pokeyellow-jp:scripts/CeladonGym.asm:CeladonGymBeauty2EndBattleText;pokeyellow-jp:scripts/Route20.asm:Route20Swimmer7EndBattleText;pokeyellow-jp:scripts/Route8.asm:Route8CooltrainerF2AfterBattleText,model_semantic_review_not_applied,not_recorded
+T035,A,可直接统一现有译文,True,ようこそ サント·アンヌ ごうへ！,"欢迎您搭乘
+圣特安努号！",existing_localization,同义欢迎语。,"1. 欢迎乘坐
+圣特安努号！
+
+2. 欢迎您搭乘
+圣特安努号！",W123,,pokeblue:scripts/VermilionCity.asm:VermilionCitySailor1Text.DoYouHaveATicketText;pokeblue:scripts/VermilionCity.asm:VermilionCitySailor1Text.WelcomeToSSAnneText;pokegreen:scripts/VermilionCity.asm:VermilionCitySailor1Text.DoYouHaveATicketText;pokegreen:scripts/VermilionCity.asm:VermilionCitySailor1Text.WelcomeToSSAnneText;pokeyellow-jp:scripts/VermilionCity.asm:VermilionCitySailor1Text.DoYouHaveATicketText;pokeyellow-jp:scripts/VermilionCity.asm:VermilionCitySailor1Text.WelcomeToSSAnneText,model_semantic_review_not_applied,not_recorded
+T036,C,拟定中性新译文后统一,True,わかった！,明白了！,model_new_proposal,月见山表示理解并接受分享化石，金黄道馆表示战后明白对手实力；新译文兼容两处，具体分享动作由后文表达。,"1. 好吧！
+
+2. 我就知道！",W030;W124,W030,pokeblue:composed:TrainerEnd.MtMoonB2FSuperNerdOkIllShareText;pokeblue:composed:TrainerEnd.SaffronGymChanneler2EndBattleText;pokeblue:scripts/MtMoonB2F.asm:MtMoonB2FSuperNerdOkIllShareText;pokeblue:scripts/SaffronGym.asm:SaffronGymChanneler2EndBattleText;pokegreen:composed:TrainerEnd.MtMoonB2FSuperNerdOkIllShareText;pokegreen:composed:TrainerEnd.SaffronGymChanneler2EndBattleText;pokegreen:scripts/MtMoonB2F.asm:MtMoonB2FSuperNerdOkIllShareText;pokegreen:scripts/SaffronGym.asm:SaffronGymChanneler2EndBattleText;pokeyellow-jp:composed:TrainerEnd.MtMoonB2FSuperNerdOkIllShareText;pokeyellow-jp:composed:TrainerEnd.SaffronGymChanneler2EndBattleText;pokeyellow-jp:scripts/MtMoonB2F.asm:MtMoonB2FSuperNerdOkIllShareText;pokeyellow-jp:scripts/SaffronGym.asm:SaffronGymChanneler2EndBattleText,model_semantic_review_not_applied,not_recorded
+T037,B,选较准确的现有版本后统一,True,"アイテムの おかいもとめは
+タマムシ デパートで どうぞ！","购买道具，
+请认准玉虹百货公司！",existing_localization,选明确包含购买道具动作的版本，避免另一版本省去该动作并增加“更多精彩商品”。,"1. 更多精彩商品，
+玉虹百货公司
+欢迎您的光临！
+
+2. 购买道具，
+请认准玉虹百货公司！",W127;W128,,pokeblue:scripts/CeladonCity.asm:CeladonCityTrainerTips1Text;pokeblue:scripts/CeladonCity.asm:CeladonCityTrainerTips2Text;pokegreen:scripts/CeladonCity.asm:CeladonCityTrainerTips1Text;pokegreen:scripts/CeladonCity.asm:CeladonCityTrainerTips2Text;pokeyellow-jp:scripts/CeladonCity.asm:CeladonCityTrainerTips2Text;pokeyellow-jp:scripts/CeladonCity_2.asm:CeladonCityPrintTrainerTips1Text.text,model_semantic_review_not_applied,not_recorded
+T038,A,可直接统一现有译文,True,アナウンス『ピンポーン！,广播：叮咚～！,existing_localization,仅句末标点不同。,"1. 广播：叮咚～
+
+2. 广播：叮咚～！",W129,,pokeblue:engine/battle/core.asm:StartBattle.outOfSafariBallsText;pokeblue:engine/events/hidden_events/safari_game.asm:TimesUpText;pokegreen:engine/battle/core.asm:StartBattle.outOfSafariBallsText;pokegreen:engine/events/hidden_events/safari_game.asm:TimesUpText;pokeyellow-jp:engine/battle/core.asm:StartBattle.outOfSafariBallsText;pokeyellow-jp:engine/events/hidden_events/safari_game.asm:TimesUpText,model_semantic_review_not_applied,not_recorded
+T039,B,选较准确的现有版本后统一,True,ウオースッ！,呜哦——！,existing_localization,武者感叹喊声；“你好”只适合招呼，不兼容练习不足的战后感叹。,"1. 你好！
+
+2. 呜哦——！",W130,,pokeblue:scripts/FightingDojo.asm:FightingDojoBlackbelt1BattleText;pokeblue:scripts/ViridianGym.asm:ViridianGymHiker1AfterBattleText;pokegreen:scripts/FightingDojo.asm:FightingDojoBlackbelt1BattleText;pokegreen:scripts/ViridianGym.asm:ViridianGymHiker1AfterBattleText;pokeyellow-jp:scripts/FightingDojo.asm:FightingDojoBlackbelt1BattleText;pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymHiker1AfterBattleText,model_semantic_review_not_applied,not_recorded
+T040,B,选较准确的现有版本后统一,True,チェストー！,嘿呀！,existing_localization,原文为武术喝声；“厉害”将喝声改成了评价。,"1. 厉害！
+
+2. 嘿呀！",W136,,pokeblue:scripts/FightingDojo.asm:FightingDojoBlackbelt3BattleText;pokeblue:scripts/VictoryRoad2F.asm:VictoryRoad2FHikerEndBattleText;pokegreen:scripts/FightingDojo.asm:FightingDojoBlackbelt3BattleText;pokegreen:scripts/VictoryRoad2F.asm:VictoryRoad2FHikerEndBattleText;pokeyellow-jp:scripts/FightingDojo.asm:FightingDojoBlackbelt3BattleText;pokeyellow-jp:scripts/VictoryRoad2F.asm:VictoryRoad2FHikerEndBattleText,model_semantic_review_not_applied,not_recorded
+T041,A,可直接统一现有译文,True,"モンスターボールだ
+なかに ポケモンが はいってるぞ！","是精灵球。
+里面装着宝可梦哦！",existing_localization,同义陈述，精灵球和宝可梦事实一致。,"1. 是精灵球。
+里面装有宝可梦！
+
+2. 是精灵球。
+里面装着宝可梦哦！",W147;W148,,pokeblue:scripts/OaksLab.asm:OaksLabThoseArePokeBallsText;pokegreen:scripts/OaksLab.asm:OaksLabThoseArePokeBallsText;pokeyellow-jp:scripts/OaksLab.asm:OaksLabEeveePokeBallText.Text,model_semantic_review_not_applied,not_recorded
+T042,D,来源异常暂缓,False,！,,not_proposed,日文感叹号在浅红市被对应到整段汉化人员名单；需先确认汉化增文或来源对齐异常的归类，暂不按普通同义文本合并。,"1. 宝可梦第一世代
+红蓝绿/黄 汉化人员名单
+
+程序：
+星夜之幻、TomJinW
+
+翻译：吃馍法师、
+无敌阿尔宙斯、夜灵的天空
+
+汉化工具：robertking
+TomJinW
+
+美工：
+卧看微尘、小光
+
+测试：无敌阿尔宙斯、小光
+NELO, SYLVEON
+colorcat
+
+请勿将汉化用于商业用途
+若付费购买请联系退款！
+
+2. ！",W152,,pokeblue:home/overworld_text.asm:ExclamationText;pokeblue:scripts/Colosseum.asm:ColosseumOpponentText;pokeblue:scripts/FuchsiaCity.asm:FuchsiaCityPokemonText;pokeblue:scripts/TradeCenter.asm:TradeCenterOpponentText;pokegreen:home/overworld_text.asm:ExclamationText;pokegreen:scripts/Colosseum.asm:ColosseumOpponentText;pokegreen:scripts/FuchsiaCity.asm:FuchsiaCityPokemonText;pokegreen:scripts/TradeCenter.asm:TradeCenterOpponentText;pokeyellow-jp:home/overworld_text.asm:ExclamationText;pokeyellow-jp:scripts/Colosseum.asm:ColosseumOpponentText;pokeyellow-jp:scripts/FuchsiaCity.asm:FuchsiaCityPokemonText;pokeyellow-jp:scripts/TradeCenter.asm:TradeCenterOpponentText,model_semantic_review_not_applied,not_recorded

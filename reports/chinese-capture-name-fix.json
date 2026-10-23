@@ -1,0 +1,372 @@
+{
+  "date": "2026-10-22",
+  "method": "static source/data audit; not dynamic runtime or real capture",
+  "enemyNameUsagesChecked": 42,
+  "speciesSlots": 21,
+  "preservedOtherRoles": 21,
+  "roles": {
+    "pokegreen": [
+      {
+        "record": "pokegreen:engine/battle/common_text.asm:WildMonAppearedText",
+        "slot": "RAM1",
+        "role": "species",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokegreen:engine/battle/common_text.asm:HookedMonAttackedText",
+        "slot": "RAM1",
+        "role": "species",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokegreen:engine/battle/common_text.asm:EnemyAppearedText",
+        "slot": "RAM1",
+        "role": "ghost_name",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokegreen:engine/battle/core.asm:WildRanText",
+        "slot": "RAM1",
+        "role": "species",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokegreen:engine/battle/core.asm:EnemyRanText",
+        "slot": "RAM1",
+        "role": "may_be_link_nickname",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokegreen:engine/battle/core.asm:EnemyMonFaintedText",
+        "slot": "RAM1",
+        "role": "may_be_link_nickname",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokegreen:engine/battle/core.asm:TrainerAboutToUseText",
+        "slot": "RAM2",
+        "role": "keep_existing_nickname_policy",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokegreen:engine/battle/core.asm:TrainerSentOutText",
+        "slot": "RAM2",
+        "role": "may_be_link_nickname",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokegreen:engine/battle/safari_zone.asm:SafariZoneEatingText",
+        "slot": "RAM1",
+        "role": "species_safari",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokegreen:engine/battle/safari_zone.asm:SafariZoneAngryText",
+        "slot": "RAM1",
+        "role": "species_safari",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokegreen:engine/battle/trainer_ai2.asm:AIBattleWithdrawText",
+        "slot": "RAM2",
+        "role": "keep_existing_nickname_policy",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokegreen:engine/battle/trainer_ai2.asm:AIBattleUseItemText",
+        "slot": "RAM2",
+        "role": "keep_existing_nickname_policy",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokegreen:engine/items/item_effects.asm:ItemUseBallText05",
+        "slot": "RAM1",
+        "role": "species_before_nicknaming",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokegreen:engine/items/item_effects.asm:ItemUseBallText06",
+        "slot": "RAM1",
+        "role": "species_before_nicknaming",
+        "runtimeKind": "pokemon"
+      }
+    ],
+    "pokeblue": [
+      {
+        "record": "pokeblue:engine/battle/common_text.asm:WildMonAppearedText",
+        "slot": "RAM1",
+        "role": "species",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokeblue:engine/battle/common_text.asm:HookedMonAttackedText",
+        "slot": "RAM1",
+        "role": "species",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokeblue:engine/battle/common_text.asm:EnemyAppearedText",
+        "slot": "RAM1",
+        "role": "ghost_name",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokeblue:engine/battle/core.asm:WildRanText",
+        "slot": "RAM1",
+        "role": "species",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokeblue:engine/battle/core.asm:EnemyRanText",
+        "slot": "RAM1",
+        "role": "may_be_link_nickname",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokeblue:engine/battle/core.asm:EnemyMonFaintedText",
+        "slot": "RAM1",
+        "role": "may_be_link_nickname",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokeblue:engine/battle/core.asm:TrainerAboutToUseText",
+        "slot": "RAM2",
+        "role": "keep_existing_nickname_policy",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokeblue:engine/battle/core.asm:TrainerSentOutText",
+        "slot": "RAM2",
+        "role": "may_be_link_nickname",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokeblue:engine/battle/safari_zone.asm:SafariZoneEatingText",
+        "slot": "RAM1",
+        "role": "species_safari",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokeblue:engine/battle/safari_zone.asm:SafariZoneAngryText",
+        "slot": "RAM1",
+        "role": "species_safari",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokeblue:engine/battle/trainer_ai2.asm:AIBattleWithdrawText",
+        "slot": "RAM2",
+        "role": "keep_existing_nickname_policy",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokeblue:engine/battle/trainer_ai2.asm:AIBattleUseItemText",
+        "slot": "RAM2",
+        "role": "keep_existing_nickname_policy",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokeblue:engine/items/item_effects.asm:ItemUseBallText05",
+        "slot": "RAM1",
+        "role": "species_before_nicknaming",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokeblue:engine/items/item_effects.asm:ItemUseBallText06",
+        "slot": "RAM1",
+        "role": "species_before_nicknaming",
+        "runtimeKind": "pokemon"
+      }
+    ],
+    "pokeyellow-jp": [
+      {
+        "record": "pokeyellow-jp:engine/battle/common_text.asm:WildMonAppearedText",
+        "slot": "RAM1",
+        "role": "species",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokeyellow-jp:engine/battle/common_text.asm:HookedMonAttackedText",
+        "slot": "RAM1",
+        "role": "species",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokeyellow-jp:engine/battle/common_text.asm:EnemyAppearedText",
+        "slot": "RAM1",
+        "role": "ghost_name",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokeyellow-jp:engine/battle/core.asm:WildRanText",
+        "slot": "RAM1",
+        "role": "species",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokeyellow-jp:engine/battle/core.asm:EnemyRanText",
+        "slot": "RAM1",
+        "role": "may_be_link_nickname",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokeyellow-jp:engine/battle/core.asm:EnemyMonFaintedText",
+        "slot": "RAM1",
+        "role": "may_be_link_nickname",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokeyellow-jp:engine/battle/core.asm:TrainerAboutToUseText",
+        "slot": "RAM2",
+        "role": "keep_existing_nickname_policy",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokeyellow-jp:engine/battle/core.asm:TrainerSentOutText",
+        "slot": "RAM2",
+        "role": "may_be_link_nickname",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokeyellow-jp:engine/battle/safari_zone.asm:SafariZoneEatingText",
+        "slot": "RAM1",
+        "role": "species_safari",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokeyellow-jp:engine/battle/safari_zone.asm:SafariZoneAngryText",
+        "slot": "RAM1",
+        "role": "species_safari",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokeyellow-jp:engine/battle/trainer_ai.asm:AIBattleWithdrawText",
+        "slot": "RAM2",
+        "role": "keep_existing_nickname_policy",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokeyellow-jp:engine/battle/trainer_ai.asm:AIBattleUseItemText",
+        "slot": "RAM2",
+        "role": "keep_existing_nickname_policy",
+        "runtimeKind": "nickname"
+      },
+      {
+        "record": "pokeyellow-jp:engine/items/item_effects.asm:ItemUseBallText05",
+        "slot": "RAM1",
+        "role": "species_before_nicknaming",
+        "runtimeKind": "pokemon"
+      },
+      {
+        "record": "pokeyellow-jp:engine/items/item_effects.asm:ItemUseBallText06",
+        "slot": "RAM1",
+        "role": "species_before_nicknaming",
+        "runtimeKind": "pokemon"
+      }
+    ]
+  },
+  "sourceChecks": {
+    "pokegreen": {
+      "captureGuardAndProducerBeforeSuccessAndDexBeforeNicknaming": true,
+      "boxedTransferAfterAskName": true,
+      "safariUsesWildEnemySpecies": true,
+      "sourceSha256": {
+        "engine/items/item_effects.asm": "d0631122161a3fb4d9c93aee127b1f18a7756553eb7b4d032d37342ef419a6fe",
+        "engine/battle/safari_zone.asm": "b95933837a3da43105050440d388206ee0f488fb3b6ef9965f46ae2bd8c6ed3f",
+        "engine/battle/core.asm": "9b170e40c665824edd3b70521367a4d32812383da7ded0c2ba924d360aca3c74"
+      }
+    },
+    "pokeblue": {
+      "captureGuardAndProducerBeforeSuccessAndDexBeforeNicknaming": true,
+      "boxedTransferAfterAskName": true,
+      "safariUsesWildEnemySpecies": true,
+      "sourceSha256": {
+        "engine/items/item_effects.asm": "2e0305a428cae3871674eb9c7d9bcaf17fce888346470280d39f5a2770318f1d",
+        "engine/battle/safari_zone.asm": "b95933837a3da43105050440d388206ee0f488fb3b6ef9965f46ae2bd8c6ed3f",
+        "engine/battle/core.asm": "026c40edf1e87ae2c3cd07c8a0c94278bfd52064aed32edb68a6fb486a7a1bad"
+      }
+    },
+    "pokeyellow-jp": {
+      "captureGuardAndProducerBeforeSuccessAndDexBeforeNicknaming": true,
+      "boxedTransferAfterAskName": true,
+      "safariUsesWildEnemySpecies": true,
+      "sourceSha256": {
+        "engine/items/item_effects.asm": "e85dd5086bef2fb1c09c971c4ae2c1870fb52433c793c7454a5b25412bd4153e",
+        "engine/battle/safari_zone.asm": "b95933837a3da43105050440d388206ee0f488fb3b6ef9965f46ae2bd8c6ed3f",
+        "engine/battle/core.asm": "67d987b6839ffd83a2d667ea19c258f828e62094284fafd69bc9be078eaf267a"
+      }
+    }
+  },
+  "originalDataUnchanged": {
+    "src/main/resources/corpus/records.csv": true,
+    "src/main/resources/corpus/segments.csv": true,
+    "src/main/resources/corpus/variables.csv": true,
+    "tools/text_translation_revisions.csv": true
+  },
+  "implementationVersion": "0.3.0",
+  "rootCause": "The previous species-role fix omitted capture-success, capture dex registration and Safari messages; the shared wEnemyMonNick fallback preserved their species names as nicknames.",
+  "previousTestGap": "g1-049 previously measured publication and raw Japanese, without an independent expected Chinese species value; it now has a fixed expected translation.",
+  "dynamicVerification": {
+    "buildLog": "output/build-capture-name-fix.log",
+    "passedTestMethods": 7,
+    "skippedDesktopTestMethods": 1,
+    "developmentScenarios": 25,
+    "developmentComparisons": 40,
+    "developmentComparisonsPassed": 40,
+    "targetedPngs": 12,
+    "targetedUnits": 24,
+    "rawJapanesePassedImages": 108,
+    "summary": {
+      "images": 108,
+      "noTargetImages": 5,
+      "allUnitsReadyChineseImages": 95,
+      "partialChineseImages": 2,
+      "noChineseImages": 6,
+      "units": 132,
+      "unitsWithChinese": 119,
+      "displayStatusCounts": {
+        "ready": 119,
+        "ambiguous": 4,
+        "nickname_preserved": 7,
+        "variables_missing": 1,
+        "source_semantic_mismatch": 1
+      }
+    },
+    "packagedCliSample": "g1-049",
+    "packagedCsvIdentity": true,
+    "testAnswersAbsentFromJar": true,
+    "realCaptureTested": false,
+    "finalChineseAcceptance": false
+  },
+  "changedImages": [
+    {
+      "sample": "g1-049",
+      "raw": "やったー！\nコラッタを つかまえたぞ！",
+      "before": "太好了！\n捉到コラッタ了！",
+      "after": "太好了！\n捉到小拉达了！"
+    }
+  ],
+  "jar": {
+    "path": "target/g1-ocr-0.3.0.jar",
+    "bytes": 15706213,
+    "sha256": "38c407ffeb7caab0f75475e047eb6150048130403ea122b1299994bcd0f70a2c"
+  },
+  "sha256": {
+    "src/main/resources/corpus/slot_rules.csv": "b29015748f9cb4f27109fd7f914cc23cca9223181f90de8cd2c92dfdd4b2a7ad",
+    "src/main/resources/corpus/README.md": "77eb71c03a4ed56f3d3e1f719773b08ce8218b53d48717d382d2011ce340c74d",
+    "src/test/resources/chinese-cases.json": "c1f77c9a3280fc1f759ab5085fc650ac4ea3bc63a80ff214427ee306803d9af6",
+    "src/test/resources/chinese-regressions.json": "36a7accf0d9c689506c75dc3e56f7845e8f31c221b4edcbe977f031c26d43c77"
+  },
+  "documentationRepackage": {
+    "log": "output/package-capture-name-fix.log",
+    "testsRepeated": false,
+    "verifiedBeforeDocumentationOnlyChange": {
+      "path": "target/g1-ocr-0.3.0.jar",
+      "bytes": 15706210,
+      "sha256": "ce73963e62b994a9655f97b5b4b739652d51daf2872ebbeb786b9537fc2159bc"
+    },
+    "changedJarEntries": [
+      "corpus/README.md"
+    ],
+    "applicationClassesAndRuntimeCsvUnchanged": true
+  }
+}

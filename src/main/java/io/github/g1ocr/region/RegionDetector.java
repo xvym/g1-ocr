@@ -31,7 +31,7 @@ public final class RegionDetector {
     public RegionDetector(PixelFont font) { this.font = font; }
 
     private boolean is(GbFrame frame, int x, int y, String token) {
-        return frame.tile(x, y) == font.pixels(token);
+        return font.matches(token, frame.tile(x, y));
     }
 
     private boolean horizontal(GbFrame frame, int left, int right, int y, String start, String end) {
@@ -58,18 +58,21 @@ public final class RegionDetector {
         List<Region> regions = new ArrayList<>();
         boolean list = horizontal(frame, 32, 152, 16, "┌", "┐")
                 && horizontal(frame, 32, 152, 96, "└", "┘");
-        // Shop prices occupy the final currency column; this dedicated layout is outside the target scope.
+        // Shop buying uses the same grid, with a price ending in the currency column.
         boolean prices = false;
         for (int y = 32; y <= 80; y += 16) prices |= is(frame, 144, y, "円");
-        list &= !prices;
         if (list) {
-            List<Grid> rows = List.of(new Grid(48, 32, 13), new Grid(48, 48, 13),
-                    new Grid(48, 64, 13), new Grid(48, 80, 13));
+            List<Grid> rows = new ArrayList<>(List.of(new Grid(48, 32, 13), new Grid(48, 48, 13),
+                    new Grid(48, 64, 13), new Grid(48, 80, 13)));
+            // The buying quantity/total box covers the fourth item's text and mark band.
+            if (prices && horizontal(frame, 56, 152, 72, "┌", "┐")
+                    && horizontal(frame, 56, 152, 88, "└", "┘")) rows.removeLast();
             List<Grid> footer = horizontal(frame, 96, 152, 120, "└", "┘")
                     && is(frame, 96, 112, "│") ? List.of(new Grid(112, 112, 5)) : List.of();
             boolean levels = rows.stream().anyMatch(row -> is(frame, 96, row.y(), "<Lv>"));
-            regions.add(new Region("list", "shared_list", levels ? "pc_pokemon" : "ambiguous",
-                    new Rect(32, 16, 128, 88), rows, footer, selected(frame, 40, 32, 4)));
+            regions.add(new Region("list", prices ? "shop_items" : "shared_list",
+                    prices ? "shop_items" : levels ? "pc_pokemon" : "ambiguous",
+                    new Rect(32, 16, 128, 88), List.copyOf(rows), footer, selected(frame, 40, 32, rows.size())));
         }
         boolean moves = horizontal(frame, 0, 72, 64, "┌", "┐") && is(frame, 0, 136, "└");
         if (moves) regions.add(new Region("moves", "battle_moves", "battle_moves", new Rect(0, 64, 80, 80),

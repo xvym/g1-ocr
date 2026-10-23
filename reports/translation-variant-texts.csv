@@ -1,0 +1,183 @@
+﻿id,japanese,has_variables,variant_count,chinese_variants,visible_window_count,derived_speaker_window_count,window_ids,assessment,source_record_ids
+T001,{{RIVAL}}『やりー！,True,2,"1. {{RIVAL}}：太棒了！
+
+2. {{RIVAL}}：真棒！",1,0,W017,wording_or_semantic_difference_needs_review,pokeblue:engine/battle/core.asm:Rival1WinText;pokeblue:scripts/OaksLab.asm:OaksLabRivalAmIGreatOrWhatText;pokegreen:engine/battle/core.asm:Rival1WinText;pokegreen:scripts/OaksLab.asm:OaksLabRivalAmIGreatOrWhatText;pokeyellow-jp:engine/battle/core.asm:Rival1WinText;pokeyellow-jp:scripts/OaksLab.asm:OaksLabRivalAmIGreatOrWhatText
+T002,……,False,2,"1. …
+
+2. ……",1,0,W036,punctuation_or_layout_only,pokeblue:scripts/FuchsiaCity.asm:FuchsiaCityFossilSignText.UndeterminedText;pokeblue:scripts/MtMoon1F.asm:MtMoon1FSuperNerdEndBattleText;pokegreen:scripts/FuchsiaCity.asm:FuchsiaCityFossilSignText.UndeterminedText;pokegreen:scripts/MtMoon1F.asm:MtMoon1FSuperNerdEndBattleText;pokeyellow-jp:scripts/FuchsiaCity.asm:FuchsiaCityFossilSignText.UndeterminedText;pokeyellow-jp:scripts/MtMoon1F.asm:MtMoon1FSuperNerdEndBattleText
+T003,"…… はははーッ！
+ゆうれい や むし くらい だぜ！",False,2,"1. 有倒是有。
+那就是幽灵属性和虫属性！
+
+2. 有倒是有。
+那就是虫属性！",1,0,W041,substantive_omission_in_one_localization,pokeblue:scripts/SaffronGym.asm:SaffronGymYoungster1AfterBattleText;pokegreen:scripts/SaffronGym.asm:SaffronGymYoungster1AfterBattleText;pokeyellow-jp:scripts/SaffronGym.asm:SaffronGymYoungster1AfterBattleText
+T004,あーッ！,False,2,"1. 啊——！
+
+2. 啊～！",1,0,W044,punctuation_or_layout_only,pokeblue:scripts/Route21.asm:Route21Swimmer5BattleText;pokeblue:scripts/Route22.asm:Route22Rival1DefeatedText;pokegreen:scripts/Route21.asm:Route21Swimmer5BattleText;pokegreen:scripts/Route22.asm:Route22Rival1DefeatedText;pokeyellow-jp:scripts/Route21.asm:Route21Swimmer5BattleText;pokeyellow-jp:scripts/Route22.asm:Route22Rival1DefeatedText
+T005,いやーん！,False,2,"1. 不！
+
+2. 哎呀～！",1,0,W045,wording_or_semantic_difference_needs_review,pokeblue:scripts/SSAnne1FRooms.asm:SSAnne1FRoomsCooltrainerFEndBattleText;pokeblue:scripts/SaffronPidgeyHouse.asm:SaffronPidgeyHouseBrunetteGirlText;pokegreen:scripts/SSAnne1FRooms.asm:SSAnne1FRoomsCooltrainerFEndBattleText;pokegreen:scripts/SaffronPidgeyHouse.asm:SaffronPidgeyHouseBrunetteGirlText;pokeyellow-jp:scripts/SSAnne1FRooms.asm:SSAnne1FRoomsCooltrainerFEndBattleText;pokeyellow-jp:scripts/SaffronPidgeyHouse.asm:SaffronPidgeyHouseBrunetteGirlText
+T006,おう おうッ！,False,2,"1. 噢、噢！
+
+2. 很好～！",1,0,W048,wording_or_semantic_difference_needs_review,pokeblue:scripts/Route16.asm:Route16Biker2BattleText;pokeblue:scripts/Route16.asm:Route16Biker6AfterBattleText;pokeblue:scripts/SilphCo7F.asm:SilphCo7FRivalDefeatedText;pokegreen:scripts/Route16.asm:Route16Biker2BattleText;pokegreen:scripts/Route16.asm:Route16Biker6AfterBattleText;pokegreen:scripts/SilphCo7F.asm:SilphCo7FRivalDefeatedText;pokeyellow-jp:scripts/Route16.asm:Route16Biker2BattleText;pokeyellow-jp:scripts/Route16.asm:Route16Biker6AfterBattleText;pokeyellow-jp:scripts/SilphCo7F.asm:SilphCo7FRivalDefeatedText
+T007,おっと……！,False,2,"1. 哎呀……！
+
+2. 哎哟……！",1,0,W049,wording_or_semantic_difference_needs_review,pokeblue:scripts/GameCorner.asm:GameCornerClerk1Text.CoinCaseIsFull;pokeblue:scripts/Route12.asm:Route12Fisher2EndBattleText;pokegreen:scripts/GameCorner.asm:GameCornerClerk1Text.CoinCaseIsFull;pokegreen:scripts/Route12.asm:Route12Fisher2EndBattleText;pokeyellow-jp:scripts/GameCorner.asm:GameCornerClerkText.CoinCaseIsFull;pokeyellow-jp:scripts/Route12.asm:Route12Fisher2EndBattleText
+T008,おっとっと！,False,2,"1. 哎呀呀！
+
+2. 哎呀！",2,1,W018;W050,wording_or_semantic_difference_needs_review,pokeblue:composed:TrainerEnd.RockTunnelB1FHiker1EndBattleText;pokeblue:composed:TrainerEnd.Route9Hiker2EndBattleText;pokeblue:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker1EndBattleText;pokeblue:scripts/Route9.asm:Route9Hiker2EndBattleText;pokegreen:composed:TrainerEnd.RockTunnelB1FHiker1EndBattleText;pokegreen:composed:TrainerEnd.Route9Hiker2EndBattleText;pokegreen:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker1EndBattleText;pokegreen:scripts/Route9.asm:Route9Hiker2EndBattleText;pokeyellow-jp:composed:TrainerEnd.RockTunnelB1FHiker1EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route9Hiker2EndBattleText;pokeyellow-jp:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker1EndBattleText;pokeyellow-jp:scripts/Route9.asm:Route9Hiker2EndBattleText
+T009,おまち！！,False,2,"1. 且慢！
+
+2. 等一下！！",1,0,W051,wording_or_semantic_difference_needs_review,pokeyellow-jp:scripts/MtMoonB2F.asm:MtMoonB2FText12;pokeyellow-jp:scripts/PokemonTower7F.asm:PokemonTower7FText4
+T010,"おれこそは
+ロケット 4きょうだいの ひとり！",False,2,"1. 俺正是
+火箭队四兄弟之一！
+
+2. 我正是
+火箭队四兄弟之一！",1,0,W053,wording_or_semantic_difference_needs_review,pokeblue:scripts/SilphCo6F.asm:SilphCo6FRocket1BattleText;pokeblue:scripts/SilphCo7F.asm:SilphCo7FRocket2BattleText;pokeblue:scripts/SilphCo8F.asm:SilphCo8FRocket2BattleText;pokegreen:scripts/SilphCo6F.asm:SilphCo6FRocket1BattleText;pokegreen:scripts/SilphCo7F.asm:SilphCo7FRocket2BattleText;pokegreen:scripts/SilphCo8F.asm:SilphCo8FRocket2BattleText;pokeyellow-jp:scripts/SilphCo6F.asm:SilphCo6FRocket1BattleText;pokeyellow-jp:scripts/SilphCo7F.asm:SilphCo7FRocket2BattleText;pokeyellow-jp:scripts/SilphCo8F.asm:SilphCo8FRocket2BattleText
+T011,"おーす！
+みらいの チャンピオン！",False,3,"1. 哟！
+未来的冠军！
+
+2. 嗨～！
+未来的冠军！
+
+3. 等你很久喽！
+未来的冠军！",2,0,W059;W060,wording_or_semantic_difference_needs_review,pokeblue:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText;pokeblue:scripts/CinnabarGym.asm:CinnabarGymGymGuideText.ChampInMakingText;pokeblue:scripts/FuchsiaGym.asm:FuchsiaGymGymGuideText.ChampInMakingText;pokeblue:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText;pokeblue:scripts/SaffronGym.asm:SaffronGymGymGuideText.ChampInMakingText;pokeblue:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText;pokeblue:scripts/ViridianGym.asm:ViridianGymGuidePreBattleText;pokegreen:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText;pokegreen:scripts/CinnabarGym.asm:CinnabarGymGymGuideText.ChampInMakingText;pokegreen:scripts/FuchsiaGym.asm:FuchsiaGymGymGuideText.ChampInMakingText;pokegreen:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText;pokegreen:scripts/SaffronGym.asm:SaffronGymGymGuideText.ChampInMakingText;pokegreen:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText;pokegreen:scripts/ViridianGym.asm:ViridianGymGuidePreBattleText;pokeyellow-jp:scripts/CeruleanGym.asm:CeruleanGymGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/CinnabarGym_3.asm:CinnabarGymPrintGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/FuchsiaGym.asm:FuchsiaGymGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/IndigoPlateauLobby.asm:IndigoPlateauLobbyGymGuideText;pokeyellow-jp:scripts/SaffronGym.asm:SaffronGymGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/VermilionGym.asm:VermilionGymGymGuideText.ChampInMakingText;pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymGuidePreBattleText
+T012,がはは！,False,2,"1. 哇哈哈！
+
+2. 哈哈哈！",1,0,W061,wording_or_semantic_difference_needs_review,pokeblue:scripts/Route9.asm:Route9Hiker1BattleText;pokeblue:scripts/SilphCo4F.asm:SilphCo4FRocket1AfterBattleText;pokegreen:scripts/Route9.asm:Route9Hiker1BattleText;pokegreen:scripts/SilphCo4F.asm:SilphCo4FRocket1AfterBattleText;pokeyellow-jp:scripts/Route9.asm:Route9Hiker1BattleText;pokeyellow-jp:scripts/SilphCo4F.asm:SilphCo4FRocket1AfterBattleText
+T013,くやしく ないもん,False,2,"1. 我不后悔。
+
+2. 我才没有不甘心！",2,1,W019;W064,wording_or_semantic_difference_needs_review,pokeblue:composed:TrainerEnd.Route25CooltrainerF2EndBattleText;pokeblue:composed:TrainerEnd.Route25Youngster2EndBattleText;pokeblue:scripts/Route25.asm:Route25CooltrainerF2EndBattleText;pokeblue:scripts/Route25.asm:Route25Youngster2EndBattleText;pokegreen:composed:TrainerEnd.Route25CooltrainerF2EndBattleText;pokegreen:composed:TrainerEnd.Route25Youngster2EndBattleText;pokegreen:scripts/Route25.asm:Route25CooltrainerF2EndBattleText;pokegreen:scripts/Route25.asm:Route25Youngster2EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route25CooltrainerF2EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route25Youngster2EndBattleText;pokeyellow-jp:scripts/Route25.asm:Route25CooltrainerF2EndBattleText;pokeyellow-jp:scripts/Route25.asm:Route25Youngster2EndBattleText
+T014,"ここでは どうぐを
+つかうことは できません",False,2,"1. 不能在这里
+使用道具！
+
+2. 这里不能使用道具。",2,0,W067;W068,wording_or_semantic_difference_needs_review,pokeblue:engine/battle/core.asm:ItemsCantBeUsedHereText;pokeblue:engine/menus/start_sub_menus.asm:CannotUseItemsHereText;pokegreen:engine/battle/core.asm:ItemsCantBeUsedHereText;pokegreen:engine/menus/start_sub_menus.asm:CannotUseItemsHereText;pokeyellow-jp:engine/battle/core.asm:ItemsCantBeUsedHereText;pokeyellow-jp:engine/menus/start_sub_menus.asm:CannotUseItemsHereText
+T015,こんちわ！,False,2,"1. 你好！
+
+2. 您好！",1,0,W071,wording_or_semantic_difference_needs_review,pokeblue:scripts/BillsHouse.asm:BillsHouseBillPokemonText.ImNotAPokemonText;pokeblue:scripts/SafariZoneGate.asm:SafariZoneGateSafariZoneWorker2Text.FirstTimeHereText;pokegreen:scripts/BillsHouse.asm:BillsHouseBillPokemonText.ImNotAPokemonText;pokegreen:scripts/SafariZoneGate.asm:SafariZoneGateSafariZoneWorker2Text.FirstTimeHereText;pokeyellow-jp:scripts/BillsHouse_2.asm:BillsHousePrintBillPokemonText.ImNotAPokemonText;pokeyellow-jp:scripts/SafariZoneGate_2.asm:SafariZoneGatePrintSafariZoneWorker2Text.FirstTimeHereText
+T016,しかし こうかが なかった！,False,2,"1. 但是，什么也没有发生！
+
+2. 但是，没有效果！",1,0,W076,wording_or_semantic_difference_needs_review,pokeblue:engine/battle/effects.asm:NoEffectText;pokegreen:engine/battle/effects.asm:NoEffectText;pokeyellow-jp:engine/battle/effects.asm:NothingHappenedText
+T017,しかし なにもおこらない,False,2,"1. 但是，什么也没有发生！
+
+2. 但是，没有效果！",1,0,W077,wording_or_semantic_difference_needs_review,pokeblue:engine/battle/effects.asm:NothingHappenedText;pokegreen:engine/battle/effects.asm:NothingHappenedText;pokeyellow-jp:engine/battle/effects.asm:NoEffectText
+T018,そうか！,False,2,"1. 是吗！
+
+2. 果然是吧！",1,0,W080,wording_or_semantic_difference_needs_review,pokeblue:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.ReceivedGoodRodText;pokeblue:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.StoryText;pokeblue:scripts/Route12SuperRodHouse.asm:Route12SuperRodHouseFishingGuruText.ReceivedSuperRodText;pokeblue:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.TakeThisText;pokegreen:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.ReceivedGoodRodText;pokegreen:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.StoryText;pokegreen:scripts/Route12SuperRodHouse.asm:Route12SuperRodHouseFishingGuruText.ReceivedSuperRodText;pokegreen:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.TakeThisText;pokeyellow-jp:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.ReceivedGoodRodText;pokeyellow-jp:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.StoryText;pokeyellow-jp:scripts/Route12SuperRodHouse.asm:Route12SuperRodHouseFishingGuruText.ReceivedSuperRodText;pokeyellow-jp:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.TakeThisText
+T019,っせーな！,False,2,"1. 你烦不烦啊！
+
+2. 烦不烦啊！",1,0,W087,wording_or_semantic_difference_needs_review,pokeblue:scripts/Route13.asm:Route13BikerAfterBattleText;pokeblue:scripts/Route16.asm:Route16Biker1AfterBattleText;pokegreen:scripts/Route13.asm:Route13BikerAfterBattleText;pokegreen:scripts/Route16.asm:Route16Biker1AfterBattleText;pokeyellow-jp:scripts/Route13.asm:Route13BikerAfterBattleText;pokeyellow-jp:scripts/Route16.asm:Route16Biker1AfterBattleText
+T020,つよい！,False,2,"1. 好强啊……
+
+2. 很厉害呢！",2,1,W020;W088,wording_or_semantic_difference_needs_review,pokeblue:composed:TrainerEnd.Route13Beauty1EndBattleText;pokeblue:composed:TrainerEnd.SilphCo2FRocket1EndBattleText;pokeblue:scripts/Route13.asm:Route13Beauty1EndBattleText;pokeblue:scripts/SilphCo2F.asm:SilphCo2FRocket1EndBattleText;pokegreen:composed:TrainerEnd.Route13Beauty1EndBattleText;pokegreen:composed:TrainerEnd.SilphCo2FRocket1EndBattleText;pokegreen:scripts/Route13.asm:Route13Beauty1EndBattleText;pokegreen:scripts/SilphCo2F.asm:SilphCo2FRocket1EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route13Beauty1EndBattleText;pokeyellow-jp:composed:TrainerEnd.SilphCo2FRocket1EndBattleText;pokeyellow-jp:scripts/Route13.asm:Route13Beauty1EndBattleText;pokeyellow-jp:scripts/SilphCo2F.asm:SilphCo2FRocket1EndBattleText
+T021,なっとく いかねえ,False,2,"1. 我不接受！
+
+2. 我不服！",2,1,W022;W095,wording_or_semantic_difference_needs_review,pokeblue:composed:TrainerEnd.Route14Biker4EndBattleText;pokeblue:composed:TrainerEnd.Route15Biker1EndBattleText;pokeblue:scripts/Route14.asm:Route14Biker4EndBattleText;pokeblue:scripts/Route15.asm:Route15Biker1EndBattleText;pokegreen:composed:TrainerEnd.Route14Biker4EndBattleText;pokegreen:composed:TrainerEnd.Route15Biker1EndBattleText;pokegreen:scripts/Route14.asm:Route14Biker4EndBattleText;pokegreen:scripts/Route15.asm:Route15Biker1EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route14Biker4EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route15Biker1EndBattleText;pokeyellow-jp:scripts/Route14.asm:Route14Biker4EndBattleText;pokeyellow-jp:scripts/Route15.asm:Route15Biker1EndBattleText
+T022,にもつが いっぱいだ,False,2,"1. 行李已满了。
+
+2. 行李已满了！",1,0,W096,punctuation_or_layout_only,pokeblue:scripts/CeladonCity.asm:CeladonCityGramps3Text.TM41NoRoomText;pokeblue:scripts/CinnabarGym.asm:CinnabarGymBlaineTM38NoRoomText;pokeblue:scripts/FuchsiaGym.asm:FuchsiaGymKogaTM06NoRoomText;pokegreen:scripts/CeladonCity.asm:CeladonCityGramps3Text.TM41NoRoomText;pokegreen:scripts/CinnabarGym.asm:CinnabarGymBlaineTM38NoRoomText;pokegreen:scripts/FuchsiaGym.asm:FuchsiaGymKogaTM06NoRoomText;pokeyellow-jp:scripts/CeladonCity.asm:CeladonCityGramps3Text.TM41NoRoomText;pokeyellow-jp:scripts/CinnabarGym.asm:CinnabarGymBlaineTM38NoRoomText
+T023,はい はい！,False,2,"1. 嗨、嗨！
+
+2. 好了好了！",1,0,W099,wording_or_semantic_difference_needs_review,pokeblue:scripts/Museum2F.asm:Museum2FHikerText;pokeblue:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.WantMeToRateText;pokegreen:scripts/Museum2F.asm:Museum2FHikerText;pokegreen:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.WantMeToRateText;pokeyellow-jp:scripts/Museum2F.asm:Museum2FText_5c20e;pokeyellow-jp:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.WantMeToRateText
+T024,はーっはっはッ！,False,2,"1. 哈哈哈哈！
+
+2. 哈哈哈！",1,0,W102,wording_or_semantic_difference_needs_review,pokeblue:scripts/Route9.asm:Route9Hiker2AfterBattleText;pokeblue:scripts/Route9.asm:Route9Hiker2BattleText;pokeblue:scripts/Route9.asm:Route9Hiker3EndBattleText;pokegreen:scripts/Route9.asm:Route9Hiker2AfterBattleText;pokegreen:scripts/Route9.asm:Route9Hiker2BattleText;pokegreen:scripts/Route9.asm:Route9Hiker3EndBattleText;pokeyellow-jp:scripts/Route9.asm:Route9Hiker2AfterBattleText;pokeyellow-jp:scripts/Route9.asm:Route9Hiker2BattleText;pokeyellow-jp:scripts/Route9.asm:Route9Hiker3EndBattleText
+T025,ふん……！,False,2,"1. 哼！
+
+2. 嗯……！",2,1,W024;W105,wording_or_semantic_difference_needs_review,pokeblue:composed:TrainerEnd.FuchsiaGymKogaText.ReceivedSoulBadgeText;pokeblue:composed:TrainerEnd.SSAnne2FRivalDefeatedText;pokeblue:scripts/FuchsiaGym.asm:FuchsiaGymKogaText.ReceivedSoulBadgeText;pokeblue:scripts/RocketHideoutB1F.asm:RocketHideoutB1FRocket3AfterBattleText;pokeblue:scripts/SSAnne2F.asm:SSAnne2FRivalDefeatedText;pokegreen:composed:TrainerEnd.FuchsiaGymKogaText.ReceivedSoulBadgeText;pokegreen:composed:TrainerEnd.SSAnne2FRivalDefeatedText;pokegreen:scripts/FuchsiaGym.asm:FuchsiaGymKogaText.ReceivedSoulBadgeText;pokegreen:scripts/RocketHideoutB1F.asm:RocketHideoutB1FRocket3AfterBattleText;pokegreen:scripts/SSAnne2F.asm:SSAnne2FRivalDefeatedText;pokeyellow-jp:composed:TrainerEnd.SSAnne2FRivalDefeatedText;pokeyellow-jp:scripts/RocketHideoutB1F.asm:RocketHideoutB1FRocket3AfterBattleText;pokeyellow-jp:scripts/SSAnne2F.asm:SSAnne2FRivalDefeatedText
+T026,ま まいった！,False,2,"1. 我、我输了！
+
+2. 输、输掉了！",2,1,W025;W110,wording_or_semantic_difference_needs_review,pokeblue:composed:TrainerEnd.FightingDojoBlackbelt1EndBattleText;pokeblue:composed:TrainerEnd.PokemonTower7FRocket1EndBattleText;pokeblue:scripts/FightingDojo.asm:FightingDojoBlackbelt1EndBattleText;pokeblue:scripts/PokemonTower7F.asm:PokemonTower7FRocket1EndBattleText;pokegreen:composed:TrainerEnd.FightingDojoBlackbelt1EndBattleText;pokegreen:composed:TrainerEnd.PokemonTower7FRocket1EndBattleText;pokegreen:scripts/FightingDojo.asm:FightingDojoBlackbelt1EndBattleText;pokegreen:scripts/PokemonTower7F.asm:PokemonTower7FRocket1EndBattleText;pokeyellow-jp:composed:TrainerEnd.FightingDojoBlackbelt1EndBattleText;pokeyellow-jp:scripts/FightingDojo.asm:FightingDojoBlackbelt1EndBattleText
+T027,まいった！,False,3,"1. 唔！我输了！
+
+2. 我认输！
+
+3. 我输了！",2,1,W026;W112,wording_or_semantic_difference_needs_review,pokeblue:composed:TrainerEnd.RockTunnelB1FHiker2EndBattleText;pokeblue:composed:TrainerEnd.RocketHideoutB2FRocketEndBattleText;pokeblue:composed:TrainerEnd.Route11SuperNerd2EndBattleText;pokeblue:composed:TrainerEnd.SilphCo3FRocketEndBattleText;pokeblue:composed:TrainerEnd.ViridianForestYoungster4EndBattleText;pokeblue:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker2EndBattleText;pokeblue:scripts/RocketHideoutB2F.asm:RocketHideoutB2FRocketEndBattleText;pokeblue:scripts/Route11.asm:Route11SuperNerd2EndBattleText;pokeblue:scripts/SilphCo3F.asm:SilphCo3FRocketEndBattleText;pokeblue:scripts/ViridianForest.asm:ViridianForestYoungster4EndBattleText;pokegreen:composed:TrainerEnd.RockTunnelB1FHiker2EndBattleText;pokegreen:composed:TrainerEnd.RocketHideoutB2FRocketEndBattleText;pokegreen:composed:TrainerEnd.Route11SuperNerd2EndBattleText;pokegreen:composed:TrainerEnd.SilphCo3FRocketEndBattleText;pokegreen:composed:TrainerEnd.ViridianForestYoungster4EndBattleText;pokegreen:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker2EndBattleText;pokegreen:scripts/RocketHideoutB2F.asm:RocketHideoutB2FRocketEndBattleText;pokegreen:scripts/Route11.asm:Route11SuperNerd2EndBattleText;pokegreen:scripts/SilphCo3F.asm:SilphCo3FRocketEndBattleText;pokegreen:scripts/ViridianForest.asm:ViridianForestYoungster4EndBattleText;pokeyellow-jp:composed:TrainerEnd.RockTunnelB1FHiker2EndBattleText;pokeyellow-jp:composed:TrainerEnd.RocketHideoutB2FRocketEndBattleText;pokeyellow-jp:composed:TrainerEnd.Route11SuperNerd2EndBattleText;pokeyellow-jp:composed:TrainerEnd.SilphCo3FRocketEndBattleText;pokeyellow-jp:composed:TrainerEnd.ViridianForestYoungster4EndBattleText;pokeyellow-jp:scripts/RockTunnelB1F.asm:RockTunnelB1FHiker2EndBattleText;pokeyellow-jp:scripts/RocketHideoutB2F.asm:RocketHideoutB2FRocketEndBattleText;pokeyellow-jp:scripts/Route11.asm:Route11SuperNerd2EndBattleText;pokeyellow-jp:scripts/SilphCo3F.asm:SilphCo3FRocketEndBattleText;pokeyellow-jp:scripts/ViridianForest.asm:ViridianForestYoungster4EndBattleText
+T028,まけちゃった,False,2,"1. 哦！输掉了！
+
+2. 我输了。",2,1,W027;W113,wording_or_semantic_difference_needs_review,pokeblue:composed:TrainerEnd.RockTunnelB1FCooltrainerF2EndBattleText;pokeblue:composed:TrainerEnd.Route13CooltrainerF1EndBattleText;pokeblue:scripts/RockTunnelB1F.asm:RockTunnelB1FCooltrainerF2EndBattleText;pokeblue:scripts/Route13.asm:Route13CooltrainerF1EndBattleText;pokegreen:composed:TrainerEnd.RockTunnelB1FCooltrainerF2EndBattleText;pokegreen:composed:TrainerEnd.Route13CooltrainerF1EndBattleText;pokegreen:scripts/RockTunnelB1F.asm:RockTunnelB1FCooltrainerF2EndBattleText;pokegreen:scripts/Route13.asm:Route13CooltrainerF1EndBattleText;pokeyellow-jp:composed:TrainerEnd.RockTunnelB1FCooltrainerF2EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route13CooltrainerF1EndBattleText;pokeyellow-jp:scripts/RockTunnelB1F.asm:RockTunnelB1FCooltrainerF2EndBattleText;pokeyellow-jp:scripts/Route13.asm:Route13CooltrainerF1EndBattleText
+T029,"みず タイプ ポケモンで せめて
+せめて ……せめまくる ことよ！",False,2,"1. 派出我的水属性宝可梦，
+痛扁痛扁……
+痛扁到底哦！
+
+2. 派出我的水属性宝可梦，
+痛扁痛扁……痛扁到底哦！",1,0,W114,punctuation_or_layout_only,pokeblue:scripts/CeruleanGym.asm:CeruleanGymMistyText.PreBattleText;pokegreen:scripts/CeruleanGym.asm:CeruleanGymMistyText.PreBattleText;pokeyellow-jp:scripts/CeruleanGym.asm:CeruleanGymMistyText.PreBattleText
+T030,"もう しぬほど
+つりが すき なんだが",False,2,"1. 热爱钓鱼，
+至死方休。
+
+2. 热爱钓鱼，
+至死方休！",2,0,W116;W117,punctuation_or_layout_only,pokeblue:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.Text;pokeblue:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.DoYouLikeToFishText;pokegreen:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.Text;pokegreen:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.DoYouLikeToFishText;pokeyellow-jp:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.Text;pokeyellow-jp:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.DoYouLikeToFishText
+T031,もちものが いっぱいだ,False,2,"1. 你已经拿不下了！
+
+2. 持有物已满了。",1,0,W118,wording_or_semantic_difference_needs_review,pokeblue:scripts/Museum1F.asm:Museum1FScientist2Text.YouDontHaveSpaceText;pokeblue:scripts/PewterGym.asm:PewterGymTM34NoRoomText;pokeblue:scripts/Route24.asm:Route24CooltrainerM1Text.NoRoomText;pokegreen:scripts/Museum1F.asm:Museum1FScientist2Text.YouDontHaveSpaceText;pokegreen:scripts/PewterGym.asm:PewterGymTM34NoRoomText;pokegreen:scripts/Route24.asm:Route24CooltrainerM1Text.NoRoomText;pokeyellow-jp:scripts/Museum1F_2.asm:Museum1FPrintScientist2Text.YouDontHaveSpaceText;pokeyellow-jp:scripts/PewterGym.asm:PewterGymTM34NoRoomText;pokeyellow-jp:scripts/Route24.asm:Route24CooltrainerM1Text.NoRoomText
+T032,やるなあ,False,2,"1. 厉害。
+
+2. 很厉害啊。",2,1,W028;W120,wording_or_semantic_difference_needs_review,pokeblue:composed:TrainerEnd.RockTunnel1FHiker3EndBattleText;pokeblue:composed:TrainerEnd.Route25Hiker3EndBattleText;pokeblue:scripts/RockTunnel1F.asm:RockTunnel1FHiker3EndBattleText;pokeblue:scripts/Route25.asm:Route25Hiker3EndBattleText;pokegreen:composed:TrainerEnd.RockTunnel1FHiker3EndBattleText;pokegreen:composed:TrainerEnd.Route25Hiker3EndBattleText;pokegreen:scripts/RockTunnel1F.asm:RockTunnel1FHiker3EndBattleText;pokegreen:scripts/Route25.asm:Route25Hiker3EndBattleText;pokeyellow-jp:composed:TrainerEnd.RockTunnel1FHiker3EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route25Hiker3EndBattleText;pokeyellow-jp:scripts/RockTunnel1F.asm:RockTunnel1FHiker3EndBattleText;pokeyellow-jp:scripts/Route25.asm:Route25Hiker3EndBattleText
+T033,やー やー {{PLAYER}}くん！,True,2,"1. 哎呀，{{PLAYER}}！
+
+2. 那啥～说你呢～
+
+{{PLAYER}}啊！",1,0,W121,wording_or_semantic_difference_needs_review,pokeblue:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.FinalText;pokegreen:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.FinalText;pokeyellow-jp:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.FinalText;pokeyellow-jp:scripts/PokemonFanClub.asm:Text_59c1f
+T034,やーん！,False,3,"1. 不要啊！
+
+2. 不！
+
+3. 哎呀～！",2,1,W029;W122,wording_or_semantic_difference_needs_review,pokeblue:composed:TrainerEnd.CeladonGymBeauty2EndBattleText;pokeblue:composed:TrainerEnd.Route20Swimmer7EndBattleText;pokeblue:scripts/CeladonGym.asm:CeladonGymBeauty2EndBattleText;pokeblue:scripts/Route20.asm:Route20Swimmer7EndBattleText;pokeblue:scripts/Route8.asm:Route8CooltrainerF2AfterBattleText;pokegreen:composed:TrainerEnd.CeladonGymBeauty2EndBattleText;pokegreen:composed:TrainerEnd.Route20Swimmer7EndBattleText;pokegreen:scripts/CeladonGym.asm:CeladonGymBeauty2EndBattleText;pokegreen:scripts/Route20.asm:Route20Swimmer7EndBattleText;pokegreen:scripts/Route8.asm:Route8CooltrainerF2AfterBattleText;pokeyellow-jp:composed:TrainerEnd.CeladonGymBeauty2EndBattleText;pokeyellow-jp:composed:TrainerEnd.Route20Swimmer7EndBattleText;pokeyellow-jp:scripts/CeladonGym.asm:CeladonGymBeauty2EndBattleText;pokeyellow-jp:scripts/Route20.asm:Route20Swimmer7EndBattleText;pokeyellow-jp:scripts/Route8.asm:Route8CooltrainerF2AfterBattleText
+T035,ようこそ サント·アンヌ ごうへ！,False,2,"1. 欢迎乘坐
+圣特安努号！
+
+2. 欢迎您搭乘
+圣特安努号！",1,0,W123,wording_or_semantic_difference_needs_review,pokeblue:scripts/VermilionCity.asm:VermilionCitySailor1Text.DoYouHaveATicketText;pokeblue:scripts/VermilionCity.asm:VermilionCitySailor1Text.WelcomeToSSAnneText;pokegreen:scripts/VermilionCity.asm:VermilionCitySailor1Text.DoYouHaveATicketText;pokegreen:scripts/VermilionCity.asm:VermilionCitySailor1Text.WelcomeToSSAnneText;pokeyellow-jp:scripts/VermilionCity.asm:VermilionCitySailor1Text.DoYouHaveATicketText;pokeyellow-jp:scripts/VermilionCity.asm:VermilionCitySailor1Text.WelcomeToSSAnneText
+T036,わかった！,False,2,"1. 好吧！
+
+2. 我就知道！",2,1,W030;W124,wording_or_semantic_difference_needs_review,pokeblue:composed:TrainerEnd.MtMoonB2FSuperNerdOkIllShareText;pokeblue:composed:TrainerEnd.SaffronGymChanneler2EndBattleText;pokeblue:scripts/MtMoonB2F.asm:MtMoonB2FSuperNerdOkIllShareText;pokeblue:scripts/SaffronGym.asm:SaffronGymChanneler2EndBattleText;pokegreen:composed:TrainerEnd.MtMoonB2FSuperNerdOkIllShareText;pokegreen:composed:TrainerEnd.SaffronGymChanneler2EndBattleText;pokegreen:scripts/MtMoonB2F.asm:MtMoonB2FSuperNerdOkIllShareText;pokegreen:scripts/SaffronGym.asm:SaffronGymChanneler2EndBattleText;pokeyellow-jp:composed:TrainerEnd.MtMoonB2FSuperNerdOkIllShareText;pokeyellow-jp:composed:TrainerEnd.SaffronGymChanneler2EndBattleText;pokeyellow-jp:scripts/MtMoonB2F.asm:MtMoonB2FSuperNerdOkIllShareText;pokeyellow-jp:scripts/SaffronGym.asm:SaffronGymChanneler2EndBattleText
+T037,"アイテムの おかいもとめは
+タマムシ デパートで どうぞ！",False,2,"1. 更多精彩商品，
+玉虹百货公司
+欢迎您的光临！
+
+2. 购买道具，
+请认准玉虹百货公司！",2,0,W127;W128,wording_or_semantic_difference_needs_review,pokeblue:scripts/CeladonCity.asm:CeladonCityTrainerTips1Text;pokeblue:scripts/CeladonCity.asm:CeladonCityTrainerTips2Text;pokegreen:scripts/CeladonCity.asm:CeladonCityTrainerTips1Text;pokegreen:scripts/CeladonCity.asm:CeladonCityTrainerTips2Text;pokeyellow-jp:scripts/CeladonCity.asm:CeladonCityTrainerTips2Text;pokeyellow-jp:scripts/CeladonCity_2.asm:CeladonCityPrintTrainerTips1Text.text
+T038,アナウンス『ピンポーン！,False,2,"1. 广播：叮咚～
+
+2. 广播：叮咚～！",1,0,W129,punctuation_or_layout_only,pokeblue:engine/battle/core.asm:StartBattle.outOfSafariBallsText;pokeblue:engine/events/hidden_events/safari_game.asm:TimesUpText;pokegreen:engine/battle/core.asm:StartBattle.outOfSafariBallsText;pokegreen:engine/events/hidden_events/safari_game.asm:TimesUpText;pokeyellow-jp:engine/battle/core.asm:StartBattle.outOfSafariBallsText;pokeyellow-jp:engine/events/hidden_events/safari_game.asm:TimesUpText
+T039,ウオースッ！,False,2,"1. 你好！
+
+2. 呜哦——！",1,0,W130,wording_or_semantic_difference_needs_review,pokeblue:scripts/FightingDojo.asm:FightingDojoBlackbelt1BattleText;pokeblue:scripts/ViridianGym.asm:ViridianGymHiker1AfterBattleText;pokegreen:scripts/FightingDojo.asm:FightingDojoBlackbelt1BattleText;pokegreen:scripts/ViridianGym.asm:ViridianGymHiker1AfterBattleText;pokeyellow-jp:scripts/FightingDojo.asm:FightingDojoBlackbelt1BattleText;pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymHiker1AfterBattleText
+T040,チェストー！,False,2,"1. 厉害！
+
+2. 嘿呀！",1,0,W136,wording_or_semantic_difference_needs_review,pokeblue:scripts/FightingDojo.asm:FightingDojoBlackbelt3BattleText;pokeblue:scripts/VictoryRoad2F.asm:VictoryRoad2FHikerEndBattleText;pokegreen:scripts/FightingDojo.asm:FightingDojoBlackbelt3BattleText;pokegreen:scripts/VictoryRoad2F.asm:VictoryRoad2FHikerEndBattleText;pokeyellow-jp:scripts/FightingDojo.asm:FightingDojoBlackbelt3BattleText;pokeyellow-jp:scripts/VictoryRoad2F.asm:VictoryRoad2FHikerEndBattleText
+T041,"モンスターボールだ
+なかに ポケモンが はいってるぞ！",False,2,"1. 是精灵球。
+里面装有宝可梦！
+
+2. 是精灵球。
+里面装着宝可梦哦！",2,0,W147;W148,wording_or_semantic_difference_needs_review,pokeblue:scripts/OaksLab.asm:OaksLabThoseArePokeBallsText;pokegreen:scripts/OaksLab.asm:OaksLabThoseArePokeBallsText;pokeyellow-jp:scripts/OaksLab.asm:OaksLabEeveePokeBallText.Text
+T042,！,False,2,"1. 宝可梦第一世代
+红蓝绿/黄 汉化人员名单
+
+程序：
+星夜之幻、TomJinW
+
+翻译：吃馍法师、
+无敌阿尔宙斯、夜灵的天空
+
+汉化工具：robertking
+TomJinW
+
+美工：
+卧看微尘、小光
+
+测试：无敌阿尔宙斯、小光
+NELO, SYLVEON
+colorcat
+
+请勿将汉化用于商业用途
+若付费购买请联系退款！
+
+2. ！",1,0,W152,localization_addition_or_source_alignment_anomaly,pokeblue:home/overworld_text.asm:ExclamationText;pokeblue:scripts/Colosseum.asm:ColosseumOpponentText;pokeblue:scripts/FuchsiaCity.asm:FuchsiaCityPokemonText;pokeblue:scripts/TradeCenter.asm:TradeCenterOpponentText;pokegreen:home/overworld_text.asm:ExclamationText;pokegreen:scripts/Colosseum.asm:ColosseumOpponentText;pokegreen:scripts/FuchsiaCity.asm:FuchsiaCityPokemonText;pokegreen:scripts/TradeCenter.asm:TradeCenterOpponentText;pokeyellow-jp:home/overworld_text.asm:ExclamationText;pokeyellow-jp:scripts/Colosseum.asm:ColosseumOpponentText;pokeyellow-jp:scripts/FuchsiaCity.asm:FuchsiaCityPokemonText;pokeyellow-jp:scripts/TradeCenter.asm:TradeCenterOpponentText

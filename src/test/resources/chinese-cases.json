@@ -17,24 +17,25 @@
       ]
     },
     {
-      "name": "same visible greeting has different script sources",
+      "name": "user-approved greeting unification publishes across all script sources",
       "events": [
         {
           "raw": "おーす！\nみらいの チャンピオン！",
-          "match": "ambiguous",
-          "status": "ambiguous",
-          "chinese": ""
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "嗨～！\n未来的冠军！",
+          "candidateCount": 21
         }
       ]
     },
     {
-      "name": "approved correction waits for both lines",
+      "name": "approved semantic unit can publish before its final Japanese line",
       "events": [
         {
           "raw": "おしょくじ ちゅう！",
           "match": "equivalent",
-          "status": "wait_for_semantic_unit",
-          "chinese": ""
+          "status": "ready",
+          "chinese": "上面挂着‘用餐中’的告示。"
         },
         {
           "raw": "おしょくじ ちゅう！\n…… の フダが かけてある！",
@@ -46,19 +47,19 @@
       ]
     },
     {
-      "name": "Giovanni continuation requires observed start",
+      "name": "saved unit publishes from either side of a rolling window; character prefixes remain incomplete",
       "events": [
         {
           "raw": "せかい じゅうの ポケモンを",
           "match": "equivalent",
-          "status": "wait_for_semantic_unit",
-          "chinese": ""
+          "status": "ready",
+          "chinese": "火箭队把世界各地的宝可梦用于坏事，借此赚钱！"
         },
         {
           "raw": "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
           "match": "equivalent",
-          "status": "wait_for_semantic_unit",
-          "chinese": ""
+          "status": "ready",
+          "chinese": "火箭队把世界各地的宝可梦用于坏事，借此赚钱！"
         },
         {
           "raw": "わるだくみに つかい まくって\nかねもうけ する ロケッ",
@@ -79,19 +80,19 @@
         {
           "raw": "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
           "match": "equivalent",
-          "status": "context_required",
-          "chinese": ""
+          "status": "ready",
+          "chinese": "火箭队把世界各地的宝可梦用于坏事，借此赚钱！"
         }
       ]
     },
     {
-      "name": "disappearance clears continuous context",
+      "name": "current rolling window can publish its saved unit after region disappearance",
       "events": [
         {
           "raw": "せかい じゅうの ポケモンを\nわるだくみに つかい まくって",
           "match": "equivalent",
-          "status": "wait_for_semantic_unit",
-          "chinese": ""
+          "status": "ready",
+          "chinese": "火箭队把世界各地的宝可梦用于坏事，借此赚钱！"
         },
         {
           "disappear": true
@@ -99,8 +100,8 @@
         {
           "raw": "わるだくみに つかい まくって\nかねもうけ する ロケットだん！",
           "match": "equivalent",
-          "status": "context_required",
-          "chinese": ""
+          "status": "ready",
+          "chinese": "火箭队把世界各地的宝可梦用于坏事，借此赚钱！"
         }
       ]
     },
@@ -123,17 +124,54 @@
       ]
     },
     {
-      "name": "current name is bound; prior name cannot satisfy a later sentence",
+      "name": "confirmed player name survives region disappearance and is cleared by session reset",
       "events": [
+        {
+          "raw": "カンナとの\nしょうぶに かった！",
+          "match": "equivalent",
+          "status": "variables_missing",
+          "chinese": "",
+          "source": "TrainerDefeatedText"
+        },
         {
           "raw": "サトシは ひきかえけんで\nじてんしゃを もらった！",
           "match": "equivalent",
           "status": "ready",
-          "chinese": "サトシ用兑换券\n得到了自行车！",
+          "chinese": "小智用兑换券\n得到了自行车！",
           "source": "BikeShopExchangedVoucherText"
         },
         {
-          "raw": "たんパンとの\nしょうぶに かった！",
+          "disappear": true
+        },
+        {
+          "raw": "カンナとの\nしょうぶに かった！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "小智战胜了\n科拿！",
+          "source": "TrainerDefeatedText",
+          "reusedPlayerName": "サトシ"
+        },
+        {
+          "raw": "レッドは ひきかえけんで\nじてんしゃを もらった！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "赤红用兑换券\n得到了自行车！",
+          "source": "BikeShopExchangedVoucherText",
+          "reusedPlayerName": ""
+        },
+        {
+          "raw": "カンナとの\nしょうぶに かった！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "赤红战胜了\n科拿！",
+          "source": "TrainerDefeatedText",
+          "reusedPlayerName": "レッド"
+        },
+        {
+          "reset": true
+        },
+        {
+          "raw": "カンナとの\nしょうぶに かった！",
           "match": "equivalent",
           "status": "variables_missing",
           "chinese": "",
@@ -148,7 +186,7 @@
           "raw": "パソコンの ボックス3 に\nピカチュウを てんそうした！",
           "match": "equivalent",
           "status": "ready",
-          "chinese": "ピカチュウ被传送至\n电脑的3号盒子！",
+          "chinese": "皮卡丘被传送至\n电脑的3号盒子！",
           "source": "SentToBoxText"
         }
       ]
@@ -160,7 +198,7 @@
           "raw": "ピカチュウは\nつるぎのまいを つかった！",
           "match": "equivalent",
           "status": "ready",
-          "chinese": "ピカチュウ\n使出了剑舞！",
+          "chinese": "皮卡丘\n使出了剑舞！",
           "source": "composed:UsedMove.grammar0.normal"
         }
       ]
@@ -172,19 +210,19 @@
           "raw": "てきの ピカチュウは\nつるぎのまいを つかった！",
           "match": "equivalent",
           "status": "ready",
-          "chinese": "敌方ピカチュウ\n使出了剑舞！",
+          "chinese": "敌方皮卡丘\n使出了剑舞！",
           "source": "composed:UsedMove.grammar0.normal"
         }
       ]
     },
     {
-      "name": "nickname matching an item is not translated as an item",
+      "name": "nickname matching an item uses the standalone dictionary",
       "events": [
         {
           "raw": "キズぐすりを\nまた つれていく ことにした！",
           "match": "equivalent",
           "status": "ready",
-          "chinese": "决定取出キズぐすり！",
+          "chinese": "决定取出伤药！",
           "source": "MonIsTakenOutText"
         }
       ]
@@ -223,13 +261,13 @@
       ]
     },
     {
-      "name": "a ready candidate cannot bypass another candidate waiting for a semantic unit",
+      "name": "reviewed common building name publishes before the room qualifier",
       "events": [
         {
           "raw": "タマムシ マンション",
-          "match": "ambiguous",
-          "status": "ambiguous",
-          "chinese": ""
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "玉虹大厦"
         }
       ]
     },
@@ -242,6 +280,291 @@
           "status": "ready",
           "chinese": "……有用的公告牌！",
           "candidateCount": 66
+        }
+      ]
+    },
+    {
+      "name": "wild encounter uses species terms from all three sources",
+      "events": [
+        {
+          "raw": "あ！ やせいの\nコラッタが とびだしてきた！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "啊！野生的\n小拉达扑过来了！",
+          "source": "WildMonAppearedText",
+          "candidateCount": 3
+        },
+        {
+          "reset": true
+        },
+        {
+          "raw": "あ！ やせいの\nピカチュウが とびだしてきた！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "啊！野生的\n皮卡丘扑过来了！",
+          "source": "WildMonAppearedText",
+          "candidateCount": 3
+        }
+      ]
+    },
+    {
+      "name": "fishing and non-link wild escape use species terms",
+      "events": [
+        {
+          "raw": "つりあげた コイキングが\nとびかかってきた！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "上钩的鲤鱼王\n猛扑过来了！",
+          "source": "HookedMonAttackedText",
+          "candidateCount": 3
+        },
+        {
+          "reset": true
+        },
+        {
+          "raw": "やせいのコラッタは にげだした！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "野生的小拉达\n逃走了！",
+          "source": "WildRanText",
+          "candidateCount": 3
+        }
+      ]
+    },
+    {
+      "name": "species spelling used as a nickname is looked up",
+      "events": [
+        {
+          "raw": "コラッタを\nまた つれていく ことにした！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "决定取出小拉达！",
+          "source": "MonIsTakenOutText",
+          "candidateCount": 3
+        },
+        {
+          "reset": true
+        },
+        {
+          "raw": "てきのコラッタは にげだした！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "敌方小拉达\n逃走了！",
+          "source": "EnemyRanText",
+          "candidateCount": 3
+        }
+      ]
+    },
+    {
+      "name": "wild species is never supplied before the current frame contains its name",
+      "events": [
+        {
+          "raw": "あ！ やせいの",
+          "match": "ambiguous",
+          "status": "ambiguous",
+          "chinese": ""
+        }
+      ]
+    },
+    {
+      "name": "Elite Four rule publishes its complete saved unit before the final Japanese line",
+      "events": [
+        {
+          "raw": "ポケモン りーグ してんのうは\n4にん つづけて",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "这里的规则是\n要连续打败４位\n宝可梦联盟四天王！",
+          "source": "IndigoPlateauLobbyGymGuideText",
+          "candidateCount": 3
+        }
+      ]
+    },
+    {
+      "name": "mother rest question does not wait for trailing ellipsis or an observed earlier line",
+      "events": [
+        {
+          "raw": "すこし やすんで いったら\nどうかしら……？",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "稍微休息一下吧……？",
+          "source": "RedsHouse1FMomYouShouldRestText",
+          "candidateCount": 2
+        }
+      ]
+    },
+    {
+      "name": "capture success and dex registration use species names before nicknaming",
+      "events": [
+        {
+          "raw": "やったー！\nビードルを つかまえたぞ！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "太好了！\n捉到独角虫了！",
+          "source": "ItemUseBallText05",
+          "candidateCount": 3
+        },
+        {
+          "reset": true
+        },
+        {
+          "raw": "やったー！\nコラッタを つかまえたぞ！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "太好了！\n捉到小拉达了！",
+          "source": "ItemUseBallText05",
+          "candidateCount": 3
+        },
+        {
+          "reset": true
+        },
+        {
+          "raw": "ビードルの データが あたらしく\nポケモンずかんに セーブされます！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "独角虫的资料\n被添加到宝可梦图鉴里了！",
+          "source": "ItemUseBallText06",
+          "candidateCount": 3
+        }
+      ]
+    },
+    {
+      "name": "Safari bait and anger messages use wild species names",
+      "events": [
+        {
+          "raw": "やせいのビードルは\nエサを たべてる！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "野生的独角虫\n正在吃诱饵！",
+          "source": "SafariZoneEatingText",
+          "candidateCount": 3
+        },
+        {
+          "reset": true
+        },
+        {
+          "raw": "やせいのコラッタは\nおこってる！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "野生的小拉达\n生气了！",
+          "source": "SafariZoneAngryText",
+          "candidateCount": 3
+        }
+      ]
+    },
+    {
+      "name": "post-capture PC transfer looks up the current nickname",
+      "events": [
+        {
+          "raw": "ビードルは マサキの ところへ\nてんそうされた！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "将独角虫\n传送到了正辉的电脑！",
+          "source": "ItemUseBallText07",
+          "candidateCount": 3
+        },
+        {
+          "reset": true
+        },
+        {
+          "raw": "ビードルは だれかの パソコンに\nてんそうされた！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "将独角虫\n传送到了某人的电脑！",
+          "source": "ItemUseBallText08",
+          "candidateCount": 3
+        }
+      ]
+    },
+    {
+      "name": "unknown nickname preserves only the variable",
+      "events": [
+        {
+          "raw": "あいうえおを\nまた つれていく ことにした！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "决定取出あいうえお！",
+          "source": "MonIsTakenOutText"
+        }
+      ]
+    },
+    {
+      "name": "conflicting standalone meanings preserve the nickname",
+      "events": [
+        {
+          "raw": "ゴーストを\nまた つれていく ことにした！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "决定取出ゴースト！",
+          "source": "MonIsTakenOutText"
+        }
+      ]
+    },
+    {
+      "name": "newly typed nickname is looked up while level stays unchanged",
+      "events": [
+        {
+          "raw": "ピカチュウは\nレベル25 に あがった！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "皮卡丘上升到了\n等级25！",
+          "source": "GrewLevelText"
+        }
+      ]
+    },
+    {
+      "name": "unknown player name is retained when reused",
+      "events": [
+        {
+          "raw": "あいうえおは ひきかえけんで\nじてんしゃを もらった！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "あいうえお用兑换券\n得到了自行车！",
+          "source": "BikeShopExchangedVoucherText"
+        },
+        {
+          "raw": "カンナとの\nしょうぶに かった！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "あいうえお战胜了\n科拿！",
+          "source": "TrainerDefeatedText",
+          "reusedPlayerName": "あいうえお"
+        }
+      ]
+    },
+    {
+      "name": "reviewed shared PC prompt waits for the action before naming deposit or release",
+      "events": [
+        {
+          "raw": "どの ポケモンを",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "哪只宝可梦……"
+        },
+        {
+          "raw": "どの ポケモンを\nあずけたいんや？",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "要寄放哪只\n宝可梦？",
+          "source": "DepositWhichMonText"
+        },
+        {
+          "reset": true
+        },
+        {
+          "raw": "どの ポケモンを\nにがすんや？",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "要放生哪只宝可梦？",
+          "source": "ReleaseWhichMonText"
+        },
+        {
+          "reset": true
+        },
+        {
+          "raw": "どの ポケモン",
+          "match": "equivalent",
+          "status": "incomplete",
+          "chinese": ""
         }
       ]
     }

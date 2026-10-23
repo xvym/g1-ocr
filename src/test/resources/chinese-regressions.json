@@ -1,15 +1,17 @@
 {
   "method": "model_authored_from_independent_Japanese_labels_and_pinned_localization_cells_before_running_fixes; not_human_reviewed",
-  "scope": "11 affected PNGs; targeted regression expectations, not full A6 answers",
+  "scope": "13 affected PNGs; targeted regression expectations, not full A6 answers",
   "sources": {
     "CI-01": "data.xlsx#Main!C28 (RGB), C68 (YEJP)",
     "CI-02": "home/names.asm:GetMachineName; quantities from current image",
-    "CI-03": "data.xlsx#Main!C189 (ListMenuCancelText)",
+    "CI-03": "data.xlsx#Main!C189 (ListMenuCancelText); data.xlsx#PM; exact nickname lookup with level preserved",
     "CI-04": "home/trainers.asm:TrainerEndBattleText plus LoreleisRoomLoreleiEndBattleText source cells",
     "CI-05": "data.xlsx#Items!C20; AIBattleUseItemText",
-    "CI-06": "data.xlsx#Townnames!C64:C65; GymStatueText1/Text2; current names preserved",
+    "CI-06": "data.xlsx#Townnames!C64:C65; GymStatueText1/Text2; data.xlsx#Main preset names",
     "CI-07": "data.xlsx#PM; WannaTrade2Text/AfterTrade3Text",
-    "CI-08": "source mismatch blocked until specific correction approved"
+    "CI-08": "source mismatch blocked until specific correction approved",
+    "CI-09": "ItemUseBallText05; core.xlsx#text_6!F30:G35; data.xlsx#PM; species before nicknaming",
+    "shop_items": "g1-011 model visual transcription; item:ULTRA_BALL/GREAT_BALL/FULL_RESTORE/MAX_POTION; current prices unchanged; PokemartBuyingGreetingText"
   },
   "samples": {
     "g1-001": [
@@ -36,16 +38,16 @@
     ],
     "g1-007": [
       {
-        "chinese": "",
-        "status": "nickname_preserved"
+        "chinese": "雷丘 <Lv>50",
+        "status": "ready"
       },
       {
-        "chinese": "",
-        "status": "nickname_preserved"
+        "chinese": "喷火龙 <Lv>50",
+        "status": "ready"
       },
       {
-        "chinese": "",
-        "status": "nickname_preserved"
+        "chinese": "波波 <Lv>3",
+        "status": "ready"
       },
       {
         "chinese": "取消",
@@ -86,13 +88,13 @@
     ],
     "g1-029": [
       {
-        "chinese": "小霞认证训练家！\nレッド グりーン",
+        "chinese": "小霞认证训练家！\n赤红 青绿",
         "status": "ready"
       }
     ],
     "g1-078": [
       {
-        "chinese": "科拿对\nラプラス\n使用了好伤药！",
+        "chinese": "科拿对\n拉普拉斯\n使用了好伤药！",
         "status": "ready"
       }
     ],
@@ -124,6 +126,34 @@
       {
         "chinese": "",
         "status": "source_semantic_mismatch"
+      }
+    ],
+    "g1-049": [
+      {
+        "chinese": "太好了！\n捉到小拉达了！",
+        "status": "ready"
+      }
+    ],
+    "g1-011": [
+      {
+        "chinese": "高级球 1200円",
+        "status": "ready"
+      },
+      {
+        "chinese": "超级球 600円",
+        "status": "ready"
+      },
+      {
+        "chinese": "全复药3000円",
+        "status": "ready"
+      },
+      {
+        "chinese": "全满药2500円",
+        "status": "ready"
+      },
+      {
+        "chinese": "请慢慢挑选。",
+        "status": "ready"
       }
     ]
   }

@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-22",
+  "implementationVersion": "0.3.0",
+  "rootCause": "The previous specification and RegionDetector deliberately excluded the priced shop list when its currency column contained 円. Current request adds shop_items; this is a layout scope extension.",
+  "scope": "buying item names/prices/selected row plus existing dialogue; no balance/action/quantity-modal text OCR",
+  "sourceLayouts": {
+    "repositories": {
+      "pokegreen": {
+        "home/list_menu.asm": "6248c5bcda659653fbfac0e9ddaf8c64585d688a9dfac3bd11b57275fb299560",
+        "home/print_bcd.asm": "553442c31bc1e1c83192fae21edbcfcddd98fb082fadd2be5edf605973d17ace",
+        "home/names.asm": "8e9164424a712f4e0c6723a2773f5a5f4adb1101a43353aa7e9569d45811e16e",
+        "data/items/tm_prices.asm": "7a7df6ab58cbbdf6785ee479b6f86552f052482ce6712f265e43392c73f47166"
+      },
+      "pokeblue": {
+        "home/list_menu.asm": "9595d430e81e8e00eeaa5d73afb68dd26a3f419ead9dff48415a571c8409d698",
+        "home/print_bcd.asm": "553442c31bc1e1c83192fae21edbcfcddd98fb082fadd2be5edf605973d17ace",
+        "home/names.asm": "8e9164424a712f4e0c6723a2773f5a5f4adb1101a43353aa7e9569d45811e16e",
+        "data/items/tm_prices.asm": "7a7df6ab58cbbdf6785ee479b6f86552f052482ce6712f265e43392c73f47166"
+      },
+      "pokeyellow-jp": {
+        "home/list_menu.asm": "855c52c080b1d032ef790e0fe5be79738bcc493e3dbbdce0eeec471214d12c63",
+        "home/print_bcd.asm": "553442c31bc1e1c83192fae21edbcfcddd98fb082fadd2be5edf605973d17ace",
+        "home/names.asm": "cad34bb3bd329d4a533a647afcb467f7334c775e3285a0af5b60296c58736eb6",
+        "data/items/tm_prices.asm": "3b985416b805c02b9eaf470f56f60b24e39ed882b9ecaad2ba4d99c8bafec884"
+      }
+    },
+    "rows": {
+      "x": 48,
+      "firstY": 32,
+      "strideY": 16,
+      "columns": 13,
+      "count": 4
+    },
+    "priceCurrencyX": 144,
+    "cursorX": 40,
+    "scrollArrow": {
+      "x": 144,
+      "y": 88
+    },
+    "quantityModal": {
+      "x": 56,
+      "y": 72,
+      "right": 152,
+      "bottom": 88,
+      "action": "omit fourth covered item row"
+    },
+    "priceParsing": "last numeric suffix plus 円; no required separating space; TM number retained"
+  },
+  "annotation": {
+    "original108ImageBytesUnchanged": true,
+    "previous202TargetLinesUnchanged": true,
+    "version": 5,
+    "newShopLinesInOriginalSet": 4,
+    "newShopSample": "g1-011",
+    "method": "model visual transcription before OCR; not human reviewed",
+    "additionalAttachment": {
+      "method": "model_visual_transcribed_from_user_attachment_before_OCR; Chinese from pinned corpus item terms; not_human_reviewed",
+      "scope": "additional user attachment; outside original 108-image manifest",
+      "file": "../additional/shop-buy-2026-10-22.png",
+      "sha256": "40868ab1c257a2d2dba9a0a642fc6f4f6fc9ddcbeb6fa0f09da24dde610ebf85",
+      "imageWidth": 490,
+      "imageHeight": 445,
+      "gbCrop": {
+        "x": 2,
+        "y": 6,
+        "width": 480,
+        "height": 432
+      },
+      "scale": 3,
+      "regions": [
+        {
+          "layout": "shop_items",
+          "selectedItem": 0,
+          "raw": [
+            "モンスターボール 200円",
+            "どくけし 100円",
+            "まひなおし 200円",
+            "やけどなおし 250円"
+          ],
+          "chinese": [
+            "精灵球 200円",
+            "解毒药 100円",
+            "解麻药 200円",
+            "灼伤药 250円"
+          ]
+        },
+        {
+          "layout": "dialogue",
+          "raw": [
+            "ゆっくり ごらんになって ください"
+          ],
+          "chinese": [
+            "请慢慢挑选。"
+          ]
+        }
+      ]
+    }
+  },
+  "dynamicVerification": {
+    "buildLog": "output/build-shop-items.log",
+    "passedTestMethods": 9,
+    "skippedDesktopTestMethods": 1,
+    "shopTestMethods": [
+      "userAttachmentMatchesIndependentAnswers",
+      "pricesInvalidateWhileCursorAndArrowDoNotAndQuantityBoxOccludesLastRow"
+    ],
+    "japanese": {
+      "images": 108,
+      "passedImages": 108,
+      "strictUnicodePassedImages": 95,
+      "expectedTextLines": 206,
+      "expectedCharacterTokens": 2237,
+      "characterErrors": 0,
+      "cer": 0.0,
+      "unknownCharacters": 0
+    },
+    "developmentScenarios": 25,
+    "developmentComparisonsPassed": 40,
+    "targetedPngs": 13,
+    "targetedUnits": 29,
+    "chineseSummary": {
+      "images": 108,
+      "noTargetImages": 5,
+      "allUnitsReadyChineseImages": 95,
+      "partialChineseImages": 2,
+      "noChineseImages": 6,
+      "units": 136,
+      "unitsWithChinese": 123,
+      "displayStatusCounts": {
+        "ready": 123,
+        "ambiguous": 4,
+        "nickname_preserved": 7,
+        "variables_missing": 1,
+        "source_semantic_mismatch": 1
+      }
+    },
+    "additionalImagePassed": true,
+    "packagedCli": [
+      {
+        "sample": "g1-011",
+        "output": "output/verify-shop-items/g1-011-cli/ocr.json",
+        "sha256": "cb0f99d919711511b8ed209bcc27d16133e98900ec2ac94cbc42da0644748646",
+        "chinese": [
+          "高级球 1200円",
+          "超级球 600円",
+          "全复药3000円",
+          "全满药2500円"
+        ],
+        "pass": true
+      },
+      {
+        "sample": "user",
+        "output": "output/verify-shop-items/user-cli/ocr.json",
+        "sha256": "cfe21c7a5256645d7d9b3dd9c87f904e02468a79789be90513d685d6073d37a8",
+        "chinese": [
+          "精灵球 200円",
+          "解毒药 100円",
+          "解麻药 200円",
+          "灼伤药 250円"
+        ],
+        "pass": true
+      }
+    ],
+    "packagedCsvIdentity": true,
+    "testAnswersAbsentFromJar": true,
+    "realCaptureTested": false,
+    "finalChineseAcceptance": false
+  },
+  "jar": {
+    "path": "target/g1-ocr-0.3.0.jar",
+    "bytes": 15706572,
+    "sha256": "9918c736b43e2d5bcd1cc1b8891739fdf741ca4cd229995a6065779f5453147a"
+  },
+  "sha256": {
+    "src/main/java/io/github/g1ocr/region/RegionDetector.java": "8817172f1979a330fb6c7f563a323b3feadd439aee5d3aa791c87d059c0a4ae4",
+    "src/main/java/io/github/g1ocr/text/TextResolver.java": "aed72df0a64d2738e6acabdd1fb2370bdc5be45b5afa973e9dd1d3c72e2a108e",
+    "src/main/java/io/github/g1ocr/ui/LiveApplication.java": "7c56860990f7a248996c23ca5473fa40b4f23fd5aa63d9ca0ff29c11b5338776",
+    "src/test/java/io/github/g1ocr/ShopTest.java": "27d503f686e5ae049763145f9267297d2062ef36694f8306e2f5a0b05d58e4a0",
+    "src/test/resources/chinese-regressions.json": "0f4898fa8c8ccae4ff9593410cab9f505585fa1158f4f890c0459daaedf57ce5",
+    "testpic/labels/japanese.json": "06b6116b51fe09d0d01ec2841696b680fea0d4e594289f0dc33c587ef2c05ef7",
+    "testpic/labels/shop-buy.json": "2570fb4838617d633c8bab9428da8c824fef1b9a08279464541de186ad1737b3",
+    "testpic/additional/shop-buy-2026-10-22.png": "40868ab1c257a2d2dba9a0a642fc6f4f6fc9ddcbeb6fa0f09da24dde610ebf85"
+  }
+}
