@@ -21,11 +21,15 @@ public final class TextCorpus {
                         String source, JsonNode revision, JsonNode variables, JsonNode evidence) {}
     public record Fragment(Entry entry, int ordinal, int previous, int first, String japanese,
                            String status, int chineseStart, int chineseEnd, int contextStart, int waiting,
-                           String displayChinese, String displaySource,
+                           String displayChinese, String displaySource, String displayPolicy,
                            List<String> literals, List<String> slots, Set<String> numbers) {}
     public record Hit(Fragment fragment, Map<String, String> variables, boolean complete) {}
     private record Binding(Map<String, String> variables, boolean complete) {}
     private static final Pattern SLOT = Pattern.compile("\\{\\{(\\w+)}}");
+    // Pinned Japanese data/text/kana.asm plus dakutens.asm; marks modify kana, not names themselves.
+    private static final Pattern NAME_CHARACTERS = Pattern.compile(
+            "[ あいうえおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろわん"
+            + "アイウエオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロワンー]+");
     private final Map<String, Entry> entries = new LinkedHashMap<>();
     private final Map<String, List<Entry>> words = new LinkedHashMap<>();
     private final Map<String, List<Fragment>> exact = new LinkedHashMap<>();
@@ -70,7 +74,7 @@ public final class TextCorpus {
                     ordinal - japanese.split("\n").length + 1, row.get("japanese_ocr"), row.get("status"),
                     integer(row, "chinese_start"), integer(row, "chinese_end"),
                     integer(row, "context_start_ordinal"), integer(row, "waiting_for_ordinal"),
-                    row.get("display_chinese"), row.get("display_source"),
+                    row.get("display_chinese"), row.get("display_source"), row.get("display_policy"),
                     List.copyOf(literals), List.copyOf(slots), Set.copyOf(numbers));
             if (slots.isEmpty()) exact.computeIfAbsent(japanese, key -> new ArrayList<>()).add(fragment);
             else templates.add(fragment);
@@ -126,6 +130,8 @@ public final class TextCorpus {
             if (!value.equals(value.strip()) || value.isBlank()) continue;
             String kind = variableKind(fragment.entry(), slot);
             String name = kind.equals("battle_name") && value.startsWith("てきの ") ? value.substring(4) : value;
+            if (List.of("name", "nickname", "battle_name", "trainer_name").contains(kind)
+                    && !validName(name, kind, false)) continue;
             // NAME_LENGTH=6 includes the terminator in the pinned Japanese source.
             if (List.of("name", "nickname", "battle_name").contains(kind) && name.length() > 5) continue;
             if (kind.equals("trainer_name") && name.length() > 5 && variableWords(value, "trainer").isEmpty()) continue;
@@ -140,10 +146,11 @@ public final class TextCorpus {
         if (previous == null) variables.remove(slot); else variables.put(slot, previous);
         // A partially drawn value is evidence for a possible source, never a bound display variable.
         String remaining = raw.substring(offset), kind = variableKind(fragment.entry(), slot);
+        String name = kind.equals("battle_name") && remaining.startsWith("てきの ") ? remaining.substring(4) : remaining;
         if (anchored && !remaining.contains("\n") && !remaining.isBlank()) {
             boolean possible = switch (kind) {
-                case "name", "nickname", "trainer_name" -> remaining.length() < 5;
-                case "battle_name" -> (remaining.startsWith("てきの ") ? remaining.substring(4) : remaining).length() < 5;
+                case "name", "nickname", "trainer_name", "battle_name" ->
+                        name.length() < 5 && validName(name, kind, true);
                 case "item", "move", "trainer", "pokemon", "stat", "city", "gym_leader" -> words.entrySet().stream()
                         .anyMatch(e -> e.getKey().startsWith(canonical(remaining)) &&
                                 variableWords(e.getKey(), kind).stream()
@@ -152,6 +159,17 @@ public final class TextCorpus {
             };
             if (possible) matches.add(new Binding(Map.copyOf(variables), false));
         }
+    }
+
+    private boolean validName(String value, String kind, boolean prefix) {
+        if (NAME_CHARACTERS.matcher(value).matches()) return true;
+        // Default species (e.g. ニドラン♀/ケーシィ) and fixed trainers may use non-input characters.
+        if (kind.equals("name")) return false;
+        String wordKind = kind.equals("trainer_name") ? "trainer" : "pokemon";
+        String key = canonical(value);
+        if (!prefix) return !words(value, List.of(wordKind)).isEmpty();
+        return words.entrySet().stream().anyMatch(e -> e.getKey().startsWith(key)
+                && e.getValue().stream().anyMatch(v -> v.kind().equals(wordKind)));
     }
 
     String variableKind(Entry entry, String slot) {

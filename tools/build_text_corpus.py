@@ -698,7 +698,7 @@ def segment_corpus(records, fragments):
 
     for fragment in fragments:
         fragment.update(semantic_segment_ordinals='[]', context_start_ordinal='', waiting_for_ordinal='',
-                        display_chinese='', display_source='')
+                        display_chinese='', display_source='', display_policy='')
         current = by_record.get(fragment['record_id'])
         if current is None:
             if by_id[fragment['record_id']]['mapping_status'] == 'source_unreferenced':
@@ -734,11 +734,14 @@ def segment_corpus(records, fragments):
             if hashlib.sha256(record[language].encode('utf-8')).hexdigest() != row[language+'_sha256']:
                 raise ValueError(f"Common fragment source changed: {record['id']} {language}")
         fragment = windows[row['record_id'], row['ordinal'], row['visible_japanese_sha256']]
-        if row['source_chinese_start']:
-            if record['chinese'][int(row['source_chinese_start']):int(row['source_chinese_end'])] != row['display_chinese']:
-                raise ValueError(f"Common fragment slice changed: {record['id']}")
+        ranges = (json.loads(row['source_chinese_ranges']) if row['source_chinese_ranges'] else
+                  [[int(row['source_chinese_start']), int(row['source_chinese_end'])]]
+                  if row['source_chinese_start'] else [])
+        if ranges and ''.join(record['chinese'][a:b] for a, b in ranges) != row['display_chinese']:
+            raise ValueError(f"Common fragment slice changed: {record['id']}")
         fragment.update(display_chinese=row['display_chinese'],
-                        display_source='tools/text_fragment_displays.csv:'+row['review_id']+':'+row['review_status'])
+                        display_source='tools/text_fragment_displays.csv:'+row['review_id']+':'+row['review_status'],
+                        display_policy=row['display_policy'])
     return segments, issues
 
 
@@ -950,6 +953,7 @@ def build():
                 fragments=dict(collections.Counter(f['status'] for f in all_fragments)),
                 semantic_segments=len(semantic_segments),
                 common_display_windows=sum(bool(f['display_chinese']) for f in all_fragments),
+                missing_rolled_name_windows=sum(f['display_policy']=='missing_rolled_name' for f in all_fragments),
                 semantic_segment_methods=dict(collections.Counter(s['method'] for s in semantic_segments)),
                 segmentation_issue_records=len({issue['record_id'] for issue in segmentation_issues}),
                 approved_revision_methods=dict(collections.Counter(json.loads(r['chinese_revision'])['method']

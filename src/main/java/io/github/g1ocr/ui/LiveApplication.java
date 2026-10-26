@@ -9,16 +9,22 @@ import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.geometry.Insets;
 import javafx.geometry.Orientation;
+import javafx.geometry.Rectangle2D;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.ContextMenu;
 import javafx.scene.control.Label;
+import javafx.scene.control.Menu;
+import javafx.scene.control.MenuItem;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.SplitPane;
+import javafx.scene.control.Spinner;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.TitledPane;
+import javafx.scene.control.ToggleButton;
 import javafx.scene.image.ImageView;
 import javafx.scene.image.PixelFormat;
 import javafx.scene.image.WritableImage;
@@ -41,6 +47,25 @@ public final class LiveApplication extends Application {
     private final TextArea dialogueText = new TextArea();
     private final TextArea diagnostics = new TextArea();
     private final ImageView preview = new ImageView();
+    private final Spinner<Integer> fontSize = new Spinner<>(12, 36, 20);
+    private final ToggleButton compactMode = new ToggleButton("简洁模式");
+    private final Label dialogueHeading = new Label("对话");
+    private final Label listHeading = new Label("列表与操作");
+    private final VBox dialoguePanel = new VBox(6, dialogueHeading, dialogueText);
+    private final VBox listPanel = new VBox(6, listHeading, chinese);
+    private final SplitPane translation = new SplitPane();
+    private final Tab translationTab = new Tab("中文 / 状态");
+    private final BorderPane compactRoot = new BorderPane();
+    private final BorderPane detachedRoot = new BorderPane();
+    private Stage mainStage;
+    private Stage listStage;
+    private Scene normalScene;
+    private Scene compactScene;
+    private Rectangle2D normalBounds;
+    private boolean normalMaximized;
+    private boolean compactView;
+    private boolean splitView;
+    private double dividerPosition = 0.55;
     private LiveSession session;
     private AnimationTimer refresh;
     private TextCorpus corpus;
@@ -77,7 +102,18 @@ public final class LiveApplication extends Application {
         stop.setOnAction(event -> { clear("已停止"); session.stop(); });
         calibrate.setOnAction(event -> { clear("等待重新校准"); session.recalibrate(); });
 
+        fontSize.setPrefWidth(85);
+        Label fontSizeLabel = new Label("译文字号");
+        fontSizeLabel.setLabelFor(fontSize);
+        fontSize.valueProperty().addListener((observable, previous, size) -> {
+            chinese.setFont(Font.font("Microsoft YaHei", size));
+            dialogueText.setFont(Font.font("Microsoft YaHei", size));
+        });
+        compactMode.setOnAction(event -> setCompactMode(compactMode.isSelected()));
+        Button split = new Button("拆分文本框");
+        split.setOnAction(event -> splitTexts());
         VBox toolbar = new VBox(10, new HBox(8, windows, reload, start, stop, calibrate),
+                new HBox(8, fontSizeLabel, fontSize, compactMode, split),
                 new Label("采集配置：new3ds_view · 仅上屏 · VC 原生 1:1 · 投屏点对点整数倍率"), status);
         toolbar.setPadding(new Insets(16));
         status.setWrapText(true);
@@ -88,9 +124,38 @@ public final class LiveApplication extends Application {
         for (var area : java.util.List.of(chinese, dialogueText)) {
             area.setEditable(false);
             area.setWrapText(true);
-            area.setFont(Font.font("Microsoft YaHei", 20));
+            area.setFont(Font.font("Microsoft YaHei", fontSize.getValue()));
             area.setPromptText("中文条件满足后显示译文；其余情况保留日文与状态");
             VBox.setVgrow(area, Priority.ALWAYS);
+            area.setMinSize(0, 0);
+            ContextMenu menu = new ContextMenu();
+            MenuItem mode = new MenuItem();
+            mode.setOnAction(event -> setCompactMode(!compactView));
+            MenuItem layout = new MenuItem();
+            layout.setOnAction(event -> {
+                if (splitView) mergeTexts();
+                else splitTexts();
+            });
+            Menu sizeMenu = new Menu("译文字号");
+            MenuItem smaller = new MenuItem("缩小");
+            MenuItem larger = new MenuItem("放大");
+            smaller.setOnAction(event -> fontSize.decrement());
+            larger.setOnAction(event -> fontSize.increment());
+            sizeMenu.getItems().addAll(smaller, larger);
+            MenuItem copy = new MenuItem("复制");
+            copy.setOnAction(event -> area.copy());
+            MenuItem selectAll = new MenuItem("全选");
+            selectAll.setOnAction(event -> area.selectAll());
+            menu.getItems().addAll(mode, layout, sizeMenu, copy, selectAll);
+            menu.setOnShowing(event -> {
+                mode.setText(compactView ? "退出简洁模式" : "进入简洁模式");
+                layout.setText(splitView ? "合并文本框" : "拆分为独立窗口");
+                sizeMenu.setText("译文字号（" + fontSize.getValue() + "）");
+                smaller.setDisable(fontSize.getValue() == 12);
+                larger.setDisable(fontSize.getValue() == 36);
+                copy.setDisable(area.getSelectedText().isEmpty());
+            });
+            area.setContextMenu(menu);
         }
         preview.setFitWidth(320);
         preview.setFitHeight(288);
@@ -101,11 +166,13 @@ public final class LiveApplication extends Application {
         ScrollPane imageScroll = new ScrollPane(imagePanel);
         imageScroll.setFitToWidth(true);
         imageScroll.setPrefWidth(355);
-        SplitPane translation = new SplitPane(new VBox(6, new Label("对话"), dialogueText),
-                new VBox(6, new Label("列表与操作"), chinese));
+        dialoguePanel.setMinSize(0, 0);
+        listPanel.setMinSize(0, 0);
+        translation.getItems().setAll(dialoguePanel, listPanel);
         translation.setOrientation(Orientation.VERTICAL);
         translation.setDividerPositions(0.55);
-        TabPane content = new TabPane(new Tab("中文 / 状态", translation), new Tab("原始日文", text));
+        translationTab.setContent(translation);
+        TabPane content = new TabPane(translationTab, new Tab("原始日文", text));
         content.setTabClosingPolicy(TabPane.TabClosingPolicy.UNAVAILABLE);
         BorderPane center = new BorderPane(content);
         center.setLeft(imageScroll);
@@ -118,8 +185,21 @@ public final class LiveApplication extends Application {
         VBox bottom = new VBox(8, new Label("同形假名以〔候选/候选〕显示；� 表示未知字符。当前版本尚待人工验收。"), details);
         bottom.setPadding(new Insets(12, 16, 16, 16));
         BorderPane root = new BorderPane(center, toolbar, null, bottom, null);
+        mainStage = stage;
+        normalScene = new Scene(root, 1060, 680);
+        compactScene = new Scene(compactRoot, 560, 380);
+        listStage = new Stage();
+        listStage.initOwner(stage);
+        listStage.setTitle("G1 OCR — 列表与操作");
+        listStage.setScene(new Scene(detachedRoot, 420, 300));
+        listStage.setMinWidth(220);
+        listStage.setMinHeight(140);
+        listStage.setOnCloseRequest(event -> {
+            event.consume();
+            mergeTexts();
+        });
         stage.setTitle("G1 OCR 翻译 — 开发版");
-        stage.setScene(new Scene(root, 1060, 680));
+        stage.setScene(normalScene);
         stage.setMinWidth(860);
         stage.setMinHeight(560);
         stage.show();
@@ -133,6 +213,70 @@ public final class LiveApplication extends Application {
         };
         refresh.start();
         reload.fire();
+    }
+
+    private void setCompactMode(boolean enabled) {
+        if (compactView == enabled) return;
+        if (!enabled) mergeTexts();
+        compactView = enabled;
+        compactMode.setSelected(enabled);
+        dialogueHeading.setVisible(!enabled);
+        dialogueHeading.setManaged(!enabled);
+        listHeading.setVisible(!enabled);
+        listHeading.setManaged(!enabled);
+        if (enabled) {
+            normalBounds = new Rectangle2D(mainStage.getX(), mainStage.getY(),
+                    mainStage.getWidth(), mainStage.getHeight());
+            normalMaximized = mainStage.isMaximized();
+            mainStage.setMaximized(false);
+            translationTab.setContent(null);
+            compactRoot.setCenter(translation);
+            mainStage.setMinWidth(220);
+            mainStage.setMinHeight(140);
+            mainStage.setScene(compactScene);
+            mainStage.setWidth(560);
+            mainStage.setHeight(380);
+            mainStage.setTitle("G1 OCR — 简洁模式（右键设置）");
+        } else {
+            compactRoot.setCenter(null);
+            translationTab.setContent(translation);
+            mainStage.setMaximized(false);
+            mainStage.setScene(normalScene);
+            mainStage.setMinWidth(860);
+            mainStage.setMinHeight(560);
+            mainStage.setX(normalBounds.getMinX());
+            mainStage.setY(normalBounds.getMinY());
+            mainStage.setWidth(normalBounds.getWidth());
+            mainStage.setHeight(normalBounds.getHeight());
+            mainStage.setMaximized(normalMaximized);
+            mainStage.setTitle("G1 OCR 翻译 — 开发版");
+        }
+    }
+
+    private void splitTexts() {
+        setCompactMode(true);
+        dividerPosition = translation.getDividerPositions()[0];
+        compactRoot.setCenter(null);
+        translation.getItems().clear();
+        compactRoot.setCenter(dialoguePanel);
+        detachedRoot.setCenter(listPanel);
+        splitView = true;
+        mainStage.setTitle("G1 OCR — 对话（右键设置）");
+        listStage.setX(mainStage.getX() + 40);
+        listStage.setY(mainStage.getY() + 40);
+        listStage.show();
+    }
+
+    private void mergeTexts() {
+        if (!splitView) return;
+        listStage.hide();
+        detachedRoot.setCenter(null);
+        compactRoot.setCenter(null);
+        translation.getItems().setAll(dialoguePanel, listPanel);
+        compactRoot.setCenter(translation);
+        translation.setDividerPositions(dividerPosition);
+        splitView = false;
+        mainStage.setTitle("G1 OCR — 简洁模式（右键设置）");
     }
 
     private void clear(String message) {
@@ -237,6 +381,7 @@ public final class LiveApplication extends Application {
     }
 
     @Override public void stop() {
+        if (listStage != null) listStage.hide();
         if (refresh != null) refresh.stop();
         if (session != null) session.close();
     }

@@ -1,0 +1,3010 @@
+{
+  "date": "2026-10-23",
+  "scope": "Static scan of runtime-eligible saved dialogue windows, using current semantic-unit name positions and assuming no remembered PLAYER for independent-window coverage.",
+  "summary": {
+    "records": 10205,
+    "savedWindows": 23957,
+    "missingCurrentVariableWindowsBefore": 365,
+    "missingCurrentVariableWindowsAfter": 300,
+    "strictRolledNameWindowPatterns": 25,
+    "strictRolledNameSourceWindows": 65,
+    "otherWindowPatternsBesidesReportedStatRise": 24,
+    "initialScreeningPatterns": 28,
+    "initialScreeningSourceWindows": 74,
+    "excludedNameNotYetVisiblePatterns": 3,
+    "excludedNameNotYetVisibleSourceWindows": 9,
+    "existingCommonDisplayRowsPreserved": 693,
+    "allSavedDisplayRows": 758,
+    "sourceSliceOrNameElisionRows": 62,
+    "secondPersonAdaptationRows": 3
+  },
+  "missingSlotReasonsBefore": {
+    "rolled_name": 68,
+    "name_not_yet_visible": 63,
+    "other_missing_value": 237,
+    "name_added_in_chinese": 6
+  },
+  "staticChecks": {
+    "records_segments_variables_rules_sources_unchanged": true,
+    "all_window_keys_preserved": true,
+    "all_original_non_display_window_fields_preserved": true,
+    "only_65_reviewed_window_displays_changed": true,
+    "all_693_prior_display_decisions_preserved": true,
+    "all_65_new_decisions_are_conditional": true,
+    "no_independent_body_requires_an_unseen_variable": true,
+    "all_name_elision_source_ranges_reconstruct": true,
+    "only_N013_uses_second_person_adaptation": true,
+    "future_name_false_positives_not_changed": true,
+    "pending_18_common_wordings_not_applied": true,
+    "t042_all_fields_preserved": true,
+    "cold_window_missing_variable_count_reduced_by_65": true,
+    "all_strict_rolled_name_windows_have_no_missing_name_after": true,
+    "all_six_stats_large_rise_and_fall_source_displays_correct": true,
+    "generator_ast_and_scenario_json_valid": true
+  },
+  "groups": [
+    {
+      "id": "N001",
+      "japanese": "ホントの たたかいって ものを\nおしえて やる！",
+      "original_chinese": "{{PLAYER}}啊……！\n让我来告诉你\n什么是真正的战斗吧！",
+      "independent_chinese": "让我来告诉你\n什么是真正的战斗吧！",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [10], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N002",
+      "japanese": "なんか つかまえた？\nみせて みろよ！",
+      "original_chinese": "就让我来看看\n{{PLAYER}}\n你都捉到了哪些宝可梦吧！",
+      "independent_chinese": "就让我来看看\n你都捉到了哪些宝可梦吧！",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [1, 7], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N003",
+      "japanese": "{{PLAYER}}も きたか！\n…… はッはッ うれしいぜ！",
+      "original_chinese": "{{RIVAL}}：哟！\n\n你也来了啊，\n{{PLAYER}}！\n……哈哈，很好啊！",
+      "independent_chinese": "你也来了啊，\n{{PLAYER}}！\n……哈哈，很好啊！",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"RIVAL\", \"kind\": \"name\", \"japaneseLineOrdinals\": [1], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N004",
+      "japanese": "なぜ まけたのか わかるか？\n…… …… ……",
+      "original_chinese": "{{RIVAL}}啊……\n知道你为什么会输吗？\n…………",
+      "independent_chinese": "知道你为什么会输吗？\n…………",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"RIVAL\", \"kind\": \"name\", \"japaneseLineOrdinals\": [1, 7], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N005",
+      "japanese": "まだ じかんが かかるぞ",
+      "original_chinese": "你的{{RAM1}}\n还需要时间来成长哦。",
+      "independent_chinese": "还需要时间来成长哦。",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"RAM1\", \"kind\": \"nickname\", \"japaneseLineOrdinals\": [2], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N006",
+      "japanese": "はげしい たたかいの すえ\nリーグ チャンピオンと なった！",
+      "original_chinese": "{{PLAYER}}！\n你在经历了激烈的对决后，\n成为了联盟冠军！",
+      "independent_chinese": "你在经历了激烈的对决后，\n成为了联盟冠军！",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [2, 12, 15], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N009",
+      "japanese": "まけずに ポケモンを\nたたかわせて そだてると いいぞ！",
+      "original_chinese": "大木：{{PLAYER}}也\n不要输，通过战斗将\n宝可梦培育起来比较好哦！",
+      "independent_chinese": "大木：也\n不要输，通过战斗将\n宝可梦培育起来比较好哦！",
+      "source_window_rows": 2,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [1], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N010",
+      "japanese": "どーだい？",
+      "original_chinese": "大木：哦哦！{{PLAYER}}，\n如何了？",
+      "independent_chinese": "大木：哦哦！\n如何了？",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [1, 9], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N011",
+      "japanese": "どーだい？\nわしの やったポケモンは……ほう",
+      "original_chinese": "大木：哦哦！{{PLAYER}}，\n如何了？\n\n有没有和我给你的\n宝可梦……\n变得更加亲密一点呢？",
+      "independent_chinese": "大木：哦哦！\n如何了？\n\n有没有和我给你的\n宝可梦……\n变得更加亲密一点呢？",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [1, 9], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N012",
+      "japanese": "ざんねんだが おまえの でばんは\nまったく ねーぜ！",
+      "original_chinese": "{{PLAYER}}，非常遗憾，\n这事完全没有\n你出场的机会呢！",
+      "independent_chinese": "非常遗憾，\n这事完全没有\n你出场的机会呢！",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [3, 8], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N013",
+      "japanese": "ねえちゃんに いって おくから\nおれんちへ きても むだ だからな！",
+      "original_chinese": "我会跟她说的，让她不要\n借给{{PLAYER}}，\n所以就算你去找老姐\n也是白跑一趟！",
+      "independent_chinese": "我会跟她说的，让她不要\n借给你，\n所以就算你去找老姐\n也是白跑一趟！",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [3, 8], \"reason\": \"rolled_name\"}]",
+      "method": "second_person_adaptation",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N014",
+      "japanese": "こんな ところで あうとは\nまたまた ぐうぜんだ！",
+      "original_chinese": "{{RIVAL}}：怎么？\n{{PLAYER}}！在这种\n地方又碰到你还真突然！",
+      "independent_chinese": "在这种\n地方又碰到你还真突然！",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [1, 10], \"reason\": \"rolled_name\"}, {\"slot\": \"RIVAL\", \"kind\": \"name\", \"japaneseLineOrdinals\": [1], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N016",
+      "japanese": "もっと れんしゅう したほうが\nいいんじゃないの！",
+      "original_chinese": "{{PLAYER}}你……\n还需要多多练习才好！",
+      "independent_chinese": "你……\n还需要多多练习才好！",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [4], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N017",
+      "japanese": "ロケットだんの ために\nそんざい するのだ！",
+      "original_chinese": "{{PLAYER}}，你听好了！\n这世上所有的宝可梦\n都是为火箭队而存在的！",
+      "independent_chinese": "你听好了！\n这世上所有的宝可梦\n都是为火箭队而存在的！",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [5], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N018",
+      "japanese": "そんざい するのだ！\nそのことを わすれるなよ！",
+      "original_chinese": "{{PLAYER}}，你听好了！\n这世上所有的宝可梦\n都是为火箭队而存在的！\n你最好给我记住！",
+      "independent_chinese": "你听好了！\n这世上所有的宝可梦\n都是为火箭队而存在的！\n你最好给我记住！",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [5], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N019",
+      "japanese": "せいぜい がんばって くれい\nじゃあな！",
+      "original_chinese": "{{PLAYER}}，\n你也给我好好加油。\n就这样吧！",
+      "independent_chinese": "你也给我好好加油。\n就这样吧！",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [1, 15], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N020",
+      "japanese": "チケットを みせようとした……\nチケットが…… ない……！",
+      "original_chinese": "{{PLAYER}}向船员\n出示了船票！\n\n然而并没有船票！",
+      "independent_chinese": "向船员\n出示了船票！\n\n然而并没有船票！",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [1], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N021",
+      "japanese": "ファミコンを してる！\n…… …… よし！",
+      "original_chinese": "{{PLAYER}}正在玩\nFamicom！\n……\n是时候出发了！",
+      "independent_chinese": "正在玩\nFamicom！\n……\n是时候出发了！",
+      "source_window_rows": 2,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [1], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N022",
+      "japanese": "つかまえた ポケモンは\n{{NUMBER1}}しゅるい より おおい かな？",
+      "original_chinese": "……那么，{{PLAYER}}！\n你捉到的宝可梦\n有{{NUMBER1}}种以上吗？",
+      "independent_chinese": "你捉到的宝可梦\n有{{NUMBER1}}种以上吗？",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [9], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N023",
+      "japanese": "{{RAM1}}が\nぐーんと あがった！",
+      "original_chinese": "{{USER}}的\n{{RAM1}}\n大幅提高了！",
+      "independent_chinese": "{{RAM1}}\n大幅提高了！",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"USER\", \"kind\": \"battle_name\", \"japaneseLineOrdinals\": [1], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N024",
+      "japanese": "{{RAM1}}が\nがくっと さがった！",
+      "original_chinese": "{{TARGET}}的\n{{RAM1}}\n大幅降低了！",
+      "independent_chinese": "{{RAM1}}\n大幅降低了！",
+      "source_window_rows": 3,
+      "missing_slots": "[{\"slot\": \"TARGET\", \"kind\": \"battle_name\", \"japaneseLineOrdinals\": [1], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N025",
+      "japanese": "とくせいの モンスターボールじゃ\nどうも ありがとよ！",
+      "original_chinese": "哦哦！这不是\n我预订的特殊精灵球嘛。\n真是谢谢你了，\n{{PLAYER}}！",
+      "independent_chinese": "哦哦！这不是\n我预订的特殊精灵球嘛。\n真是谢谢你了！",
+      "source_window_rows": 1,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [1, 9], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N026",
+      "japanese": "そこに まるいたまが あるじゃろう\nほっほ！",
+      "original_chinese": "快看，{{PLAYER}}！\n那边有个圆圆的小球对吧？\n\n嚯嚯！",
+      "independent_chinese": "那边有个圆圆的小球对吧？\n\n嚯嚯！",
+      "source_window_rows": 1,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [7], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N027",
+      "japanese": "おれの ポケモン そだったぜ！\nちょっと みてくれよ",
+      "original_chinese": "{{RIVAL}}：爷爷，\n我的宝可梦成长了呢！\n来看一看吧。",
+      "independent_chinese": "爷爷，\n我的宝可梦成长了呢！\n来看一看吧。",
+      "source_window_rows": 1,
+      "missing_slots": "[{\"slot\": \"RIVAL\", \"kind\": \"name\", \"japaneseLineOrdinals\": [1], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    },
+    {
+      "id": "N028",
+      "japanese": "スーパーファミコンを してる！\n…… …… よし！",
+      "original_chinese": "{{PLAYER}}正在玩\nSuper Famicom！\n……\n是时候出发了！",
+      "independent_chinese": "正在玩\nSuper Famicom！\n……\n是时候出发了！",
+      "source_window_rows": 1,
+      "missing_slots": "[{\"slot\": \"PLAYER\", \"kind\": \"name\", \"japaneseLineOrdinals\": [1], \"reason\": \"rolled_name\"}]",
+      "method": "source_slice_or_name_elision",
+      "policy": "missing_rolled_name"
+    }
+  ],
+  "excludedFutureNameGroups": [
+    {
+      "id": "N007",
+      "japanese": "それとも いまから",
+      "chinese": "还是说你现在准备\n卷铺盖回家呢？\n{{PLAYER}}！",
+      "missing": [
+        {
+          "slot": "PLAYER",
+          "kind": "name",
+          "japaneseLineOrdinals": [
+            1,
+            15
+          ],
+          "reason": "name_not_yet_visible",
+          "withinCurrentSemanticUnit": [
+            15
+          ]
+        }
+      ],
+      "sourceWindowRows": 3,
+      "candidates": [
+        {
+          "recordId": "pokegreen:scripts/LancesRoom.asm:LancesRoomLanceBattleText",
+          "ordinal": 13,
+          "japanese": "それとも いまから",
+          "chinese": "还是说你现在准备\n卷铺盖回家呢？\n{{PLAYER}}！",
+          "firstVisibleOrdinal": 13,
+          "missing": [
+            {
+              "slot": "PLAYER",
+              "kind": "name",
+              "japaneseLineOrdinals": [
+                1,
+                15
+              ],
+              "reason": "name_not_yet_visible",
+              "withinCurrentSemanticUnit": [
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "recordId": "pokeblue:scripts/LancesRoom.asm:LancesRoomLanceBattleText",
+          "ordinal": 13,
+          "japanese": "それとも いまから",
+          "chinese": "还是说你现在准备\n卷铺盖回家呢？\n{{PLAYER}}！",
+          "firstVisibleOrdinal": 13,
+          "missing": [
+            {
+              "slot": "PLAYER",
+              "kind": "name",
+              "japaneseLineOrdinals": [
+                1,
+                15
+              ],
+              "reason": "name_not_yet_visible",
+              "withinCurrentSemanticUnit": [
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "recordId": "pokeyellow-jp:scripts/LancesRoom.asm:LancesRoomLanceBattleText",
+          "ordinal": 13,
+          "japanese": "それとも いまから",
+          "chinese": "还是说你现在准备\n卷铺盖回家呢？\n{{PLAYER}}！",
+          "firstVisibleOrdinal": 13,
+          "missing": [
+            {
+              "slot": "PLAYER",
+              "kind": "name",
+              "japaneseLineOrdinals": [
+                1,
+                15
+              ],
+              "reason": "name_not_yet_visible",
+              "withinCurrentSemanticUnit": [
+                15
+              ]
+            }
+          ]
+        }
+      ],
+      "strictlyRolledName": false
+    },
+    {
+      "id": "N008",
+      "japanese": "それとも いまから\nシッポ まいて かえるかい！",
+      "chinese": "还是说你现在准备\n卷铺盖回家呢？\n{{PLAYER}}！",
+      "missing": [
+        {
+          "slot": "PLAYER",
+          "kind": "name",
+          "japaneseLineOrdinals": [
+            1,
+            15
+          ],
+          "reason": "name_not_yet_visible",
+          "withinCurrentSemanticUnit": [
+            15
+          ]
+        }
+      ],
+      "sourceWindowRows": 3,
+      "candidates": [
+        {
+          "recordId": "pokegreen:scripts/LancesRoom.asm:LancesRoomLanceBattleText",
+          "ordinal": 14,
+          "japanese": "それとも いまから\nシッポ まいて かえるかい！",
+          "chinese": "还是说你现在准备\n卷铺盖回家呢？\n{{PLAYER}}！",
+          "firstVisibleOrdinal": 13,
+          "missing": [
+            {
+              "slot": "PLAYER",
+              "kind": "name",
+              "japaneseLineOrdinals": [
+                1,
+                15
+              ],
+              "reason": "name_not_yet_visible",
+              "withinCurrentSemanticUnit": [
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "recordId": "pokeblue:scripts/LancesRoom.asm:LancesRoomLanceBattleText",
+          "ordinal": 14,
+          "japanese": "それとも いまから\nシッポ まいて かえるかい！",
+          "chinese": "还是说你现在准备\n卷铺盖回家呢？\n{{PLAYER}}！",
+          "firstVisibleOrdinal": 13,
+          "missing": [
+            {
+              "slot": "PLAYER",
+              "kind": "name",
+              "japaneseLineOrdinals": [
+                1,
+                15
+              ],
+              "reason": "name_not_yet_visible",
+              "withinCurrentSemanticUnit": [
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "recordId": "pokeyellow-jp:scripts/LancesRoom.asm:LancesRoomLanceBattleText",
+          "ordinal": 14,
+          "japanese": "それとも いまから\nシッポ まいて かえるかい！",
+          "chinese": "还是说你现在准备\n卷铺盖回家呢？\n{{PLAYER}}！",
+          "firstVisibleOrdinal": 13,
+          "missing": [
+            {
+              "slot": "PLAYER",
+              "kind": "name",
+              "japaneseLineOrdinals": [
+                1,
+                15
+              ],
+              "reason": "name_not_yet_visible",
+              "withinCurrentSemanticUnit": [
+                15
+              ]
+            }
+          ]
+        }
+      ],
+      "strictlyRolledName": false
+    },
+    {
+      "id": "N015",
+      "japanese": "それじゃ ポケモン リーグ",
+      "chinese": "那在去宝可梦联盟前\n先用{{PLAYER}}\n来做一下热身运动好了！",
+      "missing": [
+        {
+          "slot": "PLAYER",
+          "kind": "name",
+          "japaneseLineOrdinals": [
+            1,
+            10
+          ],
+          "reason": "name_not_yet_visible",
+          "withinCurrentSemanticUnit": [
+            10
+          ]
+        }
+      ],
+      "sourceWindowRows": 3,
+      "candidates": [
+        {
+          "recordId": "pokegreen:scripts/Route22.asm:Route22RivalBeforeBattleText2",
+          "ordinal": 9,
+          "japanese": "それじゃ ポケモン リーグ",
+          "chinese": "那在去宝可梦联盟前\n先用{{PLAYER}}\n来做一下热身运动好了！",
+          "firstVisibleOrdinal": 9,
+          "missing": [
+            {
+              "slot": "PLAYER",
+              "kind": "name",
+              "japaneseLineOrdinals": [
+                1,
+                10
+              ],
+              "reason": "name_not_yet_visible",
+              "withinCurrentSemanticUnit": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "recordId": "pokeblue:scripts/Route22.asm:Route22RivalBeforeBattleText2",
+          "ordinal": 9,
+          "japanese": "それじゃ ポケモン リーグ",
+          "chinese": "那在去宝可梦联盟前\n先用{{PLAYER}}\n来做一下热身运动好了！",
+          "firstVisibleOrdinal": 9,
+          "missing": [
+            {
+              "slot": "PLAYER",
+              "kind": "name",
+              "japaneseLineOrdinals": [
+                1,
+                10
+              ],
+              "reason": "name_not_yet_visible",
+              "withinCurrentSemanticUnit": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "recordId": "pokeyellow-jp:scripts/Route22_2.asm:Route22RivalBeforeBattleText2",
+          "ordinal": 9,
+          "japanese": "それじゃ ポケモン リーグ",
+          "chinese": "那在去宝可梦联盟前\n先用{{PLAYER}}\n来做一下热身运动好了！",
+          "firstVisibleOrdinal": 9,
+          "missing": [
+            {
+              "slot": "PLAYER",
+              "kind": "name",
+              "japaneseLineOrdinals": [
+                1,
+                10
+              ],
+              "reason": "name_not_yet_visible",
+              "withinCurrentSemanticUnit": [
+                10
+              ]
+            }
+          ]
+        }
+      ],
+      "strictlyRolledName": false
+    }
+  ],
+  "remainingMissingVariableWindows": [
+    {
+      "recordId": "pokegreen:scripts/BillsHouse.asm:BillsHouseBillSSTicketText.SSTicketReceivedText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は マサキから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/BluesHouse.asm:GotMapText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は おねえさんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/CeladonDiner.asm:CeladonDinerGymGuideText.ReceivedCoinCaseText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は おっさん から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/CeladonGym.asm:CeladonGymReceivedTM21Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は エリカ から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/CeladonMart3F.asm:CeladonMart3FClerkText.ReceivedTM18Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は てんいん から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は おんなのこ から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/ChampionsRoom.asm:RivalVictoryText",
+      "ordinal": 5,
+      "japanese": "ま！ ポケモンの",
+      "missing": [
+        "RIVAL"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text",
+      "ordinal": 6,
+      "japanese": "ポケモン ずかん あつめに\nでかけた ころと くらべると",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text",
+      "ordinal": 7,
+      "japanese": "でかけた ころと くらべると\nたくましく なったな！",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text",
+      "ordinal": 8,
+      "japanese": "…… いやいや！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/CinnabarGym.asm:CinnabarGymBlaineReceivedTM38Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は カツラから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.FossilIsBackToLifeText",
+      "ordinal": 3,
+      "japanese": "やっぱり カセキは",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/CinnabarLabMetronomeRoom.asm:CinnabarLabMetronomeRoomScientist1Text.ReceivedTM35Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は けんきゅうしゃから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/CopycatsHouse2F.asm:CopycatsHouse2FCopycatText.ReceivedTM31Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は むすめさんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/Daycare.asm:DaycareGentlemanText.WillLookAfterMonText",
+      "ordinal": 1,
+      "japanese": "わかった",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/Daycare.asm:DaycareGentlemanText.MonHasGrownText",
+      "ordinal": 3,
+      "japanese": "そうだな レベルで いうと",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/Daycare.asm:DaycareGentlemanText.OweMoneyText",
+      "ordinal": 1,
+      "japanese": "……で ポケモンを ひきとるなら",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/Daycare.asm:DaycareGentlemanText.GotMonBackText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は そだてやさんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.ReceivedGoodRodText",
+      "ordinal": 5,
+      "japanese": "{{PLAYER}}は つりおやじから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/FuchsiaGym.asm:FuchsiaGymKogaReceivedTM06Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は キョウ から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/LancesRoom.asm:LancesRoomLanceBattleText",
+      "ordinal": 13,
+      "japanese": "それとも いまから",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/LancesRoom.asm:LancesRoomLanceBattleText",
+      "ordinal": 14,
+      "japanese": "それとも いまから\nシッポ まいて かえるかい！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/MrFujisHouse.asm:MrFujisHouseMrFujiText.ReceivedPokeFluteText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は フジ ろうじんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/MrPsychicsHouse.asm:MrPsychicsHouseMrPsychicText.ReceivedTM29Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は エスパー から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.PokemonHasBeenRenamedText",
+      "ordinal": 1,
+      "japanese": "よし これから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/OaksLab.asm:OaksLabOak1Text.PokemonAroundTheWorldText",
+      "ordinal": 1,
+      "japanese": "せかい じゅうに すんでいる",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/OaksLab.asm:OaksLabOak1Text.PokemonAroundTheWorldText",
+      "ordinal": 2,
+      "japanese": "せかい じゅうに すんでいる\nポケモンたちが",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/OaksLab.asm:OaksLabOakBePatientText.Text",
+      "ordinal": 1,
+      "japanese": "オーキド『まー！",
+      "missing": [
+        "RIVAL"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/OaksLab.asm:OaksLabRivalReceivedMonText.Text",
+      "ordinal": 1,
+      "japanese": "{{RIVAL}}は オーキドから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.BikeVoucherText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は かいちょうから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/Route12SuperRodHouse.asm:Route12SuperRodHouseFishingGuruText.ReceivedSuperRodText",
+      "ordinal": 5,
+      "japanese": "{{PLAYER}}は つりおやじから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/Route22.asm:Route22RivalBeforeBattleText2",
+      "ordinal": 9,
+      "japanese": "それじゃ ポケモン リーグ",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/Route23.asm:Route23YouDontHaveTheBadgeYetText",
+      "ordinal": 1,
+      "japanese": "ここから さきは……",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/Route23.asm:Route23YouDontHaveTheBadgeYetText",
+      "ordinal": 4,
+      "japanese": "きみは まだ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/Route23.asm:Route23OhThatIsTheBadgeText",
+      "ordinal": 1,
+      "japanese": "ここから さきは……",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/Route23.asm:Route23OhThatIsTheBadgeText",
+      "ordinal": 4,
+      "japanese": "むむッ……！",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/Route24.asm:Route24CooltrainerM1Text.ReceivedNuggetText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は なぞのトレーナーから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/SafariZoneSecretHouse.asm:SafariZoneSecretHouseFishingGuruText.ReceivedHM03Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は かかりいん から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/SilphCo11F.asm:SilphCo11FSilphPresidentText.ReceivedMasterBallText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は しゃちょうから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/SilphCo2F.asm:SilphCo2FSilphWorkerFText.ReceivedTM36Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は おねえさんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/SSAnne2F.asm:SSAnne2FRivalText.Text",
+      "ordinal": 1,
+      "japanese": "{{RIVAL}}『ボン ジュール！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainReceivedHM01Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は せんちょう から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/VermilionGym.asm:VermilionGymLTSurgeReceivedTM24Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は マチスから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.TakeThisText",
+      "ordinal": 5,
+      "japanese": "{{PLAYER}}は つりおやじから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:scripts/WardensHouse.asm:WardensHouseWardenText.ReceivedHM04Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は えんちょうから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/battle/common_text.asm:WildMonAppearedText",
+      "ordinal": 1,
+      "japanese": "あ！ やせいの",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/battle/core.asm:MoneyForWinningText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は しょうきんとして",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/battle/core.asm:TrainerDefeatedText",
+      "ordinal": 2,
+      "japanese": "{{RAM1}}との\nしょうぶに かった！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/battle/core.asm:LinkBattleLostText",
+      "ordinal": 2,
+      "japanese": "{{RAM1}}との\nしょうぶに まけた！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/battle/core.asm:MustRechargeText",
+      "ordinal": 1,
+      "japanese": "こうげきの はんどうで",
+      "missing": [
+        "USER"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/battle/core.asm:MoveIsDisabledText",
+      "ordinal": 1,
+      "japanese": "{{USER}}は かなしばりで",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/battle/core.asm:KeptGoingAndCrashedText",
+      "ordinal": 1,
+      "japanese": "いきおい あまって",
+      "missing": [
+        "USER"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/battle/trainer_ai2.asm:AIBattleUseItemText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は {{RAM2}}に",
+      "missing": [
+        "RAM3"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistSeesFossilText",
+      "ordinal": 1,
+      "japanese": "おお！",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistSeesFossilText",
+      "ordinal": 3,
+      "japanese": "おお むかしの ポケモン",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistTakesFossilText",
+      "ordinal": 3,
+      "japanese": "{{PLAYER}}は へんな はかせに",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/give_pokemon.asm:SentToBoxText",
+      "ordinal": 2,
+      "japanese": "ポケモンを もちきれないので\nパソコンの ボックス{{RAM1}} に",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/in_game_trades.asm:TradedForText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は {{RAM1}}と",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/in_game_trades.asm:WrongMon1Text",
+      "ordinal": 1,
+      "japanese": "……なんだ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/in_game_trades.asm:AfterTrade1Text",
+      "ordinal": 1,
+      "japanese": "おれの やった",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/in_game_trades.asm:WannaTrade2Text",
+      "ordinal": 1,
+      "japanese": "これこれ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/in_game_trades.asm:WrongMon2Text",
+      "ordinal": 1,
+      "japanese": "……む？",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/in_game_trades.asm:WannaTrade3Text",
+      "ordinal": 1,
+      "japanese": "ねー きみ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/in_game_trades.asm:WrongMon3Text",
+      "ordinal": 1,
+      "japanese": "…… これ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 4,
+      "japanese": "ポケモンずかんが {{NUMBER1}}しゅるい",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 5,
+      "japanese": "ポケモンずかんが {{NUMBER1}}しゅるい\nあつまってる ようなら",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 6,
+      "japanese": "あつまってる ようなら\n{{RAM1}}を わたす よう",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 7,
+      "japanese": "{{RAM1}}を わたす よう\nはかせに いわれ ました",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 8,
+      "japanese": "…… それでは さっそく",
+      "missing": [
+        "NUMBER1",
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 9,
+      "japanese": "…… それでは さっそく\n{{PLAYER}}くん！",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 10,
+      "japanese": "{{PLAYER}}くん！\nつかまえた ポケモンは",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideUhOhText",
+      "ordinal": 2,
+      "japanese": "…… …… えーと！\nつかまえた ポケモンは……",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideUhOhText",
+      "ordinal": 3,
+      "japanese": "つかまえた ポケモンは……\nあれれー？",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideUhOhText",
+      "ordinal": 5,
+      "japanese": "{{NUMBER2}}しゅるいに たりない なら",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideComeBackText",
+      "ordinal": 2,
+      "japanese": "{{NUMBER1}}しゅるいに たりない なら",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideHereYouGoText",
+      "ordinal": 2,
+      "japanese": "…… …… なるほど！\nつかまえた ポケモンは……",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideGotItemText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は じょしゅ から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideNoRoomText",
+      "ordinal": 1,
+      "japanese": "…… …… と おもった けど",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/oaks_aide.asm:OaksAideNoRoomText",
+      "ordinal": 2,
+      "japanese": "…… …… と おもった けど\nにもつが いっぱい だから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/events/pokemart.asm:PokemartTellBuyPriceText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}ですね",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/items/item_effects.asm:CoinCaseNumCoinsText",
+      "ordinal": 1,
+      "japanese": "あなたの コイン",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/items/tmhm.asm:AlreadyKnowsText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は すでに",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/menus/party_menu.asm:PotionText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}の たいりょくが",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/movie/hall_of_fame.asm:DexSeenOwnedText",
+      "ordinal": 1,
+      "japanese": "ポケモンずかん:みつけたかず{{NUMBER1}}",
+      "missing": [
+        "NUMBER2"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/movie/oak_speech/oak_speech2.asm:YourNameIsText",
+      "ordinal": 1,
+      "japanese": "ふむ···",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/movie/oak_speech/oak_speech2.asm:HisNameIsText",
+      "ordinal": 1,
+      "japanese": "そうだ そうだ！ おもいだしたぞ",
+      "missing": [
+        "RIVAL"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/movie/trade.asm:TradeWentToText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は ぶじ",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/movie/trade.asm:TradeForText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}が",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:engine/movie/trade.asm:TradeWillTradeText",
+      "ordinal": 1,
+      "japanese": "これから",
+      "missing": [
+        "RAM1",
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokegreen:composed:UsedMove.grammar0.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:composed:UsedMove.grammar1.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:composed:UsedMove.grammar2.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:composed:UsedMove.grammar3.normal",
+      "ordinal": 1,
+      "japanese": "{{USER}}の",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:composed:UsedMove.grammar3.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:composed:UsedMove.grammar4.normal",
+      "ordinal": 1,
+      "japanese": "{{USER}}の",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:composed:UsedMove.grammar4.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:composed:Experience.WithExpAllText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は がくしゅうそうちで",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:composed:Experience.BoostedText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は おおめに",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:composed:StatChange.MonsStatsRoseText.normal",
+      "ordinal": 1,
+      "japanese": "{{USER}}の",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:composed:StatChange.MonsStatsRoseText.large",
+      "ordinal": 1,
+      "japanese": "{{USER}}の",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/BillsHouse.asm:BillsHouseBillSSTicketText.SSTicketReceivedText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は マサキから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/BluesHouse.asm:GotMapText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は おねえさんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/CeladonDiner.asm:CeladonDinerGymGuideText.ReceivedCoinCaseText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は おっさん から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/CeladonGym.asm:CeladonGymReceivedTM21Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は エリカ から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/CeladonMart3F.asm:CeladonMart3FClerkText.ReceivedTM18Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は てんいん から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は おんなのこ から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/ChampionsRoom.asm:RivalVictoryText",
+      "ordinal": 5,
+      "japanese": "ま！ ポケモンの",
+      "missing": [
+        "RIVAL"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text",
+      "ordinal": 6,
+      "japanese": "ポケモン ずかん あつめに\nでかけた ころと くらべると",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text",
+      "ordinal": 7,
+      "japanese": "でかけた ころと くらべると\nたくましく なったな！",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text",
+      "ordinal": 8,
+      "japanese": "…… いやいや！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/CinnabarGym.asm:CinnabarGymBlaineReceivedTM38Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は カツラから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.FossilIsBackToLifeText",
+      "ordinal": 3,
+      "japanese": "やっぱり カセキは",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/CinnabarLabMetronomeRoom.asm:CinnabarLabMetronomeRoomScientist1Text.ReceivedTM35Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は けんきゅうしゃから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/CopycatsHouse2F.asm:CopycatsHouse2FCopycatText.ReceivedTM31Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は むすめさんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/Daycare.asm:DaycareGentlemanText.WillLookAfterMonText",
+      "ordinal": 1,
+      "japanese": "わかった",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/Daycare.asm:DaycareGentlemanText.MonHasGrownText",
+      "ordinal": 3,
+      "japanese": "そうだな レベルで いうと",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/Daycare.asm:DaycareGentlemanText.OweMoneyText",
+      "ordinal": 1,
+      "japanese": "……で ポケモンを ひきとるなら",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/Daycare.asm:DaycareGentlemanText.GotMonBackText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は そだてやさんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.ReceivedGoodRodText",
+      "ordinal": 5,
+      "japanese": "{{PLAYER}}は つりおやじから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/FuchsiaGym.asm:FuchsiaGymKogaReceivedTM06Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は キョウ から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/LancesRoom.asm:LancesRoomLanceBattleText",
+      "ordinal": 13,
+      "japanese": "それとも いまから",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/LancesRoom.asm:LancesRoomLanceBattleText",
+      "ordinal": 14,
+      "japanese": "それとも いまから\nシッポ まいて かえるかい！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/MrFujisHouse.asm:MrFujisHouseMrFujiText.ReceivedPokeFluteText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は フジ ろうじんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/MrPsychicsHouse.asm:MrPsychicsHouseMrPsychicText.ReceivedTM29Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は エスパー から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.PokemonHasBeenRenamedText",
+      "ordinal": 1,
+      "japanese": "よし これから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/OaksLab.asm:OaksLabOak1Text.PokemonAroundTheWorldText",
+      "ordinal": 1,
+      "japanese": "せかい じゅうに すんでいる",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/OaksLab.asm:OaksLabOak1Text.PokemonAroundTheWorldText",
+      "ordinal": 2,
+      "japanese": "せかい じゅうに すんでいる\nポケモンたちが",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/OaksLab.asm:OaksLabOakBePatientText.Text",
+      "ordinal": 1,
+      "japanese": "オーキド『まー！",
+      "missing": [
+        "RIVAL"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/OaksLab.asm:OaksLabRivalReceivedMonText.Text",
+      "ordinal": 1,
+      "japanese": "{{RIVAL}}は オーキドから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.BikeVoucherText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は かいちょうから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/Route12SuperRodHouse.asm:Route12SuperRodHouseFishingGuruText.ReceivedSuperRodText",
+      "ordinal": 5,
+      "japanese": "{{PLAYER}}は つりおやじから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/Route22.asm:Route22RivalBeforeBattleText2",
+      "ordinal": 9,
+      "japanese": "それじゃ ポケモン リーグ",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/Route23.asm:Route23YouDontHaveTheBadgeYetText",
+      "ordinal": 1,
+      "japanese": "ここから さきは……",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/Route23.asm:Route23YouDontHaveTheBadgeYetText",
+      "ordinal": 4,
+      "japanese": "きみは まだ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/Route23.asm:Route23OhThatIsTheBadgeText",
+      "ordinal": 1,
+      "japanese": "ここから さきは……",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/Route23.asm:Route23OhThatIsTheBadgeText",
+      "ordinal": 4,
+      "japanese": "むむッ……！",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/Route24.asm:Route24CooltrainerM1Text.ReceivedNuggetText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は なぞのトレーナーから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/SafariZoneSecretHouse.asm:SafariZoneSecretHouseFishingGuruText.ReceivedHM03Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は かかりいん から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/SilphCo11F.asm:SilphCo11FSilphPresidentText.ReceivedMasterBallText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は しゃちょうから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/SilphCo2F.asm:SilphCo2FSilphWorkerFText.ReceivedTM36Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は おねえさんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/SSAnne2F.asm:SSAnne2FRivalText.Text",
+      "ordinal": 1,
+      "japanese": "{{RIVAL}}『ボン ジュール！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainReceivedHM01Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は せんちょう から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/VermilionGym.asm:VermilionGymLTSurgeReceivedTM24Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は マチスから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.TakeThisText",
+      "ordinal": 5,
+      "japanese": "{{PLAYER}}は つりおやじから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:scripts/WardensHouse.asm:WardensHouseWardenText.ReceivedHM04Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は えんちょうから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/battle/common_text.asm:WildMonAppearedText",
+      "ordinal": 1,
+      "japanese": "あ！ やせいの",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/battle/core.asm:MoneyForWinningText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は しょうきんとして",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/battle/core.asm:TrainerDefeatedText",
+      "ordinal": 2,
+      "japanese": "{{RAM1}}との\nしょうぶに かった！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/battle/core.asm:LinkBattleLostText",
+      "ordinal": 2,
+      "japanese": "{{RAM1}}との\nしょうぶに まけた！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/battle/core.asm:MustRechargeText",
+      "ordinal": 1,
+      "japanese": "こうげきの はんどうで",
+      "missing": [
+        "USER"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/battle/core.asm:MoveIsDisabledText",
+      "ordinal": 1,
+      "japanese": "{{USER}}は かなしばりで",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/battle/core.asm:KeptGoingAndCrashedText",
+      "ordinal": 1,
+      "japanese": "いきおい あまって",
+      "missing": [
+        "USER"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/battle/trainer_ai2.asm:AIBattleUseItemText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は {{RAM2}}に",
+      "missing": [
+        "RAM3"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistSeesFossilText",
+      "ordinal": 1,
+      "japanese": "おお！",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistSeesFossilText",
+      "ordinal": 3,
+      "japanese": "おお むかしの ポケモン",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistTakesFossilText",
+      "ordinal": 3,
+      "japanese": "{{PLAYER}}は へんな はかせに",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/give_pokemon.asm:SentToBoxText",
+      "ordinal": 2,
+      "japanese": "ポケモンを もちきれないので\nパソコンの ボックス{{RAM1}} に",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/in_game_trades.asm:TradedForText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は {{RAM1}}と",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/in_game_trades.asm:WrongMon1Text",
+      "ordinal": 1,
+      "japanese": "……なんだ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/in_game_trades.asm:AfterTrade1Text",
+      "ordinal": 1,
+      "japanese": "おれの やった",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/in_game_trades.asm:WannaTrade2Text",
+      "ordinal": 1,
+      "japanese": "これこれ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/in_game_trades.asm:WrongMon2Text",
+      "ordinal": 1,
+      "japanese": "……む？",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/in_game_trades.asm:WannaTrade3Text",
+      "ordinal": 1,
+      "japanese": "ねー きみ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/in_game_trades.asm:WrongMon3Text",
+      "ordinal": 1,
+      "japanese": "…… これ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 4,
+      "japanese": "ポケモンずかんが {{NUMBER1}}しゅるい",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 5,
+      "japanese": "ポケモンずかんが {{NUMBER1}}しゅるい\nあつまってる ようなら",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 6,
+      "japanese": "あつまってる ようなら\n{{RAM1}}を わたす よう",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 7,
+      "japanese": "{{RAM1}}を わたす よう\nはかせに いわれ ました",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 8,
+      "japanese": "…… それでは さっそく",
+      "missing": [
+        "NUMBER1",
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 9,
+      "japanese": "…… それでは さっそく\n{{PLAYER}}くん！",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 10,
+      "japanese": "{{PLAYER}}くん！\nつかまえた ポケモンは",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideUhOhText",
+      "ordinal": 2,
+      "japanese": "…… …… えーと！\nつかまえた ポケモンは……",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideUhOhText",
+      "ordinal": 3,
+      "japanese": "つかまえた ポケモンは……\nあれれー？",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideUhOhText",
+      "ordinal": 5,
+      "japanese": "{{NUMBER2}}しゅるいに たりない なら",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideComeBackText",
+      "ordinal": 2,
+      "japanese": "{{NUMBER1}}しゅるいに たりない なら",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideHereYouGoText",
+      "ordinal": 2,
+      "japanese": "…… …… なるほど！\nつかまえた ポケモンは……",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideGotItemText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は じょしゅ から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideNoRoomText",
+      "ordinal": 1,
+      "japanese": "…… …… と おもった けど",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/oaks_aide.asm:OaksAideNoRoomText",
+      "ordinal": 2,
+      "japanese": "…… …… と おもった けど\nにもつが いっぱい だから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/events/pokemart.asm:PokemartTellBuyPriceText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}ですね",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/items/item_effects.asm:CoinCaseNumCoinsText",
+      "ordinal": 1,
+      "japanese": "あなたの コイン",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/items/tmhm.asm:AlreadyKnowsText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は すでに",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/menus/party_menu.asm:PotionText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}の たいりょくが",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/movie/hall_of_fame.asm:DexSeenOwnedText",
+      "ordinal": 1,
+      "japanese": "ポケモンずかん:みつけたかず{{NUMBER1}}",
+      "missing": [
+        "NUMBER2"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/movie/oak_speech/oak_speech2.asm:YourNameIsText",
+      "ordinal": 1,
+      "japanese": "ふむ···",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/movie/oak_speech/oak_speech2.asm:HisNameIsText",
+      "ordinal": 1,
+      "japanese": "そうだ そうだ！ おもいだしたぞ",
+      "missing": [
+        "RIVAL"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/movie/trade.asm:TradeWentToText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は ぶじ",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/movie/trade.asm:TradeForText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}が",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:engine/movie/trade.asm:TradeWillTradeText",
+      "ordinal": 1,
+      "japanese": "これから",
+      "missing": [
+        "RAM1",
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokeblue:composed:UsedMove.grammar0.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:composed:UsedMove.grammar1.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:composed:UsedMove.grammar2.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:composed:UsedMove.grammar3.normal",
+      "ordinal": 1,
+      "japanese": "{{USER}}の",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:composed:UsedMove.grammar3.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:composed:UsedMove.grammar4.normal",
+      "ordinal": 1,
+      "japanese": "{{USER}}の",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:composed:UsedMove.grammar4.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:composed:Experience.WithExpAllText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は がくしゅうそうちで",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:composed:Experience.BoostedText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は おおめに",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:composed:StatChange.MonsStatsRoseText.normal",
+      "ordinal": 1,
+      "japanese": "{{USER}}の",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeblue:composed:StatChange.MonsStatsRoseText.large",
+      "ordinal": 1,
+      "japanese": "{{USER}}の",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/BillsHouse_2.asm:BillsHousePrintBillSSTicketText.SSTicketReceivedText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は マサキから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/BluesHouse.asm:GotMapText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は おねえさんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/CeladonDiner_2.asm:CeladonDinerPrintGymGuideText.ReceivedCoinCaseText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は おっさん から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/CeladonGym.asm:CeladonGymReceivedTM21Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は エリカ から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/CeladonMart3F_2.asm:CeladonMart3FPrintClerkText.ReceivedTM18Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は てんいん から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/CeladonMartRoof.asm:CeladonMartRoofLittleGirlReceivedTM13Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は おんなのこ から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/ChampionsRoom.asm:RivalVictoryText",
+      "ordinal": 5,
+      "japanese": "ま！ ポケモンの",
+      "missing": [
+        "RIVAL"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text",
+      "ordinal": 6,
+      "japanese": "ポケモン ずかん あつめに\nでかけた ころと くらべると",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text",
+      "ordinal": 7,
+      "japanese": "でかけた ころと くらべると\nたくましく なったな！",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text",
+      "ordinal": 8,
+      "japanese": "…… いやいや！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/CinnabarGym.asm:CinnabarGymBlaineReceivedTM38Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は カツラから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/CinnabarLabFossilRoom.asm:CinnabarLabFossilRoomScientist1Text.FossilIsBackToLifeText",
+      "ordinal": 3,
+      "japanese": "やっぱり カセキは",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/CinnabarLabMetronomeRoom.asm:CinnabarLabMetronomeRoomScientist1Text.ReceivedTM35Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は けんきゅうしゃから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/CopycatsHouse2F.asm:CopycatsHouse2FCopycatText.ReceivedTM31Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は むすめさんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/Daycare.asm:DaycareGentlemanText.WillLookAfterMonText",
+      "ordinal": 1,
+      "japanese": "わかった",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/Daycare.asm:DaycareGentlemanText.MonHasGrownText",
+      "ordinal": 3,
+      "japanese": "そうだな レベルで いうと",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/Daycare.asm:DaycareGentlemanText.OweMoneyText",
+      "ordinal": 1,
+      "japanese": "……で ポケモンを ひきとるなら",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/Daycare.asm:DaycareGentlemanText.GotMonBackText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は そだてやさんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/FuchsiaGoodRodHouse.asm:FuchsiaGoodRodHouseFishingGuruText.ReceivedGoodRodText",
+      "ordinal": 5,
+      "japanese": "{{PLAYER}}は つりおやじから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/FuchsiaGym.asm:FuchsiaGymKogaReceivedTM06Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は キョウ から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/LancesRoom.asm:LancesRoomLanceBattleText",
+      "ordinal": 13,
+      "japanese": "それとも いまから",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/LancesRoom.asm:LancesRoomLanceBattleText",
+      "ordinal": 14,
+      "japanese": "それとも いまから\nシッポ まいて かえるかい！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/MrFujisHouse.asm:MrFujisHouseMrFujiText.ReceivedPokeFluteText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は フジ ろうじんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/MrPsychicsHouse.asm:MrPsychicsHouseMrPsychicText.ReceivedTM29Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は エスパー から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/NameRatersHouse.asm:NameRatersHouseNameRaterText.PokemonHasBeenRenamedText",
+      "ordinal": 1,
+      "japanese": "よし これから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/OaksLab.asm:OaksLabOak1Text.PokemonAroundTheWorldText",
+      "ordinal": 1,
+      "japanese": "せかい じゅうに すんでいる",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/OaksLab.asm:OaksLabOak1Text.PokemonAroundTheWorldText",
+      "ordinal": 2,
+      "japanese": "せかい じゅうに すんでいる\nポケモンたちが",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/OaksLab.asm:OaksLabOakBePatientText.Text",
+      "ordinal": 1,
+      "japanese": "オーキド『まー！",
+      "missing": [
+        "RIVAL"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/PokemonFanClub.asm:PokemonFanClubChairmanText.BikeVoucherText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は かいちょうから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/Route12SuperRodHouse.asm:Route12SuperRodHouseFishingGuruText.ReceivedSuperRodText",
+      "ordinal": 5,
+      "japanese": "{{PLAYER}}は つりおやじから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/Route22_2.asm:Route22RivalBeforeBattleText2",
+      "ordinal": 9,
+      "japanese": "それじゃ ポケモン リーグ",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/Route23.asm:Route23YouDontHaveTheBadgeYetText",
+      "ordinal": 3,
+      "japanese": "きみは まだ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/Route23.asm:Route23OhThatIsTheBadgeText",
+      "ordinal": 3,
+      "japanese": "むむッ……！",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/Route24.asm:Route24CooltrainerM1Text.ReceivedNuggetText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は なぞのトレーナーから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/SafariZoneSecretHouse.asm:SafariZoneSecretHouseFishingGuruText.ReceivedHM03Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は かかりいん から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/SilphCo11F.asm:SilphCo11FSilphPresidentText.ReceivedMasterBallText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は しゃちょうから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/SilphCo2F.asm:SilphCo2FSilphWorkerFText.ReceivedTM36Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は おねえさんから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/SSAnne2F.asm:SSAnne2FRivalText.Text",
+      "ordinal": 1,
+      "japanese": "{{RIVAL}}『ボン ジュール！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/SSAnneCaptainsRoom.asm:SSAnneCaptainsRoomCaptainReceivedHM01Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は せんちょう から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/VermilionGym.asm:VermilionGymLTSurgeReceivedTM24Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は マチスから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/VermilionOldRodHouse.asm:VermilionOldRodHouseFishingGuruText.TakeThisText",
+      "ordinal": 5,
+      "japanese": "{{PLAYER}}は つりおやじから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:scripts/WardensHouse.asm:WardensHouseWardenText.ReceivedHM04Text",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は えんちょうから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/battle/common_text.asm:WildMonAppearedText",
+      "ordinal": 1,
+      "japanese": "あ！ やせいの",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/battle/core.asm:MoneyForWinningText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は しょうきんとして",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/battle/core.asm:TrainerDefeatedText",
+      "ordinal": 2,
+      "japanese": "{{RAM1}}との\nしょうぶに かった！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/battle/core.asm:LinkBattleLostText",
+      "ordinal": 2,
+      "japanese": "{{RAM1}}との\nしょうぶに まけた！",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/battle/core.asm:MustRechargeText",
+      "ordinal": 1,
+      "japanese": "こうげきの はんどうで",
+      "missing": [
+        "USER"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/battle/core.asm:MoveIsDisabledText",
+      "ordinal": 1,
+      "japanese": "{{USER}}は かなしばりで",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/battle/core.asm:KeptGoingAndCrashedText",
+      "ordinal": 1,
+      "japanese": "いきおい あまって",
+      "missing": [
+        "USER"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/battle/trainer_ai.asm:AIBattleUseItemText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は {{RAM2}}に",
+      "missing": [
+        "RAM3"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistSeesFossilText",
+      "ordinal": 1,
+      "japanese": "おお！",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistSeesFossilText",
+      "ordinal": 3,
+      "japanese": "おお むかしの ポケモン",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/cinnabar_lab.asm:GiveFossilToCinnabarLab.ScientistTakesFossilText",
+      "ordinal": 3,
+      "japanese": "{{PLAYER}}は へんな はかせに",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/give_pokemon.asm:SentToBoxText",
+      "ordinal": 2,
+      "japanese": "ポケモンを もちきれないので\nパソコンの ボックス{{RAM1}} に",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/in_game_trades.asm:TradedForText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は {{RAM1}}と",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/in_game_trades.asm:WrongMon1Text",
+      "ordinal": 1,
+      "japanese": "……なんだ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/in_game_trades.asm:AfterTrade1Text",
+      "ordinal": 1,
+      "japanese": "おれの やった",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/in_game_trades.asm:WannaTrade2Text",
+      "ordinal": 1,
+      "japanese": "これこれ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/in_game_trades.asm:WrongMon2Text",
+      "ordinal": 1,
+      "japanese": "……む？",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/in_game_trades.asm:WannaTrade3Text",
+      "ordinal": 1,
+      "japanese": "ねー きみ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/in_game_trades.asm:WrongMon3Text",
+      "ordinal": 1,
+      "japanese": "…… これ",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 4,
+      "japanese": "ポケモンずかんが {{NUMBER1}}しゅるい",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 5,
+      "japanese": "ポケモンずかんが {{NUMBER1}}しゅるい\nあつまってる ようなら",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 6,
+      "japanese": "あつまってる ようなら\n{{RAM1}}を わたす よう",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 7,
+      "japanese": "{{RAM1}}を わたす よう\nはかせに いわれ ました",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 8,
+      "japanese": "…… それでは さっそく",
+      "missing": [
+        "NUMBER1",
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 9,
+      "japanese": "…… それでは さっそく\n{{PLAYER}}くん！",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHiText",
+      "ordinal": 10,
+      "japanese": "{{PLAYER}}くん！\nつかまえた ポケモンは",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideUhOhText",
+      "ordinal": 2,
+      "japanese": "…… …… えーと！\nつかまえた ポケモンは……",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideUhOhText",
+      "ordinal": 3,
+      "japanese": "つかまえた ポケモンは……\nあれれー？",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideUhOhText",
+      "ordinal": 5,
+      "japanese": "{{NUMBER2}}しゅるいに たりない なら",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideComeBackText",
+      "ordinal": 2,
+      "japanese": "{{NUMBER1}}しゅるいに たりない なら",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHereYouGoText",
+      "ordinal": 2,
+      "japanese": "…… …… なるほど！\nつかまえた ポケモンは……",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideGotItemText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}は じょしゅ から",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideNoRoomText",
+      "ordinal": 1,
+      "japanese": "…… …… と おもった けど",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideNoRoomText",
+      "ordinal": 2,
+      "japanese": "…… …… と おもった けど\nにもつが いっぱい だから",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/events/pokemart.asm:PokemartTellBuyPriceText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}ですね",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/items/item_effects.asm:CoinCaseNumCoinsText",
+      "ordinal": 1,
+      "japanese": "あなたの コイン",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/items/tmhm.asm:AlreadyKnowsText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は すでに",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/menus/party_menu.asm:PotionText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}の たいりょくが",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/movie/hall_of_fame.asm:DexSeenOwnedText",
+      "ordinal": 1,
+      "japanese": "ポケモンずかん:みつけたかず{{NUMBER1}}",
+      "missing": [
+        "NUMBER2"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/movie/oak_speech/oak_speech2.asm:YourNameIsText",
+      "ordinal": 1,
+      "japanese": "ふむ···",
+      "missing": [
+        "PLAYER"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/movie/oak_speech/oak_speech2.asm:HisNameIsText",
+      "ordinal": 1,
+      "japanese": "そうだ そうだ！ おもいだしたぞ",
+      "missing": [
+        "RIVAL"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/movie/trade.asm:TradeWentToText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は ぶじ",
+      "missing": [
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/movie/trade.asm:TradeForText",
+      "ordinal": 1,
+      "japanese": "{{PLAYER}}が",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:engine/movie/trade.asm:TradeWillTradeText",
+      "ordinal": 1,
+      "japanese": "これから",
+      "missing": [
+        "RAM1",
+        "RAM2"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:composed:UsedMove.grammar0.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:composed:UsedMove.grammar1.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:composed:UsedMove.grammar2.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:composed:UsedMove.grammar3.normal",
+      "ordinal": 1,
+      "japanese": "{{USER}}の",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:composed:UsedMove.grammar3.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:composed:UsedMove.grammar4.normal",
+      "ordinal": 1,
+      "japanese": "{{USER}}の",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:composed:UsedMove.grammar4.disobedient",
+      "ordinal": 1,
+      "japanese": "{{USER}}は めいれいをむしして",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:composed:Experience.WithExpAllText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は がくしゅうそうちで",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:composed:Experience.BoostedText",
+      "ordinal": 1,
+      "japanese": "{{RAM1}}は おおめに",
+      "missing": [
+        "NUMBER1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:composed:StatChange.MonsStatsRoseText.normal",
+      "ordinal": 1,
+      "japanese": "{{USER}}の",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:composed:StatChange.MonsStatsRoseText.large",
+      "ordinal": 1,
+      "japanese": "{{USER}}の",
+      "missing": [
+        "RAM1"
+      ]
+    },
+    {
+      "recordId": "pokegreen:composed:TrainerEnd.RivalVictoryText",
+      "ordinal": 5,
+      "japanese": "ま！ ポケモンの",
+      "missing": [
+        "RIVAL"
+      ]
+    },
+    {
+      "recordId": "pokeblue:composed:TrainerEnd.RivalVictoryText",
+      "ordinal": 5,
+      "japanese": "ま！ ポケモンの",
+      "missing": [
+        "RIVAL"
+      ]
+    },
+    {
+      "recordId": "pokeyellow-jp:composed:TrainerEnd.RivalVictoryText",
+      "ordinal": 5,
+      "japanese": "ま！ ポケモンの",
+      "missing": [
+        "RIVAL"
+      ]
+    }
+  ],
+  "authorization": "用户要求修复该能力提升提示并全库检查、处理因已滚出名字而无法翻译的同类情况；仅上述25种精确窗口使用已核对的独立正文，原译文和变量保留。",
+  "policy": "Use the independent body only when the original display still needs a missing name after current binding and permitted PLAYER reuse; otherwise retain the original display.",
+  "dynamicTestsRun": false,
+  "runtimeOutputsNotMeasured": true,
+  "limitations": [
+    "Counts describe saved source-window patterns, not every possible live input, arbitrary name fill or partial-character rendering.",
+    "Removal of the missing-name requirement does not bypass other candidate conflicts, variable kinds or incomplete source matches.",
+    "The remaining 300 missing-current-variable windows include future names, item/numeric values and localization-added PLAYER; they are not all rolled-name defects.",
+    "Source Chinese meanings are retained; unrelated localization wording discrepancies are outside this change."
+  ],
+  "sha256": {
+    "tools/text_fragment_displays.csv": "996b75bc280a506fb16afb40af0b86437ac762a8954bd984432bd6e96684252a",
+    "tools/build_text_corpus.py": "6a4f73ae173deb7ef8e57bf71b5c5feeae57891e1672b8fbf89e0d061226e319",
+    "src/main/java/io/github/g1ocr/text/TextCorpus.java": "23fefb51e7d3b058599a81a44fa8bd891f0cc9650a435ac900985d066af9cb5d",
+    "src/main/java/io/github/g1ocr/text/TextResolver.java": "567814d32cf7a090dd927b70436e2f7921a715c60ef0aea5203449bc4d1e6f5b",
+    "src/main/resources/corpus/records.csv": "21e84fab9bfaebc14b23e0e6ff6f771df6862c722297451d5f56a68855418294",
+    "src/main/resources/corpus/segments.csv": "e7bd8e52a7095f0552d129b0c5075408f4ce3090e5fbfbdba7db9e5172056ebf",
+    "src/main/resources/corpus/fragments.csv": "5239ac3292d93217ddd7ac991bdb65792e89ea0a05d7cff81a3da99d110604cb",
+    "src/main/resources/corpus/slot_rules.csv": "96ca160036772cb2853457fda897e3ca0187230d0b027902f9436cf9ff5ea328",
+    "src/test/resources/chinese-cases.json": "3db57b1aa968aad622a3f7ddc8f4d62fc4a5c57b01238ee94b8ae417d50933d6"
+  },
+  "build": {
+    "command": "build.ps1 -SkipTests",
+    "success": true,
+    "testsSkipped": true,
+    "log": "output/build-rolled-name-windows.log",
+    "finishedAt": "2026-10-23T22:54:18+08:00",
+    "jar": "target/g1-ocr-0.3.0.jar",
+    "bytes": 15769680,
+    "sha256": "f9cc1f2a68278580d077a43ecda704de2383e0dad26ae10b55fc2f37e242da49"
+  },
+  "packagedChecks": {
+    "corpus/control_rules.csv": true,
+    "corpus/fragments.csv": true,
+    "corpus/README.md": true,
+    "corpus/records.csv": true,
+    "corpus/segments.csv": true,
+    "corpus/slot_rules.csv": true,
+    "corpus/sources.csv": true,
+    "corpus/variables.csv": true,
+    "io/github/g1ocr/text/TextCorpus.class": true,
+    "io/github/g1ocr/text/TextCorpus$Fragment.class": true,
+    "io/github/g1ocr/text/TextResolver.class": true,
+    "test_fixture_not_packaged": true
+  }
+}

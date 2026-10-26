@@ -567,6 +567,76 @@
           "chinese": ""
         }
       ]
+    },
+    {
+      "name": "rolled battle owner is not required for independent stat-change text",
+      "events": [
+        {
+          "raw": "こうげきりょくが\nぐーんと あがった！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "攻击\n大幅提高了！",
+          "source": "StatChange.MonsStatsRoseText.large",
+          "candidateCount": 3
+        },
+        {
+          "reset": true
+        },
+        {
+          "raw": "ぼうぎょりょくが\nがくっと さがった！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "防御\n大幅降低了！",
+          "source": "StatChange.MonsStatsFellText.large",
+          "candidateCount": 3
+        },
+        {
+          "reset": true
+        },
+        {
+          "raw": "こうげきりょくが\nぐーんと あがっ",
+          "match": "equivalent",
+          "status": "incomplete",
+          "chinese": ""
+        }
+      ]
+    },
+    {
+      "name": "name-independent body is conditional and preserves a confirmed player name",
+      "events": [
+        {
+          "raw": "ホントの たたかいって ものを\nおしえて やる！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "让我来告诉你\n什么是真正的战斗吧！",
+          "reusedPlayerName": ""
+        },
+        {
+          "raw": "サトシは ひきかえけんで\nじてんしゃを もらった！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "小智用兑换券\n得到了自行车！"
+        },
+        {
+          "disappear": true
+        },
+        {
+          "raw": "ホントの たたかいって ものを\nおしえて やる！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "小智啊……！\n让我来告诉你\n什么是真正的战斗吧！",
+          "reusedPlayerName": "サトシ"
+        },
+        {
+          "reset": true
+        },
+        {
+          "raw": "それとも いまから",
+          "match": "equivalent",
+          "status": "variables_missing",
+          "chinese": ""
+        }
+      ]
     }
   ]
 }

@@ -135,11 +135,22 @@ public final class TextResolver {
 
     private Rendering render(TextCorpus.Hit hit, int start) {
         var fragment = hit.fragment();
-        String savedChinese = fragment.displayChinese().isEmpty()
-                ? TextCorpus.slice(fragment.entry().chinese(), fragment.chineseStart(), fragment.chineseEnd())
-                : fragment.displayChinese();
+        String savedChinese = TextCorpus.slice(fragment.entry().chinese(), fragment.chineseStart(), fragment.chineseEnd());
+        boolean useDisplay = !fragment.displayChinese().isEmpty();
+        if (useDisplay && fragment.displayPolicy().equals("missing_rolled_name")) {
+            useDisplay = false;
+            var required = SLOT.matcher(savedChinese);
+            while (required.find()) {
+                String slot = required.group(1);
+                if (!hit.variables().containsKey(slot) && !(slot.equals("PLAYER") && playerName != null)) {
+                    useDisplay = true;
+                    break;
+                }
+            }
+        }
+        if (useDisplay) savedChinese = fragment.displayChinese();
         Map<String, String> displayedVariables = new LinkedHashMap<>(hit.variables());
-        if (!fragment.displayChinese().isEmpty()) {
+        if (useDisplay) {
             // A reviewed common fragment does not publish the other candidate-specific fields.
             var used = new java.util.HashSet<String>();
             var slots = SLOT.matcher(savedChinese);

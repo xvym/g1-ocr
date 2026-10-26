@@ -1,0 +1,163 @@
+﻿id,japanese,original_chinese,independent_chinese,source_window_rows,classification,missing_slots,policy
+N001,"ホントの たたかいって ものを
+おしえて やる！","{{PLAYER}}啊……！
+让我来告诉你
+什么是真正的战斗吧！","让我来告诉你
+什么是真正的战斗吧！",3,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [10], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [10]}]",missing_rolled_name
+N002,"なんか つかまえた？
+みせて みろよ！","就让我来看看
+{{PLAYER}}
+你都捉到了哪些宝可梦吧！","就让我来看看
+你都捉到了哪些宝可梦吧！",3,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1, 7], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [7]}]",missing_rolled_name
+N003,"{{PLAYER}}も きたか！
+…… はッはッ うれしいぜ！","{{RIVAL}}：哟！
+
+你也来了啊，
+{{PLAYER}}！
+……哈哈，很好啊！","你也来了啊，
+{{PLAYER}}！
+……哈哈，很好啊！",3,rolled_name_fixed,"[{""slot"": ""RIVAL"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [1]}]",missing_rolled_name
+N004,"なぜ まけたのか わかるか？
+…… …… ……","{{RIVAL}}啊……
+知道你为什么会输吗？
+…………","知道你为什么会输吗？
+…………",3,rolled_name_fixed,"[{""slot"": ""RIVAL"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1, 7], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [7]}]",missing_rolled_name
+N005,まだ じかんが かかるぞ,"你的{{RAM1}}
+还需要时间来成长哦。",还需要时间来成长哦。,3,rolled_name_fixed,"[{""slot"": ""RAM1"", ""kind"": ""nickname"", ""japaneseLineOrdinals"": [2], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [2]}]",missing_rolled_name
+N006,"はげしい たたかいの すえ
+リーグ チャンピオンと なった！","{{PLAYER}}！
+你在经历了激烈的对决后，
+成为了联盟冠军！","你在经历了激烈的对决后，
+成为了联盟冠军！",3,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [2, 12, 15], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [12]}]",missing_rolled_name
+N007,それとも いまから,"还是说你现在准备
+卷铺盖回家呢？
+{{PLAYER}}！",,3,name_not_yet_visible_no_change,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1, 15], ""reason"": ""name_not_yet_visible"", ""withinCurrentSemanticUnit"": [15]}]",original
+N008,"それとも いまから
+シッポ まいて かえるかい！","还是说你现在准备
+卷铺盖回家呢？
+{{PLAYER}}！",,3,name_not_yet_visible_no_change,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1, 15], ""reason"": ""name_not_yet_visible"", ""withinCurrentSemanticUnit"": [15]}]",original
+N009,"まけずに ポケモンを
+たたかわせて そだてると いいぞ！","大木：{{PLAYER}}也
+不要输，通过战斗将
+宝可梦培育起来比较好哦！","大木：也
+不要输，通过战斗将
+宝可梦培育起来比较好哦！",2,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [1]}]",missing_rolled_name
+N010,どーだい？,"大木：哦哦！{{PLAYER}}，
+如何了？","大木：哦哦！
+如何了？",3,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1, 9], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [1]}]",missing_rolled_name
+N011,"どーだい？
+わしの やったポケモンは……ほう","大木：哦哦！{{PLAYER}}，
+如何了？
+
+有没有和我给你的
+宝可梦……
+变得更加亲密一点呢？","大木：哦哦！
+如何了？
+
+有没有和我给你的
+宝可梦……
+变得更加亲密一点呢？",3,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1, 9], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [1]}]",missing_rolled_name
+N012,"ざんねんだが おまえの でばんは
+まったく ねーぜ！","{{PLAYER}}，非常遗憾，
+这事完全没有
+你出场的机会呢！","非常遗憾，
+这事完全没有
+你出场的机会呢！",3,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [3, 8], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [3]}]",missing_rolled_name
+N013,"ねえちゃんに いって おくから
+おれんちへ きても むだ だからな！","我会跟她说的，让她不要
+借给{{PLAYER}}，
+所以就算你去找老姐
+也是白跑一趟！","我会跟她说的，让她不要
+借给你，
+所以就算你去找老姐
+也是白跑一趟！",3,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [3, 8], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [8]}]",missing_rolled_name
+N014,"こんな ところで あうとは
+またまた ぐうぜんだ！","{{RIVAL}}：怎么？
+{{PLAYER}}！在这种
+地方又碰到你还真突然！","在这种
+地方又碰到你还真突然！",3,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1, 10], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [1]}, {""slot"": ""RIVAL"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [1]}]",missing_rolled_name
+N015,それじゃ ポケモン リーグ,"那在去宝可梦联盟前
+先用{{PLAYER}}
+来做一下热身运动好了！",,3,name_not_yet_visible_no_change,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1, 10], ""reason"": ""name_not_yet_visible"", ""withinCurrentSemanticUnit"": [10]}]",original
+N016,"もっと れんしゅう したほうが
+いいんじゃないの！","{{PLAYER}}你……
+还需要多多练习才好！","你……
+还需要多多练习才好！",3,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [4], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [4]}]",missing_rolled_name
+N017,"ロケットだんの ために
+そんざい するのだ！","{{PLAYER}}，你听好了！
+这世上所有的宝可梦
+都是为火箭队而存在的！","你听好了！
+这世上所有的宝可梦
+都是为火箭队而存在的！",3,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [5], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [5]}]",missing_rolled_name
+N018,"そんざい するのだ！
+そのことを わすれるなよ！","{{PLAYER}}，你听好了！
+这世上所有的宝可梦
+都是为火箭队而存在的！
+你最好给我记住！","你听好了！
+这世上所有的宝可梦
+都是为火箭队而存在的！
+你最好给我记住！",3,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [5], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [5]}]",missing_rolled_name
+N019,"せいぜい がんばって くれい
+じゃあな！","{{PLAYER}}，
+你也给我好好加油。
+就这样吧！","你也给我好好加油。
+就这样吧！",3,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1, 15], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [15]}]",missing_rolled_name
+N020,"チケットを みせようとした……
+チケットが…… ない……！","{{PLAYER}}向船员
+出示了船票！
+
+然而并没有船票！","向船员
+出示了船票！
+
+然而并没有船票！",3,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [1]}]",missing_rolled_name
+N021,"ファミコンを してる！
+…… …… よし！","{{PLAYER}}正在玩
+Famicom！
+……
+是时候出发了！","正在玩
+Famicom！
+……
+是时候出发了！",2,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [1]}]",missing_rolled_name
+N022,"つかまえた ポケモンは
+{{NUMBER1}}しゅるい より おおい かな？","……那么，{{PLAYER}}！
+你捉到的宝可梦
+有{{NUMBER1}}种以上吗？","你捉到的宝可梦
+有{{NUMBER1}}种以上吗？",3,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [9], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [9]}]",missing_rolled_name
+N023,"{{RAM1}}が
+ぐーんと あがった！","{{USER}}的
+{{RAM1}}
+大幅提高了！","{{RAM1}}
+大幅提高了！",3,rolled_name_fixed,"[{""slot"": ""USER"", ""kind"": ""battle_name"", ""japaneseLineOrdinals"": [1], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [1]}]",missing_rolled_name
+N024,"{{RAM1}}が
+がくっと さがった！","{{TARGET}}的
+{{RAM1}}
+大幅降低了！","{{RAM1}}
+大幅降低了！",3,rolled_name_fixed,"[{""slot"": ""TARGET"", ""kind"": ""battle_name"", ""japaneseLineOrdinals"": [1], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [1]}]",missing_rolled_name
+N025,"とくせいの モンスターボールじゃ
+どうも ありがとよ！","哦哦！这不是
+我预订的特殊精灵球嘛。
+真是谢谢你了，
+{{PLAYER}}！","哦哦！这不是
+我预订的特殊精灵球嘛。
+真是谢谢你了！",1,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1, 9], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": []}]",missing_rolled_name
+N026,"そこに まるいたまが あるじゃろう
+ほっほ！","快看，{{PLAYER}}！
+那边有个圆圆的小球对吧？
+
+嚯嚯！","那边有个圆圆的小球对吧？
+
+嚯嚯！",1,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [7], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [7]}]",missing_rolled_name
+N027,"おれの ポケモン そだったぜ！
+ちょっと みてくれよ","{{RIVAL}}：爷爷，
+我的宝可梦成长了呢！
+来看一看吧。","爷爷，
+我的宝可梦成长了呢！
+来看一看吧。",1,rolled_name_fixed,"[{""slot"": ""RIVAL"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [1]}]",missing_rolled_name
+N028,"スーパーファミコンを してる！
+…… …… よし！","{{PLAYER}}正在玩
+Super Famicom！
+……
+是时候出发了！","正在玩
+Super Famicom！
+……
+是时候出发了！",1,rolled_name_fixed,"[{""slot"": ""PLAYER"", ""kind"": ""name"", ""japaneseLineOrdinals"": [1], ""reason"": ""rolled_name"", ""withinCurrentSemanticUnit"": [1]}]",missing_rolled_name

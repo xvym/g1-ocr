@@ -81,6 +81,37 @@ class TranslationTest {
         }
     }
 
+    @Test void sentencePunctuationCannotBecomeANameInAnotherTemplate() {
+        for (var value : List.of(List.of("ウツボット", "大食花"), List.of("ピカチュウ", "皮卡丘"),
+                List.of("あいうえお", "あいうえお"))) {
+            String raw = value.getFirst() + "は たおれた！";
+            var result = new TextResolver(corpus).dialogue("dialogue", raw);
+            assertEquals("equivalent", result.matchStatus());
+            assertEquals("ready", result.displayStatus());
+            assertEquals(value.get(1) + "\n倒下了！", result.chinese());
+            assertEquals(3, result.candidates().size());
+            assertTrue(result.candidates().stream().allMatch(c -> c.recordId().endsWith(":PlayerMonFaintedText")));
+            assertEquals(raw, result.rawJapanese());
+        }
+        for (String raw : List.of("カンナは たおれた！", "カンナは あ！", "カンナは ！"))
+            assertTrue(corpus.dialogue(raw).stream().noneMatch(h -> h.fragment().entry().id().endsWith(":TrainerAboutToUseText")
+                    || h.fragment().entry().id().endsWith(":AIBattleUseItemText")));
+    }
+
+    @Test void legalCustomNamesAndDefaultSpeciesStillParticipateInIncompleteMatches() {
+        for (String raw : List.of("カンナは たおれたを", "カンナは シェ", "ジェントルマンは シェ"))
+            assertTrue(corpus.dialogue(raw).stream().anyMatch(h ->
+                    h.fragment().entry().id().endsWith(":TrainerAboutToUseText")));
+        for (String name : List.of("ニドラン♀", "ニドラン♂", "ケーシィ", "ファイヤー", "モルフォン")) {
+            var hits = corpus.dialogue(name + "は たおれた！").stream()
+                    .filter(h -> h.fragment().entry().id().endsWith(":PlayerMonFaintedText")).toList();
+            assertEquals(3, hits.size());
+            assertTrue(hits.stream().allMatch(TextCorpus.Hit::complete));
+        }
+        var partial = new TextResolver(corpus).dialogue("dialogue", "ウツボットは たおれた");
+        assertEquals("", partial.chinese());
+    }
+
     @Test void presetNamesUseTheDictionaryAcrossSourcesAndKeepConflictsJapanese() {
         // JACK also occurs in the source as an unused trainer alias for Juggler.
         for (var name : List.of(List.of("レッド", "赤红"), List.of("サトシ", "小智"), List.of("ジャック", "ジャック"),
