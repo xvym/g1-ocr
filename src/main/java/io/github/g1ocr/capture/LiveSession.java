@@ -9,6 +9,8 @@ import io.github.g1ocr.text.TextCorpus;
 import io.github.g1ocr.text.TextResolver;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -22,8 +24,10 @@ import java.util.function.Consumer;
 /** One worker owns native capture, calibration and OCR. The UI receives only the latest view. */
 public final class LiveSession implements AutoCloseable {
     public record RegionView(PixelOcr.Result text, Integer selectedItem, List<TextResolver.Unit> translation) {}
+    public record HistoryEntry(long sequence, LocalDateTime recordedAt, String layout, String semanticType,
+                               String rawJapanese, List<TextResolver.Unit> translation) {}
     public record View(long selectionId, long playerNameRevision, String status, String diagnostics,
-                       BufferedImage gb, List<RegionView> regions) {}
+                       BufferedImage gb, List<RegionView> regions, List<HistoryEntry> history) {}
     private final ScheduledExecutorService worker = Executors.newSingleThreadScheduledExecutor(r -> new Thread(r, "g1-capture"));
     private final AtomicLong selectionId = new AtomicLong();
     private final AtomicLong playerNameRevision = new AtomicLong();
@@ -33,6 +37,9 @@ public final class LiveSession implements AutoCloseable {
     private final TextResolver translator;
     private final Map<String, OcrPipeline.StableResult> published = new LinkedHashMap<>();
     private final Map<String, List<TextResolver.Unit>> translations = new LinkedHashMap<>();
+    private final ArrayDeque<HistoryEntry> history = new ArrayDeque<>();
+    private final Map<String, OcrPipeline.StableResult> recordedResults = new LinkedHashMap<>();
+    private long historySequence;
     private WindowCapture capture;
     private WindowCapture.Window window;
     private long activeSelection;
@@ -100,6 +107,7 @@ public final class LiveSession implements AutoCloseable {
 
     private void clearRecognition() {
         pipeline.invalidate(); resolver.reset(); published.clear(); translations.clear(); translator.reset();
+        recordedResults.clear();
         mapping = null; revision = -1;
     }
 
@@ -109,7 +117,8 @@ public final class LiveSession implements AutoCloseable {
     }
 
     private void emit(String status, String diagnostics, BufferedImage gb, List<RegionView> regions) {
-        listener.accept(new View(activeSelection, activePlayerNameRevision, status, diagnostics, gb, List.copyOf(regions)));
+        listener.accept(new View(activeSelection, activePlayerNameRevision, status, diagnostics, gb,
+                List.copyOf(regions), List.copyOf(history)));
     }
 
     private void fail(Throwable error) {
@@ -154,6 +163,7 @@ public final class LiveSession implements AutoCloseable {
             translator.retainRegions(visible);
             published.values().removeIf(value -> !pipeline.isCurrent(value.key()));
             translations.keySet().retainAll(published.keySet());
+            recordedResults.keySet().retainAll(published.keySet());
             for (var update : updates) if (pipeline.isCurrent(update.key()) && update.result().hasText()) {
                 published.put(update.result().id(), update);
                 translations.put(update.result().id(), translator.resolve(update.result()));
@@ -163,7 +173,21 @@ public final class LiveSession implements AutoCloseable {
             for (var region : regions) {
                 if (java.util.Arrays.stream(region.textPixels(frame)).anyMatch(p -> p != 0)) content = true;
                 var value = published.get(region.id());
-                if (value != null) views.add(new RegionView(value.result(), region.selectedItem(), translations.get(region.id())));
+                if (value != null) {
+                    var translated = translations.get(region.id());
+                    views.add(new RegionView(value.result(), region.selectedItem(), translated));
+                    // Capture accepted stable results before the UI's latest-view slot can drop intermediate views.
+                    if (recordedResults.get(region.id()) != value && activeSelection == selectionId.get()
+                            && activePlayerNameRevision == playerNameRevision.get()) {
+                        var result = value.result();
+                        var lines = new ArrayList<>(result.rawOcr());
+                        lines.addAll(result.footerLines());
+                        history.addFirst(new HistoryEntry(++historySequence, LocalDateTime.now(), result.layout(),
+                                result.semanticType(), String.join("\n", lines), List.copyOf(translated)));
+                        if (history.size() > 10) history.removeLast();
+                        recordedResults.put(region.id(), value);
+                    }
+                }
             }
             String status = views.isEmpty() ? (content ? "文字尚未稳定" : "已校准，当前无目标文字") : "识别中";
             if (views.stream().flatMap(view -> view.text().diagnostics().stream()).flatMap(line -> line.characters().stream())

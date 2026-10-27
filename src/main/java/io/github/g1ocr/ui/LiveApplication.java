@@ -18,6 +18,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListCell;
+import javafx.scene.control.ListView;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.ScrollPane;
@@ -41,12 +42,14 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.time.format.DateTimeFormatter;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicReference;
 
 /** Local translation with the original visual OCR available in a separate tab. */
 public final class LiveApplication extends Application {
     private static final String AUTOMATIC_PLAYER_NAME = "自动识别（未指定）";
+    private static final DateTimeFormatter HISTORY_TIME = DateTimeFormatter.ofPattern("MM-dd HH:mm:ss");
     private final AtomicReference<LiveSession.View> latest = new AtomicReference<>();
     private final ComboBox<WindowCapture.Window> windows = new ComboBox<>();
     private final ComboBox<String> playerNames = new ComboBox<>();
@@ -58,6 +61,11 @@ public final class LiveApplication extends Application {
     private final TextArea chinese = new TextArea();
     private final TextArea dialogueText = new TextArea();
     private final TextArea diagnostics = new TextArea();
+    private final ListView<LiveSession.HistoryEntry> historyList = new ListView<>();
+    private final TextArea historyJapanese = new TextArea();
+    private final TextArea historyChinese = new TextArea();
+    private final TextArea historyStatus = new TextArea();
+    private boolean updatingHistory;
     private final ImageView preview = new ImageView();
     private final Spinner<Integer> fontSize = new Spinner<>(12, 36, 20);
     private final ToggleButton compactMode = new ToggleButton("简洁模式");
@@ -71,6 +79,7 @@ public final class LiveApplication extends Application {
     private final BorderPane detachedRoot = new BorderPane();
     private Stage mainStage;
     private Stage listStage;
+    private Stage historyStage;
     private Scene normalScene;
     private Scene compactScene;
     private Rectangle2D normalBounds;
@@ -146,9 +155,11 @@ public final class LiveApplication extends Application {
         compactMode.setOnAction(event -> setCompactMode(compactMode.isSelected()));
         Button split = new Button("拆分文本框");
         split.setOnAction(event -> splitTexts());
+        Button historyButton = new Button("识别历史");
+        historyButton.setOnAction(event -> showHistory());
         VBox toolbar = new VBox(10, new HBox(8, windows, reload, start, stop, calibrate),
                 new HBox(8, playerNameLabel, playerNames, addPlayer, editPlayer, deletePlayer),
-                new HBox(8, fontSizeLabel, fontSize, compactMode, split),
+                new HBox(8, fontSizeLabel, fontSize, compactMode, split, historyButton),
                 new Label("采集配置：new3ds_view · 仅上屏 · VC 原生 1:1 · 投屏点对点整数倍率"), status);
         toolbar.setPadding(new Insets(16));
         status.setWrapText(true);
@@ -181,7 +192,9 @@ public final class LiveApplication extends Application {
             copy.setOnAction(event -> area.copy());
             MenuItem selectAll = new MenuItem("全选");
             selectAll.setOnAction(event -> area.selectAll());
-            menu.getItems().addAll(mode, layout, sizeMenu, copy, selectAll);
+            MenuItem historyItem = new MenuItem("识别历史（最近10条）");
+            historyItem.setOnAction(event -> showHistory());
+            menu.getItems().addAll(mode, layout, sizeMenu, historyItem, copy, selectAll);
             menu.setOnShowing(event -> {
                 mode.setText(compactView ? "退出简洁模式" : "进入简洁模式");
                 layout.setText(splitView ? "合并文本框" : "拆分为独立窗口");
@@ -233,6 +246,46 @@ public final class LiveApplication extends Application {
             event.consume();
             mergeTexts();
         });
+        historyList.setPlaceholder(new Label("暂无识别历史"));
+        historyList.setMinWidth(180);
+        historyList.setCellFactory(list -> new ListCell<>() {
+            @Override protected void updateItem(LiveSession.HistoryEntry entry, boolean empty) {
+                super.updateItem(entry, empty);
+                setText(empty || entry == null ? null : "#" + entry.sequence() + " · "
+                        + entry.recordedAt().format(HISTORY_TIME) + "\n"
+                        + regionName(entry.layout(), entry.semanticType()) + " · "
+                        + entry.rawJapanese().replace('\n', ' '));
+            }
+        });
+        historyList.getSelectionModel().selectedItemProperty().addListener((observable, previous, entry) -> {
+            if (!updatingHistory) showHistoryEntry(entry);
+        });
+        for (var area : java.util.List.of(historyJapanese, historyChinese, historyStatus)) {
+            area.setEditable(false);
+            area.setWrapText(true);
+            area.setMinHeight(0);
+            area.setPromptText("选择左侧历史记录查看");
+        }
+        historyJapanese.setFont(Font.font("Meiryo", 18));
+        historyChinese.setFont(Font.font("Microsoft YaHei", 18));
+        historyStatus.setFont(Font.font("Microsoft YaHei", 14));
+        historyStatus.setPrefRowCount(4);
+        VBox.setVgrow(historyJapanese, Priority.ALWAYS);
+        VBox.setVgrow(historyChinese, Priority.ALWAYS);
+        VBox historyDetail = new VBox(6, new Label("原始日文"), historyJapanese,
+                new Label("中文结果（当时记录）"), historyChinese, new Label("匹配与显示状态"), historyStatus);
+        historyDetail.setMinWidth(0);
+        SplitPane historyContent = new SplitPane(historyList, historyDetail);
+        historyContent.setDividerPositions(0.33);
+        BorderPane historyRoot = new BorderPane(historyContent);
+        historyRoot.setTop(new Label("最近10条稳定识别 · 包含全部识别区域 · 仅本次运行保留"));
+        historyRoot.setPadding(new Insets(12));
+        historyStage = new Stage();
+        historyStage.initOwner(stage);
+        historyStage.setTitle("G1 OCR — 识别历史");
+        historyStage.setScene(new Scene(historyRoot, 940, 620));
+        historyStage.setMinWidth(700);
+        historyStage.setMinHeight(440);
         stage.setTitle("G1 OCR 翻译 — 开发版");
         stage.setScene(normalScene);
         stage.setMinWidth(860);
@@ -264,12 +317,59 @@ public final class LiveApplication extends Application {
         refresh = new AnimationTimer() {
             @Override public void handle(long now) {
                 LiveSession.View view = latest.getAndSet(null);
-                if (view != null && view.selectionId() == session.selectionId()
-                        && view.playerNameRevision() == session.playerNameRevision()) render(view);
+                if (view != null) {
+                    if (!historyList.getItems().equals(view.history())) {
+                        var selected = historyList.getSelectionModel().getSelectedItem();
+                        updatingHistory = true;
+                        historyList.getItems().setAll(view.history());
+                        if (selected != null && view.history().contains(selected))
+                            historyList.getSelectionModel().select(selected);
+                        else historyList.getSelectionModel().selectFirst();
+                        updatingHistory = false;
+                        var current = historyList.getSelectionModel().getSelectedItem();
+                        if (current != selected) showHistoryEntry(current);
+                    }
+                    if (view.selectionId() == session.selectionId()
+                            && view.playerNameRevision() == session.playerNameRevision()) render(view);
+                }
             }
         };
         refresh.start();
         reload.fire();
+    }
+
+    private void showHistory() {
+        historyStage.show();
+        historyStage.toFront();
+    }
+
+    private void showHistoryEntry(LiveSession.HistoryEntry entry) {
+        if (entry == null) {
+            historyJapanese.clear(); historyChinese.clear(); historyStatus.clear();
+            return;
+        }
+        historyJapanese.setText(entry.rawJapanese());
+        StringBuilder chinese = new StringBuilder();
+        StringBuilder states = new StringBuilder("#" + entry.sequence() + " · "
+                + entry.recordedAt().format(HISTORY_TIME) + " · "
+                + regionName(entry.layout(), entry.semanticType()));
+        for (var unit : entry.translation()) {
+            chinese.append(unit.chinese().isEmpty() ? "〔暂无可用译文〕" : unit.chinese()).append('\n');
+            String match = switch (unit.matchStatus()) {
+                case "unique" -> "唯一匹配";
+                case "equivalent" -> "多来源一致";
+                case "ambiguous" -> "候选不一致";
+                case "missing" -> "未收录";
+                case "unreliable" -> "字符不可靠";
+                default -> unit.matchStatus();
+            };
+            String message = translationMessage(unit.displayStatus());
+            if (message.isEmpty()) message = unit.chinese().isEmpty() ? "无中文内容" : "已翻译";
+            states.append("\n\n").append(unit.rawJapanese()).append("\n匹配：").append(match)
+                    .append("；显示：").append(message);
+        }
+        historyChinese.setText(chinese.toString());
+        historyStatus.setText(states.toString());
     }
 
     private ListCell<String> playerNameCell() {
@@ -439,13 +539,7 @@ public final class LiveApplication extends Application {
                     itemIndex++;
                 }
             }
-            String label = switch (result.layout()) {
-                case "dialogue" -> "主对话";
-                case "battle_action" -> "战斗操作";
-                case "battle_moves" -> "战斗技能";
-                case "shop_items" -> "商店商品";
-                default -> result.semanticType().equals("pc_pokemon") ? "PC 宝可梦" : "道具列表（用途未确定）";
-            };
+            String label = regionName(result.layout(), result.semanticType());
             if (!itemList) {
                 body.append(label);
                 if (region.selectedItem() != null) body.append(" · 选中第 ").append(region.selectedItem() + 1).append(" 项");
@@ -477,18 +571,7 @@ public final class LiveApplication extends Application {
                 var unit = region.translation().get(itemIndex);
                 if (itemList) translated.append(java.util.Objects.equals(selectedUnit, itemIndex) ? "▶ " : "  ");
                 translated.append(unit.display()).append('\n');
-                String message = switch (unit.displayStatus()) {
-                    case "ready" -> "";
-                    case "ready_waiting" -> "后续内容等待完整显示";
-                    case "ambiguous" -> "候选译文或显示条件存在差异，保留日文";
-                    case "context_required" -> "缺少连续前文，保留日文";
-                    case "variables_missing" -> "译文所需变量不足（玩家名可使用所选或已确认值），保留日文";
-                    case "source_semantic_mismatch" -> "原汉化含义有误，暂时保留日文";
-                    case "wait_for_semantic_unit" -> "等待语义单元完整显示";
-                    case "incomplete" -> "当前文字片段尚未完整显示";
-                    case "unknown_character" -> "存在未识别字符";
-                    default -> "未收录或当前片段不可翻译";
-                };
+                String message = translationMessage(unit.displayStatus());
                 if (!message.isEmpty()) translated.append('〔').append(message).append("〕\n");
                 details.append("\n匹配=").append(unit.matchStatus()).append(" 显示=").append(unit.displayStatus());
                 for (var candidate : unit.candidates()) {
@@ -515,7 +598,33 @@ public final class LiveApplication extends Application {
         }
     }
 
+    private String regionName(String layout, String semanticType) {
+        return switch (layout) {
+            case "dialogue" -> "主对话";
+            case "battle_action" -> "战斗操作";
+            case "battle_moves" -> "战斗技能";
+            case "shop_items" -> "商店商品";
+            default -> semanticType.equals("pc_pokemon") ? "PC 宝可梦" : "道具列表（用途未确定）";
+        };
+    }
+
+    private String translationMessage(String displayStatus) {
+        return switch (displayStatus) {
+            case "ready" -> "";
+            case "ready_waiting" -> "后续内容等待完整显示";
+            case "ambiguous" -> "候选译文或显示条件存在差异，保留日文";
+            case "context_required" -> "缺少连续前文，保留日文";
+            case "variables_missing" -> "译文所需变量不足（玩家名可使用所选或已确认值），保留日文";
+            case "source_semantic_mismatch" -> "原汉化含义有误，暂时保留日文";
+            case "wait_for_semantic_unit" -> "等待语义单元完整显示";
+            case "incomplete" -> "当前文字片段尚未完整显示";
+            case "unknown_character" -> "存在未识别字符";
+            default -> "未收录或当前片段不可翻译";
+        };
+    }
+
     @Override public void stop() {
+        if (historyStage != null) historyStage.hide();
         if (listStage != null) listStage.hide();
         if (refresh != null) refresh.stop();
         if (session != null) session.close();
