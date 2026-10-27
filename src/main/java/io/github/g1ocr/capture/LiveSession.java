@@ -22,9 +22,11 @@ import java.util.function.Consumer;
 /** One worker owns native capture, calibration and OCR. The UI receives only the latest view. */
 public final class LiveSession implements AutoCloseable {
     public record RegionView(PixelOcr.Result text, Integer selectedItem, List<TextResolver.Unit> translation) {}
-    public record View(long selectionId, String status, String diagnostics, BufferedImage gb, List<RegionView> regions) {}
+    public record View(long selectionId, long playerNameRevision, String status, String diagnostics,
+                       BufferedImage gb, List<RegionView> regions) {}
     private final ScheduledExecutorService worker = Executors.newSingleThreadScheduledExecutor(r -> new Thread(r, "g1-capture"));
     private final AtomicLong selectionId = new AtomicLong();
+    private final AtomicLong playerNameRevision = new AtomicLong();
     private final Consumer<View> listener;
     private final OcrPipeline pipeline;
     private final ViewportResolver resolver;
@@ -34,6 +36,7 @@ public final class LiveSession implements AutoCloseable {
     private WindowCapture capture;
     private WindowCapture.Window window;
     private long activeSelection;
+    private long activePlayerNameRevision;
     private long revision = -1;
     private GbFrame.Mapping mapping;
 
@@ -46,6 +49,19 @@ public final class LiveSession implements AutoCloseable {
     }
 
     public long selectionId() { return selectionId.get(); }
+    public long playerNameRevision() { return playerNameRevision.get(); }
+
+    public void selectPlayerName(String name) {
+        long revision = playerNameRevision.incrementAndGet();
+        worker.execute(() -> {
+            if (revision != playerNameRevision.get()) return;
+            translator.selectPlayerName(name);
+            translations.clear();
+            published.forEach((id, value) -> translations.put(id, translator.resolve(value.result())));
+            activePlayerNameRevision = revision;
+            if (capture == null) emit("玩家名已更新，请选择窗口并开始", "", null, List.of());
+        });
+    }
 
     public void refreshWindows(Consumer<List<WindowCapture.Window>> result, Consumer<String> error) {
         worker.execute(() -> {
@@ -93,7 +109,7 @@ public final class LiveSession implements AutoCloseable {
     }
 
     private void emit(String status, String diagnostics, BufferedImage gb, List<RegionView> regions) {
-        listener.accept(new View(activeSelection, status, diagnostics, gb, List.copyOf(regions)));
+        listener.accept(new View(activeSelection, activePlayerNameRevision, status, diagnostics, gb, List.copyOf(regions)));
     }
 
     private void fail(Throwable error) {

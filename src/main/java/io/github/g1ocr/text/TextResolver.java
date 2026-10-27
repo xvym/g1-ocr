@@ -26,9 +26,11 @@ public final class TextResolver {
     private final TextCorpus corpus;
     private final Map<String, List<Progress>> histories = new LinkedHashMap<>();
     private String playerName;
+    private String selectedPlayerName;
 
     public TextResolver(TextCorpus corpus) { this.corpus = corpus; }
     public void reset() { histories.clear(); playerName = null; }
+    public void selectPlayerName(String name) { selectedPlayerName = name; reset(); }
     public void retainRegions(Set<String> visible) { histories.keySet().retainAll(visible); }
 
     public List<Unit> resolve(PixelOcr.Result result) {
@@ -135,6 +137,7 @@ public final class TextResolver {
 
     private Rendering render(TextCorpus.Hit hit, int start) {
         var fragment = hit.fragment();
+        String fallbackPlayerName = selectedPlayerName != null ? selectedPlayerName : playerName;
         String savedChinese = TextCorpus.slice(fragment.entry().chinese(), fragment.chineseStart(), fragment.chineseEnd());
         boolean useDisplay = !fragment.displayChinese().isEmpty();
         if (useDisplay && fragment.displayPolicy().equals("missing_rolled_name")) {
@@ -142,7 +145,7 @@ public final class TextResolver {
             var required = SLOT.matcher(savedChinese);
             while (required.find()) {
                 String slot = required.group(1);
-                if (!hit.variables().containsKey(slot) && !(slot.equals("PLAYER") && playerName != null)) {
+                if (!hit.variables().containsKey(slot) && !(slot.equals("PLAYER") && fallbackPlayerName != null)) {
                     useDisplay = true;
                     break;
                 }
@@ -172,10 +175,10 @@ public final class TextResolver {
             var slots = SLOT.matcher(chinese);
             while (slots.find()) {
                 String slot = slots.group(1), value = hit.variables().get(slot);
-                // Only PLAYER may come from the session; every other slot still needs current pixels.
-                if (value == null && slot.equals("PLAYER") && playerName != null) {
-                    value = playerName;
-                    reusedPlayerName = playerName;
+                // Only PLAYER may come from the selected name or session; other slots need current pixels.
+                if (value == null && slot.equals("PLAYER") && fallbackPlayerName != null) {
+                    value = fallbackPlayerName;
+                    reusedPlayerName = fallbackPlayerName;
                 }
                 if (value == null) { status = "variables_missing"; break; }
                 values.put(slot, translatedVariable(fragment.entry(), slot, value));
@@ -193,8 +196,8 @@ public final class TextResolver {
         if (!name && !List.of("item", "move", "pokemon", "stat", "city").contains(kind)) return raw;
         boolean enemy = kind.equals("battle_name") && raw.startsWith("てきの ");
         String value = enemy ? raw.substring(4) : raw;
-        var chinese = (name ? corpus.words(value, List.of()) : corpus.variableWords(value, kind)).stream()
-                .filter(e -> name || e.games().equals(entry.games()))
+        var chinese = name ? corpus.nameTranslations(value) : corpus.variableWords(value, kind).stream()
+                .filter(e -> e.games().equals(entry.games()))
                 .map(e -> corpus.displayChinese(e, e.chinese())).distinct().toList();
         return (enemy ? corpus.enemyPrefix(entry) : "") + (chinese.size() == 1 ? chinese.getFirst() : value);
     }

@@ -69,6 +69,35 @@ class TranslationTest {
         assertTrue(failures.isEmpty(), String.join("\n", failures));
     }
 
+    @Test void selectedPlayerNameWorksWithoutPriorDialogueAndSurvivesReset() {
+        var resolver = new TextResolver(corpus);
+        String raw = "カンナとの\nしょうぶに かった！";
+        resolver.selectPlayerName("サトシ");
+        var victory = resolver.dialogue("dialogue", raw);
+        assertEquals("ready", victory.displayStatus());
+        assertEquals("小智战胜了\n科拿！", victory.chinese());
+        assertEquals(raw, victory.rawJapanese());
+        assertTrue(victory.candidates().stream().allMatch(c -> c.variables().equals(Map.of("RAM1", "カンナ"))
+                && c.reusedPlayerName().equals("サトシ")));
+        resolver.reset();
+        assertEquals("小智战胜了\n科拿！", resolver.dialogue("dialogue", raw).chinese());
+        resolver.selectPlayerName("レッド");
+        assertEquals("赤红战胜了\n科拿！", resolver.dialogue("dialogue", raw).chinese());
+        resolver.selectPlayerName(null);
+        assertEquals("variables_missing", resolver.dialogue("dialogue", raw).displayStatus());
+    }
+
+    @Test void visiblePlayerNameHasPriorityWithoutReplacingTheSelectedName() {
+        var resolver = new TextResolver(corpus);
+        resolver.selectPlayerName("サトシ");
+        var visible = resolver.dialogue("dialogue", "レッドは ひきかえけんで\nじてんしゃを もらった！");
+        assertEquals("赤红用兑换券\n得到了自行车！", visible.chinese());
+        assertTrue(visible.candidates().stream().allMatch(c -> c.reusedPlayerName().isEmpty()));
+        assertEquals("小智战胜了\n科拿！", resolver.dialogue("dialogue", "カンナとの\nしょうぶに かった！").chinese());
+        resolver.selectPlayerName(null);
+        assertEquals("variables_missing", resolver.dialogue("dialogue", "カンナとの\nしょうぶに かった！").displayStatus());
+    }
+
     @Test void incompleteTextAndOpponentNamesDoNotEstablishPlayerIdentity() {
         for (String raw : List.of("サトシは ひきかえけんで\nじてんしゃを もら",
                 "サト�は ひきかえけんで\nじてんしゃを もらった！", "カンナ『…… なんて やつなの！")) {

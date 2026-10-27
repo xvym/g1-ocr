@@ -81,10 +81,20 @@ public final class TextCorpus {
         }
     }
 
+    public List<String> presetNames() {
+        return entries.values().stream().filter(entry -> entry.id().contains(":fixed:DefaultName."))
+                .map(Entry::japanese).distinct().toList();
+    }
+
     /** An empty kind list searches every standalone word, for names and nicknames. */
     public List<Entry> words(String text, List<String> kinds) {
         return words.getOrDefault(canonical(text), List.of()).stream()
                 .filter(e -> kinds.isEmpty() || kinds.contains(e.kind())).toList();
+    }
+
+    public List<String> nameTranslations(String name) {
+        return words(name, List.of()).stream().map(entry -> displayChinese(entry, entry.chinese()))
+                .distinct().toList();
     }
 
     public List<Hit> dialogue(String text) {
