@@ -2749,13 +2749,17 @@ pokegreen:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text
 {{RAM1}}后启程收集
 宝可梦图鉴时的你，
 现在的你真的成长了不少！",30,73,semantic_visible,game_text_controls,"ポケモン ずかん あつめに
-でかけた ころと くらべると",[3],,,,,
+でかけた ころと くらべると",[3],,,"比起启程收集
+宝可梦图鉴时的你，
+现在的你真的成长了不少！",tools/text_fragment_displays.csv:N029:model_reviewed_not_human,missing_rolled_name
 pokegreen:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text,7,"でかけた　ころと　くらべると
 たくましく　なったな！",6,"比起刚刚捕获
 {{RAM1}}后启程收集
 宝可梦图鉴时的你，
 现在的你真的成长了不少！",30,73,semantic_visible,game_text_controls,"でかけた ころと くらべると
-たくましく なったな！",[3],,,,,
+たくましく なったな！",[3],,,"比起启程收集
+宝可梦图鉴时的你，
+现在的你真的成长了不少！",tools/text_fragment_displays.csv:N030:model_reviewed_not_human,missing_rolled_name
 pokegreen:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text,8,⋯⋯　いやいや！,7,"……哎呀哎呀！
 {{PLAYER}}
 你真的是长大了！",75,102,semantic_visible,game_text_controls,…… いやいや！,[4],,,,,
@@ -21930,6 +21934,11 @@ pokegreen:composed:StatChange.MonsStatsRoseText.normal,2,"{{USER}}の
 {{RAM1}}が　あがった！",1,"{{USER}}的
 {{RAM1}}提高了！",0,22,whole_visible_unit,explicit_control_flow,"{{USER}}の
 {{RAM1}}が あがった！",[1],,,,,
+pokegreen:composed:StatChange.MonsStatsRoseText.normal,2,"{{USER}}の
+{{RAM1}}が",1,"{{USER}}的
+{{RAM1}}提高了！",0,22,whole_visible_unit,explicit_stat_change_prefix,"{{USER}}の
+{{RAM1}}が",[1],,,"{{USER}}的
+{{RAM1}}",tools/text_fragment_displays.csv:S001:model_reviewed_not_human,stat_change_prefix
 pokegreen:composed:StatChange.MonsStatsRoseText.large,1,{{USER}}の,,"{{USER}}的
 {{RAM1}}
 大幅提高了！",0,25,whole_visible_unit,explicit_control_flow,{{USER}}の,[1],,,,,
@@ -21937,7 +21946,8 @@ pokegreen:composed:StatChange.MonsStatsRoseText.large,2,"{{USER}}の
 {{RAM1}}が",1,"{{USER}}的
 {{RAM1}}
 大幅提高了！",0,25,whole_visible_unit,explicit_control_flow,"{{USER}}の
-{{RAM1}}が",[1],,,,,
+{{RAM1}}が",[1],,,"{{USER}}的
+{{RAM1}}",tools/text_fragment_displays.csv:S001:model_reviewed_not_human,stat_change_prefix
 pokegreen:composed:StatChange.MonsStatsRoseText.large,3,"{{RAM1}}が
 ぐーんと　あがった！",2,"{{USER}}的
 {{RAM1}}
@@ -21950,6 +21960,11 @@ pokegreen:composed:StatChange.MonsStatsFellText.normal,2,"{{TARGET}}の
 {{RAM1}}が　さがった！",1,"{{TARGET}}的
 {{RAM1}}降低了！",0,24,whole_visible_unit,explicit_control_flow,"{{TARGET}}の
 {{RAM1}}が さがった！",[1],,,,,
+pokegreen:composed:StatChange.MonsStatsFellText.normal,2,"{{TARGET}}の
+{{RAM1}}が",1,"{{TARGET}}的
+{{RAM1}}降低了！",0,24,whole_visible_unit,explicit_stat_change_prefix,"{{TARGET}}の
+{{RAM1}}が",[1],,,"{{TARGET}}的
+{{RAM1}}",tools/text_fragment_displays.csv:S001:model_reviewed_not_human,stat_change_prefix
 pokegreen:composed:StatChange.MonsStatsFellText.large,1,{{TARGET}}の,,"{{TARGET}}的
 {{RAM1}}
 大幅降低了！",0,27,whole_visible_unit,explicit_control_flow,{{TARGET}}の,[1],,,{{TARGET}},tools/text_fragment_displays.csv:O020:model_reviewed_not_human,common
@@ -21957,7 +21972,8 @@ pokegreen:composed:StatChange.MonsStatsFellText.large,2,"{{TARGET}}の
 {{RAM1}}が",1,"{{TARGET}}的
 {{RAM1}}
 大幅降低了！",0,27,whole_visible_unit,explicit_control_flow,"{{TARGET}}の
-{{RAM1}}が",[1],,,,,
+{{RAM1}}が",[1],,,"{{TARGET}}的
+{{RAM1}}",tools/text_fragment_displays.csv:S001:model_reviewed_not_human,stat_change_prefix
 pokegreen:composed:StatChange.MonsStatsFellText.large,3,"{{RAM1}}が
 がくっと　さがった！",2,"{{TARGET}}的
 {{RAM1}}
@@ -24750,13 +24766,17 @@ pokeblue:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text,
 {{RAM1}}后启程收集
 宝可梦图鉴时的你，
 现在的你真的成长了不少！",30,73,semantic_visible,game_text_controls,"ポケモン ずかん あつめに
-でかけた ころと くらべると",[3],,,,,
+でかけた ころと くらべると",[3],,,"比起启程收集
+宝可梦图鉴时的你，
+现在的你真的成长了不少！",tools/text_fragment_displays.csv:N029:model_reviewed_not_human,missing_rolled_name
 pokeblue:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text,7,"でかけた　ころと　くらべると
 たくましく　なったな！",6,"比起刚刚捕获
 {{RAM1}}后启程收集
 宝可梦图鉴时的你，
 现在的你真的成长了不少！",30,73,semantic_visible,game_text_controls,"でかけた ころと くらべると
-たくましく なったな！",[3],,,,,
+たくましく なったな！",[3],,,"比起启程收集
+宝可梦图鉴时的你，
+现在的你真的成长了不少！",tools/text_fragment_displays.csv:N030:model_reviewed_not_human,missing_rolled_name
 pokeblue:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text,8,⋯⋯　いやいや！,7,"……哎呀哎呀！
 {{PLAYER}}
 你真的是长大了！",75,102,semantic_visible,game_text_controls,…… いやいや！,[4],,,,,
@@ -43931,6 +43951,11 @@ pokeblue:composed:StatChange.MonsStatsRoseText.normal,2,"{{USER}}の
 {{RAM1}}が　あがった！",1,"{{USER}}的
 {{RAM1}}提高了！",0,22,whole_visible_unit,explicit_control_flow,"{{USER}}の
 {{RAM1}}が あがった！",[1],,,,,
+pokeblue:composed:StatChange.MonsStatsRoseText.normal,2,"{{USER}}の
+{{RAM1}}が",1,"{{USER}}的
+{{RAM1}}提高了！",0,22,whole_visible_unit,explicit_stat_change_prefix,"{{USER}}の
+{{RAM1}}が",[1],,,"{{USER}}的
+{{RAM1}}",tools/text_fragment_displays.csv:S001:model_reviewed_not_human,stat_change_prefix
 pokeblue:composed:StatChange.MonsStatsRoseText.large,1,{{USER}}の,,"{{USER}}的
 {{RAM1}}
 大幅提高了！",0,25,whole_visible_unit,explicit_control_flow,{{USER}}の,[1],,,,,
@@ -43938,7 +43963,8 @@ pokeblue:composed:StatChange.MonsStatsRoseText.large,2,"{{USER}}の
 {{RAM1}}が",1,"{{USER}}的
 {{RAM1}}
 大幅提高了！",0,25,whole_visible_unit,explicit_control_flow,"{{USER}}の
-{{RAM1}}が",[1],,,,,
+{{RAM1}}が",[1],,,"{{USER}}的
+{{RAM1}}",tools/text_fragment_displays.csv:S001:model_reviewed_not_human,stat_change_prefix
 pokeblue:composed:StatChange.MonsStatsRoseText.large,3,"{{RAM1}}が
 ぐーんと　あがった！",2,"{{USER}}的
 {{RAM1}}
@@ -43951,6 +43977,11 @@ pokeblue:composed:StatChange.MonsStatsFellText.normal,2,"{{TARGET}}の
 {{RAM1}}が　さがった！",1,"{{TARGET}}的
 {{RAM1}}降低了！",0,24,whole_visible_unit,explicit_control_flow,"{{TARGET}}の
 {{RAM1}}が さがった！",[1],,,,,
+pokeblue:composed:StatChange.MonsStatsFellText.normal,2,"{{TARGET}}の
+{{RAM1}}が",1,"{{TARGET}}的
+{{RAM1}}降低了！",0,24,whole_visible_unit,explicit_stat_change_prefix,"{{TARGET}}の
+{{RAM1}}が",[1],,,"{{TARGET}}的
+{{RAM1}}",tools/text_fragment_displays.csv:S001:model_reviewed_not_human,stat_change_prefix
 pokeblue:composed:StatChange.MonsStatsFellText.large,1,{{TARGET}}の,,"{{TARGET}}的
 {{RAM1}}
 大幅降低了！",0,27,whole_visible_unit,explicit_control_flow,{{TARGET}}の,[1],,,{{TARGET}},tools/text_fragment_displays.csv:O020:model_reviewed_not_human,common
@@ -43958,7 +43989,8 @@ pokeblue:composed:StatChange.MonsStatsFellText.large,2,"{{TARGET}}の
 {{RAM1}}が",1,"{{TARGET}}的
 {{RAM1}}
 大幅降低了！",0,27,whole_visible_unit,explicit_control_flow,"{{TARGET}}の
-{{RAM1}}が",[1],,,,,
+{{RAM1}}が",[1],,,"{{TARGET}}的
+{{RAM1}}",tools/text_fragment_displays.csv:S001:model_reviewed_not_human,stat_change_prefix
 pokeblue:composed:StatChange.MonsStatsFellText.large,3,"{{RAM1}}が
 がくっと　さがった！",2,"{{TARGET}}的
 {{RAM1}}
@@ -46848,13 +46880,17 @@ pokeyellow-jp:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.
 {{RAM1}}后启程收集
 宝可梦图鉴时的你，
 现在的你真的成长了不少！",30,73,semantic_visible,game_text_controls,"ポケモン ずかん あつめに
-でかけた ころと くらべると",[3],,,,,
+でかけた ころと くらべると",[3],,,"比起启程收集
+宝可梦图鉴时的你，
+现在的你真的成长了不少！",tools/text_fragment_displays.csv:N029:model_reviewed_not_human,missing_rolled_name
 pokeyellow-jp:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text,7,"でかけた　ころと　くらべると
 たくましく　なったな！",6,"比起刚刚捕获
 {{RAM1}}后启程收集
 宝可梦图鉴时的你，
 现在的你真的成长了不少！",30,73,semantic_visible,game_text_controls,"でかけた ころと くらべると
-たくましく なったな！",[3],,,,,
+たくましく なったな！",[3],,,"比起启程收集
+宝可梦图鉴时的你，
+现在的你真的成长了不少！",tools/text_fragment_displays.csv:N030:model_reviewed_not_human,missing_rolled_name
 pokeyellow-jp:scripts/ChampionsRoom.asm:ChampionsRoomOakCongratulatesPlayerText.Text,8,⋯⋯　いやいや！,7,"……哎呀哎呀！
 {{PLAYER}}
 你真的是长大了！",75,102,semantic_visible,game_text_controls,…… いやいや！,[4],,,,,
@@ -66699,6 +66735,11 @@ pokeyellow-jp:composed:StatChange.MonsStatsRoseText.normal,2,"{{USER}}の
 {{RAM1}}が　あがった！",1,"{{USER}}的
 {{RAM1}}提高了！",0,22,whole_visible_unit,explicit_control_flow,"{{USER}}の
 {{RAM1}}が あがった！",[1],,,,,
+pokeyellow-jp:composed:StatChange.MonsStatsRoseText.normal,2,"{{USER}}の
+{{RAM1}}が",1,"{{USER}}的
+{{RAM1}}提高了！",0,22,whole_visible_unit,explicit_stat_change_prefix,"{{USER}}の
+{{RAM1}}が",[1],,,"{{USER}}的
+{{RAM1}}",tools/text_fragment_displays.csv:S001:model_reviewed_not_human,stat_change_prefix
 pokeyellow-jp:composed:StatChange.MonsStatsRoseText.large,1,{{USER}}の,,"{{USER}}的
 {{RAM1}}
 大幅提高了！",0,25,whole_visible_unit,explicit_control_flow,{{USER}}の,[1],,,,,
@@ -66706,7 +66747,8 @@ pokeyellow-jp:composed:StatChange.MonsStatsRoseText.large,2,"{{USER}}の
 {{RAM1}}が",1,"{{USER}}的
 {{RAM1}}
 大幅提高了！",0,25,whole_visible_unit,explicit_control_flow,"{{USER}}の
-{{RAM1}}が",[1],,,,,
+{{RAM1}}が",[1],,,"{{USER}}的
+{{RAM1}}",tools/text_fragment_displays.csv:S001:model_reviewed_not_human,stat_change_prefix
 pokeyellow-jp:composed:StatChange.MonsStatsRoseText.large,3,"{{RAM1}}が
 ぐーんと　あがった！",2,"{{USER}}的
 {{RAM1}}
@@ -66719,6 +66761,11 @@ pokeyellow-jp:composed:StatChange.MonsStatsFellText.normal,2,"{{TARGET}}の
 {{RAM1}}が　さがった！",1,"{{TARGET}}的
 {{RAM1}}降低了！",0,24,whole_visible_unit,explicit_control_flow,"{{TARGET}}の
 {{RAM1}}が さがった！",[1],,,,,
+pokeyellow-jp:composed:StatChange.MonsStatsFellText.normal,2,"{{TARGET}}の
+{{RAM1}}が",1,"{{TARGET}}的
+{{RAM1}}降低了！",0,24,whole_visible_unit,explicit_stat_change_prefix,"{{TARGET}}の
+{{RAM1}}が",[1],,,"{{TARGET}}的
+{{RAM1}}",tools/text_fragment_displays.csv:S001:model_reviewed_not_human,stat_change_prefix
 pokeyellow-jp:composed:StatChange.MonsStatsFellText.large,1,{{TARGET}}の,,"{{TARGET}}的
 {{RAM1}}
 大幅降低了！",0,27,whole_visible_unit,explicit_control_flow,{{TARGET}}の,[1],,,{{TARGET}},tools/text_fragment_displays.csv:O020:model_reviewed_not_human,common
@@ -66726,7 +66773,8 @@ pokeyellow-jp:composed:StatChange.MonsStatsFellText.large,2,"{{TARGET}}の
 {{RAM1}}が",1,"{{TARGET}}的
 {{RAM1}}
 大幅降低了！",0,27,whole_visible_unit,explicit_control_flow,"{{TARGET}}の
-{{RAM1}}が",[1],,,,,
+{{RAM1}}が",[1],,,"{{TARGET}}的
+{{RAM1}}",tools/text_fragment_displays.csv:S001:model_reviewed_not_human,stat_change_prefix
 pokeyellow-jp:composed:StatChange.MonsStatsFellText.large,3,"{{RAM1}}が
 がくっと　さがった！",2,"{{TARGET}}的
 {{RAM1}}

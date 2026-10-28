@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-28",
+  "scope": "Static audit of all 165 move names in each pinned Japanese source; pokegreen covers Red and Green, plus Blue and Yellow. No application or test execution.",
+  "sourceRecords": 495,
+  "distinctMoves": 165,
+  "sources": [
+    {
+      "source": "pokeblue",
+      "moves": 165,
+      "padded": [
+        {
+          "id": "pokeblue:move:SUBMISSION",
+          "japanese": "じごくぐるま　",
+          "chinese": "地狱翻滚",
+          "source": "data/moves/names.asm",
+          "line": "68"
+        }
+      ]
+    },
+    {
+      "source": "pokegreen",
+      "moves": 165,
+      "padded": [
+        {
+          "id": "pokegreen:move:SUBMISSION",
+          "japanese": "じごくぐるま　",
+          "chinese": "地狱翻滚",
+          "source": "data/moves/names.asm",
+          "line": "68"
+        }
+      ]
+    },
+    {
+      "source": "pokeyellow-jp",
+      "moves": 165,
+      "padded": [
+        {
+          "id": "pokeyellow-jp:move:SUBMISSION",
+          "japanese": "じごくぐるま　",
+          "chinese": "地狱翻滚",
+          "source": "data/moves/names.asm",
+          "line": "68"
+        }
+      ]
+    }
+  ],
+  "originalSources": [
+    {
+      "source": "pokegreen",
+      "names": 165,
+      "whitespaceNames": [
+        "じごくぐるま　"
+      ],
+      "sha256": "4d00d96e1bf45de738303cec31b2620fb057384f3fd111303bba600d69aec31a"
+    },
+    {
+      "source": "pokeblue",
+      "names": 165,
+      "whitespaceNames": [
+        "じごくぐるま　"
+      ],
+      "sha256": "4d00d96e1bf45de738303cec31b2620fb057384f3fd111303bba600d69aec31a"
+    },
+    {
+      "source": "pokeyellow-jp",
+      "names": 165,
+      "whitespaceNames": [
+        "じごくぐるま　"
+      ],
+      "sha256": "4d00d96e1bf45de738303cec31b2620fb057384f3fd111303bba600d69aec31a"
+    }
+  ],
+  "finding": "Only SUBMISSION has a source-defined trailing space, in all three pinned Japanese repositories (Red/Green, Blue, Yellow). No other move name contains whitespace.",
+  "implementation": "Index padded move IDs from the original Japanese CSV field. Permit trailing whitespace only for a matching move of the same source game group. Retain the visible Japanese variable, existing grammar validation and existing Chinese.",
+  "checks": {
+    "diffWhitespace": "passed",
+    "compilationAndPackaging": "passed",
+    "tests": "skipped",
+    "buildLog": "output/build-move-padding.log",
+    "runtimeCsv": [
+      {
+        "file": "control_rules.csv",
+        "sha256": "e0688409826990bf15b15598c9d6e617243b65475c6856b87a4ecb46ea23f560",
+        "unchanged": true,
+        "packageMatches": true
+      },
+      {
+        "file": "fragments.csv",
+        "sha256": "764e6e48791780166efdc1c17e0e885182fd2698a8c618f63436e5d398b55c4f",
+        "unchanged": true,
+        "packageMatches": true
+      },
+      {
+        "file": "records.csv",
+        "sha256": "21e84fab9bfaebc14b23e0e6ff6f771df6862c722297451d5f56a68855418294",
+        "unchanged": true,
+        "packageMatches": true
+      },
+      {
+        "file": "segments.csv",
+        "sha256": "e7bd8e52a7095f0552d129b0c5075408f4ce3090e5fbfbdba7db9e5172056ebf",
+        "unchanged": true,
+        "packageMatches": true
+      },
+      {
+        "file": "slot_rules.csv",
+        "sha256": "96ca160036772cb2853457fda897e3ca0187230d0b027902f9436cf9ff5ea328",
+        "unchanged": true,
+        "packageMatches": true
+      },
+      {
+        "file": "sources.csv",
+        "sha256": "1c3781d918002354066b6c7868968f4f876e099b6c216ecf4439ddd8ec763d81",
+        "unchanged": true,
+        "packageMatches": true
+      },
+      {
+        "file": "variables.csv",
+        "sha256": "7be71b7e5921077f40fa9d2791e8c55eb4e1ee6f40b4460b2a5488cce030edd2",
+        "unchanged": true,
+        "packageMatches": true
+      }
+    ],
+    "packagedTextClasses": [
+      {
+        "file": "TextCorpus.class",
+        "sha256": "2a5ebebdf229ed273c851927292827d98ae18133e8957ee10d1c7f18c0ca8a60",
+        "packageMatches": true
+      },
+      {
+        "file": "TextCorpus$Binding.class",
+        "sha256": "f4577c9f4bca761fe9d923d54015e4eeac17d61a78e7f93256559ec8faa47951",
+        "packageMatches": true
+      },
+      {
+        "file": "TextCorpus$Entry.class",
+        "sha256": "455efe9783e1cf7a7d3d936bafa662f0d7197c5f011fdd6fa75a036f737b44b5",
+        "packageMatches": true
+      },
+      {
+        "file": "TextCorpus$Fragment.class",
+        "sha256": "e6b752d8500d797de03ee77dbdb218e673f82f3c8a805fbbbfcdf92b4077ac95",
+        "packageMatches": true
+      },
+      {
+        "file": "TextCorpus$Hit.class",
+        "sha256": "bc10b0d1e0caf20df91a99a1abf31825ef130759446d5ff3895e00ce3773349a",
+        "packageMatches": true
+      },
+      {
+        "file": "TextResolver.class",
+        "sha256": "a84f0282c235b53ed714cd6f2bb2212a3702121b4198519472d3ed2f982b8a5f",
+        "packageMatches": true
+      },
+      {
+        "file": "TextResolver$Candidate.class",
+        "sha256": "cbb06e9f3c114b1655801254360dc84f72c4c16593bb637931db93735707ba38",
+        "packageMatches": true
+      },
+      {
+        "file": "TextResolver$Progress.class",
+        "sha256": "907290e510e47b50ddac0ec30e16fac0e0b9927ca53f8360235d15ae434622bd",
+        "packageMatches": true
+      },
+      {
+        "file": "TextResolver$Rendering.class",
+        "sha256": "ec00356638a0e9377c142ed9198dce3de422ef98d340dd366d425799c5f4a0eb",
+        "packageMatches": true
+      },
+      {
+        "file": "TextResolver$Unit.class",
+        "sha256": "00fa63056bd4099ac46f77c8c31031dae0ca45247c40e86cf85439211ffddb18",
+        "packageMatches": true
+      }
+    ],
+    "packageSha256": "1ac43e797642f2989475fa15fb7dd66aa2a7234af2bb07180e4ffe8383543bb4",
+    "textCorpusSourceSha256": "a858179f56c45f0c20a9f0ae78fa802f88973b4c7eb16134b19a91f20d551dbb",
+    "translationTestSourceSha256": "084593bf54dd7613bbd3650ea97082e76c7b52b029ddd6e5e2f40b82c3b6daa0"
+  },
+  "regressionExpectations": {
+    "file": "src/test/java/io/github/g1ocr/TranslationTest.java",
+    "method": "sourceDefinedMovePaddingKeepsTheVisibleNameAndSentenceEnding",
+    "positiveCases": 4,
+    "existingUnpaddedCase": 1,
+    "negativeCases": 5,
+    "coverage": [
+      "player",
+      "enemy prefix",
+      "custom nickname",
+      "disobedient move",
+      "visible variable and raw OCR preservation",
+      "unpadded compatibility",
+      "partial name or sentence ending",
+      "unknown character",
+      "padding absent from source",
+      "wrong move grammar"
+    ],
+    "status": "not_run"
+  },
+  "liveApplication": "not_run",
+  "finalChineseAcceptance": "not_run"
+}

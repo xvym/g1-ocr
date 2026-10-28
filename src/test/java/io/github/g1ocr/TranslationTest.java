@@ -110,6 +110,46 @@ class TranslationTest {
         }
     }
 
+    @Test void fixedAndVariableSpeakerLabelsKeepBothSourcesWhenTheirTranslationsAgree() {
+        for (var name : List.of(List.of("グりーン", "青绿"), List.of("あいうえお", "あいうえお"))) {
+            String raw = "オーキド『" + name.getFirst() + "！";
+            var result = new TextResolver(corpus).dialogue("dialogue", raw);
+            assertEquals("equivalent", result.matchStatus());
+            assertEquals("ready", result.displayStatus());
+            assertEquals("大木：" + name.get(1) + "！", result.chinese());
+            assertEquals(raw, result.rawJapanese());
+            assertTrue(result.candidates().stream().anyMatch(c -> c.recordId().endsWith(":ChampionsRoomOakText")
+                    && !c.variables().containsKey("RIVAL")));
+            assertTrue(result.candidates().stream().anyMatch(c -> c.recordId().endsWith(":OaksLabRivalTakesText1")
+                    && "オーキド".equals(c.variables().get("RIVAL"))));
+            assertTrue(result.candidates().stream().allMatch(c -> name.getFirst().equals(c.variables().get("PLAYER"))
+                    && c.reusedPlayerName().isEmpty()));
+            var incomplete = new TextResolver(corpus).dialogue("dialogue", raw.substring(0, raw.length() - 1));
+            assertEquals("", incomplete.chinese());
+        }
+    }
+
+    @Test void oakComparisonWindowsDoNotRequireTheStarterNameAfterItScrollsAway() {
+        String body = "比起启程收集\n宝可梦图鉴时的你，\n现在的你真的成长了不少！";
+        var resolver = new TextResolver(corpus);
+        var named = resolver.dialogue("dialogue", "はじめて ピカチュウを もらって\nポケモン ずかん あつめに");
+        assertEquals("比起刚刚捕获\nピカチュウ后启程收集\n宝可梦图鉴时的你，\n现在的你真的成长了不少！", named.chinese());
+        assertTrue(named.candidates().stream().allMatch(c -> "ピカチュウ".equals(c.variables().get("RAM1"))));
+        for (String raw : List.of("ポケモン ずかん あつめに\nでかけた ころと くらべると",
+                "でかけた ころと くらべると\nたくましく なったな！")) {
+            var current = resolver.dialogue("dialogue", raw);
+            assertEquals("equivalent", current.matchStatus());
+            assertEquals("ready", current.displayStatus());
+            assertEquals(body, current.chinese());
+            assertEquals(raw, current.rawJapanese());
+            assertEquals(3, current.candidates().size());
+            assertTrue(current.candidates().stream().allMatch(c -> c.recordId().endsWith(":ChampionsRoomOakCongratulatesPlayerText.Text")
+                    && c.variables().isEmpty() && c.reusedPlayerName().isEmpty()));
+            assertEquals(body, new TextResolver(corpus).dialogue("dialogue", raw).chinese());
+            assertEquals("", new TextResolver(corpus).dialogue("dialogue", raw.substring(0, raw.length() - 1)).chinese());
+        }
+    }
+
     @Test void sentencePunctuationCannotBecomeANameInAnotherTemplate() {
         for (var value : List.of(List.of("ウツボット", "大食花"), List.of("ピカチュウ", "皮卡丘"),
                 List.of("あいうえお", "あいうえお"))) {
@@ -155,6 +195,91 @@ class TranslationTest {
         }
     }
 
+    @Test void sourceDefinedMovePaddingKeepsTheVisibleNameAndSentenceEnding() {
+        for (var scenario : List.of(
+                List.of("ライチュウの\nじごくぐるま ！", "雷丘\n使出了地狱翻滚！", "ライチュウ", "normal"),
+                List.of("てきの ライチュウの\nじごくぐるま ！", "敌方雷丘\n使出了地狱翻滚！", "てきの ライチュウ", "normal"),
+                List.of("あいうえおの\nじごくぐるま ！", "あいうえお\n使出了地狱翻滚！", "あいうえお", "normal"),
+                List.of("ライチュウは めいれいをむしして\nじごくぐるま ！", "雷丘无视命令\n使出了地狱翻滚！", "ライチュウ", "disobedient"))) {
+            String raw = scenario.getFirst();
+            var result = new TextResolver(corpus).dialogue("dialogue", raw);
+            assertEquals("equivalent", result.matchStatus());
+            assertEquals("ready", result.displayStatus());
+            assertEquals(scenario.get(1), result.chinese());
+            assertEquals(raw, result.rawJapanese());
+            assertEquals(raw, result.resolvedJapanese());
+            assertEquals(3, result.candidates().size());
+            assertTrue(result.candidates().stream().allMatch(c ->
+                    c.recordId().endsWith(":composed:UsedMove.grammar4." + scenario.get(3))
+                    && c.variables().equals(Map.of("USER", scenario.get(2), "RAM1", "じごくぐるま "))));
+        }
+        assertEquals("雷丘\n使出了地狱翻滚！", new TextResolver(corpus)
+                .dialogue("dialogue", "ライチュウの\nじごくぐるま！").chinese());
+        for (String raw : List.of("ライチュウの\nじごくぐる", "ライチュウの\nじごくぐるま",
+                "ライチュウの\nじごくぐる� ！", "ライチュウの\nかみなり ！",
+                "ライチュウは\nじごくぐるま を つかった！")) {
+            var result = new TextResolver(corpus).dialogue("dialogue", raw);
+            assertEquals("", result.chinese());
+            assertEquals(raw, result.rawJapanese());
+        }
+    }
+
+    @Test void pokemonNamesPreferSpeciesWhileHumanNamesKeepAllStandaloneMeanings() {
+        for (var scenario : List.of(
+                List.of("キクコは\nゴーストを くりだした！", "菊子派出了\n鬼斯通！"),
+                List.of("ゴーストは\nゴーストを くりだした！", "ゴースト派出了\n鬼斯通！"),
+                List.of("ゴーストは ひきかえけんで\nじてんしゃを もらった！", "ゴースト用兑换券\n得到了自行车！"),
+                List.of("ゴーストは たおれた！", "鬼斯通\n倒下了！"),
+                List.of("てきの ゴーストは たおれた！", "敌方鬼斯通\n倒下了！"),
+                List.of("ゴーストの\nこうげきりょくが", "鬼斯通的\n攻击"),
+                List.of("キクコは\nキズぐすりを くりだした！", "菊子派出了\n伤药！"),
+                List.of("キクコは\nあいうえおを くりだした！", "菊子派出了\nあいうえお！"))) {
+            var result = new TextResolver(corpus).dialogue("dialogue", scenario.getFirst());
+            assertEquals("ready", result.displayStatus());
+            assertEquals(scenario.get(1), result.chinese());
+            assertEquals(scenario.getFirst(), result.rawJapanese());
+        }
+        var sent = new TextResolver(corpus).dialogue("dialogue", "キクコは\nゴーストを くりだした！");
+        assertTrue(sent.candidates().stream().allMatch(c -> c.variables().get("RAM2").equals("ゴースト")));
+        assertEquals(Set.of("鬼斯通", "幽灵"), Set.copyOf(corpus.nameTranslations("ゴースト")));
+        assertEquals(List.of("幽灵"), corpus.words("ゴースト", List.of("fixed")).stream()
+                .map(TextCorpus.Entry::chinese).distinct().toList());
+    }
+
+    @Test void statChangePrefixesAndResultsCoverAllSixStats() {
+        for (var stat : List.of(List.of("こうげきりょく", "攻击"), List.of("ぼうぎょりょく", "防御"),
+                List.of("すばやさ", "速度"), List.of("とくしゅのうりょく", "特殊能力"),
+                List.of("めいちゅうりつ", "命中率"), List.of("かいひりつ", "闪避率"))) {
+            for (var ending : List.of(List.of(" あがった！", "提高了！"), List.of(" さがった！", "降低了！"),
+                    List.of("\nぐーんと あがった！", "\n大幅提高了！"),
+                    List.of("\nがくっと さがった！", "\n大幅降低了！"))) {
+                var resolver = new TextResolver(corpus);
+                String raw = "ウツボットの\n" + stat.getFirst() + "が";
+                var prefix = resolver.dialogue("dialogue", raw);
+                assertEquals("equivalent", prefix.matchStatus());
+                assertEquals("ready", prefix.displayStatus());
+                assertEquals("大食花的\n" + stat.get(1), prefix.chinese());
+                assertEquals(raw, prefix.rawJapanese());
+                assertEquals(12, prefix.candidates().size());
+                assertTrue(prefix.candidates().stream().anyMatch(c -> c.variables().containsKey("USER")));
+                assertTrue(prefix.candidates().stream().anyMatch(c -> c.variables().containsKey("TARGET")));
+                boolean rolled = ending.getFirst().startsWith("\n");
+                String completeRaw = (rolled ? stat.getFirst() + "が" : raw) + ending.getFirst();
+                var complete = resolver.dialogue("dialogue", completeRaw);
+                assertEquals("ready", complete.displayStatus());
+                assertEquals((rolled ? "" : "大食花的\n") + stat.get(1) + ending.get(1), complete.chinese());
+                assertEquals(completeRaw, complete.rawJapanese());
+                var cold = new TextResolver(corpus).dialogue("dialogue", completeRaw);
+                assertEquals(complete.chinese(), cold.chinese());
+            }
+            assertEquals("", new TextResolver(corpus).dialogue("dialogue", "ウツボットの\n" + stat.getFirst()).chinese());
+        }
+        var enemy = new TextResolver(corpus).dialogue("dialogue", "てきの ウツボットの\nぼうぎょりょくが");
+        assertEquals("敌方大食花的\n防御", enemy.chinese());
+        var nickname = new TextResolver(corpus).dialogue("dialogue", "あいうえおの\nすばやさが");
+        assertEquals("あいうえお的\n速度", nickname.chinese());
+    }
+
     @Test void listFieldsAndVisualOcrRemainIndependent() throws Exception {
         var resolver = new TextResolver(corpus);
         var frame = GbFrame.normalize(ImageIO.read(Path.of("testpic/Screenshot 2026-10-20 21-22-46.png").toFile()),
@@ -175,9 +300,9 @@ class TranslationTest {
         var nicknames = new PixelOcr.Result("list", "shared_list", "pc_pokemon", items.bounds(),
                 List.of(), List.of(), List.of("やめる <Lv>12", "ピカチュウ <Lv>50", "あいうえお <Lv>3", "ゴースト <Lv>7", "やめる"), List.of(), 0, List.of());
         var pc = resolver.resolve(nicknames);
-        assertEquals(List.of("取消 <Lv>12", "皮卡丘 <Lv>50", "あいうえお <Lv>3", "ゴースト <Lv>7", "取消"),
+        assertEquals(List.of("取消 <Lv>12", "皮卡丘 <Lv>50", "あいうえお <Lv>3", "鬼斯通 <Lv>7", "取消"),
                 pc.stream().map(TextResolver.Unit::display).toList());
-        assertEquals(List.of("ready", "ready", "missing", "ambiguous", "ready"),
+        assertEquals(List.of("ready", "ready", "missing", "ready", "ready"),
                 pc.stream().map(TextResolver.Unit::displayStatus).toList());
         assertEquals(nicknames.rawOcr(), pc.stream().map(TextResolver.Unit::rawJapanese).toList());
         var action = new PixelOcr.Result("action", "battle_action", "battle_action", items.bounds(),

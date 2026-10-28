@@ -32,6 +32,7 @@ public final class TextCorpus {
             + "アイウエオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロワンー]+");
     private final Map<String, Entry> entries = new LinkedHashMap<>();
     private final Map<String, List<Entry>> words = new LinkedHashMap<>();
+    private final Set<String> paddedMoveIds = new java.util.HashSet<>();
     private final Map<String, List<Fragment>> exact = new LinkedHashMap<>();
     private final List<Fragment> templates = new ArrayList<>();
     private final Map<String, String> slotKinds = new LinkedHashMap<>();
@@ -47,6 +48,8 @@ public final class TextCorpus {
                             || row.get("evidence").startsWith("[") ? row.get("evidence") : "null"));
             if (!row.get("mapping_status").equals("aligned") || !row.get("render_status").equals("parsed")) continue;
             entries.put(entry.id(), entry);
+            // The original move name can include a space before the following sentence ending.
+            if (entry.kind().equals("move") && row.get("japanese").endsWith("\u3000")) paddedMoveIds.add(entry.id());
             if (!entry.kind().startsWith("dialogue"))
                 words.computeIfAbsent(canonical(entry.japanese()), key -> new ArrayList<>()).add(entry);
         }
@@ -97,6 +100,12 @@ public final class TextCorpus {
                 .distinct().toList();
     }
 
+    /** Pokémon names and nicknames prefer species; human names keep their separate lookup. */
+    public List<Entry> pokemonNameWords(String name) {
+        var species = words(name, List.of("pokemon"));
+        return species.isEmpty() ? words(name, List.of()) : species;
+    }
+
     public List<Hit> dialogue(String text) {
         String key = canonical(text);
         List<Hit> hits = new ArrayList<>();
@@ -137,8 +146,10 @@ public final class TextCorpus {
         String slot = fragment.slots().get(part), previous = variables.get(slot);
         for (int end = offset + 1; end <= text.length() && text.charAt(end - 1) != '\n'; end++) {
             String value = raw.substring(offset, end);
-            if (!value.equals(value.strip()) || value.isBlank()) continue;
+            if (value.isBlank() || !value.equals(value.stripLeading())) continue;
             String kind = variableKind(fragment.entry(), slot);
+            if (!value.equals(value.stripTrailing()) && (!kind.equals("move") || variableWords(value, kind).stream()
+                    .noneMatch(e -> e.games().equals(fragment.entry().games()) && paddedMoveIds.contains(e.id())))) continue;
             String name = kind.equals("battle_name") && value.startsWith("てきの ") ? value.substring(4) : value;
             if (List.of("name", "nickname", "battle_name", "trainer_name").contains(kind)
                     && !validName(name, kind, false)) continue;

@@ -488,13 +488,13 @@
       ]
     },
     {
-      "name": "conflicting standalone meanings preserve the nickname",
+      "name": "species translation takes priority over a nickname's other standalone meanings",
       "events": [
         {
           "raw": "ゴーストを\nまた つれていく ことにした！",
           "match": "equivalent",
           "status": "ready",
-          "chinese": "决定取出ゴースト！",
+          "chinese": "决定取出鬼斯通！",
           "source": "MonIsTakenOutText"
         }
       ]

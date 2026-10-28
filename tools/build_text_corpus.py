@@ -518,6 +518,10 @@ def add_compositions(jp, all_records, all_fragments):
         for large in [False,True]:
             parts=[prefix]+([modifier] if large else [])+[end]
             append('StatChange.'+prefix+('.large' if large else '.normal'),parts,parts,'StatModifier effect and source fallthrough')
+            if not large:
+                # The shared owner/stat boundary also exists before a normal change's inline ending.
+                all_fragments.append(dict(all_fragments[-1], japanese=bylabel[prefix]['japanese'],
+                                          source='explicit_stat_change_prefix'))
     for tail in ['MadeWhirlwindText','TookInSunlightText','LoweredItsHeadText','SkyAttackGlowingText','FlewUpHighText','DugAHoleText']:
         append('Charge.'+tail,['ChargeMoveEffectText',tail],[tail],'Chinese tail already includes USER; do not print the name twice')
     for row in all_records:

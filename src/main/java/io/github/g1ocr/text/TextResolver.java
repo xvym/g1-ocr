@@ -21,6 +21,7 @@ public final class TextResolver {
     private record Rendering(String status, String chinese, Map<String, String> variables,
                              Map<String, String> variableKinds, int waitingLines, String reusedPlayerName) {}
     private static final Pattern SLOT = Pattern.compile("\\{\\{(\\w+)}}");
+    private static final Pattern SPEAKER_LABEL = Pattern.compile("^\\{\\{(PLAYER|RIVAL|SPEAKER)}}『");
     private static final Pattern QUANTITY = Pattern.compile("^(.*?) *(× *[0-9]+)$");
     private static final Pattern PRICE = Pattern.compile("^(.*?)( *[0-9]+円)$");
     private final TextCorpus corpus;
@@ -60,7 +61,7 @@ public final class TextResolver {
     }
 
     private Unit word(String text, String suffix, List<String> kinds, String control) {
-        var entries = corpus.words(text, kinds).stream()
+        var entries = (kinds.isEmpty() ? corpus.pokemonNameWords(text) : corpus.words(text, kinds)).stream()
                 .filter(e -> control.isEmpty() || e.id().contains(":fixed:" + control)).toList();
         var candidates = entries.stream().map(e -> new Candidate(e.id(), 1, e.japanese(), "whole_visible_unit",
                 Map.of(), e.source(), e.revision().toString(), "")).toList();
@@ -160,8 +161,15 @@ public final class TextResolver {
             while (slots.find()) used.add(slots.group(1));
             displayedVariables.keySet().retainAll(used);
         }
+        Map<String, String> comparedVariables = new LinkedHashMap<>();
         Map<String, String> kinds = new LinkedHashMap<>();
-        displayedVariables.keySet().forEach(slot -> kinds.put(slot, corpus.variableKind(fragment.entry(), slot)));
+        displayedVariables.forEach((slot, value) -> {
+            // In this reviewed prefix USER and TARGET both name the currently visible stat owner.
+            String key = fragment.displayPolicy().equals("stat_change_prefix")
+                    && (slot.equals("USER") || slot.equals("TARGET")) ? "OWNER" : slot;
+            comparedVariables.put(key, value);
+            kinds.put(key, corpus.variableKind(fragment.entry(), slot));
+        });
         String status = fragment.status();
         if (!hit.complete()) status = "incomplete";
         else if (status.equals("semantic_context_required") && start > fragment.contextStart()) status = "context_required";
@@ -186,7 +194,19 @@ public final class TextResolver {
             chinese = status.equals("variables_missing") ? "" : substitute(chinese, values);
             if (chinese.isEmpty()) reusedPlayerName = "";
         }
-        return new Rendering(status, chinese, Map.copyOf(displayedVariables), Map.copyOf(kinds),
+        var speaker = SPEAKER_LABEL.matcher(fragment.japanese());
+        if (!chinese.isEmpty() && speaker.find()) {
+            String slot = speaker.group(1), placeholder = "{{" + slot + "}}";
+            // A label-only name is already compared in the rendered Chinese, just like a fixed speaker.
+            // Keep its original binding when the current Japanese or Chinese body also uses that name.
+            if (savedChinese.startsWith(placeholder + "：")
+                    && !savedChinese.substring(placeholder.length() + 1).contains(placeholder)
+                    && !fragment.japanese().substring(speaker.end()).contains(placeholder)) {
+                comparedVariables.remove(slot);
+                kinds.remove(slot);
+            }
+        }
+        return new Rendering(status, chinese, Map.copyOf(comparedVariables), Map.copyOf(kinds),
                 Math.max(0, fragment.waiting() - fragment.ordinal()), reusedPlayerName);
     }
 
@@ -196,9 +216,14 @@ public final class TextResolver {
         if (!name && !List.of("item", "move", "pokemon", "stat", "city").contains(kind)) return raw;
         boolean enemy = kind.equals("battle_name") && raw.startsWith("てきの ");
         String value = enemy ? raw.substring(4) : raw;
-        var chinese = name ? corpus.nameTranslations(value) : corpus.variableWords(value, kind).stream()
-                .filter(e -> e.games().equals(entry.games()))
-                .map(e -> corpus.displayChinese(e, e.chinese())).distinct().toList();
+        boolean pokemonName = kind.equals("nickname") || kind.equals("battle_name");
+        List<String> chinese;
+        if (name && !pokemonName) chinese = corpus.nameTranslations(value);
+        else {
+            var entries = pokemonName ? corpus.pokemonNameWords(value) : corpus.variableWords(value, kind);
+            chinese = entries.stream().filter(e -> pokemonName || e.games().equals(entry.games()))
+                    .map(e -> corpus.displayChinese(e, e.chinese())).distinct().toList();
+        }
         return (enemy ? corpus.enemyPrefix(entry) : "") + (chinese.size() == 1 ? chinese.getFirst() : value);
     }
 
