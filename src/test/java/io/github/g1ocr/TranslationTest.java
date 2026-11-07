@@ -36,7 +36,7 @@ class TranslationTest {
             for (var event : scenario.path("events")) {
                 if (event.path("reset").asBoolean()) { resolver.reset(); continue; }
                 if (event.path("disappear").asBoolean()) { resolver.retainRegions(Set.of()); continue; }
-                var actual = resolver.dialogue("dialogue", event.path("raw").asText());
+                var actual = resolver.dialogue("dialogue", event.path("raw").asText(), event.path("waitingForInput").asBoolean());
                 boolean pass = actual.rawJapanese().equals(event.path("raw").asText())
                         && actual.matchStatus().equals(event.path("match").asText())
                         && actual.displayStatus().equals(event.path("status").asText())

@@ -109,6 +109,29 @@ class PipelineRulesTest {
         assertTrue(detector.sample("s2", new GbFrame.Mapping(1, 0, 3), 9_400_000_000L, a).isEmpty());
     }
 
+    @Test void continuationArrowIsSeparateFromStableTextAndRawOcr() throws Exception {
+        PixelFont font = new PixelFont();
+        OcrPipeline pipeline = new OcrPipeline();
+        BufferedImage image = source("21-22-53");
+        paint(image, 144, 128, 0);
+        GbFrame before = GbFrame.normalize(image, SCREEN);
+        var region = pipeline.regions(before).stream().filter(r -> r.layout().equals("dialogue")).findFirst().orElseThrow();
+        assertFalse(pipeline.continuationArrow(before, region));
+        pipeline.sample("s", SCREEN, 0, before);
+        pipeline.sample("s", SCREEN, 100_000_000L, before);
+        var stable = pipeline.sample("s", SCREEN, 200_000_000L, before).getFirst();
+        paint(image, 144, 128, font.pixels("▼"));
+        GbFrame waiting = GbFrame.normalize(image, SCREEN);
+        assertTrue(pipeline.continuationArrow(waiting, region));
+        assertTrue(pipeline.sample("s", SCREEN, 300_000_000L, waiting).isEmpty());
+        assertTrue(pipeline.isCurrent(stable.key()));
+        assertArrayEquals(region.textPixels(before), region.textPixels(waiting));
+        assertEquals(pipeline.recognize(before), pipeline.recognize(waiting));
+        assertTrue(pipeline.isCurrent(stable.key(), waiting, region));
+        paint(image, 8, 104, font.pixels("゛"));
+        assertFalse(pipeline.isCurrent(stable.key(), GbFrame.normalize(image, SCREEN), region));
+    }
+
     @Test void cursorMotionDoesNotRepeatListOcrAndUnknownStaysUnknown() throws Exception {
         PixelFont font = new PixelFont();
         var detector = new StabilityDetector(new RegionDetector(font));

@@ -33007,3 +33007,13 @@ pokeyellow-jp:composed:TrainerEnd.ViridianGymCooltrainerM2EndBattleText,1,1,1,{{
 pokeyellow-jp:composed:TrainerEnd.ViridianGymHiker3EndBattleText,1,1,1,{{SPEAKER}}『ドッセーッ！,0,15,{{SPEAKER}}：啊呀！,aligned,source_control_flow_composition,model_reviewed_control_flow_not_human,pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymHiker3EndBattleText
 pokeyellow-jp:composed:TrainerEnd.ViridianGymRocker2EndBattleText,1,1,1,{{SPEAKER}}『⋯⋯　い　いてて！,0,19,{{SPEAKER}}：……好、好痛！,aligned,source_control_flow_composition,model_reviewed_control_flow_not_human,pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymRocker2EndBattleText
 pokeyellow-jp:composed:TrainerEnd.ViridianGymCooltrainerM3EndBattleText,1,1,1,{{SPEAKER}}『⋯⋯　さすがだ！,0,19,{{SPEAKER}}：……果然厉害！,aligned,source_control_flow_composition,model_reviewed_control_flow_not_human,pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymCooltrainerM3EndBattleText
+pokegreen:fixed:PCAction.Withdraw,1,1,1,ポケモンを　つれていく,0,5,取出宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Withdraw
+pokegreen:fixed:PCAction.Deposit,1,1,1,ポケモンを　あずける,0,5,寄放宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Deposit
+pokegreen:fixed:PCAction.Release,1,1,1,ポケモンを　にがす,0,5,放生宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Release
+pokegreen:fixed:PCAction.ChangeBox,1,1,1,ボックスを　かえる,0,4,更换盒子,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.ChangeBox
+pokegreen:fixed:PCAction.Exit,1,1,1,さようなら,0,2,再见,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Exit
+pokeblue:fixed:PCAction.Withdraw,1,1,1,ポケモンを　つれていく,0,5,取出宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.Withdraw
+pokeblue:fixed:PCAction.Deposit,1,1,1,ポケモンを　あずける,0,5,寄放宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.Deposit
+pokeblue:fixed:PCAction.Release,1,1,1,ポケモンを　にがす,0,5,放生宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.Release
+pokeblue:fixed:PCAction.ChangeBox,1,1,1,ボックスを　かえる,0,4,更换盒子,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.ChangeBox
+pokeblue:fixed:PCAction.Exit,1,1,1,さようなら,0,2,再见,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.Exit

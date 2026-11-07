@@ -46,6 +46,8 @@ Excel 中也可使用“数据 → 从文本/CSV”，选择 `65001: Unicode (UT
 
 ## 显示分段
 
+停顿消歧使用主记录已有的 `japanese_events/japanese_termination`：加载时从 `para/cont/_cnt` 及对应内嵌控制符、终止 `prompt` 登记源行末，只有窗口末行与完整源行一致才标为可停顿。普通换行和无等待滚动不算停顿，行内能力共同前缀不因此获得停顿标记。实时主对话观察到翻页箭头且至少有一个完整候选支持当前位置停顿时，排除未完成窗口候选；完整候选仍全部比较，不按固定句优先。箭头缺失不改变原匹配规则。证据按稳定文字代次保持，闪烁不重复OCR；窗口、内容、映射或会话变化后失效，不从历史补证据。
+
 `fragments.csv` 的 `ordinal` 与 `previous_ordinal` 关联所属源文本内部的行进度。`para` 清框，`cont` 滚动；并非固定“每两行分页”。除完整行窗口外，能力变化额外登记源前半句“名字の／能力が”的完整语义边界：普通变化的接续在同一行，因此共同片段和完整结果共享行序，以可见日文区分；大幅变化复用原两行窗口。没有枚举所有逐字前缀、昵称长度变化或跨源脚本的合法画面组合。
 
 `segments.csv` 将完整源段按语义切分；日文起止行序从 1 开始、包含两端，空行不计序号。一个单元可以合并相邻多行，中文范围只截取所属主记录的 `chinese`。不会按中日行号配对、按长度均分或在运行时重新推断边界。`method` 区分模型语义决定、完整短源段合并和已核对单元的精确复用；`review_status` 明确模型核对并非人工复核。用户确认的模型补译与订正分别以 `method/review_status=user_approved_model_translation`、`user_approved_model_correction` 标识，共12、11个单元；同文统一采用 `user_approved_translation_unification`，含派生组合共188个单元。当前完整匹配的行窗口与单元相交时，就可取该单元的完整中文，不等最后一行或要求此前已观察到起点。其他尚未进入窗口的独立单元不发布，中文所需变量取自当前画面；PLAYER 可按已确认玩家名的会话规则复用。
@@ -76,7 +78,7 @@ Excel 中也可使用“数据 → 从文本/CSV”，选择 `65001: Unicode (UT
 
 `semantic_segment_ordinals` 是当前译文关联的语义单元序号。保留 CSV 列结构兼容性，当前生成器的 `waiting_for_ordinal/context_start_ordinal` 为空，不再以日文行进度限制已保存语义单元。玩家名可按下述会话规则复用，其他姓名和数值不沿用前文。
 
-当前 10,205 条主记录、23,963 个窗口（含6个能力变化行内共同片段）、15,718 个语义单元。当前状态计数见 `reports/text-corpus.json`；这些是资源结构计数，不是游戏画面可翻译率或语义正确率。接受的汉化增文保留在主库但不发布，礼貌语省略也不计为中文覆盖。
+当前 10,215 条主记录、23,973 个窗口（含6个能力变化行内共同片段）、15,728 个语义单元。当前状态计数见 `reports/text-corpus.json`；这些是资源结构计数，不是游戏画面可翻译率或语义正确率。接受的汉化增文保留在主库但不发布，礼貌语省略也不计为中文覆盖。
 
 ## 变量
 
@@ -115,3 +117,5 @@ python tools/build_text_corpus.py
 运行时开发验证见 `reports/chinese-runtime.md/json`，开发预期位于 `src/test/resources/chinese-cases.json`，13 张受影响图片的 29 个单元另有 `chinese-regressions.json` 独立固定预期。当前建库计数见 `reports/text-corpus.json`；`reports/text-corpus-static.json` 保留早期建库快照，不代表当前资源哈希。全图执行与来源修复证据见 `reports/chinese-images.md`；最终中文 A6、真实时序、实机及当前界面交互仍未验收。上游文本及派生资源的再分发授权未确认；本地建库不等于 S6 已具备分发条件。
 
 商店购买列表复用道具词条，运行时从整行尾部拆出数字与「円」，只翻译名称并保留价格；名称与价格可直接相邻。没有将金额、操作菜单或购买数量专框加入翻译词库。
+
+PC 五项操作菜单新增10条固定来源词条（红绿与蓝各5条）、10个完整窗口及10个单行语义单元，编号为 PCAction.Withdraw/Deposit/Release/ChangeBox/Exit。日文来自固定源码 engine/pokemon/bills_pc.asm 的 BillsPCMenuText，中文来自 pokeredCHS-rgb 的 src/xlsx/data.xlsx#PC!C13:C17，按原菜单槽位对应；原汉化和来源保留。仅扩展翻译资源，不能替代逐字符原始 OCR。皮卡丘六项打印菜单未纳入本次布局或资源增量。

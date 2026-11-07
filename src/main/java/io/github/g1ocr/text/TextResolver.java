@@ -34,13 +34,31 @@ public final class TextResolver {
     public void selectPlayerName(String name) { selectedPlayerName = name; reset(); }
     public void retainRegions(Set<String> visible) { histories.keySet().retainAll(visible); }
 
+    public Map<String, Object> diagnostics() {
+        var context = new LinkedHashMap<String, Object>();
+        context.put("selectedPlayerName", selectedPlayerName);
+        context.put("confirmedPlayerName", playerName);
+        var progress = new LinkedHashMap<String, Object>();
+        histories.forEach((id, values) -> progress.put(id, values.stream().map(value -> Map.of(
+                "recordId", value.hit().fragment().entry().id(), "ordinal", value.hit().fragment().ordinal(),
+                "start", value.start(), "variables", value.hit().variables())).toList()));
+        context.put("dialogueProgress", progress);
+        return context;
+    }
+
     public List<Unit> resolve(PixelOcr.Result result) {
+        return resolve(result, false);
+    }
+
+    public List<Unit> resolve(PixelOcr.Result result, boolean waitingForInput) {
         if (result.layout().equals("dialogue"))
-            return List.of(dialogue(result.id(), String.join("\n", result.rawOcr())));
+            return List.of(dialogue(result.id(), String.join("\n", result.rawOcr()), waitingForInput));
         List<Unit> units = new ArrayList<>();
         for (String row : result.rawOcr()) {
             if (result.layout().equals("battle_action")) {
                 for (String name : row.split(" +")) units.add(word(name, "", List.of("fixed"), "BattleMenu."));
+            } else if (result.layout().equals("pc_action")) {
+                units.add(word(row, "", List.of("fixed"), "PCAction."));
             } else if (result.semanticType().equals("pc_pokemon")) {
                 // Mon entries include the visible level field; the cancel row is a fixed control.
                 if (row.contains("<Lv>")) {
@@ -76,12 +94,16 @@ public final class TextResolver {
     }
 
     public Unit dialogue(String regionId, String raw) {
+        return dialogue(regionId, raw, false);
+    }
+
+    public Unit dialogue(String regionId, String raw, boolean waitingForInput) {
         String text = TextCorpus.clean(raw);
         if (text.isEmpty() || text.contains("�")) {
             histories.remove(regionId);
             return new Unit(raw, "unreliable", "unknown_character", "", "", List.of());
         }
-        var hits = corpus.dialogue(text);
+        var hits = corpus.dialogue(text, waitingForInput);
         List<Progress> previous = histories.getOrDefault(regionId, List.of());
         List<Progress> progress = new ArrayList<>();
         List<Progress> continued = new ArrayList<>();

@@ -34,6 +34,11 @@ public final class RegionDetector {
         return font.matches(token, frame.tile(x, y));
     }
 
+    public boolean continuationArrow(GbFrame frame, Region region) {
+        return region.layout().equals("dialogue") && region.rows().getLast().maskedColumns().contains(17)
+                && is(frame, region.bounds().x() + 144, 128, "▼");
+    }
+
     private boolean horizontal(GbFrame frame, int left, int right, int y, String start, String end) {
         if (!is(frame, left, y, start) || !is(frame, right, y, end)) return false;
         for (int x = left + 8; x < right; x += 8) if (!is(frame, x, y, "─")) return false;
@@ -56,6 +61,15 @@ public final class RegionDetector {
 
     public List<Region> detect(GbFrame frame) {
         List<Region> regions = new ArrayList<>();
+        // Five-option Bills PC menu; require the whole border so an overlaid list hides it.
+        boolean pcAction = horizontal(frame, 0, 104, 0, "┌", "┐")
+                && horizontal(frame, 0, 104, 88, "└", "┘");
+        for (int y = 8; y <= 80; y += 8)
+            pcAction &= is(frame, 0, y, "│") && is(frame, 104, y, "│");
+        if (pcAction) regions.add(new Region("pc_action", "pc_action", "pc_action", new Rect(0, 0, 112, 96),
+                List.of(new Grid(16, 16, 11), new Grid(16, 32, 11), new Grid(16, 48, 11),
+                        new Grid(16, 64, 11), new Grid(16, 80, 11)), List.of(), selected(frame, 8, 16, 5)));
+
         boolean list = horizontal(frame, 32, 152, 16, "┌", "┐")
                 && horizontal(frame, 32, 152, 96, "└", "┘");
         // Shop buying uses the same grid, with a price ending in the currency column.

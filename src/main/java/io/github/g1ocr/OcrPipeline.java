@@ -29,6 +29,10 @@ public final class OcrPipeline {
 
     public List<RegionDetector.Region> regions(GbFrame frame) { return detector.detect(frame); }
 
+    public boolean continuationArrow(GbFrame frame, RegionDetector.Region region) {
+        return detector.continuationArrow(frame, region);
+    }
+
     public List<StableResult> sample(String session, GbFrame.Mapping mapping, long sampleTimeNanos, GbFrame frame) {
         return stability.sample(session, mapping, sampleTimeNanos, frame).stream()
                 .map(request -> new StableResult(request.key(), request.sampleTimeNanos(), ocr.read(request.frame(), request.region())))
@@ -36,5 +40,9 @@ public final class OcrPipeline {
     }
 
     public boolean isCurrent(StabilityDetector.Key key) { return stability.isCurrent(key); }
+    public boolean isCurrent(StabilityDetector.Key key, GbFrame frame, RegionDetector.Region region) {
+        return stability.isCurrent(key, frame, region);
+    }
     public void invalidate() { stability.invalidate(); }
+    public List<StabilityDetector.RegionState> stabilityDiagnostics() { return stability.diagnostics(); }
 }

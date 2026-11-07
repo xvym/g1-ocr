@@ -8,14 +8,14 @@
     "pokered": "af519899719f0754965776faac0e836a3b906e6d",
     "pokeyellow": "aa25d4fdeadc8ef1c489feb6cfcdc8674a292c34"
   },
-  "records": 10205,
+  "records": 10215,
   "mapping_status": {
     "pokegreen": {
-      "aligned": 3327,
+      "aligned": 3332,
       "component": 38
     },
     "pokeblue": {
-      "aligned": 3327,
+      "aligned": 3332,
       "component": 38
     },
     "pokeyellow-jp": {
@@ -31,24 +31,24 @@
     "move": 495,
     "item": 414,
     "trainer": 141,
-    "fixed": 225,
+    "fixed": 235,
     "dialogue_template": 1136,
     "unreferenced": 1
   },
   "fragments": {
     "semantic_visible": 13894,
-    "whole_visible_unit": 9918,
+    "whole_visible_unit": 9928,
     "source_semantic_mismatch": 6,
     "use_composition": 141,
     "wait_for_semantic_unit": 3,
     "source_unreferenced": 1
   },
-  "semantic_segments": 15718,
+  "semantic_segments": 15728,
   "common_display_windows": 776,
   "missing_rolled_name_windows": 71,
   "semantic_segment_methods": {
     "model_semantic": 8848,
-    "aligned_whole_unit": 5238,
+    "aligned_whole_unit": 5248,
     "user_approved_translation_unification": 188,
     "exact_reviewed_unit_reuse": 78,
     "user_approved_model_translation": 12,
@@ -71,7 +71,7 @@
     "requires_observed_PLAYER": 6,
     "review": 21,
     "unresolved": 22,
-    "none": 1728
+    "none": 1738
   },
   "unresolved_source_alignment_issues": 0,
   "verification": "static_source_and_data_construction",

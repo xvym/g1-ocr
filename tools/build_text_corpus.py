@@ -422,6 +422,22 @@ def add_fixed_words(jp, zh, games, replacements, all_records, all_fragments):
     append('SafariMenu.Bait','エサをなげる',bait,filename,0,'诱饵')
     append('SafariMenu.Rock','いしをなげる',rock,filename,0,'石块')
 
+    # Pair the five-option Bills PC menu by its fixed source slot. Yellow has six options.
+    if jp != 'pokeyellow-jp':
+        filename='engine/pokemon/bills_pc.asm'
+        jlines=(SOURCES/jp/filename).read_text(encoding='utf-8').splitlines()
+        zlines=(SOURCES/zh/'src'/filename).read_text(encoding='utf-8').splitlines()
+        jstart=jlines.index('BillsPCMenuText:')+1
+        zstart=zlines.index('BillsPCMenuText:')+1
+        for n,role in enumerate(['Withdraw','Deposit','Release','ChangeBox','Exit']):
+            ja=literal(re.search(r'"([^"]+)"',jlines[jstart+n])[1])
+            en=re.search(r'"([^"]+)"',zlines[zstart+n])[1]
+            for a,b in JP_FIXED.items():ja=ja.replace(a,b)
+            p=next(p for p in replacements if p['file']==filename and p['original']=='"'+en+'"' and not p['replacement'])
+            append('PCAction.'+role,ja,p,filename,jstart+n+1)
+            all_records[-1].update(method='pc_action_menu_role_and_slot',
+                evidence=packed(dict(menu='BillsPCMenuText',slot=n,original_english=en,source_file=filename)))
+
     # Pair preset names by the PLAYER/RIVAL menu slot, not dialogue order.
     filename='constants/player_constants.asm'
     jsource=(SOURCES/jp/filename).read_text(encoding='utf-8')

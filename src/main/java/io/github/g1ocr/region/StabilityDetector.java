@@ -15,6 +15,12 @@ public final class StabilityDetector {
     public static final long INTERVAL_NANOS = 100_000_000L;
     public record Key(String session, GbFrame.Mapping mapping, String regionId, long generation) {}
     public record Request(Key key, long sampleTimeNanos, GbFrame frame, Region region) {}
+    public record RegionState(Key key, Region region, int count, boolean requested) {}
+
+    /** Read-only evidence for an on-demand bug report; never fed back into recognition. */
+    public List<RegionState> diagnostics() {
+        return states.values().stream().map(state -> new RegionState(state.key, state.region, state.count, state.requested)).toList();
+    }
     private static final class State {
         Region region;
         long[] pixels;
@@ -38,6 +44,13 @@ public final class StabilityDetector {
     public boolean isCurrent(Key key) {
         State state = states.get(key.regionId());
         return state != null && state.key.equals(key);
+    }
+
+    public boolean isCurrent(Key key, GbFrame frame, Region region) {
+        State state = states.get(key.regionId());
+        return isCurrent(key) && state.region.rows().equals(region.rows())
+                && state.region.footerRows().equals(region.footerRows())
+                && Arrays.equals(state.pixels, region.textPixels(frame));
     }
 
     public List<Request> sample(String newSession, GbFrame.Mapping newMapping, long timeNanos, GbFrame frame) {

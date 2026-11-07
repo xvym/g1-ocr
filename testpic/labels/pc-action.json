@@ -1,0 +1,29 @@
+{
+  "method": "model_visual_transcribed_from_user_attachment_before_OCR; Chinese from pinned original PC menu cells; not_human_reviewed",
+  "scope": "additional application screenshot; outside original 108-image manifest; not capture acceptance",
+  "file": "../additional/pc-action-2026-11-05.png",
+  "sha256": "1902d00dbcfc1673fbea01dad485bb065c7fa91475d1a86142fc7e53f3ed4082",
+  "imageWidth": 1576,
+  "imageHeight": 673,
+  "gbCrop": { "x": 28, "y": 42, "width": 480, "height": 432 },
+  "scale": 3,
+  "regions": [
+    {
+      "layout": "pc_action",
+      "selectedItem": 1,
+      "raw": [
+        "ポケモンを つれていく",
+        "ポケモンを あずける",
+        "ポケモンを にがす",
+        "ボックスを かえる",
+        "さようなら"
+      ],
+      "chinese": ["取出宝可梦", "寄放宝可梦", "放生宝可梦", "更换盒子", "再见"],
+      "chineseSource": "pokeredCHS-rgb:src/xlsx/data.xlsx#PC!C13:C17"
+    },
+    { "layout": "dialogue", "raw": ["なんに するん？"] }
+  ],
+  "excluded": ["いまのボックス 7 status box", "application UI outside GB preview"],
+  "uncertainties": [],
+  "dynamicTestsRun": false
+}

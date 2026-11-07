@@ -22,7 +22,7 @@ public final class TextCorpus {
     public record Fragment(Entry entry, int ordinal, int previous, int first, String japanese,
                            String status, int chineseStart, int chineseEnd, int contextStart, int waiting,
                            String displayChinese, String displaySource, String displayPolicy,
-                           List<String> literals, List<String> slots, Set<String> numbers) {}
+                           List<String> literals, List<String> slots, Set<String> numbers, boolean pauseEnd) {}
     public record Hit(Fragment fragment, Map<String, String> variables, boolean complete) {}
     private record Binding(Map<String, String> variables, boolean complete) {}
     private static final Pattern SLOT = Pattern.compile("\\{\\{(\\w+)}}");
@@ -39,6 +39,8 @@ public final class TextCorpus {
 
     public TextCorpus() throws IOException {
         JsonMapper json = JsonMapper.builder().build();
+        var pauseLines = new LinkedHashMap<String, Set<Integer>>();
+        var sourceLines = new LinkedHashMap<String, List<String>>();
         for (var row : csv("slot_rules.csv")) slotKinds.put(row.get("label") + ":" + row.get("slot"), row.get("kind"));
         for (var row : csv("records.csv")) {
             Entry entry = new Entry(row.get("id"), Arrays.asList(row.get("games").split(";")), row.get("kind"),
@@ -48,6 +50,19 @@ public final class TextCorpus {
                             || row.get("evidence").startsWith("[") ? row.get("evidence") : "null"));
             if (!row.get("mapping_status").equals("aligned") || !row.get("render_status").equals("parsed")) continue;
             entries.put(entry.id(), entry);
+            if (entry.kind().startsWith("dialogue")) {
+                var pauses = new java.util.HashSet<Integer>();
+                String source = row.get("japanese");
+                for (var event : json.readTree(row.get("japanese_events"))) {
+                    if (!List.of("para", "cont", "_cnt", "<PARA>", "<CONT>", "<_CONT>").contains(event.path("op").asText())) continue;
+                    String before = source.substring(0, source.offsetByCodePoints(0, event.path("offset").asInt()));
+                    pauses.add((int) before.lines().filter(line -> !line.isBlank()).count());
+                }
+                var lines = entry.japanese().lines().filter(line -> !line.isBlank()).map(TextCorpus::canonical).toList();
+                if (row.get("japanese_termination").equals("prompt")) pauses.add(lines.size());
+                pauseLines.put(entry.id(), pauses);
+                sourceLines.put(entry.id(), lines);
+            }
             // The original move name can include a space before the following sentence ending.
             if (entry.kind().equals("move") && row.get("japanese").endsWith("\u3000")) paddedMoveIds.add(entry.id());
             if (!entry.kind().startsWith("dialogue"))
@@ -78,7 +93,9 @@ public final class TextCorpus {
                     integer(row, "chinese_start"), integer(row, "chinese_end"),
                     integer(row, "context_start_ordinal"), integer(row, "waiting_for_ordinal"),
                     row.get("display_chinese"), row.get("display_source"), row.get("display_policy"),
-                    List.copyOf(literals), List.copyOf(slots), Set.copyOf(numbers));
+                    List.copyOf(literals), List.copyOf(slots), Set.copyOf(numbers),
+                    pauseLines.get(entry.id()).contains(ordinal)
+                            && sourceLines.get(entry.id()).get(ordinal - 1).equals(japanese.substring(japanese.lastIndexOf('\n') + 1)));
             if (slots.isEmpty()) exact.computeIfAbsent(japanese, key -> new ArrayList<>()).add(fragment);
             else templates.add(fragment);
         }
@@ -107,6 +124,10 @@ public final class TextCorpus {
     }
 
     public List<Hit> dialogue(String text) {
+        return dialogue(text, false);
+    }
+
+    public List<Hit> dialogue(String text, boolean waitingForInput) {
         String key = canonical(text);
         List<Hit> hits = new ArrayList<>();
         for (var fragment : exact.getOrDefault(key, List.of())) hits.add(new Hit(fragment, Map.of(), true));
@@ -121,8 +142,11 @@ public final class TextCorpus {
         }
         Set<String> completeRecords = new java.util.HashSet<>();
         for (var hit : hits) if (hit.complete()) completeRecords.add(hit.fragment().entry().id());
+        // An observed arrow must also agree with a source pause at this exact completed line.
+        boolean confirmedPause = waitingForInput && hits.stream().anyMatch(h -> h.complete() && h.fragment().pauseEnd());
         // A later window from the same source is not another source candidate for its completed earlier window.
-        return hits.stream().filter(h -> h.complete() || !completeRecords.contains(h.fragment().entry().id())).distinct().toList();
+        return hits.stream().filter(h -> h.complete() || !completeRecords.contains(h.fragment().entry().id()))
+                .filter(h -> !confirmedPause || h.complete()).distinct().toList();
     }
 
     private void bind(Fragment fragment, String raw, String text, int part, int offset, boolean anchored,

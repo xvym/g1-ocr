@@ -1,6 +1,7 @@
 ﻿label,slot,kind,source
 TeachMachineMoveText,RAM1,move,engine/items/item_effects.asm#ItemUseTMHM/GetMoveName
 ThrewAwayItemText,RAM1,item,engine/items/item_effects.asm#ThrewAwayItemText/GetItemName
+PokemartTellBuyPriceText,RAM1,item,engine/events/pokemart.asm#DisplayPokemartDialogue_/GetItemName/CopyToStringBuffer
 ItemUseText00,RAM1,item,engine/items/item_effects.asm#ItemUseText00/GetItemName
 TradeTransferredText,RAM1,nickname,engine/movie/trade.asm#TradeTransferredText/wNameBuffer
 TradeTakeCareText,RAM1,nickname,engine/movie/trade.asm#TradeTakeCareText/wNameBuffer

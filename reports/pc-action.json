@@ -1,0 +1,122 @@
+{
+  "scope": "PC Pokemon five-option action menu; static inspection and compile/package only",
+  "sourceAnnotation": "testpic/labels/pc-action.json",
+  "screenshotSha256": "1902d00dbcfc1673fbea01dad485bb065c7fa91475d1a86142fc7e53f3ed4082",
+  "menuBounds": [
+    0,
+    0,
+    112,
+    96
+  ],
+  "textX": 16,
+  "textY": [
+    16,
+    32,
+    48,
+    64,
+    80
+  ],
+  "columns": 11,
+  "pointerX": 8,
+  "originalChineseSource": "pokeredCHS-rgb:src/xlsx/data.xlsx#PC!C13:C17",
+  "newMenuRecords": 10,
+  "records": 10215,
+  "fragments": 23973,
+  "segments": 15728,
+  "staticSourceAndResourceChecksPassed": true,
+  "compileAndPackagePassed": true,
+  "buildLog": "output/build-pc-action.log",
+  "packaged": [
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "02137d7a6d9376a7a96ff47c46d3a7edaf9b98a41ea55d4c51a97431dc1adb2c",
+      "path": "corpus/records.csv"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "c1adb7c9a900580f253be24f9061193477929162ca231b0aa9b4a7528e13980c",
+      "path": "corpus/fragments.csv"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "278fe7ff1dd83c055caa3d1395fff4b75babc97d0a774ecb5a7d119d8206a35f",
+      "path": "corpus/segments.csv"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "474aab23ff2f578071b5003dab0f05342d61b66f55b2bab879c5d9887eeea516",
+      "path": "io/github/g1ocr/region/RegionDetector.class"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "40d36cab414097d33c6f11b385fc845e939a744ab06c8b425ad5228aba87b7e5",
+      "path": "io/github/g1ocr/region/RegionDetector$Grid.class"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "691f336053ab238a32796930c75b9f349be304b4a207b71210d66c8a6028e095",
+      "path": "io/github/g1ocr/region/RegionDetector$Rect.class"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "6b40039c4c68d81ebd04c3e66028ec1d8c8d589e3ebe4afe5084bc6c8dc16fda",
+      "path": "io/github/g1ocr/region/RegionDetector$Region.class"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "3dff63cccc76608e1b65c3ddb567c6b454d4134ea499b70257ffa6a83369ae61",
+      "path": "io/github/g1ocr/text/TextResolver.class"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "cbb06e9f3c114b1655801254360dc84f72c4c16593bb637931db93735707ba38",
+      "path": "io/github/g1ocr/text/TextResolver$Candidate.class"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "907290e510e47b50ddac0ec30e16fac0e0b9927ca53f8360235d15ae434622bd",
+      "path": "io/github/g1ocr/text/TextResolver$Progress.class"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "ec00356638a0e9377c142ed9198dce3de422ef98d340dd366d425799c5f4a0eb",
+      "path": "io/github/g1ocr/text/TextResolver$Rendering.class"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "00fa63056bd4099ac46f77c8c31031dae0ca45247c40e86cf85439211ffddb18",
+      "path": "io/github/g1ocr/text/TextResolver$Unit.class"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "1f6123dce15d3f60da856a7b2b471309e28aed63293ebfcd9eb261d5aa72c1cb",
+      "path": "io/github/g1ocr/ui/LiveApplication.class"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "d348a76d10ff3c6c787e72133116416837bee5f5a8b716face4ab9f61621a1de",
+      "path": "io/github/g1ocr/ui/LiveApplication$1.class"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "7abe99728f7c6ccc28ecdbaf3b997ecf4882a2678a9b04150ed32698364b17e3",
+      "path": "io/github/g1ocr/ui/LiveApplication$2.class"
+    },
+    {
+      "matchesSourceOrCompiledOutput": true,
+      "sha256": "fd2289a4d13df892283ebcdfdcffb7bbbaa17022eb370b068427a0524954735d",
+      "path": "io/github/g1ocr/ui/LiveApplication$3.class"
+    }
+  ],
+  "dynamicTestsRun": false,
+  "applicationStarted": false,
+  "original108RegressionRun": false,
+  "realCaptureTested": false,
+  "finalChineseAcceptance": false,
+  "pending": [
+    "attached screenshot OCR, all five selections and translation",
+    "covered-menu negatives and original 108-image regression",
+    "cursor-only updates without OCR, text changes and disappearance invalidation",
+    "live JavaFX and capture validation"
+  ]
+}

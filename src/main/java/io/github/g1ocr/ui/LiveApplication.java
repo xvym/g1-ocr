@@ -33,6 +33,8 @@ import javafx.scene.control.ToggleButton;
 import javafx.scene.image.ImageView;
 import javafx.scene.image.PixelFormat;
 import javafx.scene.image.WritableImage;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
@@ -57,6 +59,9 @@ public final class LiveApplication extends Application {
     private final JsonMapper settingsJson = JsonMapper.builder().build();
     private boolean updatingPlayerNames;
     private final Label status = new Label("请选择 new3ds_view 窗口");
+    private final Label bugReportStatus = new Label("F1：保存问题现场");
+    private boolean savingBugReport;
+    private boolean f1Pressed;
     private final TextArea text = new TextArea();
     private final TextArea chinese = new TextArea();
     private final TextArea dialogueText = new TextArea();
@@ -160,7 +165,7 @@ public final class LiveApplication extends Application {
         VBox toolbar = new VBox(10, new HBox(8, windows, reload, start, stop, calibrate),
                 new HBox(8, playerNameLabel, playerNames, addPlayer, editPlayer, deletePlayer),
                 new HBox(8, fontSizeLabel, fontSize, compactMode, split, historyButton),
-                new Label("采集配置：new3ds_view · 仅上屏 · VC 原生 1:1 · 投屏点对点整数倍率"), status);
+                new Label("采集配置：new3ds_view · 仅上屏 · VC 原生 1:1 · 投屏点对点整数倍率"), status, bugReportStatus);
         toolbar.setPadding(new Insets(16));
         status.setWrapText(true);
         text.setEditable(false);
@@ -286,6 +291,22 @@ public final class LiveApplication extends Application {
         historyStage.setScene(new Scene(historyRoot, 940, 620));
         historyStage.setMinWidth(700);
         historyStage.setMinHeight(440);
+        for (Scene scene : java.util.List.of(normalScene, compactScene, listStage.getScene(), historyStage.getScene())) {
+            scene.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
+                if (event.getCode() == KeyCode.F1) {
+                    event.consume();
+                    if (!f1Pressed) {
+                        f1Pressed = true;
+                        saveBugReport();
+                    }
+                }
+            });
+            scene.addEventFilter(KeyEvent.KEY_RELEASED, event -> {
+                if (event.getCode() == KeyCode.F1) { f1Pressed = false; event.consume(); }
+            });
+        }
+        for (Stage window : java.util.List.of(stage, listStage, historyStage))
+            window.focusedProperty().addListener((observable, previous, focused) -> { if (!focused) f1Pressed = false; });
         stage.setTitle("G1 OCR 翻译 — 开发版");
         stage.setScene(normalScene);
         stage.setMinWidth(860);
@@ -341,6 +362,38 @@ public final class LiveApplication extends Application {
     private void showHistory() {
         historyStage.show();
         historyStage.toFront();
+    }
+
+    private void saveBugReport() {
+        if (savingBugReport) return;
+        savingBugReport = true;
+        bugReportStatus.setText("正在保存问题现场…");
+        var ui = new java.util.LinkedHashMap<String, Object>();
+        ui.put("compactMode", compactView); ui.put("splitView", splitView);
+        ui.put("fontSize", fontSize.getValue()); ui.put("selectedPlayerName", playerNames.getValue());
+        ui.put("selectionId", session.selectionId()); ui.put("playerNameRevision", session.playerNameRevision());
+        ui.put("status", status.getText()); ui.put("japanese", text.getText());
+        ui.put("dialogue", dialogueText.getText()); ui.put("list", chinese.getText());
+        ui.put("diagnostics", diagnostics.getText());
+        var selectedHistory = historyList.getSelectionModel().getSelectedItem();
+        ui.put("selectedHistorySequence", selectedHistory == null ? 0L : selectedHistory.sequence());
+        session.saveBugReport(ui, path -> Platform.runLater(() -> showBugReportResult(false, "已保存问题现场：\n" + path)),
+                error -> Platform.runLater(() -> showBugReportResult(true, error)));
+    }
+
+    private void showBugReportResult(boolean error, String message) {
+        savingBugReport = false;
+        bugReportStatus.setText(message);
+        Alert alert = new Alert(error ? Alert.AlertType.ERROR : Alert.AlertType.INFORMATION);
+        alert.initOwner(mainStage);
+        alert.setTitle("F1 问题现场");
+        alert.setHeaderText(error ? "问题现场未保存完成" : "问题现场已保存");
+        TextArea details = new TextArea(message);
+        details.setEditable(false);
+        details.setWrapText(true);
+        details.setPrefRowCount(4);
+        alert.getDialogPane().setContent(details);
+        alert.show();
     }
 
     private void showHistoryEntry(LiveSession.HistoryEntry entry) {
@@ -528,7 +581,7 @@ public final class LiveApplication extends Application {
             var result = region.text();
             boolean battleAction = result.layout().equals("battle_action");
             boolean itemList = result.layout().equals("shared_list") || result.layout().equals("shop_items")
-                    || result.layout().equals("battle_moves") || battleAction;
+                    || result.layout().equals("battle_moves") || result.layout().equals("pc_action") || battleAction;
             Integer selectedUnit = battleAction ? region.selectedItem() : null;
             if (itemList && !battleAction) {
                 int itemIndex = 0;
@@ -602,6 +655,7 @@ public final class LiveApplication extends Application {
         return switch (layout) {
             case "dialogue" -> "主对话";
             case "battle_action" -> "战斗操作";
+            case "pc_action" -> "PC 宝可梦操作";
             case "battle_moves" -> "战斗技能";
             case "shop_items" -> "商店商品";
             default -> semanticType.equals("pc_pokemon") ? "PC 宝可梦" : "道具列表（用途未确定）";

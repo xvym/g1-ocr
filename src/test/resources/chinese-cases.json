@@ -4,6 +4,67 @@
   "source": "Pinned corpus source cells and user-approved revisions listed in each expected source label; literal expected Chinese is fixed before running the resolver",
   "scenarios": [
     {
+      "name": "reception dialogue retains legal trainer and five-character nickname prefix ambiguity",
+      "events": [
+        {
+          "raw": "うけつけは こちらです",
+          "match": "ambiguous",
+          "status": "ambiguous",
+          "chinese": ""
+        },
+        {
+          "raw": "うけつけは こちらです",
+          "waitingForInput": true,
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "请在这里登记。",
+          "source": "CableClubNPCPleaseApplyHereHaveToSaveText",
+          "candidateCount": 3
+        },
+        {
+          "disappear": true
+        },
+        {
+          "raw": "うけつけは こちらです",
+          "match": "ambiguous",
+          "status": "ambiguous",
+          "chinese": ""
+        }
+      ]
+    },
+    {
+      "name": "an arrow alone does not complete an unfinished source line or unknown glyph",
+      "events": [
+        {
+          "raw": "うけつけは こちらで",
+          "waitingForInput": true,
+          "match": "ambiguous",
+          "status": "ambiguous",
+          "chinese": ""
+        },
+        {
+          "raw": "うけつけは こちらで�",
+          "waitingForInput": true,
+          "match": "unreliable",
+          "status": "unknown_character",
+          "chinese": ""
+        }
+      ]
+    },
+    {
+      "name": "shop confirmation still accepts a source item name and visible total price",
+      "events": [
+        {
+          "raw": "キズぐすりですね\n300円に なりますが？",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "伤药吗？\n一共是¥300。\n可以吗？",
+          "source": "PokemartTellBuyPriceText",
+          "candidateCount": 3
+        }
+      ]
+    },
+    {
       "name": "identical translations across all sources publish without a version",
       "events": [
         {
