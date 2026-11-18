@@ -8,8 +8,15 @@ import java.util.List;
 /** Only measured Japanese tile layouts, all coordinates in GB pixels. */
 public final class RegionDetector {
     public record Rect(int x, int y, int width, int height) {}
-    public record Grid(int x, int y, int columns, List<Integer> maskedColumns) {
+    public record Grid(int x, int y, int columns, List<Integer> maskedColumns, long arrowPixels) {
         public Grid(int x, int y, int columns) { this(x, y, columns, List.of()); }
+        public Grid(int x, int y, int columns, List<Integer> maskedColumns) {
+            this(x, y, columns, maskedColumns, 0);
+        }
+        public long basePixels(GbFrame frame, int column) {
+            long pixels = frame.tile(x + column * 8, y);
+            return column == columns - 1 && pixels == arrowPixels ? 0 : pixels;
+        }
     }
     public record Region(String id, String layout, String semanticType, Rect bounds,
                          List<Grid> rows, List<Grid> footerRows, Integer selectedItem) {
@@ -20,7 +27,7 @@ public final class RegionDetector {
                 for (int col = 0; col < row.columns(); col++) {
                     if (row.maskedColumns().contains(col)) continue;
                     pixels.add(frame.tile(row.x() + col * 8, row.y() - 8));
-                    pixels.add(frame.tile(row.x() + col * 8, row.y()));
+                    pixels.add(row.basePixels(frame, col));
                 }
             }
             return pixels.stream().mapToLong(Long::longValue).toArray();
@@ -35,8 +42,9 @@ public final class RegionDetector {
     }
 
     public boolean continuationArrow(GbFrame frame, Region region) {
-        return region.layout().equals("dialogue") && region.rows().getLast().maskedColumns().contains(17)
-                && is(frame, region.bounds().x() + 144, 128, "▼");
+        Grid last = region.rows().getLast();
+        return last.arrowPixels() != 0
+                && frame.tile(last.x() + (last.columns() - 1) * 8, last.y()) == last.arrowPixels();
     }
 
     private boolean horizontal(GbFrame frame, int left, int right, int y, String start, String end) {
@@ -69,6 +77,15 @@ public final class RegionDetector {
         if (pcAction) regions.add(new Region("pc_action", "pc_action", "pc_action", new Rect(0, 0, 112, 96),
                 List.of(new Grid(16, 16, 11), new Grid(16, 32, 11), new Grid(16, 48, 11),
                         new Grid(16, 64, 11), new Grid(16, 80, 11)), List.of(), selected(frame, 8, 16, 5)));
+
+        // Player's item PC, with a smaller four-row frame than Bill's PC.
+        boolean pcItemAction = horizontal(frame, 0, 88, 0, "┌", "┐")
+                && horizontal(frame, 0, 88, 72, "└", "┘");
+        for (int y = 8; pcItemAction && y <= 64; y += 8)
+            pcItemAction = is(frame, 0, y, "│") && is(frame, 88, y, "│");
+        if (pcItemAction) regions.add(new Region("pc_item_action", "pc_item_action", "pc_item_action",
+                new Rect(0, 0, 96, 80), List.of(new Grid(16, 16, 9), new Grid(16, 32, 9),
+                new Grid(16, 48, 9), new Grid(16, 64, 9)), List.of(), selected(frame, 8, 16, 4)));
 
         boolean list = horizontal(frame, 32, 152, 16, "┌", "┐")
                 && horizontal(frame, 32, 152, 96, "└", "┘");
@@ -118,10 +135,10 @@ public final class RegionDetector {
         if (dialogueX >= 0) {
             boolean status = horizontal(frame, 72, 152, 112, "┌", "┐");
             int columns = action || status ? 8 : 18;
-            // The lower-right continuation arrow lives at x=144,y=128.
-            List<Integer> mask = columns == 18 ? List.of(17) : List.of();
+            // The last cell can hold either the continuation arrow or real text.
+            long arrow = columns == 18 ? font.pixels("▼") : 0;
             regions.add(new Region("dialogue", "dialogue", "dialogue", new Rect(dialogueX, 96, 160 - dialogueX, 48),
-                    List.of(new Grid(dialogueX + 8, 112, columns), new Grid(dialogueX + 8, 128, columns, mask)), List.of(), null));
+                    List.of(new Grid(dialogueX + 8, 112, columns), new Grid(dialogueX + 8, 128, columns, List.of(), arrow)), List.of(), null));
         }
         return List.copyOf(regions);
     }

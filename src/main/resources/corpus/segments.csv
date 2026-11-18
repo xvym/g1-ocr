@@ -33007,6 +33007,18 @@ pokeyellow-jp:composed:TrainerEnd.ViridianGymCooltrainerM2EndBattleText,1,1,1,{{
 pokeyellow-jp:composed:TrainerEnd.ViridianGymHiker3EndBattleText,1,1,1,{{SPEAKER}}『ドッセーッ！,0,15,{{SPEAKER}}：啊呀！,aligned,source_control_flow_composition,model_reviewed_control_flow_not_human,pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymHiker3EndBattleText
 pokeyellow-jp:composed:TrainerEnd.ViridianGymRocker2EndBattleText,1,1,1,{{SPEAKER}}『⋯⋯　い　いてて！,0,19,{{SPEAKER}}：……好、好痛！,aligned,source_control_flow_composition,model_reviewed_control_flow_not_human,pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymRocker2EndBattleText
 pokeyellow-jp:composed:TrainerEnd.ViridianGymCooltrainerM3EndBattleText,1,1,1,{{SPEAKER}}『⋯⋯　さすがだ！,0,19,{{SPEAKER}}：……果然厉害！,aligned,source_control_flow_composition,model_reviewed_control_flow_not_human,pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymCooltrainerM3EndBattleText
+pokegreen:fixed:PCItemAction.Withdraw,1,1,1,どうぐを　ひきだす,0,4,取出道具,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCItemAction.Withdraw
+pokegreen:fixed:PCItemAction.Deposit,1,1,1,どうぐを　あずける,0,4,寄放道具,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCItemAction.Deposit
+pokegreen:fixed:PCItemAction.Toss,1,1,1,どうぐを　すてる,0,4,丢弃道具,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCItemAction.Toss
+pokegreen:fixed:PCItemAction.Exit,1,1,1,スイッチを　きる,0,2,关机,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCItemAction.Exit
+pokeblue:fixed:PCItemAction.Withdraw,1,1,1,どうぐを　ひきだす,0,4,取出道具,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCItemAction.Withdraw
+pokeblue:fixed:PCItemAction.Deposit,1,1,1,どうぐを　あずける,0,4,寄放道具,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCItemAction.Deposit
+pokeblue:fixed:PCItemAction.Toss,1,1,1,どうぐを　すてる,0,4,丢弃道具,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCItemAction.Toss
+pokeblue:fixed:PCItemAction.Exit,1,1,1,スイッチを　きる,0,2,关机,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCItemAction.Exit
+pokeyellow-jp:fixed:PCItemAction.Withdraw,1,1,1,どうぐを　ひきだす,0,4,取出道具,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCItemAction.Withdraw
+pokeyellow-jp:fixed:PCItemAction.Deposit,1,1,1,どうぐを　あずける,0,4,寄放道具,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCItemAction.Deposit
+pokeyellow-jp:fixed:PCItemAction.Toss,1,1,1,どうぐを　すてる,0,4,丢弃道具,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCItemAction.Toss
+pokeyellow-jp:fixed:PCItemAction.Exit,1,1,1,スイッチを　きる,0,2,关机,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCItemAction.Exit
 pokegreen:fixed:PCAction.Withdraw,1,1,1,ポケモンを　つれていく,0,5,取出宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Withdraw
 pokegreen:fixed:PCAction.Deposit,1,1,1,ポケモンを　あずける,0,5,寄放宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Deposit
 pokegreen:fixed:PCAction.Release,1,1,1,ポケモンを　にがす,0,5,放生宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Release

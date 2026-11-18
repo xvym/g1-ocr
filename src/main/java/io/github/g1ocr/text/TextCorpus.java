@@ -180,7 +180,7 @@ public final class TextCorpus {
             // NAME_LENGTH=6 includes the terminator in the pinned Japanese source.
             if (List.of("name", "nickname", "battle_name").contains(kind) && name.length() > 5) continue;
             if (kind.equals("trainer_name") && name.length() > 5 && variableWords(value, "trainer").isEmpty()) continue;
-            if (List.of("item", "move", "trainer", "pokemon", "stat", "city", "gym_leader").contains(kind)
+            if (List.of("item", "move", "trainer", "pokemon", "stat", "city", "gym_leader", "game_corner_prize").contains(kind)
                     && variableWords(value, kind).stream().noneMatch(e -> e.games().equals(fragment.entry().games()))) continue;
             if (previous != null && !canonical(previous).equals(text.substring(offset, end))) continue;
             if ((fragment.numbers().contains(slot) || kind.equals("number")) && !value.matches("[0-9]+")) continue;
@@ -196,7 +196,7 @@ public final class TextCorpus {
             boolean possible = switch (kind) {
                 case "name", "nickname", "trainer_name", "battle_name" ->
                         name.length() < 5 && validName(name, kind, true);
-                case "item", "move", "trainer", "pokemon", "stat", "city", "gym_leader" -> words.entrySet().stream()
+                case "item", "move", "trainer", "pokemon", "stat", "city", "gym_leader", "game_corner_prize" -> words.entrySet().stream()
                         .anyMatch(e -> e.getKey().startsWith(canonical(remaining)) &&
                                 variableWords(e.getKey(), kind).stream()
                                 .anyMatch(v -> v.games().equals(fragment.entry().games())));
@@ -256,6 +256,8 @@ public final class TextCorpus {
     }
 
     List<Entry> variableWords(String text, String kind) {
+        if (kind.equals("game_corner_prize")) return words(text, List.of("pokemon", "item")).stream()
+                .filter(e -> e.kind().equals("pokemon") || e.japanese().startsWith("わざマシン")).toList();
         if (kind.equals("city") || kind.equals("gym_leader")) return words(text, List.of("fixed")).stream()
                 .filter(e -> e.id().contains(":fixed:" + (kind.equals("city") ? "GymCity." : "GymLeader."))).toList();
         if (kind.equals("stat")) return words(text, List.of("fixed")).stream()

@@ -78,8 +78,8 @@ public final class LiveApplication extends Application {
     private final Label listHeading = new Label("列表与操作");
     private final VBox dialoguePanel = new VBox(6, dialogueHeading, dialogueText);
     private final VBox listPanel = new VBox(6, listHeading, chinese);
-    private final SplitPane translation = new SplitPane();
-    private final Tab translationTab = new Tab("中文 / 状态");
+    private final SplitPane normalTranslation = new SplitPane();
+    private final SplitPane compactTranslation = new SplitPane();
     private final BorderPane compactRoot = new BorderPane();
     private final BorderPane detachedRoot = new BorderPane();
     private Stage mainStage;
@@ -91,7 +91,8 @@ public final class LiveApplication extends Application {
     private boolean normalMaximized;
     private boolean compactView;
     private boolean splitView;
-    private double dividerPosition = 0.55;
+    private double normalDividerPosition = 0.55;
+    private double compactDividerPosition = 0.55;
     private LiveSession session;
     private AnimationTimer refresh;
     private TextCorpus corpus;
@@ -176,7 +177,6 @@ public final class LiveApplication extends Application {
             area.setEditable(false);
             area.setWrapText(true);
             area.setFont(Font.font("Microsoft YaHei", fontSize.getValue()));
-            area.setPromptText("中文条件满足后显示译文；其余情况保留日文与状态");
             VBox.setVgrow(area, Priority.ALWAYS);
             area.setMinSize(0, 0);
             ContextMenu menu = new ContextMenu();
@@ -221,11 +221,12 @@ public final class LiveApplication extends Application {
         imageScroll.setPrefWidth(355);
         dialoguePanel.setMinSize(0, 0);
         listPanel.setMinSize(0, 0);
-        translation.getItems().setAll(dialoguePanel, listPanel);
-        translation.setOrientation(Orientation.VERTICAL);
-        translation.setDividerPositions(0.55);
-        translationTab.setContent(translation);
-        TabPane content = new TabPane(translationTab, new Tab("原始日文", text));
+        normalTranslation.setOrientation(Orientation.VERTICAL);
+        normalTranslation.getItems().setAll(dialoguePanel, listPanel);
+        normalTranslation.setDividerPositions(normalDividerPosition);
+        compactTranslation.setOrientation(Orientation.VERTICAL);
+        compactRoot.setCenter(compactTranslation);
+        TabPane content = new TabPane(new Tab("中文 / 状态", normalTranslation), new Tab("原始日文", text));
         content.setTabClosingPolicy(TabPane.TabClosingPolicy.UNAVAILABLE);
         BorderPane center = new BorderPane(content);
         center.setLeft(imageScroll);
@@ -502,12 +503,14 @@ public final class LiveApplication extends Application {
         listHeading.setVisible(!enabled);
         listHeading.setManaged(!enabled);
         if (enabled) {
+            normalDividerPosition = normalTranslation.getDividerPositions()[0];
             normalBounds = new Rectangle2D(mainStage.getX(), mainStage.getY(),
                     mainStage.getWidth(), mainStage.getHeight());
             normalMaximized = mainStage.isMaximized();
             mainStage.setMaximized(false);
-            translationTab.setContent(null);
-            compactRoot.setCenter(translation);
+            normalTranslation.getItems().clear();
+            compactTranslation.getItems().setAll(dialoguePanel, listPanel);
+            compactTranslation.setDividerPositions(compactDividerPosition);
             mainStage.setMinWidth(220);
             mainStage.setMinHeight(140);
             mainStage.setScene(compactScene);
@@ -515,8 +518,10 @@ public final class LiveApplication extends Application {
             mainStage.setHeight(380);
             mainStage.setTitle("G1 OCR — 简洁模式（右键设置）");
         } else {
-            compactRoot.setCenter(null);
-            translationTab.setContent(translation);
+            compactDividerPosition = compactTranslation.getDividerPositions()[0];
+            compactTranslation.getItems().clear();
+            normalTranslation.getItems().setAll(dialoguePanel, listPanel);
+            normalTranslation.setDividerPositions(normalDividerPosition);
             mainStage.setMaximized(false);
             mainStage.setScene(normalScene);
             mainStage.setMinWidth(860);
@@ -532,9 +537,8 @@ public final class LiveApplication extends Application {
 
     private void splitTexts() {
         setCompactMode(true);
-        dividerPosition = translation.getDividerPositions()[0];
-        compactRoot.setCenter(null);
-        translation.getItems().clear();
+        compactDividerPosition = compactTranslation.getDividerPositions()[0];
+        compactTranslation.getItems().clear();
         compactRoot.setCenter(dialoguePanel);
         detachedRoot.setCenter(listPanel);
         splitView = true;
@@ -549,9 +553,9 @@ public final class LiveApplication extends Application {
         listStage.hide();
         detachedRoot.setCenter(null);
         compactRoot.setCenter(null);
-        translation.getItems().setAll(dialoguePanel, listPanel);
-        compactRoot.setCenter(translation);
-        translation.setDividerPositions(dividerPosition);
+        compactTranslation.getItems().setAll(dialoguePanel, listPanel);
+        compactRoot.setCenter(compactTranslation);
+        compactTranslation.setDividerPositions(compactDividerPosition);
         splitView = false;
         mainStage.setTitle("G1 OCR — 简洁模式（右键设置）");
     }
@@ -581,7 +585,8 @@ public final class LiveApplication extends Application {
             var result = region.text();
             boolean battleAction = result.layout().equals("battle_action");
             boolean itemList = result.layout().equals("shared_list") || result.layout().equals("shop_items")
-                    || result.layout().equals("battle_moves") || result.layout().equals("pc_action") || battleAction;
+                    || result.layout().equals("battle_moves") || result.layout().equals("pc_action")
+                    || result.layout().equals("pc_item_action") || battleAction;
             Integer selectedUnit = battleAction ? region.selectedItem() : null;
             if (itemList && !battleAction) {
                 int itemIndex = 0;
@@ -591,12 +596,6 @@ public final class LiveApplication extends Application {
                     if (java.util.Objects.equals(region.selectedItem(), rowIndex)) selectedUnit = itemIndex;
                     itemIndex++;
                 }
-            }
-            String label = regionName(result.layout(), result.semanticType());
-            if (!itemList) {
-                body.append(label);
-                if (region.selectedItem() != null) body.append(" · 选中第 ").append(region.selectedItem() + 1).append(" 项");
-                body.append('\n');
             }
             StringBuilder translated = result.layout().equals("dialogue") ? dialogues : lists;
             for (int rowIndex = 0; rowIndex < result.diagnostics().size(); rowIndex++) {
@@ -615,11 +614,6 @@ public final class LiveApplication extends Application {
                 }
             }
             body.append('\n');
-            if (!itemList) {
-                translated.append(label);
-                if (region.selectedItem() != null) translated.append(" · 选中第 ").append(region.selectedItem() + 1).append(" 项");
-                translated.append('\n');
-            }
             for (int itemIndex = 0; itemIndex < region.translation().size(); itemIndex++) {
                 var unit = region.translation().get(itemIndex);
                 if (itemList) translated.append(java.util.Objects.equals(selectedUnit, itemIndex) ? "▶ " : "  ");
@@ -656,6 +650,7 @@ public final class LiveApplication extends Application {
             case "dialogue" -> "主对话";
             case "battle_action" -> "战斗操作";
             case "pc_action" -> "PC 宝可梦操作";
+            case "pc_item_action" -> "PC 道具操作";
             case "battle_moves" -> "战斗技能";
             case "shop_items" -> "商店商品";
             default -> semanticType.equals("pc_pokemon") ? "PC 宝可梦" : "道具列表（用途未确定）";

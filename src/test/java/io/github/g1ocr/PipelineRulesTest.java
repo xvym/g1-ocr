@@ -1,5 +1,6 @@
 package io.github.g1ocr;
 
+import io.github.g1ocr.capture.WindowCapture.Bounds;
 import io.github.g1ocr.image.GbFrame;
 import io.github.g1ocr.image.ViewportResolver;
 import io.github.g1ocr.ocr.PixelFont;
@@ -7,8 +8,10 @@ import io.github.g1ocr.region.RegionDetector;
 import io.github.g1ocr.region.StabilityDetector;
 import org.junit.jupiter.api.Test;
 import javax.imageio.ImageIO;
+import java.awt.RenderingHints;
 import java.awt.image.BufferedImage;
 import java.nio.file.Path;
+import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 /** Static images and synthetic inputs are not real capture/timing evidence. */
@@ -61,6 +64,28 @@ class PipelineRulesTest {
                 actual.getFirst().rawOcr());
         assertTrue(actual.getFirst().diagnostics().stream().flatMap(line -> line.characters().stream())
                 .noneMatch(character -> character.unknown()));
+    }
+
+    @Test void windowBorderOffsetsAreEquivalentOnlyWhenTheySampleTheSamePixels() throws Exception {
+        BufferedImage gb = GbFrame.normalize(source("21-22-53"), SCREEN).image();
+        BufferedImage window = new BufferedImage(1202, 807, BufferedImage.TYPE_INT_RGB);
+        var graphics = window.createGraphics();
+        graphics.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_NEAREST_NEIGHBOR);
+        graphics.drawImage(gb, 361, 230, 480, 432, null);
+        graphics.dispose();
+
+        var resolver = new ViewportResolver(new PixelFont());
+        var hints = List.of(new Bounds(1, 86, 1200, 720), new Bounds(12, 86, 1200, 720));
+        int pixel = window.getRGB(361, 232);
+        window.setRGB(361, 232, pixel ^ 1);
+        assertEquals(ViewportResolver.Status.AMBIGUOUS, resolver.resolve(window, hints, 0).status());
+
+        window.setRGB(361, 232, pixel);
+        assertEquals(ViewportResolver.Status.CALIBRATING, resolver.resolve(window, hints, 0).status());
+        assertEquals(ViewportResolver.Status.CALIBRATING, resolver.resolve(window, hints, 100_000_000L).status());
+        var ready = resolver.resolve(window, hints, 200_000_000L);
+        assertEquals(ViewportResolver.Status.READY, ready.status());
+        assertEquals(new GbFrame.Mapping(1, 86, 3), ready.mapping());
     }
 
     @Test void stabilityMasksGenerationsAndInvalidation() throws Exception {
@@ -128,6 +153,13 @@ class PipelineRulesTest {
         assertArrayEquals(region.textPixels(before), region.textPixels(waiting));
         assertEquals(pipeline.recognize(before), pipeline.recognize(waiting));
         assertTrue(pipeline.isCurrent(stable.key(), waiting, region));
+        paint(image, 144, 128, font.pixels("？"));
+        GbFrame punctuation = GbFrame.normalize(image, SCREEN);
+        assertFalse(pipeline.continuationArrow(punctuation, region));
+        assertFalse(pipeline.isCurrent(stable.key(), punctuation, region));
+        assertTrue(pipeline.recognize(punctuation).stream().filter(r -> r.id().equals("dialogue"))
+                .findFirst().orElseThrow().rawOcr().getLast().endsWith("？"));
+        paint(image, 144, 128, font.pixels("▼"));
         paint(image, 8, 104, font.pixels("゛"));
         assertFalse(pipeline.isCurrent(stable.key(), GbFrame.normalize(image, SCREEN), region));
     }

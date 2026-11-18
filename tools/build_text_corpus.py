@@ -422,6 +422,17 @@ def add_fixed_words(jp, zh, games, replacements, all_records, all_fragments):
     append('SafariMenu.Bait','エサをなげる',bait,filename,0,'诱饵')
     append('SafariMenu.Rock','いしをなげる',rock,filename,0,'石块')
 
+    filename='engine/menus/players_pc.asm'
+    jlines=(SOURCES/jp/filename).read_text(encoding='utf-8').splitlines()
+    jstart=jlines.index('PlayersPCMenuEntries:')+1
+    for n,(role,en) in enumerate(zip(['Withdraw','Deposit','Toss','Exit'],
+                                    ['WITHDRAW ITEM','DEPOSIT ITEM','TOSS ITEM','LOG OFF@'])):
+        ja=literal(re.search(r'"([^"]+)"',jlines[jstart+n])[1])
+        p=next(p for p in replacements if p['file']==filename and p['original']=='"'+en+'"' and not p['replacement'])
+        append('PCItemAction.'+role,ja,p,filename,jstart+n+1)
+        all_records[-1].update(method='pc_item_action_menu_role_and_slot',
+            evidence=packed(dict(menu='PlayersPCMenuEntries',slot=n,original_english=en,source_file=filename)))
+
     # Pair the five-option Bills PC menu by its fixed source slot. Yellow has six options.
     if jp != 'pokeyellow-jp':
         filename='engine/pokemon/bills_pc.asm'
@@ -973,7 +984,7 @@ def build():
                 fragments=dict(collections.Counter(f['status'] for f in all_fragments)),
                 semantic_segments=len(semantic_segments),
                 common_display_windows=sum(bool(f['display_chinese']) for f in all_fragments),
-                missing_rolled_name_windows=sum(f['display_policy']=='missing_rolled_name' for f in all_fragments),
+                missing_rolled_name_windows=sum(f['display_policy'] in {'missing_rolled_name','shared_rolled_name'} for f in all_fragments),
                 semantic_segment_methods=dict(collections.Counter(s['method'] for s in semantic_segments)),
                 segmentation_issue_records=len({issue['record_id'] for issue in segmentation_issues}),
                 approved_revision_methods=dict(collections.Counter(json.loads(r['chinese_revision'])['method']

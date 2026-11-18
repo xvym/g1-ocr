@@ -313,10 +313,10 @@ public final class LiveSession implements AutoCloseable {
             String session = activeSelection + ":" + revision;
             var updates = pipeline.sample(session, mapping, poll.sampleTimeNanos(), frame);
             var regions = pipeline.regions(frame);
-            var visible = new java.util.HashSet<String>();
-            for (var region : regions)
-                if (java.util.Arrays.stream(region.textPixels(frame)).anyMatch(p -> p != 0)) visible.add(region.id());
-            translator.retainRegions(visible);
+            // A paragraph can clear its text while the same dialogue box remains on screen.
+            // Keep source progress through that gap; stability still removes the old result.
+            translator.retainRegions(regions.stream().map(region -> region.id())
+                    .collect(java.util.stream.Collectors.toSet()));
             published.values().removeIf(value -> !pipeline.isCurrent(value.key()));
             translations.keySet().retainAll(published.keySet());
             recordedResults.keySet().retainAll(published.keySet());

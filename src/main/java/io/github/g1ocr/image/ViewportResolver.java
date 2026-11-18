@@ -6,6 +6,7 @@ import io.github.g1ocr.region.RegionDetector;
 import io.github.g1ocr.region.StabilityDetector;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
@@ -72,26 +73,48 @@ public final class ViewportResolver {
         GbFrame existing = locked == null ? null : GbFrame.normalize(image, locked);
         if (existing != null && !detector.detect(existing).isEmpty())
             return new Resolution(Status.READY, "已校准", locked, existing, 1);
-        List<GbFrame.Mapping> matches = new ArrayList<>();
-        for (GbFrame.Mapping mapping : candidates(image, hints))
-            if (geometryEvidence(GbFrame.normalize(image, mapping))) matches.add(mapping);
-        if (matches.isEmpty()) {
+        GbFrame.Mapping candidate = null;
+        GbFrame candidateFrame = null;
+        int[] candidatePixels = null;
+        int matches = 0;
+        boolean ambiguous = false;
+        for (GbFrame.Mapping mapping : candidates(image, hints)) {
+            GbFrame frame = GbFrame.normalize(image, mapping);
+            if (!geometryEvidence(frame)) continue;
+            matches++;
+            if (candidate == null) {
+                candidate = mapping;
+                candidateFrame = frame;
+                continue;
+            }
+            if (ambiguous) continue;
+            int scale = candidate.scale();
+            if (mapping.scale() != scale || Math.abs(mapping.ox() - candidate.ox()) >= scale
+                    || Math.abs(mapping.oy() - candidate.oy()) >= scale) {
+                ambiguous = true;
+                continue;
+            }
+            // Border offsets can sample different positions inside the same enlarged GB pixel.
+            if (candidatePixels == null)
+                candidatePixels = candidateFrame.image().getRGB(0, 0, 160, 144, null, 0, 160);
+            ambiguous = !Arrays.equals(candidatePixels, frame.image().getRGB(0, 0, 160, 144, null, 0, 160));
+        }
+        if (candidate == null) {
             pending = null; count = 0;
             if (existing != null) return new Resolution(Status.READY, "已校准，当前无目标框", locked, existing, 0);
             return new Resolution(Status.WAITING, "等待校准：请显示对话框或目标列表，并保持上屏整数倍输出", null, null, 0);
         }
         locked = null;
-        if (matches.size() != 1) {
+        if (ambiguous) {
             pending = null; count = 0;
-            return new Resolution(Status.AMBIGUOUS, "校准候选不唯一，识别已暂停；请检查仅上屏和整数倍率设置", null, null, matches.size());
+            return new Resolution(Status.AMBIGUOUS, "校准候选不唯一，识别已暂停；请检查仅上屏和整数倍率设置", null, null, matches);
         }
-        GbFrame.Mapping candidate = matches.getFirst();
         if (!candidate.equals(pending)) { pending = candidate; count = 0; nextObservation = 0; }
         if (observationNanos >= nextObservation) {
             count++; nextObservation = observationNanos + StabilityDetector.INTERVAL_NANOS;
         }
         if (count < 3) return new Resolution(Status.CALIBRATING, "正在确认上屏映射（" + count + "/3）", candidate, null, 1);
         locked = candidate;
-        return new Resolution(Status.READY, "已校准", locked, GbFrame.normalize(image, locked), 1);
+        return new Resolution(Status.READY, "已校准", locked, candidateFrame, 1);
     }
 }

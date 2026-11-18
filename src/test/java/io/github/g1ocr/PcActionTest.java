@@ -13,6 +13,25 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class PcActionTest {
+    @Test void itemPcMenuAndDialogueAreRecognizedSeparately() throws Exception {
+        var image = ImageIO.read(getClass().getResource("/pc-item-action-20261107.png"));
+        var upper = new BufferedImage(400, 240, BufferedImage.TYPE_INT_RGB);
+        var graphics = upper.createGraphics();
+        graphics.drawImage(image, 120, 48, null);
+        graphics.dispose();
+        var pipeline = new OcrPipeline();
+        var results = pipeline.recognize(GbFrame.normalize(upper, new GbFrame.Mapping(0, 0, 1)));
+        assertEquals(List.of("pc_item_action", "dialogue"), results.stream().map(r -> r.layout()).toList());
+        var menu = results.getFirst();
+        assertEquals(List.of("どうぐを ひきだす", "どうぐを あずける", "どうぐを すてる", "スイッチを きる"),
+                menu.rawOcr());
+        assertEquals(0, menu.selectedItem());
+        var resolver = new TextResolver(new TextCorpus());
+        assertEquals(List.of("取出道具", "寄放道具", "丢弃道具", "关机"),
+                resolver.resolve(menu).stream().map(TextResolver.Unit::chinese).toList());
+        assertEquals(List.of("なにを しますか？"), results.getLast().rawOcr());
+    }
+
     @Test void userMenuAndDialogueMatchIndependentAnswersAndCoveredMenuIsNotRead() throws Exception {
         Path labels = Path.of("testpic/labels/pc-action.json");
         var answer = JsonMapper.builder().build().readTree(labels.toFile());

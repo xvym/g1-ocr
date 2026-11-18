@@ -26,7 +26,7 @@ public final class PixelOcr {
         for (int col = 0; col < grid.columns(); col++) {
             if (grid.maskedColumns().contains(col)) { text.append(' '); continue; }
             int x = grid.x() + col * 8, y = grid.y();
-            PixelFont.Match match = font.match(frame.tile(x, y), frame.tile(x, y - 8));
+            PixelFont.Match match = font.match(grid.basePixels(frame, col), frame.tile(x, y - 8));
             String raw = match.distance() == 0 ? match.candidates().getFirst() : "�";
             text.append(raw);
             characters.add(new CharacterResult(x, y, raw, match.candidates(), match.distance(),

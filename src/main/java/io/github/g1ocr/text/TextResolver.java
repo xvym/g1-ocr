@@ -59,6 +59,8 @@ public final class TextResolver {
                 for (String name : row.split(" +")) units.add(word(name, "", List.of("fixed"), "BattleMenu."));
             } else if (result.layout().equals("pc_action")) {
                 units.add(word(row, "", List.of("fixed"), "PCAction."));
+            } else if (result.layout().equals("pc_item_action")) {
+                units.add(word(row, "", List.of("fixed"), "PCItemAction."));
             } else if (result.semanticType().equals("pc_pokemon")) {
                 // Mon entries include the visible level field; the cancel row is a fixed control.
                 if (row.contains("<Lv>")) {
@@ -140,15 +142,26 @@ public final class TextResolver {
             var names = possible.stream().map(h -> h.variables().get("PLAYER")).distinct().toList();
             if (names.size() == 1) playerName = names.getFirst();
         }
-        List<Candidate> candidates = new ArrayList<>();
         List<Rendering> renderings = new ArrayList<>();
+        List<Integer> starts = new ArrayList<>();
         for (var hit : possible) {
             int start = hit.fragment().first();
             for (var value : progress) if (value.hit().equals(hit)) start = value.start();
-            var rendering = render(hit, start);
-            renderings.add(rendering);
-            candidates.add(candidate(hit, rendering.reusedPlayerName()));
+            starts.add(start);
+            renderings.add(render(hit, start, false));
         }
+        // A reviewed shared body can resolve a conflict caused only by an off-screen name.
+        if (renderings.stream().distinct().count() != 1 && possible.stream().anyMatch(h ->
+                h.fragment().displayPolicy().equals("shared_rolled_name"))) {
+            List<Rendering> shared = new ArrayList<>(renderings);
+            for (int i = 0; i < possible.size(); i++)
+                if (possible.get(i).fragment().displayPolicy().equals("shared_rolled_name"))
+                    shared.set(i, render(possible.get(i), starts.get(i), true));
+            if (shared.stream().distinct().count() == 1 && !shared.getFirst().chinese().isEmpty()) renderings = shared;
+        }
+        List<Candidate> candidates = new ArrayList<>();
+        for (int i = 0; i < possible.size(); i++)
+            candidates.add(candidate(possible.get(i), renderings.get(i).reusedPlayerName()));
         if (renderings.stream().distinct().count() != 1)
             return new Unit(raw, "ambiguous", "ambiguous", "", "", candidates);
         var rendering = renderings.getFirst();
@@ -158,12 +171,13 @@ public final class TextResolver {
                 japanese.isEmpty() ? "" : japanese.size() == 1 ? japanese.getFirst() : raw, rendering.chinese(), candidates);
     }
 
-    private Rendering render(TextCorpus.Hit hit, int start) {
+    private Rendering render(TextCorpus.Hit hit, int start, boolean sharedBody) {
         var fragment = hit.fragment();
         String fallbackPlayerName = selectedPlayerName != null ? selectedPlayerName : playerName;
         String savedChinese = TextCorpus.slice(fragment.entry().chinese(), fragment.chineseStart(), fragment.chineseEnd());
         boolean useDisplay = !fragment.displayChinese().isEmpty();
-        if (useDisplay && fragment.displayPolicy().equals("missing_rolled_name")) {
+        if (useDisplay && !sharedBody && (fragment.displayPolicy().equals("missing_rolled_name")
+                || fragment.displayPolicy().equals("shared_rolled_name"))) {
             useDisplay = false;
             var required = SLOT.matcher(savedChinese);
             while (required.find()) {
@@ -183,12 +197,23 @@ public final class TextResolver {
             while (slots.find()) used.add(slots.group(1));
             displayedVariables.keySet().retainAll(used);
         }
+        // These source pairs use different slot names for the same visible person:
+        // the owner on the sign, or the recipient in the lab. Keep source bindings for identity tracking.
+        boolean sameVisiblePerson = switch (fragment.entry().id().substring(fragment.entry().id().indexOf(':') + 1)) {
+            case "scripts/PalletTown.asm:PalletTownPlayersHouseSignText",
+                    "scripts/PalletTown.asm:PalletTownRivalsHouseSignText",
+                    "scripts/OaksLab.asm:OaksLabReceivedMonText",
+                    "scripts/OaksLab.asm:OaksLabRivalReceivedMonText.Text",
+                    "scripts/OaksLab.asm:OaksLabReceivedText" -> true;
+            default -> false;
+        };
         Map<String, String> comparedVariables = new LinkedHashMap<>();
         Map<String, String> kinds = new LinkedHashMap<>();
         displayedVariables.forEach((slot, value) -> {
             // In this reviewed prefix USER and TARGET both name the currently visible stat owner.
             String key = fragment.displayPolicy().equals("stat_change_prefix")
                     && (slot.equals("USER") || slot.equals("TARGET")) ? "OWNER" : slot;
+            if (sameVisiblePerson && (slot.equals("PLAYER") || slot.equals("RIVAL"))) key = "VISIBLE_PERSON";
             comparedVariables.put(key, value);
             kinds.put(key, corpus.variableKind(fragment.entry(), slot));
         });
@@ -235,7 +260,7 @@ public final class TextResolver {
     private String translatedVariable(TextCorpus.Entry entry, String slot, String raw) {
         String kind = corpus.variableKind(entry, slot);
         boolean name = List.of("name", "nickname", "battle_name", "trainer_name", "trainer", "gym_leader").contains(kind);
-        if (!name && !List.of("item", "move", "pokemon", "stat", "city").contains(kind)) return raw;
+        if (!name && !List.of("item", "move", "pokemon", "stat", "city", "game_corner_prize").contains(kind)) return raw;
         boolean enemy = kind.equals("battle_name") && raw.startsWith("てきの ");
         String value = enemy ? raw.substring(4) : raw;
         boolean pokemonName = kind.equals("nickname") || kind.equals("battle_name");

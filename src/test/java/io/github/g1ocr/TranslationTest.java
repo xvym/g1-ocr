@@ -25,6 +25,33 @@ class TranslationTest {
     private static TextCorpus corpus;
     @BeforeAll static void load() throws Exception { corpus = new TextCorpus(); }
 
+    @Test void vendingDeliveryAndBothGameCornerPrizeTypesUseTheDictionary() {
+        var resolver = new TextResolver(corpus);
+        assertEquals("劲爽汽水\n已滑落至取物口！",
+                resolver.dialogue("dialogue", "サイコソーダが でてきた！").chinese());
+        assertEquals("选择多边兽\n没问题吧？",
+                resolver.dialogue("dialogue", "ポリゴンで\nいいんだね？").chinese());
+        assertEquals("选择TM50\n没问题吧？",
+                resolver.dialogue("dialogue", "わざマシン50で\nいいんだね？").chinese());
+        assertTrue(resolver.dialogue("dialogue", "キズぐすりで\nいいんだね？").candidates().stream()
+                .noneMatch(c -> c.recordId().endsWith(":SoYouWantPrizeText")));
+    }
+
+    @Test void novemberReportsTranslateTypedSlotsAndSharedParcelBody() {
+        var resolver = new TextResolver(corpus);
+        assertEquals("碧蓝得到了\n伤药！", resolver.dialogue("dialogue",
+                "ブルーは\n「キズぐすり」を もらった！").chinese());
+        assertEquals("杰尼龟学会了\n泡沫！", resolver.dialogue("dialogue",
+                "ゼニガメは あたらしく\nあわを おぼえた！").chinese());
+        var map = resolver.dialogue("dialogue", "ブルーは おねえさんから\nタウンマップを もらった！");
+        assertEquals("碧蓝从姐姐那里\n得到了城镇地图！", map.chinese());
+        assertTrue(map.candidates().stream().allMatch(c -> c.variables().get("RAM1").equals("タウンマップ")));
+        resolver.selectPlayerName("ブルー");
+        var parcel = resolver.dialogue("dialogue", "とくせいの モンスターボールじゃ\nどうも ありがとよ！");
+        assertEquals("哦哦！这不是\n我预订的特殊精灵球嘛。\n真是谢谢你了！", parcel.chinese());
+        assertEquals(3, parcel.candidates().size());
+    }
+
     @Test void independentScenarios() throws Exception {
         var json = JsonMapper.builder().build();
         var fixture = json.readTree(Path.of("src/test/resources/chinese-cases.json").toFile());
@@ -193,6 +220,33 @@ class TranslationTest {
             assertEquals(raw, result.rawJapanese());
             assertTrue(result.candidates().stream().allMatch(c -> name.getFirst().equals(c.variables().get("PLAYER"))));
         }
+    }
+
+    @Test void signsAndLabGiftsAgreeOnTheVisiblePersonWithoutInferringTheirRole() {
+        var resolver = new TextResolver(corpus);
+        for (var example : Map.of(
+                "ここは グりーン のいえ", "这里是\n青绿的家。",
+                "ここは レッド のいえ", "这里是\n赤红的家。",
+                "レッドは オーキドから\nヒトカゲを もらった！", "赤红从大木那里\n得到了小火龙！",
+                "グりーンは オーキドから\nゼニガメを もらった！", "青绿从大木那里\n得到了杰尼龟！").entrySet()) {
+            var result = resolver.dialogue("dialogue", example.getKey());
+            assertEquals("equivalent", result.matchStatus());
+            assertEquals(example.getValue(), result.chinese());
+            assertEquals(example.getKey(), result.rawJapanese());
+            assertTrue(result.candidates().stream().anyMatch(c -> c.variables().containsKey("PLAYER")));
+            assertTrue(result.candidates().stream().anyMatch(c -> c.variables().containsKey("RIVAL")));
+        }
+    }
+
+    @Test void pcWithdrawalDialogueTranslatesTheVisibleItemName() {
+        String raw = "パソコンつうしんで\nキズぐすりを ひきだした！";
+        var result = new TextResolver(corpus).dialogue("dialogue", raw, true);
+        assertEquals("ready", result.displayStatus());
+        assertEquals("从电脑里取出了\n伤药。", result.chinese());
+        assertEquals(raw, result.rawJapanese());
+        assertEquals(3, result.candidates().size());
+        assertTrue(result.candidates().stream().allMatch(c ->
+                c.recordId().endsWith(":WithdrewItemText") && c.variables().equals(Map.of("RAM1", "キズぐすり"))));
     }
 
     @Test void sourceDefinedMovePaddingKeepsTheVisibleNameAndSentenceEnding() {
