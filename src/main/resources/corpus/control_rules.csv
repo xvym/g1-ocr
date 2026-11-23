@@ -17,6 +17,8 @@ prompt,flow,,显示箭头并等待关闭后结束脚本,home/text.asm#PromptText
 <TRAINER>,fixed,トレーナー,展开固定字串,home/text.asm#TrainerCharText,
 <ROCKET>,fixed,ロケットだん,展开固定字串,home/text.asm#RocketCharText,
 <⋯>,fixed,⋯⋯,展开两个省略号字形,home/text.asm#SixDotsCharText,不是单字形⋯
+ñ,zh_glyph,,桌面文本显示为 HP,两套选定汉化的 src/charmap.txt $2EB7 与 src/dfs/ChineseFonts_2E_H.bin,HP_UP 道具词条使用此记号；原文保留
+%,zh_glyph,,桌面文本显示为 PP,两套选定汉化的 src/charmap.txt $2EBA 与 src/dfs/ChineseFonts_2E_H.bin,招式次数对白及 PP 道具词条使用此记号；原文保留
 <PLAYER>,name,{{PLAYER}},玩家名来自已确认的可见OCR；不读取游戏内存,home/text.asm#PrintPlayerName,中文原句可能增加或省略此槽位
 <RIVAL>,name,{{RIVAL}},劲敌名来自已确认的可见OCR,home/text.asm#PrintRivalName,
 <USER>,battle_name,{{USER}},按攻击方输出己方昵称或敌方前缀加敌方昵称,home/text.asm#PlaceMoveUsersName,てきの　是前缀；汉化前缀为data.xlsx原词敌方；不是昵称的一部分

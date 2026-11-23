@@ -12335,6 +12335,8 @@ pokegreen:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,2,"あ　それ�
 おいしそうな　のみもの⋯⋯",1,"啊，那个饮料
 看上去很好喝啊……",0,16,semantic_visible,game_text_controls,"あ それは
 おいしそうな のみもの……",[1],,,,,
+pokegreen:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,2,おいしそうな　のみもの⋯⋯,1,"啊，那个饮料
+看上去很好喝啊……",0,16,semantic_visible,game_text_paused_single_line,おいしそうな のみもの……,[1],,,,,
 pokegreen:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,3,"おいしそうな　のみもの⋯⋯
 ⋯⋯　⋯⋯",2,"啊，那个饮料
 看上去很好喝啊……
@@ -12356,6 +12358,7 @@ pokegreen:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,8,"⋯⋯　⋯�
 ゴクゴク⋯⋯",7,"……
 咕噜咕噜……",37,46,semantic_visible,game_text_controls,"…… ……
 ゴクゴク……","[5,6]",,,,,
+pokegreen:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,8,ゴクゴク⋯⋯,7,咕噜咕噜……,40,46,semantic_visible,game_text_paused_single_line,ゴクゴク……,[6],,,,,
 pokegreen:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,9,"ゴクゴク⋯⋯
 ⋯⋯",8,"咕噜咕噜……
 ……",40,49,semantic_visible,game_text_controls,"ゴクゴク……
@@ -19862,17 +19865,18 @@ pokegreen:engine/events/oaks_aide.asm:OaksAideHiText,5,"ポケモンずかんが
 あつまってる　ようなら",4,"大木博士吩咐我，等你
 收集到{{NUMBER1}}种宝可梦时，
 就把{{RAM1}}交给你！",27,73,semantic_visible,game_text_controls,"ポケモンずかんが {{NUMBER1}}しゅるい
-あつまってる ようなら",[3],,,,,
+あつまってる ようなら",[3],,,"大木博士吩咐我，等你
+收集到{{NUMBER1}}种宝可梦时，",tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokegreen:engine/events/oaks_aide.asm:OaksAideHiText,6,"あつまってる　ようなら
 {{RAM1}}を　わたす　よう",5,"大木博士吩咐我，等你
 收集到{{NUMBER1}}种宝可梦时，
 就把{{RAM1}}交给你！",27,73,semantic_visible,game_text_controls,"あつまってる ようなら
-{{RAM1}}を わたす よう",[3],,,,,
+{{RAM1}}を わたす よう",[3],,,就把{{RAM1}}交给你！,tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokegreen:engine/events/oaks_aide.asm:OaksAideHiText,7,"{{RAM1}}を　わたす　よう
 はかせに　いわれ　ました",6,"大木博士吩咐我，等你
 收集到{{NUMBER1}}种宝可梦时，
 就把{{RAM1}}交给你！",27,73,semantic_visible,game_text_controls,"{{RAM1}}を わたす よう
-はかせに いわれ ました",[3],,,,,
+はかせに いわれ ました",[3],,,就把{{RAM1}}交给你！,tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokegreen:engine/events/oaks_aide.asm:OaksAideHiText,8,⋯⋯　それでは　さっそく,7,"……那么，{{PLAYER}}！
 你捉到的宝可梦
 有{{NUMBER1}}种以上吗？",75,117,semantic_visible,game_text_controls,…… それでは さっそく,[4],,,,,
@@ -19880,12 +19884,13 @@ pokegreen:engine/events/oaks_aide.asm:OaksAideHiText,9,"⋯⋯　それでは　
 {{PLAYER}}くん！",8,"……那么，{{PLAYER}}！
 你捉到的宝可梦
 有{{NUMBER1}}种以上吗？",75,117,semantic_visible,game_text_controls,"…… それでは さっそく
-{{PLAYER}}くん！",[4],,,,,
+{{PLAYER}}くん！",[4],,,……那么，{{PLAYER}}！,tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokegreen:engine/events/oaks_aide.asm:OaksAideHiText,10,"{{PLAYER}}くん！
 つかまえた　ポケモンは",9,"……那么，{{PLAYER}}！
 你捉到的宝可梦
 有{{NUMBER1}}种以上吗？",75,117,semantic_visible,game_text_controls,"{{PLAYER}}くん！
-つかまえた ポケモンは",[4],,,,,
+つかまえた ポケモンは",[4],,,"……那么，{{PLAYER}}！
+你捉到的宝可梦",tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokegreen:engine/events/oaks_aide.asm:OaksAideHiText,11,"つかまえた　ポケモンは
 {{NUMBER1}}しゅるい　より　おおい　かな？",10,"……那么，{{PLAYER}}！
 你捉到的宝可梦
@@ -19898,12 +19903,14 @@ pokegreen:engine/events/oaks_aide.asm:OaksAideUhOhText,2,"⋯⋯　⋯⋯　え�
 你捕捉到的宝可梦……
 啊呀呀？
 还只有{{NUMBER1}}种啊！",0,40,semantic_visible,game_text_controls,"…… …… えーと！
-つかまえた ポケモンは……","[1,2]",,,,,
+つかまえた ポケモンは……","[1,2]",,,"……我看看！
+你捕捉到的宝可梦……",tools/text_fragment_displays.csv:A002:model_reviewed_not_human,common
 pokegreen:engine/events/oaks_aide.asm:OaksAideUhOhText,3,"つかまえた　ポケモンは⋯⋯
 あれれー？",2,"你捕捉到的宝可梦……
 啊呀呀？
 还只有{{NUMBER1}}种啊！",7,40,semantic_visible,game_text_controls,"つかまえた ポケモンは……
-あれれー？",[2],,,,,
+あれれー？",[2],,,"你捕捉到的宝可梦……
+啊呀呀？",tools/text_fragment_displays.csv:A002:model_reviewed_not_human,common
 pokegreen:engine/events/oaks_aide.asm:OaksAideUhOhText,4,"あれれー？
 まだ　{{NUMBER1}}しゅるい　ですよ！",3,"你捕捉到的宝可梦……
 啊呀呀？
@@ -21086,8 +21093,8 @@ pokegreen:engine/pokemon/bills_pc.asm:MonWasReleasedText,3,"そとに　にが�
 再见，{{RAM1}}！",0,27,semantic_visible,game_text_controls,"そとに にがして あげた！
 ばいばい {{RAM1}}！","[1,2]",,,,,
 pokegreen:engine/pokemon/bills_pc.asm:JustAMomentText,1,ちょっと　まってね,,请您稍等……,0,6,whole_visible_unit,game_text_controls,ちょっと まってね,[1],,,,,
-pokegreen:engine/pokemon/evos_moves.asm:EvolvedText,1,おめでとう！　{{RAM1}}は,,恭喜！{{RAM1}},0,11,whole_visible_unit,game_text_controls,おめでとう！ {{RAM1}}は,[1],,,,,
-pokegreen:engine/pokemon/evos_moves.asm:IntoText,1,{{RAM1}}に　しんかした,,进化为{{RAM1}}了！,1,14,whole_visible_unit,game_text_controls,{{RAM1}}に しんかした,[1],,,,,
+pokegreen:engine/pokemon/evos_moves.asm:EvolvedText,1,おめでとう！　{{RAM1}}は,,,,,use_composition,game_text_controls,おめでとう！ {{RAM1}}は,[],,,,,
+pokegreen:engine/pokemon/evos_moves.asm:IntoText,1,{{RAM1}}に　しんかした,,,,,use_composition,game_text_controls,{{RAM1}}に しんかした,[],,,,,
 pokegreen:engine/pokemon/evos_moves.asm:StoppedEvolvingText,1,あれ⋯⋯？,,什么……？,0,5,semantic_visible,game_text_controls,あれ……？,[1],,,,,
 pokegreen:engine/pokemon/evos_moves.asm:StoppedEvolvingText,2,"あれ⋯⋯？
 {{RAM1}}の　へんかが　とまった！",1,"什么……？{{RAM1}}
@@ -21641,6 +21648,20 @@ pokegreen:item:ETHER,1,ピーピーエイド,,%单项小补剂,0,6,whole_visible
 pokegreen:item:MAX_ETHER,1,ピーピーリカバー,,%单项全补剂,0,6,whole_visible_unit,symbolic_item_move_species,ピーピーリカバー,[1],,,,,
 pokegreen:item:ELIXER,1,ピーピーエイダー,,%多项小补剂,0,6,whole_visible_unit,symbolic_item_move_species,ピーピーエイダー,[1],,,,,
 pokegreen:item:MAX_ELIXER,1,ピーピーマックス,,%多项全补剂,0,6,whole_visible_unit,symbolic_item_move_species,ピーピーマックス,[1],,,,,
+pokegreen:floor:FLOOR_B2F,1,ちか２かい,,地下2楼,0,4,whole_visible_unit,symbolic_item_move_species,ちか2かい,[1],,,,,
+pokegreen:floor:FLOOR_B1F,1,ちか１かい,,地下1楼,0,4,whole_visible_unit,symbolic_item_move_species,ちか1かい,[1],,,,,
+pokegreen:floor:FLOOR_1F,1,１かい,,1楼,0,2,whole_visible_unit,symbolic_item_move_species,1かい,[1],,,,,
+pokegreen:floor:FLOOR_2F,1,２かい,,2楼,0,2,whole_visible_unit,symbolic_item_move_species,2かい,[1],,,,,
+pokegreen:floor:FLOOR_3F,1,３かい,,3楼,0,2,whole_visible_unit,symbolic_item_move_species,3かい,[1],,,,,
+pokegreen:floor:FLOOR_4F,1,４かい,,4楼,0,2,whole_visible_unit,symbolic_item_move_species,4かい,[1],,,,,
+pokegreen:floor:FLOOR_5F,1,５かい,,5楼,0,2,whole_visible_unit,symbolic_item_move_species,5かい,[1],,,,,
+pokegreen:floor:FLOOR_6F,1,６かい,,6楼,0,2,whole_visible_unit,symbolic_item_move_species,6かい,[1],,,,,
+pokegreen:floor:FLOOR_7F,1,７かい,,7楼,0,2,whole_visible_unit,symbolic_item_move_species,7かい,[1],,,,,
+pokegreen:floor:FLOOR_8F,1,８かい,,8楼,0,2,whole_visible_unit,symbolic_item_move_species,8かい,[1],,,,,
+pokegreen:floor:FLOOR_9F,1,９かい,,9楼,0,2,whole_visible_unit,symbolic_item_move_species,9かい,[1],,,,,
+pokegreen:floor:FLOOR_10F,1,１０かい,,10楼,0,3,whole_visible_unit,symbolic_item_move_species,10かい,[1],,,,,
+pokegreen:floor:FLOOR_11F,1,１１かい,,11楼,0,3,whole_visible_unit,symbolic_item_move_species,11かい,[1],,,,,
+pokegreen:floor:FLOOR_B4F,1,ちか４かい,,地下4楼,0,4,whole_visible_unit,symbolic_item_move_species,ちか4かい,[1],,,,,
 pokegreen:trainer:YOUNGSTER,1,たんパンこぞう,,短裤小子,0,4,whole_visible_unit,symbolic_item_move_species,たんパンこぞう,[1],,,,,
 pokegreen:trainer:BUG_CATCHER,1,むしとりのしょうねん,,捕虫少年,0,4,whole_visible_unit,symbolic_item_move_species,むしとりのしょうねん,[1],,,,,
 pokegreen:trainer:LASS,1,ミニスカート,,迷你裙,0,3,whole_visible_unit,symbolic_item_move_species,ミニスカート,[1],,,,,
@@ -21743,6 +21764,7 @@ pokegreen:item:HM02,1,ひでんマシン０２,,HM02,0,4,whole_visible_unit,GetM
 pokegreen:item:HM03,1,ひでんマシン０３,,HM03,0,4,whole_visible_unit,GetMachineName,ひでんマシン03,[1],,,,,
 pokegreen:item:HM04,1,ひでんマシン０４,,HM04,0,4,whole_visible_unit,GetMachineName,ひでんマシン04,[1],,,,,
 pokegreen:item:HM05,1,ひでんマシン０５,,HM05,0,4,whole_visible_unit,GetMachineName,ひでんマシン05,[1],,,,,
+pokegreen:battle_ghost:EnemyAppearanceName,1,ゆうれい,,幽灵,0,2,whole_visible_unit,fixed_battle_name,ゆうれい,[1],,,,,
 pokegreen:fixed:TypeNames.Normal,1,ノーマル,,一般,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,ノーマル,[1],,,,,
 pokegreen:fixed:TypeNames.Fighting,1,かくとう,,格斗,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,かくとう,[1],,,,,
 pokegreen:fixed:TypeNames.Flying,1,ひこう,,飞行,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,ひこう,[1],,,,,
@@ -21812,6 +21834,24 @@ pokegreen:fixed:BattleMenu.ポケモン,1,ポケモン,,宝可梦,0,3,whole_visi
 pokegreen:fixed:BattleMenu.にげる,1,にげる,,逃走,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,にげる,[1],,,,,
 pokegreen:fixed:SafariMenu.Bait,1,エサをなげる,,诱饵,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,エサをなげる,[1],,,,,
 pokegreen:fixed:SafariMenu.Rock,1,いしをなげる,,石块,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,いしをなげる,[1],,,,,
+pokegreen:fixed:PCSelect.SomeonesPCText,1,だれかの　パソコン,,某人的电脑,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,だれかの パソコン,[1],,,,,
+pokegreen:fixed:PCSelect.BillsPCText,1,マサキの　パソコン,,正辉的电脑,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,マサキの パソコン,[1],,,,,
+pokegreen:fixed:PCSelect.PlayersPCText,1,の　パソコン,,的电脑,0,3,whole_visible_unit,fixed_layout_or_variable_dictionary,の パソコン,[1],,,,,
+pokegreen:fixed:PCSelect.OaksPCText,1,オーキドの　パソコン,,大木的电脑,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,オーキドの パソコン,[1],,,,,
+pokegreen:fixed:PCSelect.PKMNLeaguePCText,1,ポケモン　リーグ,,宝可梦联盟,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモン リーグ,[1],,,,,
+pokegreen:fixed:PCSelect.LogOffPCText,1,スイッチを　きる,,关机,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,スイッチを きる,[1],,,,,
+pokegreen:fixed:VendingMenu.Cancel,1,いらない,,取消,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,いらない,[1],,,,,
+pokegreen:fixed:PrizeMenu.Cancel,1,いらない,,还是算了,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,いらない,[1],,,,,
+pokegreen:fixed:TrainerClass.Cooltrainer,1,エリートトレーナー,,精英训练家,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,エリートトレーナー,[1],,,,,
+pokegreen:fixed:PCItemAction.Withdraw,1,どうぐを　ひきだす,,取出道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを ひきだす,[1],,,,,
+pokegreen:fixed:PCItemAction.Deposit,1,どうぐを　あずける,,寄放道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを あずける,[1],,,,,
+pokegreen:fixed:PCItemAction.Toss,1,どうぐを　すてる,,丢弃道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを すてる,[1],,,,,
+pokegreen:fixed:PCItemAction.Exit,1,スイッチを　きる,,关机,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,スイッチを きる,[1],,,,,
+pokegreen:fixed:PCAction.Withdraw,1,ポケモンを　つれていく,,取出宝可梦,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモンを つれていく,[1],,,,,
+pokegreen:fixed:PCAction.Deposit,1,ポケモンを　あずける,,寄放宝可梦,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモンを あずける,[1],,,,,
+pokegreen:fixed:PCAction.Release,1,ポケモンを　にがす,,放生宝可梦,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモンを にがす,[1],,,,,
+pokegreen:fixed:PCAction.ChangeBox,1,ボックスを　かえる,,更换盒子,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,ボックスを かえる,[1],,,,,
+pokegreen:fixed:PCAction.Exit,1,さようなら,,再见,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,さようなら,[1],,,,,
 pokegreen:fixed:DefaultName.PLAYERNAME1,1,レッド,,赤红,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,レッド,[1],,,,,
 pokegreen:fixed:DefaultName.PLAYERNAME2,1,サトシ,,小智,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,サトシ,[1],,,,,
 pokegreen:fixed:DefaultName.PLAYERNAME3,1,ジャック,,杰克,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,ジャック,[1],,,,,
@@ -21887,6 +21927,11 @@ pokegreen:composed:SendOut.EnemysWeakText,2,"あいてが　よわっている�
 チャンスだ！　{{RAM1}}！",1,"对手变弱了！机会来了，
 {{RAM1}}！",0,21,semantic_visible,explicit_control_flow,"あいてが よわっている！
 チャンスだ！ {{RAM1}}！","[1,2]",,,,,
+pokegreen:composed:EvolutionCompleted,1,おめでとう！　{{RAM1}}は,,恭喜！{{RAM1}},0,11,semantic_visible,explicit_control_flow,おめでとう！ {{RAM1}}は,[1],,,,,
+pokegreen:composed:EvolutionCompleted,2,"おめでとう！　{{RAM1}}は
+{{RAM2}}に　しんかした",1,"恭喜！{{RAM1}}
+进化为{{RAM2}}了！",0,25,semantic_visible,explicit_control_flow,"おめでとう！ {{RAM1}}は
+{{RAM2}}に しんかした","[1,2]",,,,,
 pokegreen:composed:Retreat.direct,1,{{RAM1}}　,,"{{RAM1}}，
 回来！",0,13,whole_visible_unit,explicit_control_flow,{{RAM1}},[1],,,,,
 pokegreen:composed:Retreat.direct,2,"{{RAM1}}　
@@ -34352,6 +34397,8 @@ pokeblue:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,2,"あ　それは
 おいしそうな　のみもの⋯⋯",1,"啊，那个饮料
 看上去很好喝啊……",0,16,semantic_visible,game_text_controls,"あ それは
 おいしそうな のみもの……",[1],,,,,
+pokeblue:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,2,おいしそうな　のみもの⋯⋯,1,"啊，那个饮料
+看上去很好喝啊……",0,16,semantic_visible,game_text_paused_single_line,おいしそうな のみもの……,[1],,,,,
 pokeblue:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,3,"おいしそうな　のみもの⋯⋯
 ⋯⋯　⋯⋯",2,"啊，那个饮料
 看上去很好喝啊……
@@ -34373,6 +34420,7 @@ pokeblue:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,8,"⋯⋯　⋯⋯
 ゴクゴク⋯⋯",7,"……
 咕噜咕噜……",37,46,semantic_visible,game_text_controls,"…… ……
 ゴクゴク……","[5,6]",,,,,
+pokeblue:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,8,ゴクゴク⋯⋯,7,咕噜咕噜……,40,46,semantic_visible,game_text_paused_single_line,ゴクゴク……,[6],,,,,
 pokeblue:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,9,"ゴクゴク⋯⋯
 ⋯⋯",8,"咕噜咕噜……
 ……",40,49,semantic_visible,game_text_controls,"ゴクゴク……
@@ -41879,17 +41927,18 @@ pokeblue:engine/events/oaks_aide.asm:OaksAideHiText,5,"ポケモンずかんが�
 あつまってる　ようなら",4,"大木博士吩咐我，等你
 收集到{{NUMBER1}}种宝可梦时，
 就把{{RAM1}}交给你！",27,73,semantic_visible,game_text_controls,"ポケモンずかんが {{NUMBER1}}しゅるい
-あつまってる ようなら",[3],,,,,
+あつまってる ようなら",[3],,,"大木博士吩咐我，等你
+收集到{{NUMBER1}}种宝可梦时，",tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokeblue:engine/events/oaks_aide.asm:OaksAideHiText,6,"あつまってる　ようなら
 {{RAM1}}を　わたす　よう",5,"大木博士吩咐我，等你
 收集到{{NUMBER1}}种宝可梦时，
 就把{{RAM1}}交给你！",27,73,semantic_visible,game_text_controls,"あつまってる ようなら
-{{RAM1}}を わたす よう",[3],,,,,
+{{RAM1}}を わたす よう",[3],,,就把{{RAM1}}交给你！,tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokeblue:engine/events/oaks_aide.asm:OaksAideHiText,7,"{{RAM1}}を　わたす　よう
 はかせに　いわれ　ました",6,"大木博士吩咐我，等你
 收集到{{NUMBER1}}种宝可梦时，
 就把{{RAM1}}交给你！",27,73,semantic_visible,game_text_controls,"{{RAM1}}を わたす よう
-はかせに いわれ ました",[3],,,,,
+はかせに いわれ ました",[3],,,就把{{RAM1}}交给你！,tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokeblue:engine/events/oaks_aide.asm:OaksAideHiText,8,⋯⋯　それでは　さっそく,7,"……那么，{{PLAYER}}！
 你捉到的宝可梦
 有{{NUMBER1}}种以上吗？",75,117,semantic_visible,game_text_controls,…… それでは さっそく,[4],,,,,
@@ -41897,12 +41946,13 @@ pokeblue:engine/events/oaks_aide.asm:OaksAideHiText,9,"⋯⋯　それでは　�
 {{PLAYER}}くん！",8,"……那么，{{PLAYER}}！
 你捉到的宝可梦
 有{{NUMBER1}}种以上吗？",75,117,semantic_visible,game_text_controls,"…… それでは さっそく
-{{PLAYER}}くん！",[4],,,,,
+{{PLAYER}}くん！",[4],,,……那么，{{PLAYER}}！,tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokeblue:engine/events/oaks_aide.asm:OaksAideHiText,10,"{{PLAYER}}くん！
 つかまえた　ポケモンは",9,"……那么，{{PLAYER}}！
 你捉到的宝可梦
 有{{NUMBER1}}种以上吗？",75,117,semantic_visible,game_text_controls,"{{PLAYER}}くん！
-つかまえた ポケモンは",[4],,,,,
+つかまえた ポケモンは",[4],,,"……那么，{{PLAYER}}！
+你捉到的宝可梦",tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokeblue:engine/events/oaks_aide.asm:OaksAideHiText,11,"つかまえた　ポケモンは
 {{NUMBER1}}しゅるい　より　おおい　かな？",10,"……那么，{{PLAYER}}！
 你捉到的宝可梦
@@ -41915,12 +41965,14 @@ pokeblue:engine/events/oaks_aide.asm:OaksAideUhOhText,2,"⋯⋯　⋯⋯　え�
 你捕捉到的宝可梦……
 啊呀呀？
 还只有{{NUMBER1}}种啊！",0,40,semantic_visible,game_text_controls,"…… …… えーと！
-つかまえた ポケモンは……","[1,2]",,,,,
+つかまえた ポケモンは……","[1,2]",,,"……我看看！
+你捕捉到的宝可梦……",tools/text_fragment_displays.csv:A002:model_reviewed_not_human,common
 pokeblue:engine/events/oaks_aide.asm:OaksAideUhOhText,3,"つかまえた　ポケモンは⋯⋯
 あれれー？",2,"你捕捉到的宝可梦……
 啊呀呀？
 还只有{{NUMBER1}}种啊！",7,40,semantic_visible,game_text_controls,"つかまえた ポケモンは……
-あれれー？",[2],,,,,
+あれれー？",[2],,,"你捕捉到的宝可梦……
+啊呀呀？",tools/text_fragment_displays.csv:A002:model_reviewed_not_human,common
 pokeblue:engine/events/oaks_aide.asm:OaksAideUhOhText,4,"あれれー？
 まだ　{{NUMBER1}}しゅるい　ですよ！",3,"你捕捉到的宝可梦……
 啊呀呀？
@@ -43103,8 +43155,8 @@ pokeblue:engine/pokemon/bills_pc.asm:MonWasReleasedText,3,"そとに　にがし
 再见，{{RAM1}}！",0,27,semantic_visible,game_text_controls,"そとに にがして あげた！
 ばいばい {{RAM1}}！","[1,2]",,,,,
 pokeblue:engine/pokemon/bills_pc.asm:JustAMomentText,1,ちょっと　まってね,,请您稍等……,0,6,whole_visible_unit,game_text_controls,ちょっと まってね,[1],,,,,
-pokeblue:engine/pokemon/evos_moves.asm:EvolvedText,1,おめでとう！　{{RAM1}}は,,恭喜！{{RAM1}},0,11,whole_visible_unit,game_text_controls,おめでとう！ {{RAM1}}は,[1],,,,,
-pokeblue:engine/pokemon/evos_moves.asm:IntoText,1,{{RAM1}}に　しんかした,,进化为{{RAM1}}了！,1,14,whole_visible_unit,game_text_controls,{{RAM1}}に しんかした,[1],,,,,
+pokeblue:engine/pokemon/evos_moves.asm:EvolvedText,1,おめでとう！　{{RAM1}}は,,,,,use_composition,game_text_controls,おめでとう！ {{RAM1}}は,[],,,,,
+pokeblue:engine/pokemon/evos_moves.asm:IntoText,1,{{RAM1}}に　しんかした,,,,,use_composition,game_text_controls,{{RAM1}}に しんかした,[],,,,,
 pokeblue:engine/pokemon/evos_moves.asm:StoppedEvolvingText,1,あれ⋯⋯？,,什么……？,0,5,semantic_visible,game_text_controls,あれ……？,[1],,,,,
 pokeblue:engine/pokemon/evos_moves.asm:StoppedEvolvingText,2,"あれ⋯⋯？
 {{RAM1}}の　へんかが　とまった！",1,"什么……？{{RAM1}}
@@ -43658,6 +43710,20 @@ pokeblue:item:ETHER,1,ピーピーエイド,,%单项小补剂,0,6,whole_visible_
 pokeblue:item:MAX_ETHER,1,ピーピーリカバー,,%单项全补剂,0,6,whole_visible_unit,symbolic_item_move_species,ピーピーリカバー,[1],,,,,
 pokeblue:item:ELIXER,1,ピーピーエイダー,,%多项小补剂,0,6,whole_visible_unit,symbolic_item_move_species,ピーピーエイダー,[1],,,,,
 pokeblue:item:MAX_ELIXER,1,ピーピーマックス,,%多项全补剂,0,6,whole_visible_unit,symbolic_item_move_species,ピーピーマックス,[1],,,,,
+pokeblue:floor:FLOOR_B2F,1,ちか２かい,,地下2楼,0,4,whole_visible_unit,symbolic_item_move_species,ちか2かい,[1],,,,,
+pokeblue:floor:FLOOR_B1F,1,ちか１かい,,地下1楼,0,4,whole_visible_unit,symbolic_item_move_species,ちか1かい,[1],,,,,
+pokeblue:floor:FLOOR_1F,1,１かい,,1楼,0,2,whole_visible_unit,symbolic_item_move_species,1かい,[1],,,,,
+pokeblue:floor:FLOOR_2F,1,２かい,,2楼,0,2,whole_visible_unit,symbolic_item_move_species,2かい,[1],,,,,
+pokeblue:floor:FLOOR_3F,1,３かい,,3楼,0,2,whole_visible_unit,symbolic_item_move_species,3かい,[1],,,,,
+pokeblue:floor:FLOOR_4F,1,４かい,,4楼,0,2,whole_visible_unit,symbolic_item_move_species,4かい,[1],,,,,
+pokeblue:floor:FLOOR_5F,1,５かい,,5楼,0,2,whole_visible_unit,symbolic_item_move_species,5かい,[1],,,,,
+pokeblue:floor:FLOOR_6F,1,６かい,,6楼,0,2,whole_visible_unit,symbolic_item_move_species,6かい,[1],,,,,
+pokeblue:floor:FLOOR_7F,1,７かい,,7楼,0,2,whole_visible_unit,symbolic_item_move_species,7かい,[1],,,,,
+pokeblue:floor:FLOOR_8F,1,８かい,,8楼,0,2,whole_visible_unit,symbolic_item_move_species,8かい,[1],,,,,
+pokeblue:floor:FLOOR_9F,1,９かい,,9楼,0,2,whole_visible_unit,symbolic_item_move_species,9かい,[1],,,,,
+pokeblue:floor:FLOOR_10F,1,１０かい,,10楼,0,3,whole_visible_unit,symbolic_item_move_species,10かい,[1],,,,,
+pokeblue:floor:FLOOR_11F,1,１１かい,,11楼,0,3,whole_visible_unit,symbolic_item_move_species,11かい,[1],,,,,
+pokeblue:floor:FLOOR_B4F,1,ちか４かい,,地下4楼,0,4,whole_visible_unit,symbolic_item_move_species,ちか4かい,[1],,,,,
 pokeblue:trainer:YOUNGSTER,1,たんパンこぞう,,短裤小子,0,4,whole_visible_unit,symbolic_item_move_species,たんパンこぞう,[1],,,,,
 pokeblue:trainer:BUG_CATCHER,1,むしとりのしょうねん,,捕虫少年,0,4,whole_visible_unit,symbolic_item_move_species,むしとりのしょうねん,[1],,,,,
 pokeblue:trainer:LASS,1,ミニスカート,,迷你裙,0,3,whole_visible_unit,symbolic_item_move_species,ミニスカート,[1],,,,,
@@ -43760,6 +43826,7 @@ pokeblue:item:HM02,1,ひでんマシン０２,,HM02,0,4,whole_visible_unit,GetMa
 pokeblue:item:HM03,1,ひでんマシン０３,,HM03,0,4,whole_visible_unit,GetMachineName,ひでんマシン03,[1],,,,,
 pokeblue:item:HM04,1,ひでんマシン０４,,HM04,0,4,whole_visible_unit,GetMachineName,ひでんマシン04,[1],,,,,
 pokeblue:item:HM05,1,ひでんマシン０５,,HM05,0,4,whole_visible_unit,GetMachineName,ひでんマシン05,[1],,,,,
+pokeblue:battle_ghost:EnemyAppearanceName,1,ゆうれい,,幽灵,0,2,whole_visible_unit,fixed_battle_name,ゆうれい,[1],,,,,
 pokeblue:fixed:TypeNames.Normal,1,ノーマル,,一般,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,ノーマル,[1],,,,,
 pokeblue:fixed:TypeNames.Fighting,1,かくとう,,格斗,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,かくとう,[1],,,,,
 pokeblue:fixed:TypeNames.Flying,1,ひこう,,飞行,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,ひこう,[1],,,,,
@@ -43829,6 +43896,24 @@ pokeblue:fixed:BattleMenu.ポケモン,1,ポケモン,,宝可梦,0,3,whole_visib
 pokeblue:fixed:BattleMenu.にげる,1,にげる,,逃走,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,にげる,[1],,,,,
 pokeblue:fixed:SafariMenu.Bait,1,エサをなげる,,诱饵,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,エサをなげる,[1],,,,,
 pokeblue:fixed:SafariMenu.Rock,1,いしをなげる,,石块,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,いしをなげる,[1],,,,,
+pokeblue:fixed:PCSelect.SomeonesPCText,1,だれかの　パソコン,,某人的电脑,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,だれかの パソコン,[1],,,,,
+pokeblue:fixed:PCSelect.BillsPCText,1,マサキの　パソコン,,正辉的电脑,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,マサキの パソコン,[1],,,,,
+pokeblue:fixed:PCSelect.PlayersPCText,1,の　パソコン,,的电脑,0,3,whole_visible_unit,fixed_layout_or_variable_dictionary,の パソコン,[1],,,,,
+pokeblue:fixed:PCSelect.OaksPCText,1,オーキドの　パソコン,,大木的电脑,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,オーキドの パソコン,[1],,,,,
+pokeblue:fixed:PCSelect.PKMNLeaguePCText,1,ポケモン　リーグ,,宝可梦联盟,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモン リーグ,[1],,,,,
+pokeblue:fixed:PCSelect.LogOffPCText,1,スイッチを　きる,,关机,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,スイッチを きる,[1],,,,,
+pokeblue:fixed:VendingMenu.Cancel,1,いらない,,取消,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,いらない,[1],,,,,
+pokeblue:fixed:PrizeMenu.Cancel,1,いらない,,还是算了,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,いらない,[1],,,,,
+pokeblue:fixed:TrainerClass.Cooltrainer,1,エリートトレーナー,,精英训练家,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,エリートトレーナー,[1],,,,,
+pokeblue:fixed:PCItemAction.Withdraw,1,どうぐを　ひきだす,,取出道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを ひきだす,[1],,,,,
+pokeblue:fixed:PCItemAction.Deposit,1,どうぐを　あずける,,寄放道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを あずける,[1],,,,,
+pokeblue:fixed:PCItemAction.Toss,1,どうぐを　すてる,,丢弃道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを すてる,[1],,,,,
+pokeblue:fixed:PCItemAction.Exit,1,スイッチを　きる,,关机,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,スイッチを きる,[1],,,,,
+pokeblue:fixed:PCAction.Withdraw,1,ポケモンを　つれていく,,取出宝可梦,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモンを つれていく,[1],,,,,
+pokeblue:fixed:PCAction.Deposit,1,ポケモンを　あずける,,寄放宝可梦,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモンを あずける,[1],,,,,
+pokeblue:fixed:PCAction.Release,1,ポケモンを　にがす,,放生宝可梦,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモンを にがす,[1],,,,,
+pokeblue:fixed:PCAction.ChangeBox,1,ボックスを　かえる,,更换盒子,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,ボックスを かえる,[1],,,,,
+pokeblue:fixed:PCAction.Exit,1,さようなら,,再见,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,さようなら,[1],,,,,
 pokeblue:fixed:DefaultName.PLAYERNAME1,1,ブルー,,碧蓝,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,ブルー,[1],,,,,
 pokeblue:fixed:DefaultName.PLAYERNAME2,1,ツネカズ,,恒和,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,ツネカズ,[1],,,,,
 pokeblue:fixed:DefaultName.PLAYERNAME3,1,ジャン,,基恩,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,ジャン,[1],,,,,
@@ -43904,6 +43989,11 @@ pokeblue:composed:SendOut.EnemysWeakText,2,"あいてが　よわっている！
 チャンスだ！　{{RAM1}}！",1,"对手变弱了！机会来了，
 {{RAM1}}！",0,21,semantic_visible,explicit_control_flow,"あいてが よわっている！
 チャンスだ！ {{RAM1}}！","[1,2]",,,,,
+pokeblue:composed:EvolutionCompleted,1,おめでとう！　{{RAM1}}は,,恭喜！{{RAM1}},0,11,semantic_visible,explicit_control_flow,おめでとう！ {{RAM1}}は,[1],,,,,
+pokeblue:composed:EvolutionCompleted,2,"おめでとう！　{{RAM1}}は
+{{RAM2}}に　しんかした",1,"恭喜！{{RAM1}}
+进化为{{RAM2}}了！",0,25,semantic_visible,explicit_control_flow,"おめでとう！ {{RAM1}}は
+{{RAM2}}に しんかした","[1,2]",,,,,
 pokeblue:composed:Retreat.direct,1,{{RAM1}}　,,"{{RAM1}}，
 回来！",0,13,whole_visible_unit,explicit_control_flow,{{RAM1}},[1],,,,,
 pokeblue:composed:Retreat.direct,2,"{{RAM1}}　
@@ -56652,6 +56742,8 @@ pokeyellow-jp:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,2,"あ　そ�
 おいしそうな　のみもの⋯⋯",1,"啊，那个饮料
 看上去很好喝啊……",0,16,semantic_visible,game_text_controls,"あ それは
 おいしそうな のみもの……",[1],,,,,
+pokeyellow-jp:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,2,おいしそうな　のみもの⋯⋯,1,"啊，那个饮料
+看上去很好喝啊……",0,16,semantic_visible,game_text_paused_single_line,おいしそうな のみもの……,[1],,,,,
 pokeyellow-jp:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,3,"おいしそうな　のみもの⋯⋯
 ⋯⋯　⋯⋯",2,"啊，那个饮料
 看上去很好喝啊……
@@ -56673,6 +56765,7 @@ pokeyellow-jp:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,8,"⋯⋯　�
 ゴクゴク⋯⋯",7,"……
 咕噜咕噜……",37,46,semantic_visible,game_text_controls,"…… ……
 ゴクゴク……","[5,6]",,,,,
+pokeyellow-jp:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,8,ゴクゴク⋯⋯,7,咕噜咕噜……,40,46,semantic_visible,game_text_paused_single_line,ゴクゴク……,[6],,,,,
 pokeyellow-jp:scripts/Route5Gate.asm:SaffronGateGuardGiveDrinkText,9,"ゴクゴク⋯⋯
 ⋯⋯",8,"咕噜咕噜……
 ……",40,49,semantic_visible,game_text_controls,"ゴクゴク……
@@ -64556,17 +64649,18 @@ pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHiText,5,"ポケモンずか�
 あつまってる　ようなら",4,"大木博士吩咐我，等你
 收集到{{NUMBER1}}种宝可梦时，
 就把{{RAM1}}交给你！",27,73,semantic_visible,game_text_controls,"ポケモンずかんが {{NUMBER1}}しゅるい
-あつまってる ようなら",[3],,,,,
+あつまってる ようなら",[3],,,"大木博士吩咐我，等你
+收集到{{NUMBER1}}种宝可梦时，",tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHiText,6,"あつまってる　ようなら
 {{RAM1}}を　わたす　よう",5,"大木博士吩咐我，等你
 收集到{{NUMBER1}}种宝可梦时，
 就把{{RAM1}}交给你！",27,73,semantic_visible,game_text_controls,"あつまってる ようなら
-{{RAM1}}を わたす よう",[3],,,,,
+{{RAM1}}を わたす よう",[3],,,就把{{RAM1}}交给你！,tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHiText,7,"{{RAM1}}を　わたす　よう
 はかせに　いわれ　ました",6,"大木博士吩咐我，等你
 收集到{{NUMBER1}}种宝可梦时，
 就把{{RAM1}}交给你！",27,73,semantic_visible,game_text_controls,"{{RAM1}}を わたす よう
-はかせに いわれ ました",[3],,,,,
+はかせに いわれ ました",[3],,,就把{{RAM1}}交给你！,tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHiText,8,⋯⋯　それでは　さっそく,7,"……那么，{{PLAYER}}！
 你捉到的宝可梦
 有{{NUMBER1}}种以上吗？",75,117,semantic_visible,game_text_controls,…… それでは さっそく,[4],,,,,
@@ -64574,12 +64668,13 @@ pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHiText,9,"⋯⋯　それで�
 {{PLAYER}}くん！",8,"……那么，{{PLAYER}}！
 你捉到的宝可梦
 有{{NUMBER1}}种以上吗？",75,117,semantic_visible,game_text_controls,"…… それでは さっそく
-{{PLAYER}}くん！",[4],,,,,
+{{PLAYER}}くん！",[4],,,……那么，{{PLAYER}}！,tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHiText,10,"{{PLAYER}}くん！
 つかまえた　ポケモンは",9,"……那么，{{PLAYER}}！
 你捉到的宝可梦
 有{{NUMBER1}}种以上吗？",75,117,semantic_visible,game_text_controls,"{{PLAYER}}くん！
-つかまえた ポケモンは",[4],,,,,
+つかまえた ポケモンは",[4],,,"……那么，{{PLAYER}}！
+你捉到的宝可梦",tools/text_fragment_displays.csv:A001:model_reviewed_not_human,common
 pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideHiText,11,"つかまえた　ポケモンは
 {{NUMBER1}}しゅるい　より　おおい　かな？",10,"……那么，{{PLAYER}}！
 你捉到的宝可梦
@@ -64592,12 +64687,14 @@ pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideUhOhText,2,"⋯⋯　⋯⋯　
 你捕捉到的宝可梦……
 啊呀呀？
 还只有{{NUMBER1}}种啊！",0,40,semantic_visible,game_text_controls,"…… …… えーと！
-つかまえた ポケモンは……","[1,2]",,,,,
+つかまえた ポケモンは……","[1,2]",,,"……我看看！
+你捕捉到的宝可梦……",tools/text_fragment_displays.csv:A002:model_reviewed_not_human,common
 pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideUhOhText,3,"つかまえた　ポケモンは⋯⋯
 あれれー？",2,"你捕捉到的宝可梦……
 啊呀呀？
 还只有{{NUMBER1}}种啊！",7,40,semantic_visible,game_text_controls,"つかまえた ポケモンは……
-あれれー？",[2],,,,,
+あれれー？",[2],,,"你捕捉到的宝可梦……
+啊呀呀？",tools/text_fragment_displays.csv:A002:model_reviewed_not_human,common
 pokeyellow-jp:engine/events/oaks_aide.asm:OaksAideUhOhText,4,"あれれー？
 まだ　{{NUMBER1}}しゅるい　ですよ！",3,"你捕捉到的宝可梦……
 啊呀呀？
@@ -65884,8 +65981,8 @@ pokeyellow-jp:engine/pokemon/bills_pc.asm:MonWasReleasedText,3,"そとに　に�
 再见，{{RAM1}}！",0,27,semantic_visible,game_text_controls,"そとに にがして あげた！
 ばいばい {{RAM1}}！","[1,2]",,,,,
 pokeyellow-jp:engine/pokemon/bills_pc.asm:JustAMomentText,1,ちょっと　まってね,,请您稍等……,0,6,whole_visible_unit,game_text_controls,ちょっと まってね,[1],,,,,
-pokeyellow-jp:engine/pokemon/evos_moves.asm:EvolvedText,1,おめでとう！　{{RAM1}}は,,恭喜！{{RAM1}},0,11,whole_visible_unit,game_text_controls,おめでとう！ {{RAM1}}は,[1],,,,,
-pokeyellow-jp:engine/pokemon/evos_moves.asm:IntoText,1,{{RAM1}}に　しんかした,,进化为{{RAM1}}了！,1,14,whole_visible_unit,game_text_controls,{{RAM1}}に しんかした,[1],,,,,
+pokeyellow-jp:engine/pokemon/evos_moves.asm:EvolvedText,1,おめでとう！　{{RAM1}}は,,,,,use_composition,game_text_controls,おめでとう！ {{RAM1}}は,[],,,,,
+pokeyellow-jp:engine/pokemon/evos_moves.asm:IntoText,1,{{RAM1}}に　しんかした,,,,,use_composition,game_text_controls,{{RAM1}}に しんかした,[],,,,,
 pokeyellow-jp:engine/pokemon/evos_moves.asm:StoppedEvolvingText,1,あれ⋯⋯？,,什么……？,0,5,semantic_visible,game_text_controls,あれ……？,[1],,,,,
 pokeyellow-jp:engine/pokemon/evos_moves.asm:StoppedEvolvingText,2,"あれ⋯⋯？
 {{RAM1}}の　へんかが　とまった！",1,"什么……？{{RAM1}}
@@ -66442,6 +66539,20 @@ pokeyellow-jp:item:ETHER,1,ピーピーエイド,,%单项小补剂,0,6,whole_vis
 pokeyellow-jp:item:MAX_ETHER,1,ピーピーリカバー,,%单项全补剂,0,6,whole_visible_unit,symbolic_item_move_species,ピーピーリカバー,[1],,,,,
 pokeyellow-jp:item:ELIXER,1,ピーピーエイダー,,%多项小补剂,0,6,whole_visible_unit,symbolic_item_move_species,ピーピーエイダー,[1],,,,,
 pokeyellow-jp:item:MAX_ELIXER,1,ピーピーマックス,,%多项全补剂,0,6,whole_visible_unit,symbolic_item_move_species,ピーピーマックス,[1],,,,,
+pokeyellow-jp:floor:FLOOR_B2F,1,ちか２かい,,地下2楼,0,4,whole_visible_unit,symbolic_item_move_species,ちか2かい,[1],,,,,
+pokeyellow-jp:floor:FLOOR_B1F,1,ちか１かい,,地下1楼,0,4,whole_visible_unit,symbolic_item_move_species,ちか1かい,[1],,,,,
+pokeyellow-jp:floor:FLOOR_1F,1,１かい,,1楼,0,2,whole_visible_unit,symbolic_item_move_species,1かい,[1],,,,,
+pokeyellow-jp:floor:FLOOR_2F,1,２かい,,2楼,0,2,whole_visible_unit,symbolic_item_move_species,2かい,[1],,,,,
+pokeyellow-jp:floor:FLOOR_3F,1,３かい,,3楼,0,2,whole_visible_unit,symbolic_item_move_species,3かい,[1],,,,,
+pokeyellow-jp:floor:FLOOR_4F,1,４かい,,4楼,0,2,whole_visible_unit,symbolic_item_move_species,4かい,[1],,,,,
+pokeyellow-jp:floor:FLOOR_5F,1,５かい,,5楼,0,2,whole_visible_unit,symbolic_item_move_species,5かい,[1],,,,,
+pokeyellow-jp:floor:FLOOR_6F,1,６かい,,6楼,0,2,whole_visible_unit,symbolic_item_move_species,6かい,[1],,,,,
+pokeyellow-jp:floor:FLOOR_7F,1,７かい,,7楼,0,2,whole_visible_unit,symbolic_item_move_species,7かい,[1],,,,,
+pokeyellow-jp:floor:FLOOR_8F,1,８かい,,8楼,0,2,whole_visible_unit,symbolic_item_move_species,8かい,[1],,,,,
+pokeyellow-jp:floor:FLOOR_9F,1,９かい,,9楼,0,2,whole_visible_unit,symbolic_item_move_species,9かい,[1],,,,,
+pokeyellow-jp:floor:FLOOR_10F,1,１０かい,,10楼,0,3,whole_visible_unit,symbolic_item_move_species,10かい,[1],,,,,
+pokeyellow-jp:floor:FLOOR_11F,1,１１かい,,11楼,0,3,whole_visible_unit,symbolic_item_move_species,11かい,[1],,,,,
+pokeyellow-jp:floor:FLOOR_B4F,1,ちか４かい,,地下4楼,0,4,whole_visible_unit,symbolic_item_move_species,ちか4かい,[1],,,,,
 pokeyellow-jp:trainer:YOUNGSTER,1,たんパンこぞう,,短裤小子,0,4,whole_visible_unit,symbolic_item_move_species,たんパンこぞう,[1],,,,,
 pokeyellow-jp:trainer:BUG_CATCHER,1,むしとりのしょうねん,,捕虫少年,0,4,whole_visible_unit,symbolic_item_move_species,むしとりのしょうねん,[1],,,,,
 pokeyellow-jp:trainer:LASS,1,ミニスカート,,迷你裙,0,3,whole_visible_unit,symbolic_item_move_species,ミニスカート,[1],,,,,
@@ -66544,6 +66655,7 @@ pokeyellow-jp:item:HM02,1,ひでんマシン０２,,HM02,0,4,whole_visible_unit,
 pokeyellow-jp:item:HM03,1,ひでんマシン０３,,HM03,0,4,whole_visible_unit,GetMachineName,ひでんマシン03,[1],,,,,
 pokeyellow-jp:item:HM04,1,ひでんマシン０４,,HM04,0,4,whole_visible_unit,GetMachineName,ひでんマシン04,[1],,,,,
 pokeyellow-jp:item:HM05,1,ひでんマシン０５,,HM05,0,4,whole_visible_unit,GetMachineName,ひでんマシン05,[1],,,,,
+pokeyellow-jp:battle_ghost:EnemyAppearanceName,1,ゆうれい,,幽灵,0,2,whole_visible_unit,fixed_battle_name,ゆうれい,[1],,,,,
 pokeyellow-jp:fixed:TypeNames.Normal,1,ノーマル,,一般,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,ノーマル,[1],,,,,
 pokeyellow-jp:fixed:TypeNames.Fighting,1,かくとう,,格斗,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,かくとう,[1],,,,,
 pokeyellow-jp:fixed:TypeNames.Flying,1,ひこう,,飞行,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,ひこう,[1],,,,,
@@ -66613,6 +66725,19 @@ pokeyellow-jp:fixed:BattleMenu.ポケモン,1,ポケモン,,宝可梦,0,3,whole_
 pokeyellow-jp:fixed:BattleMenu.にげる,1,にげる,,逃走,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,にげる,[1],,,,,
 pokeyellow-jp:fixed:SafariMenu.Bait,1,エサをなげる,,诱饵,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,エサをなげる,[1],,,,,
 pokeyellow-jp:fixed:SafariMenu.Rock,1,いしをなげる,,石块,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,いしをなげる,[1],,,,,
+pokeyellow-jp:fixed:PCSelect.SomeonesPCText,1,だれかの　パソコン,,某人的电脑,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,だれかの パソコン,[1],,,,,
+pokeyellow-jp:fixed:PCSelect.BillsPCText,1,マサキの　パソコン,,正辉的电脑,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,マサキの パソコン,[1],,,,,
+pokeyellow-jp:fixed:PCSelect.PlayersPCText,1,の　パソコン,,的电脑,0,3,whole_visible_unit,fixed_layout_or_variable_dictionary,の パソコン,[1],,,,,
+pokeyellow-jp:fixed:PCSelect.OaksPCText,1,オーキドの　パソコン,,大木的电脑,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,オーキドの パソコン,[1],,,,,
+pokeyellow-jp:fixed:PCSelect.PKMNLeaguePCText,1,ポケモン　リーグ,,宝可梦联盟,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモン リーグ,[1],,,,,
+pokeyellow-jp:fixed:PCSelect.LogOffPCText,1,スイッチを　きる,,关机,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,スイッチを きる,[1],,,,,
+pokeyellow-jp:fixed:VendingMenu.Cancel,1,いらない,,取消,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,いらない,[1],,,,,
+pokeyellow-jp:fixed:PrizeMenu.Cancel,1,いらない,,还是算了,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,いらない,[1],,,,,
+pokeyellow-jp:fixed:TrainerClass.Cooltrainer,1,エリートトレーナー,,精英训练家,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,エリートトレーナー,[1],,,,,
+pokeyellow-jp:fixed:PCItemAction.Withdraw,1,どうぐを　ひきだす,,取出道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを ひきだす,[1],,,,,
+pokeyellow-jp:fixed:PCItemAction.Deposit,1,どうぐを　あずける,,寄放道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを あずける,[1],,,,,
+pokeyellow-jp:fixed:PCItemAction.Toss,1,どうぐを　すてる,,丢弃道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを すてる,[1],,,,,
+pokeyellow-jp:fixed:PCItemAction.Exit,1,スイッチを　きる,,关机,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,スイッチを きる,[1],,,,,
 pokeyellow-jp:fixed:DefaultName.PLAYERNAME1,1,イエロー,,小黄,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,イエロー,[1],,,,,
 pokeyellow-jp:fixed:DefaultName.PLAYERNAME2,1,サトシ,,小智,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,サトシ,[1],,,,,
 pokeyellow-jp:fixed:DefaultName.PLAYERNAME3,1,ジャック,,杰克,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,ジャック,[1],,,,,
@@ -66688,6 +66813,11 @@ pokeyellow-jp:composed:SendOut.EnemysWeakText,2,"あいてが　よわってい�
 チャンスだ！　{{RAM1}}！",1,"对手变弱了！机会来了，
 {{RAM1}}！",0,21,semantic_visible,explicit_control_flow,"あいてが よわっている！
 チャンスだ！ {{RAM1}}！","[1,2]",,,,,
+pokeyellow-jp:composed:EvolutionCompleted,1,おめでとう！　{{RAM1}}は,,恭喜！{{RAM1}},0,11,semantic_visible,explicit_control_flow,おめでとう！ {{RAM1}}は,[1],,,,,
+pokeyellow-jp:composed:EvolutionCompleted,2,"おめでとう！　{{RAM1}}は
+{{RAM2}}に　しんかした",1,"恭喜！{{RAM1}}
+进化为{{RAM2}}了！",0,25,semantic_visible,explicit_control_flow,"おめでとう！ {{RAM1}}は
+{{RAM2}}に しんかした","[1,2]",,,,,
 pokeyellow-jp:composed:Retreat.direct,1,{{RAM1}}　,,"{{RAM1}}，
 回来！",0,13,whole_visible_unit,explicit_control_flow,{{RAM1}},[1],,,,,
 pokeyellow-jp:composed:Retreat.direct,2,"{{RAM1}}　
@@ -70507,25 +70637,3 @@ pokeyellow-jp:composed:TrainerEnd.ViridianGymCooltrainerM2EndBattleText,1,{{SPEA
 pokeyellow-jp:composed:TrainerEnd.ViridianGymHiker3EndBattleText,1,{{SPEAKER}}『ドッセーッ！,,{{SPEAKER}}：啊呀！,0,15,whole_visible_unit,PrintEndBattleText continuation,{{SPEAKER}}『ドッセーッ！,[1],,,,,
 pokeyellow-jp:composed:TrainerEnd.ViridianGymRocker2EndBattleText,1,{{SPEAKER}}『⋯⋯　い　いてて！,,{{SPEAKER}}：……好、好痛！,0,19,whole_visible_unit,PrintEndBattleText continuation,{{SPEAKER}}『…… い いてて！,[1],,,,,
 pokeyellow-jp:composed:TrainerEnd.ViridianGymCooltrainerM3EndBattleText,1,{{SPEAKER}}『⋯⋯　さすがだ！,,{{SPEAKER}}：……果然厉害！,0,19,whole_visible_unit,PrintEndBattleText continuation,{{SPEAKER}}『…… さすがだ！,[1],,,,,
-pokegreen:fixed:PCItemAction.Withdraw,1,どうぐを　ひきだす,,取出道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを ひきだす,[1],,,,,
-pokegreen:fixed:PCItemAction.Deposit,1,どうぐを　あずける,,寄放道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを あずける,[1],,,,,
-pokegreen:fixed:PCItemAction.Toss,1,どうぐを　すてる,,丢弃道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを すてる,[1],,,,,
-pokegreen:fixed:PCItemAction.Exit,1,スイッチを　きる,,关机,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,スイッチを きる,[1],,,,,
-pokeblue:fixed:PCItemAction.Withdraw,1,どうぐを　ひきだす,,取出道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを ひきだす,[1],,,,,
-pokeblue:fixed:PCItemAction.Deposit,1,どうぐを　あずける,,寄放道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを あずける,[1],,,,,
-pokeblue:fixed:PCItemAction.Toss,1,どうぐを　すてる,,丢弃道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを すてる,[1],,,,,
-pokeblue:fixed:PCItemAction.Exit,1,スイッチを　きる,,关机,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,スイッチを きる,[1],,,,,
-pokeyellow-jp:fixed:PCItemAction.Withdraw,1,どうぐを　ひきだす,,取出道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを ひきだす,[1],,,,,
-pokeyellow-jp:fixed:PCItemAction.Deposit,1,どうぐを　あずける,,寄放道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを あずける,[1],,,,,
-pokeyellow-jp:fixed:PCItemAction.Toss,1,どうぐを　すてる,,丢弃道具,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,どうぐを すてる,[1],,,,,
-pokeyellow-jp:fixed:PCItemAction.Exit,1,スイッチを　きる,,关机,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,スイッチを きる,[1],,,,,
-pokegreen:fixed:PCAction.Withdraw,1,ポケモンを　つれていく,,取出宝可梦,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモンを つれていく,[1],,,,,
-pokegreen:fixed:PCAction.Deposit,1,ポケモンを　あずける,,寄放宝可梦,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモンを あずける,[1],,,,,
-pokegreen:fixed:PCAction.Release,1,ポケモンを　にがす,,放生宝可梦,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモンを にがす,[1],,,,,
-pokegreen:fixed:PCAction.ChangeBox,1,ボックスを　かえる,,更换盒子,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,ボックスを かえる,[1],,,,,
-pokegreen:fixed:PCAction.Exit,1,さようなら,,再见,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,さようなら,[1],,,,,
-pokeblue:fixed:PCAction.Withdraw,1,ポケモンを　つれていく,,取出宝可梦,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモンを つれていく,[1],,,,,
-pokeblue:fixed:PCAction.Deposit,1,ポケモンを　あずける,,寄放宝可梦,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモンを あずける,[1],,,,,
-pokeblue:fixed:PCAction.Release,1,ポケモンを　にがす,,放生宝可梦,0,5,whole_visible_unit,fixed_layout_or_variable_dictionary,ポケモンを にがす,[1],,,,,
-pokeblue:fixed:PCAction.ChangeBox,1,ボックスを　かえる,,更换盒子,0,4,whole_visible_unit,fixed_layout_or_variable_dictionary,ボックスを かえる,[1],,,,,
-pokeblue:fixed:PCAction.Exit,1,さようなら,,再见,0,2,whole_visible_unit,fixed_layout_or_variable_dictionary,さようなら,[1],,,,,

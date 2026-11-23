@@ -4,13 +4,14 @@
   "source": "Pinned corpus source cells and user-approved revisions listed in each expected source label; literal expected Chinese is fixed before running the resolver",
   "scenarios": [
     {
-      "name": "reception dialogue retains legal trainer and five-character nickname prefix ambiguity",
+      "name": "fixed reception dialogue displays without waiting for an arrow or using weak name prefixes",
       "events": [
         {
           "raw": "うけつけは こちらです",
-          "match": "ambiguous",
-          "status": "ambiguous",
-          "chinese": ""
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "请在这里登记。",
+          "includesSource": "CableClubNPCPleaseApplyHereHaveToSaveText"
         },
         {
           "raw": "うけつけは こちらです",
@@ -26,9 +27,95 @@
         },
         {
           "raw": "うけつけは こちらです",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "请在这里登记。",
+          "includesSource": "CableClubNPCPleaseApplyHereHaveToSaveText"
+        }
+      ]
+    },
+    {
+      "name": "fixed dialogue displays when a competing item template lacks its visible item",
+      "events": [
+        {
+          "raw": "ここでは じてんしゃに",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "这里不能骑自行车。",
+          "includesSource": "NoCyclingAllowedHereText"
+        },
+        {
+          "raw": "これは あいてに",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "这是个能让对手\n感受到恐怖的招式。",
+          "includesSource": "FuchsiaGymKogaText.PostBattleAdviceText"
+        }
+      ]
+    },
+    {
+      "name": "fixed and numeric admission lines display their common Chinese",
+      "events": [
+        {
+          "raw": "それでは……！\n500円 いただきまーす！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "那么……！\n收您¥500！",
+          "includesSource": "SafariZoneGatePrintSafariZoneWorker1WouldYouLikeToJoinText.MakePaymentText"
+        }
+      ]
+    },
+    {
+      "name": "fixed dialogue still respects a longer fixed prefix and a conflicting complete name template",
+      "events": [
+        {
+          "raw": "サファリ ゾーンの えんちょう",
           "match": "ambiguous",
           "status": "ambiguous",
           "chinese": ""
+        },
+        {
+          "disappear": true
+        },
+        {
+          "raw": "まちなー！",
+          "waitingForInput": true,
+          "match": "ambiguous",
+          "status": "ambiguous",
+          "chinese": ""
+        }
+      ]
+    },
+    {
+      "name": "prefer the fixed Pewter Gym body while the Oaks Lab name template still matches when its next line is visible",
+      "events": [
+        {
+          "raw": "ボーイ『しまった！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "童子军：糟糕！",
+          "source": "PewterGymCooltrainerMEndBattleText",
+          "candidateCount": 3
+        },
+        {
+          "raw": "ボーイ『しまった！\nこいつは おれが もらったぜ！",
+          "match": "unique",
+          "status": "ready",
+          "chinese": "童子军：しまった！\n这家伙就归我了！",
+          "source": "OaksLabRivalTakesText1",
+          "candidateCount": 1
+        },
+        {
+          "disappear": true
+        },
+        {
+          "raw": "ボーイ『しまった！",
+          "waitingForInput": true,
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "童子军：糟糕！",
+          "source": "PewterGymCooltrainerMEndBattleText",
+          "candidateCount": 3
         }
       ]
     },
@@ -48,6 +135,98 @@
           "match": "unreliable",
           "status": "unknown_character",
           "chinese": ""
+        }
+      ]
+    },
+    {
+      "name": "the Route 11 trainer dialogue matches when the prompt covers its final punctuation",
+      "events": [
+        {
+          "raw": "たんパン『あちゃー！ …… もっと\nつよい ポケモン でなきゃ だめだ",
+          "match": "equivalent",
+          "status": "incomplete",
+          "chinese": "",
+          "source": "TrainerEnd.Route11Youngster3EndBattleText",
+          "candidateCount": 3
+        },
+        {
+          "raw": "たんパン『あちゃー！ …… もっと\nつよい ポケモン でなきゃ だめだ",
+          "waitingForInput": true,
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "短裤：哎呀！\n看来非要派出\n更强的宝可梦才行呀！",
+          "source": "TrainerEnd.Route11Youngster3EndBattleText",
+          "candidateCount": 3
+        },
+        {
+          "raw": "たんパン『あちゃー！ …… もっと\nつよい ポケモン でなきゃ だめだ！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "短裤：哎呀！\n看来非要派出\n更强的宝可梦才行呀！",
+          "source": "TrainerEnd.Route11Youngster3EndBattleText",
+          "candidateCount": 3
+        },
+        {
+          "raw": "たんパン『あちゃー！ …… もっと\nつよい ポケモン でなきゃ だめ",
+          "waitingForInput": true,
+          "match": "equivalent",
+          "status": "incomplete",
+          "chinese": "",
+          "source": "TrainerEnd.Route11Youngster3EndBattleText",
+          "candidateCount": 3
+        }
+      ]
+    },
+    {
+      "name": "a composed battle dialogue inherits the source prompt for covered punctuation",
+      "events": [
+        {
+          "raw": "てきの ダグトりオは\nあなをほって ちちゅうに もぐった",
+          "match": "equivalent",
+          "status": "incomplete",
+          "chinese": "",
+          "source": "Charge.DugAHoleText",
+          "candidateCount": 2
+        },
+        {
+          "raw": "てきの ダグトりオは\nあなをほって ちちゅうに もぐった",
+          "waitingForInput": true,
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "敌方三地鼠\n钻入了地里！",
+          "source": "Charge.DugAHoleText",
+          "candidateCount": 2
+        },
+        {
+          "raw": "てきの ダグトりオは\nあなをほって ちちゅうに もぐった！",
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "敌方三地鼠\n钻入了地里！",
+          "source": "Charge.DugAHoleText",
+          "candidateCount": 2
+        }
+      ]
+    },
+    {
+      "name": "a covered final punctuation mark in fixed dialogue requires a source prompt",
+      "events": [
+        {
+          "raw": "おしい！\nあと ちょっとの ところだったのに",
+          "waitingForInput": true,
+          "match": "equivalent",
+          "status": "ready",
+          "chinese": "可惜啊！\n就还差一点点了！",
+          "source": "ItemUseBallText04",
+          "candidateCount": 3
+        },
+        {
+          "raw": "いつか かならず かてる！\nと おもったのに この ざまだ……",
+          "waitingForInput": true,
+          "match": "equivalent",
+          "status": "incomplete",
+          "chinese": "",
+          "source": ".WinItBackText",
+          "candidateCount": 3
         }
       ]
     },

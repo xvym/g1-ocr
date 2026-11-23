@@ -31,7 +31,11 @@ public final class PixelFont {
 
     /** Exact tile comparison accepts every saved variant of the token. */
     public boolean matches(String token, long pixels) {
-        return glyphs.stream().anyMatch(g -> g.mark() == 0 && g.base() == pixels && g.candidates().contains(token));
+        return matches(token, pixels, 0);
+    }
+
+    public boolean matches(String token, long pixels, long mark) {
+        return glyphs.stream().anyMatch(g -> g.mark() == mark && g.base() == pixels && g.candidates().contains(token));
     }
 
     /** All equal visual candidates survive; non-exact matches remain unknown. */

@@ -2,6 +2,7 @@
 TeachMachineMoveText,RAM1,move,engine/items/item_effects.asm#ItemUseTMHM/GetMoveName
 ThrewAwayItemText,RAM1,item,engine/items/item_effects.asm#ThrewAwayItemText/GetItemName
 WithdrewItemText,RAM1,item,engine/menus/players_pc.asm#WithdrewItemText/wNameBuffer
+ItemWasStoredText,RAM1,item,engine/menus/players_pc.asm#ItemWasStoredText/wNameBuffer
 VendingMachineText5,RAM1,item,engine/events/vending_machine.asm#VendingMachineText5/GiveItem
 SoYouWantPrizeText,RAM1,game_corner_prize,engine/events/prize_menu.asm#HandlePrizeChoice/GetItemName/GetMonName
 Route1Youngster1Text.GotPotionText,RAM1,item,scripts/Route1.asm#Route1Youngster1Text.GotPotionText/wStringBuffer
@@ -68,6 +69,7 @@ GotOnBicycleText,RAM1,item,engine/items/item_effects.asm#ItemUseBicycle/GetItemN
 GotOffBicycleText,RAM1,item,engine/items/item_effects.asm#ItemUseBicycle/GetItemName
 AIBattleUseItemText,RAM3,item,engine/battle/trainer_ai2.asm#AIPrintItemUse_/GetItemName
 WildMonAppearedText,RAM1,pokemon,engine/battle/common_text.asm#PrintBeginningBattleText/LoadEnemyMonData/GetMonName
+EnemyAppearedText,RAM1,battle_ghost,engine/battle/common_text.asm#PrintBeginningBattleText/.pokemonTower/wEnemyMonNick
 HookedMonAttackedText,RAM1,pokemon,engine/battle/common_text.asm#PrintBeginningBattleText/.notFishing/LoadEnemyMonData/GetMonName
 WildRanText,RAM1,pokemon,engine/battle/core.asm#EnemyRan/non-link/LoadEnemyMonData/GetMonName
 ItemUseBallText05,RAM1,pokemon,engine/items/item_effects.asm#ItemUseBall/LoadEnemyMonData/before-AddPartyMon
@@ -106,6 +108,8 @@ UsedStrengthText,RAM1,nickname,engine/overworld/field_move_messages.asm#UsedStre
 CanMoveBouldersText,RAM1,nickname,engine/overworld/field_move_messages.asm#CanMoveBouldersText/wNameBuffer
 OnceReleasedText,RAM1,nickname,engine/pokemon/bills_pc.asm#OnceReleasedText/wStringBuffer
 EvolvedText,RAM1,nickname,engine/pokemon/evos_moves.asm#EvolvedText/wStringBuffer
+EvolutionCompleted,RAM1,nickname,engine/pokemon/evos_moves.asm#EvolvedText/wStringBuffer
+EvolutionCompleted,RAM2,pokemon,engine/pokemon/evos_moves.asm#IntoText/GetName/wNameBuffer
 StoppedEvolvingText,RAM1,nickname,engine/pokemon/evos_moves.asm#StoppedEvolvingText/wStringBuffer
 IsEvolvingText,RAM1,nickname,engine/pokemon/evos_moves.asm#IsEvolvingText/wStringBuffer
 PokemonFaintedText,RAM1,nickname,home/text_script.asm#PokemonFaintedText/wNameBuffer

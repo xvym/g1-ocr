@@ -9450,8 +9450,6 @@ pokegreen:engine/pokemon/bills_pc.asm:MonWasReleasedText,1,1,2,"{{RAM1}}を
 已被放生。",aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/pokemon/bills_pc.asm:MonWasReleasedText
 pokegreen:engine/pokemon/bills_pc.asm:MonWasReleasedText,2,3,3,ばいばい　{{RAM1}}！,15,27,再见，{{RAM1}}！,aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/pokemon/bills_pc.asm:MonWasReleasedText
 pokegreen:engine/pokemon/bills_pc.asm:JustAMomentText,1,1,1,ちょっと　まってね,0,6,请您稍等……,aligned,aligned_whole_unit,source_alignment_only,pokegreen:engine/pokemon/bills_pc.asm:JustAMomentText
-pokegreen:engine/pokemon/evos_moves.asm:EvolvedText,1,1,1,おめでとう！　{{RAM1}}は,0,11,恭喜！{{RAM1}},aligned,aligned_whole_unit,source_alignment_only,pokegreen:engine/pokemon/evos_moves.asm:EvolvedText
-pokegreen:engine/pokemon/evos_moves.asm:IntoText,1,1,1,{{RAM1}}に　しんかした,1,14,进化为{{RAM1}}了！,aligned,aligned_whole_unit,source_alignment_only,pokegreen:engine/pokemon/evos_moves.asm:IntoText
 pokegreen:engine/pokemon/evos_moves.asm:StoppedEvolvingText,1,1,1,あれ⋯⋯？,0,5,什么……？,aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/pokemon/evos_moves.asm:StoppedEvolvingText
 pokegreen:engine/pokemon/evos_moves.asm:StoppedEvolvingText,2,2,2,{{RAM1}}の　へんかが　とまった！,5,21,"{{RAM1}}
 的变化停止了！",aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/pokemon/evos_moves.asm:StoppedEvolvingText
@@ -9934,6 +9932,20 @@ pokegreen:item:ETHER,1,1,1,ピーピーエイド,0,6,%单项小补剂,aligned,al
 pokegreen:item:MAX_ETHER,1,1,1,ピーピーリカバー,0,6,%单项全补剂,aligned,aligned_whole_unit,source_alignment_only,pokegreen:item:MAX_ETHER
 pokegreen:item:ELIXER,1,1,1,ピーピーエイダー,0,6,%多项小补剂,aligned,aligned_whole_unit,source_alignment_only,pokegreen:item:ELIXER
 pokegreen:item:MAX_ELIXER,1,1,1,ピーピーマックス,0,6,%多项全补剂,aligned,aligned_whole_unit,source_alignment_only,pokegreen:item:MAX_ELIXER
+pokegreen:floor:FLOOR_B2F,1,1,1,ちか２かい,0,4,地下2楼,aligned,aligned_whole_unit,source_alignment_only,pokegreen:floor:FLOOR_B2F
+pokegreen:floor:FLOOR_B1F,1,1,1,ちか１かい,0,4,地下1楼,aligned,aligned_whole_unit,source_alignment_only,pokegreen:floor:FLOOR_B1F
+pokegreen:floor:FLOOR_1F,1,1,1,１かい,0,2,1楼,aligned,aligned_whole_unit,source_alignment_only,pokegreen:floor:FLOOR_1F
+pokegreen:floor:FLOOR_2F,1,1,1,２かい,0,2,2楼,aligned,aligned_whole_unit,source_alignment_only,pokegreen:floor:FLOOR_2F
+pokegreen:floor:FLOOR_3F,1,1,1,３かい,0,2,3楼,aligned,aligned_whole_unit,source_alignment_only,pokegreen:floor:FLOOR_3F
+pokegreen:floor:FLOOR_4F,1,1,1,４かい,0,2,4楼,aligned,aligned_whole_unit,source_alignment_only,pokegreen:floor:FLOOR_4F
+pokegreen:floor:FLOOR_5F,1,1,1,５かい,0,2,5楼,aligned,aligned_whole_unit,source_alignment_only,pokegreen:floor:FLOOR_5F
+pokegreen:floor:FLOOR_6F,1,1,1,６かい,0,2,6楼,aligned,aligned_whole_unit,source_alignment_only,pokegreen:floor:FLOOR_6F
+pokegreen:floor:FLOOR_7F,1,1,1,７かい,0,2,7楼,aligned,aligned_whole_unit,source_alignment_only,pokegreen:floor:FLOOR_7F
+pokegreen:floor:FLOOR_8F,1,1,1,８かい,0,2,8楼,aligned,aligned_whole_unit,source_alignment_only,pokegreen:floor:FLOOR_8F
+pokegreen:floor:FLOOR_9F,1,1,1,９かい,0,2,9楼,aligned,aligned_whole_unit,source_alignment_only,pokegreen:floor:FLOOR_9F
+pokegreen:floor:FLOOR_10F,1,1,1,１０かい,0,3,10楼,aligned,aligned_whole_unit,source_alignment_only,pokegreen:floor:FLOOR_10F
+pokegreen:floor:FLOOR_11F,1,1,1,１１かい,0,3,11楼,aligned,aligned_whole_unit,source_alignment_only,pokegreen:floor:FLOOR_11F
+pokegreen:floor:FLOOR_B4F,1,1,1,ちか４かい,0,4,地下4楼,aligned,aligned_whole_unit,source_alignment_only,pokegreen:floor:FLOOR_B4F
 pokegreen:trainer:YOUNGSTER,1,1,1,たんパンこぞう,0,4,短裤小子,aligned,aligned_whole_unit,source_alignment_only,pokegreen:trainer:YOUNGSTER
 pokegreen:trainer:BUG_CATCHER,1,1,1,むしとりのしょうねん,0,4,捕虫少年,aligned,aligned_whole_unit,source_alignment_only,pokegreen:trainer:BUG_CATCHER
 pokegreen:trainer:LASS,1,1,1,ミニスカート,0,3,迷你裙,aligned,aligned_whole_unit,source_alignment_only,pokegreen:trainer:LASS
@@ -10036,6 +10048,7 @@ pokegreen:item:HM02,1,1,1,ひでんマシン０２,0,4,HM02,aligned,aligned_whol
 pokegreen:item:HM03,1,1,1,ひでんマシン０３,0,4,HM03,aligned,aligned_whole_unit,source_alignment_only,pokegreen:item:HM03
 pokegreen:item:HM04,1,1,1,ひでんマシン０４,0,4,HM04,aligned,aligned_whole_unit,source_alignment_only,pokegreen:item:HM04
 pokegreen:item:HM05,1,1,1,ひでんマシン０５,0,4,HM05,aligned,aligned_whole_unit,source_alignment_only,pokegreen:item:HM05
+pokegreen:battle_ghost:EnemyAppearanceName,1,1,1,ゆうれい,0,2,幽灵,aligned,aligned_whole_unit,source_alignment_only,pokegreen:battle_ghost:EnemyAppearanceName
 pokegreen:fixed:TypeNames.Normal,1,1,1,ノーマル,0,2,一般,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:TypeNames.Normal
 pokegreen:fixed:TypeNames.Fighting,1,1,1,かくとう,0,2,格斗,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:TypeNames.Fighting
 pokegreen:fixed:TypeNames.Flying,1,1,1,ひこう,0,2,飞行,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:TypeNames.Flying
@@ -10105,6 +10118,24 @@ pokegreen:fixed:BattleMenu.ポケモン,1,1,1,ポケモン,0,3,宝可梦,aligned
 pokegreen:fixed:BattleMenu.にげる,1,1,1,にげる,0,2,逃走,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:BattleMenu.にげる
 pokegreen:fixed:SafariMenu.Bait,1,1,1,エサをなげる,0,2,诱饵,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:SafariMenu.Bait
 pokegreen:fixed:SafariMenu.Rock,1,1,1,いしをなげる,0,2,石块,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:SafariMenu.Rock
+pokegreen:fixed:PCSelect.SomeonesPCText,1,1,1,だれかの　パソコン,0,5,某人的电脑,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCSelect.SomeonesPCText
+pokegreen:fixed:PCSelect.BillsPCText,1,1,1,マサキの　パソコン,0,5,正辉的电脑,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCSelect.BillsPCText
+pokegreen:fixed:PCSelect.PlayersPCText,1,1,1,の　パソコン,0,3,的电脑,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCSelect.PlayersPCText
+pokegreen:fixed:PCSelect.OaksPCText,1,1,1,オーキドの　パソコン,0,5,大木的电脑,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCSelect.OaksPCText
+pokegreen:fixed:PCSelect.PKMNLeaguePCText,1,1,1,ポケモン　リーグ,0,5,宝可梦联盟,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCSelect.PKMNLeaguePCText
+pokegreen:fixed:PCSelect.LogOffPCText,1,1,1,スイッチを　きる,0,2,关机,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCSelect.LogOffPCText
+pokegreen:fixed:VendingMenu.Cancel,1,1,1,いらない,0,2,取消,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:VendingMenu.Cancel
+pokegreen:fixed:PrizeMenu.Cancel,1,1,1,いらない,0,4,还是算了,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PrizeMenu.Cancel
+pokegreen:fixed:TrainerClass.Cooltrainer,1,1,1,エリートトレーナー,0,5,精英训练家,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:TrainerClass.Cooltrainer
+pokegreen:fixed:PCItemAction.Withdraw,1,1,1,どうぐを　ひきだす,0,4,取出道具,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCItemAction.Withdraw
+pokegreen:fixed:PCItemAction.Deposit,1,1,1,どうぐを　あずける,0,4,寄放道具,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCItemAction.Deposit
+pokegreen:fixed:PCItemAction.Toss,1,1,1,どうぐを　すてる,0,4,丢弃道具,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCItemAction.Toss
+pokegreen:fixed:PCItemAction.Exit,1,1,1,スイッチを　きる,0,2,关机,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCItemAction.Exit
+pokegreen:fixed:PCAction.Withdraw,1,1,1,ポケモンを　つれていく,0,5,取出宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Withdraw
+pokegreen:fixed:PCAction.Deposit,1,1,1,ポケモンを　あずける,0,5,寄放宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Deposit
+pokegreen:fixed:PCAction.Release,1,1,1,ポケモンを　にがす,0,5,放生宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Release
+pokegreen:fixed:PCAction.ChangeBox,1,1,1,ボックスを　かえる,0,4,更换盒子,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.ChangeBox
+pokegreen:fixed:PCAction.Exit,1,1,1,さようなら,0,2,再见,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Exit
 pokegreen:fixed:DefaultName.PLAYERNAME1,1,1,1,レッド,0,2,赤红,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:DefaultName.PLAYERNAME1
 pokegreen:fixed:DefaultName.PLAYERNAME2,1,1,1,サトシ,0,2,小智,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:DefaultName.PLAYERNAME2
 pokegreen:fixed:DefaultName.PLAYERNAME3,1,1,1,ジャック,0,2,杰克,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:DefaultName.PLAYERNAME3
@@ -10148,6 +10179,8 @@ pokegreen:composed:SendOut.GetmText,1,1,1,がんばれ！　{{RAM1}}！,0,12,加
 pokegreen:composed:SendOut.EnemysWeakText,1,1,1,あいてが　よわっている！,0,6,对手变弱了！,aligned,model_semantic,model_reviewed_not_human,pokegreen:composed:SendOut.EnemysWeakText
 pokegreen:composed:SendOut.EnemysWeakText,2,2,2,チャンスだ！　{{RAM1}}！,6,21,"机会来了，
 {{RAM1}}！",aligned,model_semantic,model_reviewed_not_human,pokegreen:composed:SendOut.EnemysWeakText
+pokegreen:composed:EvolutionCompleted,1,1,1,おめでとう！　{{RAM1}}は,0,11,恭喜！{{RAM1}},aligned,model_semantic,model_reviewed_not_human,pokegreen:composed:EvolutionCompleted
+pokegreen:composed:EvolutionCompleted,2,2,2,{{RAM2}}に　しんかした,12,25,进化为{{RAM2}}了！,aligned,model_semantic,model_reviewed_not_human,pokegreen:composed:EvolutionCompleted
 pokegreen:composed:Retreat.direct,1,1,2,"{{RAM1}}　
 もどれ！",0,13,"{{RAM1}}，
 回来！",aligned,aligned_whole_unit,source_alignment_only,pokegreen:composed:Retreat.direct
@@ -19652,8 +19685,6 @@ pokeblue:engine/pokemon/bills_pc.asm:MonWasReleasedText,1,1,2,"{{RAM1}}を
 已被放生。",aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/pokemon/bills_pc.asm:MonWasReleasedText
 pokeblue:engine/pokemon/bills_pc.asm:MonWasReleasedText,2,3,3,ばいばい　{{RAM1}}！,15,27,再见，{{RAM1}}！,aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/pokemon/bills_pc.asm:MonWasReleasedText
 pokeblue:engine/pokemon/bills_pc.asm:JustAMomentText,1,1,1,ちょっと　まってね,0,6,请您稍等……,aligned,aligned_whole_unit,source_alignment_only,pokeblue:engine/pokemon/bills_pc.asm:JustAMomentText
-pokeblue:engine/pokemon/evos_moves.asm:EvolvedText,1,1,1,おめでとう！　{{RAM1}}は,0,11,恭喜！{{RAM1}},aligned,aligned_whole_unit,source_alignment_only,pokeblue:engine/pokemon/evos_moves.asm:EvolvedText
-pokeblue:engine/pokemon/evos_moves.asm:IntoText,1,1,1,{{RAM1}}に　しんかした,1,14,进化为{{RAM1}}了！,aligned,aligned_whole_unit,source_alignment_only,pokeblue:engine/pokemon/evos_moves.asm:IntoText
 pokeblue:engine/pokemon/evos_moves.asm:StoppedEvolvingText,1,1,1,あれ⋯⋯？,0,5,什么……？,aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/pokemon/evos_moves.asm:StoppedEvolvingText
 pokeblue:engine/pokemon/evos_moves.asm:StoppedEvolvingText,2,2,2,{{RAM1}}の　へんかが　とまった！,5,21,"{{RAM1}}
 的变化停止了！",aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/pokemon/evos_moves.asm:StoppedEvolvingText
@@ -20136,6 +20167,20 @@ pokeblue:item:ETHER,1,1,1,ピーピーエイド,0,6,%单项小补剂,aligned,ali
 pokeblue:item:MAX_ETHER,1,1,1,ピーピーリカバー,0,6,%单项全补剂,aligned,aligned_whole_unit,source_alignment_only,pokeblue:item:MAX_ETHER
 pokeblue:item:ELIXER,1,1,1,ピーピーエイダー,0,6,%多项小补剂,aligned,aligned_whole_unit,source_alignment_only,pokeblue:item:ELIXER
 pokeblue:item:MAX_ELIXER,1,1,1,ピーピーマックス,0,6,%多项全补剂,aligned,aligned_whole_unit,source_alignment_only,pokeblue:item:MAX_ELIXER
+pokeblue:floor:FLOOR_B2F,1,1,1,ちか２かい,0,4,地下2楼,aligned,aligned_whole_unit,source_alignment_only,pokeblue:floor:FLOOR_B2F
+pokeblue:floor:FLOOR_B1F,1,1,1,ちか１かい,0,4,地下1楼,aligned,aligned_whole_unit,source_alignment_only,pokeblue:floor:FLOOR_B1F
+pokeblue:floor:FLOOR_1F,1,1,1,１かい,0,2,1楼,aligned,aligned_whole_unit,source_alignment_only,pokeblue:floor:FLOOR_1F
+pokeblue:floor:FLOOR_2F,1,1,1,２かい,0,2,2楼,aligned,aligned_whole_unit,source_alignment_only,pokeblue:floor:FLOOR_2F
+pokeblue:floor:FLOOR_3F,1,1,1,３かい,0,2,3楼,aligned,aligned_whole_unit,source_alignment_only,pokeblue:floor:FLOOR_3F
+pokeblue:floor:FLOOR_4F,1,1,1,４かい,0,2,4楼,aligned,aligned_whole_unit,source_alignment_only,pokeblue:floor:FLOOR_4F
+pokeblue:floor:FLOOR_5F,1,1,1,５かい,0,2,5楼,aligned,aligned_whole_unit,source_alignment_only,pokeblue:floor:FLOOR_5F
+pokeblue:floor:FLOOR_6F,1,1,1,６かい,0,2,6楼,aligned,aligned_whole_unit,source_alignment_only,pokeblue:floor:FLOOR_6F
+pokeblue:floor:FLOOR_7F,1,1,1,７かい,0,2,7楼,aligned,aligned_whole_unit,source_alignment_only,pokeblue:floor:FLOOR_7F
+pokeblue:floor:FLOOR_8F,1,1,1,８かい,0,2,8楼,aligned,aligned_whole_unit,source_alignment_only,pokeblue:floor:FLOOR_8F
+pokeblue:floor:FLOOR_9F,1,1,1,９かい,0,2,9楼,aligned,aligned_whole_unit,source_alignment_only,pokeblue:floor:FLOOR_9F
+pokeblue:floor:FLOOR_10F,1,1,1,１０かい,0,3,10楼,aligned,aligned_whole_unit,source_alignment_only,pokeblue:floor:FLOOR_10F
+pokeblue:floor:FLOOR_11F,1,1,1,１１かい,0,3,11楼,aligned,aligned_whole_unit,source_alignment_only,pokeblue:floor:FLOOR_11F
+pokeblue:floor:FLOOR_B4F,1,1,1,ちか４かい,0,4,地下4楼,aligned,aligned_whole_unit,source_alignment_only,pokeblue:floor:FLOOR_B4F
 pokeblue:trainer:YOUNGSTER,1,1,1,たんパンこぞう,0,4,短裤小子,aligned,aligned_whole_unit,source_alignment_only,pokeblue:trainer:YOUNGSTER
 pokeblue:trainer:BUG_CATCHER,1,1,1,むしとりのしょうねん,0,4,捕虫少年,aligned,aligned_whole_unit,source_alignment_only,pokeblue:trainer:BUG_CATCHER
 pokeblue:trainer:LASS,1,1,1,ミニスカート,0,3,迷你裙,aligned,aligned_whole_unit,source_alignment_only,pokeblue:trainer:LASS
@@ -20238,6 +20283,7 @@ pokeblue:item:HM02,1,1,1,ひでんマシン０２,0,4,HM02,aligned,aligned_whole
 pokeblue:item:HM03,1,1,1,ひでんマシン０３,0,4,HM03,aligned,aligned_whole_unit,source_alignment_only,pokeblue:item:HM03
 pokeblue:item:HM04,1,1,1,ひでんマシン０４,0,4,HM04,aligned,aligned_whole_unit,source_alignment_only,pokeblue:item:HM04
 pokeblue:item:HM05,1,1,1,ひでんマシン０５,0,4,HM05,aligned,aligned_whole_unit,source_alignment_only,pokeblue:item:HM05
+pokeblue:battle_ghost:EnemyAppearanceName,1,1,1,ゆうれい,0,2,幽灵,aligned,aligned_whole_unit,source_alignment_only,pokeblue:battle_ghost:EnemyAppearanceName
 pokeblue:fixed:TypeNames.Normal,1,1,1,ノーマル,0,2,一般,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:TypeNames.Normal
 pokeblue:fixed:TypeNames.Fighting,1,1,1,かくとう,0,2,格斗,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:TypeNames.Fighting
 pokeblue:fixed:TypeNames.Flying,1,1,1,ひこう,0,2,飞行,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:TypeNames.Flying
@@ -20307,6 +20353,24 @@ pokeblue:fixed:BattleMenu.ポケモン,1,1,1,ポケモン,0,3,宝可梦,aligned,
 pokeblue:fixed:BattleMenu.にげる,1,1,1,にげる,0,2,逃走,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:BattleMenu.にげる
 pokeblue:fixed:SafariMenu.Bait,1,1,1,エサをなげる,0,2,诱饵,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:SafariMenu.Bait
 pokeblue:fixed:SafariMenu.Rock,1,1,1,いしをなげる,0,2,石块,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:SafariMenu.Rock
+pokeblue:fixed:PCSelect.SomeonesPCText,1,1,1,だれかの　パソコン,0,5,某人的电脑,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCSelect.SomeonesPCText
+pokeblue:fixed:PCSelect.BillsPCText,1,1,1,マサキの　パソコン,0,5,正辉的电脑,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCSelect.BillsPCText
+pokeblue:fixed:PCSelect.PlayersPCText,1,1,1,の　パソコン,0,3,的电脑,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCSelect.PlayersPCText
+pokeblue:fixed:PCSelect.OaksPCText,1,1,1,オーキドの　パソコン,0,5,大木的电脑,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCSelect.OaksPCText
+pokeblue:fixed:PCSelect.PKMNLeaguePCText,1,1,1,ポケモン　リーグ,0,5,宝可梦联盟,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCSelect.PKMNLeaguePCText
+pokeblue:fixed:PCSelect.LogOffPCText,1,1,1,スイッチを　きる,0,2,关机,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCSelect.LogOffPCText
+pokeblue:fixed:VendingMenu.Cancel,1,1,1,いらない,0,2,取消,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:VendingMenu.Cancel
+pokeblue:fixed:PrizeMenu.Cancel,1,1,1,いらない,0,4,还是算了,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PrizeMenu.Cancel
+pokeblue:fixed:TrainerClass.Cooltrainer,1,1,1,エリートトレーナー,0,5,精英训练家,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:TrainerClass.Cooltrainer
+pokeblue:fixed:PCItemAction.Withdraw,1,1,1,どうぐを　ひきだす,0,4,取出道具,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCItemAction.Withdraw
+pokeblue:fixed:PCItemAction.Deposit,1,1,1,どうぐを　あずける,0,4,寄放道具,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCItemAction.Deposit
+pokeblue:fixed:PCItemAction.Toss,1,1,1,どうぐを　すてる,0,4,丢弃道具,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCItemAction.Toss
+pokeblue:fixed:PCItemAction.Exit,1,1,1,スイッチを　きる,0,2,关机,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCItemAction.Exit
+pokeblue:fixed:PCAction.Withdraw,1,1,1,ポケモンを　つれていく,0,5,取出宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.Withdraw
+pokeblue:fixed:PCAction.Deposit,1,1,1,ポケモンを　あずける,0,5,寄放宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.Deposit
+pokeblue:fixed:PCAction.Release,1,1,1,ポケモンを　にがす,0,5,放生宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.Release
+pokeblue:fixed:PCAction.ChangeBox,1,1,1,ボックスを　かえる,0,4,更换盒子,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.ChangeBox
+pokeblue:fixed:PCAction.Exit,1,1,1,さようなら,0,2,再见,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.Exit
 pokeblue:fixed:DefaultName.PLAYERNAME1,1,1,1,ブルー,0,2,碧蓝,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:DefaultName.PLAYERNAME1
 pokeblue:fixed:DefaultName.PLAYERNAME2,1,1,1,ツネカズ,0,2,恒和,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:DefaultName.PLAYERNAME2
 pokeblue:fixed:DefaultName.PLAYERNAME3,1,1,1,ジャン,0,2,基恩,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:DefaultName.PLAYERNAME3
@@ -20350,6 +20414,8 @@ pokeblue:composed:SendOut.GetmText,1,1,1,がんばれ！　{{RAM1}}！,0,12,加�
 pokeblue:composed:SendOut.EnemysWeakText,1,1,1,あいてが　よわっている！,0,6,对手变弱了！,aligned,model_semantic,model_reviewed_not_human,pokegreen:composed:SendOut.EnemysWeakText
 pokeblue:composed:SendOut.EnemysWeakText,2,2,2,チャンスだ！　{{RAM1}}！,6,21,"机会来了，
 {{RAM1}}！",aligned,model_semantic,model_reviewed_not_human,pokegreen:composed:SendOut.EnemysWeakText
+pokeblue:composed:EvolutionCompleted,1,1,1,おめでとう！　{{RAM1}}は,0,11,恭喜！{{RAM1}},aligned,model_semantic,model_reviewed_not_human,pokegreen:composed:EvolutionCompleted
+pokeblue:composed:EvolutionCompleted,2,2,2,{{RAM2}}に　しんかした,12,25,进化为{{RAM2}}了！,aligned,model_semantic,model_reviewed_not_human,pokegreen:composed:EvolutionCompleted
 pokeblue:composed:Retreat.direct,1,1,2,"{{RAM1}}　
 もどれ！",0,13,"{{RAM1}}，
 回来！",aligned,aligned_whole_unit,source_alignment_only,pokeblue:composed:Retreat.direct
@@ -30220,8 +30286,6 @@ pokeyellow-jp:engine/pokemon/bills_pc.asm:MonWasReleasedText,1,1,2,"{{RAM1}}を
 已被放生。",aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/pokemon/bills_pc.asm:MonWasReleasedText
 pokeyellow-jp:engine/pokemon/bills_pc.asm:MonWasReleasedText,2,3,3,ばいばい　{{RAM1}}！,15,27,再见，{{RAM1}}！,aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/pokemon/bills_pc.asm:MonWasReleasedText
 pokeyellow-jp:engine/pokemon/bills_pc.asm:JustAMomentText,1,1,1,ちょっと　まってね,0,6,请您稍等……,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:engine/pokemon/bills_pc.asm:JustAMomentText
-pokeyellow-jp:engine/pokemon/evos_moves.asm:EvolvedText,1,1,1,おめでとう！　{{RAM1}}は,0,11,恭喜！{{RAM1}},aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:engine/pokemon/evos_moves.asm:EvolvedText
-pokeyellow-jp:engine/pokemon/evos_moves.asm:IntoText,1,1,1,{{RAM1}}に　しんかした,1,14,进化为{{RAM1}}了！,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:engine/pokemon/evos_moves.asm:IntoText
 pokeyellow-jp:engine/pokemon/evos_moves.asm:StoppedEvolvingText,1,1,1,あれ⋯⋯？,0,5,什么……？,aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/pokemon/evos_moves.asm:StoppedEvolvingText
 pokeyellow-jp:engine/pokemon/evos_moves.asm:StoppedEvolvingText,2,2,2,{{RAM1}}の　へんかが　とまった！,5,21,"{{RAM1}}
 的变化停止了！",aligned,model_semantic,model_reviewed_not_human,pokegreen:engine/pokemon/evos_moves.asm:StoppedEvolvingText
@@ -30706,6 +30770,20 @@ pokeyellow-jp:item:ETHER,1,1,1,ピーピーエイド,0,6,%单项小补剂,aligne
 pokeyellow-jp:item:MAX_ETHER,1,1,1,ピーピーリカバー,0,6,%单项全补剂,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:item:MAX_ETHER
 pokeyellow-jp:item:ELIXER,1,1,1,ピーピーエイダー,0,6,%多项小补剂,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:item:ELIXER
 pokeyellow-jp:item:MAX_ELIXER,1,1,1,ピーピーマックス,0,6,%多项全补剂,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:item:MAX_ELIXER
+pokeyellow-jp:floor:FLOOR_B2F,1,1,1,ちか２かい,0,4,地下2楼,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:floor:FLOOR_B2F
+pokeyellow-jp:floor:FLOOR_B1F,1,1,1,ちか１かい,0,4,地下1楼,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:floor:FLOOR_B1F
+pokeyellow-jp:floor:FLOOR_1F,1,1,1,１かい,0,2,1楼,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:floor:FLOOR_1F
+pokeyellow-jp:floor:FLOOR_2F,1,1,1,２かい,0,2,2楼,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:floor:FLOOR_2F
+pokeyellow-jp:floor:FLOOR_3F,1,1,1,３かい,0,2,3楼,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:floor:FLOOR_3F
+pokeyellow-jp:floor:FLOOR_4F,1,1,1,４かい,0,2,4楼,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:floor:FLOOR_4F
+pokeyellow-jp:floor:FLOOR_5F,1,1,1,５かい,0,2,5楼,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:floor:FLOOR_5F
+pokeyellow-jp:floor:FLOOR_6F,1,1,1,６かい,0,2,6楼,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:floor:FLOOR_6F
+pokeyellow-jp:floor:FLOOR_7F,1,1,1,７かい,0,2,7楼,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:floor:FLOOR_7F
+pokeyellow-jp:floor:FLOOR_8F,1,1,1,８かい,0,2,8楼,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:floor:FLOOR_8F
+pokeyellow-jp:floor:FLOOR_9F,1,1,1,９かい,0,2,9楼,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:floor:FLOOR_9F
+pokeyellow-jp:floor:FLOOR_10F,1,1,1,１０かい,0,3,10楼,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:floor:FLOOR_10F
+pokeyellow-jp:floor:FLOOR_11F,1,1,1,１１かい,0,3,11楼,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:floor:FLOOR_11F
+pokeyellow-jp:floor:FLOOR_B4F,1,1,1,ちか４かい,0,4,地下4楼,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:floor:FLOOR_B4F
 pokeyellow-jp:trainer:YOUNGSTER,1,1,1,たんパンこぞう,0,4,短裤小子,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:trainer:YOUNGSTER
 pokeyellow-jp:trainer:BUG_CATCHER,1,1,1,むしとりのしょうねん,0,4,捕虫少年,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:trainer:BUG_CATCHER
 pokeyellow-jp:trainer:LASS,1,1,1,ミニスカート,0,3,迷你裙,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:trainer:LASS
@@ -30808,6 +30886,7 @@ pokeyellow-jp:item:HM02,1,1,1,ひでんマシン０２,0,4,HM02,aligned,aligned_
 pokeyellow-jp:item:HM03,1,1,1,ひでんマシン０３,0,4,HM03,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:item:HM03
 pokeyellow-jp:item:HM04,1,1,1,ひでんマシン０４,0,4,HM04,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:item:HM04
 pokeyellow-jp:item:HM05,1,1,1,ひでんマシン０５,0,4,HM05,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:item:HM05
+pokeyellow-jp:battle_ghost:EnemyAppearanceName,1,1,1,ゆうれい,0,2,幽灵,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:battle_ghost:EnemyAppearanceName
 pokeyellow-jp:fixed:TypeNames.Normal,1,1,1,ノーマル,0,2,一般,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:TypeNames.Normal
 pokeyellow-jp:fixed:TypeNames.Fighting,1,1,1,かくとう,0,2,格斗,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:TypeNames.Fighting
 pokeyellow-jp:fixed:TypeNames.Flying,1,1,1,ひこう,0,2,飞行,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:TypeNames.Flying
@@ -30877,6 +30956,19 @@ pokeyellow-jp:fixed:BattleMenu.ポケモン,1,1,1,ポケモン,0,3,宝可梦,ali
 pokeyellow-jp:fixed:BattleMenu.にげる,1,1,1,にげる,0,2,逃走,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:BattleMenu.にげる
 pokeyellow-jp:fixed:SafariMenu.Bait,1,1,1,エサをなげる,0,2,诱饵,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:SafariMenu.Bait
 pokeyellow-jp:fixed:SafariMenu.Rock,1,1,1,いしをなげる,0,2,石块,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:SafariMenu.Rock
+pokeyellow-jp:fixed:PCSelect.SomeonesPCText,1,1,1,だれかの　パソコン,0,5,某人的电脑,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCSelect.SomeonesPCText
+pokeyellow-jp:fixed:PCSelect.BillsPCText,1,1,1,マサキの　パソコン,0,5,正辉的电脑,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCSelect.BillsPCText
+pokeyellow-jp:fixed:PCSelect.PlayersPCText,1,1,1,の　パソコン,0,3,的电脑,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCSelect.PlayersPCText
+pokeyellow-jp:fixed:PCSelect.OaksPCText,1,1,1,オーキドの　パソコン,0,5,大木的电脑,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCSelect.OaksPCText
+pokeyellow-jp:fixed:PCSelect.PKMNLeaguePCText,1,1,1,ポケモン　リーグ,0,5,宝可梦联盟,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCSelect.PKMNLeaguePCText
+pokeyellow-jp:fixed:PCSelect.LogOffPCText,1,1,1,スイッチを　きる,0,2,关机,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCSelect.LogOffPCText
+pokeyellow-jp:fixed:VendingMenu.Cancel,1,1,1,いらない,0,2,取消,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:VendingMenu.Cancel
+pokeyellow-jp:fixed:PrizeMenu.Cancel,1,1,1,いらない,0,4,还是算了,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PrizeMenu.Cancel
+pokeyellow-jp:fixed:TrainerClass.Cooltrainer,1,1,1,エリートトレーナー,0,5,精英训练家,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:TrainerClass.Cooltrainer
+pokeyellow-jp:fixed:PCItemAction.Withdraw,1,1,1,どうぐを　ひきだす,0,4,取出道具,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCItemAction.Withdraw
+pokeyellow-jp:fixed:PCItemAction.Deposit,1,1,1,どうぐを　あずける,0,4,寄放道具,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCItemAction.Deposit
+pokeyellow-jp:fixed:PCItemAction.Toss,1,1,1,どうぐを　すてる,0,4,丢弃道具,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCItemAction.Toss
+pokeyellow-jp:fixed:PCItemAction.Exit,1,1,1,スイッチを　きる,0,2,关机,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCItemAction.Exit
 pokeyellow-jp:fixed:DefaultName.PLAYERNAME1,1,1,1,イエロー,0,2,小黄,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:DefaultName.PLAYERNAME1
 pokeyellow-jp:fixed:DefaultName.PLAYERNAME2,1,1,1,サトシ,0,2,小智,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:DefaultName.PLAYERNAME2
 pokeyellow-jp:fixed:DefaultName.PLAYERNAME3,1,1,1,ジャック,0,2,杰克,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:DefaultName.PLAYERNAME3
@@ -30920,6 +31012,8 @@ pokeyellow-jp:composed:SendOut.GetmText,1,1,1,がんばれ！　{{RAM1}}！,0,12
 pokeyellow-jp:composed:SendOut.EnemysWeakText,1,1,1,あいてが　よわっている！,0,6,对手变弱了！,aligned,model_semantic,model_reviewed_not_human,pokegreen:composed:SendOut.EnemysWeakText
 pokeyellow-jp:composed:SendOut.EnemysWeakText,2,2,2,チャンスだ！　{{RAM1}}！,6,21,"机会来了，
 {{RAM1}}！",aligned,model_semantic,model_reviewed_not_human,pokegreen:composed:SendOut.EnemysWeakText
+pokeyellow-jp:composed:EvolutionCompleted,1,1,1,おめでとう！　{{RAM1}}は,0,11,恭喜！{{RAM1}},aligned,model_semantic,model_reviewed_not_human,pokegreen:composed:EvolutionCompleted
+pokeyellow-jp:composed:EvolutionCompleted,2,2,2,{{RAM2}}に　しんかした,12,25,进化为{{RAM2}}了！,aligned,model_semantic,model_reviewed_not_human,pokegreen:composed:EvolutionCompleted
 pokeyellow-jp:composed:Retreat.direct,1,1,2,"{{RAM1}}　
 もどれ！",0,13,"{{RAM1}}，
 回来！",aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:composed:Retreat.direct
@@ -33007,25 +33101,3 @@ pokeyellow-jp:composed:TrainerEnd.ViridianGymCooltrainerM2EndBattleText,1,1,1,{{
 pokeyellow-jp:composed:TrainerEnd.ViridianGymHiker3EndBattleText,1,1,1,{{SPEAKER}}『ドッセーッ！,0,15,{{SPEAKER}}：啊呀！,aligned,source_control_flow_composition,model_reviewed_control_flow_not_human,pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymHiker3EndBattleText
 pokeyellow-jp:composed:TrainerEnd.ViridianGymRocker2EndBattleText,1,1,1,{{SPEAKER}}『⋯⋯　い　いてて！,0,19,{{SPEAKER}}：……好、好痛！,aligned,source_control_flow_composition,model_reviewed_control_flow_not_human,pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymRocker2EndBattleText
 pokeyellow-jp:composed:TrainerEnd.ViridianGymCooltrainerM3EndBattleText,1,1,1,{{SPEAKER}}『⋯⋯　さすがだ！,0,19,{{SPEAKER}}：……果然厉害！,aligned,source_control_flow_composition,model_reviewed_control_flow_not_human,pokeyellow-jp:scripts/ViridianGym.asm:ViridianGymCooltrainerM3EndBattleText
-pokegreen:fixed:PCItemAction.Withdraw,1,1,1,どうぐを　ひきだす,0,4,取出道具,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCItemAction.Withdraw
-pokegreen:fixed:PCItemAction.Deposit,1,1,1,どうぐを　あずける,0,4,寄放道具,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCItemAction.Deposit
-pokegreen:fixed:PCItemAction.Toss,1,1,1,どうぐを　すてる,0,4,丢弃道具,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCItemAction.Toss
-pokegreen:fixed:PCItemAction.Exit,1,1,1,スイッチを　きる,0,2,关机,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCItemAction.Exit
-pokeblue:fixed:PCItemAction.Withdraw,1,1,1,どうぐを　ひきだす,0,4,取出道具,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCItemAction.Withdraw
-pokeblue:fixed:PCItemAction.Deposit,1,1,1,どうぐを　あずける,0,4,寄放道具,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCItemAction.Deposit
-pokeblue:fixed:PCItemAction.Toss,1,1,1,どうぐを　すてる,0,4,丢弃道具,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCItemAction.Toss
-pokeblue:fixed:PCItemAction.Exit,1,1,1,スイッチを　きる,0,2,关机,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCItemAction.Exit
-pokeyellow-jp:fixed:PCItemAction.Withdraw,1,1,1,どうぐを　ひきだす,0,4,取出道具,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCItemAction.Withdraw
-pokeyellow-jp:fixed:PCItemAction.Deposit,1,1,1,どうぐを　あずける,0,4,寄放道具,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCItemAction.Deposit
-pokeyellow-jp:fixed:PCItemAction.Toss,1,1,1,どうぐを　すてる,0,4,丢弃道具,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCItemAction.Toss
-pokeyellow-jp:fixed:PCItemAction.Exit,1,1,1,スイッチを　きる,0,2,关机,aligned,aligned_whole_unit,source_alignment_only,pokeyellow-jp:fixed:PCItemAction.Exit
-pokegreen:fixed:PCAction.Withdraw,1,1,1,ポケモンを　つれていく,0,5,取出宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Withdraw
-pokegreen:fixed:PCAction.Deposit,1,1,1,ポケモンを　あずける,0,5,寄放宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Deposit
-pokegreen:fixed:PCAction.Release,1,1,1,ポケモンを　にがす,0,5,放生宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Release
-pokegreen:fixed:PCAction.ChangeBox,1,1,1,ボックスを　かえる,0,4,更换盒子,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.ChangeBox
-pokegreen:fixed:PCAction.Exit,1,1,1,さようなら,0,2,再见,aligned,aligned_whole_unit,source_alignment_only,pokegreen:fixed:PCAction.Exit
-pokeblue:fixed:PCAction.Withdraw,1,1,1,ポケモンを　つれていく,0,5,取出宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.Withdraw
-pokeblue:fixed:PCAction.Deposit,1,1,1,ポケモンを　あずける,0,5,寄放宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.Deposit
-pokeblue:fixed:PCAction.Release,1,1,1,ポケモンを　にがす,0,5,放生宝可梦,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.Release
-pokeblue:fixed:PCAction.ChangeBox,1,1,1,ボックスを　かえる,0,4,更换盒子,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.ChangeBox
-pokeblue:fixed:PCAction.Exit,1,1,1,さようなら,0,2,再见,aligned,aligned_whole_unit,source_alignment_only,pokeblue:fixed:PCAction.Exit

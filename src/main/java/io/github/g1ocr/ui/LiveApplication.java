@@ -50,14 +50,15 @@ import java.util.concurrent.atomic.AtomicReference;
 
 /** Local translation with the original visual OCR available in a separate tab. */
 public final class LiveApplication extends Application {
-    private static final String AUTOMATIC_PLAYER_NAME = "自动识别（未指定）";
+    private static final String AUTOMATIC_NAME = "自动识别（未指定）";
     private static final DateTimeFormatter HISTORY_TIME = DateTimeFormatter.ofPattern("MM-dd HH:mm:ss");
     private final AtomicReference<LiveSession.View> latest = new AtomicReference<>();
     private final ComboBox<WindowCapture.Window> windows = new ComboBox<>();
     private final ComboBox<String> playerNames = new ComboBox<>();
+    private final ComboBox<String> rivalNames = new ComboBox<>();
     private final Path playerNamesFile = Path.of("config", "player-names.json");
     private final JsonMapper settingsJson = JsonMapper.builder().build();
-    private boolean updatingPlayerNames;
+    private boolean updatingNames;
     private final Label status = new Label("请选择 new3ds_view 窗口");
     private final Label bugReportStatus = new Label("F1：保存问题现场");
     private boolean savingBugReport;
@@ -129,27 +130,8 @@ public final class LiveApplication extends Application {
         stop.setOnAction(event -> { clear("已停止"); session.stop(); });
         calibrate.setOnAction(event -> { clear("等待重新校准"); session.recalibrate(); });
 
-        playerNames.getItems().add(AUTOMATIC_PLAYER_NAME);
-        playerNames.setValue(AUTOMATIC_PLAYER_NAME);
-        playerNames.setCellFactory(list -> playerNameCell());
-        playerNames.setButtonCell(playerNameCell());
-        playerNames.setPrefWidth(320);
-        Label playerNameLabel = new Label("当前玩家");
-        playerNameLabel.setLabelFor(playerNames);
-        Button addPlayer = new Button("添加");
-        Button editPlayer = new Button("修改");
-        Button deletePlayer = new Button("删除");
-        addPlayer.setOnAction(event -> editPlayerName(true));
-        editPlayer.setOnAction(event -> editPlayerName(false));
-        editPlayer.disableProperty().bind(playerNames.valueProperty().isEqualTo(AUTOMATIC_PLAYER_NAME));
-        deletePlayer.disableProperty().bind(playerNames.valueProperty().isEqualTo(AUTOMATIC_PLAYER_NAME));
-        deletePlayer.setOnAction(event -> {
-            updatingPlayerNames = true;
-            playerNames.getItems().remove(playerNames.getValue());
-            playerNames.setValue(AUTOMATIC_PLAYER_NAME);
-            updatingPlayerNames = false;
-            updatePlayerName();
-        });
+        playerNames.getItems().add(AUTOMATIC_NAME);
+        rivalNames.setItems(playerNames.getItems());
 
         fontSize.setPrefWidth(85);
         Label fontSizeLabel = new Label("译文字号");
@@ -164,7 +146,7 @@ public final class LiveApplication extends Application {
         Button historyButton = new Button("识别历史");
         historyButton.setOnAction(event -> showHistory());
         VBox toolbar = new VBox(10, new HBox(8, windows, reload, start, stop, calibrate),
-                new HBox(8, playerNameLabel, playerNames, addPlayer, editPlayer, deletePlayer),
+                nameControls(playerNames, "玩家"), nameControls(rivalNames, "劲敌"),
                 new HBox(8, fontSizeLabel, fontSize, compactMode, split, historyButton),
                 new Label("采集配置：new3ds_view · 仅上屏 · VC 原生 1:1 · 投屏点对点整数倍率"), status, bugReportStatus);
         toolbar.setPadding(new Insets(16));
@@ -313,7 +295,8 @@ public final class LiveApplication extends Application {
         stage.setMinWidth(860);
         stage.setMinHeight(560);
         stage.show();
-        session = new LiveSession(latest::set, corpus);
+        session = new LiveSession(latest::set, corpus,
+                error -> Platform.runLater(() -> bugReportStatus.setText(error)));
         boolean initializePresets = !Files.exists(playerNamesFile);
         if (!initializePresets) {
             try {
@@ -321,20 +304,23 @@ public final class LiveApplication extends Application {
                 saved.path("names").forEach(name -> playerNames.getItems().add(name.asText()));
                 String selected = saved.path("selected").asText();
                 if (playerNames.getItems().contains(selected)) playerNames.setValue(selected);
+                String selectedRival = saved.path("selectedRival").asText();
+                if (rivalNames.getItems().contains(selectedRival)) rivalNames.setValue(selectedRival);
                 initializePresets = !saved.path("presetsInitialized").asBoolean();
             } catch (IOException error) {
-                showPlayerNameError("无法读取已保存的玩家名：" + error.getMessage());
+                showNameError("无法读取已保存的姓名：" + error.getMessage());
             }
         }
         if (initializePresets) {
             playerNames.getItems().addAll(corpus.presetNames().stream()
                     .filter(name -> !playerNames.getItems().contains(name)).toList());
-            savePlayerNames();
+            saveNames();
         }
-        session.selectPlayerName(playerNames.getValue().equals(AUTOMATIC_PLAYER_NAME) ? null : playerNames.getValue());
-        playerNames.valueProperty().addListener((observable, previous, selected) -> {
-            if (!updatingPlayerNames) updatePlayerName();
-        });
+        session.selectNames(selectedName(playerNames), selectedName(rivalNames));
+        for (var names : java.util.List.of(playerNames, rivalNames))
+            names.valueProperty().addListener((observable, previous, selected) -> {
+                if (!updatingNames) updateNames();
+            });
         // One atomic slot: a stalled FX thread never queues a backlog of old OCR views.
         refresh = new AnimationTimer() {
             @Override public void handle(long now) {
@@ -352,7 +338,7 @@ public final class LiveApplication extends Application {
                         if (current != selected) showHistoryEntry(current);
                     }
                     if (view.selectionId() == session.selectionId()
-                            && view.playerNameRevision() == session.playerNameRevision()) render(view);
+                            && view.nameRevision() == session.nameRevision()) render(view);
                 }
             }
         };
@@ -372,7 +358,8 @@ public final class LiveApplication extends Application {
         var ui = new java.util.LinkedHashMap<String, Object>();
         ui.put("compactMode", compactView); ui.put("splitView", splitView);
         ui.put("fontSize", fontSize.getValue()); ui.put("selectedPlayerName", playerNames.getValue());
-        ui.put("selectionId", session.selectionId()); ui.put("playerNameRevision", session.playerNameRevision());
+        ui.put("selectedRivalName", rivalNames.getValue());
+        ui.put("selectionId", session.selectionId()); ui.put("playerNameRevision", session.nameRevision());
         ui.put("status", status.getText()); ui.put("japanese", text.getText());
         ui.put("dialogue", dialogueText.getText()); ui.put("list", chinese.getText());
         ui.put("diagnostics", diagnostics.getText());
@@ -426,12 +413,30 @@ public final class LiveApplication extends Application {
         historyStatus.setText(states.toString());
     }
 
-    private ListCell<String> playerNameCell() {
+    private HBox nameControls(ComboBox<String> selection, String role) {
+        selection.setValue(AUTOMATIC_NAME);
+        selection.setCellFactory(list -> nameCell());
+        selection.setButtonCell(nameCell());
+        selection.setPrefWidth(320);
+        Label label = new Label("当前" + role);
+        label.setLabelFor(selection);
+        Button add = new Button("添加");
+        Button edit = new Button("修改");
+        Button delete = new Button("删除");
+        add.setOnAction(event -> editName(selection, role, true));
+        edit.setOnAction(event -> editName(selection, role, false));
+        edit.disableProperty().bind(selection.valueProperty().isEqualTo(AUTOMATIC_NAME));
+        delete.disableProperty().bind(selection.valueProperty().isEqualTo(AUTOMATIC_NAME));
+        delete.setOnAction(event -> changeName(selection, selection.getValue(), null));
+        return new HBox(8, label, selection, add, edit, delete);
+    }
+
+    private ListCell<String> nameCell() {
         return new ListCell<>() {
             @Override protected void updateItem(String name, boolean empty) {
                 super.updateItem(name, empty);
                 if (empty || name == null) { setText(null); return; }
-                if (name.equals(AUTOMATIC_PLAYER_NAME)) { setText(name); return; }
+                if (name.equals(AUTOMATIC_NAME)) { setText(name); return; }
                 var chinese = corpus.nameTranslations(name);
                 String translation = chinese.isEmpty() ? "暂无译名"
                         : (chinese.size() > 1 ? "多译：" : "") + String.join("／", chinese);
@@ -440,54 +445,66 @@ public final class LiveApplication extends Application {
         };
     }
 
-    private void editPlayerName(boolean adding) {
-        String previous = playerNames.getValue();
+    private void editName(ComboBox<String> selection, String role, boolean adding) {
+        String previous = selection.getValue();
         TextInputDialog dialog = new TextInputDialog(adding ? "" : previous);
         dialog.initOwner(mainStage);
-        dialog.setTitle(adding ? "添加玩家名" : "修改玩家名");
-        dialog.setHeaderText("填写游戏中的日文玩家名；中文沿用现有词库，无对应时保留原名。");
-        dialog.setContentText("日文玩家名：");
+        dialog.setTitle((adding ? "添加" : "修改") + role + "名");
+        dialog.setHeaderText("填写游戏中的日文" + role + "名。中文沿用现有词库。");
+        dialog.setContentText("日文" + role + "名");
         var entered = dialog.showAndWait();
         if (entered.isEmpty()) return;
         String name = entered.get().strip();
-        if (name.isEmpty()) { showPlayerNameError("玩家名不能为空。"); return; }
+        if (name.isEmpty()) { showNameError("姓名不能为空。"); return; }
         if (playerNames.getItems().contains(name) && (adding || !name.equals(previous))) {
-            showPlayerNameError("该玩家名已存在，请从下拉框选择。");
+            showNameError("该姓名已存在，请从下拉框选择。");
             return;
         }
-        updatingPlayerNames = true;
-        if (adding) playerNames.getItems().add(name);
+        changeName(selection, adding ? null : previous, name);
+    }
+
+    private void changeName(ComboBox<String> selection, String previous, String name) {
+        var other = selection == playerNames ? rivalNames : playerNames;
+        String otherName = other.getValue();
+        updatingNames = true;
+        if (previous == null) playerNames.getItems().add(name);
+        else if (name == null) playerNames.getItems().remove(previous);
         else playerNames.getItems().set(playerNames.getItems().indexOf(previous), name);
-        playerNames.setValue(name);
-        updatingPlayerNames = false;
-        updatePlayerName();
+        String updated = name == null ? AUTOMATIC_NAME : name;
+        selection.setValue(updated);
+        other.setValue(previous != null && previous.equals(otherName) ? updated : otherName);
+        updatingNames = false;
+        updateNames();
     }
 
-    private void updatePlayerName() {
-        String selected = playerNames.getValue().equals(AUTOMATIC_PLAYER_NAME) ? null : playerNames.getValue();
+    private static String selectedName(ComboBox<String> names) {
+        return AUTOMATIC_NAME.equals(names.getValue()) ? null : names.getValue();
+    }
+
+    private void updateNames() {
         latest.set(null);
-        clear("玩家名已更新，等待识别刷新");
-        session.selectPlayerName(selected);
-        savePlayerNames();
+        clear("姓名设置已更新，等待识别刷新");
+        session.selectNames(selectedName(playerNames), selectedName(rivalNames));
+        saveNames();
     }
 
-    private void savePlayerNames() {
-        String selected = playerNames.getValue();
+    private void saveNames() {
         try {
             Files.createDirectories(playerNamesFile.getParent());
             settingsJson.writerWithDefaultPrettyPrinter().writeValue(playerNamesFile.toFile(),
                     Map.of("names", playerNames.getItems().stream().skip(1).toList(),
-                            "selected", selected.equals(AUTOMATIC_PLAYER_NAME) ? "" : selected,
+                            "selected", java.util.Objects.requireNonNullElse(selectedName(playerNames), ""),
+                            "selectedRival", java.util.Objects.requireNonNullElse(selectedName(rivalNames), ""),
                             "presetsInitialized", true));
         } catch (IOException error) {
-            showPlayerNameError("无法保存玩家名，本次更改仅在当前运行生效：" + error.getMessage());
+            showNameError("无法保存姓名设置，本次更改仅在当前运行生效：" + error.getMessage());
         }
     }
 
-    private void showPlayerNameError(String message) {
+    private void showNameError(String message) {
         Alert alert = new Alert(Alert.AlertType.ERROR);
         alert.initOwner(mainStage);
-        alert.setTitle("玩家名设置");
+        alert.setTitle("姓名设置");
         alert.setHeaderText(null);
         alert.setContentText(message);
         alert.showAndWait();
@@ -586,7 +603,9 @@ public final class LiveApplication extends Application {
             boolean battleAction = result.layout().equals("battle_action");
             boolean itemList = result.layout().equals("shared_list") || result.layout().equals("shop_items")
                     || result.layout().equals("battle_moves") || result.layout().equals("pc_action")
-                    || result.layout().equals("pc_item_action") || battleAction;
+                    || result.layout().equals("pc_item_action") || result.layout().equals("pc_select")
+                    || result.layout().equals("game_corner_prizes") || result.layout().equals("vending_items")
+                    || result.layout().equals("safari_action") || battleAction;
             Integer selectedUnit = battleAction ? region.selectedItem() : null;
             if (itemList && !battleAction) {
                 int itemIndex = 0;
@@ -626,7 +645,7 @@ public final class LiveApplication extends Application {
                         .append(" #").append(candidate.ordinal()).append("\n").append(candidate.source())
                         .append("\n变量=").append(candidate.variables()).append(" 修订=").append(candidate.revision());
                     if (!candidate.reusedPlayerName().isEmpty())
-                        details.append(playerNames.getValue().equals(AUTOMATIC_PLAYER_NAME)
+                        details.append(AUTOMATIC_NAME.equals(playerNames.getValue())
                                 ? "\n沿用前文玩家名=" : "\n使用所选玩家名=").append(candidate.reusedPlayerName());
                 }
             }
@@ -649,11 +668,19 @@ public final class LiveApplication extends Application {
         return switch (layout) {
             case "dialogue" -> "主对话";
             case "battle_action" -> "战斗操作";
+            case "safari_action" -> "狩猎区操作";
             case "pc_action" -> "PC 宝可梦操作";
             case "pc_item_action" -> "PC 道具操作";
+            case "pc_select" -> "PC 入口";
             case "battle_moves" -> "战斗技能";
             case "shop_items" -> "商店商品";
-            default -> semanticType.equals("pc_pokemon") ? "PC 宝可梦" : "道具列表（用途未确定）";
+            case "game_corner_prizes" -> "游戏厅兑奖";
+            case "vending_items" -> "贩卖机饮料";
+            default -> switch (semanticType) {
+                case "pc_pokemon" -> "PC 宝可梦";
+                case "elevator_floors" -> "电梯楼层";
+                default -> "道具列表（用途未确定）";
+            };
         };
     }
 
@@ -661,6 +688,7 @@ public final class LiveApplication extends Application {
         return switch (displayStatus) {
             case "ready" -> "";
             case "ready_waiting" -> "后续内容等待完整显示";
+            case "passthrough" -> "保留原文";
             case "ambiguous" -> "候选译文或显示条件存在差异，保留日文";
             case "context_required" -> "缺少连续前文，保留日文";
             case "variables_missing" -> "译文所需变量不足（玩家名可使用所选或已确认值），保留日文";

@@ -6,6 +6,7 @@ import io.github.g1ocr.ocr.PixelOcr;
 import io.github.g1ocr.region.RegionDetector.Rect;
 import io.github.g1ocr.text.TextCorpus;
 import io.github.g1ocr.text.TextResolver;
+import java.awt.image.BufferedImage;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.security.MessageDigest;
@@ -25,6 +26,70 @@ class TranslationTest {
     private static TextCorpus corpus;
     @BeforeAll static void load() throws Exception { corpus = new TextCorpus(); }
 
+    @Test void november21MenusKeepVisibleRowsAndIndependentDialogue() throws Exception {
+        record Scene(String file, String layout, int cursor, List<String> japanese,
+                     List<String> chinese, List<String> dialogue) {}
+        var scenes = List.of(
+                new Scene("prize-menu", "game_corner_prizes", 0,
+                        List.of("ケーシィ 180", "ピッピ 500", "ニドりーナ 1200", "いらない"),
+                        List.of("凯西 180", "皮皮 500", "尼多娜 1200", "还是算了"), List.of("なにと こうかんする？")),
+                new Scene("pc-select", "pc_select", 0,
+                        List.of("マサキの パソコン", "レッドの パソコン", "オーキドの パソコン", "スイッチを きる"),
+                        List.of("正辉的电脑", "赤红的电脑", "大木的电脑", "关机"), List.of()),
+                new Scene("pc-select-obscured", "pc_select", 0,
+                        List.of("マサキの パソコン", "レッドの パソコン", "オーキドの パソコン", "スイッチを きる"),
+                        List.of("正辉的电脑", "赤红的电脑", "大木的电脑", "关机"), List.of()),
+                new Scene("load-game", "", -1, List.of(), List.of(), List.of()),
+                new Scene("safari-action", "safari_action", 0,
+                        List.of("サファりボール×30", "エサをなげる", "いしをなげる", "にげる"),
+                        List.of("狩猎球×30", "诱饵", "石块", "逃走"), List.of()),
+                new Scene("vending-menu", "vending_items", 1,
+                        List.of("おいしいみず 200円", "サイコソーダ 300円", "ミックスオレ 350円", "いらない"),
+                        List.of("美味之水 200円", "劲爽汽水 300円", "果汁牛奶 350円", "取消"),
+                        List.of("じどう はんばいき だ！", "ほしい のみものは…… ……")),
+                new Scene("elevator", "shared_list", 0, List.of("1かい", "2かい", "3かい", "4かい"),
+                        List.of("1楼", "2楼", "3楼", "4楼"), List.of("なんかいへ いきますか？")));
+        var pipeline = new OcrPipeline();
+        for (var scene : scenes) {
+            var image = ImageIO.read(getClass().getResource("/" + scene.file() + "-20261121.png"));
+            var upper = new BufferedImage(400, 240, BufferedImage.TYPE_INT_RGB);
+            var graphics = upper.createGraphics();
+            graphics.drawImage(image, 120, 48, null);
+            graphics.dispose();
+            var frame = GbFrame.normalize(upper, new GbFrame.Mapping(0, 0, 1));
+            if (scene.layout().isEmpty()) {
+                assertTrue(pipeline.regions(frame).isEmpty(), scene.file());
+                continue;
+            }
+            var results = pipeline.recognize(frame);
+            assertEquals(scene.dialogue().isEmpty() ? List.of(scene.layout()) : List.of(scene.layout(), "dialogue"),
+                    results.stream().map(PixelOcr.Result::layout).toList(), scene.file());
+            assertEquals(scene.japanese(), results.getFirst().rawOcr(), scene.file());
+            assertEquals(scene.cursor(), results.getFirst().selectedItem(), scene.file());
+            if (scene.file().equals("elevator")) assertEquals("elevator_floors", results.getFirst().semanticType());
+            assertEquals(scene.chinese(), new TextResolver(corpus).resolve(results.getFirst()).stream()
+                    .map(TextResolver.Unit::chinese).toList(), scene.file());
+            if (!scene.dialogue().isEmpty()) assertEquals(scene.dialogue(), results.getLast().rawOcr(), scene.file());
+        }
+    }
+
+    @Test void november21DialogueUsesFixedRewardPauseWindowsAndTrainerNames() {
+        var resolver = new TextResolver(corpus);
+        resolver.selectPlayerName("レッド");
+        var reward = resolver.dialogue("reward", "レッドは おんなのこから\nわざマシン49を もらった！", true);
+        assertEquals("赤红从女孩那里\n得到了TM49！", reward.chinese());
+        assertTrue(reward.candidates().stream().allMatch(c -> c.recordId().endsWith("ReceivedTM49Text")));
+        assertEquals("赤红从女孩那里\n得到了TM48！",
+                resolver.dialogue("otherReward", "レッドは おんなのこから\nわざマシン48を もらった！", true).chinese());
+        assertEquals("incomplete", resolver.dialogue("guard", "おいしそうな のみもの……").displayStatus());
+        assertEquals("啊，那个饮料\n看上去很好喝啊……", resolver.dialogue("guard", "おいしそうな のみもの……", true).chinese());
+        assertEquals("咕噜咕噜……", resolver.dialogue("guard", "ゴクゴク……", true).chinese());
+        assertEquals("精英训练家\n前来挑战了！",
+                resolver.dialogue("trainer", "エりートトレーナーが\nしょうぶを しかけてきた！", true).chinese());
+        assertEquals("精英♀：你可真厉害啊！",
+                resolver.dialogue("trainer", "エりート♀『やる じゃない！", true).chinese());
+    }
+
     @Test void vendingDeliveryAndBothGameCornerPrizeTypesUseTheDictionary() {
         var resolver = new TextResolver(corpus);
         assertEquals("劲爽汽水\n已滑落至取物口！",
@@ -35,6 +100,17 @@ class TranslationTest {
                 resolver.dialogue("dialogue", "わざマシン50で\nいいんだね？").chinese());
         assertTrue(resolver.dialogue("dialogue", "キズぐすりで\nいいんだね？").candidates().stream()
                 .noneMatch(c -> c.recordId().endsWith(":SoYouWantPrizeText")));
+    }
+
+    @Test void towerGhostAppearanceUsesTheFixedBattleName() {
+        var result = new TextResolver(corpus).dialogue("dialogue", "ゆうれいが\nあらわれた！", true);
+        assertEquals("ゆうれいが\nあらわれた！", result.rawJapanese());
+        assertEquals("幽灵\n扑过来了！", result.chinese());
+        assertTrue(result.candidates().stream().allMatch(candidate ->
+                candidate.recordId().endsWith(":EnemyAppearedText")
+                        && "ゆうれい".equals(candidate.variables().get("RAM1"))));
+        assertTrue(corpus.pokemonNameWords("ゆうれい").isEmpty());
+        assertTrue(corpus.nameTranslations("ゆうれい").isEmpty());
     }
 
     @Test void novemberReportsTranslateTypedSlotsAndSharedParcelBody() {
@@ -50,6 +126,45 @@ class TranslationTest {
         var parcel = resolver.dialogue("dialogue", "とくせいの モンスターボールじゃ\nどうも ありがとよ！");
         assertEquals("哦哦！这不是\n我预订的特殊精灵球嘛。\n真是谢谢你了！", parcel.chinese());
         assertEquals(3, parcel.candidates().size());
+    }
+
+    @Test void oaksAideScrollUsesVisibleVariablesAndKeepsBothEquivalentBranches() {
+        var resolver = new TextResolver(corpus);
+        resolver.selectNames("レッド", "グリーン");
+        var frames = List.of(
+                Map.entry("ポケモンずかんが 30しゅるい\nあつまってる ようなら",
+                        "大木博士吩咐我，等你\n收集到30种宝可梦时，"),
+                Map.entry("あつまってる ようなら\nダウジングマシンを わたす よう", "就把探宝器交给你！"),
+                Map.entry("ダウジングマシンを わたす よう\nはかせに いわれ ました", "就把探宝器交给你！"),
+                Map.entry("…… それでは さっそく\nレッドくん！", "……那么，赤红！"),
+                Map.entry("レッドくん！\nつかまえた ポケモンは", "……那么，赤红！\n你捉到的宝可梦"),
+                Map.entry("つかまえた ポケモンは\n30しゅるい より おおい かな？",
+                        "……那么，赤红！\n你捉到的宝可梦\n有30种以上吗？"),
+                Map.entry("…… …… そう ですか", "……这样啊。"),
+                Map.entry("30しゅるいに たりない なら\nダウジングマシンは",
+                        "如果还没到30种，\n我只能以后再把\n探宝器交给你了。"));
+        for (var frame : frames) {
+            var translation = resolver.dialogue("dialogue", frame.getKey(), true);
+            assertEquals(frame.getKey(), translation.rawJapanese());
+            assertEquals(frame.getValue(), translation.chinese(), frame.getKey());
+        }
+
+        var refusal = new TextResolver(corpus);
+        assertEquals("……我看看！\n你捕捉到的宝可梦……", refusal.dialogue("dialogue",
+                "…… …… えーと！\nつかまえた ポケモンは……", true).chinese());
+        assertEquals("你捕捉到的宝可梦……\n啊呀呀？", refusal.dialogue("dialogue",
+                "つかまえた ポケモンは……\nあれれー？", true).chinese());
+
+        var isolated = new TextResolver(corpus).dialogue("dialogue",
+                "50しゅるいに たりない なら\nがくしゅうそうちは", true);
+        assertEquals("equivalent", isolated.matchStatus());
+        assertEquals("ready", isolated.displayStatus());
+        assertEquals("如果还没到50种，\n我只能以后再把\n学习装置交给你了。", isolated.chinese());
+        assertEquals(6, isolated.candidates().size());
+        assertEquals(3, isolated.candidates().stream().filter(c -> c.recordId().endsWith(":OaksAideUhOhText")
+                && c.variables().equals(Map.of("NUMBER2", "50", "RAM1", "がくしゅうそうち"))).count());
+        assertEquals(3, isolated.candidates().stream().filter(c -> c.recordId().endsWith(":OaksAideComeBackText")
+                && c.variables().equals(Map.of("NUMBER1", "50", "RAM1", "がくしゅうそうち"))).count());
     }
 
     @Test void independentScenarios() throws Exception {
@@ -70,6 +185,8 @@ class TranslationTest {
                         && actual.chinese().equals(event.path("chinese").asText())
                         && (!event.has("source") || actual.candidates().stream()
                         .allMatch(c -> c.recordId().endsWith(event.path("source").asText())))
+                        && (!event.has("includesSource") || actual.candidates().stream()
+                        .anyMatch(c -> c.recordId().endsWith(event.path("includesSource").asText())))
                         && (!event.has("candidateCount") || actual.candidates().size() == event.path("candidateCount").asInt())
                         && (!event.has("reusedPlayerName") || actual.candidates().stream()
                         .allMatch(c -> c.reusedPlayerName().equals(event.path("reusedPlayerName").asText())));
@@ -114,15 +231,51 @@ class TranslationTest {
         assertEquals("variables_missing", resolver.dialogue("dialogue", raw).displayStatus());
     }
 
-    @Test void visiblePlayerNameHasPriorityWithoutReplacingTheSelectedName() {
+    @Test void selectedPlayerNameConstrainsVisibleBindingsAndCanStillFillAnOffscreenName() {
         var resolver = new TextResolver(corpus);
+        String bicycle = "レッドは ひきかえけんで\nじてんしゃを もらった！";
         resolver.selectPlayerName("サトシ");
-        var visible = resolver.dialogue("dialogue", "レッドは ひきかえけんで\nじてんしゃを もらった！");
+        var mismatched = resolver.dialogue("dialogue", bicycle);
+        assertEquals(bicycle, mismatched.rawJapanese());
+        assertTrue(mismatched.candidates().stream().noneMatch(c -> c.variables().containsKey("PLAYER")));
+        assertEquals("小智战胜了\n科拿！", resolver.dialogue("dialogue", "カンナとの\nしょうぶに かった！").chinese());
+        resolver.selectPlayerName("レッド");
+        var visible = resolver.dialogue("dialogue", bicycle);
         assertEquals("赤红用兑换券\n得到了自行车！", visible.chinese());
         assertTrue(visible.candidates().stream().allMatch(c -> c.reusedPlayerName().isEmpty()));
-        assertEquals("小智战胜了\n科拿！", resolver.dialogue("dialogue", "カンナとの\nしょうぶに かった！").chinese());
         resolver.selectPlayerName(null);
         assertEquals("variables_missing", resolver.dialogue("dialogue", "カンナとの\nしょうぶに かった！").displayStatus());
+    }
+
+    @Test void bothConfiguredNamesSeparateSourcesAndKeepTheVisibleOcrSpelling() {
+        var resolver = new TextResolver(corpus);
+        resolver.selectNames("ブルー", "グリーン");
+        assertEquals("站住！", resolver.dialogue("dialogue", "まちなー！", true).chinese());
+        var rival = resolver.dialogue("dialogue", "ここは グりーン のいえ");
+        assertEquals("这里是\n青绿的家。", rival.chinese());
+        assertTrue(rival.candidates().stream().anyMatch(c -> "グりーン".equals(c.variables().get("RIVAL"))));
+        assertTrue(rival.candidates().stream().noneMatch(c -> c.variables().containsKey("PLAYER")));
+        resolver.reset();
+        var player = resolver.dialogue("dialogue", "ここは ブルー のいえ");
+        assertTrue(player.candidates().stream().anyMatch(c -> "ブルー".equals(c.variables().get("PLAYER"))));
+        assertTrue(player.candidates().stream().noneMatch(c -> c.variables().containsKey("RIVAL")));
+        resolver.selectNames("ブルー", null);
+        assertTrue(resolver.dialogue("dialogue", "ここは ブルー のいえ").candidates().stream()
+                .anyMatch(c -> "ブルー".equals(c.variables().get("RIVAL"))));
+    }
+
+    @Test void scriptedPokeBallActorsDoNotBecomeThePlayer() {
+        for (String actor : List.of("おじいさん", "オーキド")) {
+            String raw = actor + "は\nモンスターボールを つかった！";
+            for (String player : java.util.Arrays.asList(null, "ブルー")) {
+                var resolver = new TextResolver(corpus);
+                resolver.selectNames(player, "グリーン");
+                var caught = resolver.dialogue("dialogue", raw, true);
+                assertEquals(raw, caught.rawJapanese());
+                assertTrue(caught.chinese().endsWith("使用了精灵球！"));
+                assertNull(resolver.diagnostics().get("confirmedPlayerName"));
+            }
+        }
     }
 
     @Test void incompleteTextAndOpponentNamesDoNotEstablishPlayerIdentity() {

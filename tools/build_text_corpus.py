@@ -259,7 +259,7 @@ def constants(repo, filename):
     values, value = {}, 0
     for line in (SOURCES/repo/filename).read_text(encoding='utf-8').splitlines():
         line = line.split(';')[0].strip()
-        if filename.endswith('item_constants.asm') and line.startswith('DEF NUM_ITEMS '):
+        if filename.endswith('item_constants.asm') and line.startswith('DEF NUM_FLOORS '):
             break
         match = re.fullmatch(r'const_def(?:\s+(\$[0-9a-fA-F]+|\d+))?', line)
         if match:
@@ -312,8 +312,9 @@ def add_words(jp, zh, games, replacements, all_records, all_fragments):
             ja, ja_line = jt[number-1]
             chinese_source = p['chinese']
             chinese = literal(chinese_source).replace('@', '')
-            rid = f'{jp}:{kind}:{symbol}'
-            all_records.append(dict(id=rid, games=games, kind=kind, japanese_repo=jp,
+            word_kind = 'floor' if kind == 'item' and symbol.startswith('FLOOR_') else kind
+            rid = f'{jp}:{word_kind}:{symbol}'
+            all_records.append(dict(id=rid, games=games, kind=word_kind, japanese_repo=jp,
                 japanese_file=filename,japanese_label=symbol,japanese_line=ja_line,
                 japanese=ja,japanese_commands=packed([['name',jt[number-1][0],ja_line]]),
                 japanese_events='[]',japanese_termination='name',chinese_repo=zh,
@@ -374,6 +375,24 @@ def add_fixed_words(jp, zh, games, replacements, all_records, all_fragments):
         all_fragments.append(dict(record_id=rid,ordinal=1,japanese=row['japanese'],previous_ordinal='',
             chinese=z,chinese_start=0,chinese_end=len(z),status='whole_visible_unit',source='fixed_layout_or_variable_dictionary'))
 
+    # The encounter loads this fixed title into wEnemyMonNick. Its next line
+    # names the same actor in the existing Chinese text.
+    filename='engine/battle/init_battle.asm' if jp=='pokeyellow-jp' else 'engine/battle/core.asm'
+    ln,ja=next((i,m[1]) for i,line in enumerate((SOURCES/jp/filename).read_text(encoding='utf-8').splitlines(),1)
+               if (m:=re.fullmatch(r'\s*ld_hli_a_string "(ゆうれい@)"',line)))
+    ghost=next(r for r in all_records if r['id']==f'{jp}:engine/battle/common_text.asm:GhostCantBeIDdText')
+    chinese='幽灵'
+    start=ghost['chinese'].index(chinese)
+    rid=f'{jp}:battle_ghost:EnemyAppearanceName'
+    all_records.append(dict(template,id=rid,kind='battle_ghost',japanese_file=filename,
+        japanese_label='EnemyAppearanceName',japanese_line=ln,japanese=ja.rstrip('@'),
+        japanese_commands=packed([['ld_hli_a_string',ja,ln]]),chinese_source=ghost['chinese_source'],
+        chinese_label=ghost['chinese_label'],chinese=chinese,chinese_cells=ghost['chinese_cells'],
+        method='fixed_battle_name_source_slice',
+        evidence=packed(dict(buffer='wEnemyMonNick',source_record=ghost['id'],chinese_range=[start,start+len(chinese)]))))
+    all_fragments.append(dict(record_id=rid,ordinal=1,japanese=ja.rstrip('@'),previous_ordinal='',
+        chinese=chinese,chinese_start=0,chinese_end=len(chinese),status='whole_visible_unit',source='fixed_battle_name'))
+
     for filename in ['data/types/names.asm','data/trainers/name_pointers.asm','home/list_menu.asm',
                      'engine/battle/core.asm','engine/menus/draw_start_menu.asm']:
         jstrings,zstrings=scalar_strings(jp,filename),scalar_strings(zh+'/src',filename)
@@ -421,6 +440,40 @@ def add_fixed_words(jp, zh, games, replacements, all_records, all_fragments):
     rock=next(p for p in replacements if p['file']==filename and p['original']=='"THROW ROCK  RUN@"')
     append('SafariMenu.Bait','エサをなげる',bait,filename,0,'诱饵')
     append('SafariMenu.Rock','いしをなげる',rock,filename,0,'石块')
+
+    filename='engine/pokemon/bills_pc.asm'
+    jstrings,zstrings=scalar_strings(jp,filename),scalar_strings(zh+'/src',filename)
+    for label in ['SomeonesPCText','BillsPCText','PlayersPCText','OaksPCText','PKMNLeaguePCText','LogOffPCText']:
+        ja,ln=jstrings[label]
+        for a,b in JP_FIXED.items():ja=ja.replace(a,b)
+        en=zstrings[label][0]
+        p=next(p for p in replacements if p['file']==filename and p['original']=='"'+en+'"')
+        append('PCSelect.'+label,ja,p,filename,ln)
+
+    filename='engine/events/vending_machine.asm'
+    jlines=(SOURCES/jp/filename).read_text(encoding='utf-8').splitlines()
+    ln=jlines.index('DrinkText:')+5
+    ja=re.search(r'"([^"]+)"',jlines[ln-1])[1]
+    p=next(p for p in replacements if p['file']==filename and p['original']=='"CANCEL@"')
+    append('VendingMenu.Cancel',ja,p,filename,ln)
+
+    filename='engine/events/prize_menu.asm' if jp=='pokeyellow-jp' else 'data/events/prizes.asm'
+    ja,ln=scalar_strings(jp,filename)['NoThanksText']
+    en=scalar_strings(zh+'/src',filename)['NoThanksText'][0]
+    p=next(p for p in replacements if p['file']==filename and p['original']=='"'+en+'"')
+    append('PrizeMenu.Cancel',ja,p,filename,ln)
+
+    # Both source slots print the same Japanese class name without a gender mark.
+    filename='data/trainers/names.asm'
+    male,female=(next(r for r in all_records if r['id']==f'{jp}:trainer:COOLTRAINER_{sex}') for sex in ('M','F'))
+    shared=male['chinese'].removesuffix('♂')
+    if male['japanese'] != female['japanese'] or shared+'♀' != female['chinese'] or shared == male['chinese']:
+        raise ValueError(f'Cooltrainer class source changed: {jp}')
+    p=next(p for p in replacements if p['file']==filename and p['original']=='"COOLTRAINER♂"')
+    append('TrainerClass.Cooltrainer',male['japanese'],p,filename,male['japanese_line'],shared)
+    all_records[-1].update(chinese_source=packed([male['chinese_source'],female['chinese_source']]),
+        chinese_cells=packed([*json.loads(male['chinese_cells']),*json.loads(female['chinese_cells'])]),
+        method='shared_trainer_class_source_slice',evidence=packed(dict(source_records=[male['id'],female['id']])))
 
     filename='engine/menus/players_pc.asm'
     jlines=(SOURCES/jp/filename).read_text(encoding='utf-8').splitlines()
@@ -474,19 +527,21 @@ def add_fixed_words(jp, zh, games, replacements, all_records, all_fragments):
 
 
 def add_compositions(jp, all_records, all_fragments):
-    """The game's small, explicit battle-text continuations, not an ASM VM."""
+    """The game's small, explicit text continuations."""
     bylabel = {r['japanese_label']: r for r in all_records if r['japanese_repo'] == jp}
     consumers = collections.defaultdict(list)
 
-    def append(name, ja_parts, zh_parts, detail):
+    def append(name, ja_parts, zh_parts, detail, chinese=None):
         js, zs = [bylabel[x] for x in ja_parts], [bylabel[x] for x in zh_parts]
         jops = [op for r in js for op in json.loads(r['japanese_commands'])]
         ja, events, vs, unsupported = render(jops, 'ja')
-        chinese = ''.join(r['chinese'] for r in zs)
+        if chinese is None:
+            chinese = ''.join(r['chinese'] for r in zs)
         row = dict(js[0])
         rid = f'{jp}:composed:{name}'
         row.update(id=rid,kind='dialogue_template',japanese_label=name,japanese=ja,
-                   japanese_commands=packed(jops),japanese_events=packed(events),japanese_termination='done',
+                   japanese_commands=packed(jops),japanese_events=packed(events),
+                   japanese_termination=js[-1]['japanese_termination'],
                    chinese=chinese,chinese_label=';'.join(r['chinese_label'] for r in zs),
                    chinese_source=packed([r['chinese_source'] for r in zs]),
                    chinese_cells=packed([json.loads(r['chinese_cells']) for r in zs if r['chinese_cells']]),
@@ -535,6 +590,11 @@ def add_compositions(jp, all_records, all_fragments):
                         rule='GetMoveGrammar plus actual sentence-ending pointer table; not comments'))
     for prefix in ['GoText','DoItText','GetmText','EnemysWeakText']:
         append('SendOut.'+prefix,[prefix,'PlayerMon1Text'],[prefix,'PlayerMon1Text'],'PrintPlayerMon1Text')
+    evolution = ['EvolvedText', 'IntoText']
+    # IntoText is printed into the existing box after GetName loads the new species.
+    chinese = bylabel['EvolvedText']['chinese'] + bylabel['IntoText']['chinese'].replace('{{RAM1}}', '{{RAM2}}')
+    append('EvolutionCompleted', evolution, evolution,
+           'EvolvedText then GetName and PrintText_NoCreatingTextBox(IntoText)', chinese)
     for middle in [[],['EnoughText'],['OKExclamationText'],['GoodText']]:
         parts=['PlayerMon2Text']+middle+['ComeBackText']
         append('Retreat.'+(middle[0] if middle else 'direct'),parts,parts,'RetreatMon/PrintComeBackText')
@@ -914,6 +974,9 @@ def build():
                                           previous_ordinal=seq-1 if seq>1 else '', chinese='',
                                           chinese_start='', chinese_end='', status='unavailable',
                                           source='game_text_controls'))
+                if j['label']=='SaffronGateGuardGiveDrinkText' and seq in (2,8):
+                    # These complete source lines can wait in the bottom row while the top row is empty.
+                    all_fragments.append(dict(all_fragments[-1], japanese=line, source='game_text_paused_single_line'))
             if record['segment_status'] == 'whole_visible_unit' and seq:
                 f = all_fragments[-1]
                 f.update(chinese=record['chinese'], chinese_start=0, chinese_end=len(record['chinese']),

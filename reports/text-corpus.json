@@ -8,47 +8,49 @@
     "pokered": "af519899719f0754965776faac0e836a3b906e6d",
     "pokeyellow": "aa25d4fdeadc8ef1c489feb6cfcdc8674a292c34"
   },
-  "records": 10215,
+  "records": 10302,
   "mapping_status": {
     "pokegreen": {
-      "aligned": 3332,
-      "component": 38
+      "aligned": 3359,
+      "component": 40
     },
     "pokeblue": {
-      "aligned": 3332,
-      "component": 38
+      "aligned": 3359,
+      "component": 40
     },
     "pokeyellow-jp": {
-      "aligned": 3436,
-      "component": 38,
+      "aligned": 3463,
+      "component": 40,
       "source_unreferenced": 1
     }
   },
   "kinds": {
-    "dialogue": 7226,
-    "component": 114,
+    "dialogue": 7220,
+    "component": 120,
     "pokemon": 453,
     "move": 495,
     "item": 414,
+    "floor": 42,
     "trainer": 141,
-    "fixed": 235,
-    "dialogue_template": 1136,
+    "battle_ghost": 3,
+    "fixed": 274,
+    "dialogue_template": 1139,
     "unreferenced": 1
   },
   "fragments": {
-    "semantic_visible": 13894,
-    "whole_visible_unit": 9928,
+    "semantic_visible": 13906,
+    "whole_visible_unit": 10006,
     "source_semantic_mismatch": 6,
-    "use_composition": 141,
+    "use_composition": 147,
     "wait_for_semantic_unit": 3,
     "source_unreferenced": 1
   },
-  "semantic_segments": 15728,
-  "common_display_windows": 776,
+  "semantic_segments": 15812,
+  "common_display_windows": 797,
   "missing_rolled_name_windows": 71,
   "semantic_segment_methods": {
-    "model_semantic": 8848,
-    "aligned_whole_unit": 5248,
+    "model_semantic": 8854,
+    "aligned_whole_unit": 5326,
     "user_approved_translation_unification": 188,
     "exact_reviewed_unit_reuse": 78,
     "user_approved_model_translation": 12,
@@ -67,11 +69,11 @@
   "accepted_omission_segments": 3,
   "variable_status": {
     "typed_unique": 7151,
-    "model_semantic": 1277,
+    "model_semantic": 1280,
     "requires_observed_PLAYER": 6,
     "review": 21,
     "unresolved": 22,
-    "none": 1738
+    "none": 1822
   },
   "unresolved_source_alignment_issues": 0,
   "verification": "static_source_and_data_construction",

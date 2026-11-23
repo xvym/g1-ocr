@@ -6,8 +6,10 @@ import io.github.g1ocr.region.RegionDetector.Region;
 import io.github.g1ocr.region.RegionDetector.Rect;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 public final class PixelOcr {
+    private static final Pattern FLOOR = Pattern.compile("(?:ちか)?[0-9]+かい");
     public record CharacterResult(int x, int y, String raw, List<String> candidates,
                                   int distance, int runnerUpDistance, boolean unknown) {}
     public record Line(String rawOcr, List<CharacterResult> characters) {}
@@ -26,7 +28,7 @@ public final class PixelOcr {
         for (int col = 0; col < grid.columns(); col++) {
             if (grid.maskedColumns().contains(col)) { text.append(' '); continue; }
             int x = grid.x() + col * 8, y = grid.y();
-            PixelFont.Match match = font.match(grid.basePixels(frame, col), frame.tile(x, y - 8));
+            PixelFont.Match match = font.match(grid.basePixels(frame, col), grid.markPixels(frame, col));
             String raw = match.distance() == 0 ? match.candidates().getFirst() : "�";
             text.append(raw);
             characters.add(new CharacterResult(x, y, raw, match.candidates(), match.distance(),
@@ -40,8 +42,11 @@ public final class PixelOcr {
         List<Line> footer = region.footerRows().stream().map(row -> line(frame, row)).toList();
         List<Line> diagnostics = new ArrayList<>(lines);
         diagnostics.addAll(footer);
-        return new Result(region.id(), region.layout(), region.semanticType(), region.bounds(), region.rows(), region.footerRows(),
-                lines.stream().map(Line::rawOcr).filter(s -> !s.isEmpty()).toList(),
+        List<String> raw = lines.stream().map(Line::rawOcr).filter(s -> !s.isEmpty()).toList();
+        String semanticType = region.semanticType();
+        if (semanticType.equals("ambiguous") && !raw.isEmpty() && raw.stream().allMatch(FLOOR.asMatchPredicate()))
+            semanticType = "elevator_floors";
+        return new Result(region.id(), region.layout(), semanticType, region.bounds(), region.rows(), region.footerRows(), raw,
                 footer.stream().map(Line::rawOcr).filter(s -> !s.isEmpty()).toList(),
                 region.selectedItem(), List.copyOf(diagnostics));
     }
